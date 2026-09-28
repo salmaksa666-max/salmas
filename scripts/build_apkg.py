@@ -151,6 +151,8 @@ def build():
         explanations = json.load(f)
     with open("data/why_wrong.json", encoding="utf-8") as f:
         why_wrong = json.load(f)
+    with open("data/highlight_terms.json", encoding="utf-8") as f:
+        highlight_terms_map = json.load(f)
     with open("data/progress.json", encoding="utf-8") as f:
         progress = set(json.load(f))
 
@@ -178,8 +180,8 @@ def build():
             decks[full_deck_name] = genanki.Deck(deck_id_for(full_deck_name), full_deck_name)
         deck = decks[full_deck_name]
 
-        clue_terms = [c[0] for c in e.get("clues", [])]
-        question_html = highlight_clues(q["stem"], clue_terms)
+        hl_terms = highlight_terms_map.get(key, [])
+        question_html = highlight_clues(q["stem"], hl_terms)
 
         explain_html = render_explain(q, e, SOURCE_FILENAME)
 

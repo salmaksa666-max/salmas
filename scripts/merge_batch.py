@@ -15,12 +15,20 @@ def load(path, default):
 topics = load("data/topics.json", {})
 explanations = load("data/explanations.json", {})
 why_wrong = load("data/why_wrong.json", {})
+highlight_terms = load("data/highlight_terms.json", {})
 progress = load("data/progress.json", [])
 
+topic_map = getattr(mod, "TOPICS", None)
+default_topic = getattr(mod, "TOPIC", None)
+
 for num in mod.EXPLANATIONS:
-    topics[str(num)] = mod.TOPIC
+    if topic_map is not None:
+        topics[str(num)] = topic_map[num]
+    else:
+        topics[str(num)] = default_topic
     explanations[str(num)] = mod.EXPLANATIONS[num]
     why_wrong[str(num)] = mod.WHY_WRONG.get(num, {})
+    highlight_terms[str(num)] = mod.HIGHLIGHT_TERMS.get(num, [])
     if num not in progress:
         progress.append(num)
 
@@ -32,6 +40,8 @@ with open("data/explanations.json", "w", encoding="utf-8") as f:
     json.dump(explanations, f, ensure_ascii=False, indent=2)
 with open("data/why_wrong.json", "w", encoding="utf-8") as f:
     json.dump(why_wrong, f, ensure_ascii=False, indent=2)
+with open("data/highlight_terms.json", "w", encoding="utf-8") as f:
+    json.dump(highlight_terms, f, ensure_ascii=False, indent=2)
 with open("data/progress.json", "w", encoding="utf-8") as f:
     json.dump(progress, f, ensure_ascii=False, indent=2)
 

@@ -348,3 +348,21 @@ WHY_WRONG = {
     "D": "السودوإيفيدرين يرفع الضغط لو مستخدم فعلًا، بس النقطة هنا NSAIDs.",
 },
 }
+
+# exact substrings (verbatim from the stem) to wrap in <mark> on the front of the card.
+# these must literally appear in the stem and must not span a <br> line break.
+HIGHLIGHT_TERMS = {
+1: ["acute confusional state", "postural hypotension", "dry mucus membranes", "Calcium 3.41"],
+2: ["decreased level of consciousness", "diarrhea", "poor oral intake", "JVP", "lungs are clear", "cold and", "Blood pressure 83/45 mmHg"],
+3: ["history of heart failure", "kept on normal saline", "pulse oxymetry was dropping", "bilateral basal crepitations"],
+4: ["colicky abdominal pain", "hard stools once or", "watery stools", "fullness in his left lower quadrant", "urine dipstick is normal"],
+5: ["improve the function"],
+6: ["difficulty in getting up from the chair"],
+7: ["asymptomatic", "no known allergies"],
+8: ["epigastric burning", "no history of injury"],
+9: ["forceful coughing episode", "lumbar compression fracture"],
+10: ["chronic kidney disease", "carpometacarpal joint"],
+11: ["risk of future falls"],
+12: ["left-sided leg weaknesses"],
+13: ["longstanding uncontrolled hypertension", "Potassium 2.9"],
+}
