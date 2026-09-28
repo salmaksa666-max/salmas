@@ -58,5 +58,472 @@
   "13": [
     "longstanding uncontrolled hypertension",
     "Potassium 2.9"
+  ],
+  "208": [
+    "known drug addict",
+    "deep coma and cyanosed",
+    "Respiratory rate 8 /min",
+    "Oxygen saturation 85 %"
+  ],
+  "209": [
+    "vomiting of blood and black",
+    "Supine 105/60",
+    "Sitting 85/50 mmHg",
+    "Sitting 110"
+  ],
+  "210": [
+    "drowsiness",
+    "full of secretions",
+    "pH 7.24",
+    "Oxygen saturation 74 %"
+  ],
+  "211": [
+    "Guillain Barre Syndrome",
+    "monitoring ventilatory impairment"
+  ],
+  "212": [
+    "Wedge pressure 4",
+    "Cardiac output 2.5",
+    "Systemic vascular resistance 1800"
+  ],
+  "213": [
+    "distant with no added sounds",
+    "Right atrial pressure 15 mmHg",
+    "fractured sternum",
+    "Both lungs are normal"
+  ],
+  "214": [
+    "fractured left femur",
+    "enoxaparin",
+    "Petechial rash around the neck and",
+    "Bilateral diffuse alveolar infiltrate"
+  ],
+  "215": [
+    "Wedge pressure 5",
+    "hypoxia despite optimizing",
+    "Fi02 of 100%",
+    "Bilateral lung infiltrate"
+  ],
+  "216": [
+    "no jugular venous distention",
+    "Bilateral lower extremity edema",
+    "52 mmH",
+    "Oxygen saturation 86 %"
+  ],
+  "217": [
+    "bilateral pleural effusions",
+    "4-cm right breast mass",
+    "Fluid Protein/Serum Protein 0.67"
+  ],
+  "218": [
+    "controlled on budesonide and albuterol inhalers",
+    "6 weeks pregnant",
+    "has no asthma symptoms"
+  ],
+  "219": [
+    "occasional wheeze that occurs",
+    "shortness of breath when playing football",
+    "Spirometry findings are within normal parameters"
+  ],
+  "220": [
+    "daily wheezing and breathlessness that limit her",
+    "moderate persistent asthma",
+    "never smoked"
+  ],
+  "221": [
+    "She is alert",
+    "in moderate respiratory distress",
+    "ABG PCO2 8.8",
+    "pH 7.28"
+  ],
+  "222": [
+    "acute onset shortness of breath and pleuritic chest pain",
+    "with pulmonary embolism",
+    "thrombophilia workup"
+  ],
+  "223": [
+    "small lung lesion (7 mm)",
+    "he is asymptomatic",
+    "no lymphadenopathy"
+  ],
+  "224": [
+    "epigastric burning pain",
+    "unpleasant taste in the mouth",
+    "hoarseness",
+    "nocturnal cough"
+  ],
+  "225": [
+    "3-month history of intermittent retrosternal burning pain",
+    "using over-the-counter antacids with no relief"
+  ],
+  "226": [
+    "received all 3 doses of hepatitis B vaccine",
+    "has never had",
+    "hepatitis B virus infection"
+  ],
+  "227": [
+    "negative HBsAg",
+    "positive anti-HBc",
+    "positive anti-HBs"
+  ],
+  "228": [
+    "epigastric pain and early satiety",
+    "10% weight loss",
+    "Hb 98",
+    "MCV 70"
+  ],
+  "229": [
+    "epigastric pain, heartburn and bloating after meals",
+    "did not relief",
+    "Gastroscopy: Normal",
+    "Urea breath test: Negative"
+  ],
+  "230": [
+    "liver cirrhosis and bleeding esophageal varices",
+    "treated with esophageal banding",
+    "preventing future bleeding"
+  ],
+  "231": [
+    "chronic diarrhea and intermittent abdominal pain",
+    "slim and has pallor",
+    "MCV 100",
+    "Vitamin B12 (Women) 0.074"
+  ],
+  "232": [
+    "fine tremor of both hands",
+    "jaundice and just palpable spleen",
+    "Serum ceruloplasmin Low",
+    "24 hours urine copper High"
+  ],
+  "233": [
+    "mechanically ventilated",
+    "massive cerebral",
+    "coffee ground vomitus"
+  ],
+  "234": [
+    "chronic hepatitis B",
+    "increasing jaundice",
+    "Hepatitis B DNA level Low"
+  ],
+  "235": [
+    "peripheral beaded enhancement in the early phase",
+    "progressive"
+  ],
+  "236": [
+    "chronic dyspepsia and recurrent upper Gl bleeds",
+    "Urea breath test is positive"
+  ],
+  "237": [
+    "non-tarry black",
+    "Hb 152"
+  ],
+  "238": [
+    "mostly related to eating bread",
+    "wheat products"
+  ],
+  "239": [
+    "recurrent episodes of passing black stools and sometimes fresh blood",
+    "Upper and lower Gl endoscopy: Showed no significant pathology",
+    "Hb 88"
+  ],
+  "240": [
+    "ingested 15 tablets of",
+    "6 hours earlier",
+    "Activated charcoal is administered"
+  ],
+  "241": [
+    "fever and confusion",
+    "asterixis",
+    "SAAG) of 1.2",
+    "350"
+  ],
+  "242": [
+    "cirrhotic liver disease",
+    "tense ascites, which was drained"
+  ],
+  "243": [
+    "progressive non- specific abdominal pain for 6 days",
+    "generalized abdominal tendemess",
+    "WBC 23.3"
+  ],
+  "244": [
+    "heavy alcohol drinker",
+    "hematemesis",
+    "Heart rate 112 /min"
+  ],
+  "245": [
+    "remainder of the liver function profile being within normal limits",
+    "Direct bilirubin 7"
+  ],
+  "246": [
+    "indigestion that has been bothering him",
+    "he has lost weight",
+    "C-reactive protein are normal"
+  ],
+  "247": [
+    "diagnosed with celiac disease 2 years ago",
+    "ongoing diarrhoea",
+    "Poor compliance with a gluten-free diet is suspected"
+  ],
+  "248": [
+    "Cohn's disease activity"
+  ],
+  "249": [
+    "believes that she is allergic to wheat",
+    "eating a gluten-free diet"
+  ],
+  "250": [
+    "documented full history of",
+    "known to be a responder"
+  ],
+  "251": [
+    "Anti-HBs Negative",
+    "Anti-HBc Positive",
+    "HBs antigen Positive",
+    "IgM anti-HBc Negative"
+  ],
+  "252": [
+    "completed a 2-week course of Helicobacter pylori therapy",
+    "stopped his eradication therapy today"
+  ],
+  "253": [
+    "irritable bowel syndrome",
+    "have not eased her symptoms",
+    "no new symptoms suggestive"
+  ],
+  "254": [
+    "non-alcoholic steatohepatitis",
+    "prevent the progression of her disease"
+  ],
+  "255": [
+    "most common location of Crohn's disease"
+  ],
+  "256": [
+    "no stigmata of",
+    "conscious with no flapping tremors",
+    "Alanine aminotransferase 1987"
+  ],
+  "257": [
+    "returned home from trip to India",
+    "watery with no",
+    "mucus or blood"
+  ],
+  "258": [
+    "chronic hepatitis C and liver cirrhosis",
+    "INR 2",
+    "Prothrombin time 17"
+  ],
+  "259": [
+    "recommended age for screening colonoscopy",
+    "average risk population"
+  ],
+  "260": [
+    "Alkaline phosphatase 1000",
+    "mild tender liver with span of 13 cm",
+    "Aspartate aminotransferase 70"
+  ],
+  "261": [
+    "fever, upper abdominal pain and jaundice"
+  ],
+  "262": [
+    "worsening of her chronic constipation",
+    "Stool for occult blood was positive",
+    "Hb 89"
+  ],
+  "263": [
+    "refused as her relative died post colonoscopy"
+  ],
+  "264": [
+    "positive family history of familial",
+    "asymptomatic with normal Lab tests"
+  ],
+  "265": [
+    "consent was taken and procedure started",
+    "high risk of bleeding and perforation than"
+  ],
+  "266": [
+    "intermittent dysphagia for solid with no other alarm",
+    "refused",
+    "the procedure"
+  ],
+  "267": [
+    "hematemesis after a bout of prolonged vomiting",
+    "no",
+    "significant medical history"
+  ],
+  "268": [
+    "underwent ileocecal resection",
+    "diarrhoea watery 5 times/",
+    "ESR 7"
+  ],
+  "269": [
+    "screening for hepatocellular carcinoma",
+    "in cirrhotic patients"
+  ],
+  "270": [
+    "smoker and drinks alcohol every",
+    "Aspartate aminotransferase 147",
+    "Ferritin 423"
+  ],
+  "271": [
+    "HCV cirrhosis",
+    "Variceal bleeding is suspected",
+    "tense ascites"
+  ],
+  "272": [
+    "6 cm lesion with arterial enhancement",
+    "portal vein and hepatic veins",
+    "Platelets count 123"
+  ],
+  "273": [
+    "mainly at night after the dinner",
+    "somewhat response"
+  ],
+  "274": [
+    "9-months of intermittent abdominal pain and anxiety",
+    "were normal, Stool C/S and fecal calprotein was",
+    "negative"
+  ],
+  "275": [
+    "4 episodes of hematochezia",
+    "denies history of abdominal pain, constipation or weight",
+    "Blood pressure 90/50"
+  ],
+  "276": [
+    "she quit 3 years ago",
+    "she is obese"
+  ],
+  "277": [
+    "GERD on daily dose of PPI for 8 years with good control",
+    "new onset of epigastric"
+  ],
+  "278": [
+    "bleeding vessel, hemoclip was applied with good hemostasis",
+    "Hb 8.4"
+  ],
+  "279": [
+    "underwent ERCP for stone extraction",
+    "sever epigastric pain, nausea and vomiting",
+    "Lipase 3000"
+  ],
+  "280": [
+    "chronic dull epigastric pain",
+    "42 gram of fat/24 hours",
+    "pancreatic calcification"
+  ],
+  "281": [
+    "fever and rigors for 1-day duration",
+    "Jaundice and tender RT upper abdomen",
+    "CBD dilated 9 mm"
+  ],
+  "282": [
+    "least risk factors for cholesterol gallstones"
+  ],
+  "283": [
+    "Alkaline phosphatase 546",
+    "multi focal segmental biliary strictures and dilation"
+  ],
+  "284": [
+    "most common HCV genotype in Saudi Arabia"
+  ],
+  "285": [
+    "positive anti-HCV (ELISA), Hepatitis C RNA was negative",
+    "normal LFT",
+    "US abdomen showed normal liver"
+  ],
+  "286": [
+    "Platelets count 145",
+    "mild coarse liver echotexture",
+    "Aspartate aminotransferase 89"
+  ],
+  "287": [
+    "epigastric pain after eating and intermittent",
+    "has lost weight"
+  ],
+  "288": [
+    "severe epigastric pain that is worse after",
+    "mild improvement with antacid therapy"
+  ],
+  "289": [
+    "smoker for 5 years",
+    "brother has Crohn's disease that"
+  ],
+  "290": [
+    "severe",
+    "abdominal pain that radiated to the back",
+    "Amylase 800",
+    "HCT 49"
+  ],
+  "291": [
+    "intermittent abdominal pain, bloating and diarrhoea",
+    "highly suggestive of irritable bowel syndrome"
+  ],
+  "292": [
+    "palpable right upper quadrant mass",
+    "6*6 cm mass in the right lobe of the liver"
+  ],
+  "293": [
+    "positive HbsAg, anti-HBc (IgG) and",
+    "negative anti-HBs and HBeAg"
+  ],
+  "294": [
+    "11-month history of progressive fatigue",
+    "Viral hepatitis screening tests are negative",
+    "Aspartate aminotransferase 920",
+    "INR 1.5"
+  ],
+  "295": [
+    "not",
+    "responding well to esomeprazole 20 mg once a day",
+    "confirms that he takes the medication properly",
+    "laboratory investigation are within normal range"
+  ],
+  "296": [
+    "positive antibody to hepatitis C virus (HCV)",
+    "HCV RNA testing is negative",
+    "Aspartate aminotransferase 26"
+  ],
+  "297": [
+    "no",
+    "previous similar episodes",
+    "no jaundice or other signs of chronic liver disease",
+    "Prothrombin time 11"
+  ],
+  "298": [
+    "maximum dose",
+    "of pantoprazole for several weeks",
+    "taking the medication 30 minutes before meals",
+    "Upper endoscopy findings are"
+  ],
+  "299": [
+    "fluid around the pancreas",
+    "WBC 18",
+    "Amylase 850"
+  ],
+  "300": [
+    "good",
+    "appetite but has unintentionally significant weight loss",
+    "MCH 20",
+    "BMI 18"
+  ],
+  "301": [
+    "retrosternal burning pain",
+    "worse following eating",
+    "escitalopram"
+  ],
+  "302": [
+    "chronic abdominal pain and diarrhea",
+    "tender red",
+    "nodules on her shins"
+  ],
+  "303": [
+    "frequent, loose and bloody bowel movements",
+    "family history of crohn's disease",
+    "C-reactive peptide 22"
+  ],
+  "304": [
+    "non-specific crampy abdominal pain and diarrhea",
+    "not related to any specific food",
+    "No history of weight loss"
   ]
 }
