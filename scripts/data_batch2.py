@@ -1345,7 +1345,7 @@ WHY_WRONG[61] = {
 HIGHLIGHT_TERMS[61] = ["Respiratory rate 23 /min", "Urea 5", "Right lower lobe infiltrate"]
 
 EXPLANATIONS[62] = {
-    "idea": "امرأة معها كحة منتجة وضيق نفس وتسرع تنفس وكركرة بالرئة، والسؤال يبي أفضل فحص تشخيصي فوري لتأكيد التهاب رئوي.",
+    "idea": "امرأة معها كحة منتجة وضيق نفس وتسرع تنفس و<bdi>crepitations</bdi> بالرئة، والسؤال يبي أفضل فحص تشخيصي فوري لتأكيد التهاب رئوي.",
     "clues": [
         ("productive cough, shortness of breath and tachypnea", "أعراض تنفسية سفلية توحي بالتهاب رئوي"),
         ("right lobe zone crepitation", "علامة فحص سريري تدعم الالتهاب الرئوي"),
@@ -2085,9 +2085,9 @@ WHY_WRONG[90] = {
 HIGHLIGHT_TERMS[90] = ["Creatinine 230"]
 
 EXPLANATIONS[91] = {
-    "idea": "رجل معه تعب وضيق نفس وحمى مع نفخة قلبية انقباضية شاملة (Pan-systolic) عند القمة ونزيف شظوي بالأظافر، وهذي صورة كلاسيكية لالتهاب شغاف تحت حاد على صمام طبيعي، وأشيع سبب له هو العقديات.",
+    "idea": "رجل معه تعب وضيق نفس وحمى مع <bdi>murmur</bdi> قلبية انقباضية شاملة (Pan-systolic) عند القمة ونزيف شظوي بالأظافر، وهذي صورة كلاسيكية لالتهاب شغاف تحت حاد على صمام طبيعي، وأشيع سبب له هو العقديات.",
     "clues": [
-        ("pan-systolic murmur at the apex", "نفخة قلبية توحي بقصور صمام تاجي مرتبط بالتهاب الشغاف"),
+        ("pan-systolic murmur at the apex", "<bdi>murmur</bdi> قلبية توحي بقصور صمام تاجي مرتبط بالتهاب الشغاف"),
         ("splinter hemorrhage on nails", "علامة كلاسيكية لالتهاب الشغاف الجرثومي"),
         ("No previous surgical history", "صمام طبيعي، يحدد أشيع الجراثيم المسببة"),
     ],
@@ -2114,7 +2114,7 @@ HIGHLIGHT_TERMS[91] = ["pan-systolic murmur at the apex", "splinter hemorrhage o
 EXPLANATIONS[92] = {
     "idea": "نفس صورة التهاب الشغاف تحت الحاد، والسؤال هذي المرة عن العلاج التجريبي المناسب قبل معرفة نتيجة الزراعة.",
     "clues": [
-        ("pan systolic murmur at the apex", "نفخة قلبية توحي بالتهاب شغاف محتمل"),
+        ("pan systolic murmur at the apex", "<bdi>murmur</bdi> قلبية توحي بالتهاب شغاف محتمل"),
         ("splinter hemorrhage on nails", "علامة كلاسيكية لالتهاب الشغاف الجرثومي"),
     ],
     "why_correct": [
