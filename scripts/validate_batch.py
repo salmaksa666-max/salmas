@@ -11,6 +11,8 @@ with open("data/parsed_questions.json", encoding="utf-8") as f:
 
 ARROW_CHARS = "→➔➡"
 ARABIC_RE = re.compile(r'[؀-ۿ]')
+ALLOWED_TAGS = {"bdi", "b", "br", "ul", "li", "p", "table", "tr", "td", "th", "mark", "div"}
+BAD_LT_RE = re.compile(r'<(?!/?(?:' + "|".join(ALLOWED_TAGS) + r')\b)')
 
 
 def word_count_arabic_ish(text):
@@ -58,6 +60,23 @@ for num, e in mod.EXPLANATIONS.items():
         if ch in full_text:
             errors.append(f"Q{num}: contains forbidden arrow character")
             break
+
+    # check every string field (incl. comparison table cells) for a stray
+    # literal "<" that isn't one of our allowed tags (e.g. "<50" needs &lt;50)
+    all_strings = [e.get("idea", ""), e.get("rule", "")]
+    all_strings += e.get("why_correct", []) if isinstance(e.get("why_correct"), list) else [e.get("why_correct", "")]
+    all_strings += e.get("when_changes", []) if isinstance(e.get("when_changes"), list) else [e.get("when_changes", "")]
+    for term, meaning in e.get("clues", []):
+        all_strings += [term, meaning]
+    if e.get("comparison"):
+        for row in e["comparison"].get("rows", []):
+            all_strings += row
+        all_strings += e["comparison"].get("headers", [])
+    if e.get("guideline_note"):
+        all_strings.append(e["guideline_note"])
+    for s in all_strings:
+        if BAD_LT_RE.search(s):
+            errors.append(f"Q{num}: raw '<' not part of an allowed tag (escape as &lt;) in: {s[:60]!r}")
 
     wc = word_count_arabic_ish(full_text)
     if wc < 60:
