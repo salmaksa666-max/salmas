@@ -3752,5 +3752,440 @@
     "Peripheral smear done",
     "Fibrinogen 1.1",
     "APTT 68"
+  ],
+  "305": [
+    "Anti- HBsAg Positive",
+    "Anti-HBc IgG Negative",
+    "HBeAg Negative"
+  ],
+  "306": [
+    "mild acute cholecystitis",
+    "started on intravenous fluids and empiric antibiotics"
+  ],
+  "307": [
+    "recurrent biliary colic for 5 months",
+    "Liver ultrasound shows cholelithiasis"
+  ],
+  "308": [
+    "painless jaundice",
+    "otherwise he is asymptomatic",
+    "Indirect bilirubin 18",
+    "Reticulocyte 0.21"
+  ],
+  "309": [
+    "difficulty swallowing solids",
+    "difficulty swallowing liquids",
+    "lost 5 Kg over 5 weeks"
+  ],
+  "310": [
+    "diagnosed with celiac disease"
+  ],
+  "311": [
+    "severe colicky right upper quadrant pain",
+    "has settled and she is otherwise asymptomatic",
+    "eating fish and chips for lunch"
+  ],
+  "312": [
+    "becomes worse by eating",
+    "Helicobacter test is negative"
+  ],
+  "313": [
+    "Defecation brings some relief",
+    "mucus in her stool",
+    "incomplete even though she is unable to pass more stool"
+  ],
+  "314": [
+    "low-grade fever, insomnia",
+    "flapping tremor and moderate ascites",
+    "neutrophil count of 350 cells/L"
+  ],
+  "315": [
+    "Liver cirrhosis is admitted",
+    "before upper GI endoscopy"
+  ],
+  "316": [
+    "occasional joint pains and a 3 kg weight loss",
+    "thickening of the terminal ileum and few strictures in the jejunum"
+  ],
+  "317": [
+    "frequent heartburn",
+    "Barret's esophagus with low dysplasia"
+  ],
+  "318": [
+    "progressive ascites, fever and weight loss",
+    "low serum-ascites albumin gradient (SAAG)"
+  ],
+  "319": [
+    "abdominal girth, lower limb edema",
+    "albumin level of 12 g/L and neutrophil count of 180/ul"
+  ],
+  "320": [
+    "ulcerative colitis",
+    "associated with increased risk of",
+    "colorectal cancer"
+  ],
+  "321": [
+    "occasional right hip pain",
+    "no recent intake of drugs",
+    "gross blood on rectal examination"
+  ],
+  "322": [
+    "jaundice, nausea, vomiting and right sided upper abdominal pain",
+    "Aspartate aminotransferase 700",
+    "Alanine aminotransferase 1650"
+  ],
+  "323": [
+    "right lower quadrant abdominal pain, loose bowel motions",
+    "caseating granulomas"
+  ],
+  "324": [
+    "abdominal pain, bloating and weight loss",
+    "BMI 18%",
+    "Tissue transglutaminase antibody: Positive"
+  ],
+  "325": [
+    "Helicobacter pylori breath test: Positive",
+    "Mucosa-Associated Lymphoid Tissue lymphoma (MALToma)"
+  ],
+  "326": [
+    "The patient is very sceptical about",
+    "requested more information"
+  ],
+  "327": [
+    "which showed a malignant ulcer",
+    "started blaming his primary",
+    "wanted to file a complaint"
+  ],
+  "328": [
+    "HIV testing which came reactive",
+    "anyone including his wife"
+  ],
+  "329": [
+    "high-grade fever and left pleuritic chest pain",
+    "early clubbing",
+    "pH of 7.0"
+  ],
+  "330": [
+    "dyspnea on exertion",
+    "Ferritin 3",
+    "Platelets count 530"
+  ],
+  "331": [
+    "patches of vitiligo",
+    "MCV 103",
+    "Vitamin B12 (Men) 122"
+  ],
+  "332": [
+    "multiple spider angiomata on his chest with bilateral gynecomastia",
+    "splenomegaly",
+    "hematemesis"
+  ],
+  "333": [
+    "non-bloody diarrhea",
+    "looked pale with oral ulcers",
+    "tender right lower quadrant"
+  ],
+  "334": [
+    "Serum immunoglobulin studies for igG against helicobacter pylori was positive",
+    "was treated for Hi.pylori"
+  ],
+  "335": [
+    "enlarged liver",
+    "cirrhotic liver with 2 lesions at right lobe measuring 4 x 5 cm"
+  ],
+  "336": [
+    "progressive fatigue, pruritis and jaundice",
+    "strictures of biliary tree at both intrahepatic and extrahepatic ducts"
+  ],
+  "337": [
+    "history of hypertriglyceridemia",
+    "sever epigastric pain, nausea, and vomiting",
+    "Amylase 150"
+  ],
+  "338": [
+    "chronic hepatitis C presented with abdominal pain and swelling",
+    "neutrophil count of 400/mm"
+  ],
+  "339": [
+    "occasionally low back pain on non-steroidal anti-inflammatory drugs as needed",
+    "Hb 8",
+    "MCV 70"
+  ],
+  "340": [
+    "known case of chronic hepatitis B",
+    "Hepatitis B viral load: 1 million copies/mi"
+  ],
+  "341": [
+    "30-week pregnant",
+    "pruritus and jaundice",
+    "no fever, abdominal pain, or vomiting",
+    "Alkaline phosphatase 700"
+  ],
+  "342": [
+    "weight loss, fever",
+    "hypochondrum pain",
+    "Alpha fetoprotein 120",
+    "ascites and focal liver lesion in a cirrhotic liver"
+  ],
+  "343": [
+    "husband has chronic hepatitis B infection",
+    "currently asymptomatic apart from fatique"
+  ],
+  "344": [
+    "chronic hepatitis C infection",
+    "needie stick injury"
+  ],
+  "345": [
+    "3-4 large volume stool per day, which was foul smelling and contained undigested food",
+    "no secondary sexual characteristics",
+    "BMI 14 kq/m2"
+  ],
+  "346": [
+    "2-month of bloody diarrhea",
+    "left lower quadrant pain",
+    "loss of normal vascular pattern with erosions up"
+  ],
+  "347": [
+    "chronic history of heartbum for several years",
+    "hematemesis",
+    "intestinal-type metaplasia at the distal esophagus"
+  ],
+  "348": [
+    "diarrhea /day associated with low-grade fever, abdominal pain and joint pain at her knees",
+    "All stool cultures were negative",
+    "Hb 9"
+  ],
+  "349": [
+    "previously healthy",
+    "history of alcohol or drug use",
+    "Alanine aminotransferase 990"
+  ],
+  "350": [
+    "experienced similar attacks in the past, but milder",
+    "left lower quadrant but no guarding"
+  ],
+  "351": [
+    "history of high liver function test in the past",
+    "dysarthria and dyskinesia",
+    "Slit-lamp examination reveals a greenish-brown ring at comeoscleral"
+  ],
+  "352": [
+    "chronic diarrhea and malabsorption",
+    "jejunal biopsy taken"
+  ],
+  "353": [
+    "pigmentation, and upper abdominal discomfort",
+    "bronze coloured skin, enlarged liver",
+    "testicular atrophy",
+    "Ferritin 400"
+  ],
+  "354": [
+    "takes no medications apart from ibuprofen for dental pain for 5",
+    "cold extremities, and faint peripheral pulses",
+    "Blood pressure 90/60"
+  ],
+  "355": [
+    "distal ulcerative colitis diagnosed 3 years ago on 3 grams of mesalamine granules",
+    "motions a day, occasionally seen a streaks of blood once every 4-5 weeks",
+    "calprotectin is 90 (normal 0-50)"
+  ],
+  "356": [
+    "duodenal ulcer at the bulb with visible vessel seen, endoscopic hemostasis was done using endo clip"
+  ],
+  "357": [
+    "case of fistulizing crohn's disease on biological therapy and",
+    "pregnant on her third trimester"
+  ],
+  "358": [
+    "he is on aspirin 81 mg, lipitor 20 mg, diamicron 80 mg and warfarin 3",
+    "showed multiple superficial ulcers at the antrum and"
+  ],
+  "359": [
+    "itchy skin rash over his elbows",
+    "He has a cousin with similar",
+    "subtotal villous atrophy"
+  ],
+  "360": [
+    "Osteoporosis is one of common extra-intestinal manifestations of crohn's disease",
+    "increase osteoporosis risk"
+  ],
+  "361": [
+    "body mass index (BMI) of 28 kg/m2",
+    "often consumes dinner 2 hours before going to bed",
+    "of distal esophagitis"
+  ],
+  "362": [
+    "disease started on steroid and pentasa for 3 months",
+    "He noticed perineal pain and discharges for 3",
+    "MRI Pelvis: Confirmed the presence of perianal fistulae"
+  ],
+  "363": [
+    "asymptomatic with no family history of colon cancer",
+    "Based on the latest recommendation"
+  ],
+  "364": [
+    "with partial response",
+    "Biopsy: Showed h pylori organism"
+  ],
+  "365": [
+    "worsening dysphagia for both solid and",
+    "examination was unremarkable (see lab results)"
+  ],
+  "366": [
+    "no relieve of his symptom",
+    "Biopsy: Revealed mucosa-associated lymphoid tissue (malt) lymphoma with numerous H.pylori",
+    "CT scan of abdomen and chest: Normal"
+  ],
+  "367": [
+    "Genotype 4",
+    "Fibroscan: Showed fibrosis score of F3"
+  ],
+  "368": [
+    "feeling dizziness when getting out of bed",
+    "episodes of abdominal cramps and watery diarrhea over the past year",
+    "2/6 systolic murmur at left lower sternal border"
+  ],
+  "369": [
+    "sever epigastric pain radiating to the back with vomiting",
+    "history of alcohol drinking occasionally",
+    "Lipase 770"
+  ],
+  "370": [
+    "perianal pain and discharge with low-grade fever",
+    "He has a perianal induration and purulent discharge on"
+  ],
+  "371": [
+    "bowel habit",
+    "The abdominal pain was relieved by defecation with no nocturnal",
+    "no weight loss or fever"
+  ],
+  "372": [
+    "long standing history of pruritis and fatigue",
+    "splenomegaly with ascites",
+    "3 cm focal lesion at rt lobe"
+  ],
+  "373": [
+    "known case of SLE on hydroxycholorquine",
+    "Viral Hepatitis: Negative",
+    "ANA: 1:640"
+  ],
+  "374": [
+    "pantoprazole daily with good response",
+    "started to have recurrence",
+    "No dysphagia or weight loss or nocturnal symptoms"
+  ],
+  "375": [
+    "chronic constipation. No alarm symptoms",
+    "Stool for occult blood was"
+  ],
+  "376": [
+    "on azathioprine 100mg/day and tapering",
+    "Stool for colostrum difficile toxins was positive",
+    "Temperature 38.4"
+  ],
+  "377": [
+    "progressive dysphagia diagnosed as a case of achalasia",
+    "clinically unremarkable"
+  ],
+  "378": [
+    "sweating, occasional palpitations, and for the last month, the inability to stay in the kitchen",
+    "audible bruit",
+    "Thyroid-Stimulating Hormone 0.1"
+  ],
+  "379": [
+    "diagnosed in the Emergency Department with an acute inferior wall",
+    "JVP at this time was elevated and his lungs were clear"
+  ],
+  "380": [
+    "redness worsens when the leg is in a dependent position",
+    "pedal pulses in the left leg are diminished",
+    "The leg is cold, and there is no"
+  ],
+  "381": [
+    "leg pain brought on by walking and relieved",
+    "many years of smoking",
+    "loss of hair over the lower shins as well as dystrophic nails"
+  ],
+  "382": [
+    "normal growth and development and is able to do usual activities",
+    "to a sudden cardiac death while walking to work",
+    "cardiac murmur"
+  ],
+  "383": [
+    "intermittent leg pain brought on by walking for 300 meters and relieved by rest"
+  ],
+  "384": [
+    "type 2 diabetes for 12 years",
+    "tolerate it because of a cough",
+    "24-hour urine protein 1500"
+  ],
+  "385": [
+    "acute myocardial infarction 2 weeks",
+    "The left leg is cold and pale,"
+  ],
+  "386": [
+    "warfarin 5 mg daily, the latest INR is 7.0",
+    "There is no evidence of abnormal bleeding"
+  ],
+  "387": [
+    "severe shortness of breath",
+    "enlargement of the liver, and pitting edema of the ankles"
+  ],
+  "388": [
+    "hours after the onset of a severe crushing substernal chest pain radiating to the neck and",
+    "Significant ST-segment elevation in leads I, AVL, V5, and V6"
+  ],
+  "389": [
+    "complaining of a sudden onset of chest pain",
+    "The blood pressure is low in the left arm, and the left femoral pulse is"
+  ],
+  "390": [
+    "made worse by coughing",
+    "when sitting forward",
+    "a scratchy superficial sound is heard at the left sternal"
+  ],
+  "391": [
+    "acute myocardial infarction",
+    "Heart rate 40 /min"
+  ],
+  "392": [
+    "This Emergency Department does not have facilities for a percutaneous",
+    "ST segment elevation in the anterolateral leads"
+  ],
+  "393": [
+    "became more frequent and prolonged over the last 24 hours",
+    "well to sublingual nitroglycerin",
+    "Serial cardiac enzymes are normal"
+  ],
+  "394": [
+    "rapid-onset shortness of breath and left shoulder and arm ache"
+  ],
+  "395": [
+    "his past history confirms a previous transient",
+    "currently asymptomatic and is compliant with his medications"
+  ],
+  "396": [
+    "She has just delivered 1 week",
+    "third heart sound"
+  ],
+  "397": [
+    "myocardial infarction 6 days before",
+    "For the first time, a harsh systolic murmur is heard over"
+  ],
+  "398": [
+    "fainting while exercising",
+    "bears down or stands up"
+  ],
+  "399": [
+    "with continuous retrosternal"
+  ],
+  "400": [
+    "several times at night",
+    "dilated left ventricular chamber",
+    "ejection fraction is 30%"
+  ],
+  "401": [
+    "agents has been shown to reduce mortality",
+    "congestive heart failure"
   ]
 }
