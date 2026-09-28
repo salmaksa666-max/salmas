@@ -2351,7 +2351,7 @@ HIGHLIGHT_TERMS = {
 969: ["8 kg weight gain, generalized weakness, and hair loss"],
 970: ["started on neuroleptic medications to treat his", "psychotic symptoms"],
 971: ["benefit of using antipsychotic therapy in"],
-972: ["started to hear some voices talking to him with unknown sources", "apathetic and emotionally withdrawn"],
+972: ["hear some voices talking to him with unknown sources", "On examination, he was apathetic", "emotionally withdrawn"],
 973: ["maintain suppression of symptoms, prevent relapse, improve quality of life"],
 974: ["most toxic in overdose"],
 975: ["presence of both negative and positive symptoms of schizophrenia"],
