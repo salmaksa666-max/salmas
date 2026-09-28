@@ -2450,7 +2450,7 @@ WHY_WRONG = {
 HIGHLIGHT_TERMS = {
 693: ["reduced libido", "BMI 40 kg/m2", "Prolactin 450", "2.5 cm pituitary adenoma"],
 694: ["central adiposity", "purple striae", "ACTH 20", "Cortisol 8 a.m. 600"],
-695: ["fragility fracture", "sparse facial and axillary hair growth", "BMI 23 kg/m2"],
+695: ["fragility fracture", "facial and axillary hair growth", "BMI 23 kg/m2"],
 696: ["incidentally detected", "2.0-cm right adrenal adenoma", "Blood pressure 130/70 mmHg"],
 697: ["5.5-cm left adrenal mass with irregular borders", "elective adrenalectomy"],
 698: ["marked peripheral edema", "Albumin 18", "4+ proteins", "Oval fat bodies"],

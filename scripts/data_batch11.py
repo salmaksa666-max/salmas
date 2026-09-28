@@ -1810,6 +1810,7 @@ EXPLANATIONS = {
     "comparison": None,
     "guideline_note": None,
 },
+}
 
 WHY_WRONG = {
 887: {
