@@ -2589,4 +2589,12 @@ HIGHLIGHT_TERMS = {
 585: ["asymptomatic hereditary hemochromatosis", "Ferritin 860"],
 586: ["headache, dyspnea on exertion and occasional", "MCV 68", "Ferritin 3"],
 587: ["decreased concentration", "MCV 106", "Folic Acid (Women) 0.03", "Vitamin B12 (Women) 0.46"],
+588: ["dyspnea on exertion and palpitations", "vitiligo and has absent reflexes with positive Babinski in the lower limbs", "Vitamin B12 (Men) 124"],
+589: ["fever and headache for 2 days", "petichiae over her body", "Her platelets are 32"],
+590: ["fever and headache for 2 days", "petichiae over her body", "Platelets count 32"],
+591: ["right popliteal vein thrombosis post-sleeve surgery", "on enoxaparin and warfarin"],
+592: ["admitted to the hospital with pneumonia", "is on hemodialysis for end-stage renal disease", "Creatinine 460"],
+593: ["severe shortness of breath", "saddle embolus at the bifurcation of the pulmonary artery", "Oxygen saturation 84", "Blood pressure 84/50"],
+594: ["admitted 5 days ago to the Coronary Care Unit for a non-ST-elevation myocardial infarction (NSTEMI)", "He is receiving unfractionated heparin", "His labs upon admission were normal"],
+595: ["fever and headache for 2 days", "Peripheral smear done", "Fibrinogen 1.1", "APTT 68"],
 }
