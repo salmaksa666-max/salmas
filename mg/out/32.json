@@ -1,0 +1,551 @@
+{
+ "M499": {
+  "idea": [
+   "السؤال يختبر إنك تربط التغيرات الفسيولوجية في الحمل مع مرض القلب اللي عندها، وهو {{mitral stenosis}}.",
+   "المطلوب التغير اللي يحمّل القلب ويخلي الدم يمر بقوة على صمام ضيق."
+  ],
+  "clues": [
+   [
+    "الـ{{mitral stenosis}} بسبب {{rheumatic heart disease}}",
+    "يعني فيه عائق ثابت قدام الـ{{left ventricle}} والصمام ما يقدر يستوعب زيادة الدم"
+   ],
+   [
+    "الـ{{20 weeks}} في الحمل",
+    "يعني الـ{{cardiac output}} بدأ يرتفع وبيستمر يزيد لين تقريباً {{28-34 weeks}}"
+   ],
+   [
+    "السؤال عن خطر {{heart failure}}",
+    "يعني نبحث عن التغير الهيموديناميكي اللي يرفع الضغط في الـ{{left atrium}}"
+   ]
+  ],
+  "why": [
+   "لأن في الحمل يرتفع الـ{{stroke volume}} ومعاه الـ{{heart rate}} فـ يرتفع الـ{{cardiac output}} بشكل واضح، وكل الدم الزايد لازم يمر من الـ{{mitral valve}} الضيق.",
+   "فـ يرتفع الضغط في الـ{{left atrium}} والرئتين ويصير {{pulmonary congestion}} و{{pulmonary edema}}، وزيادة الـ{{heart rate}} تقصّر الـ{{diastole}} فـ تزيد المشكلة."
+  ],
+  "wrong": {
+   "0": "لأن الـ{{red cell mass}} يزيد فعلاً بس زيادة بسيطة، والحمل الحقيقي على القلب جاي من زيادة الـ{{plasma volume}} والـ{{cardiac output}} مو من كريات الدم الحمراء.",
+   "2": "لأن زيادة الـ{{minute ventilation}} سببها الـ{{progesterone}} وتعطي {{respiratory alkalosis}} خفيف وإحساس بضيق نفس، بس ما تحمّل الـ{{left atrium}} ولا تسبب {{heart failure}}.",
+   "3": "لأن زيادة الـ{{renal plasma flow}} نتيجة لزيادة الـ{{cardiac output}} مو سبب لها، وما تزيد الحمل على صمام الـ{{mitral}}."
+  },
+  "change": [
+   "لو كان السؤال عن الأم بعد الولادة مباشرة، فـ الخطر يزيد بسبب رجوع دم الرحم للدوران {{autotransfusion}} وارتفاع الـ{{preload}}.",
+   "لو كانت عندها {{aortic regurgitation}} بدل {{mitral stenosis}} فـ تحمّل الحمل أحسن لأن نزول الـ{{systemic vascular resistance}} في الحمل يفيدها."
+  ],
+  "rule": "لو {{mitral stenosis}} في الحمل فـ زيادة الـ{{cardiac output}} والـ{{heart rate}} هي اللي تفشل القلب."
+ },
+ "M500": {
+  "idea": [
+   "السؤال سؤال فسيولوجيا للدورة الشهرية وتوقيت الإباضة بالنسبة لـ{{LH surge}}.",
+   "الصورة ما نشوفها هنا، فـ نعتمد على المعلومة الأساسية اللي تربط الإباضة بالـ{{LH}}."
+  ],
+  "clues": [
+   [
+    "الكلمة {{LH peak}}",
+    "يعني الـ{{LH surge}} هو الحدث اللي يحفز الإباضة ويجي قبلها"
+   ],
+   [
+    "السؤال عن {{ovulation}} عند زوجين {{infertility}}",
+    "يعني نحتاج نعرف النافذة الزمنية للإباضة عشان نوقت الجماع والفحوصات"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{LH surge}} هو اللي يسبب {{follicular rupture}} وإطلاق البويضة، والإباضة تصير بعده بحوالي {{24-36 hours}} من بداية الـ{{surge}}، وبعد الـ{{peak}} بفترة أقل.",
+   "فـ الإباضة تجي {{within 36 hours after LH peak}}، يعني بعد الذروة مو قبلها ولا في نفس لحظتها."
+  ],
+  "wrong": {
+   "0": "لأن الإباضة ما تصير في نفس لحظة الـ{{peak}}، الـ{{LH}} يحتاج وقت يحفز الإنزيمات اللي تفتح جدار الـ{{follicle}} فـ الإباضة تجي بعده.",
+   "2": "لأن الـ{{LH peak}} هو السبب في الإباضة، والسبب ما يجي بعد النتيجة، فـ ما يصير الـ{{ovulation}} قبل الـ{{LH peak}}.",
+   "3": "لأن الـ{{estradiol peak}} يجي قبل الـ{{LH surge}} بفترة وهو اللي يفعّل الـ{{positive feedback}} لإطلاقه، فـ الفاصل بينه وبين الإباضة أطول من {{36 hours}} والمعتمد في التوقيت هو الـ{{LH}}."
+  },
+  "change": [
+   "لو الـ{{LH}} ما ارتفع (ما فيه {{surge}}) فـ ما تصير إباضة، وهذا يكون سبب {{anovulation}} و{{infertility}}.",
+   "لو استخدمنا {{urine LH kit}} فـ أول ما يطلع موجب نتوقع الإباضة خلال حوالي يوم إلى يوم ونص."
+  ],
+  "rule": "الـ{{ovulation}} تجي بعد الـ{{LH surge}} بحدود {{36 hours}}.",
+  "note": "الصورة ما انعرضت في النص، فـ الشرح مبني على الجواب المعطى وعلى فسيولوجيا الدورة المعروفة."
+ },
+ "M501": {
+  "idea": [
+   "السؤال عن خطوة الفحص الأولى للزوج الجديد لما أول طفل كان عنده {{sickle cell disease}}.",
+   "المرض {{autosomal recessive}} فـ لازم نعرف هل الزوج الجديد {{carrier}} ولا لا."
+  ],
+  "clues": [
+   [
+    "الطفل الأول عنده {{sickle cell disease}}",
+    "يعني الأم على الأقل {{carrier}} للجين، وبما إنها حامل الجين فـ ما نحتاج نتأكد منها أول"
+   ],
+   [
+    "الزوج جديد",
+    "يعني ما اتفحص قبل، وهو اللي يحدد خطر المرض في الحمل القادم"
+   ],
+   [
+    "تذكر {{premarital requirements}}",
+    "يعني نفحص الزوجين بـ{{hemoglobin electrophoresis}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{sickle cell disease}} يحتاج الطفل يورث جين من الأب وجين من الأم، فـ الأم معروف إنها {{carrier}} من ولادة الطفل الأول، والمجهول هو الزوج الجديد.",
+   "فـ نبدأ بـ{{paternal hemoglobin electrophoresis}}، لو طلع {{normal}} فـ الخطر منخفض جداً، ولو {{carrier}} أو {{HbS}} فـ نكمل بالـ{{genetic counseling}} و{{prenatal diagnosis}}."
+  ],
+  "wrong": {
+   "0": "لأن الـ{{multiple markers screening}} يفحص {{aneuploidy}} مثل {{Down syndrome}} و{{neural tube defects}}، وما يكشف {{sickle cell}}.",
+   "1": "لأن الـ{{sickle cell disease}} مرض جين واحد {{single gene}} مو خلل كروموسومي، فـ تحليل الـ{{chromosomes}} ما يفيد.",
+   "3": "لأن الأم أصلاً {{carrier}} على الأقل بما إن طفلها الأول مصاب، فـ فحصها ما يغيّر القرار، والفحص الجديد المفيد هو للأب."
+  },
+  "change": [
+   "لو الزوج طلع {{carrier}} للـ{{sickle}} فـ كل حمل فيه خطر {{25%}} لطفل مصاب، ونعرض {{CVS}} أو {{amniocentesis}} للتشخيص.",
+   "لو الزوج طلع {{normal}} فـ الخطر شبه صفر للمرض الكامل، وكل الأطفال ممكن يكونوا {{carriers}} بس."
+  ],
+  "rule": "لو مرض {{autosomal recessive}} ومعروف الأم {{carrier}} فـ أول شي نفحص الأب بـ{{hemoglobin electrophoresis}}."
+ },
+ "M502": {
+  "idea": [
+   "السؤال حمل متأخر مع ألم وبقعة نزيف وضغط عالي وجنين متأثر.",
+   "الـ{{labs}} تعطي فقر دم وانخفاض في الصفائح، وهذا يدعم نزيف داخلي مع بداية استهلاك للعوامل."
+  ],
+  "clues": [
+   [
+    "الـ{{abdominal pain}} مع {{vaginal bleeding}}",
+    "يعني نزيف مؤلم وهو علامة {{placental abruption}}"
+   ],
+   [
+    "الـ{{blood pressure 170/100}}",
+    "يعني {{hypertensive disorder}} وهو من أهم عوامل خطر الـ{{abruption}}"
+   ],
+   [
+    "الـ{{FHR 160}} مع {{minimal variability}} و{{repetitive late decelerations}}",
+    "يعني الجنين يعاني من نقص أكسجة بسبب انفصال المشيمة"
+   ],
+   [
+    "الـ{{Hb 75}} والـ{{platelets 110}} والـ{{fibrinogen 2.5}}",
+    "يعني فقدان دم وبداية استهلاك للصفائح، والـ{{fibrinogen}} لسه طبيعي"
+   ]
+  ],
+  "why": [
+   "لأن النزيف المؤلم في آخر الحمل مع {{hypertension}} وانخفاض {{Hb}} والصفائح وجنين متأثر هو الصورة الكلاسيكية لـ{{placental abruption}}.",
+   "وحتى لو عندها {{previous cesarean}}، الضغط العالي والـ{{platelets}} الواطية يوجهوننا للـ{{abruption}} أكثر من {{uterine rupture}}."
+  ],
+  "wrong": {
+   "1": "لأن {{uterine rupture}} يجي غالباً أثناء الـ{{labor}} على ندبة سابقة مع ألم شديد وفقد الـ{{station}} و{{hypotension}} بدل الضغط العالي، وهنا الضغط {{170/100}} يدعم الـ{{abruption}} والمريضة ما هي في {{labor}} نشط.",
+   "2": "لأن الـ{{placenta previa}} نزيفه {{painless}} وهنا فيه ألم، والـ{{fetal heart}} غالباً سليم ما لم ينزف الأم بشكل كبير.",
+   "3": "لأن الـ{{vasa previa}} نزيفه {{painless}} ويجي مع {{rupture of membranes}} و{{fetal bradycardia}} أو نمط {{sinusoidal}} بدون ألم، وهنا فيه ألم وضغط عالي."
+  },
+  "change": [
+   "لو النزيف بدون ألم وجنين مستقر والـ{{ultrasound}} فيه مشيمة تغطي الـ{{os}}، فـ {{placenta previa}}.",
+   "لو النزيف بدون ألم مع {{bradycardia}} للجنين بعد {{ROM}}، فـ {{vasa previa}}."
+  ],
+  "rule": "لو نزيف مؤلم مع ضغط عالي وجنين متأثر فهو {{placental abruption}}."
+ },
+ "M503": {
+  "idea": [
+   "السؤال حساب تاريخ الولادة المتوقع بقاعدة {{Naegele}}.",
+   "المعطيات المهمة بس تاريخ آخر دورة {{LMP}}، والباقي {{G5 P2113}} ما يدخل في الحساب."
+  ],
+  "clues": [
+   [
+    "الـ{{LMP May 17, 2019}}",
+    "يعني نبدأ منه ونطبق القاعدة"
+   ],
+   [
+    "الـ{{Naegele rule}}",
+    "يعني نضيف {{7 days}} ونطرح {{3 months}} ونضيف {{1 year}}"
+   ]
+  ],
+  "why": [
+   "لأن بقاعدة {{Naegele}} نضيف {{7 days}} لتاريخ آخر دورة، وهذا يعطي {{May 24}}.",
+   "بعدها نطرح {{3 months}} فـ نوصل {{February 24}}، ونضيف {{1 year}} فـ يصير {{February 24, 2020}}."
+  ],
+  "wrong": {
+   "0": "لأن {{February 17, 2020}} طرح {{3 months}} بس ونسي إضافة {{7 days}}.",
+   "1": "لأن {{February 20, 2020}} ما يطلع من القاعدة، إضافة {{3 days}} غلط والمفروض {{7 days}}.",
+   "2": "لأن {{February 21, 2020}} أيضاً ما يطلع من القاعدة، إضافة {{4 days}} غلط والمفروض {{7 days}}."
+  },
+  "change": [
+   "لو كان {{LMP}} في أول السنة مثلاً {{January}} فـ نضيف {{9 months}} بدل ما نطرح {{3 months}}، وما نغير السنة.",
+   "لو الدورة غير منتظمة أو طويلة، فـ التاريخ بالـ{{LMP}} ما يكون دقيق ونعدله بالـ{{ultrasound}} المبكر."
+  ],
+  "rule": "نضيف {{7 days}} ونطرح {{3 months}} وبعدين نضيف {{1 year}}."
+ },
+ "M504": {
+  "idea": [
+   "السؤال عن موقع الرحم في الحمل الطبيعي بدون ذكر عمر الحمل.",
+   "الجواب الصحيح يمثل أول نقطة يصير فيها الرحم قابل للجس بالبطن، وهي فوق الـ{{symphysis pubis}} مباشرة."
+  ],
+  "clues": [
+   [
+    "الكلمة {{normal pregnancy}} بدون {{gestational age}}",
+    "يعني السؤال عن الوصف الأساسي لأول جس للرحم فوق العانة"
+   ],
+   [
+    "الخيارات كلها مواقع بين العانة والسرة",
+    "يعني نحتاج نتذكر مواقع الـ{{fundal height}} حسب الأسابيع"
+   ]
+  ],
+  "why": [
+   "لأن الرحم يكون داخل الحوض في أول الحمل، وبعد حوالي {{12 weeks}} يطلع فوق الحوض ويصير قابل للجس {{just over the symphysis pubis}}.",
+   "وبعدها يكبر تدريجياً: يصل نصف المسافة بين العانة والسرة حوالي {{16 weeks}}، وللسرة حوالي {{20 weeks}}."
+  ],
+  "wrong": {
+   "0": "لأن الرحم يوصل منتصف المسافة بين العانة والسرة عند حوالي {{16 weeks}}، فـ هذا موقع أكبر من أول جس فوق العانة.",
+   "2": "لأن الرحم يوصل مستوى السرة تقريباً عند {{20 weeks}} وهذا في منتصف الحمل مو أول ظهور.",
+   "3": "لأن الرحم يتجاوز السرة في فترة متأخرة أكثر، وهذا موقع حمل متقدم مو الوصف الأساسي."
+  },
+  "change": [
+   "لو الحمل {{16 weeks}} فـ الجواب يكون في منتصف المسافة بين العانة والسرة.",
+   "لو الحمل {{20 weeks}} فـ الجواب يكون عند مستوى السرة."
+  ],
+  "rule": "أول جس للرحم فوق العانة عند {{12 weeks}}، وعند السرة {{20 weeks}}.",
+  "note": "السؤال ما ذكر عمر الحمل، فـ الإجابة مبنية على الجواب المعطى وعلى أول موقع يصير فيه الرحم قابل للجس."
+ },
+ "M505": {
+  "idea": [
+   "السؤال تصنيف نوع الـ{{abortion}} في أول الحمل بناءً على الفحص.",
+   "المفتاح هو حالة الـ{{cervical os}}: مغلق، وما فيه نسيج خرج."
+  ],
+  "clues": [
+   [
+    "الـ{{LMP 7 weeks}} مع {{vaginal spotting}}",
+    "يعني نزيف بسيط في أول حمل ممكن يكون {{threatened abortion}}"
+   ],
+   [
+    "الـ{{cervical os closed}}",
+    "يعني الرحم لسه ما بدأ يطرد المحتويات"
+   ],
+   [
+    "الـ{{no cramping}} و{{no passage of tissue}}",
+    "يعني ما فيه {{inevitable}} ولا {{incomplete}} ولا {{complete}}"
+   ]
+  ],
+  "why": [
+   "لأن الحمل في أول الـ{{trimester}} مع نزيف بسيط وفتحة رقبة مغلقة وما فيه نسيج خرج هو تعريف الـ{{threatened abortion}}.",
+   "وحسب الطريقة: ما خرج نسيج، والـ{{os}} مغلق، فـ نشوف الـ{{fetal heartbeat}}، ولو حاضر أو عمر الحمل مطابق للـ{{LMP}} فهو {{threatened}}."
+  ],
+  "wrong": {
+   "0": "لأن الـ{{missed abortion}} فيه موت الجنين مع عدم تطابق العمر في الـ{{ultrasound}} أو غياب {{fetal heartbeat}}، وهذا مو مذكور في السؤال.",
+   "1": "لأن الـ{{normal pregnancy}} ما فيه نزيف مهبلي، وهنا فيه {{spotting}} فـ التشخيص {{threatened abortion}}.",
+   "2": "لأن الـ{{inevitable abortion}} فيه {{open cervical os}} مع نزيف أو تقلصات، وهنا الـ{{os}} {{closed}}."
+  },
+  "change": [
+   "لو الـ{{os}} {{open}} مع {{cramping}} و{{bleeding}} فـ {{inevitable abortion}}.",
+   "لو الـ{{ultrasound}} فيه جنين بدون نبض أو عمر الحمل أصغر من الـ{{LMP}} فـ {{missed abortion}}.",
+   "لو خرج نسيج مع {{open os}} فـ {{incomplete abortion}}."
+  ],
+  "rule": "نزيف أول حمل مع {{os}} مغلق ولا نسيج خرج هو {{threatened abortion}}.",
+  "note": "السؤال ما ذكر نتيجة الـ{{ultrasound}} أو {{fetal heartbeat}}، فـ نعتمد على الجواب المعطى وعلى {{closed os}} مع النزيف البسيط."
+ },
+ "M506": {
+  "idea": [
+   "السؤال يربط {{ectopic pregnancy}} بالخطوة المعطلة في تكوين الحمل.",
+   "التقرير والصورة ما نشوفهم، لكن الـ{{amenorrhea}} مع {{positive pregnancy test}} ورحم فاضي وكتلة {{adnexal}} تدل على {{ectopic}}."
+  ],
+  "clues": [
+   [
+    "الـ{{amenorrhea 8 weeks}} مع {{positive pregnancy test}}",
+    "يعني فيه حمل موجود"
+   ],
+   [
+    "الـ{{empty uterus}}",
+    "يعني الحمل مو داخل الرحم"
+   ],
+   [
+    "الـ{{right adnexal mass}}",
+    "يعني حمل في الـ{{fallopian tube}} غالباً"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{ectopic pregnancy}} معناه إن الـ{{blastocyst}} انزرع في مكان غير تجويف الرحم، وهذا خلل في الـ{{implantation}}.",
+   "التلقيح والانقسام وتكوين الـ{{zygote}} كلهم يصيرون بشكل طبيعي في الـ{{fallopian tube}}، والمشكلة إن الجنين ما وصل للرحم وانزرع بالأنبوب."
+  ],
+  "wrong": {
+   "0": "لأن الـ{{cleavage}} هو انقسام الـ{{zygote}} لخلايا أصغر، وهو يصير طبيعي أثناء السفر في الـ{{tube}} وما يحدد مكان الانغراس.",
+   "1": "لأن الـ{{fertilization}} يصير طبيعياً في الـ{{ampulla}} للـ{{tube}} حتى في الـ{{ectopic}}، والخلل بعده.",
+   "3": "لأن تكوين الـ{{zygote}} بعد التلقيح مباشرة وما يفسر اختيار مكان الانغراس الغلط."
+  },
+  "change": [
+   "لو كان الـ{{US}} فيه {{intrauterine sac}} فـ الحمل داخل الرحم ويكون {{normal implantation}}.",
+   "لو كان مكان الانغراس في فتحة الرحم أو قريب منها فـ نفكر في {{cervical pregnancy}}."
+  ],
+  "rule": "حمل خارج الرحم يعني خلل في {{implantation}} مو في {{fertilization}}.",
+  "note": "التقرير والصورة ما انعرضوا، فـ الشرح مبني على الجواب المعطى وعلى وجود رحم فاضي وكتلة {{adnexal}}."
+ },
+ "M507": {
+  "idea": [
+   "السؤال عن الـ{{lie}} مو الـ{{presentation}}، والـ{{lie}} هو اتجاه محور الجنين بالنسبة لمحور الأم.",
+   "الراس في الـ{{fundus}} والـ{{spine}} موازي لعمود الأم، يعني الجنين طولي."
+  ],
+  "clues": [
+   [
+    "الـ{{fetal head in the fundus}} والـ{{spine parallel to the mother's spine}}",
+    "يعني محور الجنين موازي لمحور الأم، فـ هذا {{longitudinal lie}}"
+   ],
+   [
+    "الـ{{hips and knees flexed}}",
+    "يعني الـ{{presentation}} هو {{complete breech}}، بس هذا مو اللي يسأل عنه السؤال"
+   ],
+   [
+    "السؤال {{lie of this fetus}}",
+    "يعني نعرّف الـ{{lie}} فقط"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{lie}} هو علاقة محور الجنين بمحور الأم: {{longitudinal}} أو {{transverse}} أو {{oblique}}، وهنا المحور الطولي للجنين موازي لمحور الأم.",
+   "والـ{{breech}} هو {{presentation}} (الجزء المتقدم) مو {{lie}}، فـ الخيارات {{frank}} و{{complete}} و{{incomplete}} كلها أنواع {{breech presentation}} وما تجاوب عن الـ{{lie}}."
+  ],
+  "wrong": {
+   "1": "لأن الـ{{frank breech}} هو {{presentation}} مو {{lie}}، وفيه الـ{{hips flexed}} مع الـ{{knees extended}}، وهنا الركب {{flexed}}.",
+   "2": "لأن الـ{{complete breech}} هو فعلاً وصف الـ{{presentation}} هنا (الـ{{hips}} والـ{{knees}} {{flexed}})، بس السؤال عن الـ{{lie}} مو الـ{{presentation}}.",
+   "3": "لأن الـ{{incomplete breech}} فيه قدم أو ركبة نازلة (أحد الـ{{hips}} أو الـ{{knees}} غير {{flexed}} بالكامل)، وهذا مو الوصف هنا، وهو {{presentation}} برضو."
+  },
+  "change": [
+   "لو الراس على جنب الأم والعمود عرضي فـ الـ{{lie}} {{transverse}}.",
+   "لو الـ{{hips flexed}} والـ{{knees extended}} فـ الـ{{presentation}} {{frank breech}}، لكن الـ{{lie}} يبقى {{longitudinal}}."
+  ],
+  "rule": "تذكر {{lie}} هو المحور ({{longitudinal}} أو {{transverse}})، و{{breech}} و{{cephalic}} هما {{presentation}}."
+ },
+ "M508": {
+  "idea": [
+   "السؤال عن نمط الـ{{second-trimester multiple marker screen}} في {{Down syndrome}}.",
+   "نحتاج نحفظ اتجاه كل {{marker}} في {{trisomy 21}}."
+  ],
+  "clues": [
+   [
+    "الـ{{Down syndrome}} في طفل سابق",
+    "يعني نبحث عن نمط الـ{{quad screen}} في {{trisomy 21}}"
+   ],
+   [
+    "الـ{{second-trimester multiple marker}}",
+    "يعني الـ{{hCG}} و{{MSAFP}} و{{estriol}} و{{inhibin A}}"
+   ]
+  ],
+  "why": [
+   "لأن في الـ{{Down syndrome}} يكون الـ{{hCG}} عالي والـ{{inhibin A}} عالي، بينما الـ{{MSAFP}} والـ{{estriol}} منخفضين.",
+   "وهذا النمط يطابق الخيار {{High hCG, low MSAFP, low estriol, high inhibin A}}."
+  ],
+  "wrong": {
+   "0": "لأن فيه {{low hCG}} و{{high estriol}} وهذا عكس نمط الـ{{Down syndrome}}، الـ{{hCG}} يرتفع والـ{{estriol}} ينخفض.",
+   "2": "لأن فيه {{low hCG}} و{{high MSAFP}} و{{high estriol}} و{{low inhibin A}}، وكلها عكس نمط الـ{{Down syndrome}}.",
+   "3": "لأن فيه {{low hCG}} و{{high MSAFP}} و{{low inhibin A}}، وهذي مو نمط {{Down syndrome}}، فـ الـ{{MSAFP}} العالي يوجه لـ{{neural tube defect}} أو خطأ في تقدير العمر مو {{trisomy 21}}."
+  },
+  "change": [
+   "لو الـ{{MSAFP}} عالي لوحده فـ نفكر في {{neural tube defect}} أو {{abdominal wall defect}} أو خطأ في {{dating}}.",
+   "لو الـ{{hCG}} و{{estriol}} و{{MSAFP}} كلها منخفضة فـ نفكر في {{trisomy 18}}."
+  ],
+  "rule": "تذكر {{Down}}: {{hCG}} و{{inhibin}} فوق، و{{AFP}} و{{estriol}} تحت."
+ },
+ "M509": {
+  "idea": [
+   "السؤال عن أنسب تحليل لامرأة عندها {{irregular menses}} مع {{galactorrhea}}.",
+   "تذكر {{Galactorrhea}} مع اضطراب الدورة توجه لـ{{hyperprolactinemia}}."
+  ],
+  "clues": [
+   [
+    "الـ{{frank galactorrhea}}",
+    "يعني إفراز حليب من الثدي، وهذا علامة {{hyperprolactinemia}}"
+   ],
+   [
+    "الـ{{irregular cycles for 2 years}}",
+    "يعني {{oligomenorrhea}} أو {{anovulation}} بسبب كبت الـ{{GnRH}} من الـ{{prolactin}}"
+   ],
+   [
+    "السؤال {{most helpful investigation}}",
+    "يعني التحليل اللي يؤكد السبب المحتمل مباشرة"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{prolactin}} العالي يكبت الـ{{GnRH}} فـ يقل الـ{{FSH}} والـ{{LH}} وتصير الدورة غير منتظمة، ويسبب {{galactorrhea}}.",
+   "فـ أنسب تحليل هو {{serum prolactin}} لأنه يؤكد التشخيص مباشرة، وبعده نكمل بالـ{{TSH}} و{{MRI}} للـ{{pituitary}} لو كان مرتفع."
+  ],
+  "wrong": {
+   "0": "لأن الـ{{beta-hCG}} فحص مهم لأي امرأة في سن الإنجاب مع اضطراب دورة ويستبعد الحمل، بس هنا الأعراض {{frank galactorrhea}} توجهنا للـ{{prolactin}} كأنسب تحليل لتفسير الحالة.",
+   "1": "لأن الـ{{breast ultrasound}} للكتل والأورام، و{{galactorrhea}} مو كتلة وما يفسر اضطراب الدورة.",
+   "3": "لأن الـ{{thyroid function}} مهم لأن {{hypothyroidism}} يرفع الـ{{prolactin}}، بس هو خطوة بعد تأكيد ارتفاع الـ{{prolactin}}، والـ{{prolactin}} هو الأنسب أول."
+  },
+  "change": [
+   "لو كانت الدورة غائبة تماماً والـ{{prolactin}} طبيعي فـ نفكر في أسباب ثانية مثل {{pregnancy}} أو {{PCOS}} أو {{premature ovarian failure}}.",
+   "لو الـ{{prolactin}} عالي فـ نكمل بالـ{{TSH}} ونراجع الأدوية، وبعدين {{MRI}} للـ{{pituitary}} للبحث عن {{prolactinoma}}."
+  ],
+  "rule": "تذكر {{galactorrhea}} مع دورة غير منتظمة نطلب {{serum prolactin}}."
+ },
+ "M510": {
+  "idea": [
+   "السؤال عن التعامل مع {{preeclampsia}} بدون {{severe features}} في الثلث الثالث.",
+   "المهم نعرف إن كل حالات الـ{{preeclampsia}} تدخل المستشفى للمراقبة حتى الـ{{mild}}."
+  ],
+  "clues": [
+   [
+    "الـ{{BP 150/100}} مع {{protein +3}}",
+    "يعني {{preeclampsia}} لأن الضغط {{≥140/90}} مع {{proteinuria}}، بس الضغط أقل من {{160/110}}"
+   ],
+   [
+    "الـ{{mild headache}} بدون {{RUQ pain}} أو {{visual disturbance}}",
+    "يعني ما فيه {{severe feature}} واضح"
+   ],
+   [
+    "الحمل {{32 weeks}}",
+    "يعني بعيد عن موعد الولادة المعتاد للحالة الخفيفة {{37 weeks}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{preeclampsia}} بدون {{severe features}} نعمل لها {{admission}} للمراقبة وتقييم الأم والجنين، وما نخرجها لعيادة خارجية.",
+   "الولادة المخططة للـ{{mild preeclampsia}} عند {{37 weeks}}، فـ هنا نراقب ونولد في موعدها لو ما ظهرت علامات خطورة."
+  ],
+  "wrong": {
+   "1": "لأن الـ{{induction}} للـ{{mild preeclampsia}} يكون عند {{37 weeks}} مو {{32 weeks}}، وما فيه خطر على الأم أو الجنين يستدعي ولادة الحين.",
+   "2": "لأن الـ{{outpatient follow-up}} غير مناسب، كل مريضة {{preeclampsia}} تُدخل وتتراقب لأن الحالة ممكن تتدهور بسرعة.",
+   "3": "لأن الـ{{cesarean section}} مو مؤشره الـ{{preeclampsia}} لوحدها، ونحتاجه لمؤشرات توليدية أو {{fetal distress}}، وهنا ما فيه."
+  },
+  "change": [
+   "لو ظهر {{RUQ pain}} أو {{visual disturbance}} أو الضغط {{≥160/110}} فـ {{preeclampsia with severe features}} ونبدأ {{MgSO4}} ونتعامل مع الضغط.",
+   "لو الحمل {{37 weeks}} مع {{mild preeclampsia}} فـ ننهي الحمل بالـ{{induction}}."
+  ],
+  "rule": "تذكر {{preeclampsia}} نبقيها في المستشفى للمراقبة، ونولد حسب الأسبوع.",
+  "note": "الصداع الموصوف خفيف وبدون أعراض ثانية، فـ نعتبر الحالة {{without severe features}}."
+ },
+ "M511": {
+  "idea": [
+   "السؤال عن {{postpartum hemorrhage}} بسبب {{uterine atony}} ما استجاب لـ{{oxytocin}}.",
+   "الضغط عالي {{164/92}} فـ نتجنب {{methylergonovine}}."
+  ],
+  "clues": [
+   [
+    "الـ{{soft boggy uterine fundus}}",
+    "يعني {{uterine atony}} وهو أشهر سبب للـ{{primary PPH}}"
+   ],
+   [
+    "الـ{{oxytocin 20 units in 1000 mL}} و{{massage}} جاريين",
+    "يعني الخطوات الأولى انعملت وما كفت"
+   ],
+   [
+    "الـ{{BP 164/92}}",
+    "يعني {{hypertension}}، فـ {{methylergonovine}} ممنوع"
+   ],
+   [
+    "الـ{{4.4 kg baby}} والـ{{placenta complete}}",
+    "يعني {{macrosomia}} عامل خطر للـ{{atony}}، وما فيه {{retained placenta}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{uterine atony}} بعد {{massage}} و{{oxytocin}} نكمل بالـ{{uterotonic}} التالي، والخيار الأنسب هنا هو {{prostaglandin F2 alpha (carboprost)}}.",
+   "وما نستخدم {{methylergonovine}} لأنها تسبب {{vasoconstriction}} وترفع الضغط، وهي ممنوعة في الـ{{hypertension}} والـ{{preeclampsia}}، وما عندها {{asthma}} عشان نتجنب {{carboprost}}."
+  ],
+  "wrong": {
+   "1": "لأن الـ{{methylergonovine}} يسبب {{vasoconstriction}} ويرفع الضغط، وضغطها {{164/92}} فـ هو ممنوع.",
+   "2": "لأن الـ{{manual exploration}} للـ{{retained placental tissue}} أو {{uterine inversion}}، والـ{{placenta}} طلعت {{complete and intact}} والرحم {{boggy}}، فـ السبب {{atony}}.",
+   "3": "لأن الـ{{oxytocin}} موجود أصلاً بجرعة علاجية فـ نتحرك للـ{{uterotonic}} التالي بدل تكرار نفس الدواء."
+  },
+  "change": [
+   "لو الضغط طبيعي وما عندها {{asthma}} فـ {{methylergonovine}} يكون خيار قبل {{carboprost}} في تسلسل {{PPH}}.",
+   "لو عندها {{asthma}} فـ نتجنب {{carboprost}} وننتقل لـ{{misoprostol}}.",
+   "لو الرحم {{firm}} والنزيف مستمر فـ نفكر في {{genital tract laceration}}."
+  ],
+  "rule": "تذكر {{PPH}} من {{atony}} مع {{hypertension}} فـ {{carboprost}} بعد {{oxytocin}} ونتجنب {{methergine}}."
+ },
+ "M512": {
+  "idea": [
+   "السؤال حمل {{29 weeks}} مع نزيف مستمر وألم ظهر، والـ{{cervix}} مغلق والـ{{placenta}} في القاع.",
+   "الصورة والتقرير ما نشوفهم، فـ الجواب مبني على الحالة والعمر الحملي."
+  ],
+  "clues": [
+   [
+    "الـ{{continuous vaginal bleeding}} مع {{back pain}}",
+    "يعني نزيف مؤلم وهو يوجه لـ{{placental abruption}}"
+   ],
+   [
+    "الـ{{anterior-fundal placenta}}",
+    "يعني المشيمة بعيدة عن الـ{{os}} فـ ما هي {{previa}}"
+   ],
+   [
+    "الأم والجنين مستقرين والـ{{29 weeks}}",
+    "يعني نتعامل بشكل محافظ ونعطي {{steroids}} لنضج الرئة"
+   ]
+  ],
+  "why": [
+   "لأن الحالة {{abruption}} مستقرة عند {{29 weeks}} (أقل من {{34}})، فـ نراقب ونعطي {{dexamethasone}} لنضج رئة الجنين تحسباً للولادة المبكرة.",
+   "والـ{{tocolytics}} ممنوعة في الـ{{abruption}}، والـ{{oxytocin}} ما نبدأ به ولادة الحين لأن الأم والجنين مستقرين."
+  ],
+  "wrong": {
+   "1": "لأن الـ{{indomethacin}} من الـ{{tocolytics}}، والـ{{tocolytics}} ممنوعة في الـ{{abruption}} بغض النظر عن عمر الحمل.",
+   "2": "لأن الـ{{terbutaline}} أيضاً {{tocolytic}} وممنوع في الـ{{abruption}}، ويسبب {{tachycardia}} تخفي علامات النزيف.",
+   "3": "لأن الـ{{oxytocin}} للـ{{induction}} أو {{augmentation}} وما فيه سبب نولدها الحين لأن الحالة مستقرة والعمر {{29 weeks}}، فـ الأهم نضج الرئة."
+  },
+  "change": [
+   "لو الأم غير مستقرة (نزيف شديد) فـ {{transfusion}} ثم {{C-section}} بغض النظر عن الأسبوع.",
+   "لو الجنين متأثر {{category 3}} فـ {{C-section}} فوراً بدون انتظار {{steroids}}.",
+   "لو الجنين ميت والأم مستقرة فـ {{induction}}."
+  ],
+  "rule": "تذكر {{abruption}} مستقر أقل من {{34 weeks}} نعطي {{steroids}} ونراقب.",
+  "note": "الصورة والتقرير ما انعرضوا، فـ الشرح يعتمد على الأعراض المذكورة وعلى الجواب المعطى."
+ },
+ "M513": {
+  "idea": [
+   "السؤال {{placenta previa}} مستقرة عند {{34+2 weeks}} مع نزيف بدون ألم.",
+   "المطلوب هو الإدارة المناسبة للأم والجنين المستقرين."
+  ],
+  "clues": [
+   [
+    "الـ{{painless vaginal bleeding}} مع {{placenta completely overlying the internal os}}",
+    "يعني {{complete placenta previa}}"
+   ],
+   [
+    "الـ{{BP 110/78}} والـ{{HR 106}}",
+    "يعني الأم مستقرة تقريباً"
+   ],
+   [
+    "الـ{{34+2 weeks}}",
+    "يعني تعدت {{34 weeks}} فـ ما نحتاج {{steroids}} ولا نولد قبل {{36-37 weeks}} إلا لو تدهورت الحالة"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{placenta previa}} المستقرة تتعامل محافظاً: {{hospitalization}} ومراقبة الأم والجنين حتى {{36-37 weeks}}، وبعدها {{C-section}}.",
+   "والتحرك للولادة الفورية فقط لو الأم أو الجنين صاروا غير مستقرين."
+  ],
+  "wrong": {
+   "1": "لأن الـ{{betamethasone}} يعطى لو أقل من {{34 weeks}} لنضج الرئة، وهنا {{34+2}} فـ ما نحتاجه.",
+   "2": "لأن الـ{{C-section}} المخطط لـ{{previa}} عند {{36-37 weeks}}، والحين الأم والجنين مستقرين فـ ما نستعجل إلا لو تدهورت الحالة.",
+   "3": "لأن الـ{{magnesium sulfate}} للحماية العصبية للجنين قبل {{32 weeks}} أو لـ{{severe preeclampsia}}، وما فيه هنا."
+  },
+  "change": [
+   "لو الأم غير مستقرة فـ {{transfusion}}، ولو ما استقرت {{C-section}} فوراً.",
+   "لو الـ{{CTG}} {{category 3}} فـ {{C-section}} فوراً بغض النظر عن الأسبوع.",
+   "لو كان الحمل أقل من {{34 weeks}} فـ نضيف {{steroids}} مع الإدخال."
+  ],
+  "rule": "تذكر {{previa}} مستقرة نقبلها ونراقب حتى {{36-37 weeks}} ثم {{C-section}}.",
+  "note": "الـ{{CTG}} ما انعرضت في النص، فـ نعتمد على الجواب المعطى وعلى استقرار الأم والجنين."
+ },
+ "M514": {
+  "idea": [
+   "السؤال مخاض مُنشَّط بـ{{oxytocin}} وفيه تتبع {{non-stress test}} غير ظاهر لنا.",
+   "الجواب {{discontinue oxytocin}} يدل إن التتبع فيه علامات تحتاج نوقف المحفز."
+  ],
+  "clues": [
+   [
+    "الـ{{labor augmented with oxytocin}}",
+    "يعني الـ{{oxytocin}} ممكن يكون هو السبب في تأثر الجنين، فـ أول خطوة نوقفه"
+   ],
+   [
+    "الـ{{cervix 6 cm}} والـ{{station 0}}",
+    "يعني الولادة تتقدم وما نحتاج {{C-section}} فوري"
+   ],
+   [
+    "الـ{{ROM 20 hours}}",
+    "يعني خطر عدوى، بس الحرارة {{37.2}} والأولوية للجنين"
+   ]
+  ],
+  "why": [
+   "لأن لو التتبع غير مطمئن مع {{oxytocin}} شغال فـ أول خطوة هي إيقاف الـ{{oxytocin}} (الـ{{offending agent}}) كجزء من {{intrauterine resuscitation}}.",
+   "وبعدها نغير وضع الأم ونعطي {{IV fluids}}، ولو ما تحسن التتبع نفكر في {{C-section}}."
+  ],
+  "wrong": {
+   "1": "لأن الـ{{C-section}} ما تكون أول خطوة، نبدأ بالـ{{intrauterine resuscitation}} وإيقاف الـ{{oxytocin}}، ونولد بالعملية لو استمر التتبع غير طبيعي.",
+   "2": "لأن الـ{{amnioinfusion}} للـ{{variable decelerations}} المتكررة مع {{oligohydramnios}} أو {{cord compression}}، مو أول خطوة هنا والـ{{oxytocin}} لسه شغال.",
+   "3": "لأن الـ{{ampicillin}} للـ{{GBS prophylaxis}} أو {{chorioamnionitis}} وما هو الأولوية لما التتبع مو مطمئن، والحرارة طبيعية {{37.2}}."
+  },
+  "change": [
+   "لو الـ{{CTG}} {{category 1}} فـ ما نسوي شي ونراقب.",
+   "لو التتبع {{category 3}} فـ {{C-section}} أو {{instrumental}} لو الراس {{+2}}، مع {{resuscitation}} أثناء التحضير.",
+   "لو عندها {{fever}} مع {{tachycardia}} للجنين فـ نفكر في {{chorioamnionitis}} ونعطي {{antibiotics}}."
+  ],
+  "rule": "لو الـ{{CTG}} مو مطمئن و{{oxytocin}} شغال فـ نوقف الـ{{oxytocin}} أول.",
+  "note": "التتبع ما انعرض في النص، فـ الشرح يعتمد على الجواب المعطى وعلى وجود {{oxytocin}} شغال."
+ }
+}

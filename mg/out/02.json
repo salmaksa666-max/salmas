@@ -1,0 +1,590 @@
+{
+ "M018": {
+  "idea": [
+   "سيدة عمرها {{23 years}} حاولت الحمل بس {{3 months}} ودورتها منتظمة وفحصها طبيعي",
+   "فهذا مو {{infertility}} أصلاً والجواب {{continue trying}}"
+  ],
+  "clues": [
+   [
+    "لو {{trying for 3 months only}}",
+    "يعني لسا ما وصلنا لتعريف الـ{{infertility}}"
+   ],
+   [
+    "مع {{regular normal periods and normal examination}}",
+    "يعني التبويض غالباً طبيعي وما في سبب ظاهر"
+   ],
+   [
+    "و{{husband healthy}} وأقارب بعيدين بحالات وراثية",
+    "يعني ما في {{indication}} لفحص جيني"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{infertility}} تُعرّف بعدم الحمل بعد {{12 months}} من جماع منتظم بدون وسيلة منع لو العمر أقل من {{35 years}}",
+   "فبعد {{3 months}} فقط أغلب الأزواج الطبيعيين لسا ما حملوا، والصح نطمنها ونكمل المحاولة"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{sperm count}} (تحليل السائل المنوي) يُطلب بعد ما تتحقق مدة الـ{{infertility}}، والزوج هنا سليم والوقت قصير",
+   "2": "لأن الـ{{genetic testing}} ما له داعي، الـ{{cousin}} مع {{autism}} أو {{trisomy 21}} قرابة بعيدة ولا تأثر على قدرة الحمل",
+   "3": "لأن الـ{{tubal patency test}} مثل {{HSG}} فحص من فحوصات الـ{{infertility}} ونسويه بعد سنة، ومافي {{risk factor}} للانسداد (ما في {{PID}} ولا {{surgery}})"
+  },
+  "change": [
+   "لو {{trying for 12 months}} بدون حمل فنبدأ فحوصات الـ{{infertility}} (الـ{{semen analysis}} أول فحص وأسهل)",
+   "لو عمرها {{35 years or more}} فنقيّمها بعد {{6 months}} بدل {{12 months}}"
+  ],
+  "rule": "الحمل المحاول أقل من {{12 months}} (أو {{6 months}} فوق {{35}}) بدون {{risk factors}} يعني {{reassure and continue trying}}"
+ },
+ "M019": {
+  "idea": [
+   "بنت عمرها {{15 years}} فيها ألم عند الدورة، دورتها منتظمة وفحصها الحوضي طبيعي",
+   "فهذا {{primary dysmenorrhea}} والخط الأول {{NSAIDs}}"
+  ],
+  "clues": [
+   [
+    "لو {{pain with menses, regular cycles, normal pelvic exam}}",
+    "يعني {{primary dysmenorrhea}} بدون سبب عضوي"
+   ],
+   [
+    "مع {{15 years, menarche at 13}}",
+    "يعني أغلب الظن دورات تبويض وبدأ الألم بعد الـ{{menarche}} بسنوات قليلة وهذا الطبيعي"
+   ],
+   [
+    "و{{unmarried}}",
+    "يعني الأنسب علاج مو هرموني بالبداية وما نحتاج {{contraception}}"
+   ]
+  ],
+  "why": [
+   "لأن الألم من زيادة الـ{{prostaglandins}} في بطانة الرحم أثناء الدورة، والـ{{NSAIDs}} توقف تصنيعها (مثبطات {{cyclooxygenase}}) فتخفف الألم مباشرة",
+   "وبحسب الـ{{approach}}: الـ{{dysmenorrhea}} نبدأ بـ{{NSAID}}، ولو ما نفع ننتقل لـ{{OCP}}"
+  ],
+  "wrong": {
+   "1": "لأن الـ{{OCP}} الخط الثاني لو فشلت الـ{{NSAIDs}}، أو لو البنت تحتاج {{contraception}}، وهي {{unmarried}} ولسا ما جربت العلاج الأول",
+   "2": "لأن الـ{{cervical dilatation}} علاج قديم لم يثبت فعاليته ولا يُستعمل حالياً، والألم سببه {{prostaglandins}} مو ضيق الـ{{cervix}}",
+   "3": "لأن الـ{{danazol}} دواء لـ{{endometriosis}} وله أعراض {{androgenic}} كثيرة، وما نستعمله لحالة بسيطة بدون تشخيص {{endometriosis}}"
+  },
+  "change": [
+   "لو فشلت الـ{{NSAIDs}} بعد {{3 cycles}} تقريباً فنضيف {{OCP}} (ولو في مشكلة ثانية نفكر في {{endometriosis}} ونسوي {{laparoscopy}})",
+   "لو الفحص الحوضي غير طبيعي أو الألم شديد ومتقدم فنفكر في {{secondary dysmenorrhea}} مثل {{endometriosis}} أو {{adenomyosis}} ونسوي {{pelvic ultrasound}}"
+  ],
+  "rule": "الـ{{primary dysmenorrhea}} يعني {{NSAIDs}} أول، وبعدها {{OCP}} لو فشلت"
+ },
+ "M020": {
+  "idea": [
+   "حامل {{8 weeks}} مشخصة {{cervical incompetence}}",
+   "والخطوة المناسبة {{insert cervical suture at 14-16 weeks}} مو الحين"
+  ],
+  "clues": [
+   [
+    "لو {{8 weeks' gestation}}",
+    "يعني لسا بالـ{{first trimester}} والـ{{cerclage}} ما نسويه فيه"
+   ],
+   [
+    "مع {{diagnosis of cervical incompetence}}",
+    "يعني الـ{{cerclage}} هو العلاج الجراحي المعتمد"
+   ],
+   [
+    "و{{no bleeding or contractions}} (غير مذكورين)",
+    "يعني ما في سبب لـ{{tocolytics}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{cerclage}} (خياطة حول الـ{{cervix}}) نسويها بعد الثلث الأول عشان نتجنب خسارة الحمل المبكر الطبيعية ونتأكد من حيوية الجنين",
+   "وبحسب الـ{{approach}} الـ{{history indicated cerclage}} أساسها التاريخ المرضي بدون {{ultrasound}}، والتوقيت الأنسب بعد الأسابيع الأولى (هنا {{14-16 weeks}})"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{cerclage}} في الأسبوع {{8}} مبكر جداً، وفي هذه الفترة نسبة {{miscarriage}} أعلى والجنين لسا ما ثبت حيويته",
+   "1": "لأن الـ{{Hegar dilator}} أداة توسيع تُستعمل في فحص غير الحامل، وفي الحمل خطر عليها ويثير {{miscarriage}} والتشخيص أصلاً معطى",
+   "3": "لأن الـ{{beta mimetics}} أدوية {{tocolytic}} لوقف {{preterm labor}}، والـ{{cervical incompetence}} ما فيها انقباضات والعلاج الصحيح ميكانيكي (خياطة)"
+  },
+  "change": [
+   "لو الحامل {{second trimester}} وأتت بفتحة {{painless cervical dilation}} في الفحص فنسوي {{emergency (rescue) cerclage}} لو مناسب",
+   "لو ما في تاريخ كلاسيكي بس عندها {{prior preterm birth before 34 weeks}} مع {{short cervix}} (أقل أو يساوي {{25 mm}}) فنسوي {{ultrasound-indicated cerclage}}"
+  ],
+  "rule": "الـ{{history indicated cerclage}} نسويه في بداية الثلث الثاني (حوالي {{14-16 weeks}}) مو في الـ{{first trimester}}"
+ },
+ "M021": {
+  "idea": [
+   "سيدة عمرها {{31 years}} فحوصاتها السنوية سلبية، و{{HPV}} و{{Pap}} هالسنة وللسنة اللي قبلها طبيعيين",
+   "فالـ{{routine screening}} بعد طبيعي يتكرر كل {{3 years}}"
+  ],
+  "clues": [
+   [
+    "لو {{normal Pap smear}}",
+    "يعني نكرر الـ{{routine screen}} بعد {{3 years}}"
+   ],
+   [
+    "مع {{negative HPV and Pap for two consecutive years}}",
+    "يعني خطر منخفض جداً وما نحتاج فحص سنوي"
+   ],
+   [
+    "و{{31-year-old}}",
+    "يعني داخلة في عمر الفحص الروتيني (من {{21 years}})"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{Pap smear}} يبدأ من عمر {{21}} ويتكرر كل {{3 years}} لو النتيجة طبيعية",
+   "وفحص الـ{{HPV}} يضاف من عمر {{30}}، وفي هذا السؤال المعتمد هو الفاصل الروتيني {{3 years}} بعد النتائج الطبيعية"
+  ],
+  "wrong": {
+   "0": "لأن {{6 months}} فاصل لمتابعة نتيجة غير طبيعية مثل {{ASCUS}} أو {{CIN}}، ونتائجها هنا كلها سليمة",
+   "1": "لأن الفحص السنوي كان قديماً، والتكرار كل سنة يعطي {{over-screening}} بدون فايدة وهي مع نتيجة طبيعية",
+   "2": "لأن {{2 years}} فاصل ما نستعمله في الـ{{screening}} الروتيني المعتمد، الفواصل هي {{3 years}} أو {{5 years}}"
+  },
+  "change": [
+   "لو الـ{{Pap}} غير طبيعي (مثل {{LSIL}} أو {{HSIL}}) فنسوي {{colposcopy}} مو تكرار بعد {{3 years}}",
+   "لو الـ{{Pap}} {{ASCUS}} فنسوي {{HPV}} (أو نعيد الـ{{Pap}} بعد {{1 year}})، ولو سلبي نرجع للـ{{routine}}"
+  ],
+  "rule": "الـ{{Pap}} الطبيعي يعني نكرر بعد {{3 years}}"
+ },
+ "M022": {
+  "idea": [
+   "رضيع {{38 weeks}} بعد {{CS}} وبعد {{5 minutes}} الـ{{HR}} {{120}} والتنفس غير منتظم والـ{{reflex}} جيد",
+   "فنجمع علامات الـ{{Apgar}} الخمس والمجموع {{8}}"
+  ],
+  "clues": [
+   [
+    "لو {{HR 120}}",
+    "يعني أكثر من {{100}} فالدرجة {{2}}"
+   ],
+   [
+    "مع {{irregular gasping}}",
+    "يعني تنفس ضعيف غير منتظم فالدرجة {{1}}"
+   ],
+   [
+    "و{{coughs and cries with stimulation}}",
+    "يعني استجابة قوية فالدرجة {{2}}"
+   ],
+   [
+    "و{{rosy with blue extremities}}",
+    "يعني {{acrocyanosis}} فالدرجة {{1}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{Apgar}} خمس بنود كل واحد من {{0}} إلى {{2}}: {{HR}} {{2}} + {{Respiration}} {{1}} + {{Reflex}} {{2}} + {{Appearance}} {{1}}، ومعها الـ{{Activity}}",
+   "والمفتاح يحسب الـ{{Activity}} {{2}} لأن الأطراف مثنية أي {{flexed}}، فيطلع المجموع {{8}}"
+  ],
+  "wrong": {
+   "0": "لأن {{6}} أقل من المجموع الفعلي، وما في بند يستاهل ينزل بعد ما الـ{{HR}} والـ{{reflex}} كلهم {{2}} والباقي {{1}} على الأقل",
+   "1": "لأن {{7}} تطلع لو اعتبرنا الـ{{Activity}} {{1}} لقلة الحركة، لكن المفتاح يعطي الأطراف المثنية {{2}}",
+   "3": "لأن {{9}} تحتاج درجة {{2}} في الـ{{Appearance}} (وردي كامل) أو التنفس، وهنا الأطراف زرقاء والتنفس غير منتظم"
+  },
+  "change": [
+   "لو الجسم كله وردي بدون {{cyanosis}} فالـ{{Appearance}} {{2}} ويصير المجموع {{9}}",
+   "لو الطفل يبكي بقوة وتنفسه منتظم فالـ{{Respiration}} {{2}} ويرتفع المجموع"
+  ],
+  "rule": "الـ{{Apgar}} هو {{HR}} + {{Respiration}} + {{Reflex}} + {{Activity}} + {{Appearance}} كل بند {{0-2}}",
+  "note": "الوصف المكتوب للـ{{Activity}} فيه ({{flexed}} مع حركة قليلة) والجواب المعطى يحسبها {{2}}، فالتسجيل يعتمد على الجواب المعتمد."
+ },
+ "M023": {
+  "idea": [
+   "شابة {{20 years}} بحب شباب وشعر زائد وعدم انتظام دورة و{{LH}} أعلى من {{FSH}} و{{testosterone}} مرتفع شوي",
+   "فهذا {{PCOS}} والتقييم الإضافي هو {{glucose tolerance and lipid profile}}"
+  ],
+  "clues": [
+   [
+    "لو {{acne, hirsutism, irregular bleeding}}",
+    "يعني {{hyperandrogenism}} و{{oligo-ovulation}} وهذا {{PCOS}}"
+   ],
+   [
+    "مع {{LH 28 vs FSH 10}}",
+    "يعني نسبة {{LH:FSH}} مرتفعة وهي مألوفة في {{PCOS}}"
+   ],
+   [
+    "و{{prolactin 890}} مرتفع بشكل طفيف جداً",
+    "يعني ارتفاع بسيط ما نعتبره سبب مستقل"
+   ],
+   [
+    "و{{testosterone 3.2}} فوق الطبيعي بقليل",
+    "يعني زيادة بسيطة بدون {{virilization}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{PCOS}} يُشخّص سريرياً بمعايير {{Rotterdam}}، ولا نحتاج مزيد من الهرمونات لما العلامات واضحة",
+   "ولأن كل مريضة {{PCOS}} لازم تُفحص عن {{diabetes}} و{{dyslipidemia}} (لأن {{insulin resistance}} شائعة فيها)، فنطلب {{glucose tolerance}} و{{lipid profile}}"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{TSH}} و{{T3}} و{{T4}} ما في معها أعراض {{thyroid}} (وزن، نبض، حرارة) والمشهد كله {{PCOS}} معروف",
+   "1": "لأن الـ{{progesterone}} يثبت الـ{{ovulation}} وهي أصلاً دورتها غير منتظمة ({{oligo-ovulation}} واضح)، والـ{{TSH}} غير مبرر هنا",
+   "2": "لأن الـ{{DHEA}} (وهرمونات الـ{{adrenal}}) نطلبها لو {{virilization}} شديد أو بداية سريعة وهرمون {{testosterone}} مرتفع جداً، وهنا الارتفاع بسيط"
+  },
+  "change": [
+   "لو {{virilization}} (صوت خشن وتضخم {{clitoris}}) و{{testosterone}} مرتفع جداً فنفكر في ورم {{adrenal or ovarian}} ونطلب {{DHEA-S}}",
+   "لو {{prolactin}} مرتفع بشكل واضح فنكرر الفحص ونفكر في {{prolactinoma}} ونطلب {{MRI}}"
+  ],
+  "rule": "بعد تشخيص {{PCOS}} نفحص {{diabetes}} و{{dyslipidemia}}"
+ },
+ "M024": {
+  "idea": [
+   "سيدة {{30 years}} ما تحمل بسبب {{irregular bleeding}} وشعر وجه وعندها {{BMI 30}} ومبيض كبير الحجم",
+   "فهذا {{PCOS}} والموجود غالباً هو {{LH:FSH 3:1}}"
+  ],
+  "clues": [
+   [
+    "لو {{hirsutism + irregular bleeding + infertility + obesity}}",
+    "يعني {{PCOS}}"
+   ],
+   [
+    "مع {{bilaterally enlarged ovaries}}",
+    "يعني {{polycystic ovaries}}"
+   ],
+   [
+    "و{{DHEA and 17-OH progesterone normal}}",
+    "يعني استبعدنا {{adrenal tumor}} و{{congenital adrenal hyperplasia}}"
+   ]
+  ],
+  "why": [
+   "لأن في الـ{{PCOS}} يكون الـ{{LH}} عالي والـ{{FSH}} طبيعي أو منخفض فتنقلب النسبة إلى حوالي {{3:1}}",
+   "وهذا يشجع إنتاج {{androgens}} من الـ{{theca cells}} وعدم نضج البويضات، فيحصل {{anovulation}} وشعر زائد وصعوبة حمل"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{testosterone}} في الـ{{PCOS}} غالباً يرتفع (أو {{free testosterone}})، والشعر الزائد دليل على زيادة {{androgens}}",
+   "1": "لأن الـ{{free androgen index}} يرتفع في الـ{{PCOS}} (يزيد {{testosterone}} وينقص {{SHBG}} بسبب {{insulin}})، مو ينقص",
+   "2": "لأن الـ{{thyroid hormones}} طبيعية في الـ{{PCOS}}، وزيادتها أي {{hyperthyroidism}} تعطي نحافة وخفقان، والمريضة عندها {{obesity}}"
+  },
+  "change": [
+   "لو {{TSH}} مرتفع و{{T4}} منخفض فنفكر في {{hypothyroidism}} كسبب لعدم انتظام الدورة وزيادة وزن",
+   "لو {{17-OH progesterone}} مرتفع فنفكر في {{non-classic congenital adrenal hyperplasia}} مو {{PCOS}}"
+  ],
+  "rule": "الـ{{PCOS}} يعني {{high LH:FSH}} (حوالي {{3:1}}) مع {{high androgens}}"
+ },
+ "M025": {
+  "idea": [
+   "حامل (دورتها متأخرة شهرين و{{hCG}} إيجابي) تطلب كل التطعيمات بعد {{stillbirth}} سابق",
+   "والأنسب والآمن هو الـ{{influenza vaccine}} (الـ{{inactivated}})"
+  ],
+  "clues": [
+   [
+    "لو {{pregnant}}",
+    "يعني الـ{{live vaccines}} ممنوعة"
+   ],
+   [
+    "مع {{asks to be vaccinated against everything}}",
+    "يعني لازم نختار فقط اللي آمن ومفيد للحامل"
+   ],
+   [
+    "و{{previous stillbirth at 34 weeks}}",
+    "يعني الخوف نفسي، والتطعيم الآمن يحميها من مضاعفات {{influenza}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{inactivated influenza vaccine}} آمن في أي وقت من الحمل ومفيد لأن الحامل أكثر عرضة لـ{{severe influenza}} و{{preterm labor}}",
+   "أما الـ{{rubella}} و{{measles}} و{{varicella}} فهي {{live attenuated vaccines}} وتُمنع في الحمل بسبب خطر نظري على الجنين"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{rubella vaccine}} {{live attenuated}} فتُمنع أثناء الحمل، ونعطيها بعد الولادة لو غير محصنة",
+   "1": "لأن الـ{{measles vaccine}} (جزء من {{MMR}}) {{live attenuated}} فتُمنع أثناء الحمل",
+   "3": "لأن الـ{{varicella vaccine}} {{live attenuated}} فتُمنع في الحمل، ونؤجلها لما بعد الولادة"
+  },
+  "change": [
+   "لو الحمل في الثلث الثالث (حوالي {{27-36 weeks}}) فنضيف {{Tdap}} لحماية الرضيع من {{pertussis}}",
+   "لو تعرضت لـ{{varicella}} وهي غير محصنة فنعطي {{varicella zoster immunoglobulin}} مو اللقاح"
+  ],
+  "rule": "في الحمل نعطي {{inactivated vaccines}} فقط ({{influenza}} و{{Tdap}}) ونمنع الـ{{live vaccines}}"
+ },
+ "M026": {
+  "idea": [
+   "حامل {{34 weeks}} تشتكي نقص حركة الجنين بدون نزف ولا انقباضات ولا سيلان",
+   "فالخطوة الأولى {{non-stress test}}"
+  ],
+  "clues": [
+   [
+    "لو {{decreased fetal movement at 34 weeks}}",
+    "يعني نقيّم عافية الجنين بفحص غير مؤذي"
+   ],
+   [
+    "مع {{no bleeding, no contractions, no leaking}}",
+    "يعني ما نحتاج فحص حوض ولا تفكير في {{abruption}} أو {{PPROM}}"
+   ],
+   [
+    "و{{had been at work all day}}",
+    "يعني ممكن ما انتبهت للحركة، والمراقبة تكشف الحالة"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{NST}} (أو {{CTG}}) أول وأسهل فحص لعافية الجنين، ونشوف فيه ارتفاع نبض الجنين مع الحركة أي {{reactive}}",
+   "ولو الـ{{NST}} طبيعي أي {{reactive}} نطمنها، ولو غير طبيعي ننتقل لـ{{biophysical profile}}"
+  ],
+  "wrong": {
+   "1": "لأن الـ{{BPP}} (يشمل {{ultrasound}}) فحص ثاني نستعمله لو الـ{{NST}} غير طبيعي، مو الخطوة الأولى",
+   "2": "لأن الـ{{pelvic examination}} ما له فايدة هنا، ما في نزيف ولا سيلان ولا انقباضات، والمشكلة هي عافية الجنين",
+   "3": "لأن الـ{{vibroacoustic stimulation}} نستعمله لما الـ{{NST}} يكون {{non-reactive}} (جنين نايم)، فهو إضافة للـ{{NST}} مو بديل"
+  },
+  "change": [
+   "لو الـ{{NST}} {{non-reactive}} فنسوي {{vibroacoustic stimulation}} أو {{biophysical profile}}",
+   "لو في نزيف أو ألم بطن مستمر فنفكر في {{placental abruption}} ونسوي {{ultrasound}} وفحص حسب الحالة"
+  ],
+  "rule": "نقص حركة الجنين يعني أولاً {{NST}}، وبعدها {{BPP}} لو غير مطمئن"
+ },
+ "M027": {
+  "idea": [
+   "سيدة {{40 years}} سوّت {{tubal ligation}} قبل {{4 years}} وجاها نزف قليل وتأخر دورة {{6 weeks}} مع امتلاء بالـ{{adnexa}}",
+   "فنفكر في {{pregnancy}} (ممكن {{ectopic}}) والخطوة الأولى {{pregnancy test}}"
+  ],
+  "clues": [
+   [
+    "لو {{missed period 6 weeks + vaginal spotting}}",
+    "يعني {{pregnancy}} حتى يثبت العكس"
+   ],
+   [
+    "مع {{prior tubal ligation}}",
+    "يعني لو حدث حمل فخطر الـ{{ectopic}} عالي"
+   ],
+   [
+    "و{{adnexal fullness without tenderness}}",
+    "يعني ممكن {{ectopic}} غير مُتمزق أو {{ovarian cyst}}، والفحص يحدد"
+   ]
+  ],
+  "why": [
+   "لأن أي امرأة في عمر الإنجاب عندها {{amenorrhea}} ونزف لازم نبدأ بـ{{pregnancy test}} (أبسط وأسرع وأرخص)، ونتيجته تحدد باقي التقييم",
+   "وحسب الـ{{approach}}: لو الفحص ما انعمل بعد، نبدأ بـ{{hCG}} قبل الـ{{ultrasound}}"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{laparoscopy}} تدخل جراحي نسويه لو الحمل خارج الرحم مثبت والمريضة غير مستقرة أو فشل العلاج الطبي، مو قبل التأكد من الحمل",
+   "2": "لأن الـ{{pelvic ultrasound}} الخطوة التالية بعد {{positive hCG}} لتحديد موقع الحمل، لكن أول لازم نعرف هل هي حامل",
+   "3": "لأن الـ{{endometrial biopsy}} لتقييم {{AUB}} وسرطان البطانة (عمر {{45}} فما فوق أو {{risk factors}})، وهنا أول احتمال الحمل وما نسويها بدون استبعاد الحمل"
+  },
+  "change": [
+   "لو الـ{{pregnancy test}} {{positive}} فنسوي {{quantitative hCG}} و{{transvaginal ultrasound}} لتحديد موقع الحمل (و{{ectopic}} محتمل بسبب الـ{{tubal ligation}})",
+   "لو الـ{{pregnancy test}} سلبي فنبحث عن سبب ثاني للنزف مثل {{AUB}} أو {{ovarian cyst}} و{{endometrial pathology}}"
+  ],
+  "rule": "أي {{amenorrhea}} أو نزف في عمر الإنجاب يعني {{pregnancy test}} أول شي"
+ },
+ "M028": {
+  "idea": [
+   "أم {{22 years}} بعد {{6 weeks}} من الولادة، ترضّع حصرياً وتبي تباعد {{2 years}}",
+   "فالأنسب {{Depo-Provera}} (حقنة {{progestin-only}})"
+  ],
+  "clues": [
+   [
+    "لو {{exclusively breastfeeding}}",
+    "يعني نتجنب الـ{{estrogen}} ونختار {{progestin only}}"
+   ],
+   [
+    "مع {{wants no pregnancy for 2 years}}",
+    "يعني طريقة طويلة المفعول مثل {{Depo-Provera}} (كل {{3 months}})"
+   ],
+   [
+    "و{{not smoker, no heart disease}}",
+    "يعني ما في {{contraindication}} هرموني آخر، لكن الـ{{estrogen}} غير مناسب بسبب الرضاعة"
+   ]
+  ],
+  "why": [
+   "لأن حسب الـ{{approach}} الـ{{lactating woman}} تأخذ {{progesterone}} وطلب {{2 years}} منع يعني {{Depo-Provera}}",
+   "والـ{{estrogen}} في الأقراص أو اللصقة أو الحلقة قد يقلل كمية الحليب، وأول {{6 weeks}} بعد الولادة فيها خطر {{thrombosis}} أعلى وهذا {{relative contraindication}} للـ{{combined}} حتى {{6 weeks}}"
+  ],
+  "wrong": {
+   "1": "لأن الـ{{transdermal patch}} {{combined}} فيها {{estrogen}} تقلل الحليب وتزيد خطر {{VTE}} بعد الولادة",
+   "2": "لأن الـ{{combined oral pill}} فيها {{estrogen}} تقلل الحليب وتزيد خطر {{thrombosis}} في أول فترة بعد الولادة، وتحتاج التزام يومي",
+   "3": "لأن الـ{{vaginal ring}} {{combined}} فيها {{estrogen}} (نفس مشكلة الأقراص) فما تناسب أم مرضعة"
+  },
+  "change": [
+   "لو ما كانت ترضع وعدت أكثر من {{6 weeks}} ومافي {{contraindications}} فالـ{{combined pill}} خيار مقبول",
+   "لو تبي طريقة بدون هرمون أو طويلة جداً فنختار {{copper IUD}} أو {{LNG-IUD}}، ولو تبي طريقة أقل التزام نقترح {{implant}}"
+  ],
+  "rule": "أم مرضعة وتبي {{2 years}} يعني {{Depo-Provera}} (بدون {{estrogen}})"
+ },
+ "M029": {
+  "idea": [
+   "أم بعد {{20 days}} من الولادة تشتكي إفراز أصفر أبيض بدون رائحة ولا حكة ولا حرارة، والرحم غير مؤلم",
+   "فهذا {{lochia alba}} طبيعي والجواب {{reassurance}}"
+  ],
+  "clues": [
+   [
+    "لو {{yellow-white odorless discharge, no itching}}",
+    "يعني {{lochia alba}} وليس {{infection}}"
+   ],
+   [
+    "مع {{no uterine tenderness, pink cervix}}",
+    "يعني ما في {{endometritis}}"
+   ],
+   [
+    "و{{leukocytes and epithelial cells}} بالفحص المجهري",
+    "يعني مكونات {{lochia alba}} الطبيعية"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{lochia}} إفراز الرحم بعد الولادة ويتغير: {{rubra}} (أحمر) أول أيام، ثم {{serosa}} (وردي بني)، ثم {{alba}} (أصفر أبيض) ويستمر لـ{{4-6 weeks}} تقريباً",
+   "والـ{{lochia alba}} فيها خلايا دم بيضاء وخلايا ظهارية ومخاط، يعني النتيجة المجهرية طبيعية ولا تحتاج علاج"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{dipstick urinalysis}} لـ{{UTI}} وما في أعراض بولية (حرقان أو تكرر)، والمشكلة إفراز مهبلي",
+   "1": "لأن الـ{{culture}} للإفراز الكريه أو مع أعراض عدوى، وهنا ما في رائحة ولا ألم ولا حرارة",
+   "2": "لأن الـ{{metronidazole}} لـ{{bacterial vaginosis}} أو {{trichomoniasis}} (إفراز كريه الرائحة أو حكة)، وهنا ما في أي منها"
+  },
+  "change": [
+   "لو {{foul-smelling lochia + fever + uterine tenderness}} فنشخّص {{endometritis}} ونعطي {{IV antibiotics}} (مثل {{clindamycin and gentamicin}})",
+   "لو {{lochia rubra}} مستمر أو غزير بعد أول أيام فنفكر في {{retained products}} أو {{subinvolution}} ونسوي {{ultrasound}}"
+  ],
+  "rule": "إفراز بعد الولادة بدون رائحة وبدون حرارة يعني {{lochia}} طبيعي فنطمن"
+ },
+ "M030": {
+  "idea": [
+   "حامل {{24 weeks}} عندها سكري يعتمد على {{insulin}} مع {{nephropathy}} و{{chronic hypertension}}",
+   "فأكثر مضاعفة هي {{superimposed pre-eclampsia}}"
+  ],
+  "clues": [
+   [
+    "لو {{insulin-dependent diabetes class F with nephritis}}",
+    "يعني {{diabetic nephropathy}} (مرض كلوي بسبب السكري)"
+   ],
+   [
+    "مع {{chronic hypertension}}",
+    "يعني ضغط سابق للحمل يزيد خطر {{pre-eclampsia}}"
+   ],
+   [
+    "و{{fundal height 25 cm at 24 weeks, FHR 160}}",
+    "يعني الحجم مطابق للعمر والنبض في الحد الأعلى للطبيعي"
+   ]
+  ],
+  "why": [
+   "لأن {{chronic hypertension}} و{{pregestational diabetes}} و{{renal disease}} كل واحد منها عامل خطر لـ{{pre-eclampsia}}، ولما تجتمع يرتفع الخطر أكثر",
+   "فالـ{{superimposed pre-eclampsia}} أكثر مضاعفة شيوعاً في هذه الحالة"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{stillbirth}} خطر موجود لكنه أقل شيوعاً من الـ{{pre-eclampsia}} ويُقلل بالمراقبة والـ{{timing of delivery}}",
+   "2": "لأن الـ{{shoulder dystocia}} مرتبط بـ{{macrosomia}} (ولد كبير) وغالباً مع سكري بدون أمراض وعائية، وهنا الحجم مطابق للعمر (و{{vasculopathy}} غالباً تعطي نمو أقل)",
+   "3": "لأن الـ{{LGA infant}} يرتبط بسكر مرتفع بدون مرض كلوي ووعائي، والـ{{fundal height 25 cm}} عند {{24 weeks}} طبيعي (يطابق العمر تقريباً)"
+  },
+  "change": [
+   "لو السكري سيطرة سيئة بدون {{nephropathy}} أو {{hypertension}} فتزيد احتمالية {{macrosomia}} و{{shoulder dystocia}}",
+   "لو ظهرت {{severe features}} (صداع، {{BP ≥160/110}}) فنعطي {{MgSO4}} ونفكر في توقيت الولادة"
+  ],
+  "rule": "الـ{{Chronic HTN}} مع سكري أو مرض كلوي يعني الأكثر {{superimposed pre-eclampsia}}"
+ },
+ "M031": {
+  "idea": [
+   "حامل توأم {{37 weeks}} في مخاض نشط، وعندها {{previous low transverse CS}} وتوأم أول {{breech}} وأغشية متمزقة",
+   "والسبب الأرجح للـ{{CS}} هنا {{previous caesarean}}"
+  ],
+  "clues": [
+   [
+    "لو {{previous low transverse caesarean}}",
+    "يعني ندبة في الرحم وخطر {{uterine rupture}}"
+   ],
+   [
+    "مع {{twins}} و{{contractions every 2 minutes}}",
+    "يعني رحم مشدود (أكبر حجم) وانقباضات قوية على الندبة"
+   ],
+   [
+    "و{{ROM, 4 cm, 80% effacement}}",
+    "يعني مخاض حقيقي، فالقرار الآن بين ولادة طبيعية وعملية"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{previous caesarean}} أشهر سبب لعملية {{CS}} (حسب الـ{{approach}} أكثر مؤشر لـ{{CS}} هو {{previous CS}})",
+   "ولأن مخاض نشط على رحم عليه ندبة ومعه توأم يرفع خطر تمزق الندبة، فالـ{{previous CS}} هو السبب الذي يُذكر للعملية"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{ruptured membranes}} عند {{37 weeks}} في مخاض نشط ليست مؤشر لـ{{CS}} بحد ذاتها، نكمل المخاض أو نستحث",
+   "2": "لأن الـ{{breech}} للتوأم الأول عامل مهم في طريقة الولادة، لكن السؤال يطلب السبب الأرجح لقرار العملية والمعتمد هو الـ{{previous CS}}",
+   "3": "لأن الـ{{fetal age}} {{37 weeks}} يعني {{term}} (ما في {{prematurity}})، وما يستدعي {{CS}}"
+  },
+  "change": [
+   "لو ما في ندبة سابقة ومعها توأم أول {{cephalic}} فنقدر نسمح بولادة مهبلية",
+   "لو {{3 LSCS}} أو {{classical CS}} فنتجنب الولادة المهبلية تماماً بسبب خطر {{uterine rupture}}"
+  ],
+  "rule": "الـ{{Previous CS}} أشهر سبب لـ{{CS}}، والندبة {{classical}} أو {{3 LSCS}} تمنع الولادة المهبلية"
+ },
+ "M032": {
+  "idea": [
+   "حامل {{8 weeks}} ما عندها {{varicella}} سابقاً والتحليل سالب للأجسام المضادة",
+   "فالخطوة التالية {{avoid exposure}}"
+  ],
+  "clues": [
+   [
+    "لو {{no history of chickenpox and negative antibody titer}}",
+    "يعني {{non-immune}}"
+   ],
+   [
+    "مع {{8 weeks pregnant}}",
+    "يعني ما نعطي {{live vaccine}} الآن"
+   ],
+   [
+    "و{{no exposure mentioned}}",
+    "يعني ما في سبب لـ{{VZIG}} أو {{acyclovir}} الحين"
+   ]
+  ],
+  "why": [
+   "لأن الحامل غير المحصنة معرضة لـ{{varicella pneumonia}} و{{congenital varicella syndrome}}، فنوجّهها تتجنب المصابين",
+   "واللقاح {{live}} يُمنع في الحمل فنؤجله بعد الولادة، ولو حصل تعرض لاحقاً نعطي {{VZIG}}"
+  ],
+  "wrong": {
+   "1": "لأن الـ{{varicella vaccine}} {{live attenuated}} فتُمنع في الحمل، نعطيها بعد الولادة",
+   "2": "لأن الـ{{acyclovir}} علاج للمصابة أو وقاية بعد تعرض في بعض الحالات، وهي ما تعرضت ولا أصيبت",
+   "3": "لأن الـ{{zoster immunoglobulin}} أي {{VZIG}} نعطيه بعد التعرض لشخص مصاب لحامل غير محصنة، ولا يُعطى بدون تعرض"
+  },
+  "change": [
+   "لو تعرضت لمصاب {{varicella}} فنعطي {{VZIG}} خلال أيام (يفضل بأسرع وقت)",
+   "لو ظهرت أعراض {{chickenpox}} فنعطي {{acyclovir}} (خصوصاً لو {{pneumonia}}) ونراقب الجنين"
+  ],
+  "rule": "حامل غير محصنة من {{varicella}} يعني نتجنب التعرض ونلقّح بعد الولادة"
+ },
+ "M033": {
+  "idea": [
+   "حامل {{10 weeks}} عندها {{chronic hypertension}} على {{labetalol}}",
+   "فالخطر المرتفع هو {{intrauterine growth restriction}}"
+  ],
+  "clues": [
+   [
+    "لو {{hypertension on labetalol}}",
+    "يعني {{chronic hypertension}} تؤثر على تروية المشيمة"
+   ],
+   [
+    "مع {{first pregnancy uncomplicated}}",
+    "يعني ما في {{previous CS}} ولا {{uterine surgery}}"
+   ],
+   [
+    "و{{10 weeks}}",
+    "يعني الخطر المستقبلي على نمو الجنين (والمضاعفات تظهر لاحقاً)"
+   ]
+  ],
+  "why": [
+   "لأن الضغط المزمن يسبب تضيق أوعية الرحم والمشيمة فتقل التروية، فيحصل {{IUGR}} (نمو الجنين أقل من المتوقع)",
+   "وكمان يزيد خطر {{superimposed pre-eclampsia}} و{{placental abruption}} و{{preterm birth}}، لكن من الخيارات {{IUGR}} هو المرتبط مباشرة"
+  ],
+  "wrong": {
+   "1": "لأن الـ{{abnormal fetal presentation}} (مثل {{breech}}) لا يرتبط بالضغط، يرتبط بـ{{prematurity}} و{{uterine anomalies}} و{{multiple pregnancy}}",
+   "2": "لأن الـ{{adherent placenta}} (مثل {{accreta}}) يرتبط بـ{{previous CS}} و{{placenta previa}}، وهي ما عندها عملية سابقة",
+   "3": "لأن الـ{{uterine rupture}} يرتبط بـ{{uterine scar}} (عملية سابقة) وهنا ولادة سابقة بدون مضاعفات"
+  },
+  "change": [
+   "لو في {{previous classical CS}} فتزيد احتمالية {{uterine rupture}} و{{adherent placenta}}",
+   "لو الضغط تحت السيطرة وبدون مضاعفات فالخطر أقل لكنه يبقى أعلى من الحمل الطبيعي"
+  ],
+  "rule": "الـ{{Chronic HTN}} يعني {{IUGR}} و{{pre-eclampsia}} و{{abruption}}"
+ },
+ "M034": {
+  "idea": [
+   "حامل أول مرة (عمر الحمل مكتوب {{3t weeks}} وهو خطأ مطبعي) عندها صداع و{{proteinuria 2+}} وضغط {{152/102}} وأخذت {{IV MgSO4}}",
+   "فالهدف الأساسي من الـ{{MgSO4}} هو {{prevent seizures}}"
+  ],
+  "clues": [
+   [
+    "لو {{frontal headache + proteinuria 2+ + BP 152/102}}",
+    "يعني {{pre-eclampsia with severe features}} (الصداع من العلامات)"
+   ],
+   [
+    "مع {{admitted to high risk unit and magnesium sulfate infusion}}",
+    "يعني الهدف الوقاية من {{eclampsia}}"
+   ],
+   [
+    "و{{RR 16}}",
+    "يعني التنفس سليم، وهو أحد مؤشرات متابعة سمّية {{magnesium}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{MgSO4}} مضاد تشنج، يقلل خطر {{eclampsia}} (وهي {{pre-eclampsia}} مع {{seizures}}) ويقلل تكرارها",
+   "وحسب الـ{{approach}}: في الـ{{pre-eclampsia with severe features}} نختار الـ{{MgSO4}} قبل أي {{antihypertensive}}"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{pulmonary congestion}} نتعامل معه بالـ{{fluid restriction}} والـ{{diuretics}}، والـ{{MgSO4}} ما هو علاج لها",
+   "1": "لأن الـ{{vasospasm}} آلية المرض الأساسية، لكن الـ{{MgSO4}} هدفه {{anticonvulsant}} مو علاج انقباض الأوعية",
+   "2": "لأن الـ{{blood pressure}} نخفضها بالـ{{labetalol}} أو {{hydralazine}} أو {{methyldopa}}، والـ{{MgSO4}} ما يخفض الضغط بشكل مؤثر"
+  },
+  "change": [
+   "لو {{BP ≥160/110}} فنضيف {{labetalol}} أو {{hydralazine}} لخفض الضغط (والـ{{MgSO4}} للتشنج)",
+   "لو ظهرت {{magnesium toxicity}} (اختفاء {{deep tendon reflexes}} وبطء التنفس) فنوقف الدواء ونعطي {{calcium gluconate}}"
+  ],
+  "rule": "الـ{{MgSO4}} في الـ{{pre-eclampsia}} يعني وقاية من التشنج مو علاج ضغط",
+  "note": "الرقم في عمر الحمل مكتوب {{3t weeks}} وهو خطأ مطبعي، والإجابة تعتمد على الصورة السريرية."
+ }
+}

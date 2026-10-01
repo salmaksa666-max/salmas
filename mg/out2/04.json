@@ -1,0 +1,281 @@
+{
+ "M051": {
+  "bg": [
+   "الـ{{endometriosis}} يعني وجود نسيج شبيه بـ{{endometrium}} (غدد وأنسجة) خارج تجويف الرحم، مثل المبيض و{{pouch of Douglas}}",
+   "هذا النسيج يستجيب لهرمونات الدورة، فـ ينزف كل شهر لكن الدم ما له مخرج، فـ يسبب التهاب وتليف و{{adhesions}}",
+   "الأعراض الأساسية {{dysmenorrhea}} و{{pelvic pain}} و{{dyspareunia}} و{{infertility}}، و{{AUB}} نادر",
+   "يصيب غالبا الأصغر سنا، بعكس {{adenomyosis}} الأشيع في الأكبر",
+   "التشخيص: {{ultrasound}} يجي أول، والمعيار الذهبي {{laparoscopy}}"
+  ],
+  "steps": [
+   "أول شي دور على الكلمات المفتاحية: {{infertility}} مع {{pelvic pain / dysmenorrhea}} يعني {{endometriosis}}",
+   "بعدين اسأل: هل الألم يستجيب للعلاج البسيط؟ لو فشل {{NSAID}} فـ فيه سبب عضوي",
+   "استبعد {{endometritis}} لأنه حاد مع {{fever / discharge}}",
+   "استبعد {{fibroid}} لأنه {{menorrhagia}} أو {{mass}} مو ألم دورة شديد",
+   "استبعد {{pelvic congestion}} لأن ألمه {{worse on standing}} مو مرتبط بالدورة والعقم"
+  ],
+  "tip": "الـ{{infertility + pelvic pain}} يعني {{endometriosis}}، و{{fibroid}} يعني {{bleeding}}",
+  "pitfall": "فشل {{NSAID}} ما يعني {{pelvic congestion}} أو {{endometritis}}، هو تلميح ان الألم عضوي مو {{primary dysmenorrhea}}"
+ },
+ "M052": {
+  "bg": [
+   "الـ{{post-coital bleeding}} نزيف بعد الجماع، سببه غالبا عنق الرحم (التهاب، {{polyp}}، {{ectropion}}، أو {{cervical cancer}})",
+   "لذلك أي {{post-coital bleeding}} لازم ينفحص عنق الرحم بالمنظار {{speculum}}",
+   "الـ{{Pap smear}} يعطي {{cytology}} (فرز) بينما {{biopsy}} يعطي {{histology}} (تأكيد)",
+   "الـ{{colposcopy}} يكبّر عنق الرحم ويوجه أخذ العينة من أشك منطقة، ويسمى {{directed biopsy}}",
+   "الـ{{cone biopsy}} يشيل قطعة مخروطية من العنق، وهو للتشخيص والعلاج بعد ما تتحدد المشكلة أو لو {{colposcopy}} ما كفى"
+  ],
+  "steps": [
+   "أول شي هل فيه {{visible mass}}؟ لو إيه فـ نحتاج تشخيص نسيجي مباشر",
+   "لو ما فيه آفة واضحة فـ {{Pap smear}} هو الخطوة المنطقية",
+   "استبعد {{RNA / HPV}} لأنها ما تعطي تشخيص نسيجي",
+   "استبعد {{cone biopsy}} لأنها ثقيلة وما نبدأ بها لو الكتلة موجودة"
+  ],
+  "tip": "الـ{{mass}} نأخذ منها {{biopsy}}، والـ{{Pap}} ما نقيس بها كتلة مرئية",
+  "pitfall": "ما تختار {{Pap smear}} لمجرد انه فحص عنق الرحم المشهور، هو للـ{{screening}} مو للكتلة المرئية"
+ },
+ "M053": {
+  "bg": [
+   "الـ{{gestational HTN}} هو {{BP ≥140/90}} بعد {{20 weeks}} بدون {{proteinuria}}، ويرجع طبيعي بعد الولادة",
+   "الـ{{preeclampsia}} هو نفس الشي مع {{proteinuria}} (نسبة {{protein:creatinine}} أكبر من {{0.3}}) أو مع {{severe features}}",
+   "الـ{{severe features}} تشمل {{BP ≥160/110}}، {{headache}}، {{blurred vision}}، {{RUQ pain}}، {{HELLP}}، ومشاكل الجنين والمشيمة",
+   "الـ{{edema}} شائع جدا في الحمل الطبيعي، وما هو معيار تشخيص",
+   "علاج {{HTN}} الخفيف {{labetalol}} ثم {{methyldopa}}، والشديد {{MgSO4}} أولا"
+  ],
+  "steps": [
+   "أول شي: هل البيانات كافية للتشخيص؟ هنا {{BP}} فقط، فـ ما فيه {{proteinuria}} ولا {{labs}}",
+   "ثاني شي: حدد هل فيه {{severe feature}}؟ ما فيه، فـ ما نستعجل في {{MgSO4}}",
+   "استبعد العلاجات اللي مالها دور: {{diuretics}} و{{low-salt}}",
+   "استبعد {{labetalol}} لأن العلاج بعد التأكيد والتقييم لسا مستمر"
+  ],
+  "tip": "الـ{{edema}} لوحدها ما تشخص شي، فـ تأكد من {{BP + protein + labs}} أول",
+  "pitfall": "ما تختار {{diuretics}} أو {{low salt}} للـ{{edema}} في الحمل، هذا فخ مشهور"
+ },
+ "M054": {
+  "bg": [
+   "الـ{{hypothyroidism}} يعني نقص هرمون {{thyroxine}}، فـ يرتفع {{TSH}} (في الأولي) لأن الغدة النخامية تحاول تحفز الغدة الدرقية",
+   "ارتفاع {{TRH}} من {{hypothalamus}} وينبه {{prolactin}} بعد، فـ يصير {{prolactin}} مرتفع ثانويا",
+   "ارتفاع {{prolactin}} يوقف نبضات {{GnRH}} فـ {{anovulation}} و{{oligo/amenorrhea}} و{{infertility}}",
+   "في المصدر: {{hypothyroidism}} يعطي {{menorrhagia}} غالبا، و{{hyperthyroidism / hyperprolactinemia}} يعطيان {{amenorrhea / oligomenorrhea}}، بس الأنماط تتداخل",
+   "العلاج: {{thyroxine}} لـ{{hypothyroidism}}، و{{cabergoline}} لـ{{hyperprolactinemia}} الأولية"
+  ],
+  "steps": [
+   "اقرأ النتائج بالترتيب: {{TSH}} مرتفع، {{prolactin}} مرتفع، {{FSH/LH}} ضمن الطبيعي",
+   "اسأل: أي هرمون السبب وأيهم النتيجة؟ {{TSH}} السبب و{{prolactin}} النتيجة",
+   "استبعد {{hypopituitarism}} لأن {{TSH}} مرتفع مو منخفض",
+   "استبعد {{PCOS}} لأن ما فيه معايير {{Rotterdam}} هنا"
+  ],
+  "tip": "الـ{{high TSH + high prolactin}} يعني {{hypothyroidism}} أول، وعالج {{thyroid}} قبل ما تفكر في {{prolactinoma}}",
+  "pitfall": "ما تلحق على {{hyperprolactinemia}} لمجرد ارتفاع {{prolactin}}، افحص {{TSH}} دائما"
+ },
+ "M055": {
+  "bg": [
+   "في الدورة الطبيعية {{estrogen}} ينمّي بطانة الرحم، و{{progesterone}} بعد {{ovulation}} يوقف النمو ويهيئها للنزول",
+   "في {{anovulation}} (مثل {{PCOS}}) ما فيه {{corpus luteum}} فـ ما فيه {{progesterone}} وتبقى {{estrogen}} تشتغل لحالها وهذا {{unopposed estrogen}}",
+   "النتيجة: تراكم بطانة ثم {{endometrial hyperplasia}} ثم احتمال {{endometrial cancer}}",
+   "عوامل الخطر في المصدر: {{PCOS}} و{{obesity}} و{{tamoxifen}} و أي {{unopposed estrogen}}",
+   "الحماية: {{cyclic progestin}} أو {{OCP}} أو {{LNG-IUD}} تحمي البطانة"
+  ],
+  "steps": [
+   "حدد المشكلة الأساسية: {{oligoovulation}} يعني {{unopposed estrogen}}",
+   "اسأل: الخطر على أي عضو؟ البطانة، مو العظام أو العنق أو الأنابيب",
+   "استبعد {{hip fracture}} لأن {{estrogen}} ما ينقص",
+   "استبعد {{cervical dysplasia}} لأنها مرتبطة بـ{{HPV}}",
+   "استبعد {{ectopic}} لأن سببها تلف الأنابيب"
+  ],
+  "tip": "الـ{{anovulation}} يعني {{unopposed estrogen}} يعني {{endometrial CA}}",
+  "pitfall": "ما تربط {{PCOS}} بـ{{osteoporosis}}، هي ما تنقص {{estrogen}}"
+ },
+ "M056": {
+  "bg": [
+   "الـ{{adenomatous hyperplasia}} (أو {{complex hyperplasia}}) تضخم غدد البطانة بسبب تحفيز {{estrogen}} المستمر",
+   "هرمون {{Estrogen}} ما يجي بس من المبيض، الدهون تحول {{androgens}} إلى {{estrogen}} بـ{{aromatase}}",
+   "كل ما زاد {{BMI}} زاد {{estrogen}} المحيطي، فـ مع {{anovulation}} يصير {{unopposed estrogen}}",
+   "في المصدر: {{obesity + PCOS + anovulation}} تزيد خطر {{endometrial hyperplasia / cancer}}",
+   "وأي {{AUB}} مع {{BMI ≥30}} تستدعي {{endometrial biopsy}}"
+  ],
+  "steps": [
+   "اقرأ الصورة: {{obesity}} مع {{irregular bleeding}} ونتيجة {{biopsy}}",
+   "اسأل: وش الآلية؟ {{excess estrogen without progesterone}}",
+   "استبعد {{adrenal / hepatic}} لأن ما فيه دليل",
+   "استبعد {{local mutation}} لأنه تفسير نادر وغير مرتبط بالسمنة"
+  ],
+  "tip": "الـ{{fat}} هو {{estrogen factory}}",
+  "pitfall": "ما تنسى إن مصدر {{estrogen}} مو المبيض فقط، الدهون تساهم بقوة"
+ },
+ "M057": {
+  "bg": [
+   "الـ{{PCOS}} فيه {{oligo/anovulation}} مزمن، يعني أغلب الدورات بدون {{ovulation}} وبالتالي بدون {{corpus luteum}} و{{progesterone}}",
+   "فـ {{Estrogen}} يستمر يحفز بطانة الرحم بدون {{progesterone}} (هذا {{unopposed estrogen}})",
+   "النتيجة نزيف غير منتظم وتضخم البطانة أي {{hyperplasia}} وخطر {{endometrial cancer}}",
+   "علاج {{hyperplasia without atypia}} {{progesterone}}، و{{with atypia}} {{hysterectomy}} إلا لو سيدة شابة تبغى حمل فـ {{progesterone}}",
+   "الوقاية في {{PCOS}}: {{lifestyle + weight loss}} ثم {{OCP}} أو {{cyclic progestin}}"
+  ],
+  "steps": [
+   "حدد الخلفية: {{PCOS}} و{{obesity}} يعني {{chronic anovulation}}",
+   "اربطها بالنتيجة: {{hyperplasia}} يعني تحفيز {{estrogen}} بدون موازن",
+   "اقرأ التحاليل: {{thyroid, prolactin, cortisol}} طبيعية فـ استبعد أسباب ثانية",
+   "استبعد {{HPV}} لأنه للعنق",
+   "استبعد {{menopause}} لأن المريضة تنزف من سنين وعندها {{estrogen}} عالي"
+  ],
+  "tip": "الـ{{anovulation}} يعني {{unopposed estrogen}} يعني {{hyperplasia}}",
+  "pitfall": "سن {{Menopause}} ما يسبب {{hyperplasia}} في الغالب، لأن {{estrogen}} ينقص"
+ },
+ "M058": {
+  "bg": [
+   "الـ{{placental abruption}} هو انفصال المشيمة عن جدار الرحم قبل ولادة الجنين، فـ يتجمع دم {{retroplacental}}",
+   "العلامات: نزيف مع ألم، رحم متوتر، {{contractions}}، ومشاكل في {{FHR}}",
+   "الـ{{FHR}} الطبيعي بين {{110}} و{{160}}، وفوق ذلك {{tachycardia}} يدل على ضيق الجنين",
+   "في المصدر: كل {{APH}} يعالج محافظا طالما الأم والجنين مستقرين، ولو غير مستقرين فـ {{C-section now}}",
+   "وأدوية {{Tocolytics}} ممنوعة في {{abruption}}، والـ{{mild abruption}} ممكن ولادة مهبلية، و{{severe}} {{CS}}"
+  ],
+  "steps": [
+   "أول شي حدد التشخيص: {{retroplacental sonolucent area}} يعني {{abruption}}",
+   "ثاني شي حدد الاستقرار: {{FHR 170}} يعني الجنين غير مستقر",
+   "ثالث شي: الوضع {{transverse}} يعني ولادة مهبلية مستحيلة",
+   "استبعد {{tocolytic}} و{{oxytocin}} و{{amniotomy}} لأنها تخدم الولادة المهبلية أو تأخيرها",
+   "اختر {{CS}}"
+  ],
+  "tip": "الـ{{abruption}} غير مستقرة أو {{transverse lie}} يعني {{CS now}}",
+  "pitfall": "ما تعطي {{tocolytic}} في {{abruption}} حتى لو {{contractions}} مبكرة"
+ },
+ "M059": {
+  "bg": [
+   "الـ{{Pap smear}} فحص فرز لخلايا عنق الرحم يكشف التغيرات قبل ما تصير سرطان",
+   "سرطان عنق الرحم سببه {{persistent high-risk HPV}} ولذلك يبدأ الفرز عند النشاط الجنسي أو عمر محدد",
+   "الـ{{abnormal Pap}} يتبعها {{colposcopy}} (ما عدا {{ASCUS}} يتبعها {{HPV}} أو {{repeat Pap}})",
+   "الفرز يختلف بحسب الإرشاد: بعض المصادر {{yearly}} وبعضها {{every 3 years}} للـ{{Pap}} و{{every 5 years}} مع {{HPV}}",
+   "هنا الجواب حسب مصدر السؤال {{yearly}}"
+  ],
+  "steps": [
+   "اقرأ السؤال: {{screening}} مو تشخيص، فـ نبحث عن الفترة",
+   "شوف الفئة: {{40 years + sexually active}} يعني داخل الفرز",
+   "استبعد {{no screening}} لأنها داخل العمر",
+   "استبعد الخيارات اللي فيها {{stop after negatives}} لأنها ما تنطبق هنا",
+   "اختر {{yearly}}"
+  ],
+  "tip": "الـ{{sexually active + age 40}} يعني نكمل {{screening}} وما نوقف",
+  "pitfall": "ما تخلط فترة {{Pap}} بفترة {{HPV testing}}، كل واحد له جدول مختلف"
+ },
+ "M060": {
+  "bg": [
+   "الـ{{abruption}} انفصال مبكر للمشيمة عن الرحم قبل الولادة، فـ يتجمع دم بينها وبين الجدار",
+   "السبب الشائع {{HTN / preeclampsia}} و{{smoking}} و{{trauma}} و{{cocaine}}",
+   "الأعراض {{painful vaginal bleeding}} و{{uterine tenderness}} و{{contractions}} وقلة حركة الجنين، وقد يكون النزيف مخفي",
+   "الـ{{placenta previa}} عكسها: نزيف {{painless}} ولازم نعمل {{US}} قبل أي فحص مهبلي",
+   "في المصدر: {{painful bleed = abruption}} و{{painless bleed = previa}}"
+  ],
+  "steps": [
+   "استخرج {{trigger}}: {{trauma + smoking}} يعني {{abruption}}",
+   "اسأل: هل النزيف مؤلم؟ إيه، فـ ليس {{previa}}",
+   "استبعد {{uterine rupture}} لأن ما فيه {{scar}} أو {{obstructed labor}}",
+   "استبعد {{latent labor}} لأن النزيف والألم بعد {{trauma}} غير طبيعيين"
+  ],
+  "tip": "الـ{{painful}} يعني {{abruption}}، و{{painless}} يعني {{previa}}",
+  "pitfall": "ما تحكم بـ{{labor}} لأن فيه {{contractions}}، النزيف المؤلم بعد {{trauma}} يحتاج {{abruption}} أولا"
+ },
+ "M061": {
+  "bg": [
+   "الاكتئاب في الحمل شائع، والاكتئاب غير المعالج يضر الأم (انتحار، {{postpartum depression}}) والجنين (قلة نمو، {{preterm}})",
+   "مضادات الاكتئاب الـ{{SSRIs}} هي الخط الأول وغالبا تستمر في الحمل لو المريضة مستقرة عليها",
+   "دواء {{Paroxetine}} له تحذير من {{cardiac malformations}} في الثلث الأول، لكن في هذا السؤال المريضة حامل مسبقا ومستقرة",
+   "القرار دائما {{risk-benefit}}: خطر المرض مقابل خطر الدواء",
+   "الإيقاف المفاجئ يسبب أعراض انسحاب و{{relapse}}، و{{lithium}} مو للمكتئبة بدون {{bipolar}}"
+  ],
+  "steps": [
+   "أول شي قيّم شدة المرض: {{severe + suicide attempts}} يعني ما نخاطر بانتكاسة",
+   "ثاني شي: هل مستقرة؟ إيه، فـ نكمل نفس الدواء",
+   "استبعد خيارات الإيقاف لأنها ضد مصلحة الأم",
+   "استبعد {{lithium}} لأن ما له داعي وله مخاطر على القلب"
+  ],
+  "tip": "الـ{{severe depression + stable}} نكمل الـ{{SSRI}} ونراقب",
+  "pitfall": "ما تختار إيقاف الدواء لمجرد خوفك من الجنين، المرض الشديد غير المعالج أخطر"
+ },
+ "M062": {
+  "bg": [
+   "الـ{{PMS}} مجموعة أعراض جسمية وسلوكية تظهر في {{luteal phase}} وتروح مع بداية الدورة أو بعدها بقليل",
+   "الـ{{PMDD}} هو الشكل الشديد: أعراض مزاجية قوية مثل {{irritability, depression, anxiety}} تعطل الحياة اليومية",
+   "السبب غير محدد بالكامل، لكن الحساسية لتغيرات {{progesterone / allopregnanolone}} و{{serotonin}} هي النظرية الأقوى",
+   "التشخيص بتقويم أعراض يومي لمدة {{2 cycles}} يوضح الارتباط بالدورة",
+   "العلاج الأول للـ{{PMDD}} {{SSRIs}} (مستمر أو {{luteal only}})"
+  ],
+  "steps": [
+   "أول شي ثبت النمط: أعراض في الأسبوع قبل الدورة وتروح بعدها = {{PMS / PMDD}}",
+   "ثاني شي حدد الشدة: {{incapacitating}} يعني {{PMDD}}",
+   "اسأل: أقوى علاج بالدليل؟ {{SSRIs}}",
+   "استبعد {{progesterone}} بأنواعه لأن دليله ضعيف",
+   "استبعد {{estrogen patch}} لأن الدليل أضعف وله محاذير"
+  ],
+  "tip": "الـ{{PMDD}} يعني {{SSRIs}}، و{{progesterone}} ما يفيد",
+  "pitfall": "ما تختار {{progesterone}} لأن اسمه هرمون الدورة، هذا فخ شائع"
+ },
+ "M063": {
+  "bg": [
+   "الـ{{dysmenorrhea}} ألم مع الدورة، و{{primary}} يعني بدون سبب عضوي (يبدأ في المراهقة بعد {{ovulatory cycles}})",
+   "السبب زيادة {{prostaglandins}} (خصوصا {{PGF2α}}) من البطانة فـ ينقبض الرحم بقوة ويقل الدم",
+   "النمط: ألم {{colicky}} أسفل البطن يمتد للظهر والفخذين، يبدأ مع الدورة أو قبلها بقليل ويدوم 2-3 أيام",
+   "أما {{Secondary dysmenorrhea}} فله سبب عضوي مثل {{endometriosis}} و{{adenomyosis}} ويبدأ في عمر أكبر",
+   "علاج {{primary}}: {{NSAIDs}} أول، ثم {{OCP}} لو فشلت"
+  ],
+  "steps": [
+   "أول شي هل الفحص طبيعي؟ إيه، فـ {{primary}}",
+   "ثاني شي: العلاج الأول {{NSAIDs}} وأفضل من {{acetaminophen}}",
+   "استبعد {{OCP}} لأنه خط ثاني",
+   "استبعد {{clomiphene}} لأنه للعقم"
+  ],
+  "tip": "الـ{{dysmenorrhea}} يعني {{NSAID}} أول، ثم {{OCP}}",
+  "pitfall": "الـ{{endometriosis}} و{{AUB}} الأولى فيهم {{OCP}}، لكن {{dysmenorrhea}} الأولى {{NSAID}}"
+ },
+ "M064": {
+  "bg": [
+   "الـ{{AUB}} يعني أي نزيف أكثر أو أقل أو غير منتظم من الطبيعي",
+   "الـ{{DUB}} (مصطلح قديم) هو {{AUB}} بدون سبب عضوي، غالبا بسبب {{anovulation}}",
+   "في {{anovulation}} تتراكم البطانة بدون {{progesterone}} ثم تنزل مرة وحدة بشكل غزير",
+   "المصدر: {{PALM-COIN}} للتصنيف، و{{AUB}} بدون سبب محدد يعالج بـ{{OCP}}",
+   "الجراحة مثل {{ablation / hysterectomy}} آخر خيار بعد فشل الطبي"
+  ],
+  "steps": [
+   "أول شي هل حدد السبب؟ لا، فـ علاج طبي أولي",
+   "ثاني شي: اختر {{OCP}} ",
+   "استبعد {{D&C}} لأنه مؤقت وقليل الاستعمال",
+   "استبعد {{ablation / hysterectomy}} لأنها لاحقة"
+  ],
+  "tip": "الـ{{DUB / AUB}} أولا {{OCP}}، والجراحة بعد الفشل",
+  "pitfall": "ما تقفز للجراحة أول ما تقرأ {{heavy bleeding}}، العلاج الطبي أولا"
+ },
+ "M065": {
+  "bg": [
+   "الـ{{acute heavy AUB}} نزيف غزير يحتاج تدخل سريع، والخطوة الأولى تقييم الاستقرار: {{BP, HR, orthostatic changes}} و{{Hb}}",
+   "قبل أي شي {{pregnancy test}} دائما في أي {{AUB}} حسب المصدر",
+   "في المريضة المستقرة نستخدم {{IV conjugated estrogen}} أو {{high-dose OCP}} لإيقاف النزيف، وممكن {{tranexamic acid}}",
+   "غير المستقرة أو {{Hb}} منخفض جدا تحتاج {{resuscitation / transfusion}} وأحيانا إجراء جراحي",
+   "بعد التحكم: {{progestin / OCP}} للمتابعة والتحقق من السبب (فوق {{45}} مع {{AUB}} تحتاج {{endometrial sampling}})"
+  ],
+  "steps": [
+   "أول شي هل مستقرة؟ {{BP}} و{{HR}} تقريبا ثابتين فـ نعم",
+   "ثاني شي: النزيف حاد لذلك نحتاج دواء سريع المفعول: {{estrogen}}",
+   "استبعد {{NSAIDs}} لأنها للنزيف المزمن الخفيف",
+   "استبعد {{transfusion}} لأن ما فيه {{shock}}",
+   "اختر {{estrogen}}"
+  ],
+  "tip": "الـ{{acute heavy bleeding + stable}} يعني {{estrogen}}، وغير مستقرة يعني {{transfusion}}",
+  "pitfall": "ما تعطي {{blood}} لكل نزيف غزير، فقط للغير مستقرة أو {{severe anemia}}"
+ },
+ "M066": {
+  "bg": [
+   "الـ{{infertility}} هي عدم حدوث حمل بعد {{12 months}} من جماع منتظم بدون وقاية (والفترة أقصر لو العمر كبير)",
+   "الأسباب: {{ovulatory}} و{{tubal / uterine}} و{{male factor}} و{{unexplained}}",
+   "التقييم يشمل الزوجين معا، وجزء كبير من الأسباب عند الذكر",
+   "الفحوصات الشائعة: {{semen analysis}}، تأكيد {{ovulation}}، و{{HSG}} للأنابيب والرحم",
+   "في المصدر: {{infertility + pelvic pain}} نفكر {{endometriosis}}، و{{PCOS}} علاجها {{lifestyle}} ثم {{clomiphene}}"
+  ],
+  "steps": [
+   "أول شي هل تحقق تعريف {{infertility}}؟ إيه، مرت {{1 year}}",
+   "ثاني شي: التقييم للزوجين وليس للمرأة فقط",
+   "استبعد الفحوصات المتخصصة كخطوة أولى مثل {{HSG}} وطرق قديمة مثل {{BBT}}",
+   "اختر التحويل للمختص"
+  ],
+  "tip": "الـ{{infertility}} يعني تقييم الزوجين، والتحويل يرتب كل الفحوصات",
+  "pitfall": "ما تبدأ بـ{{HSG}} أو {{BBT}} كخطوة أولى لمجرد انها فحوصات معروفة"
+ }
+}

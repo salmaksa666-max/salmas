@@ -1,0 +1,286 @@
+{
+ "M419": {
+  "bg": [
+   "الـ{{multiple gestation}} يعني أكثر من جنين في نفس الحمل، توأم أو ثلاثي أو أكثر.",
+   "الرحم يتمدد أكثر من الطبيعي، وهذا يحفز الانقباضات المبكرة وتسرب الأغشية.",
+   "التوأم غالباً يولد في حدود {{36 weeks}}، والثلاثي أبكر، لأن كل جنين زيادة يقلل عمر الحمل.",
+   "الـ{{prematurity}} تسبب {{respiratory distress syndrome}} و{{intraventricular hemorrhage}} و{{necrotizing enterocolitis}} و{{low birth weight}}.",
+   "مضاعفات ثانية موجودة مثل {{preeclampsia}} و{{placenta previa}} و{{TTTS}} و{{anomalies}}، بس هي أقل بشكل عام من الولادة المبكرة."
+  ],
+  "steps": [
+   "نسأل: السؤال عن سبب {{morbidity}} الأشيع، يعني مضاعفة عامة تصير كثير.",
+   "نربط {{multiple gestation}} بتمدد الرحم فـ الولادة المبكرة.",
+   "نشوف الخيارات الثانية: {{cerebral palsy}} غالباً من {{prematurity}} نفسها.",
+   "نستبعد {{birth trauma}} و{{anomalies}} لأنها أقل تكراراً.",
+   "الجواب {{prematurity}}."
+  ],
+  "tip": "التوأم يعني ولادة مبكرة فـ {{prematurity}} هي الأولى.",
+  "pitfall": "لا تختار {{cerebral palsy}} لأنها تبدو أخطر، هي نتيجة غالباً للـ{{prematurity}} والسؤال يبي السبب الأشيع."
+ },
+ "M420": {
+  "bg": [
+   "الـ{{pyelonephritis}} هو التهاب بكتيري في الكلية، أشهر مسبب {{E. coli}}، وفي الحمل يصير أكثر لأن {{progesterone}} يرخي الحالب فـ يركد البول.",
+   "الأعراض: حرارة وارتجاف وألم في الخاصرة أو الظهر، وأحياناً غثيان وقيء مع أعراض مثانة.",
+   "فحص البول يبين {{pyuria}} وبكتيريا، ونرسل {{urine culture}} قبل المضاد.",
+   "في الحمل ندخل المريضة ونعطي {{IV antibiotics}} ونعطيها سوائل ونراقب الأم والجنين.",
+   "بعد العلاج نعطي {{suppressive antibiotics}} لباقي الحمل أو نعيد الزراعة، لأن الرجعة شائعة."
+  ],
+  "steps": [
+   "أول شي نتعرف على {{pyelonephritis}} من الحرارة والألم الخلفي والـ{{pyuria}}.",
+   "نسأل: حامل؟ نعم، فـ ما نعالج في البيت.",
+   "نستبعد {{oral antibiotics}} لأنها للحالات الخفيفة.",
+   "نستبعد {{ultrasound}} لأنه مو أول خطوة، ونستبعد {{dexamethasone}} لأنه مو في {{preterm labor}}.",
+   "الجواب {{admit for IV antibiotics}}."
+  ],
+  "tip": "الـ{{pyelonephritis}} في الحمل يعني {{admission}} و{{IV antibiotics}} دايماً.",
+  "pitfall": "لا تعطي {{steroids}} لمجرد أنها {{29 weeks}}، الستيرويد للولادة المبكرة المتوقعة مو للعدوى."
+ },
+ "M421": {
+  "bg": [
+   "الـ{{peripartum cardiomyopathy}} هو ضعف عضلة القلب (يعني {{left ventricular systolic dysfunction}}) يظهر في آخر الحمل أو في أول {{5 months}} بعد الولادة بدون سبب ثاني.",
+   "عوامل الخطر: {{preeclampsia}} و{{multiple gestation}} و{{age}} متقدم و{{African descent}}.",
+   "الأعراض: ضيق نفس، {{orthopnea}}، تورم الرجلين، تعب، وأحياناً {{palpitations}}.",
+   "التشخيص بـ{{echocardiography}} (ضعف {{EF}})، والأشعة تبين {{cardiomegaly}}.",
+   "العلاج مثل علاج {{heart failure}} (فيه أدوية آمنة في الحمل)، ومنع الحمل بعدها خطير لو ما رجع القلب طبيعي."
+  ],
+  "steps": [
+   "نقرأ العمر والتاريخ: {{20-year-old}} سليمة، فـ نستبعد الأمراض المزمنة القلبية.",
+   "نشوف التوقيت: {{37 weeks}} يعني {{peripartum}}.",
+   "نشوف النتيجة: قلب كبير مع ضيق نفس يعني {{heart failure}}.",
+   "نستبعد {{MI}} و{{ischemic}} لأنها نادرة في هالعمر.",
+   "الجواب {{peripartum cardiomyopathy}}."
+  ],
+  "tip": "شابة سليمة مع {{heart failure}} في آخر الحمل أو بعد الولادة تعني {{peripartum cardiomyopathy}}.",
+  "pitfall": "لا تقول {{valvular}} لمجرد {{heart failure}}، لازم تاريخ مرض صمامات أو {{murmur}}."
+ },
+ "M422": {
+  "bg": [
+   "الـ{{chronic hypertension}}: ضغط {{≥130/80}} قبل الحمل أو قبل {{20 weeks}} أو يستمر بعد {{12 weeks}} من الولادة.",
+   "الـ{{gestational hypertension}}: ضغط {{≥140/90}} بعد {{20 weeks}} وينتهي بعد {{12 weeks}} من الولادة، بدون {{proteinuria}}.",
+   "الـ{{preeclampsia}}: نفس الضغط مع {{proteinuria}} أي {{protein:creatinine ratio >0.3}}.",
+   "الـ{{severe features}} تشمل {{BP ≥160/110}} و{{RUQ pain}} و{{persistent headache}} و{{blurred vision}} وأي عضو متضرر وأي مكوّن من {{HELLP}}.",
+   "كل مريضة {{preeclampsia}} تنوم وتتابع، والـ{{HELLP}} هو {{hemolysis}} و{{elevated liver enzymes}} و{{low platelets}}."
+  ],
+  "steps": [
+   "نشوف توقيت الضغط: بعد {{20 weeks}}، فـ مو {{chronic}}.",
+   "نشوف {{proteinuria}}: موجودة، فـ مو {{gestational hypertension}}.",
+   "نشوف {{CBC}} و{{LFT}}: طبيعيين، فـ مو {{HELLP}}.",
+   "الجواب {{preeclampsia}}."
+  ],
+  "tip": "ضغط حملي زائد {{proteinuria}} فهو {{preeclampsia}}، وبدون {{proteinuria}} فهو {{gestational HTN}}.",
+  "pitfall": "لا تقول {{HELLP}} لمجرد {{headache}}، لازم {{lab}} غير طبيعي."
+ },
+ "M423": {
+  "bg": [
+   "الـ{{breaking bad news}} مهارة تواصل، وأشهر طريقة اسمها {{SPIKES}}.",
+   "الحرف الأول {{S}} هو {{Setting up}}: مكان خاص، جلوس، إيقاف المقاطعات، وجود شخص داعم.",
+   "بعدها {{Perception}} و{{Invitation}} و{{Knowledge}} و{{Emotions}} و{{Strategy}} كخطوات للمحادثة نفسها.",
+   "الـ{{IUFD}} تعني موت الجنين بعد {{20 weeks}} وتحتاج بعدها {{counseling}} عن الولادة والفحوصات.",
+   "الخبر يعطى للمريضة أولاً، والأقارب ما يعرفون إلا بإذنها."
+  ],
+  "steps": [
+   "نسأل: هذا سؤال سلوك مهني مو سؤال طبي بحت.",
+   "نقدّر إن أول شي في {{bad news}} هو {{preparation}}.",
+   "نستبعد {{inform relatives}} لأن المريضة أولى.",
+   "نستبعد {{further tests}} لأنها تجي بعد إعلام الأم.",
+   "الجواب {{advance preparation}}."
+  ],
+  "tip": "قبل الخبر السيء فـ {{prepare}} (المكان والمعلومات) ثم أخبر المريضة.",
+  "pitfall": "لا تستعجل {{inform patient}} بدون تحضير، والترتيب هو المهم هنا."
+ },
+ "M424": {
+  "bg": [
+   "الـ{{chaperone}} هو شخص مدرب (غالباً ممرضة) يحضر الفحص الحساس كشاهد ومساند للمريضة.",
+   "وجوده يحمي حقوق المريضة ويقلل سوء الفهم ويحمي الطبيب أيضاً.",
+   "المريضة تقدر تقبل أو ترفض، ونوثق في الملف حضوره أو رفضها.",
+   "كل الخيارات الأخرى مبادئ عامة في الـ{{professionalism}}، لكن {{chaperone}} هو الإجراء المحدد."
+  ],
+  "steps": [
+   "نقرأ الكلمة المهمة: {{different gender}}، فـ نبحث عن إجراء خاص بها.",
+   "نشوف إن {{professional}} و{{therapeutic relationship}} و{{expose necessary only}} مبادئ عامة.",
+   "نحدد {{nurse}} كـ{{chaperone}} كإجراء محدد.",
+   "الجواب {{ask for a nurse}}."
+  ],
+  "tip": "فحص حساس مع جنس مختلف يعني {{chaperone}}.",
+  "pitfall": "لا تختار مبدأ عام لأنه صحيح، اختر الإجراء المحدد اللي يخص السؤال."
+ },
+ "M425": {
+  "bg": [
+   "الـ{{menopause}} يعني توقف الدورة {{12 months}} بسبب فقدان وظيفة المبيض وانخفاض {{estrogen}}.",
+   "نقص {{estrogen}} يخلي جدار المهبل رقيق وجاف وأقل مرونة وأكثر عرضة للالتهاب والألم.",
+   "مجموعة الأعراض تسمى {{genitourinary syndrome of menopause}}: جفاف، {{dyspareunia}}، حرقان بول، تكرار {{UTI}}.",
+   "العلاج: {{lubricants}} و{{moisturizers}} كخط أول للخفيف، و{{vaginal estrogen}} للمتوسط والشديد.",
+   "الـ{{systemic estrogen}} لو معاها رحم يحتاج {{progesterone}} معاه لحماية الرحم."
+  ],
+  "steps": [
+   "نشوف السبب: {{menopause}} فـ نقص هرمون.",
+   "نختار العلاج الهرموني الصحيح: {{estrogen}}.",
+   "نستبعد {{Viagra}} لأنه للرجل.",
+   "نستبعد {{progesterone}} لأنه لا يعالج الضمور، ونستبعد {{testosterone}} لأنه مو أول خيار.",
+   "الجواب {{estrogen}}."
+  ],
+  "tip": "ضمور مهبلي بعد انقطاع الطمث فـ {{estrogen}}.",
+  "pitfall": "لا تضيف {{progesterone}} للـ{{local vaginal estrogen}} تلقائياً، هو للـ{{systemic}} عند وجود رحم."
+ },
+ "M426": {
+  "bg": [
+   "الـ{{hydatidiform mole}} (حمل عنقودي) هو مرض {{gestational trophoblastic}} ينتج من تكاثر زائد في {{trophoblast}}.",
+   "النوعين: {{complete mole}} (ما فيه جنين) و{{partial mole}} (فيه أنسجة جنينية غير طبيعية).",
+   "الأعراض: نزيف مهبلي، {{hyperemesis gravidarum}}، رحم أكبر من العمر، وأحياناً {{preeclampsia}} مبكر وكيس مبيضي {{theca lutein cysts}}.",
+   "التشخيص: {{hCG}} عالي جداً مع سونار فيه {{snowstorm}} أو {{vesicles}}، وبعدين تأكيد بالنسيج.",
+   "العلاج {{suction curettage}} ثم متابعة {{hCG}} أسبوعياً لحد ما يطبع، وبعدين {{OCP}} لمنع الحمل خلال المتابعة."
+  ],
+  "steps": [
+   "نشوف النزيف في أول الحمل مع القيء الشديد وهو {{hyperemesis}}.",
+   "نشوف الرحم كبير مع غياب نبض الجنين.",
+   "نشوف {{hCG}} عالي جداً.",
+   "نستبعد {{ectopic}} و{{threatened abortion}} و{{incomplete abortion}} لأن ما واحد منها يجمع هالعلامات.",
+   "الجواب {{hydatidiform mole}} والعلاج {{suction evacuation}}."
+  ],
+  "tip": "رحم كبير و{{hCG}} عالي وقيء ونزيف فهو {{molar pregnancy}}.",
+  "pitfall": "لا تخلط {{hyperemesis}} مع الحمل الطبيعي، لو معاها رحم كبير و{{hCG}} عالي جداً فكر في المولار."
+ },
+ "M427": {
+  "bg": [
+   "الـ{{Rh incompatibility}} يصير لو أم {{Rh-negative}} وجنين {{Rh-positive}}، ودم الجنين يدخل دورة الأم ويحفزها تكوّن {{anti-D antibodies}}.",
+   "الأجسام المضادة تعبر المشيمة وتحطم كريات الجنين فتسبب {{fetal anemia}} و{{hydrops}} في الحمل الجاي.",
+   "الحمل الأول غالباً ما يتأثر لأن التحسس يصير غالباً وقت الولادة.",
+   "الوقاية: {{anti-D immunoglobulin}} في {{28 weeks}} وبعد الولادة خلال {{72 hours}} وبعد أي حدث مثل {{bleeding}} أو {{abortion}} أو {{amniocentesis}}.",
+   "لو الأم تحسست فعلاً، فالوقاية ما تنفع ونتابع {{titer}} و{{MCA Doppler}} (الـ{{critical titer}} هو {{1:16}} حسب المرجع)."
+  ],
+  "steps": [
+   "نسأل: الأم {{Rh-negative}}؟ نعم.",
+   "نسأل: هل تحسست؟ لا، يعني {{not sensitized}}.",
+   "لو غير حساسة فـ نمنع بالـ{{anti-D}}.",
+   "نستبعد {{amniocentesis}} و{{titer}} و{{ultrasound}} لأنها لحالات حساسة.",
+   "الجواب {{Rh immunoglobulin}}."
+  ],
+  "tip": "الأم {{Rh-negative}} غير حساسة تعني {{anti-D}} في {{28 weeks}}.",
+  "pitfall": "لا تفتح مسار المتابعة بالـ{{titer}} إلا لو كانت {{sensitized}}."
+ },
+ "M428": {
+  "bg": [
+   "الـ{{obesity}} هي {{BMI ≥30}} وتزيد خطر {{endometrial cancer}} لأن النسيج الدهني يحوّل {{androgens}} إلى {{estrogen}} فـ يصير {{unopposed estrogen}}.",
+   "كمان يزيد خطر {{breast cancer}} بعد انقطاع الطمث وسرطانات ثانية.",
+   "التاريخ العائلي لسرطان عامل ما نغيّره، لكن الوزن عامل نقدر نتحكم فيه.",
+   "تاريخ عائلي لوحده مو كافي للـ{{screening}} الخاص بسرطان المبيض، لازم {{known genetic disease}}، وبدونها نعمل {{genetic testing}} ونعلّم عن الأعراض.",
+   "النصيحة تكون {{lifestyle counseling}} مع تركيز على الوزن."
+  ],
+  "steps": [
+   "نشوف المعطيات: {{BMI 31}} فـ سمنة.",
+   "نسأل: وش العامل اللي نقدر نعدله؟ الوزن.",
+   "نستبعد النصائح العامة اللي ما تخص العامل الأهم.",
+   "الجواب {{maintain a healthy weight}}."
+  ],
+  "tip": "سمنة مع خطر سرطان فـ {{weight control}} أول نصيحة.",
+  "pitfall": "لا تعتبر التاريخ العائلي هو الهدف، هو ما يتغير، والهدف هو الوزن."
+ },
+ "M429": {
+  "bg": [
+   "الـ{{family planning}} قرار يخص الزوجين وليس طرف واحد.",
+   "الـ{{oral contraceptive pills}} تمنع الحمل وتنظم الدورة، فـ ممكن تكون لسبب علاجي مثل {{irregular menstruation}} مو بس منع حمل.",
+   "الـ{{medical ethics}} مبنية على {{autonomy}} و{{beneficence}} و{{non-maleficence}} و{{justice}}، والطبيب محايد ويوفر المعلومة.",
+   "لازم نشرح للزوجين الخيارات، ومتى يمكن الحمل بعد إيقاف الحبوب، ونراجع سبب {{irregular menstruation}}.",
+   "الطبيب ما يفرض قرار على أي طرف، يشجع على حوار ويحترم الاتفاق."
+  ],
+  "steps": [
+   "نقرأ السؤال: خلاف بين طرفين، فـ هو سؤال أخلاقي.",
+   "نسأل: وش المبدأ؟ قرار مشترك بالاتفاق وهو {{mutual consent}}.",
+   "نستبعد الانحياز لأي طرف.",
+   "نستبعد {{empathy}} لأنه سلوك لكن ما يحدد القرار.",
+   "الجواب {{mutual consent required for contraception}}."
+  ],
+  "tip": "خلاف زوجين على {{contraception}} فـ {{mutual consent}} والطبيب محايد.",
+  "pitfall": "لا تختار الانحياز لطرف، ولا تكتفي بالتعاطف لأنه ما يحل السؤال."
+ },
+ "M430": {
+  "bg": [
+   "الـ{{ovulation}} هو خروج البويضة من {{follicle}} في منتصف الدورة تقريباً بعد ارتفاع {{LH}}.",
+   "بعد الإباضة يتحول {{follicle}} إلى {{corpus luteum}} اللي يفرز {{progesterone}}.",
+   "الـ{{progesterone}} يرتفع في {{luteal phase}} فقط، فـ هو دليل على الإباضة.",
+   "نقيسه في {{mid-luteal phase}}: في دورة {{28 days}} هو اليوم {{21}}، وفي دورة {{29 days}} نقيسه قبل الدورة المتوقعة بحوالي {{7 days}}.",
+   "اختبارات ثانية: {{basal body temperature}} و{{urinary LH}} و{{ultrasound follicle tracking}}."
+  ],
+  "steps": [
+   "نقرأ السؤال: يبي {{confirm ovulation}} مو توقعها.",
+   "نقرر: الدليل المباشر هو أثر {{corpus luteum}} يعني {{progesterone}}.",
+   "نستبعد {{LH}} لأنه {{predictor}}.",
+   "نستبعد {{FSH}} و{{estrogen}} لأنهم ما يثبتون حدوث الإباضة.",
+   "الجواب {{progesterone}}."
+  ],
+  "tip": "توقع الإباضة بـ{{LH}} وتأكيدها بـ{{progesterone}}.",
+  "pitfall": "لا تختار {{LH}} لمجرد إنه مرتبط بالإباضة، هو للتوقع مو للتأكيد."
+ },
+ "M431": {
+  "bg": [
+   "الـ{{preterm labor}} هو ولادة قبل {{37 weeks}}.",
+   "التشخيص يكون بإثبات {{progressive cervical changes}} في فحوصات متكررة، فـ التغير موجود يعني تشخيص.",
+   "أما تقدير الخطر فهو بقياس {{cervical length}} لأنه يتنبأ بالولادة المبكرة في الأيام القادمة.",
+   "العنق القصير {{≤25 mm}} مع ولادة مبكرة سابقة قد يستدعي {{cerclage}} أو {{progesterone}} حسب عمر الحمل.",
+   "عوامل الخطر: ولادة مبكرة سابقة، {{short cervix}}، {{multiple gestation}}، {{infection}}."
+  ],
+  "steps": [
+   "نفرّق بين التشخيص وتقدير الخطر.",
+   "السؤال عن الخطر، فـ الأداة هي {{cervical length}}.",
+   "نستبعد {{serial pelvic exam}} لأنه لتشخيص الولادة.",
+   "نستبعد {{contractions}} لأنها ما تتنبأ بدقة.",
+   "الجواب {{cervical length measurement}}."
+  ],
+  "tip": "الخطر يعني {{cervical LENGTH}}، والتشخيص يعني {{dilation}} في فحوصات متكررة.",
+  "pitfall": "لا تخلط بين {{dilation}} (تشخيص) و{{length}} (تقدير الخطر)."
+ },
+ "M432": {
+  "bg": [
+   "الـ{{placenta previa}} هي مشيمة تغطي أو قريبة من فتحة عنق الرحم الداخلية.",
+   "العرض الكلاسيكي: نزيف مهبلي {{painless}} في الثلث الأخير.",
+   "عوامل الخطر: {{previous cesarean}} و{{multiple gestation}} و{{previous previa}}.",
+   "التشخيص بالسونار، ولازم نعمل سونار لكل {{antepartum hemorrhage}} قبل أي فحص مهبلي.",
+   "الإدارة: {{admission}} و{{steroids}} لو قبل {{34 weeks}} ومراقبة، والولادة بـ{{cesarean}} دايماً (توقيتها {{36-37 weeks}})."
+  ],
+  "steps": [
+   "نحدد التشخيص: {{previa}} مع {{painless bleeding}}.",
+   "نقيّم الاستقرار: أم والجنين بخير ({{CTG}} طبيعي) ونزيف خفيف.",
+   "لو مستقر ومبكر فـ {{expectant}}.",
+   "نستبعد {{immediate C-section}} لأنه لغير المستقر.",
+   "نستبعد {{amniocentesis}} و{{BPP}} لأنها مو الإدارة المطلوبة."
+  ],
+  "tip": "الـ{{previa}} المستقرة قبل {{37 weeks}} فـ {{expectant management}} وإذا نزف شديد فـ {{C-section}}.",
+  "pitfall": "لا تستعجل {{C-section}} لمجرد {{previa}}، المهم هو الاستقرار."
+ },
+ "M433": {
+  "bg": [
+   "الـ{{abortion}} هو فقد الحمل قبل {{20 weeks}} (أو قبل الحيوية).",
+   "نصنف بثلاث أسئلة: هل خرج نسيج؟ هل {{cervix}} مفتوح؟ هل نبض الجنين موجود؟",
+   "لو {{cervix}} مفتوح مع نسيج خارج يعني {{incomplete}}، و{{cervix}} مغلق مع نسيج خارج يعني {{complete}}.",
+   "بدون نسيج: {{cervix}} مفتوح يعني {{inevitable}}، ومغلق مع نبض أو عمر حمل مطابق يعني {{threatened}}، ومغلق بدون نبض يعني {{missed}}.",
+   "الـ{{threatened}} ممكن يتحول {{inevitable}} أو يرجع حمل طبيعي، وإدارته {{expectant}} مع طمأنة."
+  ],
+  "steps": [
+   "أول سؤال: هل خرج نسيج؟ ما ذُكر، فـ لا.",
+   "ثاني سؤال: هل {{cervix}} مفتوح؟ لا، مغلق.",
+   "ثالث سؤال: حجم الرحم مطابق للعمر، فـ نبض أو حمل مستمر.",
+   "نستبعد {{complete}} و{{incomplete}} و{{inevitable}}.",
+   "الجواب {{threatened abortion}}."
+  ],
+  "tip": "لو {{closed cervix}} مع نزيف خفيف فـ {{threatened abortion}}.",
+  "pitfall": "لا تقول {{complete}} لمجرد {{closed cervix}}، لازم تاريخ خروج أنسجة."
+ },
+ "M434": {
+  "bg": [
+   "الـ{{perineal}} أو {{vulvar hematoma}} هو تجمع دم تحت الجلد بسبب تمزق وعاء دموي أثناء الولادة أو بعد {{episiotomy}}.",
+   "العلامات: ألم شديد، تورم أزرق مشدود، وأحياناً صعوبة في التبول.",
+   "المراقبة تشمل فحص العلامات الحيوية و{{hemoglobin}} لأن الدم قد يتجمع بكمية كبيرة.",
+   "الصغير والثابت: {{ice packs}} و{{analgesia}}.",
+   "استطبابات {{evacuation}}: {{expanding hematoma}} أو {{large hematoma}} أو {{hypotension}} أو انخفاض {{Hb}} أو فشل العلاج المحافظ."
+  ],
+  "steps": [
+   "نقيّم الحجم والتطور: {{7 x 5 cm}} ويتوسع.",
+   "نحدد إن فيه نزيف مستمر.",
+   "نستبعد {{observation}} لأنها للصغير الثابت.",
+   "نستبعد {{aspiration}} و{{packing}} لأنهم ما يسيطرون على الوعاء النازف.",
+   "الجواب {{surgical evacuation}}."
+  ],
+  "tip": "الـ{{hematoma}} المتوسع {{expanding}} يعني {{evacuation}}.",
+  "pitfall": "لا تكتفي بالثلج أو المراقبة لو الورم متوسع."
+ }
+}

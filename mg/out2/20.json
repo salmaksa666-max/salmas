@@ -1,0 +1,290 @@
+{
+ "M307": {
+  "bg": [
+   "الـ{{cord prolapse}} يعني الحبل السري نزل قدام أو جنب الجزء المتقدم من الجنين بعد ما تنفتح الأغشية أو حتى مع وجودها.",
+   "الخطر إن الحبل ينضغط بين الراس وعظم الحوض أو يتقلص بسبب البرد واللمس، فـ يوقف الأكسجين عن الجنين.",
+   "يصير أكثر مع {{malpresentation}} مثل {{breech}} و{{transverse lie}}، ومع {{polyhydramnios}} وبعد {{ROM}} والـ{{preterm}}.",
+   "الـ{{FHR}} ممكن يكون طبيعي أول شي، بعدين تظهر {{variable decelerations}} أو {{bradycardia}}.",
+   "الاسعاف بالتوازي: نرفع الجزء المتقدم بالإيد، {{knee-chest position}} أو {{Trendelenburg}}، ونحضر للعمليات فوراً."
+  ],
+  "steps": [
+   "أول شي ننتبه لكلمة {{cord below the head}}، هذي علامة طوارئ.",
+   "بعدين نشوف الـ{{cervix}} {{fully dilated}} ولا لا، لو لا فـ الولادة الفورية بالمهبل مستحيلة.",
+   "نستبعد {{vacuum}} و{{forceps}} لأنهم يحتاجون {{full dilation}}.",
+   "نستبعد {{fetal monitoring}} لأنها انتظار والمطلوب علاج فوري.",
+   "الجواب {{Cesarean section}} مع رفع الراس عن الحبل أثناء التحضير."
+  ],
+  "tip": "الحبل نازل وما اكتملت الفتحة فـ {{C-section}} فوراً.",
+  "pitfall": "لا تغتر بالـ{{FHR}} الطبيعي، {{cord prolapse}} طوارئ حتى لو النبض كويس."
+ },
+ "M308": {
+  "bg": [
+   "الـ{{labor}} فيه مرحلتين في المرحلة الأولى: {{latent}} و{{active}}، وفي الـ{{active}} المفروض تكون الانقباضات قوية والفتحة تتقدم بسرعة.",
+   "الانقباضات الكافية تعني {{3}} أو أكثر في {{10}} دقائق، وأقل من كذا نسميها {{inadequate}} أو {{hypotonic}}.",
+   "الـ{{augmentation}} معناها نقوي انقباضات موجودة أصلاً بالـ{{oxytocin}} (والـ{{amniotomy}} أحياناً)، لكن الـ{{induction}} معناها نبدأ الـ{{labor}} من الصفر.",
+   "الـ{{ripening}} معناها نلين ونفتح الرقبة بـ{{prostaglandins}} قبل الـ{{induction}} لو الرقبة ما جاهزة.",
+   "في الـ{{active phase arrest}} مع انقباضات كافية الحل {{C-section}}، لكن لو الانقباضات ضعيفة نجرب {{oxytocin}} أول."
+  ],
+  "steps": [
+   "نسأل: هل هذي حالة {{labor}} فعلي أو لا؟ هنا نعم، لأن فيه {{ROM}} وفتحة وتمحي.",
+   "نسأل: ليش ما فيه تقدم؟ الجواب انقباضات {{2}} بس في {{10}} دقائق.",
+   "نسأل: الجنين بخير؟ نعم، فـ ما نحتاج {{C-section}}.",
+   "نستبعد {{prostaglandins}} لأنها للـ{{ripening}} و{{induction}} والرقبة هنا جاهزة.",
+   "الجواب {{oxytocin augmentation}}."
+  ],
+  "tip": "الانقباضات ضعيفة والجنين بخير فـ {{oxytocin}} مو {{prostaglandins}}.",
+  "pitfall": "لا تخلط بين {{augmentation}} و{{induction}}، الأولى لـ{{labor}} بدأ فعلاً والثانية لبدايته."
+ },
+ "M309": {
+  "bg": [
+   "الـ{{Asherman syndrome}} هو التصاقات داخل الـ{{uterine cavity}} تنتج غالباً من {{curettage}} خصوصاً بعد حمل أو إجهاض أو التهاب.",
+   "النتيجة: {{amenorrhea}} أو {{hypomenorrhea}} أو {{infertility}} أو {{recurrent miscarriage}}.",
+   "الـ{{progesterone challenge}} يختبر وجود {{estrogen}} كافي و{{endometrium}} يستجيب، ولو ما نزل دم نكمل بـ{{estrogen plus progesterone}}.",
+   "لو فشل الاختبارين يعني ما فيه {{endometrium}} فعّال أو فيه {{outflow obstruction}}، فـ المشكلة {{uterine}}.",
+   "التشخيص بـ{{hysteroscopy}} أو {{hysterosalpingogram}}، والعلاج {{hysteroscopic adhesiolysis}}."
+  ],
+  "steps": [
+   "أول شي نصنف الـ{{amenorrhea}}: {{uterine}} أو {{ovarian}} أو {{pituitary}} أو {{hypothalamic}}.",
+   "نشوف تاريخ {{D&C}} فـ نفكر في {{uterine cause}}.",
+   "نشوف الاختبارات الهرمونية، فشلها كلها يؤيد {{uterine}}.",
+   "نشوف {{FSH}} طبيعي فـ نستبعد المبيض والـ{{pituitary}}.",
+   "نربط كل خيار بسببه: {{Kallmann}} و{{Sheehan}} فيهم {{FSH}} منخفض، و{{PCOS}} ما فيه {{D&C}} ولا فشل اختبارات."
+  ],
+  "tip": "لو {{D&C}} ثم {{amenorrhea}} بدون استجابة فهو {{Asherman}}.",
+  "pitfall": "لا تقول {{Sheehan}} لمجرد {{amenorrhea}}، لازم {{postpartum hemorrhage}} و{{FSH}} منخفض."
+ },
+ "M310": {
+  "bg": [
+   "الـ{{ectopic pregnancy}} هو أي حمل يزرع خارج داخل الرحم، وأشهر مكان هو {{fallopian tube}}.",
+   "عوامل الخطر: {{PID}}، {{previous ectopic}}، {{IVF}}، {{IUD}}.",
+   "العرض الكلاسيكي: ألم بطن مع نزيف مهبلي في أول الحمل، وأحياناً {{amenorrhea}} قبلهم.",
+   "يقلد {{appendicitis}} بشكل كبير، فـ أي امرأة في سن الإنجاب مع ألم بطن تأخذ {{pelvic US}}.",
+   "لو الـ{{pregnancy test}} موجب وما شفنا {{IUP}} نعتبره {{ectopic}} حتى يثبت غيره ونتابع {{hCG}} بعد {{48 hours}}."
+  ],
+  "steps": [
+   "نشوف {{pregnancy test}} موجب فـ الأسباب مرتبطة بالحمل.",
+   "نشوف الـ{{US}} فيه {{sac}} داخل الرحم ولا لا، هنا لا.",
+   "لو ما فيه {{IUP}} مع ألم ونزيف، {{ectopic}} الأول.",
+   "نستبعد {{molar}} لأنها داخل الرحم و{{twisted cyst}} لأنها كتلة بألم شديد.",
+   "الجواب {{ectopic pregnancy}}."
+  ],
+  "tip": "لو {{hCG}} موجب مع رحم فاضي فهو {{ectopic}} حتى يثبت العكس.",
+  "pitfall": "لا تخلط بين {{ruptured corpus luteum}} و{{ectopic}}، الأول يكون معاه {{IUP}} على الأغلب."
+ },
+ "M311": {
+  "bg": [
+   "الـ{{PPROM}} هو {{rupture}} للأغشية قبل بداية {{labor}} وقبل {{37 weeks}}، والـ{{PROM}} نفس الشي بعد {{37 weeks}}.",
+   "العلامات الكلاسيكية: سائل رائق يتسرب، {{pooling}} في الـ{{fornix}} على الفحص، وانخفاض {{fundal height}}.",
+   "التسرب يسبب {{oligohydramnios}} لأن السائل يخرج.",
+   "أدوات إضافية لو غير واضح: {{nitrazine}} وهو يكشف الـ{{alkaline pH}} و{{ferning}} و{{placental alpha-1 microglobulin}} و{{US}}.",
+   "الفحص اليدوي بدون ضرورة يزيد {{ascending infection}} و{{chorioamnionitis}}."
+  ],
+  "steps": [
+   "أول شي نتأكد إن الشك في {{ROM}} وبعدين نسأل أي أداة هي {{gold standard}} سريرياً.",
+   "نختار {{sterile speculum examination}} لأنها تتيح رؤية السائل بدون عدوى.",
+   "نستبعد {{digital exam}} لأنه يزيد {{infection}}.",
+   "نستبعد {{chemical tests}} و{{US}} لأنها ثانوية وتستعمل لو الفحص ما حسم.",
+   "الجواب {{sterile speculum}}."
+  ],
+  "tip": "الـ{{ROM}} تشخيصه {{history}} و{{sterile speculum}}، والباقي ثانوي.",
+  "pitfall": "لا تفحص {{digitally}} امرأة بـ{{ROM}} قبل ما تستبعد {{previa}} أو تتأكد."
+ },
+ "M312": {
+  "bg": [
+   "الـ{{gestational age}} يحسب من آخر {{LMP}} أو بالـ{{ultrasound}} المبكر، وأفضل دقة بـ{{first trimester ultrasound}}.",
+   "الـ{{dating}} يحدد موعد الـ{{nuchal translucency}} وفحوصات الـ{{screening}} والـ{{anomaly scan}} وتقييم {{growth}}.",
+   "يحدد كمان إذا الولادة {{preterm}} أو {{term}} أو {{post-term}} ومتى نسوي {{induction}}.",
+   "الزيارة الأولى تشمل {{history}} و{{examination}} و{{labs}} مثل {{CBC}} و{{blood group}} و{{Rh}}، لكن الـ{{dating}} هو الأساس.",
+   "الـ{{risk factors}} نحددها من الـ{{history}}، لكنها ما تغني عن {{dating}}."
+  ],
+  "steps": [
+   "نشوف الحمل مؤكد ولا لا، هنا مؤكد فـ هذا الخيار مو الأهم.",
+   "نسأل: وش يتأثر لو {{dating}} غلط؟ كل مواعيد {{screening}} و{{induction}} والمتابعة.",
+   "نستبعد {{Hb}} لأنه فحص روتيني.",
+   "نستبعد {{risk factors}} لأنها تتحدد في الزيارة لكن مو هي المحور.",
+   "الجواب {{gestational dating}}."
+  ],
+  "tip": "قبل أي قرار في الحمل نثبت {{dating}}.",
+  "pitfall": "لا تختار {{viability}} لو الحمل مؤكد فعلاً في السؤال."
+ },
+ "M313": {
+  "bg": [
+   "العقم الأولي هو عدم الحمل بعد سنة من الجماع غير المحمي (وأقل من سنة لو العمر أكبر)، وأسبابه: {{ovulatory}} و{{tubal}} و{{uterine}} و{{male}} و{{cervical}}.",
+   "الـ{{BBT}} الطبيعي ثنائي الطور: ينخفض قبل التبويض وبعدين يرتفع بسبب {{progesterone}} بعده.",
+   "الـ{{BBT}} أحادي الطور يعني ما حصل {{ovulation}}.",
+   "الـ{{anovulation}} أسبابه الرئيسية {{PCOS}} و{{hyperprolactinemia}} و{{thyroid disease}} و{{hypothalamic}}.",
+   "الدورات الطويلة أو غير المنتظمة تدل غالباً على مشكلة في التبويض."
+  ],
+  "steps": [
+   "أول شي نقرأ الـ{{cycle}}: طويل وغير منتظم نسبياً.",
+   "نقرأ الـ{{BBT}} وهو أحادي الطور فـ {{anovulation}}.",
+   "نستبعد {{male factor}} لأن السائل طبيعي.",
+   "نستبعد {{PID}} و{{coital}} و{{vaginal}} لأنها ما تفسر {{BBT}} أحادي.",
+   "الجواب {{anovulation}}."
+  ],
+  "tip": "لو {{monophasic BBT}} يعني ما فيه {{ovulation}}.",
+  "pitfall": "لا تتجاهل {{BBT}} وتروح للـ{{tubal factor}} بدون تاريخ {{PID}}."
+ },
+ "M314": {
+  "bg": [
+   "الـ{{abortion}} هو فقدان الحمل قبل {{20 weeks}}، والـ{{early}} قبل {{13 weeks}}.",
+   "نصنف الأنواع بثلاث أسئلة: هل خرج نسيج؟ هل الـ{{os}} مفتوح؟ هل فيه {{fetal heartbeat}}؟",
+   "لو لا نسيج وإقفال {{os}} فهو {{threatened}}، ولو الـ{{os}} مفتوح بدون نسيج فهو {{inevitable}}.",
+   "لو نسيج خرج جزئياً مع {{os}} مفتوح فهو {{incomplete}} أو {{partial}}، ولو خرج كله فـ {{complete}}.",
+   "الـ{{septic abortion}} فيه عدوى: {{fever}} وإفرازات كريهة."
+  ],
+  "steps": [
+   "أول سؤال: هل خرج نسيج؟ نعم.",
+   "ثاني سؤال: هل الـ{{os}} مفتوح؟ نعم، فـ {{incomplete}}.",
+   "نستبعد {{threatened}} و{{inevitable}} لأن النسيج خرج.",
+   "نستبعد {{septic}} لأن ما فيه {{fever}} ولا علامات عدوى.",
+   "الجواب {{incomplete abortion}}."
+  ],
+  "tip": "نسيج مع {{open os}} فهو {{incomplete}}.",
+  "pitfall": "لا تنخدع بكلمة {{painless bleeding}} في أول الستيم، المهم الحالة بعد خروج النسيج."
+ },
+ "M315": {
+  "bg": [
+   "الـ{{secondary amenorrhea}} هي غياب الدورة {{3}} شهور أو أكثر عند امرأة كانت منتظمة (أو {{6}} شهور لو كانت غير منتظمة).",
+   "السبب الأول لازم نستبعده هو {{pregnancy}} بـ{{hCG}}.",
+   "بعدين نفحص {{TSH}} و{{prolactin}} و{{FSH}} لمعرفة سبب {{thyroid}} أو {{pituitary}} أو {{ovarian}}.",
+   "الـ{{FSH}} العالي يعني {{ovarian failure}} أو {{menopause}}، والـ{{FSH}} المنخفض يعني سبب {{hypothalamic}} أو {{pituitary}}.",
+   "في عمر 45 يهمنا نعرف {{ovarian reserve}} لأن هذا يغير النصيحة مثل {{IVF}} ببويضات متبرعة."
+  ],
+  "steps": [
+   "أول شي نستبعد الحمل، وهنا سالب.",
+   "نربط العمر بالتشخيص: 45 سنة، {{ovarian failure}} احتمال كبير.",
+   "نختار فحص يقيّم المبيض مباشرة وهو {{FSH}} و{{LH}}.",
+   "نستبعد {{biopsy}} لأن ما فيه نزيف، و{{HSG}} لأنها لتقييم الأنابيب، و{{TFT}} لأن ما فيه أعراض.",
+   "الجواب {{LH and FSH}}."
+  ],
+  "tip": "لو {{amenorrhea}} بعد {{45}} مع حمل سالب فـ {{FSH}}.",
+  "pitfall": "لا تطلب {{HSG}} لأن المريضة تبي حمل، الـ{{HSG}} لا يفسر {{amenorrhea}}."
+ },
+ "M316": {
+  "bg": [
+   "الـ{{chronic HTN}} هو ضغط {{130/80}} أو أكثر يُكتشف قبل {{20 weeks}} أو يستمر بعد {{12 weeks}} من الولادة.",
+   "الـ{{gestational HTN}}: ضغط {{140/90}} أو أكثر بعد {{20 weeks}} ويرجع طبيعي خلال {{12 weeks}} بعد الولادة بدون ميزات {{preeclampsia}}.",
+   "الـ{{preeclampsia}} هو نفس الشي مع {{proteinuria}} أو {{end-organ damage}}.",
+   "الـ{{HELLP}} فيه {{hemolysis}} و{{elevated liver enzymes}} و{{low platelets}}.",
+   "الـ{{eclampsia}} هو {{preeclampsia}} مع {{seizure}} جديد."
+  ],
+  "steps": [
+   "أول شي نتأكد من توقيت ارتفاع الضغط: جديد بعد {{20 weeks}}.",
+   "نشوف {{proteinuria}} وفحوصات {{labs}}: طبيعية هنا.",
+   "لو ما فيه {{seizure}} نستبعد {{eclampsia}}.",
+   "لو الضغط كان طبيعي قبل نستبعد {{chronic}} و{{superimposed}}.",
+   "الجواب {{gestational hypertension}}."
+  ],
+  "tip": "ضغط جديد + بروتين سلبي + {{labs}} طبيعية فهو {{gestational HTN}}.",
+  "pitfall": "لا تقول {{preeclampsia}} بدون {{proteinuria}} أو {{lab abnormality}} أو أعراض."
+ },
+ "M317": {
+  "bg": [
+   "الـ{{PID}} يعني التهاب الجهاز التناسلي العلوي، ومن مضاعفاته {{tubo-ovarian abscess}}.",
+   "الـ{{TOA}} كتلة ملتهبة في المبيض والأنبوب وغالباً تعطي {{fever}} وألم وكتلة {{adnexal}}.",
+   "العلاج الأولي {{IV broad-spectrum antibiotics}} تغطي {{anaerobes}} مثل {{clindamycin}} أو {{metronidazole}}.",
+   "ندخل {{drainage}} لو ما تحسنت المريضة بعد {{48 to 72 hours}} أو الخراج كبير.",
+   "نحتاج {{laparotomy}} لو {{ruptured abscess}} مع {{sepsis}} أو {{peritonitis}}."
+  ],
+  "steps": [
+   "أول شي نقيّم الاستقرار: هنا {{BP}} مقبول.",
+   "نشوف علامات {{rupture}} أو {{peritonitis}}: غير مذكورة.",
+   "فـ نبدأ بالعلاج الدوائي {{IV antibiotics}}.",
+   "نستبعد الجراحة والتفريغ لأنها تحتاج فشل علاج أو مضاعفات.",
+   "الجواب {{intravenous antibiotics}}."
+  ],
+  "tip": "لو {{TOA}} مستقر فـ {{antibiotics}} قبل التدخل.",
+  "pitfall": "لا تروح للجراحة مباشرة لمجرد {{fever}} عالية بدون {{rupture}} أو صدمة."
+ },
+ "M318": {
+  "bg": [
+   "الـ{{face presentation}} هو {{extended head}} بحيث الوجه هو الجزء المتقدم، ويحس الفاحص الفم والأنف والعيون.",
+   "الـ{{mentum}} (الذقن) هو نقطة التحديد، فـ {{mentoanterior}} يقدر ينولد مهبلياً.",
+   "الـ{{mentoposterior}} الثابت ما يقدر ينولد مهبلياً لأن الرأس ما يقدر يتمدد أكثر.",
+   "الـ{{vacuum}} مضاد استطباب في {{face}} و{{brow}} و{{breech}}.",
+   "التقدم يتابع بالـ{{partograph}} و{{FHR}}."
+  ],
+  "steps": [
+   "أول شي نتعرف على التقديم من الوصف: وجه.",
+   "ثاني شي نقيّم {{labor progress}}: {{6 cm}} وانقباضات كافية.",
+   "فـ ما فيه {{indication}} لـ{{C-section}} ولا {{augmentation}}.",
+   "نستبعد {{CT pelvimetry}} لأنها غير ضرورية.",
+   "الجواب {{monitor partographic progress}}."
+  ],
+  "tip": "الـ{{face}} ما هو {{indication}} لـ{{C-section}}، نراقب التقدم.",
+  "pitfall": "لا تختار {{C-section}} فوراً لمجرد {{malpresentation}} بدون {{arrest}} أو {{distress}}."
+ },
+ "M319": {
+  "bg": [
+   "الـ{{prolactin}} يفرز من الـ{{pituitary}} ويحجب {{GnRH}} فـ يسبب {{amenorrhea}} و{{galactorrhea}}.",
+   "أسباب الارتفاع: {{prolactinoma}} و{{hypothyroidism}} و{{drugs}} مثل {{antipsychotics}} و{{pregnancy}} و{{renal failure}}.",
+   "نستبعد الحمل أول، ثم {{TSH}} والأدوية، ثم نصور الـ{{pituitary}}.",
+   "التصوير بـ{{MRI}} للـ{{sella}} والـ{{pituitary}}.",
+   "العلاج {{cabergoline}} وهو {{dopamine agonist}}."
+  ],
+  "steps": [
+   "أول شي نربط الأعراض بـ{{hyperprolactinemia}}.",
+   "نسأل: وش السبب الهيكلي؟ {{prolactinoma}}.",
+   "فـ التصوير المناسب {{sella turcica}}.",
+   "نستبعد {{lumbar spine}} و{{kidneys}} و{{pelvis}} لأنها ما تفسر السبب.",
+   "الجواب {{sella turcica}}."
+  ],
+  "tip": "لو {{galactorrhea}} مع {{amenorrhea}} و{{prolactin}} عالي فـ صوّر الـ{{sella}}.",
+  "pitfall": "لا تصوّر قبل ما تستبعد {{pregnancy}} و{{hypothyroidism}} والأدوية."
+ },
+ "M320": {
+  "bg": [
+   "الـ{{amniotic fluid embolism}} هو دخول سائل الأمنيوس إلى دورة الأم فـ يسبب تفاعل مناعي شديد.",
+   "يبدأ فجأة بـ{{hypoxia}} و{{hypotension}} و{{coagulopathy}} أثناء الحمل أو الولادة أو بعدها بقليل.",
+   "الـ{{DIC}} يتظاهر بـ{{low platelets}} و{{prolonged PT and APTT}} و{{low fibrinogen}}.",
+   "الـ{{chest X-ray}} يظهر {{pulmonary edema}} أو {{ground glass}} بسبب {{ARDS}}.",
+   "العلاج داعم: {{resuscitation}} و{{oxygen}} و{{blood products}} وولادة الجنين لو لسا في الحمل."
+  ],
+  "steps": [
+   "أول شي نقرأ تسلسل الأحداث: حدث مفاجئ في الحمل.",
+   "نربط الأعراض: تنفس، كلى، {{coagulopathy}}.",
+   "نستبعد الأمراض المعزولة: {{GN}} و{{ITP}} لأنها ما تعطي كل هذا.",
+   "نستبعد {{DIC}} كتشخيص وحيد لأنه ما يفسر الصدر.",
+   "الجواب {{AFE}}."
+  ],
+  "tip": "الـ{{AFE}} = {{respiratory}} + {{coagulopathy}} + {{collapse}}.",
+  "pitfall": "لا تختار {{DIC}} لأنها ظاهرة في الجدول، فهي نتيجة وليست السبب."
+ },
+ "M321": {
+  "bg": [
+   "الـ{{CAIS}} هو {{46,XY}} مع {{androgen receptor}} غير فعال، فـ الجسم ما يستجيب للـ{{androgens}}.",
+   "الـ{{testes}} موجودة وتفرز {{testosterone}} عالي، وجزء منه يتحول إلى {{estrogen}} فيسبب نمو الثدي.",
+   "المظهر الخارجي أنثوي مع {{blind vagina}} وغياب الرحم و{{amenorrhea}}.",
+   "الـ{{MRKH}} هو {{46,XX}} بمبايض طبيعية وهرمونات طبيعية لكن الرحم غائب.",
+   "الـ{{Turner}} هو {{45,X}} مع {{ovarian failure}} وقصر قامة وغياب نمو ثدي."
+  ],
+  "steps": [
+   "أول شي نصنف الـ{{primary amenorrhea}} حسب الثدي: موجود هنا.",
+   "ثاني شي نشوف {{testosterone}}: عالي بمستوى ذكري.",
+   "فـ نفكر في {{46,XY}} مع {{androgen insensitivity}}.",
+   "نستبعد {{MRKH}} لأن {{testosterone}} فيه طبيعي، و{{Turner}} لأن الثدي غائب.",
+   "الجواب {{CAIS}}."
+  ],
+  "tip": "ثدي طبيعي + {{amenorrhea}} + {{testosterone}} ذكري = {{CAIS}}.",
+  "pitfall": "لا تخلط {{MRKH}} و{{CAIS}}، الفرق في {{testosterone}} والكروموسوم."
+ },
+ "M322": {
+  "bg": [
+   "الـ{{hymen}} غشاء رقيق عند مدخل المهبل يختلف شكله بين الأفراد.",
+   "عند الإيلاج الجزء الخلفي حول {{6 o'clock}} أضعف ويتمزق أكثر.",
+   "الإصابات الأمامية غالباً تكون {{straddle injuries}} أو حوادث.",
+   "لو فيه نزيف أو {{hymenal tear}} في طفلة أو مراهقة، نسوي {{examination under anesthesia}} لاستبعاد {{sexual abuse}}.",
+   "نحفظ الأدلة الـ{{forensic}} ونشرك {{social services}} والجهات المسؤولة."
+  ],
+  "steps": [
+   "أول شي نعرف إن السؤال عن موضع الإصابة.",
+   "نربط الإيلاج بالجزء الخلفي من الـ{{hymen}}.",
+   "نستبعد المواقع الجانبية والأمامية.",
+   "نتذكر إن هذا نمط شائع وليس حتمياً.",
+   "الجواب {{6 o'clock}}."
+  ],
+  "tip": "إيلاج = خلفي = {{6 o'clock}}.",
+  "pitfall": "لا تفترض إن موضع التمزق لوحده يثبت أو ينفي {{abuse}}، التقييم الكامل مطلوب."
+ }
+}

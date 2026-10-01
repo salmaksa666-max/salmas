@@ -1,0 +1,584 @@
+{
+ "M051": {
+  "idea": [
+   "سيدة عمرها {{30}} سنة عندها {{infertility}} من {{6 years}} مع {{severe dysmenorrhea}} ما تحسنت على {{naproxen}}",
+   "فهذا {{endometriosis}} لأن اجتماع {{infertility + pelvic pain / dysmenorrhea}} هو الصورة الكلاسيكية له"
+  ],
+  "clues": [
+   [
+    "لأن {{infertility for 6 years}}",
+    "يعني فيه سبب يعيق الحمل، و{{endometriosis}} يسبب التصاقات وتلف في الأنابيب والمبيض"
+   ],
+   [
+    "و{{severe dysmenorrhea}}",
+    "يعني ألم دورة شديد من {{ectopic endometrial tissue}} ينزف ويلتهب كل شهر"
+   ],
+   [
+    "و{{unrelieved by naproxen (NSAID)}}",
+    "يعني الألم أشد من {{primary dysmenorrhea}} العادي، فـ نفكر في سبب عضوي"
+   ]
+  ],
+  "why": [
+   "لأن {{endometriosis}} هو وجود {{endometrial glands and stroma}} خارج الرحم، وهذا النسيج يتأثر بالهرمونات وينزف فيسبب {{inflammation + adhesions}}",
+   "الأعراض الأساسية {{dysmenorrhea}} و{{pelvic pain}} و{{infertility}}، والمعيار في المصدر: {{infertility + pelvic pain = endometriosis}}",
+   "وفشل {{NSAID}} يدل ان الألم مو {{primary dysmenorrhea}} بسيط"
+  ],
+  "wrong": {
+   "0": "لأن {{endometritis}} التهاب بطانة الرحم، يجي مع {{fever}} و{{purulent discharge}} وغالبا بعد ولادة أو إجراء، مو ألم دورة مزمن مع عقم 6 سنين",
+   "1": "لأن {{leiomyomata}} أغلبها بدون ألم، وأشهر أعراضها {{menorrhagia}} و{{pressure symptoms}}، والعقم يصير في {{submucosal}} غالبا، و{{severe dysmenorrhea}} مو العرض الرئيسي",
+   "3": "لأن {{pelvic congestion}} ألم حوض مزمن يزيد بالوقوف واخر اليوم بسبب {{varicose pelvic veins}} وغالبا في متعددة الولادات، وما يفسر العقم"
+  },
+  "change": [
+   "لو {{menorrhagia + symmetrically enlarged uterus}} فـ الجواب {{adenomyosis}}",
+   "لو {{fever + purulent discharge post delivery}} فـ الجواب {{endometritis}}"
+  ],
+  "rule": "الـ{{infertility + pelvic pain / dysmenorrhea}} الجواب {{endometriosis}}"
+ },
+ "M052": {
+  "idea": [
+   "سيدة {{40 years}} مع {{post-coital bleeding}} وفي الفحص بالمنظار {{cervical mass}}",
+   "فـ الخطوة التالية {{directed biopsy}} لأن الكتلة مرئية فنأخذ عينة منها مباشرة للتشخيص النسيجي"
+  ],
+  "clues": [
+   [
+    "لأن {{post-coital bleeding}}",
+    "يعني مصدر النزيف غالبا من عنق الرحم، ولازم نستبعد {{cervical cancer}}"
+   ],
+   [
+    "و{{visible cervical mass}}",
+    "يعني ما نحتاج فحص فرز، نحتاج تشخيص نسيجي مباشر"
+   ],
+   [
+    "و{{next most appropriate investigation}}",
+    "يعني نختار {{tissue diagnosis}} مو {{screening test}}"
+   ]
+  ],
+  "why": [
+   "لأن {{cervical mass}} مع {{post-coital bleeding}} مشكوك فيها {{malignancy}} والتأكيد بـ{{histopathology}} فقط",
+   "الـ{{directed (punch) biopsy}} تأخذ عينة من الكتلة نفسها، وغالبا تحت {{colposcopy}}، وهي طريقة المصدر: {{mass on cervical exam = colposcopy / biopsy}}",
+   "و{{Pap smear}} فحص فرز بس، سلبي كاذب ممكن، وما يثبت التشخيص"
+  ],
+  "wrong": {
+   "0": "لأن {{Pap smear}} {{screening test}} يعطي {{cytology}} فقط، والكتلة المرئية تحتاج {{biopsy}} لا فحص خلايا",
+   "1": "لأن {{cone biopsy}} إجراء جراحي أكبر للحالات اللي ما تظهر فيها آفة واضحة أو {{discordant results}}، مو أول خطوة لكتلة مرئية",
+   "2": "لأن {{RNA analysis}} ما هو فحص تشخيصي لـ{{cervical cancer}}، وحتى {{HPV testing}} ما يعطي تشخيص نسيجي"
+  },
+  "change": [
+   "لو ما فيه {{mass}} بالفحص فـ نسوي {{Pap smear}}",
+   "لو الكتلة بالفحص أثناء {{pregnancy}} فـ حسب المصدر {{Pap smear}}"
+  ],
+  "rule": "الـ{{visible cervical lesion / mass}} الجواب {{directed biopsy}}، و{{Pap}} للـ{{screening}} بس"
+ },
+ "M053": {
+  "idea": [
+   "الـ{{primigravida}} عندها {{edema}} في الرجلين واليدين و{{BP 150/95}} وأدخلت للتقييم",
+   "فـ الخطوة الصحيحة {{continued evaluation}} لأن التشخيص لسا ما اكتمل (نحتاج نفرق {{gestational HTN}} و{{preeclampsia}})"
+  ],
+  "clues": [
+   [
+    "لأن {{edema}}",
+    "يعني علامة شائعة في الحمل الطبيعي وما تكفي لتشخيص {{preeclampsia}}"
+   ],
+   [
+    "و{{BP 150/95}}",
+    "يعني ≥ {{140/90}} فـ نشك في {{hypertensive disorder}} لكن ننتظر {{proteinuria}} والفحوصات"
+   ],
+   [
+    "و{{admitted for evaluation}}",
+    "يعني المطلوب نكمل التقييم قبل أي علاج دوائي"
+   ]
+  ],
+  "why": [
+   "لأن التشخيص يعتمد على {{BP}} مع {{proteinuria}} أو {{severe features}} (تحاليل الكبد والصفائح والكلى، وأعراض مثل الصداع)، وهذي ما انعرفت بعد",
+   "المصدر يقول كل مريضة {{pre-eclampsia}} تنوم، وهي منومة فعلا، والخطوة اللي الآن {{monitoring + investigations}}",
+   "فـ نراقب {{BP}} ونفحص البروتين في البول والمعمل ونراقب الجنين، وبعدها نقرر العلاج"
+  ],
+  "wrong": {
+   "0": "لأن {{diuretics}} تقلل حجم الدم يعني {{plasma volume}} وتضر تروية المشيمة، وما تعالج {{preeclampsia}}، و{{edema}} مو مشكلة تحتاج دواء",
+   "1": "لأن {{low-salt diet}} ما أثبت فائدة في الوقاية أو علاج {{preeclampsia}}، وتقييد الملح غير موصى به في الحمل",
+   "2": "لأن {{oral labetalol}} علاج للـ{{HTN}} بعد تأكيد التشخيص، وهنا الخطوة الأولى نكمل التقييم أولا"
+  },
+  "change": [
+   "لو {{BP ≥160/110}} أو {{severe features}} فـ {{MgSO4}} أولا",
+   "لو تأكد {{preeclampsia}} {{mild}} وانتهى التقييم فـ {{labetalol}} هو الاختيار الأول للـ{{HTN}}"
+  ],
+  "rule": "الـ{{edema + BP 150/95}} بدون نتائج تحاليل: نكمل {{evaluation}} قبل العلاج",
+  "note": "الـ{{heart rate}} في نص السؤال فيها خطأ إملائي، والجواب يعتمد على الصورة السريرية: {{edema + BP 150/95}} مع الحاجة لتأكيد {{proteinuria / labs}}"
+ },
+ "M054": {
+  "idea": [
+   "سيدة {{infertility}} مع {{oligomenorrhea}} ثم {{amenorrhea}} 6 شهور، و{{TSH 9.2}} (مرتفع) و{{prolactin 140}} (مرتفع) و{{FSH/LH}} طبيعيين",
+   "فالتشخيص {{hypothyroidism}} لأن ارتفاع {{TSH}} هو السبب الأصلي وارتفاع {{prolactin}} ثانوي له"
+  ],
+  "clues": [
+   [
+    "لأن {{TSH 9.2}} فوق الطبيعي",
+    "يعني {{primary hypothyroidism}}"
+   ],
+   [
+    "و{{prolactin}} مرتفع",
+    "يعني {{TRH}} الزائد ينبه خلايا {{prolactin}} فـ يرتفع ثانويا"
+   ],
+   [
+    "و{{FSH 5.3 + LH 7.2}} ضمن الطبيعي",
+    "يعني ما فيه {{ovarian failure}}، ولا نمط {{PCOS}} الواضح"
+   ]
+  ],
+  "why": [
+   "لأن المصدر يقول: {{high TSH + high prolactin}} الأولوية للتشخيص {{hypothyroidism}}",
+   "في {{hypothyroidism}} ارتفاع {{TRH}} ينبه إفراز {{prolactin}} فـ تصير {{hyperprolactinemia}} مع {{anovulation}} وتأخر الحمل",
+   "وعلاجها {{thyroxine}}، وبعدها غالبا ينزل {{prolactin}} وترجع الدورة"
+  ],
+  "wrong": {
+   "1": "لأن {{hypopituitarism}} يعطي {{TSH}} منخفض أو طبيعي مع {{low FSH/LH}}، وهنا {{TSH}} مرتفع",
+   "2": "لأن {{hyperprolactinemia}} هنا نتيجة {{hypothyroidism}} مو السبب الأولي، و{{primary prolactinoma}} يجي مع {{TSH}} طبيعي",
+   "3": "لأن {{PCOS}} تشخص بـ{{hyperandrogenism}} و{{anovulation}} و{{PCO}}، وما فيه هنا ما يدل عليها، وارتفاع {{TSH}} ما يفسره"
+  },
+  "change": [
+   "لو {{TSH}} طبيعي و{{prolactin}} مرتفع وحده فـ {{hyperprolactinemia / prolactinoma}} ويعالج بـ{{cabergoline}}",
+   "لو {{FSH/LH}} منخفضين مع {{TSH}} منخفض فـ {{hypopituitarism}}"
+  ],
+  "rule": "الـ{{high TSH + high prolactin}} الجواب {{hypothyroidism}}"
+ },
+ "M055": {
+  "idea": [
+   "سيدة {{43 years}} عندها {{PCOS + oligoovulation}} وأوقفت {{cyclic progesterone}} من 5 سنوات",
+   "فالخطر المرتفع {{endometrial carcinoma}} لأن {{anovulation}} المزمن يعني {{unopposed estrogen}} على بطانة الرحم"
+  ],
+  "clues": [
+   [
+    "لأن {{PCOS + oligoovulation}}",
+    "يعني مرات كثيرة ما يصير {{ovulation}} فـ ما يصير {{progesterone}}"
+   ],
+   [
+    "و{{stopped progesterone}}",
+    "يعني ما فيه حماية دورية للبطانة من {{estrogen}}"
+   ],
+   [
+    "و{{age 43}}",
+    "يعني سنين طويلة من التعرض، فـ يرتفع خطر {{hyperplasia / cancer}}"
+   ]
+  ],
+  "why": [
+   "لأن {{estrogen}} بدون {{progesterone}} يسبب تكاثر مستمر في {{endometrium}} فـ {{hyperplasia}} ثم احتمال {{endometrial carcinoma}}",
+   "المصدر: أي {{unopposed estrogen}} عامل خطر، ومنه {{PCOS}} و{{obesity}}",
+   "وكان {{cyclic progesterone}} يسوي {{withdrawal bleeding}} ويحمي البطانة، وإيقافه يرجع الخطر"
+  ],
+  "wrong": {
+   "0": "لأن {{hip fracture}} يرتبط بنقص {{estrogen}} أي {{osteoporosis}}، وفي {{PCOS}} الـ{{estrogen}} غير ناقص",
+   "1": "لأن {{cervical dysplasia}} سببها {{HPV}} وما لها علاقة بـ{{anovulation}} أو {{progesterone}}",
+   "2": "لأن {{ectopic pregnancy}} مرتبط بتلف الأنابيب ({{PID}}، {{tubal surgery}}) مو بـ{{anovulation}}، والخطر هنا أصلا قل لقلة الحمل"
+  },
+  "change": [
+   "لو {{postmenopausal woman on estrogen only with uterus}} فـ نفس الخطر {{endometrial cancer}}",
+   "لو استمرت على {{OCP}} أو {{progestin}} فـ الخطر ينقص لوجود {{progestin}} يحمي البطانة"
+  ],
+  "rule": "الـ{{PCOS / obesity / anovulation}} الخطر {{endometrial hyperplasia and cancer}} بسبب {{unopposed estrogen}}"
+ },
+ "M056": {
+  "idea": [
+   "سيدة {{42 years}} {{obese}} بـ{{BMI 35}} عندها نزيف غير منتظم 5 سنوات، {{thyroid normal}}، و{{biopsy: adenomatous hyperplasia}}",
+   "فالسبب {{peripheral conversion of precursors to estrogen}} في الدهون، وهذا يعطي {{estrogen}} زائد بدون {{progesterone}}"
+  ],
+  "clues": [
+   [
+    "لأن {{obesity (BMI 35)}}",
+    "يعني نسيج دهني كثير يحول {{androgens}} إلى {{estrogen}} بإنزيم {{aromatase}}"
+   ],
+   [
+    "و{{irregular bleeding}}",
+    "يعني {{anovulation}} فـ ما فيه {{progesterone}} يعاكس {{estrogen}}"
+   ],
+   [
+    "و{{adenomatous hyperplasia}}",
+    "يعني بطانة متضخمة بسبب تحفيز {{estrogen}} المستمر"
+   ]
+  ],
+  "why": [
+   "لأن الدهون مصدر مهم لإنتاج {{estrogen}} خارج المبيض عن طريق تحويل {{androstenedione}} إلى {{estrone}}",
+   "هذا {{estrogen}} المرتفع مع قلة {{ovulation}} = {{unopposed estrogen}} فـ {{endometrial hyperplasia}}",
+   "المصدر: {{PCOS and obesity}} يرفعان خطر سرطان البطانة بسبب {{peripheral conversion of androgens to estrogen}}"
+  ],
+  "wrong": {
+   "0": "لأن {{adrenal hyperplasia}} يعطي {{virilization / hyperandrogenism}} و{{cortisol / 17-OHP}} مضطربة، وما فيه ما يدل عليها هنا",
+   "1": "لأن {{hepatic dysfunction}} ممكن يقلل تكسير {{estrogen}}، بس ما فيه أي دليل على مرض الكبد، والسمنة هي التفسير الأقرب",
+   "2": "لأن {{local genetic mutation}} يتعلق بسرطانات معينة مثل {{PTEN}} وما هو التفسير الأول لحالة سمنة ونزيف غير منتظم"
+  },
+  "change": [
+   "لو {{postmenopausal}} فـ نفس الآلية، {{adipose conversion}} هي مصدر {{estrogen}}",
+   "لو {{hyperandrogenism}} واضح مع {{virilization}} فـ نفكر في {{adrenal / ovarian tumor}}"
+  ],
+  "rule": "الـ{{obesity}} يعني {{peripheral conversion to estrogen}} يعني {{unopposed estrogen}} يعني {{hyperplasia}}",
+  "note": "الصورة أو التقرير مو ظاهر في السؤال، والجواب يعتمد على الصورة السريرية: {{obesity BMI 35 + irregular bleeding + adenomatous hyperplasia}}"
+ },
+ "M057": {
+  "idea": [
+   "سيدة {{42 years}} {{obese}} {{PCOS}} نزيف غير منتظم من أول الدورة بدون علاج، {{estrogen 630}} (مرتفع)، و{{biopsy: adenomatous hyperplasia}}",
+   "فالسبب {{unopposed estrogen}} لأن {{anovulation}} المزمن يعني {{estrogen}} بدون {{progesterone}}"
+  ],
+  "clues": [
+   [
+    "لأن {{PCOS + irregular bleeding since menarche}}",
+    "يعني {{chronic anovulation}} فـ ما فيه {{progesterone}} بعد {{ovulation}}"
+   ],
+   [
+    "و{{estrogen 630}} فوق الطبيعي",
+    "يعني تعرض {{estrogen}} عالي للبطانة"
+   ],
+   [
+    "و{{no medication}}",
+    "يعني ما فيه {{progestin}} يحمي البطانة"
+   ]
+  ],
+  "why": [
+   "لأن بطانة الرحم تتحفز بـ{{estrogen}} باستمرار وما يوقفها {{progesterone}} فـ تتضخم وهو {{adenomatous hyperplasia}}",
+   "الـ{{obesity}} تزيد المشكلة بتحويل {{androgens}} إلى {{estrogen}} في الدهون",
+   "وباقي الفحوصات وهي {{cortisol, T3, T4, TSH, prolactin}} طبيعية فـ ما فيه سبب ثاني للتضخم"
+  ],
+  "wrong": {
+   "0": "لأن {{HPV}} سبب {{cervical dysplasia / cancer}} مو {{endometrial hyperplasia}}",
+   "2": "لأن {{apoptosis}} هو موت الخلايا الطبيعي، وما هو سبب هذا التضخم هنا، السبب الهرموني هو {{unopposed estrogen}}",
+   "3": "لأن {{menopause}} يعني نقص {{estrogen}} مو زيادته، وهي ما زالت تنزف بشكل غير منتظم من {{menarche}} و{{estrogen}} عندها مرتفع"
+  },
+  "change": [
+   "لو {{postmenopausal bleeding + atrophy}} فـ السبب {{endometrial atrophy}} مو {{unopposed estrogen}}",
+   "لو {{high-risk HPV}} فـ نتكلم عن {{cervix}} مو بطانة الرحم"
+  ],
+  "rule": "الـ{{PCOS / anovulation + hyperplasia}} الجواب {{unopposed estrogen}}",
+  "note": "في نتائج السؤال بعض الوحدات والتفاصيل غير واضحة، والجواب يعتمد على الصورة السريرية: {{PCOS + obesity + estrogen elevated + adenomatous hyperplasia}}"
+ },
+ "M058": {
+  "idea": [
+   "سيدة {{34 weeks}} في {{labor}} مع {{vaginal bleeding}} وألم مع {{transverse lie}} و{{FHR 170}} و{{retroplacental sonolucent area}}",
+   "فهذا {{placental abruption}} مع {{fetal distress}} ووضع مستعرض، والجواب {{caesarean section}}"
+  ],
+  "clues": [
+   [
+    "لأن {{retroplacental sonolucent area}}",
+    "يعني تجمع دم خلف المشيمة = {{abruption}}"
+   ],
+   [
+    "و{{FHR 170}}",
+    "يعني {{fetal tachycardia / distress}}، الجنين غير مستقر"
+   ],
+   [
+    "و{{transverse lie}}",
+    "يعني ما ينفع {{vaginal delivery}} أصلا"
+   ],
+   [
+    "و{{contractions + bleeding heavier than menses}}",
+    "يعني {{abruption}} فعال مع نزيف نشط"
+   ]
+  ],
+  "why": [
+   "لأن المصدر: {{if fetus or mother become unstable}} فـ {{C-section now regardless of week}}",
+   "الجنين {{tachycardic}} (أعلى من الطبيعي) فـ {{fetal compromise}}، والـ{{transverse lie}} يمنع الولادة المهبلية",
+   "وفي {{34 weeks}} ما نأخر الولادة، فـ {{CS}} هو الجواب"
+  ],
+  "wrong": {
+   "0": "لأن {{tocolytics}} ممنوعة في {{abruption}} مهما كان العمر، وتخفي علامات الخطر",
+   "1": "لأن {{oxytocin}} يقوي {{contractions}} فـ يزيد النزيف والانفصال، ومع {{transverse lie}} ما ينفع طبيعي",
+   "3": "لأن {{amniotomy}} للولادة المهبلية، والـ{{transverse lie}} ما يسمح، وقد يسبب {{cord prolapse}} مع الـ{{bulging membranes}}"
+  },
+  "change": [
+   "لو {{stable mother and fetus, mild abruption, cephalic}} فـ ممكن {{vaginal delivery}} مع مراقبة",
+   "لو {{IUFD and stable mother}} فـ {{vaginal delivery}} مع {{augmentation}} ممكن"
+  ],
+  "rule": "الـ{{abruption + fetal distress}} أو {{abnormal lie}} الجواب {{emergency CS}}"
+ },
+ "M059": {
+  "idea": [
+   "سيدة {{40 years}} نشطة جنسيا تسأل عن {{Pap smear}} والفحص طبيعي",
+   "فالنصيحة حسب مصدر السؤال {{yearly screening}} لأنها نشطة جنسيا وضمن عمر الفرز"
+  ],
+  "clues": [
+   [
+    "لأن {{sexually active}}",
+    "يعني معرضة لـ{{HPV}} وضمن الفئة اللي تحتاج {{cervical screening}}"
+   ],
+   [
+    "و{{age 40}}",
+    "يعني ضمن عمر الفرز، ما وصلت لسن التوقف"
+   ],
+   [
+    "و{{asymptomatic with normal exam}}",
+    "يعني {{routine screening}} مو تشخيص"
+   ]
+  ],
+  "why": [
+   "الجواب المعطى في هذا السؤال {{yearly Pap smear}} للمرأة النشطة جنسيا",
+   "الفكرة: {{screening}} مستمر ولا يتوقف بعد عدد معين من النتائج السلبية في هذي الفئة العمرية",
+   "وتوقيت الدورة وهو {{LMP 5 days ago}} ما يغير النصيحة"
+  ],
+  "wrong": {
+   "1": "لأن {{every 5 years}} فترة مرتبطة بفحص {{HPV}} (مع أو بدون {{Pap}}) مو بالـ{{Pap}} حسب خيار هذا السؤال",
+   "2": "لأن {{no routine screening}} خطأ، هي {{40 years}} ونشطة جنسيا وما وصلت لسن التوقف",
+   "3": "لأن {{three negative results then stop}} قاعدة ما تنطبق على هذي المريضة، والفرز يستمر ضمن العمر"
+  },
+  "change": [
+   "لو {{Pap}} طلعت {{abnormal}} فـ {{colposcopy}} بحسب المصدر",
+   "لو {{HPV testing}} مستخدم فـ الفترة {{every 5 years}} حسب المصدر"
+  ],
+  "rule": "الـ{{sexually active woman within screening age}} الجواب في هذا السؤال {{yearly Pap}}",
+  "note": "الجواب المعطى {{yearly screening}} يتبع مصدر السؤال، وفترات الفرز تختلف حسب الإرشاد المستخدم"
+ },
+ "M060": {
+  "idea": [
+   "الـ{{primigravida 34 weeks}} بعد {{trauma}} (سقطت من الدرج) مع {{uterine tenderness}} و{{dark red vaginal bleeding}} و{{decreased fetal movement}} وهي {{smoker}}",
+   "فهذا {{placental abruption}}"
+  ],
+  "clues": [
+   [
+    "لأن {{fall / trauma}}",
+    "يعني سبب مباشر لانفصال المشيمة"
+   ],
+   [
+    "و{{uterine tenderness + irregular contractions q3-4 min}}",
+    "يعني ألم ورحم متوتر"
+   ],
+   [
+    "و{{small dark red blood}}",
+    "يعني دم قديم محتبس، يجي في {{abruption}}"
+   ],
+   [
+    "و{{smoking}}",
+    "يعني {{risk factor}} لـ{{abruption}} حسب المصدر"
+   ]
+  ],
+  "why": [
+   "لأن {{abruption}} يجي مع {{painful vaginal bleeding}} و{{uterine tenderness}} و{{contractions}} وقلة حركة الجنين بعد {{trauma}}",
+   "وعوامل الخطر في المصدر: {{HTN / preeclampsia}} و{{smoking}}، وهنا {{smoking}} + {{trauma}}",
+   "وبما إن النزيف مع ألم وليس {{painless}} فـ ما هو {{previa}}"
+  ],
+  "wrong": {
+   "0": "لأن {{placenta previa}} نزيفها {{painless}} وما فيه {{uterine tenderness}}",
+   "1": "لأن {{uterine rupture}} يصير عادة مع {{previous uterine scar}} أو {{obstructed labor}} وتغيرات حادة في الطلق، وما فيه ندبة هنا",
+   "3": "لأن {{latent phase of labor}} ما يعطي نزيف مظلم و{{uterine tenderness}} وقلة حركة بعد {{trauma}}"
+  },
+  "change": [
+   "لو {{painless bright red bleeding}} فـ {{placenta previa}}",
+   "لو {{previous cesarean scar}} مع ألم شديد مفاجئ وتوقف {{contractions}} فـ {{uterine rupture}}"
+  ],
+  "rule": "الـ{{painful bleeding + tenderness + trauma / smoking}} الجواب {{abruption}}"
+ },
+ "M061": {
+  "idea": [
+   "سيدة {{22 years}} عندها {{severe recurrent depression}} و{{multiple suicide attempts}} واستقرت على {{paroxetine}} لمدة 3 شهور وحملت",
+   "فالإدارة {{continue paroxetine and monitor}} لأن خطر انتكاس الاكتئاب أكبر من مخاطر الدواء"
+  ],
+  "clues": [
+   [
+    "لأن {{severe depression + multiple suicide attempts}}",
+    "يعني مرض خطير وإيقاف الدواء ممكن يسبب انتكاسة وخطر انتحار"
+   ],
+   [
+    "و{{stable for 3 months on paroxetine}}",
+    "يعني الدواء ناجح، فـ ما نغيره بلا داع"
+   ],
+   [
+    "و{{now pregnant}}",
+    "يعني نوازن بين خطر الدواء وخطر المرض، والمرض أخطر هنا"
+   ]
+  ],
+  "why": [
+   "لأن الاكتئاب الشديد غير المعالج في الحمل خطر على الأم والجنين ({{self-harm}}، ضعف رعاية، وزيادة {{preterm birth}} و{{low birth weight}})",
+   "الإيقاف المفاجئ يسبب {{relapse}} و{{discontinuation syndrome}} والمريضة مستقرة على الدواء، فـ نكمل مع مراقبة الأعراض",
+   "وبعدها نتابع بالتعاون مع الطب النفسي"
+  ],
+  "wrong": {
+   "0": "لأن إيقاف الدواء لتجنب {{prematurity}} غير مبرر، والاكتئاب نفسه يرفع خطر {{preterm birth}}",
+   "2": "لأن إيقاف الدواء بسبب خطر على الجنين يعرض الأم لانتكاسة خطيرة، وفوائد العلاج هنا أكبر من المخاطر",
+   "3": "لأن {{lithium}} ما له داعي (هي مستقرة)، وهو معروف بخطر {{fetal cardiac malformations}} فـ لا نضيف دواء ثاني بدون سبب"
+  },
+  "change": [
+   "لو {{mild depression}} فـ ممكن نوقف الدواء ونعتمد على {{psychotherapy / CBT}}",
+   "لو {{bipolar disorder}} فـ نتشاور مع الطب النفسي، و{{lithium}} يحتاج حذر شديد"
+  ],
+  "rule": "الـ{{severe depression stable on SSRI}} في الحمل نكمل الدواء ونراقب"
+ },
+ "M062": {
+  "idea": [
+   "سيدة {{23 years}} أعراض {{breast tenderness, bloating, mood lability, anxiety, insomnia}} في الأسبوع قبل الدورة وتختفي في أول 3 أيام من الدورة مع {{incapacitating}} وتأثير على الحياة",
+   "فهذا {{PMDD}} (شكل شديد من {{PMS}}) وأفضل علاج بالأدلة {{SSRIs}}"
+  ],
+  "clues": [
+   [
+    "لأن {{symptoms in luteal phase and resolve within first days of menses}}",
+    "يعني أعراض مرتبطة بالدورة وهذا هو {{PMS / PMDD}}"
+   ],
+   [
+    "و{{totally incapacitated + affects personal and professional life}}",
+    "يعني شدة كبيرة = {{PMDD}} مو {{PMS}} خفيف"
+   ],
+   [
+    "و{{best-evidenced treatment}}",
+    "يعني العلاج الأقوى دليلا: {{SSRIs}}"
+   ]
+  ],
+  "why": [
+   "لأن {{SSRIs}} (مثل {{fluoxetine, sertraline}}) أقوى علاج بالدليل للـ{{PMDD}} ويفيدون حتى لو أخذوا في {{luteal phase}} فقط",
+   "الأعراض مزاجية مثل {{mood lability, anxiety}} وتتأثر بـ{{serotonin}}",
+   "وما نحتاج {{menstrual irregularity}} أو {{life stressors}} لأن النمط دوري مرتبط بالدورة"
+  ],
+  "wrong": {
+   "1": "لأن {{medroxyprogesterone}} ما أثبت فائدة جيدة في {{PMS / PMDD}} وما يعتبر علاج مثبت",
+   "2": "لأن {{progesterone suppositories}} دراساتها ما أثبتت فائدة أفضل من {{placebo}}",
+   "3": "لأن {{transdermal estrogen}} ممكن يوقف {{ovulation}} لكن الدليل أضعف من {{SSRIs}} ويحتاج {{progestin}} لحماية البطانة"
+  },
+  "change": [
+   "لو {{PMS}} خفيف فـ {{lifestyle changes}} و{{exercise}} و{{NSAIDs}} للأعراض الجسمية",
+   "لو تحتاج {{contraception}} مع الأعراض فـ ممكن {{OCP}} (مثل {{drospirenone}}) كخيار ثاني"
+  ],
+  "rule": "الـ{{PMDD / severe PMS}} أفضل علاج بالأدلة {{SSRIs}}"
+ },
+ "M063": {
+  "idea": [
+   "بنت {{14 years}} ألم {{colicky}} أسفل البطن يمتد للظهر والفخذين مع بداية الدورة {{2-4 days}} وفحص طبيعي وتطور طبيعي",
+   "فهذا {{primary dysmenorrhea}} والخطوة الأولى {{NSAIDs}}"
+  ],
+  "clues": [
+   [
+    "لأن {{pain starts with onset of menses for 2-4 days}}",
+    "يعني نمط {{primary dysmenorrhea}}"
+   ],
+   [
+    "و{{normal abdominal and pelvic exam}}",
+    "يعني ما فيه سبب عضوي"
+   ],
+   [
+    "و{{normal secondary sexual development}}",
+    "يعني ما فيه اضطراب هرموني"
+   ],
+   [
+    "و{{first step}}",
+    "يعني أول علاج نبدأ به"
+   ]
+  ],
+  "why": [
+   "لأن {{primary dysmenorrhea}} سببه زيادة {{prostaglandins}} في بطانة الرحم، و{{NSAIDs}} تثبط تصنيعها فـ تعالج السبب",
+   "المصدر: {{dysmenorrhea: start NSAID, then OCP if NSAID fails}}",
+   "وهي أول علاج لأنها فعالة وآمنة وسهلة"
+  ],
+  "wrong": {
+   "1": "لأن {{OCP}} خط ثاني لو فشلت {{NSAIDs}} أو لو تحتاج {{contraception}}",
+   "2": "لأن {{acetaminophen}} ضعيف الفعالية في الأمراض النسائية حسب المصدر ولا يثبط {{prostaglandins}} بنفس الكفاءة",
+   "3": "لأن {{clomiphene}} لتحفيز {{ovulation}} في العقم وما له علاقة بالألم"
+  },
+  "change": [
+   "لو فشلت {{NSAIDs}} بعد {{3 months}} فـ {{OCP}}",
+   "لو الألم شديد بعد فشل العلاج أو فيه علامات عضوية فـ نفكر في {{endometriosis}} و{{laparoscopy}}"
+  ],
+  "rule": "الـ{{primary dysmenorrhea}} الخطوة الأولى {{NSAIDs}}، ثم {{OCP}}"
+ },
+ "M064": {
+  "idea": [
+   "سيدة {{41 years}} عندها {{heavy bleeding}} وبعد تقييم كامل تشخيصها {{dysfunctional uterine bleeding}}",
+   "فالخطوة الأولى {{oral contraceptive pill}} لأنه علاج طبي أولي لـ{{AUB}} بدون سبب عضوي"
+  ],
+  "clues": [
+   [
+    "لأن {{DUB}} بعد تقييم كامل",
+    "يعني ما فيه سبب عضوي محدد"
+   ],
+   [
+    "و{{first step in management}}",
+    "يعني الدواء مو الجراحة"
+   ],
+   [
+    "و{{age 41}}",
+    "يعني لسا سن الإنجاب وتقييمها اكتمل"
+   ]
+  ],
+  "why": [
+   "لأن المصدر: {{if no specific cause found, AUB is managed via OCP}} (يقلل النزيف ويضبط الدورة ويخفف الألم)",
+   "الـ{{OCP}} يثبت البطانة ويقلل الكمية، وهو علاج طبي غير جراحي وأقل مخاطر",
+   "والخيارات الجراحية نلجأ لها لو فشل العلاج الطبي"
+  ],
+  "wrong": {
+   "0": "لأن {{D&C}} نادرا تستخدم الآن، علاجها مؤقت، وتحل محلها {{endometrial sampling}} و{{hysteroscopy}}",
+   "2": "لأن {{endometrial ablation}} إجراء بعد فشل العلاج الطبي ولمن لا ترغب بالحمل",
+   "3": "لأن {{hysterectomy}} علاج نهائي بعد فشل كل العلاجات الأقل تدخلا"
+  },
+  "change": [
+   "لو فشل {{OCP}} أو فيه {{contraindication}} فـ {{progestin}} أو {{LNG-IUD}} أو {{NSAIDs / tranexamic acid}}",
+   "لو فشلت كل العلاجات الطبية فـ {{ablation}} ثم {{hysterectomy}} حسب الرغبة"
+  ],
+  "rule": "الـ{{AUB}} بدون سبب عضوي الخط الأول {{OCP}}"
+ },
+ "M065": {
+  "idea": [
+   "سيدة {{48 years}} {{nulliparous}} نزيف مهبلي غزير مع دوخة خفيفة، {{Hb}} منخفض شوي، {{pregnancy test negative}} والعلامات الحيوية شبه مستقرة",
+   "فالخطوة الأولى {{conjugated estrogen}} لإيقاف النزيف الحاد لأنها مستقرة هيموديناميكيا"
+  ],
+  "clues": [
+   [
+    "لأن {{large amount of blood in vaginal vault}}",
+    "يعني نزيف حاد نشط يحتاج إيقاف سريع"
+   ],
+   [
+    "و{{BP and HR near stable}}",
+    "يعني ما فيه {{shock}}، فـ ما نحتاج دم أولا"
+   ],
+   [
+    "و{{Hb mildly low}}",
+    "يعني فقر دم خفيف وليس شديد"
+   ],
+   [
+    "و{{pregnancy test negative}}",
+    "يعني ما هو {{pregnancy-related}}، فـ {{AUB}} (غالبا {{anovulatory}})"
+   ]
+  ],
+  "why": [
+   "لأن {{high-dose estrogen}} يسرّع تغطية البطانة المتقشرة ويوقف النزيف الحاد في مريضة مستقرة",
+   "وبعدها نكمل {{progestin / OCP}} للحفاظ على التحكم ثم نبحث عن السبب",
+   "وحيث انها {{48}} فـ لازم نفكر لاحقا في {{endometrial sampling}} لأنها فوق {{45}} مع {{AUB}}"
+  ],
+  "wrong": {
+   "0": "لأن {{NSAIDs}} تقلل النزيف في {{menorrhagia}} المزمن لكن ما تكفي لنزيف حاد غزير",
+   "1": "لأن {{medroxyprogesterone}} يناسب النزيف الأخف أو للمتابعة، ما هو الأسرع لإيقاف نزيف حاد نشط",
+   "3": "لأن {{blood transfusion}} للأم غير المستقرة أو {{severe anemia}}، وهي حاليا شبه مستقرة"
+  },
+  "change": [
+   "لو {{hemodynamically unstable / shock}} فـ {{resuscitation + blood transfusion}} أولا",
+   "لو {{mild-moderate chronic bleeding}} فـ {{OCP / tranexamic acid / NSAIDs}}"
+  ],
+  "rule": "الـ{{acute heavy AUB, stable}} الجواب {{estrogen}} لإيقاف النزيف",
+  "note": "في نتائج السؤال وحدة {{Hb}} غير متطابقة مع المدى المرجعي، والجواب يعتمد على الصورة السريرية: نزيف غزير بمريضة شبه مستقرة"
+ },
+ "M066": {
+  "idea": [
+   "سيدة {{27 years}} {{nulliparous}} ما حملت بعد {{1 year}} من جماع منتظم بدون وقاية وزوجها صحي لكن ما أنجب سابقا، والسؤال عن أنسب خطوة أولى بعد التاريخ والفحص",
+   "فالجواب {{referral to a reproductive specialist}} لأنها تحقق تعريف {{infertility}} والتقييم يشمل الزوجين"
+  ],
+  "clues": [
+   [
+    "لأن {{1 year of regular unprotected intercourse without conception}}",
+    "يعني تحقق تعريف {{infertility}} فـ تستحق تقييم رسمي"
+   ],
+   [
+    "و{{spouse never fathered a child}}",
+    "يعني ما فيه دليل على خصوبة الزوج، فـ التقييم يشمل الطرفين"
+   ],
+   [
+    "و{{most appropriate initial step after history and exam}}",
+    "يعني نحول لمختص يرتب التقييم الكامل"
+   ]
+  ],
+  "why": [
+   "لأن {{infertility}} هي عدم الحمل بعد {{12 months}} من جماع منتظم بدون وقاية، وهنا اكتملت المدة",
+   "التقييم يشمل الزوجين معا من ناحية {{ovulation, tubal factor, semen}}، والمختص ينسق الفحوصات حسب الحالة",
+   "فـ التحويل هو الخطوة الأنسب بعد التاريخ والفحص حسب هذا السؤال"
+  ],
+  "wrong": {
+   "1": "لأن {{basal body temperature charting}} طريقة قديمة وغير دقيقة لتأكيد {{ovulation}} وتتعب المريضة",
+   "2": "لأن {{HSG}} فحص لتقييم الأنابيب والرحم ويطلب ضمن التقييم لاحقا، مو أول خطوة",
+   "3": "لأن {{semen analysis}} هي جزء من التقييم الذي ينظمه المختص للزوجين، بينما الخطوة الأولى في هذا السؤال هي التحويل"
+  },
+  "change": [
+   "لو {{less than 12 months}} فـ نطمئنها ونشجع على الجماع المنتظم",
+   "لو {{age ≥35}} أو {{known risk factor}} فـ نسرع التقييم والتحويل"
+  ],
+  "rule": "الـ{{infertility ≥1 year}} الجواب هنا {{referral to a reproductive specialist}}",
+  "note": "الجواب المعطى {{referral to a reproductive specialist}}، والخيارات الأخرى هي أجزاء من التقييم اللاحق"
+ }
+}

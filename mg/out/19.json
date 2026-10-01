@@ -1,0 +1,553 @@
+{
+ "M291": {
+  "idea": [
+   "السؤال يختبر وقاية الولادة المبكرة عند وحدة عندها {{previous preterm birth}} مرتين.",
+   "الحمل الحالي طبيعي والـ{{cervical length}} طولها {{30 mm}} يعني الرقبة طويلة مو قصيرة."
+  ],
+  "clues": [
+   [
+    "{{G3 P02002}} مع {{2 previous preterm deliveries}}",
+    "عندها تاريخ ولادة مبكرة متكررة فهي معرضة للتكرار"
+   ],
+   [
+    "{{cervical length 30 mm}}",
+    "أكبر من {{25 mm}} يعني {{long cervix}} فما فيه {{cervical insufficiency}} بالسونار"
+   ],
+   [
+    "{{20 weeks}} والحمل سليم",
+    "ما فيه أي سبب ثاني يحتاج علاج غير منع الولادة المبكرة"
+   ]
+  ],
+  "why": [
+   "لو {{prior preterm labor < 34 weeks}} مع {{long cervix}} فالمفروض نعطي {{progesterone supplementation}} لمنع تكرار الولادة المبكرة.",
+   "الـ{{cerclage}} نحتاجه فقط لو {{short cervix}} أو {{classical history}} للـ{{cervical insufficiency}}، وهنا الرقبة طويلة فما له داعي."
+  ],
+  "wrong": {
+   "0": "الـ{{strict bed rest}} ما أثبت فايدة في منع الولادة المبكرة وله مضاعفات مثل {{DVT}}.",
+   "1": "الـ{{immediate cervical cerclage}} غلط لأن الـ{{cervical length}} {{30 mm}} يعني {{long cervix}} وما عندها {{classical history}}.",
+   "2": "الـ{{aspirin 81 mg}} يعطى للوقاية من الـ{{preeclampsia}} عند وجود {{risk factors}} لها، مو لمنع الـ{{preterm labor}}."
+  },
+  "change": [
+   "لو الـ{{cervical length}} كانت {{≤ 25 mm}} مع نفس التاريخ والـ{{GA}} أقل من {{24 weeks}} فالجواب يصير {{cerclage}} أو {{progesterone}}.",
+   "لو كان تاريخها {{classical history}} يعني {{painless second trimester loss with dilation}} فنسوي {{cerclage}} بدون سونار."
+  ],
+  "rule": "لو {{prior preterm birth}} و{{long cervix}} فالجواب {{progesterone}} ولو {{short cervix}} فـ{{cerclage}} أو {{progesterone}}."
+ },
+ "M292": {
+  "idea": [
+   "السؤال يطلب اسم الـ{{presentation}} من اللي تحسسه الدكتور بالفحص المهبلي.",
+   "اللي يتحسس هو {{orbital ridges}} و{{nose}} و{{mouth}} و{{chin}} يعني وجه الجنين."
+  ],
+  "clues": [
+   [
+    "{{orbital ridge and orbits}}",
+    "حواف وتجاويف العين تتحسس بالوجه"
+   ],
+   [
+    "{{saddle of the nose}}",
+    "جسر الأنف بين العينين"
+   ],
+   [
+    "{{mouth and chin}}",
+    "الفم والذقن ما يتحسسون إلا لو الرأس ممدود للخلف"
+   ]
+  ],
+  "why": [
+   "الـ{{face presentation}} فيها الرأس {{hyperextended}} فيكون الوجه هو الجزء المتقدم والـ{{chin (mentum)}} هي نقطة التحديد.",
+   "تحسس الفم والذقن بالإضافة للأنف والعيون هو اللي يفرق الـ{{face}} عن الـ{{brow}}."
+  ],
+  "wrong": {
+   "0": "الـ{{compound presentation}} يعني يد أو رجل نازلة جنب الرأس، وهذا ما ذكر بالفحص.",
+   "1": "الـ{{cephalic presentation}} اسم عام للرأس ينزل أول، مو الوصف الدقيق المطلوب هنا لأن اللي تحسسناه وجه.",
+   "2": "الـ{{brow presentation}} تتحسس فيها {{orbital ridges}} و{{anterior fontanelle}} وجذر الأنف بدون الفم والذقن."
+  },
+  "change": [
+   "لو تحسسنا {{anterior fontanelle}} و{{orbital ridges}} بدون فم وذقن فهذي {{brow presentation}}.",
+   "لو تحسسنا {{sutures}} و{{posterior fontanelle}} فهذي {{vertex presentation}} الطبيعية."
+  ],
+  "rule": "لو تحسسنا الفم والذقن والأنف فهي {{face presentation}} ولو {{fontanelle}} مع العيون فقط فهي {{brow}}."
+ },
+ "M293": {
+  "idea": [
+   "السؤال يعطيك علامات فحص بالبطن ويبي منها الـ{{fetal presentation}} الأرجح.",
+   "الـ{{bicornuate uterus}} عامل مساعد لأنه يخلي الجنين ينقلب ويجلس بوضع غير طبيعي."
+  ],
+  "clues": [
+   [
+    "{{subcostal discomfort}} و{{fetal kicking in lower abdomen}}",
+    "الرأس الصلب تحت الأضلاع والأطراف قريبة من الحوض"
+   ],
+   [
+    "{{global soft presenting part with sluggish ballottement}}",
+    "الـ{{breech}} طري وغير منتظم وما يتحرك مثل الرأس"
+   ],
+   [
+    "{{fetal heart at the level of umbilicus}}",
+    "الصوت أعلى من المكان المعتاد في الـ{{vertex}} (تحت السرة)"
+   ],
+   [
+    "{{bicornuate uterus}}",
+    "يزيد احتمال الـ{{breech}}"
+   ]
+  ],
+  "why": [
+   "الجزء الطري الكبير في الحوض مع الرأس الصلب تحت الأضلاع هو الـ{{breech presentation}}.",
+   "صوت القلب عند مستوى السرة أو أعلى يناسب الـ{{breech}} لأن الصدر يكون أعلى مما هو في الـ{{cephalic}}."
+  ],
+  "wrong": {
+   "0": "في الـ{{face presentation}} الجزء المتقدم يكون صلب وقدام الحوض وما يوصف بأنه {{soft}} وكبير.",
+   "1": "في الـ{{brow presentation}} الجزء المتقدم رأس صلب أيضا، ومو {{soft}}.",
+   "3": "في الـ{{shoulder presentation}} (الـ{{transverse lie}}) الحوض يكون فاضي والرأس في جانب البطن، وما يوجد رأس تحت الأضلاع."
+  },
+  "change": [
+   "لو الجزء المتقدم صلب ومدور وله {{ballottement}} واضح فهذا رأس {{cephalic}}.",
+   "لو الحوض فاضي والرأس في جنب البطن والبطن عريض فهذا {{transverse lie}} يعني {{shoulder}}."
+  ],
+  "rule": "الجزء الطري غير المنتظم مع رأس صلب تحت الأضلاع يعني {{breech}}."
+ },
+ "M294": {
+  "idea": [
+   "هذا نفس الحالة اللي قبل: {{breech}} عند {{primigravida}} عندها {{bicornuate uterus}} بـ{{37 weeks}}.",
+   "السؤال يبي طريقة الولادة لو بقي {{breech}} للآخر."
+  ],
+  "clues": [
+   [
+    "{{primigravida}}",
+    "ما عندها ولادة سابقة فما يعرف حوضها يمر الجنين"
+   ],
+   [
+    "{{bicornuate uterus}}",
+    "ما نقدر نسوي {{ECV}} ولا ننتظر انقلابه بشكل مضمون"
+   ],
+   [
+    "{{persistent breech at 37 weeks}}",
+    "الأفضل تخطيط الولادة بدل ما ننتظر الطلق"
+   ]
+  ],
+  "why": [
+   "الـ{{breech}} المستمر عند الحمل الكامل (خاصة مع وجود {{bicornuate uterus}} و{{primigravida}}) يحتاج {{planned cesarean section}}.",
+   "الـ{{vacuum}} ممنوع في الـ{{non-vertex}}، والـ{{forceps}} ما يمسك الجزء المتقدم، والولادة المهبلية الطبيعية فيها خطر أعلى."
+  ],
+  "wrong": {
+   "0": "الـ{{spontaneous vaginal delivery}} للـ{{breech}} مرتبطة بمضاعفات أكبر ({{head entrapment}} و{{cord prolapse}}) فما نختارها كخيار روتيني.",
+   "1": "الـ{{ventouse}} ممنوع في الـ{{non-vertex presentations}} مثل الـ{{breech}} و{{face}} و{{brow}}.",
+   "2": "الـ{{forceps}} ما يستخدم للـ{{breech}} كطريقة ولادة لأنه لا يمسك الجزء المتقدم، ويستخدم فقط على الـ{{after-coming head}} في ولادة {{breech}} مهنية."
+  },
+  "change": [
+   "لو الجنين رجع {{cephalic}} فنولدها بالطريقة الطبيعية حسب الاستطباب.",
+   "لو وقعت في طلق متقدم والـ{{breech}} نازل في الحوض فممكن ولادة مهبلية بحذر عند فريق متمرس."
+  ],
+  "rule": "الـ{{persistent breech}} عند الحمل الكامل ينولد بـ{{cesarean section}}، والـ{{ventouse}} ممنوع لأي {{non-vertex}}."
+ },
+ "M295": {
+  "idea": [
+   "السؤال يسأل أي معطى من الحالة يمنع الـ{{external cephalic version}}.",
+   "الباقي كلها ظروف مناسبة للـ{{ECV}} والمانع هو شذوذ الرحم."
+  ],
+  "clues": [
+   [
+    "{{bicornuate uterus}}",
+    "شذوذ خلقي بالرحم يعتبر مانع لـ{{ECV}} لأن الرحم مو منتظم ويزيد خطر المضاعفات"
+   ],
+   [
+    "{{flexed fetal head}}",
+    "وضع رأس مرن مناسب لأن الـ{{extended head}} هو اللي يصعب"
+   ],
+   [
+    "{{EFW 2.6 Kg}} و{{average liquor}}",
+    "وزن طبيعي وسائل أمنيوسي كافي يسهلون الـ{{ECV}}"
+   ]
+  ],
+  "why": [
+   "الـ{{bicornuate uterus}} من موانع الـ{{ECV}} لأن الرحم ما فيه مساحة منتظمة لتدوير الجنين وخطر {{abruption}} والمضاعفات أعلى.",
+   "الـ{{flexed head}} والـ{{average liquor}} والـ{{estimated fetal weight 2.6 Kg}} كلها عوامل تسهل نجاح الـ{{ECV}}."
+  ],
+  "wrong": {
+   "0": "الـ{{flexed fetal head}} ما يمنع، بالعكس الـ{{extended head}} هو اللي يقلل النجاح.",
+   "2": "الـ{{average liquor}} كويس للـ{{ECV}} لأن الجنين يتحرك بسهولة؛ الـ{{oligohydramnios}} هو اللي يصعبه.",
+   "3": "الـ{{fetal weight 2.6 Kg}} طبيعي ومناسب، وما فيه {{macrosomia}} أو {{IUGR}} شديد يمنع."
+  },
+  "change": [
+   "لو كان فيه {{oligohydramnios}} فيقل نجاح الـ{{ECV}} ويعتبر عامل سلبي.",
+   "لو كان فيه {{placenta previa}} أو {{previous cesarean}} أو {{abruption}} فيمنع الـ{{ECV}} لأن فيه خطر نزيف."
+  ],
+  "rule": "الـ{{ECV}} يناسبه الرحم الطبيعي والسائل الكافي والرأس المنثني، ويمنعه {{uterine anomaly}} أو {{placenta previa}}."
+ },
+ "M296": {
+  "idea": [
+   "السؤال يبي تشخيص ضغط مرتفع جديد بعد {{20 weeks}} بدون {{proteinuria}} وبدون أعراض.",
+   "المفتاح هو توقيت الاكتشاف والـ{{urine protein}} السلبي."
+  ],
+  "clues": [
+   [
+    "{{22 weeks}}",
+    "بعد {{20 weeks}} يعني ما نسميه {{chronic hypertension}}"
+   ],
+   [
+    "{{BP 140/95}} مرتين بفاصل {{4 hours}}",
+    "يحقق تعريف الضغط المرتفع {{≥ 140/90}}"
+   ],
+   [
+    "{{urine protein negative}} وبدون أعراض",
+    "ما فيه {{preeclampsia}} لأنه ما فيه {{proteinuria}} ولا {{severe features}}"
+   ]
+  ],
+  "why": [
+   "الـ{{BP ≥ 140/90}} يظهر لأول مرة بعد {{20 weeks}} بدون {{proteinuria}} ولا {{severe features}} هو {{gestational hypertension}}.",
+   "الـ{{chronic hypertension}} تكون قبل {{20 weeks}} أو تستمر أكثر من {{12 weeks}} بعد الولادة، وهذا غير موجود هنا."
+  ],
+  "wrong": {
+   "0": "الـ{{preeclampsia}} تحتاج {{proteinuria}} أو {{severe features}} أو {{end organ damage}} وهنا البول سلبي وما فيه أعراض.",
+   "1": "الـ{{chronic hypertension}} تُشخص لو الضغط ظهر قبل {{20 weeks}} أو قبل الحمل، وهي لأول مرة عند {{22 weeks}}.",
+   "3": "الـ{{transient hypertension}} اسم يعطى بأثر رجعي لو رجع الضغط طبيعي بعد الولادة، وما نقدر نشخصه وقت الزيارة."
+  },
+  "change": [
+   "لو الضغط كان مرتفع قبل {{20 weeks}} فهو {{chronic hypertension}}.",
+   "لو أضيف {{proteinuria}} (مثل {{protein:creatinine ratio > 0.3}}) أو {{headache}} أو {{blurred vision}} فهي {{preeclampsia}}."
+  ],
+  "rule": "الضغط {{≥ 140/90}} بعد {{20 weeks}} بدون بروتين هو {{gestational hypertension}}."
+ },
+ "M297": {
+  "idea": [
+   "السؤال يطلب أي نتيجة بالحالة تدل على {{severe preeclampsia}}.",
+   "في الحالة {{BP 140/90}} و{{uric acid}} عالي وألم بطني، وفي مخبر {{platelets}} منخفضة."
+  ],
+  "clues": [
+   [
+    "{{platelets 80 x 10^9/L}}",
+    "أقل من {{100}} وهي من مكونات {{HELLP}} فهي {{severe feature}}"
+   ],
+   [
+    "{{BP 140/90}}",
+    "هذا مرتفع بس أقل من {{160/110}} يعني ما يعتبر {{severe}}"
+   ],
+   [
+    "{{uric acid 460}}",
+    "مرتفع وما هو معيار تشخيصي لـ{{severe features}}"
+   ],
+   [
+    "{{lower abdominal and back pain}}",
+    "ألم {{RUQ}} أو {{epigastric}} هو اللي يعتبر {{severe}}، مو الألم السفلي"
+   ]
+  ],
+  "why": [
+   "نقص الصفائح {{platelets < 100}} هو {{laboratory severe feature}} بحد ذاته لأنه مكون من {{HELLP}}.",
+   "أي مكون واحد من {{HELLP syndrome}} يكفي لتصنيف {{preeclampsia with severe features}} حتى لو البروتين بالبول طبيعي."
+  ],
+  "wrong": {
+   "0": "الألم اللي يدل على الشدة هو {{RUQ}} أو {{epigastric pain}}، وهنا الألم {{lower abdominal and back}} فما يحسب.",
+   "1": "الـ{{BP 140/90}} هو {{mild range}} والـ{{severe}} يحتاج {{≥ 160/110}}.",
+   "2": "الـ{{uric acid}} يرتفع في {{preeclampsia}} بس هو ما يدخل ضمن معايير {{severe features}}."
+  },
+  "change": [
+   "لو كان الضغط {{≥ 160/110}} فيكون {{severe feature}}.",
+   "لو كان الألم {{epigastric}} أو {{RUQ}} أو الـ{{liver enzymes}} عالية فيكون {{severe}} أيضا."
+  ],
+  "rule": "أي مكون من {{HELLP}} أو {{BP ≥ 160/110}} أو أعراض مثل {{RUQ pain}} و{{blurred vision}} يعني {{severe preeclampsia}}.",
+  "note": "الحالة تعتمد على النتائج المعطاة في الجدول، والـ{{platelets 80}} هي اللي تدل على الشدة."
+ },
+ "M298": {
+  "idea": [
+   "السؤال يبي إدارة {{severe preeclampsia}} عند {{34 weeks}}.",
+   "هنا فيه {{BP 170/120}} مع أعراض: صداع وألم {{epigastric}} وضبابية رؤية."
+  ],
+  "clues": [
+   [
+    "{{BP 170/120}}",
+    "أعلى من {{160/110}} يعني {{severe hypertension}}"
+   ],
+   [
+    "{{headache}} و{{epigastric pain}} و{{blurred vision}}",
+    "كلها {{severe features}} وخطر {{eclampsia}} قريب"
+   ],
+   [
+    "{{34 weeks}} و{{NST reassuring}}",
+    "وصلنا لموعد الولادة في {{severe preeclampsia}}"
+   ]
+  ],
+  "why": [
+   "في {{severe preeclampsia}} نثبت الحالة ونعطي {{magnesium sulfate}} لمنع الـ{{eclampsia}} وبعدين نولد عند {{34 weeks}} أو أبكر.",
+   "الـ{{MgSO4}} يقدم على أي دواء ضغط، ولازم نثبت الأم قبل الولادة (ضبط الضغط) عشان نقلل مضاعفات {{stroke}} و{{eclampsia}}."
+  ],
+  "wrong": {
+   "0": "الولادة الفورية بدون تثبيت وبدون {{magnesium sulfate}} خطيرة لأن الأم ممكن تتشنج أو يصير نزيف دماغي.",
+   "2": "الانتظار لـ{{37 weeks}} غير مناسب في {{severe preeclampsia}} لأن موعد الولادة {{34 weeks}} أو الآن.",
+   "3": "إعطاء الـ{{corticosteroids}} بدل الـ{{MgSO4}} غلط لأن منع الـ{{eclampsia}} أهم من نضج الرئة."
+  },
+  "change": [
+   "لو الحمل أقل من {{34 weeks}} والسبب هو الضغط الشديد فقط ومسيطر عليه فممكن {{steroids}} ومراقبة لحد {{34 weeks}}.",
+   "لو حصل تشنج فهو {{eclampsia}} ونولد فورا بعد الاستقرار."
+  ],
+  "rule": "الـ{{severe preeclampsia}} يعني {{MgSO4}} مع تثبيت الضغط ثم الولادة، و{{MgSO4}} يقدم على الأدوية وعلى {{steroids}}."
+ },
+ "M299": {
+  "idea": [
+   "السؤال يبي نوع الإجهاض من الفحص بالـ{{speculum}}.",
+   "الرقبة مقفولة ومافيه نسيج نازل ونزيف خفيف."
+  ],
+  "clues": [
+   [
+    "{{7 weeks}} مع {{mild vaginal bleeding}} وألم مغص",
+    "نزيف بالثلث الأول يوحي بـ{{abortion}}"
+   ],
+   [
+    "{{cervix is closed}}",
+    "يستبعد {{inevitable}} و{{incomplete}} لأنهم يحتاجون رقبة مفتوحة"
+   ],
+   [
+    "{{normal vital signs}}",
+    "ما فيه حمى أو ألم شديد فما فيه {{septic abortion}}"
+   ]
+  ],
+  "why": [
+   "لما يكون فيه نزيف بالثلث الأول مع {{closed cervix}} وبدون نسيج نازل فهذا {{threatened abortion}}.",
+   "الـ{{threatened abortion}} ممكن يستمر الحمل بعده بشكل طبيعي أو يتحول لـ{{inevitable}}."
+  ],
+  "wrong": {
+   "0": "الـ{{septic abortion}} يحتاج حمى أو شعور بالمرض وإفرازات، والعلامات الحيوية هنا طبيعية.",
+   "1": "الـ{{inevitable abortion}} فيه رقبة مفتوحة، وهنا الرقبة مقفولة.",
+   "2": "الـ{{incomplete abortion}} فيه رقبة مفتوحة ونسيج نازل جزئيا، وهنا لا هذا ولا ذاك."
+  },
+  "change": [
+   "لو الرقبة مفتوحة بدون نسيج نازل فهي {{inevitable abortion}}.",
+   "لو الرقبة مفتوحة مع نزول نسيج فهي {{incomplete abortion}}، ولو مقفولة بعد نزول كل النسيج فهي {{complete}}."
+  ],
+  "rule": "نزيف بدون نسيج نازل مع رقبة مقفولة ونبض موجود يعني {{threatened abortion}}."
+ },
+ "M300": {
+  "idea": [
+   "السؤال يبي نوع الإجهاض من فحص الـ{{speculum}}.",
+   "فيه نسيج في المهبل ورقبة مفتوحة، يعني نسيج نازل مع رقبة مفتوحة."
+  ],
+  "clues": [
+   [
+    "{{passage of tissue like material}} و{{tissue protruding through cervical canal}}",
+    "نسيج نزل جزئيا"
+   ],
+   [
+    "{{cervix opened admitting one finger}}",
+    "رقبة مفتوحة"
+   ],
+   [
+    "{{bulky uterus corresponding to 7-8 weeks}}",
+    "حجم الرحم يوافق عمر الحمل فما هو {{large for dates}}"
+   ]
+  ],
+  "why": [
+   "نسيج نازل مع رقبة مفتوحة هو {{incomplete abortion}} لأن جزء من محتويات الحمل خرج وجزء بقي.",
+   "حجم الرحم يوافق العمر {{7-8 weeks}} وما فيه علامات تشير لحمل رحوي، وكذلك ما فيه ألم في الملحقات أو {{cervical excitation}} يدل على {{ectopic}}."
+  ],
+  "wrong": {
+   "0": "الـ{{inevitable abortion}} فيه رقبة مفتوحة بدون نزول نسيج، وهنا النسيج نزل.",
+   "2": "الـ{{threatened abortion}} فيه رقبة مقفولة ونسيج ما نزل.",
+   "3": "الـ{{complete molar pregnancy}} ما يتشخص من هذي المعطيات؛ لا يوجد {{uterus large for dates}} ولا وصف لنسيج حويصلي، والرحم يوافق العمر."
+  },
+  "change": [
+   "لو الرقبة مقفولة بعد نزول النسيج كله فهي {{complete abortion}}.",
+   "لو الرقبة مفتوحة بدون نزول نسيج فهي {{inevitable abortion}}."
+  ],
+  "rule": "نسيج نازل مع رقبة مفتوحة يعني {{incomplete abortion}}."
+ },
+ "M301": {
+  "idea": [
+   "السؤال يبي علاج {{incomplete abortion}} مع نزيف شديد عند {{9 weeks}}.",
+   "الرقبة مفتوحة ونسيج في قناة الرقبة ونزيف شديد، فالأولوية للتثبيت ثم التفريغ."
+  ],
+  "clues": [
+   [
+    "{{severe vaginal bleeding}}",
+    "خطر {{hypovolemic shock}} فنبدأ بالـ{{fluid replacement}}"
+   ],
+   [
+    "{{passage of the fetus}} و{{tissue seen in the cervix}}",
+    "إجهاض غير كامل"
+   ],
+   [
+    "{{cervix is open}}",
+    "يمكن الدخول بسهولة لتفريغ الرحم"
+   ]
+  ],
+  "why": [
+   "نعمل {{fluid replacement}} لتثبيت الحالة ثم {{evacuation and curettage}} لإزالة النسيج المتبقي لأن بقاءه يسبب استمرار النزيف.",
+   "التفريغ الجراحي هو العلاج لأن النزيف شديد والنسيج في الرقبة، ولا يصلح الانتظار."
+  ],
+  "wrong": {
+   "1": "الـ{{expectant management}} يستخدم لو الحالة مستقرة ونزيف خفيف، وهنا النزيف شديد.",
+   "2": "الـ{{uterine massage}} علاج لـ{{postpartum atony}} بعد ولادة حمل كامل وما يوقف نزيف ناتج عن نسيج متبقي.",
+   "3": "الـ{{hysterectomy}} علاج مفرط ما نلجأ له إلا في ظروف نادرة بعد فشل كل الخيارات."
+  },
+  "change": [
+   "لو كان النزيف خفيف والمريضة مستقرة فممكن {{expectant}} أو {{medical management}} بدل التفريغ.",
+   "لو كان فيه حمى وعلامات عدوى فهي {{septic abortion}} ونعطي {{antibiotics}} مع التفريغ."
+  ],
+  "rule": "إجهاض غير كامل مع نزيف شديد يعني تثبيت ثم {{evacuation}}."
+ },
+ "M302": {
+  "idea": [
+   "السؤال يبي تصنيف نزيف بعد الولادة بـ{{10 minutes}}.",
+   "النزيف حدث بعد الولادة بدقائق وخلال {{24 hours}} فهو {{primary}}."
+  ],
+  "clues": [
+   [
+    "{{10 minutes after delivery}}",
+    "داخل أول {{24 hours}}"
+   ],
+   [
+    "{{800 ml}} و{{bleeding profusely}}",
+    "نزيف غزير يستلزم تدخل"
+   ],
+   [
+    "{{7th child}} و{{40-year-old}} و{{4 kg baby}}",
+    "عوامل خطر: {{grand multiparity}} و{{age > 35}} و{{macrosomia}}"
+   ]
+  ],
+  "why": [
+   "الـ{{primary PPH}} هو أي نزيف بعد الولادة يحدث خلال أول {{24 hours}}، وهنا النزيف بعد الولادة بـ{{10 minutes}}.",
+   "الأسباب المتوقعة هنا {{uterine atony}} أو {{retained placenta}} بسبب عوامل الخطر، لكن السؤال يبي التصنيف الزمني."
+  ],
+  "wrong": {
+   "0": "الـ{{secondary PPH}} يحدث بعد {{24 hours}} من الولادة، وهنا خلال دقائق.",
+   "1": "الـ{{iatrogenic}} ما هو تصنيف معروف للـ{{PPH}} حسب التوقيت.",
+   "3": "الـ{{tertiary PPH}} ليس تصنيف مستخدم للـ{{PPH}}."
+  },
+  "change": [
+   "لو حصل النزيف بعد {{3 days}} من الولادة فهو {{secondary PPH}} والسبب الأشيع {{retained products}} أو {{endometritis}}.",
+   "لو كان الرحم صلب يعني {{firm}} فنفكر في {{genital tract laceration}} بدل {{atony}}."
+  ],
+  "rule": "نزيف في أول {{24 hours}} بعد الولادة هو {{primary PPH}}، وبعد {{24 hours}} هو {{secondary}}.",
+  "note": "التصنيف في السؤال يعتمد على توقيت النزيف بعد ولادة الجنين."
+ },
+ "M303": {
+  "idea": [
+   "السؤال يسأل عن أفضل مؤشر موثوق للنزيف بعد الولادة والصدمة.",
+   "الحالة فيها عوامل خطر قوية للـ{{PPH}}: {{grand multipara}} و{{macrosomia}} و{{prolonged second stage}}."
+  ],
+  "clues": [
+   [
+    "{{G9 P8008}}",
+    "{{grand multiparity}} من عوامل خطر {{uterine atony}}"
+   ],
+   [
+    "{{4.3 Kg baby}} و{{prolonged second stage}} و{{vacuum}}",
+    "{{macrosomia}} و{{prolonged labor}} تزيد خطر {{PPH}}"
+   ],
+   [
+    "{{hypovolemic shock}}",
+    "نحتاج مؤشر سريع يتغير مبكرا"
+   ]
+  ],
+  "why": [
+   "الـ{{maternal pulse rate}} (تسارع النبض) من أبكر وأوثق مؤشرات فقد الدم لأنه يتغير سريعا بينما الضغط يبقى طبيعي لفترة بسبب زيادة حجم الدم في الحمل.",
+   "الـ{{visual estimation}} غالبا يقلل من حجم النزيف الحقيقي، والـ{{Hb}} و{{Hct}} ما ينخفضون مباشرة في النزيف الحاد."
+  ],
+  "wrong": {
+   "0": "الـ{{visual estimation of blood loss}} غير دقيق وعادة يقلل من الفقد الحقيقي.",
+   "2": "الـ{{hemoglobin}} يتأخر انخفاضه حتى يحصل تمدد للسوائل، فما يعكس النزيف الحاد في وقته.",
+   "3": "الـ{{hematocrit}} مثل الـ{{Hb}} يتأخر ويتأثر بالسوائل، فهو مؤشر متأخر."
+  },
+  "change": [
+   "لو كان السؤال عن علامة متأخرة فيكون {{hypotension}} لأن الضغط ينخفض بعد فقد كبير.",
+   "لو بعد ساعات من النزيف فالـ{{Hb}} و{{Hct}} ينخفضون ويفيدون في تقدير الفقد."
+  ],
+  "rule": "الـ{{pulse}} هو المؤشر المبكر لفقد الدم، والـ{{Hb}} متأخر والتقدير بالعين يقلل."
+ },
+ "M304": {
+  "idea": [
+   "السؤال يبي أنسب طريقة وقاية من الـ{{PPH}} عند وحدة عندها {{recurrent PPH}}.",
+   "ما فيه مرض مصاحب وما فيه استطباب لـ{{C-section}}."
+  ],
+  "clues": [
+   [
+    "{{G8 P7017}}",
+    "{{grand multiparity}} من عوامل خطر {{uterine atony}}"
+   ],
+   [
+    "{{recurrent PPH requiring transfusion}}",
+    "تاريخ {{previous PPH}} عامل خطر قوي"
+   ],
+   [
+    "{{no significant medical problem}}",
+    "ما فيه استطباب لعملية قيصرية"
+   ]
+  ],
+  "why": [
+   "الوقاية الأساسية من الـ{{PPH}} هي {{active management of the third stage of labor}} ({{oxytocin}} و{{controlled cord traction}} وغيره).",
+   "الـ{{previous PPH}} و{{grand multiparity}} عوامل خطر فنطبق {{active management}} ونجهز دم وعلاج للـ{{atony}} مسبقا."
+  ],
+  "wrong": {
+   "0": "الولادة في غرفة العمليات ما تمنع النزيف، والمهم تطبيق {{active management}}.",
+   "1": "الـ{{elective cesarean}} ما يعتبر وقاية من الـ{{PPH}} وقد يزيد الفقد، وما فيه استطباب له.",
+   "3": "إعطاء {{preload of crystalloid}} ما يمنع النزيف وما يحسن النتيجة."
+  },
+  "change": [
+   "لو كان فيه {{placenta previa}} أو {{accreta}} فتصير الإدارة مختلفة وقد نحتاج {{C-section}}.",
+   "لو نزل نزيف فعلا فنعالج الـ{{atony}} بالـ{{uterotonics}} والتدليك."
+  ],
+  "rule": "الـ{{active management of 3rd stage}} هو الوقاية الأساسية من الـ{{PPH}}."
+ },
+ "M305": {
+  "idea": [
+   "السؤال عن مراهقة عمرها {{14}} فيها نزيف غير منتظم بدون ألم.",
+   "الفحص طبيعي والـ{{Hb}} طبيعي والـ{{pregnancy test}} سلبي."
+  ],
+  "clues": [
+   [
+    "{{14-year-old}} مع {{irregular painless bleeding}}",
+    "نمط {{anovulatory bleeding}} في بداية البلوغ"
+   ],
+   [
+    "{{normal pubertal development}}",
+    "ما فيه سبب هرموني يحتاج فحص"
+   ],
+   [
+    "{{Hb 120 g/L}} و{{platelets 220}}",
+    "ما فيه {{anemia}} ولا {{bleeding disorder}}"
+   ]
+  ],
+  "why": [
+   "في بداية البلوغ المحور الهرموني يعني {{hypothalamic-pituitary-ovarian axis}} غير ناضج فيحصل {{anovulatory bleeding}} وهو طبيعي ويتحسن مع الوقت.",
+   "طالما الـ{{Hb}} طبيعي وجودة الحياة ما تأثرت فنطمن يعني {{reassure}} بدون علاج."
+  ],
+  "wrong": {
+   "0": "الـ{{FSH}} و{{prolactin}} نطلبهم في {{amenorrhea}} أو شك في خلل هرموني، وهنا فيه نزيف وفحص طبيعي.",
+   "1": "الـ{{oral contraceptive pills}} نعطيها لو فيه {{anemia}} أو تأثر جودة الحياة، وهنا الـ{{Hb}} طبيعي.",
+   "2": "الـ{{metformin}} يستخدم في {{PCOS}} مع {{insulin resistance}} ولا يوجد دليل عليه هنا."
+  },
+  "change": [
+   "لو الـ{{Hb}} كانت منخفضة (أقل من {{12 g/dL}}) أو تأثرت جودة الحياة فنعطيها {{OCP}}.",
+   "لو النزيف شديد وفيه {{hemodynamic instability}} فتصير حالة {{acute uterine bleeding}} وتدار حسب الاستقرار."
+  ],
+  "rule": "الـ{{anovulatory bleeding}} في المراهقة بدون {{anemia}} يعني {{reassure}}.",
+  "note": "الأرقام في الجدول تظهر الـ{{Hb}} و{{platelets}} طبيعية؛ قيمة الـ{{RBC}} في النص غير واضحة ولا تغير الجواب."
+ },
+ "M306": {
+  "idea": [
+   "السؤال يبي التحليل اللي يؤكد {{menopause}} عند وحدة {{50}} سنة فيها انقطاع وسخونة.",
+   "المفتاح هو تغير الهرمونات: المبيض يقل إنتاجه فيرتفع هرمون الغدة النخامية."
+  ],
+  "clues": [
+   [
+    "{{50-year-old}} و{{amenorrhea 6 months}}",
+    "عمر مناسب للـ{{menopausal transition}}"
+   ],
+   [
+    "{{hot flushes disturbing sleep}}",
+    "عرض {{vasomotor}} من نقص الإستروجين"
+   ]
+  ],
+  "why": [
+   "في {{menopause}} المبيض يفقد الـ{{follicles}} فيقل {{estrogen}} و{{inhibin}} وينخفض الـ{{negative feedback}} فيرتفع {{FSH}} بشكل واضح.",
+   "الـ{{FSH}} هو التحليل المعتمد لتأكيد التشخيص."
+  ],
+  "wrong": {
+   "1": "الـ{{LH}} يرتفع أيضا لكنه أقل ثباتا ولا يستخدم للتشخيص.",
+   "2": "الـ{{progesterone}} ينخفض لعدم الإباضة، بس هذا غير خاص بالـ{{menopause}} ويحصل في أي {{anovulation}}.",
+   "3": "الـ{{estrogen}} ينخفض لكنه يتذبذب في فترة ما حول انقطاع الطمث فما يعتمد عليه وحده."
+  },
+  "change": [
+   "لو كان عمرها أقل من {{40}} سنة وفيها نفس الأعراض فالتشخيص {{premature ovarian insufficiency}} ونتأكد بـ{{FSH}} مرتفع مرتين.",
+   "لو الـ{{FSH}} طبيعي وفيه {{amenorrhea}} فنبحث عن أسباب ثانية مثل الحمل أو {{thyroid}} أو {{prolactin}}."
+  ],
+  "rule": "الـ{{menopause}} يعني {{FSH}} مرتفع، والـ{{estrogen}} منخفض."
+ }
+}

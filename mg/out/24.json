@@ -1,0 +1,571 @@
+{
+ "M371": {
+  "idea": [
+   "السؤال يختبر إنك تعرف إن الصورة هنا {{PCOS}} وإن بعد التشخيص لازم نفحص المضاعفات الأيضية.",
+   "الـ{{acne}} والـ{{hirsutism}} مع {{irregular menses}} و{{LH}} أعلى من {{FSH}} هذي صورة {{PCOS}} الكلاسيكية."
+  ],
+  "clues": [
+   [
+    "الـ{{severe acne}} و{{hair on chin, upper back, abdomen}}",
+    "يعني {{clinical hyperandrogenism}}، المعيار الأول من {{Rotterdam}}"
+   ],
+   [
+    "الـ{{irregular menstrual bleeding}}",
+    "يعني {{oligo-ovulation}} أو {{anovulation}}، المعيار الثاني"
+   ],
+   [
+    "الـ{{LH 28}} مع {{FSH 10}}",
+    "الـ{{LH:FSH ratio}} عالي، يدعم {{PCOS}} بس مو شرط للتشخيص"
+   ],
+   [
+    "الـ{{prolactin}} فوق الطبيعي بشوية",
+    "ارتفاع بسيط غير مهم ممكن يصير في {{PCOS}}"
+   ]
+  ],
+  "why": [
+   "لأن عندها معيارين من {{Rotterdam}}، فـ التشخيص ثابت أصلاً، وأي مريضة {{PCOS}} لازم نسوي لها {{screening}} للـ{{diabetes}} والـ{{dyslipidemia}}.",
+   "فـ الفحص الإضافي المناسب هو {{glucose tolerance test}} و{{lipid profile}} لأن {{insulin resistance}} شائع في {{PCOS}} وخطره على المدى البعيد."
+  ],
+  "wrong": {
+   "0": "لأن {{TSH}} و{{T3}} و{{T4}} فحوصات استبعاد لأسباب ثانية للعادة غير المنتظمة، بس التشخيص هنا واضح، والمطلوب بعده فحص المضاعفات الأيضية.",
+   "1": "لأن {{progesterone}} يثبت حدوث الإباضة، وإحنا أصلاً نعرف إنها {{anovulatory}} من الدورة غير المنتظمة، والعينة اتاخذت في اليوم الخامس يعني أول الدورة وهذا مو وقته.",
+   "2": "لأن {{DHEA-S}} والـ{{androstenedione}} نطلبها لو الـ{{testosterone}} عالي جداً أو في تطور سريع للـ{{virilization}} نشك في ورم، وهنا الارتفاع بسيط والأعراض تدريجية، وأصلاً الـ{{clinical hyperandrogenism}} موجود فما نحتاج {{androgen levels}} زيادة."
+  },
+  "change": [
+   "لو الـ{{testosterone}} عالي جداً مع {{virilization}} سريع مثل {{deep voice}} و{{clitoromegaly}} كان نفكر في ورم ونطلب {{DHEA-S}} و{{imaging}}.",
+   "لو الـ{{prolactin}} عالي بشكل واضح أو في {{galactorrhea}} كان نكرر الفحص ونبحث عن {{prolactinoma}} بدل ما نعتبره من {{PCOS}}."
+  ],
+  "rule": "لو {{PCOS}} ثابت فـ الخطوة التالية {{screen for diabetes and dyslipidemia}}.",
+  "note": "الـ{{testosterone}} مكتوب بوحدة غير مألوفة في السؤال، فـ الشرح يعتمد على الصورة السريرية والجواب المعطى."
+ },
+ "M372": {
+  "idea": [
+   "السؤال يختبر حساب {{Apgar score}} من خمس مكونات، كل واحد من {{0}} إلى {{2}}.",
+   "نمشي على الجدول بند بند ونجمع، ولا نحكم من الانطباع العام."
+  ],
+  "clues": [
+   [
+    "الـ{{heart rate 120}}",
+    "فوق {{100}} يعني {{2}}"
+   ],
+   [
+    "الـ{{breathing irregular, gasping}}",
+    "تنفس غير منتظم يعني {{1}}"
+   ],
+   [
+    "الـ{{coughs and cries}}",
+    "استجابة قوية للتنبيه يعني {{2}}"
+   ],
+   [
+    "الـ{{arms and legs flexed}}",
+    "وضعية الانثناء تعني {{muscle tone}} جيد فتعطي {{2}}"
+   ],
+   [
+    "الـ{{rosy body with blue extremities}}",
+    "يعني {{acrocyanosis}} فتعطي {{1}}"
+   ]
+  ],
+  "why": [
+   "نجمع: {{HR 2}} و{{respiration 1}} و{{reflex 2}} و{{activity 2}} و{{appearance 1}}، والمجموع {{8}}.",
+   "فـ الجواب {{8}} لأن الجسم وردي بس الأطراف زرقاء تعطي {{1}} مو {{2}}، والتنفس غير المنتظم {{1}}."
+  ],
+  "wrong": {
+   "0": "لأن {{6}} أقل من المجموع الصحيح، والطفل يكح ويصيح فـ الـ{{reflex}} {{2}} مو {{1}}، والنبض فوق {{100}} فـ {{2}} كمان.",
+   "1": "لأن {{7}} يطلع لو اعتبرت الـ{{activity}} {{1}}، بس الأطراف المنثنية تعطي {{2}} حسب الجواب المعتمد.",
+   "3": "لأن {{9}} يحتاج الجسم والأطراف كلها وردية والتنفس منتظم وقوي، وهنا الأطراف زرقاء والتنفس غير منتظم."
+  },
+  "change": [
+   "لو كانت الأطراف وردية كمان كان الـ{{appearance}} {{2}} والمجموع {{9}}.",
+   "لو الطفل ما يستجيب للتنبيه أبداً كان الـ{{reflex}} {{0}} والمجموع ينزل لـ{{6}}."
+  ],
+  "rule": "لو حسبت {{Apgar}} فـ كل بند لحاله من {{0}} إلى {{2}} وبعدين اجمع."
+ },
+ "M373": {
+  "idea": [
+   "السؤال يختبر الفاصل الزمني للـ{{cervical screening}} لو النتائج كلها طبيعية.",
+   "في السؤال {{Pap}} سلبي مع سجل سلبي في السنة اللي قبلها، فـ نرجع للفاصل المعتاد."
+  ],
+  "clues": [
+   [
+    "الـ{{31-year-old}}",
+    "فوق {{21}} يعني {{Pap smear}} مطلوب بشكل دوري"
+   ],
+   [
+    "الـ{{negative HPV and Pap last year and this year}}",
+    "يعني {{normal screening}} متكرر بدون أي {{abnormality}}"
+   ],
+   [
+    "الـ{{when should the tests be repeated}}",
+    "يعني الفاصل الروتيني مو {{follow-up}} لنتيجة شاذة"
+   ]
+  ],
+  "why": [
+   "لأن المرأة اللي كل فحوصاتها طبيعية ما تحتاج فحص كل سنة، والـ{{Pap smear}} يتكرر كل {{3}} سنوات.",
+   "فـ الجواب {{3 years}}."
+  ],
+  "wrong": {
+   "0": "لأن {{6 months}} يُعمل للمتابعة بعد نتيجة غير طبيعية، وهنا الفحوصات كلها سلبية.",
+   "1": "لأن الفحص السنوي كثير على نتيجة طبيعية وما يضيف فايدة، وزاد احتمال علاج غير لازم.",
+   "2": "لأن {{2 years}} مو فاصل معتمد في الـ{{screening}} الروتيني، المعتمد {{3}} سنوات بالـ{{Pap}}."
+  },
+  "change": [
+   "لو نتيجة الـ{{Pap}} كانت {{ASCUS}} كنا نتابع بـ{{HPV testing}} أو {{repeat Pap}} مو ننتظر {{3}} سنوات.",
+   "لو الفحص الأساسي كان {{HPV}} لحاله فـ الفاصل المعتمد يكون أطول مع {{HPV-based screening}}."
+  ],
+  "rule": "لو {{Pap}} طبيعي فـ نكرر كل {{3 years}}، والنتيجة الشاذة لها خط ثاني."
+ },
+ "M374": {
+  "idea": [
+   "السؤال يختبر توقيت الـ{{cerclage}} في {{cervical incompetence}}.",
+   "الـ{{cerclage}} ما يتحط في أول الحمل، نستنى لين يعدي أخطر وقت للإجهاض الأول."
+  ],
+  "clues": [
+   [
+    "الـ{{8 weeks' gestation}}",
+    "مبكر جداً للـ{{cerclage}} لأن خطر الإجهاض والتشوهات الصبغية عالي"
+   ],
+   [
+    "الـ{{diagnosis of cervical incompetence}}",
+    "التشخيص مبني على القصة فـ ما نحتاج فحص يؤكده"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{cerclage}} نسويه في بداية الثلث الثاني من الحمل، بين {{14}} و{{16}} أسبوع في هذا الخيار، بعد ما يعدي الخطر الأعلى للإجهاض في الثلث الأول.",
+   "وبهالطريقة ما نعمل عملية على حمل ممكن ينتهي لوحده، ونعطي الوقت للتأكد من سلامة الجنين."
+  ],
+  "wrong": {
+   "0": "لأن عمل الـ{{cerclage}} في الأسبوع الثامن مبكر، والحمل لسه في فترة خطر {{first trimester miscarriage}}، وممكن الجنين يكون فيه مشكلة وما نعرف.",
+   "1": "لأن التشخيص سريري من القصة، {{Hegar dilator}} اختبار يتعمل خارج الحمل مو أثناءه وخطر على الحمل.",
+   "3": "لأن {{beta mimetic drugs}} تقلل الانقباضات بس ما تعالج ضعف عنق الرحم، والمشكلة هنا ميكانيكية مو انقباضات."
+  },
+  "change": [
+   "لو في {{painless cervical dilation}} في الثلث الثاني بالفحص بالمنظار كان {{emergency cerclage}} بدون انتظار موعد محدد.",
+   "لو المرأة عندها {{prior preterm birth}} و{{short cervix}} بالـ{{ultrasound}} كان {{ultrasound-indicated cerclage}}."
+  ],
+  "rule": "لو {{cervical incompetence}} معروف فـ {{cerclage}} يتحط في {{second trimester}} مو في {{first}}."
+ },
+ "M375": {
+  "idea": [
+   "السؤال يختبر علاج {{primary dysmenorrhea}} عند مراهقة فحصها طبيعي.",
+   "الـ{{NSAID}} هو الخط الأول، والـ{{OCP}} يجي بعده لو ما نفع."
+  ],
+  "clues": [
+   [
+    "الـ{{pain during menstruation}} مع {{regular menses}}",
+    "صورة {{primary dysmenorrhea}} بدون مرض حوضي"
+   ],
+   [
+    "الـ{{normal physical and pelvic examination}}",
+    "ما في {{secondary cause}} مثل {{endometriosis}}"
+   ],
+   [
+    "الـ{{15-year-old unmarried girl}}",
+    "ما نبدأ بـ{{hormonal}} أو {{invasive}} كخط أول، ومؤكد ما نسوي {{cervical dilatation}}"
+   ]
+  ],
+  "why": [
+   "لأن ألم الدورة الأولي سببه {{prostaglandins}} تسبب انقباض الرحم، والـ{{NSAIDs}} تمنع تكوين {{prostaglandins}} فـ تقلل الألم.",
+   "وهذا الخط الأول الآمن والبسيط لبنت صغيرة فحصها طبيعي."
+  ],
+  "wrong": {
+   "1": "لأن {{OCP}} خط ثاني لو فشلت {{NSAIDs}} أو لو البنت تحتاج منع حمل، مو أول خطوة.",
+   "2": "لأن {{cervical dilatation}} إجراء قديم وغير مفيد ولا يُعمل لعلاج {{dysmenorrhea}}.",
+   "3": "لأن {{Danazol}} له أعراض {{androgenic}} كثيرة ويستخدم لـ{{endometriosis}} في حالات خاصة، مو لبنت عادية."
+  },
+  "change": [
+   "لو الألم ما تحسن بـ{{NSAIDs}} نضيف {{OCP}} أو نبحث عن سبب ثانوي.",
+   "لو فيه {{infertility}} و{{pelvic pain}} نفكر في {{endometriosis}} ونسوي {{laparoscopy}}."
+  ],
+  "rule": "لو {{dysmenorrhea}} بسيط وفحص طبيعي فـ {{NSAID}} أول شي، وبعدها {{OCP}}."
+ },
+ "M376": {
+  "idea": [
+   "السؤال يختبر تعريف الـ{{infertility}} ومتى نبدأ التقييم.",
+   "بعد {{3 months}} بس من المحاولة ما نسميها {{infertility}}، فـ نكمل المحاولة."
+  ],
+  "clues": [
+   [
+    "الـ{{3 months of trying}}",
+    "أقل بكثير من مدة تعريف {{infertility}}"
+   ],
+   [
+    "الـ{{regular normal periods, no prior problems, normal examination}}",
+    "يعني ما في أي مؤشر لمشكلة في الإباضة أو غيرها"
+   ],
+   [
+    "الـ{{husband's cousin with autism and trisomy 21}}",
+    "أقارب بعيدين من درجة ثالثة، ما يستدعي {{genetic testing}}"
+   ]
+  ],
+  "why": [
+   "لأن الزوجين الصحيحين يحتاجون وقت للحمل، وغالبية النساء ما يحملن في أول شهور، ونعتبر {{infertility}} بعد سنة محاولة بدون حمل في المرأة تحت {{35}}.",
+   "فـ المرأة هنا عمرها {{23}} ودورتها منتظمة وفحصها طبيعي، فـ أفضل شي نطمنها ونكمل المحاولة."
+  ],
+  "wrong": {
+   "0": "لأن {{semen analysis}} نسويه لما نبدأ تقييم {{infertility}} بعد المدة المعروفة، مو بعد {{3 months}}.",
+   "2": "لأن {{trisomy 21}} و{{autism}} عند أبناء عم الزوج ما يرفعون خطر الحمل عندهم بشكل يستحق فحص جيني، والأمر ما له علاقة بعدم الحمل.",
+   "3": "لأن {{tubal patency test}} مثل {{HSG}} جزء من التقييم بعد التأخر المعروف، وما فيه سبب يخلينا نستعجل."
+  },
+  "change": [
+   "لو المدة {{12 months}} بدون حمل كان نبدأ التقييم {{semen analysis}} و{{ovulation}} و{{tubal patency}}.",
+   "لو عمر المرأة فوق {{35}} أو في مرض معروف مثل {{PID}} كان نبدأ التقييم بدري."
+  ],
+  "rule": "لو المحاولة أقل من {{12 months}} وما في عوامل خطر فـ {{continue trying}}."
+ },
+ "M377": {
+  "idea": [
+   "السؤال يختبر تعرف {{ruptured ectopic pregnancy}} في امرأة في سن الإنجاب مع تأخر دورة.",
+   "الألم الشديد مع نزيف وصدمة ({{hypotension}} و{{tachycardia}}) بعد {{amenorrhea}} معناه {{ectopic}} حتى يثبت العكس."
+  ],
+  "clues": [
+   [
+    "الـ{{LMP 8 weeks ago}}",
+    "تأخر الدورة يعني حمل محتمل"
+   ],
+   [
+    "الـ{{severe abdominal pain}} ثم {{vaginal bleeding}}",
+    "الألم أولاً ثم النزيف نمط {{ectopic}}"
+   ],
+   [
+    "الـ{{BP 90/60}} و{{HR 120}} و{{drowsy}}",
+    "يعني {{hypovolemic shock}} من نزيف داخلي"
+   ],
+   [
+    "الـ{{tense abdomen}}",
+    "يعني {{hemoperitoneum}} بعد تمزق الحمل خارج الرحم"
+   ]
+  ],
+  "why": [
+   "لأن الصورة كلها تدل على {{ruptured ectopic pregnancy}}: {{amenorrhea}} و{{severe pain}} و{{shock}} و{{abdominal rigidity}}.",
+   "والـ{{threatened}} و{{complete abortion}} ما يسببون صدمة مع بطن مشدود بهذي الطريقة، فـ التشخيص الأرجح {{ectopic}}."
+  ],
+  "wrong": {
+   "0": "لأن {{threatened abortion}} يعني نزيف خفيف بدون ألم شديد وبدون {{shock}}، والـ{{os}} مغلق.",
+   "2": "لأن {{complete abortion}} يخف الألم بعد خروج الحمل والمريضة ما تكون في صدمة وبطنها مشدود.",
+   "3": "لأن {{anovulatory cycle}} ما يسبب {{severe pain}} ولا {{shock}}، وأقصى شي نزيف غير منتظم."
+  },
+  "change": [
+   "لو كان الألم خفيف مع نزيف بسيط والـ{{vital signs}} طبيعية كان نفكر في {{threatened abortion}} أو {{early pregnancy}}.",
+   "لو الألم خف بعد خروج أنسجة والـ{{os}} مقفل كان نفكر في {{complete abortion}}."
+  ],
+  "rule": "لو {{pain}} و{{bleeding}} و{{shock}} بعد تأخر الدورة فـ {{ruptured ectopic}}."
+ },
+ "M378": {
+  "idea": [
+   "السؤال يختبر سبب العقم في {{PCOS}}.",
+   "الدورة قليلة وطويلة والـ{{ultrasound}} فيه {{pearl necklace}} فـ المشكلة في الإباضة."
+  ],
+  "clues": [
+   [
+    "الـ{{periods every 6-7 weeks and scanty}}",
+    "يعني {{oligomenorrhea}} و{{oligo-ovulation}}"
+   ],
+   [
+    "الـ{{BMI 35}}",
+    "{{obesity}} شائع مع {{PCOS}} ويزيد {{anovulation}}"
+   ],
+   [
+    "الـ{{multiple small cysts 3-5 mm in ovarian periphery, pearl necklace}}",
+    "صورة {{polycystic ovaries}} بالـ{{ultrasound}}"
+   ]
+  ],
+  "why": [
+   "لأن الصورة كلها {{PCOS}} وأكبر سبب عقم فيه هو {{anovulation}} أو {{oligo-ovulation}}.",
+   "فـ العامل المساهم الأكبر هو الـ{{ovulatory factor}}."
+  ],
+  "wrong": {
+   "0": "لأن {{tubal factor}} يكون مع {{PID}} أو {{endometriosis}} أو جراحة سابقة، وما في أي قصة تدل عليه.",
+   "1": "لأن {{cervical factor}} نادر ويتعلق بمخاط عنق الرحم أو عدوى، وما في دليل في السؤال.",
+   "3": "لأن {{endometrial factor}} مثل {{adhesions}} أو {{polyps}} ما فيه ما يدل عليه، والمشكلة هنا في الإباضة."
+  },
+  "change": [
+   "لو كان في قصة {{PID}} كان نفكر في {{tubal factor}} ونسوي {{HSG}}.",
+   "لو الدورة منتظمة والـ{{ovulation}} مؤكد وفي {{menorrhagia}} مع {{submucosal fibroid}} كان نفكر في {{uterine factor}}."
+  ],
+  "rule": "لو {{PCOS}} وعقم فـ السبب {{anovulation}}.",
+  "note": "في السؤال إشارة لتقرير غير ظاهر، فـ الشرح يعتمد على الأعراض الموصوفة والجواب المعطى."
+ },
+ "M379": {
+  "idea": [
+   "السؤال يختبر استطباب {{RhoGAM}} أي {{anti-D immunoglobulin}}.",
+   "نعطيه لأم {{Rh-negative}} ولدت طفل {{Rh-positive}}."
+  ],
+  "clues": [
+   [
+    "الـ{{RhoGAM}}",
+    "هو {{anti-D immunoglobulin}} يمنع تكون أجسام مضادة عند الأم"
+   ],
+   [
+    "الـ{{delivered a healthy baby boy}}",
+    "الولادة وقت تعرض الأم لدم الجنين"
+   ],
+   [
+    "الـ{{no previous antenatal care}}",
+    "ما نعرف فصيلتها قبل، فـ نحدد الاستطباب من الفصيلة"
+   ]
+  ],
+  "why": [
+   "لأن الأم {{Rh-negative}} لو تعرضت لدم طفل {{Rh-positive}} تكوّن أجسام مضادة {{anti-D}}، وفي الحمل القادم تهاجم كريات الطفل {{Rh-positive}}.",
+   "فـ نعطيها {{anti-D}} بعد الولادة (خلال {{72 hours}}) عشان نمنع {{alloimmunization}}."
+  ],
+  "wrong": {
+   "1": "لأن فصيلة الأب ما تحدد الاستطباب، المهم فصيلة الأم، وطفل {{Rh-negative}} من أم {{Rh-negative}} ما يحتاج.",
+   "2": "لأن الأم {{Rh-positive}} ما تكوّن {{anti-D}}، فـ ما فيه خطر.",
+   "3": "لأن فصيلة الأب لحالها ما تحدد الاستطباب، والمهم إن الأم {{Rh-negative}} والطفل {{Rh-positive}}."
+  },
+  "change": [
+   "لو الأم {{Rh-negative}} والطفل {{Rh-negative}} ما نحتاج {{RhoGAM}}.",
+   "لو الأم {{Rh-negative}} وعندها {{anti-D antibodies}} مسبقاً يعني {{sensitized}} ما ينفع {{RhoGAM}}، ونتابع بـ{{titers}} و{{MCA Doppler}}."
+  ],
+  "rule": "لو أم {{Rh-negative}} وطفل {{Rh-positive}} فـ {{anti-D}}."
+ },
+ "M380": {
+  "idea": [
+   "السؤال يختبر تعرف {{hydatidiform mole}} من تضخم الرحم أكثر من عمر الحمل مع {{hyperemesis}} و{{high hCG}}.",
+   "وجود جنين صغير يرجح {{partial mole}}."
+  ],
+  "clues": [
+   [
+    "الـ{{uterus 16 weeks}} مع {{amenorrhea 12 weeks}}",
+    "الرحم أكبر من عمر الحمل، علامة كلاسيكية للـ{{molar pregnancy}}"
+   ],
+   [
+    "الـ{{hyperemesis gravidarum}}",
+    "قيء شديد من {{hCG}} العالي"
+   ],
+   [
+    "الـ{{raised hCG}}",
+    "أعلى من المتوقع لعمر الحمل"
+   ],
+   [
+    "الـ{{37-year-old}}",
+    "العمر فوق {{35}} عامل خطر للـ{{mole}}"
+   ]
+  ],
+  "why": [
+   "لأن تضخم الرحم أكثر من التاريخ مع {{hyperemesis}} و{{hCG}} عالي يدل على {{hydatidiform mole}} في الثلث الأول.",
+   "والجنين الصغير بالنسبة للعمر يوافق {{partial mole}} اللي ممكن يكون فيه نسيج جنيني، بعكس {{complete mole}} اللي ما فيه جنين."
+  ],
+  "wrong": {
+   "0": "لأن {{choriocarcinoma}} ورم خبيث يجي غالباً بعد {{mole}} أو إجهاض أو ولادة، ويسبب نزيف وانتشار، مو تضخم رحم في الأسبوع {{12}} مع جنين.",
+   "2": "لأن {{toxemia}} أو {{preeclampsia}} تحتاج ارتفاع ضغط وبروتين بعد الأسبوع {{20}} عادة، والسؤال ما فيه ذلك، وظهورها قبل {{20 weeks}} يوحي بـ{{mole}}.",
+   "3": "لأن {{placental site trophoblastic tumor}} نادر جداً يجي بعد ولادة أو إجهاض و{{hCG}} فيه منخفض نسبياً، وهنا الـ{{hCG}} عالي."
+  },
+  "change": [
+   "لو ما في جنين وكانت صورة {{snowstorm}} كان {{complete mole}}.",
+   "لو ظهرت أعراض بعد الولادة أو بعد {{mole}} مع انتشار مثل {{lung metastases}} كان نفكر في {{choriocarcinoma}}."
+  ],
+  "rule": "لو الرحم أكبر من التاريخ مع {{hyperemesis}} و{{high hCG}} فـ {{molar pregnancy}}.",
+  "note": "في السؤال إشارة لتقرير غير ظاهر، فـ الشرح يعتمد على الأعراض الموصوفة والجواب المعطى."
+ },
+ "M381": {
+  "idea": [
+   "السؤال يختبر وش يغطيه الـ{{pudendal nerve block}} ووش لا.",
+   "الـ{{pudendal nerve}} يغذي منطقة العجان، لكن الـ{{rectum}} يغذيه أعصاب لاإرادية."
+  ],
+  "clues": [
+   [
+    "الـ{{pudendal nerve block near the ischial spine}}",
+    "يخدر عصب {{pudendal}} من {{S2-S4}} بفروعه"
+   ],
+   [
+    "الـ{{which structure remains fully sensitive}}",
+    "نبحث عن عضو ما يغذيه {{pudendal}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{pudendal nerve}} يعطي إحساس {{vulva}} و{{perineum}} و{{perineal body}} والـ{{urogenital diaphragm}} (بفروعه {{perineal}} و{{dorsal nerve of clitoris}}).",
+   "أما الـ{{rectum}} فـ إحساسه من الأعصاب {{autonomic}} ({{pelvic splanchnic}} و{{inferior hypogastric plexus}}) مو من {{pudendal}}، فـ يبقى حساس."
+  ],
+  "wrong": {
+   "0": "لأن الـ{{urogenital diaphragm}} أو {{perineal membrane}} منطقة تغذيها فروع {{pudendal}} فـ تتخدر.",
+   "1": "لأن الـ{{perineal body}} يغذيه {{perineal branch}} من {{pudendal}}، فـ يتخدر وهذا سبب استخدام الـ{{block}} للـ{{episiotomy}}.",
+   "3": "لأن الـ{{vulva}} يغذيها {{pudendal}} عن طريق {{labial}} و{{perineal branches}} فـ تتخدر."
+  },
+  "change": [
+   "لو كان السؤال عن الـ{{anal canal}} السفلي كان الـ{{inferior rectal nerve}} من {{pudendal}} يخدره.",
+   "لو الأم تبي تخفيف ألم انقباضات المرحلة الأولى ما يكفي {{pudendal block}} وكنا نستخدم {{epidural}}."
+  ],
+  "rule": "الـ{{pudendal block}} يخدر العجان، والـ{{rectum}} والـ{{uterus}} يبقون حساسين."
+ },
+ "M382": {
+  "idea": [
+   "السؤال يختبر مصدر النزيف بعد الجماع يعني {{postcoital bleeding}} عند امرأة عندها قصة {{HPV}}.",
+   "أكثر مصدر لـ{{postcoital bleeding}} هو {{cervix}}."
+  ],
+  "clues": [
+   [
+    "الـ{{genital warts}}",
+    "سببها {{HPV}} وهو عامل خطر لمشاكل {{cervix}}"
+   ],
+   [
+    "الـ{{scanty fresh bleeding after intercourse}}",
+    "هذا {{postcoital bleeding}}"
+   ],
+   [
+    "الـ{{45-year-old}}",
+    "عمر يستدعي استبعاد {{cervical neoplasia}}"
+   ]
+  ],
+  "why": [
+   "لأن النزيف بعد الجماع مصدره غالباً عنق الرحم، لأنه يتأثر بالاحتكاك، وعدوى {{HPV}} ترفع خطر {{cervical dysplasia}} و{{cancer}} اللي ينزف بسهولة.",
+   "فـ المصدر الأرجح هو الـ{{uterine cervix}}."
+  ],
+  "wrong": {
+   "1": "لأن نزيف {{uterine body}} مثل {{endometrial}} أو {{fibroids}} ما يرتبط بالجماع، ويكون غالباً مع الدورة أو بعد {{menopause}}.",
+   "2": "لأن {{vagina}} ممكن ينزف من {{trauma}} أو {{atrophy}}، بس مع قصة {{HPV}} يبقى {{cervix}} أرجح.",
+   "3": "لأن {{vulva}} الأعراض فيها ظاهرة مثل حكة أو آفة، وما يسبب نزيف بعد الجماع بهذا الشكل."
+  },
+  "change": [
+   "لو كانت امرأة بعد {{menopause}} وعندها جفاف كان {{atrophic vaginitis}} من {{vagina}}.",
+   "لو النزيف مع دورة غير منتظمة ومن غير جماع كان {{uterine}} مثل {{AUB}}."
+  ],
+  "rule": "لو {{postcoital bleeding}} فـ فكر {{cervix}} واستبعد {{cervical cancer}}."
+ },
+ "M383": {
+  "idea": [
+   "السؤال يختبر أول تقييم لمريضة حامل عندها أعراض {{asthma}} مع ضيق نفس.",
+   "الأعراض والـ{{allergy}} و{{wheeze}} تدل على {{asthma exacerbation}}، والتقييم الموضوعي الأول بـ{{spirometry}}."
+  ],
+  "clues": [
+   [
+    "الـ{{cough and difficulty breathing}} مع {{bilateral rhonchi}}",
+    "صوت تضيق في الشعب الهوائية"
+   ],
+   [
+    "الـ{{allergic to dust, pollen, mold, animal hair}}",
+    "خلفية {{atopic}} مع {{asthma}}"
+   ],
+   [
+    "الـ{{clear sputum, afebrile 37.5}}",
+    "بدون علامات عدوى واضحة"
+   ],
+   [
+    "الـ{{HR 120}} و{{RR 24}} و{{restless}}",
+    "ضيق تنفس واضح يحتاج تقييم موضوعي"
+   ]
+  ],
+  "why": [
+   "لأن الصورة تدل على {{asthma}} أثناء الحمل، والخطوة الموضوعية الأولى لتقييم انسداد الشعب الهوائية وشدته هي {{spirometry}} (أو {{peak flow}}).",
+   "وهي فحص آمن في الحمل وغير جراحي، وتعطي قياس {{FEV1}} نبني عليه العلاج والمتابعة."
+  ],
+  "wrong": {
+   "1": "لأن {{chest X-ray}} مو أول خطوة، نستخدمه لو نشك في {{pneumonia}} أو {{pneumothorax}} أو سبب ثاني، وهنا ما في حرارة عالية أو علامات تدل عليهم.",
+   "2": "لأن {{ABG}} نحتاجه في النوبة الشديدة أو لو في {{impending respiratory failure}}، وهنا ما يوصف ذلك، والفحص الأول هو {{spirometry}}.",
+   "3": "لأن الشحوب ممكن يدل على {{anemia}} وهذا نتحقق منه بعدين، بس {{Hb}} ما يقيّم الانسداد في الشعب الهوائية اللي هو سبب الشكوى."
+  },
+  "change": [
+   "لو كانت النوبة شديدة جداً مع {{cyanosis}} أو {{altered consciousness}} كنا نبدأ بـ{{ABG}} والعلاج الفوري.",
+   "لو في حرارة عالية وبلغم قيحي مع {{focal crackles}} كنا نفكر في {{pneumonia}} ونطلب {{chest X-ray}}."
+  ],
+  "rule": "لو {{asthma}} فـ التقييم الموضوعي الأول {{spirometry}} أو {{peak flow}}."
+ },
+ "M384": {
+  "idea": [
+   "السؤال يختبر علاج {{asthma}} في الحمل لما تزيد الأعراض.",
+   "الأعراض اليومية مع ليلية أكثر من مرة بالأسبوع و{{FEV1 70%}} تدل على {{moderate persistent asthma}}، فـ نضيف {{controller}} قوي."
+  ],
+  "clues": [
+   [
+    "الـ{{daily symptoms}}",
+    "مو {{intermittent}} بعد الحين، صارت {{persistent}}"
+   ],
+   [
+    "الـ{{nighttime symptoms once per week}}",
+    "تدل على درجة أشد من الخفيف"
+   ],
+   [
+    "الـ{{FEV1 70% of normal}}",
+    "ضمن مجال {{moderate}} للـ{{persistent asthma}}"
+   ],
+   [
+    "الـ{{previously albuterol only}}",
+    "ما يكفي بعد الحين"
+   ]
+  ],
+  "why": [
+   "لأن الأعراض صارت {{moderate persistent}} فـ تحتاج {{inhaled corticosteroids}} كأساس علاج يومي مع {{long-acting beta agonist}} كإضافة.",
+   "وهذا العلاج آمن في الحمل، والسيطرة على {{asthma}} أهم من أي خطر من الأدوية على الجنين."
+  ],
+  "wrong": {
+   "0": "لأن الـ{{oral glucocorticoids}} ما تستخدم كعلاج يومي أساسي، نحتفظ بها للنوبات الشديدة، والـ{{SABA}} وحده ما يكفي هنا.",
+   "1": "لأن {{ICS}} مع {{SABA}} فقط يناسب {{mild persistent}}، وهنا الأعراض أشد فـ نحتاج {{LABA}}.",
+   "3": "لأن هذا الخيار يحتوي نفس الدوائين تقريباً، بس الصياغة فيه ترتب الـ{{LABA}} أول، والـ{{LABA}} ما يُعطى بدون {{ICS}} وأساس العلاج هو {{ICS}}، فـ الجواب المعتمد C."
+  },
+  "change": [
+   "لو الأعراض خفيفة جداً بدون ليلية كان يكفي {{SABA}} عند الحاجة.",
+   "لو {{mild persistent}} كان نبدأ بجرعة منخفضة من {{ICS}}."
+  ],
+  "rule": "الـ{{Moderate persistent asthma}} في الحمل يعني {{ICS}} مع {{LABA}}.",
+  "note": "الخياران C وD متقاربان في المحتوى، والجواب المعتمد C."
+ },
+ "M385": {
+  "idea": [
+   "السؤال يختبر التشخيص القاطع للـ{{tuberculosis}} بعد نتيجة {{IGRA}} إيجابية.",
+   "الـ{{IGRA}} يدل على التعرض أو العدوى فقط، والتشخيص القاطع للمرض النشط بـ{{sputum culture}}."
+  ],
+  "clues": [
+   [
+    "الـ{{cough and night chills for 1 month}} مع {{cervical lymph nodes}} و{{upper lobe crepitations}}",
+    "صورة {{pulmonary TB}} نشط"
+   ],
+   [
+    "الـ{{positive IGRA}}",
+    "دليل على عدوى {{TB}}، مو تأكيد للمرض النشط"
+   ],
+   [
+    "الـ{{BCG vaccine}}",
+    "ما يأثر على {{IGRA}} فـ النتيجة موثوقة"
+   ],
+   [
+    "الـ{{definitive diagnosis}}",
+    "نحتاج عزل الجرثومة"
+   ]
+  ],
+  "why": [
+   "لأن {{sputum culture}} هو المعيار الذهبي لتشخيص {{active TB}}، يعزل الجرثومة ويسمح بفحص الحساسية للأدوية.",
+   "و{{IGRA}} ما يفرق بين {{latent}} و{{active TB}}، فـ نحتاج {{culture}} للتأكيد."
+  ],
+  "wrong": {
+   "0": "لأن {{chest X-ray}} مفيد للتقييم (مع {{abdominal shielding}} في الحمل) بس ما يعطي تشخيص قاطع، الصورة ممكن تشبه أمراض ثانية.",
+   "2": "لأن {{tuberculin skin test}} نفس فكرة {{IGRA}} يدل على التعرض فقط، و{{IGRA}} إيجابي أصلاً فـ ما يضيف شي.",
+   "3": "لأن {{sputum smear}} يفحص بالصبغة ويشوف {{acid-fast bacilli}} بس حساسيته أقل من {{culture}} وما يؤكد النوع، والـ{{culture}} هو القاطع."
+  },
+  "change": [
+   "لو كانت الأعراض غائبة والـ{{chest X-ray}} طبيعي كان {{latent TB}} ونفكر في علاج وقائي.",
+   "لو {{sputum}} سلبي بالـ{{smear}} مع شك عالي كان {{culture}} أو {{molecular test}} لازم."
+  ],
+  "rule": "الـ{{TB}}: التشخيص القاطع {{sputum culture}}.",
+  "note": "كلمة {{BC vaccine}} في السؤال تقصد {{BCG vaccine}}، والـ{{G4 P2012}} ما يغير الجواب."
+ },
+ "M386": {
+  "idea": [
+   "السؤال يختبر ميزة الـ{{mediolateral episiotomy}} مقارنة بالـ{{midline}}.",
+   "الميزة الكبيرة هي تقليل خطر امتداد الشق للـ{{anal sphincter}}."
+  ],
+  "clues": [
+   [
+    "الـ{{mediolateral episiotomy}}",
+    "الشق يميل بعيد عن الشرج"
+   ],
+   [
+    "الـ{{advantage}}",
+    "نبحث عن الميزة الأساسية مقابل العيوب"
+   ]
+  ],
+  "why": [
+   "لأن الشق المائل يبعد عن العضلة العاصرة للشرج، فـ لو امتد ما يوصل بسهولة للـ{{anal sphincter}} ({{less extension}} و{{OASIS}}).",
+   "وهذي الميزة الأساسية، بعكس الـ{{midline}} اللي أسهل في الخياطة بس أخطر في الامتداد للشرج."
+  ],
+  "wrong": {
+   "0": "لأن الإصلاح أسهل في الـ{{midline episiotomy}}، أما {{mediolateral}} فـ أصعب في الخياطة وأكثر ألم.",
+   "1": "لأن خطر العدوى ما يقل مع {{mediolateral}}، وأحياناً الجرح الأكبر ينزف أكثر.",
+   "2": "لأن {{tighter introitus}} مو ميزة أصلاً، والـ{{mediolateral}} ما يضيق فتحة المهبل."
+  },
+  "change": [
+   "لو كنا نبي أسهل خياطة وألم أقل كان {{midline episiotomy}} بس مع خطر امتداد أكبر.",
+   "لو في خطر عالي لإصابة العاصرة مثل {{big baby}} أو {{operative delivery}} كان {{mediolateral}} أفضل."
+  ],
+  "rule": "الـ{{Mediolateral}} يعني {{less anal extension}}، و{{midline}} يعني {{easy repair}}."
+ }
+}

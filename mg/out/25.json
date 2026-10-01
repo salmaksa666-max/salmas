@@ -1,0 +1,525 @@
+{
+ "M387": {
+  "idea": [
+   "السؤال يختبر العلاقة بين نوع التوأم {{dizygotic}} وبين عدد الـ{{chorion}} والـ{{amnion}}.",
+   "الفكرة إن التوأم الـ{{dizygotic}} جاي من بويضتين وحيوانين منويين، فـ كل جنين له مشيمته وأغشيته."
+  ],
+  "clues": [
+   [
+    "كلمة {{dizygotic twin pregnancy}}",
+    "يعني بويضتين مخصبتين منفصلتين، فـ التركيب دايماً {{dichorionic diamniotic}}"
+   ],
+   [
+    "عبارة {{regardless of the sex}}",
+    "التوأم الـ{{dizygotic}} ممكن يكون نفس الجنس أو مختلف، والجنس ما يغير نوع الأغشية"
+   ],
+   [
+    "السؤال عن {{membranes and placenta}}",
+    "يعني نبي نوع الـ{{chorionicity}} و{{amnionicity}}"
+   ]
+  ],
+  "why": [
+   "لأن كل بويضة مخصبة تنغرس لحالها وتكوّن {{chorion}} و{{amnion}} خاص فيها، فـ يطلع {{dichorionic diamniotic}} في كل الحالات.",
+   "والجنس ما له دخل: ممكن ولدين أو بنتين أو ولد وبنت، والنتيجة نفسها."
+  ],
+  "wrong": {
+   "0": "لأن {{monochorionic monoamniotic}} يصير في التوأم الـ{{monozygotic}} لما ينقسم الجنين متأخر، والـ{{conjoined twins}} من نفس النوع، مو من الـ{{dizygotic}}.",
+   "1": "لأن {{monochorionic diamniotic}} يصير في الـ{{monozygotic}} لما ينقسم الجنين بين اليوم الرابع والثامن تقريباً، وهو مو مرتبط بتشابه الجنس في الـ{{dizygotic}}.",
+   "2": "لأن {{dichorionic monoamniotic}} تركيب غير ممكن، لأن لو فيه {{chorion}} لكل جنين فـ لازم كل واحد له {{amnion}} خاص."
+  },
+  "change": [
+   "لو التوأم {{monozygotic}} وانقسم بدري (قبل اليوم الرابع) فـ ممكن يطلع {{dichorionic diamniotic}} بعد.",
+   "لو التوأم {{monozygotic}} وانقسم في منتصف الفترة فـ يطلع {{monochorionic diamniotic}}، ولو انقسم أبعد فـ {{monochorionic monoamniotic}}."
+  ],
+  "rule": "لو {{dizygotic}} فالجواب دايماً {{dichorionic diamniotic}}.",
+  "note": "الصورة أو التقرير ما انعرض لنا، فـ الشرح معتمد على نص السؤال والإجابة المعطاة بس."
+ },
+ "M388": {
+  "idea": [
+   "السؤال يختبر إيش المرتبط بوجود {{single umbilical artery}} في الحبل السري.",
+   "الحبل الطبيعي فيه شريانين ووريد واحد، والحالة هنا فيها شريان واحد فقط."
+  ],
+  "clues": [
+   [
+    "كلمة {{single artery}}",
+    "يعني {{single umbilical artery}} والحبل فيه {{two vessels}} بدل {{three}}"
+   ],
+   [
+    "السؤال عن {{associated with}}",
+    "نبي عامل خطر أو ارتباط معروف مو تشخيص"
+   ]
+  ],
+  "why": [
+   "لأن {{maternal diabetes}} من العوامل المعروفة المرتبطة بالـ{{single umbilical artery}}.",
+   "وغالباً الـ{{SUA}} يظهر لحاله بدون مشاكل، بس لازم نتأكد من الجنين ونراقب النمو."
+  ],
+  "wrong": {
+   "0": "لأن الـ{{single umbilical artery}} أكثر شيوعاً في العرق الأبيض {{Caucasian}} مو الأفريقي.",
+   "2": "لأن الـ{{SUA}} مرتبط بزيادة الـ{{fetal mortality}} مو نقصها، فـ {{low fetal mortality}} خطأ.",
+   "3": "لأن الـ{{major malformations}} تصير في نسبة من الحالات بس، مو في {{80%}} منها، والأغلب ما فيه تشوه."
+  },
+  "change": [
+   "لو السؤال سأل عن أشهر تشوهات مصاحبة فـ نذكر تشوهات {{renal}} و{{cardiac}} و{{GI}}.",
+   "لو {{SUA}} طلع في السونار فـ نسوي {{detailed anomaly scan}} ونتابع نمو الجنين."
+  ],
+  "rule": "لو {{single umbilical artery}} فـ فكّر {{maternal diabetes}} وتشوهات محتملة بس مو أغلبية."
+ },
+ "M389": {
+  "idea": [
+   "السؤال عن حامل في الثلث الأخير تعاني من دوخة وإغماء خصوصاً وهي نايمة على ظهرها.",
+   "فـ الفكرة {{supine hypotensive syndrome}} والعلاج إنها ما تنام على ظهرها."
+  ],
+  "clues": [
+   [
+    "الأعراض {{dizziness}} و{{fainting}} {{especially in bed}}",
+    "يعني الأعراض تزيد بالوضعية، وهذا يدل على ضغط الرحم على الـ{{IVC}}"
+   ],
+   [
+    "الـ{{BP 110/70}}",
+    "طبيعي، فـ ما فيه {{hypotension}} مستمر ولا {{preeclampsia}}"
+   ],
+   [
+    "الـ{{Hb 95 g/L}}",
+    "{{mild anemia}} فقط، ما يستاهل نقل دم"
+   ],
+   [
+    "{{38 weeks}}",
+    "الرحم كبير ويضغط على {{inferior vena cava}} لما تنام على ظهرها"
+   ]
+  ],
+  "why": [
+   "لأن الرحم الكبير يضغط على الـ{{inferior vena cava}} لما تنام على ظهرها، فـ يقل رجوع الدم للقلب وينزل الـ{{cardiac output}}.",
+   "فـ الحل البسيط هو {{left lateral position}} وتجنب النوم على الظهر، والأعراض تروح لما تغير الوضعية."
+  ],
+  "wrong": {
+   "0": "لأن {{blood transfusion}} ما له داعي، الـ{{Hb 95 g/L}} {{mild anemia}} والمريضة مستقرة، والأنيميا تتعالج بـ{{iron}}.",
+   "1": "لأن ما فيه أعراض {{neurological}} مثل {{seizure}} أو {{focal deficit}}، فـ ما نحتاج {{neurologist}}.",
+   "3": "لأن الأعراض مرتبطة بالوضعية والـ{{BP}} طبيعي، فـ ما نحتاج {{ECG}} و{{echocardiography}} كأول خطوة."
+  },
+  "change": [
+   "لو الأعراض ما تتحسن بتغيير الوضعية أو ظهرت {{palpitations}} أو {{chest pain}} فـ نفكر في سبب قلبي ونسوي {{ECG}}.",
+   "لو {{Hb}} نزل جداً أو فيه {{hemodynamic instability}} فـ ممكن نحتاج نقل دم."
+  ],
+  "rule": "لو حامل تدوخ وهي نايمة على ظهرها فالجواب {{left lateral position}}."
+ },
+ "M390": {
+  "idea": [
+   "السؤال عن أشهر عامل خطر لـ{{ectopic pregnancy}}.",
+   "وأهم عامل بحسب المرجع هو {{PID}} لأنه يضر الأنابيب."
+  ],
+  "clues": [
+   [
+    "كلمة {{most likely predisposing factor}}",
+    "نبي أشهر وأهم عامل مو أي عامل"
+   ],
+   [
+    "الـ{{ectopic pregnancy}}",
+    "غالباً في {{fallopian tube}} فـ أي شي يتلف الأنبوب يزيد الخطر"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{PID}} يسبب التهاب والتصاق وتلف في الأنابيب والشعيرات الدقيقة، فـ البويضة المخصبة تتأخر وتنغرس في الأنبوب.",
+   "والـ{{PID}} هو أهم عامل خطر في المرجع المعتمد، وأكثر شيوعاً بين المصابات."
+  ],
+  "wrong": {
+   "0": "لأن {{induction of ovulation}} عامل خطر لكنه أقل شيوعاً وأقل أهمية من الـ{{PID}}.",
+   "1": "لأن {{previous ectopic}} عامل خطر قوي، لكن الجواب المعتمد في المرجع هو {{PID}} لأنه الأشهر.",
+   "3": "لأن الـ{{IUD}} يقلل الحمل عموماً، وفقط لو صار حمل يكون احتمال {{ectopic}} أعلى، فـ ما هو العامل الأرجح."
+  },
+  "change": [
+   "لو السؤال ذكر {{prior tubal surgery}} أو {{prior ectopic}} صراحة في القصة فـ ممكن يتغير التركيز عليه.",
+   "لو الحالة فيها حمل مع {{IUD}} موجود فـ نفكر في {{ectopic}} أكثر."
+  ],
+  "rule": "لو سؤال {{risk factor for ectopic}} فـ اختار {{PID}}."
+ },
+ "M391": {
+  "idea": [
+   "السؤال عن ألم أسفل البطن عند امرأة بعمر الإنجاب مع {{pregnancy test negative}} وكتلة محسوسة في الجهة اليمنى.",
+   "الـ{{pregnancy test}} السلبي يشيل الـ{{ectopic}}، والألم المتقطع مع غثيان وقيء وامتلاء في {{right iliac fossa}} يتوافق مع {{ovarian torsion}} بحسب الإجابة المعطاة."
+  ],
+  "clues": [
+   [
+    "الـ{{Pregnancy test negative}}",
+    "يعني الـ{{ectopic pregnancy}} مستبعد"
+   ],
+   [
+    "{{intermittent dull pain}} لمدة {{10-15 minutes}} مع {{nausea and vomiting}}",
+    "ألم متقطع مع غثيان، يصير في {{torsion}} لما المبيض يلتف ويرجع ينفك جزئياً"
+   ],
+   [
+    "{{fullness in the right iliac fossa}}",
+    "ممكن يكون كتلة مبيضية ملتفة، وهي أرضية شائعة للـ{{torsion}}"
+   ],
+   [
+    "{{tenderness and guarding}} و{{HR 110}} و{{BP 90/60}}",
+    "أعراض بطن حاد مع علامات ضغط على الدورة الدموية"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{ovarian torsion}} يسبب ألم أسفل البطن في جهة واحدة مع غثيان وقيء، وممكن يكون متقطع لما يلتف المبيض وينفك.",
+   "ووجود امتلاء في الجهة اليمنى مع {{negative pregnancy test}} يخلي الـ{{torsion}} هو التشخيص الأنسب بحسب الإجابة المعطاة."
+  ],
+  "wrong": {
+   "0": "لأن {{acute cystitis}} أعراضه {{dysuria}} و{{frequency}} وألم فوق العانة، وما فيه {{guarding}} ولا {{RIF fullness}}.",
+   "2": "لأن {{acute appendicitis}} ألم مستمر ومتزايد غالباً يبدأ حول السرة ثم ينتقل لـ{{RIF}} مع حرارة أعلى وفقدان شهية، والقصة هنا ألم متقطع مع امتلاء في الجهة اليمنى فـ الأقرب {{torsion}}.",
+   "3": "لأن {{pregnancy test}} سلبي، والـ{{ectopic pregnancy}} يحتاج {{positive hCG}}."
+  },
+  "change": [
+   "لو الـ{{pregnancy test}} إيجابي والـ{{BP}} نازل فـ نفكر {{ruptured ectopic}}.",
+   "لو الألم يبدأ حول السرة وينتقل لـ{{RIF}} مع {{fever}} و{{high WBC}} بدون كتلة فـ نفكر {{appendicitis}}."
+  ],
+  "rule": "لو ألم أسفل بطن في امرأة مع {{negative hCG}} وكتلة {{adnexal}} فـ فكّر {{ovarian torsion}}.",
+  "note": "الصورة أو التقرير ما انعرض لنا، فـ الشرح معتمد على القصة السريرية والإجابة المعطاة بس، وما نقدر نوصف نتيجة الصورة."
+ },
+ "M392": {
+  "idea": [
+   "السؤال عن تفسير نمط {{CTG}} عند حامل في المخاض بعمر {{34 weeks}}.",
+   "والإجابة المعطاة هي {{uteroplacental insufficiency}}، يعني نمط يدل على نقص وصول الأكسجين عبر المشيمة."
+  ],
+  "clues": [
+   [
+    "الـ{{CTG}} المعروض",
+    "النمط المعروض هو اللي يحدد الجواب، والإجابة المعطاة تدل على نمط {{late deceleration}}"
+   ],
+   [
+    "{{labour pains}} و{{cervix 4 cm}}",
+    "الحمل في مخاض فعلي والانقباضات تقلل تدفق الدم للمشيمة"
+   ],
+   [
+    "{{BP 135/88}}",
+    "ضغط حدّي، ممكن يرتبط بمشاكل المشيمة"
+   ]
+  ],
+  "why": [
+   "لأن {{uteroplacental insufficiency}} يعني المشيمة ما تقدر توصل أكسجين كافي للجنين خصوصاً وقت الانقباض، فـ يظهر في الـ{{CTG}} على شكل {{late decelerations}}.",
+   "والإجابة المعطاة تتوافق مع هذا النمط، فـ هو التفسير الأنسب للصورة."
+  ],
+  "wrong": {
+   "0": "لأن {{placenta previa}} تشخيص يعتمد على {{painless bleeding}} والسونار، مو على نمط {{CTG}}.",
+   "1": "لأن {{head compression}} تعطي {{early decelerations}} تبدأ وتنتهي مع الانقباض، وهي حميدة.",
+   "2": "لأن {{cord compression}} تعطي {{variable decelerations}} متغيرة الشكل والتوقيت."
+  },
+  "change": [
+   "لو النمط {{variable decelerations}} فـ التفسير {{cord compression}}.",
+   "لو {{early decelerations}} متزامنة مع الانقباض فـ {{head compression}} وهذا طبيعي."
+  ],
+  "rule": "لو {{late decelerations}} فـ {{uteroplacental insufficiency}}.",
+  "note": "صورة الـ{{CTG}} ما انعرضت لنا، فـ الشرح معتمد على الإجابة المعطاة ومعنى كل نمط، وما نقدر نوصف تفاصيل الصورة."
+ },
+ "M393": {
+  "idea": [
+   "السؤال عن أشهر سبب لنزيف مع جلطات في حمل عمره {{5 weeks}} وفتحة {{os}} مفتوحة.",
+   "هذا {{first trimester miscarriage}} والسبب الأشهر له هو {{chromosomal abnormality}}."
+  ],
+  "clues": [
+   [
+    "{{5 weeks}} مع {{bleeding and clots}} و{{open os}}",
+    "يعني {{first trimester miscarriage}} غالباً {{inevitable abortion}}"
+   ],
+   [
+    "{{cervical incompetence}} في الإجهاضين السابقين",
+    "كانت في الثلث الثاني، وهذا ما يفسر نزيف بالثلث الأول"
+   ],
+   [
+    "{{D&C}} سابق",
+    "يخوفنا من {{Asherman}} بس هذا ما يسبب نزيف حمل"
+   ]
+  ],
+  "why": [
+   "لأن أشهر سبب لفقدان الحمل في الثلث الأول هو الـ{{chromosomal abnormality}} في الجنين.",
+   "و{{cervical incompetence}} يسبب فقد الحمل في الثلث الثاني بدون ألم، مو في أسبوع {{5}}، فـ ما يفسر الحالة الحالية."
+  ],
+  "wrong": {
+   "0": "لأن {{luteal phase defect}} سبب مثير للجدل ومو أشهر سبب لفقدان الحمل المبكر.",
+   "1": "لأن {{Asherman's syndrome}} يسبب {{amenorrhea}} أو {{hypomenorrhea}} وعقم، وما يسبب نزيف حمل بهذي الصورة.",
+   "2": "لأن {{cervical incompetence}} تسبب فقد حمل في {{second trimester}} بدون ألم، مو في {{5 weeks}}."
+  },
+  "change": [
+   "لو الحمل كان {{second trimester}} مع {{painless cervical dilation}} فـ {{cervical insufficiency}}.",
+   "لو كانت ثلاث فقدان متتالي بالثلث الأول فـ نفكر في {{antiphospholipid syndrome}} أكثر."
+  ],
+  "rule": "لو إجهاض بالثلث الأول فـ السبب الأشهر {{chromosomal abnormality}}."
+ },
+ "M394": {
+  "idea": [
+   "السؤال عن علاج {{trichomonas vaginalis}} بحسب الوصف: إفرازات صفراء ورائحة وحكة و{{motile flagellate organisms}}.",
+   "والعلاج هو {{metronidazole}}."
+  ],
+  "clues": [
+   [
+    "{{yellowish offensive discharge}} مع حكة",
+    "يشبه {{trichomoniasis}}"
+   ],
+   [
+    "{{motile flagellate organisms on wet film}}",
+    "هذا وصف {{Trichomonas vaginalis}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{Trichomonas vaginalis}} طفيلي يتعالج بـ{{metronidazole}}.",
+   "والـ{{metronidazole}} هو الدواء الأساسي لـ{{trichomoniasis}} ويغطي كمان {{bacterial vaginosis}}."
+  ],
+  "wrong": {
+   "0": "لأن {{tetracycline}} مضاد حيوي يستخدم في {{chlamydia}} وبعض الالتهابات، مو للطفيليات.",
+   "1": "لأن {{cefuroxime}} {{cephalosporin}} يغطي بكتيريا، ما يقتل {{Trichomonas}}.",
+   "2": "لأن {{nitrofurantoin}} يستخدم لـ{{urinary tract infection}} مو لالتهاب المهبل بالطفيلي."
+  },
+  "change": [
+   "لو كان {{clue cells}} مع {{fishy odor}} فـ {{bacterial vaginosis}} ويتعالج بـ{{metronidazole}} بعد.",
+   "لو كان {{curdy white discharge}} مع {{pseudohyphae}} فـ {{candidiasis}} ويتعالج بـ{{fluconazole}}."
+  ],
+  "rule": "لو {{flagellated motile organism}} فـ {{metronidazole}}."
+ },
+ "M395": {
+  "idea": [
+   "السؤال عن إدارة الزوج لما الزوجة مصابة بـ{{trichomoniasis}} وبدأت العلاج.",
+   "لأنه مرض ينتقل جنسياً فـ نعالج الشريك بنفس الدواء."
+  ],
+  "clues": [
+   [
+    "{{motile flagellate organisms}}",
+    "يعني {{Trichomonas vaginalis}}، وهو {{STI}}"
+   ],
+   [
+    "{{Appropriate treatment was initiated}}",
+    "الزوجة بدأت علاج، فـ الباقي الشريك"
+   ],
+   [
+    "السؤال عن {{husband}}",
+    "نبي {{partner treatment}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{trichomoniasis}} ينتقل جنسياً، والزوج غالباً حامل للطفيلي حتى لو بدون أعراض.",
+   "فـ لازم نعطيه {{metronidazole}} عشان نمنع {{reinfection}} أو {{ping-pong effect}}."
+  ],
+  "wrong": {
+   "0": "لأن {{tetracycline}} ما يقتل {{Trichomonas}}.",
+   "2": "لأن عدم علاج الشريك يعني رجوع العدوى للزوجة.",
+   "3": "لأن المتابعة بعد أسبوعين بدون علاج ما تحل المشكلة، الزوج ممكن ينقل العدوى."
+  },
+  "change": [
+   "لو الزوج ما انفحص ولا فيه أعراض فـ برضه نعالجه، لأن العلاج يشمل الشريك.",
+   "لو كان {{BV}} فـ ما نعالج الشريك الذكر روتينياً."
+  ],
+  "rule": "لو {{trichomoniasis}} فـ نعالج الشريك بـ{{metronidazole}}."
+ },
+ "M396": {
+  "idea": [
+   "السؤال عن أشهر عامل خطر لـ{{placental abruption}}.",
+   "والجواب {{maternal hypertension}}."
+  ],
+  "clues": [
+   [
+    "{{most common risk factor}}",
+    "نبي أشهر عامل مو أي واحد"
+   ],
+   [
+    "{{abruptio placenta}}",
+    "انفصال المشيمة قبل الولادة"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{hypertension}} بأنواعها ({{chronic}} و{{preeclampsia}}) أشهر عامل خطر، لأنه يضر أوعية المشيمة فـ تنفصل.",
+   "وفي المرجع {{HTN and pre-eclampsia}} و{{smoking}} هي عوامل خطر الـ{{abruption}}."
+  ],
+  "wrong": {
+   "0": "لأن {{folate deficiency}} ما هو عامل أساسي، وفي أحسن الأحوال ارتباطه ضعيف.",
+   "1": "لأن {{short umbilical cord}} سبب نادر مقارنة بالـ{{hypertension}}.",
+   "3": "لأن {{PROM}} عامل خطر لكنه أقل شيوعاً من الـ{{hypertension}}."
+  },
+  "change": [
+   "لو السؤال عن عامل خطر مع {{trauma}} أو {{cocaine}} فـ ممكن يتغير الجواب حسب القصة.",
+   "لو {{painless bleeding}} فـ نفكر {{placenta previa}} مو {{abruption}}."
+  ],
+  "rule": "لو {{abruption}} فـ فكّر {{HTN}} و{{smoking}}."
+ },
+ "M397": {
+  "idea": [
+   "السؤال عن أشهر سبب لـ{{DIC}} في الحمل.",
+   "والجواب {{placental abruption}}."
+  ],
+  "clues": [
+   [
+    "{{most common cause of DIC in pregnancy}}",
+    "نبي أشهر سبب مو أي سبب ممكن"
+   ],
+   [
+    "{{pregnancy}}",
+    "الحمل فيه أسباب خاصة مثل {{abruption}}"
+   ]
+  ],
+  "why": [
+   "لأن {{placental abruption}} يدخل كمية كبيرة من {{tissue factor}} للدم الأمي، وهذا يفعل التخثر ويستهلك الصفائح وعوامل التخثر.",
+   "فـ هو أشهر سبب للـ{{DIC}} في الحمل."
+  ],
+  "wrong": {
+   "0": "لأن {{uterine rupture}} سبب أقل شيوعاً للـ{{DIC}}.",
+   "1": "لأن {{placenta previa}} نزيفه خارجي وما يعطي {{tissue factor}} بنفس الشكل، فـ نادراً ما يسبب {{DIC}}.",
+   "3": "لأن {{congenital bleeding disorder}} مو سبب خاص بالحمل وهو أصلاً نادر."
+  },
+  "change": [
+   "لو الحالة {{amniotic fluid embolism}} أو {{HELLP}} فـ هذي أسباب إضافية للـ{{DIC}}.",
+   "لو {{retained dead fetus}} لفترة طويلة فـ ممكن {{DIC}} بعد."
+  ],
+  "rule": "لو {{DIC}} في الحمل فـ فكّر {{abruption}} أول شي."
+ },
+ "M398": {
+  "idea": [
+   "السؤال عن إدارة {{subserous fibroid}} حجمه {{5 cm}} عند امرأة ما عندها أعراض.",
+   "القاعدة: {{asymptomatic fibroid}} ما يحتاج علاج، فقط متابعة."
+  ],
+  "clues": [
+   [
+    "{{asymptomatic}}",
+    "ما فيه أعراض فـ ما نحتاج تدخل"
+   ],
+   [
+    "{{subserous}}",
+    "يمتد خارج الرحم وما يشوّه التجويف، فـ قليل الأعراض"
+   ],
+   [
+    "{{36 years old}} و{{5 cm}}",
+    "حجم متوسط وما ذكر مضاعفات"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{fibroid}} من غير أعراض ما يحتاج جراحة، والخيار هو {{clinical surveillance}}.",
+   "والـ{{subserous}} ما يدخل التجويف فـ ما يسبب نزيف غالباً، والتدخل يكون لما تظهر أعراض."
+  ],
+  "wrong": {
+   "0": "لأن {{myomectomy}} للأعراض أو الرغبة بالحمل مع مشاكل، مو لحالة بدون أعراض.",
+   "1": "لأن {{hysterectomy}} علاج نهائي للحالات اللي فيها أعراض وغير المرغوب بالحمل.",
+   "2": "لأن {{endometrial biopsy}} للنزيف الغير طبيعي، وما فيه نزيف هنا."
+  },
+  "change": [
+   "لو فيه {{menorrhagia}} أو {{pressure symptoms}} فـ نفكر في علاج طبي أو جراحي.",
+   "لو المرأة تبي حمل ومعها {{submucosal fibroid}} فـ ممكن {{myomectomy}}."
+  ],
+  "rule": "لو {{fibroid asymptomatic}} فـ {{surveillance}}."
+ },
+ "M399": {
+  "idea": [
+   "السؤال عن امرأة شابة {{32}} سنة بدينة مع {{PCOS-like picture}} و{{atypical complex hyperplasia}}.",
+   "والجواب {{oral progesterone}} لأنها شابة والعلاج بالهرمون يحافظ على الرحم."
+  ],
+  "clues": [
+   [
+    "{{32-year-old obese}} مع {{chronic anovulation}}",
+    "هذا {{unopposed estrogen}} وهو سبب {{endometrial hyperplasia}}"
+   ],
+   [
+    "{{atypical complex hyperplasia}}",
+    "نوع فيه {{atypia}} وفيه خطر تحول لسرطان"
+   ],
+   [
+    "العمر الصغير",
+    "في المرجع الشابة بعمر الحمل تعالج بـ{{progesterone}}"
+   ]
+  ],
+  "why": [
+   "لأن {{chronic anovulation}} مع السمنة يعطي {{unopposed estrogen}}، والـ{{progesterone}} يعاكس تأثير الإستروجين على بطانة الرحم.",
+   "والمرأة شابة في عمر الإنجاب، فـ في المرجع يكون العلاج {{progesterone}} حتى لو فيه {{atypia}}."
+  ],
+  "wrong": {
+   "0": "لأن {{letrozole}} دواء لتحفيز الإباضة، مو علاج لـ{{endometrial hyperplasia}}.",
+   "1": "لأن {{tamoxifen}} يزيد خطر {{endometrial hyperplasia}} لأنه يعمل كـ{{estrogen agonist}} في الرحم.",
+   "2": "لأن {{spironolactone}} مضاد للأندروجين يستخدم لـ{{hirsutism}}، مو لبطانة الرحم."
+  },
+  "change": [
+   "لو {{hyperplasia without atypia}} فـ نفس العلاج {{progesterone}}.",
+   "لو المرأة كبيرة أو أكملت الإنجاب مع {{atypia}} فـ {{hysterectomy}}."
+  ],
+  "rule": "الـ{{Hyperplasia with atypia}} في شابة فـ {{progesterone}}."
+ },
+ "M400": {
+  "idea": [
+   "السؤال عن حامل مدخنة بعمر {{34 weeks}} مع نزيف مؤلم وألم عند لمس الرحم.",
+   "وهذي صورة {{abruptio placentae}}."
+  ],
+  "clues": [
+   [
+    "{{painful vaginal bleeding}}",
+    "يعني {{abruption}} مو {{placenta previa}}"
+   ],
+   [
+    "{{uterine tenderness}}",
+    "علامة {{abruption}} لأن الدم خلف المشيمة يهيج الرحم"
+   ],
+   [
+    "{{heavy smoker}}",
+    "عامل خطر لـ{{abruption}}"
+   ]
+  ],
+  "why": [
+   "لأن النزيف المؤلم مع حساسية الرحم عند مدخنة يدل على {{abruptio placentae}}.",
+   "والتدخين من عوامل الخطر المعروفة."
+  ],
+  "wrong": {
+   "0": "لأن {{placenta previa}} نزيفه {{painless}} والرحم ما فيه ألم.",
+   "1": "لأن {{uterine rupture}} يكون مع ندبة سابقة بالرحم أو مخاض متعسر، وهي أول حمل بدون ندبة، وما فيه هذي القصة.",
+   "3": "لأن {{fetal vessel rupture}} مثل {{vasa previa}} نزيفه بدون ألم ومعه {{fetal bradycardia}}."
+  },
+  "change": [
+   "لو النزيف بدون ألم فـ {{placenta previa}}.",
+   "لو بدون ألم مع {{fetal bradycardia}} فـ {{vasa previa}}."
+  ],
+  "rule": "لو {{painful bleeding}} فـ {{abruption}}."
+ },
+ "M401": {
+  "idea": [
+   "السؤال عن أشهر سبب لـ{{postpartum hemorrhage}}.",
+   "والجواب {{uterine atony}}."
+  ],
+  "clues": [
+   [
+    "{{most common cause of PPH}}",
+    "نبي الأشهر"
+   ]
+  ],
+  "why": [
+   "لأن {{uterine atony}} هو أشهر سبب لـ{{PPH}}، يعني الرحم ما ينقبض بعد الولادة فـ الأوعية تبقى تنزف.",
+   "وإذا القصة ما فيها سبب محدد فـ نختار {{atony}}."
+  ],
+  "wrong": {
+   "1": "لأن {{uterine inversion}} نادر.",
+   "2": "لأن {{genital tract trauma}} هو ثاني أشهر سبب، مو الأول.",
+   "3": "لأن {{amniotic fluid embolism}} نادر جداً."
+  },
+  "change": [
+   "لو الرحم صلب أو استخدم {{forceps}} فـ {{genital tract laceration}}.",
+   "لو بعد يومين من الولادة فـ {{secondary PPH}} مثل {{retained products}}."
+  ],
+  "rule": "لو {{PPH}} بدون سبب محدد فـ {{uterine atony}}."
+ },
+ "M402": {
+  "idea": [
+   "السؤال عن الخيار القياسي لـ{{PPH}} بسبب {{atony}}.",
+   "والجواب {{oxytocin}}."
+  ],
+  "clues": [
+   [
+    "{{uterine atony}}",
+    "الرحم رخو فـ نحتاج {{uterotonic}}"
+   ],
+   [
+    "{{standard of care}}",
+    "أول خط علاج"
+   ]
+  ],
+  "why": [
+   "لأن {{oxytocin}} هو {{first-line uterotonic}} مع {{uterine massage}}، وآمن وسريع.",
+   "وباقي الأدوية تتبع بالترتيب لو ما استجاب."
+  ],
+  "wrong": {
+   "1": "لأن {{ergonovine}} (أو {{methylergonovine}}) خط ثاني، وممنوع في {{hypertension}} و{{preeclampsia}}.",
+   "2": "لأن {{carboprost}} خط ثالث، وممنوع في {{asthma}}.",
+   "3": "لأن {{misoprostol}} خط أخير في التدرج."
+  },
+  "change": [
+   "لو الأم عندها {{hypertension}} فـ نتجنب {{methylergonovine}}.",
+   "لو الأم عندها {{asthma}} فـ نتجنب {{carboprost}}."
+  ],
+  "rule": "لو {{atony}} فـ {{massage}} و{{oxytocin}} أول شي."
+ }
+}

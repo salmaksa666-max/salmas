@@ -1,0 +1,550 @@
+{
+ "M147": {
+  "idea": [
+   "سيدة عندها {{tubal factor infertility}} بعد {{PID}} بسبب {{chlamydia}}، والـ{{HSG}} أثبت {{bilateral tubal blockage}}",
+   "الجواب {{IVF and embryo transfer}} لأنه يتجاوز الأنابيب تماماً"
+  ],
+  "clues": [
+   [
+    "لو {{severe PID}} بسبب {{chlamydia trachomatis}} قبل سنتين",
+    "يعني ضرر وانسداد في {{fallopian tubes}}"
+   ],
+   [
+    "لو {{no free spillage of dye bilaterally}} في {{HSG}}",
+    "يعني الأنبوبين الاثنين مسدودين، فالبويضة والحيوان المنوي ما يلتقون"
+   ],
+   [
+    "لو {{normal regular periods}} و{{normal semen analysis}}",
+    "يعني {{ovulation}} موجود والزوج سليم، فالمشكلة في الأنابيب بس"
+   ],
+   [
+    "لو {{normal uterine cavity}}",
+    "يعني الرحم يقدر يستقبل {{embryo transfer}}"
+   ]
+  ],
+  "why": [
+   "لأن الأنابيب مسدودة من الطرفين، والإخصاب الطبيعي أو {{IUI}} يحتاج {{patent tubes}} على الأقل من جهة وحدة",
+   "فـ{{IVF}} يخلي الإخصاب يصير بالمختبر ثم نرجع {{embryo}} للرحم مباشرة، يعني نتجاوز الأنابيب",
+   "الدورة منتظمة و{{semen}} طبيعي والرحم سليم، فكل شروط نجاح {{IVF}} موجودة"
+  ],
+  "wrong": {
+   "1": "لأن {{induction of ovulation}} ما له فايدة وهي أصلاً عندها {{regular cycles}}، والمشكلة انسداد الأنابيب مو {{anovulation}}، والبويضة ما تقدر توصل للحيوان المنوي",
+   "2": "لأن {{IUI}} يحط الحيوان المنوي داخل الرحم لكنه يحتاج أنبوب مفتوح عشان يصير الإخصاب والنقل، وهنا الأنبوبين مسدودين",
+   "3": "لأن إنقاص الوزن مفيد صحياً بس ما يفتح الأنابيب المسدودة، فما يحل سبب {{infertility}} هنا"
+  },
+  "change": [
+   "لو {{HSG}} أظهر {{free spillage bilaterally}} وما فيه سبب ثاني فنفكر في {{expectant management}} أو علاج {{ovulation}} حسب الحالة",
+   "لو كان العقم بسبب {{anovulation}} مثل {{PCOS}} فنعطي {{ovulation induction}} وأول شيء إنقاص الوزن"
+  ],
+  "rule": "لو {{bilateral tubal blockage}} فالحل {{IVF}} لأنه يتجاوز الأنابيب"
+ },
+ "M148": {
+  "idea": [
+   "سيدة عندها عقم بعد {{severe PID}} بـ{{chlamydia}} مع دورة منتظمة و{{semen}} طبيعي، والسؤال عن فحص تصويري للحوض",
+   "الجواب {{MRI of the pelvis}} لأنه يبين الأنسجة الرخوة في الحوض بتفصيل بدون إشعاع"
+  ],
+  "clues": [
+   [
+    "لو {{severe PID}} بسبب {{chlamydia trachomatis}} قبل سنتين",
+    "يعني احتمال ضرر والتصاقات في الأنابيب والمبيض وما حولهم"
+   ],
+   [
+    "لو {{normal regular periods}}",
+    "يعني {{ovulation}} موجود غالباً، فما نحتاج نراقبه"
+   ],
+   [
+    "لو {{normal seminal analysis}} للزوج",
+    "يعني الجزء الذكري مفحوص، فنبحث عن السبب بالحوض عند الزوجة"
+   ]
+  ],
+  "why": [
+   "لأن {{MRI}} يعطي صورة واضحة جداً للأنسجة الرخوة مثل الأنابيب والمبيضين والرحم، فيبين آثار {{PID}} مثل {{hydrosalpinx}} والالتصاقات",
+   "وهو بدون إشعاع وبدون حقن صبغة عبر عنق الرحم، فمناسب لسيدة تحاول الحمل وعندها تاريخ عدوى شديدة بالحوض",
+   "بما إن التبويض والزوج سليمين، فالمنطقي نفحص السبب التشريحي بالحوض، وهو ما يجيبه {{MRI}}"
+  ],
+  "wrong": {
+   "0": "لأن الدورة منتظمة يعني {{ovulation}} موجود غالباً، فمراقبته بالـ{{ultrasound}} ما تكشف سبب العقم هنا",
+   "2": "لأن {{CT}} فيه إشعاع وتفاصيله للأنسجة الرخوة أقل من {{MRI}}، فما نفضله لسيدة شابة تحاول الحمل",
+   "3": "لأن {{HSG}} يحتاج حقن صبغة عبر عنق الرحم، ومع تاريخ {{severe PID}} فيه احتمال تنشيط العدوى في أنابيب متضررة، فهنا الفحص التصويري غير الباضع هو المطلوب"
+  },
+  "change": [
+   "لو ما فيه تاريخ {{PID}} وكان الفحص الروتيني لتقييم الأنابيب مطلوب فممكن يكون {{HSG}} هو المعتاد",
+   "لو الدورة غير منتظمة فنفكر في {{anovulation}} ونراقب {{ovulation}} ونقيس {{hormones}}"
+  ],
+  "rule": "عقم بعد {{severe PID}} يعني تصوير الحوض بـ{{MRI}} لأنه يبين الضرر بدون إشعاع",
+  "note": "السؤال ما يعرض نتيجة أي فحص سابق، والجواب مبني على الصورة السريرية والإجابة المعطاة."
+ },
+ "M149": {
+  "idea": [
+   "سيدة عندها أعراض {{cystitis}} ({{dysuria}} و{{frequency}} و{{positive leukocyte esterase}}) ولها حساسية من {{sulfa}} و{{penicillin}}",
+   "فنختار {{nitrofurantoin}} لأنه ما فيه حساسية معه وهو مناسب لـ{{uncomplicated UTI}}"
+  ],
+  "clues": [
+   [
+    "لو {{dysuria}} و{{frequency}} و{{positive leukocyte esterase}} على الـ{{dipstick}}",
+    "يعني {{urinary tract infection}} في المثانة"
+   ],
+   [
+    "لو حساسية من {{sulfa}} و{{penicillin}} و{{shellfish}}",
+    "يعني نتجنب {{TMP-SMX}} و{{amoxicillin}}، ونحذر من {{cephalosporin}} بسبب التحسس للـ{{penicillin}}"
+   ],
+   [
+    "لو {{Temperature 38.0}} مع بقية العلامات الحيوية مستقرة",
+    "يعني مريضة مستقرة والمطلوب علاج فموي مناسب مع الحساسية"
+   ]
+  ],
+  "why": [
+   "لأن {{nitrofurantoin}} علاج فموي مناسب للـ{{cystitis}} وما ينتمي لا للـ{{sulfa}} ولا للـ{{penicillin}}، فآمن مع حساسيتها",
+   "هو يركز في البول ويغطي أغلب البكتيريا المسببة مثل {{E. coli}}",
+   "فالمطلوب دواء يغطي {{UTI}} وما يتعارض مع الحساسية، و{{nitrofurantoin}} يحقق الشرطين"
+  ],
+  "wrong": {
+   "1": "لأن {{trimethoprim-sulfamethoxazole}} يحتوي على {{sulfa}} وهي عندها حساسية منه",
+   "2": "لأن {{cephalexin}} من فئة {{cephalosporin}} وفيه احتمال {{cross-reactivity}} مع الـ{{penicillin}}، فنتجنبه مع حساسية {{penicillin}}",
+   "3": "لأن {{amoxicillin}} من عائلة {{penicillin}} وهي عندها حساسية منه"
+  },
+  "change": [
+   "لو ما عندها أي حساسية فـ{{TMP-SMX}} خيار أول مناسب حسب المقاومة المحلية",
+   "لو الأعراض مع {{flank pain}} و{{high fever}} وتقيؤ فنفكر في {{pyelonephritis}} ونحتاج علاج أقوى وربما {{admission}}"
+  ],
+  "rule": "لو {{UTI}} مع حساسية {{sulfa}} و{{penicillin}} فاختار {{nitrofurantoin}}",
+  "note": "السؤال يشير إلى {{see report}} والتقرير ما انعرض، فالشرح مبني على الأعراض والحساسيات المذكورة بالنص."
+ },
+ "M150": {
+  "idea": [
+   "سيدة بعد {{vaginal hysterectomy with anterior and posterior repair}} وعندها تسرب بول من المهبل أثناء التبول",
+   "الجواب {{urethrovaginal fistula}} لأن الإصلاح الأمامي قريب من الإحليل والتسرب يصير مع {{micturition}}"
+  ],
+  "clues": [
+   [
+    "لو {{2 weeks}} بعد {{vaginal hysterectomy with anterior repair}}",
+    "يعني فتحة ناتجة عن إصابة جراحية في الإحليل أو المثانة أثناء العملية"
+   ],
+   [
+    "لو تسرب بول من المهبل {{during micturition}}",
+    "يعني البول يخرج من الفتحة أثناء التبول فقط، مو تسرب مستمر"
+   ]
+  ],
+  "why": [
+   "لأن {{anterior repair}} (إصلاح الجدار الأمامي للمهبل) يتعامل مع الإحليل والمثانة، فممكن تحصل إصابة تسبب فتحة بين الإحليل والمهبل",
+   "والفتحة الإحليلية المهبلية تعطي تسرب مع التبول لأن المثانة تحتفظ بالبول بشكل طبيعي وما يخرج إلا مع مرور البول على الإحليل",
+   "فالتشخيص الأنسب للتسرب أثناء التبول بعد عملية إصلاح أمامي هو {{urethrovaginal fistula}}"
+  ],
+  "wrong": {
+   "0": "لأن {{cystitis}} التهاب بالمثانة يعطي {{dysuria}} و{{frequency}} ما يعطي بول يتسرب من المهبل",
+   "1": "لأن {{vesicovaginal fistula}} يعطي غالباً تسرب مستمر لأن الفتحة بالمثانة نفسها، مو تسرب مع التبول فقط",
+   "2": "لأن {{ureterovaginal fistula}} يعطي تسرب مستمر مع تبول طبيعي لأن المثانة الثانية سليمة، وتحصل غالباً بعد عملية رحم لكن هنا العملية إصلاح أمامي"
+  },
+  "change": [
+   "لو كان التسرب مستمر ليل نهار فنفكر في {{vesicovaginal fistula}}",
+   "لو التسرب مستمر مع قدرة التبول بشكل طبيعي فنفكر في {{ureterovaginal fistula}}"
+  ],
+  "rule": "لو تسرب أثناء التبول بعد {{anterior repair}} فهو {{urethrovaginal fistula}}"
+ },
+ "M151": {
+  "idea": [
+   "سيدة بعد سن اليأس بـ{{4 years}} وعندها {{postmenopausal bleeding}} والدم خارج من فتحة عنق الرحم، يعني المصدر من داخل الرحم",
+   "الخطوة التالية {{D&C}} لأنه يأخذ عينة كاملة من بطانة الرحم لاستبعاد {{endometrial cancer}}"
+  ],
+  "clues": [
+   [
+    "لو {{menopausal for 4 years}} وعندها نزيف",
+    "يعني {{postmenopausal bleeding}} ولازم نستبعد سرطان بطانة الرحم"
+   ],
+   [
+    "لو {{healthy vagina and cervix}} مع دم في {{cervical os}}",
+    "يعني المصدر من تجويف الرحم مو من المهبل أو العنق"
+   ],
+   [
+    "لو {{nulliparous}}",
+    "يعني عامل خطر لـ{{endometrial cancer}}"
+   ]
+  ],
+  "why": [
+   "لأن أي نزيف بعد انقطاع الطمث يعتبر {{endometrial cancer}} حتى يثبت العكس، ونحتاج عينة نسيجية لإثبات أو نفي ذلك",
+   "الـ{{D&C}} يكشط البطانة من التجويف كله، فيعطي عينة أوسع من أخذ عينة بسيطة من جزء بالبطانة، ويساعد كذلك في إيقاف النزيف",
+   "الفحص طبيعي للمهبل والعنق، فنروح مباشرة لتقييم داخل الرحم"
+  ],
+  "wrong": {
+   "0": "لأن {{postmenopausal bleeding}} ما نتركه بدون تقييم أبداً، لأنه ممكن يكون {{endometrial cancer}}",
+   "2": "لأن الـ{{endometrial biopsy}} بسيط ويأخذ عينة من جزء من البطانة، فممكن يفوته مكان مصاب، لذلك الجواب هنا {{D&C}} اللي يعطي عينة أشمل",
+   "3": "لأن الـ{{pelvic ultrasound}} يقيس سماكة البطانة بس ما يعطي تشخيص نسيجي، واللي نبي نتأكد منه هو السرطان فنحتاج عينة"
+  },
+  "change": [
+   "لو {{ultrasound}} أظهر {{endometrial thickness 4 mm or less}} فاحتمال {{hyperplasia}} ضعيف جداً ونقدر ما نأخذ عينة حسب الإرشادات",
+   "لو العينة غير كافية أو غير حاسمة فنستخدم {{hysteroscopy}} أو {{D&C}}"
+  ],
+  "rule": "نزيف بعد انقطاع الطمث يعني نأخذ عينة من البطانة، والجواب هنا {{D&C}}"
+ },
+ "M152": {
+  "idea": [
+   "سيدة عمرها {{30}} وعندها {{Pap smear}} فيه {{low-grade squamous intraepithelial lesion}}",
+   "الخطوة التالية هي {{colposcopy}} لأن أي {{abnormal Pap}} غير {{ASCUS}} يتبعها {{colposcopy}}"
+  ],
+  "clues": [
+   [
+    "لو {{Pap smear}} فيه {{low-grade epithelial lesions}}",
+    "يعني نتيجة غير طبيعية غير {{ASCUS}}"
+   ],
+   [
+    "لو {{smoking}} و{{normal Pap for 9 years}} سابقاً",
+    "يعني السيدة تفحص بانتظام والتدخين عامل خطر"
+   ],
+   [
+    "لو {{bimanual exam normal}}",
+    "يعني ما فيه كتلة ظاهرة تتطلب تدخل ثاني"
+   ]
+  ],
+  "why": [
+   "لأن القاعدة إن أي {{abnormal Pap}} ما عدا {{ASCUS}} نتبعه بـ{{colposcopy}} مع {{biopsy}} للتأكيد النسيجي",
+   "الـ{{Pap}} فحص تحري يعطي {{cytology}} فقط، بينما {{colposcopy}} مع {{biopsy}} يعطي {{histopathology}}",
+   "والـ{{LSIL}} ما نعالجها مباشرة، نحتاج أول نعرف درجة الإصابة النسيجية"
+  ],
+  "wrong": {
+   "1": "لأن الإعادة بعد سنة تنفع في حالات {{ASCUS}} أو الاختيارات الخاصة، لكن {{LSIL}} حسب القاعدة تروح لـ{{colposcopy}}",
+   "2": "لأن {{cold-knife conization}} علاج وتشخيص لدرجات أعلى، ما نسويه قبل ما نحصل {{biopsy}} مؤكد من {{colposcopy}}",
+   "3": "لأن {{LEEP}} علاج للـ{{CIN 2 and 3}} بعد تأكيد النسيج، ما نبدأ فيه من {{Pap}} وحده"
+  },
+  "change": [
+   "لو النتيجة {{ASCUS}} فنسوي {{HPV testing}} أول وما نروح {{colposcopy}} مباشرة",
+   "لو {{colposcopy biopsy}} أكد {{CIN 2 or 3}} فنعالج بـ{{LEEP}} أو {{conization}} حسب الرغبة في الحمل"
+  ],
+  "rule": "لو {{Pap}} غير طبيعي ما عدا {{ASCUS}} يعني {{colposcopy}}"
+ },
+ "M153": {
+  "idea": [
+   "سيدة بعد {{TAH and BSO}} بـ{{3 days}} وكل شيء مطمئن من الدم والحرارة والبول، ما عدا عدم وجود شرب فموي",
+   "الجواب {{absence of oral fluid intake}} لأنها تعتمد على {{IV fluids}} فقط وما تحمّلت الشرب"
+  ],
+  "clues": [
+   [
+    "لو {{Hb 122}} و{{HCT 0.37}} داخل الطبيعي",
+    "يعني ما فيه نزيف يمنع الخروج"
+   ],
+   [
+    "لو {{urine output 35 ml/hr}}",
+    "يعني كمية بول مقبولة ومناسبة"
+   ],
+   [
+    "لو {{Temperature 37.4}} فموي",
+    "يعني ما فيه حمى"
+   ],
+   [
+    "لو {{continuous IV drip}} وما ذكر شرب فموي",
+    "يعني ما اتحمّلت الشرب بعد، وهذا مانع للخروج"
+   ]
+  ],
+  "why": [
+   "لأن شرط الخروج بعد العملية هو إن المريضة تتحمل الأكل والشرب بالفم وتتبول لوحدها وألمها مسيطر عليه",
+   "هنا الـ{{Hb}} و{{HCT}} داخل الطبيعي، والحرارة طبيعية، والبول كافي، فهذي ما تمنع الخروج",
+   "الشي الوحيد اللي ما يحقق شرط الخروج هو إنها ما زالت معتمدة على السوائل الوريدية بدون شرب فموي"
+  ],
+  "wrong": {
+   "0": "لأن {{Hb 122}} و{{HCT 0.37}} داخل المدى الطبيعي المعطى، فما فيه فقر دم يمنع الخروج",
+   "2": "لأن {{35 ml/hr}} كمية بول مقبولة، وكافية للدلالة على كفاءة الكلى",
+   "3": "لأن {{37.4}} حرارة طبيعية أو شبه طبيعية بعد العملية، وليست حمى"
+  },
+  "change": [
+   "لو الحرارة {{38 or higher}} فنشك في عدوى ونبقيها",
+   "لو {{urine output}} قليل جداً فنشك في جفاف أو مشكلة بالكلى أو بالمسالك البولية بعد العملية"
+  ],
+  "rule": "لو ما تحمّلت الشرب والأكل بالفم فما نخرجها"
+ },
+ "M154": {
+  "idea": [
+   "سيدة {{58}} سنة عندها {{stress urinary incontinence}} (تسرب مع الضحك والكحة) وانتفاخ في الجدار الأمامي السفلي للمهبل",
+   "الجواب {{urethrocele}} لأن الانتفاخ في الجزء السفلي القريب من الإحليل مع {{stress incontinence}}"
+  ],
+  "clues": [
+   [
+    "لو {{urine leakage with laugh or cough}}",
+    "يعني {{stress incontinence}} بسبب ضعف دعم الإحليل"
+   ],
+   [
+    "لو {{bulging of the lower anterior vaginal wall}}",
+    "يعني الجزء السفلي من الجدار الأمامي حيث الإحليل"
+   ],
+   [
+    "لو {{multiparous}} و{{dragging sensation}}",
+    "يعني {{pelvic organ prolapse}} بسبب ضعف الأربطة بعد الولادات"
+   ]
+  ],
+  "why": [
+   "لأن الجزء السفلي من الجدار الأمامي للمهبل يكون ملاصق للإحليل، فانتفاخه يعني {{urethrocele}}",
+   "فقدان دعم الإحليل يخليه ينحرف أثناء زيادة الضغط بالبطن فيصير تسرب مع الضحك والكحة",
+   "والـ{{multiparity}} وكبر السن وضعف {{pelvic floor}} عوامل خطر معروفة"
+  ],
+  "wrong": {
+   "0": "لأن {{cystocele}} يكون الانتفاخ فيها في الجزء العلوي من الجدار الأمامي حيث المثانة، ويعطي غالباً صعوبة في تفريغ المثانة",
+   "1": "لأن {{rectocele}} انتفاخ في الجدار الخلفي للمهبل ويعطي غالباً إمساك أو صعوبة في التبرز",
+   "2": "لأن {{enterocele}} انتفاخ في الجزء العلوي الخلفي من المهبل فيه الأمعاء، مو الجدار الأمامي السفلي"
+  },
+  "change": [
+   "لو الانتفاخ في الجزء العلوي من الجدار الأمامي مع {{incomplete emptying}} فالجواب {{cystocele}}",
+   "لو الانتفاخ في الجدار الخلفي مع {{constipation}} فالجواب {{rectocele}}"
+  ],
+  "rule": "انتفاخ أمامي سفلي مع {{stress incontinence}} يعني {{urethrocele}}"
+ },
+ "M155": {
+  "idea": [
+   "سيدة عندها {{Pap smear}} متكرر يدل على {{high-grade intraepithelial lesion}} وفحص الحوض طبيعي",
+   "الخطوة التالية {{colposcopy directed biopsy}} لتأكيد التشخيص النسيجي قبل أي علاج"
+  ],
+  "clues": [
+   [
+    "لو {{repeated smears suggestive of HSIL}}",
+    "يعني {{abnormal Pap}} غير {{ASCUS}} فنروح للـ{{colposcopy}}"
+   ],
+   [
+    "لو {{pelvic and rectal exams normal}}",
+    "يعني ما فيه كتلة ظاهرة أو انتشار، فنكمل بالتشخيص"
+   ]
+  ],
+  "why": [
+   "لأن {{Pap}} فحص تحري يعطي {{cytology}} فقط، ولازم تأكيد نسيجي بـ{{colposcopy-directed biopsy}} قبل العلاج",
+   "أي {{abnormal Pap}} ما عدا {{ASCUS}} نتبعه بـ{{colposcopy}}",
+   "بعد ما {{biopsy}} يثبت درجة {{CIN}} نقرر العلاج المناسب"
+  ],
+  "wrong": {
+   "0": "لأن {{hysterectomy}} علاج مفرط قبل أي تأكيد نسيجي، والمرأة عمرها {{30}} ويمكن تريد حمل",
+   "1": "لأن {{cone biopsy}} إجراء تشخيصي وعلاجي نستخدمه بعد {{colposcopy}} عند الحاجة، مو أول خطوة",
+   "2": "لأن {{irradiation}} علاج للسرطانات المؤكدة، والمريضة ما عندها تشخيص {{cancer}}"
+  },
+  "change": [
+   "لو {{colposcopy biopsy}} أظهر {{CIN 2 or 3}} فنعالج بـ{{LEEP}} أو {{conization}} حسب رغبة الحمل",
+   "لو النتيجة {{ASCUS}} فنسوي {{HPV testing}} أول"
+  ],
+  "rule": "الـ{{HSIL}} على {{Pap}} يعني {{colposcopy directed biopsy}}"
+ },
+ "M156": {
+  "idea": [
+   "سيدة {{amenorrhea 8 weeks}} مع ألم بطن شديد ونزيف مهبلي و{{shock}} ({{BP 90/60}} و{{HR 120}}) وبطن مشدود",
+   "الصورة {{ruptured ectopic pregnancy}} والمصدر هو {{fallopian tube}}"
+  ],
+  "clues": [
+   [
+    "لو {{amenorrhea 8 weeks}} مع {{abdominal pain and vaginal bleeding}}",
+    "يعني {{ectopic pregnancy}} لين يثبت العكس"
+   ],
+   [
+    "لو {{BP 90/60}} و{{HR 120}} و{{drowsy}}",
+    "يعني {{hypovolemic shock}} بسبب نزيف داخلي"
+   ],
+   [
+    "لو {{tense abdomen}}",
+    "يعني دم بالبطن ({{hemoperitoneum}}) بسبب تمزق"
+   ]
+  ],
+  "why": [
+   "لأن أشهر مكان للحمل خارج الرحم هو الـ{{fallopian tube}}، وتمزقه يسبب نزيف شديد داخل البطن",
+   "الصدمة والبطن المشدود يدلان على نزيف داخلي كبير من تمزق الأنبوب",
+   "والمصدر الأرجح للنزيف هو الأنبوب نفسه"
+  ],
+  "wrong": {
+   "0": "لأن المبيض ممكن يكون مصدر لنزيف في {{ruptured corpus luteum cyst}} لكن مع تأخر الدورة وغياب الطمث يرجح الحمل خارج الرحم، والأنبوب هو الأشهر",
+   "1": "لأن {{cervix}} مصدر نادر للنزيف الشديد المصحوب بصدمة وبطن مشدود في هذا السياق",
+   "2": "لأن الـ{{peritoneum}} هو الغشاء المبطن للبطن وما هو مصدر للنزيف هنا، الدم يتجمع فيه من الأنبوب"
+  },
+  "change": [
+   "لو الحالة مستقرة والحمل في بدايته فممكن نعالج بـ{{methotrexate}}",
+   "لو {{hemodynamically unstable}} فنروح للجراحة الطارئة {{laparotomy}} مع {{resuscitation}}"
+  ],
+  "rule": "الـ{{amenorrhea}} مع ألم ونزيف و{{shock}} يعني {{ruptured ectopic}} من الأنبوب"
+ },
+ "M157": {
+  "idea": [
+   "سيدة عندها {{vaginitis}} بـ{{Trichomonas vaginalis}} أكدها {{wet prep}} مع {{yellowish green malodorous discharge}}",
+   "العلاج الأول هو {{metronidazole}}"
+  ],
+  "clues": [
+   [
+    "لو {{yellowish green malodorous discharge}} مع {{red cervix}}",
+    "يعني صورة كلاسيكية للـ{{trichomoniasis}}"
+   ],
+   [
+    "لو {{wet prep}} أكد {{Trichomonas vaginalis}}",
+    "يعني التشخيص ثابت ونعالجه مباشرة"
+   ],
+   [
+    "لو عينة {{chlamydia}} أخذت بس ما ظهرت نتيجتها",
+    "يعني ما نعالجها إلا لو طلعت إيجابية"
+   ]
+  ],
+  "why": [
+   "لأن {{trichomoniasis}} علاجه {{metronidazole}} (فموي) ويعطى للشريك كذلك",
+   "التشخيص مؤكد بالـ{{wet prep}} فما نحتاج ننتظر",
+   "عينة {{chlamydia}} نتيجتها لسا ما ظهرت فما نعطي {{doxycycline}} قبل التأكد"
+  ],
+  "wrong": {
+   "0": "لأن {{doxycycline}} علاج {{chlamydia}} وعينتها ما ظهرت نتيجتها بعد، والمؤكد هو {{trichomonas}}",
+   "1": "لأن {{clindamycin}} يستخدم في {{bacterial vaginosis}} وما يغطي {{Trichomonas}} بشكل مناسب",
+   "3": "لأن إعادة {{wet prep}} ما هي علاج وهي مؤكدة أصلاً"
+  },
+  "change": [
+   "لو {{chlamydia probe}} طلعت إيجابية فنضيف {{doxycycline}} للعلاج",
+   "لو كانت {{bacterial vaginosis}} فنعطي {{metronidazole}} أو {{clindamycin}} حسب الحالة"
+  ],
+  "rule": "الـ{{Trichomonas}} يعني {{metronidazole}} للمريضة والشريك"
+ },
+ "M158": {
+  "idea": [
+   "سيدة عندها إفرازات بيضاء كثيفة مع حكة شديدة و{{pseudohyphae}} بالمجهر",
+   "التشخيص {{vulvovaginal candidiasis}} وعلاجه {{terconazole vaginal cream}}"
+  ],
+  "clues": [
+   [
+    "لو {{copious white discharge}} مع {{intense itching}}",
+    "يعني {{candidiasis}} (فطريات)"
+   ],
+   [
+    "لو {{pseudohyphae}} على المجهر",
+    "يعني تأكيد {{Candida}}"
+   ]
+  ],
+  "why": [
+   "لأن {{Candida}} فطر ونعالجه بمضاد فطري مثل {{terconazole}} موضعي في المهبل",
+   "الـ{{terconazole}} من عائلة {{azole}} المضادة للفطريات",
+   "فهو العلاج الموجه للسبب المؤكد"
+  ],
+  "wrong": {
+   "1": "لأن {{metronidazole}} علاج {{Trichomonas}} و{{bacterial vaginosis}} ما يؤثر على الفطريات",
+   "2": "لأن {{doxycycline}} مضاد حيوي لـ{{chlamydia}} وما يعالج الفطريات",
+   "3": "لأن {{ganciclovir}} مضاد فيروسي لـ{{CMV}} ما له علاقة بالفطريات"
+  },
+  "change": [
+   "لو {{clue cells}} مع {{fishy odor}} فنفكر في {{bacterial vaginosis}} ونعطي {{metronidazole}}",
+   "لو {{motile flagellated organisms}} فنفكر في {{Trichomonas}} ونعطي {{metronidazole}}"
+  ],
+  "rule": "الـ{{pseudohyphae}} يعني {{Candida}} يعني {{azole}} موضعي مثل {{terconazole}}"
+ },
+ "M159": {
+  "idea": [
+   "سيدة عندها ألم حوضي دوري يزيد قبل الدورة وهذا يوحي بـ{{endometriosis}}",
+   "الطريقة المقبولة للتشخيص حسب المصدر هي {{diagnostic laparoscopy}}"
+  ],
+  "clues": [
+   [
+    "لو {{cyclic pelvic pain}} يزيد قبل الدورة",
+    "يعني {{endometriosis}}"
+   ],
+   [
+    "لو السؤال عن {{acceptable method for diagnosis}}",
+    "يعني الطريقة المعتمدة {{laparoscopy}}"
+   ]
+  ],
+  "why": [
+   "لأن {{laparoscopy}} يسمح برؤية البؤر مباشرة وأخذ {{biopsy}} منها، وهو الـ{{gold standard}}",
+   "الـ{{endometriosis}} هو وجود نسيج بطانة رحم خارج الرحم، فما نقدر نشوفه بأخذ عينة من داخل الرحم",
+   "ولهذا الجواب المعتمد في هالسؤال هو {{diagnostic laparoscopy}}"
+  ],
+  "wrong": {
+   "0": "لأن {{MRI}} يستخدم لتقييم الحالات المعقدة مثل {{deep infiltrating endometriosis}} لكنه ما هو الطريقة المقبولة الأساسية هنا",
+   "2": "لأن {{endometrial biopsy}} يأخذ عينة من داخل الرحم، بينما {{endometriosis}} نسيج خارج الرحم",
+   "3": "لأن {{ultrasound}} يفيد في كشف {{endometrioma}} لكنه لا يبين البؤر الصغيرة، فما هو الطريقة المعتمدة"
+  },
+  "change": [
+   "لو العلاج التجريبي بـ{{OCP}} كافي فممكن نبدأ علاج بدون تأكيد جراحي",
+   "لو {{ovarian endometrioma}} ظاهر بالـ{{ultrasound}} فهذا يدعم التشخيص ولكن {{laparoscopy}} يبقى المعتمد"
+  ],
+  "rule": "الـ{{endometriosis}} يعني {{laparoscopy}} هو الطريقة المقبولة للتشخيص"
+ },
+ "M160": {
+  "idea": [
+   "سيدة {{67}} سنة بعد سن اليأس وعندها حكة وحرقة ورقة وشحوب في جدار المهبل بدون عدوى",
+   "التشخيص {{atrophic vaginitis}} وعلاجه {{vaginal estrogen cream}}"
+  ],
+  "clues": [
+   [
+    "لو {{67 years}} وليس على {{hormone therapy}}",
+    "يعني نقص {{estrogen}} بعد سن اليأس"
+   ],
+   [
+    "لو {{thinning and pallor of vaginal mucosa}}",
+    "يعني {{atrophy}} وهي علامة {{atrophic vaginitis}}"
+   ],
+   [
+    "لو {{wet prep negative}} و{{no discharge}}",
+    "يعني ما فيه عدوى تحتاج مضاد"
+   ]
+  ],
+  "why": [
+   "لأن سبب الأعراض هو نقص {{estrogen}} الذي يرقّق جدار المهبل ويجففه، فالعلاج {{estrogen}} موضعي",
+   "الـ{{vaginal estrogen}} يعوض النقص ويرجع سماكة وترطيب الغشاء",
+   "ما فيه عدوى لأن {{wet prep negative}} فما نحتاج مضادات"
+  ],
+  "wrong": {
+   "0": "لأن {{topical corticosteroid}} يستخدم لحالات مثل {{lichen sclerosus}} أو التهاب الجلد، مو لنقص {{estrogen}}",
+   "1": "لأن {{metronidazole}} للعدوى مثل {{BV}} و{{Trichomonas}} وهنا {{wet prep}} سلبي",
+   "2": "لأن {{douching}} بالخل والماء يزيد التهيج وما يعالج السبب"
+  },
+  "change": [
+   "لو {{wet prep}} أظهر {{pseudohyphae}} فنعالج {{candidiasis}}",
+   "لو {{clue cells}} فنعالج {{bacterial vaginosis}}"
+  ],
+  "rule": "أعراض مهبلية بعد سن اليأس مع {{atrophy}} يعني {{vaginal estrogen}}",
+  "note": "الخيار الأخير فيه عبارة زائدة بآخره وهي {{vaginal discharge}} والمقصود {{estrogen vaginal cream}}."
+ },
+ "M161": {
+  "idea": [
+   "شاب عنده {{PID}} ما تحسن مع {{ceftriaxone}}، وهذا يدل على {{Chlamydia trachomatis}}",
+   "لأن {{ceftriaxone}} يغطي {{gonorrhea}} بس ما يغطي {{chlamydia}}"
+  ],
+  "clues": [
+   [
+    "لو {{PID}} ما تحسن مع {{ceftriaxone}}",
+    "يعني السبب مو {{Neisseria gonorrhoeae}}"
+   ],
+   [
+    "لو {{acute salpingitis}} بسبب عدوى جنسية",
+    "يعني الأرجح {{chlamydia}} أو {{gonorrhea}}"
+   ]
+  ],
+  "why": [
+   "لأن {{ceftriaxone}} مضاد فعال ضد {{Neisseria gonorrhoeae}} لكن {{chlamydia}} تحتاج {{doxycycline}} أو {{azithromycin}}",
+   "فلو {{PID}} ما تحسن مع {{ceftriaxone}} لوحده فالمسبب غالباً {{chlamydia}} غير المعالجة",
+   "ولهذا علاج {{PID}} يجمع {{ceftriaxone}} مع {{doxycycline}}"
+  ],
+  "wrong": {
+   "0": "لأن {{adenovirus}} ما هو مسبب للـ{{PID}}",
+   "1": "لأن {{herpes}} ما هو مسبب نموذجي للـ{{salpingitis}}",
+   "2": "لأن {{gonorrhea}} يستجيب للـ{{ceftriaxone}} فما يفسر فشل العلاج"
+  },
+  "change": [
+   "لو تحسن مع {{ceftriaxone}} فالمسبب {{gonorrhea}}",
+   "لو أعطينا {{ceftriaxone}} مع {{doxycycline}} فيغطي المسببين"
+  ],
+  "rule": "الـ{{PID}} ما تحسن مع {{ceftriaxone}} يعني {{chlamydia}}"
+ },
+ "M162": {
+  "idea": [
+   "سيدة {{34}} سنة نتيجة {{Pap}} عندها {{ASC-US}}، يعني خلايا غير نموذجية غير محددة الدلالة",
+   "الخطوة الأولى المفضلة هي {{HPV testing}}"
+  ],
+  "clues": [
+   [
+    "لو {{atypical squamous cells of undetermined significance}}",
+    "يعني {{ASC-US}} وهي الاستثناء من قاعدة {{colposcopy}}"
+   ],
+   [
+    "لو {{34 years}}",
+    "يعني العمر مناسب لـ{{HPV testing}}"
+   ]
+  ],
+  "why": [
+   "لأن {{ASC-US}} غالباً سببها بسيط، فنستخدم {{HPV testing}} كفلتر لنعرف مين تحتاج {{colposcopy}}",
+   "لو {{HPV positive}} نروح {{colposcopy}}، ولو {{negative}} نرجع للفحص الدوري",
+   "ولذلك ما نروح مباشرة للـ{{colposcopy}} ولا لأي علاج"
+  ],
+  "wrong": {
+   "0": "لأن إعادة {{Pap}} بعد سنة خيار بديل مقبول لكنه مو المفضل، المفضل {{HPV testing}}",
+   "1": "لأن {{hysterectomy}} علاج جذري ما له مكان في {{ASC-US}}",
+   "2": "لأن {{colposcopy}} نسويها لو {{HPV positive}}، ما نبدأ فيها مع {{ASC-US}}"
+  },
+  "change": [
+   "لو {{HPV testing}} إيجابي فنسوي {{colposcopy}}",
+   "لو كانت النتيجة {{LSIL}} أو {{HSIL}} فنروح {{colposcopy}} مباشرة"
+  ],
+  "rule": "الـ{{ASC-US}} يعني {{HPV testing}} أول",
+  "note": "السؤال فيه أخطاء إملائية مثل {{A typical}} و{{t years ago}} ويشير إلى {{see report}} بدون عرضه، فالجواب مبني على الصورة السريرية المذكورة."
+ }
+}
