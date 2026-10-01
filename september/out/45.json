@@ -1,0 +1,406 @@
+{
+ "SWR-0029": {
+  "idea": [
+   "مريض بعد {{MVA}} عنده {{tracheal deviation}} و{{absent breath sounds}} في الرئة اليمين",
+   "هذي صورة {{tension pneumothorax}} أو {{massive hemothorax}} والعلاج يعتمد على أيهم"
+  ],
+  "clues": [
+   [
+    "{{Tracheal deviation}}",
+    "يعني ضغط كبير داخل الصدر يدفع {{mediastinum}} للجهة الثانية"
+   ],
+   [
+    "{{Absent breath sounds}} في جهة وحدة",
+    "الرئة منضغطة بهواء أو دم"
+   ],
+   [
+    "{{MVA}} وصل بالإسعاف",
+    "إصابة صدر مغلقة، الأولوية للـ{{airway}} و{{breathing}}"
+   ]
+  ],
+  "why": [
+   "لو {{tension pneumothorax}} فالتشخيص سريري والعلاج الأول {{needle decompression}} بدون ما ننتظر {{X-ray}}",
+   "وبعدها نركّب {{chest tube}} كعلاج نهائي",
+   "ولو {{massive hemothorax}} فالعلاج {{chest tube}} مع تعويض السوائل ولو المريض {{hypotensive}} يروح للعمليات"
+  ],
+  "wrong": {},
+  "change": [
+   "لو {{hyperresonance}} على الجهة المصابة و{{distended neck veins}} فالأقرب {{tension pneumothorax}} و{{needle decompression}}",
+   "لو {{dullness}} على الجهة المصابة مع {{shock}} فالأقرب {{massive hemothorax}} و{{chest tube}}"
+  ],
+  "rule": "لو {{tension pneumothorax}} نعمل {{needle decompression}} أول ثم {{chest tube}}، ولو {{hemothorax}} نركّب {{chest tube}}",
+  "note": "الخيارات ناقصة بالمصدر"
+ },
+ "SWR-0286": {
+  "idea": [
+   "مريض عنده {{thyroiditis}} (غالبًا {{Hashimoto}}) و{{FNA}} طلعت فيها {{malignant cells}}",
+   "النوع الأشهر دائمًا {{papillary carcinoma}}"
+  ],
+  "clues": [
+   [
+    "{{Thyroiditis}} أو {{Hashimoto}}",
+    "مرض مناعي مزمن، والأورام ممكن تظهر فيه"
+   ],
+   [
+    "{{FNA}} فيها {{malignant cells}}",
+    "يعني ورم خبيث مؤكد، والسؤال عن النوع الأكثر شيوعًا"
+   ]
+  ],
+  "why": [
+   "أشهر سرطان للغدة الدرقية بالعموم هو {{papillary}}، وفي مرضى {{Hashimoto}} كذلك",
+   "الـ{{lymphoma}} أخطر بس أندر، ويظهر كورم يكبر بسرعة خلال أسابيع إلى شهور",
+   "بينما {{papillary}} بطيء ويتطور خلال سنوات طويلة"
+  ],
+  "wrong": {},
+  "change": [
+   "لو الورم كبر بسرعة في مريض {{Hashimoto}} كبير بالعمر نفكر في {{thyroid lymphoma}}",
+   "لو فيه {{calcitonin}} مرتفع ومرض عائلي فهو {{medullary carcinoma}}"
+  ],
+  "rule": "أشهر ورم خبيث في الدرقية حتى مع {{Hashimoto}} هو {{papillary}}، و{{lymphoma}} الاستثناء النادر",
+  "note": "الخيارات ناقصة بالمصدر"
+ },
+ "SWR-0646": {
+  "idea": [
+   "حالة {{pancreatic pseudocyst}} بعد {{6 weeks}} من التهاب بنكرياس والجدار {{well-defined}}",
+   "الجدار الناضج يعني التصريف الداخلي {{internal / endoscopic drainage}}"
+  ],
+  "clues": [
+   [
+    "{{6 weeks}} بعد {{pancreatitis}}",
+    "الوقت كافي لنضج جدار الكيسة"
+   ],
+   [
+    "جدار {{well-defined}}",
+    "الجدار ناضج، فنقدر نسوي تصريف داخلي"
+   ]
+  ],
+  "why": [
+   "نصرّف الكيسة لو {{symptomatic}} أو مرّ {{6 weeks}} أو الحجم {{6 cm}}",
+   "الجدار الناضج يعني تصريف داخلي مثل {{cystogastrostomy}} (منظار أو جراحة)",
+   "التصريف الخارجي {{percutaneous}} نخصصه للكيسة المصابة بعدوى أو غير الناضجة"
+  ],
+  "wrong": {},
+  "change": [
+   "لو الكيسة {{infected}} فالتصريف خارجي {{percutaneous}} حتى لو الجدار ناضج",
+   "لو الجدار غير ناضج والمريض {{unstable}} نستخدم {{external drainage}}"
+  ],
+  "rule": "جدار ناضج يعني {{internal drainage}}، وعدوى يعني {{external drainage}}",
+  "note": "الخيارات ناقصة بالمصدر"
+ },
+ "SWR-0954": {
+  "idea": [
+   "مريض بعد {{motorcycle accident}} عنده سحجات {{abrasions}} وما يتذكر آخر جرعة {{dTap}}",
+   "نتعامل معه كأن حالته {{unknown}} أو {{<3 doses}} ونطبق جدول {{tetanus prophylaxis}}"
+  ],
+  "clues": [
+   [
+    "{{Abrasions}} بعد حادث طريق",
+    "جرح ملوث غالبًا بتراب، فهو {{non-clean wound}}"
+   ],
+   [
+    "ما يتذكر آخر جرعة",
+    "نعتبر التطعيم {{unknown}}"
+   ]
+  ],
+  "why": [
+   "لو التطعيم {{unknown}} أو أقل من {{3 doses}} نعطي {{Tdap}} أو {{Td}} لكل الجروح",
+   "ولو الجرح {{contaminated}} نضيف {{TIG}} {{tetanus immune globulin}}",
+   "ولو أخذ {{3 doses}} أو أكثر فنعطي {{Td}} إذا مرّ أكثر من {{5 years}} للجرح الملوث أو {{10 years}} للنظيف"
+  ],
+  "wrong": {},
+  "change": [
+   "لو الجرح نظيف وصغير والتطعيم {{unknown}} نعطي {{Tdap}} بدون {{TIG}}",
+   "لو أكمل {{3 doses}} وآخر جرعة قبل أقل من {{5 years}} ما نعطي شي"
+  ],
+  "rule": "التطعيم {{unknown}} مع جرح ملوث يعني {{Tdap}} زائد {{TIG}}",
+  "note": "الخيارات ناقصة بالمصدر"
+ },
+ "SWR-0346": {
+  "idea": [
+   "حمل عمره {{39 weeks}} مع {{Rh isoimmunization}}",
+   "الحمل وصل لموعد الولادة فالأنسب {{deliver}}"
+  ],
+  "clues": [
+   [
+    "{{39 weeks}}",
+    "حمل {{term}} وما في فايدة من الانتظار"
+   ],
+   [
+    "{{Rh isoimmunization}}",
+    "الأم {{Rh-negative}} كوّنت أجسام ضد كريات الجنين، والجنين معرّض لـ{{hemolytic disease}}"
+   ]
+  ],
+  "why": [
+   "عند {{term}} نولّد الجنين لأن الانتظار يزيد الأذى من الأجسام المضادة",
+   "النقل داخل الرحم {{intrauterine transfusion}} نستخدمه قبل {{35 weeks}} تقريبًا لما ما نقدر نولّد",
+   "بعد الولادة نتابع الطفل بـ{{bilirubin}} و{{phototherapy}} أو {{exchange transfusion}} حسب الحاجة"
+  ],
+  "wrong": {},
+  "change": [
+   "لو الحمل أقل من {{35 weeks}} مع {{severe anemia}} نختار {{intrauterine transfusion}}",
+   "لو ما في {{sensitization}} وإنما أم {{Rh-negative}} فقط نعطي {{anti-D}}"
+  ],
+  "rule": "عند {{term}} مع {{Rh isoimmunization}} نولّد، وقبل {{35 weeks}} نفكر في {{intrauterine transfusion}}",
+  "note": "الخيارات ناقصة بالمصدر"
+ },
+ "SWR-0698": {
+  "idea": [
+   "نزيف رحمي غير طبيعي {{AUB}} مع رحم كبير بشكل {{asymmetric}}",
+   "الرحم غير المتناسق في الحجم يشير لـ{{leiomyoma}} {{fibroid}}"
+  ],
+  "clues": [
+   [
+    "{{Abnormal uterine bleeding}}",
+    "السبب يحتاج تصنيف {{PALM-COEIN}}"
+   ],
+   [
+    "{{Asymmetrically enlarged uterus}}",
+    "نموذج {{fibroids}} لأن الأورام الليفية تعطي رحم غير منتظم"
+   ]
+  ],
+  "why": [
+   "الورم الليفي {{leiomyoma}} يعطي رحم متضخم بشكل غير منتظم لأنه عقد متفرقة",
+   "بينما {{adenomyosis}} يعطي رحم متضخم بشكل متماثل {{symmetric}}",
+   "والـ{{polyp}} يكون الرحم بحجم طبيعي"
+  ],
+  "wrong": {},
+  "change": [
+   "لو الرحم كبير بشكل متماثل ومؤلم مع {{dysmenorrhea}} نفكر {{adenomyosis}}",
+   "لو الرحم حجمه طبيعي وفيه نزيف نفكر {{endometrial polyp}}"
+  ],
+  "rule": "غير منتظم: {{fibroid}}، متماثل: {{adenomyosis}}، طبيعي: {{polyp}}",
+  "note": "الخيارات ناقصة بالمصدر"
+ },
+ "SWR-0798": {
+  "idea": [
+   "حالة {{IUGR}} مع {{oligohydramnios}} لوحدهم ما يستدعوا {{C-section}}",
+   "نعتمد على {{Doppler}} و{{fetal status}} لتحديد طريقة الولادة"
+  ],
+  "clues": [
+   [
+    "{{IUGR}} مع {{oligo}}",
+    "حالة نراقبها بدقة وما نقرر القيصرية فقط بسببها"
+   ],
+   [
+    "ما ذُكر {{absent EDV}} ولا {{fetal distress}}",
+    "ما في استطباب قيصرية واضح"
+   ]
+  ],
+  "why": [
+   "الـ{{IUGR}} لوحده أو مع {{oligohydramnios}} أو مع {{preeclampsia}} ما يُعتبر استطباب للقيصرية",
+   "القيصرية تُعمل فقط لو {{absent}} أو {{reversed end-diastolic velocity}} أو {{fetal distress}}",
+   "غير ذلك نولّد في الوقت المناسب غالبًا بالتحفيز {{induction}} مع مراقبة {{CTG}}"
+  ],
+  "wrong": {},
+  "change": [
+   "لو ظهر {{absent}} أو {{reversed EDV}} في {{umbilical artery Doppler}} نعمل {{C-section}}",
+   "لو ظهر {{CTG}} مرضي أو {{fetal distress}} نعمل {{C-section}}"
+  ],
+  "rule": "لو {{IUGR}} مع {{oligo}} بدون {{absent EDV}} أو {{distress}}: ما نعمل {{C-section}} تلقائيًا",
+  "note": "الجواب مو مطبوع بالمصدر، والخيارات ناقصة بالمصدر"
+ },
+ "SWR-0347": {
+  "idea": [
+   "سؤال عن {{congenital rubella}} مع {{absent red reflex}} و{{murmur}}",
+   "غياب الـ{{red reflex}} يعني {{cataract}} والـ{{murmur}} غالبًا {{PDA}}"
+  ],
+  "clues": [
+   [
+    "{{Absent red reflex}}",
+    "يعني {{congenital cataract}} أو {{leukocoria}}"
+   ],
+   [
+    "{{Murmur}}",
+    "آفة قلبية خلقية مثل {{PDA}} أو {{pulmonary artery stenosis}}"
+   ]
+  ],
+  "why": [
+   "الـ{{congenital rubella syndrome}} يسبب {{cataract}} و{{congenital heart disease}} و{{sensorineural hearing loss}}",
+   "أشهر آفة قلبية هي {{PDA}} ثم {{pulmonary artery stenosis}}",
+   "وكذلك {{blueberry muffin rash}} و{{microcephaly}} و{{developmental delay}}"
+  ],
+  "wrong": {},
+  "change": [
+   "لو الـ{{red reflex}} فيه {{leukocoria}} فقط من دون قلب فنفكر في {{retinoblastoma}}",
+   "لو الأم تلقّت {{MMR}} قبل الحمل ما يصير {{congenital rubella}} عادةً"
+  ],
+  "rule": "الثلاثي {{cataract}} و{{PDA}} و{{deafness}} هو {{congenital rubella}}",
+  "note": "الخيارات غير مذكورة بالمصدر"
+ },
+ "SWR-0644": {
+  "idea": [
+   "نحسب {{Apgar score}} من الوصف: {{HR 120}} و{{irregular breathing}} و{{cough}} و{{limited activity}} و{{blue extremities}}",
+   "النتيجة {{7}} حسب حساب المصدر"
+  ],
+  "clues": [
+   [
+    "{{Heart rate 120}}",
+    "أكبر من {{100}} فالدرجة {{2}}"
+   ],
+   [
+    "{{Irregular breathing}}",
+    "درجة {{1}}"
+   ],
+   [
+    "{{Cough}} عند التنبيه",
+    "استجابة كاملة، درجة {{2}}"
+   ],
+   [
+    "{{Limited activity}} و{{blue extremities}}",
+    "درجة {{1}} لكل واحد منهم"
+   ]
+  ],
+  "why": [
+   "نجمع: {{HR 2}} و{{respiration 1}} و{{reflex 2}} و{{activity 1}} و{{appearance 1}}",
+   "المجموع {{7}}",
+   "لو كان الطرف مثني بقوة يصير {{tone 2}} والمجموع {{8}}"
+  ],
+  "wrong": {},
+  "change": [
+   "لو الـ{{activity}} {{active motion}} يصير المجموع {{8}}",
+   "لو الـ{{heart rate}} أقل من {{100}} تنزل الدرجة"
+  ],
+  "rule": "نجمع خمس بنود، كل بند من {{0}} إلى {{2}}",
+  "note": "الجواب مو مطبوع بالمصدر، هذا الأرجح حسب حساب المصدر، والخيارات ناقصة"
+ },
+ "SWR-1013": {
+  "idea": [
+   "طفل {{AML}} أنهى {{chemotherapy}} فاللقاحات الحية {{live vaccines}} ممنوعة",
+   "مثل {{MMR}} و{{varicella}} و{{OPV}} و{{rotavirus}} و{{BCG}}"
+  ],
+  "clues": [
+   [
+    "{{AML}} بعد {{chemo}}",
+    "مناعة الطفل ضعيفة {{immunosuppressed}}"
+   ],
+   [
+    "أي لقاح نتجنبه؟",
+    "اللقاحات الحية لأنها قد تسبب عدوى حقيقية"
+   ]
+  ],
+  "why": [
+   "اللقاحات الحية فيها فيروس أو بكتيريا ضعيفة وقد تسبب مرض عند الطفل المثبط مناعيًا",
+   "فنتجنب {{OPV}} و{{MMR}} و{{varicella}} و{{rotavirus}} و{{BCG}}",
+   "اللقاحات غير الحية {{inactivated}} آمنة لكن قد تكون استجابتها أضعف"
+  ],
+  "wrong": {},
+  "change": [
+   "لو الطفل اكتمل شفاؤه ورجعت مناعته نعيد التطعيم حسب توصية الأطباء",
+   "لو اللقاح {{inactivated}} مثل {{influenza injection}} نقدر نعطيه"
+  ],
+  "rule": "المثبط مناعيًا: لا {{live vaccines}}",
+  "note": "الجواب مو مطبوع بالمصدر، والخيارات غير مذكورة"
+ },
+ "SWR-0730": {
+  "idea": [
+   "مريض {{schizophrenia}} هائج {{agitated}} ويحتاج دواء",
+   "أنسب خيار {{haloperidol}} {{IM}} أو {{benzodiazepine}} حسب الحالة"
+  ],
+  "clues": [
+   [
+    "{{Schizophrenia}} مع {{agitation}}",
+    "نحتاج تهدئة سريعة وآمنة"
+   ],
+   [
+    "الخيارات: {{clonazepam}} و{{haloperidol}} بجرعات خطأ",
+    "المصدر ذكر الدواءين لكن الجرعات غير دقيقة"
+   ]
+  ],
+  "why": [
+   "العلاج المعتاد للهياج الحاد {{antipsychotic}} مثل {{haloperidol}} بالعضل",
+   "وممكن نضيف {{benzodiazepine}} مثل {{lorazepam}} لتقليل الجرعة والأعراض الجانبية",
+   "نراقب {{EPS}} ونعطي {{anticholinergic}} لو ظهر {{dystonia}}"
+  ],
+  "wrong": {},
+  "change": [
+   "لو المريض يقدر يتعاون نعرض الدواء {{oral}} أولًا",
+   "لو {{alcohol withdrawal}} نستخدم {{benzodiazepine}} بدل {{antipsychotic}}"
+  ],
+  "rule": "في {{agitated schizophrenia}} نعطي {{haloperidol}} وربما {{benzodiazepine}}",
+  "note": "الجواب مو مطبوع بالمصدر، هذا الأرجح طبيًا؛ المصدر ذكر {{clonazepam}} و{{haloperidol}} لكن بجرعات خطأ"
+ },
+ "SWR-0570": {
+  "idea": [
+   "مريضة كفؤة {{fully competent}} ترفض {{CS}} رغم توصية الطبيب",
+   "الجواب احترام قرارها {{respect her wishes}}"
+  ],
+  "clues": [
+   [
+    "{{Fully competent}}",
+    "عندها {{decision-making capacity}}"
+   ],
+   [
+    "رفضت {{CS}} رغم توصية الطبيب",
+    "من حقها {{autonomy}} حتى لو الجنين معرض للخطر"
+   ]
+  ],
+  "why": [
+   "الـ{{autonomy}} يعني للبالغة الكفؤة الحق في رفض أي علاج",
+   "حتى لو الجنين ممكن ما يعيش فهذا ما يلغي حقها",
+   "فنحترم قرارها ونستمر بالنصح والدعم"
+  ],
+  "wrong": {},
+  "change": [
+   "لو فقدت الأهلية ({{incapacity}}) نتصرف بموافقة {{surrogate}}",
+   "لو الحالة طارئة وفاقدة الوعي نتصرف حسب {{best interest}}"
+  ],
+  "rule": "البالغة الكفؤة ترفض: نحترم قرارها",
+  "note": "الجواب مو مطبوع بالمصدر، هذا الأرجح طبيًا، وبقية الخيارات ناقصة بالمصدر"
+ },
+ "SWR-0216": {
+  "idea": [
+   "رجل كبير بالعمر فجأة {{right hemiparesis}} فالإصابة في الجهة المقابلة",
+   "يعني {{left MCA}} حسب المصدر"
+  ],
+  "clues": [
+   [
+    "{{Sudden onset}}",
+    "نمط {{stroke}} وعائي"
+   ],
+   [
+    "{{Right-sided hemiparesis}}",
+    "الألياف الحركية تتقاطع فالآفة في {{left hemisphere}}"
+   ]
+  ],
+  "why": [
+   "الشلل النصفي ينتج عن آفة في الجهة المقابلة للجسم {{contralateral}}",
+   "الـ{{MCA}} يغذي القشرة الحركية للوجه والذراع",
+   "فالإصابة اليسرى تعطي ضعف يمين، وغالبًا مع {{aphasia}}"
+  ],
+  "wrong": {},
+  "change": [
+   "لو الضعف في الرجل أكثر من الذراع نفكر {{ACA}}",
+   "لو الضعف حركي فقط بدون أعراض قشرية نفكر {{lacunar infarct}} في {{internal capsule}}"
+  ],
+  "rule": "الشلل اليمين: الإصابة {{left hemisphere}} {{left MCA}}",
+  "note": "الصورة {{head CT}} غير موجودة بالنص، والجواب مو مطبوع بالمصدر، هذا الأرجح حسب المصدر"
+ },
+ "SWR-0977": {
+  "idea": [
+   "مريض {{SLE}} مع {{acute arthritis}} فالعلاج مثل {{RA}} لكن {{hydroxychloroquine}} هو الأساس",
+   "مع {{methotrexate}} و{{prednisolone}} حسب المصدر"
+  ],
+  "clues": [
+   [
+    "{{SLE}} مع {{arthritis}}",
+    "التهاب مفاصل مناعي خفيف إلى متوسط"
+   ],
+   [
+    "{{Acute}}",
+    "نحتاج تحكم سريع بالالتهاب"
+   ]
+  ],
+  "why": [
+   "علاج {{SLE arthritis}} مثل {{RA}} لكن {{hydroxychloroquine}} هو {{first-line}} دائمًا",
+   "نضيف {{methotrexate}} و{{prednisolone}} لو الالتهاب فعّال",
+   "لو في مفاصل مع كلى نستخدم {{belimumab}} أو {{rituximab}}"
+  ],
+  "wrong": {},
+  "change": [
+   "لو في {{lupus nephritis}} نضيف {{mycophenolate}} أو {{cyclophosphamide}}",
+   "لو {{mild arthritis}} فقط قد تكفي {{NSAIDs}} قصيرة"
+  ],
+  "rule": "في {{SLE arthritis}} نبدأ {{HCQ}} أساس ثم {{MTX}} و{{steroids}}",
+  "note": "الجواب مو مطبوع بالمصدر، هذا الأرجح حسب المصدر، والخيارات غير مذكورة"
+ }
+}
