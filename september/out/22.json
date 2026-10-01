@@ -1,0 +1,821 @@
+{
+ "SWR-0599": {
+  "idea": [
+   "طفل عنده {{croup}} وشكله مرتاح وجالس في حضن أمه، فهذا {{mild croup}}",
+   "العلاج الأساسي هو {{dexamethasone}} وليس التدخل على الـ{{airway}}"
+  ],
+  "clues": [
+   [
+    "{{cough}} و{{fever}} مع {{suprasternal retraction}} و{{stridor}}",
+    "هذي صورة {{croup}}"
+   ],
+   [
+    "الطفل {{looks well}} في حضن أمه",
+    "ما في ضيق شديد ولا {{toxic look}}، يعني الشدة خفيفة"
+   ],
+   [
+    "الخيارات {{intubate}} أو {{dexamethasone}}",
+    "نختار العلاج الدوائي الأقل تدخل"
+   ]
+  ],
+  "why": [
+   "الـ{{croup}} سببه تورم فيروسي في الـ{{subglottic}} ونعالجه بـ{{corticosteroid}} لتقليل التورم",
+   "الطفل يبدو مرتاح فمو بحاجة لتأمين {{airway}}، والـ{{dexamethasone}} {{0.6 mg/kg}} هو الجواب"
+  ],
+  "wrong": {
+   "0": "الـ{{intubation}} نحتفظ بها للـ{{impending respiratory failure}} والطفل هنا مرتاح، فتدخل زايد بدون داعي"
+  },
+  "change": [
+   "لو الطفل عنده {{stridor at rest}} وضيق واضح فنضيف {{nebulized epinephrine}} مع الـ{{dexamethasone}}",
+   "لو الطفل {{toxic}} و{{drooling}} فنفكر في {{epiglottitis}} ونأمن الـ{{airway}}"
+  ],
+  "rule": "تذكري: {{Croup}} والطفل مرتاح يعني {{dexamethasone}}",
+  "note": "السؤال فيه خيارين فقط، والجرعة في الخيار مكتوبة كما وردت في المصدر."
+ },
+ "SWR-0600": {
+  "idea": [
+   "طفل عنده {{barking cough}} و{{inspiratory stridor}} و{{suprasternal retraction}} فهذا {{croup}}",
+   "الـ{{SpO2}} فوق {{90%}} ومعدل التنفس مو مرتفع، فالشدة خفيفة والعلاج {{dexamethasone}}"
+  ],
+  "clues": [
+   [
+    "{{barking cough}} مع {{inspiratory stridor}}",
+    "علامة {{croup}} الكلاسيكية"
+   ],
+   [
+    "{{Temperature 37.8 C}}",
+    "حرارة خفيفة، تناسب فيروسي ومو {{bacterial}} شديد"
+   ],
+   [
+    "{{O2 saturation}} فوق {{90%}}",
+    "ما في {{hypoxia}} فما نحتاج {{intubation}}"
+   ]
+  ],
+  "why": [
+   "الأساس في علاج الـ{{croup}} هو {{corticosteroid}} لأنه يقلل التورم حول الـ{{larynx}}",
+   "الجرعة {{dexamethasone 0.6 mg/kg}} وتكفي مرة وحدة، وتُعطى بالفم لو الطفل يتحمل"
+  ],
+  "wrong": {
+   "0": "الـ{{intubation}} في الـ{{OR}} لحالات {{epiglottitis}} أو الفشل التنفسي، وهنا الطفل مستقر",
+   "2": "الـ{{nebulized saline}} ما يقلل التورم ولا يعتبر علاج مثبت للـ{{croup}}",
+   "3": "الـ{{croup}} فيروسي، فالـ{{antibiotics}} ما تفيد"
+  },
+  "change": [
+   "لو الـ{{stridor}} موجود وهو راقد بدون إثارة فنضيف {{epinephrine nebulization}}",
+   "لو في {{drooling}} و{{toxic appearance}} فنفكر في {{epiglottitis}} و{{intubation}} بالـ{{OR}}"
+  ],
+  "rule": "تذكري: {{Mild croup}} يعني {{dexamethasone}} بالفم"
+ },
+ "SWR-0601": {
+  "idea": [
+   "طفل عمره سنتين عنده {{low-grade fever}} و{{brassy cough}} فهذا {{mild croup}}",
+   "العلاج الأولي هو {{dexamethasone}} ولا حاجة لـ{{racemic epinephrine}}"
+  ],
+  "clues": [
+   [
+    "{{2 years old}} مع {{brassy cough}}",
+    "عمر {{croup}} الشائع والسعال النباحي"
+   ],
+   [
+    "{{low-grade fever}} فقط",
+    "التهاب فيروسي بسيط"
+   ],
+   [
+    "السؤال عن {{initial management}}",
+    "في الـ{{croup}} الخفيف الأولي هو الستيرويد"
+   ]
+  ],
+  "why": [
+   "الـ{{croup}} الخفيف ما فيه {{stridor at rest}} ولا {{hypoxia}}، فالستيرويد يكفي",
+   "الـ{{dexamethasone}} يقلل التورم ويقصر مدة الأعراض، ويُعطى لكل الدرجات"
+  ],
+  "wrong": {
+   "0": "الـ{{cool humidified air}} ما أثبتت فايدة حقيقية ولا تغني عن الستيرويد",
+   "1": "الـ{{prednisolone}} ما هو المعتمد في السؤال، والمعتمد هو {{dexamethasone}} بجرعة وحدة",
+   "3": "الـ{{racemic epinephrine}} نضيفه لو في {{stridor at rest}} أو ضيق واضح، وهنا الحالة خفيفة"
+  },
+  "change": [
+   "لو ظهر {{stridor at rest}} مع {{retractions}} نضيف {{racemic epinephrine}} للـ{{dexamethasone}}",
+   "لو الطفل {{toxic}} نفكر في {{bacterial tracheitis}}"
+  ],
+  "rule": "تذكري: {{Mild croup}} يعني {{dexamethasone}} فقط",
+  "note": "الخيارات ذكرت الجرعة بشكل غير واضح، وجوابنا يعتمد على الصورة السريرية."
+ },
+ "SWR-0602": {
+  "idea": [
+   "طفل سنتين عنده {{low-grade fever}} و{{brassy cough}} و{{inspiratory stridor}} بدون علامات شدة، فهذا {{croup}} خفيف",
+   "الجواب {{dexamethasone}} لأنه الأولي والأنسب"
+  ],
+  "clues": [
+   [
+    "{{brassy cough}} مع {{inspiratory stridor}}",
+    "هذي صورة {{croup}}"
+   ],
+   [
+    "{{low-grade fever}} صباحًا بدون مرض شديد",
+    "ما في ما يدل على {{toxic}} ولا {{epiglottitis}}"
+   ],
+   [
+    "ما ذكر {{respiratory distress}} ولا {{hypoxia}}",
+    "ما نحتاج {{epinephrine}}"
+   ]
+  ],
+  "why": [
+   "الـ{{dexamethasone}} {{0.6 mg/kg}} هو أساس علاج الـ{{croup}} ويعطى حتى للحالات الخفيفة",
+   "ما في ميزة شدة تدفع نحو {{racemic epinephrine}}، فالستيرويد هو الأولي والأنسب معًا"
+  ],
+  "wrong": {
+   "0": "الـ{{humidified cool air}} ما أثبتت فعالية ولا تعالج التورم",
+   "1": "الـ{{prednisone}} ما هو المعتمد في السؤال، والمعتمد هو {{dexamethasone}}",
+   "3": "الـ{{racemic epinephrine}} لحالات {{stridor at rest}} والضيق الواضح، وهنا ما ذكر"
+  },
+  "change": [
+   "لو في {{stridor at rest}} مع {{retractions}} نضيف {{epinephrine nebulization}}",
+   "لو الحرارة عالية وشكله {{toxic}} نفكر في {{bacterial tracheitis}}"
+  ],
+  "rule": "تذكري: {{Croup}} بدون شدة يعني {{dexamethasone}}"
+ },
+ "SWR-0607": {
+  "idea": [
+   "طفل بعد جراحة أعصاب عنده {{polyuria}} و{{polydipsia}} مع {{Na}} عالي جدًا، فهذا {{central diabetes insipidus}}",
+   "السبب نقص هرمون {{ADH}} بعد إصابة الـ{{pituitary}} أو الـ{{hypothalamus}} أثناء الجراحة"
+  ],
+  "clues": [
+   [
+    "{{post neurosurgery}}",
+    "إصابة محتملة للـ{{posterior pituitary}} أو الـ{{hypothalamus}}"
+   ],
+   [
+    "{{polyuria}} و{{polydipsia}}",
+    "الكلية ما تقدر تركز البول بدون {{ADH}}"
+   ],
+   [
+    "{{Na 177}} و{{K}} طبيعي",
+    "{{hypernatremia}} من فقدان ماء حر، ما يوافق {{SIADH}}"
+   ]
+  ],
+  "why": [
+   "بدون {{ADH}} الكلية تطرح كمية كبيرة من البول المخفف، فيفقد الطفل ماء ويرتفع الـ{{sodium}}",
+   "الـ{{hypernatremia}} الشديدة مع {{polyuria}} بعد جراحة الدماغ هي الـ{{central DI}}"
+  ],
+  "wrong": {
+   "1": "الـ{{SIADH}} فيه {{ADH}} زايد، فيعطي {{hyponatremia}} و{{concentrated urine}} وليس {{hypernatremia}}",
+   "2": "الـ{{DKA}} فيه {{hyperglycemia}} و{{ketoacidosis}} ولا يفسر الـ{{Na}} العالي بعد جراحة أعصاب"
+  },
+  "change": [
+   "لو الـ{{Na}} واطي مع {{concentrated urine}} نفكر في {{SIADH}}",
+   "لو {{glucose}} عالي مع {{ketones}} و{{acidosis}} نفكر في {{DKA}}"
+  ],
+  "rule": "تذكري: {{Neurosurgery}} مع {{polyuria}} و{{high Na}} يعني {{central DI}}"
+ },
+ "SWR-0611": {
+  "idea": [
+   "طفل عمره سنتين عنده {{low-grade fever}} و{{acute stridor}} بدون {{drooling}}",
+   "أشهر سبب لهذي الصورة هو الـ{{croup}}"
+  ],
+  "clues": [
+   [
+    "{{2 years old}}",
+    "العمر النموذجي للـ{{croup}}"
+   ],
+   [
+    "{{low-grade fever}}",
+    "التهاب فيروسي مو {{toxic}}"
+   ],
+   [
+    "{{acute stridor}} بدون {{drooling}}",
+    "يوافق {{croup}} أكثر من {{epiglottitis}}"
+   ]
+  ],
+  "why": [
+   "الـ{{croup}} هو أكثر سبب لـ{{acute stridor}} عند الأطفال الصغار وسببه فيروسي، غالبًا {{parainfluenza}}",
+   "الحرارة الخفيفة وغياب الـ{{toxic look}} والـ{{drooling}} تبعد الأسباب الأخطر"
+  ],
+  "wrong": {
+   "0": "الـ{{bacterial tracheitis}} أقل شيوعًا ويجي بحرارة عالية وطفل {{toxic}}",
+   "1": "الـ{{epiglottitis}} نادر بعد لقاح الـ{{Hib}} ويجي بـ{{high fever}} و{{drooling}} وطفل {{toxic}} وجالس {{tripod}}"
+  },
+  "change": [
+   "لو {{drooling}} و{{toxic}} و{{high fever}} فنفكر في {{epiglottitis}}",
+   "لو طفل {{toxic}} وما تحسن مع علاج {{croup}} فنفكر في {{bacterial tracheitis}}"
+  ],
+  "rule": "تذكري: {{Toddler}} مع {{stridor}} وحرارة خفيفة يعني {{croup}}"
+ },
+ "SWR-0613": {
+  "idea": [
+   "رضيع عمره {{3 months}} عنده {{staccato cough}} و{{conjunctivitis}} سابق مع {{eosinophilia}}، وهذي صورة {{Chlamydia trachomatis pneumonia}}",
+   "الأم تنقل العدوى أثناء الولادة والـ{{eosinophilia}} هي المفتاح"
+  ],
+  "clues": [
+   [
+    "{{conjunctivitis}} قبل الأعراض التنفسية",
+    "العدوى انتقلت من الأم وتتطور لـ{{pneumonia}}"
+   ],
+   [
+    "{{staccato cough}} مع {{tachypnea}} و{{crackles}}",
+    "التهاب رئوي عند رضيع عمره أشهر"
+   ],
+   [
+    "{{normal WBC}} مع {{elevated eosinophils}}",
+    "علامة {{chlamydia}} الكلاسيكية"
+   ]
+  ],
+  "why": [
+   "الـ{{Chlamydia trachomatis}} تسبب {{afebrile pneumonia}} عند الرضيع بعد {{conjunctivitis}} في أول أسابيع الحياة",
+   "وجود {{eosinophilia}} مع {{normal WBC}} هو الفارق اللي يختارها على بقية الخيارات"
+  ],
+  "wrong": {
+   "0": "الـ{{pertussis}} غالبًا مع {{marked leukocytosis}} و{{lymphocytosis}} وعند غير المطعم، وهنا الـ{{WBC}} طبيعي",
+   "1": "الـ{{adenovirus}} يجي بـ{{fever}} و{{diarrhea}}، والسؤال قال ما في إسهال",
+   "2": "الـ{{Mycoplasma}} يصيب الأطفال الأكبر ولا يعطي {{eosinophilia}} ولا {{neonatal conjunctivitis}}"
+  },
+  "change": [
+   "لو {{diarrhea}} مع {{conjunctivitis}} فنفكر في {{adenovirus}}",
+   "لو رضيع غير مطعم مع {{paroxysmal cough}} و{{whoop}} و{{lymphocytosis}} فنفكر في {{pertussis}}"
+  ],
+  "rule": "تذكري: {{Conjunctivitis}} مع {{eosinophilia}} يعني {{Chlamydia}}",
+  "note": "السؤال نقل من مصدر، والـ{{staccato cough}} مذكور في الـ{{stem}} هنا، والجواب يعتمد على الـ{{eosinophilia}} والـ{{conjunctivitis}}."
+ },
+ "SWR-0614": {
+  "idea": [
+   "رضيع عمره {{4 months}} زيادته بالوزن ضعيفة وأمه عمرها {{19}} سنة وأول طفل لها، وتحضر الحليب بطريقة مو صحيحة",
+   "السبب الأرجح {{inappropriate formula preparation}} (تخفيف زايد)"
+  ],
+  "clues": [
+   [
+    "{{2 spoons}} في {{90 mL}} ماء",
+    "تحضير غير مضبوط يعطي سعرات أقل"
+   ],
+   [
+    "أم عمرها {{19}} وأول طفل",
+    "قلة خبرة وليست إهمال"
+   ],
+   [
+    "رضاعة كل {{3 hours}}",
+    "التكرار طبيعي، فالمشكلة في التركيز"
+   ]
+  ],
+  "why": [
+   "الحليب المخفف يعطي سعرات وبروتين أقل من حاجة الرضيع حتى لو التكرار طبيعي",
+   "الوزن زاد من {{3.3 kg}} إلى {{4 kg}} فقط، يعني نمو ضعيف يوافق نقص سعرات من خطأ التحضير"
+  ],
+  "wrong": {
+   "0": "الـ{{neglect}} ما في دليل عليه، الأم تهتم وتطعم بانتظام وتحتاج توعية فقط",
+   "1": "الـ{{celiac disease}} يظهر بعد إدخال الـ{{gluten}} في الأكل التكميلي، والرضيع هنا عمره {{4 months}}",
+   "3": "التكرار كل {{3 hours}} طبيعي لعمر الرضيع، فهو ليس السبب"
+  },
+  "change": [
+   "لو الأم تحضر بالنسبة الصحيحة والوزن ما زال ضعيف فنبحث عن أسباب عضوية مثل {{GERD}} أو {{malabsorption}}",
+   "لو في {{bruises}} أو {{poor hygiene}} وإهمال واضح فنفكر في {{neglect}}"
+  ],
+  "rule": "تذكري: {{Young inexperienced mother}} مع {{FTT}} يعني {{formula preparation error}}"
+ },
+ "SWR-0615": {
+  "idea": [
+   "أم عمرها {{19}} سنة وأول طفل لها، والرضيع وزنه ما زاد كفاية، وهي تحضر الحليب بطريقة {{2 tablespoons}} في {{90 mL}}",
+   "التشخيص الأرجح {{improper bottle preparation}}"
+  ],
+  "clues": [
+   [
+    "{{19 years}} و{{first-time mother}}",
+    "قلة خبرة في التحضير"
+   ],
+   [
+    "{{2 tablespoons}} في {{90 mL}}",
+    "تركيز غير مضبوط"
+   ],
+   [
+    "{{birth weight 3.3 kg}} الآن {{4 kg}}",
+    "زيادة قليلة جدًا تدل على نقص سعرات"
+   ]
+  ],
+  "why": [
+   "الـ{{improper bottle preparation}} هو أشهر سبب لـ{{failure to thrive}} عند أم جديدة بدون سبب عضوي",
+   "التكرار كل {{3 hours}} مناسب، فالمشكلة في التركيز وليس في عدد الرضعات"
+  ],
+  "wrong": {
+   "0": "الـ{{neglect}} ما في دليل عليه في القصة",
+   "1": "الـ{{celiac disease}} يتطلب تعرض لـ{{gluten}} وهذا ما ذكر في القصة",
+   "2": "تكرار الرضاعة هنا مناسب ولا يفسر ضعف الوزن"
+  },
+  "change": [
+   "لو التحضير سليم والأم تتابع فنفكر في أسباب عضوية مثل {{reflux}} أو {{malabsorption}}",
+   "لو في علامات {{abuse}} أو {{neglect}} فنفكر فيها"
+  ],
+  "rule": "تذكري: {{First-time young mother}} مع {{FTT}} يعني {{preparation error}}",
+  "note": "الـ{{stem}} ما ذكر الرضاعة الطبيعية، والجواب يعتمد على الصورة السريرية والتحضير المذكور."
+ },
+ "SWR-0617": {
+  "idea": [
+   "طفل عنده {{daily fever}} مع {{arthritis}} و{{salmon-colored rash}} و{{high ESR}} و{{CRP}}، فهذا {{systemic JIA}}",
+   "الـ{{quotidian fever}} والطفح الوردي المتغير هما المفتاح"
+  ],
+  "clues": [
+   [
+    "{{daily fever}}",
+    "نمط {{quotidian}} يميز {{systemic JIA}}"
+   ],
+   [
+    "{{salmon-colored rash}}",
+    "طفح سلموني يظهر مع الحرارة ويختفي"
+   ],
+   [
+    "{{arthritis}} مع {{high ESR}} و{{CRP}}",
+    "التهاب مفاصل مع التهاب جهازي"
+   ]
+  ],
+  "why": [
+   "الـ{{systemic JIA}} (مرض ستيل) يجمع {{quotidian fever}} و{{evanescent salmon rash}} والتهاب المفاصل",
+   "ارتفاع {{ESR}} و{{CRP}} يوافق التهاب جهازي، وغالبًا مع {{hepatosplenomegaly}} و{{lymphadenopathy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Kawasaki}} حرارة {{5 days}} أو أكثر مع {{conjunctivitis}} و{{strawberry tongue}} و{{cervical lymphadenopathy}} وتغيرات الأطراف، وليس طفح سلموني متقطع",
+   "1": "الـ{{acute rheumatic fever}} يعطي {{migratory arthritis}} و{{carditis}} و{{erythema marginatum}} بعد {{strep pharyngitis}} وحرارة غير يومية"
+  },
+  "change": [
+   "لو {{fever}} مع {{migratory arthritis}} و{{carditis}} بعد التهاب حلق فنفكر في {{ARF}}",
+   "لو {{conjunctivitis}} و{{cracked lips}} و{{coronary}} فنفكر في {{Kawasaki}}"
+  ],
+  "rule": "تذكري: {{Quotidian fever}} مع {{salmon rash}} و{{arthritis}} يعني {{systemic JIA}}"
+ },
+ "SWR-0638": {
+  "idea": [
+   "طفل بصداع وتيبس رقبة، والـ{{CSF}} فيه {{lymphocytes}} مع {{glucose}} قريب من الـ{{serum}} و{{protein}} ضمن الحد الأعلى للطبيعي، وهذا {{viral meningitis}}",
+   "الـ{{TB}} يعطي {{low glucose}} و{{high protein}} وليس هنا"
+  ],
+  "clues": [
+   [
+    "{{serum glucose 4.4}} و{{CSF glucose 3.8}}",
+    "النسبة عالية قرب الطبيعي، تدل على فيروسي"
+   ],
+   [
+    "{{prominent lymphocytes}}",
+    "لمفوسايت يوافق فيروسي أو {{TB}}"
+   ],
+   [
+    "{{protein 450}} والحد الأعلى {{450}}",
+    "بروتين ضمن الطبيعي، ما يوافق {{TB}}"
+   ]
+  ],
+  "why": [
+   "في الـ{{viral meningitis}} الـ{{CSF glucose}} يبقى قريب من الطبيعي والبروتين طبيعي أو مرتفع قليلًا مع {{lymphocytes}}",
+   "في الـ{{TB meningitis}} الـ{{glucose}} ينخفض بشكل واضح والبروتين يرتفع كثيرًا، وهذا غير موجود"
+  ],
+  "wrong": {
+   "0": "الـ{{TB meningitis}} يعطي {{low CSF glucose}} و{{very high protein}} مع {{lymphocytes}} وبداية بطيئة، وهنا الجلوكوز تقريبًا طبيعي"
+  },
+  "change": [
+   "لو الـ{{CSF glucose}} منخفض جدًا مع {{high protein}} فنفكر في {{TB}} أو {{bacterial}}",
+   "لو {{neutrophils}} غالبة مع {{low glucose}} فنفكر في {{bacterial meningitis}}"
+  ],
+  "rule": "تذكري: {{Lymphocytes}} مع {{normal glucose}} يعني {{viral}}",
+  "note": "السؤال نقل ناقص، وفيه خيارين فقط والباقي ما انتقل من المصدر."
+ },
+ "SWR-0640": {
+  "idea": [
+   "طفل عمره {{13}} سنة عنده {{ARF}} مع علامات {{carditis}} (ألم صدر وضيق نفس عند الجهد) و{{ASO}} مرتفع",
+   "مدة {{secondary prophylaxis}} مع {{carditis}} هي {{10 years}} أو لين {{21}} سنة، الأطول منهما، فيصير {{23}}"
+  ],
+  "clues": [
+   [
+    "{{ASO 800}}",
+    "دليل عدوى {{strep}} سابقة يدعم {{ARF}}"
+   ],
+   [
+    "{{chest pain}} و{{dyspnea on exertion}}",
+    "تدل على {{carditis}}"
+   ],
+   [
+    "العمر {{13}} سنة",
+    "{{13}} زائد {{10}} يساوي {{23}} وهو أطول من {{21}}"
+   ]
+  ],
+  "why": [
+   "مع {{ARF}} مع {{carditis}} بدون مرض صمامي دائم، مدة {{prophylaxis}} {{10 years}} أو لين {{21 years}} أيهما أطول",
+   "الحساب {{13 + 10 = 23}} وهو أطول من {{21}}، فنستمر لين عمر {{23}} سنة"
+  ],
+  "wrong": {
+   "1": "عمر {{21 years}} يناسب {{ARF}} بدون {{carditis}} (خمس سنوات أو لين {{21}})، وهنا في {{carditis}} فالمدة أطول",
+   "2": "عمر {{15 years}} أبكر من أقل حد حتى بدون {{carditis}} وهو لين عمر {{21}}، فما يغطي الفترة المطلوبة"
+  },
+  "change": [
+   "لو {{ARF}} بدون {{carditis}} فنكمل {{5 years}} أو لين {{21}} أيهما أطول",
+   "لو {{carditis}} مع {{residual valvular disease}} فنكمل {{10 years}} أو لين {{40}} سنة أيهما أطول"
+  ],
+  "rule": "تذكري: {{ARF}} مع {{carditis}} يعني {{10 years}} أو لين {{21}} أيهما أطول",
+  "note": "الـ{{stem}} ما ذكر وجود مرض صمامي صراحة، والجواب يعتمد على الـ{{carditis}} المفهوم من الأعراض."
+ },
+ "SWR-0641": {
+  "idea": [
+   "طفلة قبل المدرسة وزنها طبيعي، قليلة النشاط وتتعب بسرعة وتقضي وقت طويل أمام التلفزيون، فالمشكلة نمط حياة",
+   "التوصية الصحيحة {{increase physical activity and limit screen time}}"
+  ],
+  "clues": [
+   [
+    "{{decreased activity}} و{{TV}} كثير",
+    "{{sedentary lifestyle}}"
+   ],
+   [
+    "{{weight within expected range}} وبدون أعراض أخرى",
+    "ما في سبب عضوي ولا نقص تغذية"
+   ],
+   [
+    "السؤال عن تحسين الطاقة والنشاط",
+    "الحل بتغيير السلوك"
+   ]
+  ],
+  "why": [
+   "الأعراض مرتبطة بقلة الحركة والجلوس الطويل، وبما إن الفحص والوزن طبيعيين فالتدخل الأنسب تعديل نمط الحياة",
+   "تشجيع الحركة وتقليل وقت الشاشة هو الحل الآمن والفعال ويمنع {{obesity}} لاحقًا"
+  ],
+  "wrong": {
+   "0": "الـ{{multivitamins}} ما تزيد الطاقة عند طفل بدون {{deficiency}} موثق",
+   "1": "زيادة السعرات مع قلة الحركة تؤدي لـ{{obesity}} والوزن هنا طبيعي أصلًا",
+   "2": "الـ{{endocrine referral}} ما له داعي بدون علامات مرض هرموني مثل {{growth failure}}"
+  },
+  "change": [
+   "لو في {{poor growth}} أو {{pallor}} أو أعراض جهازية فنفكر في فحوصات مثل {{CBC}} و{{TSH}}",
+   "لو الوزن زائد فنضيف نصائح {{diet}} مع الحركة"
+  ],
+  "rule": "تذكري: {{Normal growth}} مع قلة النشاط يعني {{lifestyle modification}}"
+ },
+ "SWR-0645": {
+  "idea": [
+   "الـ{{Apgar}} يتحسب من خمس عناصر كل واحد من {{0-2}} والمجموع هنا {{8}}",
+   "القلب {{2}} والتنفس {{1}} والمنعكسات {{2}} والتوتر {{2}} واللون {{1}}"
+  ],
+  "clues": [
+   [
+    "{{heart rate 120}}",
+    "أعلى من {{100}} فالدرجة {{2}}"
+   ],
+   [
+    "{{irregular gasping}}",
+    "تنفس غير منتظم فالدرجة {{1}}"
+   ],
+   [
+    "{{coughs and cries}} و{{arms and legs flexed}} و{{blue extremities}}",
+    "المنعكسات {{2}} والتوتر {{2}} واللون {{1}}"
+   ]
+  ],
+  "why": [
+   "المجموع {{HR}} {{2}} + {{respiration}} {{1}} + {{reflex}} {{2}} + {{tone}} {{2}} + {{color}} {{1}} = {{8}}",
+   "الـ{{tone}} يعتمد على الانثناء والأطراف مثنية يعني {{2}}، و{{blue extremities}} فقط يعني {{1}} للون"
+  ],
+  "wrong": {
+   "0": "الدرجة {{6}} تحسب درجات أقل من الصحيح، مثل إعطاء {{tone}} أو {{reflex}} درجة {{1}} بالغلط",
+   "1": "الدرجة {{7}} تطلع لو أعطينا {{tone}} درجة {{1}}، لكن انثناء الأطراف يعطي {{2}}",
+   "3": "الدرجة {{9}} تحتاج لون وردي كامل بدون {{acrocyanosis}}، وهنا الأطراف زرقاء"
+  },
+  "change": [
+   "لو الجسم والأطراف كلهم ورديين فاللون {{2}} والمجموع {{9}}",
+   "لو {{HR}} أقل من {{100}} فدرجة القلب {{1}} والمجموع ينقص"
+  ],
+  "rule": "تذكري: {{HR}} و{{RR}} و{{reflex}} و{{tone}} و{{color}}: جمّعي {{0-2}} لكل واحد",
+  "note": "الجدول مذكور في الـ{{stem}}، والتوتر محسوب على انثناء الأطراف حسب الجدول المعتمد."
+ },
+ "SWR-0648": {
+  "idea": [
+   "رضيع عمره {{3 months}} مشكوك في نقص مناعة، فنوقف اللقاحات الحية لين التشخيص ومنها الـ{{BCG}}",
+   "الباقي {{Hepatitis B}} و{{Hib}} و{{Tdap}} لقاحات غير حية وآمنة"
+  ],
+  "clues": [
+   [
+    "{{suspected immune issue}}",
+    "احتمال {{immunodeficiency}} مثل {{SCID}}"
+   ],
+   [
+    "{{referred to immunologist}}",
+    "نوقف اللقاحات الحية لين التشخيص"
+   ],
+   [
+    "{{BCG}} بين الخيارات",
+    "الوحيد لقاح حي"
+   ]
+  ],
+  "why": [
+   "اللقاحات الحية المضعفة قد تسبب مرض منتشر عند من عنده نقص مناعة شديد، والـ{{BCG}} لقاح حي",
+   "بقية الخيارات {{inactivated}} أو {{recombinant}} أو {{toxoid}}، آمنة ولا تتسبب بعدوى"
+  ],
+  "wrong": {
+   "0": "لقاح الـ{{Hepatitis B}} {{recombinant}} غير حي وآمن",
+   "1": "لقاح الـ{{Hib}} {{conjugate}} غير حي وآمن",
+   "2": "لقاح الـ{{Tdap}} {{toxoid}} غير حي وآمن"
+  },
+  "change": [
+   "لو كان الخيار {{MMR}} أو {{varicella}} أو {{rotavirus}} فهي حية أيضًا ونوقفها",
+   "لو المناعة طبيعية فنكمل جدول التطعيم عادي"
+  ],
+  "rule": "تذكري: {{Suspected immunodeficiency}} يعني نوقف {{live vaccines}}",
+  "note": "الخيارات فيها اختصارات ناقصة، والجواب هو اللقاح الحي الوحيد."
+ },
+ "SWR-0649": {
+  "idea": [
+   "طفل بـ{{recurrent thrush}} و{{failure to thrive}} و{{hepatosplenomegaly}} وأخ مات بعدوى شديدة، فهذا {{immunodeficiency}}",
+   "نتجنب اللقاح الحي وهو الـ{{varicella}} لين التشخيص"
+  ],
+  "clues": [
+   [
+    "{{recurrent oral thrush}} و{{FTT}}",
+    "علامات {{immunodeficiency}}"
+   ],
+   [
+    "أخ مات بـ{{septic shock}} في {{3 years}}",
+    "تاريخ عائلي لنقص مناعة"
+   ],
+   [
+    "السؤال عن لقاح لازم نتجنبه",
+    "اللقاح الحي"
+   ]
+  ],
+  "why": [
+   "العدوى المتكررة والتاريخ العائلي لوفاة بالعدوى تنبه لاحتمال نقص مناعة وراثي",
+   "الـ{{varicella}} لقاح حي مضعف قد يسبب مرض منتشر، فنتجنبه لين التشخيص"
+  ],
+  "wrong": {
+   "1": "الـ{{influenza}} الحقن غير حي وآمن",
+   "2": "الـ{{injectable polio}} {{IPV}} غير حي وآمن",
+   "3": "الـ{{pneumococcal conjugate}} غير حي وآمن"
+  },
+  "change": [
+   "لو الخيار {{intranasal influenza}} فهو حي ونتجنبه",
+   "لو التشخيص استبعد نقص المناعة فنكمل اللقاحات كلها"
+  ],
+  "rule": "تذكري: {{Immunodeficiency}} يعني نتجنب {{live vaccines}} مثل {{varicella}} و{{MMR}}"
+ },
+ "SWR-0650": {
+  "idea": [
+   "طفل اختنق بفول سوداني وظهر جسم غريب في الرئة اليمنى السفلى، فهذا {{foreign body aspiration}}",
+   "العلاج التشخيصي والعلاجي هو {{bronchoscopy}}"
+  ],
+  "clues": [
+   [
+    "{{choked on peanut}}",
+    "شفط جسم غريب"
+   ],
+   [
+    "{{right lower lung}} في الأشعة",
+    "الجسم في {{bronchus}} وليس الحنجرة"
+   ],
+   [
+    "السؤال عن الأداة",
+    "{{rigid bronchoscopy}} لإزالة الجسم"
+   ]
+  ],
+  "why": [
+   "الجسم الغريب في القصبة الهوائية الصغيرة يحتاج إزالة مباشرة بالـ{{bronchoscope}}",
+   "الـ{{bronchoscopy}} تشخّص وتعالج بنفس الوقت وتمنع {{pneumonia}} و{{atelectasis}}"
+  ],
+  "wrong": {
+   "1": "الـ{{laryngoscope}} يوصل للـ{{larynx}} والأحبال الصوتية فقط، والجسم في {{right lower lobe bronchus}}",
+   "2": "الـ{{lateral neck X-ray}} للمجرى العلوي، والجسم هنا بالرئة وقد تم تحديده بالصورة"
+  },
+  "change": [
+   "لو الجسم عالق في الـ{{larynx}} وظاهر فنستخدم {{laryngoscope}} و{{Magill forceps}}",
+   "لو الطفل {{cyanosed}} وعنده {{complete obstruction}} فنبدأ بـ{{back blows}} أو {{Heimlich}} حسب العمر"
+  ],
+  "rule": "تذكري: {{Foreign body}} في الرئة يعني {{bronchoscopy}}",
+  "note": "السؤال ناقص ومعلومات الصورة محدودة، والجواب يعتمد على الصورة السريرية."
+ },
+ "SWR-0655": {
+  "idea": [
+   "مراهق بدين عنده {{hypertension}} مستمر مع {{headache}} و{{sweating}} و{{palpitations}}، فنشك في {{pheochromocytoma}}",
+   "التحليل التأكيدي الأول هو {{plasma free metanephrines}} أو {{urinary fractionated metanephrines}}"
+  ],
+  "clues": [
+   [
+    "{{persistent hypertension}} عند مراهق",
+    "نبحث عن سبب ثانوي"
+   ],
+   [
+    "{{headache}} و{{sweating}} و{{palpitations}}",
+    "ثلاثية {{pheochromocytoma}}"
+   ],
+   [
+    "{{acanthosis nigricans}} و{{obesity}}",
+    "تفسر {{insulin resistance}} لكنها ما تفسر الثلاثية"
+   ]
+  ],
+  "why": [
+   "الـ{{metanephrines}} هي أحسن فحص تحري لـ{{pheochromocytoma}} لحساسيتها العالية لأنها تنتج باستمرار من الورم",
+   "الأعراض النوبية مع ارتفاع الضغط تدل على ورم يفرز {{catecholamines}}، فنبدأ بفحص {{metanephrines}}"
+  ],
+  "wrong": {
+   "0": "الـ{{catecholamines}} فحص قديم أقل حساسية لأن إفرازها متقطع، و{{metanephrines}} أفضل",
+   "1": "الـ{{cortisol}} و{{ACTH}} لـ{{Cushing}} ولا يفسر الصداع والتعرق والخفقان",
+   "2": "الـ{{renal US}} للأسباب الكلوية وليست للأعراض النوبية الاعتمادية"
+  },
+  "change": [
+   "لو ما كان {{metanephrines}} موجودًا في الخيارات فنختار {{catecholamines}}",
+   "لو في {{striae}} و{{moon face}} فنفكر في {{Cushing}} ونطلب {{cortisol}}"
+  ],
+  "rule": "تذكري: {{Headache}} و{{sweating}} و{{palpitations}} مع {{HTN}} يعني {{metanephrines}}"
+ },
+ "SWR-0659": {
+  "idea": [
+   "رضيع عمره {{10 months}} ينقل الأشياء بين يديه ولسه ما عنده {{pincer grasp}}، وهذا ضمن الطبيعي",
+   "الـ{{pincer grasp}} علامة الخطر فيه تكون عند {{12 months}}، فننتظر ونعيد التقييم"
+  ],
+  "clues": [
+   [
+    "{{transfers objects}}",
+    "مهارة طبيعية من حوالي {{6 months}}"
+   ],
+   [
+    "{{no pincer grasp}} عند {{10 months}}",
+    "الـ{{pincer}} يتطور بين {{9}} و{{12 months}}"
+   ],
+   [
+    "السؤال عن الخطوة التالية",
+    "انتظار وإعادة التقييم عند {{12 months}}"
+   ]
+  ],
+  "why": [
+   "الـ{{pincer grasp}} ما يعتبر علامة خطر قبل {{12 months}}، فالتأخر الخفيف عند {{10 months}} ضمن الطبيعي",
+   "الخطوة الأنسب إعطاء موعد لإعادة التقييم عند {{12 months}} بدل إحالة مبكرة"
+  ],
+  "wrong": {
+   "0": "إحالة العلاج الوظيفي مبكرة قبل ما يتأكد تأخر حقيقي",
+   "1": "إحالة الأعصاب مبكرة بدون علامات عصبية أو تأخر شامل",
+   "2": "الطمأنة وحدها بدون موعد متابعة ناقصة، والمطلوب ننتظر لين {{12 months}} ونعيد التقييم"
+  },
+  "change": [
+   "لو لسه ما في {{pincer}} عند {{12 months}} فنفحص وننظر في الإحالة",
+   "لو في تأخر في مجالات أخرى فنحيل مبكرًا"
+  ],
+  "rule": "تذكري: {{Pincer}} خطر عند {{12 months}}، قبلها نراقب",
+  "note": "في المصدر نسخة قديمة بدون هذا الخيار، والجواب هنا الانتظار حتى {{12 months}}."
+ },
+ "SWR-0660": {
+  "idea": [
+   "رضيع عمره {{9 months}} ينقل الأشياء بين يديه ولسه ما عنده {{pincer grasp}}، وهذا ضمن الطبيعي",
+   "فنطمّن الأهل ونراقب"
+  ],
+  "clues": [
+   [
+    "{{transfers objects}}",
+    "مهارة طبيعية لعمره"
+   ],
+   [
+    "{{no pincer}} عند {{9 months}}",
+    "لسه ما وصل لعمر الخطر"
+   ],
+   [
+    "السؤال عن الخطوة التالية",
+    "طمأنة ومراقبة"
+   ]
+  ],
+  "why": [
+   "الـ{{pincer grasp}} يتطور بين {{9}} و{{12 months}} وعلامة الخطر فيه عند {{12 months}}",
+   "فعند {{9 months}} الطمأنة والمراقبة هي الخطوة الصح"
+  ],
+  "wrong": {
+   "0": "إحالة العلاج الوظيفي مبكرة بدون تأخر مثبت",
+   "1": "إحالة الأعصاب غير مبررة بدون علامات عصبية أو تأخر شامل"
+  },
+  "change": [
+   "لو ما ظهر {{pincer}} عند {{12 months}} فنقيّم ونحيل عند الحاجة",
+   "لو في تأخر في مجالات أخرى فنحيل مبكرًا"
+  ],
+  "rule": "تذكري: {{9 months}} بدون {{pincer}} يعني {{reassure}} و{{observe}}",
+  "note": "الـ{{stem}} فيه ثلاثة خيارات فقط، وهي نسخة قديمة بدون خيار الانتظار حتى {{12 months}}."
+ },
+ "SWR-0667": {
+  "idea": [
+   "رضيع عنده انحراف العين لجهة الداخل بشكل مستمر مع غياب الـ{{red reflex}}، فنخاف من {{retinoblastoma}} أو {{cataract}}",
+   "الخطوة هي إحالة عاجلة لطبيب العيون"
+  ],
+  "clues": [
+   [
+    "{{persistent esotropia}} (العين للداخل)",
+    "{{strabismus}} مستمر مو طبيعي"
+   ],
+   [
+    "{{absent red reflex}}",
+    "علامة خطر لـ{{leukocoria}} و{{retinoblastoma}} أو {{cataract}}"
+   ],
+   [
+    "السؤال عن الخطوة التالية",
+    "إحالة لـ{{ophthalmology}}"
+   ]
+  ],
+  "why": [
+   "غياب الـ{{red reflex}} مع {{strabismus}} علامة خطر تحتاج فحص عيون عاجل لأن السبب قد يهدد النظر أو الحياة",
+   "الإحالة لطبيب العيون تحدد السبب وتبدأ العلاج بدري، وهي أهم خطوة"
+  ],
+  "wrong": {
+   "0": "الـ{{eye patch}} للـ{{amblyopia}} بعد استبعاد سبب عضوي، وهنا في علامة خطر",
+   "2": "الخيار هذا ما انتقل كامل من المصدر",
+   "3": "الخيار هذا ما انتقل كامل من المصدر"
+  },
+  "change": [
+   "لو الـ{{red reflex}} موجود والانحراف متقطع فنراقب ونحيل للتقييم الروتيني",
+   "لو {{leukocoria}} مع {{family history}} فنفكر في {{retinoblastoma}} ونحيل عاجل"
+  ],
+  "rule": "تذكري: {{Absent red reflex}} يعني {{urgent ophthalmology}}",
+  "note": "الـ{{stem}} ما ذكر العمر، والخيارين الأخيرين ما انتقلا من المصدر."
+ },
+ "SWR-0669": {
+  "idea": [
+   "طفل أخذ {{MMR}} قبل {{3 days}} وظهر عنده {{low-grade fever}} و{{maculopapular rash}} وشكله بخير، فهذا {{unrelated viral exanthem}}",
+   "طفح اللقاح يتأخر عادة أسبوع أو أكثر بعد التطعيم"
+  ],
+  "clues": [
+   [
+    "{{MMR before 3 days}}",
+    "أبكر من النافذة المعتادة لرد فعل اللقاح"
+   ],
+   [
+    "{{low-grade fever}} و{{maculopapular rash}}",
+    "التهاب فيروسي بسيط"
+   ],
+   [
+    "{{child looks well}}",
+    "ما في علامة {{immunosuppression}} أو مرض شديد"
+   ]
+  ],
+  "why": [
+   "ردود الفعل لـ{{MMR}} مثل الحرارة والطفح تظهر بعد حوالي {{1-2 weeks}} من التطعيم وليس بعد {{3 days}}",
+   "فالأرجح عدوى فيروسية ثانية صادفت التوقيت ولا تحتاج علاج خاص"
+  ],
+  "wrong": {
+   "0": "رد فعل اللقاح يتأخر لأسبوع أو أكثر، فالتوقيت هنا مبكر",
+   "2": "الـ{{MMR}} ما يسبب {{immunosuppression}} يؤدي لعدوى بكتيرية بهذي الطريقة",
+   "3": "الـ{{measles}} من اللقاح ما يظهر خلال {{3 days}} لأن فترة الحضانة أطول"
+  },
+  "change": [
+   "لو ظهر الطفح بعد {{7-12 days}} من التطعيم فنرجح {{vaccine-related rash}}",
+   "لو الطفل بدون تطعيم مع {{cough}} و{{coryza}} و{{conjunctivitis}} فنفكر في {{measles}}"
+  ],
+  "rule": "تذكري: {{Rash}} قبل أسبوع من {{MMR}} يعني سبب آخر"
+ },
+ "SWR-0681": {
+  "idea": [
+   "مشي غير ثابت مع رفع اليدين (مشية {{high guard}}) هو بداية المشي المستقل عند {{12 months}}",
+   "الطفل يمشي أول مرة بدون دعم وبتوازن ضعيف"
+  ],
+  "clues": [
+   [
+    "{{unsteady gait}}",
+    "مشي مبتدئ"
+   ],
+   [
+    "{{raising the hand}}",
+    "اليدين مرفوعة للحفاظ على التوازن"
+   ],
+   [
+    "السؤال عن العمر",
+    "{{12 months}}"
+   ]
+  ],
+  "why": [
+   "الطفل يبدأ المشي المستقل تقريبًا عند {{12 months}} بخطوات غير ثابتة وأيدي مرفوعة للتوازن",
+   "بعدها تتحسن المشية وتنزل اليدين مع الوقت"
+  ],
+  "wrong": {
+   "0": "عند {{8 months}} الطفل يجلس ويزحف ولسه ما يمشي بدون دعم",
+   "2": "عند {{14 months}} الطفل غالبًا ماشي من فترة والمشية أثبت",
+   "3": "عند {{15 months}} يمشي بثبات أكثر وتنزل يديه"
+  },
+  "change": [
+   "لو ما مشى الطفل بعد حوالي {{18 months}} فهذا تأخر ويحتاج تقييم",
+   "لو يمشي بثبات ويركض فنسأل عن عمر أكبر"
+  ],
+  "rule": "تذكري: {{12 months}}: خطوات أولى بأيدي مرفوعة"
+ },
+ "SWR-0682": {
+  "idea": [
+   "لمس جانب الفم أو الخد يخلّي الرضيع يلف راسه ناحية اللمس ويفتح فمه، وهذا الـ{{rooting reflex}}",
+   "هذا منعكس بدائي يساعد على الرضاعة"
+  ],
+  "clues": [
+   [
+    "{{rubbing the side of the mouth}}",
+    "المحفز الخاص بالـ{{rooting}}"
+   ],
+   [
+    "{{2-week-old infant}}",
+    "المنعكس موجود في الأسابيع الأولى"
+   ],
+   [
+    "السؤال عن اسم المنعكس",
+    "{{Rooting reflex}}"
+   ]
+  ],
+  "why": [
+   "الـ{{rooting reflex}} هو التفات الراس وفتح الفم ناحية الجهة المنبّهة عند لمس الخد أو زاوية الفم",
+   "يساعد الرضيع يلاقي الثدي أو الرضاعة ويختفي تدريجيًا بعد أول أشهر"
+  ],
+  "wrong": {
+   "0": "الـ{{Moro reflex}} استجابة لفقدان الدعم المفاجئ للراس أو صوت مفاجئ بفتح الذراعين ثم ضمهما",
+   "2": "الـ{{stepping reflex}} عند حمل الرضيع واقف وقدميه تلمس السطح فيعمل حركة مشي",
+   "3": "الخيار هذا ما انتقل كامل من المصدر"
+  },
+  "change": [
+   "لو الذراعين تنفتح ثم تنضم مع فقدان الدعم فهذا {{Moro reflex}}",
+   "لو الرضيع واقف على سطح ويتحرك كمشي فهذا {{stepping reflex}}"
+  ],
+  "rule": "تذكري: {{Rooting}}: لمس الخد يعني التفات وفتح الفم",
+  "note": "الصورة المذكورة في الـ{{stem}} ما تظهر هنا، والجواب يعتمد على وصف المحفز، والخيار الرابع ما انتقل من المصدر."
+ }
+}

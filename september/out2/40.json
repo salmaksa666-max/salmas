@@ -1,0 +1,405 @@
+{
+ "SWR-0969": {
+  "bg": [
+   "الـ{{Lewy body dementia}} سببها تراكم بروتين {{alpha-synuclein}} داخل الخلايا العصبية، وهو نفس البروتين اللي في {{Parkinson disease}}",
+   "الميزات الأساسية: {{fluctuating cognition}} و{{recurrent well-formed visual hallucinations}} و{{parkinsonism}} و{{REM sleep behavior disorder}}",
+   "يصير فيها {{autonomic dysfunction}} واضح مثل {{orthostatic hypotension}} و{{constipation}} و{{dysphagia}} و{{abnormal sweating}} وتغير في سكر الدم",
+   "الذاكرة ممكن تكون محفوظة في البداية، والمشكلة الأكبر تكون في الانتباه والـ{{visuospatial function}}، عكس {{Alzheimer}} اللي تبدأ بالذاكرة",
+   "قاعدة الـ{{1-year rule}}: لو الخرف جا قبل أو مع الأعراض الحركية بسنة يكون {{DLB}}، ولو الحركة سبقت بأكثر من سنة يكون {{Parkinson disease dementia}}"
+  ],
+  "steps": [
+   "نقرا الـ{{stem}} ونطلع الأعراض الأساسية: هلوسة بصرية وأعراض {{autonomic}}",
+   "نسأل: هل الذاكرة متأثرة؟ لو {{intact}} نبعد {{Alzheimer}} لأنه يبدأ بفقد الذاكرة القريبة",
+   "نبعد {{multi-infarct dementia}} لأنه يعطي تدهور على دفعات مع علامات {{focal}} وعوامل خطورة وعائية واضحة",
+   "نبعد {{prion disease}} لأنه سريع جدا خلال أسابيع أو شهور مع {{myoclonus}}",
+   "الأعراض {{autonomic}} مع هلوسة بصرية بدون فقدان ذاكرة تجمعها {{Lewy body dementia}}"
+  ],
+  "tip": "تذكر الميزات بـ{{DLB}}: {{Fluctuation}} و{{Hallucinations}} و{{Parkinsonism}} و{{REM sleep disorder}}، وأي {{autonomic}} زيادة تدعم التشخيص",
+  "pitfall": "لا تنخدع بالـ{{amlodipine}} أو بالعمر، الدواء هنا مجرد معلومة جانبية وما يفسر الهلوسة ولا التعرق."
+ },
+ "SWR-0973": {
+  "bg": [
+   "الـ{{Lewy body dementia}} سببها تراكم بروتين {{alpha-synuclein}} داخل الخلايا العصبية، وهو نفس البروتين اللي في {{Parkinson disease}}",
+   "الميزات الأساسية: {{fluctuating cognition}} و{{recurrent well-formed visual hallucinations}} و{{parkinsonism}} و{{REM sleep behavior disorder}}",
+   "يصير فيها {{autonomic dysfunction}} واضح مثل {{orthostatic hypotension}} و{{constipation}} و{{dysphagia}} و{{abnormal sweating}} وتغير في سكر الدم",
+   "الذاكرة ممكن تكون محفوظة في البداية، والمشكلة الأكبر تكون في الانتباه والـ{{visuospatial function}}، عكس {{Alzheimer}} اللي تبدأ بالذاكرة",
+   "قاعدة الـ{{1-year rule}}: لو الخرف جا قبل أو مع الأعراض الحركية بسنة يكون {{DLB}}، ولو الحركة سبقت بأكثر من سنة يكون {{Parkinson disease dementia}}"
+  ],
+  "steps": [
+   "نقرا الـ{{stem}} ونطلع الأعراض الأساسية: هلوسة بصرية وأعراض {{autonomic}}",
+   "نسأل: هل الذاكرة متأثرة؟ لو {{intact}} نبعد {{Alzheimer}} لأنه يبدأ بفقد الذاكرة القريبة",
+   "نبعد {{multi-infarct dementia}} لأنه يعطي تدهور على دفعات مع علامات {{focal}} وعوامل خطورة وعائية واضحة",
+   "نبعد {{prion disease}} لأنه سريع جدا خلال أسابيع أو شهور مع {{myoclonus}}",
+   "الأعراض {{autonomic}} مع هلوسة بصرية بدون فقدان ذاكرة تجمعها {{Lewy body dementia}}"
+  ],
+  "tip": "تذكر الميزات بـ{{DLB}}: {{Fluctuation}} و{{Hallucinations}} و{{Parkinsonism}} و{{REM sleep disorder}}، وأي {{autonomic}} زيادة تدعم التشخيص",
+  "pitfall": "لا تنخدع بالـ{{amlodipine}} أو بالعمر، الدواء هنا مجرد معلومة جانبية وما يفسر الهلوسة ولا التعرق."
+ },
+ "SWR-0970": {
+  "bg": [
+   "الـ{{vascular dementia}} تصير بسبب أذى دماغي من جلطات أو نزيف أو أمراض الأوعية الصغيرة",
+   "النمط الكلاسيكي هو {{stepwise deterioration}} يعني تدهور على دفعات بعد كل حدث وعائي، مع تحسن جزئي بين الدفعات",
+   "تكون فيها علامات {{focal neurological}} مثل ضعف أو خدر مفاجئ وعوامل خطورة وعائية مثل {{hypertension}} و{{diabetes}} و{{atrial fibrillation}}",
+   "الوظائف التنفيذية والتفكير تتأثر بدري، والذاكرة قد تتأثر بس مو بنفس نمط {{Alzheimer}}",
+   "في الصورة نشوف {{infarcts}} أو {{white matter changes}} أو {{lacunes}}"
+  ],
+  "steps": [
+   "نحدد النمط الزمني: تدريجي أو على دفعات؟ هنا على دفعات",
+   "نبحث عن علامات {{focal}} أو {{TIA}} بالقصة، حتى لو ما انكتبت بالاسم",
+   "نحط بالاعتبار عوامل الخطورة الوعائية والعمر",
+   "ما نخلي المرض الثاني مثل {{HIV}} يغطي على النمط السريري الواضح",
+   "نستبعد الباقي حسب الميزات المميزة: هلوسة بصرية لـ{{DLB}} وفقد ذاكرة قريبة لـ{{Alzheimer}}"
+  ],
+  "tip": "تذكر: {{Stepwise}} يعني {{vascular}}، و{{Gradual}} يعني {{Alzheimer}}",
+  "pitfall": "الـ{{TIA}} ما انذكرت بالاسم بس {{recurrent attacks of weakness}} هي نفسها، لا تضيع بسبب الصياغة."
+ },
+ "SWR-0971": {
+  "bg": [
+   "الـ{{frontotemporal dementia}} مجموعة تنكس تصيب الفص الجبهي والصدغي، وتبدأ غالبا قبل عمر {{65}} بس ممكن تتأخر",
+   "عندها نوعين رئيسيين: {{behavioral variant}} من الفص الجبهي وفيه تغير شخصية وسلوك، و{{semantic variant}} من الفص الصدغي وفيه مشكلة لغة",
+   "في الـ{{semantic variant}} المريض يفقد معاني الكلمات، فيقول كلمة عامة مثل {{animal}} بدل {{cat}} وهذا اسمه {{anomia}}",
+   "المريض ممكن يبدأ بنوع ثم ينضاف له الثاني، فتغير الشخصية مو شرط بالبداية",
+   "الذاكرة والوظائف البصرية المكانية تبقى سليمة نسبيا بالبداية، عكس {{Alzheimer}}"
+  ],
+  "steps": [
+   "نحدد أول وظيفة معرفية تأثرت: لغة أو ذاكرة أو سلوك",
+   "هنا اللغة بشكل {{anomia}} مع ذاكرة سليمة",
+   "نستبعد {{Alzheimer}} لأنه ذاكرة أولا",
+   "نستبعد {{vascular}} لعدم وجود نوبات أو علامات {{focal}}",
+   "نتذكر أن النوع اللغوي ما يشترط تغير شخصية"
+  ],
+  "tip": "تذكر: {{Frontal}} يعني سلوك، {{Temporal}} يعني لغة ومعاني",
+  "pitfall": "لا تستبعد {{FTD}} لأن الشخصية ما تغيرت، المصدر يوضح أن النوع الصدغي يظهر باللغة أولا."
+ },
+ "SWR-0972": {
+  "bg": [
+   "الـ{{Alzheimer disease}} أشهر سبب للخرف، ويصير بسبب ترسب {{beta-amyloid plaques}} و{{tau neurofibrillary tangles}} خصوصا في الـ{{hippocampus}} والقشرة",
+   "أول عرض هو فقد الذاكرة القريبة، يعني ينسى الأحداث الجديدة بينما الذكريات القديمة تبقى فترة",
+   "مع التقدم تضيع {{orientation}} للزمان والمكان ثم الأشخاص، وتتأثر اللغة وتظهر {{apraxia}} يعني فقد المهارات الحركية المتعلمة",
+   "المريض غالبا ما عنده {{insight}} ويتأثر شخصيته وسلوكه الاجتماعي متأخر",
+   "في الصورة نشوف {{cortical atrophy}} خصوصا في {{hippocampus}} والفصوص الصدغية والجدارية"
+  ],
+  "steps": [
+   "نحدد أول وظيفة تأثرت: هنا الذاكرة القريبة",
+   "نشوف سرعة التقدم: تدريجي، فنبعد {{prion}}",
+   "نبحث عن ميزات الأنواع الثانية: هلوسة {{DLB}} وسلوك {{FTD}} ودفعات {{vascular}}",
+   "ما لقينا شيء منها فيبقى {{Alzheimer}}"
+  ],
+  "tip": "تذكر: {{Alzheimer}} يعني {{Amnesia first}}",
+  "pitfall": "الـ{{loss of skilled motor skills}} هي {{apraxia}} وتظهر في {{Alzheimer}} المتقدم، لا تظنها دليل على مرض حركي ثاني."
+ },
+ "SWR-0974": {
+  "bg": [
+   "الـ{{Alzheimer disease}} مرض تنكسي يصيب القشرة الدماغية، خصوصا {{hippocampus}} و{{temporal}} و{{parietal}}",
+   "في بداية المرض قد تكون صورة {{CT}} قريبة من الطبيعي، ويظهر الضمور مع تقدم الحالة",
+   "الـ{{NPH}} فيه ثلاثية: {{gait disturbance}} و{{urinary incontinence}} و{{dementia}} مع توسع بطينات",
+   "الـ{{vascular dementia}} يظهر فيها {{infarcts}} و{{white matter hyperintensities}} و{{lacunes}}"
+  ],
+  "steps": [
+   "نحدد نوع الخرف من القصة: ذاكرة قريبة بدون أعراض ثانية هي {{Alzheimer}}",
+   "نسأل: وش النتيجة التصويرية المميزة؟ ضمور قشري",
+   "نربط كل خيار بمرضه: {{basal ganglia}} و{{periventricular}} وعائي، وبطينات متوسعة بدون ضمور {{NPH}}"
+  ],
+  "tip": "تذكر: {{Alzheimer}} يعني {{cortical atrophy}}",
+  "pitfall": "توسع البطينات لوحده بدون ضمور ما هو {{Alzheimer}}، هذا {{NPH}}."
+ },
+ "SWR-0975": {
+  "bg": [
+   "الـ{{frontotemporal dementia}} مجموعة تنكس تصيب الفص الجبهي والصدغي، وتبدأ غالبا قبل عمر {{65}} بس ممكن تتأخر",
+   "عندها نوعين رئيسيين: {{behavioral variant}} من الفص الجبهي وفيه تغير شخصية وسلوك، و{{semantic variant}} من الفص الصدغي وفيه مشكلة لغة",
+   "في الـ{{semantic variant}} المريض يفقد معاني الكلمات، فيقول كلمة عامة مثل {{animal}} بدل {{cat}} وهذا اسمه {{anomia}}",
+   "المريض ممكن يبدأ بنوع ثم ينضاف له الثاني، فتغير الشخصية مو شرط بالبداية",
+   "الذاكرة والوظائف البصرية المكانية تبقى سليمة نسبيا بالبداية، عكس {{Alzheimer}}"
+  ],
+  "steps": [
+   "نحدد الأعراض: مشكلة لغة وتسمية",
+   "نربطها بالفص الصدغي ونوع {{semantic variant}}",
+   "نختار النتيجة التصويرية المطابقة: {{temporal atrophy}}",
+   "نستبعد {{hippocampal}} لأنه {{Alzheimer}} والذاكرة سليمة"
+  ],
+  "tip": "تذكر: {{Semantic}} يعني {{Temporal}}",
+  "pitfall": "لا تختار ضمور {{hippocampus}} لأن المريضة كبيرة وفيها خرف، الأعراض هنا لغوية والذاكرة سليمة."
+ },
+ "SWR-0978": {
+  "bg": [
+   "الـ{{rheumatoid arthritis}} التهاب مفاصل مناعي مزمن يصيب المفاصل الصغيرة بشكل متناظر مثل {{wrists}} و{{PIP}} و{{MCP}} مع {{morning stiffness}}",
+   "الأذى المفصلي يصير بدري، فالمبدأ هو العلاج المبكر بـ{{DMARD}} لمنع التشوه",
+   "الدواء الأول عادة {{methotrexate}} وهو الـ{{anchor DMARD}}، وبدائله {{leflunomide}} و{{sulfasalazine}} و{{hydroxychloroquine}} الأضعف",
+   "الـ{{glucocorticoids}} بجرعة قليلة ولفترة قصيرة تستخدم كـ{{bridging}} لأن الـ{{DMARD}} يحتاج أسابيع إلى أشهر ليبدأ",
+   "لو فشلت الـ{{conventional DMARDs}} ننتقل للأدوية {{biologics}} أو {{targeted synthetic}}"
+  ],
+  "steps": [
+   "نتأكد أن التشخيص {{RA}} من المفاصل الصغيرة والمدة والتهاب نشط",
+   "نختار {{methotrexate}} كأساس",
+   "نقرر هل نحتاج {{bridging}} بسبب نشاط المرض",
+   "نقارن الخيارات: الأكمل هو {{MTX}} مع {{HCQ}} مع {{prednisone}}"
+  ],
+  "tip": "تذكر: {{DMARD}} بطيء والـ{{steroid}} سريع، فنجمعهم بالمرض النشط",
+  "pitfall": "لا تعطي {{steroid}} لحاله بدون {{DMARD}}، ولا {{DMARD}} لحاله لو الأعراض نشطة وتحتاج راحة سريعة."
+ },
+ "SWR-0979": {
+  "bg": [
+   "الـ{{systemic lupus erythematosus}} مرض مناعي ذاتي متعدد الأجهزة، والـ{{arthritis}} من أكثر أعراضه شيوعا وغالبا بدون تشوه عظمي",
+   "أساس العلاج في كل المرضى هو الـ{{hydroxychloroquine}}",
+   "لو الأعراض المفصلية نشطة نستخدم {{steroids}} قصيرة المدة لتخفيف سريع، ونضيف {{methotrexate}} كـ{{steroid-sparing agent}} للمفاصل والجلد",
+   "الـ{{cyclophosphamide}} و{{mycophenolate mofetil}} نحتفظ بهم للمرض الخطير مثل {{lupus nephritis}} أو {{neuropsychiatric lupus}}",
+   "الـ{{sulfasalazine}} مو مفضل في {{SLE}} لأن أدوية السلفا ممكن تحرض نوبة"
+  ],
+  "steps": [
+   "نحدد: هل فيه إصابة عضو خطيرة؟ هنا لا",
+   "إذن نختار علاج مفصلي: {{steroid}} مع {{methotrexate}}",
+   "نبعد {{cyclophosphamide}} و{{mycophenolate}} لأنهم للأعضاء",
+   "نبعد {{sulfasalazine}} لأنه مو مفضل في {{SLE}}"
+  ],
+  "tip": "تذكر: {{Joint}} يعني {{MTX}}، و{{Kidney}} يعني {{MMF}} أو {{cyclophosphamide}}",
+  "pitfall": "لا تعطي {{cyclophosphamide}} لمجرد أن المريضة عندها {{SLE}}، هو فقط للمرض الخطير."
+ },
+ "SWR-0982": {
+  "bg": [
+   "الـ{{upper GI bleeding}} يسبب {{melena}} وهو براز أسود لزج، والـ{{maroon stool}} يدل على نزيف أكبر وأسرع",
+   "أشهر أسبابه {{peptic ulcer}} وخصوصا مع {{NSAIDs}} و{{varices}} و{{gastritis}}",
+   "علامات الصدمة: {{tachycardia}} و{{hypotension}} وأطراف باردة وضعف نبض، وهي {{hypovolemic shock}}",
+   "العلاج الأولي: {{ABC}} وفتح وريدين كبار و{{crystalloid}} ثم {{blood}} عند الحاجة و{{IV PPI}} و{{urgent endoscopy}}",
+   "في النزيف الهضمي غالبا نتبع {{restrictive transfusion}} ما لم يكن المريض غير مستقر"
+  ],
+  "steps": [
+   "نقيم الاستقرار الهيموديناميكي: هنا فيه صدمة",
+   "نبدأ أولا بتعويض الحجم بـ{{crystalloid}}",
+   "نعيد التقييم ونقرر {{transfusion}} حسب الاستجابة",
+   "ننتقل لـ{{PPI}} و{{endoscopy}}"
+  ],
+  "tip": "تذكر: {{Bleeding}} مع {{shock}} يعني {{A B C}} ثم {{crystalloid}}",
+  "pitfall": "لا تقفز مباشرة للـ{{blood transfusion}} بدون ما تبدأ بتعويض الحجم وتقيم الاستجابة."
+ },
+ "SWR-0988": {
+  "bg": [
+   "الـ{{osteoporosis}} نقص كثافة وقوة العظم فيزيد خطر الكسر، والكسر المرضي {{fragility fracture}} بحد ذاته يشير للمرض",
+   "فحص {{DEXA}} هو الطريقة لقياس الكثافة ويطلب لمن عنده عوامل خطورة",
+   "من عوامل الخطورة: {{older age}} و{{female sex}} و{{postmenopause}} و{{smoking}} و{{alcohol excess}} و{{low BMI}} و{{long-term steroids}} و{{family history}}",
+   "السمنة {{obesity}} حماية نسبية للعظم لأن الوزن الزائد يزيد الحمل العظمي وتحويل الدهون للإستروجين",
+   "الكحول يقلل بناء العظم ويؤثر على {{vitamin D}} و{{calcium}} ويزيد السقوط"
+  ],
+  "steps": [
+   "نحدد عوامل الخطورة في القصة",
+   "نفرق بين عامل خطورة وعامل واقي",
+   "نختار العامل الذي يرفع خطر الكسر وهو الكحول",
+   "نستبعد السمنة لأنها واقية"
+  ],
+  "tip": "تذكر: {{Obese}} يعني حماية نسبية، {{Alcohol}} يعني خطر",
+  "pitfall": "لا تحسب السمنة عامل خطورة لهشاشة العظام، العكس صحيح."
+ },
+ "SWR-0989": {
+  "bg": [
+   "الـ{{osteoporosis}} نقص كثافة وقوة العظم فيزيد خطر الكسر، والكسر المرضي {{fragility fracture}} بحد ذاته يشير للمرض",
+   "فحص {{DEXA}} هو الطريقة لقياس الكثافة ويطلب لمن عنده عوامل خطورة",
+   "من عوامل الخطورة: {{older age}} و{{female sex}} و{{postmenopause}} و{{smoking}} و{{alcohol excess}} و{{low BMI}} و{{long-term steroids}} و{{family history}}",
+   "السمنة {{obesity}} حماية نسبية للعظم لأن الوزن الزائد يزيد الحمل العظمي وتحويل الدهون للإستروجين",
+   "الكحول يقلل بناء العظم ويؤثر على {{vitamin D}} و{{calcium}} ويزيد السقوط"
+  ],
+  "steps": [
+   "نقرأ كل عامل ونصنفه خطر أو واقي",
+   "الكحول خطر، السمنة واقية",
+   "الـ{{steroid}} القصير مو كافي",
+   "نختار الكحول"
+  ],
+  "tip": "تذكر: {{Short steroids}} ما تضعف العظم، و{{Long steroids}} تضعفه",
+  "pitfall": "الاستخدام القصير للـ{{steroid}} فخ شائع، المهم هو المدة الطويلة."
+ },
+ "SWR-0998": {
+  "bg": [
+   "الـ{{DVT}} هو تكون خثرة في الأوردة العميقة غالبا بالساق، والخطر انها تنتقل للرئة وتسبب {{PE}}",
+   "الـ{{proximal DVT}} يشمل الأوردة فوق الركبة مثل {{popliteal}} و{{femoral}} و{{iliac}} وخطره أعلى",
+   "العلاج الأساسي هو {{anticoagulation}} مثل {{heparin}} أو {{DOAC}} أو {{warfarin}}",
+   "مدة العلاج تعتمد على السبب: مستفز بسبب مؤقت يعني مدة محدودة، وبدون سبب أو متكرر يعني فترة طويلة",
+   "الـ{{thrombolysis}} محجوز للحالات الخطيرة مثل {{massive PE}}"
+  ],
+  "steps": [
+   "نؤكد التشخيص: {{Doppler}} أكد {{proximal DVT}}",
+   "نشوف هل هو أول مرة أو متكرر: عنده {{PE}} سابق",
+   "نختار مدة {{anticoagulation}} طويلة",
+   "نبعد {{aspirin}} و{{thrombolysis}} لأنهم ما يناسبوا الحالة"
+  ],
+  "tip": "تذكر: {{Second VTE}} يعني {{long-term anticoagulation}}",
+  "pitfall": "لا تعطي {{thrombolysis}} لكل {{DVT}}، هذا للحالات المهددة للحياة أو الطرف فقط."
+ },
+ "SWR-1003": {
+  "bg": [
+   "الـ{{atrial fibrillation}} اضطراب إيقاع فيه نشاط أذيني فوضوي بدون {{P waves}} واضحة، والنبض غير منتظم تماما",
+   "الأذين الأيسر ما ينقبض بفعالية فيركد الدم وتتكون خثرة",
+   "الخثرة تنتقل وتسبب {{cardioembolic stroke}} وهو من أخطر مضاعفات {{AF}}",
+   "الـ{{atrial flutter}} له شكل {{sawtooth}} بمعدل أذيني حوالي {{300}} وإيقاع منتظم غالبا",
+   "الـ{{anticoagulation}} يعطى حسب {{CHA2DS2-VASc}} للوقاية"
+  ],
+  "steps": [
+   "نقرأ الـ{{ECG}} المذكور: {{AF}}",
+   "نربط {{AF}} مع {{stroke}} بآلية الخثرة",
+   "نقارن مع {{flutter}} و{{junctional}}"
+  ],
+  "tip": "تذكر: {{AF}} يعني {{irregularly irregular}} والخطر {{stroke}}",
+  "pitfall": "الرقم {{300}} في السؤال قد يحيّر لأنه يشبه الـ{{flutter}}، بس الجواب المعتمد هو {{AF}}."
+ },
+ "SWR-1011": {
+  "bg": [
+   "الـ{{HbA1c}} يعكس متوسط السكر خلال حوالي {{3 months}}",
+   "هدف السكري النوع الثاني غالبا أقل من {{7%}} وقد يختلف حسب المريض",
+   "لو تحقق الهدف نستمر بنفس العلاج مع متابعة ونمط حياة",
+   "لو ما تحقق نزيد الجرعة أو نضيف دواء ثاني ثم {{insulin}} لاحقا"
+  ],
+  "steps": [
+   "نقرأ نتيجة الـ{{HbA1c}} ونقارنها بالهدف",
+   "هنا {{5.8}} فهي تحقق الهدف",
+   "ما نغير العلاج، نطمئن المريض",
+   "نستبعد الزيادة والإنسولين"
+  ],
+  "tip": "تذكر: {{A1c}} تحت الهدف يعني {{reassure}}",
+  "pitfall": "لا تضيف أو تزيد الدواء لمجرد وجود تشخيص {{DM}}، انظر للنتيجة مقارنة بالهدف."
+ },
+ "SWR-1025": {
+  "bg": [
+   "الـ{{SLE}} مرض مناعي ذاتي يصيب جلد ومفاصل وكلى ودم وغيرها، ويشخص بالأعراض والفحوصات المناعية",
+   "الـ{{ANA}} موجب في تقريبا كل مرضى الـ{{SLE}}، فهو الفحص الأساسي الأول وشرط الدخول في معايير التصنيف الحديثة",
+   "الأجسام المضادة الأكثر نوعية: {{anti-dsDNA}} و{{anti-Smith}}، وهي ترتبط بنشاط المرض والكلى",
+   "الـ{{anti-Ro}} مرتبط بـ{{Sjogren}} و{{neonatal lupus}} و{{subacute cutaneous lupus}}",
+   "الـ{{anti-RNP}} مرتبط بـ{{MCTD}}، والـ{{complement}} المنخفض مع {{cytopenias}} يدعم نشاط {{SLE}}"
+  ],
+  "steps": [
+   "نربط الأعراض بالـ{{SLE}}",
+   "نسأل: ما الفحص الأول والأساسي؟ {{ANA}}",
+   "نعرف أن بقية الأضداد تحدد النوع أو النشاط",
+   "نختار {{ANA}}"
+  ],
+  "tip": "تذكر: {{ANA}} حساس للتشخيص، {{dsDNA}} و{{Sm}} نوعيين",
+  "pitfall": "لا تتسرع باختيار {{anti-dsDNA}} فقط لأنه نوعي، سؤال الفحص الأول يحتاج الفحص الأساسي الحساس."
+ },
+ "SWR-1027": {
+  "bg": [
+   "الـ{{MCTD}} مرض نسيج ضام فيه ميزات {{SLE}} و{{scleroderma}} و{{polymyositis}} معا",
+   "الضد المميز هو {{anti-U1 RNP}} بتركيز عالي مع {{ANA}} موجب",
+   "الأعراض الشائعة: {{Raynaud}} و{{swollen hands}} و{{arthritis}} و{{myositis}}",
+   "الإصابة الكلوية الشديدة أقل شيوعا مقارنة بـ{{SLE}} الكلاسيكي"
+  ],
+  "steps": [
+   "نعدد الأعضاء المصابة ونربطها بأمراض مختلفة",
+   "لما نجد تداخل نفكر في {{MCTD}}",
+   "نختار الضد المميز {{anti-RNP}}"
+  ],
+  "tip": "تذكر: {{MCTD}} يعني {{RNP}}",
+  "pitfall": "لا تختار {{anti-dsDNA}} لمجرد وجود {{malar rash}}، عند التداخل الجواب هو {{anti-RNP}}."
+ },
+ "SWR-1031": {
+  "bg": [
+   "الـ{{TR}} يعني تسرب الدم من البطين الأيمن للأذين الأيمن أثناء الانقباض",
+   "أشهر أسبابه تمدد البطين الأيمن بسبب {{pulmonary hypertension}} وهو {{functional TR}}",
+   "العلامات: {{giant v wave}} و{{pulsatile liver}} و{{pansystolic murmur}} على {{LLSB}} يزيد بالشهيق",
+   "الأعراض: {{edema}} و{{ascites}} وإرهاق"
+  ],
+  "steps": [
+   "نربط العلامات الحيوية: ارتفاع {{JVP}} مع {{v wave}}",
+   "نبحث عن السبب: {{pulmonary hypertension}} من {{ILD}}",
+   "نختار {{TR}}"
+  ],
+  "tip": "تذكر: {{V wave}} و{{pulsatile liver}} يعني {{TR}}",
+  "pitfall": "لا تختار {{pulmonary regurgitation}} لمجرد {{loud P2}}، العلامات الوريدية تدل على {{TR}}."
+ },
+ "SWR-1032": {
+  "bg": [
+   "الـ{{aortic stenosis}} ضيق في الصمام الأبهري فيصعب خروج الدم من البطين الأيسر فيتضخم الجدار",
+   "الأسباب الشائعة: {{calcific degeneration}} في كبار السن و{{bicuspid valve}} في الأصغر و{{rheumatic}}",
+   "النفخة {{crescendo-decrescendo ejection systolic}} تسمع في {{right upper sternal border}} وتنتقل للـ{{carotids}}",
+   "علامات الشدة: {{slow-rising pulse}} و{{narrow pulse pressure}} و{{soft or absent S2}} و{{S4}}",
+   "الأعراض الكلاسيكية: {{angina}} و{{syncope}} و{{heart failure}} مع الجهد"
+  ],
+  "steps": [
+   "نحدد مكان النفخة وتوقيتها: {{systolic}} في {{right upper sternal border}}",
+   "نبحث عن الانتشار للـ{{carotids}} والنبض البطيء الصعود",
+   "نقارن مع {{MR}} الذي ينتشر للإبط و{{AR}} {{diastolic}} و{{MS}} {{diastolic rumble}}",
+   "نختار {{AS}}"
+  ],
+  "tip": "تذكر: {{Slow-rising pulse}} مع نفخة تنتقل للـ{{carotids}} يعني {{AS}}",
+  "pitfall": "لا تعتمد على الدواء {{hydrochlorothiazide}}، المهم النفخة والنبض."
+ },
+ "SWR-1033": {
+  "bg": [
+   "الـ{{aortic stenosis}} ضيق في الصمام الأبهري فيصعب خروج الدم من البطين الأيسر فيتضخم الجدار",
+   "الأسباب الشائعة: {{calcific degeneration}} في كبار السن و{{bicuspid valve}} في الأصغر و{{rheumatic}}",
+   "النفخة {{crescendo-decrescendo ejection systolic}} تسمع في {{right upper sternal border}} وتنتقل للـ{{carotids}}",
+   "علامات الشدة: {{slow-rising pulse}} و{{narrow pulse pressure}} و{{soft or absent S2}} و{{S4}}",
+   "الأعراض الكلاسيكية: {{angina}} و{{syncope}} و{{heart failure}} مع الجهد"
+  ],
+  "steps": [
+   "نحدد مكان النفخة وتوقيتها: {{systolic}} في {{right upper sternal border}}",
+   "نبحث عن الانتشار للـ{{carotids}} والنبض البطيء الصعود",
+   "نقارن مع {{MR}} الذي ينتشر للإبط و{{AR}} {{diastolic}} و{{MS}} {{diastolic rumble}}",
+   "نختار {{AS}}"
+  ],
+  "tip": "تذكر: {{Slow-rising pulse}} مع نفخة تنتقل للـ{{carotids}} يعني {{AS}}",
+  "pitfall": "لا تعتمد على الحمل لتفسير كل نفخة، الانتقال للـ{{carotids}} يعني {{AS}}."
+ },
+ "SWR-1034": {
+  "bg": [
+   "الـ{{aortic stenosis}} ضيق في الصمام الأبهري فيصعب خروج الدم من البطين الأيسر فيتضخم الجدار",
+   "الأسباب الشائعة: {{calcific degeneration}} في كبار السن و{{bicuspid valve}} في الأصغر و{{rheumatic}}",
+   "النفخة {{crescendo-decrescendo ejection systolic}} تسمع في {{right upper sternal border}} وتنتقل للـ{{carotids}}",
+   "علامات الشدة: {{slow-rising pulse}} و{{narrow pulse pressure}} و{{soft or absent S2}} و{{S4}}",
+   "الأعراض الكلاسيكية: {{angina}} و{{syncope}} و{{heart failure}} مع الجهد"
+  ],
+  "steps": [
+   "نحدد مكان النفخة وتوقيتها: {{systolic}} في {{right upper sternal border}}",
+   "نبحث عن الانتشار للـ{{carotids}} والنبض البطيء الصعود",
+   "نقارن مع {{MR}} الذي ينتشر للإبط و{{AR}} {{diastolic}} و{{MS}} {{diastolic rumble}}",
+   "نختار {{AS}}"
+  ],
+  "tip": "تذكر: {{Slow-rising pulse}} مع نفخة تنتقل للـ{{carotids}} يعني {{AS}}",
+  "pitfall": "لا تنشغل بالدواء، {{RUSB}} مع {{S4}} يعني {{AS}}."
+ },
+ "SWR-1035": {
+  "bg": [
+   "الـ{{aortic stenosis}} ضيق في الصمام الأبهري فيصعب خروج الدم من البطين الأيسر فيتضخم الجدار",
+   "الأسباب الشائعة: {{calcific degeneration}} في كبار السن و{{bicuspid valve}} في الأصغر و{{rheumatic}}",
+   "النفخة {{crescendo-decrescendo ejection systolic}} تسمع في {{right upper sternal border}} وتنتقل للـ{{carotids}}",
+   "علامات الشدة: {{slow-rising pulse}} و{{narrow pulse pressure}} و{{soft or absent S2}} و{{S4}}",
+   "الأعراض الكلاسيكية: {{angina}} و{{syncope}} و{{heart failure}} مع الجهد"
+  ],
+  "steps": [
+   "نحدد مكان النفخة وتوقيتها: {{systolic}} في {{right upper sternal border}}",
+   "نبحث عن الانتشار للـ{{carotids}} والنبض البطيء الصعود",
+   "نقارن مع {{MR}} الذي ينتشر للإبط و{{AR}} {{diastolic}} و{{MS}} {{diastolic rumble}}",
+   "نختار {{AS}}"
+  ],
+  "tip": "تذكر: {{Slow-rising pulse}} مع نفخة تنتقل للـ{{carotids}} يعني {{AS}}",
+  "pitfall": "لا تنسى أن الإغماء الجهدي مع نفخة قذفية معناها {{AS}} حتى تثبت العكس."
+ },
+ "SWR-1036": {
+  "bg": [
+   "الـ{{aortic stenosis}} ضيق في الصمام الأبهري فيصعب خروج الدم من البطين الأيسر فيتضخم الجدار",
+   "الأسباب الشائعة: {{calcific degeneration}} في كبار السن و{{bicuspid valve}} في الأصغر و{{rheumatic}}",
+   "النفخة {{crescendo-decrescendo ejection systolic}} تسمع في {{right upper sternal border}} وتنتقل للـ{{carotids}}",
+   "علامات الشدة: {{slow-rising pulse}} و{{narrow pulse pressure}} و{{soft or absent S2}} و{{S4}}",
+   "الأعراض الكلاسيكية: {{angina}} و{{syncope}} و{{heart failure}} مع الجهد"
+  ],
+  "steps": [
+   "نحدد مكان النفخة وتوقيتها: {{systolic}} في {{right upper sternal border}}",
+   "نبحث عن الانتشار للـ{{carotids}} والنبض البطيء الصعود",
+   "نقارن مع {{MR}} الذي ينتشر للإبط و{{AR}} {{diastolic}} و{{MS}} {{diastolic rumble}}",
+   "نختار {{AS}}"
+  ],
+  "tip": "تذكر: {{Slow-rising pulse}} مع نفخة تنتقل للـ{{carotids}} يعني {{AS}}",
+  "pitfall": "ما فيه إغماء ولا ألم صدر هنا، لكن غيابهم ما ينفي {{AS}}."
+ },
+ "SWR-1044": {
+  "bg": [
+   "الـ{{meningitis}} التهاب السحايا، وأشهر أعراضه {{fever}} و{{headache}} و{{neck stiffness}} و{{photophobia}}",
+   "علامة {{Brudzinski}}: ثني الرقبة سلبيا يسبب ثني الورك والركبة",
+   "علامة {{Kernig}}: بعد ثني الورك والركبة {{90}} درجة ما نقدر نمدد الركبة بسبب ألم أو مقاومة",
+   "هاتين العلامتين تدلان على تهيج سحائي لكن حساسيتهما محدودة"
+  ],
+  "steps": [
+   "نقرأ الحركة التي أجراها الطبيب: ثني الرقبة",
+   "نحدد الاستجابة: ثني الورك والركبة",
+   "نطابق مع العلامة: {{Brudzinski}}",
+   "نستبعد باقي العلامات"
+  ],
+  "tip": "تذكر: {{Neck flexion}} يعني {{Brudzinski}}",
+  "pitfall": "لا تخلط بين {{Kernig}} و{{Brudzinski}}، الأول بتمديد الركبة والثاني بثني الرقبة."
+ }
+}

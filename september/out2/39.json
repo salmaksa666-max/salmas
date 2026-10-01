@@ -1,0 +1,404 @@
+{
+ "SWR-0859": {
+  "bg": [
+   "الـ{{asthma exacerbation}} تتصنف بالـ{{BTS}} إلى {{moderate}} و{{acute severe}} و{{life-threatening}} حسب علامات محددة، والتصنيف يحدد هل نعالج بالطوارئ أو نحتاج {{ICU}}",
+   "الـ{{moderate}}: الـ{{PEF}} أكثر من {{50%}} وأقل من أو يساوي {{75%}} من الأفضل أو المتوقع بدون علامات الخطورة",
+   "الـ{{acute severe}}: أي وحدة من هذي: {{PEF 30-50%}}، {{RR >= 25}}، {{HR >= 120}}، أو عدم القدرة على إكمال جملة بنفس واحد",
+   "الـ{{life-threatening}}: {{PEF <30%}} أو {{SpO2 <92%}} أو {{silent chest}} أو {{cyanosis}} أو {{bradycardia}} أو {{arrhythmia}} أو {{hypotension}} أو {{exhaustion}} أو {{confusion}} أو {{normal/high PaCO2}}",
+   "الـ{{PEF}} لازم نحسبه كنسبة من أفضل قراءة للمريض نفسه، أي {{best}} أو من المتوقع، أي {{predicted}} ومو من الرقم الخام لحاله"
+  ],
+  "steps": [
+   "اقري الرقم الأهم: {{PEFR}} كنسبة من المتوقع وقارنها بالحدود {{75}} و{{50}} و{{30}}",
+   "حدد الفئة بأعلى علامة موجودة، فلو في علامة {{life-threatening}} نصنف على أساسها حتى لو العلامات الثانية {{severe}}",
+   "استبعد {{mild}} و{{well-controlled}} لأنهم ما يسببون ضيق نفس شديد",
+   "استبعد {{moderate}} لأن الـ{{PEF}} أقل من {{50%}}"
+  ],
+  "tip": "تذكر أن {{75}} للـ{{moderate}}، {{50-30}} للـ{{severe}}، وأقل من {{30}} للـ{{life-threatening}}",
+  "pitfall": "الأرقام الخام مضللة: لازم نقسم على الـ{{best PEF}} عشان نعرف النسبة، وحدود {{RR}} و{{HR}} هي {{25}} و{{120}} ومو {{20}} و{{100}}"
+ },
+ "SWR-0860": {
+  "bg": [
+   "الـ{{asthma exacerbation}} تتصنف بالـ{{BTS}} إلى {{moderate}} و{{acute severe}} و{{life-threatening}} حسب علامات محددة، والتصنيف يحدد هل نعالج بالطوارئ أو نحتاج {{ICU}}",
+   "الـ{{moderate}}: الـ{{PEF}} أكثر من {{50%}} وأقل من أو يساوي {{75%}} من الأفضل أو المتوقع بدون علامات الخطورة",
+   "الـ{{acute severe}}: أي وحدة من هذي: {{PEF 30-50%}}، {{RR >= 25}}، {{HR >= 120}}، أو عدم القدرة على إكمال جملة بنفس واحد",
+   "الـ{{life-threatening}}: {{PEF <30%}} أو {{SpO2 <92%}} أو {{silent chest}} أو {{cyanosis}} أو {{bradycardia}} أو {{arrhythmia}} أو {{hypotension}} أو {{exhaustion}} أو {{confusion}} أو {{normal/high PaCO2}}",
+   "الـ{{PEF}} لازم نحسبه كنسبة من أفضل قراءة للمريض نفسه، أي {{best}} أو من المتوقع، أي {{predicted}} ومو من الرقم الخام لحاله"
+  ],
+  "steps": [
+   "اقري السؤال: يطلب {{life-threatening}} ومو {{severe}}، فلازم ننتبه للمستوى",
+   "قارن كل خيار مع الحدود: {{RR 28}} فوق {{25}} يعني {{severe}}، {{SpO2 94%}} فوق {{92%}} يعني ما وصل",
+   "الـ{{PEF 30%}} يطابق معيار {{life-threatening}} فهو الجواب",
+   "الفشل بعد {{salbutamol}} مو معيار محدد بالجدول"
+  ],
+  "tip": "كل قيمة تعبر الحد تدخل الفئة الأعلى: {{RR}} {{25}}، {{HR}} {{120}}، {{SpO2}} {{92}}، {{PEF}} {{30}}",
+  "pitfall": "الـ{{RR 28}} يخدع لأنه رقم عالي، لكنه يخص {{acute severe}} فقط"
+ },
+ "SWR-0861": {
+  "bg": [
+   "الـ{{asthma exacerbation}} تتصنف بالـ{{BTS}} إلى {{moderate}} و{{acute severe}} و{{life-threatening}} حسب علامات محددة، والتصنيف يحدد هل نعالج بالطوارئ أو نحتاج {{ICU}}",
+   "الـ{{moderate}}: الـ{{PEF}} أكثر من {{50%}} وأقل من أو يساوي {{75%}} من الأفضل أو المتوقع بدون علامات الخطورة",
+   "الـ{{acute severe}}: أي وحدة من هذي: {{PEF 30-50%}}، {{RR >= 25}}، {{HR >= 120}}، أو عدم القدرة على إكمال جملة بنفس واحد",
+   "الـ{{life-threatening}}: {{PEF <30%}} أو {{SpO2 <92%}} أو {{silent chest}} أو {{cyanosis}} أو {{bradycardia}} أو {{arrhythmia}} أو {{hypotension}} أو {{exhaustion}} أو {{confusion}} أو {{normal/high PaCO2}}",
+   "الـ{{PEF}} لازم نحسبه كنسبة من أفضل قراءة للمريض نفسه، أي {{best}} أو من المتوقع، أي {{predicted}} ومو من الرقم الخام لحاله"
+  ],
+  "steps": [
+   "احسب النسبة المئوية للـ{{PEF}} من الأفضل: {{200/300}} حوالي {{67%}}",
+   "قارن {{HR}} و{{RR}} مع {{120}} و{{25}}",
+   "الخيار الوحيد المطابق مباشرة للمعيار هو عدم إكمال الجملة",
+   "استبعد الأرقام اللي تحت الحدود"
+  ],
+  "tip": "جملة غير مكتملة تعني {{acute severe}} فورًا بدون حساب",
+  "pitfall": "الأرقام الخام مضللة: لازم نقسم على الـ{{best PEF}} عشان نعرف النسبة، وحدود {{RR}} و{{HR}} هي {{25}} و{{120}} ومو {{20}} و{{100}}"
+ },
+ "SWR-0862": {
+  "bg": [
+   "الـ{{asthma exacerbation}} تتصنف بالـ{{BTS}} إلى {{moderate}} و{{acute severe}} و{{life-threatening}} حسب علامات محددة، والتصنيف يحدد هل نعالج بالطوارئ أو نحتاج {{ICU}}",
+   "الـ{{moderate}}: الـ{{PEF}} أكثر من {{50%}} وأقل من أو يساوي {{75%}} من الأفضل أو المتوقع بدون علامات الخطورة",
+   "الـ{{acute severe}}: أي وحدة من هذي: {{PEF 30-50%}}، {{RR >= 25}}، {{HR >= 120}}، أو عدم القدرة على إكمال جملة بنفس واحد",
+   "الـ{{life-threatening}}: {{PEF <30%}} أو {{SpO2 <92%}} أو {{silent chest}} أو {{cyanosis}} أو {{bradycardia}} أو {{arrhythmia}} أو {{hypotension}} أو {{exhaustion}} أو {{confusion}} أو {{normal/high PaCO2}}",
+   "الـ{{PEF}} لازم نحسبه كنسبة من أفضل قراءة للمريض نفسه، أي {{best}} أو من المتوقع، أي {{predicted}} ومو من الرقم الخام لحاله"
+  ],
+  "steps": [
+   "اقسم {{250}} على {{600}} وطلعت حوالي {{42%}}",
+   "قارنها بالجدول: داخل {{30-50%}} يعني {{acute severe}}",
+   "راجع الخيارات الثانية وقارنها بالحدود فتطلع كلها تحت الحد",
+   "اختر الخيار اللي يحقق معيار واحد على الأقل"
+  ],
+  "tip": "أي معيار واحد من معايير الـ{{severe}} يكفي للتصنيف",
+  "pitfall": "الأرقام الخام مضللة: لازم نقسم على الـ{{best PEF}} عشان نعرف النسبة، وحدود {{RR}} و{{HR}} هي {{25}} و{{120}} ومو {{20}} و{{100}}"
+ },
+ "SWR-0863": {
+  "bg": [
+   "الـ{{asthma exacerbation}} تتصنف بالـ{{BTS}} إلى {{moderate}} و{{acute severe}} و{{life-threatening}} حسب علامات محددة، والتصنيف يحدد هل نعالج بالطوارئ أو نحتاج {{ICU}}",
+   "الـ{{moderate}}: الـ{{PEF}} أكثر من {{50%}} وأقل من أو يساوي {{75%}} من الأفضل أو المتوقع بدون علامات الخطورة",
+   "الـ{{acute severe}}: أي وحدة من هذي: {{PEF 30-50%}}، {{RR >= 25}}، {{HR >= 120}}، أو عدم القدرة على إكمال جملة بنفس واحد",
+   "الـ{{life-threatening}}: {{PEF <30%}} أو {{SpO2 <92%}} أو {{silent chest}} أو {{cyanosis}} أو {{bradycardia}} أو {{arrhythmia}} أو {{hypotension}} أو {{exhaustion}} أو {{confusion}} أو {{normal/high PaCO2}}",
+   "الـ{{PEF}} لازم نحسبه كنسبة من أفضل قراءة للمريض نفسه، أي {{best}} أو من المتوقع، أي {{predicted}} ومو من الرقم الخام لحاله"
+  ],
+  "steps": [
+   "احسب النسبة: {{300/400}} هو {{75%}} فقط",
+   "قارن {{pulse}} مع {{120}} و{{SpO2}} مع {{92}}",
+   "تذكر أن {{RR}} أكبر من {{25}} يطابق معيار {{severe}}",
+   "اختر الخيار المطابق للمعيار المحدد"
+  ],
+  "tip": "أربع أرقام للحفظ: {{25}} و{{120}} و{{50}} و{{92}}",
+  "pitfall": "الأرقام الخام مضللة: لازم نقسم على الـ{{best PEF}} عشان نعرف النسبة، وحدود {{RR}} و{{HR}} هي {{25}} و{{120}} ومو {{20}} و{{100}}"
+ },
+ "SWR-0864": {
+  "bg": [
+   "الـ{{spirometry}} يفرق بين {{obstructive}} (نسبة {{FEV1/FVC}} أقل من {{0.7}}) و{{restrictive}} (النسبة طبيعية أو عالية مع {{FVC}} منخفض)",
+   "الـ{{COPD}} مفهومه {{obstruction}} غير قابل للانعكاس الكامل، ويشمل {{chronic bronchitis}} و{{emphysema}}",
+   "الـ{{emphysema}} فيه تدمير جدران الأسناخ، فتنقص مساحة تبادل الغاز ويطلع {{DLCO}} منخفض",
+   "الـ{{chronic bronchitis}} تشخيص سريري ({{productive cough}} لمدة {{3}} شهور في سنتين متتاليتين)، والـ{{DLCO}} فيه عادة طبيعي",
+   "الـ{{asthma}} فيه {{obstruction}} قابل للانعكاس بعد {{bronchodilator}} و{{DLCO}} طبيعي أو مرتفع، والـ{{ILD}} فيه {{restrictive}} مع {{DLCO}} منخفض"
+  ],
+  "steps": [
+   "أول شي شوف النسبة {{FEV1/FVC <0.7}} وهذا يعني {{obstructive}} فنستبعد {{fibrosis}} و{{ILD}}",
+   "بعدين شوف الاستجابة للـ{{bronchodilator}}: ضعيفة تبعد {{asthma}}",
+   "أخيرًا شوف الـ{{DLCO}}: منخفض يرجح {{emphysema}} على {{chronic bronchitis}}",
+   "اختر {{emphysema}}"
+  ],
+  "tip": "تذكر أن {{obstructive}} مع {{DLCO}} منخفض يعني {{emphysema}}، و{{DLCO}} طبيعي يعني {{bronchitis}} أو {{asthma}}",
+  "pitfall": "الـ{{DLCO}} المنخفض موجود بالـ{{ILD}} كذلك، لكن الـ{{ILD}} نمطه {{restrictive}} ونسبة {{FEV1/FVC}} فيه ما تنخفض"
+ },
+ "SWR-0865": {
+  "bg": [
+   "الـ{{spirometry}} يفرق بين {{obstructive}} (نسبة {{FEV1/FVC}} أقل من {{0.7}}) و{{restrictive}} (النسبة طبيعية أو عالية مع {{FVC}} منخفض)",
+   "الـ{{COPD}} مفهومه {{obstruction}} غير قابل للانعكاس الكامل، ويشمل {{chronic bronchitis}} و{{emphysema}}",
+   "الـ{{emphysema}} فيه تدمير جدران الأسناخ، فتنقص مساحة تبادل الغاز ويطلع {{DLCO}} منخفض",
+   "الـ{{chronic bronchitis}} تشخيص سريري ({{productive cough}} لمدة {{3}} شهور في سنتين متتاليتين)، والـ{{DLCO}} فيه عادة طبيعي",
+   "الـ{{asthma}} فيه {{obstruction}} قابل للانعكاس بعد {{bronchodilator}} و{{DLCO}} طبيعي أو مرتفع، والـ{{ILD}} فيه {{restrictive}} مع {{DLCO}} منخفض"
+  ],
+  "steps": [
+   "أول شي شوف النسبة {{FEV1/FVC <0.7}} وهذا يعني {{obstructive}} فنستبعد {{fibrosis}} و{{ILD}}",
+   "بعدين شوف الاستجابة للـ{{bronchodilator}}: ضعيفة تبعد {{asthma}}",
+   "أخيرًا شوف الـ{{DLCO}}: منخفض يرجح {{emphysema}} على {{chronic bronchitis}}",
+   "اختر {{emphysema}}"
+  ],
+  "tip": "تذكر أن {{obstructive}} مع {{DLCO}} منخفض يعني {{emphysema}}، و{{DLCO}} طبيعي يعني {{bronchitis}} أو {{asthma}}",
+  "pitfall": "الـ{{DLCO}} المنخفض موجود بالـ{{ILD}} كذلك، لكن الـ{{ILD}} نمطه {{restrictive}} ونسبة {{FEV1/FVC}} فيه ما تنخفض"
+ },
+ "SWR-0866": {
+  "bg": [
+   "الـ{{meningitis}} هو التهاب الأغشية حول الدماغ، والـ{{CSF}} بالـ{{lumbar puncture}} هو أهم فحص للتفريق بين أنواعه",
+   "الـ{{bacterial meningitis}} يعطي {{neutrophils}} كثيرة و{{glucose}} منخفض و{{protein}} عالي ويبدأ بسرعة",
+   "الـ{{viral meningitis}} يعطي {{lymphocytes}} مع {{glucose}} طبيعي و{{protein}} مرتفع قليل",
+   "الـ{{TB meningitis}} يبدأ تحت حاد، أي {{subacute}} بصداع وحمى خفيفة، والـ{{CSF}} فيه {{lymphocytes}} مع {{glucose}} منخفض جدًا و{{protein}} عالي جدًا",
+   "الـ{{TB meningitis}} يصيب القاعدة، أي {{basal meninges}} وممكن يسبب {{hydrocephalus}} و{{cranial nerve palsies}} و{{seizures}}"
+  ],
+  "steps": [
+   "أول شي صنف المسار: {{subacute}} لمدة أسابيع يرجح {{TB}} أو {{fungal}}",
+   "بعدين حلل الـ{{CSF}}: {{lymphocytes}} مع {{glucose}} واطي جدًا يبعد {{viral}} و{{bacterial}}",
+   "شوف الخلفية: {{India}} تدعم {{TB}}",
+   "استبعد {{neurocysticercosis}} لأنه يحتاج {{cysts}} بالتصوير"
+  ],
+  "tip": "تذكر أن {{glucose}} واطي جدًا مع {{lymphocytes}} وبطء الأعراض يعني {{TB meningitis}}",
+  "pitfall": "الـ{{viral meningitis}} فيه {{lymphocytes}} كذلك، فلا تقرر من الخلايا فقط، شوف الـ{{glucose}} والمسار"
+ },
+ "SWR-0867": {
+  "bg": [
+   "الـ{{Addison disease}} هو {{primary adrenal insufficiency}} وأشهر سبب له مناعة ذاتية، أي {{autoimmune adrenalitis}}",
+   "الغدة ما تنتج {{cortisol}} ولا {{aldosterone}}، فيطلع {{hypotension}} و{{hyponatremia}} و{{hyperkalemia}} و{{hypoglycemia}}",
+   "الـ{{ACTH}} يرتفع بالمقابل لأن الغدة ما تستجيب، وارتفاعه يسبب {{hyperpigmentation}} بسبب {{MSH}} المشترك",
+   "الـ{{AM cortisol}} المنخفض يرجح التشخيص، والفحص التأكيدي هو {{Synacthen test}}",
+   "الـ{{Synacthen test}} نعطي {{ACTH}} صناعي، والغدة المريضة ما ترفع {{cortisol}}"
+  ],
+  "steps": [
+   "اقري الأعراض: دوخة وضعية وتصبغ ونقص وزن يعني {{Addison}}",
+   "اسأل السؤال: هل المطلوب {{confirmatory test}}؟ نعم فنختار {{Synacthen}}",
+   "استبعد فحوص {{Cushing}} مثل {{dexamethasone suppression}}",
+   "استبعد {{ultrasound}} لأنه ما يقيس الوظيفة"
+  ],
+  "tip": "تصبغ مع {{postural hypotension}} يعني {{Addison}} والفحص {{Synacthen}}",
+  "pitfall": "الـ{{low-dose dexamethasone test}} للـ{{Cushing}}، لا تخلطه بفحص {{Addison}}"
+ },
+ "SWR-0876": {
+  "bg": [
+   "الـ{{osteoporosis}} هو {{T-score <= -2.5}} أو كسر هش، والعلاج الأول عادة {{oral bisphosphonates}} مثل {{alendronate}}",
+   "الـ{{bisphosphonates}} تخرج بالكلى، فتتجنب لما الـ{{GFR}} أقل من حوالي {{30-35}}، أي {{CKD stage 4}} أو {{5}}",
+   "الـ{{denosumab}} هو {{monoclonal antibody}} ضد {{RANKL}} يعطى {{subcutaneous}} ومو معتمد على الكلى فيناسب {{CKD}} المتقدم",
+   "الـ{{denosumab}} لازم نتابع معه {{calcium}} و{{vitamin D}} لأن خطر {{hypocalcemia}} أعلى مع {{CKD}}",
+   "الـ{{teriparatide}} علاج بنائي، أي {{anabolic}} للحالات الشديدة، و{{raloxifene}} أضعف ويقلل كسور الفقرات فقط ويزيد خطر {{VTE}}"
+  ],
+  "steps": [
+   "اقري الحالة: {{CKD stage 4}} يعني {{GFR}} منخفض جدًا",
+   "استبعد {{alendronate}} لأن {{bisphosphonates}} ما تعطى بهذه الدرجة",
+   "اختر دواء مو معتمد على الكلى وهو {{denosumab}}",
+   "النسخة هذي فيها خيارين فقط، فنختار {{denosumab}} لأنه ما يعتمد على وظيفة الكلى"
+  ],
+  "tip": "تذكر أن {{CKD 4}} يعني لا {{bisphosphonate}}، نروح {{denosumab}}",
+  "pitfall": "الـ{{bisphosphonates}} تتحمل في {{CKD stage 3}} وتتجنب في {{stage 4}}"
+ },
+ "SWR-0877": {
+  "bg": [
+   "الـ{{osteoporosis}} هو {{T-score <= -2.5}} أو كسر هش، والعلاج الأول عادة {{oral bisphosphonates}} مثل {{alendronate}}",
+   "الـ{{bisphosphonates}} تخرج بالكلى، فتتجنب لما الـ{{GFR}} أقل من حوالي {{30-35}}، أي {{CKD stage 4}} أو {{5}}",
+   "الـ{{denosumab}} هو {{monoclonal antibody}} ضد {{RANKL}} يعطى {{subcutaneous}} ومو معتمد على الكلى فيناسب {{CKD}} المتقدم",
+   "الـ{{denosumab}} لازم نتابع معه {{calcium}} و{{vitamin D}} لأن خطر {{hypocalcemia}} أعلى مع {{CKD}}",
+   "الـ{{teriparatide}} علاج بنائي، أي {{anabolic}} للحالات الشديدة، و{{raloxifene}} أضعف ويقلل كسور الفقرات فقط ويزيد خطر {{VTE}}"
+  ],
+  "steps": [
+   "اقري الحالة: {{CKD stage 4}} يعني {{GFR}} منخفض جدًا",
+   "استبعد {{alendronate}} لأن {{bisphosphonates}} ما تعطى بهذه الدرجة",
+   "اختر دواء مو معتمد على الكلى وهو {{denosumab}}",
+   "استبعد {{teriparatide}} و{{raloxifene}} لأنهم ليسوا الخيار المعتاد هنا"
+  ],
+  "tip": "تذكر أن {{CKD 4}} يعني لا {{bisphosphonate}}، نروح {{denosumab}}",
+  "pitfall": "الـ{{bisphosphonates}} تتحمل في {{CKD stage 3}} وتتجنب في {{stage 4}}"
+ },
+ "SWR-0878": {
+  "bg": [
+   "الـ{{statins}} تثبط {{HMG-CoA reductase}} وتخفض {{LDL}}",
+   "أشهر تأثير جانبي لها هو {{myalgia}} و{{myopathy}} وأخطره {{rhabdomyolysis}}",
+   "ترتفع الخطورة مع {{elderly}} و{{renal impairment}} و{{hypothyroidism}} والأدوية المتداخلة مثل {{fibrates}} و{{macrolides}}",
+   "التشخيص بالأعراض مع {{CK}} ونوقف الـ{{statin}} لو الأعراض شديدة أو {{CK}} مرتفع جدًا"
+  ],
+  "steps": [
+   "اقري الأدوية: السؤال يذكر {{atorvastatin}} صراحة",
+   "ارتبط الأعراض بالدواء: {{myopathy}} يعني {{statin}}",
+   "استبعد الأدوية ذات الآثار الجانبية الثانية مثل {{metformin}} و{{ACE inhibitor}}"
+  ],
+  "tip": "ألم عضلات مع {{statin}} يعني {{myopathy}}، وسعال مع {{ACE inhibitor}}",
+  "pitfall": "الـ{{fibrate}} ممكن يسبب {{myopathy}} لكن الخيار الأرجح يبقى {{statin}} هنا لأنه مذكور بالسؤال"
+ },
+ "SWR-0884": {
+  "bg": [
+   "الـ{{TB}} تشخيصه النهائي يحتاج إثبات {{Mycobacterium tuberculosis}} بالـ{{smear}} أو الـ{{culture}} أو {{NAAT}}",
+   "الـ{{IGRA}} و{{tuberculin skin test}} يبينون تعرضًا للـ{{TB}} ولا يفرقون {{latent}} عن {{active}}",
+   "الـ{{CXR}} يعطي نمط مثل {{apical infiltrates}} أو {{cavitation}} لكنه غير نوعي",
+   "الـ{{pregnancy}} ما تمنع فحوصات التشخيص، والـ{{CXR}} ممكن مع {{shielding}} لو احتجناه",
+   "الـ{{sputum cytology}} يستخدم للبحث عن خلايا سرطانية ومو لـ{{TB}}"
+  ],
+  "steps": [
+   "اقري السؤال: يطلب أفضل خطوة للتشخيص النهائي",
+   "استبعد الفحوص اللي ترجح فقط مثل {{CXR}} و{{IGRA}}",
+   "اختر الفحص اللي يلقى العصيات وهو {{sputum smear}}",
+   "استبعد {{cytology}} لأنه لسرطان"
+  ],
+  "tip": "تذكر أن {{TB}} نهائي يعني نلقى العصية: {{smear}} و{{culture}}",
+  "pitfall": "الـ{{interferon gamma assay}} الإيجابي لا يعني {{active TB}} بالضرورة"
+ },
+ "SWR-0887": {
+  "bg": [
+   "الـ{{renal artery stenosis}} يقلل الدم للكلية فينشط {{RAAS}} ويرتفع الضغط، أي {{renovascular hypertension}}",
+   "أسبابه {{atherosclerosis}} عند الكبار و{{fibromuscular dysplasia}} عند الشابات",
+   "الدلائل: {{hypertension}} صعب السيطرة، {{abdominal bruit}}، وتدهور الكلى بعد {{ACE inhibitor}}",
+   "التصوير الشائع: {{Doppler ultrasound}} و{{CT angiography}} و{{MR angiography}}، والتصوير المباشر بالقسطرة هو المرجع",
+   "العلاج: {{ACE inhibitor/ARB}} للـ{{unilateral}} مع حذر، و{{angioplasty}} للحالات المختارة"
+  ],
+  "steps": [
+   "اقري الحالة: {{HTN}} مع {{bruit}} يعني {{renovascular}}",
+   "اسأل ما المطلوب: تصوير مؤكد للشريان",
+   "اختر التصوير الوعائي الأدق وهو {{CT}} من الخيارات",
+   "استبعد {{IVP}} لأنه للمسالك"
+  ],
+  "tip": "تذكر أن {{HTN}} مع {{renal bruit}} يعني نصور الشريان الكلوي",
+  "pitfall": "الـ{{IV pyelogram}} قديم ومو للأوعية"
+ },
+ "SWR-0889": {
+  "bg": [
+   "الـ{{esophageal varices}} تنتج من {{portal hypertension}} عند مرضى {{cirrhosis}} وتسبب نزيف شديد",
+   "العلاج الأولي: {{resuscitation}} و{{octreotide}} و{{antibiotics}} و{{endoscopic band ligation}}",
+   "الـ{{balloon tamponade}} جسر مؤقت لو النزيف ما انسيطر",
+   "الـ{{TIPS}} هو علاج إنقاذي عند فشل العلاج الأولي، ويقلل الضغط البابي",
+   "الـ{{surgery}} نادر الاستعمال بسبب وفيات أعلى"
+  ],
+  "steps": [
+   "اقري تسلسل العلاج: دوائي ثم منظاري، وفشلهم",
+   "اختر الخطوة الإنقاذية وهي {{TIPS}}",
+   "استبعد {{surgery}} لأنه خيار أقل أمانًا"
+  ],
+  "tip": "فشل العلاج الأولي للدوالي يعني {{TIPS}}",
+  "pitfall": "الـ{{balloon tamponade}} مو علاج نهائي، بس جسر"
+ },
+ "SWR-0892": {
+  "bg": [
+   "الـ{{infective endocarditis}} هو عدوى بطانة القلب وصماماته، وتزيد خطورته مع {{prosthetic valve}}",
+   "الـ{{prophylaxis}} يعطى فقط لمجموعات عالية الخطورة: {{prosthetic valve}}، {{previous endocarditis}}، بعض {{congenital heart disease}}",
+   "الإجراءات السنية اللي تمس اللثة أو المنطقة حول الجذر هي المستهدفة",
+   "البكتيريا المتوقعة {{viridans streptococci}} فنختار {{amoxicillin}} فمويًا قبل الإجراء",
+   "لو {{penicillin allergy}} نستعمل بدائل، ولو ما يقدر يبلع نعطي {{ampicillin}} بالحقن"
+  ],
+  "steps": [
+   "اقري: هل المريضة عالية الخطورة؟ نعم {{prosthetic valve}}",
+   "اختر الدواء الفموي القياسي {{amoxicillin}}",
+   "استبعد الحقن لأنه ما في سبب يمنع الفم",
+   "استبعد {{clindamycin}} لأنه ما عاد توصية"
+  ],
+  "tip": "تذكر أن {{prosthetic valve}} مع {{dental}} يعني {{amoxicillin}}",
+  "pitfall": "الـ{{clindamycin}} كان خيارًا قديمًا لحساسية البنسلين وما عاد موصى به"
+ },
+ "SWR-0897": {
+  "bg": [
+   "الـ{{peptic ulcer}} سببه الأشهر {{H. pylori}} و{{NSAIDs}}",
+   "الـ{{NSAIDs}} تنقص {{prostaglandins}} فتضعف طبقة المخاط وتزيد الحمض",
+   "الـ{{duodenal ulcer}} ألمه غالبًا يخف بعد الأكل لكن بعض الحالات تتفاوت",
+   "العلاج: {{PPI}} لتقليل الحمض، وإيقاف {{NSAID}}، وعلاج {{H. pylori}} لو إيجابي",
+   "الجراحة للمضاعفات: {{perforation}} و{{bleeding}} و{{obstruction}}"
+  ],
+  "steps": [
+   "اقري سبب القرحة: {{NSAID}}",
+   "اختر العلاج الأساسي {{PPI}}",
+   "استبعد {{H. pylori}} لأنه ما انذكر ولا انثبت",
+   "استبعد الجراحة لأنها للمضاعفات"
+  ],
+  "tip": "تذكر أن {{NSAID ulcer}} يعني {{PPI}} وإيقاف الـ{{NSAID}}",
+  "pitfall": "الـ{{H. pylori eradication}} فقط لو ثبت وجوده"
+ },
+ "SWR-0914": {
+  "bg": [
+   "الـ{{HCC}} أشهر ورم أولي بالكبد ويحدث غالبًا على أرضية {{cirrhosis}}",
+   "أهم أسبابه {{HBV}} و{{HCV}} و{{alcohol}} و{{NAFLD}}",
+   "المراقبة، أي {{surveillance}} تكتشفه بدري فيتاح علاج شافي",
+   "الأداة الأساسية {{ultrasound}} كل {{6}} شهور، وممكن إضافة {{AFP}}",
+   "الـ{{triphasic CT}} أو {{MRI}} نستعملهم لتأكيد التشخيص بعد ما نشوف {{nodule}}"
+  ],
+  "steps": [
+   "اقري: السؤال عن {{screening}} مو {{diagnosis}}",
+   "اختر الأداة الآمنة والمتكررة {{ultrasound}}",
+   "استبعد {{CT}} لأنه تشخيصي",
+   "استبعد {{LFT}} و{{AFP}} وحدهم"
+  ],
+  "tip": "تذكر أن {{screening}} يعني {{ultrasound}} و{{diagnosis}} يعني {{triphasic CT}}",
+  "pitfall": "الـ{{AFP}} لوحده مو كافي للمراقبة"
+ },
+ "SWR-0932": {
+  "bg": [
+   "الـ{{LDL}} هو الدهن الأكثر ارتباطًا بتصلب الشرايين، أي {{atherosclerosis}}",
+   "الـ{{statins}} هي العلاج الأساسي لخفض {{LDL}} ويتم تعديل الجرعة حسب الهدف",
+   "المرضى عالي الخطورة مثل {{CHD}} يحتاجون هدف {{LDL}} أقل",
+   "الـ{{HDL}} و{{TG}} أهداف ثانوية وما تعتبر الهدف الرئيسي"
+  ],
+  "steps": [
+   "حدد فئة الخطورة: {{CHD}} يعني عالية",
+   "اختر الدهن المستهدف {{LDL}}",
+   "استبعد {{HDL}} و{{TG}} و{{total cholesterol}}",
+   "اختر الرقم المناسب وهو {{<70}}"
+  ],
+  "tip": "تذكر أن {{CHD}} يعني {{LDL <70}}",
+  "pitfall": "الـ{{HDL}} العالي مو هدف علاجي"
+ },
+ "SWR-0933": {
+  "bg": [
+   "الـ{{UTI}} يتصنف {{uncomplicated}} (امرأة غير حامل بدون {{fever}}) أو {{complicated}} أو {{pyelonephritis}}",
+   "الـ{{uncomplicated cystitis}} عند امرأة شابة نعالجه {{empirically}} بدون {{culture}} روتيني",
+   "الـ{{fever}} وألم الخاصرة أو تأكيد {{pyelonephritis}} يغير الخطة لأن فيه عدوى علوية",
+   "الـ{{urine culture}} نطلبه عند {{fever}} أو {{complicated UTI}} أو {{treatment failure}} أو الرجال",
+   "عند فشل علاج {{antibiotic}} نحتاج {{culture}} و{{sensitivity}} قبل التغيير أو التوسع بالفحوص"
+  ],
+  "steps": [
+   "اقري الحالة: فشل {{ciprofloxacin}} يعني {{treatment failure}}",
+   "اختر الخطوة الأولى وهي {{culture}}",
+   "استبعد الفحوص الغازية والتصوير قبل الـ{{culture}}",
+   "الـ{{hematuria}} ممكن نحتاجه لاحقًا لو الـ{{culture}} سلبي"
+  ],
+  "tip": "فشل علاج {{UTI}} يعني {{culture}} قبل أي شي",
+  "pitfall": "التصوير و{{cystoscopy}} ما نبدأ بهم قبل {{culture}}"
+ },
+ "SWR-0934": {
+  "bg": [
+   "الـ{{UTI}} يتصنف {{uncomplicated}} (امرأة غير حامل بدون {{fever}}) أو {{complicated}} أو {{pyelonephritis}}",
+   "الـ{{uncomplicated cystitis}} عند امرأة شابة نعالجه {{empirically}} بدون {{culture}} روتيني",
+   "الـ{{fever}} وألم الخاصرة أو تأكيد {{pyelonephritis}} يغير الخطة لأن فيه عدوى علوية",
+   "الـ{{urine culture}} نطلبه عند {{fever}} أو {{complicated UTI}} أو {{treatment failure}} أو الرجال",
+   "عند فشل علاج {{antibiotic}} نحتاج {{culture}} و{{sensitivity}} قبل التغيير أو التوسع بالفحوص"
+  ],
+  "steps": [
+   "اقري: هل في {{fever}} أو علامات عدوى علوية؟ لا",
+   "صنفها {{uncomplicated cystitis}}",
+   "اختر {{empiric antibiotics}}",
+   "استبعد الانتظار بدون علاج و{{no treatment}}"
+  ],
+  "tip": "تذكر أن {{cystitis}} بدون {{fever}} يعني علاج تجريبي بدون {{culture}}",
+  "pitfall": "الـ{{cranberry juice}} ما يعتبر علاج"
+ },
+ "SWR-0935": {
+  "bg": [
+   "الـ{{UTI}} يتصنف {{uncomplicated}} (امرأة غير حامل بدون {{fever}}) أو {{complicated}} أو {{pyelonephritis}}",
+   "الـ{{uncomplicated cystitis}} عند امرأة شابة نعالجه {{empirically}} بدون {{culture}} روتيني",
+   "الـ{{fever}} وألم الخاصرة أو تأكيد {{pyelonephritis}} يغير الخطة لأن فيه عدوى علوية",
+   "الـ{{urine culture}} نطلبه عند {{fever}} أو {{complicated UTI}} أو {{treatment failure}} أو الرجال",
+   "عند فشل علاج {{antibiotic}} نحتاج {{culture}} و{{sensitivity}} قبل التغيير أو التوسع بالفحوص"
+  ],
+  "steps": [
+   "اقري {{fever}} فهي علامة تغير الخطة",
+   "اختر الخيار الأشمل: {{culture}} مع {{empiric antibiotics}}",
+   "استبعد {{empiric}} لوحده لأن الـ{{culture}} مطلوب هنا"
+  ],
+  "tip": "تذكر أن {{fever}} مع {{UTI}} يعني {{culture}} مع {{empiric antibiotics}}",
+  "pitfall": "تذكر أن {{cystitis}} بدون {{fever}} هو الحالة الوحيدة اللي نعالجها بدون {{culture}}"
+ },
+ "SWR-0938": {
+  "bg": [
+   "الـ{{HIT}} هو انخفاض صفائح بسبب أجسام مضادة ضد {{heparin-PF4 complex}}",
+   "يظهر غالبًا بعد {{5-10}} أيام من بدء الهيبارين",
+   "المفارقة: صفائح منخفضة مع خطر {{thrombosis}} وليس نزيف",
+   "نستعمل {{4Ts score}} لتقدير الاحتمال، ونؤكد بـ{{PF4 antibody}}",
+   "العلاج: إيقاف كل {{heparin}} وبدء {{non-heparin anticoagulant}}"
+  ],
+  "steps": [
+   "اقري: {{heparin}} مع نقص صفائح يعني {{HIT}}",
+   "الخطوة الأولى إيقاف {{heparin}}",
+   "استبعد التحويل إلى {{UFH}} لأنه {{heparin}} كذلك",
+   "الـ{{DOAC}} لاحقًا مو أول خطوة"
+  ],
+  "tip": "نقص صفائح على {{heparin}} يعني أوقفه فورًا",
+  "pitfall": "التحويل من {{LMWH}} إلى {{UFH}} خطأ شائع"
+ },
+ "SWR-0953": {
+  "bg": [
+   "الـ{{colorectal cancer}} من أشهر السرطانات وممكن نمنعه بإزالة {{polyps}} بالـ{{colonoscopy}}",
+   "الإرشادات تبدأ الفحص من عمر {{45}} لمتوسط الخطورة",
+   "الـ{{colonoscopy}} يتكرر كل {{10}} سنوات لو سليم",
+   "عالي الخطورة مثل {{family history}} أو {{IBD}} يبدأ بدري ويتكرر بفترات أقصر",
+   "يوجد خيارات ثانية مثل {{FIT}} سنويًا"
+  ],
+  "steps": [
+   "اقري عمر المريض: {{45}} فنبدأ الآن",
+   "اختر الفترة الصح {{10}} سنوات",
+   "استبعد الخيارات اللي تؤخر البدء أو تقصر الفترة لمتوسط الخطورة"
+  ],
+  "tip": "تذكر أن {{45}} سنة تبدأ الفحص الآن وكل {{10}} سنوات",
+  "pitfall": "الـ{{5}} سنوات لعالي الخطورة ومو للجميع"
+ }
+}

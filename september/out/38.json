@@ -1,0 +1,844 @@
+{
+ "SWR-0823": {
+  "idea": [
+   "مريض مراهق عنده {{febrile neutropenia}} بعد {{chemotherapy}} ومعها {{shock}} يعني حالة خطيرة وعالية الخطورة",
+   "نبدأ فورًا بمضاد حيوي واسع الطيف يغطي {{Pseudomonas}} وهذا الـ{{meropenem}}"
+  ],
+  "clues": [
+   [
+    "حرارة مع {{neutropenia}} بعد {{chemotherapy}}",
+    "هذي {{febrile neutropenia}} وطوارئ تحتاج علاج خلال ساعة"
+   ],
+   [
+    "وجود {{shock}}",
+    "المريض غير مستقر فنحتاج أوسع تغطية بكتيرية من أول جرعة"
+   ],
+   [
+    "السؤال عن الـ{{initial antibiotic}}",
+    "نختار {{antipseudomonal beta-lactam}} مثل {{meropenem}} أو {{piperacillin-tazobactam}} أو {{cefepime}}"
+   ]
+  ],
+  "why": [
+   "الـ{{meropenem}} من {{carbapenems}} يغطي {{Gram negative}} مع {{Pseudomonas}} وعنده تغطية للاهوائيات",
+   "في الـ{{neutropenia}} الخطر الأكبر من {{Gram negative sepsis}} فنعطي {{monotherapy}} بـ{{antipseudomonal beta-lactam}} بدون تأخير"
+  ],
+  "wrong": {
+   "1": "الـ{{vancomycin}} ما يغطي {{Gram negative}} فما ينفع لوحده، ونضيفه فوق العلاج الأساسي لو في {{pneumonia}} أو {{hypotension}} أو {{line infection}}",
+   "2": "الـ{{cefuroxime}} ما يغطي {{Pseudomonas}} وطيفه ضعيف على مريض {{neutropenic}}",
+   "3": "الـ{{caspofungin}} مضاد فطريات، ونضيفه لو استمرت الحرارة بعد أيام من المضاد الحيوي الواسع وليس كبداية"
+  },
+  "change": [
+   "لو المريض مستقر وعالي الخطورة نفس الاختيار {{meropenem}} أو {{cefepime}} أو {{piperacillin-tazobactam}}",
+   "لو استمر {{shock}} أو ظهر التهاب رئة نضيف {{vancomycin}} على الأساس"
+  ],
+  "rule": "الـ{{febrile neutropenia}} يعني {{antipseudomonal beta-lactam}} فورًا، والباقي يضاف لاحقًا بحسب الحالة"
+ },
+ "SWR-0824": {
+  "idea": [
+   "مريض بعد {{bone marrow transplant}} عنده {{febrile neutropenia}} وأخذ {{ceftazidime}} ولا تحسن بعد {{72 hours}}",
+   "ما في {{pneumonia}} ولا {{hypotension}} فالإضافة المناسبة هي مضاد فطريات للـ{{mold}} وهو {{voriconazole}}"
+  ],
+  "clues": [
+   [
+    "حرارة مستمرة بعد {{72 hours}} على {{ceftazidime}}",
+    "العلاج البكتيري لوحده ما كفى فنفكر في العدوى الفطرية"
+   ],
+   [
+    "ما في {{pneumonia}} أو {{hypotension}}",
+    "ما في سبب نضيف لأجله {{vancomycin}}"
+   ],
+   [
+    "{{BMT}} و{{neutropenia}} طويلة",
+    "خطر {{invasive mold infection}} عالي فنضيف {{antifungal}}"
+   ]
+  ],
+  "why": [
+   "حرارة مستمرة في {{neutropenia}} بعد أيام من المضاد الحيوي الواسع نغطي بـ{{empiric antifungal}}",
+   "الـ{{voriconazole}} يغطي {{Aspergillus}} وهي أهم فطريات هذا المريض",
+   "الـ{{vancomycin}} ما نضيفه بسبب الحرارة المستمرة فقط بل لمؤشرات محددة"
+  ],
+  "wrong": {
+   "1": "الـ{{ceftriaxone}} ما يغطي {{Pseudomonas}} ولا نستخدمه في {{neutropenic fever}}، ومن جهة ثانية نفس نوع المضاد الحيوي ما ينفع بعد فشله",
+   "2": "الـ{{sulfamethoxazole}} علاج ووقاية من {{Pneumocystis}} ولا يعالج الحرارة المستمرة هنا",
+   "3": "الـ{{vancomycin}} له مؤشرات مثل {{pneumonia}} أو {{hypotension}} أو {{catheter infection}} أو {{skin lesions}} وكلها غير موجودة"
+  },
+  "change": [
+   "لو ظهر {{pneumonia}} أو {{hypotension}} نضيف {{vancomycin}}",
+   "لو الـ{{antifungal}} ما كان متوفر في الخيارات كان ممكن يطلع {{vancomycin}} كخيار أقرب"
+  ],
+  "rule": "حرارة مستمرة في {{neutropenia}} بدون {{pneumonia}} أو {{hypotension}} يعني نضيف {{antifungal}} وليس {{vancomycin}}"
+ },
+ "SWR-0825": {
+  "idea": [
+   "مريض بعد {{BMT}} عنده {{febrile neutropenia}} بدون {{pneumonia}} وما تحسن على {{ceftazidime}}",
+   "من الخيارات المعطاة الـ{{vancomycin}} هو الإضافة المنطقية، وباقي الخيارات ما تناسب"
+  ],
+  "clues": [
+   [
+    "{{BMT}} و{{febrile neutropenia}}",
+    "مريض عالي الخطورة وما تحسن على العلاج الأولي"
+   ],
+   [
+    "ما استجاب لـ{{ceftazidime}}",
+    "نحتاج إضافة وليس استبدال لنفس الفئة"
+   ],
+   [
+    "ما في {{antifungal}} بين الخيارات",
+    "فنختار أقرب إضافة منطقية وهي {{vancomycin}}"
+   ]
+  ],
+  "why": [
+   "فشل العلاج الأولي يعني نضيف تغطية للـ{{Gram positive}} مثل {{MRSA}} و{{CoNS}} عبر {{vancomycin}}",
+   "بدائل ثانية ما تضيف شيئًا مفيدًا: {{ceftriaxone}} أضعف و{{TMP-SMX}} وقاية و{{tazocin}} نفس فئة {{ceftazidime}} الأساسية",
+   "لو كان {{voriconazole}} أو {{amphotericin B}} موجودين كنا نفضلهم، لكن مع هذي الخيارات {{vancomycin}} هو الأنسب"
+  ],
+  "wrong": {
+   "1": "الـ{{tazocin}} أقوى شوي من {{ceftazidime}} لكن التبديل بين أدوية العلاج الأولي ما يعتبر إضافة، وتغطية اللاهوائيات تلزم فقط في {{necrotizing mucositis}} أو {{abdominal infection}}",
+   "2": "الـ{{ceftriaxone}} ما يغطي {{Pseudomonas}} ولا يستخدم في {{neutropenic fever}}",
+   "3": "الـ{{TMP-SMX}} وقاية من {{Pneumocystis}} وما يعالج حرارة {{neutropenia}} المستمرة"
+  },
+  "change": [
+   "لو كان في خيار {{voriconazole}} أو {{amphotericin B}} نفضله على {{vancomycin}} عند حرارة مستمرة بدون {{pneumonia}}",
+   "لو في {{pneumonia}} أو {{hypotension}} نضيف {{vancomycin}} بدون جدل"
+  ],
+  "rule": "عند حرارة مستمرة في {{neutropenia}}: {{antifungal}} لو موجود، وإلا {{vancomycin}} من الخيارات الأقرب"
+ },
+ "SWR-0836": {
+  "idea": [
+   "مريض كبير بالسن عنده {{prosthetic mitral valve}} وحمى ونفخة جديدة، يعني {{prosthetic valve endocarditis}} محتمل",
+   "العلاج التجريبي يغطي {{staphylococci}} المقاومة والـ{{Gram negative}} مع {{rifampicin}} للـ{{biofilm}} على الصمام الصناعي"
+  ],
+  "clues": [
+   [
+    "{{prosthetic mitral valve}}",
+    "نوع {{PVE}} وعلاجه مختلف عن الصمام الطبيعي"
+   ],
+   [
+    "حمى مع نفخة جديدة",
+    "شك قوي في {{infective endocarditis}}"
+   ],
+   [
+    "{{blood cultures pending}}",
+    "نبدأ علاج تجريبي واسع ثم نعدله بعد النتائج"
+   ]
+  ],
+  "why": [
+   "الصمام الصناعي يتكون عليه {{biofilm}} وضعيف التروية فالمضاد الحيوي ما يدخل بسهولة",
+   "نعطي {{vancomycin}} للـ{{MRSA}} و{{CoNS}} مع {{gentamicin}} للتآزر والـ{{Gram negative}}",
+   "نضيف {{rifampicin}} لأنه يخترق الـ{{biofilm}} ويقوي العلاج"
+  ],
+  "wrong": {
+   "0": "الـ{{vancomycin}} مع {{ceftriaxone}} نظام يناسب الصمام الطبيعي، وهنا ينقصه {{rifampicin}} و{{gentamicin}}",
+   "2": "الـ{{vancomycin}} لوحده ما يكفي لأن {{PVE}} يحتاج {{synergy}} و{{biofilm penetration}}",
+   "3": "الـ{{ceftriaxone}} لوحده ما يغطي {{MRSA}} ولا {{CoNS}} المقاومة"
+  },
+  "change": [
+   "لو الصمام طبيعي يكفي {{vancomycin}} مع {{ceftriaxone}} أو {{gentamicin}}",
+   "لو نتائج الـ{{culture}} ظهرت نعدل العلاج حسب البكتيريا"
+  ],
+  "rule": "الصمام الصناعي يعني {{vancomycin}} مع {{gentamicin}} مع {{rifampicin}}"
+ },
+ "SWR-0837": {
+  "idea": [
+   "مريض {{PAD}} مدخن ومعه {{diabetes}} ويأخذ {{antiplatelets}} وأنسولين ودهونه طبيعية",
+   "وجود {{PAD}} يعني {{ASCVD}} فنضيف {{high-intensity statin}} مثل {{atorvastatin}} حتى لو الدهون طبيعية"
+  ],
+  "clues": [
+   [
+    "{{PAD}}",
+    "يعتبر مرض قلبي وعائي تصلبي {{ASCVD}}"
+   ],
+   [
+    "{{diabetes}} ومدخن",
+    "عوامل خطورة إضافية"
+   ],
+   [
+    "{{normal lipids}}",
+    "ما يمنع الـ{{statin}} لأن الفائدة من تثبيت اللويحات وليس فقط خفض الـ{{LDL}}"
+   ]
+  ],
+  "why": [
+   "الـ{{statin}} يقلل {{MACE}} و{{limb events}} في {{PAD}} بغض النظر عن {{LDL}}",
+   "عنده أصلاً {{aspirin}} و{{clopidogrel}} فالناقص هو {{statin}}"
+  ],
+  "wrong": {
+   "0": "الـ{{beta-blocker}} ما يقلل أحداث {{PAD}} بدون {{CAD}} أو {{heart failure}} أو {{arrhythmia}} ولا يثبت فائدته هنا",
+   "1": "الـ{{calcium channel blocker}} لعلاج الضغط فقط، ولا ضغط مرتفع بالسؤال",
+   "3": "الـ{{losartan}} لعلاج الضغط أو {{diabetic nephropathy}} وما ذكر شيء منها"
+  },
+  "change": [
+   "لو الـ{{BP}} مرتفع نضيف {{ACE inhibitor}} أو {{ARB}}",
+   "لو كان في {{angina}} أو {{MI}} سابق ممكن نفكر في {{beta-blocker}}"
+  ],
+  "rule": "أي {{ASCVD}} أو {{diabetes}} يعني {{statin}} مهما كان {{LDL}}"
+ },
+ "SWR-0838": {
+  "idea": [
+   "مريض بعد {{anterior STEMI}} و{{stenting}} على {{LAD}} وعنده {{diabetes}} و{{hypertension}}",
+   "هو يأخذ {{aspirin}} و{{clopidogrel}} و{{beta-blocker}} و{{ACE inhibitor}} والناقص {{high-intensity statin}} مثل {{atorvastatin}}"
+  ],
+  "clues": [
+   [
+    "{{STEMI}} مع {{stent}}",
+    "هذي {{ACS}} وكل مريض {{ACS}} يأخذ {{high-intensity statin}}"
+   ],
+   [
+    "{{LDL 3.36 mmol/L}}",
+    "أعلى من هدف مريض {{ASCVD}} وهو حوالي {{2.0 mmol/L}}"
+   ],
+   [
+    "{{TG 2.2}} فقط ارتفاع خفيف",
+    "ما يستدعي {{fibrate}}"
+   ]
+  ],
+  "why": [
+   "كل مريض {{ASCVD}} أو {{ACS}} يحتاج {{statin}} عالي الشدة بغض النظر عن {{LDL}}",
+   "هنا حتى {{LDL}} أعلى من الهدف فالحاجة أوضح",
+   "الـ{{statin}} يقلل {{mortality}} و{{recurrent events}} بعد {{MI}}"
+  ],
+  "wrong": {
+   "0": "لا، الـ{{statin}} ناقص وهو من أساسيات علاج ما بعد {{MI}}",
+   "2": "الـ{{fenofibrate}} للـ{{triglycerides}} العالية جدًا وما أثبت فائدة قلبية مقارنة بالـ{{statin}}",
+   "3": "الـ{{niacin}} ما أثبت فائدة إضافية على الـ{{statin}} وله أعراض مثل {{flushing}}"
+  },
+  "change": [
+   "لو {{TG}} مرتفعة جدًا بدرجة خطر {{pancreatitis}} نضيف {{fibrate}} بعد الـ{{statin}}",
+   "لو الـ{{LDL}} فوق الهدف رغم {{statin}} بجرعة عالية نضيف {{ezetimibe}}"
+  ],
+  "rule": "بعد {{MI}} يعني {{high-intensity statin}} دائمًا",
+  "note": "نص السؤال فيه رموز مشوهة بس القيم واضحة والجواب معتمد على الصورة السريرية"
+ },
+ "SWR-0839": {
+  "idea": [
+   "شخص بلا أعراض عنده {{fasting glucose 7.3}} في مستوى السكري و{{HbA1c 6.3%}} في مستوى {{prediabetes}}",
+   "النتيجتان غير متوافقتين فنحتاج {{OGTT}} لحسم التشخيص"
+  ],
+  "clues": [
+   [
+    "{{FPG 7.3}}",
+    "فوق حد {{7.0}} للسكري"
+   ],
+   [
+    "{{HbA1c 6.3%}}",
+    "تحت حد {{6.5%}} للسكري ويقع في {{prediabetes}}"
+   ],
+   [
+    "بدون أعراض",
+    "ما ينفع {{random glucose}} ولا نشخص من قراءة واحدة"
+   ]
+  ],
+  "why": [
+   "لما تختلف الفحوصات نحتاج فحص ثالث يحسم، و{{2-hour OGTT}} هو المرجع",
+   "لو {{2-hour glucose}} وصل {{11.1 mmol/L}} أو أكثر نثبت {{diabetes}}",
+   "غيره إما بطيء أو ما يضيف معلومة"
+  ],
+  "wrong": {
+   "0": "إعادة {{A1c}} بعد ستة أسابيع قليلة الفائدة لأن {{A1c}} يعكس ثلاثة أشهر ولن يتغير بسرعة، ولا تحسم الاختلاف",
+   "1": "إعادة {{fasting glucose}} بعد ثلاثة أشهر تأخير طويل بلا مبرر عند وجود نتيجة سكري",
+   "3": "الـ{{random glucose}} يستخدم مع الأعراض الواضحة وليس عند شخص بدون أعراض"
+  },
+  "change": [
+   "لو كان عنده أعراض كلاسيكية و{{random glucose}} فوق {{11.1}} يثبت التشخيص مباشرة",
+   "لو القراءتان كلتاهما فوق الحد في عينة واحدة نثبت {{diabetes}} بدون {{OGTT}}"
+  ],
+  "rule": "فحوصات متضاربة بلا أعراض يعني {{OGTT}}"
+ },
+ "SWR-0840": {
+  "idea": [
+   "رجل عمره {{55}} مع تاريخ عائلي لـ{{type 2 diabetes}} في فحص دوري: {{fasting glucose 7.4}} و{{HbA1c 6.3}}",
+   "الفحصان غير متوافقين فنكمل بـ{{2-hour 75 g OGTT}}"
+  ],
+  "clues": [
+   [
+    "{{fasting glucose 7.4 mmol/L}}",
+    "فوق حد {{7.0}} للسكري"
+   ],
+   [
+    "{{HbA1c 6.3}}",
+    "تحت {{6.5}} فهو {{prediabetes range}}"
+   ],
+   [
+    "فحص دوري بلا أعراض",
+    "نحتاج تأكيد وليس {{random glucose}}"
+   ]
+  ],
+  "why": [
+   "عند التعارض بين الفحوصات نختار الـ{{OGTT}} لأنه يحسم التشخيص مباشرة",
+   "لو {{2-hour glucose}} وصل {{11.1 mmol/L}} أو أكثر نثبت {{diabetes}}",
+   "بقية الخيارات إما غير مناسبة بدون أعراض أو متأخرة"
+  ],
+  "wrong": {
+   "0": "الـ{{random plasma glucose}} يستخدم مع الأعراض الواضحة وليس في فحص دوري",
+   "1": "الـ{{HbA1c}} بعد ستة أسابيع ما يمثل التغير الحقيقي لأنه يعكس ثلاثة أشهر ولا يحسم التعارض",
+   "2": "الـ{{fasting glucose}} بعد ثلاثة أشهر تأخير طويل ولا مبرر له"
+  },
+  "change": [
+   "لو كان المريض عنده أعراض كلاسيكية كان {{random glucose}} كافيًا",
+   "لو {{HbA1c}} كان {{6.5}} أو أكثر مع {{FPG}} {{7.4}} نثبت التشخيص بدون {{OGTT}}"
+  ],
+  "rule": "الـ{{FPG}} سكري و{{HbA1c}} أقل من الحد يعني {{OGTT}}",
+  "note": "في السؤال رموز مشوهة بالنص بس القيم والجواب واضحين"
+ },
+ "SWR-0841": {
+  "idea": [
+   "شاب جديد {{T1DM}} بعد {{DKA}} ومستقر وجاهز للخروج",
+   "يحتاج نظام يشبه الإفراز الطبيعي وهو {{basal-bolus}} مع {{glargine}} و{{aspart}}"
+  ],
+  "clues": [
+   [
+    "{{new T1DM}}",
+    "ما عنده إفراز أنسولين تقريبًا فيحتاج أنسولين قاعدي ووجبات"
+   ],
+   [
+    "بعد {{DKA}}",
+    "نخشى ما يعطى {{basal insulin}} فيتكرر الحمض"
+   ],
+   [
+    "مستقر وجاهز للخروج",
+    "نختار العلاج طويل الأمد وليس المحاليل أو {{sliding scale}}"
+   ]
+  ],
+  "why": [
+   "نظام {{basal-bolus}} يعطي {{glargine}} طويل المفعول لتغطية الاحتياج الأساسي و{{aspart}} سريع للوجبات والتصحيح",
+   "هذا أقرب نظام للفسيولوجيا وأفضل ضبط وأقل {{hypoglycemia}}",
+   "وهو المعتمد في {{T1DM}} للخروج من المستشفى"
+  ],
+  "wrong": {
+   "0": "الأنسولين المخلوط مرتين يوميًا جامد وما يتكيف مع الوجبات وغير مناسب لـ{{T1DM}} الجديد",
+   "2": "الـ{{sliding scale}} لوحده رد فعل بدون {{basal}} وقد يرجع {{DKA}}",
+   "3": "الـ{{NPH}} مرتين يوميًا فيه ذروة قد تسبب {{nocturnal hypoglycemia}} وما يغطي الوجبات"
+  },
+  "change": [
+   "لو الحالة {{T2DM}} ممكن نبدأ بالأقراص أو {{basal}} لوحده",
+   "لو المريض ما يقدر على {{multiple injections}} ممكن نستخدم {{insulin pump}} أو مخلوط بشكل مؤقت"
+  ],
+  "rule": "الـ{{T1DM}} للخروج يعني {{basal-bolus}}"
+ },
+ "SWR-0842": {
+  "idea": [
+   "شابة {{T1DM}} جديد بعد {{DKA}} ومستقرة وجاهزة للخروج",
+   "الأنسب نظام {{basal-bolus}} مع {{glargine}} مرة يوميًا"
+  ],
+  "clues": [
+   [
+    "{{T1DM}} بعد {{DKA}}",
+    "يحتاج {{basal}} وأنسولين وجبات"
+   ],
+   [
+    "جاهزة للخروج",
+    "نختار العلاج الدائم"
+   ],
+   [
+    "{{once-daily glargine}}",
+    "يعطي أنسولين قاعدي ثابت تقريبًا بدون ذروة"
+   ]
+  ],
+  "why": [
+   "نظام {{basal-bolus}} هو الأقرب للفسيولوجيا في {{T1DM}} ويقلل {{hypoglycemia}}",
+   "الـ{{glargine}} مرة يوميًا يغطي {{basal}} والأنسولين السريع يغطي الوجبات",
+   "هذا يمنع تكرار {{DKA}} لأن {{basal insulin}} متوفر دائمًا"
+  ],
+  "wrong": {
+   "0": "الـ{{NPH}} مرتين يوميًا لا يغطي الوجبات وفيه ذروة تسبب {{hypoglycemia}}",
+   "1": "الـ{{mixtard}} مرة يوميًا لا يكفي لـ{{T1DM}} وهو جامد وغير كاف",
+   "3": "أنسولين سريع قبل كل وجبة بدون {{long-acting}} ينقصه {{basal}} فيزيد خطر {{ketosis}}"
+  },
+  "change": [
+   "لو الحالة {{T2DM}} ممكن نبدأ بـ{{metformin}} مع {{basal insulin}}",
+   "لو المريض عنده {{hypoglycemia}} متكرر نعدل الجرعات أو ننظر في {{pump}}"
+  ],
+  "rule": "الـ{{T1DM}} يعني {{basal}} و{{bolus}} معًا"
+ },
+ "SWR-0843": {
+  "idea": [
+   "مريض {{DKA}} عنده {{K+ 2.5 mmol/L}} وبدأنا {{IV fluids}} و{{insulin}}",
+   "الأنسولين يدخل البوتاسيوم للخلايا فيتفاقم {{hypokalemia}}"
+  ],
+  "clues": [
+   [
+    "{{K+ 2.5 mmol/L}}",
+    "منخفض أصلًا ومخزون الجسم ناقص"
+   ],
+   [
+    "بدء {{insulin}}",
+    "ينقل {{K+}} من الدم للخلايا"
+   ],
+   [
+    "{{IV fluids}}",
+    "تخفف الدم وتصحح الحموضة فيدخل {{K+}} للخلايا أكثر"
+   ]
+  ],
+  "why": [
+   "في {{DKA}} البوتاسيوم الكلي ناقص بسبب الإدرار والقيء حتى لو القياس طبيعي",
+   "الأنسولين يفعل مضخة {{Na/K ATPase}} فينخفض {{K+}} بالدم بسرعة",
+   "لهذا نتوقع {{worsening hypokalemia}} وقد تسبب {{arrhythmia}}"
+  ],
+  "wrong": {
+   "0": "الأنسولين يخفض السكر فلا يتوقع {{hyperglycemia rebound}}",
+   "2": "الـ{{DKA}} حمضي، والعلاج يصحح الحموضة ولا يسبب {{alkalosis}} بشكل متوقع",
+   "3": "الـ{{hypercalcemia}} لا علاقة لها بالأنسولين أو السوائل هنا"
+  },
+  "change": [
+   "لو {{K+}} أقل من {{3.3 mmol/L}} نؤخر الأنسولين ونعطي البوتاسيوم أولًا",
+   "لو {{K+}} مرتفع نؤخر البوتاسيوم ونراقب"
+  ],
+  "rule": "الأنسولين يخفض {{K+}} فنراقبه ونعوضه في {{DKA}}"
+ },
+ "SWR-0844": {
+  "idea": [
+   "شاب {{20}} سنة عنده {{Graves}} مع غدة منتفخة ونبض غير منتظم، والسؤال عن العلاج الأولي للأعراض",
+   "الأنسب {{beta-blocker}} لأنه يخفف الأعراض بسرعة"
+  ],
+  "clues": [
+   [
+    "غدة منتفخة بشكل منتشر مع {{high T4/T3}} و{{low TSH}}",
+    "هذا {{Graves disease}}"
+   ],
+   [
+    "نبض غير منتظم",
+    "تسارع أو {{AF}} من {{thyrotoxicosis}}"
+   ],
+   [
+    "كلمة {{symptomatic}}",
+    "يعني نحتاج دواء سريع للأعراض وليس علاج المرض"
+   ]
+  ],
+  "why": [
+   "الـ{{beta-blocker}} مثل {{propranolol}} يخفف {{palpitations}} و{{tremor}} وسرعة النبض خلال ساعات",
+   "كما يقلل تحويل {{T4}} إلى {{T3}}",
+   "الأدوية المضادة للغدة تأخذ أسابيع حتى يظهر مفعولها"
+  ],
+  "wrong": {
+   "0": "الـ{{methimazole}} يعالج السبب لكنه يأخذ أسابيع، فما يعطي راحة سريعة للأعراض",
+   "1": "الـ{{PTU}} خيار ثانوي للحمل في الثلث الأول أو {{thyroid storm}} وله خطر على الكبد",
+   "3": "الـ{{radioactive iodine}} علاج نهائي لاحق ولا يعطي راحة سريعة ويمكن أن يزيد الأعراض مؤقتًا"
+  },
+  "change": [
+   "لو السؤال {{definitive therapy}} نختار {{methimazole}} أو {{radioactive iodine}}",
+   "لو في {{asthma}} شديد نتجنب {{propranolol}} ونستخدم بديل"
+  ],
+  "rule": "الـ{{symptomatic}} يعني {{beta-blocker}}"
+ },
+ "SWR-0845": {
+  "idea": [
+   "شاب {{20}} سنة {{Graves}} مع نبض غير منتظم، العلاج الأولي",
+   "نبدأ بـ{{beta-blocker}} لأنه الأسرع في تخفيف الأعراض"
+  ],
+  "clues": [
+   [
+    "غدة منتفخة مع {{high T4/T3}} و{{low TSH}}",
+    "{{Graves disease}}"
+   ],
+   [
+    "نبض غير منتظم",
+    "{{tachyarrhythmia}} من {{thyrotoxicosis}}"
+   ],
+   [
+    "العلاج الأولي",
+    "نبدأ بدواءين: {{beta-blocker}} للسرعة و{{antithyroid}} للمرض"
+   ]
+  ],
+  "why": [
+   "الـ{{beta-blocker}} مثل {{propranolol}} يعمل بسرعة على النبض والرعشة",
+   "الـ{{methimazole}} يعطى معه لكن مفعوله يظهر بعد أسابيع",
+   "فكأول خطوة تعطي أثر فوري نختار {{beta-blocker}}"
+  ],
+  "wrong": {
+   "0": "الـ{{methimazole}} يعطى معه لكن ما يعطي تحسن سريع لأن تأثيره بطيء",
+   "1": "الـ{{PTU}} خيار ثانوي بسبب سمية الكبد وله استعمالات خاصة",
+   "3": "الـ{{radioactive iodine}} علاج نهائي بعد تهدئة الحالة وليس بداية"
+  },
+  "change": [
+   "لو السؤال يطلب علاج المرض نفسه فـ{{methimazole}} هو الأساس",
+   "لو الحمل في الثلث الأول فـ{{PTU}} يفضل"
+  ],
+  "rule": "البداية السريعة {{beta-blocker}} والعلاج المرضي {{methimazole}}"
+ },
+ "SWR-0846": {
+  "idea": [
+   "مريض {{Cushing}} من ورم غدة كظرية جانب واحد مجدول لاستئصال الغدة",
+   "الغدة الثانية مكبوتة لذلك نعطي {{hydrocortisone}} حول الجراحة"
+  ],
+  "clues": [
+   [
+    "{{Cushing}} من {{adrenal adenoma}}",
+    "الورم يفرز {{cortisol}} بكثرة"
+   ],
+   [
+    "{{unilateral}}",
+    "الغدة الأخرى تضمر بسبب التغذية الراجعة"
+   ],
+   [
+    "{{adrenalectomy}}",
+    "بعد الاستئصال يحصل نقص {{cortisol}} مفاجئ"
+   ]
+  ],
+  "why": [
+   "الـ{{cortisol}} العالي يثبط {{ACTH}} فتضمر الغدة السليمة",
+   "بعد الاستئصال لا يوجد مصدر كاف للـ{{cortisol}} فيحدث {{adrenal crisis}}",
+   "فنعطي {{hydrocortisone}} قبل وأثناء وبعد الجراحة ثم نخفضه تدريجيًا"
+  ],
+  "wrong": {
+   "1": "الـ{{fludrocortisone}} يعوض {{aldosterone}} وهذا ما ينقص هنا لأن {{RAAS}} سليم",
+   "2": "عدم التعويض يعرض المريض لـ{{adrenal crisis}} مع {{hypotension}}",
+   "3": "الـ{{alpha-blocker}} لـ{{pheochromocytoma}} وليس لـ{{Cushing}}"
+  },
+  "change": [
+   "لو كان {{pheochromocytoma}} نعطي {{alpha-blocker}} قبل الجراحة",
+   "لو {{primary aldosteronism}} نضبط {{K+}} و{{BP}} قبل الجراحة"
+  ],
+  "rule": "استئصال ورم {{Cushing}} يعني {{hydrocortisone}} حول الجراحة"
+ },
+ "SWR-0847": {
+  "idea": [
+   "امرأة {{30}} سنة {{non-ACTH dependent Cushing}} من ورم حميد في الغدة اليمنى وتجهز للاستئصال",
+   "نعطي {{perioperative hydrocortisone}} لأن الغدة الأخرى مكبوتة"
+  ],
+  "clues": [
+   [
+    "{{non-ACTH dependent}}",
+    "الورم يفرز {{cortisol}} ويثبط {{ACTH}}"
+   ],
+   [
+    "{{benign adenoma}}",
+    "ما نحتاج علاج سرطان"
+   ],
+   [
+    "{{adrenalectomy}}",
+    "خطر {{adrenal insufficiency}} بعد الجراحة"
+   ]
+  ],
+  "why": [
+   "الـ{{cortisol}} العالي يثبط {{ACTH}} فتضمر الغدة الأخرى",
+   "بعد الاستئصال يصير نقص {{cortisol}} حاد فنغطي بـ{{hydrocortisone}}",
+   "ثم نخفض الجرعة حتى يرجع المحور"
+  ],
+  "wrong": {
+   "0": "الـ{{mitotane}} لـ{{adrenocortical carcinoma}} وليس للورم الحميد",
+   "2": "الـ{{fludrocortisone}} يعوض {{mineralocorticoid}} وهو غير ناقص لأن {{RAAS}} سليم",
+   "3": "الـ{{phenoxybenzamine}} لـ{{pheochromocytoma}}"
+  },
+  "change": [
+   "لو كان {{adrenocortical carcinoma}} نفكر في {{mitotane}} بعد الجراحة",
+   "لو {{pheochromocytoma}} نبدأ {{phenoxybenzamine}} قبل الجراحة"
+  ],
+  "rule": "الـ{{Cushing}} من ورم يعني {{hydrocortisone}} قبل الجراحة وبعدها"
+ },
+ "SWR-0848": {
+  "idea": [
+   "شابة عندها دوخة عند الوقوف وتصبغ في طيات الجلد و{{low morning cortisol}}، وهذا {{Addison disease}}",
+   "التأكيد يكون بـ{{ACTH (synacthen) stimulation test}}"
+  ],
+  "clues": [
+   [
+    "دوخة عند الوقوف",
+    "{{orthostatic hypotension}} من نقص {{cortisol}} و{{aldosterone}}"
+   ],
+   [
+    "تصبغ في الطيات",
+    "ارتفاع {{ACTH}} يحفز {{melanocytes}}"
+   ],
+   [
+    "{{low morning cortisol}}",
+    "شك في {{adrenal insufficiency}} ونحتاج تأكيد"
+   ]
+  ],
+  "why": [
+   "في {{primary adrenal insufficiency}} الغدة لا تستجيب لـ{{ACTH}}",
+   "فبعد إعطاء {{synacthen}} لا يرتفع {{cortisol}} كما يجب",
+   "هذا يؤكد التشخيص ثم نبحث عن السبب"
+  ],
+  "wrong": {
+   "0": "الـ{{dexamethasone suppression test}} لتشخيص {{Cushing}} وليس {{Addison}}",
+   "1": "الـ{{24-hour urinary cortisol}} لفحص {{Cushing}} أيضًا",
+   "3": "الـ{{urinary catecholamines}} لـ{{pheochromocytoma}}"
+  },
+  "change": [
+   "لو كان {{Cushing}} نستخدم {{dexamethasone suppression}} أو {{urinary cortisol}}",
+   "لو {{pheochromocytoma}} نقيس {{catecholamines}} أو {{metanephrines}}"
+  ],
+  "rule": "الـ{{Addison}} يعني {{synacthen test}}"
+ },
+ "SWR-0849": {
+  "idea": [
+   "شابة عندها دوخة عند الوقوف ونزول وزن وندبة تغمق وضغط منخفض، وهذا {{Addison}}",
+   "التأكيد بـ{{Synacthen test}}"
+  ],
+  "clues": [
+   [
+    "دوخة عند الوقوف و{{BP 90/60}}",
+    "{{hypotension}} من نقص {{cortisol}} و{{aldosterone}}"
+   ],
+   [
+    "ندبة تغمق",
+    "تصبغ من ارتفاع {{ACTH}}"
+   ],
+   [
+    "نزول وزن",
+    "علامة {{adrenal insufficiency}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Synacthen}} هو {{ACTH}} صناعي نعطيه ونقيس {{cortisol}}",
+   "في {{Addison}} لا يرتفع {{cortisol}} لأن الغدة تالفة",
+   "هذا الفحص يؤكد التشخيص"
+  ],
+  "wrong": {
+   "0": "الـ{{low-dose dexamethasone test}} لتشخيص {{Cushing}}",
+   "1": "الـ{{abdominal ultrasound}} ما يؤكد {{adrenal insufficiency}} وظيفيًا",
+   "2": "قياس {{cortisol}} لوحده قد يكون غير حاسم، فيحتاج اختبار تحفيز"
+  },
+  "change": [
+   "لو الاختبار أثبت {{adrenal insufficiency}} نبحث عن السبب بـ{{adrenal antibodies}} و{{CT}}",
+   "لو الحالة طارئة نعطي {{hydrocortisone}} قبل الاختبار"
+  ],
+  "rule": "أعراض {{Addison}} مع تصبغ يعني {{synacthen test}}"
+ },
+ "SWR-0850": {
+  "idea": [
+   "امرأة عندها دوخة عند الوقوف ونزول وزن وتصبغ عام وندبة تغمق، وهذا {{Addison}}",
+   "التأكيد بـ{{Synacthen test}}"
+  ],
+  "clues": [
+   [
+    "دوخة عند الوقوف",
+    "{{orthostatic hypotension}}"
+   ],
+   [
+    "تصبغ عام وندبة داكنة",
+    "ارتفاع {{ACTH}} مع {{hyperpigmentation}}"
+   ],
+   [
+    "نزول {{5 kg}}",
+    "علامة {{adrenal insufficiency}}"
+   ]
+  ],
+  "why": [
+   "الـ{{synacthen test}} هو الفحص التأكيدي لـ{{adrenal insufficiency}}",
+   "في {{Addison}} {{cortisol}} لا يرتفع بعد {{ACTH}}",
+   "هذا يفرق بين الفشل الأولي والطبيعي"
+  ],
+  "wrong": {
+   "1": "الـ{{abdominal ultrasound}} لا يؤكد النقص الوظيفي",
+   "2": "الـ{{low-dose dexamethasone}} لـ{{Cushing}}",
+   "3": "قياس {{AM cortisol}} لوحده قد يكون غير حاسم"
+  },
+  "change": [
+   "لو الـ{{cortisol}} الصباحي منخفض جدًا بوضوح قد يكفي للتشخيص",
+   "لو الاختبار أكد التشخيص نحدد السبب بالصور والأجسام المضادة"
+  ],
+  "rule": "تصبغ مع دوخة يعني {{synacthen test}}"
+ },
+ "SWR-0851": {
+  "idea": [
+   "مريض {{squamous cell lung cancer}} عنده {{hypercalcemia}} من {{PTHrP}}",
+   "العلاج المعتمد هو {{pamidronate}} وهو {{bisphosphonate}} وريدي"
+  ],
+  "clues": [
+   [
+    "{{squamous cell lung cancer}}",
+    "يفرز {{PTHrP}} فيرفع الكالسيوم"
+   ],
+   [
+    "{{hypercalcemia}}",
+    "طارئ يحتاج {{IV fluids}} و{{bisphosphonate}}"
+   ],
+   [
+    "{{FDA-approved}}",
+    "نختار الدواء المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{bisphosphonates}} تثبط {{osteoclasts}} فتقلل تحرر الكالسيوم من العظم",
+   "الـ{{pamidronate}} وريدي ومعتمد لـ{{hypercalcemia of malignancy}}",
+   "يبدأ مفعوله خلال أيام ويستمر أسابيع"
+  ],
+  "wrong": {
+   "0": "الـ{{calcitonin}} سريع لكن ضعيف وقصير المفعول بسبب {{tachyphylaxis}}",
+   "2": "الـ{{denosumab}} يستخدم عادة للحالات المقاومة للـ{{bisphosphonates}} وليس الأساس هنا",
+   "3": "الـ{{clodronate}} غير معتمد من {{FDA}} لهذا الاستخدام"
+  },
+  "change": [
+   "لو الحالة مقاومة للـ{{bisphosphonate}} نفكر في {{denosumab}}",
+   "لو {{renal failure}} شديد نستخدم {{denosumab}} بدل {{bisphosphonate}}"
+  ],
+  "rule": "الـ{{Malignancy hypercalcemia}} يعني {{IV fluids}} ثم {{pamidronate}}"
+ },
+ "SWR-0852": {
+  "idea": [
+   "السؤال عن دواء {{osteoporosis}} معتمد لعلاج {{malignancy-induced hypercalcemia}}",
+   "الجواب {{denosumab}}"
+  ],
+  "clues": [
+   [
+    "{{osteoporosis treatment}}",
+    "نبحث بين أدوية {{osteoporosis}}"
+   ],
+   [
+    "{{malignancy-induced hypercalcemia}}",
+    "نحتاج دواء يثبط {{osteoclasts}}"
+   ],
+   [
+    "{{FDA approval}}",
+    "{{denosumab}} معتمد لهذا الاستخدام"
+   ]
+  ],
+  "why": [
+   "الـ{{denosumab}} ضد {{RANKL}} يثبط {{osteoclasts}} فيخفض الكالسيوم",
+   "معتمد لـ{{hypercalcemia of malignancy}} المقاومة للـ{{bisphosphonates}}",
+   "الباقي ما عنده هذا الاعتماد"
+  ],
+  "wrong": {
+   "1": "الـ{{alendronate}} علاج {{osteoporosis}} فموي وليس معتمدًا للـ{{hypercalcemia}} الخبيثة",
+   "2": "الـ{{ibandronate}} لـ{{osteoporosis}} وليس لهذا الاستخدام",
+   "3": "الـ{{teriparatide}} هو {{PTH analogue}} فيرفع الكالسيوم"
+  },
+  "change": [
+   "لو السؤال عن علاج وريدي أول فـ{{pamidronate}} أو {{zoledronate}}",
+   "لو {{renal failure}} نفضل {{denosumab}}"
+  ],
+  "rule": "الـ{{denosumab}} معتمد للـ{{HCM}} المقاوم"
+ },
+ "SWR-0853": {
+  "idea": [
+   "مريض {{Wilson disease}} برعشة واصفرار و{{low ceruloplasmin}}",
+   "العلاج هو إزالة النحاس بـ{{D-penicillamine}}"
+  ],
+  "clues": [
+   [
+    "{{Wilson disease}}",
+    "تراكم {{copper}}"
+   ],
+   [
+    "{{tremor}} و{{jaundice}}",
+    "إصابة عصبية وكبدية"
+   ],
+   [
+    "{{low ceruloplasmin}}",
+    "علامة {{Wilson}}"
+   ]
+  ],
+  "why": [
+   "الـ{{D-penicillamine}} يرتبط بالنحاس ويزيد طرحه بالبول",
+   "نضيف {{pyridoxine}} لتجنب نقصه",
+   "الأدوية الثانية: {{trientine}} و{{zinc}}"
+  ],
+  "wrong": {
+   "0": "الـ{{deferoxamine}} يخلب الحديد وليس النحاس",
+   "2": "الـ{{corticosteroids}} لـ{{autoimmune hepatitis}}",
+   "3": "الـ{{ursodeoxycholic acid}} لأمراض {{cholestatic}} مثل {{PBC}}"
+  },
+  "change": [
+   "لو الحالة {{iron overload}} نستخدم {{deferoxamine}}",
+   "لو {{acute liver failure}} نفكر في {{liver transplant}}"
+  ],
+  "rule": "الـ{{Wilson}} يعني {{chelation}} بالـ{{D-penicillamine}}"
+ },
+ "SWR-0854": {
+  "idea": [
+   "مريض عمره {{63}} ضعف جانب أيسر منذ {{2 hours}} و{{CT}} بدون نزيف و{{BP 160/95}}",
+   "يحق له {{thrombolysis}} لأنه ضمن النافذة والضغط تحت الحد"
+  ],
+  "clues": [
+   [
+    "بدأ منذ {{2 hours}}",
+    "ضمن {{4.5 hours}}"
+   ],
+   [
+    "{{CT}} بدون {{hemorrhage}}",
+    "{{ischemic stroke}} محتمل"
+   ],
+   [
+    "{{BP 160/95}}",
+    "أقل من {{185/110}} فلا يمنع العلاج"
+   ]
+  ],
+  "why": [
+   "الـ{{tPA}} يذيب الجلطة ويحسن النتيجة لو أعطي ضمن {{4.5 hours}}",
+   "الضغط لازم يكون أقل من {{185/110}} قبل الإعطاء وهو كذلك",
+   "الوقت أهم عامل، فلا نؤخر"
+  ],
+  "wrong": {
+   "0": "الـ{{aspirin}} لوحده لا يكفي لمن يستحق {{thrombolysis}} ويؤجل لما بعد مدة",
+   "2": "الضغط مقبول فلا حاجة لضبطه فقط",
+   "3": "المراقبة فقط تضيع الوقت، والـ{{time is brain}}"
+  },
+  "change": [
+   "لو الـ{{CT}} أظهر نزيف فلا {{thrombolysis}}",
+   "لو الضغط {{190/115}} نخفضه أولًا ثم نعطي {{tPA}}"
+  ],
+  "rule": "الـ{{ischemic stroke}} ضمن {{4.5 hours}} يعني {{thrombolysis}}",
+  "note": "السؤال ما ذكر موانع أخرى، فالجواب معتمد على الصورة السريرية"
+ },
+ "SWR-0855": {
+  "idea": [
+   "شاب {{24}} سنة ضعف متدرج متماثل في الأطراف بعد أسبوعين من {{gastroenteritis}} مع غياب المنعكسات",
+   "هذا {{Guillain-Barré syndrome}}"
+  ],
+  "clues": [
+   [
+    "{{ascending symmetric weakness}}",
+    "نمط {{GBS}}"
+   ],
+   [
+    "بعد {{gastroenteritis}} بأسبوعين",
+    "عدوى سابقة بـ{{Campylobacter}} غالبًا"
+   ],
+   [
+    "{{absent reflexes}}",
+    "{{areflexia}} علامة أساسية"
+   ]
+  ],
+  "why": [
+   "الـ{{GBS}} هو {{demyelinating polyneuropathy}} مناعي بعد عدوى",
+   "يسبب ضعف صاعد وفقد منعكسات مع حس قليل",
+   "يحتاج مراقبة التنفس والعلاج بـ{{IVIG}} أو {{plasmapheresis}}"
+  ],
+  "wrong": {
+   "0": "الـ{{myasthenia gravis}} ضعف يتعب مع الجهد وتبقى المنعكسات طبيعية",
+   "2": "الـ{{multiple sclerosis}} إصابة مركزية مع {{hyperreflexia}} وليس بعد عدوى",
+   "3": "الـ{{transverse myelitis}} مستوى حسي وبول وفرط منعكسات"
+  },
+  "change": [
+   "لو الضعف يتعب مع الحركة فـ{{myasthenia gravis}}",
+   "لو في {{sensory level}} و{{bladder}} فـ{{transverse myelitis}}"
+  ],
+  "rule": "ضعف صاعد وغياب منعكسات بعد عدوى يعني {{GBS}}"
+ },
+ "SWR-0858": {
+  "idea": [
+   "مريض {{COPD}} مع التهاب رئة على {{oxygen 4 L/min}} صار نعسان بعد ساعات",
+   "السبب غالبًا {{oxygen-induced hypercapnia}} فنخفض الأكسجين"
+  ],
+  "clues": [
+   [
+    "{{COPD}} على {{nasal oxygen 4 L/min}}",
+    "أكسجين عالي لمريض يحتبس {{CO2}}"
+   ],
+   [
+    "نعسان بعد ساعات",
+    "علامة {{CO2 narcosis}}"
+   ],
+   [
+    "{{lab results}} غير ظاهرة",
+    "الجواب معتمد على الصورة السريرية"
+   ]
+  ],
+  "why": [
+   "الأكسجين الزائد يضعف {{hypoxic drive}} ويزيد {{V/Q mismatch}} فيرتفع {{PaCO2}}",
+   "العلاج السريع هو تخفيض الأكسجين لهدف {{SpO2 88-92%}}",
+   "هذا يعالج السبب مباشرة"
+  ],
+  "wrong": {
+   "0": "الـ{{NIV}} يستخدم لو بقي {{respiratory acidosis}} بعد ضبط الأكسجين وليس أول خطوة",
+   "1": "الـ{{ipratropium}} موسع قصبات ولا يعالج سبب النعاس",
+   "3": "زيادة {{salbutamol}} لا تعالج احتباس {{CO2}} وقد تسبب {{tachycardia}}"
+  },
+  "change": [
+   "لو بقي {{pH}} منخفض رغم تخفيض الأكسجين نبدأ {{NIV}}",
+   "لو {{SpO2}} منخفض جدًا بعد التخفيض نعدل حسب الهدف"
+  ],
+  "rule": "الـ{{COPD}} ونعسان على أكسجين عالي يعني نخفض {{O2}}",
+  "note": "قيم المختبر غير موجودة بالنص، والجواب معتمد على الصورة السريرية"
+ }
+}
