@@ -1,0 +1,673 @@
+{
+ "Q101": {
+  "idea": [
+   "مريض عمره {{35}} عنده {{lethargy}} و{{weight loss}} و{{headache}} من {{3 months}} و{{PCR}} إيجابي لـ{{TB}}",
+   "فالعلاج {{4-drug anti-TB}} مع {{dexamethasone}}"
+  ],
+  "clues": [
+   [
+    "الـ{{headache}} مع {{lethargy}} و{{weight loss}} لمدة {{3 months}}",
+    "يعني {{subacute TB meningitis}}"
+   ],
+   [
+    "الـ{{PCR}} إيجابي لـ{{Mycobacterium tuberculosis}}",
+    "يعني {{confirmed diagnosis}}"
+   ],
+   [
+    "تفاصيل التحاليل ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{TB meningitis}} نعالجه بـ{{4 anti-TB drugs}}",
+   "ونضيف {{dexamethasone}} لأنه {{reduces mortality and neurological complications}}",
+   "وهو {{proven add-on}}"
+  ],
+  "wrong": {
+   "0": "الـ{{4 drugs}} لحالها {{less benefit}} بدون {{steroid}}",
+   "1": "الـ{{diuretics}} ما لها دور",
+   "2": "الـ{{acyclovir}} لـ{{herpes encephalitis}}"
+  },
+  "change": [
+   "لو ما فيه {{meningitis}} فالعلاج بدون {{dexamethasone}}",
+   "لو {{hydrocephalus}} نضيف {{surgical treatment}}"
+  ],
+  "rule": "الـ{{TB meningitis}} يعني {{4 anti-TB drugs}} مع {{dexamethasone}}"
+ },
+ "Q102": {
+  "idea": [
+   "ممرضة عمرها {{29}} بدون أعراض و{{PPD 12 mm}}",
+   "فهذا {{latent TB}} والعلاج {{INH}} لمدة {{6 months}}"
+  ],
+  "clues": [
+   [
+    "لو بدون أعراض و{{normal exam}}",
+    "فما عندها {{active disease}}"
+   ],
+   [
+    "الـ{{PPD 12 mm}} عند {{healthcare worker}}",
+    "يعني {{positive}} لأنه {{≥10 mm}}"
+   ]
+  ],
+  "why": [
+   "الـ{{positive PPD}} مع غياب {{active disease}} يعني {{latent TB}}",
+   "والعلاج {{isoniazid 300 mg daily for 6 months}}",
+   "وهذا {{reduces risk of progression to active disease}}"
+  ],
+  "wrong": {
+   "0": "الـ{{result}} إيجابية ونحتاج علاج",
+   "1": "الـ{{3 months}} ما تكفي لـ{{INH}} لحاله",
+   "3": "الـ{{3 drugs}} لـ{{active disease}} مو {{latent TB}}"
+  },
+  "change": [
+   "لو أعراض أو {{abnormal X-ray}} فنرتب {{active TB}} و{{4-drug therapy}}",
+   "البديل {{rifampin for 4 months}}"
+  ],
+  "rule": "الـ{{positive PPD}} بدون {{active disease}} يعني {{INH for 6 months}}"
+ },
+ "Q103": {
+  "idea": [
+   "سيدة عمرها {{48}} عندها {{pyelonephritis}} وما تحسنت بعد {{5 days}} رغم {{appropriate antibiotic}}",
+   "فنسوي {{kidney ultrasound}} للبحث عن {{complication}}"
+  ],
+  "clues": [
+   [
+    "الـ{{persistent fever}} بعد {{5 days}}",
+    "يعني {{treatment failure}}"
+   ],
+   [
+    "الـ{{culture}} فيها {{E. coli}} {{sensitive}} للمضاد",
+    "يعني المضاد مناسب"
+   ],
+   [
+    "الـ{{flank pain}}",
+    "يعني نشك بـ{{abscess}} أو {{obstruction}}"
+   ],
+   [
+    "تفاصيل التقرير ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{persistent fever}} مع {{appropriate antibiotic}} يعني {{complication}}",
+   "مثل {{abscess}} أو {{obstruction}} أو {{stone}}",
+   "وأول فحص {{ultrasound}} أو {{CT}}"
+  ],
+  "wrong": {
+   "1": "الـ{{antibiotic}} مناسب حسب {{sensitivity}}",
+   "2": "الـ{{culture}} معروفة وما تضيف",
+   "3": "الـ{{observation}} تؤخر تشخيص {{complication}}"
+  },
+  "change": [
+   "لو {{ultrasound}} غير واضح فنسوي {{CT}}",
+   "لو {{obstruction}} فنسوي {{drainage}}"
+  ],
+  "rule": "الـ{{pyelonephritis}} بدون استجابة بعد {{72 hours}} يعني نسوي {{imaging}}"
+ },
+ "Q104": {
+  "idea": [
+   "حامل بالأسبوع {{33}} بدون أعراض و{{urine culture}} إيجابي لـ{{E. coli}}",
+   "فهذا {{asymptomatic bacteriuria}} والعلاج {{amoxicillin}}"
+  ],
+  "clues": [
+   [
+    "لو حامل بدون أعراض",
+    "فهذا {{asymptomatic bacteriuria}}"
+   ],
+   [
+    "الـ{{E. coli culture}} إيجابي",
+    "يعني نعالج بالحمل"
+   ],
+   [
+    "تفاصيل التحاليل والتقرير ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{asymptomatic bacteriuria}} بالحمل نعالجها دائمًا",
+   "لأنها تؤدي لـ{{pyelonephritis}} و{{preterm labor}}",
+   "والـ{{amoxicillin}} {{safe}} و{{sensitive}} حسب {{culture}}"
+  ],
+  "wrong": {
+   "1": "الـ{{gentamicin}} نتجنبه بالحمل",
+   "2": "الـ{{observation}} خطر بالحمل",
+   "3": "الـ{{nitrofurantoin}} نتجنبه بـ{{third trimester}}"
+  },
+  "change": [
+   "لو {{non-pregnant}} وبدون أعراض فما نعالج",
+   "لو أعراض فهذا {{cystitis}}"
+  ],
+  "rule": "الـ{{bacteriuria}} بالحمل نعالجها حتى بدون أعراض"
+ },
+ "Q105": {
+  "idea": [
+   "رجل عمره {{35}} عنده {{fever}} و{{night sweats}} و{{joint and back pain}} وشرب {{unpasteurized milk}} و{{blood culture}} سلبي",
+   "فنطلب {{serology}} لـ{{brucellosis}}"
+  ],
+  "clues": [
+   [
+    "الـ{{unpasteurized milk}}",
+    "يعني {{Brucella}}"
+   ],
+   [
+    "الـ{{fever}} و{{night sweats}} و{{joint pain}}",
+    "يعني أعراض {{brucellosis}}"
+   ],
+   [
+    "الـ{{blood culture}} سلبي",
+    "فالـ{{culture}} ما يستبعد المرض"
+   ],
+   [
+    "تفاصيل التحاليل ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{brucellosis}} نشخصه بـ{{serology}} مثل {{Rose Bengal}} و{{SAT}}",
+   "والـ{{culture}} {{low sensitivity}} وتحتاج وقت طويل",
+   "فنطلب الفحص المناسب مباشرة"
+  ],
+  "wrong": {
+   "0": "الـ{{liver biopsy}} غير ضرورية",
+   "1": "الـ{{bone marrow biopsy}} لحالات خاصة",
+   "2": "الـ{{repeat culture}} أقل فايدة"
+  },
+  "change": [
+   "لو {{strong suspicion}} نبدأ العلاج بعد الفحص",
+   "العلاج {{doxycycline}} مع {{rifampin}}"
+  ],
+  "rule": "الـ{{unpasteurized milk}} مع {{fever}} و{{bone pain}} يعني {{Brucella serology}}"
+ },
+ "Q106": {
+  "idea": [
+   "مريضة عمرها {{33}} بعد حادث مع {{urinary catheter}} و{{urine culture}} فيه {{Candida}} بدون أعراض",
+   "فما نعطي {{antifungal}}"
+  ],
+  "clues": [
+   [
+    "لو بدون أعراض أو {{fever}}",
+    "فهذا {{colonization}}"
+   ],
+   [
+    "الـ{{urinary catheter}}",
+    "سبب شائع لوجود {{Candida}}"
+   ]
+  ],
+  "why": [
+   "الـ{{asymptomatic candiduria}} غالبًا {{colonization}}",
+   "نشيل {{catheter}} بس ما نعطي علاج",
+   "نعالج فقط لو {{fever}} أو {{immunosuppression}} أو {{urinary procedure}}"
+  ],
+  "wrong": {
+   "0": "الـ{{fluconazole}} لـ{{symptomatic cases}} فقط",
+   "1": "الـ{{caspofungin}} لـ{{bloodstream infection}}",
+   "2": "الـ{{amphotericin B}} لـ{{severe cases}}"
+  },
+  "change": [
+   "لو أعراض أو {{neutropenia}} فنعالج",
+   "نشيل {{catheter}} لو ممكن"
+  ],
+  "rule": "الـ{{asymptomatic candiduria}} يعني ما نعالج"
+ },
+ "Q107": {
+  "idea": [
+   "شاب عمره {{22}} عنده {{dysuria}} و{{urethral discharge}} بعد علاقة جديدة",
+   "فهذا {{urethritis}} والعلاج {{azithromycin}} حسب الجواب المعتمد"
+  ],
+  "clues": [
+   [
+    "الـ{{urethral discharge}} مع {{dysuria}}",
+    "يعني {{sexually transmitted urethritis}}"
+   ],
+   [
+    "لو علاقة جديدة",
+    "فنفكر بـ{{STI}}"
+   ],
+   [
+    "لو بدون {{fever}}",
+    "فهذا {{simple uncomplicated infection}}"
+   ]
+  ],
+  "why": [
+   "نغطي {{Chlamydia}} بـ{{azithromycin}}",
+   "وحسب الجواب المعتمد هذا الأنسب هنا",
+   "وعادة نغطي {{gonorrhea}} أيضًا بـ{{ceftriaxone}}"
+  ],
+  "wrong": {
+   "0": "الـ{{gentamicin}} ما نستخدمه لـ{{urethritis}}",
+   "2": "الـ{{ceftriaxone}} يغطي {{gonorrhea}} بس لحاله ما يغطي {{Chlamydia}}",
+   "3": "الـ{{nitrofurantoin}} لـ{{bladder infection}}"
+  },
+  "change": [
+   "لو {{Gram stain}} يبين {{diplococci}} فنضيف {{ceftriaxone}}",
+   "الأفضل نعالج {{both}} معًا"
+  ],
+  "rule": "الـ{{urethritis}} يعني نغطي {{Chlamydia}} بـ{{azithromycin}}",
+  "note": "الجواب حسب الملف المعتمد، وبالممارسة نغطي {{gonorrhea}} و{{Chlamydia}} معًا"
+ },
+ "Q108": {
+  "idea": [
+   "شابة بـ{{acute uncomplicated pyelonephritis}} بالطوارئ",
+   "فنعالجها كـ{{outpatient}} بـ{{ciprofloxacin}}"
+  ],
+  "clues": [
+   [
+    "لو شابة بدون أمراض",
+    "فهذه {{uncomplicated case}}"
+   ],
+   [
+    "الـ{{acute pyelonephritis}}",
+    "يعني ممكن {{oral treatment}}"
+   ]
+  ],
+  "why": [
+   "الـ{{uncomplicated pyelonephritis}} نعالجها كـ{{outpatient}}",
+   "بـ{{oral antibiotic}} مثل {{ciprofloxacin}}",
+   "لو تتحمل الفم وما فيه {{admission criteria}}"
+  ],
+  "wrong": {
+   "1": "الـ{{clarithromycin}} ما يغطي {{enteric gram-negatives}}",
+   "2": "الـ{{carbapenem}} واسع جدًا لحالة بسيطة",
+   "3": "الـ{{admission}} مع {{vancomycin}} غير ضروري"
+  },
+  "change": [
+   "لو {{vomiting}} أو {{shock}} نبقى بالمستشفى",
+   "لو {{pregnant}} فنسوي {{admission}}"
+  ],
+  "rule": "الـ{{uncomplicated pyelonephritis}} يعني {{outpatient fluoroquinolone}}"
+ },
+ "Q109": {
+  "idea": [
+   "مريض {{diabetic}} مدخن عمره {{45}} بـ{{pneumonia}} بالفص الأيمن السفلي",
+   "وحسب الجواب المعتمد نعالج {{outpatient}} بـ{{cefuroxime}} مع {{azithromycin}}"
+  ],
+  "clues": [
+   [
+    "الـ{{fever}} و{{cough}} مع {{yellow sputum}}",
+    "يعني {{pneumonia}}"
+   ],
+   [
+    "الـ{{diabetes}}",
+    "يعني {{risk factor}} ونحتاج {{broader coverage}}"
+   ],
+   [
+    "تفاصيل التقرير ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{stable CAP}} نعالجها {{outpatient}}",
+   "ومع {{comorbidity}} نستخدم {{beta-lactam}} مع {{macrolide}}",
+   "ومنها {{cefuroxime}} و{{azithromycin}}"
+  ],
+  "wrong": {
+   "0": "الـ{{admission}} مع {{ceftriaxone}} يحتاج {{higher severity}}",
+   "1": "الـ{{amoxicillin}} لحاله ما يكفي مع {{comorbidity}}",
+   "2": "الـ{{azithromycin}} وحده ما يكفي مع {{comorbidity}}"
+  },
+  "change": [
+   "لو {{CURB-65}} مرتفع فندخل",
+   "لو {{hypoxia}} فنعالج بالمستشفى"
+  ],
+  "rule": "الـ{{stable CAP}} مع {{comorbidity}} يعني {{outpatient}} بـ{{beta-lactam}} و{{macrolide}}",
+  "note": "القرار حسب الجواب المعتمد، وبعض الإرشادات تقترح {{another option}}"
+ },
+ "Q110": {
+  "idea": [
+   "مريض نشك فيه بقوة بـ{{pulmonary TB}} بالطوارئ",
+   "فالاحتياط المناسب {{airborne precautions}}"
+  ],
+  "clues": [
+   [
+    "لو نشك بـ{{pulmonary TB}}",
+    "فهو {{airborne transmission}}"
+   ]
+  ],
+  "why": [
+   "الـ{{pulmonary TB}} ينتقل بـ{{small airborne droplet nuclei}}",
+   "فنحتاج {{airborne precautions}} و{{negative pressure room}}",
+   "مع {{N95 mask}} للكادر"
+  ],
+  "wrong": {
+   "0": "الـ{{standard precautions}} لحاله ما يكفي",
+   "1": "الـ{{droplet precautions}} لـ{{influenza}} و{{meningococcus}}",
+   "2": "الـ{{contact precautions}} لـ{{scabies}} وغيره"
+  },
+  "change": [
+   "لو {{extrapulmonary TB}} فـ{{standard precautions}}",
+   "لو {{measles}} أو {{varicella}} فأيضًا {{airborne}}"
+  ],
+  "rule": "الـ{{pulmonary TB}} يعني {{airborne precautions}}"
+ },
+ "Q111": {
+  "idea": [
+   "شاب {{sexually active}} مع أعراض تدل على {{gonorrhea}}",
+   "فأنسب فحص {{urethral swab}}"
+  ],
+  "clues": [
+   [
+    "الـ{{gonorrhea symptoms}}",
+    "يعني {{urethritis}}"
+   ],
+   [
+    "لو {{sexually active}}",
+    "فالمصدر {{urethra}}"
+   ]
+  ],
+  "why": [
+   "الـ{{gonorrhea}} نشخصه بـ{{urethral swab}} لـ{{culture}} أو {{NAAT}}",
+   "أو {{urine NAAT}}",
+   "وهذا أدق فحص مباشر"
+  ],
+  "wrong": {
+   "0": "الـ{{blood culture}} لـ{{disseminated infection}}",
+   "1": "الـ{{urine culture}} أقل {{sensitivity}}",
+   "3": "الـ{{vesicle swab}} لـ{{herpes}}"
+  },
+  "change": [
+   "لو {{arthritis}} فنسوي {{joint fluid culture}}",
+   "نفحص {{Chlamydia}} معها"
+  ],
+  "rule": "الـ{{gonorrhea}} يعني {{urethral swab}} لـ{{culture}} أو {{NAAT}}"
+ },
+ "Q112": {
+  "idea": [
+   "رجل عمره {{60}} عنده {{prosthetic mitral valve}} و{{endocarditis}} بـ{{MRSA}}",
+   "فالأنسب {{vancomycin}} مع {{rifampin}} و{{gentamicin}}"
+  ],
+  "clues": [
+   [
+    "الـ{{prosthetic valve}}",
+    "يعني {{prosthetic valve endocarditis}}"
+   ],
+   [
+    "الـ{{MRSA}}",
+    "فنحتاج {{vancomycin}}"
+   ],
+   [
+    "تفاصيل التقرير ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{prosthetic valve endocarditis}} بـ{{staphylococci}} نعالجها بـ{{3 drugs}}",
+   "وهي {{vancomycin}} مع {{rifampin}} مع {{gentamicin}}",
+   "وهذا {{guideline-recommended regimen}}"
+  ],
+  "wrong": {
+   "0": "لو بدون {{gentamicin}} فما يكفي",
+   "1": "لو بدون {{rifampin}} فما يكفي",
+   "2": "الـ{{ceftriaxone}} ما يغطي {{MRSA}}"
+  },
+  "change": [
+   "لو {{native valve}} فـ{{vancomycin}} لحاله",
+   "نقيّم {{surgery}}"
+  ],
+  "rule": "الـ{{MRSA}} مع {{prosthetic valve}} يعني {{vancomycin}} و{{rifampin}} و{{gentamicin}}"
+ },
+ "Q113": {
+  "idea": [
+   "مريض عمره {{60}} عنده {{chest pain}} من {{3 hours}} مع {{new LBBB}}",
+   "فهذا {{STEMI equivalent}} ونعطي {{thrombolytic}}"
+  ],
+  "clues": [
+   [
+    "الـ{{persistent chest pain}} مع {{sweating}}",
+    "يعني {{ACS}}"
+   ],
+   [
+    "الـ{{new LBBB}} مع {{previous normal ECG}}",
+    "يعتبر {{STEMI equivalent}}"
+   ],
+   [
+    "الـ{{cardiac enzymes}} معلقة",
+    "فما ننتظرها"
+   ]
+  ],
+  "why": [
+   "الـ{{new LBBB}} مع {{chest pain}} نعامله مثل {{STEMI}}",
+   "الوقت مهم فنعطي {{thrombolytic}} أو {{PCI}}",
+   "ولا ننتظر {{enzymes}}"
+  ],
+  "wrong": {
+   "0": "الـ{{lidocaine}} ما نعطيه {{prophylactically}}",
+   "1": "الـ{{stress test}} ممنوع بالحالة الحادة",
+   "3": "الـ{{waiting}} يضيع الوقت"
+  },
+  "change": [
+   "لو {{PCI}} متاح بسرعة فنفضله",
+   "لو {{contraindications}} للـ{{thrombolytic}} فنستخدم {{PCI}}"
+  ],
+  "rule": "الـ{{new LBBB}} مع {{chest pain}} يعني {{STEMI equivalent}}"
+ },
+ "Q114": {
+  "idea": [
+   "رجل عمره {{44}} عنده {{dyspnea}} و{{early diastolic murmur}} تزيد بـ{{inspiration}}",
+   "فالسبب {{pulmonary regurgitation}}"
+  ],
+  "clues": [
+   [
+    "الـ{{early diastolic murmur}}",
+    "يعني {{regurgitation}}"
+   ],
+   [
+    "لو تزيد بـ{{inspiration}}",
+    "فهذا {{right-sided heart}}"
+   ]
+  ],
+  "why": [
+   "الـ{{right-sided murmurs}} تزيد بـ{{inspiration}}",
+   "ومنها {{pulmonary regurgitation}}",
+   "بينما {{left-sided murmurs}} تزيد بـ{{expiration}}"
+  ],
+  "wrong": {
+   "0": "الـ{{MR}} هي {{systolic}}",
+   "1": "الـ{{AR}} هي {{diastolic}} بس ما تزيد بـ{{inspiration}}",
+   "2": "الـ{{TR}} هي {{systolic}}"
+  },
+  "change": [
+   "لو تزيد بـ{{expiration}} فهي {{left-sided}}",
+   "الـ{{Graham Steell murmur}} مع {{pulmonary hypertension}}"
+  ],
+  "rule": "الـ{{early diastolic murmur}} تزيد بـ{{inspiration}} يعني {{pulmonary regurgitation}}"
+ },
+ "Q115": {
+  "idea": [
+   "سيدة عندها {{ILD}} مع {{raised JVP}} و{{prominent v wave}} و{{pulsatile hepatomegaly}}",
+   "فالأقرب {{tricuspid regurgitation}}"
+  ],
+  "clues": [
+   [
+    "الـ{{prominent v wave}}",
+    "يعني {{TR}}"
+   ],
+   [
+    "الـ{{pulsatile liver}}",
+    "يعني {{TR}} مميز"
+   ],
+   [
+    "الـ{{loud P2}} و{{parasternal heave}}",
+    "يعني {{pulmonary hypertension}} و{{RV hypertrophy}}"
+   ]
+  ],
+  "why": [
+   "الـ{{ILD}} يسبب {{pulmonary hypertension}}",
+   "وهذا يسبب {{RV dilation}} و{{TR}}",
+   "وهذا يفسر {{right-sided signs}}"
+  ],
+  "wrong": {
+   "0": "الـ{{MR}} علاماتها {{left-sided}}",
+   "1": "الـ{{AR}} علاماتها {{peripheral}}",
+   "3": "الـ{{PR}} ممكن بس العلامات تدل على {{TR}}"
+  },
+  "change": [
+   "لو {{TR murmur}} فتزيد بـ{{inspiration}}",
+   "لو {{severe right heart failure}} نعالج السبب"
+  ],
+  "rule": "الـ{{prominent v wave}} مع {{pulsatile liver}} يعني {{tricuspid regurgitation}}"
+ },
+ "Q116": {
+  "idea": [
+   "رجل عمره {{65}} استفاق بعد ساعتين بـ{{aphasia}} و{{right-sided weakness}}",
+   "فنعطي {{rtPA}} مباشرة"
+  ],
+  "clues": [
+   [
+    "لو استفاق بالعجز",
+    "فوقت البداية غير مؤكد حسب الجواب المعتمد"
+   ],
+   [
+    "الـ{{right weakness 2/5}}",
+    "يعني {{significant stroke}}"
+   ],
+   [
+    "الصورة ما هي موجودة بالبطاقة",
+    "نعتمد على الجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{ischemic stroke}} بـ{{short time window}} نعطي {{rtPA}}",
+   "بعد استبعاد {{hemorrhage}} بالـ{{CT}}",
+   "وهذا {{reduces disability}}"
+  ],
+  "wrong": {
+   "0": "الـ{{clopidogrel}} ما يكفي بالحالة الحادة",
+   "1": "الـ{{rivaroxaban}} ما يستخدم",
+   "2": "الـ{{aspirin}} نعطيه لو ما نعطي {{rtPA}}"
+  },
+  "change": [
+   "لو {{hemorrhage}} فنستبعد {{rtPA}}",
+   "لو خارج {{window}} نعطي {{aspirin}}"
+  ],
+  "rule": "الـ{{ischemic stroke}} بـ{{appropriate window}} يعني {{rtPA}}",
+  "note": "بالواقع لو استفاق بالعجز فنحتاج {{MRI}} لتحديد الوقت، والجواب حسب الملف"
+ },
+ "Q117": {
+  "idea": [
+   "سيدة عمرها {{73}} عندها {{cirrhosis}} و{{heart problems}} و{{altered consciousness}} مع {{raised JVP}} و{{edema}}",
+   "فنعطي {{furosemide}}"
+  ],
+  "clues": [
+   [
+    "الـ{{raised JVP}} و{{ascites}} و{{edema}}",
+    "يعني {{volume overload}}"
+   ],
+   [
+    "الـ{{altered consciousness}}",
+    "يعني غالبًا {{hyponatremia}} بسبب الحجم"
+   ],
+   [
+    "تفاصيل التحاليل ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "المريضة عندها {{volume overload}} مع {{hypervolemic hyponatremia}}",
+   "فنعطي {{furosemide}} لإخراج الماء",
+   "ولا نعطي {{extra fluids}}"
+  ],
+  "wrong": {
+   "1": "الـ{{saline}} يزيد الحجم",
+   "2": "الـ{{0.45% saline}} يخفف {{sodium}} أكثر",
+   "3": "الـ{{D5}} يزيد {{free water}}"
+  },
+  "change": [
+   "لو {{volume depletion}} نعطي {{saline}}",
+   "لو {{SIADH}} نقيد {{fluids}}"
+  ],
+  "rule": "الـ{{volume overload}} مع {{hyponatremia}} يعني {{furosemide}} و{{fluid restriction}}"
+ },
+ "Q118": {
+  "idea": [
+   "رجل عمره {{63}} عنده {{diabetes}} و{{CKD stage IV}} مع {{fatigue}} وبدون أعراض أخرى",
+   "فنبدأ {{erythropoietin}}"
+  ],
+  "clues": [
+   [
+    "الـ{{CKD IV}}",
+    "يعني {{anemia of CKD}}"
+   ],
+   [
+    "لو {{stable}}",
+    "فما يحتاج {{blood transfusion}}"
+   ],
+   [
+    "تفاصيل التحاليل ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{anemia}} بـ{{CKD}} سببها {{EPO deficiency}}",
+   "نعطي {{erythropoietin}} بعد التأكد من {{iron}}",
+   "وما نعطي {{blood}} لو {{stable}}"
+  ],
+  "wrong": {
+   "0": "الـ{{observation}} تترك الأعراض",
+   "1": "الـ{{iron}} لو {{iron deficiency}} فقط",
+   "3": "الـ{{transfusion}} لو {{severe symptoms}}"
+  },
+  "change": [
+   "لو {{iron deficiency}} نصححه أولًا",
+   "لو {{very low Hb}} مع أعراض ننقل {{blood}}"
+  ],
+  "rule": "الـ{{CKD}} مع {{anemia}} يعني {{erythropoietin}} بعد {{iron}}"
+ },
+ "Q119": {
+  "idea": [
+   "رجل عمره {{70}} عنده {{cirrhosis}} و{{esophageal varices}} بعد {{banding}}",
+   "فأفضل وقاية طويلة {{beta blocker}}"
+  ],
+  "clues": [
+   [
+    "الـ{{variceal ligation}} قبل شهر",
+    "فنمنع {{recurrent bleeding}}"
+   ]
+  ],
+  "why": [
+   "الـ{{beta blocker}} يخفض {{portal pressure}}",
+   "ويقلل خطر {{rebleeding}}",
+   "ونضيفه للـ{{banding}}"
+  ],
+  "wrong": {
+   "1": "الـ{{H2 blocker}} ما يؤثر على {{varices}}",
+   "2": "الـ{{PPI}} للـ{{ulcers}} مو {{varices}}",
+   "3": "لو بدون وقاية فخطر {{bleeding}}"
+  },
+  "change": [
+   "نستخدم {{propranolol}} أو {{carvedilol}}",
+   "لو ما يتحمل فنكرر {{banding}}"
+  ],
+  "rule": "الـ{{varices}} بعد {{bleeding}} يعني {{beta blocker}} مع {{banding}}"
+ },
+ "Q120": {
+  "idea": [
+   "سيدة عمرها {{33}} عندها {{asthma}} و{{nocturnal cough}} على {{salbutamol}} فقط",
+   "فنضيف {{inhaled steroid}} مثل {{budesonide}}"
+  ],
+  "clues": [
+   [
+    "الـ{{nocturnal symptoms}}",
+    "يعني {{uncontrolled asthma}}"
+   ],
+   [
+    "لو على {{SABA}} فقط",
+    "فنحتاج {{controller}}"
+   ]
+  ],
+  "why": [
+   "الـ{{inhaled corticosteroid}} هو {{main controller therapy}}",
+   "فنضيف {{budesonide}}",
+   "ولا نعتمد على {{SABA}} لحاله"
+  ],
+  "wrong": {
+   "0": "الـ{{montelukast}} إضافة لاحقة",
+   "2": "الـ{{oral prednisone}} لـ{{severe attacks}}",
+   "3": "الـ{{ipratropium}} لـ{{acute cases}}"
+  },
+  "change": [
+   "لو ما سيطر نرفع الجرعة أو نضيف {{LABA}}",
+   "لو {{attack}} نعطي {{prednisone}}"
+  ],
+  "rule": "الـ{{uncontrolled asthma}} يعني {{inhaled steroid}}"
+ }
+}

@@ -1,0 +1,578 @@
+{
+ "Q422": {
+  "idea": [
+   "أم {{G7 P6}} نزفت بعد الولادة",
+   "فالسبب {{grand parity}}"
+  ],
+  "clues": [
+   [
+    "لو {{G7 P6}}",
+    "يعني {{grand multiparity}}"
+   ]
+  ],
+  "why": [
+   "الـ{{grand parity}} يعطي {{uterine atony}}",
+   "فيزيد {{risk of PPH}}",
+   "وهذا عامل الخطر هنا"
+  ],
+  "wrong": {
+   "1": "الـ{{7 hours of labor}} يعني {{normal labor duration}}",
+   "2": "الـ{{3000 g}} يعني {{normal birth weight}}",
+   "3": "الـ{{labor}} هنا {{not precipitous}}"
+  },
+  "change": [
+   "نجهز {{uterotonics}}",
+   "ونراقب {{blood loss}}"
+  ],
+  "rule": "الـ{{Grand parity}} يعني {{risk of PPH}}"
+ },
+ "Q423": {
+  "idea": [
+   "أم ولدت بعد ساعتين فقط ونزفت",
+   "فالسبب {{precipitous labor}}"
+  ],
+  "clues": [
+   [
+    "لو {{2 hours of labor}}",
+    "يعني {{precipitous labor}}"
+   ]
+  ],
+  "why": [
+   "الـ{{precipitous labor}} ما يعطي الرحم وقت",
+   "فيحدث {{atony}} و{{lacerations}}",
+   "وهذا عامل الخطر"
+  ],
+  "wrong": {
+   "0": "الـ{{G2 P1}} يعني {{low parity}}",
+   "1": "الـ{{labor}} هنا {{short not prolonged}}",
+   "2": "الـ{{3000 g}} يعني {{normal weight}}"
+  },
+  "change": [
+   "نفحص {{lacerations}}",
+   "ونعطي {{oxytocin}}"
+  ],
+  "rule": "الـ{{Precipitous labor}} يعني {{risk of PPH}}"
+ },
+ "Q424": {
+  "idea": [
+   "أم بنزف غزير بعد الولادة",
+   "فنبدأ بـ{{call for help}} و{{cross-matched blood}}"
+  ],
+  "clues": [
+   [
+    "لو {{heavy bleeding after placental delivery}}",
+    "يعني {{PPH}}"
+   ]
+  ],
+  "why": [
+   "الخطوة الأولى {{call for help}}",
+   "مع تجهيز {{cross-matched blood}}",
+   "وبعدها نعالج {{the cause}}"
+  ],
+  "wrong": {
+   "0": "الـ{{O negative}} فقط لـ{{extreme emergency}}",
+   "1": "الـ{{blood tests}} وحدها تؤخر",
+   "2": "الـ{{surgery}} بعد فشل {{medical measures}}"
+  },
+  "change": [
+   "نعطي {{oxytocin}}",
+   "ونسوي {{uterine massage}}"
+  ],
+  "rule": "الـ{{PPH}} يعني {{call for help}} و{{cross-matched blood}} أول"
+ },
+ "Q425": {
+  "idea": [
+   "أم بنزف ونحتاج دواء مناسب",
+   "فنعطي {{misoprostol}}"
+  ],
+  "clues": [
+   [
+    "لو {{PPH}} بعد الولادة",
+    "يعني غالبًا {{atony}}"
+   ],
+   [
+    "فنحتاج",
+    "{{uterotonic}}"
+   ]
+  ],
+  "why": [
+   "الـ{{misoprostol}} هو {{uterotonic}}",
+   "ويفيد في {{uterine atony}}",
+   "والباقي ما يعالج {{PPH}}"
+  ],
+  "wrong": {
+   "0": "الـ{{propofol}} هو {{anesthetic}}",
+   "2": "الـ{{dexamethasone}} ما يفيد {{atony}}",
+   "3": "الـ{{MgSO4}} هو {{seizure prophylaxis}}"
+  },
+  "change": [
+   "الـ{{oxytocin}} هو {{first line}}",
+   "ومعه {{carboprost}}"
+  ],
+  "rule": "الـ{{PPH}} يعني {{uterotonic}} مثل {{misoprostol}}"
+ },
+ "Q426": {
+  "idea": [
+   "بكر {{30 weeks}} بتسرب كبير مستمر",
+   "فنسوي {{sterile speculum exam}}"
+  ],
+  "clues": [
+   [
+    "لو {{large ongoing fluid leak}}",
+    "يعني {{PPROM}} محتمل"
+   ]
+  ],
+  "why": [
+   "نستخدم {{sterile speculum}} لتأكيد {{rupture of membranes}}",
+   "ونتجنب {{digital exam}}",
+   "لأنه يزيد {{infection risk}}"
+  ],
+  "wrong": {
+   "0": "الـ{{digital exam}} يزيد {{infection}}",
+   "2": "الـ{{reassurance}} يتجاهل المشكلة",
+   "3": "الـ{{US}} ما يأكد {{rupture}} أول"
+  },
+  "change": [
+   "نعطي {{antibiotics}}",
+   "ونعطي {{steroids}}"
+  ],
+  "rule": "لو {{fluid leak}} يعني {{sterile speculum}} مو {{digital exam}}"
+ },
+ "Q427": {
+  "idea": [
+   "حامل {{PPROM}} من ٣ أيام ثم {{fever}} و{{abdominal pain}}",
+   "فالتشخيص {{chorioamnionitis}}"
+  ],
+  "clues": [
+   [
+    "لو {{prolonged PPROM}}",
+    "يعني {{infection risk}}"
+   ],
+   [
+    "لو {{fever}} و{{abdominal pain}}",
+    "يعني {{chorioamnionitis}}"
+   ]
+  ],
+  "why": [
+   "الـ{{prolonged PPROM}} يعرض لـ{{membrane infection}}",
+   "فالـ{{fever}} و{{abdominal pain}} يعني {{chorioamnionitis}}",
+   "وليس {{labor}}"
+  ],
+  "wrong": {
+   "0": "الـ{{labor}} بدون {{fever}}",
+   "2": "الـ{{abruption}} فيه {{bleeding}}",
+   "3": "الـ{{cervical incompetence}} بدون {{fever}}"
+  },
+  "change": [
+   "نعطي {{antibiotics}} و{{delivery}}",
+   "ونراقب {{fetal status}}"
+  ],
+  "rule": "الـ{{PPROM}} مع {{fever}} يعني {{chorioamnionitis}}"
+ },
+ "Q428": {
+  "idea": [
+   "حامل {{31 weeks}} بمخاض و{{clear liquor}} و{{PPROM}} قبل ٤ أسابيع",
+   "فنسوي {{high vaginal swab}}"
+  ],
+  "clues": [
+   [
+    "لو {{old PPROM}}",
+    "يعني {{infection risk}}"
+   ],
+   [
+    "لو {{clear liquor}}",
+    "يعني ما فيه {{severe infection signs}}"
+   ]
+  ],
+  "why": [
+   "نبحث عن {{vaginal infection}}",
+   "بـ{{culture and sensitivity}}",
+   "قبل القرارات"
+  ],
+  "wrong": {
+   "1": "الـ{{antipyretics}} ما تناسب",
+   "2": "الـ{{immediate cesarean}} بدون مبرر",
+   "3": "الـ{{fetal blood sampling}} مو ضروري"
+  },
+  "change": [
+   "نعطي {{antibiotics}}",
+   "ونراقب {{mother and fetus}}"
+  ],
+  "rule": "لو {{labor after PPROM}} يعني {{HVS culture}}"
+ },
+ "Q429": {
+  "idea": [
+   "حامل {{41 weeks}} بـ{{9 cm}} و{{meconium-stained liquor}} وأخذت {{pethidine}}",
+   "فنغير {{position}}"
+  ],
+  "clues": [
+   [
+    "لو {{9 cm dilated}}",
+    "يعني قريبة من الولادة"
+   ],
+   [
+    "لو {{normal NST}}",
+    "يعني الجنين مطمئن"
+   ]
+  ],
+  "why": [
+   "الجنين بخير حسب {{NST}}",
+   "فنغير {{position}} لتحسين {{perfusion}}",
+   "وما نحتاج {{intervention}} أكثر"
+  ],
+  "wrong": {
+   "0": "الـ{{naloxone}} مو مطلوب",
+   "1": "الـ{{oxytocin}} بدون داعي",
+   "2": "الـ{{waiting}} بدون تحسين"
+  },
+  "change": [
+   "نراقب {{CTG}}",
+   "ونجهز {{delivery team}}"
+  ],
+  "rule": "لو {{reassuring NST}} مع {{meconium}} يعني {{change position}}"
+ },
+ "Q430": {
+  "idea": [
+   "حامل {{36 weeks}} بـ{{late decelerations}}",
+   "فنسوي {{hydrate, reposition, review in 20 minutes}}"
+  ],
+  "clues": [
+   [
+    "لو {{late decelerations}}",
+    "يعني {{uteroplacental insufficiency}}"
+   ]
+  ],
+  "why": [
+   "الخطوة الأولى {{intrauterine resuscitation}}",
+   "يعني {{IV fluids}} و{{reposition}} و{{oxygen}}",
+   "وبعدها {{reassess}}"
+  ],
+  "wrong": {
+   "0": "الـ{{maternal pH sample}} يجي بعدين",
+   "1": "الـ{{oxytocin}} يزيد {{hypoxia}}",
+   "2": "الـ{{cesarean}} لو فشل {{resuscitation}}"
+  },
+  "change": [
+   "لو ما تحسن نسوي {{cesarean}}",
+   "ونوقف {{oxytocin}}"
+  ],
+  "rule": "لو {{late decelerations}} يعني {{resuscitation}} أول"
+ },
+ "Q431": {
+  "idea": [
+   "سيدة {{60}} بـ{{grade 3 posterior prolapse}} صدفة بدون أعراض",
+   "فنعطي {{conservative management and reassurance}}"
+  ],
+  "clues": [
+   [
+    "لو {{asymptomatic}}",
+    "يعني ما نعالج"
+   ]
+  ],
+  "why": [
+   "لو {{asymptomatic}} ما نعالج",
+   "فنسوي {{reassurance}} و{{follow-up}}",
+   "وننتقل للعلاج لو ظهرت {{symptoms}}"
+  ],
+  "wrong": {
+   "0": "الـ{{hysterectomy}} بدون مبرر",
+   "1": "الـ{{posterior repair}} بدون مبرر",
+   "3": "الـ{{mesh}} فيه {{complications}}"
+  },
+  "change": [
+   "لو ظهرت {{symptoms}} نعالج",
+   "ونسوي {{follow-up}}"
+  ],
+  "rule": "الـ{{asymptomatic prolapse}} يعني {{reassurance}}"
+ },
+ "Q432": {
+  "idea": [
+   "مسنة {{90}} بـ{{heart failure}} و{{procidentia}} قديم",
+   "فنعطي {{vaginal pessary}}"
+  ],
+  "clues": [
+   [
+    "لو {{90 years}} مع {{comorbidities}}",
+    "يعني {{high surgical risk}}"
+   ]
+  ],
+  "why": [
+   "الـ{{surgery}} فيها {{high risk}}",
+   "فالـ{{pessary}} علاج {{safe}}",
+   "و{{effective}}"
+  ],
+  "wrong": {
+   "1": "الـ{{vaginal hysterectomy}} فيها {{risk}}",
+   "2": "الـ{{radical hysterectomy}} مو مناسبة",
+   "3": "الـ{{laparoscopic surgery}} هي {{major surgery}}"
+  },
+  "change": [
+   "نعطي {{topical estrogen}}",
+   "ونراقب {{pessary complications}}"
+  ],
+  "rule": "لو {{elderly}} مع {{prolapse}} و{{comorbidities}} يعني {{pessary}}"
+ },
+ "Q433": {
+  "idea": [
+   "سيدة {{50}} بـ{{mild pelvic pressure}} و{{grade 2 posterior prolapse}}",
+   "فنعطي {{pelvic floor exercises}} و{{reassurance}}"
+  ],
+  "clues": [
+   [
+    "لو {{mild symptoms}}",
+    "يعني {{conservative}}"
+   ],
+   [
+    "لو {{grade 2}}",
+    "يعني {{mild prolapse}}"
+   ]
+  ],
+  "why": [
+   "الـ{{mild symptoms}} نعالجها",
+   "بـ{{pelvic floor exercises}}",
+   "مع {{follow-up}}"
+  ],
+  "wrong": {
+   "1": "الـ{{surgery}} بدون مبرر",
+   "2": "الـ{{hysterectomy}} بدون مبرر",
+   "3": "الـ{{analgesics}} ما تعالج {{prolapse}}"
+  },
+  "change": [
+   "لو زادت {{symptoms}} نعالج",
+   "بـ{{pessary}}"
+  ],
+  "rule": "لو {{mild prolapse}} يعني {{exercises}} و{{reassurance}}"
+ },
+ "Q434": {
+  "idea": [
+   "سيدة {{50}} بـ{{grade 3 posterior prolapse}} ما تحسنت بعد {{6 months conservative}}",
+   "فنعمل {{counseling for surgery}}"
+  ],
+  "clues": [
+   [
+    "لو {{failed 6 months}}",
+    "يعني {{conservative failed}}"
+   ],
+   [
+    "لو {{grade 3}}",
+    "يعني {{significant prolapse}}"
+   ]
+  ],
+  "why": [
+   "الـ{{conservative management}} فشل",
+   "فنسوي {{counseling for surgery}}",
+   "وهو الخيار التالي"
+  ],
+  "wrong": {
+   "0": "الـ{{continuing conservative}} بدون فايدة",
+   "2": "الـ{{review in 6 months}} يعني تأخير",
+   "3": "الـ{{analgesics}} ما تعالج {{prolapse}}"
+  },
+  "change": [
+   "الـ{{pessary}} بديل",
+   "ونقيم {{symptoms}}"
+  ],
+  "rule": "لو {{failed conservative}} يعني {{surgery}}"
+ },
+ "Q435": {
+  "idea": [
+   "حامل {{29 weeks}} بـ{{vaginal bulge}} بدون أعراض",
+   "فنعطي {{conservative management with reassurance}}"
+  ],
+  "clues": [
+   [
+    "لو {{asymptomatic}}",
+    "يعني ما نتدخل"
+   ],
+   [
+    "لو {{grade 2}}",
+    "يعني {{mild prolapse}}"
+   ]
+  ],
+  "why": [
+   "الـ{{prolapse in pregnancy}} يتحسن بعد {{delivery}}",
+   "فنسوي {{reassurance}}",
+   "وما نتدخل"
+  ],
+  "wrong": {
+   "1": "الـ{{urgent delivery}} بدون مبرر",
+   "2": "الـ{{admission}} بدون مبرر",
+   "3": "الـ{{urgent delivery}} بدون مبرر"
+  },
+  "change": [
+   "نعطي {{pelvic floor exercises}}",
+   "ونتابع بعد {{delivery}}"
+  ],
+  "rule": "الـ{{prolapse in pregnancy}} يعني {{reassurance}}"
+ },
+ "Q436": {
+  "idea": [
+   "مسنة بـ{{urgency}} و{{frequency}} و{{dysuria}} مع {{prolapse}}",
+   "فنطلب {{urine analysis}}"
+  ],
+  "clues": [
+   [
+    "لو {{dysuria}}",
+    "يعني {{UTI}}"
+   ],
+   [
+    "لو {{prolapse}}",
+    "يعني {{contributing factor}}"
+   ]
+  ],
+  "why": [
+   "نبدأ بـ{{urine analysis}}",
+   "لاستبعاد {{UTI}}",
+   "قبل أي {{treatment}}"
+  ],
+  "wrong": {
+   "1": "الـ{{hysterectomy}} قبل {{evaluation}}",
+   "2": "الـ{{TVT}} هو لـ{{stress incontinence}}",
+   "3": "الـ{{repair}} قبل {{evaluation}}"
+  },
+  "change": [
+   "نعالج {{UTI}}",
+   "ثم نقيم {{prolapse}}"
+  ],
+  "rule": "لو {{urinary symptoms}} يعني {{urine analysis}} أول"
+ },
+ "Q437": {
+  "idea": [
+   "شابة {{20}} متزوجة جديد بـ{{urgency}} و{{occasional incontinence}}",
+   "فنطلب {{urine analysis and culture}}"
+  ],
+  "clues": [
+   [
+    "لو {{urgency}}",
+    "يعني {{UTI}} محتمل"
+   ],
+   [
+    "لو {{normal pelvic exam}}",
+    "يعني ما فيه {{lesion}}"
+   ]
+  ],
+  "why": [
+   "الـ{{UTI}} سبب شائع",
+   "فنستبعده بـ{{urine analysis and culture}}",
+   "قبل {{medications}}"
+  ],
+  "wrong": {
+   "0": "الـ{{surgery}} مو مناسبة",
+   "1": "الـ{{antimuscarinics}} بعد {{evaluation}}",
+   "3": "الـ{{beta-3 agonist}} بعد {{evaluation}}"
+  },
+  "change": [
+   "نعالج {{UTI}}",
+   "ونعيد {{evaluation}}"
+  ],
+  "rule": "لو {{urgency}} عند شابة يعني {{urine culture}} أول"
+ },
+ "Q438": {
+  "idea": [
+   "الـ{{ectopic}} على {{MTX}} و{{hCG}} من {{1200}} إلى {{1100}} يوم ٧",
+   "فنعطي {{second dose of MTX}}"
+  ],
+  "clues": [
+   [
+    "لو {{hCG drop less than 15%}}",
+    "يعني {{inadequate response}}"
+   ]
+  ],
+  "why": [
+   "الـ{{hCG drop}} بس {{8%}}",
+   "وهو {{less than 15%}}",
+   "فنعطي {{second dose}}"
+  ],
+  "wrong": {
+   "0": "الـ{{waiting}} فيه {{risk}}",
+   "1": "الـ{{surgery}} لو {{symptoms}} أو {{instability}}",
+   "2": "الـ{{multiple-dose regimen}} مو {{recommended}}"
+  },
+  "change": [
+   "لو ارتفع {{hCG}} نسوي {{surgery}}",
+   "ونتابع {{hCG}}"
+  ],
+  "rule": "لو {{hCG drop less than 15%}} يعني {{second dose of MTX}}"
+ },
+ "Q439": {
+  "idea": [
+   "الـ{{hCG}} من {{1200}} إلى {{800}} يوم ٧",
+   "فنكرر {{hCG}} بعد أسبوع"
+  ],
+  "clues": [
+   [
+    "لو {{hCG drop 33%}}",
+    "يعني {{good response}}"
+   ]
+  ],
+  "why": [
+   "الـ{{drop}} أكثر من {{15%}}",
+   "يعني {{good response}}",
+   "فنسوي {{weekly hCG}}"
+  ],
+  "wrong": {
+   "1": "الـ{{surgery}} بدون مبرر",
+   "2": "الـ{{second dose}} بدون مبرر",
+   "3": "الـ{{multiple-dose regimen}} بدون مبرر"
+  },
+  "change": [
+   "نتابع {{hCG}} حتى {{undetectable}}",
+   "ونراقب {{symptoms}}"
+  ],
+  "rule": "لو {{adequate drop}} يعني {{weekly hCG}}"
+ },
+ "Q440": {
+  "idea": [
+   "الـ{{hCG}} من {{1200}} إلى {{2100}} يوم ٧ بعد {{MTX}}",
+   "فنسوي {{surgery}}"
+  ],
+  "clues": [
+   [
+    "لو {{rising hCG}}",
+    "يعني {{treatment failure}}"
+   ]
+  ],
+  "why": [
+   "الـ{{rising hCG}} يعني {{MTX failure}}",
+   "مع {{risk of rupture}}",
+   "فنسوي {{surgical intervention}}"
+  ],
+  "wrong": {
+   "0": "الـ{{waiting}} فيه {{risk}}",
+   "2": "الـ{{second dose}} مو مناسبة",
+   "3": "الـ{{multiple-dose regimen}} مو {{recommended}}"
+  },
+  "change": [
+   "نقيم {{stability}}",
+   "ونحول لـ{{surgery}}"
+  ],
+  "rule": "لو {{rising hCG}} بعد {{MTX}} يعني {{surgery}}"
+ },
+ "Q441": {
+  "idea": [
+   "الـ{{ectopic}} بعد ١٤ يوم و{{hCG}} {{500}}",
+   "فنكرر {{hCG}} بعد أسبوع"
+  ],
+  "clues": [
+   [
+    "لو {{hCG declining}}",
+    "يعني {{good response}}"
+   ]
+  ],
+  "why": [
+   "الـ{{decline}} مستمر",
+   "فنسوي {{weekly follow-up}}",
+   "حتى {{hCG}} يوصل {{zero}}"
+  ],
+  "wrong": {
+   "0": "الـ{{stopping follow-up}} قبل {{resolution}} فيه {{risk}}",
+   "2": "الـ{{surgery}} بدون مبرر",
+   "3": "الـ{{second dose}} بدون مبرر"
+  },
+  "change": [
+   "نمنع {{pregnancy}} لمدة {{3 months}}",
+   "ونراقب {{symptoms}}"
+  ],
+  "rule": "لو {{hCG declining}} بعد {{MTX}} يعني {{weekly follow-up}}"
+ }
+}

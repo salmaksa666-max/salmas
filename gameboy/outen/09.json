@@ -1,0 +1,631 @@
+{
+ "Q162": {
+  "idea": [
+   "مريض {{pancreatic cancer}} عنده {{painful red swollen leg}}",
+   "فالتشخيص {{DVT}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{pancreatic cancer}}",
+    "يعني {{hypercoagulable state}}"
+   ],
+   [
+    "و{{painful red swollen leg}}",
+    "يعني {{DVT}}"
+   ],
+   [
+    "وهو {{hospitalized}}",
+    "يعني {{risk factor}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Cancer}} مع {{immobility}} يرفع {{DVT risk}}",
+   "والـ{{unilateral leg swelling}} توحي بالـ{{DVT}}",
+   "ونؤكد بالـ{{Doppler ultrasound}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Lymphedema}} عادة {{painless}}",
+   "1": "الـ{{Cellulitis}} تجي مع {{fever}} و{{infection signs}}",
+   "2": "الـ{{Baker's cyst}} ألمها {{behind the knee}}"
+  },
+  "change": [
+   "لو {{fever}} و{{pus}} نفكر {{cellulitis}}",
+   "ونعطي {{anticoagulation}}"
+  ],
+  "rule": "الـ{{Cancer}} مع {{painful leg swelling}} يعني {{DVT}}"
+ },
+ "Q163": {
+  "idea": [
+   "مراهق عنده {{palpable purpura}} بالرجلين مع {{abdominal pain}} و{{arthralgia}} و{{proteinuria}}",
+   "فالتشخيص {{HSP}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{palpable purpura}} بالـ{{legs}} والـ{{buttocks}}",
+    "يعني {{vasculitis}}"
+   ],
+   [
+    "و{{abdominal pain}} مع {{joint pain}}",
+    "يعني {{HSP}}"
+   ],
+   [
+    "و{{proteinuria}}",
+    "يعني {{renal involvement}}"
+   ]
+  ],
+  "why": [
+   "الـ{{HSP}} هو {{small vessel vasculitis}} عند الأطفال",
+   "والـ{{triad}} هو {{rash}} و{{abdominal pain}} و{{arthritis}} مع {{nephritis}}",
+   "وتجي بعد {{URTI}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Churg-Strauss}} تجي مع {{asthma}}",
+   "1": "الـ{{HUS}} تجي مع {{anemia}} و{{AKI}}",
+   "3": "الـ{{TTP}} تجي مع {{neurologic symptoms}}"
+  },
+  "change": [
+   "لو {{low platelets}} نفكر {{ITP}}",
+   "وغالبًا {{self-limited}}"
+  ],
+  "rule": "الـ{{Purpura}} بالرجلين مع {{abdominal pain}} و{{arthritis}} و{{nephritis}} يعني {{HSP}}"
+ },
+ "Q164": {
+  "idea": [
+   "شابة {{newly married}} عندها {{dysuria}} لمدة أسبوع مع {{suprapubic pain}}",
+   "فالعلاج {{nitrofurantoin}}"
+  ],
+  "clues": [
+   [
+    "فعندها {{dysuria}} مع {{suprapubic pain}}",
+    "يعني {{cystitis}}"
+   ],
+   [
+    "وهي {{newly married}}",
+    "يعني {{honeymoon cystitis}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{Uncomplicated cystitis}} نعالجها بـ{{nitrofurantoin}}",
+   "وهو فعال مع {{low resistance}}",
+   "ويحافظ على الـ{{fluoroquinolones}}"
+  ],
+  "wrong": {
+   "1": "الـ{{Fluoroquinolone}} نحتفظ فيها",
+   "2": "الـ{{Gentamicin}} {{IV}} غير ضروري",
+   "3": "الـ{{Beta-lactam}} فيها {{higher resistance}}"
+  },
+  "change": [
+   "لو {{pregnant}} نتجنب بعض الخيارات",
+   "لو {{flank pain}} فهذا {{pyelonephritis}}"
+  ],
+  "rule": "الـ{{Uncomplicated cystitis}} يعني {{nitrofurantoin}}"
+ },
+ "Q165": {
+  "idea": [
+   "مريضة {{long-standing CRF}} عندها {{bone pain}} و{{pallor}}",
+   "فنعطي {{oral calcitriol}}"
+  ],
+  "clues": [
+   [
+    "فعندها {{CRF}} مع {{bone pain}}",
+    "يعني {{renal osteodystrophy}}"
+   ],
+   [
+    "و{{pallor}}",
+    "يعني {{chronic anemia}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{Kidney}} ما ينتج {{1,25-OH vitamin D}}",
+   "فنعطي {{calcitriol}}",
+   "بعد ضبط الـ{{phosphate}}"
+  ],
+  "wrong": {
+   "1": "الـ{{D3}} يحتاج {{renal activation}}",
+   "2": "الـ{{D2}} يحتاج {{renal activation}}",
+   "3": "الـ{{Calcitonin}} ما يفيد هنا"
+  },
+  "change": [
+   "نضبط الـ{{phosphate}}",
+   "لو {{PTH}} عالي نضيف {{cinacalcet}}"
+  ],
+  "rule": "الـ{{CKD}} مع {{bone pain}} يعني {{calcitriol}}"
+ },
+ "Q166": {
+  "idea": [
+   "سيدة بعد الولادة ما رضعت وما رجعت {{menses}} مع أعراض {{hypothyroidism}}",
+   "فنطلب {{TSH}}"
+  ],
+  "clues": [
+   [
+    "فما رضعت وما رجعت {{menses}}",
+    "يعني {{Sheehan syndrome}}"
+   ],
+   [
+    "و{{hoarseness}} مع {{delayed reflex relaxation}}",
+    "يعني {{hypothyroidism}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{Hypopituitarism}} يحتاج {{hormonal evaluation}}",
+   "وأول خطوة {{TSH}} و{{free T4}}",
+   "ولا نعطي علاج قبل التأكد"
+  ],
+  "wrong": {
+   "0": "الـ{{Estrogen}} قبل {{evaluation}} غلط",
+   "2": "الـ{{Hypertonic saline}} خطر",
+   "3": "الـ{{Levothyroxine}} قبل ضبط {{cortisol}} خطر"
+  },
+  "change": [
+   "نقيس {{cortisol}} أولًا",
+   "وبالـ{{Sheehan}} الـ{{TSH}} ممكن يكون {{low}} أو {{normal}}"
+  ],
+  "rule": "الـ{{Postpartum}} بدون {{lactation}} يعني {{Sheehan}} ونفحص {{pituitary hormones}}",
+  "note": "بالـ{{pituitary disease}} الـ{{TSH}} يكون {{low}} مو {{high}}، والجواب حسب الملف"
+ },
+ "Q167": {
+  "idea": [
+   "شابة {{glioblastoma}} عندها {{seizures}} و{{hyponatremia}}",
+   "فالسبب {{SIADH}}"
+  ],
+  "clues": [
+   [
+    "فعندها {{glioblastoma}}",
+    "يعني {{CNS tumor}}"
+   ],
+   [
+    "و{{hyponatremia}}",
+    "يعني {{SIADH}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{CNS tumors}} تسبب {{SIADH}}",
+   "فيحتفظ الجسم بالـ{{water}}",
+   "فينخفض الـ{{sodium}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Cerebral salt wasting}} أقل شيوعًا",
+   "1": "الـ{{Excess water intake}} ما يفسر الحالة",
+   "2": "الـ{{Soft drinks}} ما تسبب {{hyponatremia}}"
+  },
+  "change": [
+   "نسوي {{fluid restriction}}",
+   "ونعالج {{underlying cause}}"
+  ],
+  "rule": "الـ{{Brain lesions}} مع {{hyponatremia}} يعني {{SIADH}}"
+ },
+ "Q168": {
+  "idea": [
+   "مريض بدأ {{Lasix}} فصار عنده {{gout}} بالـ{{big toe}}",
+   "فالسبب {{Lasix}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{first MTP joint pain}}",
+    "يعني {{podagra}}"
+   ],
+   [
+    "و{{Lasix}}",
+    "يعني يرفع {{uric acid}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Loop diuretics}} ترفع {{uric acid}}",
+   "فتسبب {{gout attack}}",
+   "والدواء {{recently started}}"
+  ],
+  "wrong": {
+   "1": "الـ{{Plavix}} ما يؤثر على {{uric acid}}",
+   "2": "الـ{{Low-dose aspirin}} ممكن لكن أقل من {{Lasix}}",
+   "3": "الـ{{Metformin}} ما يسبب {{gout}}"
+  },
+  "change": [
+   "الـ{{Thiazides}} تسبب نفس الشي",
+   "ونستبدل بدواء ثاني"
+  ],
+  "rule": "الـ{{Diuretics}} تسبب {{gout}}"
+ },
+ "Q169": {
+  "idea": [
+   "شابة تخاف من الغرباء بسبب {{fear of embarrassment}}",
+   "وتستفيد من {{CBT}} لأنها {{social phobia}}"
+  ],
+  "clues": [
+   [
+    "فعندها {{fear of embarrassment}}",
+    "يعني {{social phobia}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Social phobia}} يستجيب للـ{{CBT}}",
+   "ونضيف {{SSRI}}",
+   "والخيارات الثانية ما تعالج {{social phobia}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Schizophrenia}} تحتاج {{antipsychotic}}",
+   "2": "الـ{{Postpartum psychosis}} تحتاج {{medication}}",
+   "3": "الـ{{Depression}} مع {{hallucinations}} تحتاج {{medication}}"
+  },
+  "change": [
+   "نضيف {{SSRI}}",
+   "ونستخدم {{exposure therapy}}"
+  ],
+  "rule": "الـ{{Social phobia}} يعني {{CBT}}"
+ },
+ "Q170": {
+  "idea": [
+   "مسن {{lymphoma}} على {{chemotherapy}} وعنده {{fever}}",
+   "فنعطي {{IV antibiotics}} داخل المستشفى"
+  ],
+  "clues": [
+   [
+    "فهو بعد {{chemotherapy}} بـ٧ أيام",
+    "يعني {{expected neutropenia}}"
+   ],
+   [
+    "و{{fever}}",
+    "يعني {{febrile neutropenia}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{Febrile neutropenia}} هي {{emergency}}",
+   "نعطي {{broad-spectrum IV antibiotics}} بعد {{cultures}}",
+   "وما ننتظر النتايج"
+  ],
+  "wrong": {
+   "0": "الـ{{NSAIDs}} تخفي الـ{{fever}}",
+   "1": "الـ{{Oral antibiotics}} مع {{discharge}} خطر",
+   "2": "الـ{{Waiting}} خطر"
+  },
+  "change": [
+   "لو {{low risk}} نعالج {{orally}}",
+   "نضيف {{antifungal}} لو استمرت {{fever}}"
+  ],
+  "rule": "الـ{{Febrile neutropenia}} يعني {{IV antibiotics}} فورًا"
+ },
+ "Q171": {
+  "idea": [
+   "مدخن ٥٥ سنة عنده {{exertional angina}} ويطلب {{smoking cessation}}",
+   "فالأولى {{nicotine replacement therapy}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{exertional angina}}",
+    "يعني {{CAD}}"
+   ],
+   [
+    "وهو {{heavy smoker}}",
+    "يعني يحتاج {{replacement}}"
+   ]
+  ],
+  "why": [
+   "الـ{{NRT}} آمن مع {{stable CAD}}",
+   "وهو {{first-line}} هنا",
+   "والـ{{varenicline}} و{{bupropion}} بدائل"
+  ],
+  "wrong": {
+   "0": "الـ{{Bupropion}} {{alternative}}",
+   "1": "الـ{{Motivational counseling}} وحده ما يكفي",
+   "2": "الـ{{Varenicline}} {{alternative}}"
+  },
+  "change": [
+   "لو فشل نضيف {{varenicline}}",
+   "ونستخدم {{behavioral support}}"
+  ],
+  "rule": "الـ{{Heavy smoker}} يعني {{NRT}} أولًا"
+ },
+ "Q172": {
+  "idea": [
+   "شابة عندها {{ataxia}} و{{transient visual loss}} مع {{MRI}} فيه {{periventricular demyelinating lesions}}",
+   "فالتشخيص {{MS}}"
+  ],
+  "clues": [
+   [
+    "فعندها {{periventricular}} و{{callososeptal lesions}}",
+    "يعني {{typical}} للـ{{MS}}"
+   ],
+   [
+    "و{{recurrent neurologic symptoms}}",
+    "يعني {{MS}}"
+   ]
+  ],
+  "why": [
+   "الـ{{MS}} يصيب {{young women}} مع {{relapsing neurologic symptoms}}",
+   "والـ{{MRI}} فيه {{periventricular lesions}}",
+   "ونؤكد بالـ{{LP}} و{{oligoclonal bands}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Vasculitis}} آفاتها بأماكن ثانية",
+   "1": "الـ{{CNS lymphoma}} تجي {{mass}}",
+   "3": "الـ{{B12 deficiency}} تجي مع {{spinal cord symptoms}}"
+  },
+  "change": [
+   "نعالج الـ{{relapse}} بـ{{steroids}}",
+   "ونبدأ {{DMT}}"
+  ],
+  "rule": "الـ{{Periventricular lesions}} عند شابة يعني {{multiple sclerosis}}"
+ },
+ "Q173": {
+  "idea": [
+   "مريضة {{RA}} على {{MTX}} و{{prednisolone}} مع {{active symptoms}}",
+   "فنضيف {{biologic agent}}"
+  ],
+  "clues": [
+   [
+    "فالـ{{RA}} نشط رغم {{MTX}}",
+    "يعني {{first-line failure}}"
+   ]
+  ],
+  "why": [
+   "فشل الـ{{MTX}} يعني نضيف {{biologic}}",
+   "مثل {{TNF inhibitors}}",
+   "وهذا {{improves outcome}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Ibuprofen}} للـ{{pain}} بس",
+   "1": "الـ{{Azathioprine}} أقل فعالية",
+   "2": "الـ{{Cyclosporine}} أقل استخدامًا"
+  },
+  "change": [
+   "لو الـ{{MTX}} ما وصل لجرعته القصوى نزيدها",
+   "ونفحص {{TB}} قبل الـ{{biologic}}"
+  ],
+  "rule": "الـ{{RA}} مع فشل {{MTX}} يعني {{biologic}}"
+ },
+ "Q174": {
+  "idea": [
+   "رجل {{CRF}} عنده {{fatigue}} لمدة ٣ شهور",
+   "فنعطي {{SC erythropoietin}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{CRF}}",
+    "يعني {{anemia of CKD}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{Anemia}} بالـ{{CKD}} سببها {{low EPO}}",
+   "فنعطي {{erythropoietin}} {{subcutaneously}}",
+   "بعد التأكد من {{iron stores}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Transfusion}} للحالات {{severe}} بس",
+   "1": "الـ{{IV iron}} لـ{{iron deficiency}}",
+   "3": "الـ{{Folic acid}} لـ{{folate deficiency}}"
+  },
+  "change": [
+   "لو {{iron deficiency}} نعطي {{iron}}",
+   "لو {{Hb}} منخفض جدًا ننقل {{blood}}"
+  ],
+  "rule": "الـ{{CKD}} مع {{anemia}} يعني {{EPO}}"
+ },
+ "Q175": {
+  "idea": [
+   "مريضة {{cirrhosis}} عندها {{hematemesis}} من {{bleeding varices}}",
+   "فالعلاج الوريدي {{octreotide}}"
+  ],
+  "clues": [
+   [
+    "فعندها {{bleeding varices}}",
+    "يعني نحتاج خفض {{portal pressure}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Octreotide}} يخفض الـ{{portal pressure}}",
+   "ويوقف الـ{{bleeding}}",
+   "ونضيف {{antibiotics}} و{{endoscopy}}"
+  ],
+  "wrong": {
+   "1": "الـ{{Propranolol}} للـ{{prophylaxis}}",
+   "2": "الـ{{H2 blockers}} ما تفيد",
+   "3": "الـ{{PPI}} ما توقف {{variceal bleeding}}"
+  },
+  "change": [
+   "نسوي {{variceal banding}}",
+   "ونعطي {{ceftriaxone}}"
+  ],
+  "rule": "الـ{{Variceal bleeding}} يعني {{octreotide}}"
+ },
+ "Q176": {
+  "idea": [
+   "مريض {{cirrhosis}} عنده {{large ascites}} رغم {{diuretics}}",
+   "فنسوي {{therapeutic paracentesis}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{large ascites}}",
+    "يعني {{tense ascites}}"
+   ],
+   [
+    "وهو على {{diuretics}}",
+    "يعني فيه {{previous trial}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Large ascites}} نعالجه بـ{{paracentesis}}",
+   "مع {{albumin}}",
+   "وبعدها نعدل {{diuretics}}"
+  ],
+  "wrong": {
+   "0": "الـ{{IV diuretics}} ما تكفي",
+   "2": "زيادة الـ{{furosemide}} غير كافية",
+   "3": "الـ{{TIPS}} للـ{{refractory ascites}}"
+  },
+  "change": [
+   "لو {{refractory}} نفكر {{TIPS}}",
+   "ونعطي {{albumin}}"
+  ],
+  "rule": "الـ{{Large ascites}} يعني {{paracentesis}}"
+ },
+ "Q177": {
+  "idea": [
+   "شاب عنده {{exercise-induced asthma}} و{{dyspnea}} بعد التمرين",
+   "فأسرع علاج {{inhaled salbutamol}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{dyspnea}} و{{wheeze}}",
+    "يعني {{asthma attack}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Salbutamol}} هو {{rapid-acting bronchodilator}}",
+   "وهو {{rescue therapy}}",
+   "والخيارات الثانية {{slow}}"
+  ],
+  "wrong": {
+   "0": "الـ{{IV steroid}} {{slow onset}}",
+   "2": "الـ{{Salmeterol}} {{long-acting}}",
+   "3": "الـ{{Fluticasone}} {{preventive}}"
+  },
+  "change": [
+   "لو {{severe}} نضيف {{ipratropium}}",
+   "ونعطي {{steroid}}"
+  ],
+  "rule": "الـ{{Asthma attack}} يعني {{salbutamol}}"
+ },
+ "Q178": {
+  "idea": [
+   "شاب عنده {{dyspnea}} و{{wheezing}} بعد التمرين",
+   "فالعلاج {{inhaled salbutamol}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{wheezing}} بعد التمرين",
+    "يعني {{exercise-induced asthma}}"
+   ]
+  ],
+  "why": [
+   "الـ{{SABA}} هو {{initial treatment}}",
+   "ويوسع الـ{{bronchi}} فورًا",
+   "والخيارات الثانية للـ{{severe cases}}"
+  ],
+  "wrong": {
+   "1": "الـ{{Fluticasone}} {{preventive}}",
+   "2": "الـ{{Magnesium}} للـ{{severe attack}}",
+   "3": "الـ{{Hydrocortisone}} للـ{{severe attack}}"
+  },
+  "change": [
+   "لو ما تحسن نضيف {{steroids}}",
+   "ونستخدم {{SABA}} قبل التمرين"
+  ],
+  "rule": "الـ{{Post-exercise wheezing}} يعني {{salbutamol}}"
+ },
+ "Q179": {
+  "idea": [
+   "شاب {{T1DM}} بدون أعراض",
+   "فنعطي {{ACE inhibitor}}"
+  ],
+  "clues": [
+   [
+    "فهو {{T1DM}}",
+    "يعني {{nephropathy risk}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لو {{microalbuminuria}} نعطي {{ACEI}}",
+   "لأنه {{renoprotective}}",
+   "وهو الاختيار هنا"
+  ],
+  "wrong": {
+   "0": "الـ{{Diuretics}} ما تحمي الـ{{kidney}}",
+   "1": "الـ{{CCB}} أقل فايدة",
+   "2": "الـ{{Beta blockers}} ما تحمي الـ{{kidney}}"
+  },
+  "change": [
+   "لو {{pregnancy}} نتجنب {{ACEI}}",
+   "ونراقب {{K}}"
+  ],
+  "rule": "الـ{{Diabetic nephropathy}} يعني {{ACEI}}"
+ },
+ "Q180": {
+  "idea": [
+   "سيدة {{SLE}} عندها {{proteinuria 1.5 g}}",
+   "فنؤكد بـ{{kidney biopsy}}"
+  ],
+  "clues": [
+   [
+    "فهي {{SLE}}",
+    "يعني {{lupus nephritis}}"
+   ],
+   [
+    "و{{proteinuria 1.5 g}}",
+    "يعني {{renal involvement}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Kidney biopsy}} هي الأساس لتصنيف {{lupus nephritis}}",
+   "وهي تحدد {{treatment}}",
+   "والفحوص الثانية ما تكفي"
+  ],
+  "wrong": {
+   "0": "الـ{{PET}} غير مفيد",
+   "2": "الـ{{Angiogram}} للـ{{vessels}}",
+   "3": "الـ{{24h urine Na/K}} غير مفيد"
+  },
+  "change": [
+   "نطلب {{C3}} و{{anti-dsDNA}}",
+   "ونبدأ {{steroids}}"
+  ],
+  "rule": "الـ{{Lupus nephritis}} يعني {{kidney biopsy}}"
+ },
+ "Q181": {
+  "idea": [
+   "سيدة عندها {{proteinuria}} و{{edema}}",
+   "فأدق فحص {{kidney biopsy}}"
+  ],
+  "clues": [
+   [
+    "فعندها {{proteinuria}} مع {{edema}}",
+    "يعني {{nephrotic syndrome}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{Biopsy}} تحدد {{histologic type}}",
+   "وتحدد {{treatment}}",
+   "وهي {{gold standard}}"
+  ],
+  "wrong": {
+   "1": "الـ{{Ultrasound}} ما يشخص {{histologic type}}",
+   "2": "الـ{{Complement levels}} {{supportive}}",
+   "3": "الـ{{ANA}} {{supportive}}"
+  },
+  "change": [
+   "عند الأطفال نجرب {{steroids}} بدون {{biopsy}}",
+   "ونبحث عن {{secondary cause}}"
+  ],
+  "rule": "الـ{{Nephrotic syndrome}} عند البالغ يعني {{kidney biopsy}}"
+ }
+}

@@ -1,0 +1,797 @@
+{
+ "Q001": {
+  "idea": [
+   "السؤال عن مريض عنده {{psoriasis}} و{{gout}} ويشرب {{allopurinol}} بانتظام ومع كذا {{no improvement}}",
+   "الجواب {{psoriatic arthritis}} مو {{gout}}"
+  ],
+  "clues": [
+   [
+    "عنده {{long-standing psoriasis}}",
+    "يعني {{strongest risk factor for psoriatic arthritis}}"
+   ],
+   [
+    "يشرب {{allopurinol}} بانتظام",
+    "فـ{{no response to appropriate gout therapy}}"
+   ],
+   [
+    "فيه {{active arthritis}} بالكاحل والركبتين",
+    "يعني {{oligoarthritis pattern}}"
+   ],
+   [
+    "عنده {{previous big toe attacks}}",
+    "يشبه {{gout}} بس يصير بعد بـ{{psoriatic arthritis}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{psoriasis}} هو {{strongest risk factor for psoriatic arthritis}}",
+   "فتأكيد {{gout}} يحتاج {{monosodium urate crystals in joint fluid}} والمريض {{not improving on regular treatment}}",
+   "يعني {{psoriasis}} ممكن يجتمع مع {{high uric acid}} وانشخص {{gout}} أول، بس هذا ما يمنع {{second disease explaining current inflammation}}",
+   "فـ{{multiple active joints with psoriasis}} يناسب {{psoriatic arthritis}}"
+  ],
+  "wrong": {
+   "0": "الـ{{pseudogout}} غالبًا {{age above 60}} وبلوراته {{calcium pyrophosphate}}، والمريض عمره ٤٠ وعنده {{psoriasis}}",
+   "1": "الـ{{gout}} هو {{old diagnosis}} بس {{no improvement on allopurinol}} و{{psoriasis}} يفسر الصورة أحسن",
+   "3": "الـ{{osteoarthritis}} يعني {{mechanical pain worse with movement}} مو {{active inflammation}} بعمر ٤٠ مع {{psoriasis}}"
+  },
+  "trap": "لو شفت {{old gout history}} و{{big toe involvement}} تروح للنقرس، بس {{treatment failure}} مع {{psoriasis}} يغيّر الجواب",
+  "change": [
+   "لو ظهرت {{monosodium urate crystals}} مع {{high uric acid}} فالجواب {{gout}}",
+   "لو {{age above 60}} مع {{calcium pyrophosphate crystals}} فالجواب {{pseudogout}}",
+   "لو ما فيه {{psoriasis}} و{{mechanical pain}} بدون {{active inflammation}} فالجواب {{osteoarthritis}}"
+  ],
+  "rule": "لو {{psoriasis}} مع {{arthritis not responding to treatment}} فالجواب {{psoriatic arthritis}} حتى لو فيه {{gout history}}"
+ },
+ "Q002": {
+  "idea": [
+   "مريضة {{SLE}} جاها {{sudden paraplegia}} و{{urinary incontinence}} و{{hyperreflexia}}",
+   "يعني {{transverse myelitis}} فنسوي {{LP}} مع {{MRI spinal cord}}"
+  ],
+  "clues": [
+   [
+    "فيه {{sudden lower limb weakness}}",
+    "يعني {{spinal cord lesion}} مو الدماغ"
+   ],
+   [
+    "فيه {{urinary incontinence}}",
+    "لأن الحبل الشوكي يتحكم بالمثانة"
+   ],
+   [
+    "فيه {{hyperreflexia}}",
+    "يعني {{upper motor neuron lesion}}"
+   ],
+   [
+    "هي {{SLE}} على {{azathioprine}} و{{hydroxychloroquine}}",
+    "فممكن {{neuropsychiatric lupus}} مثل {{myelitis}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{paraplegia}} مع {{incontinence}} و{{hyperreflexia}} يدل على {{spinal cord involvement}}",
+   "فنطلب {{MRI spinal cord}} عشان {{exclude cord compression}} و{{confirm myelitis}}",
+   "ونسوي {{LP}} نفحص {{CSF}} عن {{inflammation and infection}}"
+  ],
+  "wrong": {
+   "0": "الـ{{MRI brain}} يصور {{brain only}} والأعراض من {{spinal cord}}",
+   "1": "الـ{{CT brain}} فيه {{lower sensitivity}} ومو بمكان الإصابة",
+   "3": "الـ{{MRA}} و{{MRV}} لـ{{cerebral vascular thrombosis}} وما تناسب الصورة"
+  },
+  "change": [
+   "لو {{seizures}} أو {{confusion}} أو {{headache}} فنفكر {{brain involvement}} ونسوي {{brain MRI}}",
+   "لو {{weakness with absent reflexes}} و{{ascending onset}} فنفكر {{Guillain-Barre syndrome}}",
+   "لو {{back pain}} مع {{known cancer}} فنفكر {{cord compression}} ونسوي {{urgent MRI}}"
+  ],
+  "rule": "لو {{paraplegia with incontinence and hyperreflexia}} فالفحص {{MRI spinal cord}}"
+ },
+ "Q003": {
+  "idea": [
+   "مريض فيه {{wrist and hand joint arthritis}} و{{knee arthritis}} من ٤ شهور يعني {{early active rheumatoid arthritis}}",
+   "الجواب {{methotrexate}} مع {{hydroxychloroquine}} و{{prednisone}}"
+  ],
+  "clues": [
+   [
+    "فيه {{wrist and small hand joint arthritis}}",
+    "يعني {{classic RA pattern}}"
+   ],
+   [
+    "الأعراض من {{4 months}}",
+    "يعني {{early disease}} و{{window of opportunity}}"
+   ],
+   [
+    "فيه {{multiple active joints}}",
+    "يعني {{high disease activity}} يحتاج علاج قوي"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{early active RA}} نبدأ فيه {{DMARD}} وأولها {{methotrexate}}",
+   "ونضيف {{hydroxychloroquine}} كـ{{second DMARD}}",
+   "ونعطي {{short-course prednisone}} كـ{{bridging therapy}} لين تشتغل الأدوية البطيئة"
+  ],
+  "wrong": {
+   "0": "الـ{{methotrexate alone}} يناسب {{mild disease}} والمريض {{active multi-joint inflammation}}",
+   "1": "الـ{{methotrexate and sulfasalazine}} مجموعة معروفة بس بدون {{bridging steroid}} ما يخف {{quickly}}",
+   "2": "الـ{{methotrexate and hydroxychloroquine}} ينقصها {{bridging steroid}} حسب الجواب المعتمد"
+  },
+  "change": [
+   "لو {{mild activity}} فيكفي {{methotrexate alone}}",
+   "لو ما تحسن بعد {{3 months}} فنضيف {{another DMARD}} أو {{biologic}}"
+  ],
+  "rule": "لو {{early active RA}} فالعلاج {{methotrexate + hydroxychloroquine + prednisone bridge}}"
+ },
+ "Q004": {
+  "idea": [
+   "مريضة {{SLE}} على {{long-term steroids}} جاها {{right hip pain at night and with walking}} و{{normal X-ray}}",
+   "يعني {{avascular necrosis}} بالورك"
+  ],
+  "clues": [
+   [
+    "هي على {{long-term steroids}}",
+    "يعني {{main risk factor for avascular necrosis}}"
+   ],
+   [
+    "فيها {{hip pain at night and with walking}}",
+    "يعني {{femoral head necrosis}}"
+   ],
+   [
+    "فيها {{pain on internal rotation}}",
+    "يعني {{intra-articular hip disease}}"
+   ],
+   [
+    "الـ{{X-ray}} طبيعي",
+    "لأنه {{normal in early stages}} والـ{{MRI}} هو الأحسن"
+   ]
+  ],
+  "why": [
+   "لأن {{long-term steroids}} تسبب {{femoral head necrosis}}",
+   "والـ{{plain X-ray}} يتأخر وطبيعيته ما {{excludes the diagnosis}}",
+   "فالجواب {{avascular necrosis}} ونأكده بـ{{MRI}}"
+  ],
+  "wrong": {
+   "0": "الـ{{lupus arthritis}} غالبًا {{small symmetric joints}} وما يعطي {{hip pain}} بهالشكل",
+   "1": "الـ{{septic arthritis}} يعني {{acute fever and severe pain}} والأعراض هنا {{3 weeks without fever}}",
+   "3": "الـ{{degenerative changes}} بعمر ٣٠ {{unexpected}} والـ{{X-ray}} طبيعي"
+  },
+  "change": [
+   "لو {{fever}} و{{severe pain}} مع {{inability to walk}} فنشك {{septic arthritis}}",
+   "لو {{symmetric small joint pain}} فالجواب {{lupus arthritis}}"
+  ],
+  "rule": "لو {{long-term steroids}} مع {{night hip pain}} و{{normal X-ray}} فالجواب {{avascular necrosis}} ونصور {{MRI}}"
+ },
+ "Q005": {
+  "idea": [
+   "رجال عمره ٦٠ عنده {{chronic knee pain with crepitus}} يعني {{osteoarthritis}}",
+   "التشخيص {{clinical}} وما نحتاج {{further investigation}}"
+  ],
+  "clues": [
+   [
+    "عمره {{60 years}}",
+    "يعني {{age above 45}} عمر الـ{{osteoarthritis}}"
+   ],
+   [
+    "فيه {{chronic worsening knee pain}}",
+    "يعني {{mechanical pain}}"
+   ],
+   [
+    "فيه {{crepitus}}",
+    "يعني {{classic sign of osteoarthritis}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{osteoarthritis}} يتشخص {{clinically by age, symptoms and exam}}",
+   "والـ{{imaging}} ما يغيّر الخطة بالحالات النمطية",
+   "فالجواب {{no further investigation}}"
+  ],
+  "wrong": {
+   "0": "الـ{{X-rays}} ما تلزم بالحالة {{typical}}، نطلبها لو {{atypical picture}}",
+   "1": "الـ{{MRI}} ما يلزم ويكلف {{without benefit}}",
+   "3": "الـ{{arthroscopy}} هو {{invasive procedure}} وما له دور بالتشخيص هنا"
+  },
+  "change": [
+   "لو {{age below 45}} أو {{prolonged morning stiffness}} أو {{previous injury}} فنطلب {{X-ray}}",
+   "لو {{severe inflammation and swelling}} فنفكر {{gout}} أو سبب ثاني"
+  ],
+  "rule": "لو {{typical knee osteoarthritis in older age}} فالتشخيص {{clinical}} بدون {{investigations}}"
+ },
+ "Q006": {
+  "idea": [
+   "مريض {{RA}} على {{methotrexate}} و{{adalimumab}} جاه {{fever, dyspnea and right basal crackles}} يعني {{pneumonia}}",
+   "الجواب {{hold current immunosuppressive treatment}} و{{start antibiotics}}"
+  ],
+  "clues": [
+   [
+    "يشرب {{methotrexate}} مع {{adalimumab}}",
+    "فالاثنين {{immunosuppressive}}"
+   ],
+   [
+    "فيه {{fever, dyspnea and crackles}}",
+    "يعني {{pneumonia}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{serious infection on immunosuppressants}} يعني {{hold the immunosuppressive drugs}}",
+   "والاثنين {{methotrexate}} و{{adalimumab}} يثبطون المناعة، و{{methotrexate}} نفسه ممكن {{causes pneumonitis}}",
+   "ونبدأ {{appropriate antibiotics}} بدون تأخير"
+  ],
+  "wrong": {
+   "0": "إيقاف {{adalimumab alone}} ناقص لأن {{methotrexate}} برضو {{immunosuppressive}}",
+   "1": "إيقاف {{methotrexate alone}} ناقص لأن {{adalimumab}} برضو {{immunosuppressive}}",
+   "3": "الـ{{continuing treatment}} وقت {{serious infection}} خطر على المريض"
+  },
+  "change": [
+   "لو {{mild infection}} بدون {{systemic effect}} فممكن نكمل علاج المفاصل",
+   "بعد {{recovery from infection}} نرجع الأدوية {{gradually}}"
+  ],
+  "rule": "لو {{pneumonia on immunosuppressants}} فنوقف علاجه و{{start antibiotics}}"
+ },
+ "Q007": {
+  "idea": [
+   "مريض فيه {{acute monoarthritis}} وسائل المفصل فيه بلورات يعني {{gout}}",
+   "فبلورات {{gout}} هي {{needle-shaped}} و{{negatively birefringent}}"
+  ],
+  "clues": [
+   [
+    "فيه {{crystals in joint fluid}}",
+    "يعني {{confirmed gout}}"
+   ],
+   [
+    "فيه {{acute single joint arthritis}}",
+    "يعني {{classic gout picture}}"
+   ]
+  ],
+  "why": [
+   "لأن بلورات {{gout}} هي {{monosodium urate}} وشكلها {{needle-shaped}}",
+   "وتحت {{polarized microscope}} تكون {{negatively birefringent}} و{{yellow when parallel to the axis}}",
+   "فالجواب {{needle-shaped, negatively birefringent}}"
+  ],
+  "wrong": {
+   "1": "الـ{{needle-shaped with weak positive birefringence}} مو وصف صحيح لأي بلورة هنا",
+   "2": "الـ{{rhomboid with negative birefringence}} فيه خلط بين الوصفين",
+   "3": "الـ{{rhomboid, weakly positive}} يصف بلورات {{pseudogout}} وهي {{calcium pyrophosphate}}"
+  },
+  "change": [
+   "لو {{rhomboid crystals with weak positive birefringence}} فالجواب {{pseudogout}}",
+   "لو ما فيه {{crystals}} مع {{fever}} فنفكر {{septic arthritis}}"
+  ],
+  "rule": "الـ{{gout}} يعني {{needle-shaped, negatively birefringent}} والـ{{pseudogout}} يعني {{rhomboid, weakly positive}}",
+  "compare": {
+   "head": [
+    "",
+    "{{gout}}",
+    "{{pseudogout}}"
+   ],
+   "rows": [
+    [
+     "الـ{{crystal}}",
+     "{{monosodium urate}}",
+     "{{calcium pyrophosphate}}"
+    ],
+    [
+     "الـ{{shape}}",
+     "{{needle}}",
+     "{{rhomboid}}"
+    ],
+    [
+     "الـ{{birefringence}}",
+     "{{negative}}",
+     "{{weakly positive}}"
+    ]
+   ]
+  }
+ },
+ "Q008": {
+  "idea": [
+   "مريضة {{SLE}} فيها {{quiescent disease for more than 6 months}} وتبي {{pregnancy}} وهي على {{mycophenolate mofetil}}",
+   "المبدأ إن الدواء {{contraindicated in pregnancy}} فنبدله بـ{{azathioprine}} ونكمل {{hydroxychloroquine}}"
+  ],
+  "clues": [
+   [
+    "تشرب {{mycophenolate mofetil}}",
+    "يعني {{teratogenic}}"
+   ],
+   [
+    "فيها {{quiescent disease above 6 months}}",
+    "فالوقت مناسب لـ{{pregnancy planning}}"
+   ],
+   [
+    "تخطط لـ{{pregnancy}}",
+    "فنعدل الأدوية قبل الحمل"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{mycophenolate mofetil}} {{causes fetal malformations}} فنوقفه قبل الحمل",
+   "ونبدله بـ{{azathioprine}} لأنه {{safe in pregnancy}}",
+   "ونكمل {{hydroxychloroquine}} لأنه {{reduces lupus flares in pregnancy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{stopping prednisone and starting cyclosporine}} مو المطلوب، المشكلة بالـ{{mycophenolate}}",
+   "1": "إيقاف {{hydroxychloroquine}} غلط لأنه {{safe and beneficial in pregnancy}}",
+   "3": "هذا الخيار صح طبيًا بس الملف معلم الجواب C، وغالبًا فيه {{copy error}} بنص الخيار C لأنه مكرر من B",
+   "4": "الـ{{methotrexate}} {{contraindicated in pregnancy}} برضو ويسبب {{malformations}}"
+  },
+  "trap": "الخيارين B وC نصهم واحد بالملف، وهذا {{copy error in source}} فلا تحير نفسك بالفرق",
+  "change": [
+   "لو {{active disease}} فنأجل الحمل لين {{remission}}",
+   "لو على {{methotrexate}} فنوقفه قبل الحمل بفترة كافية"
+  ],
+  "rule": "لو {{SLE with pregnancy planning}} فنبدل {{mycophenolate}} بـ{{azathioprine}} ونكمل {{hydroxychloroquine}}",
+  "note": "الجواب المعلم بالملف C، بس نصه مكرر من B، والخيار اللي يطابق المبدأ هو D وهو {{mycophenolate to azathioprine}}، فغالبًا النص ناقص بالمصدر"
+ },
+ "Q009": {
+  "idea": [
+   "سيدة عمرها ٦١ {{non-smoker}} فيها {{incidental 8 mm left lung nodule}} بدون {{symptoms or red flags}}",
+   "العقدة صغيرة و{{low risk}} فالجواب {{observation and regular follow-up}}"
+  ],
+  "clues": [
+   [
+    "فيها {{8 mm nodule}}",
+    "يعني {{small size}} و{{low malignancy risk}}"
+   ],
+   [
+    "هي {{non-smoker}} وبدون {{symptoms}}",
+    "يعني {{low risk factors}}"
+   ],
+   [
+    "الاكتشاف {{incidental}}",
+    "فنتابع بالـ{{imaging}}"
+   ],
+   [
+    "تفاصيل التقرير مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{small nodule in low-risk patient}} نتابعه بـ{{serial CT}}",
+   "والمتابعة تكشف {{growth}} وهو اللي يستدعي {{further intervention}}",
+   "فالجواب {{observation and regular follow-up}}"
+  ],
+  "wrong": {
+   "0": "الـ{{PET/CT}} نستخدمه لـ{{larger or higher-risk nodules}}",
+   "1": "الـ{{bronchoalveolar lavage}} ما يصلح لـ{{small solitary nodule}}",
+   "2": "الـ{{transthoracic biopsy}} لـ{{highly suspicious or large nodules}}"
+  },
+  "change": [
+   "لو العقدة {{larger}} أو {{growing on follow-up}} فنسوي {{PET/CT}} أو {{biopsy}}",
+   "لو {{smoker}} أو {{higher risk factors}} فالمتابعة {{closer}}"
+  ],
+  "rule": "لو {{small lung nodule without risk factors}} فالجواب {{serial CT follow-up}}"
+ },
+ "Q010": {
+  "idea": [
+   "مريضة {{severe COPD}} مع {{pulmonary artery pressure 55 mmHg}} و{{normal echocardiogram}}",
+   "يعني {{pulmonary hypertension due to lung disease}} والجواب {{long-term oxygen therapy}}"
+  ],
+  "clues": [
+   [
+    "عندها {{COPD for 3 years with frequent exacerbations}}",
+    "يعني {{severe lung disease}}"
+   ],
+   [
+    "فيها {{PA pressure 55 mmHg}}",
+    "يعني {{pulmonary hypertension from chronic hypoxia}}"
+   ],
+   [
+    "الـ{{echo}} طبيعي",
+    "فالمشكلة من الرئة مو {{heart}}"
+   ],
+   [
+    "الـ{{lab results and reports}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{chronic hypoxia}} يسبب {{pulmonary vasoconstriction}} فيرتفع {{pulmonary pressure}}",
+   "فنعطي {{long-term oxygen therapy}} لأنه {{reduces pulmonary pressure and improves survival in COPD with hypoxemia}}",
+   "والمريضة على {{appropriate drugs}} وخلصت {{rehabilitation}} فالخطوة التالية الأكسجين"
+  ],
+  "wrong": {
+   "0": "الـ{{daily prednisone}} ما يفيد {{long-term}} ويسبب {{harm}}",
+   "2": "الـ{{overnight oximetry}} مو الخطوة الأنسب لما {{diagnosis is clear}}",
+   "3": "الـ{{pulmonary rehabilitation}} سبق وسوته"
+  },
+  "change": [
+   "لو {{oxygen normal at rest and exertion}} فما نحتاج أكسجين",
+   "لو {{dyspnea with heart failure}} فنقيم {{heart}}"
+  ],
+  "rule": "لو {{COPD with pulmonary hypertension and hypoxemia}} فالجواب {{long-term oxygen therapy}}"
+ },
+ "Q011": {
+  "idea": [
+   "سيدة فيها {{daily wheeze and dyspnea limiting activity several times a week}} و{{FEV1 74%}} مع {{18% improvement after bronchodilator}}",
+   "يعني {{moderate persistent asthma}} والجواب {{low-dose inhaled glucocorticoid + LABA}}"
+  ],
+  "clues": [
+   [
+    "فيها {{daily wheeze limiting activity}}",
+    "يعني {{persistent asthma}} مو {{mild}}"
+   ],
+   [
+    "الـ{{FEV1}} 74% مع {{18% reversibility}}",
+    "يعني {{reversible obstruction confirms asthma}}"
+   ],
+   [
+    "فيها {{seasonal allergy}}",
+    "يعني {{allergic asthma}}"
+   ],
+   [
+    "تقارير الفحص مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{improvement above 12% after bronchodilator}} يدل على {{asthma}}",
+   "و{{daily symptoms with activity limitation}} يعني {{persistent asthma}}",
+   "فنبدأ {{low-dose inhaled glucocorticoid}} مع {{long-acting B2 agonist}}"
+  ],
+  "wrong": {
+   "0": "الـ{{leukotriene antagonist}} هو {{weaker alternative}} ومو {{first choice}}",
+   "1": "الـ{{low-dose inhaled glucocorticoid alone}} يكفي لـ{{mild asthma}} وهنا الأعراض أشد",
+   "2": "الـ{{oral antihistamine}} يعالج {{allergy}} مو {{asthma}}"
+  },
+  "change": [
+   "لو {{symptoms less than twice weekly}} فهو {{mild asthma}} وتكفي {{low-dose inhaled glucocorticoid}}",
+   "لو ما انضبط الربو فنزيد {{step by step}}"
+  ],
+  "rule": "لو {{asthma with daily symptoms}} فالجواب {{low-dose inhaled glucocorticoid + LABA}}"
+ },
+ "Q012": {
+  "idea": [
+   "مريض طلع من المستشفى بعد {{pneumonia}} وبعد ١٠ أيام جاه {{fever, dyspnea and moderate pleural effusion}}",
+   "يعني {{complicated parapneumonic effusion}} والعلاج {{drainage}} مع {{broad-spectrum antibiotic}}"
+  ],
+  "clues": [
+   [
+    "دخل المستشفى قبل {{10 days}}",
+    "يعني {{hospital-acquired infection}} و{{resistant bacteria}}"
+   ],
+   [
+    "فيه {{fever and dyspnea after treatment}}",
+    "يعني {{failed initial treatment}}"
+   ],
+   [
+    "فيه {{moderate pleural effusion}}",
+    "يعني {{fluid collection in pleura}}"
+   ],
+   [
+    "الـ{{labs and reports}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{pleural effusion with persistent infection}} يحتاج {{drainage}} مع {{antibiotics}}",
+   "والـ{{small-bore drain}} يكفي و{{less painful}}",
+   "وبعد {{hospitalization}} نختار {{piperacillin-tazobactam}} لأنه {{covers hospital bacteria}}"
+  ],
+  "wrong": {
+   "0": "الـ{{ceftriaxone and azithromycin}} للـ{{community-acquired pneumonia}} وما تغطي {{hospital bacteria}} وما فيها {{drainage}}",
+   "1": "الـ{{large chest tube}} مو لازم والـ{{small-bore drain}} يكفي",
+   "2": "الـ{{repeat X-ray in 2 weeks}} هو {{delay}} مع {{fever and effusion}}"
+  },
+  "change": [
+   "لو {{small effusion}} والمريض {{stable}} فنراقب بدون {{drainage}}",
+   "لو {{pus in pleural fluid}} يعني {{empyema}} فالـ{{drainage}} ضروري"
+  ],
+  "rule": "لو {{complicated effusion after pneumonia}} فالجواب {{drainage + appropriate antibiotics}}"
+ },
+ "Q013": {
+  "idea": [
+   "شاب عنده {{controlled asthma}} بس بالتمرين فيه {{throat tightness, stridor and wheeze}} و{{bronchodilator doesn't help}} و{{normal spirometry}}",
+   "يعني {{inducible laryngeal obstruction}} والجواب {{otolaryngology evaluation}}"
+  ],
+  "clues": [
+   [
+    "فيه {{stridor and throat tightness}}",
+    "يعني {{upper airway problem}} مو {{bronchi}}"
+   ],
+   [
+    "الـ{{bronchodilator}} ما يفيد",
+    "فهو مو {{bronchial obstruction}}"
+   ],
+   [
+    "الـ{{spirometry}} ما فيه {{obstruction}}",
+    "فالـ{{asthma}} متحكم فيه"
+   ],
+   [
+    "الأعراض مع {{intense exercise}}",
+    "يعني {{inducible laryngeal obstruction pattern}}"
+   ]
+  ],
+  "why": [
+   "لأن {{stridor}} يدل على {{upper airway obstruction}}",
+   "والـ{{asthma controlled}} و{{spirometry normal}} فزيادة علاج الربو ما تفيد",
+   "فنحيله لـ{{ENT}} لعمل {{laryngoscopy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{echocardiography}} ما له علاقة بـ{{upper airway symptoms}}",
+   "1": "الـ{{allergen immunotherapy}} ما يعالج هالحالة",
+   "3": "زيادة {{inhaled glucocorticoid}} ما تفيد لأن {{asthma is controlled}}"
+  },
+  "change": [
+   "لو {{reversible obstruction on spirometry}} فنزيد {{asthma treatment}}",
+   "لو {{wheeze and dyspnea after exercise improving with bronchodilator}} فالجواب {{exercise-induced bronchoconstriction}}"
+  ],
+  "rule": "لو {{exercise stridor with controlled asthma and normal spirometry}} فنطلب {{laryngeal evaluation}}"
+ },
+ "Q014": {
+  "idea": [
+   "عامل بورشة سيارات عنده {{dyspnea and nocturnal cough}} مرتبطة بالشغل، والحين بعد إجازة {{all tests normal}}",
+   "نشك {{occupational asthma}} فنعيد {{spirometry after workplace exposure}}"
+  ],
+  "clues": [
+   [
+    "يشتغل بـ{{auto body shop}}",
+    "فالـ{{paints}} تسبب {{occupational asthma}}"
+   ],
+   [
+    "الأعراض مرتبطة بـ{{work days}}",
+    "يعني {{occupational asthma pattern}}"
+   ],
+   [
+    "الفحوصات طبيعية {{after vacation}}",
+    "لأن الفحص {{without exposure}} يطلع طبيعي"
+   ],
+   [
+    "هو {{non-smoker}}",
+    "فالسبب {{environmental}}"
+   ]
+  ],
+  "why": [
+   "لأن {{occupational asthma}} يتحسن {{away from work}} ويزيد {{after exposure}}",
+   "والفحوصات الطبيعية {{during rest}} ما تستبعد التشخيص",
+   "فنعيد {{spirometry after workplace exposure}} ونقارن"
+  ],
+  "wrong": {
+   "0": "الـ{{HRCT}} مو مطلوب مع {{normal X-ray}} و{{asthma-like symptoms}}",
+   "1": "الـ{{inhaled glucocorticoid}} نبدأه {{before confirming diagnosis}} غلط",
+   "2": "نطلب منه {{change job}} قبل {{confirming diagnosis}} غلط"
+  },
+  "change": [
+   "لو {{diagnosis confirmed}} فنبعد المريض عن {{causative agent}}",
+   "لو الأعراض مستمرة {{away from work}} فنفكر {{ordinary asthma}}"
+  ],
+  "rule": "لو {{suspected occupational asthma}} فنقارن {{spirometry after and away from exposure}}"
+ },
+ "Q015": {
+  "idea": [
+   "سيدة فيها {{dry paroxysmal cough for 4 months}} وما تحسنت على {{nasal steroid}} و{{normal X-ray}} و{{borderline spirometry}}",
+   "نشك {{cough-variant asthma}} والفحص التالي {{methacholine challenge}}"
+  ],
+  "clues": [
+   [
+    "فيها {{chronic dry paroxysmal cough}}",
+    "يعني {{possible cough-variant asthma}}"
+   ],
+   [
+    "ما تحسنت على {{nasal steroid}}",
+    "فهو مو {{allergic rhinitis}}"
+   ],
+   [
+    "الـ{{chest X-ray}} طبيعي",
+    "فما فيه {{obvious lung disease}}"
+   ],
+   [
+    "الـ{{spirometry}} فيه {{borderline}} وغير حاسم",
+    "فنحتاج فحص يكشف {{bronchial hyperresponsiveness}}"
+   ],
+   [
+    "تفاصيل التقارير مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{non-diagnostic spirometry with suspected asthma}} نسوي {{methacholine challenge test}}",
+   "والفحص يبين {{bronchial hyperresponsiveness}} ويدعم التشخيص",
+   "فالجواب {{methacholine challenge testing}}"
+  ],
+  "wrong": {
+   "0": "الـ{{allergy skin test}} يبين {{allergy}} مو {{asthma}} نفسه",
+   "1": "الـ{{HRCT}} ما له داعي مع {{normal X-ray}}",
+   "2": "الـ{{IgE}} هو {{nonspecific}} وما يشخص الربو"
+  },
+  "change": [
+   "لو الـ{{spirometry}} فيه {{clear reversible obstruction}} فالتشخيص يتأكد بدون {{methacholine}}",
+   "لو {{methacholine negative}} فنستبعد الربو ونبحث {{other causes of cough}}"
+  ],
+  "rule": "لو {{chronic cough with non-diagnostic spirometry}} فالجواب {{methacholine challenge}}"
+ },
+ "Q016": {
+  "idea": [
+   "مدخن {{20 pack-year}} فيه {{chronic cough and exertional dyspnea}} مع {{FEV1 75%}} و{{FEV1/FVC 68%}} و{{mMRC 2}}",
+   "يعني {{mild COPD}} والعلاج {{bronchodilators + pulmonary rehabilitation}}"
+  ],
+  "clues": [
+   [
+    "الـ{{FEV1/FVC}} 68% بعد {{bronchodilator}}",
+    "يعني {{confirms COPD}} لأنها أقل من 70%"
+   ],
+   [
+    "الـ{{FEV1}} 75%",
+    "يعني {{mild to moderate severity}}"
+   ],
+   [
+    "الـ{{mMRC}} 2",
+    "يعني {{moderate symptoms}}"
+   ],
+   [
+    "ما فيه {{frequent exacerbations}}",
+    "يعني {{low risk}}"
+   ]
+  ],
+  "why": [
+   "لأن {{COPD with moderate symptoms without frequent exacerbations}} يعتمد على {{bronchodilators}}",
+   "نعطي {{short-acting bronchodilator as needed}} ونضيف {{long-acting bronchodilator}}",
+   "ونضيف {{pulmonary rehabilitation}} مع {{smoking cessation}}"
+  ],
+  "wrong": {
+   "0": "الـ{{inhaled glucocorticoid}} مو {{first choice}} بدون {{frequent exacerbations}}",
+   "1": "الـ{{PDE-4 inhibitor}} لـ{{severe disease with frequent exacerbations and chronic bronchitis}}",
+   "3": "الـ{{inhaled glucocorticoid with short-acting bronchodilator}} ما يغطي علاج {{COPD}}"
+  },
+  "change": [
+   "لو {{frequent exacerbations}} فنضيف {{inhaled glucocorticoid}}",
+   "لو {{more severe symptoms}} فنستخدم {{two long-acting bronchodilators}}"
+  ],
+  "rule": "لو {{COPD without frequent exacerbations}} فالعلاج {{LABD + SABD as needed + rehabilitation}}"
+ },
+ "Q017": {
+  "idea": [
+   "مريضة {{cough-variant asthma}} تحسنت جزئيًا على {{inhaled steroid}} بس السعال يزيد {{when lying down}} وفيها {{hoarseness and throat clearing}}",
+   "يعني {{GERD}} يغذي السعال فنضيف {{PPI}}"
+  ],
+  "clues": [
+   [
+    "السعال يزيد {{when lying down}}",
+    "يعني {{reflux sign}}"
+   ],
+   [
+    "فيها {{morning hoarseness and throat clearing}}",
+    "يعني {{laryngopharyngeal reflux}}"
+   ],
+   [
+    "فيها {{partial improvement on asthma treatment}}",
+    "فما يفسر كل الأعراض"
+   ],
+   [
+    "الـ{{chest clear without wheeze}}",
+    "فما فيه {{active asthma}}"
+   ]
+  ],
+  "why": [
+   "لأن {{GERD}} من أشهر أسباب {{persistent chronic cough}}",
+   "والـ{{nocturnal symptoms with hoarseness}} تدل عليه",
+   "فنضيف {{proton pump inhibitor}}"
+  ],
+  "wrong": {
+   "0": "إضافة {{long-acting B2 agonist}} ما تعالج {{reflux}}",
+   "2": "الـ{{nocturnal antitussive}} يغطي {{symptom}} بدون علاج السبب",
+   "3": "الـ{{methacholine challenge}} سبق وسوته وشخص الربو أصلًا"
+  },
+  "change": [
+   "لو ما تحسن بعد علاج {{reflux}} فنقيم {{other causes}}",
+   "لو {{wheeze and active dyspnea}} فنراجع {{asthma treatment}}"
+  ],
+  "rule": "لو {{chronic cough worse lying down with hoarseness}} فالجواب {{GERD}} ونضيف {{PPI}}"
+ },
+ "Q018": {
+  "idea": [
+   "شاب عمره ١٧ عنده {{severe asthma exacerbation for 12 hours}} مع {{previous intubation}} ولسا {{severe dyspnea after 1 hour of steroids and nebulizers}}",
+   "يعني {{severe asthma not responding}} والجواب {{admit to the ICU}}"
+  ],
+  "clues": [
+   [
+    "فيه {{severe attack for 12 hours}}",
+    "يعني {{prolonged attack}}"
+   ],
+   [
+    "كان {{intubated 2 years ago}}",
+    "يعني {{risk factor for life-threatening attack}}"
+   ],
+   [
+    "بعد ساعة علاج لسا {{dyspnea}}",
+    "يعني {{poor response to initial treatment}}"
+   ],
+   [
+    "الـ{{X-ray}} فيه {{hyperinflation}}",
+    "يعني {{severe air trapping}}"
+   ],
+   [
+    "الـ{{labs and report}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{no response after 1 hour of initial treatment}} علامة {{severe attack}}",
+   "و{{previous intubation}} يرفع خطر {{rapid deterioration}}",
+   "فيحتاج {{close monitoring in ICU}} فالجواب {{admit to the ICU}}"
+  ],
+  "wrong": {
+   "1": "الـ{{reassurance and discharge}} خطير جدًا",
+   "2": "الـ{{general floor}} ما يوفر {{required monitoring}}",
+   "3": "الـ{{discharge next day}} خطير مع {{unresponsive attack}}"
+  },
+  "change": [
+   "لو {{rapid improvement after treatment}} فممكن {{observation and later discharge}}",
+   "لو {{altered consciousness or exhaustion}} فنجهز {{intubation}}"
+  ],
+  "rule": "لو {{severe asthma not responding to initial treatment with previous intubation}} فالجواب {{ICU}}"
+ },
+ "Q019": {
+  "idea": [
+   "رجال عمره ٦٣ فيه {{dyspnea for 1 week}} و{{right pleural effusion}} والسائل {{transudative}}",
+   "وأشهر سبب للـ{{transudative effusion}} هو {{heart failure}}"
+  ],
+  "clues": [
+   [
+    "فيه {{clear transudative pleural fluid}}",
+    "يعني {{increased hydrostatic pressure or low protein}}"
+   ],
+   [
+    "فيه {{gradual dyspnea}}",
+    "يعني {{congestion}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{transudate}} يصير لما {{vascular pressure rises or serum protein falls}}",
+   "وأشهر أسبابه {{heart failure}}",
+   "أما الـ{{exudative effusion}} فيجي مع {{infection and malignancy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{pancreatitis}} غالبًا يسبب {{exudative effusion}}",
+   "1": "الـ{{pneumonia}} يسبب {{parapneumonic effusion}} من نوع {{exudate}}",
+   "3": "الـ{{malignancy}} غالبًا يسبب {{exudative effusion}}"
+  },
+  "change": [
+   "لو {{exudate by Light criteria}} فنفكر {{infection or malignancy}}",
+   "لو {{liver cirrhosis}} فممكن {{transudate}} برضو"
+  ],
+  "rule": "لو {{transudative pleural effusion}} فغالبًا {{heart failure}}"
+ },
+ "Q020": {
+  "idea": [
+   "شابة عمرها ٢٤ عندها {{asthma}} على {{salbutamol as needed}} مع {{beclometasone 400 twice daily}} ومع كذا {{frequent exacerbations and 3 admissions}}",
+   "الجواب نضيف {{long-acting B2 agonist}}"
+  ],
+  "clues": [
+   [
+    "هي على {{beclometasone moderate dose}} مع {{short-acting bronchodilator}}",
+    "يعني {{current step is insufficient}}"
+   ],
+   [
+    "فيها {{frequent exacerbations and admissions}}",
+    "يعني {{uncontrolled asthma}}"
+   ]
+  ],
+  "why": [
+   "لأن {{asthma uncontrolled on inhaled steroid}} الخطوة التالية {{add long-acting B2 agonist}}",
+   "مثل {{salmeterol}}",
+   "وهذا أنسب من {{increasing or switching steroid}}"
+  ],
+  "wrong": {
+   "0": "الـ{{switching steroid type}} ما يغيّر كثير وما هو الخطوة الصحيحة",
+   "1": "الـ{{regular salbutamol}} ما يتحكم بالـ{{inflammation}} وممكن {{harmful}}",
+   "3": "الـ{{tiotropium}} هو {{add-on after LABA}} لو ما انضبط"
+  },
+  "change": [
+   "لو ما انضبط بعد {{LABA}} فنزيد {{steroid dose}} أو نضيف {{tiotropium}}",
+   "لو {{very severe}} فنفكر {{biologic therapy}}"
+  ],
+  "rule": "لو {{uncontrolled asthma on inhaled steroid}} فنضيف {{LABA}}"
+ }
+}

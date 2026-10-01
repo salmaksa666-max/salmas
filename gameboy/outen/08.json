@@ -1,0 +1,648 @@
+{
+ "Q141": {
+  "idea": [
+   "سيدة تخطط لـ{{pregnancy}} وتاخذ {{ACEI}} للـ{{hypertension}}",
+   "فالتأثير هو زيادة {{fetal malformations}}"
+  ],
+  "clues": [
+   [
+    "فالـ{{ACEI}} ممنوع بالـ{{pregnancy}}",
+    "يعني {{teratogenic}}"
+   ],
+   [
+    "وهي {{planning pregnancy}}",
+    "فنغير الدواء قبل الحمل"
+   ]
+  ],
+  "why": [
+   "الـ{{ACEI}} يسبب {{fetal malformations}}",
+   "منها {{renal dysgenesis}} و{{oligohydramnios}}",
+   "خصوصًا بالـ{{second and third trimesters}}"
+  ],
+  "wrong": {
+   "0": "الـ{{ACEI}} ما يرفع {{preeclampsia}}",
+   "2": "الـ{{ACEI}} ما يرتبط بـ{{PROM}}",
+   "3": "الـ{{ACEI}} ما يسبب {{maternal hypotension}} كبير"
+  },
+  "change": [
+   "البدائل {{labetalol}} و{{methyldopa}} و{{nifedipine}}",
+   "والـ{{ARBs}} ممنوعة أيضًا"
+  ],
+  "rule": "الـ{{ACEI}} بالحمل يعني {{fetal malformations}}"
+ },
+ "Q142": {
+  "idea": [
+   "شاب {{Hodgkin lymphoma}} على {{chemotherapy}} وصار عنده {{tumor lysis syndrome}}",
+   "فالاضطراب {{hyperkalemia}} مع {{hypocalcemia}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{TLS}}",
+    "يعني {{sudden cell lysis}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Cell lysis}} يطلق {{potassium}} و{{phosphate}} و{{uric acid}}",
+   "والـ{{phosphate}} يرتبط بالـ{{calcium}} فيصير {{hypocalcemia}}",
+   "فيصير {{hyperkalemia}} مع {{hypocalcemia}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Hypokalemia}} غلط لأن الـ{{K}} يرتفع",
+   "1": "الـ{{Hypokalemia}} مع {{hypercalcemia}} غلط",
+   "3": "الـ{{Hypercalcemia}} غلط لأن الـ{{Ca}} ينخفض"
+  },
+  "change": [
+   "نعطي {{rasburicase}} و{{aggressive hydration}}",
+   "ونراقب {{ECG}}"
+  ],
+  "rule": "الـ{{TLS}} يعني {{hyperkalemia}} و{{hyperphosphatemia}} و{{hypocalcemia}} و{{hyperuricemia}}"
+ },
+ "Q143": {
+  "idea": [
+   "رجل {{alcoholic}} عنده {{ascites}} و{{jaundice}} و{{upper abdominal pain}}",
+   "فالسبب {{portal hypertension}}"
+  ],
+  "clues": [
+   [
+    "فهو {{alcoholic}} مع {{jaundice}}",
+    "يعني {{cirrhosis}}"
+   ],
+   [
+    "وعنده {{ascites}}",
+    "يعني غالبًا {{high SAAG}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{Alcohol}} يسبب {{cirrhosis}}",
+   "فيرتفع {{portal pressure}} ويتكون {{ascites}}",
+   "ونؤكد بـ{{SAAG ≥ 1.1}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Nephrotic syndrome}} ما يعطي {{jaundice}}",
+   "1": "الـ{{Pancreatitis}} يعطي {{pancreatic ascites}}",
+   "3": "الـ{{CHF}} يجي مع {{raised JVP}}"
+  },
+  "change": [
+   "لو {{low SAAG}} نفكر {{peritoneal cause}}",
+   "لو {{raised JVP}} نفكر {{cardiac cause}}"
+  ],
+  "rule": "الـ{{Alcohol}} مع {{ascites}} و{{jaundice}} يعني {{portal hypertension}}"
+ },
+ "Q144": {
+  "idea": [
+   "رجل جديد {{hypertension}} ووصفوا له {{ARB}}",
+   "فالدواء {{irbesartan}}"
+  ],
+  "clues": [
+   [
+    "فالـ{{ARB}}",
+    "اسمه ينتهي بـ{{-sartan}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Irbesartan}} هو {{ARB}}",
+   "أما الـ{{perindopril}} فهو {{ACEI}}",
+   "والـ{{carvedilol}} {{beta blocker}} والـ{{amiodarone}} {{antiarrhythmic}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Carvedilol}} هو {{beta blocker}}",
+   "2": "الـ{{Perindopril}} هو {{ACEI}}",
+   "3": "الـ{{Amiodarone}} لـ{{arrhythmia}}"
+  },
+  "change": [
+   "الـ{{-pril}} يعني {{ACEI}}",
+   "والـ{{-olol}} يعني {{beta blocker}}"
+  ],
+  "rule": "الـ{{-sartan}} يعني {{ARB}}"
+ },
+ "Q145": {
+  "idea": [
+   "رجل ٤٢ سنة عنده {{fever}} و{{dyspnea}} و{{raised JVP}} و{{pulsus paradoxus}} و{{muffled heart sounds}}",
+   "فالإصابة بالـ{{pericardium}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{pulsus paradoxus}} مع {{muffled heart sounds}} و{{raised JVP}}",
+    "يعني {{Beck's triad}} للـ{{tamponade}}"
+   ],
+   [
+    "و{{low voltage}} مع {{enlarged cardiac silhouette}}",
+    "يعني {{pericardial effusion}}"
+   ],
+   [
+    "وعنده {{fever}}",
+    "يعني {{pericarditis}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Beck's triad}} تدل على {{tamponade}}",
+   "وسببها {{pericardial effusion}}",
+   "فالمنطقة المصابة هي {{pericardium}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Valves}} تعطي {{murmurs}}",
+   "2": "الـ{{Myocardium}} يعطي {{heart failure}}",
+   "3": "الـ{{Coronary arteries}} تعطي {{angina}}"
+  },
+  "change": [
+   "نسوي {{echocardiography}}",
+   "لو {{tamponade}} نسوي {{pericardiocentesis}}"
+  ],
+  "rule": "الـ{{Beck's triad}} يعني {{pericardium}}"
+ },
+ "Q146": {
+  "idea": [
+   "شابة ٢٢ سنة أخذت {{50 tablets of acetaminophen}} قبل ٣ ساعات وهي واعية",
+   "فنعطي {{N-acetylcysteine}} مع {{activated charcoal}}"
+  ],
+  "clues": [
+   [
+    "فالجرعة عالية قبل ٣ ساعات",
+    "يعني داخل نافذة {{charcoal}} و{{NAC}}"
+   ],
+   [
+    "وهي {{alert}}",
+    "يعني ما تحتاج {{intubation}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الجرعة {{potentially toxic}} فنعطي {{NAC}} بدون انتظار",
+   "والـ{{charcoal}} خلال {{1-2 hours}} من البلع",
+   "ونتابع {{acetaminophen level}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Hemodialysis}} غير ضروري",
+   "2": "الـ{{Observation}} وحدها خطر",
+   "3": "ما فيه {{decreased consciousness}} يحتاج {{intubation}}"
+  },
+  "change": [
+   "لو متأخر نعتمد على {{Rumack-Matthew nomogram}}",
+   "لو {{acute liver failure}} نحول لـ{{transplant}}"
+  ],
+  "rule": "الـ{{Toxic acetaminophen dose}} يعني {{NAC}}"
+ },
+ "Q147": {
+  "idea": [
+   "رجل ٤٣ سنة عنده {{proximal DVT}} مع تاريخ {{PE}} قبل ٥ سنوات بدون علاج",
+   "فنعطي {{long-term anticoagulation}}"
+  ],
+  "clues": [
+   [
+    "فهذا {{second DVT}}",
+    "يعني {{recurrent VTE}}"
+   ],
+   [
+    "و{{PE}} قديم",
+    "يعني {{unprovoked event}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Recurrent VTE}} نعطي {{indefinite anticoagulation}}",
+   "لأن الـ{{recurrence risk}} عالي",
+   "والـ{{3 months}} للحدث الأول الـ{{provoked}} بس"
+  ],
+  "wrong": {
+   "0": "الـ{{Aspirin}} ما يكفي",
+   "1": "الـ{{Thrombolysis}} لحالات {{massive PE}} بس",
+   "3": "الـ{{2 months}} غير كافي"
+  },
+  "change": [
+   "لو أول حدث {{provoked}} بسبب {{surgery}} فـ{{3 months}}",
+   "لو {{cancer}} نستخدم {{LMWH}}"
+  ],
+  "rule": "الـ{{Recurrent VTE}} يعني {{long-term anticoagulation}}"
+ },
+ "Q148": {
+  "idea": [
+   "شاب بصحة جيدة عنده {{cough}} و{{fatigue}} و{{sore throat}} مع {{blood-streaked sputum}} و{{normal CXR}}",
+   "فالتشخيص {{acute bronchitis}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{cough}} مع {{streaks of blood}}",
+    "يعني {{acute bronchitis}}"
+   ],
+   [
+    "والـ{{CXR}} طبيعي",
+    "يعني ما فيه {{consolidation}}"
+   ],
+   [
+    "الـ{{report}} مو موجود بالبطاقة",
+    "فنعتمد على الجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{Acute bronchitis}} شائع بعد {{viral infection}}",
+   "وممكن يظهر {{streaks of blood}}",
+   "وغالبًا ما يحتاج {{antibiotics}}"
+  ],
+  "wrong": {
+   "1": "الـ{{Pulmonary edema}} تجي مع {{dyspnea}}",
+   "2": "الـ{{Goodpasture syndrome}} تجي مع {{renal involvement}}",
+   "3": "الـ{{HHT}} ينزف من أماكن ثانية"
+  },
+  "change": [
+   "لو {{massive hemoptysis}} نسوي {{CT}}",
+   "لو {{renal involvement}} نفكر {{Goodpasture}}"
+  ],
+  "rule": "الـ{{Cough}} مع {{normal CXR}} يعني {{acute bronchitis}}"
+ },
+ "Q150": {
+  "idea": [
+   "رجل ٤٢ سنة {{homeless}} طلع من {{prison}} عنده {{fever}} و{{cough}} و{{weight loss}} و{{night sweats}} و{{apical infiltrate}}",
+   "فأعلى فحص قيمة {{Ziehl-Neelsen stain}}"
+  ],
+  "clues": [
+   [
+    "فهو طلع من {{prison}} و{{homeless}}",
+    "يعني {{TB risk factors}}"
+   ],
+   [
+    "و{{apical infiltrate}} مع {{night sweats}} و{{weight loss}}",
+    "يعني {{pulmonary TB}}"
+   ],
+   [
+    "الـ{{report}} مو موجود بالبطاقة",
+    "فنعتمد على الجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{TB}} نشخصه بـ{{Ziehl-Neelsen stain}} للـ{{sputum}}",
+   "لأنها تظهر {{acid-fast bacilli}}",
+   "ونكمل بالـ{{culture}} و{{GeneXpert}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Thin film}} للـ{{malaria}}",
+   "1": "الـ{{Congo red}} للـ{{amyloid}}",
+   "2": "الـ{{Thick film}} للـ{{malaria}}"
+  },
+  "change": [
+   "لو {{AFB}} سلبي نسوي {{GeneXpert}}",
+   "ونسوي {{isolation}}"
+  ],
+  "rule": "الـ{{Apical infiltrate}} مع {{night sweats}} يعني {{ZN stain}}"
+ },
+ "Q151": {
+  "idea": [
+   "شاب بصحة جيدة عنده {{cough}} و{{fatigue}} و{{sore throat}} مع {{blood-streaked sputum}} و{{normal CXR}}",
+   "فالتشخيص {{acute bronchitis}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{cough}} مع {{streaks of blood}}",
+    "يعني {{acute bronchitis}}"
+   ],
+   [
+    "والـ{{CXR}} طبيعي",
+    "يعني ما فيه {{consolidation}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Acute bronchitis}} شائع بعد {{viral infection}}",
+   "وممكن يظهر {{streaks of blood}}",
+   "وغالبًا ما يحتاج {{antibiotics}}"
+  ],
+  "wrong": {
+   "1": "الـ{{Pulmonary edema}} تجي مع {{dyspnea}}",
+   "2": "الـ{{Goodpasture syndrome}} تجي مع {{renal involvement}}",
+   "3": "الـ{{HHT}} ينزف من أماكن ثانية"
+  },
+  "change": [
+   "لو {{massive hemoptysis}} نسوي {{CT}}",
+   "لو {{renal involvement}} نفكر {{Goodpasture}}"
+  ],
+  "rule": "الـ{{Cough}} مع {{normal CXR}} يعني {{acute bronchitis}}"
+ },
+ "Q152": {
+  "idea": [
+   "شاب بعد {{marathon}} وسقط وعنده {{dark urine}} مع {{positive dipstick for blood}} بدون {{RBCs}}",
+   "فالتشخيص {{rhabdomyolysis}}"
+  ],
+  "clues": [
+   [
+    "فالـ{{dipstick}} إيجابي بدون {{RBCs}}",
+    "يعني {{myoglobinuria}}"
+   ],
+   [
+    "و{{strenuous exercise}}",
+    "يعني سبب {{rhabdomyolysis}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Muscle breakdown}} يطلق {{myoglobin}}",
+   "فيعطي {{dark urine}} و{{positive dipstick}} بدون {{RBCs}}",
+   "ونؤكد بالـ{{CK}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Hemorrhagic cystitis}} فيها {{RBCs}}",
+   "1": "الـ{{Glomerulonephritis}} فيها {{RBCs}}",
+   "3": "الـ{{Pyelonephritis}} تجي مع {{fever}} و{{pyuria}}"
+  },
+  "change": [
+   "لو {{RBCs}} موجودة فهذا {{hematuria}}",
+   "ونقيس {{CK}}"
+  ],
+  "rule": "الـ{{Dipstick}} إيجابي للدم بدون {{RBCs}} يعني {{rhabdomyolysis}}"
+ },
+ "Q153": {
+  "idea": [
+   "نفس الشاب بـ{{rhabdomyolysis}} والسؤال عن الـ{{management}}",
+   "فالإدارة {{aggressive hydration}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{rhabdomyolysis}}",
+    "يعني خطر {{AKI}}"
+   ]
+  ],
+  "why": [
+   "الأساس {{aggressive IV fluids}}",
+   "لحماية الـ{{kidney}} من {{myoglobin}}",
+   "ونراقب {{electrolytes}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Diuresis}} بدون {{hydration}} خطر",
+   "2": "الـ{{Antibiotics}} ما لها دور",
+   "3": "ما فيه {{hypertension}} يحتاج علاج"
+  },
+  "change": [
+   "نراقب {{K}} و{{Ca}}",
+   "لو {{renal failure}} نسوي {{dialysis}}"
+  ],
+  "rule": "الـ{{Rhabdomyolysis}} يعني {{aggressive IV fluids}}"
+ },
+ "Q154": {
+  "idea": [
+   "سيدة ٥٠ سنة بعد {{surgery}} بـ٦ أيام عندها {{nausea}} و{{myalgia}} و{{distension}} وما تتبرز",
+   "فنسوي {{ECG}} لاحتمال {{hypokalemia}}"
+  ],
+  "clues": [
+   [
+    "فعندها {{nausea}} و{{myalgia}}",
+    "يعني {{hypokalemia}} محتمل"
+   ],
+   [
+    "وما تتبرز مع {{distension}}",
+    "يعني {{ileus}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{Ileus}} مع {{muscle weakness}} يوحي بـ{{hypokalemia}}",
+   "والأخطر هو {{arrhythmia}}",
+   "فنبدأ بالـ{{ECG}}"
+  ],
+  "wrong": {
+   "1": "الـ{{Urine K}} أقل أولوية",
+   "2": "الـ{{Stool K}} غير مفيد",
+   "3": "الـ{{Urine osmolality}} ما يقرر"
+  },
+  "change": [
+   "نصحح الـ{{K}}",
+   "ونراقب {{Mg}}"
+  ],
+  "rule": "الـ{{Ileus}} مع {{muscle weakness}} يعني {{ECG}} و{{serum K}}"
+ },
+ "Q155": {
+  "idea": [
+   "مريض {{bone marrow transplant}} عنده {{neutropenia}} و{{fever}} و{{cough}} مع {{invasive aspergillosis}}",
+   "فالعلاج {{voriconazole}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{neutropenia}} بعد {{transplant}}",
+    "يعني {{immunocompromised}}"
+   ],
+   [
+    "و{{invasive aspergillosis}}",
+    "يعني {{fungal infection}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Voriconazole}} هو {{first-line}} للـ{{aspergillosis}}",
+   "وهو {{antifungal}}",
+   "والخيارات الثانية ما تغطي {{Aspergillus}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Rifampicin}} لـ{{TB}}",
+   "1": "الـ{{Valaciclovir}} للـ{{viral infection}}",
+   "2": "الـ{{Tigecycline}} هو {{antibacterial}}"
+  },
+  "change": [
+   "لو ما يتحمل نستخدم {{amphotericin}}",
+   "ونراقب {{drug level}}"
+  ],
+  "rule": "الـ{{Invasive aspergillosis}} يعني {{voriconazole}}"
+ },
+ "Q156": {
+  "idea": [
+   "سيدة ٣٢ سنة عندها {{SLE}} مع {{recurrent miscarriages}} و{{DVT}}",
+   "فنعطي {{lifelong warfarin}}"
+  ],
+  "clues": [
+   [
+    "فعندها {{recurrent miscarriages}} مع {{DVT}}",
+    "يعني {{antiphospholipid syndrome}}"
+   ],
+   [
+    "و{{malar rash}} مع {{arthritis}}",
+    "يعني {{SLE}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{APS}} مع {{thrombosis}} نعطي {{warfarin}} مدى الحياة",
+   "والـ{{DOACs}} أقل فعالية بالـ{{APS}}",
+   "والـ{{LMWH}} بالـ{{pregnancy}}"
+  ],
+  "wrong": {
+   "1": "الـ{{Enoxaparin}} طويل الأمد غير عملي إلا بالـ{{pregnancy}}",
+   "2": "الـ{{UFH}} {{short-term}} بس",
+   "3": "الـ{{DOAC}} غير موصى به بالـ{{APS}}"
+  },
+  "change": [
+   "لو {{pregnant}} نعطي {{LMWH}}",
+   "لو {{arterial thrombosis}} نضيف {{aspirin}}"
+  ],
+  "rule": "الـ{{APS}} مع {{thrombosis}} يعني {{lifelong warfarin}}"
+ },
+ "Q157": {
+  "idea": [
+   "سيدة ٤٦ سنة عندها {{back pain}} و{{fever}} و{{leg weakness}} مع {{discitis at T6}}",
+   "فنطلب {{Brucella titers}}"
+  ],
+  "clues": [
+   [
+    "فعندها {{back pain}} مع {{fever}}",
+    "يعني {{vertebral infection}}"
+   ],
+   [
+    "و{{discitis}}",
+    "يعني {{infectious}}"
+   ],
+   [
+    "الـ{{labs}} والـ{{report}} مو موجودة بالبطاقة",
+    "فنعتمد على الجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "حسب الجواب المعتمد نبدأ بـ{{non-invasive test}}",
+   "والـ{{Brucella}} سبب شائع محليًا",
+   "فنطلب {{Brucella serology}}"
+  ],
+  "wrong": {
+   "0": "الـ{{PPD}} غير موثوق",
+   "2": "الـ{{Biopsy}} {{invasive}} أكثر",
+   "3": "الـ{{Bone marrow culture}} حساسيته قليلة"
+  },
+  "change": [
+   "لو سلبي نسوي {{biopsy}}",
+   "لو {{cord compression}} نسوي {{surgery}}"
+  ],
+  "rule": "الـ{{Spondylodiscitis}} بمنطقتنا يعني {{Brucella serology}}",
+  "note": "الجواب حسب الملف المعتمد، وبعض المراجع تقترح {{biopsy}} أو {{blood culture}}"
+ },
+ "Q158": {
+  "idea": [
+   "مسن بعد {{large stroke}} صار عنده {{hemorrhagic transformation}} مع {{papilledema}}",
+   "فالعلاج النهائي {{craniotomy and decompression}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{hemorrhagic transformation}}",
+    "يعني {{mass effect}}"
+   ],
+   [
+    "و{{papilledema}}",
+    "يعني {{raised ICP}}"
+   ]
+  ],
+  "why": [
+   "الـ{{ICP}} عالي بسبب {{mass effect}}",
+   "فالعلاج الحاسم {{surgical decompression}}",
+   "والـ{{mannitol}} {{temporizing}} بس"
+  ],
+  "wrong": {
+   "0": "الـ{{Dexamethasone}} ما يفيد بالـ{{hemorrhage}}",
+   "1": "الـ{{Mannitol}} {{temporary}} بس",
+   "3": "الـ{{Hyperventilation}} {{temporary}} بس"
+  },
+  "change": [
+   "أثناء التحضير نعطي {{mannitol}}",
+   "لو {{small}} نراقب"
+  ],
+  "rule": "الـ{{Raised ICP}} مع {{hemorrhage}} يعني {{decompression}}"
+ },
+ "Q159": {
+  "idea": [
+   "مريضة ٥٩ سنة عندها {{infected bedsore}} مع {{debridement}} قبل يومين وصار {{sudden confusion}}",
+   "فالسبب {{septic shock}}"
+  ],
+  "clues": [
+   [
+    "فعندها {{infected bedsore}}",
+    "يعني مصدر {{sepsis}}"
+   ],
+   [
+    "و{{confusion}}",
+    "يعني {{organ dysfunction}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Infection}} مع {{debridement}} تسبب {{bacteremia}}",
+   "فيحدث {{sepsis}} مع {{confusion}}",
+   "وهذا الأرجح"
+  ],
+  "wrong": {
+   "1": "الـ{{Anaphylaxis}} تجي مع {{rash}} و{{angioedema}}",
+   "2": "الـ{{Cardiogenic shock}} تجي مع {{cardiac signs}}",
+   "3": "الـ{{PE}} تجي مع {{dyspnea}}"
+  },
+  "change": [
+   "لو {{sudden dyspnea}} نفكر {{PE}}",
+   "ونعطي {{antibiotics}} و{{IV fluids}}"
+  ],
+  "rule": "الـ{{Infection}} مع {{sudden confusion}} يعني {{sepsis}}"
+ },
+ "Q160": {
+  "idea": [
+   "سجين عنده {{open TB}} و{{HIV}} إيجابي",
+   "فنبدأ {{anti-TB}} أولًا حسب الجواب المعتمد"
+  ],
+  "clues": [
+   [
+    "فعنده {{open TB}}",
+    "يعني {{immediate treatment}}"
+   ],
+   [
+    "و{{new HIV}}",
+    "فنأخر {{ART}} لتجنب {{IRIS}}"
+   ]
+  ],
+  "why": [
+   "نبدأ {{anti-TB therapy}} أولًا",
+   "ونأجل {{ART}} من {{2 to 8 weeks}}",
+   "لتجنب {{IRIS}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Simultaneous start}} ممكن يسبب {{IRIS}}",
+   "1": "الـ{{PCP prophylaxis}} ما فيه دلالة هنا",
+   "2": "الـ{{ART}} أولًا يأخر علاج {{TB}}"
+  },
+  "change": [
+   "لو {{CD4 < 50}} نبدأ {{ART}} خلال {{2 weeks}}",
+   "ونراقب {{IRIS}}"
+  ],
+  "rule": "الـ{{TB}} مع {{HIV}} يعني {{anti-TB}} أولًا وبعدها {{ART}}",
+  "note": "الجواب حسب الملف المعتمد، والإرشادات الحديثة تبدأ {{ART}} بعد {{2 weeks}}"
+ },
+ "Q161": {
+  "idea": [
+   "رجل ٧٠ سنة ينسى الأسماء وأرقام الهاتف والأهل خايفين من {{Alzheimer}}",
+   "فالأقرب {{benign forgetfulness}}"
+  ],
+  "clues": [
+   [
+    "فينسى {{names}} و{{phone numbers}}",
+    "يعني {{age-associated memory impairment}}"
+   ],
+   [
+    "والـ{{exam}} طبيعي",
+    "يعني ما فيه {{dementia}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{Mild forgetfulness}} بدون تأثير على {{daily function}}",
+   "يعني {{benign forgetfulness}}",
+   "أما الـ{{Alzheimer}} فيأثر على {{function}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Alzheimer}} {{progressive decline}} يأثر على {{function}}",
+   "1": "الـ{{Lewy body dementia}} تجي مع {{hallucinations}}",
+   "3": "الـ{{Hypertensive encephalopathy}} تجي مع {{headache}} و{{severe hypertension}}"
+  },
+  "change": [
+   "لو {{functional decline}} نسوي {{MMSE}}",
+   "لو {{hallucinations}} فهذا {{Lewy body}}"
+  ],
+  "rule": "الـ{{Mild forgetfulness}} بدون {{functional impairment}} يعني {{benign forgetfulness}}"
+ }
+}

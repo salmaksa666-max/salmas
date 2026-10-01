@@ -1,0 +1,799 @@
+{
+ "Q041": {
+  "idea": [
+   "سيدة فيها {{arthritis, facial rash, photosensitivity, Raynaud and proximal muscle weakness}} مع {{high-titer ANA}}",
+   "يعني {{mixed connective tissue disease}} والجسم المضاد {{anti-RNP}}"
+  ],
+  "clues": [
+   [
+    "فيها {{arthritis, facial rash and hair loss}}",
+    "يعني {{SLE features}}"
+   ],
+   [
+    "فيها {{proximal muscle weakness}}",
+    "يعني {{myositis}}"
+   ],
+   [
+    "فيها {{Raynaud and fingertip ulcers}}",
+    "يعني {{scleroderma features}}"
+   ],
+   [
+    "فيها {{very high-titer ANA}}",
+    "يعني {{MCTD pattern}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن اجتماع {{SLE + myositis + scleroderma features with Raynaud}} يعني {{MCTD}}",
+   "وهو يتميز بـ{{high ANA titer with anti-U1 RNP}}",
+   "فالجواب {{anti-RNP}}"
+  ],
+  "wrong": {
+   "0": "الـ{{anti-Smith}} هو {{specific for SLE alone}}",
+   "2": "هذا الخيار نصه نفس B وغالبًا {{duplicate in source}}",
+   "3": "الـ{{anti-dsDNA}} مرتبط بـ{{SLE}} و{{lupus nephritis}}",
+   "4": "الـ{{anti-CCP}} مرتبط بـ{{RA}}"
+  },
+  "change": [
+   "لو {{SLE features without myositis}} فالأقرب {{anti-dsDNA}} أو {{anti-Smith}}",
+   "لو {{erosive arthritis}} فنفكر {{RA}} و{{anti-CCP}}"
+  ],
+  "rule": "لو {{SLE features + myositis + Raynaud + high ANA}} فهو {{MCTD}} و{{anti-RNP}}",
+  "note": "الخيارين B وC نصهم واحد وهو {{anti-RNP}}، وهذا {{duplicate in source}} والجواب المعلم هو B"
+ },
+ "Q042": {
+  "idea": [
+   "مريضة {{SLE}} فيها {{active neuropsychiatric lupus}}",
+   "أول علاج {{corticosteroids + cyclophosphamide}}"
+  ],
+  "clues": [
+   [
+    "فيها {{active neuropsychiatric lupus}}",
+    "يعني {{severe disease threatening the nervous system}}"
+   ],
+   [
+    "السؤال عن {{first treatment}}",
+    "فنحتاج {{strong immunosuppression}}"
+   ]
+  ],
+  "why": [
+   "لأن {{active NPSLE}} يعتبر {{severe disease}}",
+   "والعلاج الأولي {{steroids + strong immunosuppressant like cyclophosphamide}}",
+   "فالجواب {{corticosteroids and cyclophosphamide}}"
+  ],
+  "wrong": {
+   "1": "الـ{{cyclophosphamide alone}} يترك {{inflammation}} بدون {{rapid control}}",
+   "2": "الـ{{rituximab}} نستخدمه لو {{no response to first-line therapy}}",
+   "3": "الـ{{IV steroids alone}} ما يكفي لـ{{severe disease}}"
+  },
+  "change": [
+   "لو ما استجاب لـ{{cyclophosphamide}} فنضيف أو نبدل بـ{{rituximab}}",
+   "لو السبب {{thrombosis}} فنضيف {{anticoagulation}} حسب السبب"
+  ],
+  "rule": "لو {{active NPSLE}} فالعلاج {{steroids + cyclophosphamide}}"
+ },
+ "Q043": {
+  "idea": [
+   "مريض {{RA}} منضبط على {{prednisone 15 mg}} و{{hydroxychloroquine 400 mg}}",
+   "لأن {{high-dose steroid}} مو علاج طويل المدى فنخفضه ونضيف {{methotrexate}}"
+  ],
+  "clues": [
+   [
+    "يشرب {{prednisone 15 mg daily}}",
+    "يعني {{high dose not suitable long term}}"
+   ],
+   [
+    "الـ{{RA}} منضبط",
+    "فما نبي نفقد {{control}}"
+   ],
+   [
+    "يشرب {{hydroxychloroquine alone}}",
+    "يعني {{weak baseline DMARD}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{long-term steroids}} تسبب {{osteoporosis, diabetes and other harms}}",
+   "فنخفض {{steroid gradually}} ونضيف {{stronger DMARD}}",
+   "والدواء الأول المعتمد {{methotrexate}}"
+  ],
+  "wrong": {
+   "1": "الـ{{ibuprofen}} يخفف {{symptoms}} بدون ما يعالج {{disease}}",
+   "2": "الـ{{cyclosporine}} مو {{first choice}}",
+   "3": "الـ{{continuing high-dose steroid}} يضر على {{long term}}"
+  },
+  "change": [
+   "لو ما انضبط على {{methotrexate}} فنضيف {{biologic}}",
+   "لو {{contraindication to methotrexate}} فنختار {{alternative}}"
+  ],
+  "rule": "لو {{RA on high-dose steroid}} فنخفض {{steroid}} ونضيف {{methotrexate}}"
+ },
+ "Q044": {
+  "idea": [
+   "رجال عمره ٥٠ تشخص عنده {{new hypertension}} وما انضبط بـ{{lifestyle changes}}",
+   "الجواب المعتمد {{lisinopril + amlodipine}} مع بعض"
+  ],
+  "clues": [
+   [
+    "فيه {{new hypertension not controlled by lifestyle}}",
+    "فنحتاج {{medication}}"
+   ],
+   [
+    "الفحص طبيعي",
+    "فما فيه {{obvious end-organ damage}}"
+   ],
+   [
+    "تفاصيل الفحوصات مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن الجواب المعتمد يعتبر {{BP well above target}} فيستدعي {{two drugs together}}",
+   "والجمع بين {{ACE inhibitor}} و{{calcium channel blocker}} {{useful combination}}",
+   "فالجواب {{lisinopril and amlodipine}}"
+  ],
+  "wrong": {
+   "0": "الـ{{amlodipine alone}} ما يكفي حسب الجواب المعتمد",
+   "1": "الـ{{lisinopril alone}} ما يكفي حسب الجواب المعتمد",
+   "2": "الـ{{hydrochlorothiazide alone}} ما يكفي حسب الجواب المعتمد"
+  },
+  "change": [
+   "لو {{BP slightly above target}} فدواء واحد يكفي",
+   "لو {{diabetes or kidney disease}} فنفضل {{ACE inhibitor}} أو {{ARB}}"
+  ],
+  "rule": "لو {{BP 20/10 or more above target}} فنبدأ {{two drugs together}}"
+ },
+ "Q045": {
+  "idea": [
+   "مريض {{acute coronary syndrome}} سوى {{cardiac catheterization}} وبعدها جاه {{acute kidney injury}}",
+   "والعلامة اللي ترجح {{cholesterol emboli}} هي {{eosinophiluria}}"
+  ],
+  "clues": [
+   [
+    "سوى {{recent cardiac catheterization}}",
+    "يعني {{most common cause of cholesterol emboli}}"
+   ],
+   [
+    "فيه {{acute kidney injury}}",
+    "يعني {{small renal artery occlusion}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{catheterization}} تفتت {{arterial plaques}} وتسد {{small renal vessels}}",
+   "ومن علاماته {{eosinophiluria}} و{{low complement}} و{{livedo reticularis}}",
+   "فالجواب {{eosinophiluria}}"
+  ],
+  "wrong": {
+   "0": "الـ{{WBC casts}} تدل على {{pyelonephritis or interstitial nephritis}}",
+   "1": "الـ{{RBC casts}} تدل على {{glomerulonephritis}}",
+   "2": "الـ{{granular casts}} تدل على {{ATN}}"
+  },
+  "change": [
+   "لو {{RBC casts}} فهو {{glomerulonephritis}}",
+   "لو {{muddy brown granular casts}} فهو {{ATN}}"
+  ],
+  "rule": "لو {{AKI after catheterization with eosinophiluria}} فهو {{cholesterol emboli}}"
+ },
+ "Q046": {
+  "idea": [
+   "مريض على {{hemodialysis for 10 years}} وش أشهر سبب وفاة عند هالمرضى؟",
+   "الجواب {{cardiovascular disease}}"
+  ],
+  "clues": [
+   [
+    "فيه {{long-term hemodialysis}}",
+    "يعني {{ESRD}}"
+   ],
+   [
+    "السؤال عن {{cause of death}}",
+    "يعني {{known statistic}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن مرضى {{dialysis}} عندهم {{accelerated atherosclerosis}}",
+   "و{{cardiovascular disease}} هو {{leading cause of death}} عندهم",
+   "فالجواب {{cardiovascular disease}}"
+  ],
+  "wrong": {
+   "1": "الـ{{hyperkalemia}} خطير بس مو {{leading cause of death}}",
+   "2": "الـ{{anemia}} شائعة بس مو {{leading cause of death}}",
+   "3": "الـ{{uremia}} تتحكم فيها بـ{{dialysis}}"
+  },
+  "change": [
+   "لو السؤال عن {{most common cause of hospitalization}} فالجواب {{vascular access infections}}",
+   "الوقاية تتم بضبط {{BP and lipids}}"
+  ],
+  "rule": "لو {{dialysis patient}} فأشهر سبب وفاة {{cardiovascular disease}}"
+ },
+ "Q047": {
+  "idea": [
+   "سيدة فيها {{Sjogren's syndrome}} وتعب مع {{hypokalemia}}",
+   "والـ{{RTA}} المسبب هو {{type 1 distal RTA}}"
+  ],
+  "clues": [
+   [
+    "فيها {{Sjogren's syndrome}}",
+    "يعني {{distal tubule involvement}}"
+   ],
+   [
+    "فيها {{hypokalemia}}",
+    "يعني {{type 1 association}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{Sjogren's}} أشهر {{autoimmune disease associated with distal RTA type 1}}",
+   "وهذا النوع يسبب {{hypokalemia, acidosis and inability to acidify urine}}",
+   "فالجواب {{type 1}}"
+  ],
+  "wrong": {
+   "1": "الـ{{type 2}} هو {{proximal}} ويجي مع {{Fanconi syndrome}}",
+   "2": "الـ{{type 3}} {{rare}} ومو مرتبط بالسؤال",
+   "3": "الـ{{type 4}} يسبب {{hyperkalemia}}"
+  },
+  "change": [
+   "لو {{high potassium}} فنفكر {{type 4}}",
+   "لو {{acidosis with Fanconi}} فهو {{type 2}}"
+  ],
+  "rule": "لو {{Sjogren's with hypokalemia}} فهو {{RTA type 1}}",
+  "compare": {
+   "head": [
+    "",
+    "{{type 1 distal}}",
+    "{{type 2 proximal}}",
+    "{{type 4}}"
+   ],
+   "rows": [
+    [
+     "الـ{{potassium}}",
+     "{{low}}",
+     "{{low}}",
+     "{{high}}"
+    ],
+    [
+     "مثال",
+     "{{Sjogren's}}",
+     "{{Fanconi}}",
+     "{{aldosterone deficiency}}"
+    ]
+   ]
+  }
+ },
+ "Q048": {
+  "idea": [
+   "سيدة {{RA}} فيها {{pneumonia improved on cefuroxime}} لكن {{kidney function worsens}}",
+   "يعني {{drug-induced acute interstitial nephritis}}"
+  ],
+  "clues": [
+   [
+    "الـ{{pneumonia}} تحسن",
+    "فما فيه {{volume depletion or toxicity}}"
+   ],
+   [
+    "أخذت {{cefuroxime}}",
+    "يعني {{beta-lactam}} و{{known cause}}"
+   ],
+   [
+    "الكلى {{normal before treatment}}",
+    "فالتدهور {{new after the drug}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{beta-lactam antibiotics}} من أشهر مسببات {{AIN}}",
+   "و{{renal decline after starting drug without other cause}} يرجحه",
+   "فالجواب {{acute interstitial nephritis}}"
+  ],
+  "wrong": {
+   "0": "الـ{{renal vasculitis}} يجي مع {{systemic symptoms}}",
+   "2": "الـ{{prerenal failure}} مستبعد لأنها تحسنت وما عندها {{volume depletion}}",
+   "3": "الـ{{immune complex GN}} يجي مع {{hematuria}}"
+  },
+  "change": [
+   "لو {{hematuria and RBC casts}} فنفكر {{glomerulonephritis}}",
+   "العلاج {{stop the offending drug}} وأحيانًا {{steroids}}"
+  ],
+  "rule": "لو {{renal decline after antibiotic}} فنشك {{AIN}}"
+ },
+ "Q049": {
+  "idea": [
+   "شاب عمره ١٨ جاه {{acute kidney injury}} بعد ٣ أيام من {{upper respiratory infection}} مع {{leg edema}}",
+   "والتوقيت القصير يرجح {{IgA nephropathy}}"
+  ],
+  "clues": [
+   [
+    "بعد ٣ أيام من {{URTI}}",
+    "يعني {{short latency}} و{{IgA nephropathy pattern}}"
+   ],
+   [
+    "فيه {{leg edema}}",
+    "يعني {{nephritic syndrome}}"
+   ],
+   [
+    "هو {{young}}",
+    "يعني {{common age for IgA}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن بـ{{IgA nephropathy}} الأعراض تظهر خلال {{1-3 days of infection}}",
+   "لكن {{post-infectious GN}} يظهر بعد {{1-3 weeks}}",
+   "فالجواب {{IgA nephropathy}}"
+  ],
+  "wrong": {
+   "1": "الـ{{lupus nephritis}} يحتاج {{SLE and systemic symptoms}}",
+   "2": "هذا الخيار مكرر من السابق بالمصدر",
+   "3": "الـ{{AIN}} يجي بعد {{drug}} ومو بهالتوقيت",
+   "4": "الـ{{post-infectious GN}} يظهر بعد {{weeks}} من الالتهاب"
+  },
+  "change": [
+   "لو بعد أسبوعين من {{pharyngitis}} فالجواب {{post-infectious GN}}",
+   "لو بعد {{drug like antibiotic}} فالجواب {{AIN}}"
+  ],
+  "rule": "لو {{kidney injury 1-3 days after respiratory infection}} فهو {{IgA nephropathy}} وبعد أسابيع {{post-infectious GN}}"
+ },
+ "Q050": {
+  "idea": [
+   "شاب جديد بالجيش بعد {{intense exercise}} فيه {{dizziness, orthostatic hypotension and AKI}} و{{urine osmolality above 500}}",
+   "يعني {{volume depletion}} و{{pre-renal azotemia}}"
+  ],
+  "clues": [
+   [
+    "بعد {{intense exercise}}",
+    "يعني {{fluid loss}}"
+   ],
+   [
+    "فيه {{orthostatic hypotension}}",
+    "يعني {{volume depletion}}"
+   ],
+   [
+    "الـ{{urine osmolality}} أكثر من 500",
+    "فالكلى تحتفظ بالماء وتركز، يعني {{intact tubules}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن مع {{volume depletion}} الكلى سليمة بس {{perfusion is reduced}}",
+   "فالكلى تحتفظ بالماء ويصير {{urine concentrated above 500}}",
+   "فالجواب {{pre-renal azotemia}}"
+  ],
+  "wrong": {
+   "1": "الـ{{AIN}} يجي بعد {{drug}} ومعه {{inflammatory signs}}",
+   "2": "الـ{{GN}} معه {{hematuria, hypertension and edema}}",
+   "3": "الـ{{ATN}} يفقد الكلى {{concentrating ability}} فالبول يكون {{dilute}}"
+  },
+  "change": [
+   "لو {{dilute urine below 350 with muddy brown casts}} فهو {{ATN}}",
+   "العلاج {{IV fluids}}"
+  ],
+  "rule": "لو {{AKI with volume depletion and concentrated urine}} فهو {{pre-renal}}"
+ },
+ "Q051": {
+  "idea": [
+   "شاب عسكري بعد {{intense exercise}} فيه {{dizziness, muscle cramps and orthostatic hypotension}} وشخصنا {{volume-depletion AKI}}",
+   "والمتوقع بالتحاليل {{BUN/creatinine ratio above 20}}"
+  ],
+  "clues": [
+   [
+    "فيه {{volume depletion}}",
+    "يعني {{pre-renal failure}}"
+   ],
+   [
+    "فيه {{orthostatic hypotension and cramps}}",
+    "يعني {{fluid and salt loss}}"
+   ]
+  ],
+  "why": [
+   "لأن مع {{volume depletion}} الكلية تعيد امتصاص {{urea more than creatinine}}",
+   "فترتفع {{BUN/creatinine ratio above 20}}",
+   "فالجواب C"
+  ],
+  "wrong": {
+   "0": "الـ{{low urine osmolality below 250}} يدل على {{ATN}} مو {{volume depletion}}",
+   "1": "الـ{{FeNa above 2%}} يدل على {{ATN}} و{{pre-renal}} يكون {{below 1%}}",
+   "3": "الـ{{dysmorphic RBCs and RBC casts}} تدل على {{glomerulonephritis}}"
+  },
+  "change": [
+   "لو {{FeNa above 2%}} مع {{muddy brown casts}} فالجواب {{ATN}}",
+   "لو {{dysmorphic RBCs}} فهو {{glomerulonephritis}}"
+  ],
+  "rule": "لو {{volume depletion}} فالـ{{BUN/Cr above 20}} و{{FeNa below 1%}}",
+  "compare": {
+   "head": [
+    "",
+    "{{pre-renal}}",
+    "{{ATN}}"
+   ],
+   "rows": [
+    [
+     "الـ{{BUN/Cr}}",
+     "{{above 20}}",
+     "{{below 15}}"
+    ],
+    [
+     "الـ{{FeNa}}",
+     "{{below 1%}}",
+     "{{above 2%}}"
+    ],
+    [
+     "الـ{{urine concentration}}",
+     "{{high}}",
+     "{{low}}"
+    ]
+   ]
+  }
+ },
+ "Q052": {
+  "idea": [
+   "رجال فيه {{CKD stage 2}} مع {{anemia and fatigue}}",
+   "وأنسب فحص {{serum iron studies}}"
+  ],
+  "clues": [
+   [
+    "فيه {{mild CKD stage 2}}",
+    "فـ{{anemia of CKD}} ما تظهر عادة بهالمرحلة"
+   ],
+   [
+    "فيه {{pallor and fatigue}}",
+    "يعني {{anemia}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{anemia in early CKD}} غالبًا سببها {{other cause like iron deficiency}}",
+   "فنبدأ بـ{{iron studies}} لأنه {{most common and easiest to treat}}",
+   "فالجواب {{serum iron studies}}"
+  ],
+  "wrong": {
+   "1": "الـ{{reticulocyte count}} مفيد بس مو {{first test}}",
+   "2": "الـ{{erythropoietin level}} ما يطلب {{routinely}}",
+   "3": "الـ{{bone marrow biopsy}} ما له داعي كـ{{first step}}"
+  },
+  "change": [
+   "لو {{advanced CKD}} فنفكر {{erythropoietin deficiency}}",
+   "لو {{normal iron}} فنوسع {{workup}}"
+  ],
+  "rule": "لو {{anemia with early CKD}} فنبدأ بـ{{iron studies}}"
+ },
+ "Q053": {
+  "idea": [
+   "مريض {{cirrhosis from HCV}} وخلص العلاج و{{HCV RNA undetectable at 12 weeks}}",
+   "والـ{{cirrhosis}} باقي فنكمل مراقبة {{HCC}} بـ{{ultrasound every 6 months}}"
+  ],
+  "clues": [
+   [
+    "فيه {{cirrhosis}}",
+    "يعني {{HCC risk persists}}"
+   ],
+   [
+    "الـ{{HCV RNA}} غير مكتشف بعد ١٢ أسبوع",
+    "يعني {{SVR}}"
+   ],
+   [
+    "فيه {{mild fibrosis signs}}",
+    "يعني {{chronic liver disease}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{viral cure}} يقلل بس ما يلغي {{HCC risk in cirrhosis}}",
+   "والمراقبة بـ{{liver ultrasound every 6 months}}",
+   "فالجواب C"
+  ],
+  "wrong": {
+   "0": "الـ{{yearly MRI}} مو {{routine surveillance test}}",
+   "1": "الـ{{reassurance alone}} خطير مع {{cirrhosis}}",
+   "3": "الـ{{AFP alone}} ما يكفي"
+  },
+  "change": [
+   "لو ما فيه {{cirrhosis}} فما نحتاج {{surveillance}}",
+   "لو {{suspicious mass}} فنصور {{multiphase CT or MRI}}"
+  ],
+  "rule": "لو {{cirrhosis even after HCV cure}} فنسوي {{ultrasound every 6 months}}"
+ },
+ "Q054": {
+  "idea": [
+   "مريضة {{SLE}} بدون {{symptoms}} وخزعة الكلى تبين {{class I lupus nephritis}}",
+   "والدرجة الأولى ما تحتاج {{immunosuppression}} فنضبط {{blood pressure}}"
+  ],
+  "clues": [
+   [
+    "فيها {{class I lupus nephritis}}",
+    "يعني {{mildest class}}"
+   ],
+   [
+    "بدون {{symptoms}}",
+    "يعني {{no clear activity}}"
+   ],
+   [
+    "هي على {{hydroxychloroquine}}",
+    "يعني {{baseline lupus therapy}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{class I and II}} غالبًا ما تحتاج {{strong immunosuppression}}",
+   "والعلاج {{supportive: BP control and renal protection}}",
+   "فالجواب {{control of blood pressure}}"
+  ],
+  "wrong": {
+   "0": "الـ{{reassurance alone}} يفوت {{BP control and follow-up}}",
+   "1": "الـ{{pulse steroid}} لـ{{severe classes III/IV}}",
+   "2": "الـ{{high-protein diet}} ما له دور وممكن {{harms kidneys}}"
+  },
+  "change": [
+   "لو {{class III or IV}} فنبدأ {{steroids + immunosuppressant}}",
+   "لو {{high proteinuria}} فنضيف {{ACE inhibitor}}"
+  ],
+  "rule": "لو {{class I lupus nephritis}} فالعلاج {{supportive with BP control}} بدون {{immunosuppression}}"
+ },
+ "Q055": {
+  "idea": [
+   "رجال عمره ٢٦ جاته {{first generalized seizure}} قبل ساعة و{{normal exam and labs}}",
+   "وأول خطوة {{head CT}}"
+  ],
+  "clues": [
+   [
+    "فيه {{first seizure}}",
+    "فنبحث عن {{cause}}"
+   ],
+   [
+    "بدون {{comorbidities or drugs}}",
+    "فما فيه {{obvious cause}}"
+   ],
+   [
+    "الـ{{neurologic exam}} طبيعي",
+    "فما فيه {{focal sign}}"
+   ],
+   [
+    "الـ{{labs}} طبيعية",
+    "فما فيه {{metabolic cause}}"
+   ]
+  ],
+  "why": [
+   "لأن {{first seizure in adult}} يحتاج استبعاد {{bleeding or tumor}}",
+   "والـ{{CT}} {{fast and available in ED}}",
+   "فالجواب {{head CT scan}}"
+  ],
+  "wrong": {
+   "0": "الـ{{ECG}} ممكن بس مو {{first step}}",
+   "1": "الـ{{EEG}} يجي بعد {{imaging}} بالمتابعة",
+   "3": "الـ{{LP}} لو نشك {{infection}}"
+  },
+  "change": [
+   "لو {{fever and neck stiffness}} فنسوي {{LP}}",
+   "بعد {{imaging}} نسوي {{EEG}} و{{MRI}}"
+  ],
+  "rule": "لو {{first seizure in adult}} فنسوي {{head imaging}} أول"
+ },
+ "Q056": {
+  "idea": [
+   "رجال جاه {{sudden severe headache for 8 hours}} مع {{neck stiffness}} و{{larger left pupil with poor reaction}}",
+   "نشك {{subarachnoid hemorrhage}} والفحص التالي {{lumbar puncture}}"
+  ],
+  "clues": [
+   [
+    "فيه {{worst headache of life}}",
+    "يعني {{thunderclap headache}}"
+   ],
+   [
+    "فيه {{neck stiffness}}",
+    "يعني {{meningeal irritation from blood}}"
+   ],
+   [
+    "فيه {{larger poorly reactive left pupil}}",
+    "يعني {{third nerve compression from aneurysm}}"
+   ],
+   [
+    "مر {{8 hours}}",
+    "يعني {{more than 6 hours}}"
+   ],
+   [
+    "تفاصيل التقرير مو موجودة بالبطاقة",
+    "فنعتمد على الجواب المعتمد ونفترض الـ{{CT}} غير واضح"
+   ]
+  ],
+  "why": [
+   "لأن {{CT sensitivity for SAH}} تنزل بعد {{6 hours}} من البداية",
+   "ولو الـ{{CT}} ما بين شي نسوي {{LP}} نبحث عن {{xanthochromia}}",
+   "فالجواب {{lumbar puncture}}"
+  ],
+  "wrong": {
+   "0": "الـ{{MRA of the neck}} ما يشخص {{bleeding}}",
+   "1": "ما نوقف الفحوصات مع شك بـ{{serious bleeding}}",
+   "3": "الـ{{MRI}} مو أحسن من {{LP}} بهالمرحلة"
+  },
+  "change": [
+   "لو الـ{{CT}} خلال {{first 6 hours}} وطبيعي فنستبعد {{SAH}} بدون {{LP}}",
+   "لو الـ{{CT}} يبين {{blood}} فنصور الأوعية لتحديد {{aneurysm}}"
+  ],
+  "rule": "لو {{thunderclap headache after 6 hours with non-diagnostic CT}} فنسوي {{LP}}"
+ },
+ "Q057": {
+  "idea": [
+   "رجال {{diabetic}} جاه {{left arm weakness for 5 minutes}} قبل يومين وراح، يعني {{TIA}}",
+   "وأول فحص تصوير من الخيارات {{carotid duplex ultrasonography}}"
+  ],
+  "clues": [
+   [
+    "فيه {{left arm weakness for 5 minutes}}",
+    "يعني {{TIA}}"
+   ],
+   [
+    "هو {{diabetic with dyslipidemia}}",
+    "يعني {{atherosclerosis risk factors}}"
+   ],
+   [
+    "ما فيه {{murmur or arrhythmia}}",
+    "فالسبب غالبًا {{carotid arterial source}}"
+   ],
+   [
+    "تفاصيل التقرير مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن بعد {{TIA}} نبحث عن {{embolic source}} وأشهره {{carotid stenosis}}",
+   "والـ{{carotid duplex}} {{simple and radiation-free}}",
+   "فالجواب {{carotid duplex ultrasonography}}"
+  ],
+  "wrong": {
+   "0": "الـ{{TEE}} لو نشك {{cardiac source}}",
+   "2": "الـ{{CTA}} فحص أثقل ويحتاج {{contrast}}",
+   "3": "الـ{{brain MRI}} ضروري برضو بس السؤال عن أول {{vascular imaging}}"
+  },
+  "change": [
+   "لو {{arrhythmia}} فنفكر {{cardiac source}} ونصور القلب",
+   "التقييم الكامل يشمل {{brain MRI}} و{{vascular imaging}}"
+  ],
+  "rule": "لو {{unilateral TIA}} فنصور {{carotid artery}} أول"
+ },
+ "Q058": {
+  "idea": [
+   "مريض {{colon cancer with liver metastasis}} بعد عملية جاه {{dyspnea}} وبالتصوير {{pulmonary embolism}}",
+   "وأول علاج {{enoxaparin}}"
+  ],
+  "clues": [
+   [
+    "بعد {{surgery}}",
+    "يعني {{bleeding risk and clot risk}}"
+   ],
+   [
+    "فيه {{pulmonary embolism}}",
+    "فنحتاج {{immediate anticoagulation}}"
+   ],
+   [
+    "فيه {{cancer}}",
+    "فالـ{{LMWH}} هو المفضل"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{LMWH}} مثل {{enoxaparin}} هو المفضل لـ{{cancer-associated thrombosis}}",
+   "وهو {{easy to control}} ويناسب {{post-surgery}}",
+   "فالجواب {{enoxaparin}}"
+  ],
+  "wrong": {
+   "0": "الـ{{warfarin}} {{slow onset}} وما يكفي كبداية",
+   "2": "الـ{{rivaroxaban}} ممكن بس بعد {{surgery with liver metastasis}} الـ{{LMWH}} أأمن",
+   "3": "الـ{{fondaparinux}} بديل بس الجواب المعتمد {{enoxaparin}}"
+  },
+  "change": [
+   "لو ما فيه {{cancer or surgery}} فالـ{{DOACs}} خيار",
+   "لو ما يقدر ياخذ {{anticoagulant}} فنفكر {{IVC filter}}"
+  ],
+  "rule": "لو {{PE with cancer}} فنبدأ {{LMWH}}"
+ },
+ "Q059": {
+  "idea": [
+   "حامل بالأسبوع ٣٠ فيها {{dry cough, exertional dyspnea and leg swelling}} و{{negative leg Doppler}}",
+   "والفحص التالي {{ventilation-perfusion lung scan}}"
+  ],
+  "clues": [
+   [
+    "حمل {{30 weeks}}",
+    "فنتجنب {{radiation}} قدر الإمكان"
+   ],
+   [
+    "فيها {{dyspnea and cough}}",
+    "فنشك {{pulmonary embolism}}"
+   ],
+   [
+    "الـ{{Doppler}} سلبي",
+    "فما نقدر نستبعد {{PE}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{normal X-ray with unaffected legs in pregnancy}} نختار {{V/Q scan}}",
+   "وإشعاعه على {{breast}} أقل من {{CTPA}}",
+   "فالجواب {{ventilation-perfusion lung scan}}"
+  ],
+  "wrong": {
+   "0": "الـ{{D-dimer}} يرتفع بـ{{pregnancy}} ولا يفرق",
+   "1": "الـ{{CT angiography}} بديل بس إشعاعه على {{breast}} أعلى",
+   "2": "الـ{{PFTs}} ما تستبعد {{PE}}"
+  },
+  "change": [
+   "لو {{abnormal X-ray}} فنستخدم {{CTPA}}",
+   "لو {{Doppler positive}} فنبدأ العلاج بدون {{chest imaging}}"
+  ],
+  "rule": "لو {{pregnancy with suspected PE and negative Doppler}} فنسوي {{V/Q scan}}"
+ },
+ "Q060": {
+  "idea": [
+   "سيدة عمرها ٤٩ مجدولة لـ{{hip replacement}} فيها {{heavy menses for months}} وتاخذ {{ibuprofen}}",
+   "نشك {{iron deficiency}} والفحص {{iron studies}}"
+  ],
+  "clues": [
+   [
+    "فيها {{heavy menses for months}}",
+    "يعني {{chronic blood loss}}"
+   ],
+   [
+    "تاخذ {{ibuprofen}}",
+    "فممكن {{mild GI bleeding}}"
+   ],
+   [
+    "فيه {{pre-operative evaluation}}",
+    "فنصلح {{anemia}} قبل الجراحة"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{chronic blood loss}} يؤدي لـ{{iron deficiency anemia}}",
+   "ونصلح ذلك قبل {{elective surgery}}",
+   "فالفحص التالي {{iron studies}}"
+  ],
+  "wrong": {
+   "1": "الـ{{vitamin B12}} مرتبط بـ{{metformin}} بس هنا {{blood loss}} أرجح",
+   "2": "ما نكتفي بـ{{no evaluation}} مع {{anemia and blood loss}}",
+   "3": "الـ{{hemoglobin electrophoresis}} لـ{{thalassemia}}"
+  },
+  "change": [
+   "لو {{macrocytic anemia}} فنفحص {{B12}}",
+   "نعالج السبب وندعم بـ{{iron}} قبل العملية"
+  ],
+  "rule": "لو {{anemia with heavy menses}} فالفحص {{iron studies}}"
+ }
+}

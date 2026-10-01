@@ -1,0 +1,577 @@
+{
+ "Q582": {
+  "idea": [
+   "سيدة {{70 years}} عندها {{postmenopausal bleeding}} و{{atypical endometrial hyperplasia}}",
+   "وما تصلح للجراحة فنعطي علاج {{hormonal}}"
+  ],
+  "clues": [
+   [
+    "لو {{hyperplasia with atypia}}",
+    "يعني خطر تحول لـ{{cancer}}"
+   ],
+   [
+    "لو {{unfit for surgery}}",
+    "نحتاج {{medical alternative}}"
+   ]
+  ],
+  "why": [
+   "العلاج الأساسي {{hysterectomy}}",
+   "وإذا ما تنفع الجراحة نعطي {{continuous progestin}}",
+   "ويوقف النمو ويحتاج {{follow-up biopsy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Chemotherapy}} مو علاج لهذي الحالة",
+   "1": "الـ{{Radiation}} مو الخيار الأول لـ{{hyperplasia}}",
+   "2": "الـ{{Observation}} بس غير كافية مع {{atypia}}"
+  },
+  "change": [
+   "لو بدون {{atypia}} نعطي {{progestin}} ونراقب",
+   "لو {{fit for surgery}} نسوي {{hysterectomy}}"
+  ],
+  "rule": "الـ{{Atypical hyperplasia}} وما تصلح للجراحة يعني {{progestin}}"
+ },
+ "Q583": {
+  "idea": [
+   "حامل {{twins}} {{37 weeks}} في {{labor}}",
+   "والتوأم {{monochorionic monoamniotic}} فنسوي {{cesarean}}"
+  ],
+  "clues": [
+   [
+    "لو {{MCMA twins}}",
+    "يعني خطر {{cord entanglement}}"
+   ],
+   [
+    "لو {{first twin breech}}",
+    "ما نسوي {{vaginal delivery}}"
+   ]
+  ],
+  "why": [
+   "هذا النوع من التوائم {{high risk}}",
+   "والـ{{cords}} ممكن تتشابك أثناء الولادة",
+   "فالـ{{cesarean section}} الأفضل"
+  ],
+  "wrong": {
+   "1": "الـ{{Assisted breech delivery}} خطرة هنا",
+   "2": "الانتظار لـ{{39 weeks}} غير آمن مع {{labor}}",
+   "3": "الـ{{ECV}} غير مناسب مع {{labor}} و{{MCMA twins}}"
+  },
+  "change": [
+   "لو {{diamniotic twins}} والأول {{cephalic}} نفكر {{vaginal delivery}}",
+   "لو مو في {{labor}} نخطط {{early cesarean}}"
+  ],
+  "rule": "الـ{{MCMA twins}} يعني {{cesarean section}}"
+ },
+ "Q584": {
+  "idea": [
+   "سيدة {{24 years}} فيها {{PCOS}} و{{infertility}} {{18 months}} وزوجها {{normal}}",
+   "فنحفز الـ{{ovulation}} بـ{{clomiphene}}"
+  ],
+  "clues": [
+   [
+    "لو {{PCOS}} مع {{irregular cycles}}",
+    "يعني المشكلة {{anovulation}}"
+   ],
+   [
+    "لو {{normal semen}}",
+    "نبدأ بـ{{simplest treatment}}"
+   ]
+  ],
+  "why": [
+   "المشكلة {{anovulation}}",
+   "والـ{{clomiphene}} {{first-line oral}}",
+   "وهو رخيص وأقل {{complications}}"
+  ],
+  "wrong": {
+   "0": "الـ{{IVF}} للحالات اللي فشلت بـ{{less invasive options}}",
+   "2": "الـ{{Gonadotropins}} {{second-line}} وفيها {{higher risk}}",
+   "3": "الـ{{OCPs}} تنظم الدورة وما تجيب حمل"
+  },
+  "change": [
+   "لو فشل {{clomiphene}} نستخدم {{letrozole}} أو {{gonadotropins}}",
+   "لو {{obesity}} نبدأ بـ{{weight loss}}"
+  ],
+  "rule": "الـ{{PCOS}} مع {{infertility}} يعني {{clomiphene}}"
+ },
+ "Q585": {
+  "idea": [
+   "حامل {{36 weeks}} فيها {{painless vaginal bleeding}}",
+   "فنسوي {{US}} قبل أي {{vaginal exam}}"
+  ],
+  "clues": [
+   [
+    "لو {{painless bleeding}} بالـ{{third trimester}}",
+    "نشك {{placenta previa}}"
+   ]
+  ],
+  "why": [
+   "نستبعد {{placenta previa}} بالـ{{ultrasound}}",
+   "لأن الـ{{digital exam}} ممكن يسبب {{severe bleeding}}",
+   "والـ{{US}} {{safe and accurate}}"
+  ],
+  "wrong": {
+   "1": "الـ{{Stress test}} مو مناسب أول",
+   "2": "الـ{{DeLee stethoscope}} لسماع القلب بس وما يحدد السبب",
+   "3": "الـ{{Digital exam}} ممنوع قبل استبعاد {{previa}}"
+  },
+  "change": [
+   "لو {{previa}} نسوي {{cesarean}}",
+   "لو ما فيه {{previa}} نفحص بحذر"
+  ],
+  "rule": "الـ{{Painless bleeding}} يعني {{US}} قبل {{vaginal exam}}"
+ },
+ "Q586": {
+  "idea": [
+   "سيدة {{50 years}} أجهضت وتسأل هل العمر له علاقة",
+   "والخطر بالعمر هذا بين {{10% to 50%}} حسب الجواب"
+  ],
+  "clues": [
+   [
+    "لو {{age 50}}",
+    "فالـ{{miscarriage risk}} عالي بسبب {{chromosomal abnormalities}}"
+   ]
+  ],
+  "why": [
+   "العمر الكبير يرفع {{miscarriage risk}}",
+   "بسبب {{aneuploidy}} بالبويضات",
+   "والنسبة تختلف حسب العمر"
+  ],
+  "wrong": {
+   "0": "الـ{{3%}} أقل بكثير من الواقع",
+   "1": "الـ{{age}} مرتبط بالـ{{miscarriage}} فالجواب خطأ",
+   "3": "الـ{{80%}} مبالغ فيها"
+  },
+  "change": [
+   "لو {{age 25}} الخطر حوالي {{10%}} أو أقل",
+   "لو {{age 40}} يرتفع أكثر"
+  ],
+  "rule": "الـ{{Advanced maternal age}} يرفع {{miscarriage risk}}",
+  "note": "الجواب حسب الملف، والنسبة تقريبية وتتغير حسب العمر"
+ },
+ "Q587": {
+  "idea": [
+   "حامل {{23 years}} بأسبوع {{18}} فيها {{sudden rupture of membranes}}",
+   "ثم {{painless expulsion}} يعني {{cervical incompetence}}"
+  ],
+  "clues": [
+   [
+    "لو {{painless expulsion}} بالـ{{second trimester}}",
+    "يعني {{cervical incompetence}}"
+   ],
+   [
+    "لو {{sudden rupture}}",
+    "ما فيه {{contractions}}"
+   ]
+  ],
+  "why": [
+   "الـ{{cervical incompetence}} تسبب {{painless dilatation}}",
+   "وتنتهي بـ{{expulsion of the fetus}}",
+   "وهذا النمط المعروف"
+  ],
+  "wrong": {
+   "0": "الـ{{Bicornuate uterus}} غالبًا {{preterm labor}} مو بدون ألم",
+   "1": "الـ{{Submucous fibroid}} يسبب {{bleeding and pain}}",
+   "2": "الـ{{Adhesions}} تسبب {{infertility}} و{{early miscarriage}}"
+  },
+  "change": [
+   "لو سبق {{similar loss}} نسوي {{cerclage}}",
+   "لو {{bleeding and pain}} نفكر {{ordinary miscarriage}}"
+  ],
+  "rule": "الـ{{Painless expulsion}} بالـ{{second trimester}} يعني {{cervical incompetence}}"
+ },
+ "Q588": {
+  "idea": [
+   "حامل بالـ{{mid-trimester}} فيها {{sudden rupture of membranes}}",
+   "و{{painless expulsion}} للجنين"
+  ],
+  "clues": [
+   [
+    "لو {{painless expulsion}}",
+    "يعني {{cervical incompetence}}"
+   ],
+   [
+    "لو {{sudden rupture}}",
+    "مع {{dilatation}} بدون {{contractions}}"
+   ]
+  ],
+  "why": [
+   "الصورة الكلاسيكية لـ{{cervical incompetence}}",
+   "الـ{{silent dilatation}} ثم {{expulsion}}",
+   "والعلاج {{cerclage}} بالحمل القادم"
+  ],
+  "wrong": {
+   "0": "الـ{{Septic miscarriage}} تجي مع {{fever and pain}}",
+   "2": "الـ{{Threatened miscarriage}} ما فيه {{expulsion}}",
+   "3": "الـ{{Incomplete miscarriage}} فيه {{pain and bleeding}}"
+  },
+  "change": [
+   "لو {{fever}} نفكر {{infection}}",
+   "لو {{bleeding and pain}} نفكر {{inevitable miscarriage}}"
+  ],
+  "rule": "الـ{{Painless expulsion}} بالـ{{second trimester}} يعني {{cervical incompetence}}"
+ },
+ "Q589": {
+  "idea": [
+   "سيدة {{45 years}} فيها {{amenorrhea 18 weeks}} و{{snowstorm}} بالـ{{US}}",
+   "فنأكد بقياس {{hCG}}"
+  ],
+  "clues": [
+   [
+    "لو {{snowstorm pattern}}",
+    "نشك {{molar pregnancy}}"
+   ],
+   [
+    "لو {{prolonged amenorrhea}}",
+    "يعني {{pregnancy or mole}}"
+   ]
+  ],
+  "why": [
+   "التشخيص بقياس {{hCG}}",
+   "ويكون {{very high}} بالـ{{molar pregnancy}}",
+   "والتأكيد {{histology}}"
+  ],
+  "wrong": {
+   "1": "الـ{{AFP}} لـ{{germ cell tumors}} و{{neural tube defects}}",
+   "2": "الـ{{CA 125}} لـ{{ovarian tumors}}",
+   "3": "الـ{{CEA}} لـ{{colon tumors}}"
+  },
+  "change": [
+   "لو {{hCG normal}} نستبعد {{mole}}",
+   "لو {{hCG high}} نسوي {{suction evacuation}} ونتابع"
+  ],
+  "rule": "الـ{{Snowstorm}} يعني {{hCG}} ثم {{mole}}"
+ },
+ "Q590": {
+  "idea": [
+   "سيدة {{26 years}} فيها {{ectopic pregnancy}} وعولجت بـ{{methotrexate}}",
+   "والـ{{hCG}} ما انخفض كفاية فنحكي عن {{second dose}}"
+  ],
+  "clues": [
+   [
+    "لو {{hCG 3000 then 3100 then 2900}}",
+    "يعني {{drop less than 15%}} بين {{day 4 and 7}}"
+   ]
+  ],
+  "why": [
+   "المطلوب {{drop of at least 15%}} بين {{day 4 and 7}}",
+   "وهنا الانخفاض بسيط",
+   "فنوعي المريضة باحتمال {{second dose}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Laparotomy}} للحالات {{unstable}}",
+   "1": "الـ{{Reassurance}} لحاله ما يكفي",
+   "2": "الـ{{Multiple dose regimen}} خطة مختلفة من البداية"
+  },
+  "change": [
+   "لو {{drop 15% or more}} نتابع {{weekly}}",
+   "لو {{severe pain or bleeding}} نسوي {{surgery}}"
+  ],
+  "rule": "الـ{{hCG drop less than 15%}} يعني {{second methotrexate dose}}"
+ },
+ "Q591": {
+  "idea": [
+   "سيدة {{26 years}} بعد {{8 days}} من {{methotrexate}} فيها {{mild pain}} و{{spotting}}",
+   "والـ{{hCG}} نزل من {{1200}} إلى {{500}}"
+  ],
+  "clues": [
+   [
+    "لو {{hCG drop more than 15%}}",
+    "يعني {{good response}}"
+   ],
+   [
+    "لو {{soft non-tender abdomen}}",
+    "يعني {{stable}}"
+   ]
+  ],
+  "why": [
+   "الانخفاض كافي",
+   "والـ{{mild pain}} و{{spotting}} شائعين",
+   "فنسوي {{reassurance}} ونتابع {{hCG}}"
+  ],
+  "wrong": {
+   "0": "الـ{{MRI}} غير ضروري",
+   "1": "الـ{{Laparoscopy}} للحالات {{unstable}}",
+   "3": "الـ{{Second dose}} لو الانخفاض ضعيف"
+  },
+  "change": [
+   "لو {{severe pain}} نفكر {{rupture}}",
+   "لو ما انخفض {{hCG}} نعطي {{second dose}}"
+  ],
+  "rule": "الـ{{Adequate hCG drop}} يعني {{reassure and follow up}}"
+ },
+ "Q592": {
+  "idea": [
+   "سيدة {{35 years}} فيها {{IUCD}} و{{severe abdominal pain}} و{{vomiting}}",
+   "و{{positive pregnancy test}} و{{free fluid}} كثير بالبطن"
+  ],
+  "clues": [
+   [
+    "لو {{IUCD}} مع {{pregnancy}}",
+    "يعني خطر {{ectopic pregnancy}}"
+   ],
+   [
+    "لو {{fluid 13 x 15 cm}} بدون {{gestational sac}}",
+    "يعني {{intra-abdominal bleeding}}"
+   ]
+  ],
+  "why": [
+   "الـ{{IUCD}} يرفع نسبة الـ{{ectopic}} بين الحمول",
+   "والـ{{free fluid}} الكثير يعني {{hemoperitoneum}}",
+   "فهذا {{ruptured ectopic pregnancy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Ruptured corpus luteum}} غالبًا ما يعطي {{bleeding}} بهالحجم",
+   "1": "الـ{{Intact ectopic}} ما يعطي {{free fluid}} كثير",
+   "3": "الـ{{Intrauterine pregnancy}} كنا نشوف {{gestational sac}}"
+  },
+  "change": [
+   "لو {{stable}} بدون {{fluid}} نفكر {{unruptured ectopic}}",
+   "لو {{intrauterine pregnancy}} نشوف {{sac}}"
+  ],
+  "rule": "الـ{{Positive pregnancy test}} مع {{free fluid}} و{{pain}} يعني {{ruptured ectopic}}"
+ },
+ "Q593": {
+  "idea": [
+   "سيدة {{25 years}} فيها {{complete abortion}} بأسبوع {{10}}",
+   "و{{heavy smoker}} أكثر من {{20 cigarettes/day}}"
+  ],
+  "clues": [
+   [
+    "لو {{heavy smoking}}",
+    "يعني {{known risk factor for miscarriage}}"
+   ],
+   [
+    "لو ما أخذت {{folic acid}}",
+    "مو السبب الرئيسي"
+   ]
+  ],
+  "why": [
+   "الـ{{smoking}} يرفع {{miscarriage risk}}",
+   "وهو من أهم {{modifiable risk factors}}",
+   "وهو الأرجح هنا"
+  ],
+  "wrong": {
+   "0": "نقص {{carotene}} ما له علاقة مثبتة",
+   "1": "نقص {{folic acid}} يأثر على {{neural tube defects}} أكثر",
+   "2": "فيه {{risk factor}} واضح وهو {{smoking}}"
+  },
+  "change": [
+   "لو {{advanced maternal age}} نفكر {{chromosomal abnormality}}",
+   "لو {{recurrent miscarriage}} نفحص الأسباب"
+  ],
+  "rule": "الـ{{Heavy smoking}} هو {{risk factor}} للـ{{miscarriage}}"
+ },
+ "Q594": {
+  "idea": [
+   "سيدة {{50 years}} فيها {{amenorrhea 17 weeks}} ورحم بحجم {{20 weeks}} و{{doughy}}",
+   "فنسوي {{US}}"
+  ],
+  "clues": [
+   [
+    "لو {{uterus larger than expected and doughy}}",
+    "نشك {{molar pregnancy}}"
+   ],
+   [
+    "لو {{age 50}}",
+    "نفكر {{pregnancy or tumor}}"
+   ]
+  ],
+  "why": [
+   "الـ{{US}} أول وأدق فحص",
+   "ويبين {{snowstorm}} أو {{normal pregnancy}}",
+   "وهو سريع ومتوفر"
+  ],
+  "wrong": {
+   "1": "الـ{{Biopsy}} المباشرة غير مناسبة أول",
+   "2": "الـ{{MRI}} غير ضروري كأول فحص",
+   "3": "الـ{{CT}} فيه {{radiation}} وما هو الأفضل"
+  },
+  "change": [
+   "لو {{snowstorm}} نقيس {{hCG}}",
+   "لو {{fibroid uterus}} نشوفه بالـ{{US}}"
+  ],
+  "rule": "الـ{{Uterus larger than dates}} يعني {{US}} أول"
+ },
+ "Q595": {
+  "idea": [
+   "مراهقة {{17 years}} فيها {{amenorrhea 18 weeks}} ورحم {{22 weeks}} و{{doughy}}",
+   "والـ{{snowstorm}} بدون {{fetal pole}}"
+  ],
+  "clues": [
+   [
+    "لو {{uterus larger with doughy feel}}",
+    "يعني {{molar pregnancy}}"
+   ],
+   [
+    "لو {{snowstorm without fetus}}",
+    "يعني {{complete mole}}"
+   ]
+  ],
+  "why": [
+   "الـ{{complete mole}} بدون {{fetus}}",
+   "والرحم يكبر بسرعة",
+   "و{{hCG}} {{very high}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Partial mole}} فيه {{fetus or fetal parts}}",
+   "2": "الـ{{Blighted ovum}} {{sac}} بدون رحم كبير",
+   "3": "الـ{{Incomplete miscarriage}} فيه {{bleeding}} ورحم أصغر"
+  },
+  "change": [
+   "لو فيه {{fetus}} نفكر {{partial mole}}",
+   "لو {{hCG normal}} نستبعد"
+  ],
+  "rule": "الـ{{Snowstorm}} بدون {{fetus}} يعني {{complete mole}}"
+ },
+ "Q596": {
+  "idea": [
+   "سيدة {{45 years}} فيها {{menorrhagia}} {{8 months}} و{{diabetes}} و{{hypertension}}",
+   "والـ{{endometrium 23 mm}} فنسوي {{endometrial biopsy}}"
+  ],
+  "clues": [
+   [
+    "لو {{diabetes and hypertension}}",
+    "يعني {{risk factors for endometrial cancer}}"
+   ],
+   [
+    "لو {{endometrial thickness 23 mm}}",
+    "نستبعد {{hyperplasia and cancer}}"
+   ]
+  ],
+  "why": [
+   "الـ{{endometrial biopsy}} هو {{definitive diagnosis}}",
+   "والـ{{US}} يشير فقط",
+   "فنسوي {{endometrial biopsy}}"
+  ],
+  "wrong": {
+   "1": "الـ{{MRI}} للـ{{staging}} لاحقًا",
+   "2": "الـ{{Diagnostic laparoscopy}} غير ضروري",
+   "3": "الـ{{CT}} ما يعطي {{tissue diagnosis}}"
+  },
+  "change": [
+   "لو {{biopsy normal}} نعالج {{hormonally}}",
+   "لو {{cancer}} نسوي {{staging}}"
+  ],
+  "rule": "الـ{{Abnormal bleeding}} مع {{thick endometrium}} يعني {{biopsy}}"
+ },
+ "Q597": {
+  "idea": [
+   "سيدة {{22 years}} فيها {{amenorrhea 8 weeks}} و{{passage of blood and tissue}}",
+   "فنقيّم بـ{{pelvic exam and US}}"
+  ],
+  "clues": [
+   [
+    "لو {{passage of blood and tissue}}",
+    "يعني {{miscarriage}}"
+   ],
+   [
+    "لو {{amenorrhea 8 weeks}}",
+    "يعني {{early pregnancy}}"
+   ]
+  ],
+  "why": [
+   "الـ{{pelvic exam}} يبين الـ{{cervix}} {{open or closed}}",
+   "والـ{{US}} يبين {{uterine contents}}",
+   "وهذا يحدد {{type of abortion}}"
+  ],
+  "wrong": {
+   "1": "الـ{{Punch biopsy}} غير ضرورية",
+   "2": "الـ{{Abdominal exam}} وحده ما يكفي",
+   "3": "الـ{{CT}} غير مناسب بالحمل"
+  },
+  "change": [
+   "لو {{open cervix}} مع {{tissue}} نفكر {{incomplete abortion}}",
+   "لو {{closed cervix}} و{{mild bleeding}} نفكر {{threatened}}"
+  ],
+  "rule": "الـ{{Abortion}} يعني {{pelvic exam and US}}"
+ },
+ "Q598": {
+  "idea": [
+   "حامل أسبوع {{12}} فيها {{bleeding}} والـ{{fundal height}} {{19 weeks}}",
+   "فنشك {{complete mole}}"
+  ],
+  "clues": [
+   [
+    "لو {{uterus larger than dates}}",
+    "يعني {{molar pregnancy}}"
+   ],
+   [
+    "لو {{vaginal bleeding}}",
+    "شائع بالـ{{mole}}"
+   ]
+  ],
+  "why": [
+   "الرحم يكون أكبر من الـ{{gestational age}}",
+   "بالـ{{complete mole}}",
+   "وغالبًا مع {{high hCG}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Partial mole}} غالبًا الرحم أصغر أو مناسب",
+   "2": "الـ{{Threatened abortion}} ما يكبر الرحم",
+   "3": "الـ{{Abdominal pregnancy}} ما يكبر الرحم هكذا"
+  },
+  "change": [
+   "لو {{small uterus}} نفكر {{partial mole}}",
+   "لو {{hCG normal}} نبحث عن غيره"
+  ],
+  "rule": "الـ{{Uterus larger than dates}} مع {{bleeding}} يعني {{complete mole}}",
+  "note": "الجواب حسب الملف، والتأكيد بالـ{{US}} و{{hCG}}"
+ },
+ "Q599": {
+  "idea": [
+   "مراهقة {{18 years}} فيها {{amenorrhea 15 weeks}} و{{bleeding}} و{{vesicles}}",
+   "والـ{{US}} فيه {{grape-like structure}} تملأ الرحم"
+  ],
+  "clues": [
+   [
+    "لو {{passage of vesicles}}",
+    "يعني {{molar pregnancy}}"
+   ],
+   [
+    "لو {{grape-like structure filling the cavity}}",
+    "يعني {{complete mole}}"
+   ]
+  ],
+  "why": [
+   "الصورة الكلاسيكية لـ{{complete mole}}",
+   "وما فيه {{fetus}}",
+   "ويحتاج {{suction evacuation}} و{{follow-up}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Partial mole}} فيه {{fetus or mixed tissue}}",
+   "2": "الـ{{Missed miscarriage}} ما فيه {{vesicles}}",
+   "3": "الـ{{Anembryonic pregnancy}} {{empty small sac}}"
+  },
+  "change": [
+   "لو فيه {{fetus}} نفكر {{partial mole}}",
+   "لو {{hCG}} ما انخفض نفكر {{GTN}}"
+  ],
+  "rule": "الـ{{Vesicles}} و{{grape-like structure}} يعني {{complete mole}}"
+ },
+ "Q600": {
+  "idea": [
+   "سيدة {{44 years}} فيها {{partial molar pregnancy}} مؤكد بالـ{{histopathology}}",
+   "والمتابعة بـ{{weekly hCG}}"
+  ],
+  "clues": [
+   [
+    "لو {{partial mole}}",
+    "خطر {{GTN}}"
+   ]
+  ],
+  "why": [
+   "نتابع {{hCG}} {{weekly}}",
+   "لين يصير {{negative}}",
+   "ثم نتابع {{monthly}}"
+  ],
+  "wrong": {
+   "1": "الـ{{Ultrasound}} ما يتابع المرض",
+   "2": "الـ{{Monthly}} مو كافي بالبداية",
+   "3": "الـ{{Monthly ultrasound}} غير كافي"
+  },
+  "change": [
+   "لو ارتفع {{hCG}} نفكر {{GTN}}",
+   "لو {{negative}} نتابع {{monthly}}"
+  ],
+  "rule": "الـ{{Molar pregnancy}} يعني {{weekly hCG}}"
+ }
+}

@@ -1,0 +1,661 @@
+{
+ "Q522": {
+  "idea": [
+   "حامل {{30 weeks}} بـ{{painless bleeding}} و{{2 previous cesareans}}",
+   "مع {{soft uterus}} و{{normal fetal heart}}"
+  ],
+  "clues": [
+   [
+    "لو {{painless bleeding}}",
+    "يدل على {{placenta previa}}"
+   ],
+   [
+    "لو {{2 previous cesareans}}",
+    "{{risk factor}} للـ{{previa}}"
+   ],
+   [
+    "لو {{soft uterus}} و{{normal FHR}}",
+    "ضد {{abruption}} و{{rupture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{painless bleeding}} مع {{soft uterus}} نمط {{previa}}",
+   "والـ{{previous cesareans}} ترفع الخطر",
+   "نأكد بـ{{US}} وما نسوي {{vaginal exam}}"
+  ],
+  "wrong": {
+   "1": "الـ{{uterine rupture}} يجي بـ{{severe pain}} و{{fetal distress}}",
+   "2": "الـ{{cervical laceration}} بعد {{delivery}} أو {{procedure}}",
+   "3": "الـ{{abruption}} {{painful}} والـ{{uterus}} متقلص"
+  },
+  "change": [
+   "لو {{pain}} و{{hard uterus}} يصير {{abruption}}",
+   "لو {{pain}} بعد {{scar}} مع {{fetal distress}} نفكر بـ{{rupture}}"
+  ],
+  "rule": "لو {{painless bleeding}} يعني {{previa}} حتى يثبت العكس"
+ },
+ "Q523": {
+  "idea": [
+   "بكر {{31 weeks}} بـ{{headache}} و{{blurred vision}} و{{proteinuria ++}}",
+   "فالأقرب {{preeclampsia}}"
+  ],
+  "clues": [
+   [
+    "لو {{headache}} و{{blurred vision}}",
+    "يعني {{severe features}}"
+   ],
+   [
+    "لو {{proteinuria ++}} بـ{{dipstick}}",
+    "يعني {{urine protein}}"
+   ],
+   [
+    "لو {{primigravida}} بعد {{20 weeks}}",
+    "{{classic risk factor}}"
+   ]
+  ],
+  "why": [
+   "الـ{{headache}} و{{blurred vision}} و{{proteinuria}} بحمل متقدم يدل على {{preeclampsia}}",
+   "وهي أشيع سبب لهالصورة عند الـ{{primigravida}}",
+   "نقيس {{BP}} ونراجع {{labs}}"
+  ],
+  "wrong": {
+   "1": "الـ{{renal disease}} تكون قبل الحمل وما تفسر {{neurologic symptoms}}",
+   "2": "الـ{{pyelonephritis}} مع {{fever}} و{{flank pain}}",
+   "3": "الـ{{chronic HTN}} تكون قبل {{20 weeks}}"
+  },
+  "change": [
+   "لو {{seizure}} صار {{eclampsia}}",
+   "لو {{BP}} عالي قبل {{20 weeks}} نفكر بـ{{chronic HTN}}"
+  ],
+  "rule": "لو {{headache}} و{{blurred vision}} و{{proteinuria}} بالحمل يعني {{preeclampsia}}",
+  "note": "السؤال مكرر برقمين والجواب نفسه"
+ },
+ "Q524": {
+  "idea": [
+   "بكر {{31 weeks}} بـ{{headache}} و{{blurred vision}} و{{proteinuria ++}}",
+   "فالأقرب {{preeclampsia}}"
+  ],
+  "clues": [
+   [
+    "لو {{headache}} و{{blurred vision}}",
+    "يعني {{severe features}}"
+   ],
+   [
+    "لو {{proteinuria ++}} بـ{{dipstick}}",
+    "يعني {{urine protein}}"
+   ],
+   [
+    "لو {{primigravida}} بعد {{20 weeks}}",
+    "{{classic risk factor}}"
+   ]
+  ],
+  "why": [
+   "الـ{{headache}} و{{blurred vision}} و{{proteinuria}} بحمل متقدم يدل على {{preeclampsia}}",
+   "وهي أشيع سبب لهالصورة عند الـ{{primigravida}}",
+   "نقيس {{BP}} ونراجع {{labs}}"
+  ],
+  "wrong": {
+   "1": "الـ{{renal disease}} تكون قبل الحمل وما تفسر {{neurologic symptoms}}",
+   "2": "الـ{{pyelonephritis}} مع {{fever}} و{{flank pain}}",
+   "3": "الـ{{chronic HTN}} تكون قبل {{20 weeks}}"
+  },
+  "change": [
+   "لو {{seizure}} صار {{eclampsia}}",
+   "لو {{BP}} عالي قبل {{20 weeks}} نفكر بـ{{chronic HTN}}"
+  ],
+  "rule": "لو {{headache}} و{{blurred vision}} و{{proteinuria}} بالحمل يعني {{preeclampsia}}",
+  "note": "السؤال مكرر برقمين والجواب نفسه"
+ },
+ "Q525": {
+  "idea": [
+   "حامل {{36 weeks}} بـ{{painful bleeding}} و{{tender uterus}}",
+   "فالأقرب {{placental abruption}}"
+  ],
+  "clues": [
+   [
+    "لو {{painful bleeding}}",
+    "يميز {{abruption}} عن {{previa}}"
+   ],
+   [
+    "لو {{tender uterus}}",
+    "من {{retroplacental blood}}"
+   ]
+  ],
+  "why": [
+   "الـ{{pain}} و{{uterine tenderness}} مع {{bleeding}} يدل على {{abruption}}",
+   "الدم المحتبس يهيّج {{myometrium}}",
+   "نقيّم الأم والجنين بسرعة"
+  ],
+  "wrong": {
+   "0": "الـ{{vasa previa}} {{painless bleeding}} مع تأثر الجنين",
+   "1": "الـ{{placenta previa}} {{painless bleeding}}",
+   "2": "الـ{{uterine rupture}} غالبًا مع {{scar}} أو {{labor}}"
+  },
+  "change": [
+   "لو {{painless}} نفكر بـ{{previa}}",
+   "لو {{bleeding}} مع {{ROM}} وتغير {{FHR}} نفكر بـ{{vasa previa}}"
+  ],
+  "rule": "لو {{painful bleeding}} يعني {{abruption}}"
+ },
+ "Q526": {
+  "idea": [
+   "حامل {{29 weeks}} بـ{{preterm labor}}",
+   "وأي {{tocolytic}} يرتبط بـ{{ductus arteriosus}}"
+  ],
+  "clues": [
+   [
+    "لو {{PDA}}",
+    "الأثر على {{ductus}} حسب الجواب"
+   ],
+   [
+    "لو {{tocolytic}}",
+    "نسأل عن الدواء"
+   ]
+  ],
+  "why": [
+   "الـ{{indomethacin}} هو {{prostaglandin inhibitor}}",
+   "ويرتبط بتأثير على {{fetal ductus arteriosus}}",
+   "فيحدد استعماله بأقل من {{32 weeks}} ولمدة قصيرة"
+  ],
+  "wrong": {
+   "0": "الـ{{atosiban}} هو {{oxytocin antagonist}} بدون هالتأثير",
+   "1": "الـ{{ritodrine}} {{beta agonist}} يسبب {{palpitations}} و{{hyperglycemia}}",
+   "2": "الـ{{nifedipine}} هو {{calcium channel blocker}} وتأثيره على {{BP}}"
+  },
+  "change": [
+   "لو {{maternal cardiac symptoms}} نتجنب {{ritodrine}}",
+   "لو بعد {{32 weeks}} نتجنب {{indomethacin}}"
+  ],
+  "rule": "الـ{{indomethacin}} مرتبط بـ{{ductus arteriosus}}",
+  "note": "الأدق إن الـ{{indomethacin}} يسبب {{premature ductal closure}} مو {{patent ductus}}، والجواب المعتمد هو المعتمد"
+ },
+ "Q527": {
+  "idea": [
+   "حامل {{34 weeks}} بـ{{preterm labor}} و{{cervix 6 cm}}",
+   "مع {{vertex}} والجنين سليم"
+  ],
+  "clues": [
+   [
+    "لو {{cervix 6 cm}}",
+    "يعني {{advanced active labor}}"
+   ],
+   [
+    "لو {{vertex}} و{{normal FHR}}",
+    "ما في ضرورة لتدخل"
+   ]
+  ],
+  "why": [
+   "الـ{{labor}} متقدم والـ{{vertex}} والجنين مطمئن",
+   "فـ{{vaginal delivery}} أنسب",
+   "و{{surgery}} لها {{indications}} بس"
+  ],
+  "wrong": {
+   "0": "الـ{{vacuum}} ما له {{indication}} الحين",
+   "2": "الـ{{cesarean}} بدون {{indication}}",
+   "3": "الـ{{forceps}} ما له {{indication}} الحين"
+  },
+  "change": [
+   "لو {{fetal distress}} نفكر بـ{{cesarean}}",
+   "لو {{breech}} بـ{{preterm labor}} نراجع الخيارات"
+  ],
+  "rule": "لو {{advanced labor}} و{{vertex}} وجنين سليم يعني {{vaginal delivery}}"
+ },
+ "Q528": {
+  "idea": [
+   "حامل {{30 weeks}} بـ{{severe bleeding}} و{{fetal distress}}",
+   "فنحتاج إنقاذ سريع"
+  ],
+  "clues": [
+   [
+    "لو {{severe bleeding}}",
+    "خطر على الأم"
+   ],
+   [
+    "لو {{fetal distress}} بـ{{CTG}}",
+    "نحتاج {{rapid delivery}}"
+   ]
+  ],
+  "why": [
+   "الـ{{severe bleeding}} مع {{fetal distress}} {{emergency indication}}",
+   "الـ{{cesarean}} أسرع طريقة لإنقاذ الأم والجنين",
+   "ونثبت الأم بـ{{fluids}} و{{blood}}"
+  ],
+  "wrong": {
+   "0": "الـ{{steroids}} تحتاج وقت وما تعالج {{emergency}}",
+   "1": "الـ{{tocolytics}} ممنوعة مع {{severe bleeding}}",
+   "2": "الـ{{vaginal delivery}} أبطأ مع {{fetal distress}}"
+  },
+  "change": [
+   "لو {{bleeding}} خفيف والجنين سليم نراقب ونعطي {{steroids}}",
+   "لو {{fetal demise}} والأم {{stable}} نفكر بـ{{vaginal delivery}}"
+  ],
+  "rule": "لو {{severe bleeding}} مع {{fetal distress}} يعني {{emergency cesarean}}"
+ },
+ "Q529": {
+  "idea": [
+   "حامل {{27 weeks}} بـ{{previa totalis}} و{{mild bleeding}}",
+   "والأم والجنين {{stable}}"
+  ],
+  "clues": [
+   [
+    "لو {{previa totalis}}",
+    "ما تنفع {{vaginal delivery}}"
+   ],
+   [
+    "لو {{stable}} و{{normal CTG}}",
+    "نكسب الوقت"
+   ]
+  ],
+  "why": [
+   "الحمل مبكر وخطر {{preterm delivery}} موجود",
+   "فنعطي {{steroids}} لنضج {{lungs}}",
+   "ونراقب بالمستشفى"
+  ],
+  "wrong": {
+   "0": "الـ{{oxygen}} ما له دور بدون {{hypoxia}}",
+   "2": "الـ{{tocolytics}} ما تعطى روتينيًا مع {{bleeding}}",
+   "3": "الـ{{antibiotics}} ما لها {{indication}}"
+  },
+  "change": [
+   "لو {{severe bleeding}} نولّد بـ{{cesarean}}",
+   "لو بعد {{34 weeks}} نخطط لـ{{cesarean}}"
+  ],
+  "rule": "لو {{stable previa}} قبل {{34 weeks}} يعني {{steroids}}"
+ },
+ "Q530": {
+  "idea": [
+   "الـ{{vaginal delivery}} لجنين {{4.2 kg}}",
+   "مع {{tear}} يصل {{rectal mucosa}}"
+  ],
+  "clues": [
+   [
+    "لو {{tear}} يشمل {{rectal mucosa}}",
+    "يعني {{fourth degree}}"
+   ],
+   [
+    "لو {{macrosomia}}",
+    "{{risk factor}}"
+   ]
+  ],
+  "why": [
+   "الـ{{fourth degree}} تشمل {{anal sphincter}} و{{rectal mucosa}}",
+   "والـ{{third degree}} ما تصل {{mucosa}}",
+   "نصلحها بالعمليات"
+  ],
+  "wrong": {
+   "0": "الـ{{first degree}} {{superficial skin}}",
+   "1": "الـ{{second degree}} {{perineal muscles}} بس",
+   "2": "الـ{{third degree}} {{sphincter}} بدون {{rectal mucosa}}"
+  },
+  "change": [
+   "لو {{sphincter}} بس فهي {{third degree}}",
+   "لو {{skin}} بس فهي {{first degree}}"
+  ],
+  "rule": "لو {{rectal mucosa}} يعني {{fourth degree}}"
+ },
+ "Q531": {
+  "idea": [
+   "حامل {{34 weeks}} بـ{{polyhydramnios}}",
+   "والسبب الشائع {{diabetes}}"
+  ],
+  "clues": [
+   [
+    "لو {{polyhydramnios}}",
+    "نبحث عن السبب"
+   ],
+   [
+    "لو {{advanced pregnancy}}",
+    "الـ{{uncontrolled DM}} أشيع سبب"
+   ]
+  ],
+  "why": [
+   "الـ{{DM}} يرفع {{fetal glucose}} فيزيد {{fetal urine}}",
+   "فيزيد {{amniotic fluid}}",
+   "وهو أشيع سبب معروف"
+  ],
+  "wrong": {
+   "0": "الـ{{renal agenesis}} يسبب {{oligohydramnios}}",
+   "1": "الـ{{Rh isoimmunization}} قد تسبب {{hydrops}} لكنها أقل",
+   "3": "الـ{{IUGR}} يسبب {{oligohydramnios}}"
+  },
+  "change": [
+   "لو {{oligohydramnios}} نفكر بـ{{IUGR}} أو {{renal}}",
+   "لو {{fetal anomaly}} نفكر بأسباب جنينية"
+  ],
+  "rule": "لو {{polyhydramnios}} يعني نفحص {{diabetes}}"
+ },
+ "Q532": {
+  "idea": [
+   "حامل {{14 weeks}} بـ{{HTN}} و{{DM}} للحجز",
+   "فأهم خطوة {{medication review}}"
+  ],
+  "clues": [
+   [
+    "لو {{HTN}} و{{DM}} سابقين",
+    "أدويتها قد تضر الجنين"
+   ],
+   [
+    "لو {{14 weeks}}",
+    "التعرض للأدوية صار"
+   ]
+  ],
+  "why": [
+   "بعض الأدوية مثل {{ACE inhibitors}} ممنوعة بالحمل",
+   "فنراجعها ونبدلها بأدوية آمنة",
+   "قبل بقية التدخلات"
+  ],
+  "wrong": {
+   "0": "الـ{{folic acid}} مفيد لكنه مو أول خطوة",
+   "1": "الـ{{ECG}} مو الأولوية",
+   "2": "الـ{{dietitian advice}} مهم لكن لاحقًا"
+  },
+  "change": [
+   "لو على {{insulin}} نكمل ونضبط الجرعة",
+   "لو ما في أدوية نبدأ بقية الرعاية"
+  ],
+  "rule": "لو {{chronic disease}} مع حمل يعني {{review medications}} أولًا"
+ },
+ "Q533": {
+  "idea": [
+   "سيدة {{65 years}} بـ{{acute abdominal pain}} و{{complex ovarian mass}}",
+   "فنسوي {{pelvic MRI}} أولًا"
+  ],
+  "clues": [
+   [
+    "لو {{complex mass}} بعد {{menopause}}",
+    "قد تكون {{malignant}}"
+   ],
+   [
+    "نتايج التحاليل (مو موجودة بالبطاقة)",
+    "نعتمد على الصورة السريرية والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{MRI}} يحدد {{mass characterization}} بدقة",
+   "ويساعد قبل قرار {{surgery}}",
+   "وهو الخطوة التالية بعد {{US}}"
+  ],
+  "wrong": {
+   "1": "الـ{{observation}} ما تناسب {{complex mass}} بعد {{menopause}}",
+   "2": "الـ{{laparotomy}} بدون {{assessment}} كافٍ مبكرة",
+   "3": "الـ{{tumor markers}} وحدها ما تحدد الخطوة"
+  },
+  "change": [
+   "لو {{acute torsion}} نسوي {{surgery}} فورًا",
+   "لو الصورة واضحة نكمل حسب {{markers}}"
+  ],
+  "rule": "لو {{complex mass}} بعد {{menopause}} يعني {{MRI}}",
+  "note": "مع {{acute pain}} قد نشك بـ{{torsion}} فتكون {{surgery}}، والجواب المعتمد هو {{MRI}}"
+ },
+ "Q534": {
+  "idea": [
+   "شابة {{20 years}} بـ{{solid multiloculated ovarian mass 6 cm}}",
+   "فنحافظ على المبيض بـ{{cystectomy}}"
+  ],
+  "clues": [
+   [
+    "لو {{young age}}",
+    "نحافظ على {{fertility}}"
+   ],
+   [
+    "لو {{solid mass 6 cm}}",
+    "تحتاج {{surgery}}"
+   ],
+   [
+    "نتايج التحاليل (مو موجودة بالبطاقة)",
+    "نعتمد على الصورة السريرية والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "العمر الصغير يستدعي {{ovarian preservation}}",
+   "نسوي {{cystectomy}} بس",
+   "ونرسلها لـ{{histopathology}}"
+  ],
+  "wrong": {
+   "1": "الـ{{oophorectomy}} مبالغ لهذا العمر",
+   "2": "الـ{{review in 6 months}} ما تناسب {{solid mass}}",
+   "3": "الـ{{aspiration}} ما تناسب {{solid mass}}"
+  },
+  "change": [
+   "لو شك {{malignancy}} نوسع {{surgery}}",
+   "لو {{small simple cyst}} نراقب"
+  ],
+  "rule": "لو شابة مع {{solid mass}} يعني {{cystectomy}} بس"
+ },
+ "Q535": {
+  "idea": [
+   "سيدة {{76 years}} بـ{{solid multiloculated adnexal mass 6 cm}}",
+   "فنحول لـ{{gynecology oncology}}"
+  ],
+  "clues": [
+   [
+    "لو {{old age}}",
+    "{{malignancy}} محتمل"
+   ],
+   [
+    "لو {{solid mass}}",
+    "تحتاج {{specialist assessment}}"
+   ],
+   [
+    "نتايج التحاليل (مو موجودة بالبطاقة)",
+    "نعتمد على الصورة السريرية والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "احتمال {{malignancy}} مرتفع بهالعمر",
+   "فتحتاج {{specialized surgery}}",
+   "الأفضل {{referral to gyn-oncology}}"
+  ],
+  "wrong": {
+   "0": "الـ{{cystectomy}} ما تكفي بعد {{menopause}}",
+   "1": "الـ{{oophorectomy}} وحده بدون {{planning}} ما يكفي",
+   "3": "الـ{{TAH-BSO}} يسوى بعد {{assessment}}"
+  },
+  "change": [
+   "لو شابة نحافظ على {{fertility}}",
+   "لو {{simple small cyst}} نراقب"
+  ],
+  "rule": "لو {{suspicious mass}} بعد {{menopause}} يعني {{gyn-oncology}}"
+ },
+ "Q536": {
+  "idea": [
+   "بكر {{21 years}} بـ{{cesarean}} لـ{{breech}} و{{ovarian cyst 5 cm}}",
+   "فنزيل الـ{{cyst}} أثناء العملية"
+  ],
+  "clues": [
+   [
+    "لو {{cyst 5 cm}} اكتُشف بالعملية",
+    "فرصة لإزالته"
+   ],
+   [
+    "لو {{young age}}",
+    "نحافظ على المبيض"
+   ]
+  ],
+  "why": [
+   "الـ{{large cyst}} يزال أثناء {{cesarean}}",
+   "نحافظ على {{ovary}}",
+   "ونرسله لـ{{histopathology}}"
+  ],
+  "wrong": {
+   "1": "الـ{{oophorectomy}} مبالغ",
+   "2": "لو {{no intervention}} قد يفوت {{malignancy}} أو يسبب {{torsion}}",
+   "3": "الـ{{squeeze and rupture}} خطر وغير مقبول"
+  },
+  "change": [
+   "لو {{simple small cyst}} قد نتركه",
+   "لو شك {{malignancy}} نوسع {{surgery}}"
+  ],
+  "rule": "لو {{large cyst}} عند {{cesarean}} يعني {{cystectomy}}",
+  "note": "لو الـ{{cyst}} {{simple}} وصغير قد نكتفي بـ{{observation}}، والجواب المعتمد هو {{cystectomy}}"
+ },
+ "Q537": {
+  "idea": [
+   "شابة {{20 years}} بـ{{incidental simple ovarian cyst 5 cm}}",
+   "فنعيد الفحص بعد أسابيع"
+  ],
+  "clues": [
+   [
+    "لو {{simple cyst}}",
+    "غالبًا {{functional}}"
+   ],
+   [
+    "لو {{asymptomatic}}",
+    "ما نحتاج {{surgery}}"
+   ]
+  ],
+  "why": [
+   "الـ{{small simple cyst}} غالبًا يختفي",
+   "نعيد {{US}} بعد {{6-8 weeks}}",
+   "ونتدخل لو كبر أو تغير"
+  ],
+  "wrong": {
+   "0": "الـ{{cystectomy}} ما لها مبرر",
+   "1": "الـ{{oophorectomy}} مبالغ",
+   "3": "الـ{{oncology referral}} مو لازم"
+  },
+  "change": [
+   "لو {{complex cyst}} نحتاج {{assessment}} أكثر",
+   "لو كبر أو ظهرت {{symptoms}} نتدخل"
+  ],
+  "rule": "لو {{simple cyst}} بدون {{symptoms}} يعني {{repeat US}}"
+ },
+ "Q538": {
+  "idea": [
+   "سيدة {{60 years}} بـ{{weight loss}} و{{loss of appetite}} و{{solid ovarian mass}}",
+   "فأهم {{marker}} هو {{CA-125}}"
+  ],
+  "clues": [
+   [
+    "لو {{weight loss}} و{{anorexia}}",
+    "علامات {{malignancy}}"
+   ],
+   [
+    "لو {{solid multiloculated mass}}",
+    "{{epithelial ovarian tumor}} محتمل"
+   ],
+   [
+    "نتايج التحاليل (مو موجودة بالبطاقة)",
+    "نعتمد على الصورة السريرية والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{epithelial tumor}} أشيع بعد {{menopause}}",
+   "و{{marker}} تبعه {{CA-125}}",
+   "يفيد بالتشخيص والمتابعة"
+  ],
+  "wrong": {
+   "0": "الـ{{inhibin}} لـ{{granulosa cell tumors}}",
+   "1": "الـ{{B-HCG}} لـ{{trophoblastic tumors}}",
+   "3": "الـ{{AFP}} لـ{{yolk sac tumors}}"
+  },
+  "change": [
+   "لو شابة نفكر بـ{{germ cell tumors}} ونطلب {{AFP}}",
+   "لو ورم يفرز {{estrogen}} نطلب {{inhibin}}"
+  ],
+  "rule": "لو {{epithelial ovarian tumor}} بعد {{menopause}} يعني {{CA-125}}"
+ },
+ "Q539": {
+  "idea": [
+   "حامل {{9 weeks}} بـ{{mild bleeding}} و{{closed cervix}}",
+   "ولا في {{pregnancy}} واضح بالـ{{US}}"
+  ],
+  "clues": [
+   [
+    "لو {{mild bleeding}} و{{abdominal pain}}",
+    "{{ectopic}} محتمل"
+   ],
+   [
+    "لو {{no intrauterine or extrauterine pregnancy}}",
+    "يعني {{PUL}}"
+   ],
+   [
+    "نتايج التحاليل (مو موجودة بالبطاقة)",
+    "نعتمد على الصورة السريرية والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الحالة {{stable}} بدون {{signs of rupture}}",
+   "فنختار علاجًا دوائيًا حسب الجواب",
+   "وهو {{methotrexate}}"
+  ],
+  "wrong": {
+   "0": "الـ{{salpingotomy}} مو لازم والحالة {{stable}}",
+   "1": "الـ{{salpingectomy}} للحالات {{complicated}}",
+   "3": "الـ{{D&C}} يستعمل لو {{intrauterine pregnancy}}"
+  },
+  "change": [
+   "لو {{rupture}} و{{instability}} نسوي {{surgery}}",
+   "لو {{hCG}} ينخفض نراقب"
+  ],
+  "rule": "لو {{stable ectopic}} يعني {{methotrexate}}",
+  "note": "الـ{{PUL}} غالبًا نراقبها بـ{{hCG}} قبل {{methotrexate}}، والجواب المعتمد هو المعتمد"
+ },
+ "Q540": {
+  "idea": [
+   "سيدة بعد {{cesarean}} بـ{{16 days}} بـ{{fever}} و{{small bowel fistula}}",
+   "فنبدأ {{conservative treatment}}"
+  ],
+  "clues": [
+   [
+    "لو {{fever}} ما يستجيب",
+    "مصدر {{intra-abdominal}}"
+   ],
+   [
+    "لو {{confirmed fistula}}",
+    "نوقف الأكل ونخفض {{secretions}}"
+   ],
+   [
+    "نتايج التحاليل (مو موجودة بالبطاقة)",
+    "نعتمد على الصورة السريرية والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "العلاج المبدئي {{conservative}}",
+   "نوقف الأكل ونعطي {{secretion inhibitors}}",
+   "ونغذي {{parenterally}} ونعالج {{infection}}"
+  ],
+  "wrong": {
+   "0": "الـ{{colostomy}} مو لازم كخطوة أولى",
+   "1": "الـ{{soft diet}} يزيد {{secretions}}",
+   "2": "الـ{{resection}} بعد استقرار الحالة"
+  },
+  "change": [
+   "لو {{peritonitis}} نذهب لـ{{surgery}}",
+   "لو ما التأم بعد فترة نخطط لـ{{surgery}}"
+  ],
+  "rule": "لو {{enterocutaneous fistula}} يعني {{NPO}} و{{TPN}} أولًا"
+ },
+ "Q541": {
+  "idea": [
+   "الـ{{primary infertility}} لمدة {{3 years}} مع {{normal investigations}}",
+   "وفشل {{clomiphene}}"
+  ],
+  "clues": [
+   [
+    "لو {{normal hormones}} و{{US}} و{{semen}}",
+    "يعني {{unexplained}}"
+   ],
+   [
+    "لو فشل {{clomiphene induction}}",
+    "نحتاج نتقدم"
+   ]
+  ],
+  "why": [
+   "قبل {{IUI}} نتأكد من سلامة {{tubes}}",
+   "بـ{{diagnostic laparoscopy}}",
+   "ثم نختار العلاج المناسب"
+  ],
+  "wrong": {
+   "0": "الـ{{IVF}} لاحقًا",
+   "2": "الـ{{IUI}} تحتاج {{patent tubes}}",
+   "3": "الـ{{gonadotropins}} ما تضيف مع {{unexplained infertility}}"
+  },
+  "change": [
+   "لو {{tubal blockage}} نروح لـ{{IVF}}",
+   "لو {{older age}} نختصر المسار"
+  ],
+  "rule": "لو {{unexplained infertility}} يعني نتأكد من {{tubes}}",
+  "note": "كثير من {{guidelines}} تقدم {{IUI}} قبل {{laparoscopy}}، والجواب المعتمد هو {{laparoscopy}}"
+ }
+}

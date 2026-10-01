@@ -1,0 +1,764 @@
+{
+ "Q061": {
+  "idea": [
+   "سيدة بعد {{cesarean section}} جاها {{heavy bleeding}} من {{placental abruption}} ولسا النزيف مستمر بعد {{4 units of blood}}",
+   "فنشك بـ{{DIC}} والعلاج {{cryoprecipitate}}"
+  ],
+  "clues": [
+   [
+    "الـ{{placental abruption}}",
+    "يسبب {{DIC}}"
+   ],
+   [
+    "نزيف مستمر بعد {{4 units of blood}}",
+    "يعني {{clotting factor deficiency}}"
+   ],
+   [
+    "لو {{prolonged labor}} ثم {{cesarean}}",
+    "يعني {{risk factor for bleeding}}"
+   ],
+   [
+    "الـ{{lab results}} ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{severe abruption}} يستهلك {{fibrinogen}} و{{clotting factors}}",
+   "و{{blood transfusion}} لحاله ما يعوضها",
+   "فنعطي {{cryoprecipitate}} لأنه {{rich in fibrinogen}}"
+  ],
+  "wrong": {
+   "1": "الـ{{platelets}} نعطيها لو {{marked thrombocytopenia}} والمشكلة هنا {{fibrinogen}}",
+   "2": "الـ{{albumin}} يرفع {{volume}} بس ما يعالج {{coagulopathy}}",
+   "3": "الـ{{iron}} ما يوقف {{acute bleeding}}"
+  },
+  "change": [
+   "لو {{very low platelets}} فنعطي {{platelets}} مع {{cryoprecipitate}}",
+   "لو {{INR}} مرتفع فنضيف {{fresh frozen plasma}}"
+  ],
+  "rule": "نزيف مستمر بعد {{placental abruption}} مع {{low fibrinogen}} يعني {{cryoprecipitate}}"
+ },
+ "Q062": {
+  "idea": [
+   "سيدة عمرها {{70}} عندها {{CKD}} و{{small kidneys}} مع {{anemia}} وتعب",
+   "فأرجح سبب هو {{erythropoietin deficiency}}"
+  ],
+  "clues": [
+   [
+    "الـ{{CKD}} مع {{small kidneys on ultrasound}}",
+    "يعني {{advanced chronic kidney disease}}"
+   ],
+   [
+    "{{Pallor}} و{{fatigue}}",
+    "يعني {{chronic anemia}}"
+   ],
+   [
+    "الـ{{lab results}} ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الكلية السليمة تصنع {{erythropoietin}} اللي ينشط {{bone marrow}}",
+   "لو {{advanced CKD}} ينقص هالهرمون",
+   "فالـ{{anemia}} غالبًا من {{erythropoietin deficiency}}"
+  ],
+  "wrong": {
+   "1": "الـ{{MDS}} أقل شيوعًا وما يطابق {{clinical picture}}",
+   "2": "الـ{{iron deficiency}} ممكن مع {{CKD}} بس مو أرجح سبب",
+   "3": "الـ{{chronic inflammation}} سبب مساهم بس مو الرئيسي"
+  },
+  "change": [
+   "لو {{low iron}} فنعالجه أول",
+   "نعالج بـ{{ESA}} مع {{iron}}"
+  ],
+  "rule": "الـ{{anemia}} مع {{advanced CKD}} يعني {{erythropoietin deficiency}}"
+ },
+ "Q063": {
+  "idea": [
+   "سيدة عندها {{celiac disease}} وما تلتزم بـ{{gluten-free diet}} مع {{iron deficiency anemia}} ما تحسنت بعد {{12 weeks of oral iron}}",
+   "فالجواب {{intravenous iron}}"
+  ],
+  "clues": [
+   [
+    "الـ{{active celiac disease}}",
+    "يعني {{malabsorption in the proximal small bowel}}"
+   ],
+   [
+    "{{Oral iron}} لمدة {{12 weeks}} بدون تحسن",
+    "يعني {{treatment failure}}"
+   ],
+   [
+    "{{Pica}} مع {{pallor}}",
+    "يعني {{persistent iron deficiency}}"
+   ],
+   [
+    "الـ{{lab results}} ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{iron}} يمتص بالـ{{duodenum}} والـ{{celiac}} يتلفه",
+   "فالـ{{oral iron}} ما يعوض النقص",
+   "والحل {{intravenous iron}} لأنه {{bypasses the gut}}"
+  ],
+  "wrong": {
+   "0": "الاستمرار على نفس {{oral iron}} ما نفع لـ{{12 weeks}}",
+   "2": "الـ{{liquid iron}} يمتص بنفس المكان وما يحل المشكلة",
+   "3": "الـ{{higher oral dose}} ما يحل {{malabsorption}} ويزيد {{GI side effects}}"
+  },
+  "change": [
+   "لو التزمت بـ{{gluten-free diet}} يتحسن {{absorption}} مع الوقت",
+   "لو ما فيه {{malabsorption}} فـ{{oral iron}} يكفي"
+  ],
+  "rule": "الـ{{Iron deficiency}} مع {{malabsorption}} أو {{failure of oral iron}} يعني {{intravenous iron}}"
+ },
+ "Q064": {
+  "idea": [
+   "مريضة {{DVT}} على {{warfarin}} من {{6 weeks}} والمطلوب إجراء مع إيقاف الدواء",
+   "فالجواب {{re-measure INR in 2 days}}"
+  ],
+  "clues": [
+   [
+    "الـ{{warfarin}} من {{6 weeks}}",
+    "يعني {{dose may be excessive}}"
+   ],
+   [
+    "لو الفحص طبيعي و{{no bleeding}}",
+    "فما فيه سبب لـ{{urgent reversal}}"
+   ],
+   [
+    "قيمة الـ{{INR}} ما هي موجودة بالبطاقة",
+    "نفترض {{elevated INR without bleeding}} حسب الجواب"
+   ]
+  ],
+  "why": [
+   "الـ{{elevated INR}} بدون {{bleeding}} نعالجه بـ{{holding warfarin}} و{{repeat INR}}",
+   "والـ{{vitamin K}} أو {{plasma}} أو {{PCC}} لـ{{major bleeding}} أو {{very high INR}}",
+   "فالجواب {{re-measure INR in 2 days}}"
+  ],
+  "wrong": {
+   "0": "الـ{{vitamin K}} مو ضروري بدون {{bleeding}} ولا {{very high INR}}",
+   "2": "الـ{{plasma}} لـ{{major bleeding}}",
+   "3": "الـ{{prothrombin complex}} لـ{{major bleeding}}"
+  },
+  "change": [
+   "لو {{major bleeding}} فنعطي {{vitamin K}} مع {{PCC}}",
+   "لو {{INR above 10}} بدون {{bleeding}} فنعطي {{oral vitamin K}}"
+  ],
+  "rule": "الـ{{INR}} مرتفع بدون {{bleeding}} يعني نوقف {{warfarin}} ونعيد {{INR}}"
+ },
+ "Q065": {
+  "idea": [
+   "حامل بالأسبوع {{38}} جاها {{severe headache}} و{{edema}} وبالمسحة {{schistocytes}} بدون {{platelet clumping}}",
+   "فهذا {{HELLP}} أو {{severe preeclampsia}} والعلاج {{emergent delivery}}"
+  ],
+  "clues": [
+   [
+    "{{38 weeks}} مع {{severe headache}} و{{edema}}",
+    "يعني {{severe preeclampsia}}"
+   ],
+   [
+    "الـ{{schistocytes}}",
+    "يعني {{microangiopathic hemolysis}}"
+   ],
+   [
+    "لو ما فيه {{skin bleeding}}",
+    "فما هو {{TTP}} واضح"
+   ],
+   [
+    "الـ{{lab results}} ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "فوق {{37 weeks}} مع {{severe preeclampsia}} و{{hemolysis}} يعني {{delivery}} هو العلاج",
+   "والأعراض كلها تتحسن بعد الولادة",
+   "فالجواب {{emergent delivery}}"
+  ],
+  "wrong": {
+   "0": "الـ{{dexamethasone}} لـ{{HELLP}} قبل {{34 weeks}} وما هو بديل عن {{delivery}}",
+   "2": "الـ{{plasma exchange}} لـ{{TTP}} وهنا السبب {{pregnancy}}",
+   "3": "الـ{{eculizumab}} لـ{{aHUS}} وهو نادر"
+  },
+  "change": [
+   "لو {{very early gestation}} فنستقر ونعطي {{antenatal steroids}} قبل {{delivery}}",
+   "لو {{TTP}} واضح من {{ADAMTS13 deficiency}} فـ{{plasma exchange}}"
+  ],
+  "rule": "الـ{{severe preeclampsia}} مع {{HELLP}} قرب الولادة يعني {{emergent delivery}}"
+ },
+ "Q066": {
+  "idea": [
+   "سيدة عندها {{rheumatic mitral stenosis}} وانشخصت بعدها {{atrial fibrillation}} وبدأت {{warfarin}}",
+   "فالـ{{target INR}} هو {{2 to 3}}"
+  ],
+  "clues": [
+   [
+    "الـ{{rheumatic mitral stenosis}}",
+    "يعني {{valvular AF}}"
+   ],
+   [
+    "الـ{{atrial fibrillation}}",
+    "يعني نحتاج {{anticoagulation}}"
+   ],
+   [
+    "الـ{{warfarin}}",
+    "نراقبه بـ{{INR}}"
+   ]
+  ],
+  "why": [
+   "الـ{{rheumatic MS}} مع {{AF}} يحتاج {{warfarin}}",
+   "والهدف {{INR 2 to 3}}",
+   "لو أقل فما يحمي من {{thromboembolism}} ولو أكثر يرفع {{bleeding risk}}"
+  ],
+  "wrong": {
+   "0": "الـ{{INR below 1}} يعني بدون {{anticoagulation}} فعلي",
+   "1": "الـ{{INR 1 to 1.5}} منخفض وما يحمي",
+   "3": "الـ{{INR above 3}} يرفع {{bleeding risk}} بدون فايدة"
+  },
+  "change": [
+   "لو {{mechanical mitral valve}} فالهدف أعلى {{2.5 to 3.5}}",
+   "لو {{non-valvular AF}} فنستخدم {{DOACs}}"
+  ],
+  "rule": "الـ{{warfarin}} لـ{{AF}} مع {{mitral stenosis}} يعني {{INR 2 to 3}}"
+ },
+ "Q067": {
+  "idea": [
+   "حامل بالأسبوع {{12}} عندها {{sickle cell disease}} بـ{{moderate pain crises}} وبدون {{stroke}} أو {{acute chest syndrome}}",
+   "فالجواب {{close observation}} بدون {{prophylactic transfusion}}"
+  ],
+  "clues": [
+   [
+    "الـ{{sickle cell disease}} بـ{{1 to 2 crises per year}}",
+    "يعني {{mild to moderate disease}}"
+   ],
+   [
+    "بدون {{stroke}} ولا {{acute chest syndrome}}",
+    "فما فيه {{indication for prophylactic transfusion}}"
+   ],
+   [
+    "على {{folic acid}} فقط",
+    "وهذا مناسب بالحمل"
+   ],
+   [
+    "الـ{{lab results}} ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{prophylactic transfusion}} ما ثبتت فايدته للجميع بالحمل",
+   "نكتفي بـ{{close monitoring}} ونعالج {{crises}} عند حدوثها",
+   "فالجواب {{close observation throughout pregnancy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{exchange transfusion}} طول الحمل غير مطلوب بدون {{complications}}",
+   "2": "الـ{{routine simple transfusion}} ما له {{indication}}",
+   "3": "الـ{{hydroxyurea}} ممنوع بالحمل بسبب {{teratogenicity}}"
+  },
+  "change": [
+   "لو {{stroke}} أو {{frequent severe crises}} فنفكر بـ{{transfusion}}",
+   "نستمر بـ{{folic acid}} ونراقب {{fetal growth}}"
+  ],
+  "rule": "حامل بـ{{sickle cell disease}} بدون {{complications}} يعني {{close observation}}"
+ },
+ "Q068": {
+  "idea": [
+   "سيدة عندها {{type 2 diabetes}} وتشخصت حديثًا بـ{{hypertension}}",
+   "فالجواب {{ramipril}} من {{ACE inhibitors}}"
+  ],
+  "clues": [
+   [
+    "الـ{{type 2 diabetes}}",
+    "يعني نحتاج {{renal protection}}"
+   ],
+   [
+    "الـ{{new hypertension}}",
+    "فنبدأ دواء مناسب"
+   ]
+  ],
+  "why": [
+   "مريض {{diabetes}} مع {{hypertension}} يستفيد من {{ACE inhibitor}} أو {{ARB}}",
+   "لأنه {{renoprotective}} و{{reduces proteinuria}}",
+   "فالجواب {{ramipril}}"
+  ],
+  "wrong": {
+   "0": "الـ{{hydralazine}} مو {{first-line}} لـ{{essential hypertension}}",
+   "1": "الـ{{amlodipine}} خيار بس مو الأول عند {{diabetes}}",
+   "2": "الـ{{metoprolol}} مو {{first-line}} بدون {{cardiac indication}}"
+  },
+  "change": [
+   "لو ما تتحمل {{ACE inhibitor cough}} فنستخدم {{ARB}}",
+   "لو ما انضبط الضغط فنضيف {{amlodipine}}"
+  ],
+  "rule": "الـ{{Hypertension}} مع {{diabetes}} يعني {{ACE inhibitor}} أو {{ARB}} أول"
+ },
+ "Q069": {
+  "idea": [
+   "رجال عمره {{60}} لقوا ضغطه مرتفع بزيارة روتينية بدون أعراض و{{normal labs}}",
+   "فقبل نبدأ دواء نأكد بـ{{ambulatory blood pressure monitoring}}"
+  ],
+  "clues": [
+   [
+    "الـ{{elevated clinic BP}}",
+    "يعني ممكن {{white coat hypertension}}"
+   ],
+   [
+    "بدون أعراض و{{normal labs}}",
+    "فما فيه {{end-organ damage}}"
+   ]
+  ],
+  "why": [
+   "القياس بالعيادة ممكن يرتفع بسبب {{anxiety}}",
+   "فنأكد بـ{{24-hour BP monitoring}}",
+   "والجواب {{ambulatory blood pressure measurement}}"
+  ],
+  "wrong": {
+   "0": "الـ{{echocardiography}} ما له داعي قبل تأكيد التشخيص",
+   "1": "لو بدأنا {{treatment}} قبل التأكيد ممكن نعالج مريض سليم",
+   "3": "الانتظار {{3 months}} بدون تأكيد ما هو أفضل من {{continuous monitoring}}"
+  },
+  "change": [
+   "لو {{very high BP}} أو {{end-organ damage}} فنبدأ {{treatment}} فورًا",
+   "لو {{home BP monitoring}} متوفر فنستخدمه"
+  ],
+  "rule": "الـ{{High clinic BP}} بدون {{end-organ damage}} يعني نأكد بـ{{ABPM}} قبل العلاج"
+ },
+ "Q070": {
+  "idea": [
+   "مريض {{COPD}} بنوبة {{pneumonia}} أخذ {{oxygen 4 L}} وبعد ساعات صار {{drowsy}}",
+   "فالسبب غالبًا {{CO2 retention}} من {{excess oxygen}} فنقلل الأكسجين"
+  ],
+  "clues": [
+   [
+    "الـ{{COPD exacerbation}}",
+    "يعني {{possible CO2 retainer}}"
+   ],
+   [
+    "الـ{{oxygen 4 L}}",
+    "يعني {{high-concentration oxygen}}"
+   ],
+   [
+    "الـ{{drowsiness}} بعد ساعات",
+    "يعني علامة {{CO2 retention}}"
+   ],
+   [
+    "الـ{{blood gas results}} ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "مريض {{COPD}} يعتمد على {{hypoxic drive}}",
+   "والـ{{excess oxygen}} يقلل التنفس فيرتفع {{CO2}} ويصير {{drowsy}}",
+   "فنقلل الأكسجين للهدف {{SpO2 88 to 92%}}"
+  ],
+  "wrong": {
+   "0": "الـ{{NIV}} ممكن لاحقًا، بس أول شي نصحح {{excess oxygen}}",
+   "1": "الـ{{ipratropium}} ما يعالج {{CO2 retention}}",
+   "3": "زيادة {{salbutamol}} ما تعالج السبب"
+  },
+  "change": [
+   "لو ما تحسن بعد تخفيض الأكسجين فنستخدم {{NIV}}",
+   "الهدف {{SpO2 88 to 92%}} لمرضى {{COPD}}"
+  ],
+  "rule": "الـ{{COPD}} مع {{drowsiness}} بعد {{high oxygen}} يعني نقلل الأكسجين"
+ },
+ "Q071": {
+  "idea": [
+   "رجال مدخن عمره {{55}} عنده {{productive cough}} لمدة {{3 months}} وتكرر بالسنتين الماضيتين",
+   "فهذا {{chronic bronchitis}}"
+  ],
+  "clues": [
+   [
+    "الـ{{productive cough for 3 months}}",
+    "يعني هذا {{diagnostic criterion}}"
+   ],
+   [
+    "لو بنفس الصورة {{2 consecutive years}}",
+    "يعني {{chronic}}"
+   ],
+   [
+    "الـ{{smoker}} علبة يوميًا",
+    "يعني أشهر سبب"
+   ]
+  ],
+  "why": [
+   "التعريف {{productive cough for at least 3 months in 2 consecutive years}}",
+   "والمريض يطابق التعريف مع {{smoking}}",
+   "فالجواب {{chronic bronchitis}}"
+  ],
+  "wrong": {
+   "0": "الـ{{bronchiectasis}} فيها {{copious purulent sputum}} ومتكرر وما يطابق المعيار هنا",
+   "1": "الـ{{asthma}} فيها {{episodic attacks}} وغالبًا بعمر أصغر",
+   "2": "الـ{{pulmonary fibrosis}} فيها {{dry cough}} و{{dyspnea}} بدون بلغم"
+  },
+  "change": [
+   "لو {{copious purulent sputum}} ومتكرر فنفكر بـ{{bronchiectasis}}",
+   "لو {{dry cough}} مع {{basal crackles}} فنفكر بـ{{fibrosis}}"
+  ],
+  "rule": "الـ{{productive cough for 3 months in 2 consecutive years}} يعني {{chronic bronchitis}}"
+ },
+ "Q072": {
+  "idea": [
+   "سباك عمره {{55}} عنده {{dry cough}} و{{progressive dyspnea}} من سنة مع {{clubbing}} و{{basal crackles}} و{{reticular opacities}}",
+   "فنشك بـ{{pulmonary fibrosis}} وأعلى فحص قيمة {{HRCT}}"
+  ],
+  "clues": [
+   [
+    "الـ{{plumber}}",
+    "يعني {{possible asbestos exposure}}"
+   ],
+   [
+    "الـ{{clubbing}}",
+    "يعني {{pulmonary fibrosis}}"
+   ],
+   [
+    "الـ{{dry basal crackles}}",
+    "علامة {{fibrosis}}"
+   ],
+   [
+    "الـ{{lower reticular opacities}}",
+    "يعني {{fibrosis pattern}}"
+   ],
+   [
+    "تفاصيل التقارير ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{HRCT}} يعرض {{fibrosis pattern}} بدقة ويفرق بين الأنواع",
+   "ممكن ما نحتاج {{biopsy}} لو {{typical pattern}}",
+   "فالجواب {{high-resolution CT scan of the chest}}"
+  ],
+  "wrong": {
+   "0": "الـ{{transbronchial biopsy}} قيمتها أقل وتحتاج لو {{HRCT}} غير حاسم",
+   "1": "الـ{{DLCO}} يقيم {{severity}} مو {{diagnosis}}",
+   "3": "الـ{{ACE level}} غير نوعي لـ{{sarcoidosis}}"
+  },
+  "change": [
+   "لو {{HRCT}} غير نمطي فنفكر بـ{{lung biopsy}}",
+   "لو {{asbestos exposure}} فنفكر بـ{{asbestosis}}"
+  ],
+  "rule": "لو {{suspected pulmonary fibrosis}} فأعلى فحص قيمة {{HRCT}}"
+ },
+ "Q073": {
+  "idea": [
+   "مريض {{COPD}} {{drowsy}} بنوبة {{exacerbation}} مع {{bilateral wheezing}}",
+   "فالخطوة التالية {{nebulized salbutamol}} مع {{ipratropium}}"
+  ],
+  "clues": [
+   [
+    "الـ{{COPD exacerbation}} أسبوعين",
+    "يعني نحتاج {{bronchodilators}}"
+   ],
+   [
+    "الـ{{drowsiness}}",
+    "يعني احتمال {{CO2 retention}}"
+   ],
+   [
+    "الـ{{bilateral wheezing}}",
+    "يعني {{airway obstruction}}"
+   ],
+   [
+    "الـ{{lab results}} ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{COPD exacerbation}} نعالجه بـ{{inhaled bronchodilators}}",
+   "والجمع بين {{salbutamol}} و{{ipratropium}} أفضل من واحد",
+   "فالجواب {{nebulized salbutamol and ipratropium}}"
+  ],
+  "wrong": {
+   "0": "الـ{{high-flow oxygen}} خطر لأنه يزيد {{CO2 retention}}",
+   "1": "الـ{{albuterol}} لحاله أقل فعالية من {{combination}}",
+   "2": "الـ{{aminophylline}} ما نبدأ فيه كخطوة أولى"
+  },
+  "change": [
+   "لو {{severe drowsiness}} مع {{CO2 retention}} فنفكر بـ{{NIV}}",
+   "نعطي {{controlled oxygen}} لهدف {{88 to 92%}}"
+  ],
+  "rule": "الـ{{COPD exacerbation}} يعني {{nebulized salbutamol}} مع {{ipratropium}}"
+ },
+ "Q074": {
+  "idea": [
+   "رجال {{obese}} عمره {{61}} عنده {{daytime sleepiness}} و{{poor concentration}} و{{nocturia}} و{{dyspnea}} و{{leg edema}}",
+   "فنشك بـ{{obstructive sleep apnea}} والفحص {{sleep study}}"
+  ],
+  "clues": [
+   [
+    "الـ{{obesity}}",
+    "يعني {{risk factor for OSA}}"
+   ],
+   [
+    "الـ{{daytime sleepiness}} و{{poor concentration}}",
+    "يعني {{fragmented sleep}}"
+   ],
+   [
+    "الـ{{nocturia}}",
+    "يرافق {{OSA}}"
+   ],
+   [
+    "الـ{{leg edema}} و{{dyspnea}}",
+    "يعني ممكن {{cor pulmonale}}"
+   ],
+   [
+    "الـ{{lungs}} طبيعية",
+    "يعني المشكلة مو بالرئة نفسها"
+   ]
+  ],
+  "why": [
+   "الأعراض تقودنا لـ{{OSA}} أو {{obesity hypoventilation}}",
+   "والتشخيص بـ{{sleep study}}",
+   "فالجواب {{sleep study}}"
+  ],
+  "wrong": {
+   "0": "الـ{{plain chest X-ray}} ما تشخص",
+   "2": "الـ{{echocardiography}} تقيم {{heart}} بس ما تشخص السبب",
+   "3": "الـ{{HRCT}} لـ{{interstitial lung disease}}"
+  },
+  "change": [
+   "لو {{OSA}} متأكد فنعالج بـ{{CPAP}}",
+   "لو {{edema}} مع {{heart failure}} فنقيم {{heart}}"
+  ],
+  "rule": "الـ{{Obesity}} مع {{daytime sleepiness}} و{{edema}} يعني {{sleep study}}"
+ },
+ "Q075": {
+  "idea": [
+   "سيدة {{diabetic}} دخلت {{ICU}} بـ{{pneumonia}} و{{sepsis}} والسؤال عن {{poor prognostic factor}}",
+   "فالجواب {{diabetes mellitus}}"
+  ],
+  "clues": [
+   [
+    "الـ{{pneumonia}} مع {{sepsis}}",
+    "يعني {{severe disease}}"
+   ],
+   [
+    "الـ{{diabetes}}",
+    "يعني {{comorbidity}}"
+   ],
+   [
+    "الـ{{age 62}}",
+    "يعني {{below 65}}"
+   ],
+   [
+    "تفاصيل التحاليل ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{comorbidities}} مثل {{diabetes}} ترفع خطر {{poor outcome}} بالـ{{pneumonia}}",
+   "والـ{{age 62}} تحت حد {{65}} بمعيار {{CURB-65}}",
+   "فالجواب {{diabetes mellitus}}"
+  ],
+  "wrong": {
+   "0": "الـ{{age 62}} تحت الحد المعتمد {{65}}",
+   "2": "الـ{{leukocytosis}} متوقع بالـ{{infection}} والـ{{poor prognosis}} مع {{leukopenia below 4}}",
+   "3": "الـ{{pleural effusion}} يرفع الخطر بمعايير، بس الجواب المعتمد هنا {{diabetes}}"
+  },
+  "change": [
+   "لو {{age 65 or more}} فالعمر {{risk factor}}",
+   "لو {{marked leukopenia}} فهي {{bad sign}}"
+  ],
+  "rule": "الـ{{pneumonia}} مع {{comorbidity}} مثل {{diabetes}} يعني {{worse prognosis}}",
+  "note": "لو {{PSI}} فتعتبر {{pleural effusion}} عامل خطر أيضًا، بس الجواب المعتمد هنا {{diabetes}}"
+ },
+ "Q076": {
+  "idea": [
+   "سيدة {{diabetic}} بالـ{{ICU}} بـ{{pneumonia}} مع {{sepsis}} و{{right lobar consolidation}} و{{effusion}}",
+   "فالجواب المعتمد {{moxifloxacin}}"
+  ],
+  "clues": [
+   [
+    "الـ{{severe pneumonia}} بالـ{{ICU}}",
+    "يعني {{severe CAP}}"
+   ],
+   [
+    "ما عندها {{chronic lung disease}} ولا {{smoking}}",
+    "فما فيه {{risk factor for Pseudomonas}}"
+   ],
+   [
+    "الـ{{pleural effusion}}",
+    "يعني {{severe infection}}"
+   ],
+   [
+    "تفاصيل التحاليل ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{CAP}} نحتاج فيه تغطية لـ{{pneumococcus}} و{{atypical bacteria}}",
+   "والـ{{moxifloxacin}} هو {{respiratory fluoroquinolone}} يغطي الاثنين",
+   "فالجواب المعتمد {{moxifloxacin}}"
+  ],
+  "wrong": {
+   "1": "الـ{{azithromycin}} لحاله ما يغطي {{pneumococcus}} بشكل كافي",
+   "2": "الـ{{vancomycin}} لـ{{MRSA}} وما فيه {{risk factor}}",
+   "3": "الـ{{ceftazidime}} يغطي {{Pseudomonas}} وضعيف ضد {{pneumococcus}}"
+  },
+  "change": [
+   "لو {{risk factors for Pseudomonas}} فنوسع التغطية",
+   "لو {{MRSA}} محتمل فنضيف {{vancomycin}} أو {{linezolid}}"
+  ],
+  "rule": "الـ{{Severe CAP}} بدون {{special risk factors}} يعني مضاد يغطي {{pneumococcus}} و{{atypicals}}",
+  "note": "الإرشادات تفضل غالبًا {{beta-lactam}} مع {{macrolide}} أو {{fluoroquinolone}}، والجواب المعتمد هنا {{moxifloxacin}}"
+ },
+ "Q077": {
+  "idea": [
+   "سيدة عمرها {{65}} عندها {{dyspnea}} و{{dry cough}} من {{4 months}} وعولجت بمضادين بدون تحسن مع {{persistent right lower lobe consolidation}} و{{abnormal cells on lavage}}",
+   "فالتشخيص {{bronchogenic cancer}}"
+  ],
+  "clues": [
+   [
+    "لو ما تحسنت على مضادين",
+    "فهذا مو {{bacterial infection}}"
+   ],
+   [
+    "الـ{{persistent consolidation}}",
+    "يعني {{mass or cancer}}"
+   ],
+   [
+    "الـ{{abnormal cells on lavage}}",
+    "يعني علامة {{malignancy}}"
+   ],
+   [
+    "مرور {{4 months}}",
+    "يعني {{chronic}}"
+   ],
+   [
+    "تفاصيل التقارير ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{persistent consolidation}} بدون استجابة للمضادات نشك فيه بـ{{cancer}}",
+   "ووجود {{atypical cells}} بالـ{{bronchial lavage}} يؤكد الشك",
+   "فالجواب {{bronchogenic cancer}}"
+  ],
+  "wrong": {
+   "0": "الـ{{sarcoidosis}} ما يطابق الصورة",
+   "1": "الـ{{atypical pneumonia}} يستجيب للعلاج",
+   "2": "الـ{{hypersensitivity pneumonitis}} يتحسن بإبعاد {{exposure}}"
+  },
+  "change": [
+   "لو العلاج نفع فالتشخيص {{pneumonia}}",
+   "نأكد بـ{{biopsy}} ونكمل {{staging}}"
+  ],
+  "rule": "الـ{{pneumonia}} ما استجاب للمضادات مع {{atypical cells}} يعني {{bronchogenic cancer}}"
+ },
+ "Q078": {
+  "idea": [
+   "سيدة مدخنة عندها {{dyspnea}} و{{chronic cough}} مع {{hyperinflation}} و{{TLC}} و{{RV}} مرتفعين و{{FEV1 60%}} بدون تحسن بعد {{bronchodilator}}",
+   "فهذا {{emphysema}}"
+  ],
+  "clues": [
+   [
+    "الـ{{smoker}} لمدة {{18 years}}",
+    "يعني {{risk factor}}"
+   ],
+   [
+    "الـ{{increased AP diameter}} و{{hyperresonance}}",
+    "يعني {{hyperinflation}}"
+   ],
+   [
+    "الـ{{TLC}} و{{RV}} مرتفعين",
+    "يعني {{air trapping}}"
+   ],
+   [
+    "الـ{{FEV1 60%}} بدون تحسن بالـ{{bronchodilator}}",
+    "يعني {{fixed obstruction}}"
+   ],
+   [
+    "تفاصيل التقرير ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{hyperinflation}} مع {{high TLC and RV}} يعني {{air trapping}}",
+   "والـ{{fixed obstruction}} بعد {{bronchodilator}} يدل على {{COPD}}",
+   "فالنوع الغالب {{emphysema}}"
+  ],
+  "wrong": {
+   "0": "الـ{{pulmonary fibrosis}} تسبب {{restrictive pattern}} مع {{low TLC}}",
+   "2": "الـ{{bronchiectasis}} معها {{copious sputum}}",
+   "3": "الـ{{hypersensitivity pneumonitis}} غالبًا {{restrictive}}"
+  },
+  "change": [
+   "لو {{TLC}} منخفض فالنمط {{restrictive}} مثل {{fibrosis}}",
+   "لو يتحسن بالـ{{bronchodilator}} فهذا {{asthma}}"
+  ],
+  "rule": "لو {{high TLC and RV}} مع {{fixed obstruction}} فهذا {{emphysema}}"
+ },
+ "Q079": {
+  "idea": [
+   "شاب عمره {{17}} عنده {{recurrent wheezing}} و{{mild dyspnea}} رغم {{regular salbutamol}}",
+   "فالخطوة التالية {{inhaled corticosteroid}}"
+  ],
+  "clues": [
+   [
+    "الـ{{recurrent attacks}}",
+    "يعني {{uncontrolled asthma}}"
+   ],
+   [
+    "على {{regular salbutamol}}",
+    "يعني {{short-acting bronchodilator}} بدون {{preventer}}"
+   ]
+  ],
+  "why": [
+   "الاعتماد على {{short-acting bronchodilator}} لحاله ما يسيطر على {{airway inflammation}}",
+   "فنضيف {{inhaled steroid}} كـ{{preventer}}",
+   "فالجواب {{inhaled corticosteroid}}"
+  ],
+  "wrong": {
+   "0": "الـ{{oral prednisolone}} لـ{{severe attacks}} وما يستخدم كعلاج دائم",
+   "2": "الـ{{aminophylline}} مو {{first-line}}",
+   "3": "الـ{{ipratropium}} ما يغني عن {{steroid}}"
+  },
+  "change": [
+   "لو ما انضبط على {{steroid}} فنضيف {{LABA}}",
+   "لو {{rare symptoms}} فـ{{reliever as needed}} يكفي"
+  ],
+  "rule": "الـ{{Recurrent asthma}} على {{short-acting bronchodilator}} فقط يعني نضيف {{inhaled corticosteroid}}"
+ },
+ "Q080": {
+  "idea": [
+   "رجال عمره {{70}} جاه {{confusion}} و{{agitation}} من ساعتين وهو {{bedridden for 5 days}} بعد {{leg injury}} مع {{tachycardia}} و{{normal X-ray}}",
+   "فأرجح تشخيص {{pulmonary embolism}}"
+  ],
+  "clues": [
+   [
+    "الـ{{bedridden}} بعد {{injury}}",
+    "يعني {{risk factor for venous thrombosis}}"
+   ],
+   [
+    "الـ{{confusion}} و{{agitation}}",
+    "يعني {{hypoxia}}"
+   ],
+   [
+    "الـ{{tachycardia}}",
+    "علامة {{pulmonary embolism}}"
+   ],
+   [
+    "الـ{{normal chest X-ray}}",
+    "يصير مع {{PE}}"
+   ],
+   [
+    "تفاصيل التقارير ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{immobility}} بعد {{leg injury}} يسبب {{DVT}}",
+   "والجلطة تنتقل للرئة وتسبب {{hypoxia}} و{{tachycardia}} و{{confusion}}",
+   "فالجواب {{pulmonary embolism}}"
+  ],
+  "wrong": {
+   "0": "الـ{{arrhythmia}} ممكن بس {{ECG}} يبين {{sinus tachycardia}}",
+   "1": "الـ{{stroke}} يحتاج {{focal signs}}",
+   "2": "الـ{{intracranial hemorrhage}} يجي مع {{focal neurological signs}} و{{headache}}"
+  },
+  "change": [
+   "لو {{sudden focal weakness}} فنفكر بـ{{stroke}}",
+   "نأكد بـ{{CT pulmonary angiography}}"
+  ],
+  "rule": "لو {{prolonged immobility}} مع {{confusion}} و{{tachycardia}} فنشك بـ{{pulmonary embolism}}"
+ }
+}

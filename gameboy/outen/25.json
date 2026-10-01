@@ -1,0 +1,551 @@
+{
+ "Q482": {
+  "idea": [
+   "حامل {{31 weeks}} بـ{{first tonic-clonic seizure}} وفاقدة الوعي",
+   "فأول خطوة {{open and maintain airway}}"
+  ],
+  "clues": [
+   [
+    "لو {{seizure}} و{{unconscious}}",
+    "يعني {{eclampsia}} محتمل"
+   ]
+  ],
+  "why": [
+   "قاعدة {{ABC}} تبدأ بـ{{airway}}",
+   "فنأمّن {{airway}} أولًا",
+   "وبعدها {{MgSO4}}"
+  ],
+  "wrong": {
+   "0": "الـ{{hydralazine}} يجي لاحقًا بعد {{airway}}",
+   "1": "الـ{{MgSO4}} يجي بعد تأمين {{airway}}",
+   "2": "الـ{{IV fluids}} لاحقًا مو أول خطوة"
+  },
+  "change": [
+   "لو استقرت {{airway}} نعطي {{MgSO4}}",
+   "وبعدها نخفض {{BP}} لو عالي"
+  ],
+  "rule": "لو {{seizure}} يعني {{airway}} أولًا"
+ },
+ "Q483": {
+  "idea": [
+   "سيدة {{41 years}} بـ{{post-coital bleeding}} لمدة {{3 months}}",
+   "فالجواب {{Pap smear}}"
+  ],
+  "clues": [
+   [
+    "لو {{post-coital bleeding}}",
+    "يعني نشك بسبب من {{cervix}}"
+   ]
+  ],
+  "why": [
+   "نبدأ بتقييم {{cervix}}",
+   "وأبسط فحص هو {{Pap smear}}",
+   "مع {{speculum examination}}"
+  ],
+  "wrong": {
+   "1": "الـ{{pelvic ultrasound}} يقيّم {{uterus}} وما يغيّر الجواب",
+   "2": "الـ{{endometrial biopsy}} يقيّم {{endometrium}} مو {{cervix}}",
+   "3": "الـ{{D&C}} مو أول خطوة"
+  },
+  "change": [
+   "لو شفنا {{visible lesion}} نسوي {{biopsy}}",
+   "ونسوي {{colposcopy}}"
+  ],
+  "rule": "لو {{post-coital bleeding}} يعني {{cervical screening}}",
+  "note": "الجواب حسب الملف المعتمد، ولو في {{visible mass}} نأخذ {{biopsy}}"
+ },
+ "Q484": {
+  "idea": [
+   "حامل {{twins}} {{38 weeks}} بمخاض فعلي",
+   "و{{twin A}} و{{twin B}} كلهم {{vertex}}، فنختار {{spontaneous vaginal delivery}}"
+  ],
+  "clues": [
+   [
+    "لو {{vertex/vertex}}",
+    "يعني {{vaginal delivery}} مناسبة"
+   ]
+  ],
+  "why": [
+   "الـ{{twins}} لو كلهم {{vertex}}",
+   "يولدون {{vaginally}}",
+   "لو ما في {{contraindication}}"
+  ],
+  "wrong": {
+   "0": "الـ{{forceps}} مو ضروري",
+   "1": "الـ{{cesarean section}} ما له مبرر",
+   "2": "الـ{{ventouse}} مو ضروري"
+  },
+  "change": [
+   "لو {{twin B}} مو {{vertex}} نقرر حسب الوضع",
+   "ونراقب {{fetal heart rate}}"
+  ],
+  "rule": "لو {{vertex/vertex twins}} يعني {{vaginal delivery}}"
+ },
+ "Q485": {
+  "idea": [
+   "حامل {{37 weeks}} بـ{{chronic HTN}} و{{fundal height}} أقل بـ{{3 cm}}",
+   "فأفضل مؤشر {{abdominal circumference}}"
+  ],
+  "clues": [
+   [
+    "لو {{fundal height lag}}",
+    "يعني نشك بـ{{FGR}}"
+   ]
+  ],
+  "why": [
+   "الـ{{abdominal circumference}} أفضل مؤشر لـ{{fetal weight}}",
+   "لأنه يعكس {{liver size}}",
+   "وهو أدق"
+  ],
+  "wrong": {
+   "0": "الـ{{femur length}} فيه {{lower accuracy}}",
+   "1": "الـ{{BPD}} فيه {{lower accuracy}}",
+   "2": "الـ{{head circumference}} فيه {{lower accuracy}}"
+  },
+  "change": [
+   "نحسب {{EFW}}",
+   "ونتابع {{Doppler}}"
+  ],
+  "rule": "لو نقدّر {{fetal weight}} يعني {{AC}}"
+ },
+ "Q486": {
+  "idea": [
+   "بكر بـ{{lag in fundal height}} مرتين",
+   "فالأعلى قيمة {{serial ultrasound}}"
+  ],
+  "clues": [
+   [
+    "لو {{fundal height}} أقل",
+    "يعني نشك بـ{{IUGR}}"
+   ]
+  ],
+  "why": [
+   "الـ{{serial US}} يتابع {{fetal growth}}",
+   "وهو الأعلى {{diagnostic value}}",
+   "و{{Doppler}} مكمل"
+  ],
+  "wrong": {
+   "0": "الـ{{CTG}} يقيّم {{fetal wellbeing}} مو {{growth}}",
+   "1": "الـ{{stress test}} مو {{diagnostic}} للنمو",
+   "2": "الـ{{kick chart}} مو {{diagnostic}} للنمو"
+  },
+  "change": [
+   "نضيف {{Doppler}}",
+   "ونتابع {{AFI}}"
+  ],
+  "rule": "لو {{IUGR}} يعني {{serial US}}"
+ },
+ "Q487": {
+  "idea": [
+   "سيدة {{IUGR}} {{38 weeks}} و{{cervix 4 cm}} مع {{reactive CTG}}",
+   "فنختار {{vaginal delivery}}"
+  ],
+  "clues": [
+   [
+    "لو {{reactive CTG}}",
+    "يعني الجنين متحمل المخاض"
+   ]
+  ],
+  "why": [
+   "الجنين متحمل المخاض",
+   "فنسمح بـ{{vaginal delivery}}",
+   "مع {{continuous monitoring}}"
+  ],
+  "wrong": {
+   "0": "الـ{{forceps}} مو ضروري",
+   "1": "الـ{{cesarean section}} ما له مبرر",
+   "2": "الـ{{ventouse}} مو ضروري"
+  },
+  "change": [
+   "لو صار {{non-reassuring CTG}} نسوي {{cesarean}}",
+   "ونراقب"
+  ],
+  "rule": "لو {{IUGR}} مع {{reactive CTG}} يعني {{vaginal delivery}}"
+ },
+ "Q488": {
+  "idea": [
+   "حامل {{42 weeks}} بـ{{firm dates}} و{{head engaged}} و{{favorable cervix}}",
+   "فنسوي {{induction of labor}}"
+  ],
+  "clues": [
+   [
+    "لو {{42 weeks}}",
+    "يعني {{post-term}}"
+   ],
+   [
+    "لو {{favorable cervix}}",
+    "يعني نحرض"
+   ]
+  ],
+  "why": [
+   "الـ{{post-term pregnancy}} يرفع {{perinatal risk}}",
+   "فنسوي {{induction}}",
+   "وما ننتظر"
+  ],
+  "wrong": {
+   "0": "الـ{{CTG}} وحده ما يكفي",
+   "1": "الـ{{cesarean section}} مو ضروري",
+   "3": "الـ{{BPS}} وحده ما يكفي"
+  },
+  "change": [
+   "نبدأ {{oxytocin}}",
+   "ونراقب {{fetal heart rate}}"
+  ],
+  "rule": "لو {{42 weeks}} يعني {{induction of labor}}"
+ },
+ "Q489": {
+  "idea": [
+   "سيدة {{cardiac}} على {{anticoagulants}} تسأل عن {{contraception}}",
+   "فنختار {{progesterone-only pills}}"
+  ],
+  "clues": [
+   [
+    "لو {{cardiac}} و{{anticoagulants}}",
+    "يعني {{estrogen}} ممنوع"
+   ]
+  ],
+  "why": [
+   "الـ{{estrogen}} يرفع {{thrombosis risk}}",
+   "فنختار {{progestin only}}",
+   "وهو آمن"
+  ],
+  "wrong": {
+   "1": "الـ{{tubal ligation}} {{permanent surgery}}",
+   "2": "الـ{{IUD}} فيه {{bleeding}} مع {{anticoagulants}}",
+   "3": "الـ{{COC}} فيه {{estrogen}}"
+  },
+  "change": [
+   "الـ{{LNG-IUS}} بديل",
+   "ونراقب"
+  ],
+  "rule": "لو {{cardiac}} مع {{anticoagulants}} يعني {{progestin-only}}"
+ },
+ "Q490": {
+  "idea": [
+   "حامل {{34 weeks}} بـ{{fibroid}} و{{pain}} و{{fever}} و{{closed cervix}}",
+   "فنسوي {{observation}}"
+  ],
+  "clues": [
+   [
+    "لو {{pain}} و{{fever}} مع {{fibroid}}",
+    "يعني {{red degeneration}}"
+   ]
+  ],
+  "why": [
+   "الـ{{red degeneration}} تحتاج {{analgesia}}",
+   "وتتحسن بعد أيام",
+   "وما نحتاج {{surgery}}"
+  ],
+  "wrong": {
+   "1": "الـ{{myomectomy}} مو مناسب بالحمل",
+   "2": "الـ{{cesarean section}} ما له مبرر",
+   "3": "الـ{{induction}} ما له مبرر"
+  },
+  "change": [
+   "نعطي {{analgesics}}",
+   "ونراقب"
+  ],
+  "rule": "لو {{fibroid pain}} بالحمل يعني {{observation}}"
+ },
+ "Q491": {
+  "idea": [
+   "حامل {{36 weeks}} بـ{{itching}} و{{cottage cheese discharge}}",
+   "فنعطي {{topical antifungal}}"
+  ],
+  "clues": [
+   [
+    "لو {{cottage cheese discharge}} و{{itching}}",
+    "يعني {{candidiasis}}"
+   ]
+  ],
+  "why": [
+   "الـ{{candidiasis}} بالحمل",
+   "نعالجها بـ{{topical antifungal}}",
+   "وما نعطي {{oral}}"
+  ],
+  "wrong": {
+   "0": "الـ{{oral antifungal}} مو مفضل بالحمل",
+   "1": "الـ{{antiviral}} مو مناسب",
+   "2": "الـ{{estrogen}} مو مناسب"
+  },
+  "change": [
+   "نستخدم {{clotrimazole}}",
+   "لمدة {{7 days}}"
+  ],
+  "rule": "لو {{candidiasis}} بالحمل يعني {{topical antifungal}}"
+ },
+ "Q492": {
+  "idea": [
+   "حامل {{9 weeks}} بـ{{pelvic pain}} و{{ovarian cyst 4 cm}}",
+   "فنسوي {{observation}}"
+  ],
+  "clues": [
+   [
+    "لو {{cyst 4 cm}}",
+    "يعني {{small cyst}}"
+   ]
+  ],
+  "why": [
+   "الـ{{small cyst}} غالبًا {{functional}}",
+   "ويختفي",
+   "فنراقب"
+  ],
+  "wrong": {
+   "0": "الـ{{aspiration}} مو مناسب",
+   "1": "الـ{{laparotomy}} ما له مبرر",
+   "3": "الـ{{laparoscopy}} ما له مبرر"
+  },
+  "change": [
+   "لو {{torsion}} نسوي {{surgery}}",
+   "ونتابع بـ{{US}}"
+  ],
+  "rule": "لو {{small ovarian cyst}} بالحمل يعني {{observation}}"
+ },
+ "Q493": {
+  "idea": [
+   "أم بعد أسبوعين بـ{{painful breast mass}} و{{failed antibiotics}} و{{fever}}",
+   "فنسوي {{breast US}} و{{surgical review}}"
+  ],
+  "clues": [
+   [
+    "لو {{failed antibiotics}}",
+    "يعني نشك بـ{{abscess}}"
+   ]
+  ],
+  "why": [
+   "نشك بـ{{breast abscess}}",
+   "فنسوي {{US}}",
+   "ونحيل لـ{{surgical drainage}}"
+  ],
+  "wrong": {
+   "0": "الـ{{change of antibiotics}} ما يعالج {{abscess}}",
+   "1": "الـ{{stopping breastfeeding}} مو ضروري",
+   "2": "الـ{{encouraging breastfeeding}} وحده ما يكفي"
+  },
+  "change": [
+   "نكمل {{breastfeeding}}",
+   "ونسوي {{drainage}}"
+  ],
+  "rule": "لو {{failed antibiotics}} بـ{{mastitis}} يعني {{US}} لـ{{abscess}}"
+ },
+ "Q494": {
+  "idea": [
+   "سيدة بـ{{primary infertility}} و{{hormones}} و{{US}} طبيعية",
+   "فنطلب {{progesterone day 21}}"
+  ],
+  "clues": [
+   [
+    "لو {{FSH}} و{{LH}} و{{prolactin}} طبيعية",
+    "يعني نريد {{evidence of ovulation}}"
+   ]
+  ],
+  "why": [
+   "الـ{{progesterone}} بـ{{mid-luteal phase}}",
+   "دليل على {{ovulation}}",
+   "وهو الأعلى {{diagnostic value}}"
+  ],
+  "wrong": {
+   "0": "الـ{{FSH}} ما يثبت {{ovulation}}",
+   "1": "الـ{{estrogen}} ما يثبت {{ovulation}}",
+   "2": "الـ{{prolactin}} ما يثبت {{ovulation}}"
+  },
+  "change": [
+   "نتابع بـ{{follicular US}}",
+   "أو {{OPK}}"
+  ],
+  "rule": "لو نثبت {{ovulation}} يعني {{mid-luteal progesterone}}"
+ },
+ "Q495": {
+  "idea": [
+   "سيدة {{38 years}} بـ{{mild SUI}} مثبت بـ{{cough stress test}}",
+   "فنبدأ بـ{{pelvic floor exercises}}"
+  ],
+  "clues": [
+   [
+    "لو {{mild SUI}}",
+    "يعني {{conservative treatment}}"
+   ]
+  ],
+  "why": [
+   "نبدأ بـ{{pelvic floor muscle exercises}}",
+   "وهي {{first-line}}",
+   "وبدون {{surgery}}"
+  ],
+  "wrong": {
+   "0": "الـ{{medical therapy}} مو فعال",
+   "1": "الـ{{surgery}} للـ{{severe}}",
+   "2": "الـ{{pessary}} بديل بس"
+  },
+  "change": [
+   "لو فشلت نسوي {{sling}}",
+   "ونعدل {{weight}}"
+  ],
+  "rule": "لو {{mild SUI}} يعني {{pelvic floor exercises}}"
+ },
+ "Q496": {
+  "idea": [
+   "سيدة {{42 years}} بـ{{pelvic pressure}} و{{heavy prolonged bleeding}}",
+   "فالأرجح {{submucosal fibroid}}"
+  ],
+  "clues": [
+   [
+    "لو {{heavy prolonged bleeding}}",
+    "يوجه لـ{{submucosal}}"
+   ]
+  ],
+  "why": [
+   "الـ{{submucosal fibroid}} يسبب {{menorrhagia}}",
+   "بينما الـ{{subserosal}} يسبب {{pressure}}",
+   "فالنزف يوجهنا له"
+  ],
+  "wrong": {
+   "0": "الـ{{cervical fibroid}} أقل {{bleeding}}",
+   "1": "الـ{{parasitic fibroid}} نادر",
+   "2": "الـ{{subserosal}} فيه {{pressure}} بدون {{bleeding}}"
+  },
+  "change": [
+   "نؤكد بـ{{hysteroscopy}}",
+   "ونقيس {{Hb}}"
+  ],
+  "rule": "لو {{heavy bleeding}} مع {{fibroid}} يعني {{submucosal}}"
+ },
+ "Q497": {
+  "idea": [
+   "سيدة {{42 years}} بـ{{secondary dysmenorrhea}} و{{menorrhagia}} و{{tender diffusely enlarged uterus}} و{{normal endometrial biopsy}}",
+   "فالأرجح {{adenomyosis}}"
+  ],
+  "clues": [
+   [
+    "لو {{tender diffusely enlarged uterus}}",
+    "يعني {{adenomyosis}}"
+   ],
+   [
+    "لو {{normal endometrium}}",
+    "يعني استبعاد {{endometrial pathology}}"
+   ]
+  ],
+  "why": [
+   "الـ{{adenomyosis}} فيها {{globular tender uterus}}",
+   "مع {{menorrhagia}} و{{dysmenorrhea}}",
+   "وتجي عند {{multiparous women}}"
+  ],
+  "wrong": {
+   "0": "الـ{{endometritis}} تجي مع {{fever}}",
+   "1": "الـ{{endometriosis}} فيها {{pelvic pain}} بدون {{diffuse enlargement}}",
+   "3": "الـ{{sarcoma}} فيها {{rapid growth}}"
+  },
+  "change": [
+   "الـ{{MRI}} يؤكد",
+   "ونعالج بـ{{hormones}} أو {{hysterectomy}}"
+  ],
+  "rule": "لو {{dysmenorrhea}} مع {{diffusely enlarged uterus}} يعني {{adenomyosis}}"
+ },
+ "Q498": {
+  "idea": [
+   "عروس جديدة بـ{{routine examination}}",
+   "فالأعلى قيمة {{pelvic digital examination}}"
+  ],
+  "clues": [
+   [
+    "لو {{routine checkup}}",
+    "يعني نريد أقوى فحص"
+   ]
+  ],
+  "why": [
+   "الـ{{digital pelvic examination}}",
+   "يعطي أكبر معلومات",
+   "عن {{uterus}} و{{ovaries}}"
+  ],
+  "wrong": {
+   "0": "الـ{{vaginal inspection}} {{lower value}}",
+   "1": "الـ{{general appearance}} {{lower value}}",
+   "2": "الـ{{abdominal examination}} {{lower value}}"
+  },
+  "change": [
+   "نسوي {{speculum examination}}",
+   "ونأخذ {{Pap smear}}"
+  ],
+  "rule": "لو {{routine gynecologic exam}} يعني {{pelvic digital examination}}"
+ },
+ "Q499": {
+  "idea": [
+   "حامل {{10 weeks}} بـ{{previous IUFD}} مع {{congenital anomalies}}",
+   "فنسوي {{anomaly scan}} بـ{{18-22 weeks}}"
+  ],
+  "clues": [
+   [
+    "لو {{previous anomalies}}",
+    "يعني {{recurrence risk}}"
+   ]
+  ],
+  "why": [
+   "أفضل وقت لـ{{detailed anomaly scan}}",
+   "هو {{18-22 weeks}}",
+   "لأن الأعضاء تكون واضحة"
+  ],
+  "wrong": {
+   "0": "الـ{{10-12 weeks}} مبكر لتفاصيل الأعضاء",
+   "1": "الـ{{14-16 weeks}} مبكر",
+   "3": "الـ{{24-28 weeks}} متأخر"
+  },
+  "change": [
+   "نسوي {{early scan}} بـ{{12 weeks}}",
+   "ونضيف {{NIPT}}"
+  ],
+  "rule": "لو {{anomaly scan}} يعني {{18-22 weeks}}"
+ },
+ "Q500": {
+  "idea": [
+   "حامل بـ{{active labor}} و{{CTG}} فيه {{late decelerations}}",
+   "فنغير {{maternal position}}"
+  ],
+  "clues": [
+   [
+    "لو {{late decelerations}}",
+    "يعني {{uteroplacental insufficiency}}"
+   ]
+  ],
+  "why": [
+   "أسهل تدخل أول هو {{change maternal position}}",
+   "لتحسين {{placental perfusion}}",
+   "ثم نكمل {{resuscitation}}"
+  ],
+  "wrong": {
+   "0": "الـ{{oxygen}} مساعد بس",
+   "1": "الـ{{BP monitoring}} ما يكفي",
+   "2": "الـ{{cord prolapse}} يعطي {{variable decelerations}}"
+  },
+  "change": [
+   "نعطي {{IV fluids}} و{{oxygen}}",
+   "ونوقف {{oxytocin}}"
+  ],
+  "rule": "لو {{late decelerations}} يعني {{change position}}"
+ },
+ "Q501": {
+  "idea": [
+   "حامل {{22 weeks}} بـ{{chronic HTN}} و{{BP 140/90}}",
+   "فنختار {{methyldopa}}"
+  ],
+  "clues": [
+   [
+    "لو {{chronic HTN}} بالحمل",
+    "نختار دواء آمن"
+   ]
+  ],
+  "why": [
+   "الـ{{methyldopa}} آمن بالحمل",
+   "وهو {{traditional first choice}}",
+   "وأقدم دواء"
+  ],
+  "wrong": {
+   "0": "الـ{{verapamil}} أقل استخدامًا",
+   "1": "الـ{{nifedipine}} بديل جيد",
+   "2": "الـ{{hydralazine}} للحالات {{acute}}"
+  },
+  "change": [
+   "الـ{{labetalol}} بديل",
+   "ونراقب {{BP}}"
+  ],
+  "rule": "لو {{HTN}} بالحمل يعني {{methyldopa}}"
+ }
+}

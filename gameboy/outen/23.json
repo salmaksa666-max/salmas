@@ -1,0 +1,562 @@
+{
+ "Q442": {
+  "idea": [
+   "الـ{{ectopic}} بعد ١٤ يوم من {{MTX}} و{{hCG}} طلع {{2210}}",
+   "فنسوي {{transvaginal US}}"
+  ],
+  "clues": [
+   [
+    "لو {{rising hCG}}",
+    "يعني {{MTX failure}}"
+   ]
+  ],
+  "why": [
+   "الـ{{rising hCG}} يعني {{treatment failure}}",
+   "فنقيم بـ{{TVUS}} قبل القرار",
+   "لتحديد {{need for surgery}}"
+  ],
+  "wrong": {
+   "0": "الـ{{second dose}} قبل {{assessment}}",
+   "1": "الـ{{surgery}} تجي بعد {{assessment}}",
+   "3": "الـ{{multiple-dose regimen}} مو مناسب"
+  },
+  "change": [
+   "نقرر {{surgery}} حسب {{US}}",
+   "ونراقب {{symptoms}}"
+  ],
+  "rule": "لو {{MTX failure}} يعني {{TVUS}} ثم قرار"
+ },
+ "Q443": {
+  "idea": [
+   "بعد {{suction evacuation}} لـ{{molar pregnancy}}",
+   "فنتابع {{weekly hCG until negative then monthly for 6 months}}"
+  ],
+  "clues": [
+   [
+    "لو {{hydatidiform mole}}",
+    "يعني {{surveillance for GTN}}"
+   ]
+  ],
+  "why": [
+   "حسب {{ACOG}}",
+   "نسوي {{weekly hCG until negative}}",
+   "ثم {{monthly for 6 months}}"
+  ],
+  "wrong": {
+   "0": "الـ{{3 negative readings}} مو حسب {{ACOG}}",
+   "1": "الـ{{sequence}} معكوس",
+   "3": "الـ{{monthly only}} مو كافي"
+  },
+  "change": [
+   "لو ارتفع {{hCG}} نشك في {{GTN}}",
+   "ونعطي {{contraception}}"
+  ],
+  "rule": "الـ{{Molar pregnancy}} يعني {{weekly then monthly for 6 months}}"
+ },
+ "Q444": {
+  "idea": [
+   "الـ{{hCG}} بعد {{molar}} نزل لـ{{1 mIU/mL}} في الأسبوع ٥",
+   "فنكرر {{hCG}} بعد أسبوع"
+  ],
+  "clues": [
+   [
+    "لو {{hCG 1}}",
+    "يعني {{almost negative}}"
+   ]
+  ],
+  "why": [
+   "حسب الجواب المعتمد نكرر {{weekly hCG}}",
+   "للتأكد من {{negative result}}",
+   "ثم نتابع {{monthly}}"
+  ],
+  "wrong": {
+   "0": "الـ{{pelvic US}} مو لازم",
+   "1": "الـ{{discharge}} بدري",
+   "3": "الـ{{1 month}} طويل قبل {{confirmation}}"
+  },
+  "change": [
+   "نتابع {{weekly hCG}} حتى {{negative}}",
+   "ثم {{monthly}}"
+  ],
+  "rule": "لو {{hCG almost negative}} بعد {{molar}} يعني {{repeat in 1 week}}",
+  "note": "الجواب حسب الملف المعتمد، والمتابعة {{weekly until negative}} ثم {{monthly}}"
+ },
+ "Q445": {
+  "idea": [
+   "بعد {{evacuation}} الـ{{hCG}} نزل ثم ارتفع لـ{{300}}",
+   "فنسوي {{metastatic workup without biopsy}}"
+  ],
+  "clues": [
+   [
+    "لو {{rising hCG}}",
+    "يعني {{GTN}}"
+   ]
+  ],
+  "why": [
+   "الـ{{hCG}} ارتفع بعد انخفاض",
+   "يعني {{GTN}}",
+   "ونسوي {{metastatic workup}} بدون {{biopsy}} لأن {{bleeding risk}}"
+  ],
+  "wrong": {
+   "0": "الـ{{continued surveillance}} فيه {{risk}}",
+   "1": "الـ{{MTX}} بعد {{staging}}",
+   "2": "الـ{{biopsy}} فيها {{bleeding}}"
+  },
+  "change": [
+   "نبدأ {{chemotherapy}}",
+   "ونسوي {{staging}}"
+  ],
+  "rule": "لو {{rising hCG}} بعد {{molar}} يعني {{GTN}} و{{metastatic workup}}"
+ },
+ "Q446": {
+  "idea": [
+   "سيدة بعد ٣ شهور من الولادة بـ{{bleeding}} و{{fleshy cervical mass}}",
+   "فنسوي {{metastatic workup}}"
+  ],
+  "clues": [
+   [
+    "لو {{bleeding mass}}",
+    "يعني {{choriocarcinoma}} محتمل"
+   ]
+  ],
+  "why": [
+   "الـ{{mass}} بعد {{delivery}} مع {{bleeding}}",
+   "يعني {{choriocarcinoma}}",
+   "فنسوي {{metastatic workup}} بدون {{biopsy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{biopsy}} فيها {{bleeding}}",
+   "2": "الـ{{hCG}} وحده ما يكفي",
+   "3": "الـ{{evacuation}} فيها {{hemorrhage risk}}"
+  },
+  "change": [
+   "نقيس {{hCG}}",
+   "ونرتب {{chemotherapy}}"
+  ],
+  "rule": "لو {{bleeding mass}} بعد {{delivery}} يعني {{choriocarcinoma}}"
+ },
+ "Q447": {
+  "idea": [
+   "سيدة {{34}} تسأل عن أفعل {{reversible method}}",
+   "فالجواب {{hormonal vaginal ring}}"
+  ],
+  "clues": [
+   [
+    "لو {{effective}}",
+    "و{{reversible}}"
+   ]
+  ],
+  "why": [
+   "الـ{{hormonal ring}} أفعل من {{condoms}}",
+   "وأفعل من {{spermicide}}",
+   "وحسب الجواب المعتمد هو الأعلى"
+  ],
+  "wrong": {
+   "1": "الـ{{female condom}} أقل {{effective}}",
+   "2": "الـ{{male condom}} أقل {{effective}}",
+   "3": "الـ{{spermicide}} أقل {{effective}}"
+  },
+  "change": [
+   "الـ{{LARC}} أعلى {{efficacy}} عمومًا",
+   "مثل {{IUD}} و{{implant}}"
+  ],
+  "rule": "الـ{{hormonal methods}} أفضل من {{barrier methods}}",
+  "note": "الجواب حسب الملف المعتمد، والأعلى {{efficacy}} في الإرشادات هو {{LARC}} مثل {{IUD}} و{{implant}}"
+ },
+ "Q448": {
+  "idea": [
+   "بكر {{7 weeks}} بـ{{ectopic}} حجمه {{4 cm}} و{{stable}}",
+   "فنسوي {{surgical excision}}"
+  ],
+  "clues": [
+   [
+    "لو {{4 cm}}",
+    "يعني {{large ectopic}}"
+   ]
+  ],
+  "why": [
+   "الحجم أكبر من {{3.5 cm}}",
+   "فما يناسب {{MTX}}",
+   "فنسوي {{surgical excision}}"
+  ],
+  "wrong": {
+   "0": "الـ{{MTX}} لـ{{smaller size}}",
+   "1": "الـ{{inpatient observation}} مو كافي",
+   "2": "الـ{{conservative management}} لـ{{small ectopic}}"
+  },
+  "change": [
+   "لو {{3.5 cm or less}} نعطي {{MTX}}",
+   "ونراقب {{hCG}}"
+  ],
+  "rule": "لو {{ectopic larger than 3.5 cm}} يعني {{surgery}}"
+ },
+ "Q449": {
+  "idea": [
+   "حمل {{IVF}} بـ{{right tubal ectopic}} و{{left hydrosalpinx}}",
+   "فنسوي {{bilateral salpingectomy}}"
+  ],
+  "clues": [
+   [
+    "لو {{IVF}}",
+    "يعني {{damaged tube}} يقلل النجاح"
+   ],
+   [
+    "لو {{hydrosalpinx}}",
+    "يعني {{risk to pregnancy}}"
+   ]
+  ],
+  "why": [
+   "الـ{{hydrosalpinx}} يقلل نجاح {{IVF}}",
+   "فنسوي {{excision of both tubes}}",
+   "لمنع {{recurrence}}"
+  ],
+  "wrong": {
+   "0": "الـ{{salpingotomy}} ما تعالج {{damaged tube}}",
+   "1": "الـ{{unilateral salpingectomy}} مو كافي",
+   "3": "الـ{{MTX}} ما يعالج {{hydrosalpinx}}"
+  },
+  "change": [
+   "نفحص بـ{{laparoscopy}}",
+   "ونشرح للمريضة {{options}}"
+  ],
+  "rule": "لو {{hydrosalpinx}} مع {{IVF}} يعني {{bilateral salpingectomy}}"
+ },
+ "Q450": {
+  "idea": [
+   "حامل {{7 weeks}} بـ{{spotting}} بدون {{gestational sac}}",
+   "فنكرر {{labs and US in 48 hours}}"
+  ],
+  "clues": [
+   [
+    "لو ما فيه {{sac}}",
+    "يعني {{PUL}}"
+   ]
+  ],
+  "why": [
+   "ما نعطي {{MTX}} قبل التأكد",
+   "فنكرر {{hCG}} و{{US}} بعد {{48 hours}}",
+   "ثم نقرر"
+  ],
+  "wrong": {
+   "0": "الـ{{laparoscopy}} قبل التأكد",
+   "1": "الـ{{MTX}} قبل التأكد",
+   "2": "الـ{{reassurance}} فيها {{risk}}"
+  },
+  "change": [
+   "نراقب {{symptoms}}",
+   "ونعالج حسب {{result}}"
+  ],
+  "rule": "الـ{{PUL}} يعني {{repeat hCG and US in 48 hours}}"
+ },
+ "Q451": {
+  "idea": [
+   "شابة {{5 weeks}} بـ{{sac}} بدون {{heartbeat}} و{{closed os}}",
+   "فالتشخيص {{IUP of uncertain viability}}"
+  ],
+  "clues": [
+   [
+    "لو {{sac without heartbeat}}",
+    "يعني {{too early}}"
+   ]
+  ],
+  "why": [
+   "الـ{{gestational age}} مبكر",
+   "فما نقدر نحكم",
+   "فهو {{IUP of uncertain viability}}"
+  ],
+  "wrong": {
+   "0": "الـ{{inevitable}} فيه {{open os}}",
+   "1": "الـ{{threatened}} فيه {{bleeding}}",
+   "2": "الـ{{PUL}} بدون {{sac}}"
+  },
+  "change": [
+   "نعيد {{US}} بعد أسبوع",
+   "ونراقب {{symptoms}}"
+  ],
+  "rule": "لو {{early sac without heartbeat}} يعني {{uncertain viability}}"
+ },
+ "Q452": {
+  "idea": [
+   "شابة {{9 weeks}} بـ{{CRL}} بدون {{heartbeat}} و{{closed os}}",
+   "فهو {{missed abortion}}"
+  ],
+  "clues": [
+   [
+    "لو {{CRL 9 weeks}} بدون {{heartbeat}}",
+    "يعني {{fetal demise}}"
+   ],
+   [
+    "لو {{closed os}}",
+    "يعني ما فيه {{expulsion}}"
+   ]
+  ],
+  "why": [
+   "وجود {{CRL}} بدون {{cardiac activity}}",
+   "يعني {{fetal demise}}",
+   "وهو {{missed abortion}}"
+  ],
+  "wrong": {
+   "0": "الـ{{septic}} فيه {{fever}}",
+   "2": "الـ{{inevitable}} فيه {{open os}}",
+   "3": "الـ{{threatened}} فيه {{heartbeat}}"
+  },
+  "change": [
+   "نسوي {{evacuation}}",
+   "ونفحص {{Rh status}}"
+  ],
+  "rule": "لو {{CRL without heartbeat}} يعني {{missed abortion}}"
+ },
+ "Q453": {
+  "idea": [
+   "حمل {{10 weeks}} بـ{{fetal death}} بدون {{expulsion}} لمدة {{8 weeks}}",
+   "فهو {{missed abortion}}"
+  ],
+  "clues": [
+   [
+    "لو {{death without expulsion}}",
+    "يعني {{missed}}"
+   ]
+  ],
+  "why": [
+   "الـ{{fetal death}} بدون {{expulsion}}",
+   "هو {{missed abortion}}",
+   "وممكن يسبب {{DIC}}"
+  ],
+  "wrong": {
+   "1": "الـ{{recurrent}} يعني {{repeated losses}}",
+   "2": "الـ{{incomplete}} فيه {{partial expulsion}}",
+   "3": "الـ{{threatened}} فيه {{viable fetus}}"
+  },
+  "change": [
+   "نسوي {{evacuation}}",
+   "ونفحص {{coagulation}}"
+  ],
+  "rule": "لو {{death without expulsion}} يعني {{missed}}"
+ },
+ "Q454": {
+  "idea": [
+   "حمل {{9 weeks}} بـ{{open os}} و{{protruding membranes}} و{{heartbeat}}",
+   "فهو {{inevitable miscarriage}}"
+  ],
+  "clues": [
+   [
+    "لو {{open os}} مع {{heartbeat}}",
+    "يعني {{no return}}"
+   ]
+  ],
+  "why": [
+   "الـ{{open os}} مع {{protruding membranes}}",
+   "يعني {{inevitable miscarriage}}",
+   "رغم {{fetal heartbeat}}"
+  ],
+  "wrong": {
+   "1": "الـ{{incomplete}} فيه {{tissue passage}}",
+   "2": "الـ{{threatened}} فيه {{closed os}}",
+   "3": "الـ{{anembryonic}} بدون {{embryo}}"
+  },
+  "change": [
+   "نسوي {{evacuation}}",
+   "ونعطي {{anti-D}} لو {{Rh negative}}"
+  ],
+  "rule": "لو {{open os}} مع {{viable pregnancy}} يعني {{inevitable}}"
+ },
+ "Q455": {
+  "idea": [
+   "مراهقة بـ{{bleeding}} و{{feeling unwell}} و{{open os}} و{{protruding sac}}",
+   "فالجواب {{septic miscarriage}}"
+  ],
+  "clues": [
+   [
+    "لو {{unwell}} مع {{bleeding}}",
+    "يعني {{possible infection}}"
+   ],
+   [
+    "لو {{open os}}",
+    "يعني {{inevitable miscarriage}}"
+   ]
+  ],
+  "why": [
+   "الـ{{unwell}} مع {{bleeding}} و{{open os}}",
+   "يوجه لـ{{infection}}",
+   "فنعطي {{antibiotics}} و{{evacuation}}"
+  ],
+  "wrong": {
+   "1": "الـ{{threatened}} فيه {{closed os}}",
+   "2": "الـ{{incomplete}} بدون {{sac}}",
+   "3": "الـ{{anembryonic}} بدون {{embryo}}"
+  },
+  "change": [
+   "نعطي {{broad-spectrum antibiotics}}",
+   "ونسوي {{prompt evacuation}}"
+  ],
+  "rule": "لو {{miscarriage}} مع {{unwell}} يعني {{septic}}",
+  "note": "الجواب حسب الملف المعتمد، والصورة أقرب لـ{{inevitable miscarriage}} لولا {{feeling unwell}}"
+ },
+ "Q456": {
+  "idea": [
+   "حمل {{9 weeks}} بـ{{bleeding}} و{{cramping}} و{{closed cervix}} و{{heartbeat}}",
+   "فنسوي {{admit, stabilize, prepare for possible termination}}"
+  ],
+  "clues": [
+   [
+    "لو {{closed cervix}} مع {{heartbeat}}",
+    "يعني {{threatened}}"
+   ]
+  ],
+  "why": [
+   "حسب الجواب المعتمد نسوي {{admit and stabilize}}",
+   "ونجهز لـ{{possible termination}}",
+   "وهذا هو {{management option}}"
+  ],
+  "wrong": {
+   "0": "الـ{{oxytocin}} مو مناسب",
+   "1": "الـ{{antibiotics}} مو مطلوبة",
+   "2": "الـ{{waiting 1 week}} فيه {{risk}}"
+  },
+  "change": [
+   "الواقع {{threatened}} نسوي {{observation}}",
+   "ونفحص {{Rh}}"
+  ],
+  "rule": "لو {{viable pregnancy}} مع {{bleeding}} و{{closed cervix}} يعني {{threatened}}",
+  "note": "الجواب حسب الملف المعتمد، والـ{{threatened miscarriage}} في الواقع يعالج بـ{{observation}}"
+ },
+ "Q457": {
+  "idea": [
+   "مراهقة بـ{{mild bleeding}} و{{cramping}} و{{9 weeks}} مع {{heartbeat}}",
+   "فنسوي {{pelvic assessment}}"
+  ],
+  "clues": [
+   [
+    "لو {{mild bleeding}} مع {{heartbeat}}",
+    "يعني {{threatened}}"
+   ]
+  ],
+  "why": [
+   "نقيم {{cervix}} و{{pelvis}}",
+   "لتحديد {{type}}",
+   "قبل القرار"
+  ],
+  "wrong": {
+   "1": "الـ{{admission}} مو ضروري",
+   "2": "الـ{{placental localization US}} مو مطلوب",
+   "3": "الـ{{IV progesterone}} مو {{proven}}"
+  },
+  "change": [
+   "نفحص بـ{{speculum}}",
+   "ونراقب"
+  ],
+  "rule": "لو {{mild bleeding}} مع {{viable pregnancy}} يعني {{pelvic assessment}}"
+ },
+ "Q458": {
+  "idea": [
+   "حامل {{6 weeks}} بـ{{mild bleeding}} و{{open os}}",
+   "فنسوي {{transvaginal US}}"
+  ],
+  "clues": [
+   [
+    "لو {{open os}}",
+    "يعني نحتاج {{confirmation}}"
+   ]
+  ],
+  "why": [
+   "نبدأ بـ{{transvaginal US}}",
+   "لتحديد {{fetal viability}}",
+   "و{{location}}"
+  ],
+  "wrong": {
+   "0": "الـ{{MRI}} مو {{first step}}",
+   "2": "الـ{{repeat hCG in 24 hours}} أقل فايدة",
+   "3": "الـ{{waiting}} فيه {{risk}}"
+  },
+  "change": [
+   "نقيس {{hCG}}",
+   "ونراقب"
+  ],
+  "rule": "لو {{bleeding in early pregnancy}} يعني {{TVUS}}"
+ },
+ "Q459": {
+  "idea": [
+   "حامل {{6 weeks}} بـ{{cervical motion tenderness}} و{{closed os}}",
+   "فنسوي {{transvaginal assessment}}"
+  ],
+  "clues": [
+   [
+    "لو {{cervical motion tenderness}}",
+    "يعني {{ectopic}} محتمل"
+   ]
+  ],
+  "why": [
+   "الـ{{cervical motion tenderness}} علامة {{ectopic}}",
+   "فنسوي {{TVUS}}",
+   "للتأكيد"
+  ],
+  "wrong": {
+   "0": "الـ{{CBC}} تجي بعدين",
+   "2": "الـ{{CT}} مو مناسب",
+   "3": "الـ{{deeper pelvic exam}} مو مناسب"
+  },
+  "change": [
+   "نقيس {{hCG}}",
+   "ونجهز {{surgery}}"
+  ],
+  "rule": "لو {{cervical motion tenderness}} يعني {{TVUS}} لـ{{ectopic}}"
+ },
+ "Q460": {
+  "idea": [
+   "سيدة بـ{{sudden sharp pain}} و{{right shoulder radiation}} و{{free fluid in pouch of Douglas}}",
+   "فالتشخيص {{ruptured ectopic}}"
+  ],
+  "clues": [
+   [
+    "لو {{shoulder pain}}",
+    "يعني {{diaphragmatic irritation}}"
+   ],
+   [
+    "لو {{free fluid}}",
+    "يعني {{hemoperitoneum}}"
+   ]
+  ],
+  "why": [
+   "الـ{{shoulder pain}} مع {{free fluid}}",
+   "يعني {{intra-abdominal bleeding}}",
+   "فيوجه لـ{{ruptured ectopic}}"
+  ],
+  "wrong": {
+   "0": "الـ{{septic}} فيه {{fever}}",
+   "1": "الـ{{appendicular mass}} فيه {{RIF pain}}",
+   "2": "الـ{{incomplete}} فيه {{vaginal bleeding}}"
+  },
+  "change": [
+   "نثبت {{the patient}}",
+   "ونجهز {{surgery}}"
+  ],
+  "rule": "لو {{shoulder pain}} مع {{free fluid}} يعني {{ruptured ectopic}}"
+ },
+ "Q461": {
+  "idea": [
+   "نفس الحالة مع {{guarding}} و{{rigidity}}",
+   "فأعلى قيمة {{pregnancy test}}"
+  ],
+  "clues": [
+   [
+    "لو {{guarding and rigidity}}",
+    "يعني {{acute abdomen}}"
+   ]
+  ],
+  "why": [
+   "أول خطوة {{pregnancy test}}",
+   "لأنه يوجه {{diagnosis}}",
+   "وهو {{fastest}}"
+  ],
+  "wrong": {
+   "1": "الـ{{MRI}} لـ{{stable patient}}",
+   "2": "الـ{{CT}} ما يناسب",
+   "3": "الـ{{LFT}} ما يفيد"
+  },
+  "change": [
+   "نقيس {{quantitative hCG}}",
+   "ونجهز {{surgery}}"
+  ],
+  "rule": "لو {{acute abdomen}} في {{reproductive age}} يعني {{pregnancy test}} أول"
+ }
+}

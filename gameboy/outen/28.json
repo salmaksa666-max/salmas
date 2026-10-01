@@ -1,0 +1,633 @@
+{
+ "Q542": {
+  "idea": [
+   "بنت {{21 years}} فيها {{primary infertility}} والهرمونات والـ{{semen analysis}} طبيعية",
+   "الـ{{HSG}} يبين {{bilateral proximal tubal block}}"
+  ],
+  "clues": [
+   [
+    "لو {{proximal block}} بالـ{{HSG}}",
+    "يعني ممكن {{tubal spasm or plug}} مو انسداد حقيقي"
+   ],
+   [
+    "لأن باقي الفحوصات {{normal}}",
+    "فالمشكلة {{tubal factor}} بس"
+   ]
+  ],
+  "why": [
+   "الـ{{proximal block}} على الـ{{HSG}} ممكن يكون {{false positive}}",
+   "فنأكد بـ{{diagnostic laparoscopy and dye test}}",
+   "وممكن نعالجه بنفس الجلسة"
+  ],
+  "wrong": {
+   "0": "الـ{{IVF}} مبكر قبل ما نأكد {{tubal obstruction}}",
+   "1": "الـ{{ovulation}} طبيعي فما نحتاج {{induction}}",
+   "2": "الـ{{IUI}} ما ينفع مع {{blocked tubes}}"
+  },
+  "change": [
+   "لو {{blockage confirmed on laparoscopy}} نروح {{IVF}}",
+   "لو {{tubes patent}} نكمل محاولات الحمل"
+  ],
+  "rule": "الـ{{Proximal block on HSG}} يعني نأكد بـ{{laparoscopy and dye test}}"
+ },
+ "Q543": {
+  "idea": [
+   "بنت {{26 years}} فيها {{primary infertility}} و{{bilateral tubal blockage}} مؤكد بالـ{{HSG}} والـ{{laparoscopy}}",
+   "فالخطوة التالية {{IVF}}"
+  ],
+  "clues": [
+   [
+    "لو {{bilateral tubal blockage}} مؤكد",
+    "يعني ما فيه {{natural conception}}"
+   ],
+   [
+    "الـ{{hormonal profile}} والـ{{semen analysis}} {{normal}}",
+    "فالبويضات والحيوانات المنوية سليمة"
+   ]
+  ],
+  "why": [
+   "القنوات مسدودة فالحيوان المنوي ما يلتقي بالبويضة",
+   "فالـ{{IVF}} يتخطى القنوات",
+   "وهو {{definitive treatment}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Clomiphene}} لـ{{ovulation induction}} وهي أصلًا {{ovulating}}",
+   "2": "الـ{{IUI}} يحتاج {{patent tubes}}",
+   "3": "الـ{{Gonadotropins}} لـ{{ovulation induction}} وما تحل {{tubal block}}"
+  },
+  "change": [
+   "لو {{one tube patent}} نجرب {{clomiphene}}",
+   "لو {{proximal block only}} ممكن نحاول {{tubal cannulation}}"
+  ],
+  "rule": "الـ{{Bilateral tubal block}} مؤكد يعني {{IVF}}"
+ },
+ "Q544": {
+  "idea": [
+   "بنت {{26 years}} فيها {{primary infertility}} و{{right tube blocked}} و{{left tube patent}}",
+   "فالجواب المعتمد {{clomiphene citrate}}"
+  ],
+  "clues": [
+   [
+    "لو {{one patent tube}}",
+    "يعني {{natural conception}} ممكن"
+   ],
+   [
+    "الـ{{hormones}} والـ{{semen}} {{normal}}",
+    "فما فيه سبب واضح غيره"
+   ]
+  ],
+  "why": [
+   "الـ{{left tube patent}}",
+   "فنحفز الـ{{ovulation}} بـ{{clomiphene}} لتحسين الفرصة",
+   "وما نحتاج {{IVF}} مباشرة"
+  ],
+  "wrong": {
+   "1": "الـ{{IVF}} مبكر لأن فيه {{patent tube}}",
+   "2": "الـ{{IUI}} ممكن بس مو الجواب المعتمد",
+   "3": "الـ{{Gonadotropins}} أقوى من اللازم وفيها {{risk of multiple pregnancy}}"
+  },
+  "change": [
+   "لو {{both tubes blocked}} نروح {{IVF}}",
+   "لو فشل {{clomiphene}} عدة دورات نروح {{IUI}} ثم {{IVF}}"
+  ],
+  "rule": "الـ{{One patent tube}} يعني {{ovulation induction}}",
+  "note": "الجواب حسب الملف، وبعض المراجع تفضل {{IUI}} مع {{ovarian stimulation}}، والأهم {{one patent tube}}"
+ },
+ "Q545": {
+  "idea": [
+   "حامل {{34 weeks}} في {{active labor}} والـ{{cervix 4 cm}} والـ{{membranes intact}}",
+   "الـ{{CTG}} {{reassuring}} تقريبًا",
+   "فنسوي {{ARM}}"
+  ],
+  "clues": [
+   [
+    "لو {{cervix 4 cm}} مع {{strong regular contractions}}",
+    "يعني {{established active labor}}"
+   ],
+   [
+    "الـ{{CTG}} فيه {{accelerations}} و{{good variability}}",
+    "يعني الجنين {{stable}}"
+   ]
+  ],
+  "why": [
+   "الـ{{labor}} متقدم وما نوقفه",
+   "فنسوي {{rupture of membranes}} لتسريع الولادة",
+   "ونراقب لأن الـ{{variable decelerations}} غالبًا من {{cord compression}}"
+  ],
+  "wrong": {
+   "0": "الـ{{CTG}} ما يستدعي {{cesarean section}}",
+   "1": "الـ{{Forceps}} يحتاج {{full dilatation}}",
+   "3": "الـ{{Tocolytics}} ما تنفع مع {{advanced active labor}}"
+  },
+  "change": [
+   "لو {{recurrent late decelerations}} نروح {{cesarean section}}",
+   "لو {{cervix 2 cm}} مع {{mild contractions}} ممكن {{tocolytics}}"
+  ],
+  "rule": "الـ{{Active labor}} مع {{acceptable CTG}} يعني {{ARM}}"
+ },
+ "Q546": {
+  "idea": [
+   "حامل {{G8P7}} في {{labor}} وفجأة {{severe abdominal pain}} و{{vaginal bleeding}}",
+   "الـ{{FHR 80}} والـ{{contractions}} توقفت فجأة",
+   "فنفكر {{uterine rupture}}"
+  ],
+  "clues": [
+   [
+    "لو {{grand multipara}} مع {{sudden pain and bleeding}}",
+    "يعني {{risk factor for uterine rupture}}"
+   ],
+   [
+    "لو {{sudden cessation of contractions}} مع {{severe bradycardia}}",
+    "يعني علامات {{uterine rupture}}"
+   ]
+  ],
+  "why": [
+   "هذا {{uterine rupture}} لين يثبت العكس",
+   "والجنين فيه {{risk of death}}",
+   "فنسوي {{immediate laparotomy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Observation}} خطر على {{mother and fetus}}",
+   "1": "الـ{{Ventouse}} ما يصلح مع {{ruptured uterus}}",
+   "2": "الـ{{Pushing}} يزيد {{rupture}}"
+  },
+  "change": [
+   "لو ما فيه علامات {{rupture}} و{{full dilatation}} نستعمل {{instrumental delivery}}",
+   "لو {{placental abruption}} نفس الاستعجال"
+  ],
+  "rule": "الـ{{Uterine rupture}} يعني {{immediate laparotomy}}"
+ },
+ "Q547": {
+  "idea": [
+   "حامل {{G5P4}} {{39 weeks}} والـ{{cervix 7 cm}}",
+   "الـ{{CTG}} {{normal}} والـ{{contractions}} {{mild and infrequent}}",
+   "فنحتاج {{augmentation}}"
+  ],
+  "clues": [
+   [
+    "لو {{2 contractions in 10 minutes}}",
+    "يعني {{hypotonic uterine activity}}"
+   ],
+   [
+    "الـ{{CTG}} {{normal}}",
+    "فالجنين بخير ونقدر نعطي {{oxytocin}}"
+   ]
+  ],
+  "why": [
+   "الجنين بخير والـ{{contractions}} ضعيفة",
+   "فنعطي {{oxytocin}} لـ{{augmentation of labor}}",
+   "و{{multiparity}} تحتاج حذر من {{hyperstimulation}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Observation}} يؤخر الـ{{labor}} بدون فايدة",
+   "1": "ما فيه سبب لـ{{cesarean section}}",
+   "2": "الـ{{cervix}} مو {{fully dilated}} فما نستعمل {{instruments}}"
+  },
+  "change": [
+   "لو {{strong contractions}} مع {{arrest}} نفحص {{pelvis and position}}",
+   "لو {{late decelerations}} نوقف {{oxytocin}}"
+  ],
+  "rule": "الـ{{Weak contractions}} مع {{normal CTG}} يعني {{oxytocin}}"
+ },
+ "Q548": {
+  "idea": [
+   "حامل {{37 weeks}} والـ{{cervix}} {{fully dilated}} والـ{{head}} عند {{-3 station}}",
+   "الـ{{FHR 90}} مع {{recurrent late decelerations}}",
+   "فالجنين {{compromised}}"
+  ],
+  "clues": [
+   [
+    "لو {{FHR 90}} مع {{recurrent late decelerations}}",
+    "يعني {{fetal hypoxia}}"
+   ],
+   [
+    "لو {{head at -3}}",
+    "يعني {{vaginal delivery}} بعيدة"
+   ]
+  ],
+  "why": [
+   "الجنين {{in distress}} والـ{{head}} عالي",
+   "فما نقدر نولده بـ{{instruments}}",
+   "فنسوي {{emergency cesarean section}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Oxytocin}} يزيد {{hypoxia}}",
+   "1": "الـ{{Instrumental delivery}} ما يصلح مع {{high head}}",
+   "3": "الـ{{Reassurance}} خطر مع هذا الـ{{CTG}}"
+  },
+  "change": [
+   "لو {{head +3}} نستعمل {{instruments}}",
+   "لو {{CTG normal}} نراقب"
+  ],
+  "rule": "الـ{{Recurrent late decelerations}} مع {{high head}} يعني {{emergency cesarean section}}"
+ },
+ "Q549": {
+  "idea": [
+   "الـ{{primigravida}} {{37 weeks}} و{{cervix 10 cm}} والـ{{head +3}}",
+   "فيه {{prolonged deceleration}} مدة {{7 minutes}}",
+   "فنسرع الولادة"
+  ],
+  "clues": [
+   [
+    "لو {{full dilatation}} مع {{head +3}}",
+    "يعني {{vaginal delivery}} قريبة"
+   ],
+   [
+    "لو {{prolonged deceleration}}",
+    "يعني نبغى نولد بسرعة"
+   ]
+  ],
+  "why": [
+   "الـ{{head}} منخفض والـ{{cervix}} {{fully dilated}}",
+   "فالـ{{instrumental delivery}} أسرع من {{cesarean}}",
+   "ونولد الجنين فورًا"
+  ],
+  "wrong": {
+   "0": "الـ{{Observation}} يؤخر والجنين يحتاج {{delivery}}",
+   "1": "الـ{{Oxytocin}} ما يسرع كفاية",
+   "3": "الـ{{Cesarean section}} أبطأ والـ{{head}} منخفض"
+  },
+  "change": [
+   "لو {{high head -3}} نروح {{cesarean section}}",
+   "لو {{CTG}} رجع {{normal}} نكمل {{pushing}}"
+  ],
+  "rule": "الـ{{Full dilatation}} و{{low head}} مع {{prolonged deceleration}} يعني {{instrumental delivery}}"
+ },
+ "Q550": {
+  "idea": [
+   "حامل {{38 weeks}} في {{labor}} والـ{{cervix 4 cm}}",
+   "الـ{{CTG}} فيه {{sinusoidal pattern}} مدة {{40 minutes}}",
+   "وهذا علامة {{severe fetal anemia or hypoxia}}"
+  ],
+  "clues": [
+   [
+    "لو {{sinusoidal pattern}} مدة {{40 minutes}}",
+    "يعني علامة خطيرة لـ{{fetal anemia or hypoxia}}"
+   ],
+   [
+    "لو {{cervix 4 cm}} بس",
+    "يعني {{vaginal delivery}} بعيدة"
+   ]
+  ],
+  "why": [
+   "الـ{{sinusoidal pattern}} {{pre-terminal}}",
+   "والـ{{vaginal delivery}} بعيدة",
+   "فنسوي {{cesarean section}}"
+  ],
+  "wrong": {
+   "1": "الـ{{Ventouse}} يحتاج {{full dilatation}}",
+   "2": "الـ{{Augmentation}} يزيد الخطر",
+   "3": "الـ{{Reassurance}} خطر مع {{sinusoidal pattern}}"
+  },
+  "change": [
+   "لو {{full dilatation}} نستعمل {{instruments}}",
+   "لو {{brief sinusoidal pattern}} بسبب دواء نراقب"
+  ],
+  "rule": "الـ{{Sinusoidal pattern}} يعني {{cesarean section}}"
+ },
+ "Q551": {
+  "idea": [
+   "الـ{{primigravida}} {{39 weeks}} في {{latent phase}} والـ{{cervix 2 cm}}",
+   "الـ{{CTG}} {{normal}} والـ{{contractions}} {{mild}}",
+   "والجواب المعتمد {{augmentation}}"
+  ],
+  "clues": [
+   [
+    "لو {{latent phase}} مع {{cervix 2 cm}}",
+    "يعني الـ{{labor}} لسه ما بدأ فعليًا"
+   ],
+   [
+    "الـ{{CTG}} {{normal}}",
+    "يعني ما فيه خطر على الجنين"
+   ]
+  ],
+  "why": [
+   "الـ{{contractions}} خفيفة وغير منتظمة",
+   "فالجواب المعتمد {{augmentation of labor}}",
+   "والجنين بخير"
+  ],
+  "wrong": {
+   "0": "الـ{{Observation}} هو الخيار الشائع بالـ{{latent phase}}",
+   "1": "ما فيه سبب لـ{{cesarean section}}",
+   "2": "الـ{{Induction}} لمن ما بدأت {{labor}}"
+  },
+  "change": [
+   "لو دخلت {{active phase}} نراقب بالـ{{partogram}}",
+   "لو {{post-term}} بدون {{labor}} نفكر {{induction}}"
+  ],
+  "rule": "الـ{{Weak contractions}} مع {{normal CTG}} يعني {{augmentation}}",
+  "note": "الجواب مشكوك فيه، والـ{{latent phase}} عادة تحتاج {{observation}} مو {{augmentation}}"
+ },
+ "Q552": {
+  "idea": [
+   "حامل {{G8P7}} عمرها {{40 years}} في {{active labor}} والـ{{cervix 7 cm}}",
+   "الـ{{CTG}} فيه {{poor variability}} و{{recurrent variable decelerations}}",
+   "فالجنين {{non-reassuring}}"
+  ],
+  "clues": [
+   [
+    "لو {{poor variability}} مع {{recurrent variable decelerations}}",
+    "يعني {{possible fetal hypoxia}}"
+   ],
+   [
+    "لو {{cervix 7 cm}} بس",
+    "يعني {{vaginal delivery}} مو قريبة"
+   ]
+  ],
+  "why": [
+   "الـ{{CTG}} {{pathological}} والـ{{cervix}} لسه ما اكتمل",
+   "فنسوي {{emergency cesarean section}}",
+   "والـ{{instruments}} تحتاج {{full dilatation}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Oxytocin}} يزيد {{fetal stress}}",
+   "1": "الـ{{Forceps}} يحتاج {{full dilatation}}",
+   "3": "الـ{{Reassurance}} خطر مع هذا الـ{{CTG}}"
+  },
+  "change": [
+   "لو {{full dilatation}} نستعمل {{instruments}}",
+   "لو {{CTG normal}} نراقب"
+  ],
+  "rule": "الـ{{Pathological CTG}} مع {{incomplete dilatation}} يعني {{emergency cesarean section}}"
+ },
+ "Q553": {
+  "idea": [
+   "سيدة {{38 years}} عندها {{large fibroid}} قبل الـ{{myomectomy}}",
+   "أي دواء يصغر الـ{{fibroid}}؟"
+  ],
+  "clues": [
+   [
+    "لو {{large fibroid}} قبل {{myomectomy}}",
+    "يعني نبغى {{size reduction}}"
+   ]
+  ],
+  "why": [
+   "حقنة {{GnRH}} تخفض الـ{{estrogen}}",
+   "فيصغر الـ{{fibroid}} وينقص الـ{{bleeding}}",
+   "ونستعملها {{short course}} قبل العملية"
+  ],
+  "wrong": {
+   "1": "الـ{{Combined pills}} ما تصغر الـ{{fibroid}}",
+   "2": "الـ{{IUCD}} ما يصغر الـ{{fibroid}}",
+   "3": "الـ{{Progesterone}} ما يصغر الـ{{fibroid}} بشكل واضح"
+  },
+  "change": [
+   "لو الهدف {{bleeding control}} نستعمل {{TXA}}",
+   "لو الاستعمال طويل نضيف {{add-back therapy}}"
+  ],
+  "rule": "الـ{{Fibroid shrinkage}} قبل العملية يعني {{GnRH analogue}}"
+ },
+ "Q554": {
+  "idea": [
+   "سيدة {{38 years}} عندها {{10 cm fibroid}} مع {{pelvic pressure}} و{{menorrhagia}}",
+   "رفضت الـ{{hysterectomy}}",
+   "فنبغى {{alternative}}"
+  ],
+  "clues": [
+   [
+    "لو {{10 cm fibroid}} مع أعراض",
+    "يعني الـ{{observation}} ما تكفي"
+   ],
+   [
+    "لو رفضت {{hysterectomy}}",
+    "نختار {{minimally invasive option}}"
+   ]
+  ],
+  "why": [
+   "الـ{{UAE}} يوقف {{blood supply}} عن الـ{{fibroid}}",
+   "فيصغر ويخفف الأعراض",
+   "وهو {{good alternative to surgery}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Observation}} ما تحل الأعراض",
+   "1": "الـ{{Progesterone}} ما يصغر {{large fibroid}}",
+   "3": "الـ{{NSAIDs}} للـ{{pain}} بس"
+  },
+  "change": [
+   "لو تبغى حمل مستقبلًا {{myomectomy}}",
+   "لو {{small submucosal fibroid}} {{hysteroscopic resection}}"
+  ],
+  "rule": "بديل الـ{{hysterectomy}} للـ{{large fibroid}} هو {{UAE}}"
+ },
+ "Q555": {
+  "idea": [
+   "بنت {{24 years}} فيها {{incidental subserosal fibroid 3 cm}}",
+   "وبدون أعراض"
+  ],
+  "clues": [
+   [
+    "لو {{incidental finding}}",
+    "يعني ما فيه أعراض"
+   ],
+   [
+    "لو {{small subserosal fibroid}}",
+    "يعني ما يحتاج علاج"
+   ]
+  ],
+  "why": [
+   "الـ{{fibroid}} صغير و{{asymptomatic}}",
+   "فنطمنها ونسوي {{follow-up}}",
+   "وما نحتاج {{intervention}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Myomectomy}} بلا داعي",
+   "2": "الـ{{OCPs}} ما تعالج {{asymptomatic fibroid}}",
+   "3": "الـ{{UAE}} بلا داعي"
+  },
+  "change": [
+   "لو صار {{bleeding}} نعالج حسب الأعراض",
+   "لو {{rapid growth}} نتحرى {{sarcoma}}"
+  ],
+  "rule": "الـ{{Asymptomatic fibroid}} يعني {{reassure and follow-up}}"
+ },
+ "Q556": {
+  "idea": [
+   "سيدة {{32 years}} {{single}} عندها {{menorrhagia}}",
+   "وفيه {{subserosal fibroid 4 cm}}",
+   "والـ{{uterine cavity}} {{normal}}"
+  ],
+  "clues": [
+   [
+    "لو {{subserosal fibroid}} بدون {{cavity distortion}}",
+    "غالبًا ما يفسر الـ{{bleeding}}"
+   ],
+   [
+    "لو شابة {{single}}",
+    "نتجنب {{major surgery}}"
+   ]
+  ],
+  "why": [
+   "الـ{{subserosal fibroid}} غالبًا ما يسبب {{menorrhagia}}",
+   "فنبدأ بـ{{medical treatment}}",
+   "ومنها {{NSAIDs}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Myomectomy}} مو ضروري الحين",
+   "1": "الـ{{Hysterectomy}} يفقدها {{fertility}}",
+   "2": "الـ{{UAE}} مو مناسب وقد يأثر على {{fertility}}"
+  },
+  "change": [
+   "لو فشل {{medical therapy}} نفكر بخيارات ثانية",
+   "لو {{submucosal}} نسوي {{hysteroscopic resection}}"
+  ],
+  "rule": "الـ{{Menorrhagia}} مع {{subserosal fibroid}} يعني {{medical treatment}} أول"
+ },
+ "Q557": {
+  "idea": [
+   "سيدة {{50 years}} عندها {{menorrhagia}} سنة و{{medical treatment failed}}",
+   "فيه {{7 cm fibroid}} يشوه الـ{{endometrium}}",
+   "وقريبة من {{menopause}}"
+  ],
+  "clues": [
+   [
+    "لو {{failed medical treatment}}",
+    "يعني نحتاج {{definitive treatment}}"
+   ],
+   [
+    "لو {{large fibroid distorting cavity}}",
+    "فالـ{{ablation}} مو مناسب"
+   ]
+  ],
+  "why": [
+   "هي كبيرة بالسن وما تبغى حمل",
+   "فالعلاج النهائي {{hysterectomy}}",
+   "والـ{{fibroid}} كبير ويشوه الـ{{cavity}}"
+  ],
+  "wrong": {
+   "1": "الـ{{Ablation}} ما يصلح مع {{distorted cavity}}",
+   "2": "الـ{{UAE}} ممكن بس مو الأفضل لعمرها",
+   "3": "الـ{{LNG-IUS}} ما يناسب {{fibroid distorting cavity}}"
+  },
+  "change": [
+   "لو تبغى حمل {{myomectomy}}",
+   "لو رفضت الجراحة {{UAE}}"
+  ],
+  "rule": "الـ{{Failed medical treatment}} مع {{large fibroid}} عند كبيرة سن يعني {{hysterectomy}}"
+ },
+ "Q558": {
+  "idea": [
+   "سيدة {{25 years}} فيها {{infertility}} {{3 years}} و{{failed IVF twice}}",
+   "وعندها {{multiple fibroids}}"
+  ],
+  "clues": [
+   [
+    "لو {{failed IVF x2}}",
+    "نبحث عن سبب مخفي"
+   ],
+   [
+    "لو {{multiple fibroids}}",
+    "ممكن تعيق {{implantation}}"
+   ]
+  ],
+  "why": [
+   "الـ{{fibroids}} ممكن تشوه الـ{{cavity}}",
+   "فإزالتها بـ{{myomectomy}} ترفع {{pregnancy rate}}",
+   "وتحافظ على الرحم"
+  ],
+  "wrong": {
+   "1": "الـ{{UAE}} ممكن يضر الـ{{fertility}}",
+   "2": "الـ{{Progesterone}} ما يزيد الحمل",
+   "3": "الـ{{GnRH}} مؤقت والـ{{fibroids}} ترجع"
+  },
+  "change": [
+   "لو {{small subserosal fibroids}} ما نحتاج عملية",
+   "لو ما تبغى حمل نفكر {{UAE}}"
+  ],
+  "rule": "الـ{{Infertility}} مع {{fibroids}} يعني {{myomectomy}}"
+ },
+ "Q559": {
+  "idea": [
+   "سيدة {{60 years}} عندها {{postmenopausal bleeding}} {{3 months}}",
+   "و{{5 cm fibroid}} ثابت من {{5 years}}"
+  ],
+  "clues": [
+   [
+    "لو {{postmenopausal bleeding}}",
+    "نستبعد {{endometrial cancer}} أول"
+   ],
+   [
+    "لو {{fibroid}} ثابت الحجم",
+    "غالبًا ما هو سبب الـ{{bleeding}}"
+   ]
+  ],
+  "why": [
+   "الـ{{postmenopausal bleeding}} {{cancer}} لين يثبت العكس",
+   "والـ{{stable fibroid}} غالبًا مو مسؤول",
+   "فنسوي {{endometrial sampling}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Myomectomy}} قبل التشخيص",
+   "1": "الـ{{Hysterectomy}} قبل ما نتأكد",
+   "2": "الـ{{UAE}} ما يناسب {{postmenopausal}}"
+  },
+  "change": [
+   "لو {{rapid growth}} نفكر {{sarcoma}}",
+   "لو {{biopsy normal}} نبحث عن سبب ثاني"
+  ],
+  "rule": "الـ{{Postmenopausal bleeding}} يعني {{endometrial sample}}"
+ },
+ "Q560": {
+  "idea": [
+   "حامل {{39 weeks}} في {{active labor}}",
+   "الـ{{CTG}} فيه {{baseline 180}} مع {{accelerations}} و{{early deceleration}} و{{good variability}}",
+   "أي علامة أخطر؟"
+  ],
+  "clues": [
+   [
+    "لو {{baseline 180}}",
+    "يعني {{fetal tachycardia}} وهو الأخطر"
+   ],
+   [
+    "لو {{accelerations}} و{{good variability}}",
+    "يعني علامات {{reassuring}}"
+   ]
+  ],
+  "why": [
+   "الـ{{baseline 180}} يعني {{fetal tachycardia}}",
+   "ويدل على {{infection}} أو {{hypoxia}}",
+   "والباقي {{normal}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Gestational age}} {{term}} وطبيعي",
+   "2": "الـ{{Early deceleration}} طبيعي بالـ{{labor}}",
+   "3": "الـ{{Active phase}} طبيعي"
+  },
+  "change": [
+   "لو {{maternal fever}} نفكر {{chorioamnionitis}}",
+   "لو فقد {{variability}} نخاف أكثر"
+  ],
+  "rule": "الـ{{FHR above 160}} علامة تحذير",
+  "note": "الـ{{early deceleration}} و{{accelerations}} و{{good variability}} تعارض الخطر الحقيقي، والجواب حسب الملف"
+ },
+ "Q561": {
+  "idea": [
+   "حامل {{34 weeks}} فيها {{mild abdominal pain}}",
+   "الـ{{CTG}} {{normal}} والـ{{cervix 1 cm}}"
+  ],
+  "clues": [
+   [
+    "لو {{CTG normal}}",
+    "يعني الجنين بخير"
+   ],
+   [
+    "لو {{cervix 1 cm uneffaced}}",
+    "يعني ما فيه {{labor}}"
+   ]
+  ],
+  "why": [
+   "ما فيه {{labor}} ولا خطر",
+   "فنسوي {{reassurance}}",
+   "ونكمل {{follow-up}}"
+  ],
+  "wrong": {
+   "1": "ما فيه سبب لـ{{induction}}",
+   "2": "ما فيه {{labor}} نسوي له {{augmentation}}",
+   "3": "الـ{{Cesarean section}} غير مبررة"
+  },
+  "change": [
+   "لو {{regular contractions}} مع {{cervical change}} نفكر {{preterm labor}}",
+   "لو {{CTG abnormal}} نتصرف"
+  ],
+  "rule": "الـ{{Normal CTG}} بدون {{labor}} يعني {{reassurance}}"
+ }
+}

@@ -1,0 +1,793 @@
+{
+ "Q021": {
+  "idea": [
+   "مريضة {{severe COPD}} مع {{FEV1 39%}} و{{frequent exacerbations}} رغم {{salbutamol}} و{{tiotropium}}",
+   "الجواب نضيف {{salmeterol + fluticasone}}"
+  ],
+  "clues": [
+   [
+    "فيها {{FEV1 39%}}",
+    "يعني {{severe COPD}}"
+   ],
+   [
+    "فيها {{frequent exacerbations}}",
+    "يعني {{high risk}}"
+   ],
+   [
+    "هي على {{tiotropium}} مع {{short-acting bronchodilator}}",
+    "فالخطوة الحالية ما كفت"
+   ],
+   [
+    "هي {{ex-smoker}}",
+    "فما فيه {{ongoing environmental cause}}"
+   ]
+  ],
+  "why": [
+   "لأن {{severe COPD with frequent exacerbations}} يحتاج {{stronger therapy}}",
+   "فنضيف {{ICS/LABA}} لأنه {{reduces exacerbations}}",
+   "فالجواب {{combined salmeterol + fluticasone inhaler}}"
+  ],
+  "wrong": {
+   "0": "الـ{{salmeterol alone}} بدون {{steroid}} ما يكفي لمريضة {{frequent exacerbations}}",
+   "1": "الـ{{betamethasone}} مو من {{inhalers used in COPD}}",
+   "2": "الـ{{long-term oxygen therapy}} يحتاج {{documented hypoxemia}} وما انذكر"
+  },
+  "change": [
+   "لو {{chronic low oxygen}} فالجواب {{long-term oxygen therapy}}",
+   "لو ما فيه {{frequent exacerbations}} فالـ{{bronchodilators}} تكفي"
+  ],
+  "rule": "لو {{severe COPD with frequent exacerbations}} فنضيف {{ICS/LABA}}"
+ },
+ "Q022": {
+  "idea": [
+   "رجال مدخن عمره ٦٩ فيه {{large left pleural effusion}} ونبي نعرف العلامة اللي تدل على {{exudate}}",
+   "الجواب {{pleural fluid LDH above 2/3 of the upper limit of serum LDH}}"
+  ],
+  "clues": [
+   [
+    "فيه {{large pleural effusion}}",
+    "فنحتاج نفرق {{transudate from exudate}}"
+   ],
+   [
+    "هو {{smoker aged 69}}",
+    "فنشك {{malignancy}}"
+   ],
+   [
+    "تحليل السائل لسا معلق",
+    "فنبحث عن {{Light criteria}}"
+   ],
+   [
+    "تفاصيل التقارير مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "حسب {{Light criteria}} يكون {{exudate}} لو تحقق واحد، أولها {{pleural/serum protein above 0.5}}",
+   "أو {{pleural/serum LDH above 0.6}}",
+   "أو {{pleural LDH above 2/3 of upper normal serum LDH}} فالجواب D"
+  ],
+  "wrong": {
+   "0": "الـ{{ratio below 0.6}} يدل على {{transudate}}",
+   "1": "الـ{{protein ratio below 0.5}} يدل على {{transudate}}",
+   "2": "الـ{{one third}} مو المعيار، المعيار {{two thirds}}"
+  },
+  "change": [
+   "لو {{LDH ratio below 0.6}} و{{protein ratio below 0.5}} فهو {{transudate}} مثل {{heart failure}}",
+   "لو أي معيار تحقق فهو {{exudate}}"
+  ],
+  "rule": "الـ{{exudate}} يعني {{protein ratio above 0.5}} أو {{LDH ratio above 0.6}} أو {{LDH above 2/3 upper limit}}",
+  "compare": {
+   "head": [
+    "معيار {{Light}}",
+    "الـ{{exudate}} لو"
+   ],
+   "rows": [
+    [
+     "نسبة {{protein}}",
+     "{{pleural/serum above 0.5}}"
+    ],
+    [
+     "نسبة {{LDH}}",
+     "{{pleural/serum above 0.6}}"
+    ],
+    [
+     "الـ{{pleural LDH}}",
+     "{{above 2/3 of serum upper limit}}"
+    ]
+   ]
+  }
+ },
+ "Q023": {
+  "idea": [
+   "شاب فيه {{severe asthma}} وما تحسن بعد {{oxygen, continuous nebulizers, IV steroids and magnesium sulfate}} وحالته تسوء",
+   "يعني {{life-threatening asthma}} والجواب {{intubation and mechanical ventilation}}"
+  ],
+  "clues": [
+   [
+    "ما يكمل جملة وما يقدر ينفخ {{peak flow}}",
+    "يعني {{very severe attack}}"
+   ],
+   [
+    "كل {{initial treatment}} ما نفع",
+    "يعني {{refractory asthma}}"
+   ],
+   [
+    "حالته {{deteriorating}}",
+    "فما عاد يتحمل التنفس"
+   ],
+   [
+    "الـ{{ABG}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{deterioration after maximal initial therapy}} يعني {{life-threatening}}",
+   "والمريض يتعب ويصير {{respiratory failure}} ويحتاج {{airway protection}}",
+   "فالجواب {{intubation and mechanical ventilation}}"
+  ],
+  "wrong": {
+   "0": "الـ{{NIV}} ما يناسب مريض {{deteriorating in severe asthma}}",
+   "1": "الـ{{aminophylline}} ما نعتمد عليه {{routinely}} ومو بديل عن {{airway protection}}",
+   "2": "الـ{{ipratropium}} المفروض {{given early}} وما يكفي بعد التدهور"
+  },
+  "change": [
+   "لو {{responding to treatment}} فنكمل {{medical therapy}} ونراقب",
+   "قبل التنبيب نستشير {{ICU}} لأن {{intubation in asthma}} صعب وخطر"
+  ],
+  "rule": "لو {{asthma deteriorating despite all treatment}} فالجواب {{intubation and mechanical ventilation}}"
+ },
+ "Q024": {
+  "idea": [
+   "مريضة ربو ما انضبط وهي على {{beclometasone 800 twice daily}} و{{salmeterol}} و{{salbutamol}}",
+   "الخطوة التالية نضيف {{leukotriene receptor antagonist}}"
+  ],
+  "clues": [
+   [
+    "فيها {{nocturnal cough and exertional wheeze}}",
+    "يعني {{uncontrolled asthma}}"
+   ],
+   [
+    "هي على {{high-dose ICS + LABA}}",
+    "فالأدوية الأساسية موجودة"
+   ],
+   [
+    "عندها {{allergic rhinitis}}",
+    "فيرجح فايدة {{LTRA}}"
+   ]
+  ],
+  "why": [
+   "لأن {{asthma uncontrolled on steroid + LABA}} نضيف {{another drug}}",
+   "والخيار الأنسب هنا {{leukotriene receptor antagonist}}",
+   "ويفيد خاصة مع {{allergic rhinitis}}"
+  ],
+  "wrong": {
+   "0": "الـ{{ipratropium}} ما نستخدمه كـ{{routine add-on in chronic asthma}}",
+   "1": "الـ{{oral prednisolone}} هو {{advanced step}} يجي بعد الخيارات الثانية",
+   "3": "الـ{{theophylline}} بديل ممكن بس {{LTRA}} هو الأفضل هنا"
+  },
+  "change": [
+   "لو ما تحسنت على {{LTRA}} فنفكر نضيف {{LAMA}} أو {{theophylline}}",
+   "لو {{very severe symptoms}} فنحيل لـ{{specialist}}"
+  ],
+  "rule": "لو {{uncontrolled asthma on ICS + LABA}} فنضيف {{LTRA}}"
+ },
+ "Q025": {
+  "idea": [
+   "سيدة فيها {{acute asthma}} وش العلامة اللي تدل على {{life-threatening attack}}؟",
+   "الجواب {{peak flow below 33% of best or predicted}}"
+  ],
+  "clues": [
+   [
+    "الـ{{peak flow}} 30%",
+    "يعني {{below 33% is life-threatening}}"
+   ],
+   [
+    "الـ{{oxygen saturation}} 94%",
+    "يعني {{normal}} والمهددة {{below 92%}}"
+   ],
+   [
+    "الـ{{respiratory rate}} 28",
+    "يعني {{severe attack}} مو {{life-threatening}}"
+   ]
+  ],
+  "why": [
+   "لأن {{life-threatening asthma}} يشمل {{peak flow below 33%}} و{{SpO2 below 92%}} و{{silent chest}} و{{cyanosis}} و{{exhaustion}}",
+   "وهنا {{peak flow 30%}} فهي {{life-threatening}}",
+   "فالجواب C"
+  ],
+  "wrong": {
+   "0": "الـ{{failure to improve after nebulized salbutamol}} مو {{specific criterion}}",
+   "1": "الـ{{SpO2 94%}} طبيعي ولا يدل على {{life-threatening attack}}",
+   "3": "الـ{{respiratory rate 28}} يدل على {{severe attack}} مو {{life-threatening}}"
+  },
+  "change": [
+   "لو {{peak flow 33-50%}} مع {{respiratory rate 25 or more}} فالنوبة {{severe}}",
+   "لو {{silent chest}} أو {{exhaustion}} أو {{syncope}} فهي {{life-threatening}}"
+  ],
+  "rule": "لو {{peak flow below 33%}} فهي {{life-threatening asthma}}",
+  "compare": {
+   "head": [
+    "",
+    "{{severe}}",
+    "{{life-threatening}}"
+   ],
+   "rows": [
+    [
+     "الـ{{peak flow}}",
+     "{{33-50%}}",
+     "{{below 33%}}"
+    ],
+    [
+     "الـ{{respiration}}",
+     "{{RR 25 or more}}",
+     "{{silent chest and exhaustion}}"
+    ],
+    [
+     "الـ{{oxygen}}",
+     "{{SpO2 92% or more}}",
+     "{{SpO2 below 92%}}"
+    ]
+   ]
+  }
+ },
+ "Q026": {
+  "idea": [
+   "شاب فيه {{severe acute asthma}} وما تحسن بعد {{oxygen, bronchodilators and IV steroids}}",
+   "الجواب {{IV magnesium sulfate}}"
+  ],
+  "clues": [
+   [
+    "ما تحسن بعد {{initial treatment}}",
+    "فنحتاج {{additional step}}"
+   ],
+   [
+    "ما يكمل جملة وفيه {{wheeze}}",
+    "يعني {{severe acute asthma}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{IV magnesium sulfate}} من {{recommended steps in severe acute asthma}} بعد {{initial treatment}}",
+   "وهو {{relaxes bronchial smooth muscle}}",
+   "فالجواب {{magnesium sulfate}}"
+  ],
+  "wrong": {
+   "1": "الـ{{aminophylline}} نعطيه بس بـ{{specialist advice}} بسبب {{side effects}}",
+   "2": "الـ{{IV salbutamol}} مو {{first choice}} الحين",
+   "3": "الـ{{adrenaline}} لـ{{anaphylaxis}} مو للربو"
+  },
+  "change": [
+   "لو ما تحسن بعد {{magnesium}} فنستشير {{ICU}} ونفكر {{intubation}}",
+   "لو {{anaphylaxis}} فالجواب {{adrenaline}}"
+  ],
+  "rule": "لو {{severe acute asthma not responding}} فالجواب {{IV magnesium sulfate}}"
+ },
+ "Q027": {
+  "idea": [
+   "رجال عمره ٧٠ فيه {{COPD}} مع {{cor pulmonale}} و{{leg edema}} و{{FEV1 40%}}",
+   "والتدخل اللي {{improves survival}} هو {{long-term oxygen therapy}}"
+  ],
+  "clues": [
+   [
+    "فيه {{cor pulmonale and leg edema}}",
+    "يعني {{chronic hypoxia and pulmonary hypertension}}"
+   ],
+   [
+    "الـ{{FEV1}} 40%",
+    "يعني {{severe COPD}}"
+   ],
+   [
+    "السؤال عن {{survival benefit}}",
+    "مو {{symptom relief}} بس"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{long-term oxygen therapy}} هو {{only intervention proven to improve survival in COPD with hypoxemia}}",
+   "ويقلل {{pulmonary pressure}} و{{cor pulmonale complications}}",
+   "فالجواب D"
+  ],
+  "wrong": {
+   "0": "الـ{{heart-lung transplant}} لـ{{highly selected cases}} ومو {{common intervention}}",
+   "1": "الـ{{corticosteroids}} ما {{improve survival}} ويسبب {{harm}}",
+   "2": "الـ{{pulmonary rehabilitation}} يحسن {{exercise capacity and symptoms}} بس ما {{improve survival}}"
+  },
+  "change": [
+   "لو السؤال عن {{improving symptoms and capacity}} فالجواب {{pulmonary rehabilitation}}",
+   "الأكسجين يفيد بس لو {{documented hypoxemia}}"
+  ],
+  "rule": "لو {{COPD with chronic hypoxemia}} فالجواب {{long-term oxygen therapy}} لأنه {{improves survival}}"
+ },
+ "Q028": {
+  "idea": [
+   "مدخن ٣٠ سنة فيه {{cough and exertional dyspnea for 18 months}} و{{normal X-ray and ECG}}",
+   "نشك {{COPD}} والفحص التالي {{spirometry}}"
+  ],
+  "clues": [
+   [
+    "هو {{30 pack-year smoker}}",
+    "يعني {{risk factor for COPD}}"
+   ],
+   [
+    "فيه {{chronic cough and dyspnea}}",
+    "يعني {{COPD picture}}"
+   ],
+   [
+    "الـ{{X-ray and ECG}} طبيعيين",
+    "فما فيه {{other obvious cause}}"
+   ]
+  ],
+  "why": [
+   "لأن {{COPD}} يتأكد بـ{{spirometry showing incompletely reversible obstruction}}",
+   "وهو {{first test for chronic cough and dyspnea in a smoker}}",
+   "فالجواب {{spirometry}}"
+  ],
+  "wrong": {
+   "0": "الـ{{sleep study}} لو نشك {{sleep apnea}}",
+   "2": "الـ{{CT}} مو {{first step}} مع {{normal X-ray}}",
+   "3": "الـ{{bronchoscopy}} ما له داعي بدون {{red flags}}"
+  },
+  "change": [
+   "لو {{spirometry normal}} فنبحث {{other causes of cough}}",
+   "لو {{hemoptysis and weight loss}} فنصور بالـ{{CT}}"
+  ],
+  "rule": "لو {{smoker with chronic cough and dyspnea}} فالجواب {{spirometry}}"
+ },
+ "Q029": {
+  "idea": [
+   "رجال عمره ٧٩ {{non-smoker}} فيه {{2 mm lung nodule stable for 4 years}}",
+   "يعني {{stable small nodule}} وما نحتاج {{further imaging}}"
+  ],
+  "clues": [
+   [
+    "فيه {{2 mm nodule}}",
+    "يعني {{very small}}"
+   ],
+   [
+    "هي {{stable for years}}",
+    "لأن {{stability beyond 2 years}} يدل على {{benign}}"
+   ],
+   [
+    "هو {{non-smoker without symptoms}}",
+    "يعني {{low risk}}"
+   ]
+  ],
+  "why": [
+   "لأن {{solid stable nodule above 2 years}} غالبًا {{benign}}",
+   "وحجمها {{2 mm}} صغير جدًا",
+   "فالجواب {{no further imaging is necessary}}"
+  ],
+  "wrong": {
+   "0": "الـ{{repeat CT in 1 year}} ما له داعي بعد {{3 years of stability}}",
+   "1": "الـ{{repeat CT in 2 years}} ما له داعي",
+   "2": "الـ{{repeat CT in 5 years}} ما له داعي"
+  },
+  "change": [
+   "لو العقدة {{grew at any time}} فنقيم أكثر",
+   "لو {{high risk factors}} أو {{suspicious shape}} فالمتابعة تتغير"
+  ],
+  "rule": "لو {{small stable nodule above 2 years}} فما نحتاج {{follow-up}}"
+ },
+ "Q030": {
+  "idea": [
+   "سيدة مدخنة {{50 pack-year}} فيها {{5 mm nodule grew to 10.5 mm in 9 months}} و{{no visible lymph nodes}}",
+   "يعني {{growing nodule}} فنشك {{lung cancer}} والجواب {{refer for thoracic surgery}}"
+  ],
+  "clues": [
+   [
+    "هي {{50 pack-year smoker}}",
+    "يعني {{high cancer risk}}"
+   ],
+   [
+    "الـ{{nodule}} كبرت من {{5 to 10.5 mm}}",
+    "يعني {{growth suggests malignancy}}"
+   ],
+   [
+    "بدون {{visible nodes}}",
+    "يعني {{localized disease}}"
+   ],
+   [
+    "تفاصيل التقرير مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{nodule growth on follow-up}} هو {{strong sign of cancer}}",
+   "والمريضة عندها {{high risk factors}}",
+   "فالجواب {{refer for thoracic surgery}} لـ{{diagnosis and treatment}}"
+  ],
+  "wrong": {
+   "0": "الـ{{blind needle aspiration}} ما نسويها لـ{{small nodule without guidance}}",
+   "1": "الـ{{repeat CT in 6 months}} هو {{delay}} مع {{growing nodule}}",
+   "3": "الـ{{bronchoscopy}} لـ{{central tumors}} وهالعقدة غالبًا {{peripheral}}"
+  },
+  "change": [
+   "لو {{stable on follow-up}} فنكتفي بـ{{observation}}",
+   "لو {{large and spread}} فنكمل {{staging}}"
+  ],
+  "rule": "لو {{growing lung nodule in a smoker}} فنشك {{cancer}} ونحيل لـ{{thoracic surgery}}"
+ },
+ "Q031": {
+  "idea": [
+   "مدخن عمره ٦٩ فيه {{dyspnea and weight loss}} و{{large bloody exudative pleural effusion}}",
+   "نشك {{malignancy}} والخطوة التالية {{CT chest with contrast}}"
+  ],
+  "clues": [
+   [
+    "فيه {{bloody exudative fluid}}",
+    "يعني {{malignancy or serious cause}}"
+   ],
+   [
+    "فيه {{weight loss}} و{{40 pack-year smoking}}",
+    "يعني {{cancer risk factors}}"
+   ],
+   [
+    "ما فيه {{TB risk factors}}",
+    "فنبحث عن {{tumor}}"
+   ],
+   [
+    "التقارير مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{bloody exudative effusion in a smoker}} ينبه لـ{{lung cancer or pleural malignancy}}",
+   "والـ{{contrast CT}} يبين {{tumor, pleura and nodes}}",
+   "فالجواب {{CT chest with contrast}}"
+  ],
+  "wrong": {
+   "0": "الـ{{empirical antibiotics}} ما لها داعي بدون {{infection signs}}",
+   "2": "الـ{{blind pleural biopsy}} فيه {{poor yield}} والأفضل نحدد المكان بالـ{{imaging}}"
+  },
+  "change": [
+   "لو التشخيص ما اتضح بعد الـ{{imaging}} فنسوي {{thoracoscopy}}",
+   "لو {{clear infection}} فنعالج {{infection}}"
+  ],
+  "rule": "لو {{bloody exudative effusion in a smoker}} فنشك {{tumor}} ونسوي {{contrast CT}}"
+ },
+ "Q032": {
+  "idea": [
+   "سيدة عمرها ٥٥ فيها {{incidental 1 cm lung nodule with sharp margins}} و{{quit smoking 20 years ago}}",
+   "يعني {{low risk}} والجواب {{follow-up CT in 3-6 months}}"
+  ],
+  "clues": [
+   [
+    "فيها {{1 cm nodule with sharp margins}}",
+    "يعني {{tends to be benign}}"
+   ],
+   [
+    "هي {{quit smoking 20 years ago}}",
+    "يعني {{relatively low risk}}"
+   ],
+   [
+    "بدون {{symptoms}}",
+    "يعني {{incidental finding}}"
+   ]
+  ],
+  "why": [
+   "لأن {{nodule with sharp margins and low risk}} نتابعه بالـ{{imaging}}",
+   "والمتابعة تكشف {{growth}}",
+   "فالجواب {{follow-up CT in 3-6 months}}"
+  ],
+  "wrong": {
+   "1": "الـ{{no follow-up}} ما يناسب {{1 cm nodule}}",
+   "2": "الـ{{transbronchial biopsy}} لـ{{more suspicious nodules}}",
+   "3": "الـ{{surgical resection}} غير مناسب {{before follow-up}}"
+  },
+  "change": [
+   "لو {{grew or became suspicious}} فنسوي {{PET}} أو {{biopsy}}",
+   "لو {{high risk}} فالـ{{evaluation}} أسرع"
+  ],
+  "rule": "لو {{1 cm nodule with low risk}} فالجواب {{follow-up CT in 3-6 months}}"
+ },
+ "Q033": {
+  "idea": [
+   "رجال كبير فيه {{pneumonia with pleural effusion}} والسؤال عن {{pleural fluid finding}} اللي يدل على حاجة لـ{{chest tube}}",
+   "الجواب {{pH below 7.2}}"
+  ],
+  "clues": [
+   [
+    "فيه {{pneumonia with effusion}}",
+    "يعني {{parapneumonic effusion}}"
+   ],
+   [
+    "تحليل السائل لسا معلق",
+    "فنبحث عن {{drainage criteria}}"
+   ],
+   [
+    "تفاصيل التقارير مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{pleural fluid pH below 7.2}} علامة {{complicated effusion}}",
+   "وهذا يستدعي {{chest tube drainage}}",
+   "ومن الدلائل الثانية {{pus}} و{{positive Gram stain}} و{{low glucose below 40 mg/dL}}"
+  ],
+  "wrong": {
+   "1": "الـ{{high glucose}} مو علامة، العلامة {{low glucose}}",
+   "2": "الـ{{negative Gram stain}} ما يستدعي {{chest tube}}",
+   "3": "الـ{{serosanguineous appearance}} ما يدل على الحاجة لـ{{tube}}"
+  },
+  "change": [
+   "لو {{pH above 7.2}} مع {{normal glucose}} فالـ{{antibiotic}} يكفي بدون {{tube}}",
+   "لو {{pus}} يعني {{empyema}} فالـ{{drainage}} ضروري"
+  ],
+  "rule": "لو {{parapneumonic effusion with pH below 7.2}} فنحتاج {{chest tube}}"
+ },
+ "Q034": {
+  "idea": [
+   "حامل بالـ{{second trimester}} فيها {{dyspnea and right leg swelling}} مع {{clear lungs and normal X-ray}}",
+   "نشك {{pulmonary embolism from DVT}} وأول فحص {{leg Doppler ultrasound}}"
+  ],
+  "clues": [
+   [
+    "فيها {{sudden dyspnea in pregnancy}}",
+    "يعني {{possible PE}}"
+   ],
+   [
+    "فيها {{unilateral leg swelling}}",
+    "يعني {{DVT}}"
+   ],
+   [
+    "الـ{{lungs clear and X-ray normal}}",
+    "فما فيه {{obvious pulmonary cause}}"
+   ],
+   [
+    "التحاليل مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{DVT signs with PE symptoms}} توجه للـ{{simplest and safest test}}",
+   "والـ{{leg Doppler}} بدون {{radiation}} و{{positive result is enough to start treatment}}",
+   "فالجواب {{Doppler ultrasonography of the legs}}"
+  ],
+  "wrong": {
+   "0": "الـ{{D-dimer}} يرتفع {{normally in pregnancy}} فما نعتمد عليه",
+   "1": "الـ{{CTPA}} فيه {{radiation}} ونستخدمه لو الـ{{Doppler}} طبيعي",
+   "2": "الـ{{V/Q scan}} بديل بس الأول {{leg exam}}"
+  },
+  "change": [
+   "لو {{Doppler normal}} مع {{strong suspicion}} فنسوي {{CTPA}} أو {{V/Q}}",
+   "لو {{unstable}} فنبدأ {{anticoagulation}} فورًا"
+  ],
+  "rule": "لو {{pregnancy with PE symptoms and leg swelling}} فالأول {{leg Doppler}}"
+ },
+ "Q035": {
+  "idea": [
+   "مريض بعد {{colectomy}} بـ٦ أيام جاه {{sudden dyspnea and hemoptysis}} و{{new RBBB on ECG}}",
+   "يعني {{pulmonary embolism}} والفحص {{CT pulmonary angiography}}"
+  ],
+  "clues": [
+   [
+    "بعد {{abdominal surgery}} بـ٦ أيام",
+    "يعني {{high risk for clots}}"
+   ],
+   [
+    "فيه {{sudden dyspnea and hemoptysis}}",
+    "يعني {{pulmonary embolism}}"
+   ],
+   [
+    "فيه {{tachycardia and new RBBB}}",
+    "يعني {{right heart strain}}"
+   ],
+   [
+    "الساقين {{without swelling}}",
+    "وهذا ما يستبعد {{PE}}"
+   ],
+   [
+    "التحاليل مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{PE probability}} عالية بعد العملية مع هالأعراض",
+   "والـ{{D-dimer}} يرتفع بعد العملية وما يفيد مع {{high risk}}",
+   "فالفحص {{CT pulmonary angiography}}"
+  ],
+  "wrong": {
+   "0": "الـ{{D-dimer}} هو {{nonspecific after surgery}} وما يستبعد مع {{high risk}}",
+   "1": "الـ{{echocardiography}} ما يؤكد التشخيص",
+   "3": "الـ{{leg Doppler}} ما يستبعد {{PE}} وما فيه {{leg signs}}"
+  },
+  "change": [
+   "لو الكلى ما تتحمل {{contrast}} فنسوي {{V/Q scan}}",
+   "لو {{unstable with right heart strain}} فنفكر {{thrombolysis}}"
+  ],
+  "rule": "لو {{high-probability PE}} فالجواب {{CT pulmonary angiography}}"
+ },
+ "Q036": {
+  "idea": [
+   "شاب فيه {{right lower lobe pneumonia}} مع {{pleural effusion 25 mm on lateral decubitus film}}",
+   "لأن {{effusion above 10 mm}} فنسوي {{diagnostic thoracentesis}}"
+  ],
+  "clues": [
+   [
+    "فيه {{right lower lobe pneumonia}}",
+    "يعني {{pneumonia}}"
+   ],
+   [
+    "فيه {{25 mm effusion on decubitus film}}",
+    "يعني {{above 10 mm}} يستاهل {{sampling}}"
+   ],
+   [
+    "هو {{non-smoker}} وبدون {{comorbidities}}",
+    "يعني {{low risk}}"
+   ],
+   [
+    "تفاصيل التقرير مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{parapneumonic effusion above 10 mm}} يحتاج {{fluid sampling}}",
+   "والتحليل يحدد لو {{complicated}} ويحتاج {{drainage}}",
+   "فالجواب {{perform diagnostic thoracentesis}}"
+  ],
+  "wrong": {
+   "1": "الـ{{anti-TB treatment}} ما له سبب عند شاب بدون {{risk factors}}",
+   "2": "الـ{{bronchoalveolar lavage}} ما له دور هنا",
+   "3": "الـ{{IV antibiotics}} ضروري بس الجواب المعتمد {{diagnostic tap first}}"
+  },
+  "change": [
+   "لو {{effusion below 10 mm}} فنكتفي بـ{{antibiotics}}",
+   "لو {{pus}} أو {{low pH}} فالـ{{drainage}}"
+  ],
+  "rule": "لو {{pneumonia with effusion above 10 mm}} فنسوي {{diagnostic thoracentesis}}"
+ },
+ "Q037": {
+  "idea": [
+   "سيدة فيها {{difficult-to-control asthma}} و{{nasal polyps}} وتاخذ {{aspirin}} و{{ibuprofen}} شبه يوميًا",
+   "يعني {{AERD}} فنوقف الأدوية ونبدأ {{montelukast}}"
+  ],
+  "clues": [
+   [
+    "فيها {{difficult asthma despite high-dose steroids}}",
+    "فما فيه سبب واضح"
+   ],
+   [
+    "فيها {{nasal polyps}}",
+    "يعني جزء من {{AERD}}"
+   ],
+   [
+    "تاخذ {{aspirin and ibuprofen}} يوميًا",
+    "يعني {{trigger}}"
+   ],
+   [
+    "تفاصيل التقرير مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن {{asthma + nasal polyps + NSAID sensitivity}} اسمها {{aspirin-exacerbated respiratory disease}}",
+   "والأدوية {{trigger symptoms}} وتصعب التحكم",
+   "فنوقف {{aspirin and ibuprofen}} ونبدأ {{montelukast}}"
+  ],
+  "wrong": {
+   "0": "الـ{{chest CT}} ما له داعي مع {{normal X-ray}}",
+   "1": "الـ{{direct laryngoscopy}} ما له داعي هنا",
+   "2": "الـ{{eosinophil count and IgE}} ما يغيّر {{most important step}}"
+  },
+  "change": [
+   "لو ما فيه {{NSAID use}} فنقيم {{other causes of difficult asthma}}",
+   "لو ما تحسن فنفكر {{biologic therapy}}"
+  ],
+  "rule": "لو {{asthma + nasal polyps + aspirin sensitivity}} فهو {{AERD}} ونوقف {{NSAIDs}} ونبدأ {{montelukast}}"
+ },
+ "Q038": {
+  "idea": [
+   "مريض فيه {{squamous cell lung cancer in right upper lobe}} بدون {{spread on PET}} ونجهزه لـ{{surgery}}",
+   "أهم خطوة {{pulmonary function tests}} لتقييم قدرة الرئة"
+  ],
+  "clues": [
+   [
+    "فيه {{squamous cell cancer in the upper lobe}}",
+    "يعني {{candidate for resection}}"
+   ],
+   [
+    "الـ{{PET}} بدون {{spread}}",
+    "يعني {{localized disease}}"
+   ],
+   [
+    "هو {{30-year smoker}}",
+    "فممكن عنده {{COPD}}"
+   ],
+   [
+    "تفاصيل التقارير مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن قبل {{lung resection}} لازم نتأكد إن {{remaining lung is sufficient}}",
+   "والـ{{PFTs}} تحدد {{ability to tolerate surgery}}",
+   "فالجواب {{pulmonary function tests}}"
+  ],
+  "wrong": {
+   "0": "الـ{{repeat PET in 3 months}} هو {{delay of treatment}}",
+   "2": "الـ{{chemotherapy}} مو {{primary treatment}} لـ{{resectable localized disease}}",
+   "3": "الـ{{radiotherapy}} لمن {{cannot tolerate surgery}}"
+  },
+  "change": [
+   "لو {{very poor lung function}} فنفكر {{radiotherapy}}",
+   "لو {{disease spread}} فالعلاج يتغير"
+  ],
+  "rule": "لو {{lung surgery planned}} فنسوي {{pulmonary function tests}} قبلها"
+ },
+ "Q039": {
+  "idea": [
+   "مدخن فيه {{increased cough, yellow sputum and exertional dyspnea}} مع {{wheeze and crackles}} يعني {{acute COPD exacerbation}}",
+   "الجواب المعتمد {{ipratropium bromide}} كـ{{first bronchodilator in ED}}"
+  ],
+  "clues": [
+   [
+    "مدخن مع {{yellow sputum and dyspnea}}",
+    "يعني {{COPD exacerbation}}"
+   ],
+   [
+    "فيه {{decreased breath sounds and crackles}}",
+    "يعني {{bronchial obstruction}}"
+   ],
+   [
+    "نبي {{first ED treatment}}",
+    "يعني {{inhaled bronchodilator}}"
+   ]
+  ],
+  "why": [
+   "لأن {{acute COPD exacerbation}} تبدأ بـ{{inhaled bronchodilators}}",
+   "والملف يختار {{ipratropium}} لأنه {{anticholinergic bronchodilator suitable for COPD}}",
+   "فالجواب {{ipratropium bromide}}"
+  ],
+  "wrong": {
+   "1": "الـ{{beclomethasone}} هو {{preventive steroid}} مو لـ{{acute attack}}",
+   "2": "الـ{{salmeterol}} هو {{long-acting bronchodilator for prevention}} مو لـ{{acute attack}}",
+   "3": "الـ{{albuterol}} ممكن يستخدم برضو مع {{ipratropium}} بس الجواب المعتمد {{ipratropium}}"
+  },
+  "change": [
+   "لو السؤال عن {{acute asthma}} فالـ{{short-acting salbutamol}} هو الأول",
+   "لو {{preventive treatment}} فنختار {{long-acting bronchodilator}}"
+  ],
+  "rule": "لو {{acute COPD exacerbation in ED}} فنبدأ {{inhaled bronchodilator}} والجواب المعتمد {{ipratropium}}"
+ },
+ "Q040": {
+  "idea": [
+   "مريضة {{RA}} على {{prednisone, methotrexate and etanercept}} جاها {{left knee pain, swelling and low-grade fever for 3 days}}",
+   "الشك الأكبر {{septic arthritis}} فنسوي {{arthrocentesis}}"
+  ],
+  "clues": [
+   [
+    "هي على {{immunosuppressants}}",
+    "يعني {{high infection risk}}"
+   ],
+   [
+    "فيها {{single knee inflammation with fever}}",
+    "فلازم نستبعد {{septic arthritis}}"
+   ],
+   [
+    "بدون {{trauma}}",
+    "فما فيه {{mechanical cause}}"
+   ],
+   [
+    "فيها {{mild inflammation in other joints}}",
+    "يعني {{usual RA activity}}"
+   ]
+  ],
+  "why": [
+   "لأن {{monoarthritis with fever on immunosuppressants}} نعتبره {{infection until proven otherwise}}",
+   "والـ{{arthrocentesis}} يشخص {{infection}} ويفرق عن {{gout}}",
+   "فالجواب {{arthrocentesis of the left knee}}"
+  ],
+  "wrong": {
+   "0": "الـ{{bone scan}} ما يشخص {{joint infection}} بسرعة",
+   "2": "الـ{{plain X-ray}} تتأخر {{changes}} ولا تؤكد",
+   "3": "الـ{{MRI}} مو {{first step}}"
+  },
+  "change": [
+   "لو السائل فيه {{pus and bacteria}} فنصرف المفصل ونعطي {{IV antibiotics}}",
+   "لو {{inflammatory fluid without bacteria}} فنفكر {{RA flare}} أو {{crystals}}"
+  ],
+  "rule": "لو {{monoarthritis with fever in immunosuppressed patient}} فنسوي {{arthrocentesis}} فورًا"
+ }
+}

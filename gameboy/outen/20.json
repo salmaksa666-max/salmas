@@ -1,0 +1,580 @@
+{
+ "Q382": {
+  "idea": [
+   "شابة بـ{{severe pain the day before menses}} تمنعها من الدوام",
+   "فنعطي {{combined hormonal contraceptive pills}}"
+  ],
+  "clues": [
+   [
+    "ألم شديد قبل الدورة",
+    "يعني {{severe primary dysmenorrhea}}"
+   ]
+  ],
+  "why": [
+   "الـ{{COC}} تمنع {{ovulation}} وتقلل {{prostaglandins}}",
+   "فيخف {{pain}} بشكل واضح",
+   "وتناسب {{young non-pregnant woman}}"
+  ],
+  "wrong": {
+   "0": "الـ{{misoprostol}} يزيد {{uterine cramping}}",
+   "1": "الـ{{paracetamol}} {{weak}} للألم الشديد",
+   "2": "الـ{{progesterone}} وحده {{not sufficient}}"
+  },
+  "change": [
+   "الـ{{NSAIDs}} هي {{first-line}}",
+   "والـ{{LNG-IUS}} بديل"
+  ],
+  "rule": "الـ{{Severe dysmenorrhea}} يعني {{COC}}"
+ },
+ "Q383": {
+  "idea": [
+   "زوجين بدون حمل {{18 months}} بعد وقف {{contraceptive pills}}",
+   "فنسوي {{infertility investigation for both}}"
+  ],
+  "clues": [
+   [
+    "{{18 months}} بدون حمل",
+    "يعني {{infertility}}"
+   ]
+  ],
+  "why": [
+   "لو {{more than 1 year of trying}}",
+   "نفحص {{both partners}}",
+   "قبل أي {{treatment}}"
+  ],
+  "wrong": {
+   "0": "الـ{{IVF}} {{too advanced}} كخطوة أولى",
+   "1": "الـ{{ovulation induction}} قبل {{diagnosis}} غير مناسب",
+   "2": "الـ{{reassurance}} والانتظار غير مناسب"
+  },
+  "change": [
+   "لو {{age 35 or older}} نفحص بعد {{6 months}}",
+   "ونبدأ بـ{{semen analysis}}"
+  ],
+  "rule": "الـ{{Infertility after 1 year}} يعني {{investigate both}}"
+ },
+ "Q384": {
+  "idea": [
+   "أم بعد {{2 weeks postpartum}} و{{exclusively breastfeeding}} وتبي {{contraception}}",
+   "فالجواب المعتمد {{COC}}"
+  ],
+  "clues": [
+   [
+    "{{2 weeks postpartum}}",
+    "مع {{breastfeeding}}"
+   ]
+  ],
+  "why": [
+   "الجواب المعتمد {{COC}}",
+   "بس {{estrogen}} ممكن يقلل {{milk supply}}",
+   "فالـ{{progestin-only methods}} أنسب"
+  ],
+  "wrong": {
+   "0": "الـ{{POP}} {{safe in breastfeeding}}",
+   "1": "الـ{{DMPA}} {{safe}}",
+   "3": "الـ{{IUD}} {{safe}}"
+  },
+  "change": [
+   "الأفضل {{progestin-only}} للمرضعة",
+   "والـ{{COC}} نبدأها بعد {{6 weeks}}"
+  ],
+  "rule": "الـ{{Breastfeeding}} يعني نفضل {{progestin-only}}",
+  "note": "الجواب حسب الملف المعتمد، وبالإرشادات الـ{{COC}} تتأخر لين {{6 weeks postpartum}} للمرضعة"
+ },
+ "Q385": {
+  "idea": [
+   "الـ{{Primigravida at 38 weeks}} بـ{{BP 170/110}} و{{proteinuria +3}}",
+   "فنبدأ {{magnesium sulfate}}"
+  ],
+  "clues": [
+   [
+    "ضغط شديد وبروتين",
+    "يعني {{severe preeclampsia}}"
+   ],
+   [
+    "{{38 weeks}}",
+    "فنولد بعد {{seizure prophylaxis}}"
+   ]
+  ],
+  "why": [
+   "نبدأ {{MgSO4}} لـ{{seizure prophylaxis}}",
+   "وبعدها نخفض {{blood pressure}}",
+   "ونخطط {{delivery}}"
+  ],
+  "wrong": {
+   "0": "الـ{{oxytocin}} ييجي بعد {{stabilization}}",
+   "1": "الـ{{methyldopa}} ما يكفي في {{severe hypertension}}",
+   "3": "الـ{{prostaglandin}} ييجي بعد {{stabilization}}"
+  },
+  "change": [
+   "نعطي {{labetalol}} لـ{{severe BP}}",
+   "ونراقب {{magnesium toxicity}}"
+  ],
+  "rule": "الـ{{Severe preeclampsia}} يعني {{MgSO4}}"
+ },
+ "Q386": {
+  "idea": [
+   "حامل {{33 weeks}} بـ{{severe preeclampsia}}",
+   "فالدواء {{magnesium sulfate}} لمنع {{eclampsia}}"
+  ],
+  "clues": [
+   [
+    "{{severe preeclampsia}}",
+    "نحتاج {{eclampsia prophylaxis}}"
+   ]
+  ],
+  "why": [
+   "الـ{{MgSO4}} هو {{drug of choice}} لمنع {{seizures}}",
+   "وهو {{more effective than diazepam and phenytoin}}",
+   "وهو الخيار القياسي"
+  ],
+  "wrong": {
+   "0": "الـ{{diazepam}} {{less effective}} من {{MgSO4}}",
+   "1": "الـ{{phenytoin}} {{less effective}} من {{MgSO4}}",
+   "2": "الـ{{valproic acid}} {{teratogenic}} بالحمل"
+  },
+  "change": [
+   "نراقب {{reflexes}} و{{respiratory rate}}",
+   "والـ{{calcium gluconate}} هو {{antidote}}"
+  ],
+  "rule": "الـ{{Severe preeclampsia}} يعني {{MgSO4}}"
+ },
+ "Q387": {
+  "idea": [
+   "حامل {{35 weeks}} بـ{{headache and blurred vision and abdominal pain}} و{{early labor}}",
+   "فنبدأ {{MgSO4}}"
+  ],
+  "clues": [
+   [
+    "صداع وزغللة وألم بطن",
+    "يعني {{severe features}}"
+   ],
+   [
+    "{{contractions every 2 minutes}}",
+    "يعني {{active labor}} ونولد"
+   ]
+  ],
+  "why": [
+   "هذي علامات {{severe preeclampsia}}",
+   "فنبدأ {{MgSO4}} للحماية من {{seizures}}",
+   "ونخطط {{delivery}}"
+  ],
+  "wrong": {
+   "0": "الـ{{discharge}} خطر",
+   "2": "الـ{{dexamethasone}} مو {{priority}} عند {{35 weeks}}",
+   "3": "الـ{{reassurance}} خطر"
+  },
+  "change": [
+   "نعطي {{antihypertensive}} لو {{severe BP}}",
+   "ونراقب {{fetal status}}"
+  ],
+  "rule": "الـ{{Severe features}} مع {{preeclampsia}} يعني {{MgSO4}}"
+ },
+ "Q388": {
+  "idea": [
+   "حامل {{32 weeks}} بـ{{GDM on insulin}} وغير ملتزمة و{{fundal height 38 cm}}",
+   "فالسبب {{polyhydramnios}}"
+  ],
+  "clues": [
+   [
+    "{{GDM}} غير منضبط",
+    "يعني {{polyhydramnios}} و{{macrosomia}}"
+   ],
+   [
+    "رحم أكبر من العمر",
+    "يعني {{large for dates}}"
+   ]
+  ],
+  "why": [
+   "الـ{{uncontrolled maternal hyperglycemia}} تسبب {{polyhydramnios}}",
+   "وتزيد {{fetal size}}",
+   "فيكبر {{fundal height}}"
+  ],
+  "wrong": {
+   "0": "الـ{{hydrocephalus}} ما له علاقة والـ{{anatomy scan normal}}",
+   "2": "الـ{{twins}} كان ظهر بالـ{{20-week scan}}",
+   "3": "الـ{{breech}} ما يغير {{fundal height}}"
+  },
+  "change": [
+   "نضبط {{blood glucose}}",
+   "ونراقب {{AFI}}"
+  ],
+  "rule": "الـ{{Uncontrolled GDM}} مع {{large fundal height}} يعني {{polyhydramnios}}"
+ },
+ "Q389": {
+  "idea": [
+   "سيدة ما تعرف {{LMP}}",
+   "فأدق طريقة {{crown-rump length}}"
+  ],
+  "clues": [
+   [
+    "{{LMP}} مجهول",
+    "فنحتاج {{ultrasound dating}}"
+   ]
+  ],
+  "why": [
+   "الـ{{CRL}} هو {{most accurate dating method}} بالثلث الأول",
+   "و{{margin of error}} حوالي {{5 to 7 days}}",
+   "فنعتمد عليه"
+  ],
+  "wrong": {
+   "0": "الـ{{serum estradiol}} غير دقيق للتأريخ",
+   "2": "الـ{{quantitative hCG}} غير دقيق للتأريخ",
+   "3": "الـ{{uterine size on pelvic exam}} غير دقيق"
+  },
+  "change": [
+   "الـ{{BPD}} نستخدمه بالثلث الثاني",
+   "ونعدل {{EDD}}"
+  ],
+  "rule": "الـ{{Unknown LMP}} يعني {{CRL}}"
+ },
+ "Q390": {
+  "idea": [
+   "سيدة مرضعة ما تتذكر {{LMP}}",
+   "فأعلى قيمة تشخيصية {{CRL}}"
+  ],
+  "clues": [
+   [
+    "مرضعة",
+    "يعني {{LMP unreliable}}"
+   ]
+  ],
+  "why": [
+   "الـ{{CRL}} أدق قياس بالثلث الأول",
+   "وهو الأفضل لـ{{dating}}",
+   "والباقي {{second trimester parameters}}"
+  ],
+  "wrong": {
+   "0": "الـ{{femur length}} {{less accurate}}",
+   "1": "الـ{{BPD}} {{less accurate}}",
+   "3": "الـ{{abdominal circumference}} {{less accurate}}"
+  },
+  "change": [
+   "نصحح {{EDD}}",
+   "ونكرر {{ultrasound}} لو لزم"
+  ],
+  "rule": "الـ{{Pregnancy dating by US}} يعني {{CRL}}"
+ },
+ "Q391": {
+  "idea": [
+   "سيدة {{29-year-old}} بـ{{obesity and diabetes}} ودورة كل {{3-4 months}} و{{heavy bleeding}}",
+   "فالتشخيص {{chronic anovulation}}"
+  ],
+  "clues": [
+   [
+    "دورات كل {{3-4 months}}",
+    "يعني {{anovulation}}"
+   ],
+   [
+    "{{obesity and diabetes}}",
+    "يعني {{PCOS}} محتمل"
+   ]
+  ],
+  "why": [
+   "الـ{{anovulation}} تسبب {{endometrial hyperplasia}}",
+   "فيصير {{heavy bleeding}}",
+   "بعد {{prolonged amenorrhea}}"
+  ],
+  "wrong": {
+   "0": "الـ{{fibroids}} غالبًا مع {{regular heavy periods}}",
+   "1": "الـ{{bleeding disorder}} يبدأ من أول دورة",
+   "2": "الـ{{abortion}} مستبعد لأن {{hCG negative}}"
+  },
+  "change": [
+   "نعطي {{progestin}} لوقف النزف",
+   "ونفحص {{endometrium}}"
+  ],
+  "rule": "الـ{{Infrequent cycles with heavy bleeding}} يعني {{anovulation}}"
+ },
+ "Q392": {
+  "idea": [
+   "حامل {{8 weeks}} بـ{{missed abortion}}",
+   "فالعلاج {{misoprostol}}"
+  ],
+  "clues": [
+   [
+    "{{missed abortion}}",
+    "بدون {{bleeding}}"
+   ]
+  ],
+  "why": [
+   "الـ{{misoprostol}} يفرغ الرحم {{medically}}",
+   "وهو بديل {{surgical evacuation}}",
+   "ونتابع النتيجة"
+  ],
+  "wrong": {
+   "1": "الـ{{hysterectomy}} {{not justified}}",
+   "2": "الـ{{methotrexate}} لـ{{ectopic pregnancy}}",
+   "3": "الـ{{hypertonic saline}} {{historical}} وما نستخدمه"
+  },
+  "change": [
+   "الـ{{D&C}} بديل",
+   "ونعطي {{anti-D}} لو {{Rh negative}}"
+  ],
+  "rule": "الـ{{Missed abortion}} يعني {{misoprostol}}"
+ },
+ "Q393": {
+  "idea": [
+   "شابة بـ{{dysuria and suprapubic pain}} بدون {{fever}}",
+   "فنبدأ {{empiric treatment}}"
+  ],
+  "clues": [
+   [
+    "أعراض {{cystitis}}",
+    "يعني {{uncomplicated UTI}}"
+   ],
+   [
+    "نتايج التحاليل (مو موجودة بالبطاقة)",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{uncomplicated cystitis}} نعالجه مباشرة",
+   "بدون انتظار {{culture}}",
+   "لأنه {{common}} و{{clear clinically}}"
+  ],
+  "wrong": {
+   "0": "الـ{{no treatment}} يطول الأعراض",
+   "2": "الـ{{waiting for culture}} غير ضروري",
+   "3": "الـ{{hydration and cranberry juice}} ما تكفي"
+  },
+  "change": [
+   "نعطي {{nitrofurantoin}}",
+   "ونسوي {{urine culture}} لو {{recurrent}}"
+  ],
+  "rule": "الـ{{cystitis}} الواضح يعني {{empiric treatment}}"
+ },
+ "Q394": {
+  "idea": [
+   "الـ{{Primigravida at 30 weeks}} بـ{{preterm labor}} و{{cervix 2 cm dilated}}",
+   "فنعطي {{dexamethasone}} و{{nifedipine}} و{{GBS prophylaxis}}"
+  ],
+  "clues": [
+   [
+    "{{regular contractions}} مع تمدد",
+    "يعني {{preterm labor}}"
+   ],
+   [
+    "{{30 weeks}}",
+    "يستفيد من {{antenatal steroids}}"
+   ]
+  ],
+  "why": [
+   "نؤخر الولادة بـ{{tocolytic}}",
+   "ونعطي {{steroids}} لـ{{fetal lung maturity}}",
+   "و{{GBS prophylaxis}} للوقاية"
+  ],
+  "wrong": {
+   "0": "الـ{{anticipating delivery}} بدون علاج يضيع الفرصة",
+   "1": "الجواب ناقص لأنه ما فيه {{tocolytic}}",
+   "3": "هذا ما هو {{threatened}} لأن {{cervix dilated}}"
+  },
+  "change": [
+   "نضيف {{MgSO4}} لـ{{neuroprotection}}",
+   "ونحول لمركز فيه {{NICU}}"
+  ],
+  "rule": "الـ{{Preterm labor}} يعني {{steroids}} و{{tocolytic}} و{{GBS prophylaxis}}"
+ },
+ "Q395": {
+  "idea": [
+   "حامل {{30 weeks}} بـ{{regular contractions}}",
+   "فنشخص بـ{{digital cervical exam}}"
+  ],
+  "clues": [
+   [
+    "{{regular contractions}}",
+    "فنحتاج {{cervical change}}"
+   ]
+  ],
+  "why": [
+   "التشخيص يحتاج {{cervical change}}",
+   "فنفحص {{cervical dilation}}",
+   "والـ{{CTG}} وحده ما يكفي"
+  ],
+  "wrong": {
+   "1": "الـ{{history only}} ما يكفي للتشخيص",
+   "2": "الـ{{regular contractions on CTG}} وحدها ما تشخص",
+   "3": "غياب {{leaking}} ما ينفي {{preterm labor}}"
+  },
+  "change": [
+   "نفحص {{fFN}} و{{cervical length}}",
+   "ونراقب"
+  ],
+  "rule": "الـ{{Preterm labor}} يعني {{cervical change}}"
+ },
+ "Q396": {
+  "idea": [
+   "توأم {{MCDA}}",
+   "فالانقسام بعد {{4-8 days}}"
+  ],
+  "clues": [
+   [
+    "{{monochorionic diamniotic}}",
+    "يعني {{later cleavage}}"
+   ]
+  ],
+  "why": [
+   "الـ{{DCDA}} هو {{0-3 days}}",
+   "والـ{{MCDA}} هو {{4-8 days}}",
+   "والـ{{MCMA}} هو {{9-12 days}}"
+  ],
+  "wrong": {
+   "0": "فترة {{0-3 days}} يعني {{DCDA}}",
+   "2": "فترة {{9-12 days}} يعني {{MCMA}}",
+   "3": "فترة {{more than 12 days}} يعني {{conjoined twins}}"
+  },
+  "change": [
+   "بعد {{12 days}} يصير {{conjoined twins}}",
+   "ونراقب {{TTTS}}"
+  ],
+  "rule": "الـ{{MCDA}} يعني {{4-8 days}}"
+ },
+ "Q397": {
+  "idea": [
+   "توأم {{MCMA}}",
+   "فالانقسام بعد {{9-12 days}}"
+  ],
+  "clues": [
+   [
+    "{{monochorionic monoamniotic}}",
+    "يعني {{later cleavage}}"
+   ]
+  ],
+  "why": [
+   "الـ{{MCMA}} هو {{9-12 days}}",
+   "وبعد {{12 days}} يصير {{conjoined}}",
+   "وقبلها {{MCDA}} و{{DCDA}}"
+  ],
+  "wrong": {
+   "0": "فترة {{0-3 days}} يعني {{DCDA}}",
+   "1": "فترة {{4-8 days}} يعني {{MCDA}}",
+   "3": "فترة {{more than 12 days}} يعني {{conjoined twins}}"
+  },
+  "change": [
+   "الـ{{MCMA}} فيه {{cord entanglement risk}}",
+   "ويحتاج {{early delivery}}"
+  ],
+  "rule": "الـ{{MCMA}} يعني {{9-12 days}}"
+ },
+ "Q398": {
+  "idea": [
+   "توأم {{DCDA}}",
+   "فالانقسام بعد {{0-72 hours}}"
+  ],
+  "clues": [
+   [
+    "{{dichorionic diamniotic}}",
+    "يعني {{early cleavage}}"
+   ]
+  ],
+  "why": [
+   "الانقسام المبكر {{before implantation}}",
+   "يعطي {{two placentas and two sacs}}",
+   "وهذا هو {{DCDA}}"
+  ],
+  "wrong": {
+   "1": "فترة {{4-8 days}} يعني {{MCDA}}",
+   "2": "فترة {{9-12 days}} يعني {{MCMA}}",
+   "3": "فترة {{more than 12 days}} يعني {{conjoined twins}}"
+  },
+  "change": [
+   "الـ{{risks}} أقل",
+   "ونراقب {{fetal growth}}"
+  ],
+  "rule": "الـ{{DCDA}} يعني {{0-72 hours}}"
+ },
+ "Q399": {
+  "idea": [
+   "سيدة بـ{{hypertension}} على {{ACE inhibitor}} وتخطط للحمل",
+   "فنبدل لـ{{alternative antihypertensive}}"
+  ],
+  "clues": [
+   [
+    "{{ACEI}}",
+    "يعني {{fetal renal toxicity}}"
+   ]
+  ],
+  "why": [
+   "الـ{{ACE inhibitors}} تسبب {{fetal kidney teratogenicity}}",
+   "فنبدلها قبل الحمل",
+   "بدواء {{safe in pregnancy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{ACEI}} ما هي {{safe}} بالحمل",
+   "1": "الـ{{benefit}} ما يبرر {{fetal risk}}",
+   "2": "ما نمنع الحمل بل نبدل الدواء"
+  },
+  "change": [
+   "الـ{{labetalol}} أو {{nifedipine}}",
+   "وكمان {{methyldopa}}"
+  ],
+  "rule": "الـ{{ACEI in pregnancy}} يعني {{switch}}"
+ },
+ "Q400": {
+  "idea": [
+   "حامل {{39 weeks}} بـ{{headache and blurred vision}} مع تحاليل",
+   "فندخلها {{for delivery}}"
+  ],
+  "clues": [
+   [
+    "{{39 weeks}}",
+    "يعني {{term}}"
+   ],
+   [
+    "صداع وزغللة",
+    "يعني {{severe features}}"
+   ],
+   [
+    "نتايج التحاليل (مو موجودة بالبطاقة)",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{preeclampsia}} بعد {{37 weeks}}",
+   "نولد",
+   "وما ننتظر"
+  ],
+  "wrong": {
+   "1": "الـ{{observation and repeat testing}} ما تناسب",
+   "2": "الـ{{antihypertensive only}} ما يكفي",
+   "3": "الـ{{consultation}} تأخر التوليد"
+  },
+  "change": [
+   "نعطي {{MgSO4}}",
+   "ونحدد {{mode of delivery}}"
+  ],
+  "rule": "الـ{{preeclampsia at term}} يعني {{delivery}}",
+  "note": "التحاليل غير موجودة بالبطاقة؛ الجواب حسب الملف المعتمد"
+ },
+ "Q401": {
+  "idea": [
+   "مراهقة بـ{{inevitable abortion}} ثم {{severe bleeding}} و{{loss of consciousness}}",
+   "فنسوي {{urgent D&C}}"
+  ],
+  "clues": [
+   [
+    "نزف شديد",
+    "يعني {{unstable}}"
+   ],
+   [
+    "{{inevitable abortion}}",
+    "يعني نحتاج {{evacuation}}"
+   ]
+  ],
+  "why": [
+   "لو {{severe bleeding with instability}}",
+   "نحتاج {{immediate surgical evacuation}}",
+   "عشان نوقف {{bleeding}}"
+  ],
+  "wrong": {
+   "0": "الـ{{observation}} خطر",
+   "1": "الـ{{misoprostol}} {{too slow}}",
+   "2": "الـ{{methotrexate}} غير مناسب"
+  },
+  "change": [
+   "نعطي {{IV fluids and blood}}",
+   "ونعطي {{uterotonics}}"
+  ],
+  "rule": "الـ{{Abortion with severe bleeding}} يعني {{urgent D&C}}"
+ }
+}

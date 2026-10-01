@@ -1,0 +1,595 @@
+{
+ "Q302": {
+  "idea": [
+   "حامل {{33 weeks}} فيها {{painless vaginal bleeding with clots}} و{{placenta covering the internal os}}",
+   "فالجواب عامل الخطر {{multiple gestation}}"
+  ],
+  "clues": [
+   [
+    "لو {{painless bleeding}}",
+    "يعني {{placenta previa}}"
+   ],
+   [
+    "لو {{placenta covering the os}}",
+    "يعني تأكيد {{previa}}"
+   ]
+  ],
+  "why": [
+   "الـ{{multiple gestation}} يعطي {{larger placental surface area}}",
+   "فيرتفع {{risk of previa}}",
+   "وهذا عامل الخطر الوارد هنا"
+  ],
+  "wrong": {
+   "0": "الـ{{diabetes}} عامل خطر لـ{{macrosomia}} مو {{previa}}",
+   "1": "الـ{{hypertension}} عامل خطر لـ{{placental abruption}}",
+   "3": "الـ{{chronic pelvic pain}} ما له علاقة بـ{{previa}}"
+  },
+  "change": [
+   "عوامل ثانية {{previous cesarean}} و{{smoking}}",
+   "ونعمل {{ultrasound}} للتأكيد"
+  ],
+  "rule": "الـ{{Painless bleeding}} مع {{multiple gestation}} يعني {{placenta previa}}"
+ },
+ "Q303": {
+  "idea": [
+   "مشيمة {{adherent}} تُركت داخل الرحم مع {{methotrexate}}",
+   "فالمضاعفة الأشهر {{infection}}"
+  ],
+  "clues": [
+   [
+    "لو {{retained adherent placenta}}",
+    "يعني {{tissue left in the uterus}}"
+   ],
+   [
+    "لو {{methotrexate}}",
+    "يعني {{conservative management}}"
+   ]
+  ],
+  "why": [
+   "ترك {{retained placental tissue}} داخل الرحم",
+   "يعرضها لـ{{infection}}",
+   "وهذي أشهر مضاعفة لهذا العلاج"
+  ],
+  "wrong": {
+   "1": "الـ{{bleeding}} ممكن بس {{infection}} أشهر",
+   "2": "الـ{{uterovaginal fistula}} {{rare}}",
+   "3": "الـ{{DIC}} {{rare}}"
+  },
+  "change": [
+   "نعطي {{antibiotics}}",
+   "ونتابع {{serum hCG}}"
+  ],
+  "rule": "الـ{{Retained placenta}} يعني خطر {{infection}}"
+ },
+ "Q304": {
+  "idea": [
+   "سيدة بعد {{myomectomy}} لـ{{subserosal fibroids}} مع {{entry into the endometrial cavity}}",
+   "والجواب {{risk of accreta not affected}}"
+  ],
+  "clues": [
+   [
+    "لو {{subserosal fibroids}}",
+    "يعني بعيدة عن {{cavity}}"
+   ]
+  ],
+  "why": [
+   "حسب الجواب المعتمد {{the risk is not affected}}",
+   "لأن الورم {{subserosal}}",
+   "فدخول الجوف ما يغيّر الخطر هنا"
+  ],
+  "wrong": {
+   "0": "الـ{{increase}} غير مثبتة",
+   "1": "الـ{{decrease}} ما لها منطق",
+   "2": "الـ{{unknown}} لأن المعلومة معروفة"
+  },
+  "change": [
+   "عادة {{myomectomy with cavity entry}} يرفع {{risk of uterine rupture}}",
+   "فنخطط لـ{{cesarean delivery}}"
+  ],
+  "rule": "الـ{{Myomectomy for subserosal fibroids}} ما يغيّر {{risk of accreta}}",
+  "note": "الجواب حسب الملف المعتمد، وبعض المراجع تربط {{cavity entry}} بزيادة {{placental complications}}"
+ },
+ "Q305": {
+  "idea": [
+   "سيدة {{ruptured ectopic}} و{{vital signs normal}}",
+   "فأبكر مؤشر {{tachycardia}}"
+  ],
+  "clues": [
+   [
+    "لو {{ruptured ectopic}}",
+    "يعني {{internal bleeding}}"
+   ],
+   [
+    "لو {{normal vitals}}",
+    "يعني {{early bleeding}}"
+   ]
+  ],
+  "why": [
+   "أبكر استجابة للنزف هي {{tachycardia}}",
+   "وبعدها {{hypotension}}",
+   "و{{hypotension}} علامة متأخرة"
+  ],
+  "wrong": {
+   "0": "الـ{{tachypnea}} علامة متأخرة",
+   "2": "الـ{{hypotension}} علامة متأخرة",
+   "3": "الـ{{decreased urine output}} علامة متأخرة"
+  },
+  "change": [
+   "نفتح {{two IV lines}}",
+   "ونجهز {{blood}}"
+  ],
+  "rule": "الـ{{tachycardia}} أول علامة لـ{{ongoing bleeding}}"
+ },
+ "Q306": {
+  "idea": [
+   "حامل {{12 weeks}} وطلبت {{renal function tests}}",
+   "فالمتوقع {{decreased serum creatinine}}"
+  ],
+  "clues": [
+   [
+    "لو {{pregnancy}}",
+    "يعني {{increased GFR}}"
+   ]
+  ],
+  "why": [
+   "الـ{{GFR}} يرتفع بالحمل",
+   "فينخفض {{creatinine}} و{{BUN}}",
+   "وهذا {{physiologic}}"
+  ],
+  "wrong": {
+   "1": "الـ{{sodium}} ما يرتفع",
+   "2": "الـ{{BUN}} ينخفض مو يرتفع",
+   "3": "الـ{{BUN}} يتأثر وينخفض"
+  },
+  "change": [
+   "الـ{{creatinine 0.8 mg/dL}} ممكن يكون {{high for pregnancy}}",
+   "ونتابع {{renal function}}"
+  ],
+  "rule": "الحمل يعني {{decreased creatinine}}"
+ },
+ "Q307": {
+  "idea": [
+   "جنين {{head in the fundus}} و{{hips flexed}} و{{knees extended}}",
+   "فالجواب {{frank breech}}"
+  ],
+  "clues": [
+   [
+    "لو {{hips flexed with knees extended}}",
+    "يعني {{frank breech}}"
+   ]
+  ],
+  "why": [
+   "الـ{{frank breech}} فيه {{hips flexed and knees extended}}",
+   "وفي {{complete breech}} الـ{{knees flexed}}",
+   "وفي {{footling}} القدم تنزل أول"
+  ],
+  "wrong": {
+   "1": "الـ{{complete}} فيه {{knees flexed}}",
+   "2": "الـ{{compound}} يعني {{limb with the presenting part}}",
+   "3": "الـ{{incomplete}} وصف ثاني"
+  },
+  "change": [
+   "نعرض {{ECV}}",
+   "ونقيّم {{cesarean delivery}}"
+  ],
+  "rule": "الـ{{Hips flexed with knees extended}} يعني {{frank breech}}"
+ },
+ "Q308": {
+  "idea": [
+   "حامل {{28 weeks}} بدون {{fetal heart activity}} و{{fundal height 18 weeks}}",
+   "فالتشخيص {{fetal demise}}"
+  ],
+  "clues": [
+   [
+    "لو {{28 weeks}}",
+    "يعني {{more than 20 weeks}}"
+   ],
+   [
+    "لو {{no fetal heart activity}}",
+    "يعني {{fetal death}}"
+   ]
+  ],
+  "why": [
+   "الوفاة بعد {{20 weeks}} اسمها {{fetal demise}}",
+   "وقبلها اسمها {{missed abortion}}",
+   "فنختار {{fetal demise}}"
+  ],
+  "wrong": {
+   "1": "الـ{{missed abortion}} يكون قبل {{20 weeks}}",
+   "2": "الـ{{incomplete abortion}} فيه {{passage of tissue}}",
+   "3": "الـ{{GTD}} فيه {{bleeding and larger uterus}}"
+  },
+  "change": [
+   "نعمل {{induction of labor}}",
+   "ونبحث عن {{cause}}"
+  ],
+  "rule": "الـ{{Fetal death after 20 weeks}} يعني {{fetal demise}}"
+ },
+ "Q309": {
+  "idea": [
+   "سيدة {{ovarian cyst}} مع {{sudden severe pain}} و{{decreased Doppler flow}}",
+   "فالتشخيص {{torsion}} ونعمل {{laparoscopy}}"
+  ],
+  "clues": [
+   [
+    "لو {{sudden pain with nausea}}",
+    "يعني {{ovarian torsion}}"
+   ],
+   [
+    "لو {{decreased flow}}",
+    "يعني {{suspicion}} للتأكيد"
+   ]
+  ],
+  "why": [
+   "الـ{{torsion}} {{surgical emergency}}",
+   "نحافظ على المبيض بـ{{detorsion}}",
+   "ونعمل {{cystectomy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{conservative management}} يسبب {{necrosis}}",
+   "1": "الـ{{repeat ultrasound}} انتظار خطر",
+   "3": "الـ{{drainage}} ما يكفي"
+  },
+  "change": [
+   "لو {{necrosis}} نعمل {{oophorectomy}}",
+   "وممكن {{oophoropexy}}"
+  ],
+  "rule": "الـ{{torsion}} يعني {{urgent laparoscopy}}"
+ },
+ "Q310": {
+  "idea": [
+   "سيدة {{55 years}} {{postmenopausal}} على {{conjugated estrogen}} مع {{on-and-off bleeding}}",
+   "فنضيف {{progesterone}}"
+  ],
+  "clues": [
+   [
+    "لو {{unopposed estrogen}}",
+    "يعني {{endometrial hyperplasia}}"
+   ],
+   [
+    "لو {{intermittent bleeding}}",
+    "يعني علامة تحذير"
+   ]
+  ],
+  "why": [
+   "الـ{{estrogen alone}} يسبب {{endometrial hyperplasia}}",
+   "فنضيف {{progesterone}}",
+   "عشان {{endometrial protection}}"
+  ],
+  "wrong": {
+   "1": "الـ{{stopping estrogen}} ممكن بس مو المطلوب",
+   "2": "الـ{{OCP}} مو مناسبة",
+   "3": "الـ{{IUD}} مو مناسب"
+  },
+  "change": [
+   "نقيّم النزف بـ{{ultrasound}}",
+   "ونعمل {{endometrial biopsy}} لو استمر"
+  ],
+  "rule": "الـ{{estrogen}} مع {{intact uterus}} يحتاج {{progesterone}}"
+ },
+ "Q311": {
+  "idea": [
+   "سيدة {{33 years}} فيها {{incidental subserosal fibroid 5 cm}}",
+   "فالجواب {{conservative management}}"
+  ],
+  "clues": [
+   [
+    "لو {{incidental finding}}",
+    "يعني {{asymptomatic}}"
+   ]
+  ],
+  "why": [
+   "الـ{{asymptomatic fibroid}} ما يحتاج علاج",
+   "فنعمل {{observation}}",
+   "ونتدخل لو ظهرت {{symptoms}}"
+  ],
+  "wrong": {
+   "1": "الـ{{myomectomy}} لو فيه {{symptoms}}",
+   "2": "الـ{{OCP}} لو فيه {{bleeding}}",
+   "3": "الـ{{UAE}} لو فيه {{symptoms}}"
+  },
+  "change": [
+   "لو {{bleeding}} نعطي علاج دوائي",
+   "لو {{pressure symptoms}} نعمل جراحة"
+  ],
+  "rule": "الـ{{asymptomatic fibroid}} يعني {{observation}}"
+ },
+ "Q312": {
+  "idea": [
+   "سيدة {{heavy menstrual bleeding}} مع {{firm fundal mass}}",
+   "فنطلب {{pelvic ultrasound}}"
+  ],
+  "clues": [
+   [
+    "لو {{firm fundal mass}}",
+    "يعني {{fibroid}}"
+   ]
+  ],
+  "why": [
+   "الـ{{ultrasound}} أول {{imaging}}",
+   "لأنه {{cheap and safe}}",
+   "و{{sufficient}} هنا"
+  ],
+  "wrong": {
+   "0": "الـ{{MRI}} للحالات {{complex}}",
+   "1": "الـ{{CT}} مو مناسب",
+   "3": "الـ{{biopsy}} مو ضروري"
+  },
+  "change": [
+   "لو غامض نعمل {{MRI}}",
+   "ونقيس {{Hb}}"
+  ],
+  "rule": "الـ{{Uterine mass}} يعني {{pelvic ultrasound}} أول"
+ },
+ "Q313": {
+  "idea": [
+   "حمل {{7 weeks}} مع {{passage of tissue}} و{{mild bleeding}} و{{closed cervix}}",
+   "فالجواب {{complete abortion}}"
+  ],
+  "clues": [
+   [
+    "لو {{passage of tissue}}",
+    "يعني خرج الحمل"
+   ],
+   [
+    "لو {{closed cervix with mild bleeding}}",
+    "يعني {{complete}}"
+   ]
+  ],
+  "why": [
+   "الـ{{closed cervix}} مع {{mild bleeding}} بعد {{passage of tissue}}",
+   "يعني {{complete abortion}}",
+   "ونؤكد بـ{{ultrasound}}"
+  ],
+  "wrong": {
+   "1": "الـ{{inevitable}} فيه {{open cervix}}",
+   "2": "الـ{{threatened}} بدون {{passage of tissue}}",
+   "3": "الـ{{incomplete}} فيه {{open cervix}}"
+  },
+  "change": [
+   "نأكد بـ{{ultrasound}}",
+   "ونتابع"
+  ],
+  "rule": "الـ{{Passage of tissue with closed cervix}} يعني {{complete abortion}}"
+ },
+ "Q314": {
+  "idea": [
+   "حمل {{7 weeks}} مع {{mild bleeding}} و{{closed cervix}} و{{viable pregnancy}}",
+   "فالجواب {{threatened abortion}}"
+  ],
+  "clues": [
+   [
+    "لو {{mild bleeding with closed cervix}}",
+    "يعني {{threatened}}"
+   ],
+   [
+    "لو {{viable fetus}}",
+    "يعني الحمل مستمر"
+   ]
+  ],
+  "why": [
+   "الحمل {{viable}} مع {{mild bleeding}} و{{closed cervix}}",
+   "فهذا {{threatened abortion}}",
+   "وما فيه علاج يغيّر النتيجة"
+  ],
+  "wrong": {
+   "0": "الـ{{missed}} فيه {{no cardiac activity}}",
+   "1": "الـ{{inevitable}} فيه {{open cervix}}",
+   "3": "الـ{{incomplete}} فيه {{retained tissue}}"
+  },
+  "change": [
+   "نطمّن المريضة",
+   "ونتابع"
+  ],
+  "rule": "الـ{{Bleeding with closed cervix and viable fetus}} يعني {{threatened abortion}}"
+ },
+ "Q315": {
+  "idea": [
+   "مراهقة {{9 weeks}} مع {{mild bleeding}} و{{closed cervix}} و{{positive embryonic heartbeat}}",
+   "فالجواب {{threatened abortion}}"
+  ],
+  "clues": [
+   [
+    "لو {{positive heartbeat}}",
+    "يعني {{viable fetus}}"
+   ],
+   [
+    "لو {{closed cervix}}",
+    "يعني {{threatened}}"
+   ]
+  ],
+  "why": [
+   "الـ{{fetal heartbeat}} موجود مع {{mild bleeding}}",
+   "و{{closed cervix}}",
+   "فهذا {{threatened abortion}}"
+  ],
+  "wrong": {
+   "0": "الـ{{septic}} فيه {{fever}}",
+   "1": "الـ{{missed}} فيه {{no heartbeat}}",
+   "2": "الـ{{inevitable}} فيه {{open cervix}}"
+  },
+  "change": [
+   "نتابع",
+   "ونعطي {{supportive care}}"
+  ],
+  "rule": "الـ{{Bleeding with heartbeat and closed cervix}} يعني {{threatened abortion}}"
+ },
+ "Q316": {
+  "idea": [
+   "حمل {{7 weeks}} مع {{cramps and bleeding}} و{{open cervix}} و{{viable fetus}}",
+   "فالجواب {{inevitable abortion}}"
+  ],
+  "clues": [
+   [
+    "لو {{open cervix}}",
+    "يعني {{abortion cannot be stopped}}"
+   ],
+   [
+    "لو {{viable fetus}}",
+    "يعني ما خرج الحمل بعد"
+   ]
+  ],
+  "why": [
+   "الـ{{open cervix}} مع {{bleeding and cramps}}",
+   "يعني {{inevitable abortion}}",
+   "والحمل ما خرج بعد"
+  ],
+  "wrong": {
+   "0": "الـ{{missed}} فيه {{closed cervix}}",
+   "2": "الـ{{incomplete}} فيه {{partial passage of tissue}}",
+   "3": "الـ{{threatened}} فيه {{closed cervix}}"
+  },
+  "change": [
+   "نتدخل",
+   "ونأكد بـ{{ultrasound}}"
+  ],
+  "rule": "الـ{{Open cervix with viable pregnancy}} يعني {{inevitable abortion}}"
+ },
+ "Q317": {
+  "idea": [
+   "حمل مع {{passage of tissue}} و{{open cervix}} و{{intrauterine tissue}}",
+   "فالجواب {{incomplete abortion}}"
+  ],
+  "clues": [
+   [
+    "لو {{passage of tissue with open cervix}}",
+    "يعني {{not complete}}"
+   ],
+   [
+    "لو {{intrauterine tissue}}",
+    "يعني {{incomplete}}"
+   ]
+  ],
+  "why": [
+   "خرج جزء وبقي جزء",
+   "فهذا {{incomplete abortion}}",
+   "ويحتاج {{evacuation}}"
+  ],
+  "wrong": {
+   "0": "الـ{{complete}} بدون {{retained tissue}}",
+   "1": "الـ{{inevitable}} بدون {{passage of tissue}}",
+   "3": "الـ{{threatened}} بدون {{passage of tissue}}"
+  },
+  "change": [
+   "نعمل {{uterine evacuation}}",
+   "ونعطي {{misoprostol}}"
+  ],
+  "rule": "الـ{{Retained tissue with open cervix}} يعني {{incomplete abortion}}"
+ },
+ "Q318": {
+  "idea": [
+   "حمل {{7 weeks}} مع {{moderate bleeding}} و{{3x4 cm tissue}} و{{open cervix}}",
+   "فنعمل {{evacuation of the uterine cavity}}"
+  ],
+  "clues": [
+   [
+    "لو {{intrauterine tissue}}",
+    "يعني {{incomplete abortion}}"
+   ],
+   [
+    "لو {{moderate bleeding}}",
+    "يعني نحتاج تدخل"
+   ]
+  ],
+  "why": [
+   "الـ{{incomplete abortion}} مع {{bleeding}} يحتاج {{evacuation}}",
+   "عشان {{stop the bleeding}}",
+   "و{{prevent infection}}"
+  ],
+  "wrong": {
+   "0": "الـ{{conservative}} ما يكفي مع {{moderate bleeding}}",
+   "1": "الـ{{IV oxytocin}} ما يكفي",
+   "2": "الـ{{IM methergine}} ما يكفي"
+  },
+  "change": [
+   "لو {{stable}} ممكن {{misoprostol}}",
+   "ونفحص {{Rh status}}"
+  ],
+  "rule": "الـ{{Incomplete abortion with bleeding}} يعني {{uterine evacuation}}"
+ },
+ "Q319": {
+  "idea": [
+   "حمل {{7 weeks}} مع {{mild bleeding}} و{{closed cervix}} و{{viable pregnancy}}",
+   "فالجواب {{conservative management}}"
+  ],
+  "clues": [
+   [
+    "لو {{threatened abortion}}",
+    "يعني {{viable pregnancy}}"
+   ]
+  ],
+  "why": [
+   "ما فيه علاج يمنع {{abortion}}",
+   "فنعمل {{expectant management}}",
+   "ونطمّن المريضة"
+  ],
+  "wrong": {
+   "1": "الـ{{IV oxytocin}} فيه خطر",
+   "2": "الـ{{D&C}} يضر {{viable pregnancy}}",
+   "3": "الـ{{methergine}} فيه خطر"
+  },
+  "change": [
+   "نفحص {{Rh status}}",
+   "ونعيد {{ultrasound}}"
+  ],
+  "rule": "الـ{{threatened abortion}} يعني {{conservative management}}"
+ },
+ "Q320": {
+  "idea": [
+   "حامل {{33 weeks}} مع {{abdominal pain and vaginal bleeding}}",
+   "فأول خطوة {{two large-bore IV lines}}"
+  ],
+  "clues": [
+   [
+    "لو {{antepartum bleeding}}",
+    "يعني {{APH}}"
+   ],
+   [
+    "لو {{pain}}",
+    "يعني احتمال {{abruption}}"
+   ]
+  ],
+  "why": [
+   "أول خطوة {{stabilize the mother}}",
+   "فنفتح {{two large-bore IV lines}}",
+   "وبعدها نكمل {{evaluation}}"
+  ],
+  "wrong": {
+   "0": "الـ{{cesarean}} بعد {{stabilization}}",
+   "1": "الـ{{vaginal exam}} قبل معرفة {{placental location}} فيه خطر",
+   "2": "الـ{{ultrasound}} بعد {{stabilization}}"
+  },
+  "change": [
+   "نجهز {{blood}}",
+   "ونعمل {{CTG}}"
+  ],
+  "rule": "الـ{{Antepartum bleeding}} يعني نفتح {{two IV lines}} أول"
+ },
+ "Q321": {
+  "idea": [
+   "حامل {{32 weeks}} مع {{mild painless bleeding}}",
+   "فنحدد {{placental location}} بـ{{ultrasound}}"
+  ],
+  "clues": [
+   [
+    "لو {{painless bleeding}}",
+    "يعني {{previa}}"
+   ]
+  ],
+  "why": [
+   "قبل أي {{vaginal exam}} نستبعد {{previa}}",
+   "بـ{{ultrasound}}",
+   "لأن الفحص ممكن يسبب {{bleeding}}"
+  ],
+  "wrong": {
+   "0": "الـ{{oxytocin}} فيه خطر",
+   "1": "الـ{{cesarean}} ما له مبرر الحين",
+   "2": "الـ{{observation alone}} فيه خطر"
+  },
+  "change": [
+   "لو {{previa}} نتابع",
+   "ونعطي {{steroids}}"
+  ],
+  "rule": "الـ{{Painless bleeding}} يعني {{ultrasound}} لتحديد {{placenta}}"
+ }
+}

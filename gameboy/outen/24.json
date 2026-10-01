@@ -1,0 +1,563 @@
+{
+ "Q462": {
+  "idea": [
+   "سيدة بـ{{sudden severe pain}} و{{rigid abdomen}} و{{free fluid}}",
+   "فنسوي {{laparotomy}}"
+  ],
+  "clues": [
+   [
+    "لو {{rigidity and guarding}}",
+    "يعني {{hemorrhagic shock}} محتمل"
+   ],
+   [
+    "لو {{abundant free fluid}}",
+    "يعني {{hemoperitoneum}}"
+   ]
+  ],
+  "why": [
+   "الـ{{ruptured ectopic}} مع {{instability}}",
+   "يحتاج {{immediate surgery}}",
+   "فنسوي {{laparotomy}}"
+  ],
+  "wrong": {
+   "1": "الـ{{suction evacuation}} ما توقف {{bleeding}}",
+   "2": "الـ{{medical termination}} ما تناسب",
+   "3": "الـ{{fluid aspiration}} ما تعالج"
+  },
+  "change": [
+   "لو {{stable}} نسوي {{laparoscopy}}",
+   "ونجهز {{blood}}"
+  ],
+  "rule": "الـ{{ruptured ectopic}} يعني {{laparotomy}}"
+ },
+ "Q463": {
+  "idea": [
+   "سيدة بـ{{sharp pain}} و{{right shoulder radiation}} و{{rigid abdomen}}",
+   "فنسوي {{laparotomy}}"
+  ],
+  "clues": [
+   [
+    "لو {{guarding and rigidity}}",
+    "يعني {{acute abdomen}}"
+   ]
+  ],
+  "why": [
+   "الحالة {{unstable}}",
+   "وتحتاج {{urgent surgery}}",
+   "وما تنفع {{medications}}"
+  ],
+  "wrong": {
+   "1": "الـ{{observation}} فيها {{risk}}",
+   "2": "الـ{{antibiotics}} ما تعالج",
+   "3": "الـ{{MTX}} للـ{{stable patient}} فقط"
+  },
+  "change": [
+   "نثبت بـ{{IV fluids}}",
+   "ونجهز {{blood}}"
+  ],
+  "rule": "لو {{unstable ectopic}} يعني {{surgery}}"
+ },
+ "Q464": {
+  "idea": [
+   "شابة {{9 weeks}} بـ{{mild bleeding}} ورحم فوق {{symphysis pubis}}",
+   "فنطلب {{pelvic US}}"
+  ],
+  "clues": [
+   [
+    "لو {{uterus above symphysis pubis}}",
+    "يعني {{size inconsistent with dates}} محتمل"
+   ]
+  ],
+  "why": [
+   "الـ{{US}} هو {{first investigation}}",
+   "يوضح {{pregnancy status}}",
+   "وبدون {{radiation}}"
+  ],
+  "wrong": {
+   "0": "الـ{{abdominal X-ray}} مو مناسب",
+   "1": "الـ{{MRI}} مو {{first step}}",
+   "3": "الـ{{CT}} فيه {{radiation}}"
+  },
+  "change": [
+   "نقيس {{hCG}}",
+   "ونراقب"
+  ],
+  "rule": "لو {{bleeding in early pregnancy}} يعني {{pelvic US}}"
+ },
+ "Q465": {
+  "idea": [
+   "حامل بصورة {{snowstorm appearance}}",
+   "فالتشخيص {{molar pregnancy}}"
+  ],
+  "clues": [
+   [
+    "لو {{snowstorm}}",
+    "يعني {{molar pregnancy}}"
+   ]
+  ],
+  "why": [
+   "الـ{{snowstorm}} على {{US}}",
+   "هو علامة {{molar pregnancy}}",
+   "وباقي الخيارات ما تعطي هذي الصورة"
+  ],
+  "wrong": {
+   "0": "الـ{{miscarriage}} بدون هذي الصورة",
+   "2": "الـ{{ectopic}} بدون هذي الصورة",
+   "3": "الـ{{normal pregnancy}} فيه {{fetus}}"
+  },
+  "change": [
+   "نقيس {{hCG}}",
+   "ونسوي {{evacuation}}"
+  ],
+  "rule": "الـ{{snowstorm}} يعني {{molar pregnancy}}"
+ },
+ "Q466": {
+  "idea": [
+   "الـ{{700 mL bleeding}} بعد ٣ أسابيع من الولادة",
+   "فهو {{late postpartum hemorrhage}}"
+  ],
+  "clues": [
+   [
+    "لو {{3 weeks}} بعد الولادة",
+    "يعني بعد {{24 hours}}"
+   ]
+  ],
+  "why": [
+   "الـ{{bleeding}} بعد {{24 hours}} إلى {{12 weeks}}",
+   "اسمه {{secondary PPH}}",
+   "وغالبًا {{retained products}}"
+  ],
+  "wrong": {
+   "0": "الـ{{early PPH}} خلال {{24 hours}}",
+   "2": "الـ{{intrapartum}} أثناء {{labor}}",
+   "3": "الـ{{antepartum}} قبل {{delivery}}"
+  },
+  "change": [
+   "نسوي {{US}}",
+   "ونعالج {{infection}}"
+  ],
+  "rule": "لو بعد {{24 hours}} يعني {{late PPH}}"
+ },
+ "Q467": {
+  "idea": [
+   "الـ{{700 mL bleeding}} بعد ١٠ ساعات من الولادة",
+   "فهو {{early postpartum hemorrhage}}"
+  ],
+  "clues": [
+   [
+    "لو {{10 hours}} بعد الولادة",
+    "يعني خلال {{24 hours}}"
+   ]
+  ],
+  "why": [
+   "الـ{{bleeding}} في أول {{24 hours}}",
+   "اسمه {{primary PPH}}",
+   "وغالبًا {{atony}}"
+  ],
+  "wrong": {
+   "1": "الـ{{late PPH}} بعد {{24 hours}}",
+   "2": "الـ{{intrapartum}} أثناء {{labor}}",
+   "3": "الـ{{antepartum}} قبل {{delivery}}"
+  },
+  "change": [
+   "نعطي {{oxytocin}}",
+   "ونسوي {{uterine massage}}"
+  ],
+  "rule": "لو خلال {{24 hours}} يعني {{primary PPH}}"
+ },
+ "Q468": {
+  "idea": [
+   "الـ{{700 mL bleeding}} عند {{32 weeks}}",
+   "فهو {{antepartum hemorrhage}}"
+  ],
+  "clues": [
+   [
+    "لو {{32 weeks}}",
+    "يعني قبل {{delivery}}"
+   ]
+  ],
+  "why": [
+   "الـ{{bleeding}} بعد {{20 weeks}} وقبل {{delivery}}",
+   "اسمه {{APH}}",
+   "وأسبابه {{abruption}} و{{previa}}"
+  ],
+  "wrong": {
+   "0": "الـ{{postpartum}} بعد {{delivery}}",
+   "1": "الـ{{late postpartum}} بعد {{24 hours}}",
+   "2": "الـ{{intrapartum}} أثناء {{labor}}"
+  },
+  "change": [
+   "نقيم {{the cause}}",
+   "ونثبت {{the mother}}"
+  ],
+  "rule": "لو قبل {{delivery}} يعني {{APH}}"
+ },
+ "Q469": {
+  "idea": [
+   "الـ{{700 mL bleeding}} مع {{7 cm dilatation}} عند {{32 weeks}}",
+   "فهو {{intrapartum hemorrhage}}"
+  ],
+  "clues": [
+   [
+    "لو {{7 cm dilated}}",
+    "يعني {{active labor}}"
+   ]
+  ],
+  "why": [
+   "الـ{{bleeding}} أثناء {{labor}}",
+   "اسمه {{intrapartum hemorrhage}}",
+   "مثل {{uterine rupture}}"
+  ],
+  "wrong": {
+   "0": "الـ{{postpartum}} بعد {{delivery}}",
+   "1": "الـ{{late postpartum}} بعد {{24 hours}}",
+   "3": "الـ{{antepartum}} قبل {{labor}}"
+  },
+  "change": [
+   "نقيم {{mother and fetus}}",
+   "ونسوي {{delivery}}"
+  ],
+  "rule": "لو أثناء {{labor}} يعني {{intrapartum hemorrhage}}"
+ },
+ "Q470": {
+  "idea": [
+   "حامل {{12 weeks}} بـ{{bleeding}} و{{pain}} و{{partially dilated cervix}} بدون {{products of conception}}",
+   "فهو {{inevitable abortion}}"
+  ],
+  "clues": [
+   [
+    "لو {{open cervix}} بدون {{passage of tissue}}",
+    "يعني {{inevitable}}"
+   ]
+  ],
+  "why": [
+   "الـ{{cervix}} مفتوح",
+   "وما طلع {{tissue}}",
+   "فالـ{{abortion}} {{inevitable}}"
+  ],
+  "wrong": {
+   "0": "الـ{{complete}} فيه {{passage of all tissue}}",
+   "2": "الـ{{threatened}} فيه {{closed cervix}}",
+   "3": "الـ{{incomplete}} فيه {{partial passage}}"
+  },
+  "change": [
+   "نسوي {{evacuation}}",
+   "ونراقب {{bleeding}}"
+  ],
+  "rule": "لو {{open cervix}} بدون {{expulsion}} يعني {{inevitable}}"
+ },
+ "Q471": {
+  "idea": [
+   "حامل {{13 weeks}} بـ{{bleeding}} و{{fetal heart}} و{{closed cervix}}",
+   "فهو {{threatened abortion}}"
+  ],
+  "clues": [
+   [
+    "لو {{positive fetal heart}}",
+    "يعني {{viable pregnancy}}"
+   ],
+   [
+    "لو {{closed cervix}}",
+    "يعني {{threatened}}"
+   ]
+  ],
+  "why": [
+   "الـ{{bleeding}} مع {{fetal heart}}",
+   "و{{closed cervix}}",
+   "فهو {{threatened}}"
+  ],
+  "wrong": {
+   "0": "الـ{{complete}} فيه {{passage of tissue}}",
+   "1": "الـ{{inevitable}} فيه {{open cervix}}",
+   "2": "الـ{{incomplete}} فيه {{retained tissue}}"
+  },
+  "change": [
+   "نراقب",
+   "ونطمئن"
+  ],
+  "rule": "لو {{bleeding}} مع {{heartbeat}} و{{closed cervix}} يعني {{threatened}}"
+ },
+ "Q472": {
+  "idea": [
+   "شابة {{25}} بـ{{AUB}} و{{atypical complex hyperplasia}}",
+   "فنعطي {{oral progesterone}} حسب الجواب"
+  ],
+  "clues": [
+   [
+    "لو {{atypical hyperplasia}}",
+    "يعني {{cancer risk}}"
+   ],
+   [
+    "لو {{age 25}}",
+    "يعني غالبًا {{fertility desire}}"
+   ]
+  ],
+  "why": [
+   "بعمر صغير نحافظ على {{fertility}}",
+   "فنعالج بـ{{progesterone}}",
+   "ونتابع بـ{{repeat biopsy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{tamoxifen}} يسبب {{endometrial hyperplasia}}",
+   "1": "الـ{{hysterectomy}} تفقد {{fertility}}",
+   "3": "الـ{{ablation}} مو مناسب"
+  },
+  "change": [
+   "لو ما فيه {{fertility desire}} نسوي {{hysterectomy}}",
+   "ونتابع بـ{{biopsy}}"
+  ],
+  "rule": "لو {{atypical hyperplasia}} بعمر صغير يعني {{progesterone}} لحفظ {{fertility}}"
+ },
+ "Q473": {
+  "idea": [
+   "حمل {{10 weeks}} بـ{{bleeding}} و{{cramping}} و{{passage of placental tissue}}",
+   "فهو {{incomplete abortion}}"
+  ],
+  "clues": [
+   [
+    "لو {{partial passage of tissue}}",
+    "يعني {{incomplete}}"
+   ]
+  ],
+  "why": [
+   "طلع جزء وبقي جزء",
+   "يعني {{incomplete}}",
+   "ويحتاج {{evacuation}}"
+  ],
+  "wrong": {
+   "0": "الـ{{complete}} فيه {{passage of all tissue}}",
+   "1": "الـ{{inevitable}} بدون {{passage of tissue}}",
+   "3": "الـ{{threatened}} بدون {{passage of tissue}}"
+  },
+  "change": [
+   "نسوي {{evacuation}}",
+   "ونعطي {{misoprostol}}"
+  ],
+  "rule": "لو {{partial tissue passage}} يعني {{incomplete}}"
+ },
+ "Q474": {
+  "idea": [
+   "أم {{Rh negative}} ولدت طفل {{Rh positive}} وأخذت {{anti-D}} عند {{28 weeks}}",
+   "فنعطي {{300 mcg anti-D}}"
+  ],
+  "clues": [
+   [
+    "لو {{Rh negative mother}} مع {{Rh positive baby}}",
+    "يعني {{sensitization risk}}"
+   ]
+  ],
+  "why": [
+   "نعطي {{anti-D}} بعد {{delivery}}",
+   "بجرعة {{300 mcg}}",
+   "حتى لو أخذت {{prophylaxis}} قبل"
+  ],
+  "wrong": {
+   "1": "الجرعة {{1000}} مو معتادة",
+   "2": "الجرعة {{2000}} مو معتادة",
+   "3": "الـ{{anti-D}} ضروري"
+  },
+  "change": [
+   "نسوي {{Kleihauer test}}",
+   "ونعطيه خلال {{72 hours}}"
+  ],
+  "rule": "لو {{Rh negative}} مع {{Rh positive baby}} يعني {{anti-D}} بعد {{delivery}}",
+  "note": "الجرعة الصحيحة {{300 mcg}} وليس {{mg}}"
+ },
+ "Q475": {
+  "idea": [
+   "سيدة {{24}} بـ{{uncontrolled epilepsy}} وتخطط للحمل",
+   "فنسوي {{medication review}}"
+  ],
+  "clues": [
+   [
+    "لو {{uncontrolled epilepsy}}",
+    "يعني قبل {{pregnancy}} نراجع"
+   ]
+  ],
+  "why": [
+   "نراجع {{medication}} قبل {{pregnancy}}",
+   "لأن بعضها {{teratogenic}}",
+   "ونختار الأنسب"
+  ],
+  "wrong": {
+   "0": "الـ{{EEG}} مو {{first step}}",
+   "1": "الـ{{aspirin}} مو مرتبط",
+   "2": "الـ{{MRI}} مو {{first step}}"
+  },
+  "change": [
+   "نعطي {{folic acid}}",
+   "ونستشير {{neurology}}"
+  ],
+  "rule": "لو {{epilepsy}} قبل {{pregnancy}} يعني {{medication review}}"
+ },
+ "Q476": {
+  "idea": [
+   "سيدة {{7 weeks}} بـ{{severe pain}} و{{dizziness}} و{{free fluid}} بدون {{sac}}",
+   "فهو {{ruptured ectopic}}"
+  ],
+  "clues": [
+   [
+    "لو {{dizziness and severe pain}}",
+    "يعني {{internal bleeding}}"
+   ],
+   [
+    "لو {{free fluid}} بدون {{sac}}",
+    "يعني {{ectopic}}"
+   ]
+  ],
+  "why": [
+   "غياب {{sac}} مع {{free fluid}}",
+   "يوجه لـ{{ruptured ectopic}}",
+   "مع {{shock}}"
+  ],
+  "wrong": {
+   "0": "الـ{{incomplete}} بدون {{free fluid}}",
+   "1": "الـ{{threatened}} فيه {{sac}}",
+   "2": "الـ{{torsion}} ألم بدون {{pregnancy}}"
+  },
+  "change": [
+   "نجهز {{surgery}}",
+   "ونثبت {{the mother}}"
+  ],
+  "rule": "لو {{free fluid}} بدون {{sac}} يعني {{ruptured ectopic}}"
+ },
+ "Q477": {
+  "idea": [
+   "شابة بـ{{vaginal discharge}} و{{abnormal Pap smear}}",
+   "فنسوي {{colposcopy}}"
+  ],
+  "clues": [
+   [
+    "لو {{abnormal Pap}}",
+    "يعني نحتاج {{evaluation}}"
+   ]
+  ],
+  "why": [
+   "الـ{{abnormal Pap}} يستدعي {{colposcopy}}",
+   "مع {{directed biopsy}}",
+   "للتأكيد"
+  ],
+  "wrong": {
+   "0": "الـ{{MRI}} مو {{first step}}",
+   "2": "الـ{{hysterectomy}} مبالغ فيه",
+   "3": "الـ{{reevaluation in 3 months}} فيه {{risk}}"
+  },
+  "change": [
+   "نأخذ {{biopsy}}",
+   "ونتابع"
+  ],
+  "rule": "لو {{abnormal Pap}} يعني {{colposcopy}}"
+ },
+ "Q478": {
+  "idea": [
+   "الـ{{forceps delivery}} لطفل {{3.7 kg}} مع {{cervical, vaginal and perineal lacerations}}",
+   "فهو {{genital tract trauma}}"
+  ],
+  "clues": [
+   [
+    "لو {{forceps}} مع {{lacerations}}",
+    "يعني {{trauma}}"
+   ]
+  ],
+  "why": [
+   "الـ{{lacerations}} هي السبب",
+   "والـ{{forceps}} و{{big baby}} عوامل",
+   "فنسوي {{repair}}"
+  ],
+  "wrong": {
+   "0": "الـ{{coagulopathy}} ما فيه دليل",
+   "1": "الـ{{uterine inversion}} مو موجود",
+   "3": "الـ{{retained tissue}} مو موجود"
+  },
+  "change": [
+   "نسوي {{suturing}}",
+   "ونعطي {{oxytocin}}"
+  ],
+  "rule": "لو {{lacerations}} بعد {{forceps}} يعني {{trauma}}"
+ },
+ "Q479": {
+  "idea": [
+   "سيدة {{51}} بـ{{large submucous fibroid 7x8 cm}} و{{symptoms}}",
+   "فنسوي {{hysterectomy}}"
+  ],
+  "clues": [
+   [
+    "لو {{large submucous fibroid}}",
+    "يعني {{symptomatic}}"
+   ],
+   [
+    "لو {{age 51}}",
+    "يعني {{completed childbearing}}"
+   ]
+  ],
+  "why": [
+   "الـ{{fibroid}} كبير مع {{symptoms}}",
+   "وما نحتاج {{fertility}}",
+   "فنختار {{hysterectomy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{myomectomy}} لحفظ {{fertility}}",
+   "2": "الـ{{ablation}} مو مناسب لـ{{large fibroid}}",
+   "3": "الـ{{progesterone}} ما يكفي"
+  },
+  "change": [
+   "لو تبغى {{uterine preservation}} نسوي {{myomectomy}}",
+   "ونراقب {{Hb}}"
+  ],
+  "rule": "لو {{large fibroid}} عند {{age 51}} يعني {{hysterectomy}}"
+ },
+ "Q480": {
+  "idea": [
+   "سيدة {{ITP}} ولدت ونزفت",
+   "فنعطي {{platelet concentrate}}"
+  ],
+  "clues": [
+   [
+    "لو {{ITP}}",
+    "يعني {{thrombocytopenia}}"
+   ]
+  ],
+  "why": [
+   "الـ{{bleeding}} مع {{ITP}}",
+   "سببه {{low platelets}}",
+   "فنعطي {{platelet concentrate}}"
+  ],
+  "wrong": {
+   "0": "الـ{{cryoprecipitate}} لـ{{fibrinogen}}",
+   "1": "الـ{{FFP}} لـ{{clotting factors}}",
+   "2": "الـ{{PRBC}} لـ{{red cell replacement}}"
+  },
+  "change": [
+   "الـ{{IVIG}} للـ{{ITP}}",
+   "ومعه {{steroids}}"
+  ],
+  "rule": "لو {{ITP}} مع {{bleeding}} يعني {{platelets}}"
+ },
+ "Q481": {
+  "idea": [
+   "سيدة بحمل {{uncertain dates}} و{{irregular menses}}",
+   "فنسوي {{CRL on US}}"
+  ],
+  "clues": [
+   [
+    "لو {{irregular cycles}}",
+    "يعني {{unreliable LMP}}"
+   ]
+  ],
+  "why": [
+   "الـ{{CRL}} هو {{most accurate}}",
+   "لتقدير {{gestational age}}",
+   "في {{first trimester}}"
+  ],
+  "wrong": {
+   "0": "الـ{{estradiol}} مو دقيق",
+   "1": "الـ{{progesterone}} مو دقيق",
+   "3": "الـ{{uterine size}} مو دقيق"
+  },
+  "change": [
+   "نعدل {{EDD}}",
+   "ونكرر {{US}} لو لزم"
+  ],
+  "rule": "لو {{uncertain dates}} يعني {{CRL}}"
+ }
+}

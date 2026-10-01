@@ -1,0 +1,574 @@
+{
+ "Q402": {
+  "idea": [
+   "حامل {{8 weeks}} بـ{{bleeding and passing vesicles}} و{{uterus larger than dates}}",
+   "فالتشخيص {{molar pregnancy}}"
+  ],
+  "clues": [
+   [
+    "حويصلات",
+    "يعني {{vesicles passing}}"
+   ],
+   [
+    "رحم أكبر من العمر",
+    "يعني {{molar pregnancy}}"
+   ]
+  ],
+  "why": [
+   "الـ{{vesicles}} مع {{uterus larger than dates}}",
+   "هذي علامة كلاسيكية لـ{{molar pregnancy}}",
+   "وفيه {{markedly elevated hCG}}"
+  ],
+  "wrong": {
+   "1": "الـ{{missed abortion}} فيه {{small uterus}}",
+   "2": "الـ{{ectopic pregnancy}} فيه {{small uterus}}",
+   "3": "الـ{{threatened abortion}} بدون {{vesicles}}"
+  },
+  "change": [
+   "نأكد بالـ{{ultrasound}}",
+   "ونقيس {{hCG}}"
+  ],
+  "rule": "الـ{{Vesicles with large uterus}} يعني {{molar pregnancy}}"
+ },
+ "Q403": {
+  "idea": [
+   "حامل بـ{{bleeding and vesicles}} و{{snowstorm appearance on US}}",
+   "فالعلاج {{suction evacuation}}"
+  ],
+  "clues": [
+   [
+    "{{snowstorm}}",
+    "يعني {{molar pregnancy}}"
+   ]
+  ],
+  "why": [
+   "علاج {{molar pregnancy}} هو {{suction evacuation}}",
+   "وبعدها نتابع {{hCG}}",
+   "عشان نكشف {{GTN}}"
+  ],
+  "wrong": {
+   "0": "الـ{{misoprostol}} غير مناسب",
+   "1": "الـ{{methotrexate}} لـ{{GTN}} مو للبداية",
+   "3": "الـ{{observation}} خطر"
+  },
+  "change": [
+   "نتابع {{serial hCG}}",
+   "ونمنع الحمل خلال المتابعة"
+  ],
+  "rule": "الـ{{molar pregnancy}} يعني {{suction evacuation}}"
+ },
+ "Q404": {
+  "idea": [
+   "حامل {{30 weeks}} بـ{{PPROM}} ثم {{fever and abdominal pain}}",
+   "فنعطي {{ampicillin and gentamicin}} ثم {{delivery}}"
+  ],
+  "clues": [
+   [
+    "{{PPROM}} ثم حرارة وألم",
+    "يعني {{chorioamnionitis}}"
+   ]
+  ],
+  "why": [
+   "الـ{{chorioamnionitis}} تحتاج {{antibiotics}}",
+   "وبعدها {{delivery}}",
+   "لأن {{infection}} مصدرها الرحم"
+  ],
+  "wrong": {
+   "0": "الـ{{painkiller}} ما يعالج {{infection}}",
+   "1": "الـ{{antibiotics with observation}} ما تكفي",
+   "3": "الـ{{searching for another source}} يأخر العلاج"
+  },
+  "change": [
+   "نعطي {{clindamycin}} لو {{cesarean}}",
+   "ونراقب {{maternal status}}"
+  ],
+  "rule": "الـ{{PPROM with fever}} يعني {{chorioamnionitis}} و{{delivery}}"
+ },
+ "Q405": {
+  "idea": [
+   "حامل {{post-date}} بتاريخ مؤكد وقرروا {{induction}}",
+   "فالدواء {{prostaglandin E2}}"
+  ],
+  "clues": [
+   [
+    "بعد الموعد",
+    "يعني {{post-term}}"
+   ],
+   [
+    "تحريض",
+    "يحتاج {{cervical ripening}}"
+   ]
+  ],
+  "why": [
+   "الـ{{PGE2}} ينضج {{cervix}}",
+   "ويبدأ {{contractions}}",
+   "وهو الخيار القياسي"
+  ],
+  "wrong": {
+   "0": "الـ{{dexamethasone}} لـ{{fetal lung maturity}}",
+   "2": "الـ{{MgSO4}} لـ{{seizure prophylaxis}}",
+   "3": "الـ{{CCB}} للـ{{tocolysis}}"
+  },
+  "change": [
+   "الـ{{oxytocin}} بعد {{cervical ripening}}",
+   "والـ{{Foley catheter}} بديل"
+  ],
+  "rule": "الـ{{Induction with unripe cervix}} يعني {{PGE2}}"
+ },
+ "Q406": {
+  "idea": [
+   "حامل {{twins at 35 weeks}} بـ{{headache and blurred vision and abdominal pain}}",
+   "فالتشخيص {{preeclampsia}}"
+  ],
+  "clues": [
+   [
+    "صداع وزغللة وألم",
+    "يعني {{preeclampsia with severe features}}"
+   ],
+   [
+    "بدون {{contractions}}",
+    "يعني ما هو {{labor}}"
+   ]
+  ],
+  "why": [
+   "الأعراض تدل على {{preeclampsia}}",
+   "وما هي {{labor}}",
+   "والـ{{eclampsia}} تحتاج {{seizure}}"
+  ],
+  "wrong": {
+   "0": "الـ{{labor}} غلط لأنه {{no contractions}}",
+   "1": "الـ{{eclampsia}} غلط لأنه {{no seizure}}",
+   "3": "الـ{{preterm labor}} غلط لأنه {{no contractions}}"
+  },
+  "change": [
+   "نعطي {{MgSO4}}",
+   "ونخطط {{delivery}}"
+  ],
+  "rule": "الـ{{Headache and blurred vision}} بالحمل يعني {{preeclampsia}}"
+ },
+ "Q407": {
+  "idea": [
+   "نفس حالة {{twins}} ونسأل عن {{risk factor}}",
+   "فالجواب {{multiple gestation}}"
+  ],
+  "clues": [
+   [
+    "{{twins}}",
+    "يعني {{multiple gestation}}"
+   ]
+  ],
+  "why": [
+   "الـ{{multiple gestation}} يرفع خطر {{preeclampsia}}",
+   "لأن {{placental mass}} أكبر",
+   "وهذا هو {{risk factor}} هنا"
+  ],
+  "wrong": {
+   "0": "الـ{{parity}} مو {{risk factor}} هنا",
+   "1": "الـ{{age 30}} مو {{high-risk age}}",
+   "2": "الـ{{gestational age}} مو {{risk factor}}"
+  },
+  "change": [
+   "عوامل ثانية مثل {{nulliparity}} و{{diabetes}}",
+   "ونراقب {{blood pressure}}"
+  ],
+  "rule": "الـ{{twins}} هم {{risk factor}} لـ{{preeclampsia}}"
+ },
+ "Q408": {
+  "idea": [
+   "حامل {{twins}} بـ{{preeclampsia}} وصارت لها {{grand mal seizure}}",
+   "فهذي {{eclampsia}}"
+  ],
+  "clues": [
+   [
+    "{{grand mal seizure}}",
+    "مع {{preeclampsia}}"
+   ]
+  ],
+  "why": [
+   "الـ{{seizure}} مع {{preeclampsia}} يعني {{eclampsia}}",
+   "وما هو {{epilepsy}}",
+   "ونعطي {{MgSO4}}"
+  ],
+  "wrong": {
+   "0": "الـ{{labor}} ما له علاقة بالتشنج",
+   "1": "الـ{{epilepsy}} غلط لأنه {{no history}}",
+   "3": "الـ{{preterm labor}} ما له علاقة بالتشنج"
+  },
+  "change": [
+   "نثبت {{airway and breathing}}",
+   "ونولد بعد {{stabilization}}"
+  ],
+  "rule": "الـ{{Seizure with preeclampsia}} يعني {{eclampsia}}"
+ },
+ "Q409": {
+  "idea": [
+   "حالة {{eclampsia}} مع تشنج",
+   "فنولد بعد {{stabilization}}"
+  ],
+  "clues": [
+   [
+    "{{eclampsia}}",
+    "نثبت الأم ثم {{delivery}}"
+   ]
+  ],
+  "why": [
+   "العلاج النهائي هو {{delivery}}",
+   "بعد {{maternal stabilization}}",
+   "ونعطي {{MgSO4}}"
+  ],
+  "wrong": {
+   "0": "الـ{{antiepileptic drugs}} غير مناسبة",
+   "2": "الـ{{dexamethasone}} ما يكفي",
+   "3": "الـ{{consultation}} يأخر العلاج"
+  },
+  "change": [
+   "نعطي {{MgSO4}}",
+   "ونخفض {{blood pressure}}"
+  ],
+  "rule": "الـ{{eclampsia}} يعني {{stabilization}} ثم {{delivery}}"
+ },
+ "Q410": {
+  "idea": [
+   "حامل {{41 weeks}} بـ{{deceleration on CTG}}",
+   "فنولد {{delivery}}"
+  ],
+  "clues": [
+   [
+    "{{41 weeks}}",
+    "يعني {{post-term}}"
+   ],
+   [
+    "{{deceleration}}",
+    "يعني {{fetal distress}}"
+   ]
+  ],
+  "why": [
+   "الـ{{deceleration}} بعد الموعد",
+   "علامة {{fetal compromise}}",
+   "فننهي الحمل بـ{{delivery}}"
+  ],
+  "wrong": {
+   "1": "الـ{{daily CTG}} ما تكفي",
+   "2": "الـ{{biophysical profile}} يأخر القرار",
+   "3": "الـ{{AFI}} يأخر القرار"
+  },
+  "change": [
+   "نحرض أو نسوي {{cesarean}}",
+   "ونقيم {{fetal status}}"
+  ],
+  "rule": "الـ{{Deceleration post-term}} يعني {{delivery}}"
+ },
+ "Q411": {
+  "idea": [
+   "الـ{{Primigravida at 41+4}} بـ{{PGE2 induction}} و{{fetal HR dropped to 70}} بدون تحسن",
+   "فنسوي {{cesarean section}}"
+  ],
+  "clues": [
+   [
+    "{{FHR 70}} بدون تحسن",
+    "يعني {{severe fetal distress}}"
+   ],
+   [
+    "{{closed long cervix}}",
+    "يعني {{vaginal delivery far}}"
+   ]
+  ],
+  "why": [
+   "الـ{{severe fetal distress}} مع {{closed cervix}}",
+   "تحتاج {{immediate cesarean}}",
+   "وما ننتظر"
+  ],
+  "wrong": {
+   "0": "الـ{{oxytocin}} يزيد الخطر",
+   "1": "الـ{{reassurance}} خطر",
+   "2": "الـ{{analgesia}} ما تحل المشكلة"
+  },
+  "change": [
+   "نوقف {{PGE2}}",
+   "ونعطي {{oxygen and IV fluids}}"
+  ],
+  "rule": "الـ{{Severe fetal distress with closed cervix}} يعني {{cesarean}}"
+ },
+ "Q412": {
+  "idea": [
+   "حامل {{30 weeks}} بـ{{profuse bleeding and abdominal pain and contractions}}",
+   "فالتشخيص {{placental abruption}}"
+  ],
+  "clues": [
+   [
+    "نزف مع ألم",
+    "يعني {{abruption}}"
+   ]
+  ],
+  "why": [
+   "الـ{{painful profuse bleeding}} مع {{contractions}}",
+   "علامة {{placental abruption}}",
+   "بعكس {{placenta previa}} اللي {{painless}}"
+  ],
+  "wrong": {
+   "0": "الـ{{labor}} ما تفسر {{profuse bleeding}}",
+   "1": "الـ{{preterm labor}} ما تفسر {{profuse bleeding}}",
+   "2": "الـ{{placenta previa}} نزفها {{painless}}"
+  },
+  "change": [
+   "نثبت {{mother}}",
+   "ونقيم {{fetal status}}"
+  ],
+  "rule": "الـ{{Bleeding with pain}} يعني {{abruption}}"
+ },
+ "Q413": {
+  "idea": [
+   "حامل {{30 weeks}} بـ{{profuse painless bleeding}} والجنين يتحرك",
+   "فالتشخيص {{placenta previa}}"
+  ],
+  "clues": [
+   [
+    "نزف بدون ألم",
+    "يعني {{placenta previa}}"
+   ],
+   [
+    "بدون {{contractions}}",
+    "يعني مو {{abruption}}"
+   ]
+  ],
+  "why": [
+   "الـ{{profuse painless bleeding}}",
+   "علامة {{placenta previa}}",
+   "وغيابها عن المتابعة ما يغير التشخيص"
+  ],
+  "wrong": {
+   "1": "الـ{{uterine rupture}} فيه {{severe pain}}",
+   "2": "الـ{{premature labor}} فيه {{contractions}}",
+   "3": "الـ{{abruption}} فيه {{pain}}"
+  },
+  "change": [
+   "نفحص بالـ{{ultrasound}}",
+   "ونتجنب {{vaginal examination}}"
+  ],
+  "rule": "الـ{{Painless bleeding}} يعني {{placenta previa}}"
+ },
+ "Q414": {
+  "idea": [
+   "سيدة {{7 weeks}} بـ{{pain and bleeding and passing tissue}} و{{open cervix}}",
+   "فالتشخيص {{incomplete abortion}}"
+  ],
+  "clues": [
+   [
+    "{{tissue at open cervix}}",
+    "يعني {{incomplete abortion}}"
+   ]
+  ],
+  "why": [
+   "الـ{{open cervix}} مع {{tissue}}",
+   "يعني {{incomplete abortion}}",
+   "ويحتاج {{evacuation}}"
+  ],
+  "wrong": {
+   "0": "الـ{{missed abortion}} يكون {{cervix closed}} وبدون نزف",
+   "1": "الـ{{ectopic pregnancy}} فيه {{closed cervix}}",
+   "2": "الـ{{healthy pregnancy}} ما تفسر الأعراض"
+  },
+  "change": [
+   "نفرغ الرحم بـ{{evacuation}}",
+   "ونفحص {{Rh status}}"
+  ],
+  "rule": "الـ{{Tissue with open cervix}} يعني {{incomplete abortion}}"
+ },
+ "Q415": {
+  "idea": [
+   "سيدة {{7 weeks}} بـ{{pain and bleeding}} و{{closed cervix}} و{{no IUP}} و{{free fluid}}",
+   "فالتشخيص {{ectopic pregnancy}}"
+  ],
+  "clues": [
+   [
+    "{{no intrauterine pregnancy}}",
+    "يعني {{ectopic pregnancy}}"
+   ],
+   [
+    "{{free fluid}} وألم",
+    "يعني احتمال {{rupture}}"
+   ]
+  ],
+  "why": [
+   "غياب {{IUP}} مع {{free fluid}}",
+   "يعني غالبًا {{ectopic pregnancy}}",
+   "وممكن {{ruptured}}"
+  ],
+  "wrong": {
+   "0": "لا، هي {{pregnant}} فعلًا",
+   "1": "الـ{{missed abortion}} فيه {{intrauterine sac}}",
+   "3": "الـ{{threatened abortion}} فيه {{intrauterine pregnancy}}"
+  },
+  "change": [
+   "نجهز {{surgery}}",
+   "ونثبت {{mother}}"
+  ],
+  "rule": "الـ{{No IUP with free fluid}} يعني {{ectopic pregnancy}}"
+ },
+ "Q416": {
+  "idea": [
+   "نفس حالة {{ectopic}} ونسأل عن الخطوة الجاية",
+   "فالجواب {{quantitative BhCG}}"
+  ],
+  "clues": [
+   [
+    "{{no IUP}}",
+    "فنحتاج {{confirmation}}"
+   ]
+  ],
+  "why": [
+   "الـ{{quantitative BhCG}} يأكد {{pregnancy}}",
+   "ويحدد الخطوة الجاية",
+   "وهو أدق من {{qualitative test}}"
+  ],
+  "wrong": {
+   "0": "الـ{{liver enzymes}} غير ضرورية",
+   "1": "الـ{{qualitative BhCG}} أقل فايدة",
+   "3": "الـ{{CBC}} مهم بس بعد {{confirmation}}"
+  },
+  "change": [
+   "الـ{{CBC}} و{{type and screen}}",
+   "ونسوي {{surgery}} لو {{unstable}}"
+  ],
+  "rule": "الـ{{Suspected ectopic}} يعني {{quantitative BhCG}}"
+ },
+ "Q417": {
+  "idea": [
+   "الـ{{Primigravida at 30 weeks}} بـ{{regular contractions 4 in 10 minutes}}",
+   "فنسوي {{vaginal exam for cervical dilation}}"
+  ],
+  "clues": [
+   [
+    "{{regular contractions}}",
+    "فنقيم {{cervix}}"
+   ]
+  ],
+  "why": [
+   "نشخص {{preterm labor}} بـ{{cervical change}}",
+   "فنفحص {{dilation}}",
+   "قبل أي قرار"
+  ],
+  "wrong": {
+   "0": "الـ{{preparing for delivery}} قبل التأكد غلط",
+   "1": "الـ{{discharge}} خطر",
+   "2": "الـ{{fetal weight estimation}} مو {{priority}}"
+  },
+  "change": [
+   "الـ{{fFN}} و{{cervical length}}",
+   "ونعطي {{steroids}} لو {{preterm labor}}"
+  ],
+  "rule": "الـ{{Preterm contractions}} يعني {{cervical exam}}"
+ },
+ "Q418": {
+  "idea": [
+   "الـ{{Primigravida at 30 weeks}} بـ{{PPROM}} بدون {{contractions}}",
+   "فنعطي {{erythromycin and ampicillin and dexamethasone}}"
+  ],
+  "clues": [
+   [
+    "{{PPROM}}",
+    "يعني {{infection risk}}"
+   ],
+   [
+    "{{30 weeks}}",
+    "يحتاج {{lung maturity}}"
+   ]
+  ],
+  "why": [
+   "بالـ{{PPROM}} نعطي {{antibiotics}} لمنع {{infection}}",
+   "و{{steroids}} لـ{{fetal lung maturity}}",
+   "ونؤخر الولادة"
+  ],
+  "wrong": {
+   "0": "الجواب ناقص لأنه بدون {{steroids}}",
+   "1": "الـ{{tocolytics}} ما نوصي فيها بعد {{rupture}}",
+   "2": "الـ{{MgSO4}} ما يكفي لوحده"
+  },
+  "change": [
+   "الـ{{MgSO4}} قبل {{32 weeks}} لـ{{neuroprotection}}",
+   "ونراقب {{infection}}"
+  ],
+  "rule": "الـ{{PPROM}} يعني {{antibiotics}} و{{steroids}}"
+ },
+ "Q419": {
+  "idea": [
+   "أم ولدت طفل {{4600 g}} ونزفت",
+   "فالسبب {{macrosomia}}"
+  ],
+  "clues": [
+   [
+    "{{4600 g}}",
+    "يعني {{uterine overdistension}}"
+   ]
+  ],
+  "why": [
+   "الـ{{macrosomic baby}} يمدد الرحم",
+   "فيزيد {{uterine atony}}",
+   "وهذا {{risk factor}} هنا"
+  ],
+  "wrong": {
+   "0": "الـ{{grand parity}} بـ{{3 deliveries}} مو كبيرة",
+   "1": "الـ{{labor 5 hours}} قصير",
+   "3": "ما فيه {{previous PPH}}"
+  },
+  "change": [
+   "نستعد بـ{{uterotonics}}",
+   "ونراقب {{bleeding}}"
+  ],
+  "rule": "الـ{{Macrosomia}} يعني خطر {{PPH}}"
+ },
+ "Q420": {
+  "idea": [
+   "أم {{twins 2800 g and 2900 g}} ونزفت بعد الولادة",
+   "فالسبب {{multiple gestation}}"
+  ],
+  "clues": [
+   [
+    "{{twins}}",
+    "يعني {{overdistended uterus}}"
+   ]
+  ],
+  "why": [
+   "الـ{{uterine overdistension}} بالتوأم",
+   "تزيد {{atony}}",
+   "وهذا {{risk factor}} هنا"
+  ],
+  "wrong": {
+   "0": "الـ{{3 deliveries}} مو {{grand parity}}",
+   "1": "الـ{{5-hour labor}} قصير",
+   "2": "الأوزان {{normal}}"
+  },
+  "change": [
+   "نستعد لـ{{PPH}}",
+   "ونعطي {{oxytocin}}"
+  ],
+  "rule": "الـ{{twins}} يعني خطر {{PPH}}"
+ },
+ "Q421": {
+  "idea": [
+   "أم ولدت بعد {{16 hours of labor}} ونزفت",
+   "فالسبب {{prolonged labor}}"
+  ],
+  "clues": [
+   [
+    "{{16 hours}}",
+    "يعني {{uterine muscle fatigue}}"
+   ]
+  ],
+  "why": [
+   "الـ{{prolonged labor}} يرهق {{myometrium}}",
+   "فيضعف {{contraction}}",
+   "ويزيد {{atony}}"
+  ],
+  "wrong": {
+   "0": "الـ{{grand parity}} غير موجودة",
+   "2": "الـ{{3000 g baby}} {{normal}}",
+   "3": "ما فيه {{twins}}"
+  },
+  "change": [
+   "نعطي {{oxytocin}}",
+   "ونراقب {{bleeding}}"
+  ],
+  "rule": "الـ{{prolonged labor}} يعني خطر {{PPH}}"
+ }
+}

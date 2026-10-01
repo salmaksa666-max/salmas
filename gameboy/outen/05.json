@@ -1,0 +1,670 @@
+{
+ "Q081": {
+  "idea": [
+   "مريض مدخن عمره {{65}} تشخّص جديد بـ{{COPD}} وأعراضه {{mild to moderate}}",
+   "فأهم خطوة أولى هي {{smoking cessation}}"
+  ],
+  "clues": [
+   [
+    "الـ{{smoker}} مع {{COPD}}",
+    "يعني {{smoking}} هو السبب الأساسي"
+   ],
+   [
+    "لو ما عنده {{comorbidities}} و{{normal chest exam}}",
+    "يعني حالة مستقرة وما تحتاج تدخل معقد"
+   ]
+  ],
+  "why": [
+   "الـ{{smoking cessation}} هو التدخل الوحيد اللي {{slows decline in lung function}}",
+   "و{{reduces mortality in COPD}}",
+   "وبعده نضيف الأدوية حسب الأعراض"
+  ],
+  "wrong": {
+   "0": "الـ{{inhaled steroid}} يجي بعد وقف التدخين ولو {{frequent exacerbations}}",
+   "1": "الـ{{reduced activity}} يضعّف العضلات ويزيد الأعراض",
+   "3": "الـ{{oral ipratropium}} ما يستخدم، والمتاح {{inhaled}}"
+  },
+  "change": [
+   "لو الأعراض زادت فنضيف {{LAMA}} أو {{LABA}}",
+   "لو {{frequent exacerbations}} فنضيف {{inhaled corticosteroid}}"
+  ],
+  "rule": "لو مريض {{COPD}} مدخن فأول خطوة {{smoking cessation}}"
+ },
+ "Q082": {
+  "idea": [
+   "شاب مصاب بـ{{HIV}} دخل الـ{{ICU}} بـ{{progressive dyspnea}} و{{cough}} و{{fever}} و{{cyanosis}}",
+   "فالأقرب سبب {{Pneumocystis jiroveci}}"
+  ],
+  "clues": [
+   [
+    "الـ{{HIV}} مع {{progressive dyspnea}} و{{cyanosis}}",
+    "يعني {{opportunistic pneumonia}}"
+   ],
+   [
+    "الـ{{ARDS}} على الأشعة",
+    "يعني {{bilateral diffuse infiltrates}}"
+   ],
+   [
+    "تفاصيل التقرير ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Pneumocystis jiroveci}} أشهر سبب {{opportunistic pneumonia}} بمرضى {{HIV}} مع {{low immunity}}",
+   "يجي بـ{{dry cough}} و{{progressive dyspnea}} و{{hypoxia}}",
+   "ويظهر على الأشعة {{bilateral diffuse changes}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Staphylococcus aureus}} يسبب {{pneumonia}} بس مو النمط {{opportunistic}} المميز",
+   "2": "الـ{{Pseudomonas aeruginosa}} أكثر مع {{cystic fibrosis}} و{{nosocomial pneumonia}}",
+   "3": "الـ{{Streptococcus pneumoniae}} أكثر مع {{acute onset}} و{{sputum}} و{{lobar consolidation}}"
+  },
+  "change": [
+   "لو {{CD4}} عالي فالاحتمال أقل",
+   "العلاج {{TMP-SMX}} مع {{steroids}} لو {{severe hypoxia}}"
+  ],
+  "rule": "الـ{{HIV}} مع {{diffuse pneumonia}} و{{progressive dyspnea}} يعني {{Pneumocystis jiroveci}}"
+ },
+ "Q083": {
+  "idea": [
+   "شاب عمره {{17}} بعد {{chemotherapy}} لـ{{lymphoma}} جاه {{febrile neutropenia}} و{{shock}}",
+   "فالمضاد الأولي المناسب {{meropenem}}"
+  ],
+  "clues": [
+   [
+    "الـ{{febrile neutropenia}} مع {{shock}}",
+    "يعني {{emergency}} ونحتاج {{broad coverage}} فورًا"
+   ],
+   [
+    "بعد {{chemotherapy}}",
+    "يعني {{immunosuppression}} مع خطر {{Pseudomonas}}"
+   ]
+  ],
+  "why": [
+   "نبدأ بـ{{broad-spectrum antibiotic}} يغطي {{Pseudomonas}} و{{gram-negative bacteria}}",
+   "والـ{{meropenem}} يغطي كل هذا و{{shock}} يحتاج تغطية أوسع",
+   "وما ننتظر {{culture results}}"
+  ],
+  "wrong": {
+   "1": "الـ{{vancomycin}} يغطي {{gram-positives}} بس وما يكفي لحاله",
+   "2": "الـ{{cefuroxime}} {{narrow spectrum}} وما يغطي {{Pseudomonas}}",
+   "3": "الـ{{caspofungin}} {{antifungal}} ويضاف لو استمرت {{fever}} بعد أيام"
+  },
+  "change": [
+   "لو {{stable}} وبدون {{shock}} فممكن {{piperacillin-tazobactam}} أو {{cefepime}}",
+   "لو نشك بـ{{MRSA}} فنضيف {{vancomycin}}"
+  ],
+  "rule": "الـ{{febrile neutropenia}} مع {{shock}} يعني {{broad-spectrum antibiotic}} فورًا مثل {{meropenem}}"
+ },
+ "Q084": {
+  "idea": [
+   "مريض بالـ{{ICU}} بـ{{fever}} يحتاج {{vasopressor}} عشان {{MAP above 65}} رغم {{adequate fluids}}",
+   "فالتشخيص {{septic shock}}"
+  ],
+  "clues": [
+   [
+    "الـ{{vasopressor}} لرفع {{MAP}} بعد {{adequate fluids}}",
+    "هذا تعريف {{septic shock}}"
+   ],
+   [
+    "الـ{{fever}} و{{infection}}",
+    "يعني السبب {{infection}}"
+   ],
+   [
+    "تفاصيل التحاليل ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{septic shock}} هو {{sepsis}} مع {{hypotension}} يحتاج {{vasopressor}} رغم {{adequate fluids}}",
+   "وغالبًا معه {{elevated lactate}}",
+   "و{{mortality}} أعلى من {{sepsis}} العادي"
+  ],
+  "wrong": {
+   "0": "الـ{{sepsis}} بدون حاجة لـ{{vasopressor}}",
+   "1": "الـ{{septicemia}} مصطلح قديم لـ{{bacteria in the blood}}",
+   "3": "الـ{{SIRS}} هو {{systemic inflammation}} بدون {{proven infection}} أو {{shock}}"
+  },
+  "change": [
+   "لو {{normal BP}} مع {{organ dysfunction}} فهذا {{sepsis}}",
+   "لو {{systemic inflammation}} بدون {{infection}} فهذا {{SIRS}}"
+  ],
+  "rule": "لو {{vasopressor}} مع {{adequate fluids}} فهذا {{septic shock}}"
+ },
+ "Q085": {
+  "idea": [
+   "سيدة عمرها {{35}} عندها {{fatigue}} و{{lethargy}} و{{weight gain}} من {{3 months}}",
+   "فأنسب فحص هو {{TSH}}"
+  ],
+  "clues": [
+   [
+    "الـ{{fatigue}} و{{lethargy}} و{{weight gain}}",
+    "يعني أعراض {{hypothyroidism}}"
+   ],
+   [
+    "لو {{normal exam}}",
+    "فما فيه علامات تقودنا لسبب ثاني"
+   ],
+   [
+    "تفاصيل التحاليل ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{TSH}} أفضل {{screening test}} لـ{{thyroid disease}}",
+   "وهو {{most sensitive}} لأي خلل بالغدة",
+   "نطلب غيره بعد ما يظهر {{TSH}} غير طبيعي"
+  ],
+  "wrong": {
+   "1": "الـ{{TPO antibody}} نطلبه بعد تأكيد {{hypothyroidism}} لمعرفة السبب",
+   "2": "الـ{{T3}} مو {{screening test}}",
+   "3": "الـ{{T4}} نطلبه بعد {{abnormal TSH}}"
+  },
+  "change": [
+   "لو {{TSH}} مرتفع فنقيس {{free T4}}",
+   "لو {{hypothyroidism}} مؤكد فنطلب {{anti-TPO}} لتأكيد {{Hashimoto}}"
+  ],
+  "rule": "لو أعراض {{thyroid}} فنبدأ بـ{{TSH}}"
+ },
+ "Q086": {
+  "idea": [
+   "سيدة عمرها {{32}} عندها {{weight loss}} و{{heat intolerance}} و{{tremor}} و{{painless goiter}}",
+   "ولو {{TSI}} سلبية فالأقرب {{toxic nodular goiter}}"
+  ],
+  "clues": [
+   [
+    "الـ{{hyperthyroidism}} مع {{painless goiter}}",
+    "يعني {{overactive thyroid}}"
+   ],
+   [
+    "الـ{{TSI}} سلبية",
+    "يعني نبعد عن {{Graves}}"
+   ],
+   [
+    "تفاصيل التحاليل ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Graves}} يعطي {{TSI positive}}",
+   "لو {{TSI negative}} مع {{nodular goiter}} و{{hyperthyroidism}} فالتشخيص {{toxic nodular goiter}}",
+   "ونؤكده بـ{{radioiodine uptake}}"
+  ],
+  "wrong": {
+   "0": "الـ{{TSH-secreting tumor}} نادر ويكون {{TSH}} مرتفع",
+   "1": "الـ{{tertiary hypothyroidism}} هو {{underactive}} مو {{hyperthyroidism}}",
+   "3": "الـ{{Graves}} يعطي {{TSI positive}} والسؤال يقول {{negative}}"
+  },
+  "change": [
+   "لو {{TSI positive}} مع {{exophthalmos}} فهذا {{Graves}}",
+   "لو {{painful thyroid}} فهذا {{subacute thyroiditis}}"
+  ],
+  "rule": "الـ{{hyperthyroidism}} مع {{goiter}} و{{negative TSI}} يعني {{toxic nodular goiter}}"
+ },
+ "Q087": {
+  "idea": [
+   "مريض {{type 1 DM}} على {{insulin}} لقيناه {{drowsy}} و{{sweating}} ونزل سكره",
+   "فأنسب تصرف هو {{fruit juice}}"
+  ],
+  "clues": [
+   [
+    "الـ{{drowsiness}} و{{sweating}} مع {{low glucose}}",
+    "يعني {{hypoglycemia}}"
+   ],
+   [
+    "لو لقيناه بالعيادة",
+    "فيقدر {{swallow safely}}"
+   ]
+  ],
+  "why": [
+   "لو مريض واعي و{{able to swallow}} فنعطيه {{fast oral sugar}}",
+   "والـ{{fruit juice}} يرفع السكر بسرعة",
+   "وما نحتاج {{IV}} ولا حقن بهالحالة"
+  ],
+  "wrong": {
+   "1": "الـ{{normal saline}} ما يرفع السكر",
+   "2": "الـ{{glucagon}} لمريض {{unable to swallow}} أو بدون {{IV access}}",
+   "3": "الـ{{IV dextrose}} لو {{unconscious}} أو {{unable to swallow}}"
+  },
+  "change": [
+   "لو {{unconscious}} فنعطي {{IV dextrose}} أو {{glucagon}}",
+   "لو أكل ورجع السكر فنكمل بـ{{meal}}"
+  ],
+  "rule": "الـ{{hypoglycemia}} مع مريض {{able to swallow}} يعني {{oral sugar}}"
+ },
+ "Q088": {
+  "idea": [
+   "مريضة عمرها {{32}} قدمت من {{India}} بـ{{headache}} و{{confusion}} و{{fever}} و{{neck stiffness}} و{{papilledema}}",
+   "فنبدأ {{4-drug anti-TB}} فورًا لأن الأقرب {{TB meningitis}}"
+  ],
+  "clues": [
+   [
+    "قدمت من {{India}} وأسبوعين أعراض",
+    "يعني {{TB endemic area}}"
+   ],
+   [
+    "الـ{{neck stiffness}} و{{confusion}}",
+    "يعني {{meningitis}}"
+   ],
+   [
+    "الـ{{CT}} بدون {{mass}}",
+    "فنقدر نسوي {{LP}} بأمان"
+   ],
+   [
+    "تفاصيل التحاليل والتقرير ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{TB meningitis}} يتأخر تشخيصه و{{delay}} يرفع {{mortality}}",
+   "فنبدأ {{INH}} و{{rifampin}} و{{pyrazinamide}} و{{ethambutol}} مباشرة",
+   "ولا ننتظر {{culture}} لأنه ياخذ أسابيع"
+  ],
+  "wrong": {
+   "0": "الـ{{treating contacts}} ما هو الأولوية الحين",
+   "1": "الـ{{isolation}} مهم بس العلاج أهم، والـ{{TB meningitis}} نفسه ما ينتقل بالعدوى",
+   "2": "نرسل {{CSF culture}} بس ما ننتظره قبل العلاج"
+  },
+  "change": [
+   "لو احتمال كبير فنضيف {{dexamethasone}}",
+   "لو نشك بـ{{pulmonary TB}} فنفعّل {{isolation}}"
+  ],
+  "rule": "لو نشك بـ{{TB meningitis}} فنبدأ {{4-drug anti-TB}} فورًا"
+ },
+ "Q089": {
+  "idea": [
+   "سيدة عمرها {{27}} عندها {{fever}} و{{odynophagia}} و{{painful neck swelling}} بعد {{URTI}} من {{3 weeks}} مع {{tender thyroid}}",
+   "فالتشخيص {{subacute thyroiditis}}"
+  ],
+  "clues": [
+   [
+    "الـ{{painful thyroid}} بعد {{viral infection}}",
+    "يعني سمة {{subacute thyroiditis}}"
+   ],
+   [
+    "الـ{{fever}} و{{neck pain}}",
+    "يعني {{inflammation}} مو {{pharyngeal infection}}"
+   ],
+   [
+    "تفاصيل التحاليل ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{subacute thyroiditis}} يجي بعد {{viral infection}}",
+   "والغدة {{tender}} مع {{elevated ESR}}",
+   "ويبدأ بـ{{hyperthyroidism}} ثم {{hypothyroidism}} ثم {{normal}}"
+  ],
+  "wrong": {
+   "0": "الـ{{sick euthyroid}} يصير مع {{severe illness}} بدون ألم بالغدة",
+   "1": "الـ{{subclinical hypothyroidism}} بدون أعراض وبدون ألم",
+   "2": "الـ{{Hashimoto}} فيه {{painless goiter}}"
+  },
+  "change": [
+   "لو {{painless goiter}} مع {{anti-TPO}} فهذا {{Hashimoto}}",
+   "لو {{severe pain}} نعطي {{NSAIDs}} أو {{prednisolone}}"
+  ],
+  "rule": "الـ{{painful thyroid}} بعد {{viral infection}} يعني {{subacute thyroiditis}}"
+ },
+ "Q090": {
+  "idea": [
+   "رجل سعودي عمره {{44}} عنده {{fever}} و{{back pain radiating to the legs}} و{{bone tenderness}} و{{blood culture}} فيه {{gram-negative coccobacilli}}",
+   "فالتشخيص {{brucellosis}}"
+  ],
+  "clues": [
+   [
+    "الـ{{fever}} و{{back pain}} عند رجل سعودي",
+    "يعني سياق {{spondylitis}} من {{Brucella}}"
+   ],
+   [
+    "الـ{{gram-negative coccobacilli}} بالدم",
+    "يعني صفة {{Brucella}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Brucella}} هي {{gram-negative coccobacilli}}",
+   "وتنتقل من {{unpasteurized milk}} و{{livestock}}",
+   "وتسبب {{fever}} و{{bone and joint pain}} وخصوصًا {{spine}}"
+  ],
+  "wrong": {
+   "1": "الـ{{TB}} ما تظهر بـ{{Gram stain}}",
+   "2": "الـ{{leishmaniasis}} {{parasite}} ويسبب {{splenomegaly}}",
+   "3": "الـ{{schistosomiasis}} {{parasite}} ويسبب {{hematuria}}"
+  },
+  "change": [
+   "لو {{splenomegaly}} مع {{fever}} فنفكر بـ{{leishmaniasis}}",
+   "العلاج {{doxycycline}} مع {{rifampin}}"
+  ],
+  "rule": "الـ{{gram-negative coccobacilli}} مع {{back pain}} و{{fever}} يعني {{brucellosis}}"
+ },
+ "Q091": {
+  "idea": [
+   "شاب جاه {{new IBD}} ويسأل إيش يفرق {{Crohn's}} عن {{UC}}",
+   "فالأدق {{non-caseating granuloma}} بالـ{{biopsy}}"
+  ],
+  "clues": [
+   [
+    "لو نفرق بين {{Crohn's}} و{{UC}}",
+    "فنبحث عن {{specific histologic sign}}"
+   ]
+  ],
+  "why": [
+   "الـ{{non-caseating granuloma}} من علامات {{Crohn's}} المميزة",
+   "وما يظهر عادة بـ{{UC}}",
+   "وهو أدق من العلامات المشتركة"
+  ],
+  "wrong": {
+   "0": "الـ{{aphthous ulcers}} ممكن بالاثنين",
+   "1": "الـ{{colonic involvement}} ممكن بالاثنين",
+   "3": "الـ{{extraintestinal manifestations}} موجودة بالاثنين"
+  },
+  "change": [
+   "لو {{continuous rectal inflammation}} فقط فهذا {{UC}}",
+   "لو {{skip lesions}} فهذا {{Crohn's}}"
+  ],
+  "rule": "الـ{{non-caseating granuloma}} يعني {{Crohn's disease}}"
+ },
+ "Q092": {
+  "idea": [
+   "سيدة عمرها {{35}} عندها {{fatigue}} من {{5 months}} و{{dyslipidemia}} وما تاخذ أدوية",
+   "فأنسب علاج {{thyroxine}} لأن السبب {{hypothyroidism}}"
+  ],
+  "clues": [
+   [
+    "الـ{{fatigue}} مع {{dyslipidemia}}",
+    "يعني {{hypothyroidism}} سبب {{secondary}} للدهون"
+   ],
+   [
+    "لو ما تاخذ أدوية",
+    "فما فيه دواء يسبب هذا"
+   ],
+   [
+    "تفاصيل التحاليل ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{hypothyroidism}} يرفع {{LDL}} و{{lipids}}",
+   "نعالج السبب الأساسي بـ{{thyroxine}}",
+   "وبعد تصحيح الغدة تتحسن {{lipids}} غالبًا"
+  ],
+  "wrong": {
+   "0": "الـ{{statin}} نعطيه بعد معالجة السبب {{secondary}} ولو استمر",
+   "1": "الـ{{fibrate}} لـ{{high triglycerides}}",
+   "2": "الـ{{niacin}} نادر الاستخدام وما يعالج السبب"
+  },
+  "change": [
+   "لو {{dyslipidemia}} استمر بعد تصحيح الغدة فنضيف {{statin}}",
+   "لو {{TSH}} طبيعي فنعالج كـ{{primary dyslipidemia}}"
+  ],
+  "rule": "الـ{{dyslipidemia}} مع أعراض {{hypothyroidism}} يعني نعالج الغدة أولًا"
+ },
+ "Q093": {
+  "idea": [
+   "رجل عمره {{38}} عنده {{GERD}} من {{10 years}} على {{PPI}} وجاه {{dysphagia to solids}} من {{4 months}}",
+   "فأنسب فحص {{endoscopy}}"
+  ],
+  "clues": [
+   [
+    "الـ{{long-standing GERD}}",
+    "يعني خطر {{stricture}} و{{Barrett}} و{{adenocarcinoma}}"
+   ],
+   [
+    "الـ{{dysphagia to solids}}",
+    "يعني {{alarm symptom}}"
+   ]
+  ],
+  "why": [
+   "الـ{{dysphagia}} هو {{alarm symptom}} عند مريض {{GERD}}",
+   "والـ{{endoscopy}} يشوف السبب ويسمح بـ{{biopsy}}",
+   "وهو أول فحص قبل غيره"
+  ],
+  "wrong": {
+   "1": "الـ{{manometry}} لـ{{motility disorder}} بعد استبعاد {{organic cause}}",
+   "2": "الـ{{barium swallow}} أقل دقة وما يعطي {{biopsy}}",
+   "3": "الـ{{FOB}} لـ{{screening}} مو لـ{{dysphagia}}"
+  },
+  "change": [
+   "لو {{endoscopy}} طبيعي فنسوي {{manometry}}",
+   "لو {{bleeding}} أو {{anemia}} فنعتبرها {{alarm}} أكثر"
+  ],
+  "rule": "الـ{{GERD}} مع {{dysphagia}} يعني {{endoscopy}} أول"
+ },
+ "Q094": {
+  "idea": [
+   "رجل عمره {{60}} عنده {{exertional dyspnea}} و{{severe AR}} و{{EF 40%}}",
+   "فالعلاج {{AVR}}"
+  ],
+  "clues": [
+   [
+    "الـ{{Corrigan's pulse}} و{{early diastolic murmur}}",
+    "يعني {{aortic regurgitation}}"
+   ],
+   [
+    "الـ{{severe AR}} مع أعراض و{{EF 40%}}",
+    "يعني {{ventricular function}} تتدهور"
+   ],
+   [
+    "تفاصيل التقرير ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{severe AR}} مع أعراض أو {{low EF}} يعني ضرورة {{surgery}}",
+   "والـ{{medical therapy}} مؤقت فقط",
+   "وتأخير الجراحة يؤدي لـ{{ventricular damage}}"
+  ],
+  "wrong": {
+   "0": "الـ{{diuretics}} تخفف الأعراض بس ما تعالج السبب",
+   "1": "الـ{{CCB}} ما تعالج {{severe AR}}",
+   "3": "الـ{{ACEi}} مؤقت لو ما يصلح للجراحة"
+  },
+  "change": [
+   "لو {{mild AR}} بدون أعراض فنتابع بالـ{{echo}}",
+   "لو ما يصلح للجراحة فنعطي {{vasodilators}}"
+  ],
+  "rule": "الـ{{severe AR}} مع أعراض أو {{low EF}} يعني {{AVR}}"
+ },
+ "Q095": {
+  "idea": [
+   "رجل عمره {{45}} عنده {{diabetes}} على {{metformin}} مع {{abnormal LFTs}} بدون أعراض",
+   "فأقرب سبب {{NAFLD}}"
+  ],
+  "clues": [
+   [
+    "الـ{{diabetes}} وبدون أعراض",
+    "يعني {{risk factors for NAFLD}}"
+   ],
+   [
+    "الـ{{mild liver enzyme elevation}}",
+    "يعني نمط {{NAFLD}} الشائع"
+   ],
+   [
+    "تفاصيل التحاليل ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{NAFLD}} أشهر سبب لـ{{abnormal LFTs}} مع {{diabetes}} و{{obesity}}",
+   "غالبًا {{asymptomatic}}",
+   "وتشخص بعد استبعاد الأسباب الثانية"
+  ],
+  "wrong": {
+   "0": "الـ{{acute viral hepatitis}} بأعراض حادة ويرتفع {{ALT}} بشدة",
+   "1": "الـ{{hemochromatosis}} أقل شيوعًا ومعها {{iron overload}}",
+   "2": "الـ{{autoimmune hepatitis}} أقل شيوعًا ولها {{autoantibodies}}"
+  },
+  "change": [
+   "لو {{ferritin}} مرتفع جدًا فنفكر بـ{{hemochromatosis}}",
+   "لو {{ANA}} إيجابي فنفكر بـ{{autoimmune hepatitis}}"
+  ],
+  "rule": "الـ{{diabetes}} مع {{abnormal LFTs}} بدون أعراض يعني {{NAFLD}}"
+ },
+ "Q096": {
+  "idea": [
+   "مريض {{cirrhosis}} عنده {{altered consciousness}} و{{tense ascites}} و{{edema}}",
+   "فأنسب إدارة هي بدء {{diuretic}} مع {{spironolactone}}"
+  ],
+  "clues": [
+   [
+    "الـ{{cirrhosis}} مع {{tense ascites}}",
+    "يعني نحتاج {{drainage}} و{{diuretics}}"
+   ],
+   [
+    "الـ{{decreased consciousness}}",
+    "يعني احتمال {{hepatic encephalopathy}}"
+   ]
+  ],
+  "why": [
+   "علاج {{ascites}} بـ{{spironolactone}} مع {{loop diuretic}}",
+   "والـ{{spironolactone}} هو الأساس",
+   "والـ{{paracentesis}} لو {{tense ascites}}"
+  ],
+  "wrong": {
+   "0": "الـ{{loop diuretic}} لحاله أقل فعالية بـ{{cirrhosis}}",
+   "2": "الـ{{TIPS}} لـ{{refractory cases}}"
+  },
+  "change": [
+   "لو {{refractory}} فنفكر بـ{{TIPS}}",
+   "لو {{fever}} و{{abdominal pain}} فنسوي {{paracentesis}} لـ{{SBP}}"
+  ],
+  "rule": "الـ{{cirrhotic ascites}} يعني {{spironolactone}} مع {{loop diuretic}}"
+ },
+ "Q097": {
+  "idea": [
+   "مريض {{cirrhosis}} عنده {{severe ascites}} و{{confusion}} ونحسب {{Child-Pugh}}",
+   "فأقرب نتيجة {{Stage B}} حسب الجواب المعتمد"
+  ],
+  "clues": [
+   [
+    "الـ{{severe ascites}} و{{confusion}}",
+    "يرفعون نقاط {{Child-Pugh}}"
+   ],
+   [
+    "الـ{{lab results}} ما هي موجودة بالبطاقة",
+    "نعتمد على الجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{Child-Pugh}} يشمل {{bilirubin}} و{{albumin}} و{{INR}} و{{ascites}} و{{encephalopathy}}",
+   "النتيجة تحددها {{lab values}}",
+   "والجواب المعتمد {{B}}"
+  ],
+  "wrong": {
+   "0": "الـ{{A}} يعني {{mild disease}}",
+   "2": "الـ{{C}} يعني {{severe disease}}",
+   "3": "الـ{{Child-Pugh}} ينطبق على {{cirrhosis}}"
+  },
+  "change": [
+   "لو {{score 10 or more}} فهذا {{C}}",
+   "لو {{5 to 6}} فهذا {{A}}"
+  ],
+  "rule": "الـ{{Child-Pugh}} يحسب من {{5 clinical and lab components}}",
+  "note": "الـ{{lab values}} ما هي موجودة بالبطاقة، فالجواب حسب الملف المعتمد"
+ },
+ "Q098": {
+  "idea": [
+   "مريض {{diabetic}} بالـ{{ICU}} بـ{{severe pneumonia}} ثم {{hypotension}} يحتاج {{inotropes}}",
+   "فالأقرب {{ischemic hepatitis}}"
+  ],
+  "clues": [
+   [
+    "الـ{{acute hypotension}}",
+    "يعني {{hepatic hypoperfusion}}"
+   ],
+   [
+    "مريض {{ICU}}",
+    "يعني سياق {{shock liver}}"
+   ],
+   [
+    "تفاصيل التحاليل ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{ischemic hepatitis}} يصير بعد {{hypotension}} أو {{shock}}",
+   "يرتفع {{AST}} و{{ALT}} بشكل كبير وسريع",
+   "ويتحسن بعد تصحيح الضغط"
+  ],
+  "wrong": {
+   "0": "الـ{{cholangitis}} يجي بـ{{fever}} و{{jaundice}} و{{abdominal pain}}",
+   "2": "الـ{{viral hepatitis}} ما يطلع فجأة بعد {{hypotension}}",
+   "3": "الـ{{drug-induced liver injury}} ما فيه دواء واضح"
+  },
+  "change": [
+   "لو {{fever}} و{{jaundice}} و{{pain}} فنفكر بـ{{cholangitis}}",
+   "العلاج {{circulatory support}} وتصحيح السبب"
+  ],
+  "rule": "لو {{hypotension}} ثم {{marked elevation of liver enzymes}} فهذا {{ischemic hepatitis}}"
+ },
+ "Q099": {
+  "idea": [
+   "شاب عمره {{23}} عنده {{abdominal pain}} و{{bloody diarrhea}} من {{7 months}} مع {{fever}} و{{anorexia}}",
+   "فالتشخيص {{IBD}}"
+  ],
+  "clues": [
+   [
+    "الـ{{chronic bloody diarrhea}} مع ألم",
+    "يعني {{chronic bowel inflammation}}"
+   ],
+   [
+    "الـ{{fever}} و{{anorexia}}",
+    "يعني {{disease activity}}"
+   ],
+   [
+    "لو نحيف",
+    "فيعني {{malabsorption}} أو {{inflammation}}"
+   ],
+   [
+    "تفاصيل التحاليل ما هي موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{chronic bloody diarrhea}} مع {{fever}} عند شاب يوجه لـ{{IBD}}",
+   "والتحاليل تدعمه بـ{{CRP}} و{{calprotectin}}",
+   "والتشخيص النهائي بـ{{endoscopy}} و{{biopsy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{celiac}} فيه {{fatty diarrhea}} بدون دم",
+   "1": "الـ{{lactose intolerance}} فيه {{bloating after milk}} بدون دم",
+   "2": "الـ{{IBS}} بدون دم أو {{fever}}"
+  },
+  "change": [
+   "لو {{fatty diarrhea}} فنفكر بـ{{celiac}}",
+   "نؤكد {{IBD}} بـ{{colonoscopy}}"
+  ],
+  "rule": "الـ{{chronic bloody diarrhea}} مع {{fever}} يعني {{IBD}}"
+ },
+ "Q100": {
+  "idea": [
+   "مريض {{chronic hepatitis}} عنده {{ascites}} و{{SAAG above 1.1}}",
+   "فالسبب {{liver cirrhosis}}"
+  ],
+  "clues": [
+   [
+    "الـ{{SAAG above 1.1}}",
+    "يعني {{portal hypertension}}"
+   ],
+   [
+    "الـ{{chronic hepatitis}}",
+    "يؤدي لـ{{cirrhosis}}"
+   ]
+  ],
+  "why": [
+   "الـ{{SAAG ≥ 1.1}} يعني {{portal hypertension}}",
+   "وأشهر سبب {{cirrhosis}}",
+   "والـ{{ascites}} بدون {{high SAAG}} سببه {{peritoneal disease}}"
+  ],
+  "wrong": {
+   "0": "الـ{{pancreatitis}} يعطي {{low SAAG}}",
+   "1": "الـ{{peritoneal TB}} يعطي {{low SAAG}}",
+   "3": "الـ{{nephrotic syndrome}} يعطي {{low SAAG}}"
+  },
+  "change": [
+   "لو {{SAAG below 1.1}} فنفكر بـ{{TB}} أو {{malignancy}}",
+   "لو {{high SAAG}} مع {{JVD}} فنفكر بسبب {{cardiac}}"
+  ],
+  "rule": "الـ{{high SAAG}} يعني {{portal hypertension}} وغالبًا {{cirrhosis}}"
+ }
+}

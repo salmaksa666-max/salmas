@@ -1,0 +1,680 @@
+{
+ "Q121": {
+  "idea": [
+   "مريض {{advanced COPD}} مع {{emphysema}} و{{progressive dyspnea}} رغم {{dual bronchodilator}}",
+   "الجواب المعتمد {{home oxygen}}"
+  ],
+  "clues": [
+   [
+    "فهو على {{LAMA/LABA}}",
+    "يعني {{maximal bronchodilator therapy}} موجود"
+   ],
+   [
+    "الـ{{diffuse emphysema}} بالـ{{CT}}",
+    "يعني {{advanced disease}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{home oxygen}} يعطي {{symptomatic relief}} لو {{chronic hypoxemia}}",
+   "ويعني {{improves survival}} لو {{PaO2 < 55}} أو {{SpO2 ≤ 88%}}",
+   "فنعتمد على {{ABG}} أو {{oximetry}}"
+  ],
+  "wrong": {
+   "1": "الـ{{LABA}} موجود أصلًا داخل {{Anoro}} فما نضيف {{duplicate}}",
+   "2": "الـ{{Volume reduction surgery}} لـ{{selected upper lobe emphysema}} فقط",
+   "3": "الـ{{ICS}} لو {{frequent exacerbations}} أو {{high eosinophils}}"
+  },
+  "change": [
+   "لو {{frequent exacerbations}} نضيف {{ICS}}",
+   "لو {{upper lobe emphysema}} مع {{poor exercise capacity}} نفكر {{LVRS}}"
+  ],
+  "rule": "الـ{{Advanced COPD}} مع {{chronic hypoxemia}} يعني {{home oxygen}}",
+  "note": "الجواب حسب الملف المعتمد، والـ{{ABG}} غير ظاهر بالبطاقة"
+ },
+ "Q122": {
+  "idea": [
+   "مريض {{psychiatric disease}} زادوا {{haloperidol}} فصار {{confusion}} و{{sweating}}",
+   "يعني {{neuroleptic malignant syndrome}} والعلاج {{bromocriptine}}"
+  ],
+  "clues": [
+   [
+    "فعنده زيادة {{haloperidol}}",
+    "يعني {{antipsychotic}} هو السبب"
+   ],
+   [
+    "وعنده {{confusion}} و{{sweating}}",
+    "يعني {{autonomic instability}}"
+   ]
+  ],
+  "why": [
+   "الـ{{NMS}} سببه {{antipsychotic}} وهو {{dopamine blockade}}",
+   "نوقف الدواء ونعطي {{IV fluids}} و{{supportive care}}",
+   "ونضيف {{bromocriptine}} أو {{dantrolene}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Naloxone}} لـ{{opioid toxicity}} بس",
+   "1": "الـ{{Glucagon}} لـ{{hypoglycemia}} أو {{beta blocker toxicity}}",
+   "2": "الـ{{Meropenem}} للـ{{infection}} والسبب هنا {{drug-induced}}"
+  },
+  "change": [
+   "لو السبب {{serotonin syndrome}} نعطي {{cyproheptadine}}",
+   "الـ{{NMS}} يجي مع {{rigidity}} و{{hyperthermia}} و{{high CK}}"
+  ],
+  "rule": "الـ{{Haloperidol}} مع {{hyperthermia}} و{{confusion}} يعني {{NMS}} ونعطي {{bromocriptine}}"
+ },
+ "Q123": {
+  "idea": [
+   "رجل ٧٦ سنة عنده {{exertional dyspnea}} و{{crescendo-decrescendo systolic murmur radiating to carotids}}",
+   "يعني {{aortic stenosis}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{crescendo-decrescendo murmur}} تنتشر للـ{{carotids}}",
+    "يعني {{aortic stenosis}}"
+   ],
+   [
+    "وعنده {{forceful apex beat}}",
+    "يعني {{LV hypertrophy}}"
+   ],
+   [
+    "وعمره ٧٦",
+    "يعني {{degenerative calcific AS}}"
+   ]
+  ],
+  "why": [
+   "الـ{{AS}} عند كبار السن سببه {{calcific degeneration}}",
+   "والنفخة {{ejection systolic murmur}} وتنتشر للـ{{carotids}}",
+   "والأعراض {{dyspnea}} و{{syncope}} و{{angina}}"
+  ],
+  "wrong": {
+   "0": "الـ{{MS}} نفختها {{diastolic rumble}}",
+   "2": "الـ{{PS}} نفختها {{systolic}} بس ما تنتشر للـ{{neck}}",
+   "3": "الـ{{AR}} نفختها {{early diastolic}}"
+  },
+  "change": [
+   "لو صارت {{symptomatic}} نعمل {{AVR}}",
+   "لو {{MR}} فالنفخة تنتشر للـ{{axilla}}"
+  ],
+  "rule": "الـ{{Ejection systolic murmur}} تنتشر للـ{{carotids}} عند كبير السن يعني {{aortic stenosis}}"
+ },
+ "Q124": {
+  "idea": [
+   "سيدة ٦٢ سنة عندها {{chest pain}} لمدة ٣ ساعات و{{ischemic stroke}} قبل شهر",
+   "فنسوي {{urgent coronary angiography}}"
+  ],
+  "clues": [
+   [
+    "فعندها {{chest pain}} ٣ ساعات",
+    "يعني {{ACS}}"
+   ],
+   [
+    "و{{stroke}} قبل شهر",
+    "يعني {{contraindication}} للـ{{thrombolytics}}"
+   ],
+   [
+    "الـ{{ECG}} مو موجود بالبطاقة",
+    "فنعتمد على الجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{STEMI}} مع {{recent ischemic stroke}} يعني {{thrombolysis contraindicated}}",
+   "فنفضل {{primary PCI}}",
+   "ونسوي {{urgent coronary angiography}}"
+  ],
+  "wrong": {
+   "0": "الـ{{IV magnesium}} ما له دور بالـ{{STEMI}}",
+   "1": "الـ{{CT angiography}} أقل فايدة بـ{{acute setting}}",
+   "3": "الـ{{Thrombolytic}} ممنوع لأن {{stroke}} حديث"
+  },
+  "change": [
+   "لو ما فيه {{contraindication}} و{{PCI}} غير متاح نعطي {{thrombolytic}}",
+   "ونكمل {{antiplatelets}}"
+  ],
+  "rule": "الـ{{STEMI}} مع {{contraindication to thrombolysis}} يعني {{primary PCI}}"
+ },
+ "Q125": {
+  "idea": [
+   "رجل ٥٨ سنة عنده {{exertional dyspnea}} يعيق شغله بس {{no symptoms at rest}}",
+   "يعني {{NYHA class II}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{dyspnea on ordinary activity}}",
+    "يعني {{slight limitation}}"
+   ],
+   [
+    "ومرتاح بالراحة",
+    "يعني مو {{class IV}}"
+   ]
+  ],
+  "why": [
+   "الـ{{NYHA II}} يعني {{slight limitation of physical activity}}",
+   "والـ{{ordinary activity}} يسبب {{dyspnea}}",
+   "و{{comfortable at rest}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Class I}} يعني {{no symptoms}} مع النشاط",
+   "2": "الـ{{Class III}} يعني {{marked limitation}} حتى مع {{less than ordinary activity}}",
+   "3": "الـ{{Class IV}} يعني {{symptoms at rest}}"
+  },
+  "change": [
+   "لو {{symptoms}} مع {{minimal activity}} فهذا {{class III}}",
+   "لو {{symptoms at rest}} فهذا {{class IV}}"
+  ],
+  "rule": "الـ{{NYHA II}} يعني {{symptoms with ordinary activity only}}"
+ },
+ "Q126": {
+  "idea": [
+   "سيدة ٣٥ سنة بعد الولادة بأسبوعين عندها {{chest pain}} و{{exertional dyspnea}} و{{low DLCO}}",
+   "فالأقرب {{pulmonary embolism}}"
+  ],
+  "clues": [
+   [
+    "فهي {{postpartum}}",
+    "يعني {{VTE risk factor}}"
+   ],
+   [
+    "والـ{{DLCO}} منخفض مع {{normal spirometry}}",
+    "يعني {{gas exchange defect}} بدون {{obstruction}} أو {{restriction}}"
+   ],
+   [
+    "الـ{{reports}} مو موجودة بالبطاقة",
+    "فنعتمد على الجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{PE}} يسبب {{V/Q mismatch}}",
+   "و{{DLCO}} ينخفض مع {{normal PFTs}}",
+   "والـ{{postpartum state}} هو {{risk factor}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Pneumonia}} تجي مع {{fever}} و{{cough}}",
+   "1": "الـ{{Heart failure}} تجي مع {{orthopnea}} و{{PND}}",
+   "2": "الـ{{Acute bronchitis}} تجي مع {{cough}}"
+  },
+  "change": [
+   "لو {{fever}} و{{productive cough}} نفكر {{pneumonia}}",
+   "ونأكد بـ{{CTPA}}"
+  ],
+  "rule": "الـ{{Postpartum}} مع {{chest pain}} و{{dyspnea}} و{{low DLCO}} يعني {{PE}}"
+ },
+ "Q127": {
+  "idea": [
+   "سيدة ٣٨ سنة عندها {{bilateral hilar lymphadenopathy}} بدون أعراض مع {{non-caseating granuloma}}",
+   "يعني {{asymptomatic sarcoidosis}} فنسوي {{observation}}"
+  ],
+  "clues": [
+   [
+    "فعندها {{bilateral hilar lymphadenopathy}}",
+    "يعني {{sarcoidosis}} المحتمل"
+   ],
+   [
+    "و{{non-caseating granuloma}}",
+    "يعني {{histologic confirmation}}"
+   ],
+   [
+    "وهي {{asymptomatic}}",
+    "يعني غالبًا {{stage I}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Stage I sarcoidosis}} الـ{{asymptomatic}} غالبًا {{spontaneous resolution}}",
+   "فنسوي {{observation}} بس",
+   "ونبدأ {{treatment}} لو {{symptoms}} أو {{organ involvement}}"
+  ],
+  "wrong": {
+   "1": "الـ{{Prednisone}} لو {{severe symptoms}} أو {{organ involvement}}",
+   "2": "الـ{{Azithromycin}} ما له دور",
+   "3": "الـ{{Anti-TB}} لو {{caseating granuloma}}"
+  },
+  "change": [
+   "لو {{symptoms}} أو {{abnormal PFTs}} نبدأ {{prednisone}}",
+   "لو {{caseation}} نفكر {{TB}}"
+  ],
+  "rule": "الـ{{Asymptomatic sarcoidosis}} يعني {{observation}}"
+ },
+ "Q128": {
+  "idea": [
+   "سيدة ٦٨ سنة عندها {{ESRD}} على {{hemodialysis}} مع {{volume overload}}",
+   "فأقرب نتيجة {{peaked T wave}}"
+  ],
+  "clues": [
+   [
+    "فعندها {{ESRD}} مع {{edema}}",
+    "يعني {{hyperkalemia}} المحتمل"
+   ],
+   [
+    "والـ{{JVP}} مرتفع",
+    "يعني {{volume overload}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{Hyperkalemia}} شائع عند مرضى {{ESRD}}",
+   "وأول تغير بالـ{{ECG}} هو {{peaked T waves}}",
+   "وبعدها {{wide QRS}}"
+  ],
+  "wrong": {
+   "1": "الـ{{Peaked P wave}} مو {{typical}} للـ{{hyperkalemia}}",
+   "2": "الـ{{Short PR}} مو من تغيرات {{hyperkalemia}}",
+   "3": "الـ{{Narrow QRS}} عكس {{hyperkalemia}} لأنها تعطي {{wide QRS}}"
+  },
+  "change": [
+   "لو {{severe}} نشوف {{wide QRS}} و{{sine wave}}",
+   "ونعطي {{calcium gluconate}}"
+  ],
+  "rule": "الـ{{ESRD}} مع {{hyperkalemia}} يعني {{peaked T wave}} بالـ{{ECG}}"
+ },
+ "Q129": {
+  "idea": [
+   "رجل ٧٨ سنة عنده {{CKD}} و{{fatigue}} و{{nausea}} و{{drowsiness}}",
+   "فنعطي {{calcium gluconate}} لـ{{cardiac protection}}"
+  ],
+  "clues": [
+   [
+    "فهو {{CKD}} على {{lisinopril}}",
+    "يعني {{hyperkalemia risk}}"
+   ],
+   [
+    "و{{nausea}} و{{fatigue}}",
+    "يعني {{non-specific symptoms}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{Hyperkalemia}} مع {{ECG changes}} نبدأ بـ{{calcium gluconate}}",
+   "لأنه {{membrane stabilization}} ويحمي {{myocardium}}",
+   "وبعدها {{insulin}} مع {{dextrose}}"
+  ],
+  "wrong": {
+   "0": "الـ{{NaHCO3}} لـ{{metabolic acidosis}} وتأثيره أضعف",
+   "1": "الـ{{D5W}} بدون {{insulin}} ما يكفي",
+   "2": "الـ{{Diuretics}} تخفض {{K}} بس بطيئة وبعدين"
+  },
+  "change": [
+   "لو {{ECG}} طبيعي نبدأ {{insulin}} و{{dextrose}}",
+   "ونوقف {{ACEi}}"
+  ],
+  "rule": "الـ{{Hyperkalemia}} مع {{ECG changes}} يعني {{calcium gluconate}} أولًا"
+ },
+ "Q130": {
+  "idea": [
+   "مريضة {{systemic sclerosis}} عندها {{confusion}} و{{visual changes}} و{{hypertension}}",
+   "يعني {{scleroderma renal crisis}} فنعطي {{lisinopril}}"
+  ],
+  "clues": [
+   [
+    "فهي {{systemic sclerosis}}",
+    "يعني {{SRC risk}}"
+   ],
+   [
+    "و{{visual changes}} و{{drowsiness}} و{{high BP}}",
+    "يعني {{malignant hypertension}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{Scleroderma renal crisis}} علاجه {{ACE inhibitor}}",
+   "حتى لو {{renal function}} متأثرة",
+   "وهو {{reduces mortality}}"
+  ],
+  "wrong": {
+   "1": "الـ{{Bisoprolol}} ما يعالج {{renin-mediated hypertension}}",
+   "2": "الـ{{Amlodipine}} أقل فعالية من {{ACEi}}",
+   "3": "الـ{{Hydrochlorothiazide}} ما يفيد هنا"
+  },
+  "change": [
+   "نتجنب {{high-dose steroids}}",
+   "ونراقب {{creatinine}}"
+  ],
+  "rule": "الـ{{Scleroderma}} مع {{severe hypertension}} يعني {{ACE inhibitor}}"
+ },
+ "Q131": {
+  "idea": [
+   "سيدة ٤٥ سنة عندها {{ESRD}} من {{type 1 DM}} مع {{abnormal labs}}",
+   "فنعطي {{calcitriol}}"
+  ],
+  "clues": [
+   [
+    "فعندها {{ESRD}}",
+    "يعني {{secondary hyperparathyroidism}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{ESRD}} يسبب {{low 1,25-dihydroxy vitamin D}}",
+   "فنعوض بـ{{calcitriol}}",
+   "لأن الـ{{kidney}} ما يسوي {{1-alpha hydroxylation}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Sevelamer}} لـ{{hyperphosphatemia}}",
+   "2": "الـ{{Cinacalcet}} لو {{PTH}} عالي بعد ضبط {{Ca}} و{{phosphate}}",
+   "3": "الـ{{25-OH vitamin D}} ما ينقلب لـ{{active form}} بالـ{{ESRD}}"
+  },
+  "change": [
+   "لو {{high phosphate}} نضيف {{phosphate binder}}",
+   "لو {{PTH}} عالي جدًا نضيف {{cinacalcet}}"
+  ],
+  "rule": "الـ{{ESRD}} مع {{hypocalcemia}} يعني {{calcitriol}}",
+  "note": "الجواب حسب الملف المعتمد، والـ{{labs}} غير موجودة بالبطاقة"
+ },
+ "Q132": {
+  "idea": [
+   "سيدة ٣٨ سنة سكري رجعت من مكة بـ{{fever}} و{{headache}} و{{neck stiffness}} مع {{purulent CSF}}",
+   "فنبدأ {{ceftriaxone}} مع {{vancomycin}}"
+  ],
+  "clues": [
+   [
+    "فعندها {{fever}} و{{neck stiffness}}",
+    "يعني {{meningitis}}"
+   ],
+   [
+    "والـ{{CSF}} فيه {{low glucose}} و{{high protein}} و{{neutrophils}}",
+    "يعني {{bacterial}}"
+   ],
+   [
+    "ورجعت من مكة",
+    "يعني {{meningococcus}} محتمل"
+   ]
+  ],
+  "why": [
+   "الـ{{Bacterial meningitis}} نبدأ {{empiric antibiotics}} فورًا",
+   "والـ{{ceftriaxone}} مع {{vancomycin}}",
+   "لتغطية {{resistant S. pneumoniae}} و{{N. meningitidis}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Cefotaxime}} مع {{vancomycin}} بديل بس الجواب المعتمد غيره",
+   "1": "الـ{{Ampicillin}} نضيفه لو {{age > 50}} أو {{immunocompromised}} لتغطية {{Listeria}}",
+   "3": "الـ{{Azithromycin}} ما يستخدم بالـ{{meningitis}}"
+  },
+  "change": [
+   "لو {{age > 50}} أو {{immunocompromised}} نضيف {{ampicillin}}",
+   "ونعطي {{dexamethasone}} قبل {{antibiotics}}"
+  ],
+  "rule": "الـ{{Adult bacterial meningitis}} يعني {{ceftriaxone}} مع {{vancomycin}}"
+ },
+ "Q133": {
+  "idea": [
+   "سيدة ٢٨ سنة عندها {{sleepiness}} و{{fatigue}} و{{constipation}} و{{weight gain}}",
+   "فالأقرب {{Hashimoto thyroiditis}}"
+  ],
+  "clues": [
+   [
+    "فعندها {{sleepiness}} و{{constipation}} و{{weight gain}}",
+    "يعني {{hypothyroidism}}"
+   ],
+   [
+    "وهي شابة",
+    "يعني {{Hashimoto}} أشهر سبب"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{Hashimoto}} أشهر سبب لـ{{hypothyroidism}} مع {{adequate iodine}}",
+   "وتجي {{gradual symptoms}}",
+   "ونثبته بـ{{anti-TPO antibodies}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Graves}} يعني {{hyperthyroidism}}",
+   "1": "الـ{{Subacute thyroiditis}} تجي مع {{painful thyroid}}",
+   "2": "الـ{{Sick euthyroid}} يجي مع {{severe systemic illness}}"
+  },
+  "change": [
+   "لو {{painful thyroid}} فهذا {{subacute thyroiditis}}",
+   "لو {{low TSH}} فهذا {{hyperthyroidism}}"
+  ],
+  "rule": "الـ{{Hypothyroidism}} عند شابة يعني {{Hashimoto}}"
+ },
+ "Q134": {
+  "idea": [
+   "رجل ٦٥ سنة عنده {{confusion}} و{{left leg weakness 2/5}} مع {{decreased sensation}}",
+   "فالأقرب {{right ACA stroke}}"
+  ],
+  "clues": [
+   [
+    "فالـ{{weakness}} بالساق أكثر",
+    "يعني {{ACA pattern}}"
+   ],
+   [
+    "والـ{{left-sided deficit}}",
+    "يعني الـ{{infarct}} بالنصف الأيمن"
+   ]
+  ],
+  "why": [
+   "الـ{{ACA}} يغذي الـ{{medial frontal and parietal lobes}} فيصيب {{leg}}",
+   "أما الـ{{MCA}} فيصيب {{face}} و{{arm}}",
+   "والـ{{ACA}} قد يسبب {{behavioral change}} و{{abulia}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Migraine}} ما تعطي {{persistent weakness}}",
+   "1": "الـ{{MCA stroke}} تصيب {{face}} و{{arm}} أكثر",
+   "3": "الـ{{Basilar stroke}} تصيب {{brainstem}}"
+  },
+  "change": [
+   "لو {{face}} و{{arm}} {{weakness}} فهذا {{MCA}}",
+   "لو {{vertigo}} و{{vomiting}} فهذا {{vertebrobasilar}}"
+  ],
+  "rule": "الـ{{Leg weakness}} مع {{confusion}} يعني {{ACA stroke}}"
+ },
+ "Q135": {
+  "idea": [
+   "شاب ٢٢ سنة عنده {{left leg swelling}} مع {{chest tightness}} و{{tachycardia}}",
+   "يعني {{DVT}} مع {{PE}} فنبدأ {{heparin}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{whole leg swelling}}",
+    "يعني {{DVT}}"
+   ],
+   [
+    "و{{chest tightness}} مع {{tachycardia}}",
+    "يعني {{PE}}"
+   ]
+  ],
+  "why": [
+   "الـ{{DVT}} مع {{PE}} نبدأ {{anticoagulation}} فورًا",
+   "والـ{{UFH}} أو {{LMWH}} هو {{initial choice}}",
+   "وبعدها {{warfarin}} أو {{DOAC}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Aspirin}} ما يكفي كـ{{anticoagulation}}",
+   "1": "الـ{{Clopidogrel}} ما يكفي كـ{{anticoagulation}}",
+   "2": "الـ{{Warfarin}} لحاله لا لأنه يحتاج {{heparin bridging}}"
+  },
+  "change": [
+   "لو {{massive PE}} مع {{shock}} نعطي {{thrombolysis}}",
+   "لو {{contraindication}} للـ{{heparin}} نحط {{IVC filter}}"
+  ],
+  "rule": "الـ{{DVT}} أو {{PE}} يعني {{heparin}} وبعدها {{warfarin}}"
+ },
+ "Q136": {
+  "idea": [
+   "مريض {{SVT}} هبط ضغطه إلى {{80/45}} وقلّ وعيه",
+   "فنسوي {{cardioversion}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{SVT}}",
+    "يعني {{palpitations}}"
+   ],
+   [
+    "و{{hypotension}} مع {{altered consciousness}}",
+    "يعني {{unstable}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Unstable SVT}} نعالجه بـ{{synchronized cardioversion}}",
+   "لأن {{drugs}} تتأخر",
+   "وهذا {{life-saving}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Pacemaker}} لـ{{bradycardia}}",
+   "2": "الـ{{Propranolol}} للـ{{stable patient}}",
+   "3": "الـ{{Ablation}} علاج {{definitive}} بعدين"
+  },
+  "change": [
+   "لو {{stable}} نبدأ {{vagal maneuvers}} وبعدها {{adenosine}}",
+   "وبعدها {{ablation}}"
+  ],
+  "rule": "الـ{{SVT}} مع {{hypotension}} يعني {{synchronized cardioversion}}"
+ },
+ "Q137": {
+  "idea": [
+   "مراهق ١٦ سنة عنده {{recurrent transfusions}} و{{jaundice}} و{{hepatosplenomegaly}} والأبوين {{consanguineous}}",
+   "فأفضل فحص {{hemoglobin electrophoresis}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{transfusions}} متكررة مع {{consanguinity}}",
+    "يعني {{hemoglobinopathy}}"
+   ],
+   [
+    "و{{jaundice}} مع {{splenomegaly}}",
+    "يعني {{hemolysis}}"
+   ],
+   [
+    "و{{cholecystectomy}} سابقة",
+    "يعني {{pigment stones}}"
+   ],
+   [
+    "الـ{{labs}} مو موجودة بالبطاقة",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{Hemoglobin electrophoresis}} يحدد نوع {{Hb}}",
+   "ويشخص {{thalassemia}} و{{sickle cell disease}}",
+   "ولا نعتمد على {{morphology}} بس"
+  ],
+  "wrong": {
+   "0": "الـ{{Blood film}} يساعد بس ما يحدد {{Hb type}}",
+   "1": "الـ{{Sickling test}} لـ{{sickle cell}} بس",
+   "2": "الـ{{Bone marrow biopsy}} غير ضروري"
+  },
+  "change": [
+   "نأكد {{genetically}} لو لزم",
+   "ونبدأ {{iron chelation}} لو {{iron overload}}"
+  ],
+  "rule": "الـ{{Recurrent transfusions}} مع {{consanguinity}} يعني {{hemoglobin electrophoresis}}"
+ },
+ "Q138": {
+  "idea": [
+   "رجل ٧٠ سنة {{heavy smoker}} عنده {{cough}} و{{weight loss}} و{{night sweats}}",
+   "فالأقرب {{lung carcinoma}}"
+  ],
+  "clues": [
+   [
+    "فهو {{smoker}} ٥٠ سنة",
+    "يعني {{major risk factor}}"
+   ],
+   [
+    "و{{10 kg weight loss}} مع {{night sweats}}",
+    "يعني {{alarm symptoms}}"
+   ],
+   [
+    "والأعراض ٥ شهور",
+    "يعني {{chronic}} مو {{acute}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Age}} مع {{smoking}} و{{weight loss}} يوجه لـ{{malignancy}}",
+   "والأعراض {{chronic}} مو {{acute pneumonia}}",
+   "ونأكد بالـ{{imaging}} و{{biopsy}}"
+  ],
+  "wrong": {
+   "1": "الـ{{Pneumonia}} تجي {{acute}} مع {{fever}}",
+   "2": "الـ{{Asthma}} ما تسبب {{weight loss}}",
+   "3": "الـ{{PE}} تجي {{acute}}"
+  },
+  "change": [
+   "لو {{fever}} و{{purulent sputum}} فهذا {{pneumonia}}",
+   "لو {{TB features}} نفكر {{TB}}"
+  ],
+  "rule": "الـ{{Smoker}} مع {{weight loss}} و{{chronic cough}} يعني {{lung carcinoma}}"
+ },
+ "Q139": {
+  "idea": [
+   "مريض {{CAP}} بعد ٣ أيام صار عنده {{severe hypoxia}} و{{PaO2/FiO2 180}} مع {{bilateral infiltrates}}",
+   "فالتشخيص {{ARDS}}"
+  ],
+  "clues": [
+   [
+    "فالـ{{PaO2/FiO2}} = ١٨٠",
+    "يعني {{moderate ARDS}}"
+   ],
+   [
+    "والـ{{bilateral infiltrates}}",
+    "يعني {{ARDS}} sign"
+   ],
+   [
+    "الـ{{report}} مو موجود بالبطاقة",
+    "فنعتمد على الجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{ARDS}} يعني {{acute hypoxemia}} مع {{bilateral infiltrates}}",
+   "و{{no cardiac cause}}",
+   "والـ{{P/F 100-200}} يعني {{moderate}}"
+  ],
+  "wrong": {
+   "0": "الـ{{MI}} ما تعطي {{bilateral infiltrates}} بهالشكل",
+   "2": "الـ{{Pleural effusion}} غالبًا {{unilateral}}",
+   "3": "الـ{{Pulmonary HTN}} ما تعطي {{infiltrates}}"
+  },
+  "change": [
+   "لو {{P/F < 100}} فهذا {{severe}}",
+   "ونعتمد {{lung-protective ventilation}}"
+  ],
+  "rule": "الـ{{Acute hypoxemia}} مع {{bilateral infiltrates}} بعد {{pneumonia}} يعني {{ARDS}}"
+ },
+ "Q140": {
+  "idea": [
+   "شاب ٢٥ سنة عنده {{diastolic murmur}} عند الـ{{base}} تزيد مع {{leaning forward in expiration}}",
+   "فالأقرب {{aortic regurgitation}}"
+  ],
+  "clues": [
+   [
+    "فعنده {{diastolic murmur}}",
+    "يعني {{regurgitation}}"
+   ],
+   [
+    "وتزيد مع {{leaning forward}} بالـ{{expiration}}",
+    "يعني {{typical}} للـ{{AR}}"
+   ]
+  ],
+  "why": [
+   "الـ{{AR}} نسمعها أفضل مع {{leaning forward}} و{{expiration}}",
+   "أما الـ{{MS}} فنسمعها بـ{{left lateral position}}",
+   "فهالوضعية خاصة بالـ{{AR}}"
+  ],
+  "wrong": {
+   "0": "الـ{{AS}} نفختها {{systolic}}",
+   "1": "الـ{{MR}} نفختها {{systolic}}",
+   "3": "الـ{{TR}} نفختها {{systolic}}"
+  },
+  "change": [
+   "لو تزيد مع {{inspiration}} فهي {{right-sided}}",
+   "لو {{apical rumble}} فهذا {{MS}}"
+  ],
+  "rule": "الـ{{Diastolic murmur}} تزيد مع {{leaning forward in expiration}} يعني {{aortic regurgitation}}"
+ }
+}

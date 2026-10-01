@@ -1,0 +1,576 @@
+{
+ "Q362": {
+  "idea": [
+   "سيدة بـ{{45-year-old with postcoital bleeding}} و{{2*1 cm cervical mass}}",
+   "فالخطوة الجاية {{punch biopsy}}"
+  ],
+  "clues": [
+   [
+    "نزف بعد الجماع",
+    "{{postcoital bleeding}}"
+   ],
+   [
+    "كتلة مرئية",
+    "يعني {{suspected cervical cancer}}"
+   ]
+  ],
+  "why": [
+   "لو الكتلة مرئية نأخذ {{direct biopsy}}",
+   "لأن الـ{{histology}} يأكد {{cervical cancer}}",
+   "و{{Pap smear}} فحص {{screening}} مو {{diagnostic}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Pap test}} هو {{screening test}} وما يكفي لـ{{visible mass}}",
+   "1": "الـ{{CT}} يجي بعد التشخيص لـ{{staging}}",
+   "2": "الـ{{MRI}} يجي بعد التشخيص لـ{{local staging}}"
+  },
+  "change": [
+   "بعد التأكيد نسوي {{clinical staging}}",
+   "و{{colposcopy}} لو {{lesion not visible}}"
+  ],
+  "rule": "الـ{{Visible cervical mass}} يعني {{punch biopsy}}"
+ },
+ "Q363": {
+  "idea": [
+   "حامل بـ{{9 weeks spontaneous abortion}}",
+   "فالسبب الأشهر {{chromosomal abnormality}}"
+  ],
+  "clues": [
+   [
+    "إجهاض بالثلث الأول",
+    "يعني {{early pregnancy loss}}"
+   ]
+  ],
+  "why": [
+   "حوالي {{50% of early miscarriages}} سببها {{chromosomal abnormalities}}",
+   "فهي {{most common cause}}",
+   "و{{uterine anomalies}} أقل شيوعًا"
+  ],
+  "wrong": {
+   "0": "الـ{{trauma}} سبب {{rare}}",
+   "1": "الـ{{infection}} {{less common}} من الكروموسومات",
+   "3": "الـ{{maternal anatomic anomalies}} {{less common}}"
+  },
+  "change": [
+   "لو {{recurrent}} نفحص {{karyotype}}",
+   "وغالبًا {{reassurance}}"
+  ],
+  "rule": "الـ{{Early miscarriage}} يعني {{chromosomal abnormality}}"
+ },
+ "Q364": {
+  "idea": [
+   "سيدة بـ{{dysmenorrhea}}",
+   "فأهم شي {{menstrual history}}"
+  ],
+  "clues": [
+   [
+    "ألم مع الدورة",
+    "{{dysmenorrhea}}"
+   ]
+  ],
+  "why": [
+   "الـ{{menstrual history}} يفرق بين {{primary and secondary dysmenorrhea}}",
+   "ويحدد {{timing of pain}} بالنسبة للدورة",
+   "ويوجه {{treatment}}"
+  ],
+  "wrong": {
+   "0": "الـ{{family history}} أقل أهمية هنا",
+   "1": "الـ{{medical history}} أقل أهمية هنا",
+   "2": "الـ{{surgical history}} أقل أهمية هنا"
+  },
+  "change": [
+   "نسأل عن {{age of menarche}}",
+   "ونسأل عن {{pain characteristics}}"
+  ],
+  "rule": "الـ{{dysmenorrhea}} يعني {{detailed menstrual history}}"
+ },
+ "Q365": {
+  "idea": [
+   "حامل {{10 weeks}} مرت {{tissue}} و{{closed cervix}} و{{empty uterus on US}}",
+   "فنطمئنها {{reassure}}"
+  ],
+  "clues": [
+   [
+    "مرور نسيج وعنق مغلق",
+    "يعني {{complete abortion}}"
+   ],
+   [
+    "رحم فارغ بالـ{{ultrasound}}",
+    "يعني {{products expelled}}"
+   ]
+  ],
+  "why": [
+   "هذا {{complete abortion}}",
+   "لأن {{uterus empty}} و{{cervix closed}}",
+   "فما نحتاج تدخل ونعطي {{reassurance}}"
+  ],
+  "wrong": {
+   "1": "الـ{{methylergonovine}} ما نحتاجه لأنه {{no retained products}}",
+   "2": "الـ{{D&C}} مو لازم لأنه {{complete}}",
+   "3": "الـ{{IV fluids}} ما نحتاجها لأن {{vital signs normal}}"
+  },
+  "change": [
+   "نفحص {{Rh status}}",
+   "ونتابع {{hCG}} لين يرجع {{negative}}"
+  ],
+  "rule": "الـ{{Empty uterus with closed cervix}} يعني {{complete abortion}} و{{reassurance}}"
+ },
+ "Q366": {
+  "idea": [
+   "شابة {{irregular periods}} وما تعرف {{LMP}}",
+   "فنسوي {{ultrasound now}}"
+  ],
+  "clues": [
+   [
+    "دورات غير منتظمة",
+    "يعني {{LMP unreliable}}"
+   ]
+  ],
+  "why": [
+   "لو {{LMP unknown}} الـ{{early ultrasound}} هو أدق {{dating}}",
+   "لأن {{CRL}} يعطي {{gestational age}}",
+   "وهو أدق من {{quantitative hCG}}"
+  ],
+  "wrong": {
+   "1": "الـ{{quantitative hCG}} ما يحدد {{gestational age}} بدقة",
+   "2": "الانتظار {{3-4 weeks}} يضيع الوقت وما له داعي",
+   "3": "العد من {{positive urine test}} فيه {{inaccurate dating}}"
+  },
+  "change": [
+   "الـ{{CRL}} أدق طريقة بالثلث الأول",
+   "ونصحح {{EDD}}"
+  ],
+  "rule": "الـ{{Uncertain LMP}} يعني {{early ultrasound}}"
+ },
+ "Q367": {
+  "idea": [
+   "حامل {{6 weeks}} مع {{spotting}} بدون ألم و{{no intrauterine pregnancy on TVUS}}",
+   "فنعيد {{BhCG in 48 hours}}"
+  ],
+  "clues": [
+   [
+    "ما فيه حمل داخل الرحم",
+    "يعني {{pregnancy of unknown location}}"
+   ],
+   [
+    "نتايج التحاليل (مو موجودة بالبطاقة)",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{PUL}} نعيد {{BhCG}} بعد {{48 hours}}",
+   "عشان نشوف {{normal rise}}",
+   "وما نعطي {{methotrexate}} قبل التأكد"
+  ],
+  "wrong": {
+   "0": "الـ{{methotrexate}} قبل التأكد {{risky}} لو كان {{viable IUP}}",
+   "2": "الـ{{repeat US in 48 hours}} أقل فايدة من {{BhCG trend}}",
+   "3": "الـ{{reassurance}} وحدها {{unsafe}} لاحتمال {{ectopic}}"
+  },
+  "change": [
+   "لو {{BhCG above discriminatory zone}} مع {{empty uterus}} نفكر بـ{{ectopic}}",
+   "ونراقب {{symptoms}}"
+  ],
+  "rule": "الـ{{PUL}} يعني {{repeat BhCG in 48 hours}}"
+ },
+ "Q368": {
+  "idea": [
+   "سيدة غير متأكدة من {{gestational age}} و{{US}} حدد {{11 weeks}}",
+   "فالمقياس {{crown-rump length}}"
+  ],
+  "clues": [
+   [
+    "{{US}} عند {{11 weeks}}",
+    "يعني {{first trimester}}"
+   ]
+  ],
+  "why": [
+   "بالثلث الأول نقيس {{CRL}}",
+   "وهو {{most accurate dating parameter}}",
+   "والباقي يستخدم بالثلث الثاني"
+  ],
+  "wrong": {
+   "0": "الـ{{femur length}} للـ{{second trimester}}",
+   "2": "الـ{{abdominal circumference}} للـ{{second and third trimester}}",
+   "3": "الـ{{BPD}} و{{HC}} للـ{{second trimester}}"
+  },
+  "change": [
+   "الـ{{CRL}} قبل {{14 weeks}}",
+   "ونعدل {{EDD}} لو فرق كبير"
+  ],
+  "rule": "الـ{{First trimester dating}} يعني {{CRL}}"
+ },
+ "Q369": {
+  "idea": [
+   "أول يوم من آخر دورة {{May 7}} ودورة منتظمة",
+   "فالـ{{EDD}} حسب الجواب {{February 10}}"
+  ],
+  "clues": [
+   [
+    "{{LMP}} هو {{May 7}}",
+    "نستخدم {{Naegele's rule}}"
+   ]
+  ],
+  "why": [
+   "نضيف {{7 days}} ونطرح {{3 months}}",
+   "وهذا يعطي {{EDD}}",
+   "والجواب المعتمد {{February 10}}"
+  ],
+  "wrong": {
+   "1": "الـ{{February 30}} تاريخ {{non-existent}} يعني خطأ",
+   "2": "الـ{{December}} ما يطلع من {{Naegele's rule}}",
+   "3": "الـ{{December 17}} خطأ بالحساب"
+  },
+  "change": [
+   "لو {{cycle longer than 28 days}} نعدل",
+   "ونأكد بالـ{{ultrasound}}"
+  ],
+  "rule": "الـ{{Naegele's rule}} يعني {{minus 3 months plus 7 days}}",
+  "note": "الجواب حسب الملف المعتمد؛ بحساب {{standard Naegele}} يطلع {{February 14}}"
+ },
+ "Q370": {
+  "idea": [
+   "الـ{{Primigravida at 42 weeks}} بـ{{fetal bradycardia}} و{{fully dilated cervix}} و{{station +2}}",
+   "فندفع ونستخدم {{ventouse}}"
+  ],
+  "clues": [
+   [
+    "{{full dilation}} مع {{+2}}",
+    "يعني {{delivery imminent}}"
+   ],
+   [
+    "{{fetal HR 70}}",
+    "يعني {{fetal distress}}"
+   ]
+  ],
+  "why": [
+   "لأن {{cervix fully dilated}} والجنين {{low}}",
+   "فأسرع طريقة {{assisted vaginal delivery}}",
+   "بـ{{ventouse}}"
+  ],
+  "wrong": {
+   "0": "الـ{{oxytocin}} مو مناسب مع {{fetal distress}}",
+   "1": "الـ{{maternal pressure}} وحده ما يكفي",
+   "2": "الـ{{caesarean section}} أبطأ من {{operative vaginal delivery}}"
+  },
+  "change": [
+   "لو فشل {{ventouse}} نسوي {{caesarean}}",
+   "ونحضر {{pediatrician}}"
+  ],
+  "rule": "الـ{{Full dilation}} مع {{fetal distress}} يعني {{assisted vaginal delivery}}"
+ },
+ "Q371": {
+  "idea": [
+   "إجهاض {{8 weeks}} وقلق من السبب",
+   "فالجواب {{chromosomal abnormalities}}"
+  ],
+  "clues": [
+   [
+    "إجهاض مبكر",
+    "يعني {{early loss}}"
+   ]
+  ],
+  "why": [
+   "الـ{{chromosomal abnormalities}} أشهر سبب",
+   "حوالي {{50%}}",
+   "وغالبًا {{sporadic}}"
+  ],
+  "wrong": {
+   "0": "الـ{{infection}} {{less common}}",
+   "1": "الـ{{uterine anomalies}} {{less common}}",
+   "2": "الـ{{incompetent cervix}} يسبب إجهاض {{second trimester}}"
+  },
+  "change": [
+   "نفحص بعد {{3 recurrent abortions}}",
+   "وغالبًا {{reassurance}}"
+  ],
+  "rule": "الـ{{Early abortion}} يعني {{chromosomal abnormality}}"
+ },
+ "Q372": {
+  "idea": [
+   "حامل {{20 weeks}} مع {{spotting}} و{{O negative}}",
+   "فنعطي {{anti-D}}"
+  ],
+  "clues": [
+   [
+    "{{Rh negative}}",
+    "يعني {{sensitization risk}}"
+   ],
+   [
+    "بقع",
+    "يعني {{vaginal bleeding}}"
+   ]
+  ],
+  "why": [
+   "أي {{bleeding}} عند {{Rh negative}}",
+   "يستدعي {{anti-D immunoglobulin}}",
+   "لمنع {{alloimmunization}}"
+  ],
+  "wrong": {
+   "1": "الـ{{discharge without anti-D}} {{unsafe}}",
+   "2": "الـ{{observation}} ما تمنع {{sensitization}}",
+   "3": "الـ{{multivitamins}} ما تحمي من {{alloimmunization}}"
+  },
+  "change": [
+   "نعطي {{anti-D}} بـ{{28 weeks}} كمان",
+   "ونعيد بعد الولادة لو {{baby Rh positive}}"
+  ],
+  "rule": "الـ{{Rh negative}} مع {{bleeding}} يعني {{anti-D}}"
+ },
+ "Q373": {
+  "idea": [
+   "حامل {{15 weeks}} بـ{{epilepsy}} على {{phenytoin}} و{{seizure-free for 6 years}}",
+   "فنكمل {{same medication}}"
+  ],
+  "clues": [
+   [
+    "نوبات مضبوطة",
+    "يعني ما نغير {{well-controlled regimen}}"
+   ]
+  ],
+  "why": [
+   "الـ{{controlled epilepsy}} نكمل دواءها",
+   "لأن {{seizures}} أخطر من الدواء",
+   "ونضيف {{folic acid}}"
+  ],
+  "wrong": {
+   "0": "الـ{{switching}} متأخر وما له فايدة",
+   "1": "الـ{{stopping medication}} خطر ويسبب {{seizures}}",
+   "3": "الـ{{referral to stop it}} خطر"
+  },
+  "change": [
+   "نعطي {{high-dose folic acid}}",
+   "ونراقب {{drug level}}"
+  ],
+  "rule": "الـ{{Controlled epilepsy in pregnancy}} يعني {{continue medication}}"
+ },
+ "Q374": {
+  "idea": [
+   "حامل {{20 weeks}} بـ{{SLE}} مستقرة على {{Plaquenil}}",
+   "فنكمل {{hydroxychloroquine}}"
+  ],
+  "clues": [
+   [
+    "مستقرة سنتين",
+    "يعني {{disease controlled}}"
+   ]
+  ],
+  "why": [
+   "الـ{{hydroxychloroquine}} {{safe in pregnancy}}",
+   "ويقلل {{lupus flares}}",
+   "فنكمله"
+  ],
+  "wrong": {
+   "0": "الـ{{stopping}} يرفع {{flare risk}}",
+   "1": "الـ{{steroids}} {{less safe}} وما نحتاجها",
+   "3": "الـ{{referral to stop it}} غير مناسب"
+  },
+  "change": [
+   "نراقب {{maternal disease activity}}",
+   "ونفحص {{anti-Ro and anti-La}}"
+  ],
+  "rule": "الـ{{SLE in pregnancy}} يعني نكمل {{HCQ}}"
+ },
+ "Q375": {
+  "idea": [
+   "أم بعد {{3 weeks postpartum}} بـ{{fever}} و{{red tender breast without fluctuation}}",
+   "فهذا {{mastitis}} ونعطي {{antibiotics}} مع {{breast US}}"
+  ],
+  "clues": [
+   [
+    "حرارة وثدي أحمر مؤلم",
+    "يعني {{mastitis}}"
+   ],
+   [
+    "بدون {{fluctuation}}",
+    "يعني ما فيه {{obvious abscess}}"
+   ]
+  ],
+  "why": [
+   "الـ{{mastitis}} مع {{fever}} يحتاج {{antibiotics}}",
+   "تغطي {{Staphylococcus aureus}}",
+   "ونسوي {{breast ultrasound}} عشان {{rule out abscess}}"
+  ],
+  "wrong": {
+   "0": "الـ{{reassurance}} {{unsafe}} مع {{fever}}",
+   "1": "الـ{{stopping breastfeeding}} مو لازم",
+   "2": "الـ{{warm compresses}} وحدها ما تكفي مع {{fever}}"
+  },
+  "change": [
+   "نكمل {{breastfeeding}}",
+   "ولو {{abscess}} نسوي {{drainage}}"
+  ],
+  "rule": "الـ{{Mastitis with fever}} يعني {{antibiotics}} و{{ultrasound}}"
+ },
+ "Q376": {
+  "idea": [
+   "سيدة بـ{{ectopic pregnancy}} وعرضوا عليها {{medical management}}",
+   "فالدواء {{methotrexate}}"
+  ],
+  "clues": [
+   [
+    "{{ectopic pregnancy}}",
+    "وعلاج {{medical}}"
+   ]
+  ],
+  "why": [
+   "الـ{{methotrexate}} هو {{medical treatment}} لـ{{stable ectopic}}",
+   "يوقف {{trophoblast growth}}",
+   "ونتابع {{BhCG}}"
+  ],
+  "wrong": {
+   "0": "الـ{{oxytocin}} للـ{{labor}} مو للـ{{ectopic}}",
+   "1": "الـ{{carboprost}} لـ{{postpartum hemorrhage}}",
+   "2": "الـ{{misoprostol}} للـ{{abortion}} مو للـ{{ectopic}}"
+  },
+  "change": [
+   "نشترط {{hemodynamic stability}}",
+   "ونمنع الحمل {{3 months}}"
+  ],
+  "rule": "الـ{{Stable ectopic}} يعني {{methotrexate}}"
+ },
+ "Q377": {
+  "idea": [
+   "حامل {{10 weeks}} بـ{{uterus larger than dates}} و{{vesicles passing}}",
+   "فنطلب {{serum BhCG}} و{{ultrasound}}"
+  ],
+  "clues": [
+   [
+    "رحم أكبر وحويصلات",
+    "يعني {{molar pregnancy}}"
+   ]
+  ],
+  "why": [
+   "نأكد {{molar pregnancy}} بـ{{BhCG}} و{{ultrasound}}",
+   "وبعدها {{evacuation}}",
+   "ثم {{follow-up}}"
+  ],
+  "wrong": {
+   "0": "الـ{{BhCG}} وحده ما يكفي",
+   "1": "الـ{{ultrasound}} وحده ما يكفي",
+   "2": "الـ{{urine pregnancy test}} أقل دقة"
+  },
+  "change": [
+   "نسوي {{suction evacuation}} بعد التأكيد",
+   "ونتابع {{BhCG}}"
+  ],
+  "rule": "الـ{{Suspected molar pregnancy}} يعني {{BhCG}} و{{ultrasound}}"
+ },
+ "Q378": {
+  "idea": [
+   "بعد {{evacuation of molar pregnancy}} الـ{{BhCG plateau}} لمدة شهر",
+   "فنحيل {{oncology}} ونفكر بـ{{methotrexate}}"
+  ],
+  "clues": [
+   [
+    "{{BhCG}} ثابت",
+    "يعني {{persistent GTN}}"
+   ]
+  ],
+  "why": [
+   "الـ{{plateaued BhCG}} يعني {{gestational trophoblastic neoplasia}}",
+   "فنحيل {{oncology}}",
+   "ونعطي {{chemotherapy}} مثل {{methotrexate}}"
+  ],
+  "wrong": {
+   "0": "الـ{{hysterectomy}} {{only for special cases}}",
+   "1": "الـ{{repeat evacuation}} ما تكفي",
+   "3": "الـ{{observation}} {{unsafe}}"
+  },
+  "change": [
+   "نفحص {{metastases}} بالـ{{imaging}}",
+   "ونمنع الحمل"
+  ],
+  "rule": "الـ{{Plateau BhCG after molar}} يعني {{GTN}}"
+ },
+ "Q379": {
+  "idea": [
+   "سيدة {{45-year-old}} بـ{{bleeding for 15 days}} مع {{drowsiness and syncope}}",
+   "فنطلب {{CBC}} و{{BhCG}}"
+  ],
+  "clues": [
+   [
+    "نزف مستمر",
+    "يعني {{possible anemia}}"
+   ],
+   [
+    "إغماء",
+    "يعني {{hemodynamic compromise}}"
+   ]
+  ],
+  "why": [
+   "نقيم {{blood loss}} و{{anemia}} بالـ{{CBC}}",
+   "ونستبعد {{pregnancy}} بالـ{{BhCG}}",
+   "قبل أي قرار"
+  ],
+  "wrong": {
+   "0": "الـ{{ultrasound}} ييجي بعدين",
+   "1": "الـ{{urine pregnancy test}} وحده ما يكفي",
+   "2": "الـ{{D&C}} قبل {{initial assessment}} غير مناسب"
+  },
+  "change": [
+   "نثبت الحالة أول",
+   "ونصحح {{anemia}}"
+  ],
+  "rule": "الـ{{Heavy bleeding with dizziness}} يعني {{CBC}} و{{BhCG}}"
+ },
+ "Q380": {
+  "idea": [
+   "سيدة {{45-year-old}} بـ{{bleeding 15 days}} وتعب مع نتايج",
+   "فنبدأ {{blood transfusion}}"
+  ],
+  "clues": [
+   [
+    "{{severe anemia}} مع أعراض",
+    "يعني {{unstable patient}}"
+   ],
+   [
+    "نتايج التحاليل (مو موجودة بالبطاقة)",
+    "فنعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "لو {{symptomatic severe anemia}}",
+   "نحتاج {{blood transfusion}}",
+   "وبعدها نعالج {{cause of bleeding}}"
+  ],
+  "wrong": {
+   "0": "الـ{{ultrasound}} بعد {{stabilization}}",
+   "1": "الـ{{D&C}} بعد {{stabilization}}",
+   "3": "الـ{{discharge}} غير آمن"
+  },
+  "change": [
+   "نعطي {{tranexamic acid}}",
+   "ونوقف {{bleeding}}"
+  ],
+  "rule": "الـ{{Severe symptomatic anemia}} يعني {{blood transfusion}}",
+  "note": "التحاليل غير موجودة بالبطاقة؛ الجواب حسب الملف المعتمد"
+ },
+ "Q381": {
+  "idea": [
+   "سيدة {{45-year-old}} بـ{{heavy periods over 10 days}} و{{negative hCG}} و{{normal US}}",
+   "فنعطي {{tranexamic acid}}"
+  ],
+  "clues": [
+   [
+    "نزف غزير",
+    "يعني {{heavy menstrual bleeding}}"
+   ]
+  ],
+  "why": [
+   "الـ{{tranexamic acid}} يقلل {{menstrual blood loss}}",
+   "وهو {{non-hormonal}}",
+   "وما فيه خطر كبير"
+  ],
+  "wrong": {
+   "0": "الـ{{oxytocin}} للـ{{labor}}",
+   "1": "الـ{{carboprost}} لـ{{postpartum hemorrhage}}",
+   "2": "الـ{{misoprostol}} ما يعالج {{AUB}}"
+  },
+  "change": [
+   "الـ{{mefenamic acid}} بديل",
+   "والـ{{LNG-IUS}} للعلاج {{long-term}}"
+  ],
+  "rule": "الـ{{Heavy AUB}} يعني {{tranexamic acid}}"
+ }
+}

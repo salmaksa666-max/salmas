@@ -1,0 +1,589 @@
+{
+ "Q342": {
+  "idea": [
+   "سيدة {{40 years}} مع {{frequency and urgency}} و{{suspected OAB}}",
+   "فنبدأ بـ{{urine culture}}"
+  ],
+  "clues": [
+   [
+    "لو {{frequency and urgency}}",
+    "يعني {{OAB}} محتمل"
+   ]
+  ],
+  "why": [
+   "قبل تشخيص {{OAB}} نستبعد {{UTI}}",
+   "بـ{{urinalysis and culture}}",
+   "لأن {{infection}} تشبهه"
+  ],
+  "wrong": {
+   "0": "الـ{{cystoscopy}} مو أول خطوة",
+   "1": "الـ{{urodynamics}} بعد استبعاد {{infection}}",
+   "2": "الـ{{uroflowmetry}} مو أول خطوة"
+  },
+  "change": [
+   "لو سلبي نبدأ {{bladder training}}",
+   "ونعطي {{anticholinergics}}"
+  ],
+  "rule": "لو {{suspected OAB}} نستبعد {{UTI}} أول"
+ },
+ "Q343": {
+  "idea": [
+   "سيدة {{recurrent UTI}} بعد {{intercourse}}",
+   "فنعطي {{postcoital single-dose antibiotic}}"
+  ],
+  "clues": [
+   [
+    "لو {{after intercourse}}",
+    "يعني {{postcoital UTI}}"
+   ]
+  ],
+  "why": [
+   "الوقاية بـ{{single-dose antibiotic}} بعد الجماع",
+   "وهي {{effective and convenient}}",
+   "وتقلل {{long-term antibiotic use}}"
+  ],
+  "wrong": {
+   "0": "الـ{{antibiotic if symptomatic}} ما يمنع {{recurrence}}",
+   "1": "الـ{{daily antibiotics for 6 months}} مبالغ فيه",
+   "2": "الـ{{2-week course}} مو مناسب"
+  },
+  "change": [
+   "نشجع {{voiding after intercourse}}",
+   "ونعطي {{nitrofurantoin}}"
+  ],
+  "rule": "الـ{{postcoital UTI}} يعني {{postcoital antibiotic}}"
+ },
+ "Q344": {
+  "idea": [
+   "مسنة {{80 years}} على {{warfarin}} مع {{prosthetic valve}} و{{bedridden}} و{{stage 3 prolapse}}",
+   "فنعطي {{pessary}}"
+  ],
+  "clues": [
+   [
+    "لو {{warfarin with prosthetic valve}}",
+    "يعني {{high surgical risk}}"
+   ],
+   [
+    "لو {{bedridden}}",
+    "يعني مو مناسبة للجراحة"
+   ]
+  ],
+  "why": [
+   "الـ{{surgery}} {{high risk}}",
+   "و{{pessary}} علاج آمن",
+   "و{{effective}} للـ{{prolapse}}"
+  ],
+  "wrong": {
+   "1": "الـ{{sacrocolpopexy}} {{major surgery}}",
+   "2": "الـ{{Le Fort colpocleisis}} جراحة حتى لو أخف",
+   "3": "الـ{{vaginal hysterectomy}} {{major surgery}}"
+  },
+  "change": [
+   "نعطي {{topical estrogen}}",
+   "ونتابع {{vaginal irritation}}"
+  ],
+  "rule": "الـ{{prolapse}} مع {{high surgical risk}} يعني {{pessary}}"
+ },
+ "Q345": {
+  "idea": [
+   "سيدة {{40 years}} مع {{SUI}} وتبي أفعل علاج",
+   "فنختار {{midurethral sling}}"
+  ],
+  "clues": [
+   [
+    "لو {{SUI}}",
+    "يعني نبي {{effective surgical treatment}}"
+   ]
+  ],
+  "why": [
+   "الـ{{midurethral sling}} هو {{gold standard}}",
+   "وهو {{minimally invasive}}",
+   "و{{highest success rate}}"
+  ],
+  "wrong": {
+   "0": "الـ{{pessary}} {{less effective}}",
+   "1": "الـ{{Kelly plication}} {{outdated}}",
+   "2": "الـ{{Burch}} بديل {{more invasive}}"
+  },
+  "change": [
+   "لو فشل نفكر بـ{{Burch}}",
+   "ونبدأ بـ{{pelvic floor exercises}}"
+  ],
+  "rule": "أفضل علاج لـ{{SUI}} هو {{midurethral sling}}"
+ },
+ "Q346": {
+  "idea": [
+   "سيدة أخذت {{first dose of HPV vaccine}} قبل {{3 months}}",
+   "فنعطي {{second dose today}}"
+  ],
+  "clues": [
+   [
+    "لو {{first dose 3 months ago}}",
+    "يعني {{usual schedule}}"
+   ]
+  ],
+  "why": [
+   "ما نعيد من البداية",
+   "نكمل {{vaccine schedule}}",
+   "فنعطي {{second dose}} اليوم"
+  ],
+  "wrong": {
+   "0": "الـ{{Pap test}} مو مطلوب",
+   "1": "الـ{{repeating the first dose}} مو ضروري",
+   "3": "الـ{{waiting 3 more months}} مو ضروري"
+  },
+  "change": [
+   "الجدول {{0, 1-2, and 6 months}}",
+   "ونفحص {{Pap}} بموعده"
+  ],
+  "rule": "الـ{{delayed HPV vaccine}} ما نعيده بل نكمله"
+ },
+ "Q347": {
+  "idea": [
+   "أثناء {{cystectomy}} خرجت {{thick fatty material}}",
+   "فالتشخيص {{cystic teratoma}}"
+  ],
+  "clues": [
+   [
+    "لو {{fatty material}}",
+    "يعني {{dermoid}}"
+   ]
+  ],
+  "why": [
+   "الـ{{dermoid}} فيه {{fat, hair, and teeth}}",
+   "وهو أشهر {{benign ovarian tumor}} عند الشابات",
+   "وهو {{mature teratoma}}"
+  ],
+  "wrong": {
+   "0": "الـ{{fibroma}} {{solid}}",
+   "1": "الـ{{thecoma}} {{solid}}",
+   "3": "الـ{{granulosa cell tumor}} {{estrogen-producing}}"
+  },
+  "change": [
+   "نستأصل {{cyst}}",
+   "ونتجنب {{spillage}}"
+  ],
+  "rule": "الـ{{fatty material}} في {{ovarian cyst}} يعني {{dermoid}}"
+ },
+ "Q348": {
+  "idea": [
+   "سيدة {{60 years}} مع {{intermittent bleeding for 2 months}} بدون {{comorbidities}}",
+   "فالأشهر {{endometrial atrophy}}"
+  ],
+  "clues": [
+   [
+    "لو {{bleeding after menopause}}",
+    "يعني {{PMB}}"
+   ]
+  ],
+  "why": [
+   "الـ{{atrophy}} أشهر سبب",
+   "وأخطر سبب {{cancer}}",
+   "فنقيّم {{endometrium}}"
+  ],
+  "wrong": {
+   "0": "الـ{{cervical cancer}} {{less common}}",
+   "1": "الـ{{endometrial cancer}} {{less common}}",
+   "3": "الـ{{hyperplasia}} {{less common}}"
+  },
+  "change": [
+   "نفحص بـ{{ultrasound}}",
+   "ونأخذ {{sample}} لو {{4 mm or more}}"
+  ],
+  "rule": "الـ{{PMB}} الأشهر {{atrophy}}"
+ },
+ "Q349": {
+  "idea": [
+   "سيدة {{60 years}} مع {{bleeding}} و{{endometrial thickness 8 mm}}",
+   "فنأخذ {{clinical endometrial biopsy}}"
+  ],
+  "clues": [
+   [
+    "لو {{endometrium 8 mm}}",
+    "يعني {{more than 4 mm}}"
+   ],
+   [
+    "لو {{bleeding after menopause}}",
+    "يعني {{PMB}}"
+   ]
+  ],
+  "why": [
+   "الـ{{thickness}} فوق {{4 mm}} يحتاج {{sample}}",
+   "و{{office biopsy}} أول خطوة",
+   "وما نحتاج {{surgery}}"
+  ],
+  "wrong": {
+   "0": "الـ{{hysterectomy}} قبل {{diagnosis}}",
+   "1": "الـ{{D&C}} بديل مو أول",
+   "3": "الـ{{repeat ultrasound}} مو مناسب"
+  },
+  "change": [
+   "لو {{inadequate sample}} نعمل {{hysteroscopy}}",
+   "ونقيّم {{cancer}}"
+  ],
+  "rule": "الـ{{PMB}} مع {{thick endometrium}} يعني {{biopsy}}"
+ },
+ "Q350": {
+  "idea": [
+   "سيدة {{30 years}} مع {{amenorrhea for 3 months}}",
+   "فأول فحص {{pregnancy test}}"
+  ],
+  "clues": [
+   [
+    "لو {{amenorrhea for 3 months}}",
+    "يعني {{secondary amenorrhea}}"
+   ]
+  ],
+  "why": [
+   "أول سبب {{pregnancy}}",
+   "فنستبعده أول",
+   "قبل أي فحص ثاني"
+  ],
+  "wrong": {
+   "0": "الـ{{TSH}} بعده",
+   "1": "الـ{{FSH}} بعده",
+   "3": "الـ{{pelvic ultrasound}} بعده"
+  },
+  "change": [
+   "بعدها {{TSH}} و{{prolactin}}",
+   "ثم {{FSH}}"
+  ],
+  "rule": "الـ{{amenorrhea}} يعني {{pregnancy test}} أول"
+ },
+ "Q351": {
+  "idea": [
+   "شابة {{23 years}} مع {{heavy menses for 2 years}} والصورة مو ظاهرة",
+   "والجواب {{leiomyomas}} حسب الملف"
+  ],
+  "clues": [
+   [
+    "لو {{heavy bleeding}}",
+    "يعني {{AUB}}"
+   ],
+   [
+    "لو {{lab results}} مو موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{cyclic heavy bleeding}} من سنتين",
+   "مع صورة تدل على {{fibroids}}",
+   "فالجواب {{leiomyoma}}"
+  ],
+  "wrong": {
+   "0": "الـ{{pregnancy}} يجي مع {{amenorrhea}}",
+   "1": "الـ{{ovarian cyst}} مو مميز",
+   "2": "الـ{{endometrial cancer}} {{rare}} في عمر صغير"
+  },
+  "change": [
+   "نؤكد بـ{{ultrasound}}",
+   "ونقيس {{Hb}}"
+  ],
+  "rule": "الـ{{heavy bleeding}} مع {{enlarged uterus}} يعني {{leiomyoma}}",
+  "note": "الصورة و{{lab results}} مو موجودة بالبطاقة، فالجواب حسب الملف المعتمد"
+ },
+ "Q352": {
+  "idea": [
+   "سيدة {{43 years}} مع {{history of PE}} وتبي {{family planning}}",
+   "فنختار {{IUD}}"
+  ],
+  "clues": [
+   [
+    "لو {{previous PE}}",
+    "يعني {{estrogen contraindicated}}"
+   ]
+  ],
+  "why": [
+   "الـ{{estrogen}} يزيد {{thrombosis risk}}",
+   "فنختار وسيلة {{non-hormonal or progestin-only}}",
+   "والـ{{IUD}} الأنسب"
+  ],
+  "wrong": {
+   "0": "الـ{{condom}} {{less effective}}",
+   "1": "الـ{{patch}} فيه {{estrogen}}",
+   "3": "الـ{{OCP}} فيها {{estrogen}}"
+  },
+  "change": [
+   "الـ{{copper IUD}} {{non-hormonal}}",
+   "والـ{{LNG-IUS}} {{safe}}"
+  ],
+  "rule": "الـ{{previous VTE}} يعني {{IUD}} مو {{estrogen}}"
+ },
+ "Q353": {
+  "idea": [
+   "شابة {{23 years}} فيها {{leiomyoma 5x5 cm}} اكتشف صدفة",
+   "فالجواب {{conservative management}}"
+  ],
+  "clues": [
+   [
+    "لو {{incidental finding}}",
+    "يعني {{asymptomatic}}"
+   ]
+  ],
+  "why": [
+   "بدون {{symptoms}} ما نعالج",
+   "فنعمل {{observation}}",
+   "ونتدخل عند ظهور {{symptoms}}"
+  ],
+  "wrong": {
+   "1": "الـ{{myomectomy}} لو فيه {{symptoms}}",
+   "2": "الـ{{mefenamic acid}} لو فيه {{bleeding}}",
+   "3": "الـ{{OCP}} لو فيه {{bleeding}}"
+  },
+  "change": [
+   "لو {{bleeding}} نعالج",
+   "ونتابع {{size}}"
+  ],
+  "rule": "الـ{{asymptomatic fibroid}} يعني {{observation}}"
+ },
+ "Q354": {
+  "idea": [
+   "سيدة {{35 years}} فيها {{leiomyoma}} مع {{heavy bleeding}} و{{anemia}}",
+   "فنصحح {{anemia}} أول"
+  ],
+  "clues": [
+   [
+    "لو {{fibroid with bleeding}}",
+    "يعني {{anemia}}"
+   ],
+   [
+    "لو {{lab results}} مو موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "أول خطوة نعالج {{complication}}",
+   "فنصحح {{anemia}}",
+   "قبل أي {{intervention}}"
+  ],
+  "wrong": {
+   "0": "الـ{{myomectomy}} بعد {{optimization}}",
+   "2": "الـ{{OCP}} لتقليل {{bleeding}} لاحقًا",
+   "3": "الـ{{UAE}} بديل"
+  },
+  "change": [
+   "نعطي {{iron}}",
+   "وبعدها نحدد {{definitive treatment}}"
+  ],
+  "rule": "الـ{{fibroid}} مع {{anemia}} يعني نصحح {{anemia}} أول"
+ },
+ "Q355": {
+  "idea": [
+   "سيدة {{severe abdominal pain}} بعد {{embryo transfer}} بـ{{3 weeks}}",
+   "فالتشخيص {{ectopic pregnancy}}"
+  ],
+  "clues": [
+   [
+    "لو {{recent embryo transfer}}",
+    "يعني خطر {{ectopic}}"
+   ],
+   [
+    "لو {{severe pain}}",
+    "يعني احتمال {{rupture}}"
+   ],
+   [
+    "لو {{lab results}} مو موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{assisted pregnancy}} يرفع {{risk of ectopic}}",
+   "و{{severe pain}} بعد النقل",
+   "يستدعي استبعاده أول"
+  ],
+  "wrong": {
+   "0": "الـ{{torsion}} ممكن مع {{stimulation}}",
+   "2": "الـ{{appendicitis}} {{less likely}}",
+   "3": "الـ{{obstruction}} {{less likely}}"
+  },
+  "change": [
+   "نقيس {{hCG}} ونعمل {{ultrasound}}",
+   "ونجهز {{surgery}}"
+  ],
+  "rule": "الـ{{pain after IVF}} يعني نستبعد {{ectopic}}"
+ },
+ "Q356": {
+  "idea": [
+   "سيدة {{30 years}} مع {{intermenstrual bleeding for 5 days}}",
+   "فأول فحص {{beta hCG}}"
+  ],
+  "clues": [
+   [
+    "لو {{abnormal bleeding}}",
+    "يعني نبدأ بالأبسط"
+   ]
+  ],
+  "why": [
+   "نستبعد {{pregnancy}} أول",
+   "فنقيس {{hCG}}",
+   "قبل الفحوص الثانية"
+  ],
+  "wrong": {
+   "0": "الـ{{CBC}} بعده",
+   "1": "الـ{{TSH}} بعده",
+   "3": "الـ{{ultrasound}} بعده"
+  },
+  "change": [
+   "بعدها {{ultrasound}}",
+   "ونقيس {{Hb}}"
+  ],
+  "rule": "الـ{{abnormal bleeding}} في سن الإنجاب يعني {{hCG}} أول"
+ },
+ "Q357": {
+  "idea": [
+   "سيدة {{46 years}} {{obese}} مع {{diabetes}} و{{heavy bleeding for 14 days}} و{{endometrium 18 mm}}",
+   "فنأخذ {{endometrial sample}}"
+  ],
+  "clues": [
+   [
+    "لو {{obesity and diabetes}}",
+    "يعني خطر {{endometrial cancer}}"
+   ],
+   [
+    "لو {{endometrium 18 mm}}",
+    "يعني {{thick}}"
+   ]
+  ],
+  "why": [
+   "الـ{{risk factors}} مع {{thick endometrium}}",
+   "تستدعي {{office biopsy}}",
+   "عشان نستبعد {{cancer}}"
+  ],
+  "wrong": {
+   "0": "الـ{{CT}} ما يفيد",
+   "1": "الـ{{MRI}} مو أول",
+   "2": "الـ{{hysteroscopy}} بعد {{sampling}}"
+  },
+  "change": [
+   "لو {{inadequate sample}} نعمل {{hysteroscopy}}",
+   "ونعطي {{progestin}}"
+  ],
+  "rule": "الـ{{bleeding}} مع {{cancer risk}} يعني {{endometrial sampling}}"
+ },
+ "Q358": {
+  "idea": [
+   "سيدة {{44 years}} مع {{heavy bleeding}}",
+   "والجواب {{D&C}} حسب الملف"
+  ],
+  "clues": [
+   [
+    "لو {{heavy bleeding}}",
+    "يعني {{AUB}}"
+   ],
+   [
+    "لو {{lab results}} مو موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الجواب المعتمد {{D&C}} للـ{{diagnosis and treatment}}",
+   "ونرسل {{sample}}",
+   "وبعدها نعالج حسب النتيجة"
+  ],
+  "wrong": {
+   "0": "الـ{{hysterectomy}} آخر خيار",
+   "1": "الـ{{mefenamic acid}} للـ{{mild bleeding}}",
+   "2": "الـ{{IUD}} بعد {{diagnosis}}"
+  },
+  "change": [
+   "لو {{stable}} نبدأ علاج دوائي",
+   "ونفحص بـ{{ultrasound}}"
+  ],
+  "rule": "الـ{{heavy unstable bleeding}} يعني {{D&C}}",
+  "note": "الجواب حسب الملف المعتمد، و{{lab results}} مو موجودة بالبطاقة"
+ },
+ "Q359": {
+  "idea": [
+   "مريضة {{endometriosis}} فشلت {{NSAIDs}}",
+   "فنعطي {{oral progesterone}} حسب الملف"
+  ],
+  "clues": [
+   [
+    "لو {{endometriosis}}",
+    "يعني {{hormonal therapy}}"
+   ],
+   [
+    "لو {{NSAID failure}}",
+    "يعني نتقدم"
+   ]
+  ],
+  "why": [
+   "الـ{{progestins}} تثبط {{endometriosis}}",
+   "وهي الخطوة الهرمونية",
+   "وهذا الجواب المعتمد"
+  ],
+  "wrong": {
+   "0": "الـ{{OCP}} خيار مقبول",
+   "2": "الـ{{laparoscopy}} بعد الفشل",
+   "3": "الـ{{hysterectomy with BSO}} متأخر"
+  },
+  "change": [
+   "الـ{{OCP}} خيار أول كمان",
+   "والـ{{GnRH}} للمقاومة"
+  ],
+  "rule": "الـ{{endometriosis}} مع {{NSAID failure}} يعني {{hormonal therapy}}",
+  "note": "الجواب حسب الملف المعتمد، و{{OCP}} خيار أول مقبول كمان"
+ },
+ "Q360": {
+  "idea": [
+   "سيدة {{cyclic pelvic pain and dyschezia}} مع {{laparoscopy}}",
+   "فالتشخيص {{endometriosis}}"
+  ],
+  "clues": [
+   [
+    "لو {{cyclic pain with dyschezia}}",
+    "يعني {{endometriosis}}"
+   ],
+   [
+    "لو الصورة مو موجودة بالبطاقة",
+    "يعني {{laparoscopic picture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{cyclic pain}} مع {{dyschezia}}",
+   "يوجه لـ{{endometriosis}}",
+   "والـ{{laparoscopy}} يؤكد"
+  ],
+  "wrong": {
+   "0": "الـ{{pelvic TB}} فيه {{constitutional symptoms}}",
+   "1": "الـ{{adenomyosis}} فيه {{enlarged uterus}}",
+   "3": "الـ{{PID}} فيه {{fever}}"
+  },
+  "change": [
+   "نؤكد بـ{{biopsy}}",
+   "ونعالج بـ{{hormonal therapy}}"
+  ],
+  "rule": "الـ{{cyclic pain with dyschezia}} يعني {{endometriosis}}"
+ },
+ "Q361": {
+  "idea": [
+   "سيدة {{45 years}} مع {{pelvic pain and heavy bleeding}} و{{diffuse thick myometrium}}",
+   "فالعلاج النهائي {{hysterectomy}}"
+  ],
+  "clues": [
+   [
+    "لو {{diffuse thick myometrium}}",
+    "يعني {{adenomyosis}}"
+   ],
+   [
+    "لو {{P6}}",
+    "يعني {{multiparity}} وعمر أكبر"
+   ]
+  ],
+  "why": [
+   "الـ{{adenomyosis}} علاجها النهائي {{hysterectomy}}",
+   "و{{medical therapy}} مؤقت",
+   "و{{D&C}} ما يعالجها"
+  ],
+  "wrong": {
+   "1": "الـ{{hormonal IUD}} {{temporary}}",
+   "2": "الـ{{OCP}} {{temporary}}",
+   "3": "الـ{{D&C}} ما يعالج {{adenomyosis}}"
+  },
+  "change": [
+   "لو تبي حمل نعطي {{hormonal therapy}}",
+   "ونعالج {{symptoms}} فقط"
+  ],
+  "rule": "الـ{{adenomyosis}} يعني {{hysterectomy}} علاج نهائي"
+ }
+}

@@ -1,0 +1,574 @@
+{
+ "Q242": {
+  "idea": [
+   "لو {{pregnant at 12 weeks with long-standing IDDM}}",
+   "فالأكثر ارتفاعًا {{congenital malformations}}"
+  ],
+  "clues": [
+   [
+    "الـ{{IDDM for 12 years}}",
+    "يعني {{poor glycemic control in early pregnancy}}"
+   ],
+   [
+    "حمل {{12 weeks}}",
+    "يعني {{organogenesis period}}"
+   ]
+  ],
+  "why": [
+   "الـ{{hyperglycemia in the first trimester}} يسبب {{congenital malformations}}",
+   "فنضبط {{glucose}} قبل الحمل",
+   "وهذا الخطر {{increases markedly}}"
+  ],
+  "wrong": {
+   "0": "الـ{{preeclampsia}} يزيد بس {{later in pregnancy}}",
+   "1": "الـ{{polyhydramnios}} يظهر {{later}} وما هو الأوضح",
+   "2": "الـ{{PPH}} يزيد بس {{not the most marked}}"
+  },
+  "change": [
+   "نعطي {{folic acid 5 mg}}",
+   "ونضبط {{HbA1c}} قبل الحمل"
+  ],
+  "rule": "الـ{{diabetes in early pregnancy}} يعني {{congenital malformations}}"
+ },
+ "Q243": {
+  "idea": [
+   "لو {{twin pregnancy with iron deficiency anemia}}",
+   "فالـ{{IV iron}} استطبابه {{moderate and severe anemia}}"
+  ],
+  "clues": [
+   [
+    "فحص {{iron deficiency anemia}}",
+    "يعني نختار {{route of treatment}}"
+   ]
+  ],
+  "why": [
+   "نعطي {{IV iron}} لو {{moderate or severe anemia}}",
+   "أو لو {{intolerance to oral iron}} أو {{non-response}}",
+   "والخيارات الباقية ما هي {{indications}}"
+  ],
+  "wrong": {
+   "0": "الـ{{constipation}} ما هو {{indication for IV iron}}",
+   "1": "الـ{{multiple pregnancy}} وحده ما يكفي",
+   "2": "الـ{{Hb 10 g/dl}} يعني {{mild anemia}}"
+  },
+  "change": [
+   "لو {{mild}} نبدأ {{oral iron}}",
+   "ونتابع {{ferritin}}"
+  ],
+  "rule": "الـ{{IV iron}} يعني {{moderate or severe anemia}} أو {{failure of oral iron}}"
+ },
+ "Q244": {
+  "idea": [
+   "لو {{pregnancy at 15 weeks}}",
+   "فالمتوقع {{40-45% increase in total blood volume}}"
+  ],
+  "clues": [
+   [
+    "فحص {{pregnancy}}",
+    "يعني {{physiologic changes}}"
+   ]
+  ],
+  "why": [
+   "الـ{{blood volume}} يرتفع {{40-45%}} بالحمل",
+   "والـ{{plasma volume}} يرتفع أكثر من {{red cell mass}}",
+   "فيصير {{physiologic anemia}} بسبب {{hemodilution}}"
+  ],
+  "wrong": {
+   "0": "الـ{{hematocrit}} ما يرتفع بل {{decreases}}",
+   "1": "الـ{{40-45% decrease in hematocrit}} مبالغ فيه",
+   "2": "الـ{{20-25% increase in blood volume}} أقل من الصحيح"
+  },
+  "change": [
+   "الـ{{Hct}} ينخفض بسبب {{dilution}}",
+   "والـ{{cardiac output}} يرتفع"
+  ],
+  "rule": "الـ{{pregnancy}} يعني {{blood volume up 40-45%}}"
+ },
+ "Q245": {
+  "idea": [
+   "لو {{young woman requesting contraception with menorrhagia and dysmenorrhea}}",
+   "نعطي {{COC}}"
+  ],
+  "clues": [
+   [
+    "فحص {{menorrhagia and dysmenorrhea}}",
+    "يعني {{COC}} يعالجهم"
+   ]
+  ],
+  "why": [
+   "الـ{{COC}} يقلل {{menstrual blood loss}} و{{pain}}",
+   "وكمان {{effective contraception}}",
+   "فهو الأنسب لها"
+  ],
+  "wrong": {
+   "0": "الـ{{POP}} يسبب {{irregular spotting}}",
+   "1": "الـ{{Depo-Provera}} يسبب {{irregular bleeding}}",
+   "3": "الـ{{NSAIDs}} ما تمنع {{pregnancy}}"
+  },
+  "change": [
+   "لو ما ينفع {{COC}} نستخدم {{LNG-IUS}}",
+   "ونفحص {{blood pressure}}"
+  ],
+  "rule": "الـ{{menorrhagia}} مع طلب {{contraception}} يعني {{COC}}"
+ },
+ "Q246": {
+  "idea": [
+   "لو أم {{Rh negative}} وبعد الولادة أخذت {{anti-D 300 mcg}}",
+   "فهي تحمي {{30 mL of fetal whole blood}}"
+  ],
+  "clues": [
+   [
+    "جرعة {{300 mcg}}",
+    "تغطي {{30 mL fetal whole blood}}"
+   ]
+  ],
+  "why": [
+   "كل {{100 mcg}} يحمي {{10 mL whole blood}}",
+   "فـ{{300 mcg}} يحمي {{30 mL}}",
+   "يعني {{15 mL of fetal red cells}}"
+  ],
+  "wrong": {
+   "0": "الـ{{15 mL whole blood}} غلط",
+   "2": "الـ{{60 mL whole blood}} غلط",
+   "3": "الـ{{30 mL of D-positive red cells}} غلط"
+  },
+  "change": [
+   "نفحص {{Kleihauer test}}",
+   "ولو {{larger bleed}} نزيد {{dose}}"
+  ],
+  "rule": "الـ{{anti-D 300 mcg}} يعني {{30 mL fetal whole blood}}"
+ },
+ "Q247": {
+  "idea": [
+   "لو {{pregnancy at 11 weeks with lethargy, constipation and cold intolerance}}",
+   "نعطي {{thyroxine}}"
+  ],
+  "clues": [
+   [
+    "فحص {{lethargy and constipation}}",
+    "يعني {{hypothyroidism}}"
+   ]
+  ],
+  "why": [
+   "الـ{{hypothyroidism in pregnancy}} نعالجه بـ{{thyroxine}}",
+   "لأنه يحمي {{fetal brain development}}",
+   "وما نعالج {{symptoms only}}"
+  ],
+  "wrong": {
+   "0": "الـ{{PTU}} لـ{{hyperthyroidism}}",
+   "1": "الـ{{multivitamins}} ما تكفي",
+   "3": "الـ{{laxatives}} تعالج {{symptom only}}"
+  },
+  "change": [
+   "نتابع {{TSH}}",
+   "ونزيد {{dose}} بحوالي {{30%}}"
+  ],
+  "rule": "الـ{{hypothyroidism in pregnancy}} يعني {{thyroxine}}"
+ },
+ "Q248": {
+  "idea": [
+   "لو {{uncomplicated pregnancy at 32 weeks with non-pruritic physiologic discharge}}",
+   "فالجواب {{follow-up in 2 weeks}}"
+  ],
+  "clues": [
+   [
+    "فحص {{non-pruritic discharge}}",
+    "يعني {{physiologic}}"
+   ],
+   [
+    "فحص {{uncomplicated pregnancy}}",
+    "يعني {{routine follow-up}}"
+   ]
+  ],
+  "why": [
+   "الـ{{physiologic discharge}} شائع بالحمل",
+   "وما يحتاج {{treatment}}",
+   "والـ{{anti-D}} يعطى عند {{28 weeks}} لو {{Rh negative}} بس"
+  ],
+  "wrong": {
+   "0": "الـ{{anti-D}} ما لها داعي لأنها ما ذكرت {{Rh negative}}",
+   "1": "الـ{{rubella antibody test}} يطلب {{at booking}}",
+   "2": "الـ{{glucose tolerance test}} يطلب عند {{24-28 weeks}}"
+  },
+  "change": [
+   "لو {{pruritus or odor}} نفحص {{infection}}",
+   "ونكمل {{routine follow-up}}"
+  ],
+  "rule": "الـ{{asymptomatic discharge in pregnancy}} يعني {{routine follow-up}}"
+ },
+ "Q249": {
+  "idea": [
+   "لو {{rubella vaccine 3 weeks before positive pregnancy test}}",
+   "فالنتيجة {{favorable pregnancy outcome}}"
+  ],
+  "clues": [
+   [
+    "فحص {{live vaccine}}",
+    "يعني نخاف على {{fetus}}"
+   ],
+   [
+    "فحص {{LMP 36 days ago}}",
+    "يعني {{early pregnancy}}"
+   ]
+  ],
+  "why": [
+   "الـ{{theoretical risk of rubella vaccine}} ضعيف",
+   "وما ثبت {{fetal harm}}",
+   "فالنتيجة غالبًا {{favorable}}"
+  ],
+  "wrong": {
+   "1": "الـ{{fourfold increased risk of malformation}} غير مثبت",
+   "2": "الـ{{third-trimester IUFD}} غير مثبت",
+   "3": "الـ{{first-trimester spontaneous abortion}} غير مثبت"
+  },
+  "change": [
+   "نطمّن ونقول {{no termination needed}}",
+   "ونتجنب {{pregnancy}} بعد اللقاح"
+  ],
+  "rule": "الـ{{rubella vaccine}} قبل الحمل يعني {{favorable outcome}}"
+ },
+ "Q250": {
+  "idea": [
+   "لو {{35 weeks with headache, facial edema, brisk reflexes and suspected preeclampsia}}",
+   "فالمتوقع {{proteinuria}}"
+  ],
+  "clues": [
+   [
+    "فحص {{suspected preeclampsia}}",
+    "يعني {{proteinuria}}"
+   ]
+  ],
+  "why": [
+   "الـ{{proteinuria}} من معايير {{preeclampsia}}",
+   "مع {{hypertension}}",
+   "وهو المتوقع بالـ{{urinalysis}}"
+  ],
+  "wrong": {
+   "0": "الـ{{glycosuria}} يدل على {{diabetes}}",
+   "2": "الـ{{hematuria}} يدل على {{renal or urinary pathology}}",
+   "3": "الـ{{ketonuria}} يدل على {{starvation}}"
+  },
+  "change": [
+   "نقيس {{urine protein/creatinine ratio}}",
+   "ونتابع {{blood pressure}}"
+  ],
+  "rule": "الـ{{preeclampsia}} يعني {{proteinuria}}"
+ },
+ "Q251": {
+  "idea": [
+   "لو {{70-year-old with vault prolapse after hysterectomy and deficient perineum}}",
+   "نسوي {{vaginal repair with sacrospinous fixation}}"
+  ],
+  "clues": [
+   [
+    "فحص {{vaginal vault prolapse beyond the introitus}}",
+    "يعني نثبّت الـ{{vault}}"
+   ],
+   [
+    "فحص {{deficient perineum}}",
+    "يعني نحتاج {{vaginal repair}}"
+   ]
+  ],
+  "why": [
+   "الـ{{vault prolapse}} نعالجه بـ{{sacrospinous fixation}}",
+   "مع {{vaginal repair}}",
+   "وهذا الأنسب مع {{deficient perineum}}"
+  ],
+  "wrong": {
+   "1": "الـ{{antero-posterior repair}} ما يعالج {{vault}}",
+   "2": "الـ{{pessary}} بديل لو {{unfit for surgery}}",
+   "3": "الـ{{colpocleisis}} للمسنات {{sexually inactive}}"
+  },
+  "change": [
+   "لو {{sexually inactive}} نسوي {{colpocleisis}}",
+   "ولو {{unfit for surgery}} نستخدم {{pessary}}"
+  ],
+  "rule": "الـ{{vault prolapse}} يعني {{sacrospinous fixation}}"
+ },
+ "Q252": {
+  "idea": [
+   "لو {{9 weeks with spotting, 5-week size and no fetal heart}}",
+   "الجواب {{conservative management}}"
+  ],
+  "clues": [
+   [
+    "فحص {{size smaller than dates with no heart beat}}",
+    "يعني {{missed abortion}}"
+   ],
+   [
+    "فحص {{mild bleeding}}",
+    "يعني {{stable}}"
+   ]
+  ],
+  "why": [
+   "حسب الجواب المعتمد نبدأ بـ{{expectant management}}",
+   "لو {{stable without infection}}",
+   "وبعدين نتدخل لو ما تم {{passage}}"
+  ],
+  "wrong": {
+   "0": "الـ{{misoprostol}} خيار بس مو الجواب هنا",
+   "1": "الـ{{mifepristone}} خيار بس مو الجواب هنا",
+   "2": "الـ{{D&C}} خيار بس مو الجواب هنا"
+  },
+  "change": [
+   "لو {{heavy bleeding or infection}} نتدخل",
+   "ولو {{patient preference}} نختار {{medical management}}"
+  ],
+  "rule": "الـ{{stable missed abortion}} يعني {{conservative management}} أو تدخل حسب {{patient preference}}",
+  "note": "الجواب حسب الملف المعتمد، وفعليًا الخيارات {{equally acceptable}} حسب {{stability}} و{{patient preference}}"
+ },
+ "Q253": {
+  "idea": [
+   "لو {{5 days postpartum with insomnia, fatigue and sadness}}",
+   "الجواب المعتمد {{SSRI}}"
+  ],
+  "clues": [
+   [
+    "فحص {{insomnia and sadness after delivery}}",
+    "يعني {{depression}}"
+   ]
+  ],
+  "why": [
+   "حسب الجواب المعتمد {{SSRIs}} هي علاج {{postpartum depression}}",
+   "ومنها {{sertraline}} وهو {{safe with breastfeeding}}",
+   "والبقية ما تكفي"
+  ],
+  "wrong": {
+   "1": "الـ{{benzodiazepines}} تسبب {{dependence}}",
+   "2": "الـ{{follow-up in 1 week}} وحدها ما تكفي",
+   "3": "الـ{{multivitamins}} ما تكفي"
+  },
+  "change": [
+   "لو {{baby blues}} نكتفي بـ{{follow-up and support}}",
+   "ولو {{hallucinations}} يعني {{postpartum psychosis}}"
+  ],
+  "rule": "الـ{{postpartum depression}} يعني {{SSRI}}",
+  "note": "الجواب حسب الملف المعتمد، وبعد {{5 days}} ممكن يكون {{baby blues}} ويكفي {{support}}"
+ },
+ "Q254": {
+  "idea": [
+   "لو {{second-degree uterine descent with moderate cystorectocele}}",
+   "نسوي {{anterior colporrhaphy}}"
+  ],
+  "clues": [
+   [
+    "فحص {{cystocele}}",
+    "يعني {{bladder prolapse}}"
+   ]
+  ],
+  "why": [
+   "الـ{{anterior colporrhaphy}} يعالج {{cystocele}}",
+   "وهو {{local surgery}}",
+   "فهو الأنسب"
+  ],
+  "wrong": {
+   "0": "الـ{{posterior colpoperineorrhaphy}} لـ{{rectocele}}",
+   "1": "الـ{{vaginal hysterectomy}} غير ضروري هنا",
+   "3": "الـ{{Manchester operation}} لـ{{cervical elongation}}"
+  },
+  "change": [
+   "لو {{severe uterine prolapse}} نسوي {{hysterectomy}}",
+   "ونعالج الـ{{rectocele}} بالـ{{posterior repair}}"
+  ],
+  "rule": "الـ{{cystocele}} يعني {{anterior colporrhaphy}}"
+ },
+ "Q255": {
+  "idea": [
+   "لو {{morbid obesity with BMI 48 and pelvic organ prolapse}}",
+   "الجواب {{rectocele}}"
+  ],
+  "clues": [
+   [
+    "فحص {{obesity}}",
+    "يعني {{high intra-abdominal pressure}}"
+   ]
+  ],
+  "why": [
+   "الـ{{obesity}} ترفع {{intra-abdominal pressure}}",
+   "فتسبب {{pelvic organ prolapse}}",
+   "والجواب المعتمد {{rectocele}}"
+  ],
+  "wrong": {
+   "0": "الـ{{cystocele}} شائع بس مو الجواب",
+   "1": "الـ{{enterocele}} {{rare}}",
+   "3": "الـ{{uterine prolapse}} شائع بس مو الجواب"
+  },
+  "change": [
+   "نخفض {{weight}}",
+   "ونعالج حسب {{severity}}"
+  ],
+  "rule": "الـ{{obesity}} مع {{prolapse}} يعني {{rectocele}} حسب الجواب",
+  "note": "الجواب حسب الملف المعتمد، والـ{{cystocele}} هو الأشهر عمومًا"
+ },
+ "Q256": {
+  "idea": [
+   "لو {{33 weeks with SGA and reversed end-diastolic flow}}",
+   "نعطي {{steroids}} ونولّد {{within 1 week}}"
+  ],
+  "clues": [
+   [
+    "فحص {{reversed EDF}}",
+    "يعني {{severe fetal compromise}}"
+   ],
+   [
+    "حمل {{33 weeks}}",
+    "يعني نعطي {{steroids}}"
+   ]
+  ],
+  "why": [
+   "الـ{{reversed EDF}} علامة {{serious}}",
+   "نعطي {{betamethasone}} لـ{{lung maturity}}",
+   "ونولّد {{within 1 week}}"
+  ],
+  "wrong": {
+   "0": "الـ{{repeat Doppler in 1 week}} فيه خطر",
+   "1": "الـ{{immediate CS}} بدون {{steroids}} ما هو الأنسب",
+   "3": "الـ{{repeat growth scan in 2 weeks}} خطر"
+  },
+  "change": [
+   "لو {{deterioration}} نولّد فورًا",
+   "ونتابع {{CTG}}"
+  ],
+  "rule": "الـ{{reversed EDF}} يعني {{steroids}} ثم {{delivery}}"
+ },
+ "Q257": {
+  "idea": [
+   "لو {{threatened preterm labor at 30 weeks and steroids given}}",
+   "فالسبب {{preventing RDS}}"
+  ],
+  "clues": [
+   [
+    "فحص {{antenatal steroids}}",
+    "يعني {{fetal lung maturity}}"
+   ]
+  ],
+  "why": [
+   "الـ{{corticosteroids}} تسرّع {{lung maturation}}",
+   "وتقلل {{RDS}} و{{intraventricular hemorrhage}}",
+   "وتعطى {{before 34 weeks}}"
+  ],
+  "wrong": {
+   "0": "الـ{{VII nerve damage}} ما له علاقة",
+   "1": "الـ{{pneumothorax}} ما له علاقة",
+   "2": "الـ{{hypoglycemia}} ما هو الهدف"
+  },
+  "change": [
+   "نعطي {{betamethasone}} جرعتين كل {{24 hours}}",
+   "ونتابع {{maternal glucose}}"
+  ],
+  "rule": "الـ{{antenatal steroids}} يعني {{prevent RDS}}"
+ },
+ "Q258": {
+  "idea": [
+   "لو {{previous second-trimester abortion with serial cervical length}}",
+   "فالاستطباب {{cervical length less than 25 mm}}"
+  ],
+  "clues": [
+   [
+    "فحص {{previous second-trimester loss}}",
+    "يعني خطر {{cervical insufficiency}}"
+   ]
+  ],
+  "why": [
+   "لو {{cervical length less than 25 mm before 24 weeks}}",
+   "نسوي {{cerclage}}",
+   "مع {{history of second-trimester loss}}"
+  ],
+  "wrong": {
+   "0": "الـ{{5 mm}} متأخر جدًا",
+   "2": "الـ{{35 mm}} يعني {{normal}}",
+   "3": "الـ{{funneling}} وحده ما يكفي"
+  },
+  "change": [
+   "لو {{funneling with short cervix}} نسوي {{cerclage}}",
+   "ونتابع {{cervical length every 2 weeks}}"
+  ],
+  "rule": "الـ{{short cervix less than 25 mm}} مع {{history}} يعني {{cerclage}}"
+ },
+ "Q259": {
+  "idea": [
+   "لو {{23 weeks with cervical length 20 mm and no history}}",
+   "فالجواب {{conservative management}}"
+  ],
+  "clues": [
+   [
+    "فحص {{no previous history}}",
+    "يعني ما نسوي {{cerclage}}"
+   ],
+   [
+    "فحص {{cervical length 20 mm}}",
+    "يعني {{short cervix}}"
+   ]
+  ],
+  "why": [
+   "بدون {{history}} ما نسوي {{cerclage}} لـ{{short cervix}} وحده",
+   "نكتفي بـ{{observation}}",
+   "ونعطي {{progesterone}}"
+  ],
+  "wrong": {
+   "0": "الـ{{tocolysis}} ما له داعي",
+   "1": "الـ{{steroids}} قبل {{24 weeks}} ما لها مبرر",
+   "3": "الـ{{cerclage}} للي عندها {{history}}"
+  },
+  "change": [
+   "لو {{cervical dilatation}} نسوي {{rescue cerclage}}",
+   "ونعطي {{vaginal progesterone}}"
+  ],
+  "rule": "الـ{{short cervix without history}} يعني {{observation}} و{{progesterone}}",
+  "note": "الجواب حسب الملف المعتمد"
+ },
+ "Q260": {
+  "idea": [
+   "لو {{abruption at 32 weeks with bleeding settled}}",
+   "نصنفها {{high risk}} ونتابع {{fetal growth by ultrasound}}"
+  ],
+  "clues": [
+   [
+    "فحص {{previous abruption}}",
+    "يعني خطر {{FGR}} و{{recurrence}}"
+   ]
+  ],
+  "why": [
+   "الـ{{abruption}} يرفع {{risk}}",
+   "فنتابع {{fetal growth}}",
+   "ونعتبر الحمل {{high risk}}"
+  ],
+  "wrong": {
+   "0": "الـ{{continued admission}} ما له داعي",
+   "1": "الـ{{reassurance}} ما تكفي",
+   "3": "الـ{{US for signs of bleeding}} ما يفيد"
+  },
+  "change": [
+   "نتابع {{Doppler}}",
+   "ونخطط لـ{{timing of delivery}}"
+  ],
+  "rule": "الـ{{stable abruption}} يعني {{high risk}} و{{growth scans}}"
+ },
+ "Q261": {
+  "idea": [
+   "لو {{34 weeks with generalized pruritus and jaundice}}",
+   "فأهم فحص {{bile acids and LFT}}"
+  ],
+  "clues": [
+   [
+    "فحص {{pruritus and jaundice}}",
+    "يعني {{intrahepatic cholestasis of pregnancy}}"
+   ]
+  ],
+  "why": [
+   "الـ{{ICP}} نشخصه بـ{{bile acids}} و{{LFT}}",
+   "وخطره {{stillbirth}}",
+   "ونعالج بـ{{ursodeoxycholic acid}}"
+  ],
+  "wrong": {
+   "0": "الـ{{fetal weight estimation}} مو أولوية",
+   "2": "الـ{{coagulation profile}} فحص {{secondary}}",
+   "3": "الـ{{presenting symptoms}} مو {{investigation}}"
+  },
+  "change": [
+   "نتابع {{fetal wellbeing}}",
+   "ونولّد عند {{37 weeks}}"
+  ],
+  "rule": "الـ{{pruritus in pregnancy with jaundice}} يعني {{bile acids}}"
+ }
+}

@@ -1,0 +1,592 @@
+{
+ "Q282": {
+  "idea": [
+   "لو {{27 weeks with vaginal bleeding and placenta previa}}",
+   "فالسمة المرتبطة {{postcoital vaginal spotting}}"
+  ],
+  "clues": [
+   [
+    "فحص {{previa}}",
+    "يعني {{painless bleeding}}"
+   ]
+  ],
+  "why": [
+   "الـ{{previa}} ينزف {{painless}}",
+   "وممكن يظهر {{after intercourse}}",
+   "وما يسبب {{DIC}} ولا {{pain}}"
+  ],
+  "wrong": {
+   "0": "الـ{{coagulopathy}} مع {{abruption}}",
+   "1": "الـ{{painful bleeding}} من {{abruption}}",
+   "3": "الـ{{first episode}} غالبًا {{mild}}"
+  },
+  "change": [
+   "نتجنب {{vaginal examination}}",
+   "ونسوي {{US}}"
+  ],
+  "rule": "الـ{{previa}} يعني {{painless bleeding}}"
+ },
+ "Q283": {
+  "idea": [
+   "لو {{HSIL with CIS and desire to preserve fertility}}",
+   "نسوي {{cold knife cone}} حسب الجواب"
+  ],
+  "clues": [
+   [
+    "فحص {{CIS}}",
+    "يعني {{preinvasive lesion}}"
+   ],
+   [
+    "فحص {{desires fertility}}",
+    "يعني نتجنب {{hysterectomy}}"
+   ]
+  ],
+  "why": [
+   "الـ{{cone}} يزيل {{lesion}} ويحفظ {{uterus}}",
+   "ويعطي {{complete specimen}}",
+   "وهو المناسب"
+  ],
+  "wrong": {
+   "0": "الـ{{cryotherapy}} ما تعطي {{specimen}}",
+   "1": "الـ{{hysterectomy}} يفقدها {{fertility}}",
+   "3": "الـ{{LEEP}} بديل ممكن"
+  },
+  "change": [
+   "الـ{{LEEP}} بديل شائع",
+   "ونتابع بـ{{Pap}}"
+  ],
+  "rule": "الـ{{CIS with desire for fertility}} يعني {{cone biopsy}}",
+  "note": "الجواب حسب الملف المعتمد، والـ{{LEEP}} مقبول بالممارسة"
+ },
+ "Q284": {
+  "idea": [
+   "لو {{heavy bleeding with 2.2 x 1 cm intrauterine lesion and normal biopsy}}",
+   "نسوي {{sonohysterography}}"
+  ],
+  "clues": [
+   [
+    "فحص {{intracavitary lesion}}",
+    "يعني {{polyp or fibroid}}"
+   ],
+   [
+    "فحص {{normal biopsy}}",
+    "يعني ما نستبعد {{focal lesion}}"
+   ]
+  ],
+  "why": [
+   "الـ{{sonohysterogram}} يميز {{lesion}}",
+   "ويحدد {{size and location}}",
+   "قبل الـ{{hysteroscopy}}"
+  ],
+  "wrong": {
+   "1": "الـ{{EUA}} غير كافي",
+   "2": "الـ{{MRI}} مو الخطوة الأولى",
+   "3": "الـ{{Hb and coagulation tests}} مهمة بس ما تحدد {{lesion}}"
+  },
+  "change": [
+   "نسوي {{hysteroscopy}}",
+   "ونقيس {{Hb}}"
+  ],
+  "rule": "الـ{{intracavitary lesion with bleeding}} يعني {{SIS}} أو {{hysteroscopy}}"
+ },
+ "Q285": {
+  "idea": [
+   "لو {{heavy bleeding with 2.5 cm intracavitary lesion}}",
+   "فالتشخيص {{endometrial polyp}}"
+  ],
+  "clues": [
+   [
+    "فحص {{cavity lesion}}",
+    "يعني {{polyp}}"
+   ],
+   [
+    "فحص {{heavy bleeding without enlarged uterus}}",
+    "يعني {{AUB-P}}"
+   ]
+  ],
+  "why": [
+   "الـ{{polyp}} أشهر {{focal cavity lesion}}",
+   "وتسبب {{irregular bleeding}}",
+   "والـ{{adenomyosis}} يعطي {{enlarged uterus}}"
+  ],
+  "wrong": {
+   "0": "الـ{{adenomyosis}} يعني {{enlarged uterus}}",
+   "2": "الـ{{submucosal fibroid}} أقل مع هالوصف",
+   "3": "الـ{{DUB}} بدون {{lesion}}"
+  },
+  "change": [
+   "نأكد بـ{{hysteroscopy}}",
+   "ونسوي {{polypectomy}}"
+  ],
+  "rule": "الـ{{intracavitary lesion with bleeding}} يعني {{polyp}}"
+ },
+ "Q286": {
+  "idea": [
+   "لو {{58 years with 12 cm ovarian mass, ascites and omental thickening}}",
+   "العلاج {{surgery followed by chemotherapy}}"
+  ],
+  "clues": [
+   [
+    "فحص {{ovarian mass with ascites and omental thickening}}",
+    "يعني {{ovarian cancer}}"
+   ]
+  ],
+  "why": [
+   "الـ{{ovarian cancer}} علاجه {{cytoreductive surgery}}",
+   "ثم {{chemotherapy}}",
+   "وهذا هو الأساس"
+  ],
+  "wrong": {
+   "0": "الـ{{surgery only}} ما تكفي",
+   "1": "الـ{{radiation}} نادر",
+   "3": "الـ{{radiation}} غير مناسب"
+  },
+  "change": [
+   "نقيس {{CA-125}}",
+   "ونعطي {{carboplatin}} و{{paclitaxel}}"
+  ],
+  "rule": "الـ{{ovarian cancer}} يعني {{surgery then chemotherapy}}"
+ },
+ "Q287": {
+  "idea": [
+   "لو {{PPH 1000 cc with firm uterus}}",
+   "فالسبب {{genital tract laceration}}"
+  ],
+  "clues": [
+   [
+    "فحص {{firm uterus}}",
+    "يعني ما فيه {{atony}}"
+   ],
+   [
+    "فحص {{bleeding right after delivery}}",
+    "يعني {{laceration}}"
+   ]
+  ],
+  "why": [
+   "الـ{{contracted uterus}} يستبعد {{atony}}",
+   "فنفحص {{lacerations}}",
+   "وهي سبب شائع"
+  ],
+  "wrong": {
+   "0": "الـ{{atony}} مع {{boggy uterus}}",
+   "1": "الـ{{coagulopathy}} {{rare}}",
+   "3": "الـ{{retained products}} تعطي {{boggy uterus}}"
+  },
+  "change": [
+   "نفحص بالـ{{speculum}}",
+   "ونخيط {{laceration}}"
+  ],
+  "rule": "الـ{{bleeding with firm uterus}} يعني {{laceration}}"
+ },
+ "Q288": {
+  "idea": [
+   "لو {{chorioamnionitis with heavy postpartum bleeding}}",
+   "فالسبب {{uterine atony}}"
+  ],
+  "clues": [
+   [
+    "فحص {{chorioamnionitis}}",
+    "يعني {{weak uterine contractions}}"
+   ],
+   [
+    "فحص {{grand multiparity}}",
+    "يعني {{risk factor}}"
+   ]
+  ],
+  "why": [
+   "الـ{{infection}} و{{multiparity}} و{{prolonged oxytocin}}",
+   "يضعفون {{uterine contraction}}",
+   "فيصير {{atony}}"
+  ],
+  "wrong": {
+   "1": "الـ{{accreta}} مع {{retained placenta}}",
+   "2": "الـ{{cervical laceration}} أقل",
+   "3": "الـ{{vaginal laceration}} أقل"
+  },
+  "change": [
+   "نعطي {{oxytocin}} و{{carboprost}}",
+   "ونتأكد من {{lacerations}}"
+  ],
+  "rule": "الـ{{chorioamnionitis with bleeding}} يعني {{atony}}"
+ },
+ "Q289": {
+  "idea": [
+   "لو {{twin delivery 2 hours ago with active bleeding}}",
+   "فالسبب {{uterine atony}}"
+  ],
+  "clues": [
+   [
+    "فحص {{twins}}",
+    "يعني {{uterine overdistension}}"
+   ]
+  ],
+  "why": [
+   "الـ{{overdistension}} يسبب {{atony}}",
+   "وهو أشهر سبب لـ{{PPH}}",
+   "فنعطي {{uterotonics}}"
+  ],
+  "wrong": {
+   "1": "الـ{{coagulopathy}} {{rare}}",
+   "2": "الـ{{genital tract trauma}} أقل",
+   "3": "الـ{{retained tissue}} أقل"
+  },
+  "change": [
+   "نفحص {{uterus}}",
+   "ونسوي {{uterine massage}}"
+  ],
+  "rule": "الـ{{twins with bleeding}} يعني {{atony}}"
+ },
+ "Q290": {
+  "idea": [
+   "لو {{low-lying placenta with PPH 1 hour after delivery}}",
+   "فالتشخيص {{atony}} حسب الجواب"
+  ],
+  "clues": [
+   [
+    "فحص {{low-lying placenta}}",
+    "يعني {{poor contraction at the implantation site}}"
+   ]
+  ],
+  "why": [
+   "الـ{{lower segment}} ينقبض أقل",
+   "فيزيد {{atony}}",
+   "وهو الأرجح"
+  ],
+  "wrong": {
+   "0": "الـ{{coagulopathy}} {{rare}}",
+   "2": "الـ{{inversion}} يجي مع {{pain}}",
+   "3": "الـ{{genital tract trauma}} أقل"
+  },
+  "change": [
+   "نعطي {{oxytocin}}",
+   "ونراقب {{accreta}}"
+  ],
+  "rule": "الـ{{low placenta}} يعني {{atony}} حسب الجواب"
+ },
+ "Q291": {
+  "idea": [
+   "لو {{primigravida delivered 2.7 kg baby with heavy bleeding}}",
+   "فالسبب {{atony}}"
+  ],
+  "clues": [
+   [
+    "فحص {{heavy bleeding after delivery}}",
+    "يعني {{atony}}"
+   ]
+  ],
+  "why": [
+   "الـ{{atony}} أشهر سبب لـ{{PPH}}",
+   "بحوالي {{70%}}",
+   "فنعطي {{uterotonics}}"
+  ],
+  "wrong": {
+   "1": "الـ{{cervical injury}} أقل",
+   "2": "الـ{{coagulation defects}} {{rare}}",
+   "3": "الـ{{retained fragments}} أقل"
+  },
+  "change": [
+   "نسوي {{uterine massage}}",
+   "ونعطي {{oxytocin}}"
+  ],
+  "rule": "الـ{{PPH}} يعني {{atony}} أولًا"
+ },
+ "Q292": {
+  "idea": [
+   "لو {{urine leakage with cough and sneeze}}",
+   "فالأرجح {{hypermobile urethra}}"
+  ],
+  "clues": [
+   [
+    "فحص {{leakage with cough}}",
+    "يعني {{stress incontinence}}"
+   ]
+  ],
+  "why": [
+   "الـ{{SUI}} سببها {{urethral hypermobility}}",
+   "وما هي {{organ prolapse}}",
+   "فنلاقيها بالـ{{examination}}"
+  ],
+  "wrong": {
+   "0": "الـ{{rectocele}} يخص {{rectum}}",
+   "1": "الـ{{enterocele}} يخص {{bowel}}",
+   "2": "الـ{{paravaginal defect}} ممكن بس أقل"
+  },
+  "change": [
+   "نفحص بـ{{Q-tip test}}",
+   "ونعالج بـ{{pelvic floor exercises}}"
+  ],
+  "rule": "الـ{{SUI}} يعني {{hypermobile urethra}}"
+ },
+ "Q293": {
+  "idea": [
+   "لو {{constipation and digitation of the vagina to defecate}}",
+   "نسوي {{posterior colporrhaphy}}"
+  ],
+  "clues": [
+   [
+    "فحص {{pushing the vagina to defecate}}",
+    "يعني {{rectocele}}"
+   ]
+  ],
+  "why": [
+   "الـ{{rectocele}} نعالجها بـ{{posterior wall repair}}",
+   "وهذا هو {{posterior colporrhaphy}}",
+   "والـ{{anterior}} للـ{{bladder}}"
+  ],
+  "wrong": {
+   "0": "الـ{{hysterectomy}} غير مطلوب",
+   "1": "الـ{{anterior colporrhaphy}} للـ{{bladder}}",
+   "3": "الـ{{enterocele}} مو هالوصف"
+  },
+  "change": [
+   "نبدأ بـ{{conservative treatment}}",
+   "ونعطي {{laxatives}}"
+  ],
+  "rule": "الـ{{rectocele}} يعني {{posterior colporrhaphy}}"
+ },
+ "Q294": {
+  "idea": [
+   "لو {{pelvic heaviness with mucosal bulge at the introitus}}",
+   "فالجواب {{enterocele}} حسب الملف"
+  ],
+  "clues": [
+   [
+    "فحص {{pelvic heaviness}}",
+    "يعني {{prolapse}}"
+   ],
+   [
+    "فحص {{bulge at introitus}}",
+    "يعني {{apical prolapse}}"
+   ]
+  ],
+  "why": [
+   "حسب الجواب المعتمد {{enterocele}}",
+   "ونأكد بالـ{{examination}}",
+   "ونعالج حسب {{severity}}"
+  ],
+  "wrong": {
+   "0": "الـ{{cystocele}} بالـ{{anterior wall}}",
+   "1": "الـ{{rectocele}} بالـ{{posterior wall}}",
+   "3": "الـ{{paravaginal defect}} {{anterolateral}}"
+  },
+  "change": [
+   "لو {{anterior}} يعني {{cystocele}}",
+   "ولو {{posterior}} يعني {{rectocele}}"
+  ],
+  "rule": "الـ{{apical bulge}} يعني {{enterocele}}",
+  "note": "الجواب حسب الملف المعتمد، والوصف عام والتشخيص بالـ{{examination}}"
+ },
+ "Q295": {
+  "idea": [
+   "لو {{large anterior wall bulge with pelvic pressure}}",
+   "نسوي {{anterior colporrhaphy}}"
+  ],
+  "clues": [
+   [
+    "فحص {{large anterior bulge}}",
+    "يعني {{cystocele}}"
+   ],
+   [
+    "فحص {{heavy work and multiple deliveries}}",
+    "يعني {{risk factors}}"
+   ]
+  ],
+  "why": [
+   "الـ{{large cystocele}} نعالجه {{surgically}}",
+   "بـ{{anterior colporrhaphy}}",
+   "والـ{{pessary}} و{{Kegel}} للـ{{mild}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Kegel}} للـ{{mild}}",
+   "1": "الـ{{pessary}} لمن {{unfit for surgery}}",
+   "2": "الـ{{bladder suspension}} للـ{{SUI}}"
+  },
+  "change": [
+   "لو {{mild}} نبدأ {{Kegel}}",
+   "ولو {{unfit}} نستخدم {{pessary}}"
+  ],
+  "rule": "الـ{{large cystocele}} يعني {{anterior colporrhaphy}}"
+ },
+ "Q296": {
+  "idea": [
+   "لو {{urgency and leakage without warning with spontaneous detrusor contractions}}",
+   "نعطي {{anticholinergics}}"
+  ],
+  "clues": [
+   [
+    "فحص {{leakage with urgency}}",
+    "يعني {{urge incontinence}}"
+   ],
+   [
+    "فحص {{spontaneous contractions on urodynamics}}",
+    "يعني {{overactive bladder}}"
+   ]
+  ],
+  "why": [
+   "الـ{{OAB}} نعالجه بـ{{anticholinergics}}",
+   "ويثبّط {{detrusor muscle}}",
+   "بعد {{behavioral modification}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Kegel}} للـ{{stress incontinence}}",
+   "2": "الـ{{bladder suspension}} للـ{{stress incontinence}}",
+   "3": "الـ{{colporrhaphy}} للـ{{prolapse}}"
+  },
+  "change": [
+   "الـ{{mirabegron}} بديل",
+   "ونسوي {{bladder training}}"
+  ],
+  "rule": "الـ{{urge incontinence}} يعني {{anticholinergics}}"
+ },
+ "Q297": {
+  "idea": [
+   "لو {{62 years with DM, CHF and second-degree prolapse}}",
+   "نستخدم {{vaginal pessary}}"
+  ],
+  "clues": [
+   [
+    "فحص {{comorbidities}}",
+    "يعني {{high surgical risk}}"
+   ],
+   [
+    "فحص {{second-degree prolapse}}",
+    "يعني مناسبة لـ{{pessary}}"
+   ]
+  ],
+  "why": [
+   "المريضة {{high surgical risk}}",
+   "والـ{{pessary}} علاج {{safe}}",
+   "و{{effective for prolapse}}"
+  ],
+  "wrong": {
+   "0": "الـ{{surgery}} فيه خطر",
+   "1": "الـ{{hysterectomy}} فيه خطر",
+   "2": "الـ{{sling}} للـ{{stress incontinence}} مو للـ{{prolapse}}"
+  },
+  "change": [
+   "نعطي {{topical estrogen}}",
+   "ونراقب {{infection}}"
+  ],
+  "rule": "الـ{{prolapse with high surgical risk}} يعني {{pessary}}"
+ },
+ "Q298": {
+  "idea": [
+   "لو {{leakage with laugh, cough and sneeze without urgency}}",
+   "أول علاج {{Kegel exercises}}"
+  ],
+  "clues": [
+   [
+    "فحص {{leakage with cough}}",
+    "يعني {{SUI}}"
+   ],
+   [
+    "فحص {{no urgency}}",
+    "يعني مو {{OAB}}"
+   ]
+  ],
+  "why": [
+   "الـ{{SUI}} نبدأ علاجه بـ{{pelvic floor exercises}}",
+   "وهي {{non-surgical}}",
+   "وتفيد بالـ{{mild cases}}"
+  ],
+  "wrong": {
+   "1": "الـ{{anticholinergics}} للـ{{OAB}}",
+   "2": "الـ{{bladder suspension}} لو {{failed conservative treatment}}",
+   "3": "الـ{{colporrhaphy}} للـ{{prolapse}}"
+  },
+  "change": [
+   "لو فشلت نسوي {{sling}}",
+   "ونعدّل {{weight}}"
+  ],
+  "rule": "الـ{{SUI}} يعني {{Kegel}} أولًا"
+ },
+ "Q299": {
+  "idea": [
+   "لو {{13 years with sparse labial hair and breast buds without separation}}",
+   "فهي {{Tanner stage II}}"
+  ],
+  "clues": [
+   [
+    "فحص {{sparse hair not reaching the mons}}",
+    "يعني {{stage II}}"
+   ],
+   [
+    "فحص {{breast buds}}",
+    "يعني {{stage II}}"
+   ]
+  ],
+  "why": [
+   "الـ{{stage II}} فيها {{breast buds}} و{{sparse pubic hair}}",
+   "وما فيه {{separation of breast and areola}}",
+   "فهذي {{Tanner II}}"
+  ],
+  "wrong": {
+   "0": "الـ{{stage I}} بدون {{changes}}",
+   "2": "الـ{{stage III}} فيها {{hair over the mons}}",
+   "3": "الـ{{stage IV}} فيها {{areolar mound}}"
+  },
+  "change": [
+   "الـ{{menarche}} غالبًا بـ{{stage IV}}",
+   "ونقيّم {{puberty}}"
+  ],
+  "rule": "الـ{{breast buds with sparse hair}} يعني {{Tanner II}}"
+ },
+ "Q300": {
+  "idea": [
+   "لو {{vulvar ulcer with ragged edge, necrotic base and tender inguinal adenopathy}}",
+   "فالتشخيص {{chancroid}}"
+  ],
+  "clues": [
+   [
+    "فحص {{painful ragged ulcer}}",
+    "يعني {{Haemophilus ducreyi}}"
+   ],
+   [
+    "فحص {{tender inguinal nodes}}",
+    "يعني {{chancroid}}"
+   ]
+  ],
+  "why": [
+   "الـ{{chancroid}} يعطي {{painful ulcer with ragged edges}}",
+   "و{{tender inguinal nodes}}",
+   "والـ{{syphilis}} قرحتها {{painless}}"
+  ],
+  "wrong": {
+   "0": "الـ{{syphilis}} قرحتها {{painless}}",
+   "2": "الـ{{HSV}} يعطي {{vesicles}}",
+   "3": "الـ{{Bartholin abscess}} يعني {{abscess}}"
+  },
+  "change": [
+   "العلاج {{azithromycin}}",
+   "ونفحص {{HIV}}"
+  ],
+  "rule": "الـ{{painful ragged ulcer}} يعني {{chancroid}}"
+ },
+ "Q301": {
+  "idea": [
+   "لو {{primary HSV at 23 weeks treated with acyclovir}}",
+   "فالهدف {{decrease viral shedding and duration of infection}}"
+  ],
+  "clues": [
+   [
+    "فحص {{primary HSV}}",
+    "يعني نعطي {{antiviral}}"
+   ]
+  ],
+  "why": [
+   "الـ{{acyclovir}} يقلل {{duration of infection}} و{{viral shedding}}",
+   "وما يرفع {{immunity}}",
+   "وما يمنع {{transmission}} تمامًا"
+  ],
+  "wrong": {
+   "0": "الـ{{acyclovir}} ما يرفع {{immunity}}",
+   "1": "ما يمنع {{transplacental transmission}} تمامًا",
+   "2": "ما يعالج {{HSV infection}} كاملًا"
+  },
+  "change": [
+   "نعطي {{suppressive therapy}} بعد {{36 weeks}}",
+   "ونخطط لـ{{mode of delivery}}"
+  ],
+  "rule": "الـ{{acyclovir}} يعني {{shorter infection and less shedding}}"
+ }
+}

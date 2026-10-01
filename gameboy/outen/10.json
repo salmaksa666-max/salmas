@@ -1,0 +1,632 @@
+{
+ "Q182": {
+  "idea": [
+   "سيدة {{pregnant}} مع {{hypertension}} على {{HCTZ}} و{{losartan}}",
+   "نوقف {{losartan}} ونبدأ {{methyldopa}}"
+  ],
+  "clues": [
+   [
+    "الـ{{losartan}} هو {{ARB}}",
+    "يعني {{contraindicated in pregnancy}}"
+   ],
+   [
+    "فيه {{positive pregnancy test}}",
+    "فنغيّر {{antihypertensive}}"
+   ]
+  ],
+  "why": [
+   "الـ{{ARBs and ACEIs}} تسبب {{fetal anomalies}}",
+   "والـ{{methyldopa}} {{safe in pregnancy}}",
+   "وغالبًا نوقف {{HCTZ}} كمان"
+  ],
+  "wrong": {
+   "0": "لو كملنا نفس الأدوية يعني {{fetal harm}}",
+   "1": "إيقاف كل الأدوية يعني {{risk to the mother}}",
+   "3": "الـ{{enalapril}} هو {{ACE inhibitor}} و{{contraindicated in pregnancy}}"
+  },
+  "change": [
+   "البدائل {{labetalol}} أو {{nifedipine}}",
+   "ونتابع {{blood pressure}}"
+  ],
+  "rule": "الـ{{hypertension in pregnancy}} يعني {{methyldopa}} أو {{labetalol}} أو {{nifedipine}}"
+ },
+ "Q183": {
+  "idea": [
+   "مريض {{symptomatic hyponatremia}} نصححه بحذر",
+   "وأخطر نتيجة للتصحيح السريع هي {{central pontine myelinolysis}}"
+  ],
+  "clues": [
+   [
+    "لو {{rapid correction of sodium}}",
+    "يعني خطر {{osmotic demyelination}}"
+   ]
+  ],
+  "why": [
+   "لو رفعنا {{sodium}} أكثر من {{8 to 10 mmol/L per day}} يصير الضرر",
+   "فتحدث {{CPM}}",
+   "ويطلع {{quadriparesis}} و{{dysphagia}}"
+  ],
+  "wrong": {
+   "0": "الـ{{hypokalemia}} ما لها علاقة بالتصحيح",
+   "1": "الـ{{hypernatremia}} ممكن بس أقل خطورة",
+   "2": "الـ{{volume overload}} مو الأخطر"
+  },
+  "change": [
+   "نصحح {{sodium}} ببطء",
+   "ونتابع {{serum Na}} كل ساعتين"
+  ],
+  "rule": "الـ{{rapid correction of hyponatremia}} يعني {{CPM}}"
+ },
+ "Q184": {
+  "idea": [
+   "شاب عنده {{fever}} و{{painful unilateral vesicular rash}} على الصدر",
+   "هذا {{herpes zoster}} و{{no further investigation}}"
+  ],
+  "clues": [
+   [
+    "فيه {{unilateral vesicular rash}}",
+    "يعني {{dermatomal distribution}}"
+   ],
+   [
+    "مع {{fever and pain}}",
+    "يعني {{shingles}}"
+   ]
+  ],
+  "why": [
+   "الـ{{zoster}} تشخيصه {{clinical}}",
+   "لأن {{dermatomal pattern}} مميز",
+   "فما نحتاج {{investigations}}"
+  ],
+  "wrong": {
+   "0": "الـ{{skin biopsy}} مو ضروري",
+   "1": "الـ{{blood culture}} ما تفيد",
+   "2": "الـ{{swab for culture}} مو ضروري"
+  },
+  "change": [
+   "لو {{atypical presentation}} نسوي {{PCR}}",
+   "ونبدأ {{acyclovir}} بسرعة"
+  ],
+  "rule": "الـ{{typical zoster}} يعني {{clinical diagnosis}}"
+ },
+ "Q185": {
+  "idea": [
+   "شابة عندها {{headache, fever, neck rigidity}} و{{purpuric rash}}",
+   "فنسوي {{lumbar puncture}}"
+  ],
+  "clues": [
+   [
+    "فيه {{fever, neck stiffness, purpura}}",
+    "يعني {{meningococcal meningitis}}"
+   ],
+   [
+    "بدون {{focal neurological signs}}",
+    "يعني {{safe for LP}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}} و{{the approved answer}}"
+   ]
+  ],
+  "why": [
+   "الـ{{LP}} هو {{diagnostic test}}",
+   "ونبدأ {{antibiotics}} قبل الفحص",
+   "والـ{{CSF}} يأكد التشخيص"
+  ],
+  "wrong": {
+   "0": "الـ{{skin biopsy}} مو أول فحص",
+   "1": "الـ{{blood culture}} فحص مساعد بس",
+   "3": "الـ{{serology}} متأخرة"
+  },
+  "change": [
+   "نعطي {{ceftriaxone}} فورًا",
+   "ولو فيه {{raised ICP signs}} نسوي {{CT}} قبل"
+  ],
+  "rule": "الـ{{meningitis}} يعني {{LP}}"
+ },
+ "Q186": {
+  "idea": [
+   "سيدة عندها {{firm mobile non-tender thyroid nodule}} بدون أعراض",
+   "فأول فحص {{TSH}}"
+  ],
+  "clues": [
+   [
+    "فيه {{thyroid nodule}}",
+    "فنقيّم {{thyroid function}} أول"
+   ]
+  ],
+  "why": [
+   "نبدأ بـ{{TSH}}",
+   "لو {{low TSH}} نسوي {{thyroid scan}}",
+   "ولو {{normal TSH}} نسوي {{FNA}}"
+  ],
+  "wrong": {
+   "0": "الـ{{scan}} بس لو {{TSH}} منخفض",
+   "1": "الـ{{FNA}} يجي بعد {{TSH}}",
+   "2": "الـ{{T3}} ما يفيد"
+  },
+  "change": [
+   "لو {{low TSH}} نسوي {{Tc99 scan}}",
+   "ولو {{normal TSH}} نسوي {{FNA}}"
+  ],
+  "rule": "الـ{{thyroid nodule}} يعني {{TSH}} أول"
+ },
+ "Q187": {
+  "idea": [
+   "مريض {{AML}} على {{chemotherapy}} عنده {{fever}}",
+   "فنعطي {{IV antibiotics}}"
+  ],
+  "clues": [
+   [
+    "فيه {{AML on chemotherapy}}",
+    "يعني {{neutropenia}}"
+   ],
+   [
+    "مع {{fever}}",
+    "يعني {{febrile neutropenia}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}} و{{the approved answer}}"
+   ]
+  ],
+  "why": [
+   "الـ{{febrile neutropenia}} هي {{emergency}}",
+   "فنعطي {{broad-spectrum IV antibiotics}}",
+   "وما نعطي {{antivirals}} بدون سبب"
+  ],
+  "wrong": {
+   "1": "الـ{{observation}} يعني {{risk}}",
+   "2": "الـ{{antivirals}} مو ضرورية",
+   "3": "الـ{{oral antibiotics}} ما تكفي"
+  },
+  "change": [
+   "لو استمرت {{fever}} نضيف {{antifungal}}",
+   "ونعدل حسب {{culture}}"
+  ],
+  "rule": "الـ{{febrile neutropenia}} يعني {{IV antibiotics}}"
+ },
+ "Q188": {
+  "idea": [
+   "مريض {{pneumonia}} مع {{gram-positive cocci in blood culture}} على {{IV antibiotics}}",
+   "فنعطي {{1000 mL normal saline bolus}}"
+  ],
+  "clues": [
+   [
+    "فيه {{pneumonia with bacteremia}}",
+    "يعني {{sepsis}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}} و{{the approved answer}}"
+   ]
+  ],
+  "why": [
+   "الـ{{sepsis}} يحتاج {{aggressive fluid resuscitation}}",
+   "ونعطي {{30 mL/kg}}",
+   "وهذي {{next step}}"
+  ],
+  "wrong": {
+   "0": "الـ{{hemodialysis}} ما لها داعي",
+   "1": "الـ{{dobutamine}} للـ{{cardiogenic shock}}",
+   "3": "الـ{{PRBC}} مو ضروري"
+  },
+  "change": [
+   "لو {{hypotension}} رغم {{fluids}} نعطي {{vasopressor}}",
+   "ونتابع {{lactate}}"
+  ],
+  "rule": "الـ{{sepsis with hypotension}} يعني {{IV fluids}}",
+  "note": "الجواب حسب الملف، و{{supporting reports}} مو ظاهرة بالبطاقة"
+ },
+ "Q189": {
+  "idea": [
+   "مريض {{COPD exacerbation}} عنده {{accessory muscle use}} و{{diminished gag reflex}}",
+   "فنسوي {{intubation}}"
+  ],
+  "clues": [
+   [
+    "فيه {{accessory muscle use}} و{{diminished gag reflex}}",
+    "يعني {{respiratory failure}}"
+   ],
+   [
+    "مع {{full medical treatment}} وما كفى",
+    "فنحتاج {{mechanical ventilation}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}} و{{the approved answer}}"
+   ]
+  ],
+  "why": [
+   "الـ{{diminished gag reflex}} يعني {{aspiration risk}}",
+   "فما ينفع {{NIV}}",
+   "ونسوي {{intubation}}"
+  ],
+  "wrong": {
+   "0": "الـ{{NIV}} ما نستخدمه مع {{decreased consciousness}}",
+   "1": "الـ{{observation}} يعني {{risk}}",
+   "3": "زيادة {{oxygen}} تزيد {{CO2 retention}}"
+  },
+  "change": [
+   "لو المريض {{alert}} نجرب {{NIV}}",
+   "ولو {{severe acidosis}} نسوي {{intubation}}"
+  ],
+  "rule": "الـ{{COPD}} مع {{poor airway protection}} يعني {{intubation}}"
+ },
+ "Q190": {
+  "idea": [
+   "شاب عنده {{massive PE}} بالـ{{ICU}}",
+   "فنبدأ {{thrombolysis}}"
+  ],
+  "clues": [
+   [
+    "فيه {{massive PE}}",
+    "يعني {{shock or instability}}"
+   ]
+  ],
+  "why": [
+   "الـ{{massive PE}} نعطي {{thrombolysis}} فورًا",
+   "لأنه {{life-saving}}",
+   "والباقي ما يكفي"
+  ],
+  "wrong": {
+   "0": "الـ{{warfarin}} للـ{{long-term}}",
+   "2": "الـ{{LMWH}} للـ{{stable patient}}",
+   "3": "الـ{{dabigatran}} للـ{{stable patient}}"
+  },
+  "change": [
+   "لو {{contraindication}} نسوي {{embolectomy}}",
+   "ولو {{stable}} نعطي {{LMWH}}"
+  ],
+  "rule": "الـ{{massive PE}} يعني {{thrombolysis}}"
+ },
+ "Q191": {
+  "idea": [
+   "شابة عندها {{inflammatory back pain}} و{{morning stiffness for 1 hour}} مع {{knee and heel arthritis}}",
+   "فالتشخيص {{ankylosing spondylitis}}"
+  ],
+  "clues": [
+   [
+    "فيه {{morning stiffness 1 hour}}",
+    "يعني {{inflammatory}}"
+   ],
+   [
+    "مع {{limited spinal movement}}",
+    "يعني {{AS}}"
+   ],
+   [
+    "مع {{Achilles inflammation}}",
+    "يعني {{enthesitis}}"
+   ]
+  ],
+  "why": [
+   "الـ{{AS}} فيه {{inflammatory back pain}} مع {{enthesitis}}",
+   "وغالبًا {{HLA-B27}}",
+   "ويصيب {{spine}}"
+  ],
+  "wrong": {
+   "0": "الـ{{reactive arthritis}} تجي بعد {{infection}}",
+   "1": "الـ{{RA}} تصيب {{small joints}}",
+   "3": "الـ{{crystal arthritis}} تجي {{acute attacks}}"
+  },
+  "change": [
+   "لو {{preceding infection}} نفكر {{reactive arthritis}}",
+   "ونعالج بـ{{NSAIDs}}"
+  ],
+  "rule": "الـ{{inflammatory back pain}} مع {{enthesitis}} يعني {{AS}}"
+ },
+ "Q192": {
+  "idea": [
+   "سيدة عندها {{anemia}} و{{splenomegaly}} و{{spherocytosis}}",
+   "فالعلاج {{corticosteroids}}"
+  ],
+  "clues": [
+   [
+    "فيه {{spherocytes}} مع {{splenomegaly}}",
+    "يعني {{autoimmune hemolytic anemia}}"
+   ],
+   [
+    "مع {{acute symptoms}}",
+    "فنحتاج علاج"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}} و{{the approved answer}}"
+   ]
+  ],
+  "why": [
+   "الـ{{AIHA}} علاجها {{steroids}}",
+   "ونعطيها فورًا",
+   "ونكمل بـ{{rituximab}} أو {{splenectomy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{blood transfusion}} للـ{{severe cases}}",
+   "1": "الـ{{hydroxyurea}} للـ{{sickle cell}}",
+   "3": "الـ{{iron}} ما يفيد"
+  },
+  "change": [
+   "لو {{hereditary spherocytosis}} نسوي {{splenectomy}}",
+   "ونعطي {{folate}}"
+  ],
+  "rule": "الـ{{immune spherocytosis}} يعني {{steroids}}"
+ },
+ "Q193": {
+  "idea": [
+   "سيدة عندها {{palpitations}} و{{fatigue}} لمدة ٣ شهور",
+   "فنعطي {{oral iron}}"
+  ],
+  "clues": [
+   [
+    "فيه {{fatigue and palpitations}}",
+    "يعني {{anemia}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}} و{{the approved answer}}"
+   ]
+  ],
+  "why": [
+   "الـ{{iron deficiency}} علاجها {{oral iron}}",
+   "وهو {{first line}}",
+   "والـ{{IV iron}} للـ{{intolerance}}"
+  ],
+  "wrong": {
+   "0": "الـ{{blood transfusion}} للـ{{severe anemia}}",
+   "1": "الـ{{IV iron}} لو {{intolerance}}",
+   "2": "الـ{{folate}} لـ{{folate deficiency}}"
+  },
+  "change": [
+   "لو {{very low Hb}} ننقل {{blood}}",
+   "ولو {{malabsorption}} نعطي {{IV iron}}"
+  ],
+  "rule": "الـ{{IDA}} يعني {{oral iron}}"
+ },
+ "Q194": {
+  "idea": [
+   "شاب عنده {{bloody diarrhea}} أسبوعين مع {{tenesmus}}",
+   "فأفضل فحص {{colonoscopy}}"
+  ],
+  "clues": [
+   [
+    "فيه {{bloody diarrhea with tenesmus}}",
+    "يعني {{colitis}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}} و{{the approved answer}}"
+   ]
+  ],
+  "why": [
+   "الـ{{colonoscopy}} مع {{biopsy}} تشخص {{IBD}}",
+   "وهي {{most accurate}}",
+   "والباقي {{supportive}}"
+  ],
+  "wrong": {
+   "1": "الـ{{CT}} مو أول فحص",
+   "2": "الـ{{C. diff toxin}} لو {{recent antibiotics}}",
+   "3": "الـ{{stool culture}} للـ{{infection}}"
+  },
+  "change": [
+   "لو {{recent antibiotics}} نفحص {{C. diff}}",
+   "ولو {{severe acute colitis}} نتجنب {{colonoscopy}}"
+  ],
+  "rule": "الـ{{chronic bloody diarrhea}} يعني {{colonoscopy}}"
+ },
+ "Q195": {
+  "idea": [
+   "مريض بالـ{{ICU}} صار عنده {{hypotension}} ثم {{elevated liver enzymes}}",
+   "فالأقرب {{ischemic hepatitis}}"
+  ],
+  "clues": [
+   [
+    "فيه {{hypotension}} بعد ٣ أيام",
+    "يعني {{hypoperfusion}}"
+   ],
+   [
+    "كان {{normal liver function}} بالدخول",
+    "يعني {{new change}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}} و{{the approved answer}}"
+   ]
+  ],
+  "why": [
+   "الـ{{ischemic hepatitis}} تجي بعد {{shock}}",
+   "والـ{{US}} طبيعي",
+   "وتتحسن بعد {{correcting the blood pressure}}"
+  ],
+  "wrong": {
+   "1": "الـ{{ICU jaundice}} تجي {{gradually}}",
+   "2": "الـ{{hemolysis}} يجي مع {{anemia}}",
+   "3": "الـ{{acalculous cholecystitis}} تجي مع {{pain}}"
+  },
+  "change": [
+   "لو {{RUQ pain}} نفكر بـ{{gallbladder}}",
+   "ونعالج {{the cause}}"
+  ],
+  "rule": "الـ{{hypotension}} ثم {{acute liver enzyme rise}} يعني {{ischemic hepatitis}}"
+ },
+ "Q196": {
+  "idea": [
+   "مريض {{CAP}} عنده {{cough, fever, right lower lobe consolidation}}",
+   "فالعلاج التجريبي {{ceftriaxone}} مع {{azithromycin}}"
+  ],
+  "clues": [
+   [
+    "فيه {{lower lobe consolidation}}",
+    "يعني {{lobar pneumonia}}"
+   ]
+  ],
+  "why": [
+   "الـ{{CAP}} داخل المستشفى نعطي {{beta-lactam}} مع {{macrolide}}",
+   "والـ{{ceftriaxone}} هو المناسب",
+   "ونغطي {{atypicals}}"
+  ],
+  "wrong": {
+   "0": "الـ{{meropenem}} {{too broad}}",
+   "2": "الـ{{vancomycin}} لـ{{MRSA}}",
+   "3": "الـ{{oseltamivir}} للـ{{influenza}}"
+  },
+  "change": [
+   "لو {{MRSA}} نضيف {{vancomycin}}",
+   "ولو {{influenza}} نضيف {{oseltamivir}}"
+  ],
+  "rule": "الـ{{inpatient CAP}} يعني {{ceftriaxone}} و{{azithromycin}}"
+ },
+ "Q197": {
+  "idea": [
+   "مريض {{inferior STEMI}} مع {{stroke 2 months ago}}",
+   "فنسوي {{PCI}}"
+  ],
+  "clues": [
+   [
+    "فيه {{ST elevation in II, III, aVF}}",
+    "يعني {{inferior STEMI}}"
+   ],
+   [
+    "مع {{stroke 2 months ago}}",
+    "يعني {{contraindication to fibrinolysis}}"
+   ]
+  ],
+  "why": [
+   "الـ{{fibrinolysis}} {{contraindicated}} بعد {{recent stroke}}",
+   "فنفضل {{PCI}}",
+   "وهو {{faster and safer}}"
+  ],
+  "wrong": {
+   "0": "الـ{{fibrinolytic}} {{contraindicated}}",
+   "1": "الـ{{aspirin}} علاج مساعد",
+   "2": "الـ{{UFH}} علاج مساعد"
+  },
+  "change": [
+   "نعطي {{aspirin}} و{{heparin}}",
+   "ولو {{PCI unavailable}} نوازن {{risk and benefit}}"
+  ],
+  "rule": "الـ{{STEMI}} مع {{contraindication to thrombolysis}} يعني {{PCI}}"
+ },
+ "Q198": {
+  "idea": [
+   "رجل عنده {{exertional dyspnea}} لمدة ٨ شهور و{{early diastolic murmur}} تزيد مع {{sitting forward}}",
+   "فالتشخيص {{aortic regurgitation}}"
+  ],
+  "clues": [
+   [
+    "فيه {{early diastolic murmur}}",
+    "يعني {{AR}}"
+   ],
+   [
+    "تزيد مع {{sitting forward}}",
+    "وهذا {{characteristic}}"
+   ],
+   [
+    "مع {{LV hypertrophy}}",
+    "يعني {{chronic LVH}}"
+   ]
+  ],
+  "why": [
+   "الـ{{chronic AR}} يسبب {{LVH}}",
+   "والـ{{murmur}} تزيد مع {{leaning forward}}",
+   "ويصير {{cardiomegaly}}"
+  ],
+  "wrong": {
+   "0": "الـ{{AS}} فيه {{systolic murmur}}",
+   "1": "الـ{{MS}} فيها {{apical murmur}}",
+   "3": "الـ{{MR}} فيها {{systolic murmur}}"
+  },
+  "change": [
+   "لو {{low EF}} نحتاج {{AVR}}",
+   "ونفحص بـ{{echocardiography}}"
+  ],
+  "rule": "الـ{{diastolic murmur}} تزيد مع {{leaning forward}} يعني {{AR}}"
+ },
+ "Q199": {
+  "idea": [
+   "سيدة على {{OCP}} عندها {{sudden dyspnea}} و{{pleuritic chest pain}}",
+   "فأفضل فحص {{CT pulmonary angiography}}"
+  ],
+  "clues": [
+   [
+    "فيه {{OCP}}",
+    "يعني {{VTE risk factor}}"
+   ],
+   [
+    "مع {{sudden dyspnea and pleuritic pain}}",
+    "يعني {{PE}}"
+   ]
+  ],
+  "why": [
+   "الـ{{CTPA}} هو {{diagnostic test}}",
+   "وهو {{most accurate and fastest}}",
+   "والـ{{D-dimer}} للـ{{low probability}}"
+  ],
+  "wrong": {
+   "0": "الـ{{D-dimer}} للـ{{low probability}} بس",
+   "1": "الـ{{echo}} فحص داعم",
+   "3": "الـ{{V/Q}} بديل"
+  },
+  "change": [
+   "لو {{pregnancy}} أو {{renal failure}} نسوي {{V/Q}}",
+   "ونبدأ {{anticoagulation}}"
+  ],
+  "rule": "الـ{{moderate suspicion of PE}} يعني {{CTPA}}"
+ },
+ "Q200": {
+  "idea": [
+   "رجل ٣٠ سنة عنده {{leg edema}} و{{fatigue}} لمدة شهر",
+   "فالتشخيص {{acute GN}} حسب الجواب"
+  ],
+  "clues": [
+   [
+    "فيه {{edema}}",
+    "يعني {{renal cause}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}} و{{the approved answer}}"
+   ]
+  ],
+  "why": [
+   "الـ{{edema}} مع {{renal disease}} توحي بـ{{glomerulonephritis}}",
+   "والـ{{labs}} تحدد",
+   "والجواب المعتمد {{GN}}"
+  ],
+  "wrong": {
+   "0": "الـ{{postrenal}} فيها {{obstruction}}",
+   "1": "الـ{{ATN}} تجي بعد {{shock}}",
+   "3": "الـ{{AIN}} تجي بعد {{drug}}"
+  },
+  "change": [
+   "لو {{heavy proteinuria}} يعني {{nephrotic}}",
+   "ولو {{hematuria}} يعني {{nephritic}}"
+  ],
+  "rule": "الـ{{edema}} مع {{glomerular disease}} يعني {{GN}}",
+  "note": "الـ{{lab results}} مو موجودة بالبطاقة، فالجواب حسب الملف المعتمد"
+ },
+ "Q201": {
+  "idea": [
+   "مريضة {{SLE}} عندها {{active arthritis}}",
+   "فنعطي {{prednisolone}} مع {{methotrexate}}"
+  ],
+  "clues": [
+   [
+    "فيه {{stable SLE}} مع {{polyarthritis}}",
+    "يعني {{joint involvement only}}"
+   ]
+  ],
+  "why": [
+   "الـ{{lupus arthritis}} نعالجها بـ{{steroids}} مع {{MTX}}",
+   "بدون {{renal involvement}}",
+   "فما نحتاج علاج أقوى"
+  ],
+  "wrong": {
+   "1": "الـ{{sulfasalazine}} {{less commonly used}}",
+   "2": "الـ{{cyclophosphamide}} للـ{{severe disease}}",
+   "3": "الـ{{MMF}} للـ{{renal disease}}"
+  },
+  "change": [
+   "لو {{renal involvement}} نعطي {{MMF}}",
+   "ولو {{severe}} نعطي {{cyclophosphamide}}"
+  ],
+  "rule": "الـ{{articular SLE}} يعني {{prednisolone}} و{{MTX}}"
+ }
+}

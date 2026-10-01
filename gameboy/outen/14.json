@@ -1,0 +1,579 @@
+{
+ "Q262": {
+  "idea": [
+   "لو {{primigravida at 32 weeks with raised BP}}",
+   "نسوي {{admission and start antihypertensive treatment}}"
+  ],
+  "clues": [
+   [
+    "فحص {{raised BP after 20 weeks}}",
+    "يعني {{gestational HTN or preeclampsia}}"
+   ],
+   [
+    "فحص {{referral}}",
+    "يعني نحتاج {{assessment}}"
+   ]
+  ],
+  "why": [
+   "الـ{{raised BP in pregnancy}} يحتاج {{admission and treatment}}",
+   "لتقليل خطر {{stroke}} و{{eclampsia}}",
+   "وما يكفي {{observation only}}"
+  ],
+  "wrong": {
+   "0": "الـ{{observation only}} ما تكفي",
+   "2": "الـ{{6-hourly BP and 24-hour urine protein}} ما تعالج",
+   "3": "الـ{{discharge}} فيه خطر"
+  },
+  "change": [
+   "لو {{mild}} نراقب",
+   "ولو {{severe}} نعطي {{MgSO4}}"
+  ],
+  "rule": "الـ{{raised BP in pregnancy}} يعني {{admission and antihypertensive}}"
+ },
+ "Q263": {
+  "idea": [
+   "لو {{sickle cell disease at 8 weeks without supplements}}",
+   "نعطي {{folic acid 5 mg}} طوال الحمل"
+  ],
+  "clues": [
+   [
+    "فحص {{SCD}}",
+    "يعني {{hemolysis consumes folate}}"
+   ]
+  ],
+  "why": [
+   "الـ{{SCD}} يحتاج {{folic acid 5 mg throughout pregnancy}}",
+   "لأن {{folate consumption}} عالي",
+   "والجرعة الصغيرة تكفي {{prevention only}}"
+  ],
+  "wrong": {
+   "1": "الـ{{5 mg until 12 weeks}} غير كافي",
+   "2": "الـ{{400 mg}} غلط لأن المقصود {{400 mcg}}",
+   "3": "الـ{{400 mcg until 12 weeks}} للوقاية من {{NTD}} بس"
+  },
+  "change": [
+   "الأفضل نبدأ {{before pregnancy}}",
+   "ونتابع {{Hb}}"
+  ],
+  "rule": "الـ{{SCD in pregnancy}} يعني {{folic acid 5 mg throughout pregnancy}}"
+ },
+ "Q264": {
+  "idea": [
+   "لو {{T1DM at 32 weeks with contractions and closed cervix}}",
+   "نعطي {{steroids, additional insulin and tocolytic}}"
+  ],
+  "clues": [
+   [
+    "فحص {{T1DM}}",
+    "يعني {{steroids raise glucose}} فنزيد {{insulin}}"
+   ],
+   [
+    "فحص {{early contractions}}",
+    "يعني {{threatened preterm labor}}"
+   ]
+  ],
+  "why": [
+   "نعطي {{steroids}} لـ{{lung maturity}}",
+   "ونزيد {{insulin}} لأن {{steroids cause hyperglycemia}}",
+   "ونعطي {{tocolytic}} عشان نكمل {{steroid course}}"
+  ],
+  "wrong": {
+   "0": "الـ{{steroids alone}} ترفع {{glucose}}",
+   "1": "الـ{{tocolytic and steroids}} بدون {{insulin}} فيه خطر",
+   "2": "ناقصها {{tocolytic}}"
+  },
+  "change": [
+   "نراقب {{glucose hourly}}",
+   "ونستخدم {{nifedipine}} أو {{atosiban}}"
+  ],
+  "rule": "الـ{{preterm labor with DM}} يعني {{steroids, insulin and tocolytic}}"
+ },
+ "Q265": {
+  "idea": [
+   "لو {{breast carcinoma treated and planning pregnancy}}",
+   "ننتظر {{2 years}}"
+  ],
+  "clues": [
+   [
+    "فحص {{breast cancer treatment}}",
+    "يعني خطر {{early recurrence}}"
+   ]
+  ],
+  "why": [
+   "أغلب الـ{{recurrence}} يظهر خلال {{first 2 years}}",
+   "فننصح بـ{{waiting 2 years}}",
+   "قبل الحمل"
+  ],
+  "wrong": {
+   "0": "الـ{{3 months}} قصيرة",
+   "1": "الـ{{9 months}} قصيرة",
+   "3": "الـ{{5 years}} طويلة"
+  },
+  "change": [
+   "نحدد حسب {{stage}}",
+   "ونحول لـ{{oncology}}"
+  ],
+  "rule": "بعد {{breast cancer}} ننتظر {{2 years}} قبل الحمل"
+ },
+ "Q266": {
+  "idea": [
+   "لو {{sickle cell trait at 8 weeks}}",
+   "فالأكثر {{UTI}}"
+  ],
+  "clues": [
+   [
+    "فحص {{sickle trait}}",
+    "يعني خطر {{bacteriuria}}"
+   ]
+  ],
+  "why": [
+   "الـ{{sickle trait}} يرفع {{UTI}} بالحمل",
+   "بسبب {{impaired renal concentration}}",
+   "فنفحص {{urine}} دوريًا"
+  ],
+  "wrong": {
+   "0": "الـ{{chest infection}} مرتبط بـ{{disease}} مو {{trait}}",
+   "1": "الـ{{placental abruption}} ما يرتبط",
+   "3": "الـ{{IUGR}} ما يرتبط"
+  },
+  "change": [
+   "نفحص {{urine}} كل زيارة",
+   "ونعالج {{asymptomatic bacteriuria}}"
+  ],
+  "rule": "الـ{{sickle trait in pregnancy}} يعني {{UTI}}"
+ },
+ "Q267": {
+  "idea": [
+   "لو {{preterm labor with polyhydramnios and fetal bradycardia after SROM}}",
+   "نستبعد {{cord prolapse}}"
+  ],
+  "clues": [
+   [
+    "فحص {{polyhydramnios with sudden rupture}}",
+    "يعني {{cord washout}}"
+   ],
+   [
+    "فحص {{fetal bradycardia}}",
+    "يعني {{cord compression}}"
+   ]
+  ],
+  "why": [
+   "الـ{{polyhydramnios}} يرفع احتمال {{cord prolapse}}",
+   "والـ{{bradycardia after rupture}} علامة",
+   "فنسوي {{vaginal examination}} فورًا"
+  ],
+  "wrong": {
+   "1": "الـ{{breech}} نعرفه بالـ{{US}}",
+   "2": "الـ{{abruption}} يجي مع {{bleeding}}",
+   "3": "الـ{{arm prolapse}} أقل علاقة"
+  },
+  "change": [
+   "لو {{cord prolapse}} نرفع {{presenting part}}",
+   "ونسوي {{emergency CS}}"
+  ],
+  "rule": "الـ{{polyhydramnios with ROM and bradycardia}} يعني نستبعد {{cord prolapse}}"
+ },
+ "Q268": {
+  "idea": [
+   "لو {{2 previous CS with previa and accreta}}",
+   "فالـ{{elective CS}} عند {{36-37 weeks}}"
+  ],
+  "clues": [
+   [
+    "فحص {{previa with accreta}}",
+    "يعني خطر {{massive hemorrhage}}"
+   ]
+  ],
+  "why": [
+   "الـ{{accreta with previa}} نولّد {{early}}",
+   "يعني {{36-37 weeks}}",
+   "لتجنب {{sudden bleeding}}"
+  ],
+  "wrong": {
+   "1": "الـ{{38 weeks}} متأخر",
+   "2": "الـ{{39 weeks}} متأخر",
+   "3": "الـ{{full term}} متأخر"
+  },
+  "change": [
+   "لو {{bleeding}} نولّد فورًا",
+   "ونجهز {{multidisciplinary team}}"
+  ],
+  "rule": "الـ{{accreta}} يعني {{CS at 36-37 weeks}}"
+ },
+ "Q269": {
+  "idea": [
+   "لو {{multiparous at 41+5 with prostaglandin induction then bleeding and shock}}",
+   "فالتشخيص {{uterine rupture}}"
+  ],
+  "clues": [
+   [
+    "فحص {{prostaglandin with sudden bleeding and shock}}",
+    "يعني {{rupture}}"
+   ],
+   [
+    "فحص {{multiparity}}",
+    "يعني {{risk factor}}"
+   ]
+  ],
+  "why": [
+   "الـ{{prostaglandins}} ترفع خطر {{uterine rupture}}",
+   "خاصة مع {{grand multiparity}}",
+   "فيصير {{bleeding and shock}}"
+  ],
+  "wrong": {
+   "0": "الـ{{previa}} نزف {{painless}}",
+   "2": "الـ{{abruption}} ممكن بس الأرجح {{rupture}}",
+   "3": "الـ{{hypersensitivity}} ما هو مميز"
+  },
+  "change": [
+   "نولّد بسرعة",
+   "ونعوّض {{blood}}"
+  ],
+  "rule": "الـ{{prostaglandin}} مع {{bleeding and shock}} يعني {{uterine rupture}}"
+ },
+ "Q270": {
+  "idea": [
+   "لو {{RUQ pain at 32 weeks}}",
+   "فالسبب {{hepatic capsule distension}}"
+  ],
+  "clues": [
+   [
+    "فحص {{RUQ pain in pregnancy}}",
+    "يعني {{preeclampsia}} و{{HELLP}}"
+   ]
+  ],
+  "why": [
+   "الـ{{liver swells}} مع {{preeclampsia}}",
+   "فتتمدد {{capsule}}",
+   "وهذا أرجح سبب"
+  ],
+  "wrong": {
+   "0": "الـ{{gallstones}} أقل مع هالصورة",
+   "1": "الـ{{cholecystitis}} يجي مع {{fever}}",
+   "2": "الـ{{hepatic rupture}} {{rare and late}}"
+  },
+  "change": [
+   "نفحص {{LFT}} و{{platelets}}",
+   "ونفكر بـ{{HELLP}}"
+  ],
+  "rule": "الـ{{RUQ pain in pregnancy}} يعني {{hepatic capsule distension}}"
+ },
+ "Q271": {
+  "idea": [
+   "لو {{headache, anxiety and mastalgia 8-10 days before menses that improve after}}",
+   "فالتشخيص {{PMS}}"
+  ],
+  "clues": [
+   [
+    "فحص {{cyclical symptoms before menses}}",
+    "يعني {{premenstrual}}"
+   ],
+   [
+    "فحص {{improve after menses}}",
+    "يعني {{PMS}}"
+   ]
+  ],
+  "why": [
+   "الـ{{PMS}} أعراض بـ{{luteal phase}}",
+   "وتختفي بعد {{menstruation}}",
+   "وما فيه {{organic disease}}"
+  ],
+  "wrong": {
+   "0": "الـ{{endometriosis}} يعني {{pelvic pain}}",
+   "1": "الـ{{perimenopause}} يجي بعمر أكبر",
+   "2": "الـ{{pelvic congestion}} يعني {{chronic pain}}"
+  },
+  "change": [
+   "لو {{severe PMDD}} نعطي {{SSRI}}",
+   "ونعدّل {{lifestyle}}"
+  ],
+  "rule": "الـ{{symptoms before menses that improve after}} يعني {{PMS}}"
+ },
+ "Q272": {
+  "idea": [
+   "لو {{nausea and vomiting at 16 weeks}}",
+   "الجواب المعتمد {{folate deficiency}}"
+  ],
+  "clues": [
+   [
+    "فحص {{16 weeks}}",
+    "يعني {{late vomiting}} مو شائع"
+   ]
+  ],
+  "why": [
+   "حسب الجواب المعتمد {{folate deficiency}} هو السبب",
+   "والـ{{physiologic anemia}} ما تسبب {{nausea}}",
+   "والـ{{iron deficiency}} كمان لا"
+  ],
+  "wrong": {
+   "0": "الـ{{iron deficiency}} مو سبب",
+   "2": "الـ{{B12 deficiency}} مو سبب",
+   "3": "الـ{{physiologic anemia}} مو سبب"
+  },
+  "change": [
+   "نفحص {{CBC}}",
+   "ونعطي {{folic acid}}"
+  ],
+  "rule": "الـ{{nausea and vomiting}} هنا يعني {{folate deficiency}} حسب الجواب",
+  "note": "الجواب حسب الملف المعتمد، وفعليًا الـ{{hCG}} هو أشهر سبب لـ{{vomiting in pregnancy}}"
+ },
+ "Q273": {
+  "idea": [
+   "لو {{inverted uterus after delivery}}",
+   "فالموقع المعرّض {{fundal placenta}}"
+  ],
+  "clues": [
+   [
+    "فحص {{inversion}}",
+    "يعني {{fundus turns inside out}}"
+   ]
+  ],
+  "why": [
+   "الـ{{fundal placenta}} يسحب {{fundus}} عند الشد",
+   "فيصير {{inversion}}",
+   "والـ{{cord traction}} خطر"
+  ],
+  "wrong": {
+   "1": "الـ{{lateral}} ما يرتبط",
+   "2": "الـ{{anterior}} ما يرتبط",
+   "3": "الـ{{posterior}} ما يرتبط"
+  },
+  "change": [
+   "نرجّع {{uterus}} فورًا",
+   "ونعطي {{tocolytic}}"
+  ],
+  "rule": "الـ{{fundal placenta}} يعني خطر {{inversion}}"
+ },
+ "Q274": {
+  "idea": [
+   "لو {{placenta not delivered 30 minutes after normal delivery}}",
+   "نسوي {{manual extraction}}"
+  ],
+  "clues": [
+   [
+    "فحص {{30 minutes without delivery}}",
+    "يعني {{retained placenta}}"
+   ]
+  ],
+  "why": [
+   "الـ{{retained placenta}} بعد {{30 minutes}} يستدعي {{manual removal}}",
+   "لمنع {{hemorrhage}}",
+   "بعد {{anesthesia}}"
+  ],
+  "wrong": {
+   "0": "الـ{{oxytocin}} للـ{{bleeding}}",
+   "1": "الـ{{misoprostol}} ما يكفي",
+   "2": "الـ{{waiting}} يزيد {{bleeding}}"
+  },
+  "change": [
+   "نعطي {{antibiotic}}",
+   "ونراقب {{bleeding}}"
+  ],
+  "rule": "الـ{{retained placenta at 30 minutes}} يعني {{manual extraction}}"
+ },
+ "Q275": {
+  "idea": [
+   "لو {{inverted uterus with 1200 cc bleeding}}",
+   "فالسبب {{inadequate myometrial contractions}}"
+  ],
+  "clues": [
+   [
+    "فحص {{inversion with bleeding}}",
+    "يعني {{atony}}"
+   ]
+  ],
+  "why": [
+   "الـ{{inverted uterus}} ما يتقلص",
+   "فيصير {{atony}}",
+   "وهو أشهر سبب لـ{{PPH}}"
+  ],
+  "wrong": {
+   "0": "الـ{{vessel trauma}} مو الأرجح",
+   "1": "الـ{{muscular laceration}} مو الأرجح",
+   "3": "الـ{{coagulopathy}} مو الأرجح"
+  },
+  "change": [
+   "نرجّع {{uterus}} ونعطي {{oxytocin}}",
+   "ونعوّض {{blood}}"
+  ],
+  "rule": "الـ{{inversion with bleeding}} يعني {{atony}}"
+ },
+ "Q276": {
+  "idea": [
+   "لو {{fetal distress during oxytocin augmentation}}",
+   "نوقف {{oxytocin}}"
+  ],
+  "clues": [
+   [
+    "فحص {{oxytocin with fetal distress}}",
+    "يعني {{uterine hyperstimulation}}"
+   ]
+  ],
+  "why": [
+   "الـ{{oxytocin}} يزيد {{contractions}} ويقلل {{placental perfusion}}",
+   "فنوقفه",
+   "وهذي {{first step}}"
+  ],
+  "wrong": {
+   "0": "الـ{{supine position}} يضغط {{IVC}}",
+   "2": "الـ{{epidural}} ما يحسّن {{oxygenation}}",
+   "3": "الـ{{morphine}} ما يحسّن"
+  },
+  "change": [
+   "نقلب الأم {{left lateral}}",
+   "ونعطي {{O2}}"
+  ],
+  "rule": "الـ{{fetal distress with oxytocin}} يعني نوقف {{oxytocin}}"
+ },
+ "Q277": {
+  "idea": [
+   "لو {{severe PPH not responding to medical treatment with desire for future pregnancy}}",
+   "نربط {{internal iliac artery}}"
+  ],
+  "clues": [
+   [
+    "فحص {{bleeding over 700 cc}}",
+    "يعني {{PPH}}"
+   ],
+   [
+    "فحص {{desires pregnancy}}",
+    "يعني نحافظ على {{uterus}}"
+   ]
+  ],
+  "why": [
+   "الـ{{internal iliac artery ligation}} يقلل {{pelvic blood pressure}}",
+   "ويحافظ على {{uterus}}",
+   "وفيه فرصة {{future pregnancy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{utero-ovarian ligament}} {{partial}}",
+   "1": "الـ{{external iliac}} يضر {{leg}}",
+   "3": "الـ{{vein}} ما يفيد"
+  },
+  "change": [
+   "الـ{{B-Lynch}} ممكن",
+   "ولو فشل نسوي {{hysterectomy}}"
+  ],
+  "rule": "الـ{{PPH}} مع رغبة بالحمل يعني {{internal iliac artery ligation}}"
+ },
+ "Q278": {
+  "idea": [
+   "لو {{abruption with bleeding from venipuncture sites}}",
+   "نصحح {{coagulopathy}}"
+  ],
+  "clues": [
+   [
+    "فحص {{abruption}}",
+    "يعني خطر {{DIC}}"
+   ],
+   [
+    "فحص {{bleeding from venipuncture sites}}",
+    "يعني {{clotting disorder}}"
+   ]
+  ],
+  "why": [
+   "الـ{{bleeding from multiple sites}} علامة {{DIC}}",
+   "فنصحح {{coagulation}} أولًا",
+   "قبل أي {{surgery}}"
+  ],
+  "wrong": {
+   "1": "الـ{{internal iliac ligation}} ما يفيد",
+   "2": "الـ{{uterine packing}} يتجاهل السبب",
+   "3": "الـ{{B-Lynch}} ما يعالج {{coagulopathy}}"
+  },
+  "change": [
+   "نعطي {{FFP}} و{{cryoprecipitate}}",
+   "ونعالج {{cause}}"
+  ],
+  "rule": "الـ{{DIC after abruption}} يعني نصحح {{coagulopathy}}"
+ },
+ "Q279": {
+  "idea": [
+   "لو {{33 weeks with BP 160/110, headache, on MgSO4 and steroids}}",
+   "نسوي {{immediate induction for vaginal delivery}}"
+  ],
+  "clues": [
+   [
+    "فحص {{severe preeclampsia}}",
+    "يعني نولّد بعد {{stabilization}}"
+   ],
+   [
+    "فحص {{steroids given}}",
+    "يعني {{lung maturity}} مناسب"
+   ]
+  ],
+  "why": [
+   "مع {{severe preeclampsia}} نولّد",
+   "ونحاول {{vaginal delivery}} لو ما فيه {{contraindication}}",
+   "بعد {{maternal stabilization}}"
+  ],
+  "wrong": {
+   "0": "الـ{{bed rest to term}} فيه خطر",
+   "1": "الـ{{CS}} مو الخيار الأول",
+   "2": "الـ{{waiting to 37 weeks}} فيه خطر"
+  },
+  "change": [
+   "لو {{fetal compromise}} نسوي {{CS}}",
+   "ونكمل {{MgSO4}}"
+  ],
+  "rule": "الـ{{severe preeclampsia}} يعني {{delivery after stabilization}}"
+ },
+ "Q280": {
+  "idea": [
+   "لو {{8 weeks with mild spotting, 5-week size, no heart and closed os}}",
+   "نسوي {{expectant management}}"
+  ],
+  "clues": [
+   [
+    "فحص {{smaller size and no heart}}",
+    "يعني {{missed miscarriage}}"
+   ],
+   [
+    "فحص {{stable with closed cervix}}",
+    "يعني ما نستعجل"
+   ]
+  ],
+  "why": [
+   "الحالة {{stable}} بدون {{severe pain}}",
+   "فالـ{{expectant management}} آمن",
+   "ونتدخل لو {{bleeding or infection}}"
+  ],
+  "wrong": {
+   "0": "الـ{{suction curettage}} مو ضرورية",
+   "1": "الـ{{PGE2}} علاج {{medical}}",
+   "3": "الـ{{antibiotic}} مو ضروري"
+  },
+  "change": [
+   "لو رغبت {{medical}} نعطي {{misoprostol}}",
+   "ولو {{bleeding}} نسوي {{surgical}}"
+  ],
+  "rule": "الـ{{stable missed miscarriage}} يعني {{expectant management}}"
+ },
+ "Q281": {
+  "idea": [
+   "لو {{37 weeks with bleeding and low-lying placenta covering part of the cervix}}",
+   "نسوي {{cesarean delivery}}"
+  ],
+  "clues": [
+   [
+    "فحص {{bleeding with low-lying placenta}}",
+    "يعني {{placenta previa}}"
+   ]
+  ],
+  "why": [
+   "الـ{{previa with bleeding}} ننهيها بـ{{CS}}",
+   "وما نسوي {{vaginal exam}}",
+   "لأنه يسبب {{bleeding}}"
+  ],
+  "wrong": {
+   "0": "الـ{{induction}} مو آمن",
+   "2": "الـ{{expectant management}} فيه خطر",
+   "3": "الـ{{digital examination}} ممنوع"
+  },
+  "change": [
+   "لو {{mild bleeding and early gestation}} نراقب",
+   "ونجهز {{blood}}"
+  ],
+  "rule": "الـ{{previa with bleeding}} يعني {{cesarean}}"
+ }
+}

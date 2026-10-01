@@ -1,0 +1,590 @@
+{
+ "Q202": {
+  "idea": [
+   "شاب عنده {{inflammatory back pain}} لمدة ٦ شهور مع {{positive Schober}} و{{knee and heel arthritis}}",
+   "فأفضل فحص {{MRI of sacroiliac joints}}"
+  ],
+  "clues": [
+   [
+    "فيه {{inflammatory back pain with morning stiffness}}",
+    "يعني {{axial spondyloarthritis}}"
+   ],
+   [
+    "مع {{positive Schober test}}",
+    "يعني {{limited spinal mobility}}"
+   ]
+  ],
+  "why": [
+   "الـ{{MRI}} للـ{{sacroiliac joint}} يكشف {{early inflammation}}",
+   "قبل ما تظهر {{bony changes}}",
+   "وهو أدق من {{CT}}"
+  ],
+  "wrong": {
+   "0": "الـ{{HLA-B27}} {{supportive}} بس ما يأكد",
+   "2": "الـ{{knee aspiration}} ما يفيد",
+   "3": "الـ{{CT}} يكشف {{late bony changes}}"
+  },
+  "change": [
+   "لو {{late disease}} يكفي {{X-ray}}",
+   "والـ{{HLA-B27}} فحص {{supportive}}"
+  ],
+  "rule": "الـ{{suspected axSpA}} يعني {{MRI of sacroiliac joints}}"
+ },
+ "Q203": {
+  "idea": [
+   "رجل ٥٥ عنده {{fatigue}} و{{pallor}} بدون {{organomegaly}}",
+   "فنطلب {{FOB}}"
+  ],
+  "clues": [
+   [
+    "فيه {{pallor and fatigue}}",
+    "يعني {{anemia}}"
+   ],
+   [
+    "رجل ٥٥ سنة",
+    "يعني {{iron deficiency}} و{{GI bleeding}} حتى يثبت العكس"
+   ]
+  ],
+  "why": [
+   "الـ{{anemia}} عند {{older man}} غالبًا من {{occult GI bleeding}}",
+   "فنبحث عن {{GI blood loss}}",
+   "وممكن يكون {{colon cancer}}"
+  ],
+  "wrong": {
+   "0": "الـ{{blood smear}} ما يحدد {{the cause}}",
+   "2": "الـ{{BM biopsy}} مو أول فحص",
+   "3": "لا، الفحص {{required}}"
+  },
+  "change": [
+   "نكمل بـ{{endoscopy}} و{{colonoscopy}}",
+   "ونقيس {{ferritin}}"
+  ],
+  "rule": "الـ{{iron deficiency}} عند {{older man}} يعني نبحث عن {{GI bleeding}}",
+  "note": "الجواب حسب الملف المعتمد، وكمان نطلب {{CBC}} و{{iron studies}}"
+ },
+ "Q204": {
+  "idea": [
+   "رجل مدخن ٥٥ عنده {{chest pain}} و{{inferior ST depression}}",
+   "وأهم {{risk factor}} هو {{age}}"
+  ],
+  "clues": [
+   [
+    "فيه {{chest pain with ST depression}}",
+    "يعني {{ACS}}"
+   ],
+   [
+    "فيه {{male smoker}}",
+    "يعني {{risk factors}}"
+   ]
+  ],
+  "why": [
+   "الـ{{age}} هو أقوى {{risk factor}} للـ{{CAD}} بين الخيارات",
+   "والخطر يزيد مع {{advancing age}}",
+   "والجواب المعتمد {{age}}"
+  ],
+  "wrong": {
+   "0": "الـ{{smoking}} {{important modifiable risk factor}}",
+   "1": "الـ{{male gender}} أقل تأثير",
+   "3": "الـ{{HTN}} {{important risk factor}}"
+  },
+  "change": [
+   "الـ{{age}} {{non-modifiable}}",
+   "ونعدل باقي {{risk factors}}"
+  ],
+  "rule": "أقوى {{non-modifiable risk factor}} هو {{age}}",
+  "note": "الجواب حسب الملف المعتمد"
+ },
+ "Q205": {
+  "idea": [
+   "سيدة ٣٢ عندها {{fatigue}} وتخطط لـ{{pregnancy}} مع {{mild hypothyroidism}}",
+   "فنبدأ {{thyroxine}} أثناء الحمل"
+  ],
+  "clues": [
+   [
+    "فيه {{fatigue for 6 months}}",
+    "يعني {{subclinical hypothyroidism}}"
+   ],
+   [
+    "تخطط لـ{{pregnancy}}",
+    "فنقيّم {{thyroid function}}"
+   ],
+   [
+    "الـ{{lab results}} مو موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}} و{{the approved answer}}"
+   ]
+  ],
+  "why": [
+   "حسب الجواب المعتمد نبدأ {{levothyroxine}} أثناء الحمل",
+   "لأن {{requirement increases}}",
+   "والتفاصيل حسب {{TSH}}"
+  ],
+  "wrong": {
+   "0": "الـ{{avoid pregnancy}} مو ضروري",
+   "1": "الـ{{immediate start}} غير الجواب المعتمد",
+   "3": "لو بدون {{intervention}} يعني {{risk}}"
+  },
+  "change": [
+   "لو {{TSH}} مرتفع نبدأ قبل الحمل",
+   "ونتابع {{TSH}} كل ٤ أسابيع"
+  ],
+  "rule": "الـ{{hypothyroidism in pregnancy}} يعني {{thyroxine}}",
+  "note": "بالممارسة نبدأ {{levothyroxine}} عند التخطيط للحمل لو {{TSH}} مرتفع، والجواب حسب الملف"
+ },
+ "Q206": {
+  "idea": [
+   "مريضة {{depression}} من سنتين مع {{isolation}} و{{suicidal thoughts}}",
+   "وأعلى {{risk factor}} هو {{social isolation}}"
+  ],
+  "clues": [
+   [
+    "فيه {{social isolation}}",
+    "يعني {{strong risk factor}}"
+   ],
+   [
+    "بدون {{eye contact}}",
+    "يعني {{severe depression}}"
+   ]
+  ],
+  "why": [
+   "الـ{{social isolation}} من أقوى {{risk factors for suicide}}",
+   "ومعها {{severe depression}}",
+   "والـ{{age}} و{{gender}} أقل تأثير"
+  ],
+  "wrong": {
+   "0": "الـ{{age}} أقل تأثير",
+   "1": "النساء {{more attempts}} بس الذكور {{more completed suicide}}",
+   "3": "غياب {{medical illness}} مو {{risk factor}}"
+  },
+  "change": [
+   "نقيّم {{suicide risk}}",
+   "ونرتب {{admission}} لو {{high risk}}"
+  ],
+  "rule": "الـ{{social isolation}} من أعلى {{suicide risk factors}}"
+ },
+ "Q207": {
+  "idea": [
+   "مريض {{HIV}} مع {{PPD 6 mm}} و{{normal CXR}}",
+   "فنعطي {{INH}} مع {{pyridoxine}} لمدة {{9 months}}"
+  ],
+  "clues": [
+   [
+    "فيه {{PPD 6 mm}} مع {{HIV}}",
+    "يعني {{positive}} لأن {{cutoff ≥ 5 mm}}"
+   ],
+   [
+    "مع {{normal CXR}}",
+    "يعني {{latent TB}}"
+   ]
+  ],
+  "why": [
+   "عند مرضى {{HIV}} الـ{{PPD cutoff}} هو {{5 mm}}",
+   "فهذا {{latent TB}}",
+   "ونعطي {{INH for 9 months}} مع {{pyridoxine}}"
+  ],
+  "wrong": {
+   "0": "النتيجة {{positive}} فنعالج",
+   "2": "الـ{{3 months}} ما تكفي",
+   "3": "الـ{{4-drug regimen}} للـ{{active TB}}"
+  },
+  "change": [
+   "لو فيه {{symptoms}} نبحث عن {{active TB}}",
+   "والـ{{pyridoxine}} يمنع {{neuropathy}}"
+  ],
+  "rule": "الـ{{HIV}} مع {{PPD ≥ 5 mm}} يعني {{INH for 9 months}}"
+ },
+ "Q208": {
+  "idea": [
+   "أم عندها {{uncontrolled diabetes}} وولدت {{at term}}",
+   "فأكثر مضاعفة للمولود {{RDS}}"
+  ],
+  "clues": [
+   [
+    "فيه {{uncontrolled DM}}",
+    "يعني {{macrosomia}} و{{delayed lung maturity}}"
+   ]
+  ],
+  "why": [
+   "الـ{{diabetes}} يؤخر {{lung maturation}}",
+   "لأن {{fetal insulin}} يعيق {{surfactant}}",
+   "فيزيد {{RDS}}"
+  ],
+  "wrong": {
+   "0": "المتوقع {{hypoglycemia}} مو {{hyperglycemia}}",
+   "1": "المتوقع {{polycythemia}} مو {{low hemoglobin}}",
+   "2": "الـ{{EPO}} يرتفع مو ينخفض"
+  },
+  "change": [
+   "المولود عرضة لـ{{hypoglycemia}} و{{hypocalcemia}}",
+   "ونعطي {{steroids}} لو {{preterm}}"
+  ],
+  "rule": "الـ{{maternal diabetes}} يعني {{RDS}} للمولود"
+ },
+ "Q209": {
+  "idea": [
+   "أم بعد الولادة بأسبوع {{tearful}} مع {{poor appetite and sleep}}",
+   "فالتشخيص {{postnatal depression}}"
+  ],
+  "clues": [
+   [
+    "فيه {{crying, anorexia, insomnia}}",
+    "يعني {{depression}}"
+   ],
+   [
+    "بعد الولادة بأسبوع",
+    "يعني {{postpartum}}"
+   ]
+  ],
+  "why": [
+   "الـ{{postnatal depression}} شائع بعد الولادة",
+   "وأعراضه {{crying, loss of appetite, poor sleep}}",
+   "ويختلف عن {{baby blues}} بالـ{{duration and severity}}"
+  ],
+  "wrong": {
+   "0": "الـ{{anemia}} ما تسبب {{psychiatric symptoms}}",
+   "1": "الـ{{schizophrenia}} فيها {{hallucinations}}",
+   "2": "الـ{{mania}} فيها {{elevated activity}}"
+  },
+  "change": [
+   "لو {{hallucinations}} يعني {{postpartum psychosis}}",
+   "ولو أيام قليلة يعني {{baby blues}}"
+  ],
+  "rule": "الـ{{crying and anorexia after delivery}} يعني {{postnatal depression}}"
+ },
+ "Q210": {
+  "idea": [
+   "حامل ٣٠ على {{valproic acid}} للـ{{epilepsy}} وتخاف على الجنين",
+   "فأكثر تشوه {{neural tube defect}}"
+  ],
+  "clues": [
+   [
+    "فيه {{valproate}}",
+    "يعني {{teratogen}}"
+   ]
+  ],
+  "why": [
+   "الـ{{valproate}} يرفع خطر {{NTD}}",
+   "ومعه {{growth delay}}",
+   "فنعدل الدواء ونعطي {{folic acid}}"
+  ],
+  "wrong": {
+   "0": "الـ{{oligohydramnios}} ما لها علاقة",
+   "1": "الـ{{polyhydramnios}} مو مميز",
+   "3": "الـ{{non-immune hydrops}} مو مناسب"
+  },
+  "change": [
+   "نبدّل إلى {{lamotrigine}} أو {{levetiracetam}}",
+   "ونعطي {{folic acid 5 mg}}"
+  ],
+  "rule": "الـ{{valproate in pregnancy}} يعني {{NTD}}"
+ },
+ "Q211": {
+  "idea": [
+   "حامل ٨ أسابيع عندها {{chronic hypertension}}",
+   "والدواء الممنوع {{lisinopril}}"
+  ],
+  "clues": [
+   [
+    "الـ{{lisinopril}} هو {{ACEI}}",
+    "يعني {{contraindicated in pregnancy}}"
+   ]
+  ],
+  "why": [
+   "الـ{{ACEIs}} تسبب {{fetal anomalies}}",
+   "وأدوية الحمل {{labetalol}} و{{nifedipine}} و{{methyldopa}}",
+   "وهذي {{safe}}"
+  ],
+  "wrong": {
+   "0": "الـ{{labetalol}} {{safe}}",
+   "1": "الـ{{nifedipine}} {{safe}}",
+   "3": "الـ{{methyldopa}} {{safe}}"
+  },
+  "change": [
+   "الـ{{ARBs}} كمان {{contraindicated}}",
+   "والـ{{atenolol}} نتجنبه"
+  ],
+  "rule": "الـ{{ACEI}} و{{ARB}} {{contraindicated in pregnancy}}"
+ },
+ "Q212": {
+  "idea": [
+   "سيدة عندها {{previous preeclampsia}} و{{FGR}} بحمل ١٢ أسبوع",
+   "فنعطي {{aspirin}}"
+  ],
+  "clues": [
+   [
+    "فيه {{history of preeclampsia and FGR}}",
+    "يعني {{high risk}}"
+   ]
+  ],
+  "why": [
+   "الـ{{low-dose aspirin}} من {{12 weeks}}",
+   "يقلل {{preeclampsia}} و{{FGR}}",
+   "وهو {{proven preventive measure}}"
+  ],
+  "wrong": {
+   "1": "الـ{{progesterone}} للـ{{preterm birth}}",
+   "2": "الـ{{multivitamins}} ما تكفي",
+   "3": "الـ{{iron}} للـ{{anemia}} بس"
+  },
+  "change": [
+   "الجرعة {{75 to 150 mg}}",
+   "ونوقفه عند {{36 weeks}}"
+  ],
+  "rule": "الـ{{history of preeclampsia}} يعني {{aspirin}} من {{12 weeks}}"
+ },
+ "Q213": {
+  "idea": [
+   "سيدة عندها {{previous painless delivery at 22 weeks}}",
+   "فالتدخل {{cervical cerclage}}"
+  ],
+  "clues": [
+   [
+    "فيه {{painless second trimester loss}}",
+    "يعني {{cervical insufficiency}}"
+   ]
+  ],
+  "why": [
+   "الـ{{cervical insufficiency}} نعالجها بـ{{cerclage}}",
+   "عند {{12 to 14 weeks}}",
+   "وهو المناسب"
+  ],
+  "wrong": {
+   "0": "الـ{{aspirin}} مو مناسب",
+   "1": "الـ{{folic acid}} ما تكفي",
+   "3": "الـ{{routine follow-up}} ما يكفي"
+  },
+  "change": [
+   "لو {{short cervix}} أثناء المتابعة نعطي {{progesterone}}",
+   "ونراقب بالـ{{US}}"
+  ],
+  "rule": "الـ{{painless second trimester loss}} يعني {{cerclage}}"
+ },
+ "Q214": {
+  "idea": [
+   "حامل عندها {{hyperthyroidism}}",
+   "والممنوع {{radioactive iodine}}"
+  ],
+  "clues": [
+   [
+    "فيه {{hyperthyroidism in pregnancy}}",
+    "فنختار علاج {{safe}}"
+   ]
+  ],
+  "why": [
+   "الـ{{radioactive iodine}} {{contraindicated in pregnancy}}",
+   "لأنه يضر {{fetal thyroid}}",
+   "والبدائل {{PTU}} و{{methimazole}}"
+  ],
+  "wrong": {
+   "0": "الـ{{propranolol}} {{safe}} مؤقتًا",
+   "1": "الـ{{methimazole}} {{acceptable}}",
+   "2": "الـ{{thyroidectomy}} ممكن بالـ{{second trimester}}"
+  },
+  "change": [
+   "الـ{{PTU}} بالـ{{first trimester}}",
+   "والـ{{methimazole}} بعده"
+  ],
+  "rule": "الـ{{radioactive iodine}} {{contraindicated in pregnancy}}"
+ },
+ "Q215": {
+  "idea": [
+   "حامل عندها {{oligohydramnios}} واضح بالـ{{US}}",
+   "والسبب {{placental insufficiency}}"
+  ],
+  "clues": [
+   [
+    "فيه {{oligohydramnios}}",
+    "يعني {{decreased fetal urine output}}"
+   ]
+  ],
+  "why": [
+   "الـ{{placental insufficiency}} يقلل {{renal perfusion}}",
+   "فيقل {{urine}} و{{amniotic fluid}}",
+   "وهو سبب شائع"
+  ],
+  "wrong": {
+   "0": "الـ{{chorioangioma}} يسبب {{polyhydramnios}}",
+   "1": "الـ{{duodenal atresia}} يسبب {{polyhydramnios}}",
+   "2": "الـ{{DM}} يسبب {{polyhydramnios}}"
+  },
+  "change": [
+   "لو {{renal agenesis}} نفكر بـ{{malformation}}",
+   "ونتابع {{Doppler}}"
+  ],
+  "rule": "الـ{{oligohydramnios}} يعني {{placental insufficiency}}"
+ },
+ "Q216": {
+  "idea": [
+   "حمل فيه {{polyhydramnios}}",
+   "والسبب {{anencephaly}}"
+  ],
+  "clues": [
+   [
+    "فيه {{polyhydramnios}}",
+    "يعني {{impaired fetal swallowing}}"
+   ]
+  ],
+  "why": [
+   "الـ{{anencephaly}} يمنع الجنين من {{swallowing}}",
+   "فيزيد {{amniotic fluid}}",
+   "والـ{{CNS anomalies}} تسبب {{polyhydramnios}}"
+  ],
+  "wrong": {
+   "1": "الـ{{post-term}} يقلل {{fluid}}",
+   "2": "الـ{{PUV}} يقلل {{fluid}}",
+   "3": "الـ{{NSAID}} يقلل {{fluid}}"
+  },
+  "change": [
+   "الـ{{diabetes}} سبب شائع",
+   "ونبحث عن {{anomalies}}"
+  ],
+  "rule": "الـ{{polyhydramnios}} مع {{impaired swallowing}} يعني {{anencephaly}}"
+ },
+ "Q217": {
+  "idea": [
+   "حامل عندها {{Rh alloimmunization}}",
+   "وأدق علامة {{fetal ascites with skin edema}}"
+  ],
+  "clues": [
+   [
+    "فيه {{Rh alloimmunization}}",
+    "يعني {{fetal anemia}}"
+   ]
+  ],
+  "why": [
+   "الـ{{hydrops fetalis}} علامة خطيرة",
+   "وفيها {{ascites}} مع {{skin edema}}",
+   "والـ{{high MCA PSV}} علامة {{fetal anemia}}"
+  ],
+  "wrong": {
+   "0": "الـ{{placenta}} تكون {{thick}} مو {{thin}}",
+   "1": "الـ{{bradycardia}} مو مميزة",
+   "3": "الـ{{MCA}} يرتفع مو ينخفض"
+  },
+  "change": [
+   "نقيس {{MCA PSV}}",
+   "ونعطي {{intrauterine transfusion}}"
+  ],
+  "rule": "الـ{{Rh}} مع {{ascites and edema}} يعني {{hydrops}}"
+ },
+ "Q218": {
+  "idea": [
+   "حامل فيها {{hydrops}} مع {{MCA PSV > 1.5 MoM}}",
+   "والسبب {{anti-Kell}}"
+  ],
+  "clues": [
+   [
+    "فيه {{high MCA PSV}}",
+    "يعني {{fetal anemia}}"
+   ],
+   [
+    "مع {{hydrops}}",
+    "يعني {{severe anemia}}"
+   ]
+  ],
+  "why": [
+   "الـ{{anti-Kell}} يسبب {{fetal anemia}}",
+   "ويرفع {{MCA PSV}}",
+   "والـ{{hydrops}} هنا {{immune}}"
+  ],
+  "wrong": {
+   "0": "الـ{{aneuploidy}} بدون {{anemia}}",
+   "1": "الـ{{teratoma}} سبب {{non-immune}}",
+   "3": "الـ{{CDH}} مو مناسب"
+  },
+  "change": [
+   "لو {{Rh}} يعطي نفس الصورة",
+   "ونعطي {{intrauterine transfusion}}"
+  ],
+  "rule": "الـ{{high MCA}} مع {{hydrops}} يعني {{immune fetal anemia}}"
+ },
+ "Q219": {
+  "idea": [
+   "حامل ٣٣ أسبوع عندها {{decreased fetal movement}} ونسأل عن {{BPS}}",
+   "فالأقرب {{BPS 8/10}} حسب الجواب"
+  ],
+  "clues": [
+   [
+    "الـ{{BPS}}",
+    "يعني {{maximum score 10}}"
+   ],
+   [
+    "فيه {{decreased fetal movement}}",
+    "فنقيّم {{fetal well-being}}"
+   ]
+  ],
+  "why": [
+   "الـ{{BPS 8/10}} يعتبر {{reassuring}}",
+   "والـ{{6}} يعني {{equivocal}}",
+   "وأقل من كذا {{non-reassuring}}"
+  ],
+  "wrong": {
+   "0": "الـ{{6/10}} يعني {{equivocal}}",
+   "2": "الـ{{9/10}} مو {{standard value}}",
+   "3": "الـ{{12/12}} مو موجودة"
+  },
+  "change": [
+   "لو {{4 or less}} ننهي الحمل",
+   "ولو {{6}} نعيد خلال {{24 hours}}"
+  ],
+  "rule": "الـ{{BPS 8 to 10}} يعني {{reassuring}}",
+  "note": "الجواب حسب الملف المعتمد، والدرجة القصوى {{10}} والخيارات {{9/10}} و{{12/12}} مو {{standard}}"
+ },
+ "Q220": {
+  "idea": [
+   "ممرضة تسأل عن علاقة السبب بنوع الـ{{deceleration}} بالـ{{CTG}}",
+   "والـ{{cord compression}} يسبب {{variable deceleration}}"
+  ],
+  "clues": [
+   [
+    "فيه {{CTG deceleration}}",
+    "فنربط {{cause}} بـ{{type}}"
+   ]
+  ],
+  "why": [
+   "الـ{{cord compression}} يسبب {{variable deceleration}}",
+   "والـ{{head compression}} يسبب {{early deceleration}}",
+   "والـ{{placental insufficiency}} يسبب {{late deceleration}}"
+  ],
+  "wrong": {
+   "1": "الـ{{cord compression}} ما تسبب {{early deceleration}}",
+   "2": "الـ{{head compression}} ما تسبب {{late deceleration}}",
+   "3": "الـ{{head compression}} ما تسبب {{variable deceleration}}"
+  },
+  "change": [
+   "الـ{{late}} سببها {{placenta}}",
+   "والـ{{early}} سببها {{fetal head}}"
+  ],
+  "rule": "الـ{{variable deceleration}} يعني {{cord compression}}"
+ },
+ "Q221": {
+  "idea": [
+   "حامل ٢٥ أسبوع عندها {{calf pain and swelling}}",
+   "فأول فحص {{compression ultrasonography}}"
+  ],
+  "clues": [
+   [
+    "فيه {{calf pain and swelling}}",
+    "يعني {{DVT}}"
+   ],
+   [
+    "حامل",
+    "فالـ{{MRI}} مو أول فحص"
+   ]
+  ],
+  "why": [
+   "الـ{{compression US}} {{safe and fast}}",
+   "وهو {{first test in pregnancy}}",
+   "والـ{{D-dimer}} مو موثوق بالحمل"
+  ],
+  "wrong": {
+   "0": "الـ{{MRI}} {{alternative}} بس",
+   "1": "الـ{{D-dimer}} يرتفع بالحمل",
+   "2": "الـ{{venography}} مو أول فحص"
+  },
+  "change": [
+   "لو {{negative}} وفيه شك نعيد",
+   "ونبدأ {{LMWH}}"
+  ],
+  "rule": "الـ{{DVT in pregnancy}} يعني {{compression US}}"
+ }
+}

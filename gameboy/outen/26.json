@@ -1,0 +1,609 @@
+{
+ "Q502": {
+  "idea": [
+   "حامل {{29 weeks}} بـ{{PPROM}} من {{7 days}}",
+   "مع {{fever}} و{{rigors}} و{{foul purulent discharge}} يعني {{chorioamnionitis}}"
+  ],
+  "clues": [
+   [
+    "لو {{PPROM 7 days}}",
+    "يعني {{ascending infection}} محتمل"
+   ],
+   [
+    "لو {{fever}} و{{rigors}} و{{lower abdominal pain}}",
+    "يعني علامات {{uterine infection}}"
+   ],
+   [
+    "لو {{purulent foul discharge}}",
+    "يعني {{chorioamnionitis}}"
+   ]
+  ],
+  "why": [
+   "الأعراض كلها {{intrauterine infection}} بعد {{prolonged rupture}}",
+   "فنشخص {{chorioamnionitis}}",
+   "والعلاج {{antibiotics}} و{{delivery}}"
+  ],
+  "wrong": {
+   "1": "الـ{{UTI}} ما تعطي {{purulent vaginal discharge}}",
+   "2": "ما ذُكر {{bleeding}} والـ{{fever}} يدل على {{infection}}",
+   "3": "ما في {{respiratory symptoms}}"
+  },
+  "change": [
+   "لو {{painful bleeding}} نفكر بـ{{abruption}}",
+   "لو {{dysuria}} نفكر بـ{{UTI}}"
+  ],
+  "rule": "لو {{prolonged PROM}} مع {{fever}} و{{foul discharge}} يعني {{chorioamnionitis}}"
+ },
+ "Q503": {
+  "idea": [
+   "سيدة بـ{{recurrent first-trimester abortions}}",
+   "فالأعلى قيمة {{karyotyping}}"
+  ],
+  "clues": [
+   [
+    "لو {{recurrent first-trimester abortion}}",
+    "يعني {{chromosomal causes}} هي الأشهر"
+   ]
+  ],
+  "why": [
+   "أشهر سبب لـ{{first-trimester abortion}} هو {{chromosomal abnormality}}",
+   "فـ{{karyotyping}} للزوجين له أعلى قيمة",
+   "والفحوصات الأخرى مكملة"
+  ],
+  "wrong": {
+   "1": "الـ{{hysteroscopy}} يقيّم {{uterine anomalies}} بس",
+   "2": "الـ{{pelvic US}} يكشف {{anomalies}} و{{fibroids}} بس",
+   "3": "الـ{{HSG}} يقيّم {{uterine cavity}} بس"
+  },
+  "change": [
+   "لو {{second-trimester losses}} نفكر بـ{{cervical insufficiency}}",
+   "لو {{thrombosis}} نفحص {{APS}}"
+  ],
+  "rule": "لو {{recurrent early miscarriage}} يعني {{karyotyping}}"
+ },
+ "Q504": {
+  "idea": [
+   "حامل على {{androgenic progestin pills}}",
+   "والتأثير على {{female external genitalia}}"
+  ],
+  "clues": [
+   [
+    "لو {{strong androgenic progestin}}",
+    "يتصرف مثل {{androgen}}"
+   ],
+   [
+    "لو {{female fetus}}",
+    "يتأثر {{external genitalia}}"
+   ]
+  ],
+  "why": [
+   "الـ{{androgenic progestin}} يعبر {{placenta}}",
+   "ويسبب {{masculinization}} للـ{{external genitalia}}",
+   "مثل {{clitoromegaly}}"
+  ],
+  "wrong": {
+   "0": "لو {{no effect}} غلط لأن التأثير {{documented}}",
+   "1": "الـ{{hirsutism}} صفة بعد الولادة مو {{congenital anomaly}}",
+   "2": "الـ{{feminization}} عكس تأثير {{androgen}}"
+  },
+  "change": [
+   "لو {{male fetus}} ما يظهر تأثير واضح",
+   "لو {{non-androgenic progestin}} الخطر أقل"
+  ],
+  "rule": "لو {{androgen}} يعني {{masculinization}} للجنين الأنثى"
+ },
+ "Q505": {
+  "idea": [
+   "حامل {{36 weeks}} بـ{{reduced fetal movements}}",
+   "فأول خطوة {{CTG}}"
+  ],
+  "clues": [
+   [
+    "لو {{reduced fetal movements}}",
+    "نقيّم الجنين فورًا"
+   ],
+   [
+    "لو {{36 weeks}}",
+    "نقدر نسوي {{CTG}}"
+   ]
+  ],
+  "why": [
+   "الـ{{CTG}} يعطي نتيجة سريعة عن {{fetal wellbeing}}",
+   "وهو أول خطوة بالمراجعة",
+   "ثم {{US}} لو لزم"
+  ],
+  "wrong": {
+   "1": "الـ{{US}} بعد الـ{{CTG}}",
+   "2": "الـ{{kick chart}} للمتابعة مو للتقييم الحين",
+   "3": "الـ{{BPP}} خطوة تالية"
+  },
+  "change": [
+   "لو {{CTG}} غير طبيعي ندخل ونسوي {{US}}",
+   "لو طبيعي ورجعت الحركة نطمنها"
+  ],
+  "rule": "لو {{reduced fetal movements}} يعني {{CTG}} أولًا"
+ },
+ "Q506": {
+  "idea": [
+   "أم {{HBsAg positive}}",
+   "ووقاية المولود بعد الولادة"
+  ],
+  "clues": [
+   [
+    "لو {{HBsAg positive}}",
+    "يعني خطر {{vertical transmission}}"
+   ]
+  ],
+  "why": [
+   "نعطي المولود {{vaccine}} و{{HBIG}}",
+   "خلال {{12 hours}}",
+   "ونكمل جرعات {{vaccine}}"
+  ],
+  "wrong": {
+   "0": "الـ{{observation}} وحدها ما تكفي",
+   "1": "الـ{{vaccine}} وحده {{less protection}}",
+   "2": "الـ{{immunoglobulin}} وحدها بدون {{vaccine}} ما تكفي"
+  },
+  "change": [
+   "لو الأم {{negative}} نعطي {{vaccine}} بس",
+   "لو {{high viral load}} نضيف علاج للأم"
+  ],
+  "rule": "لو الأم {{HBsAg positive}} يعني {{vaccine}} مع {{HBIG}} للمولود"
+ },
+ "Q507": {
+  "idea": [
+   "حامل {{27 weeks}} بـ{{preterm labor}} و{{cervix 6 cm}}",
+   "فالجواب {{steroids}}"
+  ],
+  "clues": [
+   [
+    "لو {{27 weeks}}",
+    "يعني {{very preterm}}"
+   ],
+   [
+    "لو {{6 cm dilated}}",
+    "يعني {{advanced labor}}"
+   ]
+  ],
+  "why": [
+   "الـ{{steroids}} تنضّج {{fetal lungs}}",
+   "وهي الأهم قبل {{preterm delivery}}",
+   "فنعطيها حتى مع {{advanced labor}}"
+  ],
+  "wrong": {
+   "0": "الـ{{atosiban}} لـ{{tocolysis}} وما ينفع مع {{advanced dilatation}}",
+   "2": "الـ{{antibiotics}} لو {{PROM}} أو {{GBS}}",
+   "3": "الـ{{MgSO4}} لـ{{neuroprotection}} مو الأولوية بالسؤال"
+  },
+  "change": [
+   "لو {{closed cervix}} نفكر بـ{{tocolysis}}",
+   "لو {{PROM}} نضيف {{antibiotics}}"
+  ],
+  "rule": "لو {{labor before 34 weeks}} يعني {{steroids}}",
+  "note": "الجواب حسب الملف، وبهالتوسع الـ{{MgSO4}} لـ{{neuroprotection}} مناسب بعد"
+ },
+ "Q508": {
+  "idea": [
+   "حامل {{29 weeks}} بـ{{eclampsia}}",
+   "والعلاج المعتمد للـ{{seizure}}"
+  ],
+  "clues": [
+   [
+    "لو {{seizure}} بالحمل",
+    "يعني {{eclampsia}}"
+   ]
+  ],
+  "why": [
+   "الـ{{MgSO4}} أفضل دواء لمنع {{recurrent seizures}}",
+   "وهو أقوى من {{phenytoin}}",
+   "ثم نخفض {{BP}} ونولّد"
+  ],
+  "wrong": {
+   "0": "الـ{{phenytoin}} {{less effective}} من {{MgSO4}}",
+   "1": "الـ{{nifedipine}} لخفض {{BP}} مو للـ{{seizure}}",
+   "2": "الـ{{hydralazine}} لخفض {{BP}} بس"
+  },
+  "change": [
+   "لو {{BP very high}} نضيف {{antihypertensive}}",
+   "لو تكرر {{seizure}} نعيد جرعة {{MgSO4}}"
+  ],
+  "rule": "لو {{seizure}} بالحمل يعني {{MgSO4}}"
+ },
+ "Q509": {
+  "idea": [
+   "حامل {{37 weeks}} بـ{{placenta previa totalis}} و{{bleeding}}",
+   "فمتى ندخلها"
+  ],
+  "clues": [
+   [
+    "لو {{placenta previa totalis}}",
+    "يعني خطر {{severe hemorrhage}}"
+   ],
+   [
+    "لو {{previous bleeding}} مرتين و{{new bleeding}}",
+    "يعني {{admit}}"
+   ]
+  ],
+  "why": [
+   "الـ{{previa}} مع {{bleeding}} خطر",
+   "فندخلها {{immediately}}",
+   "ونخطط لـ{{cesarean section}}"
+  ],
+  "wrong": {
+   "1": "لو {{no admission}} فيه خطر {{sudden severe bleeding}}",
+   "2": "ما ننتظر {{planning}} والـ{{bleeding}} حاصل",
+   "3": "الـ{{bleeding}} موجود الحين"
+  },
+  "change": [
+   "لو بدون {{bleeding}} نخطط {{cesarean}} بـ{{36-37 weeks}}",
+   "لو {{heavy bleeding}} نسوي {{emergency cesarean}}"
+  ],
+  "rule": "لو {{previa}} مع {{bleeding}} يعني {{immediate admission}}"
+ },
+ "Q510": {
+  "idea": [
+   "حامل {{39 weeks}} بـ{{ROM}} من {{24 hours}} بدون {{contractions}}",
+   "فنسوي {{induction}} لتقليل {{infection}}"
+  ],
+  "clues": [
+   [
+    "لو {{ROM 24 hours}}",
+    "يعني خطر {{chorioamnionitis}}"
+   ],
+   [
+    "لو بدون {{contractions}} و{{normal CTG}}",
+    "نقدر نسوي {{induction}}"
+   ]
+  ],
+  "why": [
+   "بعد {{term}} مع {{ROM}}",
+   "نسوي {{induction of labor}} لتقليل {{infection}}",
+   "والجنين مطمئن فنختار {{vaginal delivery}}"
+  ],
+  "wrong": {
+   "0": "الـ{{conservative}} يرفع خطر {{infection}}",
+   "1": "الـ{{amnioinfusion}} لـ{{oligohydramnios}} مع {{decelerations}}",
+   "2": "الـ{{cesarean}} ما له مبرر بدون سبب"
+  },
+  "change": [
+   "لو {{bad CTG}} نقرر {{cesarean}}",
+   "لو {{fever}} نضيف {{antibiotics}}"
+  ],
+  "rule": "لو {{ROM at term}} يعني {{induction of labor}}"
+ },
+ "Q511": {
+  "idea": [
+   "سيدة بـ{{3 previous cesareans}} و{{deeply adherent placenta}}",
+   "فنحدد نوع الـ{{adherence}}"
+  ],
+  "clues": [
+   [
+    "لو {{3 previous cesareans}}",
+    "يعني {{risk factor}} للـ{{accreta}}"
+   ],
+   [
+    "لو {{deeply adherent}}",
+    "يعني ملتصقة بالـ{{myometrium}}"
+   ]
+  ],
+  "why": [
+   "الـ{{accreta}} هو الاسم العام لـ{{placental adherence}}",
+   "وحسب الجواب هو الأقرب",
+   "فهو {{most likely diagnosis}}"
+  ],
+  "wrong": {
+   "0": "الـ{{previa}} هو {{placental location}} مو {{depth}}",
+   "1": "الـ{{increta}} يخترق {{myometrium}}",
+   "3": "الـ{{percreta}} يخترق {{uterine wall}} كاملًا"
+  },
+  "change": [
+   "لو اخترقت {{wall}} فهي {{percreta}}",
+   "لو اخترقت {{myometrium}} فهي {{increta}}"
+  ],
+  "rule": "لو {{previous cesareans}} مع {{adherent placenta}} يعني {{accreta}}",
+  "note": "الجواب حسب الملف، والـ{{deep adherence}} قد يوافق {{increta}} تشريحيًا"
+ },
+ "Q512": {
+  "idea": [
+   "حامل {{34 weeks}} بـ{{eclampsia}} بعد السيطرة على {{seizure}}",
+   "فالخطوة التالية {{delivery}}"
+  ],
+  "clues": [
+   [
+    "لو {{eclampsia}}",
+    "يعني أشد صورة"
+   ],
+   [
+    "لو {{34 weeks}}",
+    "نولّد بعد {{stabilization}}"
+   ]
+  ],
+  "why": [
+   "الـ{{eclampsia}} مؤشر {{delivery}} بعد الاستقرار",
+   "والانتظار خطر على الأم والجنين",
+   "فنرتب {{delivery}} فورًا"
+  ],
+  "wrong": {
+   "0": "الـ{{observation}} وحدها خطر",
+   "1": "الـ{{discharge}} مو آمن",
+   "2": "الانتظار لـ{{37 weeks}} خطر"
+  },
+  "change": [
+   "لو بدون {{seizure}} وحمل مبكر نراقب",
+   "لو الأم غير {{stable}} نثبتها أولًا"
+  ],
+  "rule": "لو {{eclampsia}} يعني {{delivery}} بعد {{stabilization}}"
+ },
+ "Q513": {
+  "idea": [
+   "حامل {{32 weeks}} بـ{{preterm labor}} و{{PROM}}",
+   "أخذت {{steroids}} و{{antibiotics}}"
+  ],
+  "clues": [
+   [
+    "لو {{32 weeks}}",
+    "قبل {{32 weeks}} نحمي الدماغ"
+   ],
+   [
+    "لو أخذت {{steroids}}",
+    "المتبقي {{neuroprotection}}"
+   ]
+  ],
+  "why": [
+   "الـ{{MgSO4}} يحمي دماغ {{preterm}}",
+   "ويعطى قبل {{32-34 weeks}}",
+   "وهو المتبقي من {{bundle}}"
+  ],
+  "wrong": {
+   "0": "الـ{{atosiban}} لـ{{tocolysis}} بس",
+   "1": "الـ{{ritodrine}} لـ{{tocolysis}} بس",
+   "2": "الـ{{nifedipine}} لـ{{tocolysis}} مو للحماية"
+  },
+  "change": [
+   "لو {{35 weeks}} ما نعطي {{MgSO4}}",
+   "لو {{signs of infection}} نولّد"
+  ],
+  "rule": "لو {{early preterm}} يعني {{MgSO4}} لحماية الدماغ"
+ },
+ "Q514": {
+  "idea": [
+   "حامل {{35 weeks}} بـ{{low-lying placenta}} و{{mild bleeding}}",
+   "والحالة {{stable}}"
+  ],
+  "clues": [
+   [
+    "لو {{mild bleeding}} وقف",
+    "يعني حالة {{stable}}"
+   ],
+   [
+    "لو {{normal vital signs}}",
+    "نراقب الجنين"
+   ]
+  ],
+  "why": [
+   "نبدأ بتقييم {{fetal condition}}",
+   "بـ{{CTG}} بسرعة",
+   "ثم الفحوصات الأخرى"
+  ],
+  "wrong": {
+   "1": "الـ{{US}} بعد الـ{{CTG}}",
+   "2": "الـ{{BPP}} لاحقًا",
+   "3": "الـ{{Doppler}} ما يقيّم {{bleeding}}"
+  },
+  "change": [
+   "لو {{heavy bleeding}} نسوي {{resuscitation}} و{{cesarean}}",
+   "لو {{CTG}} {{non-reassuring}} نولّد"
+  ],
+  "rule": "لو {{bleeding}} بالحمل يعني {{CTG}} أولًا"
+ },
+ "Q515": {
+  "idea": [
+   "بكر {{41 weeks}} بـ{{closed long cervix}}",
+   "وما يهيّئ العنق للـ{{induction}}"
+  ],
+  "clues": [
+   [
+    "لو {{closed long cervix}}",
+    "يعني {{unfavorable}}"
+   ]
+  ],
+  "why": [
+   "الـ{{PGE2}} يلين {{cervix}}",
+   "وينضجه قبل {{labor}}",
+   "فهو الاختيار الصحيح"
+  ],
+  "wrong": {
+   "0": "الـ{{oxytocin}} يقبّض {{uterus}} وما ينضج {{cervix}}",
+   "1": "الـ{{methergine}} لوقف {{PPH}}",
+   "2": "الـ{{syntometrine}} للـ{{third stage}}"
+  },
+  "change": [
+   "لو {{cervix favorable}} نبدأ {{oxytocin}}",
+   "لو {{uterine scar}} نتجنب {{prostaglandin}}"
+  ],
+  "rule": "لو {{unfavorable cervix}} يعني {{prostaglandin}}"
+ },
+ "Q516": {
+  "idea": [
+   "حامل بكر بـ{{smoking}} و{{subfertility}} و{{family history of DM}}",
+   "فأخطر {{risk factor}}"
+  ],
+  "clues": [
+   [
+    "لو {{smoking 12-15 cigarettes}}",
+    "{{modifiable}} وخطير"
+   ]
+  ],
+  "why": [
+   "الـ{{smoking}} يسبب {{growth restriction}} و{{abruption}}",
+   "ويرفع خطر {{preterm birth}}",
+   "وهو أخطر عامل"
+  ],
+  "wrong": {
+   "1": "الـ{{age 35}} أقل أثرًا",
+   "2": "الـ{{family history}} البعيد تأثيره بسيط",
+   "3": "الـ{{treated subfertility}} تأثيره محدود"
+  },
+  "change": [
+   "لو {{maternal DM}} يتغير التقدير",
+   "لو {{age over 40}} يرتفع الخطر"
+  ],
+  "rule": "لو نسأل عن أخطر {{modifiable factor}} يعني {{smoking}}"
+ },
+ "Q517": {
+  "idea": [
+   "الـ{{placental abruption}} مع {{fetal death}} و{{cervix 5 cm}}",
+   "فالأنسب {{augmentation of labor}}"
+  ],
+  "clues": [
+   [
+    "لو {{fetal death}}",
+    "ما في استعجال للجنين"
+   ],
+   [
+    "لو {{cervix 5 cm}} و{{contractions}}",
+    "يعني {{labor}} بدأ"
+   ]
+  ],
+  "why": [
+   "نفضل {{vaginal delivery}}",
+   "مع {{augmentation of labor}}",
+   "و{{cesarean}} للأسباب الأمومية بس"
+  ],
+  "wrong": {
+   "0": "الـ{{observation}} فيها خطر {{coagulopathy}}",
+   "1": "الـ{{cesarean}} يزيد {{maternal bleeding}}",
+   "2": "الـ{{instrumental delivery}} مو مناسب بـ{{5 cm}}"
+  },
+  "change": [
+   "لو {{heavy bleeding}} مع {{shock}} نسوي {{cesarean}}",
+   "لو {{coagulopathy}} نصححها"
+  ],
+  "rule": "لو {{fetal death}} مع {{abruption}} يعني {{augmentation}}"
+ },
+ "Q518": {
+  "idea": [
+   "بكر {{30 weeks}} بـ{{headache}} و{{blurred vision}}",
+   "فأنسب {{antihypertensive}}"
+  ],
+  "clues": [
+   [
+    "لو {{headache}} و{{blurred vision}}",
+    "يعني {{impending eclampsia}}"
+   ],
+   [
+    "لو {{30 weeks}}",
+    "نحتاج دواء آمن بالحمل"
+   ]
+  ],
+  "why": [
+   "الـ{{labetalol}} {{first-line}}",
+   "وآمن بالحمل",
+   "ويخفض {{BP}} بتدرج"
+  ],
+  "wrong": {
+   "0": "الـ{{atenolol}} يضر بالجنين",
+   "2": "الـ{{diazoxide}} ما نستخدمه",
+   "3": "الـ{{nitroprusside}} {{toxic to fetus}}"
+  },
+  "change": [
+   "لو {{asthma}} نختار {{nifedipine}}",
+   "لو {{severe HTN}} نضيف {{hydralazine}}"
+  ],
+  "rule": "لو {{HTN}} بالحمل يعني {{labetalol}}"
+ },
+ "Q519": {
+  "idea": [
+   "حامل {{27 weeks}} على {{beta mimetics}}",
+   "وأشهر {{side effect}}"
+  ],
+  "clues": [
+   [
+    "لو {{beta mimetics}}",
+    "يؤثر على {{heart}}"
+   ]
+  ],
+  "why": [
+   "تحفز {{beta receptors}} بالقلب",
+   "فتسبب {{palpitations}} و{{tachycardia}}",
+   "وهو الأشهر"
+  ],
+  "wrong": {
+   "0": "الـ{{oliguria}} غير شائع",
+   "2": "الـ{{abdominal pain}} مو الأشهر",
+   "3": "الـ{{vaginal bleeding}} مو أثر للدواء"
+  },
+  "change": [
+   "لو {{severe palpitations}} نوقف الدواء",
+   "ونراقب {{blood glucose}}"
+  ],
+  "rule": "لو {{beta mimetics}} يعني {{palpitations}}"
+ },
+ "Q520": {
+  "idea": [
+   "مدخنة {{31 weeks}} بـ{{painful bleeding}} و{{contractions}}",
+   "مع {{late decelerations}}"
+  ],
+  "clues": [
+   [
+    "لو {{painful bleeding}} مع {{contractions}}",
+    "يعني {{abruption}}"
+   ],
+   [
+    "لو {{smoking}}",
+    "يعني {{risk factor}}"
+   ],
+   [
+    "لو {{late decelerations}}",
+    "يعني {{fetal hypoxia}}"
+   ]
+  ],
+  "why": [
+   "الـ{{painful bleeding}} مع {{uterine contractions}} يدل على {{abruption}}",
+   "والـ{{smoking}} عامل خطر",
+   "والـ{{late decelerations}} تؤكد {{fetal distress}}"
+  ],
+  "wrong": {
+   "0": "الـ{{previa}} فيها {{painless bleeding}}",
+   "1": "الـ{{cervical cancer}} ما تعطي {{contractions}}",
+   "3": "الـ{{bleeding disorder}} أقل احتمالًا"
+  },
+  "change": [
+   "لو {{painless bleeding}} نفكر بـ{{previa}}",
+   "لو {{shock}} نعيد {{fluids}} ونولّد"
+  ],
+  "rule": "لو {{painful bleeding}} يعني {{abruption}}"
+ },
+ "Q521": {
+  "idea": [
+   "بكر {{31 weeks}} بـ{{preterm labor}} و{{closed cervix}}",
+   "وما يعطى حسب الجواب"
+  ],
+  "clues": [
+   [
+    "لو {{31 weeks}}",
+    "يعني {{preterm}}"
+   ],
+   [
+    "لو {{closed cervix}}",
+    "يعني {{threatened labor}}"
+   ]
+  ],
+  "why": [
+   "الـ{{MgSO4}} يحمي دماغ {{preterm}}",
+   "ويعطى قبل {{32 weeks}}",
+   "حسب الجواب المعتمد"
+  ],
+  "wrong": {
+   "0": "الـ{{nifedipine}} لـ{{tocolysis}}",
+   "1": "الـ{{terbutaline}} لـ{{tocolysis}} وفيه {{side effects}}",
+   "2": "الـ{{indomethacin}} لـ{{tocolysis}}"
+  },
+  "change": [
+   "لو {{advanced dilatation}} نعطي {{steroids}} بعد",
+   "لو بعد {{34 weeks}} ما نحتاجه"
+  ],
+  "rule": "لو {{before 32 weeks}} يعني {{MgSO4}} لحماية الدماغ",
+  "note": "الجواب حسب الملف، والـ{{closed cervix}} قد يكون {{false labor}} ولا يستدعي {{MgSO4}} عادة"
+ }
+}

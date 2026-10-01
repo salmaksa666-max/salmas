@@ -1,0 +1,583 @@
+{
+ "Q322": {
+  "idea": [
+   "سيدة {{vaginal discharge and dysuria}} وزوجها {{gonorrhea}}",
+   "فأعلى قيمة {{endocervical swab}}"
+  ],
+  "clues": [
+   [
+    "لو زوج {{gonorrhea}}",
+    "يعني مصدر العدوى"
+   ],
+   [
+    "لو {{vaginal discharge}}",
+    "يعني {{cervicitis}}"
+   ]
+  ],
+  "why": [
+   "الـ{{gonorrhea}} يستهدف {{cervix}}",
+   "فـ{{endocervical swab}} أدق",
+   "مع {{culture or NAAT}}"
+  ],
+  "wrong": {
+   "0": "الـ{{urine culture}} {{less sensitive}}",
+   "1": "الـ{{anogenital swab}} ممكن بس مو الأول",
+   "3": "الـ{{high vaginal swab}} {{less sensitive}}"
+  },
+  "change": [
+   "لو {{PCR}} متاح نستخدمه",
+   "ونعالج {{partner}}"
+  ],
+  "rule": "الـ{{gonorrhea}} عند المرأة يعني {{endocervical swab}}"
+ },
+ "Q323": {
+  "idea": [
+   "سيدة {{yellowish fishy-smelling discharge}} مع {{itching}}",
+   "فالتشخيص {{bacterial vaginosis}}"
+  ],
+  "clues": [
+   [
+    "لو {{fishy odor}}",
+    "يعني {{BV}}"
+   ]
+  ],
+  "why": [
+   "الـ{{fishy odor}} علامة {{BV}}",
+   "مع {{thin discharge}}",
+   "و{{positive whiff test}}"
+  ],
+  "wrong": {
+   "0": "الـ{{candida}} فيه {{white curdy discharge}}",
+   "2": "الـ{{gonorrhea}} فيه {{purulent discharge}}",
+   "3": "الـ{{trichomonas}} فيه {{frothy green discharge}}"
+  },
+  "change": [
+   "العلاج {{metronidazole}}",
+   "ونشوف {{clue cells}}"
+  ],
+  "rule": "الـ{{Fishy odor}} يعني {{BV}}",
+  "note": "الـ{{itching}} أشهر مع {{candida}}، والمفتاح هنا {{fishy odor}}"
+ },
+ "Q324": {
+  "idea": [
+   "سيدة {{whitish discharge and itching for 3 days}}",
+   "فالتشخيص {{vaginal candidiasis}}"
+  ],
+  "clues": [
+   [
+    "لو {{white curdy discharge with itching}}",
+    "يعني {{candida}}"
+   ]
+  ],
+  "why": [
+   "الـ{{white cottage-cheese discharge}} مع {{itching}}",
+   "يدل على {{candidiasis}}",
+   "وعلاجه {{azole}}"
+  ],
+  "wrong": {
+   "0": "الـ{{gonorrhea}} فيه {{purulent discharge}}",
+   "1": "الـ{{BV}} فيه {{fishy odor}}",
+   "3": "الـ{{trichomonas}} فيه {{frothy discharge}}"
+  },
+  "change": [
+   "نعطي {{fluconazole}} أو {{clotrimazole}}",
+   "ونفحص {{diabetes}}"
+  ],
+  "rule": "الـ{{White discharge with itching}} يعني {{candidiasis}}"
+ },
+ "Q325": {
+  "idea": [
+   "سيدة {{53 years}} {{postmenopausal}} مع {{dyspareunia}}",
+   "فنعطي {{estrogen cream}}"
+  ],
+  "clues": [
+   [
+    "لو {{dyspareunia}} بعد {{menopause}}",
+    "يعني {{vaginal atrophy}}"
+   ]
+  ],
+  "why": [
+   "الـ{{vaginal dryness}} نعالجها بـ{{topical estrogen}}",
+   "وهو أفضل لأنه {{local}}",
+   "وفيه {{fewer systemic effects}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Depo-Provera}} مو مناسب",
+   "1": "الـ{{OCP}} مو مناسبة",
+   "2": "الـ{{systemic estrogen}} مو ضروري"
+  },
+  "change": [
+   "نعطي {{lubricants}}",
+   "و{{systemic estrogen}} لو فيه {{other symptoms}}"
+  ],
+  "rule": "الـ{{Vaginal dryness after menopause}} يعني {{estrogen cream}}"
+ },
+ "Q326": {
+  "idea": [
+   "سيدة {{60 years}} {{postmenopausal}} مع {{on-and-off bleeding}}",
+   "فالسبب الأشهر {{endometrial atrophy}}"
+  ],
+  "clues": [
+   [
+    "لو {{bleeding after menopause}}",
+    "يعني {{PMB}}"
+   ]
+  ],
+  "why": [
+   "الـ{{atrophy}} أشهر سبب",
+   "وأخطر سبب {{endometrial cancer}}",
+   "فنستبعده بـ{{ultrasound}}"
+  ],
+  "wrong": {
+   "0": "الـ{{cancer}} أخطر بس {{less common}}",
+   "1": "الـ{{polyp}} {{less common}}",
+   "3": "الـ{{fibroid}} {{less common}}"
+  },
+  "change": [
+   "نقيس {{endometrial thickness}}",
+   "ونأخذ {{biopsy}} لو أكثر من {{4 mm}}"
+  ],
+  "rule": "الـ{{PMB}} الأشهر {{atrophy}} والأخطر {{cancer}}"
+ },
+ "Q327": {
+  "idea": [
+   "سيدة {{50 years}} مع {{hot flashes and insomnia}}",
+   "فالخط الأول {{lifestyle modification}}"
+  ],
+  "clues": [
+   [
+    "لو {{hot flashes}}",
+    "يعني {{menopausal symptoms}}"
+   ]
+  ],
+  "why": [
+   "نبدأ بـ{{lifestyle modification}}",
+   "وبعدها ننتقل لـ{{hormone therapy}}",
+   "لو ما كفى"
+  ],
+  "wrong": {
+   "0": "الـ{{soya}} {{limited benefit}}",
+   "2": "الـ{{local HRT}} للـ{{vaginal dryness}}",
+   "3": "الـ{{systemic HRT}} بعد {{failure}}"
+  },
+  "change": [
+   "لو {{severe}} نعطي {{HRT}}",
+   "و{{SSRI}} بديل"
+  ],
+  "rule": "الـ{{Mild menopausal symptoms}} يعني نبدأ بـ{{lifestyle modification}}"
+ },
+ "Q328": {
+  "idea": [
+   "زوجين {{primary infertility for 3 years}} والزوج {{smoker}}",
+   "فأول خطوة {{semen analysis}}"
+  ],
+  "clues": [
+   [
+    "لو {{primary infertility}}",
+    "يعني نفحص الزوجين"
+   ],
+   [
+    "لو الزوجة أخذت {{Clomid}}",
+    "يعني علاج الزوجة بدأ"
+   ]
+  ],
+  "why": [
+   "الـ{{semen analysis}} أسهل وأرخص فحص",
+   "و{{male factor}} حوالي {{40%}}",
+   "ونعمله قبل {{invasive tests}}"
+  ],
+  "wrong": {
+   "1": "الـ{{HSG}} بعده",
+   "2": "الـ{{prolactin}} مو أول فحص",
+   "3": "الـ{{hormonal profile}} بعده"
+  },
+  "change": [
+   "بعدها {{HSG}}",
+   "ونفحص {{ovulation}}"
+  ],
+  "rule": "الـ{{infertility}} يعني {{semen analysis}} أول"
+ },
+ "Q329": {
+  "idea": [
+   "شابة {{primary infertility}} مع {{scanty irregular cycles}}",
+   "والجواب {{chromosomal analysis}} حسب الملف"
+  ],
+  "clues": [
+   [
+    "لو {{scanty cycles}}",
+    "يعني احتمال {{ovarian insufficiency}}"
+   ],
+   [
+    "لو {{lab results}} مو موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "نفحص {{karyotype}} لو نشك في {{ovarian failure}}",
+   "وهذا الجواب المعتمد",
+   "و{{hormones}} تكمّل"
+  ],
+  "wrong": {
+   "0": "الـ{{MRI}} مو أول",
+   "1": "الـ{{TSH}} مو أول",
+   "2": "الـ{{prolactin}} مو أول"
+  },
+  "change": [
+   "نفحص {{FSH}}",
+   "و{{TSH}} و{{prolactin}}"
+  ],
+  "rule": "الـ{{Scanty cycles}} مع احتمال {{ovarian failure}} يعني {{karyotype}}",
+  "note": "الجواب حسب الملف المعتمد، و{{lab results}} مو موجودة بالبطاقة"
+ },
+ "Q330": {
+  "idea": [
+   "سيدة {{secondary infertility for 4 years}} والصورة مو ظاهرة",
+   "والجواب {{endometriosis}} حسب الملف"
+  ],
+  "clues": [
+   [
+    "لو {{secondary infertility}}",
+    "يعني احتمال {{endometriosis}}"
+   ],
+   [
+    "لو الصورة مو موجودة بالبطاقة",
+    "نعتمد على الجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الصورة غالبًا {{laparoscopy}} مع {{dark spots}}",
+   "فالتشخيص {{endometriosis}}",
+   "وهو سبب شائع لـ{{infertility}}"
+  ],
+  "wrong": {
+   "0": "الـ{{hydrosalpinx}} يظهر بـ{{HSG}}",
+   "1": "الـ{{ovarian cysts}} مو مميزة",
+   "3": "الـ{{adhesions}} مو مميزة"
+  },
+  "change": [
+   "نعالج بـ{{laparoscopy}}",
+   "ونعطي {{GnRH}}"
+  ],
+  "rule": "الـ{{Infertility}} مع {{characteristic laparoscopic findings}} يعني {{endometriosis}}",
+  "note": "الصورة مو موجودة بالبطاقة، فالجواب حسب الملف المعتمد"
+ },
+ "Q331": {
+  "idea": [
+   "حمل {{tubal ectopic}} عولج بـ{{MTX}} و{{hCG plateau}} بين {{day 4 and day 7}}",
+   "فنعطي {{second dose of MTX}}"
+  ],
+  "clues": [
+   [
+    "لو {{hCG plateau}}",
+    "يعني {{decline less than 15%}}"
+   ]
+  ],
+  "why": [
+   "لو {{hCG}} ما انخفض {{15%}} بين {{day 4 and 7}}",
+   "نعيد {{MTX dose}}",
+   "وما نروح للجراحة مباشرة"
+  ],
+  "wrong": {
+   "0": "الـ{{surgery}} لو فيه {{symptoms}}",
+   "1": "الـ{{repeat hCG in one week}} ما يكفي",
+   "3": "الـ{{repeat hCG in 48 hours}} ما يكفي"
+  },
+  "change": [
+   "لو {{symptoms}} نعمل {{salpingectomy}}",
+   "ونتابع {{hCG}}"
+  ],
+  "rule": "الـ{{hCG plateau after MTX}} يعني {{second dose}}"
+ },
+ "Q332": {
+  "idea": [
+   "سيدة {{43 years}} مع {{intermenstrual bleeding}} و{{13 mm endometrial structure}}",
+   "فنعمل {{hysteroscopy and removal}}"
+  ],
+  "clues": [
+   [
+    "لو {{13 mm echogenic structure in the endometrium}}",
+    "يعني {{polyp}}"
+   ],
+   [
+    "لو {{intermenstrual bleeding}}",
+    "يعني {{symptomatic}}"
+   ]
+  ],
+  "why": [
+   "الـ{{polyp}} مع {{symptoms}} يحتاج {{removal}}",
+   "و{{hysteroscopy}} الأنسب",
+   "وتعطي {{tissue sample}}"
+  ],
+  "wrong": {
+   "0": "الـ{{endometrial sample}} ما يكفي",
+   "1": "الانتظار {{6 weeks}} مو مناسب",
+   "2": "الـ{{progesterone}} ما يعالج {{polyp}}"
+  },
+  "change": [
+   "لو {{asymptomatic}} نتابع",
+   "ونرسل {{histopathology}}"
+  ],
+  "rule": "الـ{{symptomatic polyp}} يعني {{hysteroscopy}}"
+ },
+ "Q333": {
+  "idea": [
+   "مراهقة {{lower abdominal and back pain on the first 2 days}}",
+   "فنعطي {{NSAIDs}}"
+  ],
+  "clues": [
+   [
+    "لو {{pain in the first 2 days}}",
+    "يعني {{primary dysmenorrhea}}"
+   ]
+  ],
+  "why": [
+   "الـ{{primary dysmenorrhea}} سببه {{prostaglandins}}",
+   "و{{NSAIDs}} تثبطها",
+   "وهي {{first-line}}"
+  ],
+  "wrong": {
+   "1": "الـ{{OCP}} بعد {{NSAID failure}}",
+   "2": "الـ{{injectable contraceptive}} مو مناسب",
+   "3": "الـ{{hormonal IUD}} مو مناسب"
+  },
+  "change": [
+   "لو فشلت نعطي {{OCP}}",
+   "ولو ما تحسنت نفكر بـ{{laparoscopy}}"
+  ],
+  "rule": "الـ{{primary dysmenorrhea}} يعني {{NSAIDs}}"
+ },
+ "Q334": {
+  "idea": [
+   "نفس المراهقة ما تحسنت على {{NSAIDs}}",
+   "فنعطي {{OCP}}"
+  ],
+  "clues": [
+   [
+    "لو {{NSAID failure}}",
+    "يعني ننتقل للخطوة التالية"
+   ]
+  ],
+  "why": [
+   "الـ{{OCP}} تقلل {{prostaglandins}}",
+   "وهي الخطوة التالية",
+   "قبل {{laparoscopy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{laparoscopy}} لو فشلت {{OCP}}",
+   "2": "الـ{{injectable}} مو مناسب",
+   "3": "الـ{{hormonal IUD}} مو مناسب"
+  },
+  "change": [
+   "لو فشلت نعمل {{laparoscopy}}",
+   "ونفكر في {{endometriosis}}"
+  ],
+  "rule": "الـ{{NSAID failure}} يعني {{OCP}}"
+ },
+ "Q335": {
+  "idea": [
+   "سيدة {{26 years}} مع {{amenorrhea for 9 months}} بعد دورات سابقة",
+   "والجواب {{premature ovarian insufficiency}} حسب الملف"
+  ],
+  "clues": [
+   [
+    "لو {{amenorrhea for 9 months}}",
+    "يعني {{secondary amenorrhea}}"
+   ],
+   [
+    "لو {{lab results}} مو موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الـ{{POI}} يعني {{amenorrhea before age 40}}",
+   "مع {{elevated FSH}}",
+   "وهذا الجواب المعتمد"
+  ],
+  "wrong": {
+   "0": "الـ{{ovarian tumor}} {{unlikely}}",
+   "1": "الـ{{Asherman}} يجي بعد {{procedure}}",
+   "3": "الـ{{PCOS}} ما يسبب {{prolonged amenorrhea}} غالبًا"
+  },
+  "change": [
+   "نقيس {{FSH}}",
+   "ونعمل {{karyotype}}"
+  ],
+  "rule": "الـ{{Secondary amenorrhea before 40}} يعني {{POI}}",
+  "note": "الجواب حسب الملف المعتمد، و{{lab results}} مو موجودة بالبطاقة"
+ },
+ "Q336": {
+  "idea": [
+   "سيدة {{infertility for 3 years}} والتحاليل مو ظاهرة",
+   "والجواب {{bromocriptine}} حسب الملف"
+  ],
+  "clues": [
+   [
+    "لو {{infertility}}",
+    "يعني احتمال {{hyperprolactinemia}}"
+   ],
+   [
+    "لو {{lab results}} مو موجودة بالبطاقة",
+    "نعتمد على {{clinical picture}} والجواب المعتمد"
+   ]
+  ],
+  "why": [
+   "الجواب المعتمد {{bromocriptine}}",
+   "وهو لعلاج {{hyperprolactinemia}}",
+   "فنرجّع {{ovulation}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Clomid}} ما يعالج {{hyperprolactinemia}}",
+   "2": "الـ{{IVF}} {{advanced option}}",
+   "3": "الـ{{IUI}} مو مناسب"
+  },
+  "change": [
+   "لو {{prolactinoma}} نعطي {{cabergoline}}",
+   "ونعمل {{pituitary imaging}}"
+  ],
+  "rule": "الـ{{Hyperprolactinemia with infertility}} يعني {{bromocriptine}}",
+  "note": "الـ{{lab results}} مو موجودة بالبطاقة، والجواب حسب الملف المعتمد"
+ },
+ "Q337": {
+  "idea": [
+   "سيدة {{irregular cycles}} وزوجها {{normal semen analysis}}",
+   "فالسبب {{ovulatory dysfunction}}"
+  ],
+  "clues": [
+   [
+    "لو {{irregular cycles}}",
+    "يعني {{anovulation}}"
+   ],
+   [
+    "لو {{normal semen analysis}}",
+    "يعني {{male factor}} مستبعد"
+   ]
+  ],
+  "why": [
+   "الـ{{irregular cycles}} تعني {{anovulation}}",
+   "وهو أشهر سبب لـ{{infertility}}",
+   "و{{PCOS}} سبب شائع"
+  ],
+  "wrong": {
+   "0": "الـ{{tubal factor}} بدون {{cycle abnormality}}",
+   "1": "الـ{{endometriosis}} فيه {{pain}}",
+   "3": "الـ{{diminished ovarian reserve}} في عمر أكبر"
+  },
+  "change": [
+   "نقيس {{progesterone}} بعد {{ovulation}}",
+   "ونعطي {{clomiphene}}"
+  ],
+  "rule": "الـ{{irregular cycles}} يعني {{ovulatory dysfunction}}"
+ },
+ "Q338": {
+  "idea": [
+   "حامل {{12 weeks}} مع {{bleeding}} و{{fundal height 19 weeks}} و{{molar pregnancy}}",
+   "فنعمل {{suction evacuation}}"
+  ],
+  "clues": [
+   [
+    "لو {{uterus larger than dates}}",
+    "يعني {{molar pregnancy}}"
+   ]
+  ],
+  "why": [
+   "الـ{{molar pregnancy}} علاجه {{suction evacuation}}",
+   "وبعدها نتابع {{hCG}}",
+   "عشان نكشف {{GTN}}"
+  ],
+  "wrong": {
+   "0": "الـ{{MTX}} للـ{{residual disease}}",
+   "1": "الـ{{hysterectomy}} لحالات خاصة",
+   "3": "الـ{{D&C}} {{less safe}}"
+  },
+  "change": [
+   "نتابع {{hCG}}",
+   "ونمنع الحمل {{6 to 12 months}}"
+  ],
+  "rule": "الـ{{molar pregnancy}} يعني {{suction evacuation}}"
+ },
+ "Q339": {
+  "idea": [
+   "سيدة {{50 years}} مع {{urine leak with running}}",
+   "فنعمل {{cough test}}"
+  ],
+  "clues": [
+   [
+    "لو {{leak with exertion}}",
+    "يعني {{SUI}}"
+   ]
+  ],
+  "why": [
+   "الـ{{cough stress test}} يثبت {{SUI}}",
+   "وهو {{simple office test}}",
+   "ويظهر {{leakage with coughing}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Q-tip test}} لـ{{urethral mobility}}",
+   "2": "الـ{{Bonney test}} لـ{{support}}",
+   "3": "الـ{{uroflowmetry}} لـ{{flow rate}}"
+  },
+  "change": [
+   "الـ{{urodynamics}} لو غير واضح",
+   "ونعالج بـ{{pelvic floor exercises}}"
+  ],
+  "rule": "الـ{{SUI}} يعني {{cough test}}"
+ },
+ "Q340": {
+  "idea": [
+   "سيدة {{ovarian mass}} مع {{ascites}} و{{high tumor marker}}",
+   "فالتصنيف بـ{{surgical staging}}"
+  ],
+  "clues": [
+   [
+    "لو {{ovarian mass with ascites}}",
+    "يعني {{ovarian cancer}}"
+   ]
+  ],
+  "why": [
+   "الـ{{ovarian cancer}} نحدد مرحلته بـ{{surgery}}",
+   "وهذا {{surgical staging}}",
+   "والـ{{imaging}} مساعد بس"
+  ],
+  "wrong": {
+   "1": "الـ{{ascitic tapping}} للـ{{cytology}}",
+   "2": "الـ{{US-guided biopsy}} ما يعطي {{stage}}",
+   "3": "الـ{{CT}} مساعد بس"
+  },
+  "change": [
+   "نكمل بـ{{chemotherapy}}",
+   "ونقيس {{CA-125}}"
+  ],
+  "rule": "الـ{{ovarian cancer}} يعني {{surgical staging}}"
+ },
+ "Q341": {
+  "idea": [
+   "سيدة {{60 years}} مع {{recurrent UTI}} و{{vaginal bulging}} و{{incomplete emptying}}",
+   "فنقيس {{post-void residual}}"
+  ],
+  "clues": [
+   [
+    "لو {{recurrent UTI}}",
+    "يعني احتمال {{retention}}"
+   ],
+   [
+    "لو {{vaginal bulging}}",
+    "يعني {{prolapse}}"
+   ]
+  ],
+  "why": [
+   "نقيس {{post-void residual volume}}",
+   "لأنه يكشف {{urinary retention}}",
+   "وهو أبسط فحص"
+  ],
+  "wrong": {
+   "0": "الـ{{uroflowmetry}} ما يقيس {{residual volume}}",
+   "1": "الـ{{urodynamic test}} {{advanced}}",
+   "2": "الـ{{video urodynamic}} {{advanced}}"
+  },
+  "change": [
+   "بعدها نكمل {{urodynamics}}",
+   "ونعالج {{prolapse}}"
+  ],
+  "rule": "الـ{{retention}} مع {{prolapse}} يعني {{PVR}}"
+ }
+}

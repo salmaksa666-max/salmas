@@ -1,0 +1,587 @@
+{
+ "Q222": {
+  "idea": [
+   "سيدة {{diabetic on insulin}} تسأل أي خطر يشبه {{general population}}",
+   "والـ{{fetal cystic fibrosis}} نفس الخطر"
+  ],
+  "clues": [
+   [
+    "فيه {{diabetes on insulin}}",
+    "يعني {{higher pregnancy complication risk}}"
+   ],
+   [
+    "بدون {{family history}}",
+    "فخطر {{genetic disease}} ما يتغير"
+   ]
+  ],
+  "why": [
+   "الـ{{diabetes}} يرفع {{hydramnios}} و{{macrosomia}} و{{preeclampsia}}",
+   "أما الـ{{cystic fibrosis}} فهو {{autosomal recessive}}",
+   "وما يتأثر بالـ{{diabetes}}"
+  ],
+  "wrong": {
+   "0": "الـ{{hydramnios}} أكثر مع {{diabetes}}",
+   "1": "الـ{{macrosomia}} أكثر مع {{diabetes}}",
+   "3": "الـ{{preeclampsia}} أكثر مع {{diabetes}}"
+  },
+  "change": [
+   "لو أحد الوالدين {{CF carrier}} يرتفع الخطر",
+   "ونفحص {{HbA1c}}"
+  ],
+  "rule": "الـ{{cystic fibrosis}} {{genetic}} وما يتغير بسبب {{diabetes}}"
+ },
+ "Q223": {
+  "idea": [
+   "حامل عندها {{severe preeclampsia}} مع {{RUQ pain}}",
+   "والسبب {{tension of the liver capsule}}"
+  ],
+  "clues": [
+   [
+    "فيه {{severe preeclampsia}}",
+    "يعني احتمال {{HELLP}}"
+   ],
+   [
+    "مع {{RUQ pain}}",
+    "يعني {{liver}}"
+   ]
+  ],
+  "why": [
+   "الـ{{liver}} يتورم و{{bleeds under the capsule}}",
+   "فيصير {{capsular stretch}} ويسبب {{pain}}",
+   "وهذي {{serious sign}}"
+  ],
+  "wrong": {
+   "0": "الـ{{esophagitis}} فيها {{burning pain}}",
+   "1": "الـ{{pancreatitis}} فيها {{epigastric pain radiating to the back}}",
+   "2": "الـ{{gastric ulcer}} فيها {{epigastric pain}}"
+  },
+  "change": [
+   "نفحص {{LFT}} و{{platelets}}",
+   "ونفكر بـ{{HELLP}}"
+  ],
+  "rule": "الـ{{RUQ pain}} مع {{preeclampsia}} يعني {{liver capsule tension}}"
+ },
+ "Q224": {
+  "idea": [
+   "حامل ٣٤ أسبوع عندها {{severe preeclampsia}}",
+   "نعطي {{antihypertensive}} لتقليل {{maternal complications}} مثل {{stroke}}"
+  ],
+  "clues": [
+   [
+    "فيه {{severe preeclampsia}}",
+    "يعني {{severe hypertension}}"
+   ]
+  ],
+  "why": [
+   "الهدف حماية الأم من {{stroke}}",
+   "وهذا أهم سبب",
+   "والـ{{antihypertensives}} ما تحسن {{fetal outcome}} بشكل واضح"
+  ],
+  "wrong": {
+   "0": "ما تمنع {{oligohydramnios}}",
+   "1": "ما تقلل {{fetal demise}}",
+   "2": "ما تقلل {{FGR}}"
+  },
+  "change": [
+   "نستخدم {{labetalol}} أو {{hydralazine}} أو {{nifedipine}}",
+   "ونعطي {{MgSO4}} لمنع {{seizures}}"
+  ],
+  "rule": "الـ{{antihypertensive}} بالـ{{preeclampsia}} يحمي الأم من {{stroke}}"
+ },
+ "Q225": {
+  "idea": [
+   "حامل عندها {{severe preeclampsia}}",
+   "فينخفض {{plasma volume}}"
+  ],
+  "clues": [
+   [
+    "فيه {{preeclampsia}}",
+    "يعني {{decreased plasma volume}}"
+   ]
+  ],
+  "why": [
+   "الـ{{preeclampsia}} فيها {{vasoconstriction}}",
+   "فينخفض {{plasma volume}}",
+   "وترتفع {{urea}} و{{creatinine}} و{{uric acid}}"
+  ],
+  "wrong": {
+   "0": "الـ{{urea}} ترتفع",
+   "1": "الـ{{uric acid}} يرتفع",
+   "3": "الـ{{creatinine}} يرتفع"
+  },
+  "change": [
+   "الـ{{hematocrit}} يرتفع",
+   "ونراقب {{fluids}}"
+  ],
+  "rule": "الـ{{preeclampsia}} يعني {{decreased plasma volume}}"
+ },
+ "Q226": {
+  "idea": [
+   "سيدة بعد الولادة عندها {{moderate PPH}} و{{lax uterus}}",
+   "فنعطي {{oxytocin 20 units in 500 mL}} {{IV}}"
+  ],
+  "clues": [
+   [
+    "فيه {{lax uterus}}",
+    "يعني {{uterine atony}}"
+   ],
+   [
+    "مع {{preeclampsia}}",
+    "فنتجنب {{ergometrine}}"
+   ]
+  ],
+  "why": [
+   "الـ{{atony}} علاجها {{oxytocin}}",
+   "والـ{{ergometrine}} يرفع {{blood pressure}} فنمنعه مع {{preeclampsia}}",
+   "والـ{{oral oxytocin}} ما يمتص"
+  ],
+  "wrong": {
+   "0": "الـ{{oral oxytocin}} ما يمتص",
+   "1": "الـ{{ergometrine}} {{contraindicated}}",
+   "2": "الـ{{ergometrine}} {{contraindicated}}"
+  },
+  "change": [
+   "لو ما استجاب نعطي {{carboprost}}",
+   "أو {{misoprostol}}"
+  ],
+  "rule": "الـ{{atony}} مع {{preeclampsia}} يعني {{oxytocin}}"
+ },
+ "Q227": {
+  "idea": [
+   "حامل عندها {{preeclampsia}}",
+   "والدواء الممنوع {{captopril}}"
+  ],
+  "clues": [
+   [
+    "الـ{{captopril}} هو {{ACEI}}",
+    "يعني {{contraindicated in pregnancy}}"
+   ]
+  ],
+  "why": [
+   "الـ{{ACEIs}} تسبب {{fetal anomalies}}",
+   "والبدائل {{nifedipine}} و{{hydralazine}} و{{methyldopa}}",
+   "وكلها {{safe}}"
+  ],
+  "wrong": {
+   "1": "الـ{{nifedipine}} {{safe}}",
+   "2": "الـ{{hydralazine}} {{safe}}",
+   "3": "الـ{{methyldopa}} {{safe}}"
+  },
+  "change": [
+   "الـ{{ARBs}} كمان {{contraindicated}}",
+   "والـ{{labetalol}} {{safe}}"
+  ],
+  "rule": "الـ{{ACEI}} {{contraindicated in pregnancy}}"
+ },
+ "Q228": {
+  "idea": [
+   "حامل ٣٣ أسبوع عندها {{newly diagnosed GDM}}",
+   "فأول علاج {{diet}}"
+  ],
+  "clues": [
+   [
+    "فيه {{new GDM}}",
+    "فنبدأ بـ{{lifestyle modification}}"
+   ]
+  ],
+  "why": [
+   "أغلب الـ{{GDM}} تنضبط بـ{{diet and exercise}}",
+   "ونضيف {{medication}} لو ما انضبط",
+   "فنبدأ بـ{{diet}}"
+  ],
+  "wrong": {
+   "1": "الـ{{metformin}} بعد {{diet}}",
+   "2": "الـ{{IV insulin}} وقت {{delivery}}",
+   "3": "الـ{{SC insulin}} بعد فشل {{diet}}"
+  },
+  "change": [
+   "لو فشلت {{diet}} نعطي {{insulin}}",
+   "ونراقب {{blood glucose}}"
+  ],
+  "rule": "الـ{{new GDM}} يعني {{diet}} أول"
+ },
+ "Q229": {
+  "idea": [
+   "حامل ١٨ أسبوع أول زيارة وطلبوا {{OGTT}}",
+   "والسبب {{previous GDM}}"
+  ],
+  "clues": [
+   [
+    "أول زيارة بـ{{18 weeks}}",
+    "فنسوي {{early screening}}"
+   ],
+   [
+    "الـ{{OGTT}}",
+    "للـ{{high-risk group}}"
+   ]
+  ],
+  "why": [
+   "الـ{{history of GDM}} {{strong risk factor}}",
+   "فنفحص بدري",
+   "والـ{{BMI 20}} {{normal}}"
+  ],
+  "wrong": {
+   "0": "الـ{{BMI 20}} مو {{risk factor}}",
+   "1": "الـ{{diabetic husband}} {{weak factor}}",
+   "2": "الـ{{cleft lip}} ما لها علاقة"
+  },
+  "change": [
+   "نفحص كمان لو {{BMI > 30}}",
+   "ونعيد عند {{24 weeks}}"
+  ],
+  "rule": "الـ{{previous GDM}} يعني {{early OGTT}}"
+ },
+ "Q230": {
+  "idea": [
+   "حامل عندها {{TR}} مع {{slight limitation of physical activity}}",
+   "فهي {{NYHA class II}}"
+  ],
+  "clues": [
+   [
+    "فيه {{slight limitation}}",
+    "يعني {{class II}}"
+   ]
+  ],
+  "why": [
+   "الـ{{NYHA II}} فيها {{symptoms with ordinary activity}}",
+   "وما فيه {{symptoms at rest}}",
+   "و{{limitation}} خفيف"
+  ],
+  "wrong": {
+   "0": "الـ{{class 0}} مو موجودة",
+   "1": "الـ{{class I}} بدون {{limitation}}",
+   "3": "الـ{{class IV}} فيها {{symptoms at rest}}"
+  },
+  "change": [
+   "لو {{marked limitation}} يعني {{class III}}",
+   "ونتابع بالـ{{echo}}"
+  ],
+  "rule": "الـ{{slight limitation}} يعني {{NYHA II}}"
+ },
+ "Q231": {
+  "idea": [
+   "سيدة عندها {{DVT}} على {{therapeutic heparin}} وصار {{PPH}} والرحم {{contracted}}",
+   "فنعطي {{protamine sulfate}}"
+  ],
+  "clues": [
+   [
+    "فيه {{therapeutic heparin}}",
+    "يعني احتمال {{drug-induced bleeding}}"
+   ],
+   [
+    "مع {{contracted uterus}} وبدون {{lacerations}}",
+    "يعني السبب {{the drug}}"
+   ]
+  ],
+  "why": [
+   "الـ{{heparin}} هو سبب {{bleeding}}",
+   "والـ{{protamine sulfate}} هو {{antidote}}",
+   "وهو {{direct treatment}}"
+  ],
+  "wrong": {
+   "0": "الـ{{vitamin K}} للـ{{warfarin}}",
+   "1": "الـ{{TXA}} يساعد بس ما يعكس {{heparin}}",
+   "3": "الـ{{FFP}} مو مناسب"
+  },
+  "change": [
+   "لو {{LMWH}} فالـ{{reversal}} أقل فعالية",
+   "ونعطي {{FFP}} للحالات الثانية"
+  ],
+  "rule": "الـ{{heparin-induced bleeding}} يعني {{protamine}}"
+ },
+ "Q232": {
+  "idea": [
+   "حامل عندها {{valvular heart disease}}",
+   "والأسوأ {{mitral stenosis}}"
+  ],
+  "clues": [
+   [
+    "فيه {{valvular disease}}",
+    "فنسأل عن أسوأ {{outcome}}"
+   ]
+  ],
+  "why": [
+   "الـ{{MS}} يسوء بالحمل",
+   "لأن زيادة {{cardiac output}} و{{tachycardia}} تقلل {{LV filling}}",
+   "فيصير {{pulmonary edema}}"
+  ],
+  "wrong": {
+   "1": "الـ{{AS}} أقل سوءًا",
+   "2": "الـ{{MR}} {{better tolerated}}",
+   "3": "الـ{{AR}} {{better tolerated}}"
+  },
+  "change": [
+   "نعطي {{beta blockers}}",
+   "ونتجنب الحمل مع {{severe MS}}"
+  ],
+  "rule": "الـ{{MS}} هو الأسوأ بالحمل"
+ },
+ "Q233": {
+  "idea": [
+   "الـ{{primigravida}} للـ{{induction}} وعندها {{closed cervix 3.5 cm long}}",
+   "فنعطي {{vaginal prostaglandin E2}}"
+  ],
+  "clues": [
+   [
+    "فيه {{unfavorable cervix}}",
+    "فنحتاج {{cervical ripening}}"
+   ]
+  ],
+  "why": [
+   "الـ{{vaginal PGE2}} يسوي {{cervical ripening}}",
+   "وهو {{standard option}}",
+   "والـ{{Methergine}} للـ{{bleeding}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Methergine}} للـ{{bleeding}}",
+   "1": "الـ{{methyldopa}} للـ{{blood pressure}}",
+   "2": "الـ{{progesterone}} مو مناسب"
+  },
+  "change": [
+   "لو {{favorable cervix}} نعطي {{oxytocin}}",
+   "ونراقب {{uterine tachysystole}}"
+  ],
+  "rule": "الـ{{unfavorable cervix}} يعني {{PGE2}}"
+ },
+ "Q234": {
+  "idea": [
+   "مريضة عندها {{irregular contractions}}",
+   "والـ{{latent phase}} تعتبر طويلة بعد {{8 hours}} حسب الجواب"
+  ],
+  "clues": [
+   [
+    "فيه {{irregular contractions}}",
+    "يعني {{latent phase}}"
+   ]
+  ],
+  "why": [
+   "الـ{{latent phase}} تعتبر {{prolonged}} بعد حد معين",
+   "وبالمراجع {{20 hours in nullipara}} و{{14 hours in multipara}}",
+   "والجواب المعتمد {{8 hours}}"
+  ],
+  "wrong": {
+   "0": "الـ{{2 hours}} ما تكفي",
+   "1": "الـ{{4 hours}} ما تكفي",
+   "3": "الـ{{18 hours}} مو الجواب"
+  },
+  "change": [
+   "نعالج بـ{{rest}} أو {{oxytocin}}",
+   "ونقيّم {{pelvis}}"
+  ],
+  "rule": "الـ{{prolonged latent phase}} نعالجها بـ{{rest}} أو {{oxytocin}}",
+  "note": "الجواب حسب الملف المعتمد، وبالمراجع الحدود {{20 hours in nullipara}} و{{14 hours in multipara}}"
+ },
+ "Q235": {
+  "idea": [
+   "الـ{{primigravida}} ٣٩ أسبوع، {{dilatation 5 cm}} ثم {{7 cm}} بعد ٦ ساعات مع {{retraction ring}}",
+   "فالتشخيص {{obstructed labor}}"
+  ],
+  "clues": [
+   [
+    "فيه {{retraction ring}}",
+    "يعني {{Bandl's ring}}"
+   ],
+   [
+    "مع {{slow progress despite good contractions}}",
+    "يعني {{obstruction}}"
+   ]
+  ],
+  "why": [
+   "الـ{{retraction ring}} علامة {{obstructed labor}}",
+   "وتعني خطر {{uterine rupture}}",
+   "فنسوي {{cesarean}}"
+  ],
+  "wrong": {
+   "0": "الـ{{preterm labor}} مو مناسب",
+   "2": "الـ{{chorioamnionitis}} فيها {{fever}}",
+   "3": "الـ{{abruptio}} فيها {{bleeding}}"
+  },
+  "change": [
+   "نتجنب {{oxytocin}}",
+   "ونسوي {{cesarean section}}"
+  ],
+  "rule": "الـ{{retraction ring}} يعني {{obstructed labor}}"
+ },
+ "Q236": {
+  "idea": [
+   "حامل ٣٤ أسبوع عندها {{constant pain}} و{{moderate bleeding}} و{{tender firm uterus}}",
+   "فالتشخيص {{placental abruption}}"
+  ],
+  "clues": [
+   [
+    "فيه {{constant pain and firm tender uterus}}",
+    "يعني {{abruption}}"
+   ],
+   [
+    "مع {{bleeding}}",
+    "يعني {{bleeding with pain}}"
+   ]
+  ],
+  "why": [
+   "الـ{{abruption}} فيها {{pain}} مع {{tense uterus}}",
+   "بعكس الـ{{previa}} بدون {{pain}}",
+   "ومعها {{CTG changes}}"
+  ],
+  "wrong": {
+   "0": "الـ{{polyp}} بدون {{pain}}",
+   "1": "الـ{{previa}} بدون {{pain}}",
+   "2": "الـ{{infection}} بدون {{tense uterus}}"
+  },
+  "change": [
+   "لو بدون {{pain}} يعني {{previa}}",
+   "ونقيّم {{mother and fetus}}"
+  ],
+  "rule": "الـ{{bleeding with pain and firm uterus}} يعني {{abruption}}"
+ },
+ "Q237": {
+  "idea": [
+   "حامل عندها {{GBS in urine}} وجات للـ{{delivery}}",
+   "فنعطي {{ampicillin}}"
+  ],
+  "clues": [
+   [
+    "فيه {{GBS in urine}}",
+    "يعني {{carrier}}"
+   ]
+  ],
+  "why": [
+   "الـ{{GBS}} نعطي فيه {{intrapartum prophylaxis}}",
+   "وهو {{ampicillin}} أو {{penicillin}}",
+   "لمنع {{neonatal infection}}"
+  ],
+  "wrong": {
+   "0": "الـ{{folic acid}} مو مناسب",
+   "1": "الـ{{oxytocin}} مو مناسب",
+   "3": "الـ{{betamethasone}} لـ{{fetal lung maturity}}"
+  },
+  "change": [
+   "لو {{penicillin allergy}} نعطي {{clindamycin}}",
+   "ونعطي قبل {{delivery}} بـ{{4 hours}}"
+  ],
+  "rule": "الـ{{positive GBS}} يعني {{ampicillin}} بالـ{{labor}}"
+ },
+ "Q238": {
+  "idea": [
+   "حامل ٣٠ أسبوع عندها {{flank pain}} و{{rigors}} و{{pyuria}}",
+   "فالتشخيص {{pyelonephritis}}"
+  ],
+  "clues": [
+   [
+    "فيه {{flank pain with rigors}}",
+    "يعني {{pyelonephritis}}"
+   ],
+   [
+    "مع {{pus cells in urine}}",
+    "يعني {{infection}}"
+   ]
+  ],
+  "why": [
+   "الـ{{pregnancy}} يرفع خطر {{pyelonephritis}}",
+   "وتحتاج {{admission}} مع {{IV antibiotics}}",
+   "لمنع {{preterm labor}}"
+  ],
+  "wrong": {
+   "0": "الـ{{appendicitis}} فيها {{pain}} بالـ{{right iliac fossa}}",
+   "2": "الـ{{Meckel's diverticulum}} مو مناسب",
+   "3": "الـ{{round ligament pain}} {{mild}}"
+  },
+  "change": [
+   "نعطي {{ceftriaxone}}",
+   "ونكمل {{prophylaxis}}"
+  ],
+  "rule": "الـ{{flank pain and fever in pregnancy}} يعني {{pyelonephritis}}"
+ },
+ "Q239": {
+  "idea": [
+   "حامل ٤٠ أسبوع عندها {{contractions}} و{{dilatation 3 cm}} ثم نزل {{clear fluid}}",
+   "فالتشخيص {{SROM}}"
+  ],
+  "clues": [
+   [
+    "فيه {{40 weeks}}",
+    "يعني {{term}}"
+   ],
+   [
+    "فيه {{gush of fluid in labor}}",
+    "يعني {{spontaneous rupture}}"
+   ]
+  ],
+  "why": [
+   "الـ{{rupture}} بالـ{{labor}} عند الـ{{term}} اسمه {{SROM}}",
+   "والـ{{PROM}} قبل {{labor}}",
+   "والـ{{PPROM}} قبل {{37 weeks}}"
+  ],
+  "wrong": {
+   "0": "الـ{{preterm labor}} قبل {{37 weeks}}",
+   "1": "الـ{{PROM}} قبل {{labor}}",
+   "3": "الـ{{PPROM}} قبل {{37 weeks}}"
+  },
+  "change": [
+   "نراقب {{temperature}}",
+   "ونسرّع {{delivery}} لو تأخر"
+  ],
+  "rule": "الـ{{rupture of membranes in labor at term}} يعني {{SROM}}"
+ },
+ "Q240": {
+  "idea": [
+   "حامل ٣٠ أسبوع عندها {{preterm labor}} وأعطيت {{atosiban}}",
+   "الهدف تأخير الولادة للاستفادة من {{steroids}}"
+  ],
+  "clues": [
+   [
+    "فيه {{preterm labor}}",
+    "يعني {{tocolysis}}"
+   ],
+   [
+    "الـ{{tocolytic}}",
+    "يعني {{short delay}}"
+   ]
+  ],
+  "why": [
+   "الـ{{tocolytics}} تؤخر {{48 hours}}",
+   "لنكمل {{steroids}} و{{transfer}}",
+   "وما تطوّل الحمل كثير"
+  ],
+  "wrong": {
+   "0": "الـ{{infection}} ما لها علاقة",
+   "1": "الوصول لـ{{37 weeks}} مو الهدف",
+   "2": "الـ{{PPROM}} ما لها علاقة"
+  },
+  "change": [
+   "نعطي {{MgSO4}} لـ{{neuroprotection}}",
+   "وننقل لمركز فيه {{NICU}}"
+  ],
+  "rule": "الـ{{tocolysis}} يعطي وقت للـ{{steroids}}"
+ },
+ "Q241": {
+  "idea": [
+   "حامل ٣٩ سنة بعمر حمل ١٢ أسبوع عندها {{cystic hygroma}}",
+   "فنعرض {{CVS}}"
+  ],
+  "clues": [
+   [
+    "فيه {{cystic hygroma}}",
+    "يعني خطر {{chromosomal abnormality}}"
+   ],
+   [
+    "الـ{{12 weeks}}",
+    "مناسب لـ{{CVS}}"
+   ]
+  ],
+  "why": [
+   "الـ{{CVS}} يسوى من {{11 to 13 weeks}}",
+   "ويشخص {{chromosomal}} بدري",
+   "والـ{{amniocentesis}} بعد {{15 weeks}}"
+  ],
+  "wrong": {
+   "0": "الـ{{amniocentesis}} بعد {{15 weeks}}",
+   "2": "الـ{{termination}} بعد التشخيص",
+   "3": "الـ{{PUBS}} متأخر"
+  },
+  "change": [
+   "نفحص {{karyotype}}",
+   "ونقيّم {{fetal heart}}"
+  ],
+  "rule": "الـ{{cystic hygroma}} بعمر {{12 weeks}} يعني {{CVS}}"
+ }
+}
