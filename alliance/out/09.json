@@ -1,0 +1,770 @@
+{
+ "A201": {
+  "idea": [
+   "بنت {{17 years}} ما جتها دورة مع {{normal breast development}} و{{normal pubic hair}} و{{normal testosterone}}",
+   "فـ الجواب {{Mullerian agenesis (MRKH)}}"
+  ],
+  "clues": [
+   [
+    "عندها {{normal breasts and pubic hair}}",
+    "يعني الـ{{ovaries}} شغالة و{{estrogen}} طبيعي"
+   ],
+   [
+    "الـ{{testosterone}} طبيعي أنثوي",
+    "يعني مو {{androgen insensitivity}}"
+   ],
+   [
+    "ما في دورة",
+    "لأن ما في {{uterus / upper vagina}}"
+   ]
+  ],
+  "why": [
+   "لأن {{MRKH}} فيه {{normal ovarian function}} و{{46,XX}} بس {{absent uterus}}",
+   "فـ يطلع {{primary amenorrhea}} مع {{normal secondary sexual characteristics}}"
+  ],
+  "wrong": {
+   "1": "لأن {{complete androgen insensitivity}} فيه {{high testosterone}} و{{scant pubic hair}}، والسؤال فيه {{normal pubic hair}}",
+   "2": "لأن {{congenital hypothyroidism}} ما يعطي هذا الشكل، و{{TSH}} مو سبب {{absent uterus}}"
+  },
+  "change": [
+   "لو {{testosterone high}} و{{absent pubic hair}} فـ الجواب {{complete androgen insensitivity}}",
+   "لو {{FSH high}} و{{low estrogen}} فـ نفكر {{gonadal dysgenesis}}"
+  ],
+  "rule": "الـ{{normal breasts + normal pubic hair + primary amenorrhea}} يعني {{MRKH}}"
+ },
+ "A202": {
+  "idea": [
+   "سيدة {{26 years}} انقطعت دورتها {{9 months}} مع {{high LH and FSH}} و{{low estrogen}}",
+   "فـ الجواب {{premature ovarian insufficiency}}"
+  ],
+  "clues": [
+   [
+    "الـ{{LH and FSH}} عالية",
+    "يعني المشكلة في {{ovary}} (primary) مو {{pituitary}}"
+   ],
+   [
+    "الـ{{estrogen}} واطي",
+    "يعني {{ovarian failure}}"
+   ],
+   [
+    "عمرها {{< 40}}",
+    "يعني {{premature ovarian insufficiency}}"
+   ]
+  ],
+  "why": [
+   "لأن {{ovarian failure}} قبل {{40 years}} يرفع {{FSH and LH}} بسبب فقدان {{negative feedback}}",
+   "فـ يعطي {{secondary amenorrhea}} مع {{low estrogen}}"
+  ],
+  "wrong": {
+   "0": "لأن {{ovarian tumor}} ما يسبب {{high FSH and LH}} مع {{low estrogen}} بهالشكل",
+   "1": "لأن {{Asherman syndrome}} يكون بعد {{D&C}} والهرمونات {{normal}}",
+   "3": "لأن {{PCOS}} فيه {{normal FSH}} و{{high LH:FSH ratio}} مع {{hyperandrogenism}}"
+  },
+  "change": [
+   "لو {{high prolactin}} فـ {{LH and FSH low}}",
+   "لو بعد {{D&C}} و{{normal hormones}} فـ {{Asherman syndrome}}"
+  ],
+  "rule": "الـ{{secondary amenorrhea + high FSH + low estrogen}} يعني {{POI}}"
+ },
+ "A203": {
+  "idea": [
+   "سيدة {{46 years}} {{BMI 47}} {{infertility}} وفحوصات الزوجين {{normal}}",
+   "فـ الجواب {{bariatric surgery}}"
+  ],
+  "clues": [
+   [
+    "الـ{{BMI 47}}",
+    "يعني {{class III obesity}} (>= 40)"
+   ],
+   [
+    "الـ{{fertility investigations normal}}",
+    "يعني السبب غالباً {{obesity-related anovulation}}"
+   ],
+   [
+    "عمرها {{46}}",
+    "يعني الوقت ضيق ونحتاج حل أسرع من {{lifestyle}}"
+   ]
+  ],
+  "why": [
+   "لأن {{BMI >= 40}} الأفضل {{bariatric surgery}} لأنه أكثر فعالية من {{lifestyle}} لوحده",
+   "فـ حتى لو الدورة منتظمة، الـ{{regular cycle}} ما يعني {{ovulatory}} (ممكن {{PCOS}})"
+  ],
+  "wrong": {
+   "1": "لأن {{semaglutide}} ما هو الخيار المفضل هنا، وما يُعطى لو تبغى {{pregnancy}}",
+   "2": "لأن {{lifestyle modification}} لوحده ما يكفي مع {{BMI 47}} (يكون مع الجراحة وليس بدلها)",
+   "3": "لأن {{observation}} يضيع وقت مع عمر {{46}}"
+  },
+  "change": [
+   "لو {{BMI 30-35}} فـ نبدأ {{lifestyle modification}}",
+   "لو {{BMI >= 40}} فـ نفكر {{bariatric surgery}}"
+  ],
+  "rule": "الـ{{BMI >= 40}} مع {{infertility}} يعني {{bariatric surgery}}",
+  "note": "الجواب المعطى {{bariatric surgery}} حسب مصدر البنك، والـ{{lifestyle modification}} يظل جزء من الخطة"
+ },
+ "A204": {
+  "idea": [
+   "سيدة {{36 years}} {{BMI 48}} تسأل عن الحمل",
+   "فـ الجواب {{bariatric surgery}}"
+  ],
+  "clues": [
+   [
+    "الـ{{BMI 48}}",
+    "يعني {{class III obesity}}"
+   ],
+   [
+    "تبغى {{conception}}",
+    "يعني نحتاج حل يرجع {{ovulation}} بشكل مضمون"
+   ]
+  ],
+  "why": [
+   "لأن {{BMI >= 40}} الحل الأقوى لنزول الوزن هو {{bariatric surgery}}",
+   "فـ يحسن {{ovulation}} و{{fertility}} أكثر من {{lifestyle}} لوحده"
+  ],
+  "wrong": {
+   "0": "لأن {{GLP-1 injection}} ما ينفع مع تخطيط {{pregnancy}}، ويُوقف قبل الحمل",
+   "2": "لأن {{lifestyle + calorie deficit}} لوحده ما يكفي في {{BMI 48}} (يكمل الجراحة)"
+  },
+  "change": [
+   "لو {{BMI 28}} فـ {{lifestyle modification}}",
+   "لو {{BMI >= 40}} فـ {{bariatric surgery}}"
+  ],
+  "rule": "الـ{{BMI >= 40}} يعني {{bariatric surgery}}",
+  "note": "السؤال مكتوب بشكل ناقص وكلمة {{health strategy}}، والجواب المعطى {{bariatric surgery}}"
+ },
+ "A205": {
+  "idea": [
+   "سيدة تبغى {{pregnancy}} و{{BMI 41}}",
+   "فـ الجواب {{bariatric surgery}}"
+  ],
+  "clues": [
+   [
+    "الـ{{BMI 41}}",
+    "يعني {{class III obesity}}"
+   ],
+   [
+    "السؤال {{initially}}",
+    "يعني فيه التباس، بس البنك يختار {{surgery}}"
+   ]
+  ],
+  "why": [
+   "لأن {{BMI > 40}} يحتاج {{bariatric surgery}} قبل الحمل",
+   "فـ هذا الجواب حسب مصدر البنك"
+  ],
+  "wrong": {
+   "1": "لأن {{lifestyle and exercise}} تكون معاها، بس لوحدها ما تكفي في {{BMI 41}} (وهذا اختيار ممكن لو السؤال {{initial}})",
+   "2": "لأن {{protein}} مو خطة {{weight loss}}"
+  },
+  "change": [
+   "لو {{BMI 30-35}} فـ {{lifestyle modification}}",
+   "لو {{BMI >= 40}} فـ {{bariatric surgery}}"
+  ],
+  "rule": "الـ{{BMI >= 40}} يعني {{bariatric surgery}}",
+  "note": "الجواب غير مؤكد 100%، لأن كلمة {{initially}} ممكن تدل على {{lifestyle modification}}؛ نبقي الجواب المعطى"
+ },
+ "A206": {
+  "idea": [
+   "سيدة {{30 years}} {{amenorrhea 6 weeks}} والسؤال {{initial test}}",
+   "فـ الجواب {{pregnancy test}}"
+  ],
+  "clues": [
+   [
+    "الـ{{amenorrhea}} عند سيدة بعمر الإنجاب",
+    "يعني أول شي نستبعد {{pregnancy}}"
+   ],
+   [
+    "السؤال {{initial test}}",
+    "يعني الأسهل والأهم أول"
+   ]
+  ],
+  "why": [
+   "لأن {{pregnancy}} أشهر سبب لـ{{secondary amenorrhea}}",
+   "فـ أي {{menstrual irregularity}} نبدأ بـ{{pregnancy test}}"
+  ],
+  "wrong": {
+   "0": "لأن {{TSH}} ييجي بعد استبعاد {{pregnancy}}",
+   "1": "لأن {{FSH}} يُطلب بعد استبعاد {{pregnancy}} لو نشك {{POI}}",
+   "3": "لأن {{pelvic ultrasound}} مو أول خطوة قبل {{pregnancy test}}"
+  },
+  "change": [
+   "لو {{pregnancy test negative}} فـ نطلب {{TSH and prolactin}}",
+   "لو {{high FSH}} فـ {{POI}}"
+  ],
+  "rule": "الـ{{amenorrhea}} نبدأ بـ{{pregnancy test}}"
+ },
+ "A207": {
+  "idea": [
+   "سيدة {{45 years}} {{35 weeks}} مجدولة {{C-section}} و{{BMI 31}}",
+   "فـ الجواب {{enoxaparin}} مع {{compression socks}}"
+  ],
+  "clues": [
+   [
+    "الـ{{C-section}}",
+    "يعني {{VTE risk}} أعلى"
+   ],
+   [
+    "{{age > 35}} و{{BMI 30+}}",
+    "يعني {{risk factors}} إضافية"
+   ]
+  ],
+  "why": [
+   "لأن {{cesarean}} مع {{obesity}} وعمر كبير يرفع خطر {{VTE}}",
+   "فـ نعطي {{LMWH}} مع {{mechanical prophylaxis}}"
+  ],
+  "wrong": {
+   "1": "لأن {{no prophylaxis}} يترك خطر {{VTE}} بدون حماية",
+   "2": "لأن {{early ambulation}} لوحده ما يكفي مع {{C-section + obesity}}",
+   "3": "لأن {{aspirin}} ما يعتبر {{VTE prophylaxis}} كافي"
+  },
+  "change": [
+   "لو {{vaginal delivery}} بدون عوامل خطر فـ {{early ambulation}}",
+   "لو {{previous DVT}} فـ {{LMWH}}"
+  ],
+  "rule": "الـ{{C-section + obesity}} يعني {{LMWH + compression socks}}"
+ },
+ "A208": {
+  "idea": [
+   "حامل {{40 years}} {{primigravida}} {{BMI 31}} بدون {{DVT}}",
+   "فـ الجواب {{early ambulation only}}"
+  ],
+  "clues": [
+   [
+    "ما في {{C-section}}",
+    "يعني ما نعطي {{heparin}} بشكل روتيني"
+   ],
+   [
+    "الـ{{BMI 31}} مو {{class III}}",
+    "يعني ما وصل حد {{LMWH}} (BMI 40)"
+   ]
+  ],
+  "why": [
+   "لأن {{LMWH}} بدون {{C-section}} ما يبغى إلا مع {{class III obesity (BMI >= 40)}} أو عوامل خطر قوية",
+   "فـ يكفي {{early ambulation}} و{{hydration}}"
+  ],
+  "wrong": {
+   "0": "لأن {{aspirin}} مو {{VTE prophylaxis}}",
+   "1": "لأن {{no anticoagulation}} قريب، بس البنك يختار {{early ambulation}} كخطوة وقائية",
+   "3": "لأن {{LMWH}} ما نعطيه لـ{{BMI 31}} بدون {{C-section}}"
+  },
+  "change": [
+   "لو {{BMI >= 40}} فـ {{LMWH}}",
+   "لو {{C-section}} فـ {{LMWH + compression socks}}"
+  ],
+  "rule": "الـ{{no C-section + BMI < 40}} يعني {{early ambulation}}",
+  "note": "الجواب المعطى {{early ambulation only}}؛ الـ{{age > 35}} و{{BMI > 30}} عوامل خطر وقد تغير القرار حسب الإرشادات"
+ },
+ "A209": {
+  "idea": [
+   "حامل {{40 years}} {{primigravida}} مع {{previous DVT}}",
+   "والجواب المعطى {{no anticoagulation}}"
+  ],
+  "clues": [
+   [
+    "عندها {{history of DVT}}",
+    "يعني عادة نفكر {{LMWH prophylaxis}}"
+   ],
+   [
+    "السؤال فيه صورة",
+    "يعني ما نقدر نتأكد من التفاصيل"
+   ]
+  ],
+  "why": [
+   "لأن البنك يختار {{no anticoagulation}} (مصدر البنك يقول احفظها)",
+   "فـ هذا الجواب حسب النسخة، والتفاصيل ناقصة"
+  ],
+  "wrong": {
+   "0": "لأن {{aspirin}} مو {{VTE prophylaxis}} كافي",
+   "1": "لأن {{heparin}} منطقي في {{previous DVT}} بس مو جواب البنك",
+   "2": "لأن {{enoxaparin}} منطقي في {{previous DVT}} بس مو جواب البنك"
+  },
+  "change": [
+   "لو {{previous DVT with thrombophilia}} فـ {{LMWH}}",
+   "لو {{provoked DVT with transient risk factor}} فـ ممكن {{surveillance}}"
+  ],
+  "rule": "الـ{{DVT}} السابق عادة {{LMWH}} إلا لو البنك يقول غير",
+  "note": "الجواب المعطى {{no anticoagulation}} يخالف الإرشادات عادةً لأن {{previous DVT}} يعني {{LMWH}}؛ السؤال فيه صورة ما أقدر أشوفها، فـ نبقي الجواب"
+ },
+ "A210": {
+  "idea": [
+   "سيدة {{59 years}} {{postmenopausal bleeding}} على {{tamoxifen}} و{{endometrial biopsy inadequate}}",
+   "فـ الجواب {{hysteroscopy and biopsy}}"
+  ],
+  "clues": [
+   [
+    "الـ{{tamoxifen}}",
+    "يعني خطر {{endometrial polyp / hyperplasia / cancer}}"
+   ],
+   [
+    "الـ{{biopsy inadequate}}",
+    "يعني نحتاج رؤية مباشرة"
+   ]
+  ],
+  "why": [
+   "لأن {{endometrial sampling}} غير كافي فـ نكمل بـ{{hysteroscopy with biopsy}}",
+   "فـ نشوف الـ{{cavity}} ونأخذ عينة مستهدفة"
+  ],
+  "wrong": {
+   "0": "لأن {{stopping tamoxifen}} ما يعطي تشخيص",
+   "1": "لأن {{hysterectomy}} سابق لأوانه بدون {{diagnosis}}",
+   "3": "لأن {{TVUS}} ما يعوض {{tissue diagnosis}}"
+  },
+  "change": [
+   "لو {{biopsy adequate and benign}} فـ نتابع",
+   "لو {{cancer}} فـ {{surgical staging}}"
+  ],
+  "rule": "الـ{{PMB on tamoxifen + inadequate biopsy}} يعني {{hysteroscopy and biopsy}}",
+  "note": "الجواب غالباً مؤكد حسب البنك"
+ },
+ "A211": {
+  "idea": [
+   "نفس السيدة {{59 years}} على {{tamoxifen}} مع {{PMB}} و{{inadequate biopsy}}",
+   "فـ الجواب {{hysteroscopy and biopsy}}"
+  ],
+  "clues": [
+   [
+    "لو بدأنا بـ{{endometrial sampling}} وهي على {{tamoxifen}}",
+    "يعني نكمل بـ{{hysteroscopy}}"
+   ],
+   [
+    "الـ{{NEXT step}}",
+    "يعني بعد العينة الغير كافية"
+   ]
+  ],
+  "why": [
+   "لأن على {{tamoxifen}} نكمل بـ{{hysteroscopy}} بعد {{sampling}}",
+   "فـ نحصل على {{direct visualization + targeted biopsy}}"
+  ],
+  "wrong": {
+   "0": "لأن {{stopping tamoxifen}} ما يحل المشكلة",
+   "1": "لأن {{hysterectomy}} قبل التشخيص غير مناسب",
+   "3": "لأن {{TVUS}} يُستخدم لو بدأنا بـ{{sampling}} في غير {{tamoxifen}}"
+  },
+  "change": [
+   "لو {{not on tamoxifen}} وبدأنا بـ{{sampling}} فـ نكمل بـ{{TVUS}}",
+   "لو بدأنا بـ{{TVUS}} فـ نكمل بـ{{sampling}}"
+  ],
+  "rule": "الـ{{tamoxifen}} بعد {{sampling}} يعني {{hysteroscopy}}"
+ },
+ "A212": {
+  "idea": [
+   "سيدة {{47 years}} {{AUB 6 months}} وتبغى {{OCP}}",
+   "فـ الجواب {{endometrial biopsy}}"
+  ],
+  "clues": [
+   [
+    "عمرها {{> 45}}",
+    "يعني {{endometrial sampling}} ضروري"
+   ],
+   [
+    "{{AUB 6 months}}",
+    "يعني نستبعد {{hyperplasia / cancer}} قبل العلاج"
+   ]
+  ],
+  "why": [
+   "لأن أي {{AUB}} بعد {{45 years}} يحتاج {{endometrial sampling}}",
+   "فـ نستبعد {{malignancy}} قبل نعطي {{OCP}}"
+  ],
+  "wrong": {
+   "0": "لأن {{FSH}} ما يستبعد {{endometrial pathology}}",
+   "1": "لأن {{LH}} ما له دور",
+   "2": "لأن {{pelvic US}} مفيد بس ما يغني عن {{sampling}} في هذا العمر"
+  },
+  "change": [
+   "لو عمرها {{< 45}} بدون عوامل خطر فـ ممكن نبدأ {{medical therapy}}",
+   "لو {{obesity or unopposed estrogen}} فـ {{sampling}} حتى لو أصغر"
+  ],
+  "rule": "الـ{{AUB > 45 years}} يعني {{endometrial biopsy}}"
+ },
+ "A213": {
+  "idea": [
+   "سيدة {{60 years}} {{postmenopausal bleeding 6 months}}",
+   "فـ الجواب {{endometrial biopsy}}"
+  ],
+  "clues": [
+   [
+    "الـ{{postmenopausal bleeding}}",
+    "يعني نستبعد {{endometrial cancer}}"
+   ],
+   [
+    "مهما كانت المدة أو الكمية",
+    "يعني كلها تحتاج {{sampling}}"
+   ]
+  ],
+  "why": [
+   "لأن أي {{PMB}} مؤشر لـ{{endometrial sampling}} بغض النظر عن الكمية",
+   "فـ {{endometrial biopsy}} هو الأسلوب التشخيصي"
+  ],
+  "wrong": {
+   "0": "لأن {{pelvic US}} ممكن نبدأ فيه، بس ما يعطي {{tissue diagnosis}}"
+  },
+  "change": [
+   "لو بدأنا بـ{{TVUS}} و{{endometrium <= 4 mm}} فـ ممكن نكتفي بـ{{observation}}",
+   "لو {{endometrium > 4 mm}} فـ {{biopsy}}"
+  ],
+  "rule": "الـ{{PMB}} يعني {{endometrial sampling}}"
+ },
+ "A214": {
+  "idea": [
+   "سيدة {{45 years}} {{heavy periods > 10 days}} و{{pregnancy test negative}} و{{normal US}}",
+   "فـ الجواب {{tranexamic acid}}"
+  ],
+  "clues": [
+   [
+    "الـ{{heavy menstrual bleeding}}",
+    "يعني {{AUB}} بدون سبب هيكلي"
+   ],
+   [
+    "الـ{{US normal}}",
+    "يعني {{AUB-O or AUB-E}}"
+   ]
+  ],
+  "why": [
+   "لأن {{tranexamic acid}} علاج {{non-hormonal}} فعال لـ{{heavy menstrual bleeding}}",
+   "فـ نستخدمه بدل أدوية الـ{{PPH}}"
+  ],
+  "wrong": {
+   "0": "لأن {{oxytocin}} علاج {{PPH}} مو {{AUB}}",
+   "1": "لأن {{carboprost}} علاج {{PPH}} مو {{AUB}}",
+   "2": "لأن {{misoprostol}} ما هو علاج {{AUB}} المعتاد"
+  },
+  "change": [
+   "لو {{acute heavy bleeding}} فـ {{IV estrogen or high-dose OCP}}",
+   "لو تبغى {{contraception}} فـ {{LNG-IUD or OCP}}"
+  ],
+  "rule": "الـ{{heavy menstrual bleeding}} يعني {{tranexamic acid}}"
+ },
+ "A215": {
+  "idea": [
+   "سيدة {{40 years}} {{vaginal bleeding 10 days}}",
+   "فـ الجواب {{misoprostol}} بالاستبعاد"
+  ],
+  "clues": [
+   [
+    "أدوية {{oxytocin and carboprost}}",
+    "يعني {{PPH}} مو {{AUB}}"
+   ],
+   [
+    "الـ{{mifepristone}}",
+    "يعني {{abortion / termination}} مو علاج {{AUB}}"
+   ]
+  ],
+  "why": [
+   "لأن بقية الخيارات أدوية {{PPH}} أو {{termination}}",
+   "فـ {{misoprostol}} هو الوحيد المعقول بالاستبعاد"
+  ],
+  "wrong": {
+   "0": "لأن {{oxytocin}} علاج {{PPH}}",
+   "1": "لأن {{carboprost}} علاج {{PPH}}",
+   "3": "لأن {{mifepristone}} يُستخدم في {{medical abortion}}"
+  },
+  "change": [
+   "لو {{acute AUB}} فـ {{IV estrogen}} أو {{OCP}} أو {{tranexamic acid}}",
+   "لو {{stable}} فـ {{TXA}} أو {{LNG-IUD}}"
+  ],
+  "rule": "الـ{{AUB}} الحاد عادة {{hormonal therapy}} أو {{tranexamic acid}}",
+  "note": "الجواب {{Probably Confirmed}} و{{misoprostol}} ما هو علاج معتاد لـ{{AUB}}، والجواب بالاستبعاد"
+ },
+ "A216": {
+  "idea": [
+   "سيدة {{postmenopausal bleeding}} والسؤال عن سماكة {{endometrium}}",
+   "فـ الجواب {{5 mm}}"
+  ],
+  "clues": [
+   [
+    "الـ{{PMB}} مع {{TVUS}}",
+    "يعني نحدد حد السماكة"
+   ],
+   [
+    "الحد في الـ{{bank}}",
+    "يعني {{> 5 mm}} نأخذ {{sampling}}"
+   ]
+  ],
+  "why": [
+   "لأن {{endometrial thickness > 4-5 mm}} في {{PMB}} يحتاج {{endometrial sampling}}",
+   "فـ نختار {{5 mm}} هنا"
+  ],
+  "wrong": {
+   "0": "لأن {{10 mm}} حد عالي وممكن يفوت حالات",
+   "1": "لأن {{2 mm}} حد واطي جداً",
+   "3": "لأن {{8 mm}} أعلى من الحد المقبول"
+  },
+  "change": [
+   "لو {{endometrium <= 4 mm}} فـ نكتفي بـ{{observation}}",
+   "لو {{recurrent bleeding}} فـ {{sampling}} حتى لو رقيق"
+  ],
+  "rule": "الـ{{PMB}} مع {{endometrium > 4-5 mm}} يعني {{sampling}}",
+  "note": "الإرشادات تستخدم {{4 mm}} حسب {{ACOG}} وبعضها {{5 mm}}؛ الجواب المعطى {{5 mm}}"
+ },
+ "A217": {
+  "idea": [
+   "سيدة {{30s}} {{heavy menstrual bleeding}} و{{13 mm polyp}} و{{Hb 7 g/dL}}",
+   "فـ الجواب {{hysteroscopic removal}}"
+  ],
+  "clues": [
+   [
+    "الـ{{polyp}}",
+    "يعني {{AUB-P}}"
+   ],
+   [
+    "الـ{{Hb 7}}",
+    "يعني {{anemia}} بس السؤال عن العلاج"
+   ]
+  ],
+  "why": [
+   "لأن علاج {{AUB-P}} هو {{hysteroscopic polypectomy}}",
+   "فـ هذا العلاج {{definitive}} وتحافظ على {{fertility}}"
+  ],
+  "wrong": {
+   "1": "لأن {{hysterectomy}} مبالغ فيه عند سيدة شابة",
+   "2": "لأن {{blood transfusion}} يكون {{supportive}} لو {{unstable}}، والعلاج النهائي هو {{polypectomy}}"
+  },
+  "change": [
+   "لو {{unstable or active bleeding}} فـ {{blood transfusion}} أولاً",
+   "لو {{atypia}} فـ نفكر {{hysterectomy}}"
+  ],
+  "rule": "الـ{{polyp}} مع {{AUB}} يعني {{hysteroscopic removal}}",
+  "note": "لو السؤال يقول {{initial}} فـ ممكن {{blood transfusion}}، بس هنا {{most appropriate management}}"
+ },
+ "A218": {
+  "idea": [
+   "سيدة {{PCOS}} مع {{hirsutism}} و{{irregular cycles}} وفشلت {{cosmetic treatments}}",
+   "فـ الجواب {{OCPs}}"
+  ],
+  "clues": [
+   [
+    "الـ{{PCOS}} مع {{irregular cycles and hirsutism}}",
+    "يعني نحتاج علاج هرموني"
+   ],
+   [
+    "فشلت {{cosmetic}}",
+    "يعني ننتقل لعلاج دوائي"
+   ]
+  ],
+  "why": [
+   "لأن {{OCPs}} خط أول في {{PCOS}} لأنها تنظم {{cycles}} وتخفف {{hirsutism}}",
+   "فـ {{estrogen}} يرفع {{SHBG}} ويقلل {{free androgens}}"
+  ],
+  "wrong": {
+   "0": "لأن {{finasteride}} ما هو الخط الأول لـ{{PCOS}}",
+   "1": "لأن {{metformin}} يفيد {{insulin resistance}} بس أضعف في {{hirsutism}}",
+   "2": "لأن {{cyproterone acetate}} {{anti-androgen}} يُستخدم مع {{OCP}} أو بعد فشلها، مو أول خيار"
+  },
+  "change": [
+   "لو تبغى {{pregnancy}} فـ {{letrozole}}",
+   "لو فشلت {{OCP}} بعد {{6 months}} فـ نضيف {{spironolactone}}"
+  ],
+  "rule": "الـ{{PCOS}} مع {{hirsutism + irregular cycles}} يعني {{OCPs}}"
+ },
+ "A219": {
+  "idea": [
+   "سيدة {{25 years}} {{AUB}} و{{atypical complex hyperplasia}}",
+   "فـ الجواب {{oral progesterone}}"
+  ],
+  "clues": [
+   [
+    "الـ{{atypical complex hyperplasia}}",
+    "يعني عادة {{hysterectomy}}"
+   ],
+   [
+    "عمرها {{25}}",
+    "يعني نحافظ على {{fertility}} بـ{{progesterone}}"
+   ]
+  ],
+  "why": [
+   "لأن {{hysterectomy}} مو مناسب لسيدة شابة تبغى {{fertility}}",
+   "فـ نعطي {{progestin therapy}} مع {{close follow-up}}"
+  ],
+  "wrong": {
+   "0": "لأن {{tamoxifen}} يزيد خطر {{endometrial hyperplasia}}",
+   "1": "لأن {{hysterectomy}} هو {{definitive}} بس مو {{appropriate}} لعمر {{25}}",
+   "3": "لأن {{endometrial ablation}} ما يعالج {{atypia}} وممكن يخفي {{cancer}}"
+  },
+  "change": [
+   "لو السؤال {{definitive}} فـ {{hysterectomy}}",
+   "لو {{hyperplasia without atypia}} فـ {{progesterone}}"
+  ],
+  "rule": "الـ{{atypia}} مع شابة تبغى {{fertility}} يعني {{progestin}}"
+ },
+ "A220": {
+  "idea": [
+   "سيدة {{32 years}} {{obese}} {{chronic anovulation}} و{{atypical complex hyperplasia}}",
+   "والجواب المعطى {{oral progesterone}}"
+  ],
+  "clues": [
+   [
+    "الـ{{atypical hyperplasia}}",
+    "يعني الأصح {{hysterectomy}} (غير موجود)"
+   ],
+   [
+    "السؤال {{definitive}}",
+    "يعني {{progesterone}} مو definitive فعلاً"
+   ]
+  ],
+  "why": [
+   "لأن بقية الخيارات ما لها معنى هنا",
+   "فـ {{oral progesterone}} هو الأقرب بالاستبعاد"
+  ],
+  "wrong": {
+   "0": "لأن {{letrozole}} ما هو علاج {{atypical hyperplasia}}",
+   "1": "لأن {{tamoxifen}} يزيد خطر {{endometrial pathology}}",
+   "2": "لأن {{spironolactone}} علاج {{hirsutism}} مو {{hyperplasia}}"
+  },
+  "change": [
+   "لو فيه خيار {{hysterectomy}} فـ هو الأفضل",
+   "لو تبغى {{fertility}} فـ {{progestin}} مع {{follow-up}}"
+  ],
+  "rule": "الـ{{atypia}} مع {{definitive treatment}} يعني {{hysterectomy}}، بس هنا بالاستبعاد",
+  "note": "الجواب المعطى {{oral progesterone}} بالاستبعاد؛ لو فيه {{hysterectomy}} كان أفضل. المفروض نعتبره غير دقيق"
+ },
+ "A221": {
+  "idea": [
+   "سيدة {{42 years}} {{AUB}} و{{endometrium 13 mm}} مع {{2.2 x 1 cm lesion}} وفي الـ{{biopsy}} {{normal}}",
+   "فـ الجواب {{sonohysterogram}}"
+  ],
+  "clues": [
+   [
+    "فيه {{lesion in cavity}}",
+    "يعني {{polyp or submucosal fibroid}} محتمل"
+   ],
+   [
+    "الـ{{biopsy normal}}",
+    "يعني ما يستبعد {{focal lesion}}"
+   ]
+  ],
+  "why": [
+   "لأن {{blind biopsy}} ممكن يفوت {{focal lesion}}",
+   "فـ نستخدم {{saline infusion sonohysterography}} لتوصيف الـ{{lesion}}"
+  ],
+  "wrong": {
+   "1": "لأن {{examination under anesthesia}} ما يشخص {{intracavitary lesion}}",
+   "2": "لأن {{MRI}} ما هو الخطوة الأولى لهذا",
+   "3": "لأن {{Hb and coagulopathy screening}} مفيد بس ما يحدد {{lesion}}"
+  },
+  "change": [
+   "لو {{lesion confirmed}} فـ {{hysteroscopic resection}}",
+   "لو {{bleeding diathesis suspected}} فـ {{coagulation screen}}"
+  ],
+  "rule": "الـ{{focal lesion + normal biopsy}} يعني {{sonohysterogram or hysteroscopy}}",
+  "note": "خيار {{hysteroscopy}} غير موجود؛ الجواب المعطى {{sonohysterogram}}"
+ },
+ "A222": {
+  "idea": [
+   "سيدة {{43 years}} {{intermenstrual bleeding}} و{{13 mm echogenic structure}} في {{endometrium}}",
+   "فـ الجواب {{hysteroscopy and removal}}"
+  ],
+  "clues": [
+   [
+    "{{echogenic structure}} في {{cavity}}",
+    "يعني {{endometrial polyp}}"
+   ],
+   [
+    "مع أعراض {{AUB}}",
+    "يعني نعالج بـ{{removal}}"
+   ]
+  ],
+  "why": [
+   "لأن {{symptomatic polyp}} يُعالج بـ{{hysteroscopic polypectomy}}",
+   "فـ نشخص ونعالج بنفس الوقت ونرسل {{histology}}"
+  ],
+  "wrong": {
+   "0": "لأن {{endometrial sample}} ممكن يفوت {{polyp}}",
+   "1": "لأن {{repeat ultrasound}} يضيع وقت مع أعراض",
+   "2": "لأن {{cyclic progesterone}} ما يعالج {{polyp}}"
+  },
+  "change": [
+   "لو {{asymptomatic small polyp}} فـ ممكن {{observation}}",
+   "لو {{atypia on histology}} فـ {{hysterectomy}} حسب العمر"
+  ],
+  "rule": "الـ{{symptomatic polyp}} يعني {{hysteroscopic removal}}"
+ },
+ "A223": {
+  "idea": [
+   "حامل {{13 weeks}} مع {{painless cervical dilation at 18 weeks}} في الحمل السابق",
+   "فـ الجواب {{cervical cerclage}}"
+  ],
+  "clues": [
+   [
+    "إجهاض {{second trimester}} بدون ألم",
+    "يعني {{cervical insufficiency}}"
+   ],
+   [
+    "حمل جديد {{13 weeks}}",
+    "يعني {{history-indicated cerclage}} في {{12-14 weeks}}"
+   ]
+  ],
+  "why": [
+   "لأن {{painless dilation}} مع {{mid-trimester loss}} يدل على {{cervical insufficiency}}",
+   "فـ العلاج {{cerclage}}"
+  ],
+  "wrong": {
+   "0": "لأن {{folic acid}} ما يمنع {{cervical insufficiency}}",
+   "1": "لأن {{aspirin}} ما يعالج {{cervical insufficiency}}"
+  },
+  "change": [
+   "لو {{short cervix < 25 mm}} فـ {{progesterone or cerclage}}",
+   "لو {{advanced dilation}} فـ {{rescue cerclage}}"
+  ],
+  "rule": "الـ{{painless mid-trimester loss}} يعني {{cerclage}}"
+ },
+ "A224": {
+  "idea": [
+   "حامل مع {{2 preterm deliveries}} و{{vaginal spotting}}",
+   "فـ الجواب {{progesterone}}"
+  ],
+  "clues": [
+   [
+    "تاريخ {{preterm delivery}}",
+    "يعني {{progesterone}} للوقاية"
+   ],
+   [
+    "الـ{{spotting}}",
+    "يعني ما في سبب يمنع {{progesterone}}"
+   ]
+  ],
+  "why": [
+   "لأن {{progesterone}} يقلل خطر {{recurrent preterm birth}}",
+   "فـ هو الخيار الصحيح"
+  ],
+  "wrong": {
+   "0": "لأن {{estrogen}} ما يمنع {{preterm birth}}",
+   "2": "لأن {{magnesium sulphate}} {{neuroprotection}} عند {{imminent preterm delivery}} مو وقاية",
+   "3": "لأن {{folic acid}} ما يمنع {{preterm birth}}"
+  },
+  "change": [
+   "لو {{short cervix}} فـ {{vaginal progesterone}}",
+   "لو {{preterm labor}} فـ {{tocolysis and steroids}}"
+  ],
+  "rule": "الـ{{previous preterm birth}} يعني {{progesterone}}",
+  "note": "السؤال ناقص التفاصيل وفيه {{spotting}} والجواب المعطى {{progesterone}}"
+ },
+ "A225": {
+  "idea": [
+   "حامل {{32 weeks}} {{preterm labor}} والسؤال عن تقليل الخطر",
+   "فـ الجواب {{progesterone}}"
+  ],
+  "clues": [
+   [
+    "الوقاية من {{preterm labor}}",
+    "يعني {{progesterone}}"
+   ],
+   [
+    "{{exercise / fluid restriction}}",
+    "يعني ما لها دور"
+   ]
+  ],
+  "why": [
+   "لأن {{progesterone}} يقلل خطر {{preterm birth}} عند الفئة المعرضة",
+   "فـ باقي الخيارات غلط أو ما لها فايدة"
+  ],
+  "wrong": {
+   "0": "لأن {{high intensity exercise}} ما يقوي {{uterus}} ولا يمنع {{preterm labor}}",
+   "2": "لأن {{fluid restriction}} ما يمنع {{preterm labor}}",
+   "3": "لأن {{waiting until pain is severe}} خطر ويتأخر العلاج"
+  },
+  "change": [
+   "لو {{preterm labor active}} فـ {{tocolysis + antenatal steroids}}",
+   "لو {{short cervix}} فـ {{vaginal progesterone}}"
+  ],
+  "rule": "الـ{{prevention of preterm birth}} يعني {{progesterone}}",
+  "note": "السؤال غير دقيق لأن {{progesterone}} للوقاية ما يعطى لمن هي أصلاً في {{preterm labor}} فعلية"
+ }
+}

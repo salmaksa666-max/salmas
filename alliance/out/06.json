@@ -1,0 +1,783 @@
+{
+ "A126": {
+  "idea": [
+   "سيدة {{primigravida at 39 weeks}} والجنين {{estimated weight at 8th percentile}}",
+   "السؤال عن أفضل مراقبة أثناء الولادة"
+  ],
+  "clues": [
+   [
+    "لأن {{8th percentile}}",
+    "يعني {{small for gestational age, suspected FGR}}"
+   ],
+   [
+    "فـ الجنين",
+    "{{high-risk fetus}}"
+   ],
+   [
+    "يعني الجواب",
+    "{{continuous electronic fetal monitoring}}"
+   ]
+  ],
+  "why": [
+   "لأن الجنين صغير فهو {{high risk for uteroplacental insufficiency}} وما يتحمل الانقباضات",
+   "فـ نستعمل {{continuous CTG}} أثناء الولادة",
+   "يعني نكتشف {{late decelerations or loss of variability}} بسرعة"
+  ],
+  "wrong": {
+   "0": "لأن {{maternal vital signs}} لازم بس ما تراقب حالة الجنين",
+   "1": "لأن {{intermittent auscultation}} للحمل {{low risk}} فقط وهذا الجنين {{high risk}}"
+  },
+  "change": [
+   "لو {{normal growth at 50th percentile and low-risk}} نكتفي بـ{{intermittent auscultation}}",
+   "لو {{abnormal Doppler or oligohydramnios}} فكل ذلك يؤكد {{continuous CTG}} أكثر"
+  ],
+  "rule": "الـ{{SGA/FGR}} في الولادة يعني {{continuous electronic fetal monitoring}}",
+  "note": "الـ{{8th percentile}} حسب البنك يعامل كـ{{high risk}} وإن كان تعريف {{FGR}} الصارم تحت {{3rd}} أو {{10th}} مع {{abnormal Doppler}}."
+ },
+ "A127": {
+  "idea": [
+   "حمل {{low risk uncomplicated}} جاية للولادة",
+   "السؤال عن أفضل مراقبة لسلامة الأم والجنين"
+  ],
+  "clues": [
+   [
+    "لأن {{low risk}}",
+    "يعني {{intermittent auscultation}} يكفي"
+   ],
+   [
+    "وسلامة الجنين",
+    "نراقبها بـ{{fetal heart rate}}"
+   ]
+  ],
+  "why": [
+   "لأن الجنين يحتاج مراقبة خاصة والجواب هو {{intermittent fetal heart monitoring}}",
+   "فـ في {{low risk}} نسمع {{FHR}} كل فترة (كل 15 إلى 30 دقيقة في {{active phase}})",
+   "يعني ما نحتاج {{continuous CTG}}"
+  ],
+  "wrong": {
+   "0": "لأن {{maternal pulse and BP}} تراقب الأم بس مو الجنين",
+   "1": "لأن {{uterine contractions}} تتابع الولادة بس ما تقيّم الجنين مباشرة",
+   "2": "لأن {{early identification of complications}} هدف عام مو طريقة مراقبة محددة"
+  },
+  "change": [
+   "لو {{high risk pregnancy}} نستعمل {{continuous electronic fetal monitoring}}",
+   "لو ظهرت {{abnormal FHR on auscultation}} نحوّل لـ{{continuous CTG}}"
+  ],
+  "rule": "الـ{{low risk labor}} يعني {{intermittent fetal heart monitoring}}"
+ },
+ "A128": {
+  "idea": [
+   "سيدة حملها السابق {{IUGR}} وطفل {{1.6 kg at term}}",
+   "الحين {{20 weeks}} والسؤال عن أفضل متابعة للنمو"
+  ],
+  "clues": [
+   [
+    "لأن {{previous IUGR}}",
+    "يعني {{high risk for recurrence}}"
+   ],
+   [
+    "وأفضل طريقة",
+    "{{serial growth ultrasound}} (من 26 أسبوع تقريباً)"
+   ]
+  ],
+  "why": [
+   "لأن تشخيص {{IUGR}} يتم بـ{{serial ultrasound for growth}} فهو الجواب",
+   "فـ حسب {{RCOG}} نبدأ {{serial growth scans}} عند {{26 weeks}}",
+   "يعني الـ{{Doppler}} و{{BPP}} للمتابعة بعد التشخيص مو للتشخيص"
+  ],
+  "wrong": {
+   "1": "لأن {{uterine artery Doppler}} هو اللي يفحص عند {{20 weeks}} لكن {{umbilical artery Doppler}} ما يغير المتابعة بدري",
+   "2": "لأن {{BPP}} يقيّم صحة الجنين المشخّص مو النمو، ويستخدم مع الـ{{growth scan}}"
+  },
+  "change": [
+   "لو {{IUGR}} مؤكد بالـ{{ultrasound}} نضيف {{umbilical artery Doppler}} و{{BPP}} للمتابعة",
+   "لو {{normal growth}} نكمل {{routine care}}"
+  ],
+  "rule": "الـ{{previous IUGR}} يعني {{serial growth ultrasounds}} من {{26 weeks}}",
+  "note": "الـ{{source note}} مرتبك: يذكر {{Doppler}} عند {{20 weeks}} للفحص، لكن الجواب المعطى {{serial ultrasound}} وهو الأنسب للتشخيص."
+ },
+ "A129": {
+  "idea": [
+   "الـ{{G2P1 at 33 weeks}} مع {{decreased fetal movement}} وسوّينا {{BPP}}",
+   "السؤال عن أكثر نتيجة مطمئنة"
+  ],
+  "clues": [
+   [
+    "لأن {{BPP}} طبيعي",
+    "يعني {{8/10 or 10/10}}"
+   ],
+   [
+    "و{{12/12}} أو {{9/10}}",
+    "يعني ما يوجد مثل هذي الدرجات"
+   ]
+  ],
+  "why": [
+   "لأن {{BPP}} يعطي {{8 to 10}} كطبيعي، و{{6}} {{equivocal}}، و{{4 or less}} {{abnormal}}",
+   "فـ {{8/10}} هو الخيار الموجود الطبيعي",
+   "يعني {{9/10}} و{{12/12}} غير موجودين في الواقع"
+  ],
+  "wrong": {
+   "0": "لأن {{6/10}} هو {{equivocal}} ونعيده",
+   "2": "لأن ما في درجة {{9/10}} في {{BPP}} (الدرجات زوجية)",
+   "3": "لأن الدرجة العظمى {{10}} مو {{12}}"
+  },
+  "change": [
+   "لو {{BPP 6/10}} نعيد الفحص خلال {{24 hours}} أو نولّد حسب العمر",
+   "لو {{4/10 or less}} فنفكر في {{delivery}}"
+  ],
+  "rule": "الـ{{BPP}} الطبيعي يعني {{8 to 10}}",
+  "note": "الاختيارات {{9/10}} و{{12/12}} غير ممكنة أصلاً، فالجواب {{8/10}} كأفضل خيار موجود."
+ },
+ "A130": {
+  "idea": [
+   "سيدة {{36 weeks}} مع {{reduced fetal movements}}",
+   "السؤال عن أنسب خطوة تالية"
+  ],
+  "clues": [
+   [
+    "لأن {{decreased fetal movement}}",
+    "يعني نبدأ بـ{{CTG}}"
+   ],
+   [
+    "وبعده",
+    "لو غير مطمئن نكمل {{BPP}}"
+   ]
+  ],
+  "why": [
+   "لأن الخطوة الأولى هي {{CTG (non-stress test)}} لتقييم الجنين",
+   "فـ لو {{reactive}} فهو مطمئن",
+   "يعني لو ما اتضح نضيف {{BPP or ultrasound}}"
+  ],
+  "wrong": {
+   "1": "لأن {{ultrasound}} يجي بعد الـ{{CTG}} (لتقييم السائل والنمو)",
+   "2": "لأن {{kick chart}} للمتابعة بالبيت بعد الاطمئنان مو للتقييم الحاد",
+   "3": "لأن {{BPP}} يجي بعد {{CTG}} غير طبيعي أو مع الـ{{ultrasound}}"
+  },
+  "change": [
+   "لو {{CTG non-reactive}} نسوي {{BPP}} و{{ultrasound}}",
+   "لو {{CTG normal}} نعطيها {{fetal kick chart}} ونرجعها للبيت"
+  ],
+  "rule": "الـ{{decreased fetal movement}} أول شي {{CTG}}"
+ },
+ "A131": {
+  "idea": [
+   "الـ{{nulliparous at 34 weeks}} تشتكي من {{decreased fetal movement}}",
+   "ما في {{leaking}} ولا {{contractions}} ولا {{bleeding}}"
+  ],
+  "clues": [
+   [
+    "لأن {{decreased FM}}",
+    "يعني {{non-stress test}} أول شي"
+   ],
+   [
+    "وما في أعراض ثانية",
+    "يعني ما نحتاج {{pelvic exam}}"
+   ]
+  ],
+  "why": [
+   "لأن {{NST}} هو الفحص الأول والأبسط لتقييم {{fetal well-being}}",
+   "فـ لو {{reactive}} نطمنها",
+   "يعني لو {{non-reactive}} نكمل {{BPP}}"
+  ],
+  "wrong": {
+   "1": "لأن {{BPP}} يجي بعد {{non-reactive NST}}",
+   "2": "لأن ما في {{leaking}} ولا {{contractions}} فما في داعي {{pelvic exam}}",
+   "3": "لأن {{vibroacoustic stimulation}} يستعمل لو {{NST non-reactive}} مو كأول خطوة"
+  },
+  "change": [
+   "لو {{NST non-reactive}} نسوي {{vibroacoustic stimulation}} أو {{BPP}}",
+   "لو {{vaginal bleeding}} نسوي {{ultrasound}} قبل أي فحص مهبلي"
+  ],
+  "rule": "الـ{{decreased fetal movement}} يعني {{NST}} أول"
+ },
+ "A132": {
+  "idea": [
+   "الـ{{35 weeks}} مع {{decreased fetal movement}} والـ{{CTG}} فيه {{poor variability}}",
+   "بعد ساعة وسوائل {{IV}} تحسن {{CTG}} وصار {{good variability}}"
+  ],
+  "clues": [
+   [
+    "لأن {{CTG improved}}",
+    "يعني الجنين مطمئن"
+   ],
+   [
+    "و{{35 weeks}}",
+    "فـ لا {{induction}} ولا {{cesarean}}"
+   ]
+  ],
+  "why": [
+   "لأن {{CTG}} رجع طبيعي فـ نرجعها البيت مع {{fetal kick chart}}",
+   "فـ ما في سبب للتدخل",
+   "يعني نشرح لها متى ترجع لو قلت الحركة"
+  ],
+  "wrong": {
+   "0": "لأن {{CTG}} طبيعي ما نحتاج نبقيها {{observation}} أطول",
+   "1": "لأن ما في {{non-reassuring status}} يستدعي {{cesarean section}}",
+   "2": "لأن {{induction}} غير مناسب في {{35 weeks}} مع {{reassuring CTG}}"
+  },
+  "change": [
+   "لو {{41 weeks}} فـ {{induction}} هو الجواب",
+   "لو {{CTG remained abnormal}} نكمل {{BPP}} ونفكر في {{delivery}}"
+  ],
+  "rule": "الـ{{normalized CTG}} بعد {{DFM}} يعني {{discharge with kick chart}}"
+ },
+ "A133": {
+  "idea": [
+   "الـ{{29 weeks}} ما حست بحركة {{1 day}}، و{{FHR}} موجود، {{NST reactive}} و{{BPP 8}}",
+   "السؤال عن الخطوة التالية"
+  ],
+  "clues": [
+   [
+    "لأن {{NST reactive}} و{{BPP 8}}",
+    "يعني الجنين مطمئن"
+   ],
+   [
+    "فـ المتابعة",
+    "{{BPP in 1 week}}"
+   ]
+  ],
+  "why": [
+   "لأن كل الفحوصات طبيعية فـ ما في داعي للتدخل",
+   "فـ نعيد {{BPP}} بعد أسبوع كمتابعة",
+   "يعني نكمل {{fetal movement counting}}"
+  ],
+  "wrong": {
+   "0": "لأن ما في سبب لـ{{urgent delivery}} في {{29 weeks}} مع فحوصات طبيعية",
+   "1": "لأن {{contraction stress test}} قديم وما يستعمل حالياً",
+   "3": "لأن {{steroids}} تعطى لو توقعنا ولادة قريبة وهذا غير موجود هنا"
+  },
+  "change": [
+   "لو {{BPP 4 or less}} فنفكر في {{delivery and steroids}}",
+   "لو {{NST non-reactive}} نكمل {{BPP}} خلال {{24 hours}}"
+  ],
+  "rule": "الـ{{normal NST and BPP}} يعني {{repeat BPP in 1 week}}",
+  "note": "هذا السؤال استثناء حسب البنك، الـ{{BPP}} هنا جواب صحيح."
+ },
+ "A134": {
+  "idea": [
+   "حمل {{38 weeks}} مع {{IUGR}} و{{oligohydramnios}}",
+   "السؤال عن الإدارة"
+  ],
+  "clues": [
+   [
+    "لأن {{IUGR}}",
+    "يعني نولّد بدري"
+   ],
+   [
+    "و{{oligohydramnios}}",
+    "ليس {{indication}} لـ{{cesarean}} لحاله"
+   ]
+  ],
+  "why": [
+   "لأن {{IUGR with oligohydramnios}} يعني {{planned early delivery}} مع {{fetal monitoring}}",
+   "فـ ننتظر ولادة طبيعية بـ{{induction}} لو الجنين يتحمل",
+   "يعني ما نترك الحمل يكمل لـ{{term}}"
+  ],
+  "wrong": {
+   "1": "لأن الانتظار للولادة التلقائية يعرّض الجنين لـ{{stillbirth}}",
+   "2": "لأن {{oligohydramnios}} وحده ما يستدعي {{cesarean}}"
+  },
+  "change": [
+   "لو {{non-reassuring CTG or absent end-diastolic flow}} فنفكر في {{cesarean}}",
+   "لو {{IUGR}} مع {{normal fluid and Doppler}} نولّد عند {{38 to 39 weeks}}"
+  ],
+  "rule": "الـ{{IUGR with oligohydramnios}} يعني {{monitoring and early induction}}"
+ },
+ "A135": {
+  "idea": [
+   "الـ{{stillbirth}} بعد الولادة",
+   "السؤال عن أفضل عينة لـ{{chromosomal analysis}}"
+  ],
+  "clues": [
+   [
+    "لأن الجنين {{delivered}}",
+    "يعني نأخذ {{placental tissue}}"
+   ],
+   [
+    "والسبب",
+    "{{higher culture success rate}}"
+   ]
+  ],
+  "why": [
+   "لأن {{placental tissue}} أفضل عينة للتحليل بعد الولادة",
+   "فـ زراعتها تنجح أكثر لأن الخلايا حية",
+   "يعني أقل {{culture failure}} من عينات الجنين الميت"
+  ],
+  "wrong": {
+   "0": "لأن {{umbilical cord}} أقل نجاحاً في الزراعة",
+   "1": "لأن {{amniotic fluid}} يؤخذ لو لم تتم الولادة بعد",
+   "2": "لأن {{fetal cord blood}} غالباً متخثر أو ملوث في {{stillbirth}}"
+  },
+  "change": [
+   "لو {{not yet delivered}} نأخذ {{amniocentesis}}",
+   "لو {{fetal anomalies}} نضيف {{autopsy}} و{{microarray}}"
+  ],
+  "rule": "الـ{{delivered stillbirth}} يعني {{placental tissue}}"
+ },
+ "A136": {
+  "idea": [
+   "الـ{{G1P0 at 28 weeks}} و{{absent fetal heartbeat}} وما زال ما ولدت",
+   "السؤال عن أفضل عينة لـ{{chromosomal analysis}}"
+  ],
+  "clues": [
+   [
+    "لأن {{not delivered}}",
+    "يعني {{amniotic fluid}}"
+   ],
+   [
+    "و{{IUFD}}",
+    "يتشخص بالـ{{ultrasound}}"
+   ]
+  ],
+  "why": [
+   "لأن قبل الولادة الجنين ما زال بالرحم فنستعمل {{amniocentesis}}",
+   "فـ الـ{{placenta}} بعد الولادة بس",
+   "يعني الجواب {{amniotic fluid}}"
+  ],
+  "wrong": {
+   "0": "لأن {{umbilical cord sampling}} ما يتوفر قبل الولادة",
+   "2": "لأن {{fetal blood sampling}} غير عملي في الجنين الميت",
+   "3": "لأن {{placental tissue}} للحالة بعد الولادة"
+  },
+  "change": [
+   "لو {{delivered}} فـ {{placental tissue}}",
+   "لو {{live fetus with anomalies}} نسوي {{amniocentesis or CVS}}"
+  ],
+  "rule": "الـ{{undelivered IUFD}} يعني {{amniocentesis}}، وبعد الولادة {{placenta}}"
+ },
+ "A137": {
+  "idea": [
+   "الـ{{18 weeks}} مع {{decreased fetal movement}} وما في {{heartbeat}}",
+   "الزيارة السابقة كانت طبيعية"
+  ],
+  "clues": [
+   [
+    "لأن {{absent FHR on Doppler}}",
+    "يعني نؤكد بالـ{{ultrasound}}"
+   ],
+   [
+    "و{{next step}}",
+    "يعني {{USG abdomen}}"
+   ]
+  ],
+  "why": [
+   "لأن غياب {{heartbeat}} بالـ{{Doppler}} لازم يتأكد بـ{{ultrasound imaging}}",
+   "فـ هذي أول خطوة تشخيصية",
+   "يعني بعدها نقرر العينات والإدارة"
+  ],
+  "wrong": {
+   "0": "لأن {{amniocentesis}} للتحليل الوراثي بعد تأكيد {{IUFD}}",
+   "1": "لأن {{placental sampling}} بعد الولادة",
+   "2": "لأن {{umbilical tissue}} بعد الولادة"
+  },
+  "change": [
+   "لو {{IUFD confirmed}} نسوي {{induction}} ونرسل {{genetic testing}}",
+   "لو {{heartbeat present}} نكمل {{NST and follow-up}}"
+  ],
+  "rule": "الـ{{absent Doppler FHR}} يعني {{confirm with ultrasound}} أول"
+ },
+ "A138": {
+  "idea": [
+   "حمل {{26 weeks}} و{{IUFD}} (ثبت عند {{24 weeks}})",
+   "ما في {{previous cesarean}}"
+  ],
+  "clues": [
+   [
+    "لأن {{IUFD}}",
+    "يعني {{induction of labor}}"
+   ],
+   [
+    "و{{no previous CS}}",
+    "يعني {{misoprostol}}"
+   ]
+  ],
+  "why": [
+   "لأن {{misoprostol}} هو الاختيار الأول لـ{{induction}} في {{IUFD}} بدون {{uterine scar}}",
+   "فـ فعال وبسيط ورخيص",
+   "يعني نستعمله قبل وبعد {{28 weeks}}"
+  ],
+  "wrong": {
+   "0": "لأن {{oxytocin}} أقل فعالية لو {{cervix unfavorable}} في الحمل المبكر",
+   "2": "لأن {{mifepristone}} يستعمل مع {{misoprostol}} مو لوحده",
+   "3": "لأن {{dinoprostone}} أغلى وأقل شيوعاً، {{misoprostol}} مفضّل"
+  },
+  "change": [
+   "لو {{previous cesarean and over 28 weeks}} نستعمل {{oxytocin}}",
+   "لو {{previous cesarean and under 24 weeks}} نستعمل {{misoprostol}} بجرعة منخفضة"
+  ],
+  "rule": "الـ{{IUFD without scar}} يعني {{misoprostol}}"
+ },
+ "A139": {
+  "idea": [
+   "حمل {{26 weeks}} و{{IUFD}} عند {{24 weeks}}",
+   "عندها {{previous cesarean section}}"
+  ],
+  "clues": [
+   [
+    "لأن {{previous CS}}",
+    "يعني ننتبه لـ{{uterine rupture}}"
+   ],
+   [
+    "و{{24 to 28 weeks}}",
+    "يعني {{misoprostol}} مقبول حسب {{ACOG and RCOG}}"
+   ]
+  ],
+  "why": [
+   "لأن الحمل بين {{24 and 28 weeks}} فـ {{misoprostol}} مقبول حسب الإرشادات",
+   "فـ نستعمل جرعة منخفضة مع مراقبة",
+   "يعني فوق {{28 weeks}} نتحول لـ{{oxytocin}}"
+  ],
+  "wrong": {
+   "0": "لأن {{oxytocin}} يفضل لو فوق {{28 weeks}} مع {{scar}}",
+   "2": "لأن {{mifepristone}} لا يستعمل لوحده",
+   "3": "لأن {{dinoprostone}} فيه خطر {{uterine rupture}} مع {{scar}}"
+  },
+  "change": [
+   "لو {{over 28 weeks}} فـ {{oxytocin}}",
+   "لو {{under 24 weeks}} فـ {{misoprostol}}"
+  ],
+  "rule": "الـ{{IUFD with previous CS at 24 to 28 weeks}} يعني {{misoprostol}} (فيه جدل)",
+  "note": "الاستخدام في {{24 to 28 weeks}} مع {{scar}} فيه جدل، والجواب المعطى {{misoprostol}} حسب {{ACOG and RCOG}}."
+ },
+ "A140": {
+  "idea": [
+   "الـ{{33-year-old}} مع {{2 consecutive early pregnancy losses}}",
+   "السؤال عن السبب"
+  ],
+  "clues": [
+   [
+    "لأن {{recurrent early loss}}",
+    "يعني {{APS}} من الأسباب القابلة للعلاج"
+   ],
+   [
+    "و{{cervical insufficiency}}",
+    "يسبب فقدان في {{second trimester}}"
+   ]
+  ],
+  "why": [
+   "لأن {{antiphospholipid syndrome}} سبب معروف لـ{{recurrent early pregnancy loss}}",
+   "فـ نفحصه لو {{2 or more losses}}",
+   "يعني {{cervical insufficiency}} يتأخر للثلث الثاني"
+  ],
+  "wrong": {
+   "1": "لأن {{cervical insufficiency}} يسبب فقدان في {{second trimester}} مو مبكراً"
+  },
+  "change": [
+   "لو {{second trimester painless dilation}} فـ {{cervical insufficiency}}",
+   "لو {{karyotype abnormal}} فـ {{chromosomal cause}}"
+  ],
+  "rule": "الـ{{recurrent early loss}} يعني {{APS}} (ضمن الخيارات)",
+  "note": "الأكثر شيوعاً {{fetal aneuploidy}} لكنها غير موجودة في الخيارات، فالجواب {{APS}}."
+ },
+ "A141": {
+  "idea": [
+   "الـ{{33-year-old}} مع {{2 early losses}} والحين {{6 weeks}} بدون {{FHR}}",
+   "السؤال عن سبب الإجهاض المتكرر المبكر"
+  ],
+  "clues": [
+   [
+    "لأن {{3 miscarriages}}",
+    "يعني {{recurrent pregnancy loss}}"
+   ],
+   [
+    "والسبب القابل للفحص",
+    "{{antiphospholipid syndrome}}"
+   ]
+  ],
+  "why": [
+   "لأن {{APS}} سبب مهم ومعالج لـ{{recurrent early loss}}",
+   "فـ الجواب المعطى {{APS}}",
+   "يعني {{cervical incompetence}} مو سبب مبكر"
+  ],
+  "wrong": {
+   "1": "لأن {{cervical incompetence}} سببه {{second trimester loss}}",
+   "2": "لأن {{chromosomal abnormalities}} أشيع سبب عام لكن البنك اختار {{APS}}"
+  },
+  "change": [
+   "لو {{second trimester loss}} فـ {{cervical insufficiency}}",
+   "لو {{isolated sporadic loss}} فالأرجح {{aneuploidy}}"
+  ],
+  "rule": "الـ{{recurrent early loss}} في هالبنك يعني {{APS}}",
+  "note": "الـ{{Probably Confirmed}} فقط، وفيه احتمال أن الخيار الصحيح {{chromosomal abnormalities}} (الأشيع)، لكن نبقي {{APS}}."
+ },
+ "A142": {
+  "idea": [
+   "الـ{{33-year-old}} مع {{2 early losses}} والحين {{6 weeks}} بدون {{FHR}}",
+   "السؤال عن سبب الإجهاض المتكرر"
+  ],
+  "clues": [
+   [
+    "لأن {{3 losses}}",
+    "يعني {{recurrent miscarriage}}"
+   ],
+   [
+    "والسبب في الجواب",
+    "{{antiphospholipid syndrome}}"
+   ]
+  ],
+  "why": [
+   "لأن {{APS}} السبب المحدد القابل للعلاج",
+   "فـ الجواب {{APS}}",
+   "يعني {{cervical incompetence}} للثلث الثاني"
+  ],
+  "wrong": {
+   "1": "لأن {{cervical incompetence}} يسبب {{second trimester loss}}",
+   "2": "لأن الخيار غير واضح (غالباً {{chromosomal abnormalities}}) والبنك اختار {{APS}}"
+  },
+  "change": [
+   "لو {{second trimester}} فـ {{cervical insufficiency}}",
+   "لو {{chromosomal}} هو الخيار الصحيح فهو الأشيع عموماً"
+  ],
+  "rule": "الـ{{recurrent early loss}} يعني {{APS}} حسب هالبنك",
+  "note": "الـ{{Probably Confirmed}} فقط، والخيار C غير واضح (ربما {{chromosomal abnormalities}})."
+ },
+ "A143": {
+  "idea": [
+   "الـ{{Rh alloimmunization}} في الحمل ونسوي {{ultrasound}}",
+   "السؤال عن أكثر علامة مشخصة"
+  ],
+  "clues": [
+   [
+    "لأن {{fetal ascites with skin edema}}",
+    "يعني {{hydrops fetalis}}"
+   ],
+   [
+    "و{{MCA Doppler}}",
+    "يستعمل للكشف عن {{anemia}}"
+   ]
+  ],
+  "why": [
+   "لأن {{ascites with skin edema}} هي علامة {{hydrops}} المشخصة",
+   "فـ تدل على {{severe fetal anemia}}",
+   "يعني {{high MCA PSV}} علامة {{anemia}} (وليس {{low}})"
+  ],
+  "wrong": {
+   "0": "لأن {{placenta}} تكون {{thick}} مو {{thin}} في {{hydrops}}",
+   "1": "لأن {{fetal bradycardia}} علامة متأخرة وغير نوعية",
+   "3": "لأن {{anemia}} يعطي {{high MCA PSV}} مو {{low}}"
+  },
+  "change": [
+   "لو سألوا عن {{non-invasive screening for anemia}} فـ {{MCA Doppler PSV}} المرتفع",
+   "لو {{severe anemia before 35 weeks}} نسوي {{intrauterine transfusion}}"
+  ],
+  "rule": "الـ{{Rh disease}} علامة {{ultrasound}} المشخصة {{hydrops with ascites}}"
+ },
+ "A144": {
+  "idea": [
+   "الـ{{G3P2 at 37 weeks}} مع {{Rh isoimmunization}} و{{fetal anemia}}",
+   "السؤال عن الإدارة"
+  ],
+  "clues": [
+   [
+    "لأن {{37 weeks}}",
+    "يعني {{term}}"
+   ],
+   [
+    "و{{fetal anemia}}",
+    "يعني {{delivery}}"
+   ]
+  ],
+  "why": [
+   "لأن بعد {{35 to 37 weeks}} نولّد الجنين المصاب",
+   "فـ {{intrauterine transfusion}} للأقل من هذا العمر",
+   "يعني الجواب {{immediate delivery}}"
+  ],
+  "wrong": {
+   "0": "لأن {{amniocentesis}} ما يغير الإدارة الآن",
+   "2": "لأن {{plasmapheresis}} خيار نادر لحالات مبكرة وشديدة",
+   "3": "لأن {{intravascular transfusion}} قبل {{35 to 37 weeks}}"
+  },
+  "change": [
+   "لو {{32 weeks}} فـ {{intrauterine transfusion}}",
+   "لو {{high MCA PSV near term}} نولّد"
+  ],
+  "rule": "الـ{{Rh disease at term}} يعني {{delivery}}، وقبله {{transfusion}}"
+ },
+ "A145": {
+  "idea": [
+   "الـ{{20 weeks}} مع {{spotting}} وبدون {{trauma}}",
+   "الفصيلة {{O negative}} والـ{{ultrasound}} طبيعي"
+  ],
+  "clues": [
+   [
+    "لأن {{O negative}}",
+    "يعني {{Rh negative}}"
+   ],
+   [
+    "و{{any vaginal bleeding}}",
+    "يعني {{anti-D}}"
+   ]
+  ],
+  "why": [
+   "لأن أي نزيف حتى {{spotting}} في أم {{Rh negative}} يستدعي {{anti-D}}",
+   "فـ الجواب {{give anti-D}}",
+   "يعني نمنع {{alloimmunization}}"
+  ],
+  "wrong": {
+   "1": "لأن {{discharge}} بدون {{anti-D}} يعرضها لـ{{sensitization}}",
+   "2": "لأن {{observation}} ما يمنع {{alloimmunization}}",
+   "3": "لأن {{multivitamins}} ما تعالج المشكلة"
+  },
+  "change": [
+   "لو {{Rh positive}} فلا {{anti-D}}",
+   "لو {{abdominal trauma or procedure}} فـ {{anti-D}} كذلك"
+  ],
+  "rule": "الـ{{Rh-negative with any bleeding}} يعني {{anti-D}}"
+ },
+ "A146": {
+  "idea": [
+   "الـ{{Rh-negative primigravida}} ولدت طفل {{Rh-positive}}",
+   "أخذت {{anti-D}} عند {{28 weeks}}"
+  ],
+  "clues": [
+   [
+    "لأن {{Rh-positive baby}}",
+    "يعني نعطي {{postpartum anti-D}}"
+   ],
+   [
+    "والجرعة الاعتيادية",
+    "{{300}} (وحدات {{micrograms}})"
+   ]
+  ],
+  "why": [
+   "لأن بعد الولادة لازم {{anti-D}} حتى لو أخذت واحدة في {{28 weeks}}",
+   "فـ الجرعة {{300 micrograms}} خلال {{72 hours}}",
+   "يعني ما يكفي {{antenatal dose}}"
+  ],
+  "wrong": {
+   "1": "لأن {{1000}} أعلى من جرعة {{standard}}",
+   "2": "لأن {{2000}} غير معتاد",
+   "3": "لأن {{postpartum anti-D}} مطلوب مع {{Rh-positive baby}}"
+  },
+  "change": [
+   "لو {{large fetomaternal hemorrhage}} نحسب بـ{{Kleihauer-Betke}} ونزيد الجرعة",
+   "لو {{Rh-negative baby}} فلا {{anti-D}}"
+  ],
+  "rule": "الـ{{Rh-negative mother with Rh-positive baby}} يعني {{300 micrograms anti-D within 72 hours}}"
+ },
+ "A147": {
+  "idea": [
+   "أم {{B negative}} وأب {{O positive}} وابن {{A positive}}",
+   "أخذت {{300}} من {{anti-D}} والسؤال عن حجم الدم المحمي"
+  ],
+  "clues": [
+   [
+    "لأن {{standard 300 dose}}",
+    "يعني تغطي {{30 mL fetal whole blood}}"
+   ],
+   [
+    "و{{15 mL of red cells}}",
+    "يعادل {{30 mL whole blood}}"
+   ]
+  ],
+  "why": [
+   "لأن الجرعة {{300 micrograms}} تحمي من {{30 mL fetal whole blood}}",
+   "فـ هذا {{15 mL}} من {{red cells}} تقريباً",
+   "يعني الجواب {{30 mL of whole blood}}"
+  ],
+  "wrong": {
+   "0": "لأن {{15 mL}} هو حجم {{red cells}} مو {{whole blood}}",
+   "2": "لأن {{60 mL}} يحتاج جرعتين",
+   "3": "لأن الجرعة تغطي {{15 mL red cells}} مو {{30 mL}}"
+  },
+  "change": [
+   "لو {{fetomaternal hemorrhage over 30 mL}} نعطي جرعات إضافية",
+   "لو {{Rh positive mother}} لا نحتاج {{anti-D}}"
+  ],
+  "rule": "الـ{{300 anti-D}} يعني {{30 mL fetal whole blood}}"
+ },
+ "A148": {
+  "idea": [
+   "الـ{{36-year-old at 32 weeks}} حمل بدون مشاكل",
+   "الـ{{Braxton Hicks}} و{{mucus-like vaginal discharge}}"
+  ],
+  "clues": [
+   [
+    "لأن {{uncomplicated}}",
+    "يعني متابعة روتينية"
+   ],
+   [
+    "و{{Braxton Hicks}}",
+    "طبيعي ولا يستدعي تدخل"
+   ]
+  ],
+  "why": [
+   "لأن كل الأعراض طبيعية في هذا العمر",
+   "فـ نكمل {{routine follow-up in 2 weeks}}",
+   "يعني ما نحتاج فحوصات إضافية"
+  ],
+  "wrong": {
+   "0": "لأن {{anti-D}} يعطى لـ{{Rh-negative}} وهو {{not stated}} هنا",
+   "1": "لأن {{rubella antibody}} ليس مطلوب في هذا الوقت",
+   "2": "لأن {{GTT}} متأخر ولا يوجد عامل خطر"
+  },
+  "change": [
+   "لو {{vaginal bleeding in Rh-negative}} فـ {{anti-D}}",
+   "لو {{high risk factors for GDM}} نسوي {{early screening}}"
+  ],
+  "rule": "الـ{{normal late pregnancy}} يعني {{routine follow-up}}"
+ },
+ "A149": {
+  "idea": [
+   "الـ{{G2P1 at 23 weeks}} مع {{family history of type 2 DM}}",
+   "ولادتان سابقتان بدون مضاعفات"
+  ],
+  "clues": [
+   [
+    "لأن {{family history alone}}",
+    "يعني ما نفحص بدري"
+   ],
+   [
+    "والفحص الروتيني",
+    "{{75 g OGTT at 24 to 28 weeks}}"
+   ]
+  ],
+  "why": [
+   "لأن {{family history alone}} ليس سبباً لـ{{early screening}}",
+   "فـ نسوي {{75 g OGTT}} بين {{24 and 28 weeks}}",
+   "يعني ما في {{macrosomia or GDM}} سابقاً"
+  ],
+  "wrong": {
+   "0": "لأن {{HbA1c}} لا يستعمل لفحص {{GDM}} الروتيني",
+   "1": "لأن {{random glucose}} غير حساس",
+   "3": "لأن {{3-hour OGTT}} لا يُستعمل في {{screening}} الروتيني"
+  },
+  "change": [
+   "لو {{previous GDM or macrosomia or obesity}} نسوي {{early screening}}",
+   "لو {{high-risk}} نفحصها في {{first visit}}"
+  ],
+  "rule": "الـ{{family history alone}} يعني {{OGTT at 24 to 28 weeks}}"
+ },
+ "A150": {
+  "idea": [
+   "الـ{{40-year-old}} في حمل ثاني و{{12 weeks}} والـ{{BMI 26}}",
+   "أول زيارة للعناية قبل الولادة"
+  ],
+  "clues": [
+   [
+    "لأن {{age over 35}}",
+    "يعني {{aneuploidy risk}}"
+   ],
+   [
+    "و{{12 weeks}}",
+    "وقت {{early genetic screening}}"
+   ]
+  ],
+  "why": [
+   "لأن {{age over 35}} يستدعي عرض {{genetic screening}} (مثل {{NIPT or first trimester screen}})",
+   "فـ {{12 weeks}} هو التوقيت المناسب",
+   "يعني الإرشاد الأهم الآن {{genetic counseling}}"
+  ],
+  "wrong": {
+   "0": "لأن {{overweight alone}} ليس سبباً لـ{{early diabetes screening}}",
+   "2": "لأن {{aspirin}} يعطى لـ{{high-risk for preeclampsia}} ولا يوجد عامل خطر",
+   "3": "لأن {{Tdap}} يعطى عند {{27 to 36 weeks}}"
+  },
+  "change": [
+   "لو {{previous preeclampsia}} نعطي {{low dose aspirin}}",
+   "لو {{27 to 36 weeks}} نعطي {{Tdap}}"
+  ],
+  "rule": "الـ{{age over 35 at 12 weeks}} يعني {{counsel on genetic screening}}",
+  "note": "الـ{{Probably Confirmed}} فقط حسب البنك."
+ }
+}

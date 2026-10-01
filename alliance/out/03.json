@@ -1,0 +1,760 @@
+{
+ "A051": {
+  "idea": [
+   "سيدة {{epilepsy on uncontrolled medications}} في {{14 weeks}} أول زيارة {{booking}}",
+   "فالجواب {{review her medication}}"
+  ],
+  "clues": [
+   [
+    "لأن {{epilepsy not controlled}}",
+    "يعني {{optimize antiepileptic drugs}} (اختيار الدواء والجرعة)"
+   ],
+   [
+    "لو {{booking visit}}",
+    "يعني نراجع {{teratogenic drugs}} أول شي"
+   ]
+  ],
+  "why": [
+   "لأن {{uncontrolled seizures}} و{{some antiepileptic drugs}} كلها تضر الجنين",
+   "فـ نراجع الدواء ونعدله {{monotherapy at lowest effective dose}}",
+   "بس لا نوقف الدواء فجأة"
+  ],
+  "wrong": {
+   "0": "بس {{folic acid}} نعطيه برضو لكنه مو الخطوة الأهم هنا لأن المشكلة {{uncontrolled epilepsy}}",
+   "1": "لأن {{ECG}} ما له علاقة بالـ{{epilepsy}}",
+   "2": "لأن {{diet advice}} ما يحل مشكلة {{uncontrolled seizures}}"
+  },
+  "change": [
+   "لو {{well controlled epilepsy}} نكمل نفس الدواء ونعطي {{high dose folic acid}}",
+   "لو {{preconception visit}} نراجع الدواء قبل الحمل أصلاً"
+  ],
+  "rule": "الـ{{epilepsy in pregnancy}} يعني دايماً {{review medications}} قبل أي شي ثاني",
+  "note": "الجواب حسب الـ{{source}}؛ الـ{{folic acid}} مطلوب برضو."
+ },
+ "A052": {
+  "idea": [
+   "سيدة {{17 weeks pregnant}} مع {{goiter}} و{{high TSH}}",
+   "فهذا {{hypothyroidism}} والعلاج {{thyroxine}}"
+  ],
+  "clues": [
+   [
+    "لأن {{TSH high}}",
+    "يعني {{hypothyroidism}} مو فرط نشاط"
+   ],
+   [
+    "لو {{goiter}} مع {{high TSH}}",
+    "يعني {{replacement therapy}} (levothyroxine)"
+   ]
+  ],
+  "why": [
+   "لأن {{hypothyroidism}} يحتاج {{levothyroxine}} ونزيد الجرعة بالحمل",
+   "فـ نعطي {{thyroxine}} ونتابع {{TSH}}"
+  ],
+  "wrong": {
+   "1": "لأن {{carbimazole}} للـ{{hyperthyroidism}} وهنا {{TSH}} عالي",
+   "2": "لأن {{surgery}} مو أول خيار ما لم يكن في {{compression}}",
+   "3": "لأن {{radioiodine}} ممنوع بالحمل"
+  },
+  "change": [
+   "لو {{low TSH}} مع {{high T4}} نستخدم {{propylthiouracil}} في أول الحمل",
+   "لو {{radioiodine}} نؤجله لين بعد الولادة"
+  ],
+  "rule": "الـ{{high TSH}} بالحمل يعني {{levothyroxine}}"
+ },
+ "A053": {
+  "idea": [
+   "سيدة {{40 years nulliparous}} بعد علاج {{breast carcinoma}} تبي حمل",
+   "الجواب ننتظر {{2 years}}"
+  ],
+  "clues": [
+   [
+    "لأن {{breast cancer treated}}",
+    "يعني ننتظر {{2 years}} قبل الحمل"
+   ],
+   [
+    "لو {{preconception counseling}}",
+    "يعني نأخر الحمل لأن أعلى خطر {{recurrence}} بأول سنتين"
+   ]
+  ],
+  "why": [
+   "لأن أغلب {{recurrences}} تصير خلال أول {{2 years}}",
+   "فـ ننصح بالانتظار {{2 years}} بعد انتهاء العلاج"
+  ],
+  "wrong": {
+   "0": "بس {{3 months}} قصير جداً",
+   "1": "بس {{9 months}} ما يكفي لتجاوز فترة الخطر",
+   "3": "بس {{5 years}} طويل خصوصاً مع عمرها {{40}} و{{fertility decline}}"
+  },
+  "change": [
+   "لو {{hormone receptor positive}} على {{tamoxifen}} نناقش إيقافه مع الـ{{oncologist}}",
+   "لو {{very young}} ممكن نقلل مدة الانتظار حسب الحالة"
+  ],
+  "rule": "الـ{{breast cancer}} يعني ننتظر {{2 years}} قبل الحمل",
+  "note": "بعض الـ{{guidelines}} تختلف حسب الحالة؛ الجواب حسب الـ{{bank}}."
+ },
+ "A054": {
+  "idea": [
+   "سيدة {{11 weeks}} مع {{fatigue and lightheadedness}} و{{Hb 11.5}}",
+   "فالسبب {{plasma volume expansion}} والنصيحة {{iron rich food}}"
+  ],
+  "clues": [
+   [
+    "لأن {{Hb 11.5}}",
+    "يعني {{physiological hemodilution}} مو فقر دم شديد"
+   ],
+   [
+    "لو {{first trimester}}",
+    "يعني {{plasma volume}} بدأ يزيد"
+   ]
+  ],
+  "why": [
+   "لأن {{plasma volume}} يزيد أكثر من {{red cell mass}}",
+   "فـ {{dilutional anemia}} فسيولوجي",
+   "ونعزز بـ{{iron rich diet}}"
+  ],
+  "wrong": {
+   "1": "لأن زيادة {{metabolism}} ما هي سبب {{lightheadedness}} هنا",
+   "2": "لأن {{vascular resistance}} ينقص بس ما نعطي {{antihypertensive}} لهذي الحالة",
+   "3": "لأن {{oxygen supplement}} ما له داعي"
+  },
+  "change": [
+   "لو {{Hb < 11}} في {{first trimester}} يعني {{anemia}} ونعطي {{iron}}",
+   "لو {{Hb}} طبيعي ونفس الأعراض نشوف {{supine hypotension}} أو {{dehydration}}"
+  ],
+  "rule": "الـ{{plasma volume expansion}} يعني {{physiological anemia}} ونصيحة {{iron rich food}}"
+ },
+ "A055": {
+  "idea": [
+   "حامل {{dizziness}} لما تنام على ظهرها",
+   "فهذا {{supine hypotension syndrome}} والحل {{left lateral position}}"
+  ],
+  "clues": [
+   [
+    "لأن {{dizziness when lying on back}}",
+    "يعني {{IVC compression by gravid uterus}}"
+   ],
+   [
+    "لو {{normal fetal investigations and no history}}",
+    "يعني سبب فسيولوجي"
+   ]
+  ],
+  "why": [
+   "لأن الرحم يضغط على {{inferior vena cava}} فينقص {{venous return}}",
+   "فـ ننام على {{left side}}"
+  ],
+  "wrong": {
+   "0": "لأن {{anemia}} ما ترتبط بوضعية الظهر",
+   "1": "لأن {{dehydration}} ما تفسر ارتباطها بالوضعية",
+   "2": "لأن {{salt intake}} غلط و{{orthostatic hypertension}} مو التشخيص"
+  },
+  "change": [
+   "لو {{standing}} يعني نفكر في {{orthostatic hypotension}} و{{anemia}}",
+   "لو {{left lateral}} ما تحسنت نفحص {{Hb}} وأسباب ثانية"
+  ],
+  "rule": "الـ{{dizziness on lying supine}} يعني {{supine hypotension}} والحل {{left lateral}}"
+ },
+ "A056": {
+  "idea": [
+   "سيدة {{25 years, 16 weeks}} بدون أمراض تبي حمل صحي",
+   "فالجواب {{balanced diet with iron and folic acid}}"
+  ],
+  "clues": [
+   [
+    "لأن {{healthy pregnant woman}}",
+    "يعني {{general health promotion}}"
+   ],
+   [
+    "لو {{16 weeks}}",
+    "يعني نكمل {{antenatal visits}} بانتظام"
+   ]
+  ],
+  "why": [
+   "لأن {{balanced diet}} مع {{iron and folic acid}} هو الأساس",
+   "فـ ما نمنع التمارين المعتدلة ولا نأخر الزيارات"
+  ],
+  "wrong": {
+   "1": "لأن {{exercise}} مفيد بالحمل الطبيعي",
+   "2": "لأن تأخير {{antenatal care}} يفوت الفحوصات المهمة"
+  },
+  "change": [
+   "لو {{high risk}} نزيد عدد الزيارات",
+   "لو {{previous neural tube defect}} نعطي {{high dose folic acid}}"
+  ],
+  "rule": "الـ{{healthy pregnancy}} يعني {{balanced diet}} و{{regular antenatal visits}}"
+ },
+ "A057": {
+  "idea": [
+   "أم على {{phenytoin}} وطفل عمره {{5 days}} مع {{bleeding from umbilicus and skin}}",
+   "فالسبب {{vitamin K deficiency}}"
+  ],
+  "clues": [
+   [
+    "لأن {{phenytoin}}",
+    "يعني {{enzyme inducer}} يقلل {{vitamin K}}"
+   ],
+   [
+    "لو {{bleeding at day 5}}",
+    "يعني {{hemorrhagic disease of the newborn}}"
+   ]
+  ],
+  "why": [
+   "لأن بعض {{antiepileptic drugs}} تسبب {{vitamin K deficiency}} للجنين",
+   "فـ ينزف الطفل بعد الولادة",
+   "والوقاية {{vitamin K}} للطفل"
+  ],
+  "wrong": {
+   "1": "لأن {{sepsis}} ما هو الأرجح مع قصة {{phenytoin}}",
+   "2": "لأن {{immature vessels}} ما تفسر النزف",
+   "3": "لأن {{hemophilia}} ما له علاقة بدواء الأم"
+  },
+  "change": [
+   "لو {{no maternal drugs}} نفكر في {{hemophilia}} إذا نزف بعد {{circumcision}}",
+   "لو {{bleeding at birth}} يعني نفكر في {{coagulation factor deficiency}}"
+  ],
+  "rule": "الـ{{phenytoin}} يعني {{neonatal vitamin K deficiency bleeding}}",
+  "note": "الصورة ما أقدر أشوفها؛ الشرح من النص فقط."
+ },
+ "A058": {
+  "idea": [
+   "سيدة {{4 months}} ما تذكر {{LMP}}",
+   "فأفضل طريقة {{first trimester ultrasound}}"
+  ],
+  "clues": [
+   [
+    "لأن {{no menstrual dates}}",
+    "يعني {{LMP}} مو متاح"
+   ],
+   [
+    "لو {{dating}}",
+    "يعني {{first trimester US}} أدق"
+   ]
+  ],
+  "why": [
+   "لأن {{crown-rump length}} في {{first trimester}} أدق وسيلة لتقدير {{gestational age}}",
+   "فـ نعتمد عليه"
+  ],
+  "wrong": {
+   "0": "لأن {{LMP}} غير معروف أصلاً",
+   "2": "لأن {{second trimester US}} أقل دقة",
+   "3": "لأن {{third trimester US}} الأقل دقة"
+  },
+  "change": [
+   "لو {{LMP}} معروف وموثوق نستخدمه ونقارنه",
+   "لو {{first trimester US}} فات نستخدم {{second trimester US}}"
+  ],
+  "rule": "الـ{{dating}} يعني {{first trimester ultrasound}} هو الأدق"
+ },
+ "A059": {
+  "idea": [
+   "حامل بدون أعراض و{{urine culture positive E coli}}",
+   "فهذا {{asymptomatic bacteriuria}} والحل {{oral antibiotics}}"
+  ],
+  "clues": [
+   [
+    "لأن {{asymptomatic pregnant}} مع {{positive culture}}",
+    "يعني {{asymptomatic bacteriuria}} ونعالج"
+   ],
+   [
+    "لو {{untreated}}",
+    "يعني خطر {{pyelonephritis and preterm birth}}"
+   ]
+  ],
+  "why": [
+   "لأن {{asymptomatic bacteriuria in pregnancy}} دايماً نعالجها",
+   "فـ نعطي {{oral antibiotics}} حسب الـ{{sensitivity}}"
+  ],
+  "wrong": {
+   "1": "لأن {{repeat urine analysis}} يأخر العلاج بلا داعي مع {{positive culture}}",
+   "2": "لأن الانتظار للأعراض يعرضها لـ{{pyelonephritis}}"
+  },
+  "change": [
+   "لو {{non pregnant}} بدون أعراض ما نعالج",
+   "لو {{pyelonephritis}} نعطي {{IV antibiotics}} بالمستشفى"
+  ],
+  "rule": "الـ{{asymptomatic bacteriuria}} بالحمل يعني {{treat}}"
+ },
+ "A060": {
+  "idea": [
+   "سيدة بعد {{2 months postpartum}} بدون أعراض و{{asymptomatic bacteriuria}}",
+   "فالجواب {{no treatment needed}}"
+  ],
+  "clues": [
+   [
+    "لأن {{not pregnant}}",
+    "يعني {{asymptomatic bacteriuria}} ما نعالجه"
+   ],
+   [
+    "لو {{lactating}}",
+    "يعني ما يغير القرار"
+   ]
+  ],
+  "why": [
+   "لأن علاج {{asymptomatic bacteriuria}} فقط بالحمل أو قبل {{urologic procedures}}",
+   "فـ هنا ما نعطي مضاد"
+  ],
+  "wrong": {
+   "0": "لأن {{ciprofloxacin}} غير لازم هنا",
+   "1": "لأن {{nitrofurantoin}} غير لازم هنا",
+   "2": "لأن {{TMP-SMX}} غير لازم هنا"
+  },
+  "change": [
+   "لو {{pregnant}} نعالج",
+   "لو {{symptomatic}} نعالج حتى لو مرضع"
+  ],
+  "rule": "الـ{{asymptomatic bacteriuria}} نعالجها بالحمل فقط",
+  "note": "الـ{{stem}} فيه حروف مشوهة؛ الجواب حسب الـ{{source}}."
+ },
+ "A061": {
+  "idea": [
+   "سيدة {{37 weeks}} مع تاريخ {{STIs}} والخوف من {{neonatal conjunctivitis and blindness}}",
+   "فنعطي {{azithromycin}}"
+  ],
+  "clues": [
+   [
+    "لأن {{conjunctivitis}} عند المولود",
+    "يعني {{chlamydia}} أو {{gonorrhea}}"
+   ],
+   [
+    "لو {{current chlamydia infection}}",
+    "يعني {{treat the mother}} قبل الولادة"
+   ]
+  ],
+  "why": [
+   "لأن {{chlamydia}} في الحمل علاجها {{azithromycin}}",
+   "فـ نعالج الأم لمنع العدوى للمولود"
+  ],
+  "wrong": {
+   "0": "لأن {{reassurance}} يترك العدوى بلا علاج",
+   "2": "لأن {{newborn screening}} بعد الولادة تأخير",
+   "3": "لأن الأم تحتاج علاج الآن مو مجرد إحالة"
+  },
+  "change": [
+   "لو {{past treated infection}} ممكن {{reassurance}}",
+   "لو {{gonorrhea}} نعطي {{ceftriaxone}}"
+  ],
+  "rule": "الـ{{chlamydia in pregnancy}} يعني {{azithromycin}}",
+  "note": "الجواب {{Confirmed}}؛ يعتمد على أنها {{current infection}}."
+ },
+ "A062": {
+  "idea": [
+   "حامل {{38 weeks}} مع {{genital chlamydia trachomatis}}",
+   "فأكثر عدوى للمولود {{eye}}"
+  ],
+  "clues": [
+   [
+    "لأن {{neonatal chlamydia}}",
+    "يعني {{conjunctivitis}} أكثر شي"
+   ],
+   [
+    "لو {{1-3 months}}",
+    "يعني {{pneumonia}}"
+   ]
+  ],
+  "why": [
+   "لأن {{conjunctivitis}} أشهر عدوى {{chlamydial}} بفترة {{neonatal}}",
+   "فـ الجواب {{eye}}"
+  ],
+  "wrong": {
+   "0": "لأن {{liver}} نادر",
+   "1": "لأن {{ear}} نادر",
+   "2": "بس {{pneumonia}} تصير لاحقاً {{1-3 months}} وأقل شيوعاً"
+  },
+  "change": [
+   "لو بعد {{1-3 months}} يعني {{pneumonia}}",
+   "لو {{gonorrhea}} يعني {{ophthalmia neonatorum}} أشد"
+  ],
+  "rule": "الـ{{neonatal chlamydia}} يعني {{conjunctivitis}} أشهر"
+ },
+ "A063": {
+  "idea": [
+   "الـ{{primigravida}} أول زيارة بدون {{GA}}",
+   "فالمناسب {{influenza vaccine}}"
+  ],
+  "clues": [
+   [
+    "لأن {{no GA mentioned}}",
+    "يعني لقاح آمن بأي وقت"
+   ],
+   [
+    "لو {{inactivated}}",
+    "يعني آمن بالحمل"
+   ]
+  ],
+  "why": [
+   "لأن {{inactivated influenza vaccine}} يعطى بأي {{trimester}} بالموسم",
+   "فـ هو الأنسب بدون {{GA}}"
+  ],
+  "wrong": {
+   "1": "لأن {{Tdap}} يعطى عند {{27-36 weeks}} مو بأول زيارة",
+   "2": "لأن {{rubella}} لقاح {{live}} ممنوع بالحمل"
+  },
+  "change": [
+   "لو {{28 weeks}} نعطي {{Tdap}}",
+   "لو {{non immune to rubella}} نعطيه {{postpartum}}"
+  ],
+  "rule": "الـ{{influenza}} يعني أي وقت و{{Tdap}} بـ{{27-36 weeks}}"
+ },
+ "A064": {
+  "idea": [
+   "سيدة {{preconception}} ونسأل {{vaccine contraindicated}}",
+   "الجواب {{HPV}}"
+  ],
+  "clues": [
+   [
+    "لأن {{contraindicated in pregnancy}}",
+    "يعني نتجنبه (في هذا السؤال {{HPV}})"
+   ],
+   [
+    "لو {{Flu, COVID, Tdap}}",
+    "يعني {{safe}}"
+   ]
+  ],
+  "why": [
+   "لأن {{flu}} و{{COVID}} و{{Tdap}} آمنة بالحمل",
+   "فـ {{HPV}} يؤجل لين بعد الولادة حسب الـ{{bank}}"
+  ],
+  "wrong": {
+   "0": "لأن {{flu vaccine}} آمن",
+   "1": "لأن {{COVID vaccine}} آمن",
+   "2": "لأن {{pertussis (Tdap)}} آمن"
+  },
+  "change": [
+   "لو {{live vaccine}} مثل {{MMR}} يعني ممنوع",
+   "لو {{HPV}} أخذته قبل اكتشاف الحمل ما نقلق"
+  ],
+  "rule": "الـ{{live vaccines}} ممنوعة و{{HPV}} يؤجل",
+  "note": "الـ{{HPV}} مو {{live}} وأغلب الـ{{guidelines}} تقول يؤجل مو خطر؛ الجواب حسب الـ{{bank}}."
+ },
+ "A065": {
+  "idea": [
+   "سيدة {{preconception}} ونسأل {{vaccine contraindicated}}",
+   "فالجواب {{VZV}} لأنه {{live vaccine}}"
+  ],
+  "clues": [
+   [
+    "لأن {{VSV/varicella}}",
+    "يعني {{live attenuated}}"
+   ],
+   [
+    "لو {{live vaccine}}",
+    "يعني {{contraindicated in pregnancy}}"
+   ]
+  ],
+  "why": [
+   "لأن {{live vaccines}} ممنوعة بالحمل",
+   "فـ {{varicella}} ممنوع ونأجله {{postpartum}}"
+  ],
+  "wrong": {
+   "0": "لأن {{inactivated flu vaccine}} آمن",
+   "2": "لأن {{whooping cough (Tdap)}} آمن",
+   "3": "لأن {{HPV}} مو {{live}}"
+  },
+  "change": [
+   "لو {{non immune}} نعطيه {{postpartum}}",
+   "لو {{exposed in pregnancy}} نعطي {{VZIG}}"
+  ],
+  "rule": "الـ{{live vaccine}} يعني ممنوع بالحمل"
+ },
+ "A066": {
+  "idea": [
+   "سيدة {{preconception}} ونسأل {{vaccine contraindicated}}",
+   "الجواب {{HPV}}"
+  ],
+  "clues": [
+   [
+    "لأن {{flu, Dtap, whooping}}",
+    "يعني {{inactivated}} وآمنة"
+   ],
+   [
+    "لو {{HPV}}",
+    "يعني نؤجله حسب الـ{{bank}}"
+   ]
+  ],
+  "why": [
+   "لأن {{inactivated flu}} و{{Tdap}} آمنة",
+   "فـ {{HPV}} يؤجل"
+  ],
+  "wrong": {
+   "0": "لأن {{inactivated flu}} آمن",
+   "1": "لأن {{Dtap}} آمن",
+   "2": "لأن {{whooping}} هو {{Tdap}} وآمن"
+  },
+  "change": [
+   "لو {{live vaccine}} ممنوع",
+   "لو {{postpartum}} نعطي {{HPV}}"
+  ],
+  "rule": "الـ{{inactivated vaccines}} آمنة و{{HPV}} يؤجل",
+  "note": "الجواب حسب الـ{{bank}}؛ الـ{{HPV}} يؤجل غالباً."
+ },
+ "A067": {
+  "idea": [
+   "سيدة {{vaginal discharge}} رقيق حليبي مع {{fishy odor}} و{{pH 4.5}}",
+   "فهذا {{bacterial vaginosis}}"
+  ],
+  "clues": [
+   [
+    "لأن {{thin milky discharge, fishy odor}}",
+    "يعني {{bacterial vaginosis}}"
+   ],
+   [
+    "لو {{pH > 4.5}}",
+    "يعني {{BV}} أو {{trichomonas}}"
+   ]
+  ],
+  "why": [
+   "لأن {{Amsel criteria}} تتضمن {{fishy odor}} و{{high pH}}",
+   "فـ التشخيص {{BV}}"
+  ],
+  "wrong": {
+   "0": "لأن {{trichomonas}} يعطي {{frothy yellow-green discharge}}",
+   "1": "لأن {{GBS}} غالباً {{asymptomatic}}",
+   "3": "لأن {{gonorrhea}} يعطي {{purulent cervicitis}}"
+  },
+  "change": [
+   "لو {{frothy yellow discharge}} يعني {{trichomonas}}",
+   "لو {{cottage cheese}} يعني {{candida}}"
+  ],
+  "rule": "الـ{{fishy odor}} يعني {{bacterial vaginosis}}"
+ },
+ "A068": {
+  "idea": [
+   "سيدة {{yellow foul discharge}} و{{motile flagellated organism}}",
+   "فهذا {{trichomonas vaginalis}} والعلاج {{metronidazole}}"
+  ],
+  "clues": [
+   [
+    "لأن {{motile flagellated organism}}",
+    "يعني {{Trichomonas}}"
+   ],
+   [
+    "لو {{strawberry cervix}}",
+    "يعني {{trichomoniasis}}"
+   ]
+  ],
+  "why": [
+   "لأن علاج {{trichomonas}} هو {{metronidazole}}",
+   "وكذلك {{BV}}"
+  ],
+  "wrong": {
+   "0": "لأن {{nitrofurantoin}} للـ{{UTI}}",
+   "1": "لأن {{tetracycline}} ما يعالج {{trichomonas}}",
+   "3": "لأن {{clotrimazole}} للـ{{candida}}"
+  },
+  "change": [
+   "لو {{candida}} نعطي {{topical antifungal}}",
+   "لو {{partner}} نعالجه برضو"
+  ],
+  "rule": "الـ{{trichomonas}} يعني {{metronidazole}}"
+ },
+ "A069": {
+  "idea": [
+   "حامل بدون أعراض ونبي {{urine culture}} للـ{{asymptomatic bacteriuria}}",
+   "فأفضل وقت {{12 weeks}}"
+  ],
+  "clues": [
+   [
+    "لأن {{screening}}",
+    "يعني نفحص {{early pregnancy}}"
+   ],
+   [
+    "لو {{12-16 weeks}}",
+    "يعني الوقت المناسب"
+   ]
+  ],
+  "why": [
+   "لأن الفحص بـ{{12-16 weeks}} يكشف أغلب الحالات",
+   "فـ نعالج مبكراً"
+  ],
+  "wrong": {
+   "1": "بس {{20 weeks}} متأخر",
+   "2": "بس {{26 weeks}} متأخر",
+   "3": "بس {{32 weeks}} متأخر"
+  },
+  "change": [
+   "لو {{symptoms}} نفحص بأي وقت",
+   "لو {{positive}} نكرر بعد العلاج"
+  ],
+  "rule": "الـ{{ASB screening}} يعني {{12-16 weeks}}"
+ },
+ "A070": {
+  "idea": [
+   "حامل {{24 weeks}} وما أخذت {{rubella/MMR}}",
+   "فنعطيه {{postpartum}}"
+  ],
+  "clues": [
+   [
+    "لأن {{MMR}}",
+    "يعني {{live vaccine}} ممنوع بالحمل"
+   ],
+   [
+    "لو {{non immune}}",
+    "يعني ننتظر لين بعد الولادة"
+   ]
+  ],
+  "why": [
+   "لأن {{live vaccines}} ممنوعة بالحمل",
+   "فـ نعطي {{MMR}} بعد الولادة"
+  ],
+  "wrong": {
+   "0": "لأن {{28 weeks}} لسا بالحمل",
+   "2": "لأن لازم نحميها {{postpartum}}",
+   "3": "لأن {{live vaccine}} ممنوع الآن"
+  },
+  "change": [
+   "لو {{postpartum}} نعطيه حتى مع الرضاعة",
+   "لو {{inadvertently given}} ما نوصي بإنهاء الحمل"
+  ],
+  "rule": "الـ{{MMR}} يعني {{postpartum}}"
+ },
+ "A071": {
+  "idea": [
+   "حامل {{10 weeks}} ما أخذت {{MMR}}",
+   "فنعطيه {{postpartum}}"
+  ],
+  "clues": [
+   [
+    "لأن {{MMR}}",
+    "يعني {{live vaccine}}"
+   ],
+   [
+    "لو {{pregnant}}",
+    "يعني ننتظر لين بعد الولادة"
+   ]
+  ],
+  "why": [
+   "لأن {{live vaccines}} ممنوعة بالحمل",
+   "فـ {{postpartum}}"
+  ],
+  "wrong": {
+   "0": "لأن {{28th week}} لسا بالحمل",
+   "1": "لأن {{live vaccine}} ممنوع الآن",
+   "3": "لأن {{non immune}} تحتاج اللقاح"
+  },
+  "change": [
+   "لو {{non pregnant}} نعطيه ونؤجل الحمل {{1 month}}",
+   "لو {{postpartum}} آمن مع الرضاعة"
+  ],
+  "rule": "الـ{{MMR}} يعني {{postpartum}}"
+ },
+ "A072": {
+  "idea": [
+   "حامل {{term}} مع {{severe vaginal bleeding}} و{{hypotension 80/50}} و{{tachycardia}}",
+   "فالجواب {{CS}}"
+  ],
+  "clues": [
+   [
+    "لأن {{hypotension and tachycardia}}",
+    "يعني {{maternal shock}}"
+   ],
+   [
+    "لو {{CTG reassuring}}",
+    "يعني الأم أولوية ونولد سريعاً"
+   ]
+  ],
+  "why": [
+   "لأن {{severe bleeding with shock}} يعني نولد بسرعة",
+   "فـ {{CS}} هو الأنسب"
+  ],
+  "wrong": {
+   "0": "لأن {{amniotomy}} ما يكفي مع {{shock}}",
+   "1": "لأن {{oxytocin and amniotomy}} يأخر الولادة",
+   "3": "لأن الانتظار {{1 hour}} خطر"
+  },
+  "change": [
+   "لو {{stable}} ممكن {{vaginal delivery}}",
+   "لو {{placenta previa}} نسوي {{CS}}"
+  ],
+  "rule": "الـ{{severe bleeding with hypotension}} يعني {{CS}}",
+  "note": "الأفضل نثبت الأم أولاً بـ{{resuscitation}}؛ الجواب حسب الـ{{source}}."
+ },
+ "A073": {
+  "idea": [
+   "حامل {{31 weeks}} مع {{hypotension}} و{{moderate uterine tenderness}}",
+   "فالجواب {{blood transfusion}}"
+  ],
+  "clues": [
+   [
+    "لأن {{hypotension}}",
+    "يعني {{hypovolemia}}"
+   ],
+   [
+    "لو {{uterine tenderness}}",
+    "يعني {{abruptio placentae}}"
+   ]
+  ],
+  "why": [
+   "لأن {{abruptio}} مع {{shock}} يحتاج {{resuscitation}} أول",
+   "فـ {{blood transfusion}} أولاً"
+  ],
+  "wrong": {
+   "1": "لأن {{dexamethasone and CS}} قبل ثبات الأم غلط",
+   "2": "لأن {{IOL}} ما يعالج {{hypovolemia}}"
+  },
+  "change": [
+   "لو {{fetal distress}} نولد بسرعة",
+   "لو {{stable}} نراقب"
+  ],
+  "rule": "الـ{{hypotension}} يعني {{resuscitate first}}"
+ },
+ "A074": {
+  "idea": [
+   "حامل {{33 weeks}} مع {{abdominal pain}} و{{vaginal bleeding}} و{{hypotension}}",
+   "فأول خطوة {{blood transfusion}}"
+  ],
+  "clues": [
+   [
+    "لأن {{hypotension}}",
+    "يعني {{hypovolemic shock}}"
+   ],
+   [
+    "لو {{INITIAL management}}",
+    "يعني {{resuscitation}}"
+   ]
+  ],
+  "why": [
+   "لأن {{abruptio placentae}} مع {{shock}} نثبت الأم أولاً",
+   "فـ {{blood transfusion}}"
+  ],
+  "wrong": {
+   "1": "لأن {{induction}} يأخر",
+   "2": "لأن {{dexa and observe}} غير كافي مع {{ongoing bleeding}}",
+   "3": "لأن {{CS}} ما يكون قبل {{resuscitation}}"
+  },
+  "change": [
+   "لو سؤال {{most appropriate}} يعني {{CS}}",
+   "لو {{stable}} نراقب"
+  ],
+  "rule": "الـ{{initial}} يعني {{resuscitate}}"
+ },
+ "A075": {
+  "idea": [
+   "نفس الحالة مع {{most appropriate management}}",
+   "فالجواب {{CS}} بعد {{dexa}}"
+  ],
+  "clues": [
+   [
+    "لأن {{ongoing bleeding with hypotension}}",
+    "يعني {{abruptio}} شديد"
+   ],
+   [
+    "لو {{most appropriate}}",
+    "يعني {{definitive management}} (CS)"
+   ]
+  ],
+  "why": [
+   "لأن {{CS}} هو العلاج النهائي",
+   "وقبلها {{transfusion}}"
+  ],
+  "wrong": {
+   "0": "لأن {{transfusion}} هو {{initial}} مو {{most appropriate}}",
+   "1": "لأن {{induction}} يأخر",
+   "2": "لأن {{observation}} خطر"
+  },
+  "change": [
+   "لو {{initial}} يعني {{blood transfusion}}",
+   "لو {{fetal demise}} نفكر {{vaginal delivery}}"
+  ],
+  "rule": "الـ{{initial}} يعني {{transfusion}} و{{most appropriate}} يعني {{CS}}",
+  "note": "الأفضل {{CS}} وحده؛ الجواب {{Probably Confirmed}}."
+ }
+}

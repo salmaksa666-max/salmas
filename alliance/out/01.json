@@ -1,0 +1,857 @@
+{
+ "A001": {
+  "idea": [
+   "سيدة في {{active labor, cervix 4 cm then 5 cm after 4 hours}}",
+   "فهذا {{active phase protraction}} والحل {{amniotomy}} لأن {{membranes intact}}"
+  ],
+  "clues": [
+   [
+    "لو {{dilation 1 cm in 4 hours}}",
+    "يعني {{active phase protraction}}"
+   ],
+   [
+    "مع {{reassuring CTG and mother stable}}",
+    "يعني ما في {{emergency}} ولا {{CS}}"
+   ],
+   [
+    "و{{intact membranes}}",
+    "فنبدأ بـ{{amniotomy}}"
+   ]
+  ],
+  "why": [
+   "لأن {{dilation < 1 cm/hour}} في الـ{{active phase}} يحتاج {{augmentation}}",
+   "والـ{{augmentation}} نبدأ فيه بـ{{amniotomy}} لو {{membranes intact}} وبعدين {{oxytocin}}"
+  ],
+  "wrong": {
+   "0": "لأن {{reassess after 2 hours}} يعني نضيع وقت وهي أصلاً {{protracted}}",
+   "2": "لأن {{CS}} مو لازم، الـ{{CTG}} والأم {{reassuring}} و{{augmentation}} ما جُرّب",
+   "3": "لأن {{discharge}} للـ{{false labor}} بس، هذي {{true active labor}}"
+  },
+  "change": [
+   "لو {{membranes already ruptured}} فنعطي {{oxytocin}}",
+   "لو {{CTG pathological}} فنفكر في {{CS}} مو {{augmentation}}"
+  ],
+  "rule": "الـ{{active phase protraction with intact membranes}} يعني {{amniotomy}}",
+  "note": "الجواب حسب الـ{{old guidelines (1 cm/hour)}} وهي لسا مستعملة عند ناس كثير."
+ },
+ "A002": {
+  "idea": [
+   "سيدة {{39 weeks, cervix 4 cm then 5 cm after 4 hours}} مع {{strong regular contractions}}",
+   "فهذا {{active phase protraction}} والجواب {{amniotomy}}"
+  ],
+  "clues": [
+   [
+    "مع {{strong regular contractions}}",
+    "يعني هذا ما ينفي {{protraction}}"
+   ],
+   [
+    "لو {{dilation 1 cm in 4 hours}}",
+    "يعني {{protraction}} ونحتاج {{augmentation}}"
+   ],
+   [
+    "و{{membranes}} ما ذُكر إنها انفجرت",
+    "فنبدأ بـ{{amniotomy}}"
+   ]
+  ],
+  "why": [
+   "لأن {{rate of cervical dilation}} هو المعيار مو قوة الانقباضات لحالها",
+   "فنعمل {{augmentation}} وأول خطوة {{amniotomy}}"
+  ],
+  "wrong": {
+   "0": "لأن {{CS}} ما له داعي والـ{{fetal status}} طبيعي",
+   "1": "لأن {{oxytocin}} ندخل عليه بعد {{amniotomy}} مو قبله، وكاتب المصدر نفسه مو متأكد",
+   "3": "لأن {{reassess after 2 hours}} تأخير بدون سبب"
+  },
+  "change": [
+   "لو {{membranes ruptured}} فنعطي {{oxytocin}}",
+   "لو {{fetal distress}} فنروح {{CS}}"
+  ],
+  "rule": "الـ{{strong contractions}} ما تلغي {{protraction}} لو {{dilation < 1 cm/hour}}"
+ },
+ "A003": {
+  "idea": [
+   "سيدة {{31 years, 39 weeks, 4 cm then 5 cm after 4 hours}} مع {{intact membranes}} و{{satisfactory CTG}}",
+   "فنعمل {{amniotomy}}"
+  ],
+  "clues": [
+   [
+    "لو {{dilation 1 cm in 4 hours}}",
+    "يعني {{active phase protraction}}"
+   ],
+   [
+    "مع {{reassuring CTG and mother stable}}",
+    "يعني ما في {{emergency}} ولا {{CS}}"
+   ],
+   [
+    "و{{intact membranes}}",
+    "فنبدأ بـ{{amniotomy}}"
+   ]
+  ],
+  "why": [
+   "لأن {{1 cm in 4 hours}} هو {{protraction}} مهما كان الـ{{parity}}",
+   "والـ{{station}} صفر أو أعلى فـ{{amniotomy}} مناسب"
+  ],
+  "wrong": {
+   "0": "لأن {{CS}} غير مطلوب والـ{{CTG}} مطمئن",
+   "2": "لأن {{reassess after 2 hours}} تأخير",
+   "3": "لأن {{oxytocin}} بعد {{amniotomy}} لو {{membranes intact}}"
+  },
+  "change": [
+   "لو {{station -1 or higher up}} فنكون حذرين من {{cord prolapse}}",
+   "لو {{membranes ruptured}} فنعطي {{oxytocin}}"
+  ],
+  "rule": "الـ{{protraction + intact membranes}} يعني {{amniotomy}}",
+  "note": "الـ{{Probably Confirmed}}. الجواب {{amniotomy}} مضبوط."
+ },
+ "A004": {
+  "idea": [
+   "الـ{{primigravida, 5 cm after 4 hours of regular contractions}} مع {{reassuring CTG and intact membranes}}",
+   "فنعمل {{amniotomy}}"
+  ],
+  "clues": [
+   [
+    "لو {{5 cm no change 4 hours}}",
+    "يعني {{protraction}} وما ثبت {{arrest}}"
+   ],
+   [
+    "و{{membranes intact}}",
+    "فلازم {{rupture}} قبل ما نشخص {{arrest}}"
+   ],
+   [
+    "مع {{reassuring CTG}}",
+    "يعني ما في سبب لـ{{CS}}"
+   ]
+  ],
+  "why": [
+   "لأن لازم {{rupture of membranes}} قبل ما نشخص {{active phase arrest}}",
+   "فنبدأ بـ{{amniotomy}} ونعيد التقييم"
+  ],
+  "wrong": {
+   "0": "لأن {{CS}} لـ{{arrest}} ما نحكم عليه قبل {{ROM}} و{{adequate contractions}}",
+   "1": "لأن {{oxytocin}} ندخل عليه بعد {{amniotomy}}",
+   "2": "لأن {{waiting 2 more hours}} بدون تدخل ما يفيد"
+  },
+  "change": [
+   "لو {{membranes ruptured and inadequate contractions 4-6 hours on oxytocin}} فهذا {{arrest}} و{{CS}}",
+   "لو {{CTG category 3}} فـ{{CS}}"
+  ],
+  "rule": "الـ{{ROM}} قبل تشخيص الـ{{arrest}}"
+ },
+ "A005": {
+  "idea": [
+   "الـ{{38 weeks, 1 cm, station -2, irregular contractions}} وبعد 6 ساعات نفس الحال",
+   "فهذي {{false labor (Braxton Hicks)}} نعطيها {{discharge}}"
+  ],
+  "clues": [
+   [
+    "مع {{irregular contractions}}",
+    "يعني {{Braxton Hicks}}"
+   ],
+   [
+    "و{{no cervical change after 6 hours}}",
+    "يعني {{false labor}} مو {{true labor}}"
+   ],
+   [
+    "مع {{station -2}}",
+    "يعني ما نعمل {{amniotomy}}"
+   ]
+  ],
+  "why": [
+   "لأن الفرق بين {{true and false labor}} هو {{cervical change}}",
+   "فنعطيها {{discharge}} وترجع لو {{active labor}}"
+  ],
+  "wrong": {
+   "0": "لأن {{CS}} ما له أي {{indication}}",
+   "2": "لأن {{amniotomy}} ما يصير والرأس {{-2}} وما هي في {{labor}}",
+   "3": "لأن {{CS}} نفس الخيار الأول وما له {{indication}}"
+  },
+  "change": [
+   "لو {{cervix changed progressively}} فنقبلها {{true labor}}",
+   "لو {{ROM or bleeding}} فنقيّم من جديد"
+  ],
+  "rule": "الـ{{no cervical change}} يعني {{false labor}} يعني {{discharge}}",
+  "note": "الخيارين {{A}} و{{D}} نفس الشي بـ{{CS}} في السؤال."
+ },
+ "A006": {
+  "idea": [
+   "الـ{{38 weeks, irregular contractions, 1 cm, station -2}} وبعد ساعات ما تغير شي",
+   "فنعطيها {{discharge home and return when in active labor}}"
+  ],
+  "clues": [
+   [
+    "مع {{irregular contractions}}",
+    "يعني {{Braxton Hicks}}"
+   ],
+   [
+    "و{{no change in dilation or station}}",
+    "يعني {{false labor}}"
+   ]
+  ],
+  "why": [
+   "لأن ما في {{cervical change}} فهذي {{false labor}}",
+   "فما تحتاج {{augmentation}} ولا {{admission}}"
+  ],
+  "wrong": {
+   "0": "لأن {{oxytocin}} للـ{{true labor with protraction}} مو للـ{{false labor}}",
+   "1": "لأن {{amniotomy}} مو مناسب والرأس {{-2}} وما في {{labor}}"
+  },
+  "change": [
+   "لو {{cervix progresses}} فنقبلها {{labor}}",
+   "لو {{regular painful contractions}} فنراقب"
+  ],
+  "rule": "الـ{{no cervical change}} يعني {{Braxton Hicks}} يعني {{discharge}}"
+ },
+ "A007": {
+  "idea": [
+   "الـ{{primigravida, 38 weeks, irregular mild contractions, 4 cm, station -3/-2}} وبعد 3 ساعات ما تغير",
+   "فهذي {{false/latent labor}} نقول لها ترجع لو {{active labor}}"
+  ],
+  "clues": [
+   [
+    "مع {{mild irregular contractions}}",
+    "يعني ما هي {{active labor}}"
+   ],
+   [
+    "و{{no change after 3 hours}}",
+    "يعني {{no progression}} بس بدون {{distress}}"
+   ],
+   [
+    "و{{CTG normal}}",
+    "فما في داعي {{CS}}"
+   ]
+  ],
+  "why": [
+   "لأن الانقباضات {{irregular and mild}} فمو {{active phase}}",
+   "فما نسوي {{augmentation}} ونرجعها تجي لو {{active labor}}"
+  ],
+  "wrong": {
+   "0": "لأن {{oxytocin}} لـ{{true labor}} مو انقباضات {{irregular}}",
+   "1": "لأن {{amniotomy}} مع رأس {{-3/-2}} فيه خطر {{cord prolapse}}",
+   "3": "لأن {{CS}} ما له {{indication}}"
+  },
+  "change": [
+   "لو {{regular strong contractions with dilation}} فهي {{active labor}}",
+   "لو {{CTG abnormal}} فنقيّم من جديد"
+  ],
+  "rule": "الـ{{irregular mild contractions}} يعني ما نتدخل ونرجعها",
+  "note": "الـ{{Probably Confirmed}}. فيه تفصيل {{4 cm}} يخلي السؤال غير واضح، بس نبقى على الجواب."
+ },
+ "A008": {
+  "idea": [
+   "الـ{{primigravida with BP 160/100, 4 cm then 5 cm after 4 hours}} مع {{intact membranes and normal CTG}}",
+   "فنعمل {{amniotomy}} والـ{{BP}} لحاله مو {{indication for CS}}"
+  ],
+  "clues": [
+   [
+    "مع {{BP 160/100}}",
+    "يعني {{severe-range hypertension}} بس مو {{indication for CS}}"
+   ],
+   [
+    "و{{1 cm in 4 hours}}",
+    "يعني {{protraction}} فنعمل {{amniotomy}}"
+   ],
+   [
+    "و{{CTG and mother normal}}",
+    "فما في {{emergency}}"
+   ]
+  ],
+  "why": [
+   "لأن {{severe preeclampsia}} لحاله ما يستدعي {{CS}} بدون {{other indications}}",
+   "فنعالج {{BP}} ونكمل {{augmentation}} بـ{{amniotomy}}"
+  ],
+  "wrong": {
+   "0": "لأن {{reassess after 2 hours}} تأخير مع {{protraction}}",
+   "2": "لأن {{CS}} ما له {{indication}} (مو {{absent EDV}} ولا {{fetal distress}})",
+   "3": "لأن {{discharge}} خطر مع {{BP 160/100}}"
+  },
+  "change": [
+   "لو {{fetal distress or absent/reversed EDV}} فـ{{CS}}",
+   "لو {{eclampsia}} فنثبّت الأم و{{MgSO4}}"
+  ],
+  "rule": "الـ{{severe preeclampsia}} لحاله مو {{indication for CS}}",
+  "note": "السؤال ناقص مع {{no labs, no proteinuria}} والمهم إننا نعالج {{severe BP}} مع {{amniotomy}}."
+ },
+ "A009": {
+  "idea": [
+   "الـ{{G5P4, 34 weeks, 4 cm, station -3, intact membranes}} مع {{variable decelerations and good variability}}",
+   "فاختاروا {{rupture the membranes}} بالاستبعاد"
+  ],
+  "clues": [
+   [
+    "مع {{good variability and accelerations}}",
+    "يعني {{CTG reassuring}}"
+   ],
+   [
+    "و{{variable decelerations}}",
+    "يعني غالباً {{benign}} لو {{occasional}}"
+   ],
+   [
+    "و{{strong regular contractions, 4 in 10}}",
+    "يعني {{labor is established}}"
+   ]
+  ],
+  "why": [
+   "لأن بقية الخيارات غلط 100% وهي {{CS, forceps, tocolytics}} فاختاروا {{amniotomy}}",
+   "مع إن الأفضل {{observation}} لو موجودة"
+  ],
+  "wrong": {
+   "0": "لأن {{CTG}} مطمئن فما في داعي {{CS}}",
+   "1": "لأن {{forceps}} ما يصير و{{cervix 4 cm}}",
+   "3": "لأن {{tocolytics}} ما نعطيها وهي في {{active labor}}"
+  },
+  "change": [
+   "لو {{recurrent late or variable decelerations}} فنتجنب {{augmentation}}",
+   "لو {{observe}} كان خيار فهو الأفضل"
+  ],
+  "rule": "الـ{{reassuring CTG}} يعني ما نتدخل بـ{{CS}}",
+  "note": "الجواب {{amniotomy}} مشكوك فيه: الرأس {{-3}} فيه خطر {{cord prolapse}} و{{observation}} كان أفضل."
+ },
+ "A010": {
+  "idea": [
+   "الـ{{41 weeks, 4 cm}} وبعد ساعتين {{extremely exhausted}} مع {{late decelerations}}",
+   "فنروح {{C section}}"
+  ],
+  "clues": [
+   [
+    "مع {{late decelerations}}",
+    "يعني {{fetal hypoxia}} فما نعمل {{augmentation}}"
+   ],
+   [
+    "و{{extreme maternal exhaustion}}",
+    "يعني {{indication for CS}}"
+   ],
+   [
+    "و{{41 weeks}}",
+    "يعني {{post-term}} بس مو هو الحل"
+   ]
+  ],
+  "why": [
+   "لأن {{late decelerations}} مع {{exhaustion}} في {{4 cm}} يعني {{expedite delivery}}",
+   "والـ{{CS}} أسرع طريقة لأن الولادة المهبلية بعيدة"
+  ],
+  "wrong": {
+   "0": "لأن {{oxytocin}} يزيد {{hypoxia}} مع {{late decelerations}}",
+   "1": "لأن {{progesterone}} ما له دور في {{labor}}",
+   "3": "لأن {{induction}} هي أصلاً في {{labor}} و{{fetus compromised}}"
+  },
+  "change": [
+   "لو {{CTG normal and mother rested}} فنكمل {{labor}}",
+   "لو {{fully dilated at +2}} فنفكر {{operative vaginal delivery}}"
+  ],
+  "rule": "الـ{{late decelerations + 4 cm}} يعني {{CS}}"
+ },
+ "A011": {
+  "idea": [
+   "الـ{{G5P4, fully dilated 2 hours, exhausted, station -3, head 4/5 palpable}} مع {{category 1 CTG}}",
+   "فهنا {{CS}} لأن الرأس عالي"
+  ],
+  "clues": [
+   [
+    "مع {{station -3 and 4/5 palpable}}",
+    "يعني الرأس عالي فنستبعد {{operative delivery}}"
+   ],
+   [
+    "و{{maternal exhaustion}}",
+    "يعني {{indication for delivery}}"
+   ],
+   [
+    "و{{fully dilated for 2 hours}}",
+    "يعني {{prolonged second stage}}"
+   ]
+  ],
+  "why": [
+   "لأن {{forceps/vacuum}} يحتاج الرأس {{+2 or below}} أي {{engaged}}",
+   "فمع {{station -3}} والإرهاق نختار {{CS}}"
+  ],
+  "wrong": {
+   "1": "لأن {{forceps}} ما يصير والرأس {{-3}}",
+   "2": "لأن {{vacuum}} ما يصير والرأس {{-3}}",
+   "3": "لأن {{reassess after 2 hours}} ما يفيد مع الإرهاق"
+  },
+  "change": [
+   "لو {{station +2 or below}} فـ{{operative vaginal delivery}}",
+   "لو {{she is rested with epidural}} فنعطيها وقت للـ{{pushing}}"
+  ],
+  "rule": "الـ{{head above +2}} يعني ما في {{operative delivery}}",
+  "note": "السؤال غريب، {{fully dilated}} مع {{station -3}} بس الجواب {{CS}} حسب المصدر."
+ },
+ "A012": {
+  "idea": [
+   "الـ{{mother exhausted, can't push, head at +2}} مع {{minimal variability and late decelerations}}",
+   "فنعمل {{operative vaginal delivery}}"
+  ],
+  "clues": [
+   [
+    "مع {{station +2}}",
+    "يعني نقدر {{operative delivery}}"
+   ],
+   [
+    "و{{minimal variability + late decelerations}}",
+    "يعني {{fetal compromise}} فنسرّع الولادة"
+   ],
+   [
+    "و{{maternal exhaustion}}",
+    "يعني {{indication}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{indications}} نفس {{CS}} و{{operative delivery}} والفرق في الـ{{station}}",
+   "الـ{{+2}} يعني {{operative}} و{{+1}} يعني {{CS}}"
+  ],
+  "wrong": {
+   "0": "لأن الرأس {{+2}} فـ{{operative delivery}} أسرع وأنسب",
+   "2": "لأن {{reassess after 1 hour}} تأخير مع {{late decelerations}}",
+   "3": "لأن {{oxytocin}} يزيد {{hypoxia}} مع {{late decelerations}}"
+  },
+  "change": [
+   "لو {{head +1}} فـ{{CS}}",
+   "لو {{CTG normal}} فنعطيها وقت للـ{{pushing}}"
+  ],
+  "rule": "الـ{{head +2 + indication}} يعني {{operative delivery}}"
+ },
+ "A013": {
+  "idea": [
+   "الـ{{G1, 42 weeks, after PGE2 FHR 70 not recovering, fully dilated, station +2}}",
+   "فنقول {{start pushing and apply ventouse}}"
+  ],
+  "clues": [
+   [
+    "مع {{FHR 70 not recovering}}",
+    "يعني نتعامل معها كـ{{category 3}}"
+   ],
+   [
+    "و{{fully dilated at +2}}",
+    "يعني {{operative vaginal delivery}} أسرع"
+   ],
+   [
+    "و{{PGE2 + regular contractions}}",
+    "يعني {{tachysystole}} محتمل"
+   ]
+  ],
+  "why": [
+   "لأن {{fully dilated with station +2}} فنولّد بسرعة بـ{{ventouse}}",
+   "ولو كان {{+1}} كان الجواب {{CS}}"
+  ],
+  "wrong": {
+   "0": "لأن {{oxytocin}} ممنوع مع {{category 2/3 trace}}",
+   "1": "لأن {{pressure the patient}} ما هو علاج",
+   "2": "لأن {{CS}} أبطأ وهي {{fully dilated at +2}}"
+  },
+  "change": [
+   "لو {{station +1}} فـ{{CS}}",
+   "لو {{FHR recovers}} فنراقب"
+  ],
+  "rule": "الـ{{fully dilated at +2 with distress}} يعني {{ventouse}}"
+ },
+ "A014": {
+  "idea": [
+   "الـ{{34 weeks, ROM 6 hours, no contractions, meconium-stained liquor, stable}}",
+   "فنعمل {{induction of labor}} بدون {{antibiotics}}"
+  ],
+  "clues": [
+   [
+    "مع {{34 weeks}}",
+    "يعني {{PPROM}} نولّد عند {{34 weeks}}"
+   ],
+   [
+    "و{{meconium-stained liquor}}",
+    "يعني ما يغيّر {{management}}"
+   ],
+   [
+    "و{{fundal height 30 cm}}",
+    "يعني {{oligohydramnios}} بعد الـ{{ROM}}"
+   ]
+  ],
+  "why": [
+   "لأن {{PPROM at 34 weeks}} نعمل {{induction}} بدون {{antibiotics}}",
+   "والـ{{meconium}} مو {{indication}} لـ{{CS}} ولا {{antibiotics}}"
+  ],
+  "wrong": {
+   "1": "لأن {{CS}} ما له {{indication}}",
+   "2": "لأن {{antibiotics}} ما نعطيها عند {{34 weeks and beyond}} إلا لو {{prolonged ROM > 16-18 hours}}",
+   "3": "لأن {{observation}} ما نعملها بعد {{34 weeks}}"
+  },
+  "change": [
+   "لو {{prolonged ROM > 16-18 hours}} فـ{{induction + antibiotics}}",
+   "لو أقل من {{34 weeks}} فـ{{expectant management with steroids and antibiotics}}"
+  ],
+  "rule": "الـ{{PPROM at 34 weeks}} يعني {{induction}}",
+  "note": "الجواب {{C}} ممكن يصير لو فيه {{prolonged ROM}}، بس الجواب المعطى {{A}}."
+ },
+ "A015": {
+  "idea": [
+   "الـ{{G2P1, 32 weeks, PPROM confirmed on speculum}}",
+   "فنعطي {{steroids and antibiotics}}"
+  ],
+  "clues": [
+   [
+    "مع {{32 weeks}}",
+    "يعني أقل من {{34 weeks}} فنعمل {{expectant management}}"
+   ],
+   [
+    "و{{PPROM}}",
+    "يعني {{antibiotics}} تمدّد الـ{{latency}}"
+   ],
+   [
+    "و{{prevent illness}}",
+    "يعني نقلل {{RDS and infection}}"
+   ]
+  ],
+  "why": [
+   "لأن {{PPROM ≤ 33 weeks}} نعطي {{corticosteroids + antibiotics}}",
+   "وهذا يقلل {{neonatal morbidity}} و{{infection}}"
+  ],
+  "wrong": {
+   "0": "لأن {{tocolytics}} في {{PPROM}} مختلف عليها وما هي الأساس",
+   "1": "لأن {{cerclage}} ما ينفع بعد {{ROM}}",
+   "2": "لأن {{induction}} نعملها عند {{34 weeks}} أو {{chorioamnionitis}}"
+  },
+  "change": [
+   "لو {{34 weeks or more}} فـ{{induction without antibiotics}}",
+   "لو {{chorioamnionitis}} فنولّد و{{antibiotics}}"
+  ],
+  "rule": "الـ{{PPROM < 34 weeks}} يعني {{steroids + antibiotics}}"
+ },
+ "A016": {
+  "idea": [
+   "الـ{{31 weeks, ROM with clear fluid, Nitrazine positive, CTG reassuring}}",
+   "فنعطي {{antibiotic prophylaxis and corticosteroids}}"
+  ],
+  "clues": [
+   [
+    "مع {{Nitrazine positive}}",
+    "يعني {{PPROM}}"
+   ],
+   [
+    "و{{31 weeks}}",
+    "يعني أقل من {{34 weeks}} فـ{{expectant}}"
+   ],
+   [
+    "و{{CTG reassuring}}",
+    "يعني ما نستعجل بالولادة"
+   ]
+  ],
+  "why": [
+   "لأن {{antibiotics}} تمدّد الـ{{latency}} وتقلل {{infection}}",
+   "والـ{{corticosteroids}} تنضّج {{fetal lungs}}"
+  ],
+  "wrong": {
+   "0": "لأن {{tocolytics}} ما تمدد الحمل في {{PPROM}} ومختلف عليها",
+   "1": "لأن {{induction}} نعملها عند {{34 weeks}} أو {{chorioamnionitis}} بس"
+  },
+  "change": [
+   "لو {{34 weeks}} فـ{{induction}}",
+   "لو {{chorioamnionitis}} فـ{{delivery}}"
+  ],
+  "rule": "الـ{{PPROM < 34 weeks}} يعني {{antibiotics + steroids}}"
+ },
+ "A017": {
+  "idea": [
+   "الـ{{38 weeks, complete breech, 4 cm, weight 2.9 kg, reactive CTG, no change after 2 hours}}",
+   "فنروح {{emergency CS}}"
+  ],
+  "clues": [
+   [
+    "مع {{breech in labor}}",
+    "يعني ننتظر {{2 hours}} بس مو {{4 hours}}"
+   ],
+   [
+    "و{{no change after 2 hours}}",
+    "يعني {{failure to progress}}"
+   ],
+   [
+    "و{{weight and type OK}}",
+    "يعني ما يغيّر الجواب"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{breech}} ما نعطيه فرصة طويلة، {{no progress 2 hours}} يعني {{CS}}",
+   "والـ{{oxytocin}} ما نستعمله هنا"
+  ],
+  "wrong": {
+   "0": "لأن {{oxytocin}} في {{breech}} غير مناسب",
+   "1": "لأن {{waiting 2 more hours}} زيادة عن اللازم في {{breech}}",
+   "3": "لأن {{ECV}} ما يصير وهي في {{labor 4 cm}}"
+  },
+  "change": [
+   "لو {{cephalic}} فننتظر {{4 hours}}",
+   "لو {{progress}} فنكمل {{vaginal breech delivery}}"
+  ],
+  "rule": "الـ{{breech + no progress 2 hours}} يعني {{CS}}"
+ },
+ "A018": {
+  "idea": [
+   "الـ{{G3P2, active labor, complete breech, 4 cm, no change after 2 hours}}",
+   "فنروح {{emergency CS}}"
+  ],
+  "clues": [
+   [
+    "مع {{complete breech}}",
+    "يعني نصبر {{2 hours}} فقط"
+   ],
+   [
+    "و{{no change 2 hours}}",
+    "يعني {{failure to progress}}"
+   ],
+   [
+    "و{{station -1}}",
+    "يعني ما في {{operative delivery}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{breech}} {{no progress for 2 hours}} فهذا {{indication for CS}}",
+   "وما نعطي {{oxytocin}} ولا {{operative delivery}}"
+  ],
+  "wrong": {
+   "0": "لأن {{waiting 2 more hours}} زيادة في {{breech}}",
+   "1": "لأن {{oxytocin}} غير مناسب في {{breech}}",
+   "3": "لأن {{operative vaginal delivery}} مو ممكن والرأس {{-1}} و{{breech}}"
+  },
+  "change": [
+   "لو {{cephalic}} فننتظر {{4 hours}}",
+   "لو {{progress}} فنكمل"
+  ],
+  "rule": "الـ{{breech + 2 hours no progress}} يعني {{CS}}"
+ },
+ "A019": {
+  "idea": [
+   "الـ{{complete breech, 5 cm, ruptured membranes, no progress after 2 hours}}",
+   "فنعمل {{cesarean section}}"
+  ],
+  "clues": [
+   [
+    "مع {{complete breech in labor}}",
+    "يعني ننتظر {{2 hours}} بس"
+   ],
+   [
+    "و{{no progress after 2 hours}}",
+    "يعني {{CS}}"
+   ],
+   [
+    "و{{ruptured membranes}}",
+    "يعني {{ECV}} ما يصير"
+   ]
+  ],
+  "why": [
+   "لأن {{failure of progress}} في الـ{{breech}} بعد {{2 hours}} يعني {{CS}}",
+   "ولا نعطي {{oxytocin}} في {{breech}}"
+  ],
+  "wrong": {
+   "0": "لأن {{reassess after 2 hours}} تأخير زيادة",
+   "1": "لأن {{oxytocin}} غير مناسب في {{breech}}",
+   "3": "لأن {{ECV}} ممنوع في {{labor with ruptured membranes}}"
+  },
+  "change": [
+   "لو {{cephalic}} فننتظر {{4 hours}}",
+   "لو {{progress}} فنكمل"
+  ],
+  "rule": "الـ{{breech + no progress}} يعني {{CS}}"
+ },
+ "A020": {
+  "idea": [
+   "الـ{{G4P3, breech}} نبغى {{ECV}} فأفضل وقت {{37 weeks}}",
+   "لأن الجواب المعطى {{37 weeks}}"
+  ],
+  "clues": [
+   [
+    "لو {{breech}}",
+    "يعني نفكر في {{ECV}}"
+   ],
+   [
+    "و{{multiparous}}",
+    "يعني {{ECV}} أسهل"
+   ],
+   [
+    "مع {{37 weeks}}",
+    "يعني {{term}} وأقل {{reversion}}"
+   ]
+  ],
+  "why": [
+   "لأن {{ECV}} نعملها عند {{37 weeks}} في الجواب المعطى",
+   "لأن بعدها {{spontaneous version}} أقل والجنين {{term}} لو احتجنا ولادة طارئة"
+  ],
+  "wrong": {
+   "0": "لأن {{36 weeks}} بدري عند هذا الجواب",
+   "2": "لأن {{38 weeks}} متأخر",
+   "3": "لأن {{39 weeks}} متأخر"
+  },
+  "change": [
+   "لو {{nulliparous}} فبعض الـ{{guidelines}} يقول {{36 weeks}}",
+   "لو {{contraindication}} فما نعمل {{ECV}}"
+  ],
+  "rule": "الـ{{ECV}} عند {{37 weeks}}",
+  "note": "الـ{{guidelines}} تختلف: {{ACOG 37 weeks}} و{{RCOG 36 weeks nulliparous / 37 weeks multiparous}}."
+ },
+ "A021": {
+  "idea": [
+   "الـ{{38 weeks, frank breech, oligohydramnios, anterior placenta}}",
+   "فالـ{{absolute contraindication}} هو {{oligohydramnios}}"
+  ],
+  "clues": [
+   [
+    "مع {{oligohydramnios}}",
+    "يعني {{ECV}} صعب وخطر، {{absolute contraindication}}"
+   ],
+   [
+    "و{{early labor}}",
+    "يعني {{relative}} وتصير لو {{membranes ruptured}}"
+   ],
+   [
+    "و{{anterior placenta}}",
+    "يعني مو {{contraindication}}"
+   ]
+  ],
+  "why": [
+   "لأن {{oligohydramnios}} {{absolute contraindication}} لـ{{ECV}}",
+   "والـ{{labor}} مو مانع لو {{membranes intact}}"
+  ],
+  "wrong": {
+   "0": "لأن {{early labor}} {{relative contraindication}} بس",
+   "1": "لأن {{breech}} هو {{indication}} للـ{{ECV}} مو مانع",
+   "3": "لأن {{anterior placenta}} مو {{contraindication}}"
+  },
+  "change": [
+   "لو {{membranes ruptured in labor}} فهذا {{contraindication}}",
+   "لو {{normal fluid}} فنعمل {{ECV}}"
+  ],
+  "rule": "الـ{{oligohydramnios}} يعني {{no ECV}}",
+  "note": "الصورة ما قدرت أشوفها، والجواب من نص السؤال والمصدر."
+ },
+ "A022": {
+  "idea": [
+   "الـ{{G8P7, 37 weeks, 10 cm, station -3}} مع {{severe pain, bleeding, FHR 80, contractions stopped}}",
+   "فهذا {{uterine rupture}} فنعمل {{immediate laparotomy}}"
+  ],
+  "clues": [
+   [
+    "مع {{severe abdominal pain + bleeding}}",
+    "يعني {{uterine rupture}} أو {{abruption}}"
+   ],
+   [
+    "و{{contractions suddenly stopped}}",
+    "يعني {{uterine rupture}}"
+   ],
+   [
+    "و{{FHR 80 + late decelerations}}",
+    "يعني {{fetal compromise}}"
+   ]
+  ],
+  "why": [
+   "لأن {{grand multipara}} مع {{sudden cessation of contractions}} يعني {{uterine rupture}}",
+   "والعلاج {{emergency laparotomy}} وليس ولادة مهبلية"
+  ],
+  "wrong": {
+   "0": "لأن {{observation}} خطر قاتل",
+   "1": "لأن {{ventouse}} مع رأس {{-3}} ما يصير",
+   "2": "لأن {{pushing}} مع {{rupture}} خطر"
+  },
+  "change": [
+   "لو {{station +2 or below}} فـ{{ventouse}}",
+   "لو {{no rupture}} فنقيّم {{abruption}}"
+  ],
+  "rule": "الـ{{sudden stop of contractions + bleeding}} يعني {{laparotomy}}"
+ },
+ "A023": {
+  "idea": [
+   "الـ{{G5P4, 37 weeks, 10 cm, station -3, FHR 90, recurrent late decelerations}}",
+   "فنروح {{emergency cesarean section}}"
+  ],
+  "clues": [
+   [
+    "مع {{recurrent late decelerations}}",
+    "يعني {{fetal hypoxia}}"
+   ],
+   [
+    "و{{station -3}}",
+    "يعني ما في {{operative delivery}}"
+   ],
+   [
+    "و{{baseline 90 with good variability}}",
+    "يعني {{category 2}} بس مع {{late decels}} نتدخل"
+   ]
+  ],
+  "why": [
+   "لأن {{fetal distress}} والرأس عالي عند {{-3}} فما نقدر {{instrumental}}",
+   "فنختار {{emergency CS}}"
+  ],
+  "wrong": {
+   "0": "لأن {{oxytocin}} يزيد {{hypoxia}}",
+   "1": "لأن {{instrumental delivery}} ما يصير والرأس {{-3}}",
+   "3": "لأن {{reassurance}} غلط مع {{late decelerations}}"
+  },
+  "change": [
+   "لو {{station +2}} فـ{{operative delivery}}",
+   "لو {{stop oxytocin}} كان خيار فنوقف {{oxytocin}} أول"
+  ],
+  "rule": "الـ{{recurrent late decelerations + high head}} يعني {{CS}}",
+  "note": "الجواب معقول، بس {{bradycardia}} مع {{good variability}} لحاله ممكن مو {{CS}}، و{{stop oxytocin}} كان أحسن لو موجود."
+ },
+ "A024": {
+  "idea": [
+   "الـ{{IUGR, 38 weeks, 4 cm, meconium, no accelerations, poor variability, recurrent late decelerations}}",
+   "فنروح {{emergency CS}}"
+  ],
+  "clues": [
+   [
+    "مع {{poor variability + recurrent late decelerations}}",
+    "يعني {{fetal distress}}"
+   ],
+   [
+    "و{{IUGR}}",
+    "يعني {{reserve}} قليل"
+   ],
+   [
+    "و{{meconium}}",
+    "يعني مو هو سبب {{CS}}"
+   ]
+  ],
+  "why": [
+   "لأن {{CTG}} فيه {{fetal distress}} و{{cervix 4 cm}} فما في ولادة سريعة",
+   "فنروح {{emergency CS}} والـ{{meconium}} مو السبب"
+  ],
+  "wrong": {
+   "0": "لأن {{induction}} غلط مع {{distress}}",
+   "1": "لأن {{augmentation}} يزيد {{hypoxia}}",
+   "3": "لأن {{observation}} خطر"
+  },
+  "change": [
+   "لو {{CTG normal}} فنكمل {{labor}} حتى مع {{meconium}}",
+   "لو {{fully dilated at +2}} فـ{{operative delivery}}"
+  ],
+  "rule": "الـ{{late decelerations + poor variability}} يعني {{CS}}"
+ },
+ "A025": {
+  "idea": [
+   "الـ{{G3P2, 38 weeks, 6 cm, baseline 120, absent variability, recurrent late decelerations}}",
+   "فنروح {{emergency cesarean section}}"
+  ],
+  "clues": [
+   [
+    "مع {{absent variability + recurrent late decelerations}}",
+    "يعني {{category 3}}"
+   ],
+   [
+    "و{{6 cm}}",
+    "يعني ما في {{operative delivery}}"
+   ],
+   [
+    "و{{baseline 120}}",
+    "يعني طبيعي بس مو مطمئن"
+   ]
+  ],
+  "why": [
+   "لأن {{absent variability + recurrent decelerations}} يعني {{category 3}} فنولّد بسرعة",
+   "و{{6 cm}} فما نقدر {{ventouse}} ولا {{forceps}} فـ{{CS}}"
+  ],
+  "wrong": {
+   "0": "لأن {{ventouse}} ما يصير و{{cervix 6 cm}}",
+   "1": "لأن {{forceps}} ما يصير و{{cervix 6 cm}}",
+   "2": "لأن {{reassurance}} غلط مع {{category 3}}"
+  },
+  "change": [
+   "لو {{fully dilated at +2}} فـ{{operative delivery}}",
+   "لو {{CTG normal}} فنكمل {{labor}}"
+  ],
+  "rule": "الـ{{absent variability + recurrent decelerations}} يعني {{CS}}"
+ }
+}

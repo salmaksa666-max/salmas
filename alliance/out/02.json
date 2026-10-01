@@ -1,0 +1,730 @@
+{
+ "A026": {
+  "idea": [
+   "سيدة في المخاض والـ{{CTG}} فيه {{recurrent early decelerations}} مع {{moderate variability}}",
+   "فهذا {{Category 1 tracing}} والجواب {{continue routine monitoring}}"
+  ],
+  "clues": [
+   [
+    "{{early decelerations}}",
+    "يعني {{head compression}} فسيولوجي وما فيه خطر"
+   ],
+   [
+    "{{moderate variability}}",
+    "يعني {{fetal acid-base status}} سليم"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{early deceleration}} تتزامن مع الانقباض وتكون {{benign}}",
+   "فـ{{Category 1}} ما يحتاج أي تدخل، بس نكمل {{routine monitoring}}"
+  ],
+  "wrong": {
+   "0": "الـ{{supplemental oxygen}} ما نعطيها إلا لو الأم {{hypoxic}}، وحتى في {{Category 2}} ما تنفع روتينياً"
+  },
+  "change": [
+   "لو صارت {{late decelerations}} مع {{minimal variability}} يعني نبدأ {{intrauterine resuscitation}}",
+   "لو الأم {{hypoxic}} نعطي {{oxygen}} لها"
+  ],
+  "rule": "الـ{{early decelerations}} مع {{moderate variability}} يعني {{Category 1}} فنكمل {{monitoring}} بس"
+ },
+ "A027": {
+  "idea": [
+   "سيدة {{nulliparous at 42 weeks}} بعد {{prostaglandin gel}} بساعة صارت {{FHR 80 bpm}} والانقباض يستمر {{2 minutes}}",
+   "فهذا {{uterine tachysystole / hypertonus}} مع {{fetal bradycardia}} والجواب {{subcutaneous terbutaline}}"
+  ],
+  "clues": [
+   [
+    "{{contractions last 2 minutes}} بعد {{prostaglandin}}",
+    "يعني {{uterine hyperstimulation}}"
+   ],
+   [
+    "{{NST reactive قبل الجل}}",
+    "يعني الجنين كان سليم والمشكلة جت من الدواء"
+   ]
+  ],
+  "why": [
+   "لأن العلاج الأساسي للـ{{hyperstimulation}} هو {{tocolysis}} بـ{{terbutaline}} عشان نوقف الانقباض",
+   "فالـ{{bradycardia}} سببها نقص تروية بسبب طول الانقباض وتتحسن لو انحلت الانقباضات"
+  ],
+  "wrong": {
+   "0": "الـ{{oxygen}} فقط ما تعالج السبب وهو {{hypertonus}}، تساعد بس مو الأهم",
+   "1": "الـ{{urgent caesarean}} نلجأ له لو ما تحسن بعد {{tocolysis}} و{{resuscitation}}",
+   "3": "فحص {{cord prolapse}} مهم، بس الصورة هنا {{hyperstimulation}} بعد {{prostaglandin}} والغشاء سليم والجنين كان طبيعي قبل"
+  },
+  "change": [
+   "لو ما تحسنت الـ{{FHR}} بعد {{terbutaline}} نروح {{emergency caesarean}}",
+   "لو الأغشية متمزقة وفجأة {{bradycardia}} نشك في {{cord prolapse}}"
+  ],
+  "rule": "لو {{prolonged contraction}} بعد {{prostaglandin}} مع {{bradycardia}} فنعطي {{terbutaline}} أولاً",
+  "note": "الجواب C حسب الـ{{MG}} في المصدر، وفعلاً هو الأنسب هنا."
+ },
+ "A028": {
+  "idea": [
+   "سيدة {{G3P2 at 34 weeks}} مع ألم خفيف و{{CTG}} طبيعي و{{cervix 1 cm and uneffaced}}",
+   "فهذا مو {{labor}} حقيقي والجواب {{reassurance}}"
+  ],
+  "clues": [
+   [
+    "{{good variability with accelerations}}",
+    "يعني {{Category 1}} والجنين سليم"
+   ],
+   [
+    "{{cervix 1 cm uneffaced}}",
+    "يعني ما فيه {{cervical change}} فما في مخاض"
+   ]
+  ],
+  "why": [
+   "لأن ما فيه {{indication}} لإنهاء الحمل ولا {{labor}} فعلي",
+   "فنطمنها ونعطيها {{warning signs}} ونتابع"
+  ],
+  "wrong": {
+   "1": "الـ{{induction}} يكون عند {{41 weeks}} أو لـ{{indication}} طبي وهي ما عندها",
+   "2": "الـ{{augmentation}} لمخاض موجود أصلاً، وما نعمله لـ{{preterm}} بدون سبب",
+   "3": "الـ{{cesarean}} للـ{{Category 3}} أو {{obstetric indication}} وهذا غير موجود"
+  },
+  "change": [
+   "لو {{regular contractions}} مع {{cervical change}} يعني {{preterm labor}} ونبدأ {{tocolysis}} و{{steroids}}",
+   "لو {{Category 3 CTG}} يعني {{emergency cesarean}}"
+  ],
+  "rule": "الـ{{mild pain}} بدون {{cervical change}} وبـ{{CTG}} طبيعي يعني {{reassurance}}"
+ },
+ "A029": {
+  "idea": [
+   "الـ{{primigravida at 36 weeks}} مع انقباضات خفيفة غير منتظمة و{{no cervical dilation}} و{{CTG}} طبيعي",
+   "فهذه {{Braxton Hicks contractions}} والجواب {{reassurance}}"
+  ],
+  "clues": [
+   [
+    "{{mild irregular contractions}}",
+    "يعني {{Braxton Hicks}}"
+   ],
+   [
+    "{{no cervical dilation}}",
+    "يعني ما فيه {{labor}} فعلي"
+   ]
+  ],
+  "why": [
+   "لأن {{Braxton Hicks}} هي انقباضات {{third trimester}} بدون {{cervical changes}}",
+   "فما نحتاج أي تدخل غير {{reassurance}}"
+  ],
+  "wrong": {
+   "1": "الـ{{induction}} ما له {{indication}} وهي {{36 weeks}}",
+   "2": "الـ{{augmentation}} تكون لمخاض فعلي ما هذا",
+   "3": "الـ{{cesarean}} ما له سبب مع {{CTG}} طبيعي"
+  },
+  "change": [
+   "لو صار {{cervical dilation}} مع انقباضات منتظمة يعني {{preterm labor}}",
+   "لو {{CTG}} ما هو طبيعي نتعامل حسب الـ{{category}}"
+  ],
+  "rule": "الـ{{irregular mild contractions}} بدون {{cervical change}} يعني {{Braxton Hicks}} فنطمن"
+ },
+ "A030": {
+  "idea": [
+   "الـ{{G5P4 at 39 weeks}} الـ{{cervix 7 cm}} والانقباضات خفيفة {{2 per 10 minutes}} و{{CTG}} مطمئن",
+   "فهذا {{hypotonic uterine dysfunction}} في {{active phase}} والجواب {{augmentation with oxytocin}}"
+  ],
+  "clues": [
+   [
+    "{{contractions 2 in 10 minutes}}",
+    "يعني ضعيفة وأقل من {{3-5 per 10 minutes}} المطلوب"
+   ],
+   [
+    "{{occasional variable decelerations with accelerations}}",
+    "يعني {{Category 1-2}} خفيف ما يمنع {{oxytocin}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{active labor}} تحتاج انقباضات كافية فنعطي {{oxytocin}}",
+   "و{{CTG}} مطمئن فما فيه مانع من {{augmentation}}"
+  ],
+  "wrong": {
+   "0": "الـ{{observation}} ما تحل ضعف الانقباضات وتطول المخاض",
+   "1": "الـ{{cesarean}} ما له {{indication}} والجنين سليم",
+   "2": "الـ{{instrumental delivery}} يحتاج {{full dilation}} والـ{{cervix}} هنا {{7 cm}}"
+  },
+  "change": [
+   "لو {{Category 3 CTG}} يعني {{cesarean}} مو {{oxytocin}}",
+   "لو انقباضات كافية بس ما في تقدم يعني نفكر في {{cephalopelvic disproportion}}"
+  ],
+  "rule": "الـ{{active phase}} مع انقباضات ضعيفة و{{CTG}} سليم يعني {{oxytocin augmentation}}"
+ },
+ "A031": {
+  "idea": [
+   "الـ{{primigravida at 39 weeks}} في {{latent phase}} و{{cervix 2 cm}} مع انقباضات خفيفة غير منتظمة و{{CTG}} مطمئن",
+   "فنعطي {{augmentation of labor}}"
+  ],
+  "clues": [
+   [
+    "{{they stated latent labor}}",
+    "يعني ما هي {{Braxton Hicks}} بل مخاض بدأ"
+   ],
+   [
+    "{{mild irregular contractions}}",
+    "يعني نقوّيها بـ{{oxytocin}}"
+   ]
+  ],
+  "why": [
+   "لأن المصدر يقول {{mild irregular contractions}} في مخاض فعلي يعني {{augmentation}}",
+   "وما فيه {{preterm}} ولا {{Category 2 CTG}} فالـ{{oxytocin}} مسموح"
+  ],
+  "wrong": {
+   "0": "الـ{{observation}} نستخدمها لـ{{Braxton Hicks}} وهنا قالوا {{latent labor}}",
+   "1": "الـ{{cesarean}} ما له {{indication}}",
+   "2": "الـ{{induction}} لمن ما بدأ المخاض وهي بدأت فعلاً"
+  },
+  "change": [
+   "لو {{no cervical change}} مذكورة في السؤال يعني {{Braxton Hicks}} ونراقب",
+   "لو {{CTG Category 2}} نكون حذرين مع {{oxytocin}}"
+  ],
+  "rule": "الـ{{labor}} فعلي مع {{mild irregular contractions}} يعني {{augmentation}}",
+  "note": "السؤال ناقص، والمصدر يعتبر الـ{{latent labor}} مخاض فعلي ويعطي {{augmentation}}، والجواب المعطى محتفظ فيه."
+ },
+ "A032": {
+  "idea": [
+   "سيدة {{G3P2}} انقباضات خفيفة {{12 hours}} و{{cervix 4 cm}} والرأس {{-1 station}}",
+   "فهذا مخاض فعلي ضعيف والجواب {{augmentation of labor}}"
+  ],
+  "clues": [
+   [
+    "{{mild contractions for 12 hours}}",
+    "يعني {{hypotonic contractions}}"
+   ],
+   [
+    "{{cervix 4 cm, station -1}}",
+    "يعني فيه {{cervical change}} ومخاض فعلي"
+   ]
+  ],
+  "why": [
+   "لأن {{mild irregular contractions}} مع مخاض فعلي يعني {{augmentation}}",
+   "والجنين رأسي والحجم مناسب فما في مانع"
+  ],
+  "wrong": {
+   "0": "الـ{{observation}} تكون لـ{{Braxton Hicks}} بس وهنا فيه {{dilation 4 cm}}",
+   "1": "الـ{{cesarean}} ما له {{indication}}",
+   "2": "الـ{{induction}} لمخاض ما بدأ وهي بدأت"
+  },
+  "change": [
+   "لو الـ{{stem}} قال {{no cervical change}} يعني {{Braxton Hicks}}",
+   "لو {{CTG Category 3}} يعني {{cesarean}}"
+  ],
+  "rule": "الـ{{mild contractions}} مع {{cervical dilation}} يعني {{augmentation}}",
+  "note": "الـ{{gestational age}} مو مذكور، والجواب المعطى محتفظ فيه."
+ },
+ "A033": {
+  "idea": [
+   "الـ{{G3P2 at 38 weeks, cervix 6 cm}} و{{CTG}} فيه {{absent variability, absent accelerations, recurrent late decelerations}}",
+   "فهذا {{Category 3}} والجواب {{emergency cesarean section}}"
+  ],
+  "clues": [
+   [
+    "{{absent variability + recurrent late decelerations}}",
+    "يعني {{Category 3 CTG}}"
+   ],
+   [
+    "{{cervix 6 cm}}",
+    "يعني ما وصلت {{full dilation}} فما نقدر نستخدم {{instrumental delivery}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{Category 3}} تعني {{fetal acidosis}} محتملة وتحتاج ولادة سريعة",
+   "والـ{{cervix}} مو كامل فالأسرع والأكثر أماناً {{cesarean}}"
+  ],
+  "wrong": {
+   "0": "الـ{{ventouse}} يحتاج {{full dilation}} و{{head engaged}}",
+   "1": "الـ{{forceps}} نفس الشرط وهو {{10 cm}}",
+   "2": "الـ{{reassurance}} خطر مع {{Category 3}}"
+  },
+  "change": [
+   "لو {{full dilation}} مع {{station +2}} يعني ممكن {{instrumental delivery}}",
+   "لو {{Category 1}} نكمل {{monitoring}}"
+  ],
+  "rule": "الـ{{Category 3 CTG}} مع {{incomplete dilation}} يعني {{emergency cesarean}}"
+ },
+ "A034": {
+  "idea": [
+   "الـ{{G1 at 41+4 weeks}} بعد {{PGE2}} صارت انقباضات منتظمة و{{FHR 70 bpm}} ما تحسنت مع {{fluids and oxygen}}",
+   "فهذا {{refractory Category 2}} والجواب {{cesarean section}}"
+  ],
+  "clues": [
+   [
+    "{{FHR 70 not recovering}}",
+    "يعني {{resuscitative measures}} فشلت"
+   ],
+   [
+    "{{PGE2 then bradycardia}}",
+    "يعني {{hyperstimulation}} محتمل لكن ما تحسن"
+   ]
+  ],
+  "why": [
+   "لأن {{bradycardia}} مستمرة بعد {{resuscitation}} تعني خطر على الجنين",
+   "فما نصبر ونروح {{cesarean}} فوراً"
+  ],
+  "wrong": {
+   "0": "الـ{{oxytocin}} يزيد الانقباضات ويضر الجنين أكثر",
+   "1": "الـ{{reassurance}} خطر مع {{FHR 70}}",
+   "2": "الـ{{analgesia}} ما تعالج مشكلة الجنين"
+  },
+  "change": [
+   "لو تحسنت الـ{{FHR}} بعد {{repositioning}} و{{tocolysis}} نكمل {{labor}} بمراقبة",
+   "لو {{cord prolapse}} نرفع الرأس ونروح {{emergency cesarean}}"
+  ],
+  "rule": "الـ{{bradycardia}} اللي ما استجابت لـ{{resuscitation}} يعني {{cesarean}}"
+ },
+ "A035": {
+  "idea": [
+   "الـ{{G2P1 at 41 weeks, cervix 7 cm}} مع {{meconium}} و{{CTG baseline 100 bpm, poor variability}}",
+   "فهذا {{Category 3}} والجواب {{emergency cesarean}}"
+  ],
+  "clues": [
+   [
+    "{{baseline 100 bpm}}",
+    "يعني {{bradycardia}} (أقل من {{110}})"
+   ],
+   [
+    "{{poor variability}}",
+    "يعني الجنين مو متكيف ومعرض لـ{{acidosis}}"
+   ]
+  ],
+  "why": [
+   "لأن {{poor variability}} مع {{bradycardia}} تعريف {{Category 3}}",
+   "والـ{{cervix}} ما كمل فنروح {{cesarean}} فوراً"
+  ],
+  "wrong": {
+   "0": "الـ{{induction}} ما ينفع وهي أصلاً في {{active labor}}",
+   "1": "الـ{{augmentation}} تزيد الضغط على جنين مرهق",
+   "3": "الـ{{reassurance}} خطر مع {{Category 3}}"
+  },
+  "change": [
+   "لو {{full dilation}} و{{station}} منخفض يعني ممكن {{instrumental delivery}}",
+   "لو {{variability}} طبيعية مع {{baseline}} طبيعي يعني {{Category 1}}"
+  ],
+  "rule": "الـ{{minimal variability}} مع {{bradycardia}} يعني {{Category 3}} فـ{{cesarean}}",
+  "note": "الـ{{stem}} فيه خطأ مطبعي في كلمة {{acervix}} وما يؤثر على الجواب."
+ },
+ "A036": {
+  "idea": [
+   "الـ{{primigravida at 41 weeks}} بعد {{epidural}} صار ما في انقباضات، والرأس {{OA}} عند الـ{{perineum}}",
+   "فنعطي وقت والجواب {{wait one hour}}"
+  ],
+  "clues": [
+   [
+    "{{epidural}}",
+    "يعني تضعف الرغبة والانقباضات وتطول {{second stage}}"
+   ],
+   [
+    "{{head at the perineum, OA}}",
+    "يعني الرأس نازل ومناسب وما نستعجل بتدخل"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{second stage}} تطول مع {{epidural}} وما نتدخل إلا بعد انتهاء المهلة ومع حالة الأم والجنين مطمئنة",
+   "فنراقب {{one more hour}} قبل أي {{operative delivery}}"
+  ],
+  "wrong": {
+   "0": "الـ{{forceps}} نستخدمه لو فيه {{indication}} واضح أو انتهت المهلة",
+   "1": "الـ{{vacuum}} نفس الشيء، وما نستعجل",
+   "2": "الـ{{CS}} ما له مبرر والرأس عند الـ{{perineum}}"
+  },
+  "change": [
+   "لو انتهت المهلة بدون تقدم يعني {{operative vaginal delivery}} لأن الرأس منخفض",
+   "لو {{fetal distress}} نتدخل فوراً"
+  ],
+  "rule": "الـ{{prolonged second stage}} مع {{epidural}} نعطي وقت قبل التدخل",
+  "note": "الـ{{stem}} غير واضح (مصدر السؤال نفسه يقول ما يعرف هل هو {{protraction}} أو {{arrest}})، والجواب المعطى محتفظ فيه."
+ },
+ "A037": {
+  "idea": [
+   "سيدة تخطط للحمل بدون {{risk factors}} لنقص {{vitamin D}}",
+   "فالجرعة {{600 IU}}"
+  ],
+  "clues": [
+   [
+    "{{no risk factors}}",
+    "يعني الجرعة العادية {{600 IU}}"
+   ]
+  ],
+  "why": [
+   "لأن الجرعة الموصى بها للنساء الأصحاء {{600 IU/day}}",
+   "فما نحتاج جرعة أعلى بدون عوامل خطورة"
+  ],
+  "wrong": {
+   "1": "جرعة {{1000 IU}} للـ{{high-risk}} فقط",
+   "2": "جرعة {{2000 IU}} أعلى من المطلوب",
+   "3": "جرعة {{4000 IU}} هي الحد الأعلى ولا نعطيها روتينياً"
+  },
+  "change": [
+   "لو {{dark skin}} أو {{vegetarian}} يعني {{1000 IU}}",
+   "لو {{documented deficiency}} نعالج بجرعة أعلى حسب المستوى"
+  ],
+  "rule": "الـ{{vitamin D}} قبل الحمل بدون خطورة يعني {{600 IU}}"
+ },
+ "A038": {
+  "idea": [
+   "نباتية {{vegetarian}} وبشرتها {{dark}} وقليلة التعرض للشمس",
+   "فهي {{high risk}} والجرعة {{1000 IU}}"
+  ],
+  "clues": [
+   [
+    "{{vegetarian + dark skin + low outdoor activity}}",
+    "يعني {{high risk for vitamin D deficiency}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{high-risk}} تأخذ {{1000 IU/day}}",
+   "والأفضل نفحص المستوى، بس الخيار غير موجود فالأقرب {{1000 IU}}"
+  ],
+  "wrong": {
+   "0": "جرعة {{600 IU}} للأصحاء بدون خطورة",
+   "2": "جرعة {{2000 IU}} أعلى من المعتاد بدون فحص",
+   "3": "جرعة {{3000 IU}} ما نعطيها تجريبياً بدون فحص"
+  },
+  "change": [
+   "لو {{no risk factors}} يعني {{600 IU}}",
+   "لو الفحص أثبت {{deficiency}} نعالج بحسب المستوى"
+  ],
+  "rule": "الـ{{high-risk}} لنقص {{vitamin D}} يعني {{1000 IU}}",
+  "note": "الأفضل فحص {{vitamin D level}} بدل العلاج التجريبي، والمصدر يقول {{Probably Confirmed}}."
+ },
+ "A039": {
+  "idea": [
+   "امرأة بشرتها {{dark}} و{{vegetarian}} وتخطط للحمل",
+   "فهي {{high risk}} والجرعة {{1000 IU}}"
+  ],
+  "clues": [
+   [
+    "{{dark skin or vegetarian}}",
+    "يعني عامل خطورة واحد يكفي ويصنفها {{high risk}}"
+   ]
+  ],
+  "why": [
+   "لأن أي عامل خطورة واحد يعتبر {{high risk}}",
+   "فالجرعة {{1000 IU/day}}"
+  ],
+  "wrong": {
+   "0": "جرعة {{600 IU}} للأصحاء بدون عوامل",
+   "2": "جرعة {{2000 IU}} أكثر من اللازم",
+   "3": "جرعة {{4000 IU}} هي الحد الأعلى ولا نعطيها روتينياً"
+  },
+  "change": [
+   "لو ما فيه أي عامل خطورة يعني {{600 IU}}",
+   "لو {{deficiency}} مثبت نعالج حسب المستوى"
+  ],
+  "rule": "الـ{{single risk factor}} يكفي لـ{{1000 IU}}"
+ },
+ "A040": {
+  "idea": [
+   "حامل بدون {{risk factors}} و{{BMI 27}} (زيادة وزن)",
+   "فالجرعة {{0.8 mg}} حسب الخيارات (الأفضل {{0.4 mg}} غير موجود)"
+  ],
+  "clues": [
+   [
+    "{{no risk factors}}",
+    "يعني {{low dose folic acid}}"
+   ],
+   [
+    "{{BMI 27}}",
+    "يعني {{overweight}} مو {{obese}} فما نغير الجرعة"
+   ]
+  ],
+  "why": [
+   "لأن الجرعة المثالية {{0.4 mg}} وبعدها {{0.8 mg}} ثم {{1 mg}}",
+   "فمن الخيارات الأقرب هي {{0.8 mg}}"
+  ],
+  "wrong": {
+   "0": "جرعة {{0.2 mg}} أقل من الموصى بها",
+   "2": "جرعة {{1.4 mg}} غير معتمدة",
+   "3": "جرعة {{2.4 mg}} غير معتمدة"
+  },
+  "change": [
+   "لو {{obese}} فالموضوع {{controversial}} وبعض الإرشادات ترفع الجرعة",
+   "لو {{previous NTD}} يعني {{4-5 mg}}"
+  ],
+  "rule": "الـ{{low-risk}} تأخذ {{0.4 mg}} وأقرب خيار هنا {{0.8 mg}}",
+  "note": "الجواب المثالي {{0.4 mg}} غير موجود، والجواب المعطى محتفظ فيه."
+ },
+ "A041": {
+  "idea": [
+   "سيدة تخطط للحمل وتسأل عن جرعة {{folic acid}}",
+   "فالجواب {{1 mg}} (الأقرب لـ{{0.4 mg}})"
+  ],
+  "clues": [
+   [
+    "{{planning pregnancy}}",
+    "يعني {{low-risk dose}} قبل الحمل"
+   ]
+  ],
+  "why": [
+   "لأن المثالي {{0.4 mg}} وهو غير موجود",
+   "فالأقرب والأنسب {{1 mg}}"
+  ],
+  "wrong": {
+   "1": "جرعة {{5 mg}} للـ{{high-risk}} فقط",
+   "2": "جرعة {{15 mg}} عالية جداً",
+   "3": "جرعة {{20 mg}} عالية جداً"
+  },
+  "change": [
+   "لو {{previous NTD}} يعني {{5 mg}}",
+   "لو {{0.4 mg}} موجودة نختارها"
+  ],
+  "rule": "الـ{{low-risk}} يعني {{0.4 mg}} وإذا ما وجد فالأقرب {{1 mg}}",
+  "note": "الجواب المثالي {{0.4 mg}} غير موجود، والجواب المعطى محتفظ فيه."
+ },
+ "A042": {
+  "idea": [
+   "حامل بدون {{risk factors}} وتسأل عن {{folic acid}}",
+   "فالجرعة {{0.4 mg}}"
+  ],
+  "clues": [
+   [
+    "{{no risk factors}}",
+    "يعني الجرعة العادية {{0.4 mg}}"
+   ]
+  ],
+  "why": [
+   "لأن الجرعة المثالية للأصحاء {{400 mcg}} يعني {{0.4 mg}}",
+   "فهي الأقل والأنسب"
+  ],
+  "wrong": {
+   "0": "جرعة {{1 mg}} أعلى من المثالية",
+   "1": "جرعة {{4 mg}} للـ{{high-risk}} وليست لها"
+  },
+  "change": [
+   "لو {{previous NTD}} يعني {{4-5 mg}}",
+   "لو {{antiepileptic}} يعني جرعة عالية"
+  ],
+  "rule": "الـ{{low-risk}} تأخذ {{0.4 mg}}"
+ },
+ "A043": {
+  "idea": [
+   "سيدة تخطط للحمل وتسأل بالـ{{mg}} عن {{folic acid}}",
+   "فالجواب {{1 mg}} (الأقرب لـ{{0.4 mg}})"
+  ],
+  "clues": [
+   [
+    "{{planning pregnancy}}",
+    "يعني {{low-risk dose}}"
+   ]
+  ],
+  "why": [
+   "لأن الجرعة المثالية {{0.4 mg}} مو {{4.0 mg}}",
+   "فمن الخيارات {{1 mg}} الأقرب"
+  ],
+  "wrong": {
+   "1": "جرعة {{4 mg}} للـ{{high-risk}} فقط",
+   "2": "جرعة {{10 mg}} عالية جداً",
+   "3": "جرعة {{15 mg}} عالية جداً"
+  },
+  "change": [
+   "لو {{previous NTD}} يعني {{4-5 mg}}",
+   "لو {{0.4 mg}} موجودة نختارها"
+  ],
+  "rule": "الـ{{low-risk}} يعني {{0.4 mg}} وليس {{4 mg}}",
+  "note": "خيارات السؤال فيها أخطاء مطبعية، والجواب المعطى محتفظ فيه."
+ },
+ "A044": {
+  "idea": [
+   "سيدة صحية تريد الحمل بدون أمراض",
+   "فالجواب {{1000 micrograms}} يعني {{1 mg}}"
+  ],
+  "clues": [
+   [
+    "{{healthy, no prior disorders}}",
+    "يعني {{low-risk}} وجرعة قليلة"
+   ]
+  ],
+  "why": [
+   "لأن الجرعة المثالية {{400 mcg}} وهي غير موجودة",
+   "فالأقرب {{1000 micrograms}} من الخيارات"
+  ],
+  "wrong": {
+   "1": "جرعة {{2000 micrograms}} أكثر من اللازم",
+   "2": "جرعة {{3000 micrograms}} أكثر من اللازم",
+   "3": "جرعة {{4000 micrograms}} للـ{{high-risk}}"
+  },
+  "change": [
+   "لو {{previous NTD}} يعني {{4000-5000 micrograms}}",
+   "لو {{400 mcg}} موجودة نختارها"
+  ],
+  "rule": "الـ{{low-risk}} يعني {{400 mcg}} وأقرب خيار {{1000 micrograms}}",
+  "note": "الجواب المثالي {{400 mcg}} غير موجود، والجواب المعطى محتفظ فيه."
+ },
+ "A045": {
+  "idea": [
+   "مريضة {{epilepsy}} على {{lamotrigine}} وبدون {{seizures}} {{6 months}} وما عندها {{NTD}} سابق، بس {{cousin}} عندها طفل {{spina bifida}}",
+   "فهي {{low-risk}} والجواب {{folic acid 400 mcg with multivitamins}}"
+  ],
+  "clues": [
+   [
+    "{{lamotrigine}}",
+    "يعني من {{AEDs}} اللي ما تحتاج جرعة عالية"
+   ],
+   [
+    "{{cousin with spina bifida}}",
+    "يعني قرابة بعيدة (ثانية أو ثالثة) فجرعة عادية أو {{1 mg}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{lamotrigine}} والـ{{levetiracetam}} ما يرفعون خطر {{NTD}} بشكل يحتاج {{high dose}}",
+   "و{{no personal NTD history}} فجرعة {{standard}}"
+  ],
+  "wrong": {
+   "0": "جرعة {{5 mg}} أثناء الحمل للـ{{high-risk}} فقط وما هنا",
+   "1": "جرعة {{5 mg}} قبل الحمل لـ{{previous NTD}} أو {{valproate}} أو {{carbamazepine}} وما هنا",
+   "2": "الـ{{aspirin}} ما له علاقة بالـ{{NTD}}"
+  },
+  "change": [
+   "لو {{phenytoin}} أو {{valproate}} يعني {{5 mg}}",
+   "لو {{previous NTD}} يعني {{4-5 mg}}"
+  ],
+  "rule": "الـ{{lamotrigine}} مع {{no NTD}} شخصي يعني {{standard dose}}",
+  "note": "الخيار {{D}} مكتوب {{400 mg}} وهو خطأ مطبعي والمقصود {{400 mcg}}، والجواب {{Confirmed}}."
+ },
+ "A046": {
+  "idea": [
+   "حامل مريضة {{epilepsy}} على {{phenytoin}} وتسأل عن {{folic acid}}",
+   "فالجواب {{5000 micrograms}}"
+  ],
+  "clues": [
+   [
+    "{{phenytoin}}",
+    "يعني {{enzyme-inducing AED}} يرفع خطر {{NTD}}"
+   ],
+   [
+    "{{epilepsy on AED}}",
+    "يعني {{high dose}} {{4-5 mg}}"
+   ]
+  ],
+  "why": [
+   "لأن {{valproate}} و{{carbamazepine}} و{{phenytoin}} و{{phenobarbital}} يرفعون خطر {{NTD}}",
+   "فكل الـ{{AEDs}} تأخذ {{4-5 mg}} ما عدا {{lamotrigine}} و{{levetiracetam}}"
+  ],
+  "wrong": {
+   "0": "جرعة {{1000 micrograms}} قليلة لـ{{AED}} عالي الخطر",
+   "1": "جرعة {{2000 micrograms}} غير كافية"
+  },
+  "change": [
+   "لو {{lamotrigine}} يعني جرعة عادية",
+   "لو {{valproate}} نفس الجرعة {{5 mg}}"
+  ],
+  "rule": "الـ{{phenytoin}} يعني {{high-dose folic acid}} {{5 mg}}"
+ },
+ "A047": {
+  "idea": [
+   "حمل سابق بـ{{hydrocephalus}} وتسأل عن {{folic acid}}",
+   "فالجواب {{1000 micrograms}}"
+  ],
+  "clues": [
+   [
+    "{{isolated hydrocephalus}}",
+    "يعني ليس {{NTD}} مفتوح"
+   ],
+   [
+    "{{folate-sensitive anomaly}}",
+    "يعني {{1000 micrograms}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{hydrocephalus}} ما يعتبر {{NTD}} فما نعطي {{5 mg}}",
+   "لكنه {{folate-sensitive anomaly}} فنعطي {{1000 micrograms}}"
+  ],
+  "wrong": {
+   "0": "جرعة {{300 micrograms}} قليلة مع {{previous anomaly}}",
+   "2": "جرعة {{5000 micrograms}} لـ{{open NTD}} سابق وهو غير موجود"
+  },
+  "change": [
+   "لو {{anencephaly}} أو {{spina bifida}} يعني {{5000 micrograms}}",
+   "لو {{hydrocephalus}} مع {{meningocele}} يعني {{open NTD}}"
+  ],
+  "rule": "الـ{{non-NTD folate-sensitive anomaly}} يعني {{1000 micrograms}}",
+  "note": "الـ{{Probably Confirmed}}، والـ{{gestational age}} غير مذكور."
+ },
+ "A048": {
+  "idea": [
+   "الـ{{primigravida}} عندها تاريخ {{anencephaly}} وتسأل عن {{folic acid}}",
+   "فهو {{open NTD}} والجواب {{5000 micrograms}}"
+  ],
+  "clues": [
+   [
+    "{{prior anencephaly}}",
+    "يعني {{NTD}} سابق"
+   ],
+   [
+    "{{NTD}}",
+    "يعني {{high dose}} {{4-5 mg}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{anencephaly}} هو {{NTD}} وتأخذ {{high dose}}",
+   "والـ{{hydrocephalus}} بالعكس ما هو {{NTD}}"
+  ],
+  "wrong": {
+   "0": "جرعة {{1000 micrograms}} للقرابة البعيدة أو {{non-NTD anomaly}}",
+   "1": "جرعة {{2000 micrograms}} غير معتمدة"
+  },
+  "change": [
+   "لو {{cousin}} فقط عندها {{NTD}} يعني {{1000 micrograms}}",
+   "لو {{4000}} موجودة فهي أدق من {{5000}}"
+  ],
+  "rule": "الـ{{personal NTD history}} يعني {{4-5 mg}}",
+  "note": "المصدر يقول لو الخيار {{4000}} موجود يكون أدق من {{5000}}، والجواب المعطى محتفظ فيه."
+ },
+ "A049": {
+  "idea": [
+   "الـ{{primigravida}} عندها {{cousin}} بتاريخ {{anencephaly}}",
+   "فهي قرابة بعيدة والجواب {{1000 micrograms}}"
+  ],
+  "clues": [
+   [
+    "{{cousin}}",
+    "يعني {{second or third degree relative}}"
+   ],
+   [
+    "{{anencephaly}}",
+    "يعني {{open NTD}}"
+   ]
+  ],
+  "why": [
+   "لأن القرابة {{2nd and 3rd degree}} مع {{open NTD}} تعني {{1000 micrograms}}",
+   "و{{5000}} للـ{{personal history}} أو {{first-degree}}"
+  ],
+  "wrong": {
+   "1": "جرعة {{2000 micrograms}} غير معتمدة",
+   "2": "جرعة {{5000 micrograms}} لـ{{personal}} أو {{first-degree}} فقط"
+  },
+  "change": [
+   "لو {{her own previous baby}} يعني {{5000 micrograms}}",
+   "لو {{no family history}} يعني {{400 micrograms}}"
+  ],
+  "rule": "الـ{{2nd or 3rd degree}} قرابة {{NTD}} يعني {{1000 micrograms}}"
+ },
+ "A050": {
+  "idea": [
+   "الـ{{G1 at 8 weeks}} مريضة {{sickle cell disease}} ولم تأخذ أي {{supplement}}",
+   "فنعطي {{5 mg folic acid}} من الآن {{throughout pregnancy}}"
+  ],
+  "clues": [
+   [
+    "{{sickle cell disease}}",
+    "يعني {{hemolysis}} وتزيد استهلاك {{folic acid}}"
+   ],
+   [
+    "{{not taking supplements}}",
+    "يعني نبدأ فوراً"
+   ]
+  ],
+  "why": [
+   "لأن {{hemolysis}} يزيد {{RBC turnover}} واستهلاك {{folate}}",
+   "فحسب {{FIGO}} الـ{{hemolysis}} أو {{anti-folate drug}} يعني {{high dose}} طول الحمل، بينما {{prior NTD}} فقط يعني لنهاية {{first trimester}}"
+  ],
+  "wrong": {
+   "1": "جرعة {{5 mg}} لحد {{12 weeks}} هذا لـ{{prior NTD}} وليس {{hemolysis}}",
+   "2": "جرعة {{400 mg}} خطأ لأن المقصود {{mcg}} وقليلة للـ{{hemolysis}}",
+   "3": "جرعة {{400 mg}} لحد {{12 weeks}} قليلة وقصيرة"
+  },
+  "change": [
+   "لو {{prior NTD}} فقط يعني {{5 mg}} لحد {{12 weeks}}",
+   "لو {{no hemolysis}} يعني {{400 mcg}}"
+  ],
+  "rule": "الـ{{hemolytic disease}} يعني {{5 mg folic acid}} طول الحمل"
+ }
+}

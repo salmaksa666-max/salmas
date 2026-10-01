@@ -1,0 +1,770 @@
+{
+ "A301": {
+  "idea": [
+   "سيدة عندها {{vulvar pruritus}} والتشخيص {{vulvar carcinoma in situ}}",
+   "فالجواب {{surgical excision}}"
+  ],
+  "clues": [
+   [
+    "الـ{{carcinoma in situ of the vulva}}",
+    "يعني {{HSIL / VIN}} فيه خطر تحول لو ما انشال"
+   ],
+   [
+    "لو {{pruritus}} مع تشخيص نسيجي",
+    "يعني نحتاج {{wide local excision}} عشان نأخذ عينة كاملة"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{excision}} يشيل الآفة كلها ويعطي {{histology}} كامل يستبعد {{occult invasion}}",
+   "فـ{{surgical excision}} هو العلاج المعتمد لـ{{vulvar CIS}}"
+  ],
+  "wrong": {
+   "0": "الـ{{laser ablation}} يدمر النسيج بدون عينة فما نقدر نستبعد {{invasive cancer}}، يستخدم بس للآفات المنتشرة بعد ما نتأكد بالـ{{biopsy}}"
+  },
+  "change": [
+   "لو {{multifocal disease}} منتشرة فـ{{laser ablation}} أو {{topical imiquimod}} ممكن بعد {{biopsy}}",
+   "لو {{invasive carcinoma}} فـ{{radical local excision}} مع {{groin node evaluation}}"
+  ],
+  "rule": "الـ{{vulvar CIS}} يعني {{local excision}}",
+  "note": "الجواب مأكد تقريبا {{Probably Confirmed}} وهو مثل سؤال {{MG Recall}}"
+ },
+ "A302": {
+  "idea": [
+   "سيدة {{45 years, vulvar itching, 0.5 cm elevated red lesion}}",
+   "التشخيص {{VIN with carcinoma in situ}} فالجواب {{local superficial excision}}"
+  ],
+  "clues": [
+   [
+    "الـ{{small localized lesion 0.5 cm}}",
+    "يعني تنفع {{local excision}} مو عملية كبيرة"
+   ],
+   [
+    "الـ{{carcinoma in situ}}",
+    "يعني {{non-invasive}} فما نحتاج {{radical surgery}} ولا {{chemoradiation}}"
+   ]
+  ],
+  "why": [
+   "لأن الآفة صغيرة وموضعية فـ{{wide local excision}} يشيلها ويعطي {{pathology}}",
+   "فهذا أقل تدخل كافي وأنسب"
+  ],
+  "wrong": {
+   "0": "الـ{{vulvectomy}} مبالغ فيه لآفة {{in situ}} صغيرة",
+   "1": "الـ{{laser therapy}} ما يعطي {{specimen}} فنفوت {{invasion}}، وهنا الآفة موضعية فالـ{{excision}} أفضل",
+   "2": "الـ{{chemoradiation}} للـ{{advanced invasive vulvar cancer}} مو للـ{{CIS}}"
+  },
+  "change": [
+   "لو {{invasive cancer}} فـ{{radical excision}} مع {{lymph node assessment}}",
+   "لو {{extensive multifocal VIN}} فـ{{laser}} أو {{topical therapy}} بعد {{biopsy}}"
+  ],
+  "rule": "الـ{{vulvar CIS}} صغير يعني {{local excision}}",
+  "note": "السؤال نفس A301 بصيغة ثانية والجواب نفسه"
+ },
+ "A303": {
+  "idea": [
+   "سيدة {{24 weeks}} {{monochorionic twins}} مع {{TTTS}} وعندها {{exertional dyspnea}}",
+   "فالجواب {{laser photocoagulation}}"
+  ],
+  "clues": [
+   [
+    "الـ{{monochorionic twins}} مع {{TTTS}}",
+    "يعني {{shared placental anastomoses}}"
+   ],
+   [
+    "الـ{{exertional dyspnea}}",
+    "يعني غالبا {{polyhydramnios}} عند التوأم المتلقي"
+   ],
+   [
+    "الـ{{gestational age 16-26 weeks}}",
+    "يعني الوقت المناسب لـ{{fetoscopic laser}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{laser photocoagulation}} يقطع الـ{{anastomoses}} وهذا العلاج السببي",
+   "فهو {{first-line}} لـ{{severe TTTS}} بين {{16 and 26 weeks}}"
+  ],
+  "wrong": {
+   "0": "الـ{{termination}} مو الخطوة الأولى لأن الـ{{laser}} ينقذ الأجنة",
+   "1": "الـ{{expectant management}} يخلي الحالة تتدهور لأن الـ{{TTTS}} شديد وعنده أعراض",
+   "3": "الـ{{cesarean section}} لا لأن الجنين {{24 weeks}} {{periviable}} والـ{{laser}} أنسب"
+  },
+  "change": [
+   "لو {{Quintero stage I}} بدون أعراض فـ{{expectant management with close surveillance}}",
+   "لو {{after 26 weeks}} فـ{{amnioreduction}} أو {{early delivery}}"
+  ],
+  "rule": "الـ{{severe TTTS 16-26 weeks}} يعني {{laser}}",
+  "note": "الـ{{TTTS}} هنا بدون كلمة {{severe}} بس وجود الأعراض يدل على شدة، فنبقى على {{laser}}"
+ },
+ "A304": {
+  "idea": [
+   "سيدة {{24 weeks}} {{monochorionic twins}} مع {{severe TTTS}}",
+   "فالجواب {{laser photocoagulation}}"
+  ],
+  "clues": [
+   [
+    "الـ{{monochorionic twins}} مع {{TTTS}}",
+    "يعني {{shared placental anastomoses}}"
+   ],
+   [
+    "الـ{{exertional dyspnea}}",
+    "يعني غالبا {{polyhydramnios}} عند التوأم المتلقي"
+   ],
+   [
+    "الـ{{gestational age 16-26 weeks}}",
+    "يعني الوقت المناسب لـ{{fetoscopic laser}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{laser photocoagulation}} يقطع الـ{{anastomoses}} وهذا العلاج السببي",
+   "فهو {{first-line}} لـ{{severe TTTS}} بين {{16 and 26 weeks}}"
+  ],
+  "wrong": {
+   "0": "الـ{{termination}} مو الخطوة الأولى لأن الـ{{laser}} ينقذ الأجنة",
+   "1": "الـ{{expectant management}} يخلي الحالة تتدهور لأن الـ{{TTTS}} شديد وعنده أعراض",
+   "3": "الـ{{cesarean section}} لا لأن الجنين {{24 weeks}} {{periviable}} والـ{{laser}} أنسب"
+  },
+  "change": [
+   "لو {{Quintero stage I}} بدون أعراض فـ{{expectant management with close surveillance}}",
+   "لو {{after 26 weeks}} فـ{{amnioreduction}} أو {{early delivery}}"
+  ],
+  "rule": "الـ{{severe TTTS 16-26 weeks}} يعني {{laser}}"
+ },
+ "A305": {
+  "idea": [
+   "سيدة {{24 weeks}} {{monochorionic twins}} مع {{severe TTTS}}",
+   "فالجواب {{fetoscopic laser ablation}} وهو نفس {{laser photocoagulation}}"
+  ],
+  "clues": [
+   [
+    "الـ{{monochorionic twins}} مع {{TTTS}}",
+    "يعني {{shared placental anastomoses}}"
+   ],
+   [
+    "الـ{{exertional dyspnea}}",
+    "يعني غالبا {{polyhydramnios}} عند التوأم المتلقي"
+   ],
+   [
+    "الـ{{gestational age 16-26 weeks}}",
+    "يعني الوقت المناسب لـ{{fetoscopic laser}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{laser photocoagulation}} يقطع الـ{{anastomoses}} وهذا العلاج السببي",
+   "فهو {{first-line}} لـ{{severe TTTS}} بين {{16 and 26 weeks}}"
+  ],
+  "wrong": {
+   "0": "الـ{{termination}} مو الخطوة الأولى لأن الـ{{laser}} ينقذ الأجنة",
+   "1": "الـ{{expectant management}} يخلي الحالة تتدهور لأن الـ{{TTTS}} شديد وعنده أعراض",
+   "3": "الـ{{cesarean section}} لا لأن الجنين {{24 weeks}} {{periviable}} والـ{{laser}} أنسب"
+  },
+  "change": [
+   "لو {{Quintero stage I}} بدون أعراض فـ{{expectant management with close surveillance}}",
+   "لو {{after 26 weeks}} فـ{{amnioreduction}} أو {{early delivery}}"
+  ],
+  "rule": "الـ{{severe TTTS 16-26 weeks}} يعني {{laser}}"
+ },
+ "A306": {
+  "idea": [
+   "سيدة {{22 weeks}} {{monochorionic twins}} مع {{severe TTTS}}",
+   "فالجواب {{laser photocoagulation}}"
+  ],
+  "clues": [
+   [
+    "الـ{{monochorionic twins}} مع {{TTTS}}",
+    "يعني {{shared placental anastomoses}}"
+   ],
+   [
+    "الـ{{exertional dyspnea}}",
+    "يعني غالبا {{polyhydramnios}} عند التوأم المتلقي"
+   ],
+   [
+    "الـ{{gestational age 16-26 weeks}}",
+    "يعني الوقت المناسب لـ{{fetoscopic laser}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{laser photocoagulation}} يقطع الـ{{anastomoses}} وهذا العلاج السببي",
+   "فهو {{first-line}} لـ{{severe TTTS}} بين {{16 and 26 weeks}}"
+  ],
+  "wrong": {
+   "0": "الـ{{termination}} مو الخطوة الأولى لأن الـ{{laser}} ينقذ الأجنة",
+   "1": "الـ{{expectant management}} يخلي الحالة تتدهور لأن الـ{{TTTS}} شديد وعنده أعراض",
+   "3": "الـ{{cesarean section}} لا لأن الجنين {{24 weeks}} {{periviable}} والـ{{laser}} أنسب"
+  },
+  "change": [
+   "لو {{Quintero stage I}} بدون أعراض فـ{{expectant management with close surveillance}}",
+   "لو {{after 26 weeks}} فـ{{amnioreduction}} أو {{early delivery}}"
+  ],
+  "rule": "الـ{{severe TTTS 16-26 weeks}} يعني {{laser}}",
+  "note": "الأصل فيه صورة من {{UpToDate}} عن {{indications for termination}} ما أقدر أشوفها، فالشرح مبني على النص وملاحظة المصدر بس"
+ },
+ "A307": {
+  "idea": [
+   "سيدة {{24 weeks}} {{monochorionic twins}} مع {{severe TTTS}}",
+   "فالجواب {{fetoscopic laser ablation}}"
+  ],
+  "clues": [
+   [
+    "الـ{{monochorionic twins}} مع {{TTTS}}",
+    "يعني {{shared placental anastomoses}}"
+   ],
+   [
+    "الـ{{exertional dyspnea}}",
+    "يعني غالبا {{polyhydramnios}} عند التوأم المتلقي"
+   ],
+   [
+    "الـ{{gestational age 16-26 weeks}}",
+    "يعني الوقت المناسب لـ{{fetoscopic laser}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{laser photocoagulation}} يقطع الـ{{anastomoses}} وهذا العلاج السببي",
+   "فهو {{first-line}} لـ{{severe TTTS}} بين {{16 and 26 weeks}}"
+  ],
+  "wrong": {
+   "0": "الـ{{termination}} مو الخطوة الأولى لأن الـ{{laser}} ينقذ الأجنة",
+   "1": "الـ{{expectant management}} غلط لأن الـ{{TTTS}} شديد",
+   "3": "الـ{{amnioreduction}} علاج مؤقت للأعراض بس ما يعالج الـ{{anastomoses}}، والـ{{laser}} أفضل في {{16-26 weeks}}"
+  },
+  "change": [
+   "لو {{Quintero stage I}} بدون أعراض فـ{{expectant management with close surveillance}}",
+   "لو {{after 26 weeks}} فـ{{amnioreduction}} أو {{early delivery}}"
+  ],
+  "rule": "الـ{{severe TTTS 16-26 weeks}} يعني {{laser}}"
+ },
+ "A308": {
+  "idea": [
+   "مريضة {{40 years, asthmatic, alcoholic, bone pain, BMI 31}}",
+   "والسؤال عن {{risk factor of osteoporosis}} فالجواب {{alcoholism}}"
+  ],
+  "clues": [
+   [
+    "الـ{{alcohol use}}",
+    "يعني {{secondary risk factor for osteoporosis}} يستدعي {{screening}}"
+   ],
+   [
+    "الـ{{BMI 31}}",
+    "يعني {{obesity}} وهو {{protective}} مو خطر"
+   ],
+   [
+    "الـ{{bone pain}} عند مريضة بعوامل خطر",
+    "يعني نفكر في {{DEXA}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{alcohol}} يقلل {{bone formation}} ويضر {{calcium and vitamin D metabolism}}",
+   "فهو من عوامل الخطر التي تبرر {{bone density screening}} قبل عمر {{65}}"
+  ],
+  "wrong": {
+   "0": "الـ{{obesity}} غالبا {{protective}} للعظم، وعامل الخطر هو {{low BMI}}",
+   "2": "الـ{{hypercalcemia}} مو من عوامل الخطر المعتادة للـ{{osteoporosis}}",
+   "3": "الـ{{short-duration steroid}} ما يكفي، المطلوب استخدام {{prolonged}} لمدة {{≥ 3 months}}"
+  },
+  "change": [
+   "لو الخيار {{long-term glucocorticoid use}} فيصير هو الجواب",
+   "لو {{BMI < 19}} فهذا عامل خطر"
+  ],
+  "rule": "الـ{{alcohol}} و{{long-term steroids}} يعني خطر {{osteoporosis}}"
+ },
+ "A309": {
+  "idea": [
+   "سيدة {{81 years, pelvic organ prolapse}} مع {{constipation}} وتحتاج {{manual splinting}}",
+   "وهي {{unfit for surgery}} فالجواب {{vaginal pessary}}"
+  ],
+  "clues": [
+   [
+    "الـ{{unfit for surgery}}",
+    "يعني نبدأ بـ{{conservative / pessary}}"
+   ],
+   [
+    "الـ{{digital evacuation by pressing in the vagina}}",
+    "يعني {{posterior vaginal wall prolapse (rectocele)}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{pessary}} يدعم الـ{{prolapse}} ويحسن الأعراض بدون عملية",
+   "فهو الحل المؤقت لحد ما تصير {{fit for surgery}}"
+  ],
+  "wrong": {
+   "0": "الـ{{laxatives}} تعالج الأعراض بس ما تعالج السبب {{rectocele}}",
+   "2": "الـ{{pelvic floor exercises}} ما تفيد كثير في {{advanced prolapse}} عند كبيرة السن",
+   "3": "الـ{{hormone replacement therapy}} ما يعالج الـ{{prolapse}} نفسه"
+  },
+  "change": [
+   "لو {{fit for surgery}} فـ{{posterior colporrhaphy}}",
+   "لو ما تتحمل {{pessary}} فنفكر في {{Le Fort colpocleisis}}"
+  ],
+  "rule": "الـ{{POP}} وما تتحمل عملية يعني {{pessary}}"
+ },
+ "A310": {
+  "idea": [
+   "سيدة {{80 years, prosthetic heart valve on warfarin, bedridden}} مع {{stage 3 POP}}",
+   "فالجواب {{pessary}}"
+  ],
+  "clues": [
+   [
+    "الـ{{prosthetic valve on warfarin}}",
+    "يعني {{high surgical risk}} من النزيف والـ{{anticoagulation}}"
+   ],
+   [
+    "الـ{{bedridden}} وعندها {{comorbidities}}",
+    "يعني تقريبا {{unfit for surgery}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{pessary}} علاج {{non-surgical}} آمن للـ{{high-risk patients}}",
+   "فعدة {{comorbidities}} تعني نفس {{unfit}} فنختار {{pessary}}"
+  ],
+  "wrong": {
+   "1": "الـ{{sacrocolpopexy}} عملية كبيرة وتحتاج {{general anesthesia}} فمو مناسبة",
+   "2": "الـ{{Le Fort colpocleisis}} عملية أصغر بس تبقى جراحية، ونبدأ بـ{{pessary}} أول",
+   "3": "الـ{{vaginal hysterectomy}} جراحية وفيها نزيف وهي على {{warfarin}}"
+  },
+  "change": [
+   "لو {{failed pessary}} أو ما تتحمله فنفكر في {{colpocleisis}}",
+   "لو {{fit and sexually active}} فـ{{surgical repair}}"
+  ],
+  "rule": "الـ{{unfit}} أو {{warfarin}} يعني {{pessary}}"
+ },
+ "A311": {
+  "idea": [
+   "سيدة {{38 weeks, active labor, cervix 8 cm}} و{{GBS positive}} من {{34 weeks}}",
+   "فالجواب {{IV penicillin}} بأسرع وقت"
+  ],
+  "clues": [
+   [
+    "الـ{{GBS positive}}",
+    "يعني نحتاج {{intrapartum antibiotic prophylaxis}}"
+   ],
+   [
+    "الـ{{active labor}}",
+    "يعني نبدأ الآن مو ننتظر"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{prophylaxis}} يعطى {{during labor}} عن طريق {{IV penicillin G}}",
+   "فنبدأ فورا لأن الفعالية تحتاج {{≥ 4 hours}} قبل الولادة"
+  ],
+  "wrong": {
+   "0": "الـ{{oral amoxicillin}} ما يستخدم للـ{{GBS prophylaxis}}، لازم {{IV}}",
+   "2": "الـ{{active labor}} هو بالضبط وقت إعطاء الـ{{prophylaxis}} مو سبب لتركه",
+   "3": "الـ{{C-section}} ما له داعي ولا يلغي الحاجة للـ{{antibiotics}}"
+  },
+  "change": [
+   "لو {{penicillin allergy low risk}} فـ{{cefazolin}}",
+   "لو {{GBS negative within 5 weeks}} فما نحتاج {{prophylaxis}}"
+  ],
+  "rule": "الـ{{GBS positive}} في الولادة يعني {{IV penicillin}}",
+  "note": "الـ{{GBS screening}} الأفضل عند {{36-37+6 weeks}}، والـ{{prophylaxis}} وقتها داخل {{labor}}"
+ },
+ "A312": {
+  "idea": [
+   "مولود {{full term}} لأم {{diabetic}} وزنه {{4.8 kg}} و{{Moro reflex}} غايب في اليمين",
+   "فالجواب {{Erb's palsy}}"
+  ],
+  "clues": [
+   [
+    "الـ{{birth weight 4.8 kg}} لأم سكرية",
+    "يعني {{macrosomia}} وخطر {{shoulder dystocia}}"
+   ],
+   [
+    "الـ{{asymmetric Moro reflex}}",
+    "يعني {{brachial plexus injury C5-C6}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{macrosomia}} و{{shoulder dystocia}} يسببون شد للـ{{brachial plexus}}",
+   "فـ{{Erb's palsy}} يعطي ضعف في جهة واحدة من {{Moro reflex}}"
+  ],
+  "wrong": {
+   "0": "الـ{{intracranial hemorrhage}} غالبا يعطي أعراض عامة وما يعطي {{asymmetric Moro}} بهذا الشكل",
+   "1": "الـ{{neonatal hypoglycemia}} يعطي {{jitteriness}} و{{lethargy}} وتأثير {{symmetric}}",
+   "2": "الـ{{neonatal sepsis}} ما يعطي ضعف في جهة واحدة بس"
+  },
+  "change": [
+   "لو {{clavicle fracture}} فيكون {{crepitus}} مع {{pseudoparalysis}}",
+   "لو {{C8-T1}} فهذا {{Klumpke palsy}}"
+  ],
+  "rule": "الـ{{macrosomia}} مع {{asymmetric Moro}} يعني {{Erb's palsy}}"
+ },
+ "A313": {
+  "idea": [
+   "سيدة {{39 weeks in labor}} والـ{{amniotic fluid}} {{dark green-black}}",
+   "فالسبب {{fetal distress}}"
+  ],
+  "clues": [
+   [
+    "الـ{{meconium-stained fluid}}",
+    "يعني الجنين تبرز داخل الرحم بسبب {{fetal distress / hypoxia}}"
+   ],
+   [
+    "الـ{{meconium aspiration syndrome}}",
+    "يعني مضاعفة تصير بعد مو سبب"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{in utero distress}} يسبب {{bowel peristalsis}} و{{anal sphincter relaxation}} فيطلع {{meconium}}",
+   "والـ{{aspiration syndrome}} هو النتيجة اللاحقة"
+  ],
+  "wrong": {
+   "0": "الـ{{meconium aspiration}} مضاعفة بعد تلون السائل مو سبب له",
+   "2": "الـ{{placental abruption}} يعطي {{bleeding}} و{{dark blood}} مو أخضر",
+   "3": "الـ{{preterm labor}} غالبا ما يعطي {{meconium}}، وهو يرتبط بـ{{post-term}}"
+  },
+  "change": [
+   "لو {{port-wine fluid}} فنشك في {{abruption}}",
+   "لو {{GA 42 weeks}} فـ{{meconium}} أكثر شيوعا"
+  ],
+  "rule": "الـ{{meconium-stained fluid}} يعني {{fetal distress}}"
+ },
+ "A314": {
+  "idea": [
+   "سيدة {{32 years}} ما سوت {{HPV}} ولا {{Pap smear}}",
+   "والسؤال عن {{primary prevention}} فالجواب {{HPV vaccine}}"
+  ],
+  "clues": [
+   [
+    "الـ{{primary prevention}}",
+    "يعني نمنع المرض قبل ما يصير مثل {{vaccination}}"
+   ],
+   [
+    "الـ{{Pap smear}}",
+    "يعني {{secondary prevention (screening)}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{HPV vaccine}} يمنع العدوى اللي تسبب {{cervical cancer}}",
+   "فهو الإجراء الوقائي الأولي"
+  ],
+  "wrong": {
+   "0": "الـ{{Pap smear}} هو {{screening}} يعني {{secondary prevention}}",
+   "2": "الـ{{lipid profile}} ما له علاقة بالـ{{cervical cancer}} وهو {{screening}} كمان",
+   "3": "الجواب {{irrelevant}} غير صحيح لأن فيه إجراء وقائي واضح"
+  },
+  "change": [
+   "لو السؤال {{secondary prevention}} فـ{{Pap smear}} أو {{HPV testing}}",
+   "لو {{age 9-14}} فهو أفضل وقت للـ{{vaccine}}"
+  ],
+  "rule": "الـ{{primary prevention}} يعني {{vaccine}}، والـ{{screening}} يعني {{secondary}}"
+ },
+ "A315": {
+  "idea": [
+   "حامل {{8 weeks}} ولها {{miscarriage at 20 weeks}} سابقا",
+   "فالجواب {{close antenatal follow up}}"
+  ],
+  "clues": [
+   [
+    "الـ{{miscarriage}} فقط",
+    "يعني ما هو إشارة لـ{{cerclage}}"
+   ],
+   [
+    "الـ{{first trimester}} الآن",
+    "يعني الـ{{cervical insufficiency}} مشكلة الـ{{second trimester}} ولا ننفذ شي الآن"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{cerclage}} يحتاج {{history of painless cervical dilation}} أو {{short cervix}} وهذا غير مذكور",
+   "فنكتفي بـ{{close follow-up}} مع {{cervical length surveillance}}"
+  ],
+  "wrong": {
+   "1": "الـ{{cerclage at 16-18 weeks}} ما نسويه لمجرد {{previous miscarriage}} بدون تاريخ {{painless dilation}}"
+  },
+  "change": [
+   "لو {{painless 2nd trimester losses}} فـ{{history-indicated cerclage at 12-14 weeks}}",
+   "لو {{short cervix < 25 mm}} مع {{prior preterm birth}} فـ{{cerclage}}"
+  ],
+  "rule": "الـ{{abortion}} لحاله ليس {{indication for cerclage}}"
+ },
+ "A316": {
+  "idea": [
+   "سيدة {{14 weeks}} {{inevitable abortion}} ونزفت {{severe bleeding}}",
+   "والأفضل من المتاح {{misoprostol}}"
+  ],
+  "clues": [
+   [
+    "الـ{{severe bleeding}} مع {{inevitable abortion}}",
+    "يعني الأفضل {{D&C}} لكنه غير موجود"
+   ],
+   [
+    "الـ{{oxytocin}}",
+    "يعني ما يستخدم لعلاج {{abortion}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{misoprostol}} يطرد المحتويات ويقلل النزيف بالاستبعاد",
+   "فهو أفضل خيار بين المتاح"
+  ],
+  "wrong": {
+   "0": "الـ{{methotrexate}} لعلاج {{ectopic pregnancy}} مو {{abortion}}",
+   "2": "الـ{{oxytocin}} ما يستخدم لعلاج {{abortion}}",
+   "3": "الخيار الرابع غير واضح بالنص ولا نبني عليه"
+  },
+  "change": [
+   "لو {{D&C}} موجود فهو الجواب",
+   "لو {{hemodynamically unstable}} فنحتاج {{resuscitation}} و{{urgent evacuation}}"
+  ],
+  "rule": "الـ{{severe bleeding in abortion}} يعني {{D&C}}، وإذا غاب فـ{{misoprostol}}",
+  "note": "الجواب بالاستبعاد لأن {{D&C}} هو الأنسب بس غير موجود، والخيار الرابع ما ينقرأ بوضوح"
+ },
+ "A317": {
+  "idea": [
+   "أم {{preterm}} أخذت دواء لـ{{prevention of respiratory distress}}",
+   "فالجواب {{steroids}}"
+  ],
+  "clues": [
+   [
+    "الـ{{prevention of RDS}}",
+    "يعني {{antenatal corticosteroids}} لتسريع {{fetal lung maturity}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{antenatal corticosteroids}} تحفز {{surfactant production}}",
+   "فهي الدواء المعتمد لتقليل {{RDS}}"
+  ],
+  "wrong": {
+   "1": "الـ{{ibuprofen}} ما يمنع {{RDS}}، ويستخدم لـ{{PDA closure}} للمولود",
+   "2": "الـ{{antibiotics}} تعطى في {{PPROM}} لإطالة الحمل، والـ{{steroids}} هي الأساس للـ{{RDS}}",
+   "3": "الـ{{paracetamol}} ما له دور في {{RDS}}"
+  },
+  "change": [
+   "لو {{PPROM before 34 weeks}} فنعطي {{antibiotics}} كمان",
+   "لو {{tocolysis needed}} فـ{{nifedipine}} لتأخير الولادة لحد ما تكتمل الـ{{steroids}}"
+  ],
+  "rule": "الـ{{preterm}} يعني {{antenatal steroids}} لمنع {{RDS}}"
+ },
+ "A318": {
+  "idea": [
+   "السؤال عن أفضل طريقة لمنع {{RDS}} للمولود",
+   "فالجواب {{antenatal corticosteroids to the mother}}"
+  ],
+  "clues": [
+   [
+    "الـ{{most effective prevention}}",
+    "يعني الوقاية قبل الولادة مو العلاج بعدها"
+   ],
+   [
+    "الـ{{antenatal corticosteroids}}",
+    "يعني نضج رئة الجنين قبل الولادة"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{corticosteroids}} تسرع {{lung maturation}} وتقلل {{RDS}} و{{mortality}}",
+   "فهي أنجح وقاية"
+  ],
+  "wrong": {
+   "0": "الـ{{surfactant therapy}} علاج بعد الولادة مو وقاية",
+   "1": "الـ{{airway suctioning}} ما يمنع {{RDS}} لأنه ناتج عن نقص {{surfactant}}"
+  },
+  "change": [
+   "لو المولود ولد وعنده {{RDS}} فنعطي {{surfactant}}",
+   "لو الولادة {{> 34 weeks}} فالفائدة أقل"
+  ],
+  "rule": "الـ{{RDS prevention}} يعني {{antenatal steroids}}"
+ },
+ "A319": {
+  "idea": [
+   "حالة {{complete or missed abortion}} و{{US}} يبين {{empty uterus}} والمريضة {{stable}} وما عاد فيه {{bleeding}}",
+   "فالجواب {{reassurance}}"
+  ],
+  "clues": [
+   [
+    "الـ{{empty uterus}} على {{US}}",
+    "يعني {{complete abortion}}"
+   ],
+   [
+    "الـ{{vitally stable}} وما في نزيف",
+    "يعني ما نحتاج تدخل"
+   ]
+  ],
+  "why": [
+   "لأن الرحم فاضي والمريضة بخير فنكتفي بـ{{reassurance}} و{{follow-up}}",
+   "وما في {{retained products}} نعالجها"
+  ],
+  "wrong": {
+   "1": "الـ{{IV methergine}} للـ{{uterine atony}} والنزيف وهنا ما فيه نزيف"
+  },
+  "change": [
+   "لو {{retained products}} أو {{heavy bleeding}} فـ{{misoprostol}} أو {{D&C}}",
+   "لو {{unstable}} فـ{{resuscitation}} أول"
+  ],
+  "rule": "الـ{{complete abortion}} وهي {{stable}} يعني {{reassurance}}"
+ },
+ "A320": {
+  "idea": [
+   "شابة {{28 years}} عندها {{severe RLQ pain}} و{{vaginal spotting}} قبل يومين بدون {{fever}}",
+   "فالأنسب {{CBC, pregnancy test and urinalysis}}"
+  ],
+  "clues": [
+   [
+    "الـ{{RLQ pain with spotting}}",
+    "يعني نشك في {{ectopic pregnancy}} أو {{abortion}} أو {{appendicitis}}"
+   ],
+   [
+    "الـ{{pregnancy test}}",
+    "يعني أهم من {{US}} في أول خطوة"
+   ]
+  ],
+  "why": [
+   "لأن لازم نؤكد {{pregnancy status}} أول ونستبعد {{UTI}} ونفرق {{abortion vs ectopic}}",
+   "وبعدها نقرر {{US}} و{{methotrexate}} أو لا"
+  ],
+  "wrong": {
+   "0": "الـ{{ultrasound}} مهم بس بعد {{pregnancy test}} لأن التفسير يعتمد عليه",
+   "2": "الـ{{renal and liver function}} نحتاجها قبل {{methotrexate}} فقط بعد تأكيد الحمل"
+  },
+  "change": [
+   "لو {{pregnancy test positive}} فـ{{transvaginal US}} و{{beta-hCG}}",
+   "لو {{ectopic confirmed}} فـ{{renal and liver function}} قبل {{methotrexate}}"
+  ],
+  "rule": "الـ{{reproductive-age woman with abdominal pain}} يعني {{pregnancy test}} أول"
+ },
+ "A321": {
+  "idea": [
+   "سيدة {{37 weeks primigravida}} ولدت {{SVD}} بعد {{5 hours of ROM}} مع {{second degree tear}} و{{retained placenta}} أخرجت {{manually}}",
+   "فالجواب الـ{{antibiotic prophylaxis}} لـ{{manual removal of placenta}}"
+  ],
+  "clues": [
+   [
+    "الـ{{manual removal of placenta}}",
+    "يعني {{indication for antibiotic prophylaxis}} بسبب إدخال اليد للرحم"
+   ],
+   [
+    "الـ{{ROM 5 hours}}",
+    "يعني ما وصل للحد الطويل"
+   ]
+  ],
+  "why": [
+   "لأن إدخال اليد في الرحم يزيد خطر {{endometritis}}",
+   "فنعطي {{prophylactic antibiotics}} مثل {{cefazolin}}"
+  ],
+  "wrong": {
+   "0": "الـ{{SVD}} الطبيعية ما تحتاج {{prophylaxis}}",
+   "1": "الـ{{ROM}} يحتاج أكثر من {{18 hours}} عشان يكون إشارة، و{{5 hours}} قليلة",
+   "2": "الـ{{second degree tear}} ما يحتاج {{antibiotics}} روتينيا"
+  },
+  "change": [
+   "لو {{ROM > 18 hours}} فيصير مؤشر",
+   "لو {{third or fourth degree tear}} فـ{{antibiotics}} تعطى"
+  ],
+  "rule": "الـ{{manual removal of placenta}} يعني {{antibiotic prophylaxis}}",
+  "note": "الاختيار B يصير مناسب لو الـ{{ROM}} أكثر من 16-18 ساعة مو 6 ساعات"
+ },
+ "A322": {
+  "idea": [
+   "حامل قلقانة من {{preterm labor}} بسبب {{long working hours}} و{{stress}}",
+   "فالنصيحة {{proper hydration and stress management}}"
+  ],
+  "clues": [
+   [
+    "الـ{{stressful job}}",
+    "يعني نعدل {{lifestyle}} مو نمنعها من الحركة"
+   ],
+   [
+    "الـ{{bed rest}}",
+    "يعني ما أثبت فائدة"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{hydration}} وتخفيف {{stress}} نصيحة آمنة وعملية",
+   "وما فيه دليل أن الـ{{bed rest}} يمنع {{preterm labor}}"
+  ],
+  "wrong": {
+   "1": "الـ{{bed rest}} ما يمنع {{preterm birth}} ويزيد خطر {{VTE}}"
+  },
+  "change": [
+   "لو {{short cervix}} فـ{{vaginal progesterone}}",
+   "لو {{history of preterm birth}} فـ{{17-OHPC or progesterone}}"
+  ],
+  "rule": "الـ{{preterm labor risk}} بدون سبب واضح يعني {{hydration}} وتقليل {{stress}} مو {{bed rest}}"
+ },
+ "A323": {
+  "idea": [
+   "سيدة {{10 days postpartum}} مع {{chills, rigors and fever}}",
+   "فالخطوة الأولى {{complete history and physical examination}}"
+  ],
+  "clues": [
+   [
+    "الـ{{postpartum fever}}",
+    "يعني أسبابه كثيرة مثل {{endometritis, UTI, mastitis, wound infection}}"
+   ],
+   [
+    "الـ{{next step}}",
+    "يعني نحدد المصدر أول قبل ما نبدأ علاج"
+   ]
+  ],
+  "why": [
+   "لأن لازم نحدد {{source of infection}} بالفحص والتاريخ",
+   "وبعدها نطلب {{investigations}} ونبدأ {{antibiotics}} المناسبة"
+  ],
+  "wrong": {
+   "1": "الـ{{antibiotics}} قبل تحديد المصدر ما تكون الخطوة الأولى",
+   "2": "الـ{{urine, CBC and chest X-ray}} فحوصات موجهة تجي بعد الفحص السريري"
+  },
+  "change": [
+   "لو {{septic shock}} فنبدأ {{broad-spectrum antibiotics}} فورا",
+   "لو {{fundal tenderness and foul lochia}} فنفكر في {{endometritis}}"
+  ],
+  "rule": "الـ{{postpartum fever}} يعني {{history and exam}} أول",
+  "note": "الجواب مؤكد في المصدر"
+ },
+ "A324": {
+  "idea": [
+   "سيدة {{day 7 post appendectomy}} مع {{fever 39}} و{{generalized abdominal pain}} و{{pelvic fluid collection on US}}",
+   "فالتشخيص {{abscess}}"
+  ],
+  "clues": [
+   [
+    "الـ{{fever}} بعد {{surgery}} بأسبوع",
+    "يعني {{postoperative infection}}"
+   ],
+   [
+    "الـ{{fluid collection in the pelvis}}",
+    "يعني {{pelvic abscess}}"
+   ]
+  ],
+  "why": [
+   "لأن الحمى مع تجمع سوائل بعد {{appendectomy}} نمط {{intra-abdominal abscess}}",
+   "و{{BP}} مستقر فما يدل على {{hemorrhage}}"
+  ],
+  "wrong": {
+   "0": "الـ{{ruptured ovarian cyst}} ما يعطي {{fever 39}} بعد عملية بأسبوع",
+   "1": "الـ{{PID}} مو سيناريو ما بعد {{appendectomy}} وبدون {{cervical motion tenderness}} مذكور",
+   "3": "الـ{{hemorrhage}} يعطي {{hypotension}} و{{tachycardia}} وما في حمى عالية"
+  },
+  "change": [
+   "لو {{hypotension with drop in Hb}} فـ{{hemorrhage}}",
+   "لو {{CMT and discharge}} فنفكر في {{PID}}"
+  ],
+  "rule": "الـ{{fever}} مع {{fluid collection}} بعد {{surgery}} يعني {{abscess}}"
+ },
+ "A325": {
+  "idea": [
+   "سيدة {{30 years}} {{painful vulvar ulcer}} حوافها {{ragged}} وقاعها {{necrotic}} مع {{tender inguinal lymphadenopathy}}",
+   "فالتشخيص {{chancroid}}"
+  ],
+  "clues": [
+   [
+    "الـ{{painful ulcer with ragged edges}}",
+    "يعني {{Haemophilus ducreyi (chancroid)}}"
+   ],
+   [
+    "الـ{{necrotic base and inguinal adenopathy}}",
+    "يعني ما هي {{syphilis}} اللي {{painless}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{chancroid}} قرحة مؤلمة مع {{suppurative lymphadenopathy}}",
+   "والـ{{syphilis}} قرحة {{painless}} نظيفة"
+  ],
+  "wrong": {
+   "0": "الـ{{syphilis}} قرحتها {{painless}} وقاعها نظيف",
+   "2": "الـ{{herpes simplex}} يعطي {{multiple vesicles}} و{{shallow ulcers}} مو قرحة وحدة نخرية",
+   "3": "الـ{{Bartholin abscess}} كتلة مؤلمة في مكان الغدة مو قرحة"
+  },
+  "change": [
+   "لو {{painless clean-based ulcer}} فـ{{syphilis}}",
+   "لو {{multiple painful vesicles}} فـ{{herpes}}"
+  ],
+  "rule": "الـ{{painful ulcer}} مع {{ragged edges}} يعني {{chancroid}}",
+  "note": "الأصل فيه صورة ما أقدر أشوفها، فالشرح من النص وملاحظة المصدر"
+ }
+}

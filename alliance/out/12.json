@@ -1,0 +1,758 @@
+{
+ "A276": {
+  "idea": [
+   "سيدة عمرها 35 سنة عندها {{leiomyoma}} مع {{heavy menstrual bleeding}} و{{hemoglobin 7 g/dL}}",
+   "فالجواب {{correct the anemia}} قبل أي تدخل"
+  ],
+  "clues": [
+   [
+    "لأن {{Hb 7 g/dL}}",
+    "يعني {{severe symptomatic anemia}} لازم نثبتها أول"
+   ],
+   [
+    "الـ{{heavy menstruation}}",
+    "يعني السبب اللي سوى الـ{{anemia}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{anemia}} هي المشكلة الحالية الخطيرة، فـ نصححها أول بـ{{iron or transfusion as needed}}",
+   "بعدها نخطط للعلاج الأساسي للـ{{fibroid}}"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{myomectomy}} جراحة وما ننفذها على مريضة {{Hb 7}} قبل تصحيح الدم",
+   "2": "لأن الـ{{OCP}} تقلل النزف بس ما تصحح الـ{{anemia}} الحالية وهي الأولوية",
+   "3": "لأن الـ{{uterine artery embolization}} إجراء تدخلي وما نسويه قبل تثبيت المريضة"
+  },
+  "change": [
+   "لو {{Hb}} طبيعي والمريضة {{symptomatic}} فنبدأ {{OCP}} كخط أول",
+   "لو {{fertility desired}} فالأفضل {{myomectomy}}"
+  ],
+  "rule": "الـ{{severe anemia}} نصححها أول ثم نعالج الـ{{fibroid}}",
+  "note": "الصورة ما نقدر نشوفها، بس السؤال يتحل من الـ{{Hb 7 g/dL}} لحاله."
+ },
+ "A277": {
+  "idea": [
+   "شابة في عمر الإنجاب عندها {{pelvic pain}} و{{heavy menstrual bleeding}} والصورة تدل على {{fibroid}}",
+   "فالجواب {{OCP}} كخط أول للـ{{menorrhagia}}"
+  ],
+  "clues": [
+   [
+    "الـ{{heavy menstrual bleeding}}",
+    "يعني {{menorrhagia}} من {{fibroid}}"
+   ],
+   [
+    "الـ{{young woman}} وما ذكر {{fertility desire}}",
+    "يعني نبدأ علاج {{medical}} أول"
+   ]
+  ],
+  "why": [
+   "لأن علاج الـ{{symptomatic premenopausal fibroid}} مع {{menorrhagia}} هو {{OCP}} كخط أول",
+   "والـ{{myomectomy}} خط ثاني أو لو تبي {{definitive}} أو {{fertility}}"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{myomectomy}} خط ثاني وما نبدأ فيها أول",
+   "1": "لأن {{uterine artery ablation}} مو خيار قياسي هنا، والمقصود {{embolization}} وهي مو خط أول"
+  },
+  "change": [
+   "لو {{fertility desired}} فنختار {{myomectomy}}",
+   "لو {{postmenopausal symptomatic}} فنسوي {{hysterectomy}}"
+  ],
+  "rule": "الـ{{fibroid}} مع {{menorrhagia}} فـ{{OCP}} أول",
+  "note": "خيارات السؤال ناقصة ومصدر السؤال يذكر إن {{correct the anemia}} مو من الخيارات هنا، فنلتزم بـ{{OCP}}."
+ },
+ "A278": {
+  "idea": [
+   "سيدة 25 سنة {{infertility 3 years}} وفشل {{IVF}} مرتين مع {{multiple fibroids}}",
+   "فالجواب {{myomectomy}} لأن تحسن فرصة الحمل"
+  ],
+  "clues": [
+   [
+    "لأن {{fertility desired}}",
+    "يعني {{myomectomy}} هي الخيار"
+   ],
+   [
+    "الـ{{failed IVF x2}}",
+    "يعني نشيل الـ{{fibroids}} لتحسين الـ{{implantation}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{myomectomy}} تحافظ على الرحم وتشيل الـ{{fibroids}} اللي ممكن تعيق الحمل",
+   "فهي العلاج الأنسب لما نبي {{pregnancy}}"
+  ],
+  "wrong": {
+   "1": "لأن الـ{{uterine artery embolization}} تهدد الـ{{ovarian reserve}} وما تناسب اللي تبي حمل",
+   "2": "لأن الـ{{progesterone}} ما تشيل الـ{{fibroids}} ولا تحسن الحمل",
+   "3": "لأن الـ{{GnRH}} تصغر مؤقتا وترجع بعد التوقف وتأخر الحمل"
+  },
+  "change": [
+   "لو {{no fertility desire}} و{{symptomatic}} فنختار {{hysterectomy}} أو علاج طبي",
+   "لو {{asymptomatic}} فنسوي {{follow up}} بس"
+  ],
+  "rule": "الـ{{fibroid}} مع {{fertility desired}} فـ{{myomectomy}}"
+ },
+ "A279": {
+  "idea": [
+   "حامل {{primigravida 37 years}} في {{34 weeks}} عندها {{fibroid}} مع {{abdominal pain}} وحرارة",
+   "والـ{{cervix closed}} وما فيه {{contractions}} فهذا {{red degeneration}} والجواب {{observation}}"
+  ],
+  "clues": [
+   [
+    "الـ{{fibroid in pregnancy}} مع ألم وحرارة",
+    "يعني {{red degeneration}}"
+   ],
+   [
+    "الـ{{cervix closed}} وبدون {{contractions}}",
+    "يعني مو {{labor}} ولا {{chorioamnionitis}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{red degeneration}} حالة {{self limited}} تتعالج بـ{{rest, analgesia and observation}}",
+   "وما نحتاج تدخل ولادة أو جراحة"
+  ],
+  "wrong": {
+   "1": "لأن الـ{{myomectomy}} أثناء الحمل غير مناسبة وفيها خطر نزف",
+   "2": "لأن الـ{{cesarean section}} مالها داعي والحالة ما فيها {{obstetric indication}}",
+   "3": "لأن الـ{{induction}} مو مطلوبة والـ{{cervix}} مقفل وما فيه {{labor}}"
+  },
+  "change": [
+   "لو {{ruptured membranes}} أو {{CTG changes}} فنفكر {{chorioamnionitis}}",
+   "لو {{refractory pain}} فنعطي {{analgesia}} ونراجع الحالة"
+  ],
+  "rule": "الـ{{fibroid}} مع ألم وحرارة في الحمل فـ{{red degeneration}} وعلاجها {{observation}}"
+ },
+ "A280": {
+  "idea": [
+   "شابة 24 سنة {{incidental fibroid}} صغير {{3 x 2 cm}} و{{regular cycles}} وفحص طبيعي",
+   "فهذا {{asymptomatic}} والجواب {{reassure and follow up}}"
+  ],
+  "clues": [
+   [
+    "الـ{{regular menstrual cycle}}",
+    "يعني ما فيه {{menorrhagia}}"
+   ],
+   [
+    "الـ{{incidental finding}}",
+    "يعني {{asymptomatic fibroid}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{asymptomatic fibroid}} دايم {{follow up}} بغض النظر عن الحجم والعمر",
+   "وما نعالج شي ما يسبب أعراض"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{myomectomy}} جراحة وما لها داعي مع {{no symptoms}}",
+   "2": "لأن الـ{{OCP}} للـ{{menorrhagia}} وهي ما عندها نزف",
+   "3": "لأن الـ{{uterine artery embolization}} تدخل ما له مبرر"
+  },
+  "change": [
+   "لو {{heavy menstrual bleeding}} فنبدأ {{OCP}}",
+   "لو {{fertility desired}} مع أعراض فنفكر {{myomectomy}}"
+  ],
+  "rule": "الـ{{fibroid}} بدون أعراض فـ{{follow up}} بس"
+ },
+ "A281": {
+  "idea": [
+   "سيدة 51 سنة {{P6+2}} عندها {{pelvic pressure}} و{{heavy bleeding}} مع {{large submucous fibroid 7x8 cm}}",
+   "فهذا {{symptomatic fibroid}} وهي قريبة من {{menopause}} والجواب {{hysterectomy}}"
+  ],
+  "clues": [
+   [
+    "الـ{{51 years}} و{{P6+2}}",
+    "يعني {{childbearing complete}}"
+   ],
+   [
+    "الـ{{large 7x8 cm}} مع أعراض",
+    "يعني علاج {{definitive}} وهو {{hysterectomy}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{symptomatic fibroid}} في سن {{perimenopausal or postmenopausal}} وما فيه {{fertility desire}} علاجه {{hysterectomy}}",
+   "والحجم الكبير يخلي الخيارات الثانية أقل فعالية"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{myomectomy}} للي تبي تحافظ على الخصوبة وهي خلصت الإنجاب",
+   "2": "لأن الـ{{endometrial ablation}} ما تنفع مع {{large submucous fibroid}}",
+   "3": "لأن الـ{{progesterone}} علاج مؤقت وما يحل {{bulk symptoms}}"
+  },
+  "change": [
+   "لو {{age 25 and fertility desired}} فنختار {{myomectomy}}",
+   "لو {{asymptomatic}} فنسوي {{follow up}}"
+  ],
+  "rule": "الـ{{symptomatic fibroid}} بعد إكمال الإنجاب أو {{menopause}} فـ{{hysterectomy}}",
+  "note": "السؤال يقول {{51 years}} بدون تأكيد {{menopause}}، بس الجواب المعطى {{hysterectomy}} ويتماشى مع المصدر."
+ },
+ "A282": {
+  "idea": [
+   "أم {{primipara}} بعد أسبوع من الولادة {{tearful}} مع {{crying spells}} وقلة {{appetite and sleep}}",
+   "فالجواب الأقرب {{postnatal depression}}"
+  ],
+  "clues": [
+   [
+    "الـ{{tearful and crying}} مع {{poor sleep and appetite}}",
+    "يعني أعراض {{depression}}"
+   ],
+   [
+    "الـ{{1 week postpartum}}",
+    "يعني نختار {{postnatal depression}} من الخيارات"
+   ]
+  ],
+  "why": [
+   "لأن الأعراض {{mood}} كلها تدل على {{postnatal depression}} من بين الخيارات",
+   "والخيارات الثانية ما تطابق الصورة"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{anemia}} ممكن تسبب تعب بس ما تفسر {{crying and low mood}}",
+   "1": "لأن الـ{{schizophrenia}} فيها {{psychosis}} وما ذكر في السؤال",
+   "2": "لأن الـ{{mania}} فيها {{elevated mood}} وقلة نوم بدون حزن"
+  },
+  "change": [
+   "لو الأعراض خفيفة وأقل من {{2 weeks}} فهذا {{postpartum blues}}",
+   "لو {{hallucinations or delusions}} فهذا {{postpartum psychosis}}"
+  ],
+  "rule": "الأعراض {{depressive}} بعد الولادة فـ{{postnatal depression}}",
+  "note": "الأدق إن الـ{{depression}} تحتاج {{2 weeks}} والـ{{blues}} تظهر خلال أسبوعين، بس نلتزم بالجواب المعطى."
+ },
+ "A283": {
+  "idea": [
+   "امرأة 26 سنة بعد {{5 days}} من الولادة عندها {{insomnia, fatigue, sadness}} و{{tearful}}",
+   "والجواب المعطى {{SSRIs}}"
+  ],
+  "clues": [
+   [
+    "الـ{{tearful depressed}}",
+    "يعني أعراض {{depression}}"
+   ],
+   [
+    "الـ{{5 days postpartum}}",
+    "يعني توقيت يشبه {{blues}} بس الجواب المعطى {{SSRIs}}"
+   ]
+  ],
+  "why": [
+   "لأن المصدر يقول نحفظ الجواب {{SSRIs}} كعلاج للـ{{postpartum depression}}",
+   "وهي الخيار الدوائي الصحيح بين الخيارات"
+  ],
+  "wrong": {
+   "1": "لأن الـ{{benzodiazepines}} ما تعالج الاكتئاب وفيها {{dependence}}",
+   "2": "لأن الـ{{follow up in 1 week}} مو علاج للأعراض الموجودة حسب الجواب المعتمد",
+   "3": "لأن الـ{{multivitamins}} ما تعالج {{depression}}"
+  },
+  "change": [
+   "لو أعراض خفيفة وبدون {{functional impairment}} فنطمن ونسوي {{follow up}} لأنها {{blues}}",
+   "لو {{psychosis}} فنحتاج {{admission and antipsychotics}}"
+  ],
+  "rule": "الـ{{postpartum depression}} علاجها {{SSRIs}}",
+  "note": "توقيت {{5 days}} يشبه {{postpartum blues}} وهذي تحتاج {{reassurance}} فقط حسب الـ{{guidelines}}، بس نلتزم بالجواب المعطى {{Gameboy}}."
+ },
+ "A284": {
+  "idea": [
+   "سيدة 34 سنة سليمة عندها {{headache, anxiety, mastalgia}} تبدأ قبل الدورة بـ{{8-10 days}} وتتحسن بعدها",
+   "فهذا {{premenstrual tension syndrome}}"
+  ],
+  "clues": [
+   [
+    "الأعراض {{cyclic}} قبل الدورة وتتحسن بعدها",
+    "يعني {{premenstrual syndrome}}"
+   ],
+   [
+    "الـ{{anxiety and mastalgia}}",
+    "يعني {{mood and physical symptoms}} مرتبطة بالـ{{luteal phase}}"
+   ]
+  ],
+  "why": [
+   "لأن الأعراض النفسية والجسدية قبل الـ{{menses}} وتنتهي معها هي {{PMS}}",
+   "والتشخيص يعتمد على التوقيت مع الدورة"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{endometriosis}} ألم {{pelvic}} و{{dysmenorrhea}} و{{dyspareunia}} مو {{mood symptoms}}",
+   "1": "لأن الـ{{perimenopausal symptoms}} تكون في عمر أكبر مع {{irregular cycles}} و{{hot flushes}}",
+   "2": "لأن الـ{{pelvic congestion syndrome}} ألم {{pelvic}} ثقيل يزيد بالوقوف"
+  },
+  "change": [
+   "لو ألم دورة بس بدون {{mood symptoms}} فهذا {{dysmenorrhea}}",
+   "لو الأعراض {{severe}} مع {{functional impairment}} فنفكر {{PMDD}}"
+  ],
+  "rule": "الأعراض قبل الدورة وتروح بعدها فـ{{PMS}}"
+ },
+ "A285": {
+  "idea": [
+   "بنت 19 سنة عندها {{crampy lower abdominal pain}} مع بداية الدورة {{2-3 days}} ولا ألم بين الدورات والفحص طبيعي",
+   "فهذا {{primary dysmenorrhea}}"
+  ],
+  "clues": [
+   [
+    "الألم مع بداية {{menses}} فقط",
+    "يعني {{dysmenorrhea}}"
+   ],
+   [
+    "الفحص طبيعي من {{years}} وما فيه {{pelvic pathology}}",
+    "يعني {{primary}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{primary dysmenorrhea}} ألم دورة بدون مرض {{pelvic}} وتبدأ بعد البلوغ بفترة",
+   "والأعراض المرافقة مثل {{nausea and headache}} تتوافق معها"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{secondary dysmenorrhea}} لها سبب مثل {{endometriosis}} وفحص غير طبيعي أو ألم يزيد مع الوقت",
+   "1": "لأن الـ{{PMS}} أعراض قبل الدورة مو ألم مع بدايتها",
+   "3": "لأن الـ{{endometriosis}} ما فيها هنا {{infertility or dyspareunia}} والفحص طبيعي"
+  },
+  "change": [
+   "لو الألم {{progressive}} مع {{dyspareunia or infertility}} فنفكر {{endometriosis}}",
+   "لو الأعراض قبل الدورة فقط فهذا {{PMS}}"
+  ],
+  "rule": "ألم الدورة بفحص طبيعي فـ{{primary dysmenorrhea}}",
+  "note": "نص السؤال فيه حروف مشوهة، وكلمة {{progressively worse}} ممكن تلبس بس الجواب المعطى {{primary dysmenorrhea}}."
+ },
+ "A286": {
+  "idea": [
+   "أم بعد {{7 weeks postpartum}} عندها {{sorrow, guilt}} و{{insomnia}} و{{social isolation}} وقلق على الطفل",
+   "فهذا {{postpartum depression}}"
+  ],
+  "clues": [
+   [
+    "الـ{{guilt and sadness}} مع {{isolation}}",
+    "يعني {{depression}}"
+   ],
+   [
+    "الـ{{7 weeks}} وتزيد الأعراض",
+    "يعني مو {{blues}} هذي {{postpartum depression}}"
+   ]
+  ],
+  "why": [
+   "لأن الأعراض {{depressive}} مستمرة وتزيد بدون {{psychotic features}}",
+   "فنشخص {{postpartum depression}}"
+  ],
+  "wrong": {
+   "1": "لأن الـ{{postpartum psychosis}} فيها {{hallucinations or delusions}} وما ذكرت",
+   "2": "لأن الـ{{bipolar}} تحتاج {{manic episode}} ما ذكر هنا"
+  },
+  "change": [
+   "لو {{hallucinations or delusions}} فهذا {{postpartum psychosis}}",
+   "لو الأعراض خفيفة وتروح خلال أسبوعين فهذا {{postpartum blues}}"
+  ],
+  "rule": "الأعراض {{depressive}} مستمرة بعد الولادة فـ{{postpartum depression}}"
+ },
+ "A287": {
+  "idea": [
+   "سيدة 27 سنة {{abdominal pain}} تبدأ قبل الدورة بـ{{3 days}} وتوقف في اليوم الثالث",
+   "فهذا {{primary dysmenorrhea}} والجواب {{aerobic exercise}}"
+  ],
+  "clues": [
+   [
+    "الألم مع الدورة",
+    "يعني {{dysmenorrhea}}"
+   ],
+   [
+    "السؤال عن {{exercise}}",
+    "يعني نختار {{aerobic exercise}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{aerobic exercise}} تفيد في {{dysmenorrhea}} وتحسن الألم",
+   "وقاعدة المصدر: أي سؤال {{exercise}} الجواب {{aerobic}}"
+  ],
+  "wrong": {
+   "1": "لأن الـ{{flexibility and mobility exercise}} مو النوع الأشهر في علاج {{dysmenorrhea}}",
+   "2": "لأن الـ{{stability and balance exercise}} ما لها دور واضح في الألم",
+   "3": "لأن الـ{{coordination agility exercise}} ما لها دور في {{dysmenorrhea}}"
+  },
+  "change": [
+   "لو الألم شديد فنعطي {{NSAIDs}} مع الـ{{exercise}}",
+   "لو ما استجابت لـ{{NSAIDs}} فنضيف {{OCP}}"
+  ],
+  "rule": "أي سؤال {{exercise}} فالجواب {{aerobic exercise}}"
+ },
+ "A288": {
+  "idea": [
+   "السؤال عن علاج {{non pharmacological}} للـ{{primary dysmenorrhea}}",
+   "فالجواب {{physical exercise}}"
+  ],
+  "clues": [
+   [
+    "الـ{{non pharmacological}}",
+    "يعني تغيير نمط الحياة مثل {{exercise}}"
+   ],
+   [
+    "الـ{{primary dysmenorrhea}}",
+    "يعني الـ{{exercise}} أفضل دليل"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{physical exercise}} أثبتت تقلل شدة الألم في {{primary dysmenorrhea}}",
+   "وهي الخيار المعتمد بين الخيارات"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{decaffeinated drinks}} ما عليها دليل قوي",
+   "1": "لأن الـ{{hot baths}} راحة مؤقتة وأقل دعم من {{exercise}}",
+   "3": "لأن الـ{{yoga}} فيها بعض الفائدة بس الأقوى {{physical exercise}} حسب الجواب المعتمد"
+  },
+  "change": [
+   "لو الألم شديد فنبدأ {{NSAIDs}}",
+   "لو ما استجابت لـ{{NSAIDs}} فنضيف {{OCP}}"
+  ],
+  "rule": "الـ{{non pharmacological}} للـ{{dysmenorrhea}} فـ{{exercise}}"
+ },
+ "A289": {
+  "idea": [
+   "سيدة عندها {{severe dysmenorrhea}} تمنعها من الدوام والجواب {{OCP}}",
+   "لأن ما فيه {{NSAIDs}} بالخيارات"
+  ],
+  "clues": [
+   [
+    "الـ{{severe dysmenorrhea}}",
+    "يعني نعطي {{NSAIDs}} مع {{OCP}} والأفضل {{OCP}} هنا"
+   ],
+   [
+    "الخيار الثاني {{paracetamol}}",
+    "يعني أقل فعالية وما هو {{standard of care}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{OCP}} تعالج {{dysmenorrhea}} الشديدة وتمنع {{ovulation}}",
+   "وهي أفضل من {{paracetamol}} المتوفرة بالخيارات"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{paracetamol}} أقل فعالية من {{NSAIDs}} وما هي {{standard of care}}"
+  },
+  "change": [
+   "لو {{NSAIDs}} موجودة بالخيارات فنختارها مع {{OCP}} في الشديد",
+   "لو {{mild}} فنبدأ {{NSAIDs}} ثم {{OCP}} لو فشلت"
+  ],
+  "rule": "الـ{{dysmenorrhea}} الشديدة فـ{{NSAIDs}} مع {{OCP}} وبدونها نختار {{OCP}}",
+  "note": "الأصل نعطي {{NSAIDs}} مع {{OCP}}، بس الخيارات هنا ما فيها {{NSAIDs}} فنلتزم بـ{{OCP}}."
+ },
+ "A290": {
+  "idea": [
+   "السؤال عن أفضل تدخل لحامل {{smoker}}",
+   "فالجواب {{behavioral therapy}}"
+  ],
+  "clues": [
+   [
+    "الـ{{pregnant smoker}}",
+    "يعني نبدأ بـ{{counseling and behavioral therapy}}"
+   ],
+   [
+    "الخيارات الدوائية",
+    "يعني أقل أمانا أو ما نبدأ فيها أول"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{behavioral interventions}} هي الخط الأول للـ{{smoking cessation}} في الحمل وآمنة",
+   "والأدوية نستعملها لو فشلت أو بعد تقييم الفائدة والخطر"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{bupropion}} ما هي خط أول في الحمل",
+   "1": "لأن الـ{{varenicline}} ما فيها بيانات أمان كافية في الحمل",
+   "3": "لأن الـ{{nicotine replacement therapy}} نستعملها لو فشل الـ{{behavioral therapy}} وليست أول خيار"
+  },
+  "change": [
+   "لو فشل {{behavioral therapy}} فنفكر {{NRT}} بعد مناقشة الفوائد والمخاطر",
+   "لو غير حامل فنقدر نستخدم {{pharmacotherapy}} بشكل أوسع"
+  ],
+  "rule": "الحامل المدخنة فـ{{behavioral therapy}} أول",
+  "note": "بعض الـ{{guidelines}} تسمح بـ{{NRT}} لو فشل السلوكي، بس نلتزم بالجواب المعطى."
+ },
+ "A291": {
+  "idea": [
+   "حامل {{15 weeks}} مدخنة وقلقانة على طفلها من {{ADHD}} وغيره",
+   "فهي مهتمة بالإقلاع فالجواب {{smoking cessation support group}}"
+  ],
+  "clues": [
+   [
+    "الـ{{worried}} وتبي تبطل",
+    "يعني {{motivated}} فنبدأ {{behavioral support}}"
+   ],
+   [
+    "الـ{{never tried to quit}}",
+    "يعني ما نبدأ {{NRT}} مباشرة"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{behavioral support}} هي الخط الأول لحامل جديدة على محاولة الإقلاع",
+   "والـ{{NRT}} نحتفظ فيها لو فشلت"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{NRT}} تكون الجواب لو {{tried everything but failed}} وهنا مو مذكور",
+   "2": "لأن الـ{{abrupt cessation without support}} أقل نجاحا ومو الأسلوب الصحيح"
+  },
+  "change": [
+   "لو {{tried everything but failed}} فالجواب {{NRT}}",
+   "لو {{not motivated}} فنعطي {{brief counseling}} ونعيد المحاولة"
+  ],
+  "rule": "الحامل المدخنة اللي ما جربت فـ{{support group}} وبعد الفشل {{NRT}}",
+  "note": "الجواب يعتمد على صياغة المُمتحِن: {{tried and failed}} فالجواب {{NRT}}، و{{never tried}} فالجواب {{support group}}."
+ },
+ "A292": {
+  "idea": [
+   "حامل {{smoker}} حاولت تبطل وما قدرت",
+   "فالجواب المعطى {{non nicotine gum}} مع {{antenatal follow up}}"
+  ],
+  "clues": [
+   [
+    "الـ{{tried to quit and cannot}}",
+    "يعني نحتاج دعم مع {{follow up}}"
+   ],
+   [
+    "الخيار B",
+    "يعني {{non nicotine}} مع متابعة"
+   ]
+  ],
+  "why": [
+   "لأن الجواب المعتمد يجمع {{support}} و{{antenatal follow up}} بدون {{nicotine}} مباشرة",
+   "والخيارات الثانية فيها {{nicotine}} أو دواء غير مناسب للحمل"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{NRT}} حسب الجواب المعتمد مو الخيار هنا",
+   "2": "لأن الـ{{nicotine patch}} حسب الجواب المعتمد مو الخيار هنا",
+   "3": "لأن الـ{{bupropion}} ما نستعملها كخط أول في الحمل"
+  },
+  "change": [
+   "لو فشل {{behavioral therapy}} فبعض الـ{{guidelines}} تسمح بـ{{NRT}}",
+   "لو {{never tried}} فنبدأ {{counseling}}"
+  ],
+  "rule": "الحامل المدخنة نعطيها دعم و{{follow up}}",
+  "note": "الخيار B غير دقيق طبيا ({{nicotine gum}} نفسها {{NRT}})، والـ{{NRT}} قد تكون مقبولة بعد فشل السلوكي، بس نلتزم بالجواب المعطى."
+ },
+ "A293": {
+  "idea": [
+   "حامل {{12 weeks}} مدخنة وخايفة على جنينها",
+   "والجواب المعطى {{bupropion}} مع {{fetal monitoring}}"
+  ],
+  "clues": [
+   [
+    "الـ{{scared for the fetus}}",
+    "يعني تبي تبطل وتحتاج {{cessation aid}}"
+   ],
+   [
+    "الخيارات الثانية",
+    "يعني أسوأ: {{e-cigarettes}} و{{varenicline}} و{{smoke less}}"
+   ]
+  ],
+  "why": [
+   "لأن الجواب المعتمد {{bupropion}} مع {{fetal monitoring}} بين الخيارات المتاحة",
+   "وباقي الخيارات أقل قبولا"
+  ],
+  "wrong": {
+   "1": "لأن الـ{{e-cigarettes}} ما هي آمنة وما نوصي فيها في الحمل",
+   "2": "لأن الـ{{varenicline}} ما فيها بيانات أمان كافية في الحمل",
+   "3": "لأن الـ{{smoking less}} ما تكفي ويبقى الضرر على الجنين"
+  },
+  "change": [
+   "لو متوفر {{behavioral therapy}} فهي الخط الأول",
+   "لو فشلت فنفكر {{NRT}} بعد مناقشة الفوائد والمخاطر"
+  ],
+  "rule": "الحامل المدخنة نحتاج {{cessation}} حقيقي وما نقبل {{e-cigarettes}} ولا {{smoke less}}",
+  "note": "جواب مشكوك فيه: الأولوية العلمية {{behavioral therapy}} ثم {{NRT}}، والـ{{bupropion}} مو خط أول. نلتزم بالجواب المعطى."
+ },
+ "A294": {
+  "idea": [
+   "حامل {{33 weeks}} {{PPROM}} من {{4 hours}} بدون {{contractions}} أو حرارة وأخذت {{IV antibiotics}}",
+   "فالمضاعفة اللي تنقص هي {{respiratory distress syndrome}}"
+  ],
+  "clues": [
+   [
+    "الـ{{PPROM at 33 weeks}} أقل من {{34}}",
+    "يعني الهدف {{prolong labor}} وتقليل {{prematurity complications}}"
+   ],
+   [
+    "الـ{{prematurity}}",
+    "يعني {{RDS}} أشهر من {{sepsis}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{antibiotics}} قبل {{34 weeks}} تطول فترة الحمل فتقل مضاعفات {{prematurity}} وأهمها {{RDS}}",
+   "وبعد {{34 weeks}} ما نعطيها ونولد"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{sepsis}} أقل شيوعا من {{RDS}} قبل {{34 weeks}} في هذا السؤال",
+   "1": "لأن الـ{{retinopathy}} ما تتأثر بالـ{{antibiotics}}",
+   "2": "لأن الـ{{intracranial hemorrhage}} ما هي الفائدة الرئيسية للـ{{antibiotics}}"
+  },
+  "change": [
+   "لو {{36 weeks}} فالجواب {{sepsis}}",
+   "لو ظهرت {{fever}} فنفكر {{chorioamnionitis and sepsis}}"
+  ],
+  "rule": "الـ{{PPROM}} قبل {{34 weeks}} فـ{{antibiotics}} تقلل {{RDS}}"
+ },
+ "A295": {
+  "idea": [
+   "حامل {{36 weeks}} {{PROM}} من {{4 hours}} وأخذت {{IV antibiotics}}",
+   "فالمضاعفة اللي تقل {{neonatal sepsis}}"
+  ],
+  "clues": [
+   [
+    "الـ{{36 weeks}} أكثر من {{34}}",
+    "يعني {{RDS}} نادرة والخطر {{sepsis}}"
+   ],
+   [
+    "الـ{{ROM}} مع {{antibiotics}}",
+    "يعني الهدف {{prevent infection}}"
+   ]
+  ],
+  "why": [
+   "لأن بعد {{34 weeks}} الـ{{RDS}} نادرة فالفائدة تكون ضد {{neonatal sepsis}}",
+   "وقبل {{34 weeks}} الفائدة الأكبر ضد {{RDS}}"
+  ],
+  "wrong": {
+   "1": "لأن الـ{{retinopathy}} ما تتأثر بالـ{{antibiotics}}",
+   "2": "لأن الـ{{intracranial hemorrhage}} ما هي فائدة الـ{{antibiotics}}",
+   "3": "لأن الـ{{RDS}} نادرة عند {{34 weeks}} وما بعد"
+  },
+  "change": [
+   "لو {{33 weeks}} فالجواب {{RDS}}",
+   "لو {{fever}} فالجواب {{sepsis}} مهما كان العمر"
+  ],
+  "rule": "الـ{{ROM}} عند {{34 weeks}} أو أكثر فـ{{sepsis}} وقبلها {{RDS}}",
+  "note": "الجواب {{Probably Confirmed}} حسب المصدر. السؤال يقول {{36 weeks}} وهنا {{antibiotics}} عادة تعطى لـ{{GBS}} وليس لـ{{prolong labor}}."
+ },
+ "A296": {
+  "idea": [
+   "حامل {{PPROM}} عند {{31 weeks}} والسؤال عن فائدة الـ{{antibiotics}} للمولود",
+   "فالجواب {{respiratory distress syndrome}}"
+  ],
+  "clues": [
+   [
+    "الـ{{31 weeks}} أقل من {{34}}",
+    "يعني {{RDS}} هي المضاعفة الأساسية"
+   ],
+   [
+    "الـ{{antibiotics}}",
+    "يعني تطول الحمل وتقلل {{prematurity complications}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{antibiotics}} في {{PPROM}} قبل {{34 weeks}} تطول الحمل وتقلل مضاعفات {{prematurity}}",
+   "وأبرزها {{RDS}}"
+  ],
+  "wrong": {
+   "0": "لأن الـ{{sepsis}} أقل أهمية من {{RDS}} قبل {{34 weeks}} في هذا السؤال",
+   "1": "لأن الـ{{skeletal deformity}} ما لها علاقة بالـ{{antibiotics}}"
+  },
+  "change": [
+   "لو {{35 weeks}} فالجواب {{sepsis}}",
+   "لو {{fever}} فنفكر {{chorioamnionitis}}"
+  ],
+  "rule": "تحت {{34 weeks}} فـ{{RDS}}"
+ },
+ "A297": {
+  "idea": [
+   "حامل {{PPROM}} عند {{31 weeks}} وتدبير {{conservative}} ثم ولادة عند {{35 weeks}}",
+   "فالأكثر احتمالا {{neonatal sepsis}}"
+  ],
+  "clues": [
+   [
+    "الـ{{rupture for 4 weeks}}",
+    "يعني {{prolonged rupture}} فخطر {{chorioamnionitis and sepsis}}"
+   ],
+   [
+    "الولادة عند {{35 weeks}}",
+    "يعني {{RDS}} غير شائعة"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{prolonged rupture of membranes}} عامل خطر قوي للـ{{infection}}",
+   "والـ{{RDS}} قليلة عند {{34 weeks}} وما فوق"
+  ],
+  "wrong": {
+   "1": "لأن الـ{{retinopathy}} مو المضاعفة الأكثر هنا",
+   "2": "لأن الـ{{intracranial hemorrhage}} مو الأكثر مع {{35 weeks}}",
+   "3": "لأن الـ{{RDS}} غير شائعة عند {{35 weeks}}"
+  },
+  "change": [
+   "لو الولادة عند {{32 weeks}} فنرجع لـ{{RDS}}",
+   "لو تسأل عن فائدة الـ{{antibiotics}} فهي {{prolong labor}}"
+  ],
+  "rule": "الـ{{prolonged ROM}} مع ولادة بعد {{34 weeks}} فـ{{sepsis}}"
+ },
+ "A298": {
+  "idea": [
+   "حامل عندها {{cesarean section}} والسؤال عن وقت الـ{{prophylactic antibiotics}}",
+   "فالجواب {{within 60 minutes before incision}}"
+  ],
+  "clues": [
+   [
+    "الـ{{prophylactic antibiotic}}",
+    "يعني نعطيها قبل الشق"
+   ],
+   [
+    "الخيار B",
+    "يعني {{60 min}} هو المعتمد"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{antibiotic prophylaxis}} تعطى خلال {{60 minutes}} قبل {{skin incision}} لتكون الأنسجة مشبعة",
+   "وتقلل {{surgical site infection and endometritis}}"
+  ],
+  "wrong": {
+   "0": "لأن {{30 min}} حسب المصدر مو الوقت المعتمد هنا",
+   "2": "لأن {{90 min}} بعيد عن الـ{{incision}}",
+   "3": "لأن الـ{{prophylaxis}} مطلوبة في الـ{{cesarean}}"
+  },
+  "change": [
+   "لو {{vancomycin}} فنبدأ قبلها بوقت أطول",
+   "لو العملية طويلة أو {{blood loss}} كبير فنعيد الجرعة"
+  ],
+  "rule": "الـ{{antibiotic}} قبل الـ{{incision}} بـ{{60 min}}"
+ },
+ "A299": {
+  "idea": [
+   "السؤال عن وقت الـ{{antibiotic prophylaxis}} قبل الشق حسب {{MOH Saudi guidelines}}",
+   "فالجواب {{60 minutes}}"
+  ],
+  "clues": [
+   [
+    "الـ{{MOH guidelines}}",
+    "يعني {{within 60 minutes before incision}}"
+   ],
+   [
+    "الخيار B",
+    "يعني {{60 min}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{MOH}} توصي بإعطاء الـ{{prophylactic antibiotic}} خلال {{60 minutes}} قبل الـ{{incision}}",
+   "وهذا يخلي التركيز بالأنسجة عالي وقت الجراحة"
+  ],
+  "wrong": {
+   "0": "لأن {{30 min}} ما هي الإجابة المعتمدة حسب المصدر",
+   "2": "لأن {{5 min}} غير مناسب حسب المصدر"
+  },
+  "change": [
+   "لو {{vancomycin}} فنعطيها قبل أكثر",
+   "لو العملية طويلة فنعيد الجرعة"
+  ],
+  "rule": "الـ{{antibiotic prophylaxis}} قبل الشق بـ{{60 min}}",
+  "note": "الخيار D ناقص في السؤال، ولذلك المفاتيح تغطي A و C فقط."
+ },
+ "A300": {
+  "idea": [
+   "حامل {{PPROM}} رايحة {{OR}} لـ{{cesarean}} والسؤال عن وقت الـ{{antibiotic}}",
+   "فالجواب {{60 minutes before incision}}"
+  ],
+  "clues": [
+   [
+    "الـ{{PPROM}} ما يغير التوقيت",
+    "يعني نفس الـ{{prophylaxis}} المعتادة"
+   ],
+   [
+    "الـ{{preoperative antibiotic}}",
+    "يعني {{within 60 min}}"
+   ]
+  ],
+  "why": [
+   "لأن توقيت الـ{{prophylactic antibiotic}} قبل الـ{{incision}} ثابت وهو {{60 min}}",
+   "والـ{{PPROM}} يغير نوع الـ{{regimen}} بس"
+  ],
+  "wrong": {
+   "0": "لأن {{30 minutes}} ما هو التوقيت المعتمد حسب المصدر",
+   "2": "لأن {{90 min}} بعيد عن وقت الشق",
+   "3": "لأن {{120 min}} بعيد جدا عن وقت الشق"
+  },
+  "change": [
+   "لو {{PPROM}} على {{antibiotics}} فنتأكد من تغطية {{GBS}}",
+   "لو {{chorioamnionitis}} فنعطي علاج {{therapeutic}} مو {{prophylactic}}"
+  ],
+  "rule": "الـ{{PPROM}} ما يغير توقيت الـ{{antibiotic}}: {{60 min}} قبل الشق"
+ }
+}

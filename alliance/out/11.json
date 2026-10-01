@@ -1,0 +1,758 @@
+{
+ "A251": {
+  "idea": [
+   "سيدة {{28 years old with a known ovarian cyst}} وتبي {{contraception}}",
+   "فالجواب {{combined OCP}} لأنها تثبّط {{ovulation}}"
+  ],
+  "clues": [
+   [
+    "لأن {{known ovarian cyst}}",
+    "يعني نبي طريقة تمنع {{ovulation}} وما تحفّز الكيس"
+   ],
+   [
+    "بس {{no contraindication to estrogen}} مذكور",
+    "يعني {{COC}} آمن لها"
+   ]
+  ],
+  "why": [
+   "الـ{{OCP}} يثبّط {{ovulation}} فيقلل {{functional ovarian cysts}}",
+   "فـ هي طريقة {{effective}} وتعالج الكيس بنفس الوقت"
+  ],
+  "wrong": {
+   "1": "الـ{{progestin-only pill}} ما يثبّط {{ovulation}} دايماً فممكن {{functional cyst}} يتكوّن",
+   "2": "الـ{{vaginal ring}} هرمونية بس {{COC}} الحبوب هي الأقرب للجواب المطلوب",
+   "3": "الـ{{male condom}} حاجز فقط ما له تأثير على {{ovulation}} ولا الكيس"
+  },
+  "change": [
+   "لو {{smoker over 35 or migraine with aura}} ما نعطي {{estrogen}}",
+   "لو ما تبي {{hormones}} نستخدم {{condom}} أو {{copper IUD}}"
+  ],
+  "rule": "الـ{{ovarian cyst}} مع طلب {{contraception}} يعني {{OCP}}"
+ },
+ "A252": {
+  "idea": [
+   "سيدة عندها {{ovarian cyst or tumor (stem unclear)}} وتبي {{contraception}}",
+   "فالجواب {{OCP}}"
+  ],
+  "clues": [
+   [
+    "لأن {{cyst/tumor}} مكتوب بعلامات استفهام",
+    "يعني الصياغة غير واضحة بس الجواب {{OCP}}"
+   ],
+   [
+    "بس الخيارات {{condom, ring, OCP, progesterone}}",
+    "يعني {{OCP}} الأنسب لأنها تمنع {{ovulation}}"
+   ]
+  ],
+  "why": [
+   "الـ{{OCP}} يثبّط {{ovulation}} ويقلل {{functional ovarian cysts}}",
+   "فـ هي الأنسب مع طلب {{contraception}}"
+  ],
+  "wrong": {
+   "0": "الـ{{condom}} حاجز فقط ما يعالج ولا يمنع تكوّن الكيس",
+   "1": "الـ{{vaginal ring}} هرمونية بس الجواب المطلوب {{OCP}}",
+   "3": "الـ{{progesterone}} لحاله ما يثبّط {{ovulation}} بشكل ثابت"
+  },
+  "change": [
+   "لو {{hormone-sensitive tumor}} ما نعطي {{estrogen}}",
+   "لو {{functional cyst}} صغير نكتفي بـ{{OCP}} و{{follow-up}}"
+  ],
+  "rule": "الـ{{ovarian cyst}} مع {{contraception}} يعني {{OCP}}",
+  "note": "الـ{{stem}} غير واضح (علامات استفهام عند نوع الورم) فـ الجواب المعطى {{OCP}} محفوظ، وإذا كان الورم {{malignant or hormone-sensitive}} يتغير القرار."
+ },
+ "A253": {
+  "idea": [
+   "سيدة {{45 years, TAH + BSO for benign reason}} وعندها {{acute vasomotor symptoms}}",
+   "فنحتاج {{hormone replacement therapy}} والجواب حسب المصدر {{cyclical estrogen and progesterone}}"
+  ],
+  "clues": [
+   [
+    "لأن {{BSO}} يعني {{surgical menopause}}",
+    "يعني أعراض حادة ونحتاج {{HRT}}"
+   ],
+   [
+    "بس {{TAH}} مذكور",
+    "يعني ما عندها رحم فعادة {{estrogen only}} كافي"
+   ]
+  ],
+  "why": [
+   "الجواب المعطى {{cyclical estrogen + progesterone}}",
+   "بس حسب الـ{{guidelines}} بدون رحم ما نحتاج {{progesterone}} إلا لو {{endometriosis history}}"
+  ],
+  "wrong": {
+   "0": "الـ{{transdermal estrogen only}} هو الأقرب للـ{{guidelines}} بعد {{hysterectomy}} بس الجواب المعطى غيره",
+   "1": "الـ{{LNG-IUD}} للحماية من {{endometrial hyperplasia}} وما يعالج {{vasomotor symptoms}}",
+   "3": "الـ{{continuous combined}} للي عندها رحم ومو تبي نزيف"
+  },
+  "change": [
+   "لو {{intact uterus}} نعطي {{estrogen + progestogen}}",
+   "لو {{history of endometriosis}} نضيف {{progestogen}}"
+  ],
+  "rule": "بعد {{TAH}} نعطي {{estrogen alone}} وما نضيف {{progesterone}}",
+  "note": "الجواب المعطى {{C}} يتعارض مع الـ{{guidelines}} لأن المريضة بدون رحم، فـ الأصح {{estrogen only (A)}} إلا لو {{endometriosis}}؛ نحتفظ بالجواب المعطى."
+ },
+ "A254": {
+  "idea": [
+   "سؤال عن {{mechanism of action of emergency contraception}}",
+   "فالجواب {{prevent or delay ovulation}}"
+  ],
+  "clues": [
+   [
+    "لأن {{levonorgestrel or ulipristal}}",
+    "يعني يأخّرون {{LH surge}} و{{ovulation}}"
+   ],
+   [
+    "بس {{no effect on an existing implantation}}",
+    "يعني ما هي {{abortifacient}}"
+   ]
+  ],
+  "why": [
+   "الـ{{emergency contraception}} يعمل أساساً بـ{{inhibition or delay of ovulation}}",
+   "فـ الجواب {{prevent ovulation}}"
+  ],
+  "wrong": {
+   "0": "الـ{{implantation}} ما يمنعه الـ{{EC}} الهرموني الدليل ضعيف",
+   "1": "الـ{{fertilization}} مو الآلية الأساسية",
+   "3": "الـ{{delays fertilization}} صياغة غير دقيقة بس الآلية هي تأخير {{ovulation}}"
+  },
+  "change": [
+   "لو {{copper IUD}} فآلية الـ{{EC}} {{toxic to sperm and ovum}}",
+   "لو بعد {{ovulation}} الـ{{pill}} ما ينفع"
+  ],
+  "rule": "الـ{{emergency contraceptive pill}} يعني {{prevent ovulation}}"
+ },
+ "A255": {
+  "idea": [
+   "سيدة {{23 years, azithromycin 1 g for chlamydia}} وبدأت {{contraception}}",
+   "فالجواب حسب المصدر {{OCP}} بس الحقيقة {{no significant interaction}}"
+  ],
+  "clues": [
+   [
+    "لأن {{antibiotic and contraception}}",
+    "يعني الفكرة المشهورة تأثير على {{OCP}}"
+   ],
+   [
+    "بس {{azithromycin}} ما يحفّز {{CYP450}}",
+    "يعني ما فيه تأثير فعلي"
+   ]
+  ],
+  "why": [
+   "المصدر يقول {{cytochrome interaction}} فيتأثر الـ{{OCP}}",
+   "بس فعلياً الـ{{azithromycin}} ما له تأثير يذكر وفقط {{rifampicin}} يقلل فعالية {{OCP}}"
+  ],
+  "wrong": {
+   "0": "الـ{{barrier}} ما يتأثر بأي دواء",
+   "1": "الـ{{IUCD}} ما يتأثر بالمضادات الحيوية",
+   "2": "الـ{{POP}} أيضاً ما يتأثر بـ{{azithromycin}} وهو أقرب للتأثر بالـ{{enzyme inducers}}"
+  },
+  "change": [
+   "لو {{rifampicin}} فعلاً تقل فعالية {{OCP}}",
+   "لو {{vomiting or diarrhea}} نستخدم {{backup method}}"
+  ],
+  "rule": "الـ{{broad-spectrum antibiotics}} ما تقلل {{OCP}} إلا {{rifampicin}}",
+  "note": "الجواب المعطى {{OCP}} محفوظ، بس المصدر نفسه يعترف أن {{azithromycin}} ما له تفاعل حقيقي؛ المقصود سؤال حفظ."
+ },
+ "A256": {
+  "idea": [
+   "سيدة {{22 years, 6 weeks postpartum, exclusively breastfeeding}}",
+   "وتبي {{no pregnancy for 2 years}} فالجواب {{Depo-Provera}}"
+  ],
+  "clues": [
+   [
+    "لأن {{exclusive breastfeeding at 6 weeks}}",
+    "يعني نتجنب {{estrogen}} لأنه يقلل {{milk supply}}"
+   ],
+   [
+    "بس تبي {{2 years}} فصل",
+    "يعني {{long-acting progestin: depot}}"
+   ]
+  ],
+  "why": [
+   "الـ{{DMPA}} {{progestin only}} ما يؤثر على {{lactation}}",
+   "ويعطي حماية {{3 months}} لكل حقنة وملائم لفترة {{2 years}}"
+  ],
+  "wrong": {
+   "1": "الـ{{transdermal patch}} فيها {{estrogen}} وتقلل {{milk supply}}",
+   "2": "الـ{{combined oral pill}} فيها {{estrogen}} ومو الأفضل مع {{breastfeeding}}",
+   "3": "الـ{{vaginal ring}} فيها {{estrogen}} ما نفضّلها مع الرضاعة"
+  },
+  "change": [
+   "لو {{no breastfeeding and > 6 weeks postpartum}} ممكن {{combined methods}}",
+   "لو تبي فصل أطول نعرض {{implant or IUD}}"
+  ],
+  "rule": "الرضاعة مع حاجة {{contraception}} يعني {{progestin only}}"
+ },
+ "A257": {
+  "idea": [
+   "سيدة {{28 years, 2 weeks postpartum, exclusively breastfeeding}}",
+   "فالجواب حسب المصدر {{combined OCP}} بس فيه إشكال"
+  ],
+  "clues": [
+   [
+    "لأن {{2 weeks postpartum}}",
+    "يعني {{estrogen}} غير مناسب وخطر {{VTE}} ويقلل {{milk}}"
+   ],
+   [
+    "بس {{image page}} ما أقدر أشوفه",
+    "يعني ما نخترع محتواه"
+   ]
+  ],
+  "why": [
+   "الجواب المعطى {{C}} والمصدر يقول {{OCPs are allowed 4 weeks postpartum}}",
+   "بس الأصح في الواقع {{progestin only or IUD}} في هالفترة"
+  ],
+  "wrong": {
+   "0": "الـ{{progesterone-only pill}} آمنة مع الرضاعة وهي أقرب للـ{{guidelines}} بس الجواب المعطى غيرها",
+   "1": "الـ{{DMPA}} ممكن بعد الولادة وما تأثر على الرضاعة",
+   "3": "الـ{{IUCD}} ممكن {{within 48 hours}} أو بعد {{4 weeks}} وفي {{2 weeks}} خطر {{expulsion}}"
+  },
+  "change": [
+   "لو {{> 6 weeks}} و{{not breastfeeding}} ممكن {{COC}}",
+   "لو {{< 21 days postpartum}} {{COC}} {{MEC category 4}}"
+  ],
+  "rule": "بعد الولادة بـ{{2 weeks}} مع رضاعة نتجنب {{estrogen}}",
+  "note": "الجواب المعطى {{C}} يتعارض مع الـ{{guidelines}} لأن {{COC}} ممنوعة قبل {{21 days postpartum}}؛ نحتفظ بالجواب المعطى، والصفحة فيها صورة لا نعرف محتواها."
+ },
+ "A258": {
+  "idea": [
+   "سيدة {{20 years nulliparous}} تبي {{contraception}} وعندها {{menorrhagia + dysmenorrhea}}",
+   "فالجواب {{combined OCP}}"
+  ],
+  "clues": [
+   [
+    "لأن {{menorrhagia}}",
+    "يعني {{OCP}} أفضل من {{NSAIDs}}"
+   ],
+   [
+    "بس {{dysmenorrhea}} و{{needs contraception}}",
+    "يعني {{OCP}} يغطي الثلاثة"
+   ]
+  ],
+  "why": [
+   "الـ{{COC}} يمنع الحمل ويقلل {{menstrual blood loss}} و{{dysmenorrhea}}",
+   "فـ هو الخيار الوحيد اللي يغطي كل الشكاوى"
+  ],
+  "wrong": {
+   "0": "الـ{{POP}} يسبب {{irregular bleeding}} وما يعالج {{menorrhagia}} بشكل جيد",
+   "1": "الـ{{Depo-Provera}} يسبب {{irregular bleeding}} وما نبدأ فيه لمريضة بهالأعراض",
+   "3": "الـ{{NSAIDs}} تعالج الأعراض بس {{not contraception}}"
+  },
+  "change": [
+   "لو {{no need for contraception}} و{{dysmenorrhea only}} {{NSAIDs}} أول خيار",
+   "لو {{estrogen contraindicated}} نستخدم {{LNG-IUD}}"
+  ],
+  "rule": "الـ{{menorrhagia}} مع {{contraception}} يعني {{COC}}"
+ },
+ "A259": {
+  "idea": [
+   "سيدة {{30 years with endometriosis, failed NSAIDs}}",
+   "فالجواب {{oral progestin therapy (dienogest)}}"
+  ],
+  "clues": [
+   [
+    "لأن {{failed NSAIDs}}",
+    "يعني ننتقل لـ{{hormonal therapy}}"
+   ],
+   [
+    "بس المصدر {{Visanne}}",
+    "يعني {{dienogest}} أقوى من {{OCP}} وقريب من {{GnRH}}"
+   ]
+  ],
+  "why": [
+   "الـ{{dienogest}} {{progestin}} يثبّط {{endometriotic lesions}} ويخفف الألم",
+   "وحسب المصدر هو أقوى من {{OCP}} فـ هو الخيار التالي"
+  ],
+  "wrong": {
+   "0": "الـ{{OCP}} خيار مقبول بس حسب المصدر الـ{{progestin}} أقوى",
+   "2": "الـ{{laparoscopic fulguration}} جراحة تأتي بعد فشل {{medical therapy}}",
+   "3": "الـ{{hysterectomy + BSO}} للحالات الشديدة وبدون رغبة في الإنجاب"
+  },
+  "change": [
+   "لو {{failed hormonal therapy}} نفكر في {{laparoscopic surgery}}",
+   "لو {{desires fertility}} نتجنب كبت الـ{{ovulation}} طويلاً"
+  ],
+  "rule": "الـ{{endometriosis}} بعد {{NSAIDs}} يعني {{progestin}}",
+  "note": "الجواب المعطى {{B}} مؤكد حسب المصدر، وفي الـ{{guidelines}} الـ{{OCP}} و{{progestin}} كلاهما {{first-line}}؛ الصفحة فيها صورة لا نعرف محتواها."
+ },
+ "A260": {
+  "idea": [
+   "سيدة {{55 years, menopausal for 3 years on conjugated estrogen}} وعندها {{on-off vaginal bleeding}}",
+   "فالجواب {{add progesterone}}"
+  ],
+  "clues": [
+   [
+    "لأن {{unopposed estrogen}}",
+    "يعني خطر {{endometrial hyperplasia}} ونزيف"
+   ],
+   [
+    "بس {{no previous surgery}}",
+    "يعني الرحم موجود ونحتاج {{progestogen}}"
+   ]
+  ],
+  "why": [
+   "الـ{{estrogen}} بدون {{progesterone}} يحفّز {{endometrium}} فيسبب {{bleeding}} و{{hyperplasia}}",
+   "فنضيف {{progestogen}} ونتأكد بـ{{endometrial assessment}} لو استمر"
+  ],
+  "wrong": {
+   "1": "الـ{{stop estrogen}} يترك أعراض سن اليأس بدون حل وما يعالج السبب",
+   "2": "الـ{{OCP}} ما يناسب سن {{55}} ولا هو بديل لـ{{HRT}}",
+   "3": "الـ{{IUCD}} ما هو علاج مباشر هنا، والـ{{LNG-IUD}} فقط ممكن كحماية"
+  },
+  "change": [
+   "لو {{bleeding persists after adding progestogen}} نسوي {{endometrial biopsy}}",
+   "لو {{hysterectomy}} سابقاً ما نحتاج {{progesterone}}"
+  ],
+  "rule": "الـ{{estrogen}} مع رحم موجود يعني نضيف {{progesterone}}"
+ },
+ "A261": {
+  "idea": [
+   "سؤال {{most effective reversible contraception}} من الخيارات",
+   "فالجواب {{vaginal ring}}"
+  ],
+  "clues": [
+   [
+    "لأن {{vaginal ring}} هرمونية",
+    "يعني فعاليتها أعلى من الحواجز"
+   ],
+   [
+    "بس {{condoms and spermicide}}",
+    "يعني {{barrier or chemical}} فعاليتها أقل"
+   ]
+  ],
+  "why": [
+   "الـ{{vaginal ring}} {{hormonal}} تمنع {{ovulation}} وفعاليتها أعلى بـ{{typical use}}",
+   "والخيارات الأخرى {{barrier / spermicide}} أقل فعالية"
+  ],
+  "wrong": {
+   "1": "الـ{{female condom}} {{typical failure}} حوالي {{21%}} أعلى بكثير",
+   "2": "الـ{{male condom}} {{typical failure}} أعلى من الـ{{ring}}",
+   "3": "الـ{{spermicide}} من أضعف الطرق"
+  },
+  "change": [
+   "لو فيه {{IUD or implant}} بالخيارات فهي الأعلى فعالية",
+   "لو {{perfect use}} الفرق بين الطرق يقل"
+  ],
+  "rule": "الـ{{hormonal}} أفضل من {{barrier}} من ناحية الفعالية"
+ },
+ "A262": {
+  "idea": [
+   "بنت {{16 years, post cruciate hymenectomy for imperforate hymen}}",
+   "فالجواب {{topical estrogen cream for 2 weeks}}"
+  ],
+  "clues": [
+   [
+    "لأن {{post hymen repair}}",
+    "يعني نمنع {{adhesions / re-stenosis}} ونساعد التئام الأنسجة"
+   ],
+   [
+    "بس {{asymptomatic}} و{{normal recovery}}",
+    "يعني ما نحتاج {{antibiotic or GnRH}}"
+   ]
+  ],
+  "why": [
+   "الـ{{topical estrogen}} يسرّع الشفاء ويقلل {{re-stenosis}} حسب المصدر",
+   "فـ هو الخيار بعد {{hymenectomy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{antibiotic}} ما له داعي بدون {{infection}}",
+   "1": "الـ{{OCP for 6 months}} ما له دور بعد إصلاح {{hymen}}",
+   "3": "الـ{{GnRH agonist}} لـ{{endometriosis}} وما يستعمل هنا"
+  },
+  "change": [
+   "لو {{signs of infection}} نعطي {{antibiotic}}",
+   "لو {{recurrent obstruction}} نعيد {{evaluation}}"
+  ],
+  "rule": "بعد {{hymen repair}} يعني {{topical estrogen}}"
+ },
+ "A263": {
+  "idea": [
+   "سيدة {{53 years, LMP 18 months ago}} وعندها {{dyspareunia}}",
+   "فالجواب {{conjugated estrogen cream}}"
+  ],
+  "clues": [
+   [
+    "لأن {{postmenopausal dyspareunia}}",
+    "يعني {{vaginal atrophy}} (genitourinary syndrome)"
+   ],
+   [
+    "بس العرض {{local only}}",
+    "يعني نعطي {{topical estrogen}} مو {{systemic}}"
+   ]
+  ],
+  "why": [
+   "الـ{{vaginal estrogen}} يعالج {{atrophy}} بأقل {{systemic absorption}}",
+   "وأفضل من {{systemic HRT}} اللي نخصصه لـ{{severe vasomotor symptoms}}"
+  ],
+  "wrong": {
+   "0": "الـ{{Depo-Provera}} ما يعالج {{vaginal atrophy}} وممكن يزيدها",
+   "1": "الـ{{OCP}} ما يناسب سن اليأس ولا يعالج العرض",
+   "2": "الـ{{oral conjugated estrogen}} {{systemic}} وغير ضروري لعرض موضعي"
+  },
+  "change": [
+   "لو {{severe vasomotor symptoms}} نفكر في {{systemic HRT}}",
+   "لو {{non-hormonal}} مفضل نعطي {{lubricants / moisturizers}}"
+  ],
+  "rule": "الـ{{postmenopausal dyspareunia}} يعني {{topical estrogen}}"
+ },
+ "A264": {
+  "idea": [
+   "بنت {{18 years, irregular cycles, high BMI}} والـ{{blood tests requested}} بدون نتائج",
+   "فالجواب {{lifestyle modification and exercise}}"
+  ],
+  "clues": [
+   [
+    "لأن {{high BMI}}",
+    "يعني احتمال {{PCOS}} ونبدأ بـ{{weight loss}}"
+   ],
+   [
+    "بس {{no results available}}",
+    "يعني ما نبدأ علاج دوائي"
+   ]
+  ],
+  "why": [
+   "الـ{{lifestyle modification}} هو {{first-line}} في {{PCOS / obesity-related irregular cycles}}",
+   "ونستنى {{results}} قبل الأدوية"
+  ],
+  "wrong": {
+   "0": "الـ{{OCP}} ما نبدأه قبل ما نعرف {{diagnosis}} ونعدل {{lifestyle}}",
+   "1": "الـ{{reassurance}} غير مناسب لأن {{BMI high}} مع {{irregular cycles}} يحتاج تدخل"
+  },
+  "change": [
+   "لو {{PCOS confirmed}} وما تبي حمل ممكن {{OCP}} بعد {{lifestyle}}",
+   "لو {{results abnormal}} نعالج السبب"
+  ],
+  "rule": "الـ{{obese}} مع {{irregular cycles}} يعني نبدأ بـ{{lifestyle}}",
+  "note": "الـ{{stem}} ناقص (التحاليل بدون نتائج)، فـ الجواب المعطى {{C}} محفوظ كأول خطوة."
+ },
+ "A265": {
+  "idea": [
+   "سيدة {{asymptomatic with 5x5 cm serosal fibroid}} وقلقانة على {{fertility}}",
+   "فالجواب {{conservative}}"
+  ],
+  "clues": [
+   [
+    "لأن {{serosal fibroid}}",
+    "يعني ارتباطه بـ{{infertility}} ضعيف بعكس {{submucosal}}"
+   ],
+   [
+    "بس {{asymptomatic}}",
+    "يعني ما فيه داعي لتدخل"
+   ]
+  ],
+  "why": [
+   "الـ{{serosal fibroids}} ما تشوّه {{endometrial cavity}} فتأثيرها على {{fertility}} قليل",
+   "فـ {{expectant management}} هو المناسب"
+  ],
+  "wrong": {
+   "1": "الـ{{myomectomy}} غير مبرر بدون {{symptoms}} وفيه مخاطر {{adhesions}}",
+   "2": "الـ{{OCP}} ما يصغّر {{fibroid}} ولا يحسن {{fertility}}",
+   "3": "الـ{{UAE}} يقلل {{fertility}} وغير مناسب لسيدة تبي حمل"
+  },
+  "change": [
+   "لو {{submucosal fibroid}} مع {{infertility}} نفكر في {{hysteroscopic myomectomy}}",
+   "لو {{symptomatic}} نعالج حسب الأعراض"
+  ],
+  "rule": "الـ{{asymptomatic serosal fibroid}} يعني {{conservative}}",
+  "note": "الجواب {{A}} {{Probably Confirmed}} حسب المصدر."
+ },
+ "A266": {
+  "idea": [
+   "سيدة {{subserosal fibroid 2 cm, asymptomatic}} وقلقانة على {{pregnancy}}",
+   "فالجواب {{reassurance}}"
+  ],
+  "clues": [
+   [
+    "لأن {{subserosal 2 cm}}",
+    "يعني صغير وما يشوّه {{cavity}}"
+   ],
+   [
+    "بس {{asymptomatic}}",
+    "يعني ما نحتاج جراحة"
+   ]
+  ],
+  "why": [
+   "الـ{{small subserosal fibroid}} ما يأثر عادة على {{pregnancy}}",
+   "فـ نطمّنها ونتابع"
+  ],
+  "wrong": {
+   "1": "الـ{{myomectomy}} غير مبرر لـ{{asymptomatic fibroid}} صغير"
+  },
+  "change": [
+   "لو {{submucosal or cavity distortion}} نفكر في {{surgery}}",
+   "لو {{rapid growth}} نعمل {{evaluation}}"
+  ],
+  "rule": "الـ{{asymptomatic fibroid}} يعني {{reassurance}}"
+ },
+ "A267": {
+  "idea": [
+   "سيدة {{42 years}} عندها {{pelvic pressure, bloating, prolonged heavy bleeding}} و{{fibroid on US}}",
+   "فالجواب {{submucosal fibroid}}"
+  ],
+  "clues": [
+   [
+    "لأن {{heavy prolonged menstrual bleeding}}",
+    "يعني {{submucosal}} هو النوع المسبب للنزيف"
+   ],
+   [
+    "بس {{no lower limb edema}}",
+    "يعني ما فيه ضغط على {{venous return}} فمو {{cervical or parasitic}}"
+   ]
+  ],
+  "why": [
+   "الـ{{submucosal fibroid}} يزيد {{endometrial surface}} فيسبب {{menorrhagia}}",
+   "وهو أكثر نوع يسبب {{abnormal uterine bleeding}}"
+  ],
+  "wrong": {
+   "0": "الـ{{cervical fibroid}} يسبب {{pressure symptoms / obstruction}} أكثر من النزيف",
+   "1": "الـ{{parasitic fibroid}} نادر وما يسبب نزيف غزير",
+   "2": "الـ{{subserosal}} يسبب {{pressure}} وغالباً ما يسبب {{menorrhagia}}"
+  },
+  "change": [
+   "لو {{pressure symptoms only}} فالأقرب {{subserosal}}",
+   "لو {{lower limb edema}} فـ {{large cervical or broad ligament fibroid}}"
+  ],
+  "rule": "الـ{{fibroid}} مع {{menorrhagia}} يعني {{submucosal}}",
+  "note": "الـ{{stem}} يشير لتقرير غير ظاهر؛ الجواب المعطى {{D}} محفوظ."
+ },
+ "A268": {
+  "idea": [
+   "سيدة {{38 years, 10 cm anterior wall fibroid, menorrhagia}} و{{distorted endometrium}}",
+   "ورفضت {{hysterectomy}} فالجواب {{UAE}}"
+  ],
+  "clues": [
+   [
+    "لأن {{declined hysterectomy}}",
+    "يعني نحتاج بديل {{non-hysterectomy}}"
+   ],
+   [
+    "بس {{large symptomatic fibroid}}",
+    "يعني {{medical or observation}} ما يكفي"
+   ]
+  ],
+  "why": [
+   "الـ{{UAE}} بديل للجراحة لمن ترفض {{surgery}}",
+   "والمصدر يقول الـ{{gold}} هو {{myomectomy}} لكن ما هو خيار"
+  ],
+  "wrong": {
+   "0": "الـ{{observation}} غير مناسب لأن {{symptomatic and large}}",
+   "1": "الـ{{oral progesterone}} ما يصغّر {{fibroid}} بشكل فعال",
+   "3": "الـ{{NSAIDs}} ما تعالج {{large fibroid}}"
+  },
+  "change": [
+   "لو {{desires fertility}} نفضل {{myomectomy}}",
+   "لو {{small submucosal}} نفكر في {{hysteroscopic resection}}"
+  ],
+  "rule": "الـ{{symptomatic fibroid}} مع رفض {{surgery}} يعني {{UAE}}"
+ },
+ "A269": {
+  "idea": [
+   "سيدة {{38 years}} مجدولة لـ{{myomectomy}} وتبي دواء {{before surgery}} يصغّر الـ{{fibroid}}",
+   "فالجواب {{GnRH}}"
+  ],
+  "clues": [
+   [
+    "لأن {{shrink before surgery}}",
+    "يعني {{GnRH agonist}} {{short term}}"
+   ],
+   [
+    "بس {{OCP / IUD / progesterone}}",
+    "يعني ما تصغّر {{fibroid}} كفاية"
+   ]
+  ],
+  "why": [
+   "الـ{{GnRH agonist}} يسبب {{hypoestrogenic state}} فيقل حجم {{fibroid}} و{{blood loss}}",
+   "نستخدمه {{3-6 months}} قبل الجراحة ومو للعلاج الطويل"
+  ],
+  "wrong": {
+   "1": "الـ{{combined pills}} تتحكم بالنزيف وما تصغّر {{fibroid}}",
+   "2": "الـ{{IUCD}} يقلل {{bleeding}} فقط ما يصغّر {{fibroid}}",
+   "3": "الـ{{oral progesterone}} ما يصغّر {{fibroid}} بشكل ثابت"
+  },
+  "change": [
+   "لو {{long term}} الـ{{GnRH}} يسبب {{bone loss}} فما نستخدمه",
+   "لو {{ulipristal}} متاح ممكن {{short course}}"
+  ],
+  "rule": "الـ{{pre-op fibroid shrinkage}} يعني {{GnRH agonist}}"
+ },
+ "A270": {
+  "idea": [
+   "سيدة {{24 years}} فيها {{incidental 3x2 cm subserosal fibroid}} و{{regular cycles}}",
+   "فالجواب {{reassure and follow-up}}"
+  ],
+  "clues": [
+   [
+    "لأن {{incidental}} و{{asymptomatic}}",
+    "يعني ما نحتاج علاج"
+   ],
+   [
+    "بس {{small subserosal}}",
+    "يعني {{observe}} بغض النظر عن {{size or age}}"
+   ]
+  ],
+  "why": [
+   "الـ{{asymptomatic fibroid}} نراقبه فقط",
+   "والمصدر يقول {{observe regardless of size and age}}"
+  ],
+  "wrong": {
+   "0": "الـ{{myomectomy}} غير مبرر بدون {{symptoms}}",
+   "2": "الـ{{OCP}} ما له داعي لأنه ما فيه {{symptoms}}",
+   "3": "الـ{{UAE}} غير مبرر وفيه مخاطر {{fertility}}"
+  },
+  "change": [
+   "لو {{symptoms develop}} نعالج حسب الأعراض",
+   "لو {{rapid growth}} نفكر في {{sarcoma}} ونتابع {{imaging}}"
+  ],
+  "rule": "الـ{{asymptomatic fibroid}} يعني {{observe}}"
+ },
+ "A271": {
+  "idea": [
+   "سيدة {{32 years, single, menorrhagia, 4x4 cm serosal fibroid}}",
+   "فالجواب {{NSAIDs}}"
+  ],
+  "clues": [
+   [
+    "لأن {{menorrhagia}} بدون فشل علاج",
+    "يعني نبدأ بـ{{medical therapy}}"
+   ],
+   [
+    "بس {{serosal fibroid}}",
+    "يعني ما يشوّه {{cavity}} فمو سبب مؤكد للنزيف"
+   ]
+  ],
+  "why": [
+   "الـ{{medical}} أول خطوة {{(OCP > NSAIDs)}} ثم الجراحة لو فشل",
+   "وما نسوي {{management}} غير مستطب"
+  ],
+  "wrong": {
+   "0": "الـ{{myomectomy}} جراحة ما نبدأ بها قبل {{medical treatment}}",
+   "1": "الـ{{hysterectomy}} مبالغ فيها لسيدة {{single 32 years}}",
+   "2": "الـ{{UAE}} لمن ترفض الجراحة وفشل العلاج"
+  },
+  "change": [
+   "لو {{OCP}} موجود بالخيارات فهو أفضل من {{NSAIDs}}",
+   "لو {{failed medical therapy}} نفكر في {{myomectomy}}"
+  ],
+  "rule": "الـ{{menorrhagia}} مع {{fibroid}} صغير يعني {{medical first}}"
+ },
+ "A272": {
+  "idea": [
+   "نفس السيدة {{32 years, menorrhagia, 3x3 cm serosal fibroid}}",
+   "فالجواب {{NSAIDs}}"
+  ],
+  "clues": [
+   [
+    "لأن {{small serosal fibroid}}",
+    "يعني ما نبدأ بالجراحة"
+   ],
+   [
+    "بس {{menorrhagia}}",
+    "يعني نبدأ بـ{{medical treatment}}"
+   ]
+  ],
+  "why": [
+   "الـ{{medical therapy}} أول خطوة قبل {{surgery}}",
+   "فـ {{NSAIDs}} هي الخيار المتاح بين الخيارات"
+  ],
+  "wrong": {
+   "0": "الـ{{myomectomy}} غير مبرر قبل {{medical therapy}}",
+   "1": "الـ{{hysterectomy}} غير مناسبة لسيدة {{single}} صغيرة",
+   "2": "الـ{{UAE}} لمن ترفض {{surgery}}"
+  },
+  "change": [
+   "لو {{OCP}} متاح فهو الأفضل",
+   "لو {{medical therapy fails}} نفكر في {{myomectomy}}"
+  ],
+  "rule": "الـ{{menorrhagia}} مع {{small fibroid}} يعني {{medical}} أولاً"
+ },
+ "A273": {
+  "idea": [
+   "نفس السؤال {{32 years, menorrhagia, 3x3 cm serosal fibroid}} بس خيار {{NSAIDs}} غير موجود",
+   "فالجواب {{myomectomy}} بالاستبعاد"
+  ],
+  "clues": [
+   [
+    "لأن {{menorrhagia}}",
+    "يعني ما نطمّن المريضة ({{no reassurance}})"
+   ],
+   [
+    "بس {{hysterectomy and UAE}}",
+    "يعني {{hysterectomy}} مبالغ و{{UAE}} لمن ترفض الجراحة"
+   ]
+  ],
+  "why": [
+   "الجواب {{myomectomy}} لأنه أفضل خيار متاح بالاستبعاد",
+   "والمصدر يقول {{hysterectomy}} غلط و{{UAE}} مو {{standard of care}}"
+  ],
+  "wrong": {
+   "1": "الـ{{hysterectomy}} لـ{{symptomatic fibroid}} عند من اكتمل إنجابها",
+   "2": "الـ{{UAE}} لمن ترفض {{surgery}} ومو {{standard of care}}",
+   "3": "الـ{{reassurance}} غير مناسب لسيدة عندها {{menorrhagia}}"
+  },
+  "change": [
+   "لو {{NSAIDs or OCP}} متاحة نبدأ بها",
+   "لو {{asymptomatic}} نراقب فقط"
+  ],
+  "rule": "الـ{{symptomatic fibroid}} بدون خيار طبي يعني {{myomectomy}}",
+  "note": "نفس {{stem}} الأسئلة السابقة لكن الجواب {{myomectomy}} لأن خيار {{medical}} غير موجود؛ الأصح عملياً {{medical therapy first}}، والجواب المعطى محفوظ."
+ },
+ "A274": {
+  "idea": [
+   "سيدة {{60 years}} عندها {{postmenopausal bleeding for 3 months}} و{{5 cm fibroid unchanged for 5 years}}",
+   "فالجواب {{obtain an endometrial sample}}"
+  ],
+  "clues": [
+   [
+    "لأن {{postmenopausal bleeding}}",
+    "يعني نستبعد {{endometrial cancer}} أولاً"
+   ],
+   [
+    "بس {{fibroid same size for 5 years}}",
+    "يعني ما هو السبب فيه {{new process}}"
+   ]
+  ],
+  "why": [
+   "الـ{{fibroid}} ثابت من سنين فما يفسر أعراض جديدة",
+   "فـ نأخذ {{endometrial sample}} لاستبعاد {{malignancy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{myomectomy}} ما له داعي ولا يعالج السبب",
+   "1": "الـ{{hysterectomy}} قبل {{tissue diagnosis}} سابق لأوانه",
+   "2": "الـ{{UAE}} غير مناسب لـ{{postmenopausal bleeding}}"
+  },
+  "change": [
+   "لو {{endometrial thickness < 4 mm}} على {{TVUS}} ممكن نكتفي",
+   "لو {{biopsy shows cancer}} نسوي {{hysterectomy staging}}"
+  ],
+  "rule": "الـ{{postmenopausal bleeding}} يعني {{endometrial sampling}} أولاً"
+ },
+ "A275": {
+  "idea": [
+   "سيدة {{51 years P6+2}} عندها {{pelvic pressure, heavy bleeding, 7x8 cm submucous fibroid}}",
+   "فالجواب {{hysterectomy}}"
+  ],
+  "clues": [
+   [
+    "لأن {{symptomatic and large}}",
+    "يعني نحتاج علاج نهائي"
+   ],
+   [
+    "بس {{P6+2 and perimenopausal age}}",
+    "يعني اكتمل الإنجاب فـ {{hysterectomy}} مناسبة"
+   ]
+  ],
+  "why": [
+   "الـ{{hysterectomy}} علاج نهائي لـ{{symptomatic fibroid}} عند سن اليأس واكتمال الإنجاب",
+   "والمصدر يقول {{symptomatic post-menopausal fibroid = hysterectomy}}"
+  ],
+  "wrong": {
+   "0": "الـ{{myomectomy}} للي تبي تحافظ على {{fertility}} وهنا اكتمل الإنجاب",
+   "2": "الـ{{endometrial ablation}} ما ينفع مع {{large submucosal fibroid}}",
+   "3": "الـ{{progesterone therapy}} ما يعالج {{7-8 cm fibroid}}"
+  },
+  "change": [
+   "لو {{desires fertility}} نفضل {{myomectomy}}",
+   "لو {{refuses surgery}} نفكر في {{UAE}}"
+  ],
+  "rule": "الـ{{symptomatic fibroid}} مع اكتمال الإنجاب يعني {{hysterectomy}}"
+ }
+}

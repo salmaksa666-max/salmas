@@ -1,0 +1,754 @@
+{
+ "A101": {
+  "idea": [
+   "سيدة {{primigravida}} عندها {{PPH > 700 cc after vaginal delivery}} ولا استجابت {{medical treatment}}",
+   "وتبغى {{future pregnancies}} فـ نبغى جراحة {{fertility-sparing}}"
+  ],
+  "clues": [
+   [
+    "لأن {{bleeding not responding to uterotonics}}",
+    "يعني نروح لـ {{surgical management}}"
+   ],
+   [
+    "لو {{desires future fertility}}",
+    "يعني نتجنب {{hysterectomy}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{ligation of the internal iliac artery}} لأنه يقلل {{pelvic perfusion pressure}} ويحافظ على {{uterus}}",
+   "بس فيه {{collateral circulation}} فـ ما يأثر على {{future fertility}}"
+  ],
+  "wrong": {
+   "0": "لأن {{utero-ovarian ligament}} مو {{vascular pedicle}} نربطه لوقف {{PPH}}",
+   "1": "لأن {{external iliac artery}} يغذي {{lower limb}} وربطه يسبب {{limb ischemia}}",
+   "3": "لأن ربط {{internal iliac vein}} ما يوقف {{arterial bleeding}} وخطير"
+  },
+  "change": [
+   "لو ما تبغى {{future pregnancies}} وفشلت كل الطرق فـ {{hysterectomy}}",
+   "لو {{vaginal delivery}} وما فيه جراحة قبلها فـ نبدأ بـ {{Bakri balloon}}"
+  ],
+  "rule": "الـ {{PPH}} الجراحي مع حفظ الرحم يعني {{vessel ligation}} مثل {{internal iliac artery}}",
+  "note": "الـ{{Bank answer kept}}؛ في الـ{{approach}} الأول عادة {{balloon tamponade}} ثم {{ligation}}، بس الخيارات هنا ما فيها {{balloon}}."
+ },
+ "A102": {
+  "idea": [
+   "الـ{{PPH after spontaneous vaginal delivery}} و{{uterotonics failed}}",
+   "والسؤال عن أول خطوة {{SURGICAL}}"
+  ],
+  "clues": [
+   [
+    "لأن {{vaginal delivery}}",
+    "يعني {{Bakri balloon}} أول شيء"
+   ],
+   [
+    "لو {{uterotonics failed}}",
+    "يعني ندخل {{second-line}} للـ{{atony}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{balloon tamponade}} لأنه أول {{surgical modality}} بعد {{vaginal delivery}} حسب الـ{{approach}}",
+   "يعني بعدها {{uterine artery ligation}} لو {{unstable}} أو {{angio-embolization}} لو {{stable}}"
+  ],
+  "wrong": {
+   "0": "لأن {{hysterectomy}} آخر حل ونروح له لو فشل كل شيء",
+   "2": "لأن {{uterine artery embolization}} بعد {{balloon}} ولو المريضة {{stable}}",
+   "3": "لأن الخيار ناقص وما نعتمد عليه"
+  },
+  "change": [
+   "لو {{C-section}} فـ {{B-Lynch suture}} أول",
+   "لو {{unstable}} بعد {{balloon}} فـ {{uterine artery ligation}}"
+  ],
+  "rule": "الـ{{vaginal delivery PPH}} الجراحي الأول يعني {{Bakri balloon}}",
+  "note": "الـ{{Probably Confirmed}}؛ الخيار D ناقص (نسيان الطالب)."
+ },
+ "A103": {
+  "idea": [
+   "الـ{{PPH}} بعد {{normal vaginal delivery}} عمر {{38}}",
+   "جربنا {{oxytocin}} و{{bimanual massage}} وما نفع، والسؤال {{next step}}"
+  ],
+  "clues": [
+   [
+    "لأن {{no vital instability mentioned}}",
+    "يعني {{ligation}} مفضل على {{angio}}"
+   ],
+   [
+    "لو {{Bakri balloon}} مو موجود",
+    "يعني ننزل للخيار اللي بعده في الـ{{approach}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{uterine artery ligation}} لأن الـ{{balloon}} مو بالخيارات وما ذكر {{stable}}",
+   "فـ نختار {{ligation}} قبل {{angio-embolization}} لأنها أسرع وأتاح"
+  ],
+  "wrong": {
+   "0": "لأن {{B-Lynch}} للـ{{C-section}} مو {{vaginal delivery}}",
+   "1": "لأن {{hysterectomy}} آخر حل",
+   "3": "لأن {{angio-embolization}} يحتاج {{stable patient}} وتوفر {{interventional radiology}}"
+  },
+  "change": [
+   "لو {{Bakri balloon}} موجود فـ نبدأ فيه",
+   "لو المريضة {{stable}} و{{IR}} متوفر فـ {{angio-embolization}}"
+  ],
+  "rule": "الـ{{PPH}} بعد {{vaginal delivery}} يعني {{balloon}} ثم {{ligation}} لو {{unstable}} وما فيه {{balloon}}",
+  "note": "الـ{{Bank answer kept}}؛ الأصل {{medical therapy}} كامل ثم {{Bakri balloon}} قبل الجراحة."
+ },
+ "A104": {
+  "idea": [
+   "حامل {{41 weeks}} متابعة {{every 2 weeks}} بـ{{CTG}}",
+   "والـ{{CTG}} فيه {{deceleration}}"
+  ],
+  "clues": [
+   [
+    "لأن {{41 weeks}} وما فوق",
+    "يعني {{induction}} أو {{delivery}}"
+   ],
+   [
+    "لو {{CTG with decelerations}}",
+    "يعني {{non-reassuring}} فـ ما نأجل"
+   ]
+  ],
+  "why": [
+   "الجواب {{delivery}} لأن أي حامل {{41 weeks}} أو أكثر تستحق {{induction}}",
+   "وزيادة {{deceleration}} على {{CTG}} تعني ما نتأخر"
+  ],
+  "wrong": {
+   "0": "لأن {{BPP}} يضيع وقت وهي أصلاً {{indicated for delivery}}",
+   "1": "لأن {{AFI}} ما يغير القرار",
+   "3": "لأن {{follow up after 1 week}} خطر مع {{abnormal CTG}}"
+  },
+  "change": [
+   "لو {{CTG reactive}} وهي رافضة {{induction}} فـ {{fetal monitoring till 42 weeks}}",
+   "لو {{fetal distress severe}} فـ {{C-section}} حسب الحالة"
+  ],
+  "rule": "الـ{{41 weeks}} فما فوق يعني {{induction of labor}}"
+ },
+ "A105": {
+  "idea": [
+   "الـ{{G2P1}} عمر {{30}} حامل {{41 weeks}} بـ{{confirmed dating}}",
+   "الـ{{CTG}} فيه {{deceleration}} و{{no labor}}"
+  ],
+  "clues": [
+   [
+    "لأن {{41 weeks confirmed by early scan}}",
+    "يعني {{post-term}} ونوصل {{delivery}}"
+   ],
+   [
+    "لو {{CTG deceleration}}",
+    "يعني ما نكرر ونتأخر"
+   ]
+  ],
+  "why": [
+   "الجواب {{delivery}} لأن {{41 weeks}} فوق عليها {{abnormal CTG}}",
+   "فـ ما ننتظر {{daily CTG}} أو {{extra imaging}}"
+  ],
+  "wrong": {
+   "1": "لأن {{daily CTG}} تأجيل مو لازم مع {{decelerations}}",
+   "2": "لأن {{BPP}} ما يغير القرار هنا",
+   "3": "لأن {{AFI}} ما يغير القرار هنا"
+  },
+  "change": [
+   "لو {{CTG normal}} فـ {{induction at 41 weeks}} أيضاً",
+   "لو {{variable decelerations severe}} فـ {{C-section}}"
+  ],
+  "rule": "الـ{{41 weeks + abnormal CTG}} يعني {{deliver}}"
+ },
+ "A106": {
+  "idea": [
+   "الـ{{42 weeks with firm dates}}",
+   "الـ{{head fixed}} و{{cervix favorable}}"
+  ],
+  "clues": [
+   [
+    "لأن {{42 weeks}}",
+    "يعني {{post-term}} فـ {{induction}}"
+   ],
+   [
+    "لو {{favorable cervix}}",
+    "يعني {{induction}} ينجح ومافي حاجة لـ{{CS}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{induction of labor}} لأن {{post-term}} والـ{{cervix favorable}} والـ{{head engaged}}",
+   "فـ {{vaginal delivery}} متوقع"
+  ],
+  "wrong": {
+   "0": "لأن {{CTG}} مراقبة فقط ومو علاج للـ{{post-term}}",
+   "1": "لأن {{cesarean}} ما فيه {{indication}} هنا",
+   "3": "لأن {{BPP}} مو بديل عن {{delivery}}"
+  },
+  "change": [
+   "لو {{cervix unfavorable}} فـ {{cervical ripening}} أولاً",
+   "لو {{CTG abnormal}} فـ {{expedite delivery}}"
+  ],
+  "rule": "الـ{{post-term}} يعني {{induction}} إلا لو {{obstetric indication for CS}}"
+ },
+ "A107": {
+  "idea": [
+   "الـ{{G3P2 at 41 weeks}} بدون {{contractions}} و{{cervix thick closed}}",
+   "الـ{{CTG reassuring}}: {{baseline 130, accelerations, good variability}}"
+  ],
+  "clues": [
+   [
+    "لأن {{41 weeks}}",
+    "يعني {{induction}}"
+   ],
+   [
+    "لو {{CTG reassuring}}",
+    "يعني ما فيه {{emergency}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{induction of labor}} لأن {{41 weeks}} فما فوق يستحق {{induction}}",
+   "حتى مع {{reassuring CTG}} و{{unfavorable cervix}} نستعمل {{ripening}}"
+  ],
+  "wrong": {
+   "1": "لأن {{augmentation}} لمن عندها {{labor}} أصلاً وهي ما فيها",
+   "2": "لأن {{CTG}} طبيعي فـ ما فيه {{indication for CS}}",
+   "3": "لأن {{reassess in 7 days}} يوصلنا {{42 weeks}} بدون داعي"
+  },
+  "change": [
+   "لو رفضت {{induction}} فـ {{fetal monitoring}} لين {{42 weeks}}",
+   "لو {{CTG pathological}} فـ {{expedited delivery}}"
+  ],
+  "rule": "الـ{{41 weeks}} يعني {{induction}} حتى لو {{CTG}} طبيعي"
+ },
+ "A108": {
+  "idea": [
+   "الـ{{41 weeks}} عمر {{20}} وتبغى {{spontaneous delivery}}",
+   "وتخاف من {{bleeding}} فـ ترفض تدخل"
+  ],
+  "clues": [
+   [
+    "لأن {{refuses induction}}",
+    "يعني بديل مقبول {{fetal monitoring}}"
+   ],
+   [
+    "لو {{41 weeks}}",
+    "يعني الأصل {{induction}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{fetal monitoring}} لأنها ما تبغى {{induction}} والمراقبة بديل مقبول لين {{42 weeks}}",
+   "فـ نتابع {{CTG}} و{{AFI}}"
+  ],
+  "wrong": {
+   "0": "لأن {{induction after 1 week}} يوصلها {{42 weeks}} وهي أصلاً ترفضه",
+   "1": "لأن {{discharge}} بدون مراقبة غير آمن",
+   "3": "لأن {{CS}} بدون {{indication}} غير مناسب"
+  },
+  "change": [
+   "لو قبلت {{induction}} فـ {{IOL}} بـ{{41 weeks}} هو الأفضل",
+   "لو ظهر {{abnormal CTG}} فـ {{delivery}}"
+  ],
+  "rule": "الـ{{41 weeks}} يعني {{induction}} وإذا رفضت فـ {{monitoring}}",
+  "note": "الأصل {{induction}}؛ هنا السؤال يحدد {{patient preference}}."
+ },
+ "A109": {
+  "idea": [
+   "الـ{{primigravida 37 weeks}} و{{BP 160/100}}",
+   "الـ{{fundal height 35}} و{{absent end diastolic flow}}"
+  ],
+  "clues": [
+   [
+    "لأن {{absent EDV}}",
+    "يعني {{severe placental insufficiency}}"
+   ],
+   [
+    "لو {{BP 160/100}}",
+    "يعني {{severe pre-eclampsia}} بس مو سبب {{CS}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{C-section}} بسبب {{absent EDV}} مو بسبب {{severe HTN}}",
+   "لأن {{absent or reversed EDV}} يعني {{CS}} و{{decreased EDV}} يعني {{vaginal}}"
+  ],
+  "wrong": {
+   "0": "لأن {{amniotomy}} يوجه {{labor}} بس ما يناسب {{absent EDV}}",
+   "1": "لأن {{IOL}} يتعب الجنين مع {{absent EDV}}"
+  },
+  "change": [
+   "لو {{reduced EDV}} فقط فـ {{IOL}}",
+   "لو {{severe pre-eclampsia}} بدون {{Doppler abnormality}} فـ {{induction}}"
+  ],
+  "rule": "الـ{{absent EDV at term}} يعني {{C-section}}"
+ },
+ "A110": {
+  "idea": [
+   "حامل {{28 weeks}} (أو {{30}}) و{{absent end diastolic flow}}",
+   "والسؤال عن أنسب خطوة"
+  ],
+  "clues": [
+   [
+    "لأن {{GA below 30}}",
+    "يعني ما نستعجل {{CS}}"
+   ],
+   [
+    "لو {{absent EDV}}",
+    "يعني {{steroids}} و{{close surveillance}} لين {{30-32 weeks}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{observation and steroid}} لأن {{RCOG}} تقول نولد {{absent/reversed EDV}} عند {{30-32 weeks}}",
+   "فـ نعطي {{antenatal steroids}} ونراقب لين الموعد"
+  ],
+  "wrong": {
+   "0": "لأن {{urgent CS}} بدون موعد وهي {{preterm}} فيه ضرر",
+   "2": "لأن {{induction}} ما يناسب جنين {{compromised}} بعمر صغير",
+   "3": "لأن {{MgSO4}} للـ{{neuroprotection}} أو {{pre-eclampsia}} مو هنا"
+  },
+  "change": [
+   "لو وصلت {{30-32 weeks}} فـ {{CS}}",
+   "لو ظهر {{abnormal CTG}} فـ {{immediate delivery}}"
+  ],
+  "rule": "الـ{{absent EDV}} قبل {{30 weeks}} يعني {{steroids + observation}} ثم {{delivery}}",
+  "note": "الـ{{Probably Confirmed}}؛ الـ{{UTD}} يقول {{32-34 weeks}} للـ{{absent EDV}}."
+ },
+ "A111": {
+  "idea": [
+   "الـ{{primigravida 38}} عمر {{33 weeks}} و{{SGA}}",
+   "الـ{{reversed end-diastolic flow}} على {{umbilical artery Doppler}}"
+  ],
+  "clues": [
+   [
+    "لأن {{reversed EDV}}",
+    "يعني {{severe fetal compromise}}"
+   ],
+   [
+    "لو {{33 weeks}}",
+    "يعني {{steroids}} ثم {{delivery}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{antenatal steroids and delivery within 1 week}} لأن {{reversed EDV}} تحتاج {{delivery at 30-32 weeks}}",
+   "وهي {{33 weeks}} فـ ما نأجل طويل"
+  ],
+  "wrong": {
+   "0": "لأن {{repeat Doppler in 1 week}} تأخير لحالة {{reversed EDV}}",
+   "1": "لأن {{immediate CS}} بدون {{steroids}} يضر الرئة",
+   "3": "لأن {{repeat growth scan in 2 weeks}} غير كافي"
+  },
+  "change": [
+   "لو {{abnormal CTG}} فـ {{immediate CS}}",
+   "لو {{GA < 30}} فـ {{steroid + observe}} لين {{30-32}}"
+  ],
+  "rule": "الـ{{reversed EDV}} يعني {{steroids}} وولادة خلال {{1 week}}",
+  "note": "سؤال {{Gameboy recall}}؛ حسب الـ{{bank}} يحفظ كما هو."
+ },
+ "A112": {
+  "idea": [
+   "الـ{{primigravida 37 weeks}} و{{fundal height 35}}",
+   "الـ{{soft cervix, 1 cm}} و{{absent end diastolic flow}}"
+  ],
+  "clues": [
+   [
+    "لأن {{absent EDV}}",
+    "يعني {{CS}}"
+   ],
+   [
+    "لو {{fundal height < GA}}",
+    "يعني {{IUGR}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{C-section}} لأن {{absent EDV}} في {{37 weeks}} ما نقدر نتحمل {{labor}}",
+   "فـ نولد بسرعة بدون {{induction}}"
+  ],
+  "wrong": {
+   "0": "لأن {{amniotomy}} ما يعالج {{absent EDV}}",
+   "1": "لأن {{IOL}} يزيد {{fetal distress}}"
+  },
+  "change": [
+   "لو {{reduced EDV}} فقط فـ {{IOL}}",
+   "لو {{preterm < 30}} فـ {{steroids + observe}}"
+  ],
+  "rule": "الـ{{absent EDV at term}} يعني {{C-section}}"
+ },
+ "A113": {
+  "idea": [
+   "الـ{{37 weeks}} و{{fundal height 35}}",
+   "الـ{{absent EDV}} على {{umbilical artery Doppler}}"
+  ],
+  "clues": [
+   [
+    "لأن {{absent EDV}}",
+    "يعني {{immediate delivery by CS}}"
+   ],
+   [
+    "لو {{term}}",
+    "يعني ما فيه حاجة {{steroids}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{immediate delivery by caesarean section}} لأن {{absent EDV}} علامة {{severe compromise}}",
+   "وما نرتاح لـ{{induction}} أو {{repeat Doppler}}"
+  ],
+  "wrong": {
+   "0": "لأن {{induction}} غير آمن مع {{absent EDV}}",
+   "2": "لأن {{repeat Doppler in 1 week}} تأخير خطر"
+  },
+  "change": [
+   "لو {{reduced EDV}} فـ {{induction}}",
+   "لو {{GA < 30}} فـ {{steroids + observation}}"
+  ],
+  "rule": "الـ{{absent EDV at 37 weeks}} يعني {{CS}}"
+ },
+ "A114": {
+  "idea": [
+   "الـ{{38 weeks}} و{{fundal height 35}}",
+   "الـ{{absent end-diastolic flow}}"
+  ],
+  "clues": [
+   [
+    "لأن {{absent EDV at 38 weeks}}",
+    "يعني {{delivery}} الآن"
+   ],
+   [
+    "لو {{term}}",
+    "يعني ما نكرر {{Doppler}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{immediate delivery by CS}} حسب الـ{{bank}} لأن {{absent EDV}} يمنع {{labor}}",
+   "فـ نختار {{CS}} مو {{induction}}"
+  ],
+  "wrong": {
+   "0": "لأن {{induction}} يناسب {{reduced EDV}} مو {{absent EDV}}",
+   "2": "لأن {{repeat Doppler in 1 week}} تأخير"
+  },
+  "change": [
+   "لو {{reduced EDV}} فـ {{induction}}",
+   "لو {{GA 30-34}} فـ {{steroids}} ثم {{delivery}}"
+  ],
+  "rule": "الـ{{absent EDV at term}} يعني {{CS}}",
+  "note": "الجواب في الـ{{bank}} محل شك (B مقابل A)؛ الجواب B محفوظ."
+ },
+ "A115": {
+  "idea": [
+   "سؤال {{labor}} مع {{reversed end-diastolic flow}}",
+   "والخيار الوحيد {{CS + one dose dexamethasone}}"
+  ],
+  "clues": [
+   [
+    "لأن {{reversed EDV}}",
+    "يعني {{delivery by CS}}"
+   ],
+   [
+    "لو {{CS}} موجود",
+    "يعني ما نأخر عشان {{steroid}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{CS + one dose dexamethasone}} لأن {{reversed EDV}} يحتاج {{CS}}",
+   "ولا نأخر {{indicated delivery}} عشان {{steroid}}"
+  ],
+  "wrong": {},
+  "change": [
+   "لو {{GA below 30}} فـ {{steroid + observe}} لين {{30-32 weeks}} ثم {{CS}}",
+   "لو ما فيه إلا {{CS}} فقط فـ نختاره"
+  ],
+  "rule": "الـ{{reversed EDV}} يعني {{CS}} ولا نأخر لأجل {{steroid}}",
+  "note": "السؤال ناقص ولا نعرف الـ{{GA}}؛ الجواب A محفوظ."
+ },
+ "A116": {
+  "idea": [
+   "الـ{{GA 35}} مع {{decreased fetal movement}}",
+   "الـ{{fundal height 29}} و{{AFI 3}} و{{absent EDV}}"
+  ],
+  "clues": [
+   [
+    "لأن {{actual GA 35}}",
+    "يعني نقرر الولادة على {{GA}} مو {{fundal height}}"
+   ],
+   [
+    "لو {{absent EDV + oligohydramnios}}",
+    "يعني {{CS}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{CS}} لأن {{absent EDV}} و{{AFI 3}} مع {{35 weeks}} تعني {{fetal compromise}}",
+   "وما نخلط {{GA 35}} مع {{fundal height 29}}"
+  ],
+  "wrong": {
+   "0": "لأن {{steroids}} ما تكفي وتأخر الولادة",
+   "2": "لأن {{induction}} غير آمن مع {{absent EDV}}",
+   "3": "لأن {{expectant management}} خطر على الجنين"
+  },
+  "change": [
+   "لو {{GA 28}} فـ {{steroids + observation}}",
+   "لو {{reduced EDV}} فقط فـ {{induction}}"
+  ],
+  "rule": "الـ{{indication for delivery}} نحدده بـ{{actual GA}} مو {{fundal height}}"
+ },
+ "A117": {
+  "idea": [
+   "الـ{{38 weeks}} و{{IUGR}} و{{AFI 3 cm}}",
+   "ومعها {{absent end diastolic flow}}"
+  ],
+  "clues": [
+   [
+    "لأن {{absent EDV}}",
+    "يعني {{urgent CS}}"
+   ],
+   [
+    "لو {{AFI 3}}",
+    "يعني {{oligohydramnios}} و{{fetal compromise}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{urgent cesarean section}} لأن {{absent EDV}} مع {{oligohydramnios}} في {{38 weeks}}",
+   "فـ {{fetal compromise}} واضح"
+  ],
+  "wrong": {
+   "1": "لأن {{observation}} خطر مع {{absent EDV}}",
+   "2": "لأن {{induction}} غير مناسب مع {{absent EDV}}",
+   "3": "لأن {{reassurance}} ما يصلح لحالة {{compromised fetus}}"
+  },
+  "change": [
+   "لو ما فيه {{absent EDV}} فـ {{induction}}",
+   "لو {{GA < 30}} فـ {{steroids + observation}}"
+  ],
+  "rule": "الـ{{absent EDV + oligohydramnios}} في {{term}} يعني {{CS}}",
+  "note": "الـ{{Probably Confirmed}}؛ الصورة {{IMAGE}} ما شفناها."
+ },
+ "A118": {
+  "idea": [
+   "الـ{{primigravida 37 weeks}} و{{BP 160/100}}",
+   "الـ{{fundal height 35}} و{{low fluid}} و{{absent EDV}}"
+  ],
+  "clues": [
+   [
+    "لأن {{absent EDV}}",
+    "يعني {{CS}}"
+   ],
+   [
+    "لو {{BP 160/100}}",
+    "يعني {{severe pre-eclampsia}} بس مو سبب {{CS}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{cesarean section}} بسبب {{absent EDV}} مو بسبب {{severe HTN}}",
+   "و{{low AFV}} يزيد الخطر"
+  ],
+  "wrong": {
+   "0": "لأن {{amniotomy}} غير آمن مع {{oligohydramnios}} و{{absent EDV}}",
+   "1": "لأن {{induction}} يتعب الجنين مع {{absent EDV}}",
+   "3": "لأن {{waiting for labor}} خطر على الجنين"
+  },
+  "change": [
+   "لو {{reduced EDV}} فقط فـ {{IOL}}",
+   "لو {{severe pre-eclampsia}} بدون {{Doppler abnormality}} فـ {{induction}}"
+  ],
+  "rule": "الـ{{absent EDV}} في {{term}} يعني {{CS}}"
+ },
+ "A119": {
+  "idea": [
+   "الـ{{38 weeks}} و{{IUGR}} و{{AFI 3 cm}}",
+   "وما ذكر {{absent or reversed EDV}}"
+  ],
+  "clues": [
+   [
+    "لأن {{no Doppler abnormality}}",
+    "يعني ما فيه {{indication for CS}}"
+   ],
+   [
+    "لو {{AFI ≤ 5}}",
+    "يعني {{oligohydramnios}} فـ نولد بـ{{induction}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{induction of labor}} لأن {{IUGR + oligohydramnios}} في {{38 weeks}} يستحق {{delivery}}",
+   "بس ما فيه {{indication for CS}} إلا لو {{fetal distress}} أو {{absent EDV}}"
+  ],
+  "wrong": {
+   "0": "لأن {{urgent CS}} بدون {{indication}}",
+   "1": "لأن {{observation}} تأجيل لا داعي له",
+   "3": "لأن {{reassurance}} ما يناسب {{oligohydramnios}}"
+  },
+  "change": [
+   "لو {{absent EDV}} فـ {{CS}}",
+   "لو {{fetal distress}} فـ {{CS}}"
+  ],
+  "rule": "الـ{{IUGR + oligohydramnios}} في {{term}} يعني {{IOL}} مو {{CS}}",
+  "note": "الـ{{RCOG}} صورة؛ ما شفناها."
+ },
+ "A120": {
+  "idea": [
+   "الـ{{37 weeks}} و{{BP 160/100}} و{{agitated}}",
+   "الـ{{fundal height low}} يعني {{IUGR}}"
+  ],
+  "clues": [
+   [
+    "لأن {{severe pre-eclampsia}}",
+    "يعني {{delivery at 34 weeks}} بالـ{{induction}}"
+   ],
+   [
+    "لو {{IUGR + pre-eclampsia}}",
+    "يعني ما هو {{indication for CS}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{IOL}} لأن {{severe pre-eclampsia}} وهي أعلى من {{34 weeks}}",
+   "و{{IUGR}} لوحده مو سبب {{CS}}"
+  ],
+  "wrong": {
+   "1": "لأن {{CS}} ما فيه {{indication}} مثل {{absent EDV}}",
+   "2": "لأن {{admit for observation}} فقط لو ما وصل الموعد"
+  },
+  "change": [
+   "لو {{mild pre-eclampsia}} فـ {{delivery at 37 weeks}} بـ{{induction}}",
+   "لو {{absent EDV}} فـ {{CS}}"
+  ],
+  "rule": "الـ{{severe pre-eclampsia}} من {{34 weeks}} يعني {{induction}}",
+  "note": "السؤال ناقص ({{GA}} غير مؤكد)."
+ },
+ "A121": {
+  "idea": [
+   "الـ{{37 weeks}} و{{fundal height 35}} و{{2.2 kg}}",
+   "الـ{{maternal HTN}} و{{reduced fluid}} و{{intact membranes}}"
+  ],
+  "clues": [
+   [
+    "لأن {{37 weeks + HTN + IUGR}}",
+    "يعني {{delivery}}"
+   ],
+   [
+    "لو {{no absent EDV}}",
+    "يعني {{IOL}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{IOL}} لأن {{HTN}} مع {{IUGR}} و{{oligohydramnios}} في {{37 weeks}} تحتاج {{delivery}}",
+   "ومافي {{indication for CS}}"
+  ],
+  "wrong": {
+   "0": "لأن {{amniotomy}} مو مناسب مع {{oligohydramnios}} قبل {{induction}}",
+   "1": "لأن {{CS}} ما فيه {{indication}}",
+   "3": "لأن {{waiting}} خطر مع {{HTN + IUGR}}"
+  },
+  "change": [
+   "لو {{absent EDV}} فـ {{CS}}",
+   "لو {{GA < 37}} و{{mild}} فـ {{observation}}"
+  ],
+  "rule": "الـ{{HTN + IUGR}} في {{term}} يعني {{IOL}}"
+ },
+ "A122": {
+  "idea": [
+   "الـ{{IUGR}} والسؤال عن أفضل مراقبة في {{labor}}"
+  ],
+  "clues": [
+   [
+    "لأن {{IUGR}}",
+    "يعني {{high-risk pregnancy}}"
+   ],
+   [
+    "لو {{labor}}",
+    "يعني {{continuous electronic fetal monitoring}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{continuous electronic fetal monitoring}} لأن {{IUGR}} حمل {{high-risk}}",
+   "و{{fetal compromise}} ممكن يظهر بسرعة"
+  ],
+  "wrong": {
+   "1": "لأن {{intermittent auscultation}} للـ{{low-risk}}",
+   "2": "لأن {{maternal vitals}} ما تراقب الجنين",
+   "3": "لأن {{early recognition of labor abnormalities}} مهم بس مو مراقبة الجنين"
+  },
+  "change": [
+   "لو {{low-risk}} فـ {{intermittent auscultation}} كافي",
+   "لو {{abnormal CTG}} فـ {{expedite delivery}}"
+  ],
+  "rule": "الـ{{IUGR in labor}} يعني {{continuous CTG}}"
+ },
+ "A123": {
+  "idea": [
+   "الـ{{multigravida 38 weeks}} و{{induction for IUGR}}",
+   "والسؤال عن {{intrapartum fetal surveillance}}"
+  ],
+  "clues": [
+   [
+    "لأن {{IUGR}}",
+    "يعني {{high-risk}}"
+   ],
+   [
+    "لو {{induction}}",
+    "يعني {{continuous monitoring}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{continuous fetal monitoring}} لأن {{IUGR}} و{{induction}}",
+   "فـ {{fetal compromise}} متوقع"
+  ],
+  "wrong": {
+   "0": "لأن {{intermittent auscultation}} للـ{{low-risk}}",
+   "1": "لأن {{uterine tone}} ما يراقب الجنين",
+   "2": "لأن {{maternal vitals}} ما تراقب الجنين"
+  },
+  "change": [
+   "لو {{low-risk}} فـ {{intermittent auscultation}}",
+   "لو {{abnormal CTG}} فـ {{expedite delivery}}"
+  ],
+  "rule": "الـ{{IUGR + induction}} يعني {{continuous CTG}}"
+ },
+ "A124": {
+  "idea": [
+   "الـ{{multigravida 38-39 weeks}} و{{HTN on medication}}",
+   "والجنين {{8th percentile}}"
+  ],
+  "clues": [
+   [
+    "لأن {{HTN + small fetus}}",
+    "يعني {{high-risk}}"
+   ],
+   [
+    "لو {{high-risk}}",
+    "يعني {{continuous monitoring}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{continuous fetal monitoring as high-risk}} لأن {{maternal HTN}} و{{borderline small fetus}}",
+   "فـ خطر {{fetal compromise}}"
+  ],
+  "wrong": {
+   "0": "لأن {{intermittent auscultation}} للـ{{low-risk}}",
+   "2": "لأن {{maternal vitals}} ما تراقب الجنين",
+   "3": "لأن {{identifying labor complications}} مهم بس ما يراقب الجنين"
+  },
+  "change": [
+   "لو {{low-risk}} فـ {{intermittent auscultation}}",
+   "لو {{abnormal CTG}} فـ {{expedite delivery}}"
+  ],
+  "rule": "الـ{{maternal HTN + fetal concern}} يعني {{continuous CTG}}"
+ },
+ "A125": {
+  "idea": [
+   "الـ{{G3P2 38 weeks}} و{{controlled HTN on medication}}",
+   "والجنين {{8th percentile}}"
+  ],
+  "clues": [
+   [
+    "لأن {{HTN}}",
+    "يعني {{high-risk pregnancy}}"
+   ],
+   [
+    "لو {{8th percentile}}",
+    "يعني قريب من {{IUGR}}"
+   ]
+  ],
+  "why": [
+   "الجواب {{continuous fetal cardiotocography}} لأن {{high-risk pregnancy}}",
+   "فـ ما نكتفي بـ{{intermittent}}"
+  ],
+  "wrong": {
+   "0": "لأن {{maternal vitals}} ما تراقب الجنين",
+   "1": "لأن {{intermittent auscultation}} للـ{{low-risk}}",
+   "3": "لأن {{early recognition}} مهم بس ما يراقب الجنين"
+  },
+  "change": [
+   "لو {{low-risk}} فـ {{intermittent auscultation}}",
+   "لو {{abnormal CTG}} فـ {{expedite delivery}}"
+  ],
+  "rule": "الـ{{high-risk labor}} يعني {{continuous CTG}}",
+  "note": "الطالب يقول {{8th percentile}} مو {{percent}}؛ الجواب مطابق."
+ }
+}

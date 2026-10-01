@@ -1,0 +1,907 @@
+{
+ "A076": {
+  "idea": [
+   "سيدة {{33 weeks}} مع {{severe abdominal pain + moderate vaginal bleeding}} و{{hypotension}} والنزيف ما وقف",
+   "فهذا {{abruptio placentae with maternal instability}} والحل {{immediate cesarean section}}"
+  ],
+  "clues": [
+   [
+    "لأن {{severe pain + bleeding}}",
+    "يعني {{abruption}}"
+   ],
+   [
+    "و{{hypotensive}}",
+    "يعني {{hemodynamically unstable}} فـ لازم ولادة سريعة"
+   ],
+   [
+    "بس {{CTG reassuring}}",
+    "يعني الجنين لسا تمام لكن الأم هي السبب"
+   ],
+   [
+    "و{{bleeding did not stop}}",
+    "يعني {{ongoing hemorrhage}} ما ينفع ننتظر"
+   ]
+  ],
+  "why": [
+   "لأن {{abruption}} مع {{maternal hypotension}} هو {{indication for immediate delivery}} وحالة الأم ما تتحمل انتظار",
+   "الـ{{vaginal delivery}} ممكن في الـ{{abruption}} المستقرة بس هنا الأم غير مستقرة والنزيف مستمر",
+   "فـ نسوي {{CS}} فورا مع {{resuscitation}} (سوائل ودم) بالتوازي"
+  ],
+  "wrong": {
+   "0": "لأن {{blood transfusion}} داعم وبس، بس لا يوقف السبب، والولادة هي العلاج الحقيقي",
+   "1": "لأن {{induction}} بطيء وما يناسب أم {{hypotensive}} ونزيفها مستمر",
+   "2": "لأن {{dexamethasone}} لـ{{fetal lung maturity}} وما يأخر ولادة مستعجلة"
+  },
+  "change": [
+   "لو {{BP stable and bleeding stopped}} فـ ممكن {{expectant / vaginal delivery}} حسب الحالة",
+   "لو {{fetal death}} والأم مستقرة فـ {{vaginal delivery}} هو الاختيار"
+  ],
+  "rule": "الـ{{abruption + maternal hypotension or fetal distress}} الجواب {{immediate CS}}",
+  "note": "الخيارات C وD مفصولة في الأصل، والجواب المعطى {{immediate CS}} متوافق مع ملاحظة المصدر: {{steroids should not delay indicated delivery}}"
+ },
+ "A077": {
+  "idea": [
+   "سيدة {{31 weeks}} الجنين طبيعي و{{CTG normal}} لكن الأم {{hypotensive 83/5..}} مع {{moderate uterine tenderness}}",
+   "فهذا {{concealed abruption with maternal shock}} والخطوة الأولى {{blood transfusion}}"
+  ],
+  "clues": [
+   [
+    "لأن {{uterine tenderness}}",
+    "يعني {{abruption}}"
+   ],
+   [
+    "و{{maternal hypotension}} بدون نزيف ظاهر",
+    "يعني {{concealed hemorrhage}}"
+   ],
+   [
+    "و{{fetus normal, CTG normal}}",
+    "يعني الأولوية للأم مو للجنين"
+   ],
+   [
+    "بس السؤال {{initial management}}",
+    "يعني {{resuscitation first}}"
+   ]
+  ],
+  "why": [
+   "لأن الأم في {{hemorrhagic shock}} فـ الأولوية {{ABC + IV fluids + blood transfusion}} قبل أي ولادة",
+   "الـ{{CS}} في أم غير مستقرة بدون {{resuscitation}} خطر، فـ نثبت حالتها أول",
+   "وبعدها نقرر {{delivery}} حسب الحالة"
+  ],
+  "wrong": {
+   "1": "لأن {{dexamethasone + immediate CS}} يتجاهل ثبات الأم، والجنين طبيعي فـ ما فيه استعجال يسبق الـ{{resuscitation}}",
+   "2": "لأن {{IOL}} بطيء وما يعالج {{shock}} الأم"
+  },
+  "change": [
+   "لو {{fetal distress on CTG}} فـ {{resuscitation + urgent CS}} بالتوازي",
+   "لو الأم مستقرة فـ ممكن {{vaginal delivery}} بعد 34 اسبوع"
+  ],
+  "rule": "الـ{{unstable mother}} نبدأ {{resuscitation / blood}} قبل أي ولادة",
+  "note": "الجواب {{blood transfusion}} صحيح كخطوة أولى، لكن الخيار B ممكن يكون صحيح لو الجنين في خطر؛ هنا الجنين طبيعي"
+ },
+ "A078": {
+  "idea": [
+   "سيدة مع {{abruptio placentae}} و{{intrauterine fetal death}}، {{cervix 5 cm}} مع {{mild contractions}}",
+   "فهذا {{abruption with IUFD, stable}} والحل {{augmentation of labor}} لـ{{vaginal delivery}}"
+  ],
+  "clues": [
+   [
+    "لأن {{IUFD}}",
+    "يعني ما فيه جنين نستعجل عليه"
+   ],
+   [
+    "و{{cervix 5 cm with contractions}}",
+    "يعني {{labor already established}}"
+   ],
+   [
+    "و{{mild contractions}}",
+    "يعني نقوي الطلق {{augmentation}}"
+   ],
+   [
+    "ما ذكر {{hemodynamic instability}}",
+    "يعني الأم مستقرة فـ ما نحتاج {{CS}}"
+   ]
+  ],
+  "why": [
+   "لأن الجنين ميت فـ {{vaginal delivery}} أسلم للأم وأقل مضاعفات من {{CS}}",
+   "الـ{{CS}} نخليها لو الأم غير مستقرة أو نزيف شديد",
+   "فـ نسوي {{augmentation}} بـ{{oxytocin / amniotomy}} مع مراقبة الأم و{{coagulation}}"
+  ],
+  "wrong": {
+   "0": "لأن {{observation}} بس ممكن يتطور {{DIC}} فـ لازم نسرع الولادة",
+   "1": "لأن {{CS}} مو لازم والجنين ميت والأم مستقرة",
+   "2": "لأن {{instrumental delivery}} ما ينفع والـ{{cervix}} 5 سم بس"
+  },
+  "change": [
+   "لو {{maternal hemodynamic instability}} أو نزيف شديد فـ ممكن {{CS}} وغالبا مع {{resuscitation}}",
+   "لو {{live fetus with distress and station +1 or lower}} فـ ممكن {{instrumental delivery}} حسب المصدر"
+  ],
+  "rule": "الـ{{abruption + IUFD + stable mother}} الجواب {{augmentation / vaginal delivery}}"
+ },
+ "A079": {
+  "idea": [
+   "سيدة {{38 years}} مع {{severe abruption}} و{{IUFD}} و{{DIC}}، {{cervix 6 cm}}",
+   "فـ الجواب {{augmentation of labor}} لأن {{coagulopathy is not an indication for CS}}"
+  ],
+  "clues": [
+   [
+    "لأن {{IUFD}}",
+    "يعني ما فيه استعجال للجنين"
+   ],
+   [
+    "و{{DIC}}",
+    "يعني نصحح {{coagulopathy}} وما نسوي جراحة بدون داعي"
+   ],
+   [
+    "و{{cervix 6 cm}}",
+    "يعني {{active labor}} فـ نقدر نكمل {{vaginal}}"
+   ]
+  ],
+  "why": [
+   "لأن {{DIC}} لوحدها ما تعتبر {{indication for CS}} وجراحة مع {{coagulopathy}} تزيد النزيف",
+   "الأفضل {{vaginal delivery}} مع {{augmentation}} وتصحيح الـ{{coagulopathy}} بالدم و{{FFP / platelets / cryoprecipitate}}",
+   "فـ نسرع الطلق ونراقب الأم"
+  ],
+  "wrong": {
+   "0": "لأن {{observation}} بس يتأخر الطلق ويزيد {{DIC}}",
+   "1": "لأن {{CS}} مو {{indicated}} هنا و{{coagulopathy}} تخلي الجراحة أخطر",
+   "3": "لأن {{hysterectomy}} خيار أخير لنزيف ما ينضبط ما هو أول خطوة"
+  },
+  "change": [
+   "لو {{maternal hemodynamic instability uncontrolled}} فـ ممكن {{CS}} بعد {{resuscitation}}",
+   "لو {{live fetus with fetal distress}} فـ {{CS}} غالبا"
+  ],
+  "rule": "الـ{{abruption + IUFD + DIC}} نصحح الـ{{coagulopathy}} ونسوي {{vaginal delivery}} بدون {{CS}}"
+ },
+ "A080": {
+  "idea": [
+   "سيدة {{35 weeks}} مع {{placenta previa covering internal os}} ونزيف و{{hypotension}} لكن بعد العلاج {{vitally stable and bleeding stopped}}",
+   "فـ نكمل {{expectant management}} ثم {{CS at 37 weeks}}"
+  ],
+  "clues": [
+   [
+    "لأن {{placenta previa covering os}}",
+    "يعني {{vaginal delivery}} ممنوع، دايما {{CS}}"
+   ],
+   [
+    "و{{stable now, bleeding stopped}}",
+    "يعني ما نستعجل {{emergency}}"
+   ],
+   [
+    "و{{CTG normal}}",
+    "يعني الجنين تمام"
+   ],
+   [
+    "و{{35 weeks}}",
+    "يعني ننتظر لين {{36-37 weeks}}"
+   ]
+  ],
+  "why": [
+   "لأن بعد ما استقرت وقف النزيف فـ نتعامل معها كـ{{stable previa}} ونأخر للـ{{36-37 weeks}}",
+   "الـ{{placenta previa}} دايما {{CS}} بغض النظر عن الشدة",
+   "فـ نراقب ونعطي {{steroids}} ثم {{elective CS}}"
+  ],
+  "wrong": {
+   "0": "لأن {{induction}} ممنوعة في {{placenta previa}} الكاملة",
+   "1": "لأن {{emergency CS}} لو {{unstable or ongoing bleeding}} وهي الحين مستقرة",
+   "3": "لأن {{labor}} في {{previa}} ممنوع، لازم {{CS}}"
+  },
+  "change": [
+   "لو {{bleeding recurs with instability}} فـ {{emergency CS}} حتى قبل 37",
+   "لو {{placenta low-lying > 2 cm from os}} فـ ممكن {{vaginal delivery}}"
+  ],
+  "rule": "الـ{{placenta previa}} مستقرة {{expectant}} ثم {{CS at 36-37 weeks}}، وغير مستقرة {{emergency CS}}"
+ },
+ "A081": {
+  "idea": [
+   "سيدة {{35 weeks}} مع {{painless vaginal bleeding}} و{{complete placenta previa}} وهي {{hemodynamically stable and bleeding stopped}}",
+   "فـ الجواب {{wait until 37 weeks then CS}}"
+  ],
+  "clues": [
+   [
+    "لأن {{painless bleeding}}",
+    "يعني {{placenta previa}}"
+   ],
+   [
+    "و{{covering the os}}",
+    "يعني {{CS}} مو {{vaginal}}"
+   ],
+   [
+    "و{{stable, bleeding stopped}}",
+    "يعني ننتظر ما نسوي {{immediate CS}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{complete previa}} ما تنولد {{vaginally}} أبدا",
+   "وطالما مستقرة فـ نأخر لـ{{36-37 weeks}} لنعطي الجنين نضج",
+   "فـ {{elective CS}} عند 37 أسبوع مع {{steroids}} قبلها حسب البروتوكول"
+  ],
+  "wrong": {
+   "0": "لأن {{induction}} ما ينفع مع {{previa}} كاملة",
+   "1": "لأن {{immediate CS}} مو لازم والنزيف وقف والأم مستقرة",
+   "3": "لأن {{spontaneous labor}} في {{complete previa}} يعرضها لنزيف خطير"
+  },
+  "change": [
+   "لو {{heavy recurrent bleeding or instability}} فـ {{immediate CS}}",
+   "لو {{placental edge > 2 cm from os}} فـ {{vaginal delivery}} ممكن"
+  ],
+  "rule": "الـ{{complete previa stable}} نكمل لـ{{37 weeks}} ثم {{CS}}"
+ },
+ "A082": {
+  "idea": [
+   "سيدة {{39 weeks}} مع {{sudden severe abdominal pain + heavy vaginal bleeding}}، {{cervix 4 cm}} و{{BP 90/60}} و{{HR 100-110}}",
+   "فهذا {{abruption with maternal instability}} والجواب {{cesarean section}}"
+  ],
+  "clues": [
+   [
+    "لأن {{sudden severe pain + heavy bleeding}}",
+    "يعني {{abruption}}"
+   ],
+   [
+    "و{{BP 90/60 with tachycardia}}",
+    "يعني بداية {{hemodynamic compromise}}"
+   ],
+   [
+    "و{{heavy bleeding}} مع {{normal CTG}}",
+    "يعني الجنين لسا تمام بس الأم غير مستقرة"
+   ],
+   [
+    "و{{cervix 4 cm}}",
+    "يعني الولادة المهبلية ما راح تكون سريعة"
+   ]
+  ],
+  "why": [
+   "لأن {{abruption}} مع {{hypotension}} هو {{indication for delivery}} والـ{{CS}} أسرع لو الطلق بعيد",
+   "الـ{{amniotomy / oxytocin}} للمستقرة فقط، وهنا النزيف شديد",
+   "فـ {{CS}} مع {{resuscitation}}"
+  ],
+  "wrong": {
+   "0": "لأن {{amniotomy}} للمستقرة وهنا {{unstable}} والطلق بطيء",
+   "1": "لأن {{observation}} خطر مع نزيف شديد و{{hypotension}}",
+   "3": "لأن {{oxytocin}} ما يسرع كفاية والأم غير مستقرة"
+  },
+  "change": [
+   "لو {{BP normal and bleeding mild}} فـ ممكن {{amniotomy + augmentation}}",
+   "لو {{fully dilated}} فـ ممكن {{assisted vaginal delivery}}"
+  ],
+  "rule": "الـ{{abruption + maternal instability}} الجواب {{CS}}",
+  "note": "الجواب {{Probably Confirmed}} حسب المصدر، الـ{{BP 90/60}} مؤكد والـ{{HR}} غير مؤكد. {{90/60}} حدية في الواقع لكن الجواب المعطى {{CS}}"
+ },
+ "A083": {
+  "idea": [
+   "سيدة {{37 weeks}} في طلق {{cervix 4 cm, station +1}} بدأ عندها {{bleeding + tender abdomen}} و{{CTG normal}}",
+   "فهذا {{abruption in stable patient}} والحل {{oxytocin augmentation}} لتسريع {{vaginal delivery}}"
+  ],
+  "clues": [
+   [
+    "لأن {{bleeding + tender abdomen}}",
+    "يعني {{abruption}}"
+   ],
+   [
+    "و{{CTG normal}}",
+    "يعني الجنين تمام فـ مو لازم {{CS}}"
+   ],
+   [
+    "و{{in labor 4 cm}}",
+    "يعني نقدر {{augment}} الطلق"
+   ],
+   [
+    "و{{37 weeks}}",
+    "يعني ≥ 34 فـ نولد"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{abruption}} المستقرة بعد 34 اسبوع تنولد {{vaginally}} بـ{{induction or augmentation}}",
+   "فـ نسرع الولادة بـ{{oxytocin}} ونراقب {{CTG}} والأم",
+   "و{{CS}} نخليها لو صار {{fetal distress or instability}}"
+  ],
+  "wrong": {
+   "1": "لأن {{operative vaginal delivery at +1}} ما يستخدم والـ{{cervix}} لازم يكون {{fully dilated}}",
+   "2": "لأن {{observation}} بس يتأخر وتزيد مضاعفات الـ{{abruption}}",
+   "3": "لأن {{anesthesia}} مو خطوة علاج للـ{{abruption}} بحد ذاتها"
+  },
+  "change": [
+   "لو {{CTG category 2 or 3}} فـ {{CS}} لأن {{oxytocin}} ممنوع",
+   "لو {{GA < 34 weeks}} فـ ممكن {{conservative management}}"
+  ],
+  "rule": "الـ{{stable abruption ≥ 34 weeks}} {{vaginal delivery}} بـ{{oxytocin}}",
+  "note": "المصدر نفسه يقول الاختيار بين {{CS}} و{{oxytocin}} مختلف عليه بدون دليل واضح، والجواب المعطى {{oxytocin}}"
+ },
+ "A084": {
+  "idea": [
+   "سيدة في {{3rd trimester}} مع {{placenta previa}}",
+   "فـ النصيحة {{bed rest and avoid sexual intercourse}}"
+  ],
+  "clues": [
+   [
+    "لأن {{placenta previa}}",
+    "يعني أي تحريك ممكن يسبب {{bleeding}}"
+   ],
+   [
+    "والسؤال {{recommended}}",
+    "يعني {{pelvic rest}} وتجنب الجماع"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{previa}} ممكن تنزف بالجماع أو النشاط الشديد فـ {{pelvic rest}} ونشاط خفيف",
+   "الـ{{digital vaginal exam}} ممنوع لأنه يسبب نزيف غزير",
+   "و{{iron}} مفيد لكن ما هو أهم توصية للـ{{previa}}"
+  ],
+  "wrong": {
+   "0": "لأن {{digital pelvic exam}} ممنوع في {{previa}} لخطر {{massive hemorrhage}}",
+   "1": "لأن {{vigorous exercise}} يزيد خطر {{bleeding}}",
+   "2": "لأن {{iron}} داعم للـ{{anemia}} بس مو الأنسب كتوصية خاصة بالـ{{previa}}"
+  },
+  "change": [
+   "لو {{heavy bleeding}} فـ {{admit and stabilize}}",
+   "لو {{previa resolved on follow-up US}} فـ ممكن {{vaginal delivery}}"
+  ],
+  "rule": "الـ{{placenta previa}} نمنع {{vaginal exam}} والجماع ونوصي {{pelvic rest}}"
+ },
+ "A085": {
+  "idea": [
+   "سيدة {{G4 P3}} ولادة طبيعية بعد {{16 hours of labor}} ثم نزف بعد {{placental delivery}}",
+   "فـ عامل الخطورة هو {{prolonged labor}}"
+  ],
+  "clues": [
+   [
+    "لأن {{16 hours of labor}}",
+    "يعني {{prolonged labor}} يتعب الرحم"
+   ],
+   [
+    "و{{G4 P3}}",
+    "يعني مو {{grand multipara}} (5 فاكثر)"
+   ],
+   [
+    "و{{baby 3000 g}}",
+    "يعني مو {{macrosomia}}"
+   ],
+   [
+    "وما ذكر {{twins}}",
+    "يعني ما فيه {{multiple gestation}}"
+   ]
+  ],
+  "why": [
+   "لأن {{prolonged labor}} يرهق عضلة الرحم فـ يصير {{uterine atony}} ويرتفع {{PPH risk}}",
+   "وبالاستبعاد: {{grand parity}} تبدأ من 5 ولادات، و{{macrosomia}} من 4500 g، و{{multiple gestation}} غير مذكورة",
+   "فـ الباقي {{prolonged labor}}"
+  ],
+  "wrong": {
+   "0": "لأن {{grand parity}} تعني ≥ 5 ولادات وهي {{P3}} فقط",
+   "2": "لأن {{macrosomia}} تبدأ من 4500 g والطفل 3000 g",
+   "3": "لأن ما ذكر {{twins}} في السؤال"
+  },
+  "change": [
+   "لو {{baby 4.6 kg}} فـ {{macrosomia}} يصير عامل خطورة",
+   "لو {{P5 or more}} فـ {{grand multiparity}} يصير عامل خطورة"
+  ],
+  "rule": "الـ{{prolonged labor}} و{{oxytocin use}} و{{chorioamnionitis}} من عوامل {{atony}}"
+ },
+ "A086": {
+  "idea": [
+   "سيدة {{G8 P5126}} مع {{induction by oxytocin + chorioamnionitis}} وبعد الولادة {{large continuous bleeding}}",
+   "فـ السبب الأرجح {{uterine atony}}"
+  ],
+  "clues": [
+   [
+    "لأن {{G8, multipara}}",
+    "يعني {{grand multiparity}} عامل {{atony}}"
+   ],
+   [
+    "و{{oxytocin + prolonged labor}}",
+    "يعني {{uterine fatigue}}"
+   ],
+   [
+    "و{{chorioamnionitis}}",
+    "يعني {{atony risk}}"
+   ],
+   [
+    "و{{continuous bleeding}} بعد الولادة",
+    "يعني {{primary PPH}} غالبا {{atony}}"
+   ]
+  ],
+  "why": [
+   "لأن أي {{primary PPH}} هو {{atony}} إلى أن يظهر دليل على غيره",
+   "وكل العوامل: {{grand multiparity, oxytocin, chorioamnionitis, prolonged labor}} تدعم {{atony}}",
+   "فـ {{atony}} الأرجح"
+  ],
+  "wrong": {
+   "1": "لأن {{accreta}} يسبب {{retained placenta}} وهنا ما فيه دليل",
+   "2": "لأن {{cervical laceration}} بدون {{instrumental delivery}} أو ولادة سريعة غير مرجحة",
+   "3": "لأن {{vaginal laceration}} ما فيه ما يدل عليها وهي أقل شيوعا"
+  },
+  "change": [
+   "لو {{forceps}} فـ {{genital tract trauma}}",
+   "لو {{placenta not delivered}} فـ {{retained placenta / accreta}}"
+  ],
+  "rule": "الـ{{primary PPH}} هو {{uterine atony}} إلى أن يثبت غير ذلك"
+ },
+ "A087": {
+  "idea": [
+   "سيدة {{38 years}} {{low-lying placenta}} ولادة طبيعية وبعد ساعة {{PPH}}",
+   "فـ التشخيص {{uterine atony}}"
+  ],
+  "clues": [
+   [
+    "لأن {{PPH 1 hour post-delivery}}",
+    "يعني {{primary PPH}} وغالبا {{atony}}"
+   ],
+   [
+    "و{{low-lying placenta}}",
+    "يعني موقع المشيمة يزيد {{atony risk}}"
+   ],
+   [
+    "و{{age 38}}",
+    "يعني {{advanced maternal age}} عامل خطورة"
+   ]
+  ],
+  "why": [
+   "لأن أي {{primary PPH}} نعتبره {{atony}} إلى أن يثبت غيره",
+   "و{{placenta previa / low-lying}} تزيد خطر {{atony}} لأن الجزء السفلي ما ينقبض كويس",
+   "فـ ما فيه دليل على {{trauma}} أو {{inversion}} أو {{coagulopathy}}"
+  ],
+  "wrong": {
+   "0": "لأن ما فيه دليل على {{coagulopathy}} مثل نزيف من أماكن ثانية",
+   "2": "لأن {{uterine inversion}} يجي مع {{shock}} وكتلة بالمهبل",
+   "3": "لأن ما فيه ولادة مساعدة أو {{laceration}} مذكورة"
+  },
+  "change": [
+   "لو {{firm uterus with continuous bleeding}} فـ {{genital tract trauma}}",
+   "لو {{bleeding from IV sites}} فـ {{coagulopathy}}"
+  ],
+  "rule": "الـ{{primary PPH}} هو {{atony}} إلى أن يظهر دليل ثاني"
+ },
+ "A088": {
+  "idea": [
+   "نزيف {{1000 cc}} بعد الولادة والـ{{uterus firm}} والأم مستقرة",
+   "فـ مو {{atony}} فـ أشيع سبب بعدها {{genital tract laceration}}"
+  ],
+  "clues": [
+   [
+    "لأن {{uterus firm}}",
+    "يعني مو {{atony}}"
+   ],
+   [
+    "و{{primigravida, uneventful delivery}}",
+    "يعني {{lacerations}} واردة"
+   ],
+   [
+    "و{{stable vitals}}",
+    "يعني ما فيه {{coagulopathy}} واضحة"
+   ],
+   [
+    "والسؤال {{most common cause}}",
+    "يعني ثاني أشيع سبب بعد {{atony}}"
+   ]
+  ],
+  "why": [
+   "لأن {{firm uterus}} يستبعد {{atony}} وهو أشيع سبب",
+   "فـ ثاني أشيع سبب هو {{genital tract trauma / laceration}}",
+   "والـ{{primigravida}} أكثر عرضة لـ{{lacerations}}"
+  ],
+  "wrong": {
+   "0": "لأن {{atony}} يعطي {{soft boggy uterus}} وهنا الرحم قاسي",
+   "1": "لأن {{coagulopathy}} نادرة وما فيه دليل عليها",
+   "3": "لأن {{retained products}} غالبا مع نزيف متأخر أو مشيمة ناقصة"
+  },
+  "change": [
+   "لو {{boggy uterus}} فـ {{atony}}",
+   "لو {{placenta incomplete}} فـ {{retained products}}"
+  ],
+  "rule": "الـ{{firm uterus + PPH}} نفكر {{laceration}} أول"
+ },
+ "A089": {
+  "idea": [
+   "سيدة {{forceps delivery}} لطفل {{3.7 kg}} مع {{laceration of cervix, vagina, perineal body}}",
+   "فـ سبب النزيف {{genital tract trauma}}"
+  ],
+  "clues": [
+   [
+    "لأن {{forceps delivery}}",
+    "يعني {{trauma}} متوقع"
+   ],
+   [
+    "و{{laceration of cervix, vagina, perineum}}",
+    "يعني السبب واضح {{trauma}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{laceration}} مثبتة بالفحص وهي سبب النزيف",
+   "والـ{{forceps}} عامل خطر معروف لـ{{genital tract trauma}}",
+   "فـ ما نحتاج نفكر في غيرها"
+  ],
+  "wrong": {
+   "0": "لأن ما فيه دليل على {{coagulopathy}}",
+   "1": "لأن {{inversion}} يظهر بكتلة ورحم مقلوب وما ذكر",
+   "3": "لأن {{retained placenta}} ما ذكر والـ{{laceration}} ظاهرة"
+  },
+  "change": [
+   "لو {{boggy uterus}} فـ {{atony}}",
+   "لو {{bleeding from puncture sites}} فـ {{coagulopathy}}"
+  ],
+  "rule": "الـ{{forceps / instrumental}} مع {{PPH}} فـ {{genital tract trauma}}"
+ },
+ "A090": {
+  "idea": [
+   "سيدة بعد ولادة طبيعية {{12 days}} جاها {{PPH}}",
+   "فهذا {{secondary PPH}} وأشيع سبب {{retained products of conception}}"
+  ],
+  "clues": [
+   [
+    "لأن {{12 days}}",
+    "يعني {{secondary PPH}} (بعد 24 ساعة)"
+   ],
+   [
+    "و{{normal vaginal delivery}}",
+    "يعني {{RPOC}} أرجح من {{endometritis}}"
+   ]
+  ],
+  "why": [
+   "لأن {{atony}} سبب {{primary PPH}} (خلال 24 ساعة) ما يتشخص بعد 12 يوم",
+   "والـ{{secondary PPH}} أسبابه {{retained products, endometritis, coagulopathy}}",
+   "فـ {{RPOC}} الأنسب"
+  ],
+  "wrong": {
+   "0": "لأن {{atony}} {{primary PPH}} فقط ما تصير بعد 12 يوم"
+  },
+  "change": [
+   "لو {{fever + foul discharge after CS}} فـ {{endometritis}}",
+   "لو {{bleeding within 24 hours}} فـ {{atony}} أول"
+  ],
+  "rule": "الـ{{primary PPH}} {{atony / laceration}} و{{secondary PPH}} {{RPOC / endometritis}}"
+ },
+ "A091": {
+  "idea": [
+   "سيدة بعد {{15 days}} من {{cesarean section}} مع {{persistent vaginal bleeding + fever 38.1}}",
+   "فـ التشخيص {{endometritis}}"
+  ],
+  "clues": [
+   [
+    "لأن {{15 days post-CS}}",
+    "يعني {{secondary PPH}}"
+   ],
+   [
+    "و{{fever}}",
+    "يعني {{infection}}"
+   ],
+   [
+    "و{{persistent bleeding}} مع {{fever}}",
+    "يعني {{endometritis}}"
+   ],
+   [
+    "و{{BP 110/70, HR 85}}",
+    "يعني مستقرة ما فيه {{shock}}"
+   ]
+  ],
+  "why": [
+   "لأن {{CS}} أهم عامل خطر لـ{{endometritis}} والنزيف مع الحمى يدل عليها",
+   "الـ{{RPOC}} نادرة بعد {{CS}} وما تعطي حمى غالبا",
+   "و{{mastitis / wound infection}} ما تفسر النزيف المهبلي"
+  ],
+  "wrong": {
+   "0": "لأن {{mastitis}} علامتها ألم بالثدي وما تسبب نزيف مهبلي",
+   "2": "لأن {{wound infection}} ما تسبب نزيف مهبلي",
+   "3": "لأن {{RPOC}} نادرة بعد {{CS}} والحمى تدل على {{infection}}"
+  },
+  "change": [
+   "لو {{vaginal delivery with no fever}} فـ {{RPOC}} أرجح",
+   "لو {{breast pain + fever}} فـ {{mastitis}}"
+  ],
+  "rule": "الـ{{PPH + fever after CS}} هو {{endometritis}}"
+ },
+ "A092": {
+  "idea": [
+   "سيدة ولدت {{6th baby macrosomia}} فـ {{high risk for PPH}} والـ{{prophylaxis}} المناسب {{oxytocin}}",
+   "فـ الجواب {{oxytocin}}"
+  ],
+  "clues": [
+   [
+    "لأن {{6th delivery}}",
+    "يعني {{grand multipara}} و{{atony risk}}"
+   ],
+   [
+    "و{{macrosomia}}",
+    "يعني {{uterine overdistension}}"
+   ],
+   [
+    "والسؤال {{prophylaxis}}",
+    "يعني {{uterotonic}} الأول"
+   ]
+  ],
+  "why": [
+   "لأن {{oxytocin}} هو أكثر {{uterotonic}} فعالية للوقاية من {{PPH}}",
+   "وهو الأول في {{active management of third stage}}",
+   "والـ{{methylergonovine}} بديل أو علاج ثاني ومعه موانع"
+  ],
+  "wrong": {
+   "1": "لأن {{methylergonovine}} ثاني خط وله موانع مثل {{hypertension}}"
+  },
+  "change": [
+   "لو {{no oxytocin available}} فـ {{misoprostol}} بديل",
+   "لو {{PPH happens}} فـ نعطي {{therapeutic dose oxytocin}} ثم {{second line}}"
+  ],
+  "rule": "الـ{{PPH prophylaxis}} الأول {{oxytocin}}"
+ },
+ "A093": {
+  "idea": [
+   "سيدة {{high gravida para}} مع {{previous PPH}} والسؤال عن الوقاية",
+   "فـ الجواب {{correct anemia, team readiness, active management of third stage}}"
+  ],
+  "clues": [
+   [
+    "لأن {{high parity + previous PPH}}",
+    "يعني {{high risk}}"
+   ],
+   [
+    "والجواب شامل",
+    "يعني نقدم {{multimodal prevention}}"
+   ]
+  ],
+  "why": [
+   "لأن الوقاية تكون بحزمة: {{treat anemia}} و{{team readiness}} و{{AMTSL}}",
+   "الـ{{AMTSL}} لوحده أقل شمولا",
+   "والـ{{anemia}} مو سبب مباشر لـ{{PPH}} لكن تزيد سوء النتائج لو صار"
+  ],
+  "wrong": {
+   "1": "لأن {{AMTSL}} لوحده ناقص ولا يشمل التجهيز وعلاج {{anemia}}",
+   "2": "لأن {{blood products}} ما نعطيها وقاية بدون داع",
+   "3": "لأن {{antibiotics}} ما تمنع {{PPH}}"
+  },
+  "change": [
+   "لو {{placenta previa / accreta}} فـ نجهز {{blood}} و{{multidisciplinary team}}",
+   "لو {{Hb normal}} فـ نكمل بقية الحزمة"
+  ],
+  "rule": "الـ{{PPH risk}} نجهز {{team + treat anemia + AMTSL}}",
+  "note": "المصدر يذكر أن {{anemia}} مو عامل خطر حقيقي لـ{{PPH}} بل ترفع سوء النتائج"
+ },
+ "A094": {
+  "idea": [
+   "سيدة {{G8 P7}} {{36 weeks}} مع {{recurrent PPH requiring transfusion}} وطبية سليمة",
+   "فـ أنسب إجراء وقائي {{active management of third stage of labor}}"
+  ],
+  "clues": [
+   [
+    "لأن {{previous PPH}}",
+    "يعني {{high risk}}"
+   ],
+   [
+    "و{{G8P7}}",
+    "يعني {{grand multipara}}"
+   ],
+   [
+    "والسؤال {{most appropriate preventive measure}}",
+    "يعني {{AMTSL}}"
+   ]
+  ],
+  "why": [
+   "لأن {{AMTSL}} يعني {{oxytocin + controlled cord traction + massage}} يقلل {{PPH}} بوضوح",
+   "والـ{{CS}} ما يقلل {{PPH}} وهو بحد ذاته {{risk factor}} للـ{{atony}}",
+   "والـ{{OR delivery}} و{{crystalloid preload}} ما يمنعون {{PPH}}"
+  ],
+  "wrong": {
+   "0": "لأن الولادة في {{OR}} ما تقلل {{PPH}} وهي مو أساس الوقاية",
+   "1": "لأن {{elective CS}} ما يقلل {{PPH}} وقد يزيدها",
+   "3": "لأن {{crystalloid preload}} ما يمنع {{atony}} ولا يعوض فقد الدم"
+  },
+  "change": [
+   "لو {{previa / accreta}} فـ {{CS}} مع تجهيز {{blood}}",
+   "لو {{anemia}} فـ نصلحها قبل الولادة"
+  ],
+  "rule": "الـ{{high risk for PPH}} نبدأ {{AMTSL}}"
+ },
+ "A095": {
+  "idea": [
+   "سيدة {{asthma}} مع {{PPH}} كبير ما وقف بعد {{oxytocin + massage}}",
+   "فـ الخطوة التالية {{methylergonovine IM}} لأن {{carboprost}} ممنوع في {{asthma}}"
+  ],
+  "clues": [
+   [
+    "لأن {{asthma}}",
+    "يعني نتجنب {{carboprost (PGF2 alpha)}}"
+   ],
+   [
+    "و{{oxytocin + massage failed}}",
+    "يعني ننتقل لـ{{second-line uterotonic}}"
+   ],
+   [
+    "وما ذكر {{hypertension}}",
+    "يعني {{methylergonovine}} ينفع"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{second-line uterotonic}} هو {{methylergonovine}} أو {{carboprost}}",
+   "والـ{{carboprost}} يسبب {{bronchospasm}} فـ ممنوع في {{asthma}}",
+   "والـ{{methylergonovine}} ممنوع في {{HTN / preeclampsia}} وهنا ما ذكر"
+  ],
+  "wrong": {
+   "1": "لأن {{balloon tamponade}} بعد فشل الأدوية، مو بعد {{oxytocin}} مباشرة",
+   "2": "لأن {{carboprost}} ممنوع في {{asthma}} {{bronchospasm}}",
+   "3": "لأن {{hysterectomy}} آخر خيار بعد فشل كل شي"
+  },
+  "change": [
+   "لو {{hypertension / preeclampsia}} فـ نتجنب {{methylergonovine}} ونستخدم {{carboprost}} أو {{misoprostol}}",
+   "لو {{asthma + HTN}} فـ {{misoprostol}} ثم {{balloon}}"
+  ],
+  "rule": "الـ{{asthma}} نتجنب {{carboprost}} والـ{{HTN}} نتجنب {{methylergonovine}}"
+ },
+ "A096": {
+  "idea": [
+   "سيدة {{preeclampsia}} ولدت و{{lax uterus}} مع {{moderate PPH}} بدون {{laceration or RPOC}}",
+   "فـ العلاج {{20 units oxytocin in 500 mL D5W IV}}"
+  ],
+  "clues": [
+   [
+    "لأن {{lax uterus}}",
+    "يعني {{atony}}"
+   ],
+   [
+    "و{{preeclampsia}}",
+    "يعني نتجنب {{ergometrine}}"
+   ],
+   [
+    "و{{no laceration or RPOC}}",
+    "يعني السبب {{atony}} نعالجه بـ{{uterotonic}}"
+   ]
+  ],
+  "why": [
+   "لأن {{first-line treatment of atony}} هو {{oxytocin}} بجرعة علاجية {{20-40 units}}",
+   "والـ{{ergometrine}} ممنوع في {{preeclampsia}} لأنه يرفع الضغط",
+   "والجرعة الوقائية {{~10 units}} ما تكفي للعلاج"
+  ],
+  "wrong": {
+   "0": "لأن {{oral oxytocin}} ما ينفع، ما ينمتص ولا يعطي مفعول",
+   "1": "لأن {{ergometrine}} ممنوع في {{preeclampsia}}",
+   "2": "لأن {{ergometrine}} ممنوع في {{preeclampsia}} و{{0.5 mg IM}} غير مناسبة"
+  },
+  "change": [
+   "لو ما استجابت فـ {{carboprost}} أو {{misoprostol}} ثم {{balloon}}",
+   "لو ما فيه {{HTN}} فـ {{methylergonovine}} خيار ثاني"
+  ],
+  "rule": "الـ{{atony}} أول علاج {{high-dose oxytocin}} ونتجنب {{ergometrine}} في {{preeclampsia}}"
+ },
+ "A097": {
+  "idea": [
+   "سيدة {{primigravida}} ولدت {{4.4 kg}} مع {{boggy uterus}} و{{brisk bleeding}} بعد {{oxytocin 20 units}} و{{BP 164/92}}",
+   "فـ الخطوة التالية {{prostaglandin F2 alpha (carboprost)}}"
+  ],
+  "clues": [
+   [
+    "لأن {{soft boggy fundus}}",
+    "يعني {{atony}}"
+   ],
+   [
+    "و{{oxytocin 20 units already given}}",
+    "يعني ننتقل لـ{{second-line}}"
+   ],
+   [
+    "و{{BP 164/92}}",
+    "يعني {{methylergonovine}} ممنوع"
+   ],
+   [
+    "و{{no asthma}}",
+    "يعني {{carboprost}} ينفع"
+   ]
+  ],
+  "why": [
+   "لأن بعد فشل {{oxytocin}} ننتقل لـ{{PGF2 alpha}} أو {{methylergonovine}}",
+   "والـ{{methylergonovine}} ممنوع في {{HTN}} فـ نختار {{carboprost}}",
+   "وإعادة {{oxytocin 10 units}} ما تفيد بعد جرعة 20"
+  ],
+  "wrong": {
+   "1": "لأن {{methylergonovine}} ممنوع في {{hypertension}}",
+   "2": "لأن {{manual exploration}} للـ{{retained products}} والمشيمة طلعت كاملة",
+   "3": "لأن {{oxytocin 10 units}} جرعة قليلة بعد ما أخذت 20"
+  },
+  "change": [
+   "لو {{asthma}} فـ {{misoprostol}} أو {{balloon}}",
+   "لو {{BP normal}} فـ {{methylergonovine}} خيار"
+  ],
+  "rule": "الـ{{atony + HTN}} بعد {{oxytocin}} نختار {{carboprost}} ونتجنب {{methylergonovine}}",
+  "note": "الجواب المعطى {{PGF2 alpha}}، ومن المصدر {{oxytocin 10 units}} مرفوض لأنها جرعة اقل من المعطاة"
+ },
+ "A098": {
+  "idea": [
+   "سيدة {{asthma}} مع {{PPH}} ما انضبط بـ{{oxytocin + massage}}",
+   "فـ الجواب {{misoprostol}} لأن {{carboprost}} ممنوع في {{asthma}}"
+  ],
+  "clues": [
+   [
+    "لأن {{asthma}}",
+    "يعني {{carboprost}} contraindicated"
+   ],
+   [
+    "و{{oxytocin + massage failed}}",
+    "يعني {{second-line uterotonic}}"
+   ],
+   [
+    "والخيارات",
+    "يعني {{misoprostol}} هو الأدوية المتاحة"
+   ]
+  ],
+  "why": [
+   "لأن ترتيب العلاج: {{oxytocin}} ثم {{methylergonovine or carboprost}} ثم {{misoprostol}}",
+   "والـ{{carboprost}} ممنوع في {{asthma}} فـ نروح لـ{{misoprostol}}",
+   "والـ{{balloon}} و{{hysterectomy}} بعد فشل الأدوية"
+  ],
+  "wrong": {
+   "0": "لأن {{carboprost}} ممنوع في {{asthma}}",
+   "1": "لأن {{tamponade balloon}} بعد الأدوية وليس قبلها",
+   "2": "لأن {{hysterectomy}} آخر خيار"
+  },
+  "change": [
+   "لو ما فيه {{asthma}} فـ {{carboprost}}",
+   "لو فشل {{misoprostol}} فـ {{balloon tamponade}} ثم جراحة"
+  ],
+  "rule": "الـ{{asthma + PPH}} نتجنب {{carboprost}} ونعطي {{misoprostol}}",
+  "note": "الـ{{balloon tamponade}} خيار منطقي في الواقع، لكن الجواب المعطى {{misoprostol}} حسب ترتيب الأدوية في المصدر"
+ },
+ "A099": {
+  "idea": [
+   "سيدة {{abruption}} ثم {{significant uterine bleeding}} و{{bleeding from multiple venipuncture sites}}",
+   "فهذا {{DIC}} والخطوة الأولى {{correct coagulopathy}}"
+  ],
+  "clues": [
+   [
+    "لأن {{abruption}}",
+    "يعني {{DIC risk}}"
+   ],
+   [
+    "و{{bleeding from venipuncture sites}}",
+    "يعني {{coagulopathy}} كلاسيكي"
+   ],
+   [
+    "والسؤال {{best next step}}",
+    "يعني نصحح قبل الجراحة"
+   ]
+  ],
+  "why": [
+   "لأن في أي {{hemorrhage}} مع {{coagulopathy}} نصححها أولا بـ{{FFP, platelets, cryoprecipitate, blood}}",
+   "والجراحة مثل {{B-Lynch}} و{{iliac ligation}} ما تنفع مع {{DIC}} غير مصححة",
+   "فـ التصحيح أولوية"
+  ],
+  "wrong": {
+   "1": "لأن {{internal iliac ligation}} جراحي وما يعالج {{DIC}}",
+   "2": "لأن {{uterine packing}} ما يعالج {{coagulopathy}}",
+   "3": "لأن {{B-Lynch}} للـ{{atony}} وما ينفع بدون تصحيح {{DIC}}"
+  },
+  "change": [
+   "لو {{no coagulopathy}} فـ نفحص {{uterine tone}} ونعالج {{atony}}",
+   "لو {{coagulopathy corrected and bleeding continues}} فـ {{balloon / surgery}}"
+  ],
+  "rule": "الـ{{PPH + coagulopathy}} نصحح الـ{{coagulopathy}} أول"
+ },
+ "A100": {
+  "idea": [
+   "سيدة على {{therapeutic heparin}} لـ{{DVT}} ولدت وبعد حقنة {{heparin}} صار {{PPH}} والـ{{uterus contracted}} بدون {{laceration}}",
+   "فـ العلاج {{protamine sulfate}}"
+  ],
+  "clues": [
+   [
+    "لأن {{heparin injection before PPH}}",
+    "يعني {{anticoagulant-induced bleeding}}"
+   ],
+   [
+    "و{{uterus contracted, no laceration}}",
+    "يعني مو {{atony}} ولا {{trauma}}"
+   ],
+   [
+    "والسؤال {{treatment}}",
+    "يعني {{reverse heparin}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{antidote}} للـ{{heparin}} هو {{protamine sulfate}}",
+   "والـ{{vitamin K}} للـ{{warfarin}} مو {{heparin}}",
+   "فـ نعكس التأثير مباشرة"
+  ],
+  "wrong": {
+   "0": "لأن {{vitamin K}} للـ{{warfarin}} وبطيء",
+   "1": "لأن {{tranexamic acid}} داعم بس ما يعكس {{heparin}}، و{{DVT}} فـ نتحفظ",
+   "3": "لأن {{FFP}} ما يعكس {{heparin}} بفاعلية مثل {{protamine}}"
+  },
+  "change": [
+   "لو {{warfarin}} فـ {{vitamin K + FFP}}",
+   "لو {{atony}} فـ {{uterotonics}}"
+  ],
+  "rule": "الـ{{heparin-related bleeding}} الترياق {{protamine sulfate}}"
+ }
+}

@@ -1,0 +1,736 @@
+{
+ "A226": {
+  "idea": [
+   "سؤال {{ethics}}: الدكتور موافق على {{termination}} بسبب {{chromosomal anomalies}} بس الأب رافض",
+   "فالجواب حسب المصدر {{father's consent prevails}}"
+  ],
+  "clues": [
+   [
+    "لأن الأب {{refused}}",
+    "يعني الرفض هو اللي يمشي حسب المصدر"
+   ],
+   [
+    "لأن القرار {{shared decision}}",
+    "يعني ما يكفي رأي الدكتور لحاله"
+   ]
+  ],
+  "why": [
+   "الـ{{refusal prevails}} حسب ملاحظة المصدر",
+   "لو الأم هي اللي رفضت فـ{{mother's consent prevails}}"
+  ],
+  "wrong": {
+   "0": "لأن {{doctor's consent alone}} ما يكفي والقرار مو للدكتور لحاله",
+   "1": "لأن في هذي الحالة الأم موافقة والأب رافض والمصدر يقدم الرفض",
+   "3": "لأن {{ethics committee}} مو الخطوة الأولى هنا والسؤال يبي من يقرر"
+  },
+  "change": [
+   "لو {{mother refused}} والأب موافق فـ{{mother's consent prevails}}",
+   "لو الاثنين موافقين فـ{{proceed}} حسب النظام"
+  ],
+  "rule": "الـ{{refusal prevails}} في هذا السؤال",
+  "note": "ملاحظة: المصدر نفسه يقول الأفضل {{consent from both parents}}، والجواب المعطى {{C}} يبقى كما هو."
+ },
+ "A227": {
+  "idea": [
+   "بنت {{21 years}} تبي {{contraception}} وترفض {{STD screening}}",
+   "فنعطيها {{counseling}} عن ضرر عدم الفحص ونعطيها الـ{{contraception}}"
+  ],
+  "clues": [
+   [
+    "لأن {{STD screening}} اختياري",
+    "يعني من حقها ترفض"
+   ],
+   [
+    "لأن {{contraception}} حق لها",
+    "يعني ما نربطه بالفحص"
+   ]
+  ],
+  "why": [
+   "الـ{{autonomy}} يعني من حقها ترفض الفحص",
+   "نوضح لها المخاطر ونكمل {{prescription}}"
+  ],
+  "wrong": {
+   "0": "لأن رفض الوصف يخالف {{autonomy}} ويحرمها من حقها",
+   "1": "لأن وصف بدون {{counseling}} عن المخاطر ناقص",
+   "3": "لأن رفض الفحص مو سبب لـ{{reporting to MOH}}"
+  },
+  "change": [
+   "لو كان عندها {{symptoms}} فنفحص ونعالج",
+   "لو {{refused contraception}} نحترم قرارها برضو"
+  ],
+  "rule": "الـ{{informed refusal}} مع إكمال الخدمة المطلوبة"
+ },
+ "A228": {
+  "idea": [
+   "عروس جديدة ما تستخدم {{contraception}} وقلقانة من {{unplanned pregnancy}}",
+   "فالـ{{primary prevention}} هو {{education about contraceptive methods}}"
+  ],
+  "clues": [
+   [
+    "لأن الهدف منع {{unplanned pregnancy}} قبل ما يصير",
+    "يعني {{primary prevention}}"
+   ],
+   [
+    "لأن التثقيف للفرد",
+    "يعني على مستوى {{individual}}"
+   ]
+  ],
+  "why": [
+   "الـ{{primary prevention}} يمنع حدوث المشكلة نفسها",
+   "تثقيفها بطرق {{contraception}} يحقق هذا"
+  ],
+  "wrong": {
+   "0": "لأن {{folic acid}} لحمل جاي يمنع {{neural tube defects}} مو {{unplanned pregnancy}}",
+   "2": "لأن {{sex education in schools}} على مستوى {{community}} وهي وقاية عامة، السؤال عن حالتها هي"
+  },
+  "change": [
+   "لو كانت حامل بالفعل فـ{{antenatal care}}",
+   "لو تبي حمل فـ{{folic acid}} قبل الحمل"
+  ],
+  "rule": "الـ{{contraceptive education}} هو {{primary prevention}} للحمل غير المخطط"
+ },
+ "A229": {
+  "idea": [
+   "حامل عندها ألم بطن، الدكتور طلب {{abdominal X-ray}} ثم اكتشف {{pregnancy}}",
+   "فالمنع هو {{detect pregnancy}} قبل الأشعة"
+  ],
+  "clues": [
+   [
+    "لأن الخطأ صار قبل ما يعرف {{pregnancy status}}",
+    "يعني الحل {{screen for pregnancy first}}"
+   ],
+   [
+    "لأن الأشعة {{ionizing}}",
+    "يعني نتجنبها لو {{pregnant}}"
+   ]
+  ],
+  "why": [
+   "نتأكد من {{pregnancy}} (مثل {{urine pregnancy test}}) قبل أي {{radiation}}",
+   "الخيار {{C}} هو الأقرب لهذا المعنى"
+  ],
+  "wrong": {
+   "0": "لأن {{proceeding}} هو نفس الخطأ",
+   "1": "لأن {{US}} بديل بعد معرفة الحمل بس ما يمنع تكرار الخطأ"
+  },
+  "change": [
+   "لو {{pregnancy}} معروف مسبقا فنختار {{US}} أولا",
+   "لو الحالة طارئة فنوازن {{risk and benefit}}"
+  ],
+  "rule": "الـ{{pregnancy test}} قبل أي {{imaging}} بإشعاع لأي سيدة في سن الإنجاب",
+  "note": "ملاحظة: نص الخيار {{C}} غير واضح وهو {{fetal age}} والمصدر يقول ممكن يكون سؤال {{Medicine}}، الجواب المعطى يبقى كما هو."
+ },
+ "A230": {
+  "idea": [
+   "مريضة عندها أعراض وصاحبتها نصحتها بـ{{Pap smear}} لكشف {{cervical cancer}}",
+   "فهذا {{secondary prevention}}"
+  ],
+  "clues": [
+   [
+    "لأن {{Pap smear}} فحص كشف",
+    "يعني {{screening}} وهو {{secondary prevention}}"
+   ],
+   [
+    "لأن {{HPV vaccine}} هو اللي {{primary}}",
+    "يعني الـ{{screening}} مو {{primary}}"
+   ]
+  ],
+  "why": [
+   "الـ{{secondary prevention}} هو كشف مبكر للمرض",
+   "الـ{{Pap smear}} يكشف تغيرات قبل ما تصير {{cancer}}"
+  ],
+  "wrong": {
+   "0": "لأن {{primordial}} يمنع ظهور عوامل الخطورة نفسها",
+   "1": "لأن {{primary}} يمنع المرض مثل {{vaccination}}",
+   "3": "لأن {{tertiary}} يخفف مضاعفات مرض موجود ومعالج"
+  },
+  "change": [
+   "لو السؤال عن {{HPV vaccine}} فهو {{primary prevention}}",
+   "لو {{treatment of established cancer}} فهو {{tertiary}}"
+  ],
+  "rule": "الـ{{screening}} هو {{secondary}} والـ{{vaccine}} هو {{primary}}"
+ },
+ "A231": {
+  "idea": [
+   "سيدة سبق لها {{ectopic pregnancy}} وتسأل عن خطر التكرار",
+   "فالجواب {{10-15%}}"
+  ],
+  "clues": [
+   [
+    "لأن {{previous ectopic}} من أهم عوامل الخطورة",
+    "يعني التكرار حوالي {{10-15%}}"
+   ]
+  ],
+  "why": [
+   "الخطر بعد {{one ectopic}} حوالي {{10-15%}}",
+   "ويزيد بعد {{two ectopic}} لحوالي {{25%}} أو أكثر"
+  ],
+  "wrong": {
+   "0": "لأن {{1-5%}} أقل بكثير من الخطر الحقيقي",
+   "2": "لأن {{20%}} أعلى من المتوقع بعد حالة وحدة",
+   "3": "لأن {{50%}} مبالغ فيه جدا"
+  },
+  "change": [
+   "لو {{two previous ectopics}} فالخطر يرتفع أكثر",
+   "لو {{tubal surgery}} سابق فالخطر عالي برضو"
+  ],
+  "rule": "الـ{{recurrent ectopic}} بعد حالة وحدة حوالي {{10-15%}}"
+ },
+ "A232": {
+  "idea": [
+   "الـ{{primigravida}} عمرها {{30}} وعندها {{history of ectopic}} وتسأل عن نسبة التكرار",
+   "فالجواب {{6-15%}}"
+  ],
+  "clues": [
+   [
+    "لأن {{previous ectopic}} يرفع الخطر",
+    "يعني حوالي {{10-15%}} وهي داخل {{6-15%}}"
+   ]
+  ],
+  "why": [
+   "نسبة التكرار بعد حالة وحدة حوالي {{10-15%}}",
+   "والخيار {{B}} هو اللي يغطي هذا الرقم"
+  ],
+  "wrong": {
+   "0": "لأن {{1-5%}} أقل من الخطر الفعلي",
+   "2": "لأن {{16-30%}} أعلى من المعتاد بعد حالة وحدة",
+   "3": "لأن {{>30%}} مبالغ فيه"
+  },
+  "change": [
+   "لو {{two ectopics}} فالنسبة ترتفع",
+   "لو {{tubal damage}} واضح فالخطر أعلى"
+  ],
+  "rule": "الـ{{recurrence}} بعد {{one ectopic}} حوالي {{10-15%}}"
+ },
+ "A233": {
+  "idea": [
+   "سيدة عندها {{one abortion}} وتسأل عن خطر {{second abortion}}",
+   "فالجواب {{10-25%}} وهو الأقرب"
+  ],
+  "clues": [
+   [
+    "لأن الخطر بعد {{one miscarriage}} قريب من الخطر العام",
+    "يعني حوالي {{15-20%}}"
+   ]
+  ],
+  "why": [
+   "الخطر بعد {{one abortion}} ما يتغير كثير عن العامة",
+   "ويرتفع بعد {{two or three}} مرات"
+  ],
+  "wrong": {
+   "0": "لأن {{1-9%}} أقل من الخطر الفعلي",
+   "2": "لأن {{25-45%}} ينطبق على {{recurrent losses}} مو حالة وحدة"
+  },
+  "change": [
+   "لو {{three consecutive losses}} فالخطر يوصل حوالي {{40%}} وأكثر",
+   "لو {{advanced maternal age}} فالخطر أعلى"
+  ],
+  "rule": "الحالة الوحدة ما تغير الخطر كثير، والـ{{recurrent}} هو اللي يرفعه",
+  "note": "ملاحظة: المصدر يقول إن {{B}} هو أقرب جواب فقط."
+ },
+ "A234": {
+  "idea": [
+   "سيدة عمرها {{50}} سقطت وتسأل هل العمر له علاقة",
+   "فالجواب {{risk between 10% and 50%}}"
+  ],
+  "clues": [
+   [
+    "لأن {{advanced maternal age}} يرفع {{miscarriage}}",
+    "يعني العمر له دور"
+   ],
+   [
+    "لأن الخطر يتدرج مع العمر",
+    "يعني يوصل نسبة كبيرة"
+   ]
+  ],
+  "why": [
+   "العمر عامل خطورة مهم للـ{{miscarriage}} بسبب {{aneuploidy}}",
+   "والمدى {{10-50%}} هو الجواب المقبول بالسؤال"
+  ],
+  "wrong": {
+   "0": "لأن {{3%}} رقم قليل جدا ولا يناسب {{age 50}}",
+   "1": "لأن العمر له علاقة واضحة فهذا الكلام غلط",
+   "3": "لأن {{80%}} مبالغ فيه كجواب للمريضة"
+  },
+  "change": [
+   "لو العمر {{20-30}} فالخطر حوالي {{10-15%}}",
+   "لو العمر فوق {{40}} فالخطر يرتفع بشكل كبير"
+  ],
+  "rule": "الـ{{age}} يرفع خطر {{miscarriage}} وما نبالغ مع المريضة",
+  "note": "ملاحظة: الخطر الفعلي فوق {{45}} سنة قد يتجاوز {{50%}}، فالسؤال غير دقيق، والجواب المعطى {{C}} يبقى كما هو."
+ },
+ "A235": {
+  "idea": [
+   "الـ{{22 years}} {{primigravida}} عندها {{spontaneous abortion}} وقلقانة",
+   "فنطمنها: {{10-15%}} من الحمل ينتهي بـ{{spontaneous abortion}}"
+  ],
+  "clues": [
+   [
+    "لأن هذا أول {{loss}}",
+    "يعني ما هي {{recurrent}}"
+   ],
+   [
+    "لأن النسبة العامة {{10-15%}}",
+    "يعني حالة شائعة"
+   ]
+  ],
+  "why": [
+   "الـ{{counseling}} هو أفضل خطوة أولى",
+   "الـ{{workup}} للـ{{RPL}} يبدأ بعد فقدان متكرر فقط"
+  ],
+  "wrong": {
+   "1": "لأن {{recurrent pregnancy loss workup}} يحتاج {{2 or 3}} خسارات حسب التعريف",
+   "2": "لأن {{progesterone}} ما له دور بعد خسارة وحدة"
+  },
+  "change": [
+   "لو {{2 or 3 losses}} فنبدأ {{full workup for RPL}}",
+   "لو {{threatened abortion}} حاليا فتقييم مختلف"
+  ],
+  "rule": "الخسارة الأولى هي {{reassurance}} بدون {{workup}}"
+ },
+ "A236": {
+  "idea": [
+   "الـ{{postpartum}} {{not breastfeeding}} عمرها {{23}} وتسأل متى تبدأ {{COC}}",
+   "فالجواب {{3 weeks postpartum}}"
+  ],
+  "clues": [
+   [
+    "لأن ما عندها {{breastfeeding}}",
+    "يعني ما في تأثير على الحليب"
+   ],
+   [
+    "لأن خطر {{VTE}} يقل بعد {{21 days}}",
+    "يعني نبدأ بعد {{3 weeks}}"
+   ]
+  ],
+  "why": [
+   "الـ{{COC}} بعد {{21 days}} لو ما في عوامل خطورة",
+   "والـ{{postpartum}} يرفع خطر {{thrombosis}} في أول أسابيع"
+  ],
+  "wrong": {
+   "1": "لأن {{6 weeks}} نختاره لو في عوامل خطورة، وهذي ما عندها",
+   "2": "لأن {{9 weeks}} تأخير بدون سبب",
+   "3": "لأن {{12 weeks}} تأخير بدون سبب"
+  },
+  "change": [
+   "لو {{age 35}} أو {{smoker}} فنأخر لـ{{6 weeks}}",
+   "لو {{breastfeeding}} فنفضل {{6 weeks}} أو {{4 weeks}} حسب المصدر"
+  ],
+  "rule": "الـ{{non-breastfeeding}} بدون عوامل خطورة نبدأ {{COC}} بعد {{3 weeks}}"
+ },
+ "A237": {
+  "idea": [
+   "سيدة {{breastfeeding}} تسأل عن أبكر وقت آمن لـ{{OCPs}}",
+   "فالجواب {{6 weeks postpartum}}"
+  ],
+  "clues": [
+   [
+    "لأن {{breastfeeding}}",
+    "يعني نتجنب {{estrogen}} في البداية"
+   ],
+   [
+    "لأن السؤال يبي الأكثر أمانا",
+    "يعني {{6 weeks}}"
+   ]
+  ],
+  "why": [
+   "الـ{{estrogen}} ممكن يقلل {{milk supply}} في الأول",
+   "فنأخر {{COC}} لـ{{6 weeks}} حسب خيارات السؤال"
+  ],
+  "wrong": {
+   "0": "لأن {{3 weeks}} مبكر لسيدة {{breastfeeding}}",
+   "2": "لأن {{12 weeks}} تأخير زيادة"
+  },
+  "change": [
+   "لو كان الخيار {{4 weeks}} فهو الجواب حسب المصدر",
+   "لو {{POPs}} فنبدأ بعد الولادة مباشرة"
+  ],
+  "rule": "الـ{{breastfeeding}} نأخر {{COC}} لـ{{6 weeks}}",
+  "note": "ملاحظة: المصدر يقول لو كان في خيار {{4 weeks}} يكون هو الجواب. السؤال فيه صورة ما أقدر أشوفها."
+ },
+ "A238": {
+  "idea": [
+   "الـ{{35 years}} {{postpartum}} {{not breastfeeding}} وتسأل متى تبدأ {{COC}}",
+   "فالجواب {{6 weeks}} لأن عمرها {{35}}"
+  ],
+  "clues": [
+   [
+    "لأن {{age 35}} عامل خطورة",
+    "يعني نأخر لـ{{6 weeks}}"
+   ],
+   [
+    "لأن {{postpartum}} يرفع {{VTE risk}}",
+    "يعني نحتاط"
+   ]
+  ],
+  "why": [
+   "حسب المصدر، {{6 weeks}} لو {{BMI 30}} أو {{age 35}} أو {{post C-section}} أو {{smoking}} أو {{breastfeeding}}",
+   "وهذي القائمة مو شاملة"
+  ],
+  "wrong": {
+   "0": "لأن {{3 weeks}} لسيدة بدون عوامل خطورة، وهذي عمرها {{35}}",
+   "2": "لأن {{9 weeks}} تأخير بدون سبب",
+   "3": "لأن {{12 weeks}} تأخير بدون سبب"
+  },
+  "change": [
+   "لو عمرها {{23}} بدون عوامل خطورة فـ{{3 weeks}}",
+   "لو {{POPs}} فنبدأ مباشرة بعد الولادة"
+  ],
+  "rule": "الـ{{risk factors}} تعني {{6 weeks}} والبدون {{3 weeks}}"
+ },
+ "A239": {
+  "idea": [
+   "الـ{{32 years}} عندها {{cardiovascular disease}} وتبي {{contraception}}",
+   "فالجواب {{IUD}}"
+  ],
+  "clues": [
+   [
+    "لأن {{CVD}}",
+    "يعني نتجنب {{estrogen}}"
+   ],
+   [
+    "لأن الـ{{IUD}} فعال",
+    "يعني ما فيه {{systemic estrogen}}"
+   ]
+  ],
+  "why": [
+   "الـ{{estrogen}} مضاد استطباب مع {{CVD}}",
+   "الـ{{IUD}} طريقة فعالة وآمنة هنا"
+  ],
+  "wrong": {
+   "0": "لأن {{COC}} فيه {{estrogen}} وممنوع مع {{CVD}}",
+   "1": "لأن {{POPs}} أقل فاعلية من {{IUD}} بالاستعمال العادي",
+   "3": "لأن {{patch}} فيه {{estrogen}} وممنوع"
+  },
+  "change": [
+   "لو ما عندها {{CVD}} فنختار {{COC}} عادي",
+   "لو {{IUD}} غير مناسب فنفكر {{progestin only methods}}"
+  ],
+  "rule": "الـ{{CVD}} يعني بدون {{estrogen}} والأفضل {{IUD}}"
+ },
+ "A240": {
+  "idea": [
+   "سيدة عندها {{previous DVT}} وتسأل عن {{contraception}} مناسبة",
+   "فالجواب {{IUD}}"
+  ],
+  "clues": [
+   [
+    "لأن {{DVT}} مضاد استطباب لـ{{COC}}",
+    "يعني نتجنب {{estrogen}}"
+   ],
+   [
+    "لأن المصدر يذكر {{DVT}} مع {{POPs}} برضو",
+    "يعني نختار {{IUD}}"
+   ]
+  ],
+  "why": [
+   "حسب المصدر، الـ{{DVT}} مضاد استطباب لـ{{COC}} و{{POP}}",
+   "فالـ{{IUD}} هو المتاح"
+  ],
+  "wrong": {
+   "1": "لأن {{combined OCPs}} فيها {{estrogen}} وترفع {{thrombosis}}",
+   "2": "لأن المصدر يعتبر {{DVT}} مضاد استطباب لـ{{progesterone pills}}"
+  },
+  "change": [
+   "لو ما في {{DVT}} فـ{{COC}} ممكن",
+   "لو {{IUD}} مرفوض فنفكر {{barrier}} أو {{implant}}"
+  ],
+  "rule": "الـ{{DVT}} يعني {{IUD}} حسب هالسؤال"
+ },
+ "A241": {
+  "idea": [
+   "الـ{{43 years}} عندها {{PE}} قبل {{3 years}} وتبي طريقة فعالة",
+   "فالجواب {{IUD}}"
+  ],
+  "clues": [
+   [
+    "لأن {{PE}} سابق",
+    "يعني نتجنب {{estrogen}}"
+   ],
+   [
+    "لأن تبي طريقة {{effective}}",
+    "يعني {{IUD}} أفضل من {{condom}}"
+   ]
+  ],
+  "why": [
+   "الـ{{IUD}} فعال وبدون {{estrogen}}",
+   "والمصدر يقول {{DVT or PE}} يعني تجنب {{OCP}} و{{POPs}}"
+  ],
+  "wrong": {
+   "0": "لأن {{condom}} أقل فاعلية والسؤال يبي طريقة فعالة",
+   "1": "لأن {{patch}} فيه {{estrogen}} وممنوع مع {{PE}}",
+   "3": "لأن {{OCPs}} فيها {{estrogen}} وممنوعة مع {{PE}}"
+  },
+  "change": [
+   "لو {{age 43}} وبدون {{PE}} وبدون عوامل خطورة فـ{{COC}} ممكن",
+   "لو {{IUD}} غير مقبول فنفكر {{implant}}"
+  ],
+  "rule": "الـ{{PE}} أو {{DVT}} يعني {{IUD}}"
+ },
+ "A242": {
+  "idea": [
+   "الـ{{postpartum DVT}} في الحمل السابق وتسأل عن أفضل {{contraception}}",
+   "فالجواب {{IUD}}"
+  ],
+  "clues": [
+   [
+    "لأن {{DVT}} سابق",
+    "يعني ما نعطي {{estrogen}}"
+   ]
+  ],
+  "why": [
+   "الـ{{OCP}} و{{patch}} فيهم {{estrogen}} ويرفعون {{VTE}}",
+   "فنختار {{IUD}}"
+  ],
+  "wrong": {
+   "0": "لأن {{OCP}} فيها {{estrogen}} وممنوعة بعد {{DVT}}",
+   "1": "لأن {{patch}} فيه {{estrogen}} وممنوع بعد {{DVT}}"
+  },
+  "change": [
+   "لو ما في {{history of DVT}} فممكن {{OCP}}",
+   "لو {{IUD}} غير مقبول فنفكر {{progestin only}} حسب المصدر"
+  ],
+  "rule": "الـ{{history of DVT}} يعني {{IUD}} وبدون {{estrogen}}"
+ },
+ "A243": {
+  "idea": [
+   "شابة عندها {{cardiac disease}} على {{warfarin}} وتسأل عن {{contraception}}",
+   "فالجواب {{progesterone only pills}}"
+  ],
+  "clues": [
+   [
+    "لأن {{warfarin}}",
+    "يعني {{anticoagulation}} مضاد استطباب لـ{{COC}}"
+   ],
+   [
+    "لأن {{IUD}} غير مفضل مع {{coagulopathy}}",
+    "يعني نختار {{POPs}}"
+   ]
+  ],
+  "why": [
+   "الـ{{estrogen}} ممنوع مع {{anticoagulation}} وأمراض القلب",
+   "والـ{{POPs}} آمنة هنا"
+  ],
+  "wrong": {
+   "0": "لأن {{estrogen and progesterone patch}} فيه {{estrogen}} وممنوع",
+   "1": "لأن {{COC}} فيه {{estrogen}} وممنوع مع {{warfarin}}",
+   "2": "لأن {{tubal ligation}} إجراء دائم ومو مناسب لشابة بدون طلب"
+  },
+  "change": [
+   "لو ما عندها {{anticoagulation}} فـ{{IUD}} ممكن",
+   "لو {{IUD}} مرفوض فـ{{POPs}} برضو"
+  ],
+  "rule": "الـ{{anticoagulation}} يعني {{POPs}} بدل {{COC}}",
+  "note": "ملاحظة: المصدر يقول {{coagulopathy}} مو مضاد استطباب قوي للـ{{IUD}}، لكن الجواب المعطى {{D}} يبقى."
+ },
+ "A244": {
+  "idea": [
+   "مريضة {{hypertension}} مع {{heavy bleeding}} و{{anemia}} وتسأل عن {{contraception}}",
+   "فالجواب {{Mirena}}"
+  ],
+  "clues": [
+   [
+    "لأن {{HTN}}",
+    "يعني نتجنب {{OCP}}"
+   ],
+   [
+    "لأن {{heavy bleeding}}",
+    "يعني {{LNG-IUD}} يعالج {{menorrhagia}}"
+   ]
+  ],
+  "why": [
+   "الـ{{Mirena}} هو {{LNG-IUD}} ويقلل {{bleeding}}",
+   "والـ{{HTN}} غير محدد فنتجنب {{OCP}}"
+  ],
+  "wrong": {
+   "0": "لأن {{tubal ligation}} إجراء دائم وما يعالج {{bleeding}}",
+   "2": "لأن {{condom}} ما يعالج {{heavy bleeding}} ولا {{anemia}}",
+   "3": "لأن {{OCP}} ممنوعة مع {{HTN}} حسب المصدر"
+  },
+  "change": [
+   "لو {{copper IUD}} فهو ممنوع مع {{menorrhagia}}",
+   "لو على {{warfarin}} فكل {{IUD}} ممنوع حسب المصدر"
+  ],
+  "rule": "الـ{{menorrhagia}} يعني {{LNG-IUD}} وليس {{copper IUD}}"
+ },
+ "A245": {
+  "idea": [
+   "مريضة {{PCOS}} وتبي {{contraception}}",
+   "فالجواب {{COC}}"
+  ],
+  "clues": [
+   [
+    "لأن {{PCOS}}",
+    "يعني {{COC}} يقلل {{free androgens}}"
+   ],
+   [
+    "لأن ما في {{contraindication}}",
+    "يعني {{COC}} هو المفضل"
+   ]
+  ],
+  "why": [
+   "الـ{{COC}} يرفع {{SHBG}} ويقلل {{free androgens}} ويخفف أعراض {{PCOS}}",
+   "وبدون موانع، {{COC}} هو الاختيار المفضل"
+  ],
+  "wrong": {
+   "1": "لأن {{POPs}} ما تعالج {{hyperandrogenism}} مثل {{COC}}",
+   "2": "لأن {{copper IUD}} ما يعالج {{PCOS}} وممكن يزيد {{bleeding}}",
+   "3": "لأن {{barrier methods}} أقل فاعلية وما تعالج الأعراض"
+  },
+  "change": [
+   "لو {{HTN}} أو {{DVT}} فنتجنب {{COC}}",
+   "لو تبي حمل فنعالج {{ovulation induction}}"
+  ],
+  "rule": "الـ{{PCOS}} مع {{contraception}} يعني {{COC}}"
+ },
+ "A246": {
+  "idea": [
+   "مريضة {{PCOS}} مع {{hirsutism}} و{{irregular cycles}} وما نفع {{local cosmetic treatment}}",
+   "فالجواب {{OCPs}}"
+  ],
+  "clues": [
+   [
+    "لأن ما تبي حمل بالسؤال",
+    "يعني {{OCPs}} للـ{{hirsutism}}"
+   ],
+   [
+    "لأن {{lifestyle}} أول خط",
+    "يعني بعده {{OCPs}}"
+   ]
+  ],
+  "why": [
+   "الـ{{first line}} للـ{{PCOS}} هو {{lifestyle and weight loss}}",
+   "والـ{{second line}} لو ما تبي حمل وعندها {{hirsutism}} هو {{OCPs}}"
+  ],
+  "wrong": {
+   "0": "لأن {{finasteride}} ما هو علاج أول خط للـ{{hirsutism}}",
+   "1": "لأن {{metformin}} نعطيه لو {{diabetes}} مؤكد بالتحاليل",
+   "2": "لأن {{clomiphene}} هو الخيار لو {{fertility desired}} والخيار {{cyproterone}} ما نبدأ فيه"
+  },
+  "change": [
+   "لو تبي حمل فـ{{ovulation induction}}",
+   "لو {{diabetes confirmed}} فنضيف {{metformin}}"
+  ],
+  "rule": "الـ{{PCOS}} بدون حمل مع {{hirsutism}} يعني {{OCPs}}",
+  "note": "ملاحظة: نص الخيار {{C}} في المصدر يخص حالة {{fertility desired}} (حسب كلام المصدر)، والجواب المعطى {{D}} يبقى."
+ },
+ "A247": {
+  "idea": [
+   "الـ{{23 years}} {{PCOS}} مع {{mild hirsutism}} و{{irregular menses}} و{{BMI 36}} وما تبي حمل",
+   "فالجواب {{COC}}"
+  ],
+  "clues": [
+   [
+    "لأن ما تبي حمل",
+    "يعني {{COC}} للـ{{menses}} والـ{{hirsutism}}"
+   ],
+   [
+    "لأن الـ{{BP}} طبيعي",
+    "يعني ما في مانع للـ{{estrogen}}"
+   ]
+  ],
+  "why": [
+   "الـ{{COC}} ينظم {{cycle}} ويقلل {{androgen effects}}",
+   "وما في {{contraindication}} بالسؤال"
+  ],
+  "wrong": {
+   "0": "لأن {{metformin}} مو أول اختيار بدون {{diabetes}}",
+   "1": "لأن {{spironolactone}} ما نبدأ فيه لوحده بدون {{contraception}} مضمونة",
+   "3": "لأن {{LNG-IUS}} يحمي {{endometrium}} بس ما يعالج {{hirsutism}}"
+  },
+  "change": [
+   "لو {{HTN}} فنتجنب {{COC}}",
+   "لو تبي حمل فـ{{ovulation induction}}"
+  ],
+  "rule": "الـ{{PCOS}} بدون حمل يعني {{COC}}"
+ },
+ "A248": {
+  "idea": [
+   "بنت بعمر {{83}} (غالبا خطأ بالتسجيل) عندها {{hirsutism}} و{{TSH}} و{{DHEA}} و{{testosterone}} طبيعية",
+   "فالجواب {{OCPs}}"
+  ],
+  "clues": [
+   [
+    "لأن التحاليل طبيعية",
+    "يعني {{PCOS}} أو {{idiopathic hirsutism}}"
+   ],
+   [
+    "لأن {{OCPs}} تقلل {{androgens}}",
+    "يعني الاختيار المعتاد"
+   ]
+  ],
+  "why": [
+   "الـ{{COC}} هو علاج الـ{{hirsutism}} لو ما في {{contraindication}}",
+   "والتحاليل الطبيعية تستبعد {{tumor}} و{{thyroid disease}}"
+  ],
+  "wrong": {
+   "0": "لأن {{spironolactone}} نضيفه لو ما استجابت بعد {{OCPs}}",
+   "1": "لأن {{clomiphene}} لـ{{ovulation induction}} وما فيه {{fertility desire}}",
+   "2": "لأن {{progesterone only}} ما يقلل {{androgens}} مثل {{COC}}"
+  },
+  "change": [
+   "لو {{HTN}} أو عمر كبير فنفكر {{spironolactone}}",
+   "لو تبي حمل فـ{{clomiphene}}"
+  ],
+  "rule": "الـ{{hirsutism}} بتحاليل طبيعية يعني {{OCPs}}",
+  "note": "ملاحظة: العمر {{83}} غالبا خطأ بالتسجيل، والمصدر نفسه مستغرب. الجواب المعطى {{D}} يبقى."
+ },
+ "A249": {
+  "idea": [
+   "الـ{{32 years}} {{infertility}} لمدة {{3 years}} و{{PCOS}}",
+   "فنبدأ {{lifestyle management}} و{{ovulation induction}}"
+  ],
+  "clues": [
+   [
+    "لأن {{PCOS}} سبب {{anovulation}}",
+    "يعني {{ovulation induction}}"
+   ],
+   [
+    "لأن عمرها {{32}}",
+    "يعني ما نستعجل {{IVF}}"
+   ]
+  ],
+  "why": [
+   "الـ{{lifestyle}} و{{ovulation induction}} هو الخط الأول",
+   "والـ{{IVF}} نفكر فيه بعد فشل العلاج"
+  ],
+  "wrong": {
+   "0": "لأن {{IVF}} مو أول خطوة، وممكن نفكر فيه بعد عمر {{35}} لو تأخير العلاج يضيع الخصوبة",
+   "1": "لأن {{PCOS}} يتعالج وما نمنع العلاج"
+  },
+  "change": [
+   "لو عمرها فوق {{35}} فنكون أكثر تساهلا في {{IVF}}",
+   "لو فشل {{ovulation induction}} فنفكر {{IVF}}"
+  ],
+  "rule": "الـ{{PCOS}} مع {{infertility}} يعني {{lifestyle}} ثم {{ovulation induction}}"
+ },
+ "A250": {
+  "idea": [
+   "الـ{{27 years}} عندها {{follicular ovarian cyst}} وتبي {{contraception}} تمنع تكرار {{functional cyst}}",
+   "فالجواب {{OCPs}}"
+  ],
+  "clues": [
+   [
+    "لأن {{functional cyst}}",
+    "يعني نمنع {{ovulation}}"
+   ],
+   [
+    "لأن {{OCPs}} تثبط {{ovulation}}",
+    "يعني تقلل التكرار"
+   ]
+  ],
+  "why": [
+   "الـ{{OCPs}} تثبط {{FSH and LH}} وتمنع {{ovulation}}",
+   "فتقل فرصة تكرار {{functional cyst}}"
+  ],
+  "wrong": {
+   "0": "لأن {{condom}} ما يمنع {{ovulation}}",
+   "1": "لأن {{vaginal ring}} فيه {{estrogen}} بس السؤال يبي {{OCPs}} كأفضل اختيار",
+   "3": "لأن {{POPs}} ما تمنع {{ovulation}} بشكل ثابت"
+  },
+  "change": [
+   "لو {{contraindication to estrogen}} فنختار طريقة ثانية",
+   "لو {{simple cyst}} بدون أعراض فـ{{observation}}"
+  ],
+  "rule": "الـ{{functional cyst}} يعني نمنع {{ovulation}} بـ{{OCPs}}"
+ }
+}

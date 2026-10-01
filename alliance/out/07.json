@@ -1,0 +1,761 @@
+{
+ "A151": {
+  "idea": [
+   "سيدة {{40 years old, 12 weeks, BMI 26, no risk factors}}",
+   "فالمطلوب {{offer aneuploidy screening (cfDNA or first trimester screening)}} لأن عمرها {{advanced maternal age}}"
+  ],
+  "clues": [
+   [
+    "يعني {{age 40}}",
+    "{{age ≥ 35 at delivery}} يعني زيادة خطر {{Down syndrome}}"
+   ],
+   [
+    "لو {{BMI 26 and no GDM}}",
+    "يعني ما في سبب لـ {{early glucose testing}}"
+   ]
+  ],
+  "why": [
+   "لأن كل حامل عمرها {{≥ 35}} نعرض عليها {{prenatal genetic screening or diagnostic testing}}",
+   "فـ {{cfDNA / first trimester combined screening}} هو الخيار المناسب"
+  ],
+  "wrong": {
+   "0": "فـ {{low dose aspirin}} نعطيه لو في {{high risk or 2 or more moderate risk factors}} وهي ما عندها",
+   "1": "فـ {{early OGTT}} لو في {{risk factors like BMI ≥ 30 or previous GDM}} وهي ما عندها",
+   "3": "فـ {{Tdap}} وقته {{27 to 36 weeks}} مو في الأول"
+  },
+  "change": [
+   "لو {{previous GDM}} فـ نسوي {{early glucose screening}}",
+   "لو {{previous preeclampsia}} فـ نبدأ {{low dose aspirin at 12 weeks}}"
+  ],
+  "rule": "الجواب دايم: {{age ≥ 35}} يعني نعرض {{genetic screening}}",
+  "note": "الـ{{age}} وحده يُعتبر عامل خطر للسكري في بعض الـ{{guidelines}} بس الجواب المعطى {{genetic testing}} وهو الأنسب للسؤال."
+ },
+ "A152": {
+  "idea": [
+   "سيدة {{type 1 DM, 39 years, HbA1c 8.0}} تبغى حمل الشهر الجاي",
+   "فالنصيحة {{delay conception until HbA1c is near normal (target < 7%)}}"
+  ],
+  "clues": [
+   [
+    "يعني {{HbA1c 8.0}}",
+    "{{poor control}} يعني خطر {{congenital malformations}}"
+   ],
+   [
+    "لو {{planning pregnancy}}",
+    "نسوي {{preconception counseling and optimize glycemic control}}"
+   ]
+  ],
+  "why": [
+   "لأن {{high HbA1c at conception}} يرتبط بـ{{congenital anomalies and miscarriage}}",
+   "فـ نأجل الحمل لين يتحسن السكر {{if safely achievable}}"
+  ],
+  "wrong": {
+   "0": "فـ {{3 heavy meals and no snacks}} يسبب {{hypoglycemia and glucose swings}} ولا يقلل {{malformations}}",
+   "1": "فـ {{ARB}} هو بعد ممنوع بالحمل مثل {{ACE inhibitor}}",
+   "2": "فـ {{statin}} نوقفه قبل الحمل ما نبدأه"
+  },
+  "change": [
+   "لو {{HbA1c 6.5}} فـ يمكن نسمح بالحمل مع {{close monitoring}}",
+   "لو حملت فعلاً نوقف {{ACE inhibitor}} ونحول لـ {{labetalol or nifedipine}}"
+  ],
+  "rule": "الجواب دايم: {{optimize HbA1c before conception}}",
+  "note": "الـ{{24 hr urine protein 2000}} في السؤال بدون وحدات واضحة وهو يدل على {{diabetic nephropathy}}؛ الجواب {{D}} يبقى هو الأنسب."
+ },
+ "A153": {
+  "idea": [
+   "الـ{{primigravida at 30 weeks with headache and blurred vision}}",
+   "فهذا {{preeclampsia}} والدواء المفضل {{labetalol}}"
+  ],
+  "clues": [
+   [
+    "يعني {{headache and visual changes}}",
+    "{{severe features of preeclampsia}}"
+   ],
+   [
+    "لو {{antihypertensive in pregnancy}}",
+    "الاختيار الأول {{labetalol}}"
+   ]
+  ],
+  "why": [
+   "لأن {{labetalol}} هو {{first line}} للـ{{mild and severe hypertension}} بالحمل",
+   "والثاني {{nifedipine}} و{{hydralazine}} و{{methyldopa}} حسب الحالة"
+  ],
+  "wrong": {
+   "0": "فـ {{atenolol}} يسبب {{fetal growth restriction}} فـ نتجنبه",
+   "2": "فـ {{diazoxide}} ما نستخدمه بالـ{{preeclampsia}} لأنه يسبب {{hypotension and fetal effects}}",
+   "3": "فـ {{sodium nitroprusside}} فيه خطر {{fetal cyanide toxicity}} فـ آخر حل"
+  },
+  "change": [
+   "لو {{asthma or heart failure}} فـ نتجنب {{labetalol}} ونستخدم {{nifedipine}}",
+   "لو {{BP 160/110 persistent}} فـ ندخل {{IV labetalol or hydralazine}}"
+  ],
+  "rule": "الجواب دايم: {{labetalol}} للـ{{preeclampsia}}"
+ },
+ "A154": {
+  "idea": [
+   "الـ{{36 weeks, BP 160/110, proteinuria +++, headache and blurred vision}}",
+   "فهذا {{severe preeclampsia}} والعلاج {{labetalol}}"
+  ],
+  "clues": [
+   [
+    "يعني {{BP 160/110}}",
+    "{{severe range hypertension}} نعالجه فوراً"
+   ],
+   [
+    "لو {{protein +++}}",
+    "يعني {{preeclampsia}} مو بس {{hypertension}}"
+   ]
+  ],
+  "why": [
+   "لأن {{labetalol}} هو {{first line}} بحسب الـ{{new guidelines}} بالحالتين الخفيفة والشديدة",
+   "فهو آمن بالحمل ويخفض الضغط بسرعة"
+  ],
+  "wrong": {
+   "0": "فـ {{clonidine}} مو من الأدوية المفضلة بالحمل",
+   "1": "فـ {{methyldopa}} بطيء المفعول ولا نستخدمه لـ{{severe hypertension}}",
+   "3": "فـ {{nitroprusside}} فيه خطر {{cyanide toxicity}} على الجنين"
+  },
+  "change": [
+   "لو {{asthma}} فـ نختار {{nifedipine}} أو {{hydralazine}}",
+   "لو {{seizure}} فـ نعطي {{magnesium sulfate}} أول"
+  ],
+  "rule": "الجواب دايم: {{severe HTN in pregnancy}} يعني {{labetalol}}"
+ },
+ "A155": {
+  "idea": [
+   "الـ{{primigravida with edema and BP 150/95}} قراءة وحدة",
+   "فـ نكمل {{evaluation}} نأكد {{gestational hypertension}} ونبحث عن {{proteinuria}}"
+  ],
+  "clues": [
+   [
+    "يعني {{edema}}",
+    "ما هو {{diagnostic}} للـ{{preeclampsia}} لأنه شائع بالحمل الطبيعي"
+   ],
+   [
+    "لو {{single BP reading}}",
+    "نعيد القياس بعد {{4 hours}} قبل التشخيص"
+   ]
+  ],
+  "why": [
+   "لأن التشخيص يحتاج {{two readings 4 hours apart}} ثم نفحص {{urine protein}}",
+   "فـ ما نبدأ علاج قبل التأكد"
+  ],
+  "wrong": {
+   "0": "فـ {{diuretics}} ما نستخدمها للـ{{edema}} بالحمل لأنها تقلل {{plasma volume}}",
+   "1": "فـ {{low salt diet}} ما له دور بالـ{{preeclampsia}}",
+   "2": "فـ {{oral labetalol}} نبدأه بعد تأكيد التشخيص و{{BP ≥ 150/100}} غالباً"
+  },
+  "change": [
+   "لو {{BP 160/110 confirmed}} فـ نعطي {{IV labetalol}}",
+   "لو {{proteinuria or severe features}} فـ نشخص {{preeclampsia}} وندخل المريضة"
+  ],
+  "rule": "الجواب دايم: أكد {{hypertension}} أول ثم ابحث عن {{proteinuria}} قبل العلاج"
+ },
+ "A156": {
+  "idea": [
+   "الـ{{19 years primigravida at 32 weeks, raised BP}} بدون تفاصيل",
+   "فالجواب المحفوظ {{admit and start antihypertensive}}"
+  ],
+  "clues": [
+   [
+    "يعني {{raised BP at 32 weeks}}",
+    "{{possible preeclampsia}} يحتاج {{admission}}"
+   ],
+   [
+    "لو {{no numbers}}",
+    "نحفظ الجواب كما هو بالبنك"
+   ]
+  ],
+  "why": [
+   "لأن الجواب المعطى {{B}} حسب البنك",
+   "والمصدر يقول إن الأنسب علمياً {{C}} يعني {{admit, serial BP and 24-hour urine protein}}"
+  ],
+  "wrong": {
+   "0": "فـ {{close observation}} لوحده ناقص ما فيه {{work-up}}",
+   "2": "فـ هذا الأنسب علمياً بحسب ملاحظة المصدر بس الجواب المعطى غيره",
+   "3": "فـ {{discharge}} خطر لأن {{preeclampsia}} ممكن تتدهور"
+  },
+  "change": [
+   "لو {{BP 160/110}} فـ نبدأ {{IV labetalol}} ونعطي {{magnesium sulfate}}",
+   "لو {{BP mild and no proteinuria}} فـ {{outpatient monitoring}} ممكن"
+  ],
+  "rule": "الجواب هنا: احفظ {{B}} كما في البنك",
+  "note": "الجواب المعطى {{B}} يتعارض مع المنطق السريري والمصدر نفسه يقول الأنسب {{C}}؛ نبقي {{B}} كما هو."
+ },
+ "A157": {
+  "idea": [
+   "سيدة {{47 years, hypertension, BMI 32}}",
+   "فالفحص الأنسب {{fasting glucose}} لأنها عندها {{metabolic syndrome criteria}}"
+  ],
+  "clues": [
+   [
+    "يعني {{obesity and hypertension}}",
+    "{{2 criteria of metabolic syndrome}} فـ نبحث عن {{diabetes}}"
+   ],
+   [
+    "لو {{BMI ≥ 25 plus risk factor}}",
+    "نسوي {{diabetes screening}}"
+   ]
+  ],
+  "why": [
+   "لأن {{obesity with HTN}} عوامل خطر لـ{{type 2 diabetes}} فـ نفحص {{fasting glucose or HbA1c}}",
+   "والجواب مؤكد من المصدر"
+  ],
+  "wrong": {
+   "0": "فـ {{CT chest}} نسويه للمدخنين {{high risk lung cancer}} وهي ما ذكر",
+   "1": "فـ {{pap smear}} موجود بس مو الأنسب بسبب المعطيات {{HTN and obesity}}",
+   "2": "فـ {{fecal occult blood}} يبدأ عمر {{45 years}} بس الأولوية هنا للسكر"
+  },
+  "change": [
+   "لو {{smoker 50 pack-years}} فـ {{low dose CT chest}}",
+   "لو {{fasting glucose normal}} فـ نعيد الفحص كل {{3 years}}"
+  ],
+  "rule": "الجواب دايم: {{obesity and HTN}} يعني {{screen for diabetes}}"
+ },
+ "A158": {
+  "idea": [
+   "نفس سؤال سيدة {{47 years, HTN, BMI 32}} لكن الخيارات مختلفة",
+   "فالمصدر يقول الجواب {{pap smear}} لو الخيار الأول غير مهم"
+  ],
+  "clues": [
+   [
+    "يعني {{random blood glucose}}",
+    "ما نستخدمه للتشخيص إلا لو {{symptomatic}}"
+   ],
+   [
+    "لو {{age 30-65}}",
+    "نسوي {{pap smear every 3 years}}"
+   ]
+  ],
+  "why": [
+   "لأن {{random glucose}} مو فحص {{screening}} مناسب",
+   "فـ الخيار المقبول {{cervical cancer screening}} بالعمر {{30-65}}"
+  ],
+  "wrong": {
+   "0": "فـ الخيار الأول غير واضح بالسؤال وغالباً {{low dose CT}} وهو غير مناسب لها",
+   "2": "فـ {{fecal occult blood}} ممكن لعمر {{45}} بس الجواب المعطى غيره",
+   "3": "فـ {{random blood glucose}} ما نستخدمه للـ{{screening}} إلا مع أعراض"
+  },
+  "change": [
+   "لو الخيار {{fasting glucose}} فـ هو الأفضل",
+   "لو {{symptomatic hyperglycemia}} فـ {{random glucose}} يفيد"
+  ],
+  "rule": "الجواب هنا: {{pap smear}} حسب البنك لأن {{random glucose}} غير مناسب",
+  "note": "المصدر نفسه غير متأكد من الـ{{recall}}؛ لو وجد {{fasting glucose}} فـ هو الأنسب، ونبقي الجواب {{B}} كما هو."
+ },
+ "A159": {
+  "idea": [
+   "سيدة {{47 years sexually active, HTN, BMI 32}}",
+   "فالجواب المعطى {{fecal occult blood}}"
+  ],
+  "clues": [
+   [
+    "يعني {{age 47}}",
+    "{{colorectal cancer screening}} يبدأ من {{45}}"
+   ],
+   [
+    "لو {{sexually active}}",
+    "ممكن {{pap smear}} بس الجواب المعطى غيره"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{colorectal screening}} يبدأ بعمر {{45 years}} بحسب الـ{{guidelines}}",
+   "فـ {{FOBT}} خيار مقبول للـ{{screening}}"
+  ],
+  "wrong": {
+   "0": "فـ الخيار الأول غير واضح بالسؤال وغالباً {{low dose CT}} وهو للمدخنين فقط",
+   "1": "فـ {{pap smear}} صحيح عام بس الجواب المعطى غيره",
+   "3": "فـ {{fasting glucose}} يقول المصدر إنه جوابه الشخصي"
+  },
+  "change": [
+   "لو {{smoker}} فـ {{low dose CT chest}}",
+   "لو {{age 30-65}} فـ {{pap smear}} كل {{3 years}}"
+  ],
+  "rule": "الجواب هنا: {{FOBT}} للعمر {{≥ 45}} حسب البنك",
+  "note": "المصدر يرى أن {{fasting blood glucose}} هو الأنسب؛ الجواب المعطى {{C}} نبقيه كما هو."
+ },
+ "A160": {
+  "idea": [
+   "الـ{{36 weeks, BP 160/110, headache and blurred vision, protein ++}}",
+   "فالدواء المطلوب {{hydralazine}} حسب البنك"
+  ],
+  "clues": [
+   [
+    "يعني {{BP 160/110}}",
+    "{{severe hypertension}} يحتاج علاج سريع"
+   ],
+   [
+    "لو {{no MgSO4 in the options}}",
+    "نختار {{antihypertensive}} المناسب"
+   ]
+  ],
+  "why": [
+   "لأن {{hydralazine}} من الأدوية المقبولة للـ{{severe hypertension in pregnancy}}",
+   "والبنك أكد الجواب بعد حذف كلمة {{acute}}"
+  ],
+  "wrong": {
+   "0": "فـ {{clonidine}} مو من الأدوية المفضلة بالحمل",
+   "1": "فـ {{methyldopa}} بطيء ولا يستخدم للـ{{severe HTN}}",
+   "3": "فـ {{nitroprusside}} فيه خطر {{fetal cyanide toxicity}}"
+  },
+  "change": [
+   "لو {{labetalol}} موجود فـ هو {{first line}}",
+   "لو {{MgSO4}} موجود مع {{severe features}} فـ نعطيه"
+  ],
+  "rule": "الجواب دايم: {{severe HTN}} يعني {{labetalol or hydralazine}} حسب الخيارات",
+  "note": "السؤال فيه صورة {{[IMAGE PAGE]}} ما أقدر أشوفها، والجواب {{C}} مؤكد من المصدر."
+ },
+ "A161": {
+  "idea": [
+   "الـ{{chronic hypertension, 35 years, 22 weeks, BP 140/90}}",
+   "فالدواء {{methyldopa}} حسب البنك"
+  ],
+  "clues": [
+   [
+    "يعني {{known chronic HTN}}",
+    "نحتاج {{safe antihypertensive in pregnancy}}"
+   ],
+   [
+    "لو {{BP 140/90}}",
+    "يعني {{mild}} فـ {{methyldopa}} مقبول"
+   ]
+  ],
+  "why": [
+   "لأن {{methyldopa}} آمن بالحمل وله خبرة طويلة",
+   "وهو من {{first line}} التقليدي للـ{{chronic HTN in pregnancy}}"
+  ],
+  "wrong": {
+   "0": "فـ {{verapamil}} مو الخيار المعتاد بالحمل",
+   "1": "فـ {{nifedipine}} مقبول بالحمل بس الجواب المعطى {{methyldopa}}",
+   "2": "فـ {{hydralazine}} نستخدمه أكثر للـ{{acute severe HTN}}"
+  },
+  "change": [
+   "لو {{BP ≥ 160/110}} فـ نعطي {{labetalol or nifedipine}}",
+   "لو {{ACE inhibitor}} قبل الحمل فـ نوقفه"
+  ],
+  "rule": "الجواب دايم: {{chronic HTN in pregnancy}} يعني {{methyldopa}} أو {{labetalol or nifedipine}}",
+  "note": "الـ{{guidelines}} الحديثة تقبل {{labetalol and nifedipine}} كخط أول أيضاً؛ نبقي الجواب {{methyldopa}} كما في البنك."
+ },
+ "A162": {
+  "idea": [
+   "الـ{{38 weeks, BP 170/110, protein +3}}",
+   "فهذا {{preeclampsia with severe features}} والخطوة التالية {{magnesium sulfate}}"
+  ],
+  "clues": [
+   [
+    "يعني {{BP 170/110 and proteinuria}}",
+    "{{severe features}} خطر {{eclampsia}}"
+   ],
+   [
+    "لو {{sent to labor and delivery}}",
+    "نبدأ {{seizure prophylaxis}} ثم نولد"
+   ]
+  ],
+  "why": [
+   "لأن {{MgSO4}} يمنع {{seizures}} بالـ{{severe preeclampsia}}",
+   "وبعده نضبط الضغط ونفكر بالولادة"
+  ],
+  "wrong": {
+   "0": "فـ {{oxytocin}} للتحريض بعد تثبيت الحالة وبعد {{MgSO4}}",
+   "1": "فـ {{methyldopa}} بطيء ولا يناسب {{severe HTN}}",
+   "3": "فـ {{prostaglandin}} للتحريض وهو مو الأولوية الآن"
+  },
+  "change": [
+   "لو {{BP 170/110}} وفي الخيارات {{labetalol}} فـ نعطيه مع {{MgSO4}}",
+   "لو {{eclamptic seizure}} فـ {{MgSO4}} أول"
+  ],
+  "rule": "الجواب دايم: {{severe preeclampsia}} يعني {{MgSO4}}"
+ },
+ "A163": {
+  "idea": [
+   "سيدة {{hypertensive on hydrochlorothiazide and losartan}} طلعت {{pregnant}}",
+   "فنوقف {{losartan}} ونبدل بـ {{methyldopa}}"
+  ],
+  "clues": [
+   [
+    "يعني {{losartan (ARB)}}",
+    "{{contraindicated in pregnancy}} بسبب {{fetal renal toxicity}}"
+   ],
+   [
+    "لو {{stop antihypertensive}} بدون بديل",
+    "ممكن يرجع الضغط {{relapse}}"
+   ]
+  ],
+  "why": [
+   "لأن {{ARBs and ACE inhibitors}} ممنوعة بالحمل",
+   "فنحط بديل آمن مثل {{methyldopa}} ونراقب الضغط"
+  ],
+  "wrong": {
+   "0": "فـ استمرار {{losartan}} يضر الجنين",
+   "1": "فـ إيقاف كل الأدوية يرجع الضغط للارتفاع",
+   "3": "فـ {{enalapril}} هو {{ACE inhibitor}} وممنوع بالحمل"
+  },
+  "change": [
+   "لو {{BP normal}} على الدواء فـ نبدل بدواء آمن لا نوقف",
+   "لو {{labetalol}} متوفر فـ هو بديل ممتاز"
+  ],
+  "rule": "الجواب دايم: {{ACE/ARB}} بالحمل يعني نبدل بـ {{methyldopa or labetalol or nifedipine}}"
+ },
+ "A164": {
+  "idea": [
+   "الـ{{chronic HTN at 8 weeks}} والسؤال عن الدواء {{contraindicated}}",
+   "فالجواب {{lisinopril}} لأنه {{ACE inhibitor}}"
+  ],
+  "clues": [
+   [
+    "يعني {{lisinopril}}",
+    "{{ACE inhibitor}} ممنوع بالحمل"
+   ],
+   [
+    "لو {{contraindicated}}",
+    "يعني {{ACE/ARB}} تحديداً"
+   ]
+  ],
+  "why": [
+   "لأن {{ACE inhibitors}} تسبب {{fetal renal dysgenesis, oligohydramnios, and skull defects}}",
+   "فـ نتجنبها بالحمل خصوصاً الثاني والثالث"
+  ],
+  "wrong": {
+   "0": "فـ {{labetalol}} آمن ومفضل بالحمل",
+   "1": "فـ {{nifedipine}} آمن بالحمل",
+   "3": "فـ {{methyldopa}} آمن بالحمل"
+  },
+  "change": [
+   "لو {{ARB such as losartan}} فـ برضو ممنوع",
+   "لو {{postpartum lactating}} فـ {{enalapril}} مقبول"
+  ],
+  "rule": "الجواب دايم: {{ACE/ARB}} ممنوعة بالحمل"
+ },
+ "A165": {
+  "idea": [
+   "الـ{{preeclampsia at 30 weeks}} والسؤال عن الدواء {{contraindicated}}",
+   "فالجواب {{captopril}} لأنه {{ACE inhibitor}}"
+  ],
+  "clues": [
+   [
+    "يعني {{captopril}}",
+    "{{ACE inhibitor}} ممنوع بالحمل"
+   ],
+   [
+    "لو {{preeclampsia}}",
+    "الأدوية الآمنة {{labetalol, nifedipine, hydralazine, methyldopa}}"
+   ]
+  ],
+  "why": [
+   "لأن {{captopril}} يسبب {{fetal renal failure and oligohydramnios}}",
+   "فـ نتجنبه بالحمل"
+  ],
+  "wrong": {
+   "1": "فـ {{nifedipine}} آمن ومستخدم للـ{{preeclampsia}}",
+   "2": "فـ {{hydralazine}} آمن ومستخدم للـ{{severe HTN}}",
+   "3": "فـ {{methyldopa}} آمن بالحمل"
+  },
+  "change": [
+   "لو {{postpartum}} فـ {{captopril}} مقبول مع الرضاعة",
+   "لو {{ARB}} فـ برضو ممنوع بالحمل"
+  ],
+  "rule": "الجواب دايم: {{ACE inhibitors}} ممنوعة بالحمل"
+ },
+ "A166": {
+  "idea": [
+   "الـ{{gestational hypertension, delivered 4 weeks ago}} والضغط {{150/...}}",
+   "فنعطي {{antihypertensive}} لو الضغط لسا مرتفع"
+  ],
+  "clues": [
+   [
+    "يعني {{postpartum 4 weeks}}",
+    "يفترض {{gestational HTN}} تنحل خلال {{12 weeks}}"
+   ],
+   [
+    "لو {{BP persistently high}}",
+    "نبدأ {{antihypertensive treatment}}"
+   ]
+  ],
+  "why": [
+   "لأن الضغط المستمر المرتفع بعد الولادة يحتاج علاج",
+   "والجواب المعطى {{prescribe antihypertensive if high BP remains}}"
+  ],
+  "wrong": {
+   "0": "فـ {{salt restriction and rest}} ما يكفي لضغط مرتفع",
+   "2": "فـ {{annual follow up}} متأخر جداً",
+   "3": "فـ {{aspirin}} للحمل القادم مو للضغط الحالي"
+  },
+  "change": [
+   "لو {{BP normal}} فـ نتابع بالمتابعة العادية",
+   "لو {{BP persistent after 12 weeks}} فـ نشخص {{chronic hypertension}}"
+  ],
+  "rule": "الجواب دايم: {{persistent postpartum HTN}} يعني نبدأ {{antihypertensive}}",
+  "note": "رقم الضغط في السؤال ناقص وهو {{150/...}} فـ الجواب يعتمد على أن الضغط ما زال مرتفع؛ نبقي {{B}}."
+ },
+ "A167": {
+  "idea": [
+   "الـ{{gestational hypertension, 4 weeks postpartum}} الضغط {{133/88}}",
+   "فالجواب المعطى {{antihypertensive if BP remains high}}"
+  ],
+  "clues": [
+   [
+    "يعني {{133/88}}",
+    "قريب من الحد بس أقل من {{150/100}}"
+   ],
+   [
+    "لو {{resolved gestational HTN}}",
+    "غالباً {{follow up}} فقط"
+   ]
+  ],
+  "why": [
+   "لأن الجواب المعطى {{B}} ومرجح أنه مؤكد من البنك",
+   "فـ نحفظه كما هو"
+  ],
+  "wrong": {
+   "0": "فـ {{salt restriction and rest}} ما يعالج الضغط المستمر",
+   "2": "فـ {{annual follow up}} مقبول للحالة المحلولة بس الجواب المعطى غيره",
+   "3": "فـ {{aspirin}} للحمل القادم مو للحالة الحالية"
+  },
+  "change": [
+   "لو {{BP ≥ 150/100}} فـ نعالج بدون تردد",
+   "لو {{BP normal}} فـ {{annual BP check}} كافي"
+  ],
+  "rule": "الجواب هنا: احفظ {{B}} كما في البنك",
+  "note": "الـ{{Probably Confirmed}} حسب المصدر، لكن {{133/88}} مع {{resolved}} يوحي بأن {{C}} أنسب سريرياً؛ نبقي {{B}}."
+ },
+ "A168": {
+  "idea": [
+   "الـ{{15 weeks pregnant}} والسؤال عن التغير الفسيولوجي",
+   "فالأرجح {{40-45% increase in total blood volume}}"
+  ],
+  "clues": [
+   [
+    "يعني {{blood volume}}",
+    "يزيد {{40-50%}} بالحمل"
+   ],
+   [
+    "لو {{hematocrit}}",
+    "ينقص بشكل بسيط {{dilutional}} مو {{40-45%}}"
+   ]
+  ],
+  "why": [
+   "لأن {{plasma volume}} يزيد أكثر من {{red cell mass}} فيزيد {{total blood volume}} بحوالي {{40-45%}}",
+   "فيحصل {{physiologic anemia of pregnancy}}"
+  ],
+  "wrong": {
+   "0": "فـ {{hematocrit}} ما يزيد بل ينقص بسبب {{hemodilution}}",
+   "1": "فـ نقص {{hematocrit}} بمقدار {{40-45%}} مبالغ جداً",
+   "2": "فـ زيادة {{20-25%}} أقل من الحقيقي بالنسبة لـ{{total blood volume}}"
+  },
+  "change": [
+   "لو {{term pregnancy}} فـ الزيادة أكبر تقريباً {{40-50%}}",
+   "لو {{twin pregnancy}} فـ الزيادة أكثر"
+  ],
+  "rule": "الجواب دايم: {{blood volume}} يزيد {{40-45%}} بالحمل"
+ },
+ "A169": {
+  "idea": [
+   "الـ{{severe preeclampsia at 34 weeks}} والسؤال عن شي ينقص",
+   "فالجواب {{plasma volume}} نسبياً"
+  ],
+  "clues": [
+   [
+    "يعني {{severe preeclampsia}}",
+    "{{endothelial damage and capillary leak}}"
+   ],
+   [
+    "لو {{decreased}}",
+    "{{plasma volume}} لأن السوائل تتسرب لـ{{interstitial space}}"
+   ]
+  ],
+  "why": [
+   "لأن {{plasma volume}} ينقص نسبياً بسبب {{extravasation}} للأنسجة",
+   "فيحصل {{hemoconcentration}}"
+  ],
+  "wrong": {
+   "0": "فـ {{serum urea}} يزيد مع {{renal impairment}}",
+   "1": "فـ {{uric acid}} يزيد بالـ{{preeclampsia}}",
+   "3": "فـ {{serum creatinine}} يزيد مع {{renal involvement}}"
+  },
+  "change": [
+   "لو {{HELLP}} فـ تنخفض {{platelets}} وتزيد {{liver enzymes}}",
+   "لو {{normal pregnancy}} فـ {{plasma volume}} يزيد"
+  ],
+  "rule": "الجواب دايم: {{severe preeclampsia}} يعني {{plasma volume}} ينقص نسبياً",
+  "note": "المصدر يوضح أن الـ{{plasma volume}} يزيد فعلياً لكنه يتسرب فيقل نسبياً."
+ },
+ "A170": {
+  "idea": [
+   "الـ{{36 weeks, BP 160/90, headache, then generalized seizure}}",
+   "فهذا {{eclampsia}} والخطوة {{magnesium sulfate}}"
+  ],
+  "clues": [
+   [
+    "يعني {{seizure in pregnancy with hypertension}}",
+    "{{eclampsia}}"
+   ],
+   [
+    "لو {{seizure}}",
+    "نعطي {{MgSO4}} أول دواء"
+   ]
+  ],
+  "why": [
+   "لأن {{magnesium sulfate}} هو {{drug of choice}} لوقف ومنع {{eclamptic seizures}}",
+   "وبعده نضبط الضغط ونولد"
+  ],
+  "wrong": {
+   "0": "فـ {{observation}} خطر مع {{active seizure}}",
+   "1": "فـ {{phenytoin}} أقل فاعلية من {{MgSO4}}",
+   "3": "فـ {{hydralazine}} للضغط وبعد {{MgSO4}}"
+  },
+  "change": [
+   "لو {{MgSO4 toxicity}} فـ نعطي {{calcium gluconate}}",
+   "لو {{airway compromised}} فـ نبدأ {{ABC}}"
+  ],
+  "rule": "الجواب دايم: {{eclampsia}} يعني {{MgSO4}}"
+ },
+ "A171": {
+  "idea": [
+   "الـ{{31 weeks, tonic-clonic convulsion, unconscious}}",
+   "فأول خطوة {{ABC}} يعني {{open and maintain airway}}"
+  ],
+  "clues": [
+   [
+    "يعني {{unconscious and convulsing}}",
+    "خطر {{airway obstruction}}"
+   ],
+   [
+    "لو {{first step}}",
+    "دايم {{airway first}}"
+   ]
+  ],
+  "why": [
+   "لأن {{ABC}} دايم أول خطوة قبل أي علاج",
+   "وبعدها {{MgSO4}} ثم نضبط الضغط"
+  ],
+  "wrong": {
+   "0": "فـ {{hydralazine}} للضغط ويجي بعد تأمين الطريق الهوائي",
+   "1": "فـ {{magnesium sulfate}} مهم بس بعد {{airway}}",
+   "2": "فـ {{IV fluid}} ليس أولوية قبل {{airway}}"
+  },
+  "change": [
+   "لو {{airway secure}} فـ الخطوة التالية {{MgSO4}}",
+   "لو {{BP severe}} فـ نعطي {{labetalol}} بعد الـ{{MgSO4}}"
+  ],
+  "rule": "الجواب دايم: {{ABC}} أول خطوة"
+ },
+ "A172": {
+  "idea": [
+   "الـ{{30 weeks with peripartum cardiomyopathy}}",
+   "فنعطي {{hydralazine}} قبل الولادة"
+  ],
+  "clues": [
+   [
+    "يعني {{peripartum cardiomyopathy}}",
+    "{{heart failure}} يحتاج {{afterload reduction}}"
+   ],
+   [
+    "لو {{before delivery}}",
+    "نتجنب {{ACE/ARB}}"
+   ]
+  ],
+  "why": [
+   "لأن {{ACE inhibitors and ARBs}} ممنوعة قبل الولادة",
+   "فنستخدم {{hydralazine}} مع {{nitrates}} لتخفيف الحمل على القلب"
+  ],
+  "wrong": {
+   "0": "فـ {{ARB}} ممنوع بالحمل",
+   "1": "فـ {{ACE inhibitor}} ممنوع بالحمل لكن نستخدمه بعد الولادة",
+   "3": "فـ {{methyldopa}} يخفض الضغط ولا يعالج {{heart failure}}"
+  },
+  "change": [
+   "لو {{after delivery}} فـ نعطي {{ACE inhibitor or ARB}} حتى مع الرضاعة",
+   "لو {{pulmonary edema}} فـ نعطي {{diuretics}}"
+  ],
+  "rule": "الجواب دايم: {{PPCM}} قبل الولادة يعني {{hydralazine}} وبعدها {{ACE/ARB}}"
+ },
+ "A173": {
+  "idea": [
+   "حامل عندها {{history of preeclampsia}}",
+   "فالوقاية {{low-dose aspirin}}"
+  ],
+  "clues": [
+   [
+    "يعني {{previous preeclampsia}}",
+    "{{high risk}} للتكرار"
+   ],
+   [
+    "لو {{prevention}}",
+    "{{aspirin 81 mg from 12 weeks}}"
+   ]
+  ],
+  "why": [
+   "لأن {{low-dose aspirin}} يقلل خطر {{preeclampsia}} عند الأمهات {{high risk}}",
+   "نبدأ بين {{12 and 16 weeks}} ونكمل لين الولادة"
+  ],
+  "wrong": {
+   "0": "فـ {{bed rest}} ما يمنع {{preeclampsia}}",
+   "2": "فـ {{calcium}} نزيده عند نقص التناول مو نقلله",
+   "3": "فـ {{sodium}} ما له دور وقائي"
+  },
+  "change": [
+   "لو {{low calcium intake}} فـ نضيف {{calcium supplementation}}",
+   "لو {{no risk factors}} فـ ما نحتاج {{aspirin}}"
+  ],
+  "rule": "الجواب دايم: {{previous preeclampsia}} يعني {{low-dose aspirin}}"
+ },
+ "A174": {
+  "idea": [
+   "السؤال عن {{HPV}} الأشهر بسرطان عنق الرحم",
+   "فالجواب {{HPV 16 and 18}}"
+  ],
+  "clues": [
+   [
+    "يعني {{cervical cancer}}",
+    "{{high risk HPV}}"
+   ],
+   [
+    "لو {{6 and 11}}",
+    "{{genital warts}} مو سرطان"
+   ]
+  ],
+  "why": [
+   "لأن {{HPV 16 and 18}} مسؤولين عن حوالي {{70%}} من {{cervical cancers}}",
+   "و{{6/11}} يسببون {{condyloma acuminata}}"
+  ],
+  "wrong": {
+   "0": "فـ {{HPV 6/11}} {{low risk}} يسبب {{genital warts}}",
+   "2": "فـ {{HPV 32/36}} نادرة وما هي الأشهر بالسرطان",
+   "3": "فـ {{HPV 44}} {{low risk}} وغير شائع بالسرطان"
+  },
+  "change": [
+   "لو {{adenocarcinoma}} فـ {{HPV 18}} أكثر ارتباطاً",
+   "لو {{squamous cell carcinoma}} فـ {{HPV 16}} أكثر"
+  ],
+  "rule": "الجواب دايم: {{cervical cancer}} يعني {{HPV 16 and 18}}"
+ },
+ "A175": {
+  "idea": [
+   "الـ{{55 years postmenopausal, AUB, pap shows AGC}}",
+   "فالخطوة {{colposcopy}} مع {{endometrial sampling}}"
+  ],
+  "clues": [
+   [
+    "يعني {{AGC}}",
+    "{{atypical glandular cells}} يحتاج {{work-up}} كامل"
+   ],
+   [
+    "لو {{AUB at 55}}",
+    "نشك بـ{{endometrial pathology}}"
+   ]
+  ],
+  "why": [
+   "لأن {{AGC}} دايم يحتاج {{colposcopy with ECC}} و{{endometrial biopsy}} بعمر {{≥ 35 or AUB}}",
+   "فـ {{colposcopy}} هو الخيار المتاح هنا"
+  ],
+  "wrong": {
+   "0": "فـ {{HPV testing}} لوحده ما يكفي لـ{{AGC}}",
+   "2": "فـ {{repeat pap smear}} غير كافي لأن {{AGC}} يحتاج {{work-up}}"
+  },
+  "change": [
+   "لو {{ASCUS}} فـ نسوي {{HPV reflex testing}}",
+   "لو {{AGC with age < 35 and no AUB}} فـ {{colposcopy and ECC}} بدون {{endometrial biopsy}}"
+  ],
+  "rule": "الجواب دايم: {{AGC}} يعني {{colposcopy and endometrial sampling}}"
+ }
+}

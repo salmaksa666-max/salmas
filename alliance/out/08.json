@@ -1,0 +1,759 @@
+{
+ "A176": {
+  "idea": [
+   "سيدة {{34 years old, Pap smear ASCUS}}",
+   "فالسؤال عن الخطوة التالية وهي {{reflex HPV testing}}"
+  ],
+  "clues": [
+   [
+    "الـ{{ASCUS}}",
+    "يعني {{low-risk cytology, triage by HPV}}"
+   ],
+   [
+    "عمرها {{34}}",
+    "يعني {{age 25-65, HPV triage allowed}}"
+   ]
+  ],
+  "why": [
+   "لأن {{ASCUS}} نسبة {{CIN2+}} فيها قليلة فـ نعمل {{reflex HPV testing}}",
+   "لو {{HPV positive}} نروح {{colposcopy}} ولو {{negative}} نرجع {{routine screening}}"
+  ],
+  "wrong": {
+   "0": "بس {{repeat Pap at 12 months}} هو الخيار البديل لكن الأفضل {{HPV triage}}",
+   "2": "ما نبدأ بـ {{colposcopy}} مباشرة إلا لو {{HPV positive}}",
+   "3": "الـ{{conization}} علاج مو تقييم أولي لـ {{ASCUS}}"
+  },
+  "change": [
+   "لو {{HPV negative}} يعني {{co-testing in 3-5 years}}",
+   "لو {{HSIL}} يعني {{colposcopy directly}}"
+  ],
+  "rule": "الـ{{ASCUS}} نعمل {{HPV triage}} والـ{{positive}} نعمل {{colposcopy}}"
+ },
+ "A177": {
+  "idea": [
+   "سيدة {{49 years old, colposcopy shows CIN 3}}",
+   "فالعلاج {{excisional procedure (conization)}}"
+  ],
+  "clues": [
+   [
+    "الـ{{CIN 3}}",
+    "يعني {{high-grade precancer needs treatment}}"
+   ],
+   [
+    "الـ{{colposcopy}} طلع {{CIN 3}}",
+    "يعني {{excision not observation}}"
+   ]
+  ],
+  "why": [
+   "لأن {{CIN 3}} نعالجها بـ {{conization or LEEP}} عشان نشيل المنطقة ونفحص {{margins}}",
+   "و{{hysterectomy}} ما نعملها كعلاج أولي لـ {{CIN 3}}"
+  ],
+  "wrong": {
+   "1": "الـ{{hysterectomy}} غير مقبولة كعلاج أولي لـ {{CIN 3}} حسب {{UpToDate}}",
+   "2": "الـ{{HPV vaccine}} وقاية مو علاج لـ {{existing CIN 3}}",
+   "3": "الـ{{repeat colposcopy}} مناسبة لـ {{CIN 1}} مو {{CIN 3}}"
+  },
+  "change": [
+   "لو {{CIN 2 in young woman}} يعني ممكن {{observation}}",
+   "لو {{adenocarcinoma in situ}} يعني {{cold knife cone}}"
+  ],
+  "rule": "الـ{{CIN 2-3}} نعالج بـ {{excision}} مو {{hysterectomy}}"
+ },
+ "A178": {
+  "idea": [
+   "شابة {{32 years old nulligravid, HSIL, biopsy squamous cell carcinoma in situ}}",
+   "تبغى {{fertility preservation}} فـ {{cold knife cone}}"
+  ],
+  "clues": [
+   [
+    "الـ{{carcinoma in situ}}",
+    "يعني {{need accurate margin assessment}}"
+   ],
+   [
+    "تبغى الحمل",
+    "يعني {{fertility-sparing, no hysterectomy}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{cold knife cone}} يعطي عينة سليمة نقدر نقيّم منها {{margins}} والـ{{depth}}",
+   "وهو أفضل من {{LEEP}} في الـ{{carcinoma in situ}} حسب الملاحظة"
+  ],
+  "wrong": {
+   "0": "الـ{{cryotherapy}} ما تعطي {{tissue specimen}} فما تناسب {{CIS}}",
+   "1": "الـ{{simple hysterectomy}} تشيل الرحم وهي تبغى {{fertility}}",
+   "3": "الـ{{LEEP}} ممكن لـ {{CIN 3}} بس تتأثر {{margins}} بالحرارة فما نفضلها هنا"
+  },
+  "change": [
+   "لو ما تبغى {{fertility}} يعني ممكن {{simple hysterectomy}} بعد الـ{{cone}}",
+   "لو {{CIN 3 only}} يعني {{LEEP}} مقبولة"
+  ],
+  "rule": "الـ{{carcinoma in situ}} مع {{fertility}} نختار {{cold knife cone}}",
+  "note": "الجواب حسب مصدر البنك؛ كثير من الـ{{guidelines}} تقبل {{LEEP}} أو {{cone}} بشرط {{intact margins}}"
+ },
+ "A179": {
+  "idea": [
+   "سيدة {{50 years old, ASC-US}}",
+   "فالفحص التالي {{HPV testing}}"
+  ],
+  "clues": [
+   [
+    "الـ{{ASC-US}}",
+    "يعني {{reflex HPV triage}}"
+   ],
+   [
+    "عمرها {{50}}",
+    "يعني {{age 30-65, HPV triage appropriate}}"
+   ]
+  ],
+  "why": [
+   "لأن نفس مفهوم {{ASCUS}} فـ نعمل {{HPV testing}} أول شي",
+   "لو {{positive}} نعمل {{colposcopy}} ولو {{negative}} نكمل {{routine screening}}"
+  ],
+  "wrong": {
+   "0": "الـ{{repeat Pap}} بعد {{6 months}} مو الخيار الأفضل لأن {{HPV triage}} أدق",
+   "1": "الـ{{endometrial biopsy}} مو لـ {{ASC-US}} إلا لو {{atypical glandular cells}}",
+   "3": "الـ{{colposcopy}} مباشرة لا، بس لو {{HPV positive}}"
+  },
+  "change": [
+   "لو {{HPV positive}} يعني {{colposcopy}}",
+   "لو {{AGC}} يعني {{colposcopy + endometrial sampling}}"
+  ],
+  "rule": "الـ{{ASC-US}} نبدأ بـ {{HPV testing}}"
+ },
+ "A180": {
+  "idea": [
+   "شابة {{24 years old with abnormal Pap smear}}",
+   "فالخطوة {{colposcopy}}"
+  ],
+  "clues": [
+   [
+    "الـ{{abnormal Pap}} غير {{ASCUS}}",
+    "يعني {{colposcopy}}"
+   ],
+   [
+    "عمرها {{24}}",
+    "يعني {{ما ننتظر ولا نعيد الفحص}}"
+   ]
+  ],
+  "why": [
+   "لأن أي نتيجة غير طبيعية غير {{ASCUS}} نتابعها بـ {{colposcopy with biopsy}}",
+   "فـ ما نستنى ولا نعمل {{imaging}}"
+  ],
+  "wrong": {
+   "0": "الـ{{MRI}} ما لها دور في {{cervical screening}}",
+   "2": "الـ{{hysterectomy}} علاج جذري مو خطوة أولى",
+   "3": "الـ{{reevaluation in 3 months}} تأخير غير مناسب مع {{abnormal cytology}}"
+  },
+  "change": [
+   "لو النتيجة {{ASCUS}} يعني {{HPV testing}}",
+   "لو {{LSIL in age < 25}} يعني ممكن {{repeat cytology in 12 months}}"
+  ],
+  "rule": "أي {{abnormal Pap}} غير {{ASCUS}} نعمل {{colposcopy}}",
+  "note": "الـ{{stem}} ما حدد نوع الـ{{abnormality}}؛ لو كانت {{ASCUS}} كان الجواب {{HPV testing}}"
+ },
+ "A181": {
+  "idea": [
+   "سيدة {{41 years old, P4, post-coital bleeding 3 months}}",
+   "والفحص {{no cervical mass}} فـ {{Pap smear}}"
+  ],
+  "clues": [
+   [
+    "الـ{{post-coital bleeding}}",
+    "يعني {{cervical pathology until proven otherwise}}"
+   ],
+   [
+    "ما فيه {{mass}}",
+    "يعني {{Pap smear}} مو {{biopsy}}"
+   ]
+  ],
+  "why": [
+   "لأن سبب النزيف بعد الجماع غالباً من الـ{{cervix}} فـ نبدأ بـ {{Pap smear}} لو ما فيه {{visible mass}}",
+   "لو فيه {{mass}} نعمل {{biopsy}}"
+  ],
+  "wrong": {
+   "1": "الـ{{pelvic ultrasound}} ما تقيّم {{cervix}} للنزيف بعد الجماع",
+   "2": "الـ{{endometrial biopsy}} للنزيف الرحمي مو لـ {{post-coital}}",
+   "3": "الـ{{D&C}} إجراء غازي مو خطوة أولى"
+  },
+  "change": [
+   "لو فيه {{cervical mass}} يعني {{punch biopsy}}",
+   "لو {{pregnant with mass}} يعني {{Pap smear}} حسب البنك"
+  ],
+  "rule": "الـ{{post-coital bleeding}} بدون {{mass}} نعمل {{Pap smear}}"
+ },
+ "A182": {
+  "idea": [
+   "سيدة {{45 years old, post-coital bleeding, cervical mass 2*1 cm}}",
+   "فالجواب {{punch biopsy}}"
+  ],
+  "clues": [
+   [
+    "الـ{{visible cervical mass}}",
+    "يعني {{tissue diagnosis}}"
+   ],
+   [
+    "الـ{{post-coital bleeding}}",
+    "يعني {{suspect cervical cancer}}"
+   ]
+  ],
+  "why": [
+   "لأن لو شفنا {{mass}} على الـ{{cervix}} نأخذ {{punch biopsy}} للتشخيص النسيجي",
+   "وبعدها نقرر الـ{{staging}} والعلاج"
+  ],
+  "wrong": {
+   "0": "الـ{{Pap}} فحص {{screening}} وما يكفي مع {{visible mass}}",
+   "1": "الـ{{pelvic CT}} للـ{{staging}} بعد التشخيص",
+   "2": "الـ{{pelvic MRI}} للـ{{staging}} بعد الـ{{biopsy}}"
+  },
+  "change": [
+   "لو ما فيه {{mass}} يعني {{Pap smear}}",
+   "لو الـ{{biopsy}} {{positive}} يعني {{MRI staging}}"
+  ],
+  "rule": "الـ{{cervical mass}} يعني {{punch biopsy}}"
+ },
+ "A183": {
+  "idea": [
+   "سيدة {{50 years old, right ovarian mass, ascites, high epithelial tumor marker}}",
+   "فالـ{{staging}} يكون {{surgical}}"
+  ],
+  "clues": [
+   [
+    "الـ{{ovarian cancer suspected}}",
+    "يعني {{FIGO staging is surgical}}"
+   ],
+   [
+    "الـ{{ascites}} مع {{marker}} عالي",
+    "يعني {{advanced disease likely}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{ovarian cancer}} نعمل لها {{staging laparotomy}} مع {{TAH-BSO, omentectomy, peritoneal washings}}",
+   "والـ{{imaging}} والـ{{ascitic tap}} تساعد بس ما تحدد المرحلة النهائية"
+  ],
+  "wrong": {
+   "1": "الـ{{ascitic tapping}} يعطي {{cytology}} بس ما يحدد {{stage}}",
+   "2": "الـ{{US-guided biopsy}} ما نحبها لأنها ممكن {{spread the tumor}}",
+   "3": "الـ{{CT}} يساعد في {{pre-op assessment}} بس مو {{staging}} النهائي"
+  },
+  "change": [
+   "لو {{advanced disease}} يعني ممكن {{neoadjuvant chemotherapy}} ثم {{interval debulking}}",
+   "لو {{early disease}} يعني {{comprehensive surgical staging}}"
+  ],
+  "rule": "الـ{{ovarian cancer}} الـ{{staging}} تبعها {{surgical}}"
+ },
+ "A184": {
+  "idea": [
+   "سيدة {{25 years old, first HPV vaccine dose 3 months ago}}",
+   "فنكمل بالجرعة {{second dose today}}"
+  ],
+  "clues": [
+   [
+    "الـ{{first dose 3 months ago}}",
+    "يعني {{ما نعيد من الأول}}"
+   ],
+   [
+    "عمرها {{25}}",
+    "يعني {{3-dose series, dose 2 at 1-2 months}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{HPV vaccine}} ما نعيد الجرعة الأولى حتى لو تأخرنا، نكمل بس",
+   "الـ{{second dose}} تتعطى بعد {{1-2 months}} فهي متأخرة لكن نعطيها اليوم"
+  ],
+  "wrong": {
+   "0": "الـ{{repeat Pap}} مو مطلوب لقرار الـ{{vaccine}}",
+   "1": "الـ{{restarting the series}} غير ضروري، الجرعات المتأخرة تُحسب",
+   "3": "الـ{{wait 3 months then repeat}} خطأ لأن ما نعيد الجرعات"
+  },
+  "change": [
+   "لو عمرها {{< 15 at start}} يعني {{2-dose schedule}}",
+   "لو {{pregnant}} يعني {{postpone remaining doses}}"
+  ],
+  "rule": "الـ{{HPV vaccine}} الجرعة المتأخرة تُعطى ولا نعيد السلسلة"
+ },
+ "A185": {
+  "idea": [
+   "سيدة {{22 years old, annual visit, on OCP, no complaints}}",
+   "فالـ{{screening}} {{Pap smear}} لأنها فوق {{21}}"
+  ],
+  "clues": [
+   [
+    "الـ{{age 22}}",
+    "يعني {{cervical screening started at 21}}"
+   ],
+   [
+    "الـ{{no family history}}",
+    "يعني {{ما نحتاج mammogram}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{cervical cancer screening}} نبدأ فيه من عمر {{21}} بـ {{Pap smear every 3 years}}",
+   "والـ{{mammogram}} والـ{{colon screening}} لعمر أكبر"
+  ],
+  "wrong": {
+   "0": "الـ{{mammogram}} نبدأ فيه عادة بعد {{40-50}}",
+   "2": "الـ{{sigmoidoscopy}} للـ{{colon cancer}} بعد {{45-50}}",
+   "3": "الـ{{pelvic ultrasound}} ما هو {{screening test}} للسيدة {{asymptomatic}}"
+  },
+  "change": [
+   "لو عمرها {{19}} يعني {{no Pap yet}}",
+   "لو عمرها {{35}} يعني {{co-testing every 5 years}}"
+  ],
+  "rule": "الـ{{Pap smear}} نبدأ بعد عمر {{21}}"
+ },
+ "A186": {
+  "idea": [
+   "سيدة {{postmenopausal, cousin with ovarian cancer, no known genetic disease, asymptomatic}}",
+   "فنعمل {{counseling and symptom awareness}}"
+  ],
+  "clues": [
+   [
+    "الـ{{asymptomatic, average risk}}",
+    "يعني {{no screening test}}"
+   ],
+   [
+    "الـ{{cousin}} قريبة بعيدة",
+    "يعني {{not a high-risk family history}}"
+   ]
+  ],
+  "why": [
+   "لأن ما فيه {{effective screening}} لـ {{ovarian cancer}} للسيدات {{average risk}}",
+   "فـ نعمل {{counseling}} ونسأل عن الأعراض مثل {{bloating, pelvic pain}}"
+  ],
+  "wrong": {
+   "0": "الـ{{pelvic US}} ما تقلل {{mortality}} وتسبب {{false positives}}",
+   "1": "الـ{{CA125}} فقط لو {{known genetic disease}} حسب البنك",
+   "3": "الـ{{CEA}} مو {{ovarian screening}} وما هو {{genetic testing}}"
+  },
+  "change": [
+   "لو {{BRCA positive}} يعني {{CA125 + TVUS or risk-reducing salpingo-oophorectomy}}",
+   "لو {{genetic testing}} موجود بالخيارات يعني هو الأفضل"
+  ],
+  "rule": "الـ{{average risk}} ما نعمل {{ovarian screening}} بس {{counseling}}"
+ },
+ "A187": {
+  "idea": [
+   "شابة {{25 years old with known left ovarian cyst, 3 hours severe LLQ pain, nausea}}",
+   "والـ{{Doppler}} {{diminished flow}} فـ {{ovarian torsion}}"
+  ],
+  "clues": [
+   [
+    "الـ{{acute severe pain + nausea}}",
+    "يعني {{suspect torsion}}"
+   ],
+   [
+    "الـ{{diminished blood flow}}",
+    "يعني {{surgical emergency, laparoscopy}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{ovarian torsion}} نعالجها بـ {{laparoscopy with detorsion}} ونحافظ على المبيض",
+   "الـ{{cystectomy}} هنا هي الأقرب لجواب البنك"
+  ],
+  "wrong": {
+   "0": "الـ{{conservative management}} يخسّرنا المبيض",
+   "1": "الـ{{repeat US in 24 hours}} تأخير خطير",
+   "3": "الـ{{US-guided drainage}} ما تحل {{torsion}}"
+  },
+  "change": [
+   "لو {{normal Doppler}} يعني ما نستبعد {{torsion}} لو الأعراض قوية",
+   "لو {{necrotic ovary}} يعني ممكن {{oophorectomy}}"
+  ],
+  "rule": "الـ{{torsion}} الحل {{laparoscopy}} بسرعة",
+  "note": "الجواب {{cystectomy}} أقل دقة؛ الأدق {{laparoscopic detorsion}} وقد تُضاف {{cystectomy}}"
+ },
+ "A188": {
+  "idea": [
+   "حامل {{9 weeks, dull pelvic pain, ovarian cyst 4 cm}}",
+   "فالجواب {{observation}}"
+  ],
+  "clues": [
+   [
+    "الـ{{cyst early in pregnancy}}",
+    "يعني {{likely corpus luteum, observe}}"
+   ],
+   [
+    "الـ{{pain dull, not acute}}",
+    "يعني {{no torsion signs}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{functional cyst}} في بداية الحمل غالباً تزول لوحدها فـ {{observation}}",
+   "وهذا حسب البنك مجرد {{memorization rule}}"
+  ],
+  "wrong": {
+   "0": "الـ{{aspiration}} ما نحتاجها وممكن ترجع",
+   "1": "الـ{{laparotomy}} كبيرة بلا داعي",
+   "3": "الـ{{laparoscopy}} فقط لو {{torsion or suspicious}}"
+  },
+  "change": [
+   "لو {{acute pain with torsion}} يعني {{laparoscopy}}",
+   "لو {{cyst > 10 cm or complex}} يعني {{surgery in second trimester}}"
+  ],
+  "rule": "الـ{{cyst}} في بداية الحمل نعمل {{observation}}",
+  "note": "الجواب المعطى {{observation}} وهو يعتمد على الحفظ حسب البنك؛ والـ{{stem}} يشير لأنه {{Probably Confirmed}}"
+ },
+ "A189": {
+  "idea": [
+   "سيدة {{21 years old primigravida 40 weeks, breech, cesarean, right ovarian cyst 5 cm}}",
+   "فنعمل {{cystectomy}} أثناء العملية"
+  ],
+  "clues": [
+   [
+    "الـ{{cyst found during C-section}}",
+    "يعني {{remove it if accessible}}"
+   ],
+   [
+    "الـ{{5 cm}}",
+    "يعني {{bigger than functional size}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{cyst}} في آخر الحمل نشيلها بـ {{cystectomy}} ونحافظ على المبيض",
+   "ونرسلها لـ {{histopathology}}"
+  ],
+  "wrong": {
+   "1": "الـ{{oophorectomy}} تضحية بمبيض عندها عمر صغير",
+   "2": "الـ{{no intervention}} ممكن نفوّت {{pathology}}",
+   "3": "الـ{{squeeze and rupture}} خطأ لأنه ممكن يسبب {{spillage and infection}}"
+  },
+  "change": [
+   "لو {{suspicious for malignancy}} يعني {{frozen section / gyn-onc}}",
+   "لو {{simple small cyst}} يعني ممكن {{observe}}"
+  ],
+  "rule": "الـ{{cyst}} أثناء {{C-section}} نعمل {{cystectomy}}",
+  "note": "الـ{{stem}} من {{recall}} وغير مدعوم بدليل قوي؛ الجواب حسب البنك"
+ },
+ "A190": {
+  "idea": [
+   "شابة {{20 years old asymptomatic, incidental simple right adnexal cyst 5 cm}}",
+   "فنتابع بـ {{reassess in 6 to 8 weeks}}"
+  ],
+  "clues": [
+   [
+    "الـ{{simple cyst}}",
+    "يعني {{benign, functional likely}}"
+   ],
+   [
+    "الـ{{asymptomatic}}",
+    "يعني {{no surgery}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{simple cyst}} في سيدة صغيرة غالباً {{functional}} وتزول لوحدها",
+   "فنعيد {{ultrasound}} بعد {{6-8 weeks}}"
+  ],
+  "wrong": {
+   "0": "الـ{{cystectomy}} لو بقت أو كبرت أو صارت {{symptomatic}}",
+   "1": "الـ{{oophorectomy}} مو مناسبة لـ {{benign simple cyst}}",
+   "3": "الـ{{gyn-onc referral}} للـ{{complex mass}} مو {{simple}}"
+  },
+  "change": [
+   "لو {{complex mass}} يعني {{refer to gyn-onc}}",
+   "لو {{persistent after 3 cycles}} يعني {{consider cystectomy}}"
+  ],
+  "rule": "الـ{{simple cyst}} نتابع بـ {{repeat ultrasound}}"
+ },
+ "A191": {
+  "idea": [
+   "سيدة {{76 years old, 1 week abdominal pain, multiloculated solid complex adnexal mass 6 cm}}",
+   "فالجواب {{consult gynecologic oncology}}"
+  ],
+  "clues": [
+   [
+    "الـ{{postmenopausal}} مع {{solid multiloculated mass}}",
+    "يعني {{high suspicion of malignancy}}"
+   ],
+   [
+    "الـ{{complex solid mass}}",
+    "يعني {{gyn-onc referral}}"
+   ]
+  ],
+  "why": [
+   "لأن الكتلة المشبوهة في سن اليأس يديرها {{gynecologic oncologist}}",
+   "وفيها {{surgical staging}} لو ثبت {{cancer}}"
+  ],
+  "wrong": {
+   "0": "الـ{{cystectomy}} ممكن ينتشر {{tumor spillage}}",
+   "1": "الـ{{oophorectomy}} وحدها ما تكفي لـ {{staging}}",
+   "3": "الـ{{TAH-BSO}} الأفضل يسويها {{gyn-onc}} بعد التقييم"
+  },
+  "change": [
+   "لو {{premenopausal simple cyst}} يعني {{observe}}",
+   "لو {{CA125 high}} يعني {{urgent gyn-onc referral}}"
+  ],
+  "rule": "الـ{{solid complex mass}} في سن اليأس نحول {{gyn-onc}}",
+  "note": "الـ{{stem}} ذكر {{lab result and report}} ما نشوفها؛ الجواب حسب البنك {{Probably Confirmed}}"
+ },
+ "A192": {
+  "idea": [
+   "شابة {{20 years old, 3 months lower abdominal pain, multiloculated solid right adnexal mass 6 cm}}",
+   "فالجواب {{cystectomy}}"
+  ],
+  "clues": [
+   [
+    "الـ{{young woman}} مع {{complex mass}}",
+    "يعني {{ovary-sparing surgery}}"
+   ],
+   [
+    "الـ{{persistent pain 3 months}}",
+    "يعني {{no observation}}"
+   ]
+  ],
+  "why": [
+   "لأن الكتلة المعقدة نشيلها بـ {{cystectomy}} ونحافظ على المبيض والـ{{fertility}}",
+   "ونرسلها لـ {{histopathology}} وقد تكون {{germ cell tumor or teratoma}}"
+  ],
+  "wrong": {
+   "1": "الـ{{oophorectomy}} تضحية بالمبيض عند شابة",
+   "2": "الـ{{review in 6 months}} تأخير لكتلة معقدة",
+   "3": "الـ{{US-guided aspiration}} ما تناسب {{solid mass}} وخطر {{spillage}}"
+  },
+  "change": [
+   "لو {{tumor markers markedly high}} يعني {{gyn-onc referral}}",
+   "لو {{simple cyst}} يعني {{observation}}"
+  ],
+  "rule": "الـ{{complex mass}} في شابة نعمل {{cystectomy}} نحفظ المبيض",
+  "note": "الـ{{lab result and report}} ما نشوفها؛ والـ{{gyn-onc}} ممكن تكون خيار لو كانت مشبوهة"
+ },
+ "A193": {
+  "idea": [
+   "سيدة {{60 years old, weight loss, anorexia, multiloculated solid right adnexal mass}}",
+   "فالأهم {{CA-125}}"
+  ],
+  "clues": [
+   [
+    "الـ{{postmenopausal solid adnexal mass}}",
+    "يعني {{suspect epithelial ovarian cancer}}"
+   ],
+   [
+    "الـ{{weight loss and anorexia}}",
+    "يعني {{malignancy symptoms}}"
+   ]
+  ],
+  "why": [
+   "لأن أشهر مؤشر لـ {{epithelial ovarian cancer}} هو {{CA-125}}",
+   "ونستخدمه في {{work-up and follow-up}}"
+  ],
+  "wrong": {
+   "0": "الـ{{inhibin}} لـ {{granulosa cell tumor}}",
+   "1": "الـ{{B-HCG}} لـ {{choriocarcinoma / germ cell tumors}}",
+   "3": "الـ{{alpha fetoprotein}} لـ {{yolk sac tumor}}"
+  },
+  "change": [
+   "لو {{young woman}} يعني {{AFP, hCG, LDH}}",
+   "لو {{mucinous}} يعني {{CEA and CA19-9}}"
+  ],
+  "rule": "مؤشر {{epithelial ovarian cancer}} هو {{CA-125}}"
+ },
+ "A194": {
+  "idea": [
+   "سيدة {{65 years old, acute abdominal pain increasing, solitary cystic complex right adnexal mass}}",
+   "فالخطوة التالية {{pelvic MRI}}"
+  ],
+  "clues": [
+   [
+    "الـ{{complex adnexal mass}}",
+    "يعني {{needs better characterization}}"
+   ],
+   [
+    "الـ{{ultrasound indeterminate}}",
+    "يعني {{MRI before surgery}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{MRI}} أدق من الـ{{tumor markers}} لتحديد طبيعة الكتلة",
+   "وبعدها نقرر {{surgery or referral}}"
+  ],
+  "wrong": {
+   "1": "الـ{{observation}} ما تناسب كتلة معقدة مع ألم متزايد",
+   "2": "الـ{{laparotomy}} قبل تقييم كامل ممكن يكون مبكر",
+   "3": "الـ{{tumor markers}} أقل فائدة من {{MRI}} حسب الملاحظة"
+  },
+  "change": [
+   "لو {{signs of torsion}} يعني {{emergency laparoscopy}}",
+   "لو {{high suspicion for cancer}} يعني {{gyn-onc referral}}"
+  ],
+  "rule": "الـ{{indeterminate complex mass}} نعمل {{pelvic MRI}}",
+  "note": "الجواب {{MRI}} حسب البنك؛ مع ألم حاد قد تكون {{torsion or rupture}} وتحتاج تدخل عاجل"
+ },
+ "A195": {
+  "idea": [
+   "سيدة {{39 years old, P3 family complete, prior endometrioma, now 6X7 cm left endometriotic cyst with dysmenorrhea and dyspareunia}}",
+   "فنعمل {{laparoscopic cystectomy with ablation}}"
+  ],
+  "clues": [
+   [
+    "الـ{{symptomatic endometrioma > 5 cm}}",
+    "يعني {{surgical removal}}"
+   ],
+   [
+    "الـ{{recurrent disease}}",
+    "يعني {{excision plus ablation of implants}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{endometrioma}} الأعراض فيه وأكبر من {{5 cm}} نشيله بـ {{laparoscopy}}",
+   "ونعمل {{ablation}} لأي {{endometriotic spots}}"
+  ],
+  "wrong": {
+   "0": "الـ{{waiting until 10 cm}} غير مناسب مع الأعراض",
+   "1": "الـ{{aspiration}} تعود الكيسة بعدها",
+   "2": "الـ{{TAH-BSO}} جذري ومبالغ فيه كخطوة أولى"
+  },
+  "change": [
+   "لو {{no symptoms and < 5 cm}} يعني {{observation}}",
+   "لو {{failed repeated surgery and family complete}} يعني ممكن {{hysterectomy}}"
+  ],
+  "rule": "الـ{{symptomatic endometrioma > 5 cm}} نعمل {{laparoscopic excision}}"
+ },
+ "A196": {
+  "idea": [
+   "شابة {{25 years old, asymptomatic 5-cm left adnexal mass, LMP 2 weeks ago, negative pregnancy test}}",
+   "فالتشخيص {{follicular cyst}}"
+  ],
+  "clues": [
+   [
+    "الـ{{LMP 2 weeks ago}}",
+    "يعني {{mid-cycle, follicular phase}}"
+   ],
+   [
+    "الـ{{asymptomatic, negative hCG}}",
+    "يعني {{functional cyst, not ectopic}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{follicular cyst}} شائعة وتصير في أول الدورة وبدون أعراض",
+   "وغالباً تزول لوحدها بعد {{6-8 weeks}}"
+  ],
+  "wrong": {
+   "1": "الـ{{pelvic kidney}} نادرة ولا تفسر كتلة مبيضية",
+   "2": "الـ{{ectopic pregnancy}} مستبعدة لأن الـ{{pregnancy test}} {{negative}}",
+   "3": "الـ{{corpus luteal cyst}} تصير بعد الإباضة وغالباً مع تأخر الدورة"
+  },
+  "change": [
+   "لو {{LMP 5 weeks ago + positive hCG}} يعني {{corpus luteum or ectopic}}",
+   "لو {{persistent beyond 3 cycles}} يعني {{reassess}}"
+  ],
+  "rule": "الـ{{asymptomatic adnexal cyst}} وسط الدورة غالباً {{follicular cyst}}"
+ },
+ "A197": {
+  "idea": [
+   "سيدة {{30 years old after ovarian cystectomy, thick fatty material leaked}}",
+   "فهذا {{cystic teratoma}}"
+  ],
+  "clues": [
+   [
+    "الـ{{thick fatty material}}",
+    "يعني {{sebaceous content, dermoid}}"
+   ],
+   [
+    "الـ{{cystectomy}} وبعدها {{leak}}",
+    "يعني {{mature cystic teratoma}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{dermoid cyst}} فيها {{sebum, hair, teeth}} من {{ectoderm, mesoderm, endoderm}}",
+   "وهي أشهر {{ovarian germ cell tumor}} عند الشابات"
+  ],
+  "wrong": {
+   "0": "الـ{{fibroma}} صلب {{solid}} وما فيه دهون",
+   "1": "الـ{{thecoma}} صلب ويفرز {{estrogen}}",
+   "3": "الـ{{granulosa cell tumor}} ينتج {{estrogen}} وما فيه محتوى دهني"
+  },
+  "change": [
+   "لو {{thyroid tissue}} يعني {{struma ovarii}}",
+   "لو {{immature elements}} يعني {{immature teratoma}}"
+  ],
+  "rule": "الـ{{fatty material}} في كيسة المبيض يعني {{cystic teratoma}}"
+ },
+ "A198": {
+  "idea": [
+   "سيدة {{60 years old, lower abdominal discomfort, mild distension, solid irregular right adnexal mass}}",
+   "فنطلب {{CA 125}}"
+  ],
+  "clues": [
+   [
+    "الـ{{postmenopausal solid irregular mass}}",
+    "يعني {{suspect epithelial ovarian cancer}}"
+   ],
+   [
+    "الـ{{distension and discomfort}}",
+    "يعني {{ovarian cancer symptoms}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{CA 125}} هو الـ{{tumor marker}} الأساسي لـ {{epithelial ovarian cancer}}",
+   "ونستخدمه للتقييم والمتابعة"
+  ],
+  "wrong": {
+   "1": "الـ{{CEA}} أكثر لـ {{colorectal cancer}} و{{mucinous tumors}} وما هو الأول هنا"
+  },
+  "change": [
+   "لو {{young woman}} يعني {{AFP, hCG, LDH}}",
+   "لو {{mucinous}} يعني {{CEA}} ممكن يفيد"
+  ],
+  "rule": "مؤشر {{ovarian epithelial cancer}} هو {{CA 125}}"
+ },
+ "A199": {
+  "idea": [
+   "بنت {{19 years old, primary amenorrhea, no secondary sexual characteristics}}",
+   "فالتشخيص {{gonadal dysgenesis}}"
+  ],
+  "clues": [
+   [
+    "الـ{{no breast development}}",
+    "يعني {{low estrogen, gonadal failure}}"
+   ],
+   [
+    "الـ{{primary amenorrhea}}",
+    "يعني {{Turner syndrome likely}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{gonadal dysgenesis}} المبيض ما يفرز {{estrogen}} فما فيه {{breast development}}",
+   "والـ{{FSH}} يكون {{high (hypergonadotropic hypogonadism)}}"
+  ],
+  "wrong": {
+   "0": "الـ{{pituitary failure}} ممكن بس أقل شيوعاً وتكون {{FSH low}}",
+   "1": "الـ{{Mullerian agenesis}} فيها {{normal breast}} و{{normal secondary characteristics}}",
+   "2": "الـ{{vaginal agenesis}} كمان فيها {{normal breast}}"
+  },
+  "change": [
+   "لو {{normal breast and absent uterus}} يعني {{Mullerian agenesis}}",
+   "لو {{FSH low}} يعني {{hypothalamic or pituitary cause}}"
+  ],
+  "rule": "الـ{{primary amenorrhea}} بدون {{breast}} يعني {{gonadal dysgenesis}}",
+  "note": "الجواب حسب البنك؛ والـ{{stem}} ما ذكر {{karyotype}}"
+ },
+ "A200": {
+  "idea": [
+   "بنت {{19 years old, never menstruated, normal breast}}",
+   "فالتشخيص {{Mullerian agenesis (MRKH)}}"
+  ],
+  "clues": [
+   [
+    "الـ{{normal breast}}",
+    "يعني {{ovarian function normal}}"
+   ],
+   [
+    "الـ{{primary amenorrhea}}",
+    "يعني {{absent uterus or vagina}}"
+   ]
+  ],
+  "why": [
+   "لأن الـ{{MRKH syndrome}} المبايض طبيعية فـ {{secondary sexual characteristics}} طبيعية",
+   "بس الرحم والجزء العلوي من المهبل ما تكوّن"
+  ],
+  "wrong": {
+   "1": "الـ{{vaginal agenesis}} قريبة من {{Mullerian agenesis}} لكن الجواب المطلوب في البنك {{Mullerian agenesis}} {{MRKH}}",
+   "2": "الـ{{pituitary hormone deficiency}} غالباً مع {{no breast development}}",
+   "3": "الـ{{gonadal dysgenesis}} بدون {{breast development}}"
+  },
+  "change": [
+   "لو {{no breast}} يعني {{gonadal dysgenesis}}",
+   "لو {{46 XY with normal breast}} يعني {{androgen insensitivity}}"
+  ],
+  "rule": "الـ{{normal breast}} مع {{primary amenorrhea}} يعني {{MRKH}}"
+ }
+}
