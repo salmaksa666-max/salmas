@@ -1,0 +1,427 @@
+{
+ "A201": {
+  "bg": [
+   "الـ{{primary amenorrhea}} يعني بنت وصلت {{15 years}} (أو {{13 years}} بدون تطور ثانوي) وما جتها دورة أبداً. أول شي نسأل: هل {{secondary sexual characteristics}} طبيعية؟ هل {{uterus}} موجود؟",
+   "الدورة تحتاج أربع أشياء شغالة: {{hypothalamus}} و{{pituitary}} و{{ovary}} و{{uterus with patent outflow tract}}. لو واحد منها خربان ما تجي الدورة.",
+   "في {{MRKH syndrome}} الـ{{ovaries}} طبيعية والـ{{karyotype}} هو {{46,XX}}، بس الـ{{Mullerian ducts}} ما تكونت فـ ما في {{uterus}} ولا {{upper vagina}}. لأن المبيض شغال يطلع {{estrogen}} طبيعي فـ البنت عندها {{breasts}} و{{pubic hair}} طبيعي.",
+   "في {{complete androgen insensitivity}} الكاريوتايب {{46,XY}} والخصية تطلع {{testosterone}} عالي، بس المستقبلات ما تستجيب. النتيجة بنت شكلها أنثوي مع {{breasts}} بس {{scant or absent pubic and axillary hair}} و{{high testosterone}}.",
+   "الفرق الذهبي بين الاثنين هو الـ{{testosterone}} والشعر: {{normal testosterone + normal pubic hair}} يعني {{MRKH}}، و{{high testosterone + sparse hair}} يعني {{CAIS}}."
+  ],
+  "steps": [
+   "أول شي نحدد إنها {{primary amenorrhea}} مع {{normal breast development}} يعني الـ{{estrogen}} موجود.",
+   "ثاني شي نشوف الـ{{pubic hair}} والـ{{testosterone}}: طبيعي يعني مو {{androgen insensitivity}}، فنشطب الخيار B.",
+   "ثالث شي نسأل نفسنا: وش اللي ناقص؟ الـ{{outflow tract}} (الرحم) فقط، وهذا يوافق {{Mullerian agenesis}} فقط.",
+   "الخيار C وهو {{congenital hypothyroidism}} ما يعطي هذا الشكل ولا يسبب غياب الرحم، فنشطبه."
+  ],
+  "tip": "الـ{{MRKH}} يعني بنت طبيعية من برا، بس الرحم مو موجود: {{normal breasts + normal hair + normal testosterone}}.",
+  "pitfall": "البنك يقول لا تحفظ الاسم، بس تعرّف على الشكل. الـ{{high testosterone}} هو اللي يوديك لـ{{CAIS}}، ولو ما ذكره السؤال فـ لا تروح له."
+ },
+ "A202": {
+  "bg": [
+   "الـ{{secondary amenorrhea}} يعني كانت عندها دورة ثم وقفت {{3 months}} أو أكثر (لو كانت دورتها منتظمة). أول سبب لازم نستبعده دايماً هو {{pregnancy}}.",
+   "الـ{{Premature ovarian insufficiency (POI)}} يعني المبيض يوقف شغله قبل عمر {{40 years}}: الـ{{follicles}} تخلص أو ما تستجيب، فـ ينزل الـ{{estrogen}} وما يعود يضغط على الـ{{pituitary}}.",
+   "لأن الـ{{negative feedback}} راح، الـ{{FSH}} والـ{{LH}} يطلعون عاليين (ما يزالون يحاولون يحفزون مبيض ما يرد). فـ النمط هو {{high FSH + high LH + low estrogen}}، وهذا هو {{hypergonadotropic hypogonadism}}.",
+   "قارن مع الأسباب الثانية: {{hyperprolactinemia}} يعطي {{low LH and FSH}}، و{{PCOS}} يعطي {{normal LH/FSH}} مع {{high LH:FSH ratio}} وعلامات {{hyperandrogenism}}، و{{Asherman syndrome}} يجي بعد {{D&C}} مع هرمونات طبيعية.",
+   "الـ{{ovarian tumor}} نادراً يوقف الدورة بهذا النمط، والتشخيص الأساسي للـ{{POI}} هو {{FSH > 25-40 IU/L}} على فحصين بينهم {{4 weeks}}."
+  ],
+  "steps": [
+   "اقرأ الـ{{labs}} المخفية: {{high LH and FSH}} مع {{low estrogen}} يعني المشكلة في المبيض نفسه.",
+   "اسأل: هل في {{D&C}} سابق؟ لو ما في فنشطب {{Asherman}}. هل في علامات {{hirsutism/obesity}}؟ لو ما في فنشطب {{PCOS}}.",
+   "الـ{{PCOS}} هرموناته {{normal FSH}}، فـ ما يتوافق مع {{high FSH}}.",
+   "الباقي {{POI}} هو الجواب، وعمرها {{26 years}} يدعم لأنه أقل من {{40 years}}."
+  ],
+  "tip": "الـ{{FSH}} العالي مع {{low estrogen}} يعني المبيض فشل، والـ{{FSH}} الواطي يعني المشكلة فوق في الـ{{pituitary/hypothalamus}}.",
+  "pitfall": "لا تنسى إن {{pregnancy test}} أول خطوة في أي {{secondary amenorrhea}}، بس هنا السؤال يعطيك {{labs}} فـ تروح للتشخيص مباشرة."
+ },
+ "A203": {
+  "bg": [
+   "الـ{{obesity}} تُصنف بالـ{{BMI}}: {{30-34.9}} هو {{class I}}، و{{35-39.9}} هو {{class II}}، و{{>= 40}} هو {{class III (morbid obesity)}}. المريضة هنا عندها {{BMI 47}} يعني {{class III}}.",
+   "السمنة تأثر على الخصوبة لأن الدهون تحول {{androgens}} إلى {{estrogen}} وتزيد {{insulin resistance}}، فـ يختل الـ{{ovulation}}. حتى لو الدورة منتظمة، ما يعني إن في {{ovulation}} حقيقي (ممكن {{PCOS}} مع دورة منتظمة وعقم).",
+   "خسارة {{5-10%}} من الوزن تحسن الـ{{ovulation}} والحمل، بس مع {{BMI >= 40}} الـ{{lifestyle modification}} لوحدها غالباً ما توصل لوزن كافي.",
+   "الـ{{bariatric surgery}} تُعتبر خيار للـ{{BMI >= 40}} أو {{>= 35}} مع مضاعفات، وتعطي خسارة وزن أكبر وأثبت. بعد العملية ننتظر حوالي {{12-18 months}} قبل الحمل.",
+   "الأدوية مثل {{semaglutide}} ما تُعطى لو تخطط للحمل، لأنها ما تُستخدم أثناء {{pregnancy}} ولازم توقف قبلها."
+  ],
+  "steps": [
+   "أول شي احسب الـ{{BMI}} وصنفه: {{47}} يعني {{class III obesity}}.",
+   "ثاني شي اسأل: هل في خيار {{bariatric surgery}}؟ مع {{BMI >= 40}} هو الأقوى حسب البنك.",
+   "نستبعد {{observation}} لأن ما تفيد المريضة، وعمرها {{46 years}} والوقت ضيق.",
+   "نستبعد {{semaglutide}} لأنها تخطط للحمل، ونرى {{lifestyle}} كجزء من الخطة بس مو كافي لوحدها حسب مصدر البنك."
+  ],
+  "tip": "الـ{{BMI >= 40}} مع عقم يعني {{bariatric surgery}}، والـ{{lifestyle}} للـ{{BMI}} الأقل.",
+  "pitfall": "سؤال ثاني نفس الفكرة يجي بصيغ مختلفة، والبنك يقول الدورة المنتظمة ما تغير الجواب. الـ{{lifestyle}} فعلاً تظل خطوة أولى في الواقع، بس البنك يفضل الجراحة هنا."
+ },
+ "A204": {
+  "bg": [
+   "هذا نفس موضوع {{obesity and infertility}}: السيدة عمرها {{36 years}} وعندها {{BMI 48}}، يعني {{class III obesity}} (أعلى من {{40}}).",
+   "السمنة الشديدة تقلل الخصوبة وترفع مخاطر الحمل مثل {{gestational diabetes}} و{{preeclampsia}} و{{stillbirth}} و{{cesarean delivery}}، فـ نبغى ننزل الوزن قبل الحمل.",
+   "الـ{{lifestyle modification with calorie deficit}} هي الأساس لأي سمنة، بس في الـ{{BMI >= 40}} النتائج غالباً بسيطة ومؤقتة، ولهذا نعتبر الـ{{bariatric surgery}} الأنسب لخسارة وزن كبيرة ومستمرة.",
+   "الـ{{GLP-1 agonists}} مثل {{semaglutide}} ما تُعطى لو تحاول تحمل، لأنها تُوقف قبل الحمل بفترة ولا تُستخدم في {{pregnancy}}.",
+   "السيدة عمرها {{36 years}} فالوقت ما يسمح بتجارب طويلة، وهذا يميل لخيار الجراحة."
+  ],
+  "steps": [
+   "اقرأ الـ{{BMI}}: {{48}} يعني {{class III}}، فـ نفكر في الجراحة قبل أي شي.",
+   "اسأل هل تبغى تحمل؟ نعم، فـ نشطب {{GLP-1 injection}}.",
+   "الخيار C وهو {{lifestyle}} مقبول كخطوة مساندة، بس البنك يعطي الجواب {{bariatric surgery}} مع الـ{{BMI}} العالي.",
+   "اختر B لأنه الأقوى لخسارة وزن كبيرة قبل الحمل."
+  ],
+  "tip": "الـ{{BMI}} فوق {{40}} مع رغبة في الحمل: {{bariatric surgery}}، لا {{GLP-1}} ولا {{lifestyle}} لوحده.",
+  "pitfall": "سؤال البنك مكتوب بصيغة غريبة وهي {{health strategy}}. الواقع الإكلينيكي أن {{lifestyle}} تبدأ أول، بس هنا اختار البنك الجراحة."
+ },
+ "A205": {
+  "bg": [
+   "السمنة تقلل الخصوبة لأنها تغير الهرمونات ({{insulin resistance}} و{{high androgens}} و{{peripheral estrogen}}) فـ يختل الـ{{ovulation}}، وتزيد مخاطر الحمل نفسه.",
+   "المريضة هنا {{BMI 41}} يعني {{class III obesity}} (حد الـ{{class III}} هو {{>= 40}}).",
+   "هذا السؤال يجي بصيغ كثيرة: {{health strategy}} و{{most appropriate management}} و{{initial advice}} و{{healthy way to lose weight}}، والبنك في كلها يميل للجراحة مع الـ{{BMI}} العالي.",
+   "الـ{{lifestyle and exercise}} تظل مهمة قبل الجراحة وبعدها، بس البنك هنا يعتبر {{bariatric surgery}} هو الجواب المطلوب.",
+   "خيار {{protein}} ما له معنى كعلاج للسمنة أو للعقم، فـ نستبعده."
+  ],
+  "steps": [
+   "احسب أو اقرأ الـ{{BMI}}: {{41}} يعني {{>= 40}}.",
+   "استبعد {{protein}} لأنه ما يعالج السمنة.",
+   "قارن {{lifestyle}} مع {{bariatric surgery}}: مع {{class III}} البنك يفضل الجراحة.",
+   "انتبه لكلمة {{initial}} في السؤال: بعض الأسئلة تقصد {{lifestyle}} أولاً، بس مصدر البنك يختار A (وهو يقول إنه مو متأكد 100%)."
+  ],
+  "tip": "الـ{{BMI >= 40}} يعني {{bariatric surgery}}، حتى لو كتب السؤال {{initial}}.",
+  "pitfall": "مصدر البنك نفسه معترف إن الجواب غير مؤكد: عملياً الـ{{lifestyle}} هي الخطوة الأولى حتى تجهز الجراحة. اتبع جواب البنك بس افهم الفكرة."
+ },
+ "A206": {
+  "bg": [
+   "الـ{{amenorrhea}} يعني غياب الدورة. الأسباب كثيرة: حمل، أو اضطراب هرموني مثل {{thyroid}} و{{prolactin}} و{{PCOS}}، أو مشكلة في المبيض مثل {{POI}}، أو مشكلة في الرحم مثل {{Asherman}}.",
+   "من بين كل هذي الأسباب، أشهر وأسهل سبب هو {{pregnancy}}، خاصة عند امرأة في سن الإنجاب انقطعت دورتها {{6 weeks}}.",
+   "قاعدة ذهبية في الـ{{OB/GYN}}: أي {{menstrual irregularity}} أو {{abnormal uterine bleeding}} نبدأ فيها بـ{{pregnancy test}} (غالباً {{urine hCG}})، لأنها رخيصة وسريعة وتغير كل الخطة.",
+   "بعد ما نستبعد الحمل نكمل بفحوصات ثانية: {{TSH}} و{{prolactin}} و{{FSH}} و{{pelvic ultrasound}} حسب القصة.",
+   "لو بدأنا بالـ{{FSH}} أو الـ{{ultrasound}} وكانت حامل، نكون ضيعنا وقت أو أعطينا علاج خطأ."
+  ],
+  "steps": [
+   "اقرأ السؤال: هل هي في سن الإنجاب؟ نعم.",
+   "كلمة {{initial test}} يعني أول خطوة، فـ نفكر في أسهل وأهم سبب.",
+   "نستبعد {{TSH}} و{{FSH}} و{{ultrasound}} لأنها تجي بعد استبعاد الحمل.",
+   "اختر {{pregnancy test}}."
+  ],
+  "tip": "الـ{{amenorrhea}} أو أي {{AUB}} يعني أول خطوة {{pregnancy test}}، دايماً.",
+  "pitfall": "لا تنخدع بخيارات تبدو أذكى ({{FSH}} و{{TSH}}). الجواب الأبسط يكسب لما السؤال يقول {{initial}}."
+ },
+ "A207": {
+  "bg": [
+   "الـ{{pregnancy}} حالة {{hypercoagulable}}: ترتفع {{clotting factors}} وتنزل {{protein S}} ويقل رجوع الدم من الأرجل بسبب ضغط الرحم. فـ خطر الـ{{VTE}} (جلطة الأوردة العميقة والرئة) أعلى بحوالي {{4-5}} مرات.",
+   "الـ{{cesarean section}} يزيد الخطر أكثر، وهنا نتكلم عن خطر الـ{{postpartum period}} خصوصاً.",
+   "نقيّم الخطر بعوامل: {{age > 35}} و{{BMI >= 30}} و{{cesarean}} و{{previous VTE}} و{{thrombophilia}} و{{immobility}} و{{multiple pregnancy}} وغيرها. كل ما زادت العوامل زاد احتمال إعطاء {{LMWH}}.",
+   "الـ{{LMWH}} مثل {{enoxaparin}} هو الدواء المفضل في الحمل لأنه ما يعبر {{placenta}} ولا يسبب {{teratogenicity}}. أما {{warfarin}} فـ ممنوع في الحمل (خصوصاً أول {{trimester}}).",
+   "في سؤالنا: عمرها {{45 years}} و{{BMI 31}} و{{elective C/S}}، يعني أكثر من عامل خطر، فـ تحتاج {{LMWH}} مع {{compression stockings}}."
+  ],
+  "steps": [
+   "عدد عوامل الخطر: {{age > 35}} و{{BMI > 30}} و{{cesarean}}.",
+   "اسأل: هل الخطر متوسط أو عالي؟ مع {{C/S}} وعوامل أخرى نعطي {{LMWH}}.",
+   "نستبعد {{aspirin}} لأنها ما تُعتبر {{VTE prophylaxis}} كافية.",
+   "نستبعد {{vitamins only}} و{{early ambulation}} لأنها لا تكفي مع خطر عالي."
+  ],
+  "tip": "الـ{{obesity + C-section}} يعني {{heparin}} من نوع {{LMWH}}، مع {{compression socks}}.",
+  "pitfall": "الـ{{aspirin}} أو {{ambulation}} لوحدها فخ، لأنها تبدو خفيفة ولطيفة بس ما تغطي الخطر."
+ },
+ "A208": {
+  "bg": [
+   "الـ{{VTE prophylaxis}} في الحمل يعتمد على عدد عوامل الخطر، مو على عامل واحد: {{age > 35}} وحدها أو {{BMI 30}} وحدها غالباً ما تكفي لإعطاء {{LMWH}} إذا الولادة طبيعية.",
+   "عوامل الخطر الكبرى اللي تغير القرار: {{previous VTE}} و{{thrombophilia}} و{{BMI >= 40}} وهو {{class III}} و{{cesarean}} و{{immobilization}} و{{multiple risk factors}}.",
+   "المريضة هنا {{primigravida}} عمرها {{40 years}} و{{BMI 31}} بدون تاريخ جلطات وبدون {{C-section}}، يعني عندها عاملين بسيطين فقط.",
+   "في هذه الحالة تكفي الإجراءات العامة: {{early ambulation}} و{{hydration}} وتجنب الجلوس الطويل، بدون {{LMWH}} أو {{aspirin}}.",
+   "ملاحظة: بعض الإرشادات (مثل {{RCOG}}) ممكن تقترح {{LMWH}} بعد الولادة لمن عندها {{age > 35}} و{{BMI >= 30}}، بس البنك يختار الحركة المبكرة."
+  ],
+  "steps": [
+   "حدد هل في {{C-section}}؟ لا.",
+   "هل في {{previous DVT}} أو {{thrombophilia}}؟ لا.",
+   "هل الـ{{BMI}} {{>= 40}}؟ لا، هي {{31}}.",
+   "فـ نستبعد {{LMWH}} و{{aspirin}} ونختار {{early ambulation only}}."
+  ],
+  "tip": "الـ{{no C-section + BMI < 40 + no previous VTE}} يعني {{early ambulation}} فقط.",
+  "pitfall": "الفرق بين A207 وهذا السؤال هو الـ{{C-section}}: مع العملية {{LMWH}}، وبدونها {{ambulation}}. أي تغيير صغير يقلب الجواب، فاقرأ كل كلمة."
+ },
+ "A209": {
+  "bg": [
+   "الـ{{DVT}} السابق من أقوى عوامل خطر {{VTE}} في الحمل. الحامل اللي عندها {{previous DVT}} خطر تكرارها يرتفع أكثر مع {{hypercoagulable state}}.",
+   "الإرشادات العالمية ({{ACOG}} و{{RCOG}}) عادة توصي بـ{{LMWH prophylaxis}} طوال الحمل و{{6 weeks postpartum}} لمن عندها {{previous VTE}}، خصوصاً لو كانت {{unprovoked}} أو مرتبطة بحمل أو {{estrogen}} أو {{thrombophilia}}.",
+   "الـ{{LMWH}} (مثل {{enoxaparin}}) هو الخيار الآمن في الحمل لأنه ما يعبر {{placenta}}. أما {{warfarin}} فـ ممنوع، والـ{{aspirin}} لا يكفي لوحده للوقاية من {{VTE}}.",
+   "الاستثناء: لو الجلطة السابقة كانت {{provoked}} بسبب عامل مؤقت زال (مثل {{surgery}} أو {{trauma}})، ممكن بعض الإرشادات تكتفي بـ{{surveillance}} في الحمل وتعطي {{LMWH}} بعد الولادة.",
+   "هذا السؤال فيه {{IMAGE PAGE}} يعني فيه تفاصيل ما أقدر أشوفها، والبنك يعطي الجواب D وهو {{no anticoagulation}} ويقول لا تسأل ليش."
+  ],
+  "steps": [
+   "اقرأ إذا في {{previous DVT}}: نعم، فـ في الأصل نفكر {{LMWH}}.",
+   "بما أن السؤال فيه صورة وتفاصيل ناقصة، ما نقدر نتأكد إذا كانت {{provoked}} أو لا.",
+   "جواب البنك D وهو {{no anticoagulation}}، ويبدو أنه مبني على تفصيل في الصورة (مثلاً {{provoked DVT}} بعامل مؤقت).",
+   "نتبع جواب البنك ونحفظه كاستثناء."
+  ],
+  "tip": "الـ{{previous DVT}} عادة {{LMWH}}، بس هذا السؤال البنك يقول {{no anticoagulation}}، فـ احفظها حفظ.",
+  "pitfall": "الجواب D يخالف الإرشادات المعتادة ({{previous VTE}} يعني {{LMWH}} غالباً). النسخة فيها صورة ما نشوفها، فـ لا نغير الجواب بس ننتبه إن الواقع غير."
+ },
+ "A210": {
+  "bg": [
+   "الـ{{postmenopausal bleeding (PMB)}} يعني أي نزيف بعد انقطاع الدورة {{12 months}}، ويُعتبر {{endometrial cancer}} حتى يثبت العكس لأن حوالي {{10%}} منهم عندهم سرطان.",
+   "الفحوصات الأساسية للـ{{PMB}}: {{TVUS}} لقياس سماكة {{endometrium}} (الحد {{> 4-5 mm}} يحتاج {{sampling}}) أو {{endometrial biopsy}} مباشرة، وكلاهما مقبول كبداية.",
+   "الـ{{tamoxifen}} (يُعطى لسرطان الثدي) له تأثير {{estrogen-like}} على الرحم، فـ يسبب {{endometrial polyps}} و{{hyperplasia}} و{{endometrial cancer}}. لذلك المريضة على {{tamoxifen}} عندها خطر أعلى.",
+   "الـ{{endometrial biopsy}} (مثل {{pipelle}}) تاخذ عينة عمياء من الرحم، وممكن تكون {{inadequate}} أو تفوت {{polyp}} موضعي. لو العينة غير كافية والنزيف مستمر لازم نكمل الفحص.",
+   "الخطوة التالية الصحيحة هي {{hysteroscopy with directed biopsy}} لأنها نشوف الرحم مباشرة ونأخذ عينة من المكان المشكوك فيه."
+  ],
+  "steps": [
+   "المريضة {{59 years}} {{postmenopausal}} عندها نزيف على {{tamoxifen}}، يعني خطر عالي لسرطان الرحم.",
+   "الـ{{endometrial biopsy}} كانت {{inadequate}} يعني ما نقدر نطمن، فـ لازم فحص أفضل.",
+   "نستبعد {{stop tamoxifen}} لأنه ما يشخص ولا يعالج شي، ونستبعد {{hysterectomy}} لأنه قبل التشخيص.",
+   "الـ{{TVUS}} ما يعطي عينة، فـ نختار {{hysteroscopy and biopsy}}."
+  ],
+  "tip": "الـ{{tamoxifen}} مع {{PMB}} والعينة غير كافية يعني {{hysteroscopy + biopsy}}.",
+  "pitfall": "البنك يقول الجواب مؤكد تقريباً مع احتمال خطأ واحد في المصدر. الفكرة: لا تعمل {{hysterectomy}} بدون تشخيص نسيجي."
+ },
+ "A211": {
+  "bg": [
+   "الـ{{postmenopausal bleeding}} دايماً نفترض أنه {{endometrial cancer}} حتى نثبت غيره، لأن {{endometrial carcinoma}} هو أخطر سبب له وأشهر أسبابه {{atrophy}}.",
+   "نقدر نبدأ بواحد من فحصين: {{endometrial sampling}} أو {{TVUS}}. وبعدها نكمل بالثاني حسب النتيجة.",
+   "القاعدة في غير مريضات {{tamoxifen}}: لو بدأت بـ{{sampling}} نكمل بـ{{TVUS}}، ولو بدأت بـ{{TVUS}} نكمل بـ{{sampling}}.",
+   "في مريضات {{tamoxifen}} الأمر مختلف لأن {{tamoxifen}} يسبب {{polyps}} و{{hyperplasia}}، والعينة العمياء ممكن تفوتها. فـ إذا بدأنا بـ{{sampling}} وطلعت غير كافية نكمل بـ{{hysteroscopy}}.",
+   "الـ{{hysteroscopy}} تعطي رؤية مباشرة للتجويف وتسمح بـ{{directed biopsy}} أو إزالة {{polyp}}."
+  ],
+  "steps": [
+   "حدد إن المريضة {{postmenopausal}} على {{tamoxifen}}.",
+   "العينة الأولى {{inadequate}} يعني ما تكفي للتشخيص.",
+   "كلمة {{NEXT}} تعني الخطوة اللي بعد العينة: عند مريضة {{tamoxifen}} هي {{hysteroscopy}}.",
+   "نستبعد {{TVUS}} لأنه يعطي معلومات بس ما يعطي نسيج، ونستبعد {{hysterectomy}} لأنه مبكر."
+  ],
+  "tip": "الـ{{sampling}} ثم {{TVUS}} (عادي)، لكن مع {{tamoxifen}}: {{sampling}} ثم {{hysteroscopy}}.",
+  "pitfall": "لا تغلط وتختار {{TVUS}} هنا بس لأنها القاعدة العامة. وجود {{tamoxifen}} يغير الخطوة التالية."
+ },
+ "A212": {
+  "bg": [
+   "الـ{{AUB}} (نزيف الرحم غير الطبيعي) يُصنف بنظام {{PALM-COEIN}}: {{Polyp, Adenomyosis, Leiomyoma, Malignancy/hyperplasia}} (أسباب هيكلية)، و{{Coagulopathy, Ovulatory dysfunction, Endometrial, Iatrogenic, Not yet classified}} (أسباب غير هيكلية).",
+   "عمر المريضة مهم جداً: في عمر {{45 years}} وفوق خطر {{endometrial hyperplasia}} و{{cancer}} يرتفع، لأن {{anovulation}} يعني {{unopposed estrogen}} على الرحم.",
+   "لذلك أي {{AUB}} فوق {{45 years}} (أو أقل لو في عوامل خطر مثل {{obesity}} أو {{failed medical treatment}} أو {{persistent AUB}}) نحتاج {{endometrial sampling}} قبل أي علاج هرموني.",
+   "لو أعطيناها {{OCP}} بدون تأكد، ممكن نغطي على {{hyperplasia}} أو {{carcinoma}} ونتأخر في التشخيص.",
+   "الـ{{FSH}} و{{LH}} ما يغيرون القرار هنا، والـ{{pelvic US}} مفيد بس ما يستبعد التغيرات النسيجية."
+  ],
+  "steps": [
+   "اقرأ العمر: {{47 years}} فوق {{45}}.",
+   "اسأل: ما هو الفحص اللي نحتاجه قبل أي علاج؟ لازم نستبعد {{hyperplasia/cancer}}.",
+   "نستبعد {{FSH}} و{{LH}} لأنها ما تفيد في القرار.",
+   "الـ{{pelvic US}} يفحص الشكل، بس الجواب المطلوب هو {{endometrial biopsy}}."
+  ],
+  "tip": "الـ{{AUB}} فوق {{45 years}} يعني {{sampling}} قبل العلاج.",
+  "pitfall": "لا تبدأ {{OCP}} أو {{progestin}} قبل ما تستبعد {{endometrial pathology}} في عمر {{45}} وفوق."
+ },
+ "A213": {
+  "bg": [
+   "الـ{{postmenopausal bleeding}} هو أي نزيف بعد ما تنقطع الدورة {{12 months}}، وما يهم كم كمية النزيف أو كم مدته (حتى {{spotting}}).",
+   "السبب الأشيع هو {{endometrial atrophy}} (بسبب نقص {{estrogen}})، بس لأن حوالي {{10%}} منهم {{endometrial cancer}} لازم نستبعده أول.",
+   "طريقة التقييم: إما {{TVUS}} لقياس {{endometrial thickness}} (الحد {{> 4-5 mm}} يحتاج {{sampling}}) أو {{endometrial biopsy}} مباشرة. والـ{{biopsy}} هي الأدق لأنها تعطي نسيج.",
+   "حسب مصدر البنك: أي {{PMB}} بغض النظر عن المدة أو الكمية يستحق {{sampling}}.",
+   "الـ{{pelvic US}} لوحده يعطي صورة وما يعطي تشخيص نسيجي، فـ ما يكفي في هذا السؤال."
+  ],
+  "steps": [
+   "تأكد إنها {{postmenopausal}} وعندها نزيف.",
+   "اسأل: ما هو أفضل فحص تشخيصي؟ نبغى تشخيص نسيجي.",
+   "اختر {{endometrial biopsy}} لأنها تشخص {{hyperplasia}} و{{cancer}}.",
+   "الـ{{pelvic US}} مفيد بس ما يعطي تشخيص نهائي."
+  ],
+  "tip": "الـ{{PMB}} يعني {{sampling}} حتى لو بسيط.",
+  "pitfall": "في الواقع {{TVUS}} ممكن يكون بداية مقبولة (لو {{<= 4 mm}} نكتفي)، بس في هذا السؤال الخيارات فيها {{biopsy}} فاختارها."
+ },
+ "A214": {
+  "bg": [
+   "الـ{{heavy menstrual bleeding (HMB)}} هو نزيف أكثر من {{80 mL}} أو يؤثر على حياة المرأة، أو مدته أكثر من {{7 days}}. هنا الدورات تستمر أكثر من {{10 days}}.",
+   "قبل العلاج نستبعد {{pregnancy}} وأسباب هيكلية بالـ{{ultrasound}}. هنا {{pregnancy test}} سالب والـ{{ultrasound}} طبيعي، يعني الغالب {{AUB-O}} أو {{AUB-E}} (سبب هرموني أو في بطانة الرحم).",
+   "الـ{{tranexamic acid}} هو {{antifibrinolytic}}: يمنع تكسير الجلطة فـ يقلل النزيف بحوالي {{30-50%}}، ويُؤخذ فقط أيام النزيف، وهو {{non-hormonal}}.",
+   "أدوية ثانية للـ{{HMB}}: {{NSAIDs}} و{{combined OCP}} و{{LNG-IUD}} (الأفضل علاج طويل الأمد) و{{progestins}}.",
+   "أما {{oxytocin}} و{{carboprost}} و{{misoprostol}} فهي أدوية {{uterotonics}} تُستخدم في {{postpartum hemorrhage}} مو في {{AUB}} العادي."
+  ],
+  "steps": [
+   "اقرأ: {{HMB}} مع {{negative pregnancy test}} و{{normal US}}.",
+   "نستبعد {{oxytocin}} و{{carboprost}} و{{misoprostol}} لأنها لـ{{PPH}}.",
+   "الباقي {{tranexamic acid}} وهو علاج {{non-hormonal}} مناسب.",
+   "اختر D."
+  ],
+  "tip": "الـ{{uterotonics}} للولادة، والـ{{tranexamic acid}} للـ{{heavy periods}}.",
+  "pitfall": "لا تجاوب {{oxytocin}} أو {{carboprost}} لأن الكلمة {{bleeding}} موجودة. تأكد إن السؤال عن {{PPH}} أو عن {{AUB}}."
+ },
+ "A215": {
+  "bg": [
+   "الـ{{acute AUB}} هو نزيف غزير يحتاج تدخل سريع. تقدير الحالة: إذا كانت {{hemodynamically unstable}} نعطي {{IV fluids}} وممكن {{blood transfusion}} و{{surgical intervention}}.",
+   "لو مستقرة، العلاجات المعتادة هي: {{IV conjugated estrogen}} أو {{high-dose combined OCP}} أو {{tranexamic acid}} أو {{progestins}}، وإذا فشلوا ممكن {{D&C}} أو {{hysteroscopy}}.",
+   "الأدوية في الخيارات: {{oxytocin}} و{{carboprost (Hemabate)}} هي علاج {{postpartum hemorrhage}} بتقوي انقباض الرحم بعد الولادة. و{{mifepristone}} يُستخدم مع {{misoprostol}} لـ{{medical abortion}}.",
+   "الـ{{misoprostol}} هو {{prostaglandin E1}} يُستخدم لعلاج {{PPH}} وللـ{{abortion}} و{{cervical ripening}}، وغير معتاد في {{AUB}}.",
+   "البنك يعترف إن السؤال ضعيف، والجواب C مبني على الاستبعاد (A و B علاج {{PPH}} و D علاج {{abortion}})."
+  ],
+  "steps": [
+   "اقرأ الخيارات: كلها أدوية {{obstetric}} وليست أدوية {{AUB}} المعتادة.",
+   "نستبعد {{oxytocin}} و{{carboprost}} لأنها لـ{{PPH}}.",
+   "نستبعد {{mifepristone}} لأنه لـ{{abortion}}.",
+   "الباقي {{misoprostol}} كأقرب خيار معقول بالاستبعاد."
+  ],
+  "tip": "لما كل الخيارات غير مثالية، استبعد الأدوية اللي تخص مرحلة ثانية ({{PPH}} و{{abortion}}) والباقي هو الجواب.",
+  "pitfall": "الجواب C ما هو علاج معتاد لـ{{AUB}} حسب الإرشادات (الأصل {{hormonal therapy}} أو {{tranexamic acid}})، والجواب بالاستبعاد فقط."
+ },
+ "A216": {
+  "bg": [
+   "الـ{{endometrium}} بعد انقطاع الطمث يصير رقيق لأن {{estrogen}} ينزل، فـ في {{PMB}} نقيس سماكته بالـ{{TVUS}} لنعرف إذا يحتاج {{biopsy}}.",
+   "السماكة الرقيقة (أقل من {{4-5 mm}}) تعني غالباً {{atrophy}} وخطر السرطان فيها أقل من {{1%}}، فـ ممكن نكتفي بالمتابعة.",
+   "السماكة الأكبر من {{4-5 mm}} تعني احتمال {{hyperplasia}} أو {{cancer}} أو {{polyp}}، فـ نحتاج {{endometrial sampling}}.",
+   "الإرشادات تختلف قليلاً: {{ACOG}} تستخدم {{4 mm}}، وإرشادات ثانية تستخدم {{5 mm}}. السؤال يعطي {{5 mm}} كجواب.",
+   "الـ{{thickness}} يُقاس في الـ{{TVUS}} بقياس {{double-layer}} في الوسط، وفي الحالات المتكررة أو فيها شك نأخذ {{biopsy}} حتى لو الرحم رقيق."
+  ],
+  "steps": [
+   "سؤال حفظ رقم: حد السماكة في {{PMB}}.",
+   "الخيارات {{2}} و{{5}} و{{8}} و{{10 mm}}، والرقم المعروف هو {{4-5 mm}}.",
+   "نستبعد {{10 mm}} و{{8 mm}} لأنها عالية ممكن تفوت حالات.",
+   "نستبعد {{2 mm}} لأنها واطية جداً. نختار {{5 mm}}."
+  ],
+  "tip": "الـ{{PMB}} مع {{endometrium > 4-5 mm}} يعني {{sampling}}.",
+  "pitfall": "إذا الخيارات فيها {{4 mm}} و{{5 mm}} معاً انتبه لنص السؤال. وتذكر إن النزيف المتكرر مع رحم رقيق ممكن يحتاج {{sampling}} برضو."
+ },
+ "A217": {
+  "bg": [
+   "الـ{{endometrial polyp}} هو نمو زائد في بطانة الرحم، يسبب {{heavy menstrual bleeding}} أو {{intermenstrual bleeding}}. غالباً حميد، بس ممكن نادراً يكون {{atypical}} أو {{malignant}}.",
+   "الـ{{polyp}} الأكبر من {{1 cm}} أو الـ{{symptomatic}} أو في {{postmenopausal}} يُنصح بإزالته، والتشخيص والعلاج الأفضل هو {{hysteroscopic polypectomy}} لأنها نشوف ونزيل تحت الرؤية.",
+   "المريضة هنا عندها {{polyp 13 mm}} وسبب {{HMB}} وهيموجلوبين {{7 g/dL}} (فقر دم شديد).",
+   "هيموجلوبين {{7 g/dL}} يعني نحتاج استقرار الحالة (ممكن {{iron}} أو {{transfusion}} لو أعراض)، بس العلاج النهائي للسبب هو {{hysteroscopic removal}}.",
+   "الـ{{hysterectomy}} مبالغ فيه لسيدة في الثلاثينات عندها {{polyp}} بسيط، والـ{{transfusion}} يعالج النتيجة مو السبب."
+  ],
+  "steps": [
+   "حدد السبب: {{polyp}} يسبب {{HMB}}.",
+   "السؤال يسأل عن {{most appropriate management}} (الأنسب)، يعني العلاج الجذري المناسب.",
+   "نستبعد {{hysterectomy}} لأنها مبالغ فيها لعمر 30 وسبب بسيط.",
+   "نستبعد {{blood transfusion}} كعلاج نهائي، مع أنها ممكن تكون الخطوة الأولى لو السؤال قال {{next}} أو {{initial}}."
+  ],
+  "tip": "الـ{{polyp}} يعني {{hysteroscopic removal}}، والـ{{hysterectomy}} آخر الحلول.",
+  "pitfall": "مصدر البنك يقول لو السؤال قال {{initial}} أو {{next}} فـ {{transfusion}} أو دعم الحالة، بس هنا {{definitive}} هو الجواب A."
+ },
+ "A218": {
+  "bg": [
+   "الـ{{PCOS}} متلازمة فيها {{hyperandrogenism}} و{{oligo/anovulation}} و{{polycystic ovaries}}، والسبب {{insulin resistance}} و{{high LH}} اللي يحفزون المبيض يطلع {{androgens}} زيادة.",
+   "الـ{{androgens}} الزايدة تسبب {{hirsutism}} و{{acne}} و{{irregular menses}}، والـ{{anovulation}} يعني {{unopposed estrogen}} على الرحم فـ يزيد خطر {{endometrial hyperplasia}}.",
+   "الـ{{combined OCP}} هو العلاج الأول لمعظم النساء مع {{PCOS}} إذا ما تبغى حمل: يعطي دورة منتظمة، ويحمي الرحم، و{{estrogen}} فيه يرفع {{SHBG}} فـ ينزل {{free testosterone}}، فـ يحسن {{hirsutism}} و{{acne}}.",
+   "لو بعد {{6 months}} من {{OCP}} ما تحسن الشعر، نضيف {{anti-androgen}} مثل {{spironolactone}} أو {{cyproterone acetate}}، ويلزم {{contraception}} معها لأنها تضر الجنين.",
+   "الـ{{metformin}} يفيد لو في {{insulin resistance}} أو {{glucose intolerance}} بس أضعف في {{hirsutism}}، والـ{{finasteride}} نادر ويحتاج {{contraception}} أيضاً."
+  ],
+  "steps": [
+   "اقرأ: {{PCOS}} مع {{hirsutism}} و{{irregular cycles}} وما تحتاج حمل.",
+   "اسأل: ما هو العلاج الأول؟ {{OCP}} لأنه يعالج الدورة والشعر معاً.",
+   "الخيارات {{cyproterone}} و{{finasteride}} تُضاف لاحقاً أو لمن فشل {{OCP}}.",
+   "الـ{{metformin}} ثانوي، لو في {{metabolic features}}."
+  ],
+  "tip": "الـ{{PCOS}} مع {{hirsutism}} وما تبغى حمل يعني {{OCP}} أول خيار.",
+  "pitfall": "لا تختار {{anti-androgen}} كخيار أول لأنه ما يحمي الرحم ويحتاج {{contraception}}. الـ{{OCP}} تغطي الدورة والشعر."
+ },
+ "A219": {
+  "bg": [
+   "الـ{{endometrial hyperplasia}} هو زيادة في نمو غدد البطانة بسبب {{unopposed estrogen}} (مثل {{anovulation}} أو {{obesity}}). نصنفه إلى {{without atypia}} و{{with atypia}}.",
+   "الـ{{hyperplasia without atypia}} خطر تحوله لسرطان قليل وهو {{< 5%}} فـ نعالجه بـ{{progestin}} (أو {{LNG-IUD}}).",
+   "الـ{{atypical hyperplasia}} أو {{EIN}} خطر تحوله لسرطان أعلى بكثير، وغالباً فيه سرطان موجود معه، فـ العلاج المعتاد {{hysterectomy}}.",
+   "لو المريضة صغيرة وتبغى {{fertility}} أو ما تتحمل الجراحة، نقدر نعطي {{high-dose progestin}} (أو {{LNG-IUD}}) مع {{follow-up biopsies}} كل {{3-6 months}}.",
+   "هذي المريضة {{25 years}} فـ الـ{{hysterectomy}} غير مناسب لها (بعدها ما أنجبت)، فـ الأنسب {{oral progesterone}} إلا لو السؤال قال {{definitive}}."
+  ],
+  "steps": [
+   "اقرأ التقرير: {{atypical complex hyperplasia}}.",
+   "القاعدة العامة: {{atypia}} يعني {{hysterectomy}}.",
+   "بس المريضة {{25 years}}، فـ نبحث عن بديل: {{progesterone}}.",
+   "نستبعد {{tamoxifen}} لأنه يزيد خطر {{endometrial pathology}}، ونستبعد {{ablation}} لأنه ما يعالج المشكلة الأساسية."
+  ],
+  "tip": "الـ{{no atypia}} يعني {{progesterone}}، والـ{{atypia}} يعني {{hysterectomy}}، إلا الصغيرة اللي تبغى حمل.",
+  "pitfall": "لا تختار {{hysterectomy}} آلياً لعمر {{25}}. لو السؤال قال {{definitive}} فهو {{hysterectomy}}. وهنا السؤال يقول {{appropriate}} فـ {{progesterone}}."
+ },
+ "A220": {
+  "bg": [
+   "الـ{{chronic anovulation}} (مثل {{PCOS}}) يعني المبيض ما يبيّض فـ ما يتكون {{corpus luteum}} ولا {{progesterone}}، والبطانة تتعرض لـ{{estrogen}} بدون موازنة وتتكاثر.",
+   "السمنة تزيد المشكلة لأن الدهون تحول {{androstenedione}} إلى {{estrone}} (نوع من {{estrogen}}) فـ يزيد {{unopposed estrogen}}.",
+   "النتيجة {{endometrial hyperplasia}} وأخطرها {{atypical complex hyperplasia}} اللي ممكن يتحول لـ{{endometrial adenocarcinoma}}.",
+   "العلاج النهائي لـ{{atypical hyperplasia}} هو {{hysterectomy}}، أما {{progestin}} فـ علاج محافظ لمن تبغى {{fertility}}.",
+   "الـ{{Letrozole}} هو {{aromatase inhibitor}} يُستخدم لـ{{ovulation induction}}، و{{tamoxifen}} يزيد خطر الرحم، و{{spironolactone}} لـ{{hirsutism}}، فكلها ما تعالج {{hyperplasia}}."
+  ],
+  "steps": [
+   "اقرأ التشخيص: {{atypical complex hyperplasia}} مع سؤال {{most definitive}}.",
+   "الجواب النظري هو {{hysterectomy}} وما هو موجود في الخيارات.",
+   "فـ نشطب الخيارات اللي ما تعالج {{hyperplasia}} أبداً: {{letrozole}} و{{tamoxifen}} و{{spironolactone}}.",
+   "الباقي {{oral progesterone}}، فـ هو الجواب بالاستبعاد."
+  ],
+  "tip": "إذا الجواب النظري مو موجود، استبعد الخيارات اللي ما لها علاقة والباقي هو الجواب.",
+  "pitfall": "البنك نفسه يقول الخيارات ما لها معنى والجواب D بالاستبعاد مو لأنه صح. لو في {{hysterectomy}} كان هو الأفضل لـ{{definitive}}، فـ لا تتعلم أن {{progesterone}} علاج نهائي."
+ },
+ "A221": {
+  "bg": [
+   "الـ{{AUB}} في عمر {{42 years}} مع {{prolonged heavy bleeding}} له أسباب كثيرة حسب تصنيف {{PALM-COEIN}}: {{polyp}} و{{adenomyosis}} و{{leiomyoma}} و{{malignancy}} و{{coagulopathy}} و{{ovulatory dysfunction}}.",
+   "الـ{{TVUS}} يعطي فكرة: هنا {{endometrium 13 mm}} مع آفة {{2.2 x 1 cm}} داخل التجويف، يعني الغالب {{polyp}} أو {{submucosal fibroid}}.",
+   "الـ{{endometrial biopsy}} العمياء طلعت {{normal}}، بس ممكن تفوت {{polyp}} موضعي لأنها ما تاخذ كل الرحم.",
+   "الـ{{sonohysterography}} أو {{saline infusion sonography}} تنفخ التجويف بمحلول ملحي وتبين بالضبط: هل الآفة {{polyp}} أو {{fibroid}}، وحجمها وموقعها، وكم تدخل في الجدار. فـ تخطط للـ{{hysteroscopy}}.",
+   "الـ{{MRI}} غالي ومو ضروري، و{{EUA}} ما يضيف، وفحص {{Hb}} و{{coagulopathy}} مهم بس ما يجاوب عن الآفة الواضحة."
+  ],
+  "steps": [
+   "اقرأ: في آفة داخل التجويف في الـ{{US}} والـ{{biopsy}} طبيعي.",
+   "نبغى نحدد طبيعة الآفة: {{polyp}} أو {{fibroid}}، وهذا اللي يسويه {{sonohysterography}}.",
+   "نستبعد {{MRI}} لأنه غير ضروري، ونستبعد {{EUA}} لأنه ما يشخص الآفة.",
+   "فحص {{Hb}} و{{coagulopathy}} مهم بس ما هو الخطوة اللي تحدد الآفة."
+  ],
+  "tip": "الآفة داخل التجويف وتبغى تحدد نوعها يعني {{sonohysterogram}} ثم {{hysteroscopy}}.",
+  "pitfall": "الـ{{biopsy}} الطبيعية ما تستبعد {{polyp}}، فـ لا تقول خلاص مافي شي. وفحص الـ{{Hb}} الصحيح يظل جزء من الخطة بس مو الخطوة التالية للآفة."
+ },
+ "A222": {
+  "bg": [
+   "الـ{{intermenstrual bleeding}} يعني نزيف بين الدورات، وسببه الأشيع هو {{endometrial polyp}} أو {{submucosal fibroid}}، وأحياناً {{hormonal}} أو {{cervical}} أو {{malignancy}}.",
+   "الـ{{endometrial polyp}} يظهر بالـ{{US}} كشي {{echogenic}} داخل التجويف، وحجمه لو أكبر من {{1 cm}} عادة يُعتبر مهم لأنه أكثر تسبباً في الأعراض وأعلى خطر {{atypia}}.",
+   "العلاج والتشخيص في نفس الوقت هو {{hysteroscopic polypectomy}} لأن نشوفه مباشرة ونزيله ونرسل {{histology}}.",
+   "الـ{{endometrial sample}} العمياء ممكن تفوت الـ{{polyp}}، والـ{{repeat ultrasound}} يضيع وقت، والـ{{cyclic progesterone}} علاج هرموني ما يزيل {{polyp}}.",
+   "هذي المريضة {{43 years}} فـ خطر {{hyperplasia}} أعلى، وهذا يدعم عمل الـ{{hysteroscopy}} مع {{histology}}."
+  ],
+  "steps": [
+   "حدد: {{intermenstrual bleeding}} مع {{13 mm}} آفة في الـ{{endometrium}}.",
+   "هذي صفة {{polyp}} حجمها أكثر من {{1 cm}} وتسبب أعراض، فـ تستحق إزالة.",
+   "نستبعد {{sample}} العمياء لأنها ممكن تفوت الآفة، ونستبعد {{repeat US}} و{{cyclic progesterone}}.",
+   "اختر {{hysteroscopy and removal}}."
+  ],
+  "tip": "الـ{{polyp}} أكبر من {{1 cm}} مع أعراض يعني {{hysteroscopic removal}}.",
+  "pitfall": "نفس فكرة A217. الفرق بين A221 و A222: في A221 نحتاج {{sonohysterogram}} لتحديد الآفة قبل، وفي A222 الآفة واضحة وجاهزة للإزالة."
+ },
+ "A223": {
+  "bg": [
+   "الـ{{cervical insufficiency}} (قصور عنق الرحم) يعني عنق الرحم ضعيف ويتوسع {{painlessly}} في الـ{{second trimester}} بدون انقباضات، ويؤدي لإجهاض أو ولادة مبكرة جداً.",
+   "الـ{{classic history}} هو: {{painless cervical dilation}} في الثلث الثاني (غالباً {{16-24 weeks}}) ثم {{expulsion}} للجنين الحي أو الميت، بدون {{bleeding}} أو {{contractions}} أو {{infection}}.",
+   "الأسباب: {{congenital}} (ضعف في {{collagen}}) أو مكتسبة مثل {{cervical surgery (LEEP / cone biopsy)}} أو {{trauma in previous delivery}}.",
+   "العلاج هو {{cervical cerclage}} (خياطة العنق) وتُعمل عادة عند {{12-14 weeks}} وتسمى {{history-indicated cerclage}}، لمن عندها قصة إجهاض في الثلث الثاني بنفس النمط.",
+   "الـ{{folic acid}} للوقاية من {{neural tube defects}} والـ{{aspirin}} لوقاية {{preeclampsia}}، وكلاهما ما له علاقة بقصور العنق."
+  ],
+  "steps": [
+   "اقرأ القصة: {{painless dilation}} و{{expulsion}} في {{18 weeks}}.",
+   "هذا يوافق {{cervical insufficiency}}.",
+   "الحمل الحالي {{13 weeks}} وهو الوقت المناسب لعمل {{cerclage}}.",
+   "نستبعد {{folic acid}} و{{aspirin}} لأنها لأغراض ثانية."
+  ],
+  "tip": "الـ{{painless dilation}} في الثلث الثاني يعني {{cerclage}} في الحمل التالي.",
+  "pitfall": "البنك يقول حتى لو القصة مو كلاسيكية، تقدر تجاوب بالاستبعاد: الخيارين الثانيين ما لهم علاقة بالموضوع."
+ },
+ "A224": {
+  "bg": [
+   "الـ{{preterm birth}} هو الولادة قبل {{37 weeks}}، وأهم عامل خطر له هو {{previous spontaneous preterm birth}}.",
+   "الـ{{progesterone}} يقلل انقباضات الرحم ويحافظ على سلامة عنق الرحم، وتُعطى كـ{{vaginal progesterone}} أو {{17-OHPC}} حسب البلد لمن عندها {{history of spontaneous preterm birth}} أو {{short cervix}}.",
+   "عادة تبدأ من {{16-24 weeks}} وتستمر حتى {{34-36 weeks}}، وهي {{prophylaxis}} مو علاج لـ{{active preterm labor}}.",
+   "الـ{{magnesium sulphate}} يُعطى للـ{{neuroprotection}} للجنين لو الولادة المبكرة مؤكدة قبل {{32 weeks}} أو للـ{{preeclampsia}}، مو لمنع الولادة.",
+   "الـ{{estrogen}} ما له دور، والـ{{folic acid}} لا علاقة له بمنع الـ{{preterm birth}}."
+  ],
+  "steps": [
+   "اقرأ: تاريخ ولادتين مبكرتين، يعني خطر عالي لتكرارها.",
+   "نفكر في وقاية: ما هو العلاج الوقائي المثبت؟ {{progesterone}}.",
+   "نستبعد {{MgSO4}} لأنه ما يمنع الولادة المبكرة.",
+   "نستبعد {{estrogen}} و{{folic acid}}، فنختار B."
+  ],
+  "tip": "الـ{{previous preterm birth}} يعني {{progesterone}}.",
+  "pitfall": "السؤال بدون تفاصيل (كما كتب البنك) فـ اعتمد على القاعدة: ولادة مبكرة سابقة تساوي {{progesterone}} للوقاية."
+ },
+ "A225": {
+  "bg": [
+   "الـ{{preterm labor}} هو انقباضات منتظمة مع تغير في عنق الرحم قبل {{37 weeks}}. هو سبب رئيسي لوفيات ومضاعفات الأطفال حديثي الولادة.",
+   "عوامل الخطر: {{previous preterm birth}} و{{short cervix}} و{{multiple pregnancy}} و{{infection}} و{{smoking}} و{{polyhydramnios}} وغيرها.",
+   "الـ{{progesterone supplementation}} هو الإجراء الوحيد المثبت من الخيارات اللي يقلل الخطر، خصوصاً لمن عندها {{previous preterm}} أو {{short cervix}}.",
+   "النصائح الغلط: {{high-intensity exercise}} ما تقوي الرحم وتنفع، و{{reducing fluids}} ما يمنع {{uterine distension}} (بالعكس نقص السوائل ممكن يسبب انقباضات)، والانتظار حتى يشتد الألم يتأخر في التدخل.",
+   "السؤال هنا يقول المريضة {{32 weeks}} وعندها {{preterm labor}}، بس الجواب المقصود هو الوقاية العامة وهي {{progesterone}}."
+  ],
+  "steps": [
+   "اقرأ كل خيار: أي واحد فيه إجراء مثبت علمياً؟ {{progesterone}}.",
+   "نستبعد {{high-intensity exercise}} لأنه غير مفيد وممكن يضر.",
+   "نستبعد {{reducing fluid intake}} لأنه ما يمنع {{preterm labor}}.",
+   "نستبعد {{wait until severe pain}} لأنه يؤخر العلاج."
+  ],
+  "tip": "في أي سؤال عن وقاية {{preterm labor}} الجواب {{progesterone}}.",
+  "pitfall": "لا تقتنع بالنصائح الشعبية (قلل السوائل أو رياضة قوية). المثبت علمياً فقط {{progesterone}}."
+ }
+}

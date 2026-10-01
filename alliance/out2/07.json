@@ -1,0 +1,431 @@
+{
+ "A151": {
+  "bg": [
+   "افهم الأول إن الفحوصات في الـ{{first trimester}} نوعين: فحوصات لكل الحوامل مثل {{CBC, blood group, rubella, hepatitis B}}، وفحوصات حسب الـ{{risk}} أو العمر.",
+   "الأم عمرها {{40 years}} يعني {{advanced maternal age}} (الحد المعتاد {{≥ 35}})، والسبب إن البويضات تكبر معها وتزيد أخطاء الانقسام الكروموزومي مثل {{trisomy 21}}.",
+   "عشان كذا نعرض عليها {{screening and diagnostic genetic testing}} بدري، مثل {{cell-free DNA}} أو {{nuchal translucency}} بعمر {{11 to 14 weeks}} أو {{CVS}} أو {{amniocentesis}}، والقرار للمريضة وما نفرضه.",
+   "الـ{{low dose aspirin}} هدفه وقاية من {{preeclampsia}} وما يعطى إلا لوحدة عندها {{high risk factor}} مثل {{previous preeclampsia}} أو {{chronic HTN}} أو {{diabetes}} أو {{multiple pregnancy}}، وهي ما عندها شي منها. نبدأه من {{12 to 16 weeks}} لين {{36 weeks}}.",
+   "الـ{{50 g glucose challenge test}} للـ{{GDM}} يكون في {{24 to 28 weeks}} لـ{{low risk}}؛ وتبكر فقط إذا فيه {{obesity or previous GDM or family history}}. وهنا {{BMI 26}} يعني {{overweight}} بس مو {{obese}}. الـ{{Tdap}} يعطى في {{27 to 36 weeks}}."
+  ],
+  "steps": [
+   "أول شي حدد عمر الحمل وهو {{12 weeks}} يعني {{first trimester}}، وبعدين اسأل نفسك: وش الإجراء المناسب لهالمرحلة بالذات؟",
+   "ثاني شي دور على الـ{{risk factors}} في السؤال: السؤال يقول صراحة {{no risk factor}} و{{no GDM}}، فيعني ما نحتاج {{aspirin}} ولا فحص سكر مبكر.",
+   "ثالث شي لاحظ العمر {{40}} لأنه هو المفتاح الوحيد في القصة، وهو يدل على {{genetic screening offer}}.",
+   "رابع شي استبعد الخيارات اللي توقيتها غلط: {{Tdap}} متأخر، و{{OGTT}} متأخر لهذه الحالة، و{{aspirin}} بدون سبب."
+  ],
+  "tip": "الـ{{age ≥ 35}} يعني {{offer genetic testing}} والـ{{aspirin}} يحتاج {{risk factor}} والسكر في {{24 to 28 weeks}} والـ{{Tdap}} في {{27 to 36 weeks}}",
+  "pitfall": "الفخ إن الطالب يشوف حمل أول تريميستر فيختار أي فحص روتيني، والمعلومة المهمة العمر {{40}} اللي تجيب {{aneuploidy risk}}."
+ },
+ "A152": {
+  "bg": [
+   "الـ{{pregestational diabetes}} أخطر شي فيها على الجنين إن السكر العالي وقت تكوّن الأعضاء ({{organogenesis}}، من {{3 to 8 weeks}}) يسبب {{congenital malformations}} مثل عيوب القلب و{{neural tube defects}} و{{caudal regression}}.",
+   "المشكلة إن الأعضاء تتكون قبل ما تعرف كثير من الحوامل إنها حامل، فالعلاج الحقيقي يكون قبل الحمل أي {{preconception care}} مو بعده.",
+   "المقياس هو الـ{{HbA1c}}: كل ما ارتفع زاد خطر التشوهات والإجهاض و{{stillbirth}}. الهدف قبل الحمل {{HbA1c < 6.5%}} إلى {{< 7%}} إذا نقدر نوصله بأمان بدون {{hypoglycemia}} كثيرة، والمصدر هنا يقول {{< 7%}}.",
+   "في السؤال {{HbA1c 8.0}} وهذا أعلى من الهدف، فالنصيحة الأولى هي {{delay conception}} لين تنضبط، مع {{tight glycemic control}} و{{folic acid}} بجرعة عالية أي {{4-5 mg}}.",
+   "وبالنسبة للأدوية: الـ{{ACE inhibitor}} يتوقف أو يستبدل قبل أو لحظة الحمل لأنه يضر الجنين بالثلث الثاني والثالث، والـ{{ARB}} نفس الشي، والـ{{statin}} ما يعطى للحمل. والـ{{24-hour urine protein}} العالي يدل على {{diabetic nephropathy}} فهي {{high risk}}."
+  ],
+  "steps": [
+   "أول شي اسأل: السؤال عن وش بالضبط؟ هنا هو {{control blood sugar and prevent congenital malformation}} يعني الهدف سكر وتشوهات، مو ضغط ولا دهون.",
+   "ثاني شي شوف الـ{{HbA1c}} في الجدول: {{8.0}} أعلى من {{7}} فالسكر مو منضبط.",
+   "ثالث شي استبعد الخيارات اللي ما تعالج السكر مباشرة: {{statin}} و{{ARB substitution}} لا يخفضون {{malformation risk from hyperglycemia}}، و{{ARB}} نفسه ممنوع بالحمل.",
+   "رابع شي استبعد {{3 heavy meals}} لأنها تسوي {{postprandial spikes}} وتضر السيطرة، والنصيحة الغذائية الصح وجبات صغيرة ووجبات خفيفة.",
+   "فالجواب هو {{delay conception until HbA1c is as close to normal as possible}}."
+  ],
+  "tip": "الـ{{HbA1c}} قبل الحمل يعني الهدف {{< 7%}} (والأفضل أقل) و{{no conception}} قبل هذا",
+  "pitfall": "الفخ إن الطالب يعلق على الـ{{ACE inhibitor}} فيختار {{ARB}}، بس الـ{{ARB}} ممنوع بالحمل زيه، والسؤال أصلاً عن السكر والتشوهات."
+ },
+ "A153": {
+  "bg": [
+   "الـ{{preeclampsia}} مرض في الأوعية والمشيمة: المشيمة ما تتكون صح فتفرز مواد تسبب {{endothelial dysfunction}} فيرتفع الضغط وتتسرب البروتينات في البول ويتأثر الكبد والكلى والمخ.",
+   "الأعراض اللي تدل على إن الحالة {{severe}}: {{headache}} و{{blurred vision}} و{{epigastric pain}} لأنها تدل على تأثر الدماغ أو الكبد، وممكن تتحول إلى {{eclampsia}}.",
+   "الدواء المفضل لخفض الضغط بالحمل هو {{labetalol}} (يمنع {{alpha and beta receptors}})، وهو آمن للجنين وأثره سريع ويمكن إعطاؤه {{IV or oral}}.",
+   "البدائل: {{nifedipine}} و{{hydralazine}} للحالات الشديدة، و{{methyldopa}} للحالات الخفيفة والمزمنة لأن أثره بطيء.",
+   "الأدوية المسموحة بالحمل لضغط الأم هي {{labetalol}} و{{nifedipine}} و{{methyldopa}} و{{hydralazine}}؛ والممنوعة هي {{ACE inhibitors}} و{{ARBs}} و{{nitroprusside}} (سمية السيانيد للجنين) وأيضاً {{atenolol}} يتجنب لأنه يسبب {{fetal growth restriction}}."
+  ],
+  "steps": [
+   "أول شي حدد إن الحمل {{30 weeks}} والأعراض {{headache and blurred vision}} يعني {{preeclampsia with severe features}} مشتبه.",
+   "ثاني شي اسأل: أي دواء {{safe in pregnancy}} وسريع المفعول؟ وهنا بنك الأسئلة يقول {{labetalol}} {{first line}}.",
+   "ثالث شي استبعد الممنوع: {{sodium nitroprusside}} يسبب {{cyanide toxicity}} للجنين، و{{diazoxide}} ما يستعمل لأنه يسبب {{hypotension}} و{{hyperglycemia}}.",
+   "رابع شي استبعد {{atenolol}} لأنه يسبب {{fetal growth restriction}} فهو غير مفضل بالحمل."
+  ],
+  "tip": "الـ{{labetalol}} يعني {{L for Labor and Lovely}}، دايم أول اختيار لضغط الحمل لو موجود",
+  "pitfall": "الفخ إن الطالب يختار {{hydralazine}} للحالة الشديدة، بس إذا {{labetalol}} موجود فهو الأول."
+ },
+ "A154": {
+  "bg": [
+   "هنا الضغط {{160/110}} مع {{protein +++}} و{{headache and blurred vision}} يعني {{preeclampsia with severe features}}، وهذه حالة طوارئ لأن الخطر {{stroke}} و{{eclampsia}} و{{placental abruption}}.",
+   "السبب إن الضغط {{≥ 160/110}} لازم ينخفض خلال {{30 to 60 minutes}} لحماية دماغ الأم من {{intracerebral hemorrhage}}، وما نبالغ بالخفض السريع عشان ما نقلل تروية المشيمة.",
+   "الهدف الضغط بين {{140-150 / 90-100}} مو أقل.",
+   "حسب الإرشادات الحديثة {{labetalol IV}} هو {{first line}} لكل من الخفيف والشديد، والبدائل {{IV hydralazine}} و{{oral nifedipine}} (الـ{{immediate release}}).",
+   "أما {{methyldopa}} فأثره بطيء (يحتاج ساعات) فيناسب {{chronic mild HTN}} بس مو الطوارئ، و{{nitroprusside}} سمه على الجنين، و{{clonidine}} ما هو دواء مفضل."
+  ],
+  "steps": [
+   "أول شي حدد الحالة: {{BP 160/110}} فهذا {{severe range}} يحتاج علاج خلال ساعة.",
+   "ثاني شي اسأل: دواء سريع ومأمون؟ {{methyldopa}} بطيء فنستبعده.",
+   "ثالث شي استبعد {{nitroprusside}} ({{last resort}} فقط وسمية للجنين) و{{clonidine}}.",
+   "رابع شي اختر {{labetalol}} لأنه {{first line}}.",
+   "لا تنسى بعد الضغط إن علاج {{severe preeclampsia}} يضيف {{magnesium sulfate}} للوقاية من التشنج."
+  ],
+  "tip": "الـ{{severe range}} يعني {{labetalol IV}} والـ{{methyldopa}} للـ{{mild chronic}} بس",
+  "pitfall": "الفخ إن الطالب يختار {{methyldopa}} لأنه معروف بالحمل، لكنه بطيء وما يعتمد عليه بالحالة الشديدة."
+ },
+ "A155": {
+  "bg": [
+   "الـ{{edema}} بالحمل الطبيعي شائع جداً (يصير عند أكثر من نصف الحوامل) بسبب {{increased blood volume}} وضغط الرحم على الأوردة، فلا يعتبر علامة تشخيصية للـ{{preeclampsia}}.",
+   "عشان نشخص {{gestational hypertension}} لازم {{BP ≥ 140/90}} على قراءتين بينهم {{4 hours}} بعد {{20 weeks}}، وعشان نقول {{preeclampsia}} لازم نضيف {{proteinuria}} أو {{severe features}}.",
+   "الـ{{BP 150/95}} هنا قراءة وحدة، يعني ما تأكدنا من التشخيص ولا قيّمنا البروتين ولا الدم.",
+   "فالتقييم يشمل {{repeat BP}} و{{urine protein/creatinine ratio}} و{{CBC, liver enzymes, creatinine}}، وبعدها نقرر العلاج.",
+   "العلاج بالـ{{antihypertensive}} يبدأ عادة لما الضغط {{≥ 150/100}} مستمر (أو {{≥ 160/110}} فوراً)، والـ{{diuretics}} ما نستعملها لأنها تقلل {{plasma volume}} وتزيد خطر نقص تروية المشيمة."
+  ],
+  "steps": [
+   "أول شي لا تنخدع بالـ{{edema}} لأنه ما يشخص شي.",
+   "ثاني شي اسأل: هل تأكد التشخيص؟ لا، قراءة وحدة فقط.",
+   "ثالث شي استبعد العلاج أي {{labetalol}} لأنه قبل التأكيد، واستبعد {{diuretics}} و{{low salt diet}} لأنهم ما لهم دور.",
+   "رابع شي اختر {{continued evaluation}} يعني نكرر القياس ونطلب {{urine protein}} وفحوصات الدم."
+  ],
+  "tip": "الـ{{diagnose before treat}}: ثبت الضغط ثم دور {{proteinuria}} ثم عالج",
+  "pitfall": "الفخ إن الطالب يشوف الضغط {{150/95}} فيبدأ علاج فوراً، والصحيح التأكد أولاً."
+ },
+ "A156": {
+  "bg": [
+   "الـ{{raised BP at 32 weeks in primigravida}} يعني احتمال {{gestational hypertension}} أو {{preeclampsia}} أو {{chronic HTN}} غير معروف، ويحتاج تقييم قبل أي علاج.",
+   "التقييم الصحيح يشمل {{serial BP measurements}} و{{24-hour urine protein}} (أو {{protein/creatinine ratio}}) و{{blood tests}} و{{fetal assessment}}.",
+   "في الحالات المشتبه بها غالباً نقبل المريضة أي {{admit}} لأن الحالة ممكن تتدهور بسرعة.",
+   "إذا ثبت {{preeclampsia}} نقرر العلاج حسب الشدة: {{mild}} نراقب وننتظر، و{{severe}} نعطي {{antihypertensive}} و{{magnesium sulfate}}.",
+   "هذا السؤال من نوع {{recall}} وجوابه في البنك {{B}}، لكن المصدر نفسه يلمح إن الأنسب علمياً {{C}} (قبول ومراقبة ضغط وبروتين البول)."
+  ],
+  "steps": [
+   "أول شي فكر: ما عندي أرقام ضغط ولا بروتين، يعني ما نقدر نصنف الشدة.",
+   "ثاني شي المنطق العلمي يقول نقيّم أولاً قبل العلاج، وهذا يطابق الخيار {{C}}.",
+   "ثالث شي لكن البنك يعتمد {{B}} فنحفظه كما هو للامتحان.",
+   "رابع شي استبعد {{discharge}} لأنه خطر، و{{admit for observation only}} لأنه ناقص."
+  ],
+  "tip": "الـ{{raised BP}} يعني {{admit}} ولا تترك المريضة تروح",
+  "pitfall": "الجواب المعطى {{B}} يتعارض مع المنطق السريري الذي يميل لـ{{C}}، لكن نحفظ {{B}} كما في البنك."
+ },
+ "A157": {
+  "bg": [
+   "الـ{{metabolic syndrome}} هي مجموعة عوامل تجتمع عشان تزيد خطر {{type 2 diabetes}} و{{cardiovascular disease}}، وسببها الأساسي {{insulin resistance}} مع زيادة الدهون في البطن.",
+   "المعايير الخمسة: {{waist circumference}} كبير أو {{BMI}} عالي، و{{BP ≥ 130/85}} أو على علاج، و{{fasting glucose ≥ 100}}، و{{TG ≥ 150}}، و{{low HDL}}. يكفي ثلاثة منها للتشخيص.",
+   "هذي المريضة عندها {{hypertension}} و{{obesity (BMI 32)}} يعني معيارين، فالأقرب نبحث عن الثالث وهو السكر.",
+   "الـ{{USPSTF}} توصي بفحص {{diabetes}} للبالغين {{35 to 70}} الذين عندهم {{overweight or obesity}}، والفحص بالـ{{fasting glucose}} أو {{HbA1c}}.",
+   "أما {{pap smear}} فيبدأ من {{21}} كل {{3 years}}، و{{fecal occult blood}} يبدأ من {{45}} للـ{{colorectal cancer}} لكنه غير مرتبط بعوامل الخطر هنا."
+  ],
+  "steps": [
+   "أول شي لخص الحالة: {{47 years, HTN, BMI 32}}.",
+   "ثاني شي اسأل: أي فحص مرتبط بعوامل الخطر الموجودة؟ هذي عوامل {{diabetes}}.",
+   "ثالث شي استبعد {{CT chest}} لأنه للمدخنين بعمر كبير.",
+   "رابع شي اختر {{fasting glucose}} لأن المعيارين موجودين والثالث ممكن يكون السكر."
+  ],
+  "tip": "الـ{{HTN + obesity}} يعني {{screen for diabetes}} بالـ{{fasting glucose}}",
+  "pitfall": "الفخ إن الطالب يختار {{pap smear}} كفحص روتيني، بس عوامل الخطر هنا ترجح السكر."
+ },
+ "A158": {
+  "bg": [
+   "هذا نفس سؤال {{47 years with HTN and BMI 32}} لكن الخيارات تغيرت: الفحص بالـ{{random blood glucose}} بدل {{fasting}}.",
+   "الـ{{random blood glucose}} ما نستعمله لتشخيص {{diabetes}} أو فحصه إلا لو المريض عنده أعراض أي {{polyuria, polydipsia, weight loss}} مع قيمة {{≥ 200 mg/dL}}.",
+   "الفحص المعتمد بدون أعراض هو {{fasting plasma glucose ≥ 126}} أو {{HbA1c ≥ 6.5%}} أو {{OGTT ≥ 200}}.",
+   "البنك ما متأكد من الخيار الصحيح بسبب نسيان أحد الخيارات، لكنه يفترض أن {{pap smear}} هو الجواب {{B}} لأنه الفحص الوقائي الصحيح المتاح.",
+   "الـ{{pap smear}} للنساء {{21 to 65}} كل {{3 years}} (أو {{cotesting}} كل {{5 years}} من {{30}}) وهو فحص روتيني لأي سيدة بهالعمر."
+  ],
+  "steps": [
+   "أول شي لاحظ إن الخيار الصحيح للسكر أي {{fasting}} غير موجود، فالسكر هنا {{random}}.",
+   "ثاني شي اعرف إن {{random glucose}} ما يصلح للفحص بدون أعراض فنستبعده.",
+   "ثالث شي استبعد {{CT chest}} (ما فيه تدخين) و{{FOBT}} (ما نبدأ كولون للـ{{47}} حسب بعض الأنظمة، وهو أقل ارتباطاً بالسؤال).",
+   "رابع شي اختر {{pap smear}} لأنه فحص وقائي مؤكد."
+  ],
+  "tip": "الـ{{random glucose}} ما يفحص به، فاختر الفحص الوقائي الصحيح",
+  "pitfall": "الإجابة تعتمد على افتراض صحة السؤال كما نقله الطالب، والبنك نفسه يشك فيه، فلا تتعلق بها كثير."
+ },
+ "A159": {
+  "bg": [
+   "هذا نسخة ثالثة من نفس السؤال: {{47 years, HTN, BMI 32}} مع إضافة {{sexually active}}.",
+   "الإضافة {{sexually active}} تذكّر بالـ{{pap smear}} (يعني نختار الفحص النسائي)، لكن المصدر نفسه يقول إن جوابه الشخصي {{fasting glucose}}.",
+   "المنطق: {{HTN + BMI 32}} يعطينا معيارين من {{metabolic syndrome}} فالفحص الأهم هو السكر أي {{fasting}}.",
+   "الـ{{FOBT}} للـ{{colorectal cancer}} يبدأ من {{45}} في بعض الإرشادات، لكن الجواب المعطى في البنك هنا {{C}}.",
+   "الـ{{pap smear}} فحص مستمر كل {{3 years}} بعمر {{21 to 65}} فما هو الفحص الأنسب لهذه الحالة بحسب المصدر."
+  ],
+  "steps": [
+   "أول شي اقرأ الخيارات: عندنا {{pap smear}} و{{FOBT}} و{{fasting glucose}}.",
+   "ثاني شي الجواب المعطى في البنك {{C}} وهو {{fecal occult blood}}، رغم إن المصدر يميل للسكر.",
+   "ثالث شي افهم إن {{colorectal screening}} يبدأ من {{45}} فهي عمرها {{47}} وتستحق الفحص.",
+   "رابع شي إذا {{fasting glucose}} موجود وقت الامتحان وما فيه {{FOBT}} فاختر الجلوكوز."
+  ],
+  "tip": "الـ{{age 45+}} يعني {{colon screening}} والـ{{obesity + HTN}} يعني {{glucose}}",
+  "pitfall": "الجواب المعطى {{C}} يختلف عن رأي المصدر أي {{fasting glucose}}، نحفظه كما هو لكن ننتبه لاختلاف نسخ السؤال."
+ },
+ "A160": {
+  "bg": [
+   "الـ{{severe hypertension in pregnancy}} هو {{BP ≥ 160/110}} وهو حالة طوارئ لأنه يعرض الأم لـ{{stroke}} و{{eclampsia}}.",
+   "السؤال هنا بدون {{magnesium sulfate}} في الخيارات، فالباقي كلها {{antihypertensives}} ونختار الأنسب منها.",
+   "الأدوية السريعة والمقبولة هي {{IV labetalol}} و{{IV hydralazine}} و{{oral nifedipine}}، ومن الخيارات هنا {{hydralazine}} هو الوحيد المقبول.",
+   "الـ{{methyldopa}} بطيء المفعول ومناسب لـ{{mild chronic HTN}}، والـ{{clonidine}} ما هو أول اختيار، والـ{{nitroprusside}} فيه سمية السيانيد للجنين ويستخدم فقط كـ{{last resort}}.",
+   "السؤال فيه صورة أي {{lab result}} لكن ما أقدر أشوف محتواها، والجواب المعطى {{C}} مؤكد من البنك."
+  ],
+  "steps": [
+   "أول شي حدد إن {{BP 160/110}} هو {{severe range}}.",
+   "ثاني شي اسأل: هل {{labetalol}} موجود؟ لا، فننتقل للثاني.",
+   "ثالث شي اختر {{hydralazine}} لأنه الدواء الوحيد المقبول للـ{{acute severe HTN}} بين الخيارات.",
+   "رابع شي استبعد {{methyldopa}} للبطء و{{nitroprusside}} للسمية و{{clonidine}} لأنه غير مفضل."
+  ],
+  "tip": "الـ{{severe HTN}} يعني {{labetalol, hydralazine, nifedipine}} فقط من الخيارات",
+  "pitfall": "الفخ إن الطالب يستبعد {{hydralazine}} لأنه ما يعرفه، والسؤال يوضح إن {{MgSO4}} غير موجود بالخيارات، فما نحتاج نفكر فيه."
+ },
+ "A161": {
+  "bg": [
+   "الـ{{chronic hypertension}} هي {{HTN}} موجودة قبل الحمل أو قبل {{20 weeks}} (أو مستمرة بعد {{12 weeks postpartum}})، وسببها غالباً {{essential HTN}} أو {{renal}} أو {{endocrine}}.",
+   "خطرها بالحمل إنها تزيد احتمال {{superimposed preeclampsia}} و{{IUGR}} و{{placental abruption}} و{{preterm birth}}.",
+   "العلاج بالـ{{antihypertensive}} يبدأ عادة لما الضغط {{≥ 150/100}} (حسب {{ACOG}})، أو أقل في بعض الإرشادات أي {{≥ 140/90}} بنفس الاتجاه الحديث.",
+   "الاختيار الأول تقليدياً في الـ{{chronic HTN}} هو {{methyldopa}} (أطول سجل أمان بالحمل)، والبدائل {{labetalol}} و{{nifedipine}}.",
+   "أما {{hydralazine}} فيستعمل للحالات الشديدة، و{{verapamil}} ما هو أول اختيار."
+  ],
+  "steps": [
+   "أول شي حدد إنها {{chronic HTN}} مو {{preeclampsia}} لأن عندها تاريخ {{HTN}} قبل الحمل.",
+   "ثاني شي اسأل: أي دواء له أطول سجل أمان وهو مناسب للمزمن؟ {{methyldopa}}.",
+   "ثالث شي استبعد {{hydralazine}} لأنه للحالة الشديدة، و{{nifedipine}} بديل ممكن لكن البنك اختار الأول.",
+   "رابع شي استبعد {{verapamil}} لأنه ما هو معتاد بالحمل."
+  ],
+  "tip": "الـ{{chronic HTN in pregnancy}} يعني {{methyldopa}} (الأطول سجل)",
+  "pitfall": "الفخ إن الطالب يختار {{nifedipine}}، وهو مقبول في الواقع، لكن الجواب المعطى {{methyldopa}}، لذلك لا تتردد."
+ },
+ "A162": {
+  "bg": [
+   "الـ{{preeclampsia with severe features}} أخطر مضاعفاتها هي {{eclampsia}} يعني التشنجات، وسببها {{cerebral vasospasm and edema}} من ارتفاع الضغط.",
+   "الـ{{magnesium sulfate}} هو العلاج الأساسي للوقاية من التشنج، وهو أفضل من {{phenytoin}} و{{diazepam}} لتقليل خطر التكرار.",
+   "الأعراض اللي تدل على الشدة: {{BP ≥ 160/110}} وهنا {{170/110}}، و{{proteinuria +3}} وعمر الحمل {{38 weeks}} (يعني {{term}}).",
+   "العلاج النهائي هو {{delivery}} بعد تثبيت الأم، ولذلك أرسلوها لغرفة الولادة.",
+   "الـ{{antihypertensive}} مهم لكنه لحماية الأم من {{stroke}}، أما {{MgSO4}} فهو للوقاية من التشنج، والبنك يعتبر {{MgSO4}} الخطوة التالية."
+  ],
+  "steps": [
+   "أول شي حدد التشخيص: {{BP 170/110}} مع {{protein +3}} عند {{38 weeks}} يعني {{severe preeclampsia at term}}.",
+   "ثاني شي اسأل: وش الوقاية من التشنج؟ {{MgSO4}}.",
+   "ثالث شي استبعد {{oxytocin}} و{{prostaglandin}} لأنهما للتحريض ولا نبدأ فيهم قبل تثبيت الأم.",
+   "رابع شي استبعد {{methyldopa}} لأنه بطيء ولا يناسب الحالة الشديدة."
+  ],
+  "tip": "الـ{{severe features}} يعني {{MgSO4}} للوقاية من التشنج",
+  "pitfall": "الفخ إن الطالب يشوف الضغط العالي فيختار دواء ضغط، والسؤال يوضح إن {{hydralazine}} و{{labetalol}} غير موجودين بالخيارات، فالجواب {{MgSO4}}."
+ },
+ "A163": {
+  "bg": [
+   "الأدوية اللي تأثر على الجنين: {{ACE inhibitors}} و{{ARBs}} أي {{losartan}} تسبب {{fetal renal dysgenesis}} و{{oligohydramnios}} و{{pulmonary hypoplasia}} و{{fetal growth restriction}}، وخطرها أكبر بالثلث الثاني والثالث.",
+   "المريضة تتناول {{hydrochlorothiazide}} و{{losartan}} وتأخرت دورتها {{2 months}} واختبار الحمل إيجابي، فهي الآن حامل.",
+   "لازم نوقف الـ{{losartan}} فوراً لأنه {{ARB}} ونبدله بدواء آمن للحمل مثل {{methyldopa}} أو {{labetalol}} أو {{nifedipine}}.",
+   "ما نوقف كل الأدوية لأن الضغط بيرجع يرتفع وتتضرر الأم، لازم نوفر بديل.",
+   "الـ{{thiazide}} ممكن يستمر بالحمل بحذر (مع أنه مو مثالي) لأنه قد يقلل {{plasma volume}}."
+  ],
+  "steps": [
+   "أول شي لاحظ الأدوية: {{ARB}} خطر على الحمل.",
+   "ثاني شي استبعد {{continue same agents}} لأنها تعني استمرار الـ{{ARB}}.",
+   "ثالث شي استبعد {{discontinue all}} لأن الضغط بيرجع ولازم نستبدل.",
+   "رابع شي استبعد {{enalapril}} لأنه {{ACE inhibitor}} نفس مشكلة الـ{{ARB}}.",
+   "خامس شي اختر {{stop losartan and start methyldopa}}."
+  ],
+  "tip": "الـ{{ACE/ARB}} يعني {{stop and substitute}} بـ{{methyldopa}} أو {{labetalol}} أو {{nifedipine}}",
+  "pitfall": "الفخ إن الطالب يختار {{enalapril}} لأنه يظنه بديل، بس هو من نفس العائلة الممنوعة."
+ },
+ "A164": {
+  "bg": [
+   "الحمل يغير طريقة التعامل مع الأدوية لأن جزء منها يعبر المشيمة ويؤثر على نمو الجنين وأعضائه.",
+   "الـ{{ACE inhibitors}} (مثل {{lisinopril}}) و{{ARBs}} تثبط {{renin-angiotensin system}} عند الجنين، وهذا النظام ضروري لتكوين الكلى، فتسبب {{renal failure}} و{{oligohydramnios}} وتشوهات.",
+   "الأدوية الآمنة بالحمل هي {{methyldopa}} و{{labetalol}} و{{nifedipine}} و{{hydralazine}}.",
+   "عمر الحمل {{8 weeks}} يعني {{first trimester}} وهو وقت تكوين الأعضاء، فالتعرض بالـ{{ACE inhibitor}} بهالفترة ممكن يسبب {{cardiac and CNS malformations}} حسب بعض الدراسات.",
+   "لذلك لازم نتجنبها في أي مرحلة من الحمل ولو خطرها الأكبر بالثلث الثاني والثالث."
+  ],
+  "steps": [
+   "أول شي حدد السؤال: كلمة {{contraindicated}} يعني نبحث عن الدواء الخطر.",
+   "ثاني شي استبعد الأدوية المقبولة بالحمل: {{labetalol}} و{{nifedipine}} و{{methyldopa}}.",
+   "ثالث شي الدواء المتبقي {{lisinopril}} وهو {{ACE inhibitor}}.",
+   "رابع شي اختر {{lisinopril}}."
+  ],
+  "tip": "الأدوية اللي تنتهي بـ{{-pril}} و{{-sartan}} يعني ممنوعة بالحمل",
+  "pitfall": "الفخ إن الطالب يظن إن الأدوية الأربعة كلها آمنة، والمفتاح هو الـ{{ACE inhibitor}}."
+ },
+ "A165": {
+  "bg": [
+   "الـ{{captopril}} هو {{ACE inhibitor}} وهو ممنوع بالحمل لأنه يؤثر على {{fetal kidneys}} ويسبب {{oligohydramnios}} و{{pulmonary hypoplasia}} و{{neonatal renal failure}}.",
+   "الـ{{preeclampsia}} هي حالة تحتاج علاج الضغط بدواء آمن للجنين وليس أي دواء.",
+   "الأدوية المقبولة بالـ{{preeclampsia}}: {{labetalol}} و{{nifedipine}} و{{hydralazine}} و{{methyldopa}}.",
+   "السؤال يطلب الدواء {{contraindicated}} فنبحث عن الدواء الوحيد من العائلة الممنوعة.",
+   "ولا ننسى إن {{ACE inhibitors}} مسموحة بعد الولادة حتى مع الرضاعة (مثل {{captopril}} و{{enalapril}})."
+  ],
+  "steps": [
+   "أول شي اقرأ السؤال: يسأل عن الممنوع.",
+   "ثاني شي اعرف إن {{nifedipine}} و{{hydralazine}} و{{methyldopa}} من الأدوية المقبولة بالحمل.",
+   "ثالث شي اختر {{captopril}} لأنه {{ACE inhibitor}}.",
+   "رابع شي تأكد إن اسم الدواء ينتهي بـ{{-pril}}."
+  ],
+  "tip": "الـ{{-pril}} ممنوع بالحمل، وبعد الولادة مسموح",
+  "pitfall": "الفخ إن الطالب يخلط بين {{captopril}} و{{methyldopa}} لأن كلهم أدوية ضغط، لكن الأول ممنوع."
+ },
+ "A166": {
+  "bg": [
+   "الـ{{gestational hypertension}} هي {{HTN}} تظهر بعد {{20 weeks}} بدون {{proteinuria}} وتختفي عادة خلال {{12 weeks postpartum}}.",
+   "بعد الولادة الضغط ممكن يظل مرتفع أو يرتفع أكثر خلال {{3 to 6 days}}، وهذا مهم لأن بعض النساء يتطور عندهم {{postpartum preeclampsia}}.",
+   "التوصية: نراقب الضغط، وإذا ظل مرتفع (خاصة {{≥ 150/100}}) نبدأ علاج، ونستمر بالمتابعة.",
+   "في السؤال الضغط {{150/...}} بعد {{4 weeks}} من الولادة، والجواب المعطى {{prescribe antihypertensive if remains high}}.",
+   "الـ{{aspirin}} يستعمل للوقاية في الحمل القادم وليس لعلاج الضغط الحالي."
+  ],
+  "steps": [
+   "أول شي لاحظ إن الولادة قبل {{4 weeks}} والضغط مرتفع {{150/...}}.",
+   "ثاني شي اسأل: هل هذا مرتفع بعد الولادة بشكل مستمر؟ نعم، فنعالج.",
+   "ثالث شي استبعد {{salt restriction and rest}} لأنها ما تعالج الضغط المستمر.",
+   "رابع شي استبعد {{annual follow up}} لأن المراقبة السنوية ما تكفي.",
+   "خامس شي استبعد {{aspirin}} لأنه للحمل القادم."
+  ],
+  "tip": "الـ{{postpartum HTN}} مستمر يعني علاج مو مراقبة",
+  "pitfall": "الفخ إن الطالب يظن إن الضغط يرجع طبيعي دايماً بعد الولادة، والصحيح إنه ممكن يستمر ويحتاج علاج."
+ },
+ "A167": {
+  "bg": [
+   "الـ{{gestational hypertension}} تُعتبر محلولة لما يرجع الضغط للطبيعي بعد الولادة (خلال {{12 weeks}})، لكن النساء بهالحالة عندهن خطر أعلى لـ{{chronic HTN}} و{{cardiovascular disease}} لاحقاً.",
+   "في السؤال الضغط {{133/88}} بعد {{4 weeks}} من الولادة، وهذا في مرحلة {{stage 1 hypertension}} حسب {{ACC/AHA}} أي {{130-139 / 80-89}}.",
+   "الجواب المعطى في البنك {{B}} (علاج إذا ظل مرتفع) ومؤكد من مصدر البنك.",
+   "الـ{{annual BP check}} هو الخيار الأقرب للمنطق بنظر بعض الإرشادات، لكن البنك يعتمد {{B}}.",
+   "الـ{{aspirin}} للحمل القادم مهم لكنه ليس الخطوة الحالية."
+  ],
+  "steps": [
+   "أول شي اقرأ القيمة {{133/88}}: أقل من {{150/100}} فما نحتاج علاج فوري.",
+   "ثاني شي استبعد {{salt restriction}} لأنه مو علاج رئيسي.",
+   "ثالث شي الجواب المعطى {{B}} فنحفظه كما هو.",
+   "رابع شي فكر بالمتابعة: {{BP follow up}} والتحكم بعوامل الخطر مثل الوزن والرياضة."
+  ],
+  "tip": "الـ{{gestational HTN}} المحلولة تحتاج متابعة سنوية، لكن اتبع جواب البنك",
+  "pitfall": "الجواب المعطى {{B}} يتعارض مع المنطق السريري (القيمة {{133/88}} تحتاج متابعة لا دواء)، لكن نحفظه كما هو."
+ },
+ "A168": {
+  "bg": [
+   "الحمل يغير جسم الأم كله لتلبية حاجات الجنين والمشيمة، وأهم تغيير هو في الدم والقلب.",
+   "الـ{{total blood volume}} يزيد بحوالي {{40 to 45%}} بنهاية الحمل، لأن {{plasma volume}} يزيد أكثر أي {{40-50%}} وكتلة {{red blood cells}} تزيد أقل أي {{20-30%}}.",
+   "الفرق يسبب {{hemodilution}} فينخفض الـ{{hematocrit}} و{{hemoglobin}} نسبياً، وهذا يسمى {{physiologic anemia of pregnancy}}، والحد الأدنى للـ{{Hb}} بالحمل {{11 g/dL}} بالثلث الأول والثالث و{{10.5}} بالثاني.",
+   "فائدة الزيادة: تحمي الأم من الدم المفقود عند الولادة ({{500 mL}} طبيعي و{{1000 mL}} قيصرية) وتحسن تروية المشيمة.",
+   "الـ{{cardiac output}} يزيد {{30-50%}} و{{heart rate}} يزيد {{10-20 bpm}} و{{blood pressure}} ينخفض في الثلث الثاني."
+  ],
+  "steps": [
+   "أول شي ركز على عبارة {{total blood volume}} لأنها الزيادة الأكبر بالحمل.",
+   "ثاني شي استبعد زيادة الـ{{hematocrit}} لأنه ينقص بسبب {{dilution}}.",
+   "ثالث شي استبعد نقص {{40-45%}} في الـ{{hematocrit}} لأنه مبالغ جداً.",
+   "رابع شي قارن {{20-25%}} و{{40-45%}}: الرقم الصحيح للـ{{blood volume}} هو {{40-45%}}."
+  ],
+  "tip": "الـ{{blood volume}} يزيد {{40-45%}} أما الـ{{hematocrit}} فينقص قليلاً",
+  "pitfall": "الفخ إن الطالب يخلط بين الزيادة في الـ{{blood volume}} والـ{{hematocrit}}، فالأول يزيد والثاني ينقص."
+ },
+ "A169": {
+  "bg": [
+   "في الحمل الطبيعي الـ{{plasma volume}} يزيد بشكل كبير، بينما في الـ{{severe preeclampsia}} يكون نصيبه أقل بسبب {{vasospasm}} و{{endothelial damage}} الذي يسبب {{leaky capillaries}}.",
+   "السوائل تتسرب إلى {{interstitial space}} فيحصل {{edema}} وينخفض حجم السوائل داخل الأوعية أي {{intravascular depletion}} رغم إن {{total body water}} زائد.",
+   "هذا يفسر ليش {{preeclampsia}} فيها {{hemoconcentration}} (ارتفاع {{hematocrit}}) و{{oliguria}}، وليش نكون حذرين بالسوائل لأنها تسبب {{pulmonary edema}} بسهولة.",
+   "الكلى تتأثر فيرتفع {{serum creatinine}} و{{urea}} و{{uric acid}}، وهذا عكس الحمل الطبيعي الذي تنخفض فيه هذه القيم بسبب زيادة الترشيح.",
+   "لذلك الخيار الذي ينقص هو {{plasma volume}}، وقيم {{urea and creatinine and uric acid}} كلها ترتفع."
+  ],
+  "steps": [
+   "أول شي اسأل: أي قيمة تنقص بالـ{{severe preeclampsia}}؟",
+   "ثاني شي استبعد {{urea}} و{{creatinine}} و{{uric acid}} لأنها ترتفع بسبب {{renal impairment}}.",
+   "ثالث شي اختر {{plasma volume}} لأنه ينقص نسبياً بسبب التسرب.",
+   "رابع شي تذكر إن البنك نفسه يقول إن الحجم الكلي يزيد لكنه ينتقل خارج الأوعية."
+  ],
+  "tip": "الـ{{preeclampsia}} يعني {{low intravascular volume}} و{{high uric acid, creatinine, urea}}",
+  "pitfall": "الفخ إن الطالب يختار {{uric acid}} لأنه ينخفض بالحمل الطبيعي، لكن بالـ{{preeclampsia}} هو يرتفع."
+ },
+ "A170": {
+  "bg": [
+   "الـ{{eclampsia}} هي ظهور {{generalized tonic-clonic seizures}} عند وحدة عندها {{preeclampsia}} بدون سبب آخر (مثل {{epilepsy}} أو {{stroke}}).",
+   "السبب هو {{cerebral vasospasm}} و{{hypertensive encephalopathy}}، والأعراض التحذيرية {{headache}} و{{visual changes}} و{{restlessness}} و{{hyperreflexia}}.",
+   "العلاج الأساسي للتشنج هو {{magnesium sulfate}}: جرعة تحميل {{4-6 g IV}} خلال {{15-20 minutes}} ثم {{1-2 g/hour}} بالتسريب الوريدي.",
+   "الـ{{MgSO4}} أفضل من {{phenytoin}} و{{diazepam}} لأنه يقلل خطر تكرار التشنج وخطر موت الأم.",
+   "ولا ننسى أثناء المتابعة نراقب {{deep tendon reflexes}} و{{respiratory rate}} و{{urine output}} لاكتشاف {{magnesium toxicity}}، والترياق {{calcium gluconate}}."
+  ],
+  "steps": [
+   "أول شي حدد التشخيص: ضغط {{160/90}} مع تشنج يعني {{eclampsia}}.",
+   "ثاني شي اسأل: وش العلاج الأساسي؟ {{MgSO4}}.",
+   "ثالث شي استبعد {{observation}} لأنه خطر.",
+   "رابع شي استبعد {{phenytoin}} لأنه أقل فعالية، و{{hydralazine}} لأنه يعالج الضغط مو التشنج."
+  ],
+  "tip": "الـ{{seizure in pregnancy}} يعني {{MgSO4}} أول شي بعد الـ{{ABC}}",
+  "pitfall": "الفخ إن الطالب يبدأ بعلاج الضغط، والتشنج أولى بالعلاج بـ{{MgSO4}}."
+ },
+ "A171": {
+  "bg": [
+   "الـ{{eclampsia}} حالة طوارئ يهددها خطر {{aspiration}} و{{hypoxia}} أثناء التشنج وبعده، خاصة لو المريضة {{unconscious}}.",
+   "في أي حالة طوارئ نتبع ترتيب {{ABC}}: {{Airway}} ثم {{Breathing}} ثم {{Circulation}}، وهذا قبل أي دواء.",
+   "إذا ما كان الـ{{airway}} مفتوح فالمريضة ممكن تموت قبل ما يعمل الدواء، ولذلك فتح الـ{{airway}} (إمالة الرأس ورفع الفك وشفط الإفرازات) هو الأولوية.",
+   "بعد تأمين الـ{{airway}} نعطي {{oxygen}} ونضع {{IV access}} ثم {{MgSO4}} ثم نعالج الضغط ونفكر بالولادة.",
+   "الجنين تمام أي {{positive fetal heart}} والرحم بحجم العمر، فالأولوية للأم لأن استقرارها هو أفضل حماية للجنين."
+  ],
+  "steps": [
+   "أول شي اقرأ السؤال: {{first step in management}}.",
+   "ثاني شي فكر بـ{{ABC}} لأن المريضة فاقدة الوعي.",
+   "ثالث شي استبعد {{MgSO4}} و{{hydralazine}} و{{IV fluids}} لأنهم بعد {{airway}}.",
+   "رابع شي اختر {{open and maintain airway}}."
+  ],
+  "tip": "الـ{{ABC}} دايم أول شي، حتى قبل {{MgSO4}}",
+  "pitfall": "الفخ إن الطالب يختار {{MgSO4}} لأنه علاج {{eclampsia}}، لكن السؤال عن الخطوة الأولى وهي الـ{{airway}}."
+ },
+ "A172": {
+  "bg": [
+   "الـ{{peripartum cardiomyopathy}} هو فشل قلب ({{systolic heart failure}}, {{EF < 45%}}) يظهر في آخر الحمل أو خلال {{5 months}} بعد الولادة بدون سبب آخر.",
+   "السبب غير معروف بالكامل لكن يرتبط بـ{{prolactin 16-kDa fragment}} و{{oxidative stress}} ومن عوامل الخطر {{age > 30}} و{{multiparity}} و{{preeclampsia}} و{{twins}}.",
+   "الأعراض {{dyspnea}} و{{orthopnea}} و{{edema}} و{{fatigue}} وتشبه الحمل الطبيعي لذلك يتأخر التشخيص، ونؤكده بالـ{{echocardiography}}.",
+   "العلاج قبل الولادة: {{hydralazine and nitrates}} لتخفيف الحمل على القلب {{afterload reduction}}، مع {{beta blocker}} و{{diuretics}} لأن {{ACE/ARB}} ممنوعة بالحمل.",
+   "بعد الولادة نضيف {{ACE inhibitors}} أو {{ARBs}} (حتى لو ترضع مع {{enalapril}} و{{captopril}})."
+  ],
+  "steps": [
+   "أول شي حدد التشخيص: {{peripartum cardiomyopathy at 30 weeks}} يعني ما زالت حامل.",
+   "ثاني شي اسأل: هل الحمل مستمر؟ نعم، فنتجنب {{ACE}} و{{ARB}}.",
+   "ثالث شي استبعد {{ACE}} و{{ARB}} (ممنوعين بالحمل).",
+   "رابع شي اختر {{hydralazine}} لأنه {{afterload reducer}} آمن بالحمل، و{{methyldopa}} ما يعالج فشل القلب."
+  ],
+  "tip": "الـ{{PPCM}} قبل الولادة يعني {{hydralazine}} وبعد الولادة {{ACE/ARB}}",
+  "pitfall": "الفخ إن الطالب يختار {{ACE}} لأنه علاج {{heart failure}} الأساسي، لكنه ممنوع قبل الولادة."
+ },
+ "A173": {
+  "bg": [
+   "الـ{{preeclampsia}} ممكن تتكرر بالحمل القادم، وأقوى عامل خطر هو {{previous preeclampsia}}، ومن عوامل الخطر الأخرى {{chronic HTN}} و{{diabetes}} و{{renal disease}} و{{autoimmune disease}} و{{multiple pregnancy}}.",
+   "السبب إن مشكلة المشيمة أي {{abnormal placentation}} وخلل الأوعية ممكن تتكرر.",
+   "الـ{{low dose aspirin}} ({{81-150 mg}} يومياً) يقلل خطر {{preeclampsia}} لأنه يقلل {{thromboxane}} ويحسن التروية.",
+   "يبدأ من {{12 to 16 weeks}} (والأفضل قبل {{16}}) ويستمر حتى {{36 weeks}} أو الولادة.",
+   "أما {{calcium supplementation}} فمفيد لو النساء عندهن {{low calcium intake}}، وراحة السرير و{{increased sodium}} ما لهم دور."
+  ],
+  "steps": [
+   "أول شي حدد عامل الخطر: {{previous preeclampsia}} يعني {{high risk}}.",
+   "ثاني شي اسأل: أي تدخل مثبت علمياً؟ {{low dose aspirin}}.",
+   "ثالث شي استبعد {{bed rest}} لأنه ما ثبتت فائدته.",
+   "رابع شي استبعد {{calcium restriction}} و{{increased sodium}} لأنها غلط."
+  ],
+  "tip": "الـ{{previous preeclampsia}} يعني {{aspirin 81 mg}} من {{12 weeks}}",
+  "pitfall": "الفخ إن الطالب يختار {{calcium restriction}} وهو غلط، فالكالسيوم يكمل ولا يقيد."
+ },
+ "A174": {
+  "bg": [
+   "الـ{{HPV}} فيروس ينتقل بالجنس وفيه أكثر من {{100 types}} تنقسم إلى {{low risk}} و{{high risk}}.",
+   "الـ{{low risk types}} مثل {{6 and 11}} تسبب {{genital warts (condyloma acuminata)}} وما تسبب سرطان تقريباً.",
+   "الـ{{high risk types}} مثل {{16 and 18}} تسبب {{cervical cancer}} و{{CIN}}، وهما مسؤولان عن حوالي {{70%}} من حالات سرطان عنق الرحم.",
+   "الفيروس يسبب السرطان لأن بروتيناته {{E6 and E7}} تعطل {{p53}} و{{Rb}} فتتراكم الطفرات.",
+   "ويوجد أنواع أخرى عالية الخطورة مثل {{31, 33, 45, 52, 58}} وهي تغطيها اللقاحات الحديثة أي {{9-valent vaccine}}."
+  ],
+  "steps": [
+   "أول شي حدد السؤال: عبارة {{cervical cancer}} يعني {{high risk}}.",
+   "ثاني شي استبعد {{6/11}} لأنه {{warts}}.",
+   "ثالث شي استبعد {{32/36}} و{{44}} لأنها غير مشهورة.",
+   "رابع شي اختر {{16/18}}."
+  ],
+  "tip": "الـ{{6 and 11}} يعني {{warts}} (ستة وأحد عشر للـ{{warts}})، والـ{{16 and 18}} يعني {{cancer}}",
+  "pitfall": "الفخ إن الطالب يخلط بين {{6/11}} و{{16/18}}، فالأولين للثآليل والثانيين للسرطان."
+ },
+ "A175": {
+  "bg": [
+   "الـ{{pap smear}} هو فحص خلايا عنق الرحم، ونتائجه تصنف إلى {{ASCUS}} و{{LSIL}} و{{HSIL}} و{{AGC}} {{atypical glandular cells}}.",
+   "الـ{{AGC}} يعني الخلايا الغدية غير طبيعية، وهي أخطر من {{ASCUS}} لأنها ممكن تكون من {{endocervix}} أو من {{endometrium}} (وأحياناً {{ovary}} أو {{fallopian tube}}).",
+   "لذلك نتيجة {{AGC}} مو مجرد مشكلة بعنق الرحم، وأحياناً تكون {{endometrial cancer}} أو {{adenocarcinoma in situ}}.",
+   "التقييم القياسي لـ{{AGC}} هو {{colposcopy with endocervical sampling (ECC)}} مع {{endometrial biopsy}} إذا العمر {{≥ 35}} أو فيه {{abnormal uterine bleeding}} أو عوامل خطر.",
+   "هذي المريضة عمرها {{55}} وبعد {{menopause}} وعندها نزيف، فالاحتمال الكبير {{endometrial pathology}} ولازم تقييم كامل."
+  ],
+  "steps": [
+   "أول شي حدد النتيجة: {{AGC}}، وهي تحتاج {{work-up}} مباشر.",
+   "ثاني شي استبعد {{repeat pap smear}} لأنه غير كافي لـ{{AGC}}.",
+   "ثالث شي استبعد {{HPV testing}} لوحده لأنه يستعمل مع {{ASCUS}} مو مع {{AGC}}.",
+   "رابع شي اختر {{colposcopy}} (مع {{ECC}} و{{endometrial sampling}} بالواقع)."
+  ],
+  "tip": "الـ{{AGC}} يعني {{colposcopy + endometrial biopsy}} بعمر {{≥ 35}} أو مع نزيف",
+  "pitfall": "الفخ إن الطالب يختار {{HPV}} لأنه عنق الرحم، لكن {{AGC}} هو استثناء ويحتاج {{colposcopy}} مباشرة."
+ }
+}

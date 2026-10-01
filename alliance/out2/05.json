@@ -1,0 +1,427 @@
+{
+ "A101": {
+  "bg": [
+   "الـ{{postpartum hemorrhage (PPH)}} يعني نزيف بعد الولادة؛ التعريف الكلاسيكي {{blood loss > 500 mL}} بعد الولادة الطبيعية أو {{> 1000 mL}} بعد القيصرية، وأي نزيف يسبب عدم استقرار بالعلامات الحيوية يُعامل كـ {{PPH}}.",
+   "أشهر سبب هو {{uterine atony}} (الرحم ما ينقبض)، وتذكرها بالـ4 T's: {{Tone}} و{{Trauma}} و{{Tissue}} و{{Thrombin}}. الرحم بعد الولادة لازم ينقبض ويضغط الأوعية اللي كانت تغذي المشيمة، لو ما انقبض ينزف بغزارة.",
+   "العلاج يمشي بسلم تصاعدي: أول شي {{uterine massage}} و{{oxytocin}} ثم {{second-line uterotonics}} مثل {{carboprost}} و{{misoprostol}} و{{methylergometrine}} و{{tranexamic acid}}، ولو فشلت كلها ندخل في مرحلة الجراحة أو الـ{{tamponade}}.",
+   "الأوعية اللي تغذي الرحم تجي من الـ{{internal iliac artery}} وفروعها أي {{uterine artery}}، فلما نربطه ينزل ضغط الدم في الحوض أي {{pelvic perfusion pressure}} وينقص النزيف مع بقاء الرحم والخصوبة لأن فيه {{collateral circulation}} غني.",
+   "الـ{{external iliac artery}} هذا يروح للرجل، لو ربطناه تصير {{limb ischemia}}، فهو خيار خطأ دايم في أسئلة الحوض."
+  ],
+  "steps": [
+   "أول شي اقرأ الشرط الأساسي: المريضة تبغى {{future pregnancies}} يعني نمنع {{hysterectomy}} ونختار {{fertility-sparing}}.",
+   "ثاني شي حدد إن السؤال عن {{what to ligate}} يعني {{arterial supply}} مو الشرايين البعيدة ولا الأوردة.",
+   "استبعد الـ{{external iliac artery}} لأنه يغذي الرجل، واستبعد الـ{{vein}} لأن النزيف شرياني ومعالجته ما تنفع.",
+   "استبعد الـ{{utero-ovarian ligament}} لأنه رباط مو مصدر الدم الرئيسي الذي نربطه لتوقيف {{PPH}}.",
+   "الباقي {{internal iliac artery}} هو الجواب."
+  ],
+  "tip": "تذكر: الرحم يتغذى من {{internal}} مو {{external}}، و{{internal}} يعني داخل الحوض مع الرحم.",
+  "pitfall": "في الواقع العملي أول خيار قبل الربط هو {{Bakri balloon}} أو {{uterine artery ligation}} (الأسهل)، وربط الـ{{internal iliac}} أصعب فنياً؛ بس الخيارات هنا حددت الجواب."
+ },
+ "A102": {
+  "bg": [
+   "الـ{{postpartum hemorrhage (PPH)}} يعني نزيف بعد الولادة؛ التعريف الكلاسيكي {{blood loss > 500 mL}} بعد الولادة الطبيعية أو {{> 1000 mL}} بعد القيصرية، وأي نزيف يسبب عدم استقرار بالعلامات الحيوية يُعامل كـ {{PPH}}.",
+   "أشهر سبب هو {{uterine atony}} (الرحم ما ينقبض)، وتذكرها بالـ4 T's: {{Tone}} و{{Trauma}} و{{Tissue}} و{{Thrombin}}. الرحم بعد الولادة لازم ينقبض ويضغط الأوعية اللي كانت تغذي المشيمة، لو ما انقبض ينزف بغزارة.",
+   "العلاج يمشي بسلم تصاعدي: أول شي {{uterine massage}} و{{oxytocin}} ثم {{second-line uterotonics}} مثل {{carboprost}} و{{misoprostol}} و{{methylergometrine}} و{{tranexamic acid}}، ولو فشلت كلها ندخل في مرحلة الجراحة أو الـ{{tamponade}}.",
+   "الخيارات اللي تحافظ على الرحم أي {{conservative / fertility-sparing}} هي: {{Bakri balloon}} بعد الولادة الطبيعية، {{B-Lynch suture}} بعد القيصرية لأن البطن مفتوح، {{uterine artery ligation}} أو {{internal iliac artery ligation}} أو {{angiographic embolization}}.",
+   "الـ{{Bakri balloon}} هو بالون يدخل داخل تجويف الرحم ويتعبأ بسائل فيضغط على الجدران من الداخل أي {{tamponade effect}} فيوقف النزيف في حالات {{atony}}، وهو بسيط وسريع وما يحتاج غرفة عمليات في الغالب.",
+   "الخلاصة اللي ينسبها المصدر: بعد الولادة المهبلية نبدأ بـ{{Bakri balloon}}، وبعد القيصرية نبدأ بـ{{B-Lynch suture}}، ولو فشل أو المريضة غير مستقرة نروح لـ{{uterine artery ligation}}، ولو مستقرة نروح لـ{{angio-embolization}}."
+  ],
+  "steps": [
+   "أول شي لاحظ إن الأدوية أي {{uterotonics}} فشلت يعني ندخل مرحلة {{procedures}}.",
+   "ثاني شي حدد نوع الولادة: مهبلية يعني {{Bakri balloon}} هو الخط الأول الجراحي/التداخلي.",
+   "استبعد الـ{{hysterectomy}} لأنه آخر حل، واستبعد الـ{{uterine artery embolization}} لأنه بعد البالون ويحتاج مريضة مستقرة وتوفر {{interventional radiology}}.",
+   "الخيار D ما فيه معنى طبي، فنتركه."
+  ],
+  "tip": "تذكر الترتيب: {{Balloon}} أولاً بعد الولادة المهبلية، {{B-Lynch}} بعد القيصرية، ثم {{ligation}} أو {{embolization}}، وآخر شي {{hysterectomy}}.",
+  "pitfall": "كلمة {{SURGICAL}} في السؤال تخدع بعض الطلاب لأنهم يظنون البالون غير جراحي، بس المصدر يعتبره أول {{modality}} في سلم الجراحة التحفظية."
+ },
+ "A103": {
+  "bg": [
+   "الـ{{postpartum hemorrhage (PPH)}} يعني نزيف بعد الولادة؛ التعريف الكلاسيكي {{blood loss > 500 mL}} بعد الولادة الطبيعية أو {{> 1000 mL}} بعد القيصرية، وأي نزيف يسبب عدم استقرار بالعلامات الحيوية يُعامل كـ {{PPH}}.",
+   "أشهر سبب هو {{uterine atony}} (الرحم ما ينقبض)، وتذكرها بالـ4 T's: {{Tone}} و{{Trauma}} و{{Tissue}} و{{Thrombin}}. الرحم بعد الولادة لازم ينقبض ويضغط الأوعية اللي كانت تغذي المشيمة، لو ما انقبض ينزف بغزارة.",
+   "العلاج يمشي بسلم تصاعدي: أول شي {{uterine massage}} و{{oxytocin}} ثم {{second-line uterotonics}} مثل {{carboprost}} و{{misoprostol}} و{{methylergometrine}} و{{tranexamic acid}}، ولو فشلت كلها ندخل في مرحلة الجراحة أو الـ{{tamponade}}.",
+   "الـ{{B-Lynch suture}} هي خياطة ضاغطة تلف الرحم وتستخدم عادة أثناء {{cesarean}} لأن البطن مفتوح، أما بعد الولادة المهبلية فالبالون هو الأول.",
+   "الـ{{uterine artery ligation}} ربط للشريان الرحمي من البطن، وهو أسهل وأقل مضاعفات من الـ{{hysterectomy}}، والـ{{embolization}} يحتاج مريضة مستقرة ومركز فيه {{IR}}.",
+   "السؤال ما ذكر استقرار العلامات الحيوية، فالمصدر يقول: لو ما فيه معلومات عن الـ{{vitals}} نميل لـ{{ligation}} أكثر من الـ{{embolization}}."
+  ],
+  "steps": [
+   "أول شي الحالة: ولادة مهبلية، {{oxytocin}} و{{bimanual massage}} فشلوا.",
+   "ثاني شي اسأل: الخط الأول المثالي هو {{Bakri balloon}} لكنه مو موجود في الخيارات، فنمشي للخيار اللي بعده.",
+   "استبعد {{B-Lynch}} لأنه للقيصرية، واستبعد {{hysterectomy}} لأنه الأخير.",
+   "بين {{ligation}} و{{embolization}}: بدون ذكر استقرار نروح لـ{{ligation}} (الجواب C)."
+  ],
+  "tip": "لما ما يوجد البالون في الخيارات: نزل الدرجة للي بعده في السلم، وغير المستقرة {{ligation}} والمستقرة {{embolization}}.",
+  "pitfall": "الجواب في البنك C، بس المثالي حسب المصدر البالون أولاً؛ لا تغير الجواب لكن افهم المنطق: نختار أول خيار موجود في السلم."
+ },
+ "A104": {
+  "bg": [
+   "الـ{{post-term pregnancy}} هو الحمل اللي يوصل {{42 weeks}} أو أكثر، والـ{{late-term}} هو {{41 weeks 0 days}} إلى {{41 weeks 6 days}}. التواريخ لازم تكون مؤكدة بالـ{{early ultrasound}} عشان نعتمد عليها.",
+   "الخطورة إن المشيمة بعد الـ41 أسبوع تبدأ تشيخ أي {{placental insufficiency}} فيقل الأكسجين والغذاء، وممكن ينقص السائل الأمنيوسي أي {{oligohydramnios}} ويزيد خطر {{stillbirth}} و{{meconium aspiration}} و{{macrosomia}} و{{shoulder dystocia}}.",
+   "التوصية الحديثة ({{ACOG}} و{{NICE}} و{{RCOG}}): الحامل عند {{41 weeks}} فما فوق نعرض عليها {{induction of labor}} لأنه يقلل وفيات الجنين بدون ما يرفع القيصرية، وبعض المصادر تقبل {{fetal monitoring}} لين {{42 weeks}} لو رفضت الـ{{induction}}.",
+   "الـ{{CTG}} فيه {{deceleration}} وهذا علامة محتملة لضعف الجنين أي {{fetal compromise}}، وفي حمل {{41 weeks}} هذا يعطينا سبب إضافي يعزز قرار الولادة.",
+   "بما إنها أصلاً {{41 weeks}} فمفروض نولدها حتى لو الـ{{CTG}} طبيعي، فكيف مع {{deceleration}}؟"
+  ],
+  "steps": [
+   "أول شي حدد العمر: {{41 weeks}} يعني دخلنا مرحلة {{induction}} حسب المصدر.",
+   "ثاني شي اقرأ نتيجة الـ{{CTG}}: فيها {{deceleration}} يعني غير مطمئن.",
+   "استبعد الـ{{BPP}} والـ{{AFI}} لأنهم يأخرون القرار وما يغيرونه.",
+   "استبعد {{follow up after 1 week}} لأنه خطر على الجنين.",
+   "اختر {{Delivery}}."
+  ],
+  "tip": "قاعدة سريعة: {{41+ weeks}} يعني {{deliver}}، وأي {{abnormal CTG}} فوقها يؤكد القرار.",
+  "pitfall": "لا تدخل في دوامة اختبارات إضافية أي {{BPP / AFI}} لما الدلائل كافية للولادة؛ هذا فخ شائع في أسئلة الـ{{post-term}}."
+ },
+ "A105": {
+  "bg": [
+   "الـ{{post-term pregnancy}} هو الحمل اللي يوصل {{42 weeks}} أو أكثر، والـ{{late-term}} هو {{41 weeks 0 days}} إلى {{41 weeks 6 days}}. التواريخ لازم تكون مؤكدة بالـ{{early ultrasound}} عشان نعتمد عليها.",
+   "الخطورة إن المشيمة بعد الـ41 أسبوع تبدأ تشيخ أي {{placental insufficiency}} فيقل الأكسجين والغذاء، وممكن ينقص السائل الأمنيوسي أي {{oligohydramnios}} ويزيد خطر {{stillbirth}} و{{meconium aspiration}} و{{macrosomia}} و{{shoulder dystocia}}.",
+   "التوصية الحديثة ({{ACOG}} و{{NICE}} و{{RCOG}}): الحامل عند {{41 weeks}} فما فوق نعرض عليها {{induction of labor}} لأنه يقلل وفيات الجنين بدون ما يرفع القيصرية، وبعض المصادر تقبل {{fetal monitoring}} لين {{42 weeks}} لو رفضت الـ{{induction}}.",
+   "في الحالة العمر {{41 weeks}} بتاريخ مؤكد، والـ{{CTG}} فيه {{deceleration}} بدون {{labor}}، يعني الجنين مو مرتاح والرحم ما بدأ يشتغل.",
+   "ما نستنى {{spontaneous labor}} هنا، نولد بالـ{{induction}} أو حسب حالة الجنين، والمهم الجواب {{Delivery}}."
+  ],
+  "steps": [
+   "أول شي لاحظ التاريخ مؤكد بـ{{early scan}} يعني العمر موثوق.",
+   "ثاني شي {{41 weeks}} فما فوق يعني الولادة هي الخطة.",
+   "ثالث شي {{CTG deceleration}} يعني ما نأخر ولا نزيد مراقبة.",
+   "استبعد {{daily CTG}} و{{BPP}} و{{AFI}} لأنها تأخير مو علاج."
+  ],
+  "tip": "قاعدة: {{Late-term + abnormal CTG}} يعني {{Delivery}} وبس.",
+  "pitfall": "خيار {{daily CTG}} يبدو حذر لكنه غلط؛ المراقبة تنفع للجنين المطمئن مو اللي بدت عليه علامات ضعف."
+ },
+ "A106": {
+  "bg": [
+   "الـ{{post-term pregnancy}} هو الحمل اللي يوصل {{42 weeks}} أو أكثر، والـ{{late-term}} هو {{41 weeks 0 days}} إلى {{41 weeks 6 days}}. التواريخ لازم تكون مؤكدة بالـ{{early ultrasound}} عشان نعتمد عليها.",
+   "الخطورة إن المشيمة بعد الـ41 أسبوع تبدأ تشيخ أي {{placental insufficiency}} فيقل الأكسجين والغذاء، وممكن ينقص السائل الأمنيوسي أي {{oligohydramnios}} ويزيد خطر {{stillbirth}} و{{meconium aspiration}} و{{macrosomia}} و{{shoulder dystocia}}.",
+   "الـ{{induction}} مو بس لو الرقبة ناضجة؛ حتى لو الـ{{cervix}} مغلق وسميك أي {{unfavorable}} نستخدم {{cervical ripening}} مثل {{prostaglandins}} أو {{Foley catheter}} ثم {{oxytocin}}.",
+   "في هذه الحالة {{42 weeks}} بتاريخ مؤكد، رأس الجنين ثابت في الحوض أي {{engaged}} والرقبة مناسبة أي {{favorable}}، يعني كل الظروف تساعد على ولادة مهبلية ناجحة بالـ{{induction}}.",
+   "لو كان في حالة غير طبيعية مثل {{breech}} أو {{placenta previa}} كان القيصرية خيار، لكن ما فيه."
+  ],
+  "steps": [
+   "أول شي {{42 weeks}} يعني {{post-term}} صريح؛ ما نترك الحمل يكمل.",
+   "ثاني شي انظر لـ{{cervix}} والرأس: كلها مناسبة للـ{{induction}}.",
+   "استبعد {{CS}} لأن ما فيه {{indication}}.",
+   "استبعد {{CTG}} و{{BPP}} لأنها مراقبة وحنا وصلنا مرحلة الولادة."
+  ],
+  "tip": "قاعدة: {{42 weeks}} + {{favorable cervix}} يعني {{induction}} سهل.",
+  "pitfall": "لا تختار {{CS}} لمجرد إن الحمل متأخر؛ القيصرية لازم لها سبب ({{fetal distress}} أو {{malpresentation}})."
+ },
+ "A107": {
+  "bg": [
+   "الـ{{post-term pregnancy}} هو الحمل اللي يوصل {{42 weeks}} أو أكثر، والـ{{late-term}} هو {{41 weeks 0 days}} إلى {{41 weeks 6 days}}. التواريخ لازم تكون مؤكدة بالـ{{early ultrasound}} عشان نعتمد عليها.",
+   "الخطورة إن المشيمة بعد الـ41 أسبوع تبدأ تشيخ أي {{placental insufficiency}} فيقل الأكسجين والغذاء، وممكن ينقص السائل الأمنيوسي أي {{oligohydramnios}} ويزيد خطر {{stillbirth}} و{{meconium aspiration}} و{{macrosomia}} و{{shoulder dystocia}}.",
+   "التوصية الحديثة ({{ACOG}} و{{NICE}} و{{RCOG}}): الحامل عند {{41 weeks}} فما فوق نعرض عليها {{induction of labor}} لأنه يقلل وفيات الجنين بدون ما يرفع القيصرية، وبعض المصادر تقبل {{fetal monitoring}} لين {{42 weeks}} لو رفضت الـ{{induction}}.",
+   "الـ{{induction}} مو بس لو الرقبة ناضجة؛ حتى لو الـ{{cervix}} مغلق وسميك أي {{unfavorable}} نستخدم {{cervical ripening}} مثل {{prostaglandins}} أو {{Foley catheter}} ثم {{oxytocin}}.",
+   "مثال هذه الحالة: {{G3P2}}، {{41 weeks}}، لا انقباضات، رقبة مغلقة وسميكة، والـ{{CTG}} طبيعي ({{baseline 130}} و{{accelerations}} و{{good variability}}). الجنين مطمئن بس العمر وصل لعتبة الـ{{induction}}، فنقترح {{induction}} مو انتظار."
+  ],
+  "steps": [
+   "أول شي لا تتخدع بالـ{{CTG}} الطبيعي؛ هذا يطمئننا على الجنين لكنه ما يلغي خطر {{41 weeks}}.",
+   "ثاني شي لاحظ إن ما فيه {{labor}} أصلاً، فالـ{{augmentation}} غلط لأنها تعني تقوية انقباضات موجودة.",
+   "استبعد {{emergency CS}} لأن الجنين مطمئن.",
+   "استبعد {{reassess in 7 days}} لأنه يؤخر الـ{{induction}} المفترض.",
+   "الجواب {{Induction of labor}}."
+  ],
+  "tip": "قاعدة: {{Induction}} = تبدأ الولادة من الصفر، {{Augmentation}} = تقوي ولادة بدأت فعلاً.",
+  "pitfall": "السؤال يستعمل رقبة غير ناضجة عشان تظن إن لازم قيصرية؛ ما هو كذا، الـ{{unfavorable cervix}} يحتاج {{ripening}} مو {{CS}}."
+ },
+ "A108": {
+  "bg": [
+   "الـ{{post-term pregnancy}} هو الحمل اللي يوصل {{42 weeks}} أو أكثر، والـ{{late-term}} هو {{41 weeks 0 days}} إلى {{41 weeks 6 days}}. التواريخ لازم تكون مؤكدة بالـ{{early ultrasound}} عشان نعتمد عليها.",
+   "الخطورة إن المشيمة بعد الـ41 أسبوع تبدأ تشيخ أي {{placental insufficiency}} فيقل الأكسجين والغذاء، وممكن ينقص السائل الأمنيوسي أي {{oligohydramnios}} ويزيد خطر {{stillbirth}} و{{meconium aspiration}} و{{macrosomia}} و{{shoulder dystocia}}.",
+   "التوصية الحديثة ({{ACOG}} و{{NICE}} و{{RCOG}}): الحامل عند {{41 weeks}} فما فوق نعرض عليها {{induction of labor}} لأنه يقلل وفيات الجنين بدون ما يرفع القيصرية، وبعض المصادر تقبل {{fetal monitoring}} لين {{42 weeks}} لو رفضت الـ{{induction}}.",
+   "الـ{{induction}} مو بس لو الرقبة ناضجة؛ حتى لو الـ{{cervix}} مغلق وسميك أي {{unfavorable}} نستخدم {{cervical ripening}} مثل {{prostaglandins}} أو {{Foley catheter}} ثم {{oxytocin}}.",
+   "هنا المريضة {{41 weeks}} وتبغى ولادة طبيعية تتجنب فيها النزيف، فنوضح لها إن الـ{{induction}} يرفع الأمان، لكن لو رفضته فالـ{{fetal monitoring}} ({{CTG}} و{{AFI}}) لين {{42 weeks}} بديل مقبول."
+  ],
+  "steps": [
+   "أول شي اقرأ رغبة المريضة: ترفض {{CS}} وتريد {{vaginal delivery}} وتخاف النزيف.",
+   "ثاني شي اعرف إن المصدر يعطي {{induction}} كأفضل ممارسة، لكن البنك اختار {{fetal monitor}} كبديل مقبول لمن ما تبغى.",
+   "استبعد {{discharge}} لأنه إهمال، واستبعد {{CS at 42 weeks}} لأنه بدون {{indication}}.",
+   "خيار {{come after 1 week for induction}} يؤخر للـ{{42}}، والبنك فضل {{monitoring}}."
+  ],
+  "tip": "قاعدة: {{41 weeks}} يعني {{offer induction}}، وإذا رفضت نكمل {{monitoring}} لين {{42 weeks}}.",
+  "pitfall": "حسب المصدر الأفضل علمياً الـ{{induction}}؛ لكن الجواب في البنك {{fetal monitor}} فلا تغيره، وافهم إنه مبني على رفض المريضة."
+ },
+ "A109": {
+  "bg": [
+   "الـ{{IUGR / FGR}} يعني الجنين ما ينمو بالشكل المتوقع؛ التعريف الشائع {{estimated fetal weight < 10th percentile}}، وإذا كان معه {{abnormal Doppler}} أو سائل قليل فهذا أخطر. السبب الأشهر قصور المشيمة أي {{placental insufficiency}} مثل مع {{pre-eclampsia}} و{{chronic hypertension}}.",
+   "عشان نعرف حالة الجنين نستخدم {{umbilical artery Doppler}}: الدم المفروض يمشي للجنين في الانقباض والانبساط أي {{diastole}}. لما المقاومة ترتفع يصير {{reduced EDV}} ثم {{absent EDV}} ثم {{reversed EDV}}، وكل ما انحدرنا زاد الخطر ({{fetal acidosis}} و{{stillbirth}}).",
+   "قاعدة الولادة المبسطة حسب المصدر: {{reduced EDV}} يعني {{induction / vaginal delivery}} ممكن، و{{absent}} أو {{reversed EDV}} يعني {{cesarean}} لأن الجنين ما يتحمل ضغط الانقباضات. والتوقيت يعتمد على العمر الحقيقي أي {{actual GA}} مو الـ{{fundal height}}.",
+   "الحالة: {{37 weeks}}، {{BP 160/100}} أي {{severe-range}}، {{fundal height 35}}، رقبة لينة وتوسع {{1 cm}}، و{{absent EDV}}. وجود {{severe hypertension}} لا يحدد الطريقة؛ اللي يحدد القيصرية هو {{absent EDV}}.",
+   "الـ{{severe pre-eclampsia}} بحد ذاته لا يستدعي قيصرية، فالمصدر يؤكد إن القرار بسبب الـ{{Doppler}}."
+  ],
+  "steps": [
+   "أول شي اقرأ العمر: {{37 weeks}} يعني {{term}} وبعدنا مرحلة الولادة.",
+   "ثاني شي ابحث عن الـ{{Doppler}}: {{absent EDV}} يعني {{CS}}.",
+   "ثالث شي لا تنخدع بـ{{BP 160/100}} فتفكر {{induction}}؛ هذا يخص الـ{{pre-eclampsia}} لكن {{absent EDV}} يغلب.",
+   "استبعد {{amniotomy}} و{{IOL}} لأن الانقباضات تضر جنين {{absent EDV}}."
+  ],
+  "tip": "قاعدة: {{Reduced EDV}} يعني {{vaginal}}، {{Absent / Reversed EDV}} يعني {{CS}}.",
+  "pitfall": "السؤال يعرض {{HTN}} عشان تفكر {{induction}}، لكن الجواب {{CS}} بسبب الـ{{absent EDV}} مو الضغط."
+ },
+ "A110": {
+  "bg": [
+   "الـ{{IUGR / FGR}} يعني الجنين ما ينمو بالشكل المتوقع؛ التعريف الشائع {{estimated fetal weight < 10th percentile}}، وإذا كان معه {{abnormal Doppler}} أو سائل قليل فهذا أخطر. السبب الأشهر قصور المشيمة أي {{placental insufficiency}} مثل مع {{pre-eclampsia}} و{{chronic hypertension}}.",
+   "عشان نعرف حالة الجنين نستخدم {{umbilical artery Doppler}}: الدم المفروض يمشي للجنين في الانقباض والانبساط أي {{diastole}}. لما المقاومة ترتفع يصير {{reduced EDV}} ثم {{absent EDV}} ثم {{reversed EDV}}، وكل ما انحدرنا زاد الخطر ({{fetal acidosis}} و{{stillbirth}}).",
+   "قاعدة الولادة المبسطة حسب المصدر: {{reduced EDV}} يعني {{induction / vaginal delivery}} ممكن، و{{absent}} أو {{reversed EDV}} يعني {{cesarean}} لأن الجنين ما يتحمل ضغط الانقباضات. والتوقيت يعتمد على العمر الحقيقي أي {{actual GA}} مو الـ{{fundal height}}.",
+   "أما قبل {{30 weeks}} فنعطي {{antenatal steroids}} ونراقب لين {{30-32 weeks}} ثم نولد في حالة {{absent / reversed EDV}}، ولا نستعجل القيصرية فقط بسبب صغر العمر.",
+   "في حالتنا {{28-30 weeks}} مع {{absent EDV}}، فهي ما وصلت للموعد (30-32 أسبوع حسب {{RCOG}}، و{{UTD}} يقول 32-34 للـ{{absent}}). نعطي {{steroids}} لنضج رئة الجنين ونراقب عن قرب."
+  ],
+  "steps": [
+   "أول شي لاحظ العمر: {{28-30 weeks}} يعني {{preterm}} قبل موعد الولادة المقترح.",
+   "ثاني شي اعرف إن {{absent EDV}} له موعد ولادة أي {{30-32 weeks}} مو فورية.",
+   "استبعد {{urgent CS}} لأنه تسرع بسبب العمر.",
+   "استبعد {{induction}} لأنه لا يناسب جنين {{absent EDV}} صغير، واستبعد {{MgSO4}} لأنه للـ{{neuroprotection}} أو {{pre-eclampsia}} قبل الولادة الفعلية.",
+   "الجواب {{observation + steroids}}."
+  ],
+  "tip": "قاعدة: {{Before 30 weeks}} يعني {{steroids + observe}}، وبعدها {{deliver}}.",
+  "pitfall": "لا تستعجل القيصرية بسبب العمر الصغير؛ تحذير المصدر: نقرر حسب الموعد الصحيح مو الخوف. وفي حال ظهر {{abnormal CTG}} نولد فوراً."
+ },
+ "A111": {
+  "bg": [
+   "الـ{{IUGR / FGR}} يعني الجنين ما ينمو بالشكل المتوقع؛ التعريف الشائع {{estimated fetal weight < 10th percentile}}، وإذا كان معه {{abnormal Doppler}} أو سائل قليل فهذا أخطر. السبب الأشهر قصور المشيمة أي {{placental insufficiency}} مثل مع {{pre-eclampsia}} و{{chronic hypertension}}.",
+   "عشان نعرف حالة الجنين نستخدم {{umbilical artery Doppler}}: الدم المفروض يمشي للجنين في الانقباض والانبساط أي {{diastole}}. لما المقاومة ترتفع يصير {{reduced EDV}} ثم {{absent EDV}} ثم {{reversed EDV}}، وكل ما انحدرنا زاد الخطر ({{fetal acidosis}} و{{stillbirth}}).",
+   "قاعدة الولادة المبسطة حسب المصدر: {{reduced EDV}} يعني {{induction / vaginal delivery}} ممكن، و{{absent}} أو {{reversed EDV}} يعني {{cesarean}} لأن الجنين ما يتحمل ضغط الانقباضات. والتوقيت يعتمد على العمر الحقيقي أي {{actual GA}} مو الـ{{fundal height}}.",
+   "أما قبل {{30 weeks}} فنعطي {{antenatal steroids}} ونراقب لين {{30-32 weeks}} ثم نولد في حالة {{absent / reversed EDV}}، ولا نستعجل القيصرية فقط بسبب صغر العمر.",
+   "ملاحظة: {{Reversed EDV}} هو أخطر درجة؛ الدم يرجع للخلف في الانبساط. في عمر {{33 weeks}} نعطي {{steroids}} ثم نولد خلال حوالي أسبوع، فالخيار C يجمع الاثنين."
+  ],
+  "steps": [
+   "أول شي اقرأ {{reversed EDV}} يعني ولادة قريبة ومراقبة مكثفة.",
+   "ثاني شي لاحظ العمر {{33 weeks}}: فوق {{30-32}} يعني قريب جداً من الولادة.",
+   "استبعد {{repeat Doppler 1 week}} و{{repeat growth 2 weeks}} لأنها تأخير خطير.",
+   "بين {{immediate CS}} و{{steroids + delivery within 1 week}}: البنك اختار الأخير لأن الـ{{steroids}} تحتاج وقت قليل ثم نولد."
+  ],
+  "tip": "قاعدة: {{Reversed EDV}} + {{33 weeks}} يعني {{steroids}} ثم {{deliver within 1 week}}.",
+  "pitfall": "المصدر نفسه يقول الجواب غير مبرر تماماً ويحفظ كما هو؛ لا تغيره، وتذكر إن الأساس {{RCOG}} يقول ولادة {{30-32 weeks}} لـ{{reversed EDV}}."
+ },
+ "A112": {
+  "bg": [
+   "الـ{{IUGR / FGR}} يعني الجنين ما ينمو بالشكل المتوقع؛ التعريف الشائع {{estimated fetal weight < 10th percentile}}، وإذا كان معه {{abnormal Doppler}} أو سائل قليل فهذا أخطر. السبب الأشهر قصور المشيمة أي {{placental insufficiency}} مثل مع {{pre-eclampsia}} و{{chronic hypertension}}.",
+   "عشان نعرف حالة الجنين نستخدم {{umbilical artery Doppler}}: الدم المفروض يمشي للجنين في الانقباض والانبساط أي {{diastole}}. لما المقاومة ترتفع يصير {{reduced EDV}} ثم {{absent EDV}} ثم {{reversed EDV}}، وكل ما انحدرنا زاد الخطر ({{fetal acidosis}} و{{stillbirth}}).",
+   "قاعدة الولادة المبسطة حسب المصدر: {{reduced EDV}} يعني {{induction / vaginal delivery}} ممكن، و{{absent}} أو {{reversed EDV}} يعني {{cesarean}} لأن الجنين ما يتحمل ضغط الانقباضات. والتوقيت يعتمد على العمر الحقيقي أي {{actual GA}} مو الـ{{fundal height}}.",
+   "الحالة: {{37 weeks}}، {{fundal height 35}}، رقبة لينة توسع {{1 cm}} و{{absent EDV}}. نفس سؤال A109 لكن بدون ذكر الضغط؛ يعني الحكم كله على الـ{{absent EDV}} مع العمر الناضج أي {{term}}.",
+   "الـ{{fundal height}} المنخفض قليلاً ({{2 cm}} فقط) يدل على {{mild growth restriction}} لكن القرار بيد الـ{{Doppler}}."
+  ],
+  "steps": [
+   "أول شي اقرأ العمر {{37 weeks}} يعني ما فيه حاجة لـ{{steroids}} ولا انتظار.",
+   "ثاني شي لاحظ {{absent EDV}} يعني {{CS}}.",
+   "استبعد {{amniotomy}} لأن تمزيق الأغشية يبدأ ولادة ما يتحملها الجنين.",
+   "استبعد {{IOL}} لأن الانقباضات تقلل تدفق الدم للمشيمة أكثر."
+  ],
+  "tip": "قاعدة: {{Absent EDV}} عند {{term}} يعني {{CS}} مباشرة.",
+  "pitfall": "لا تنخدع برقبة لينة توسع {{1 cm}}؛ هذي تغريك بـ{{induction}} لكن الـ{{Doppler}} أهم."
+ },
+ "A113": {
+  "bg": [
+   "الـ{{IUGR / FGR}} يعني الجنين ما ينمو بالشكل المتوقع؛ التعريف الشائع {{estimated fetal weight < 10th percentile}}، وإذا كان معه {{abnormal Doppler}} أو سائل قليل فهذا أخطر. السبب الأشهر قصور المشيمة أي {{placental insufficiency}} مثل مع {{pre-eclampsia}} و{{chronic hypertension}}.",
+   "عشان نعرف حالة الجنين نستخدم {{umbilical artery Doppler}}: الدم المفروض يمشي للجنين في الانقباض والانبساط أي {{diastole}}. لما المقاومة ترتفع يصير {{reduced EDV}} ثم {{absent EDV}} ثم {{reversed EDV}}، وكل ما انحدرنا زاد الخطر ({{fetal acidosis}} و{{stillbirth}}).",
+   "قاعدة الولادة المبسطة حسب المصدر: {{reduced EDV}} يعني {{induction / vaginal delivery}} ممكن، و{{absent}} أو {{reversed EDV}} يعني {{cesarean}} لأن الجنين ما يتحمل ضغط الانقباضات. والتوقيت يعتمد على العمر الحقيقي أي {{actual GA}} مو الـ{{fundal height}}.",
+   "الحالة تتكلم عن {{37 weeks}} مع {{fundal height 35}} و{{absent EDV}}، والخيارات: {{induction}} أو {{CS}} أو {{repeat Doppler}}. بما إن الـ{{absent EDV}} يعني ضعف شديد في تدفق المشيمة، الجواب {{immediate CS}}."
+  ],
+  "steps": [
+   "أول شي عمر {{37 weeks}} يعني {{term}} فنولد.",
+   "ثاني شي {{absent EDV}} يعني ما نستعمل {{IOL}}.",
+   "استبعد {{repeat Doppler in 1 week}} لأنه تأخير غير آمن."
+  ],
+  "tip": "قاعدة: {{Absent EDV}} + {{term}} يعني {{CS}}.",
+  "pitfall": "السؤال مختصر؛ لا تضيف تفاصيل مو موجودة، اعتمد على {{absent EDV}} و{{37 weeks}} فقط."
+ },
+ "A114": {
+  "bg": [
+   "الـ{{IUGR / FGR}} يعني الجنين ما ينمو بالشكل المتوقع؛ التعريف الشائع {{estimated fetal weight < 10th percentile}}، وإذا كان معه {{abnormal Doppler}} أو سائل قليل فهذا أخطر. السبب الأشهر قصور المشيمة أي {{placental insufficiency}} مثل مع {{pre-eclampsia}} و{{chronic hypertension}}.",
+   "عشان نعرف حالة الجنين نستخدم {{umbilical artery Doppler}}: الدم المفروض يمشي للجنين في الانقباض والانبساط أي {{diastole}}. لما المقاومة ترتفع يصير {{reduced EDV}} ثم {{absent EDV}} ثم {{reversed EDV}}، وكل ما انحدرنا زاد الخطر ({{fetal acidosis}} و{{stillbirth}}).",
+   "قاعدة الولادة المبسطة حسب المصدر: {{reduced EDV}} يعني {{induction / vaginal delivery}} ممكن، و{{absent}} أو {{reversed EDV}} يعني {{cesarean}} لأن الجنين ما يتحمل ضغط الانقباضات. والتوقيت يعتمد على العمر الحقيقي أي {{actual GA}} مو الـ{{fundal height}}.",
+   "هنا العمر {{38 weeks}} مع {{absent EDV}}؛ حسب المنطق: {{absent EDV}} عند {{term}} يعني {{CS}}. البنك فيه شك بين {{B}} أي {{CS}} و{{A}} أي {{induction}}، لكن الجواب المحفوظ {{B}}."
+  ],
+  "steps": [
+   "أول شي {{38 weeks}} يعني {{term}} فنولد.",
+   "ثاني شي {{absent EDV}} يعني نفضل {{CS}} على {{induction}}.",
+   "استبعد {{repeat Doppler}} لأنه تأخير.",
+   "بين {{A}} و{{B}}: الـ{{B}} هو الآمن للجنين."
+  ],
+  "tip": "قاعدة: {{Absent EDV at term}} يعني {{CS}}.",
+  "pitfall": "هذا السؤال محل خلاف في البنك ({{B}} مقابل {{A}})؛ بعض المراجع تسمح بـ{{induction}} مع {{continuous monitoring}} لـ{{reduced EDV}} فقط، لكن مع {{absent}} الأفضل {{CS}}. الجواب {{B}} محفوظ."
+ },
+ "A115": {
+  "bg": [
+   "الـ{{IUGR / FGR}} يعني الجنين ما ينمو بالشكل المتوقع؛ التعريف الشائع {{estimated fetal weight < 10th percentile}}، وإذا كان معه {{abnormal Doppler}} أو سائل قليل فهذا أخطر. السبب الأشهر قصور المشيمة أي {{placental insufficiency}} مثل مع {{pre-eclampsia}} و{{chronic hypertension}}.",
+   "عشان نعرف حالة الجنين نستخدم {{umbilical artery Doppler}}: الدم المفروض يمشي للجنين في الانقباض والانبساط أي {{diastole}}. لما المقاومة ترتفع يصير {{reduced EDV}} ثم {{absent EDV}} ثم {{reversed EDV}}، وكل ما انحدرنا زاد الخطر ({{fetal acidosis}} و{{stillbirth}}).",
+   "قاعدة الولادة المبسطة حسب المصدر: {{reduced EDV}} يعني {{induction / vaginal delivery}} ممكن، و{{absent}} أو {{reversed EDV}} يعني {{cesarean}} لأن الجنين ما يتحمل ضغط الانقباضات. والتوقيت يعتمد على العمر الحقيقي أي {{actual GA}} مو الـ{{fundal height}}.",
+   "أما قبل {{30 weeks}} فنعطي {{antenatal steroids}} ونراقب لين {{30-32 weeks}} ثم نولد في حالة {{absent / reversed EDV}}، ولا نستعجل القيصرية فقط بسبب صغر العمر.",
+   "ملاحظة: {{Antenatal corticosteroids}} مثل {{dexamethasone}} تنضج رئة الجنين، لكنها تحتاج حوالي {{24-48 hours}} لتعطي الفائدة الكاملة؛ ما نؤخر ولادة مستحقة عشانها."
+  ],
+  "steps": [
+   "أول شي اقرأ إن السؤال ناقص أي {{don't remember}} وفيه {{reversed EDV}} فقط.",
+   "ثاني شي {{reversed EDV}} يعني {{CS}} بأقرب وقت.",
+   "ثالث شي الخيار الوحيد المعطى {{CS + one dose dexamethasone}} فهو يطابق.",
+   "لو العمر أقل من {{30 weeks}} كنا نعطي {{steroids}} ونراقب لين {{30-32 weeks}}."
+  ],
+  "tip": "لو فيه {{CS}} لوحدها خذها، وما نؤخر لأجل {{steroids}}.",
+  "pitfall": "التأخير بسبب {{steroids}} قد يضر الجنين أكثر من فائدتها؛ الأولوية للولادة."
+ },
+ "A116": {
+  "bg": [
+   "الـ{{IUGR / FGR}} يعني الجنين ما ينمو بالشكل المتوقع؛ التعريف الشائع {{estimated fetal weight < 10th percentile}}، وإذا كان معه {{abnormal Doppler}} أو سائل قليل فهذا أخطر. السبب الأشهر قصور المشيمة أي {{placental insufficiency}} مثل مع {{pre-eclampsia}} و{{chronic hypertension}}.",
+   "عشان نعرف حالة الجنين نستخدم {{umbilical artery Doppler}}: الدم المفروض يمشي للجنين في الانقباض والانبساط أي {{diastole}}. لما المقاومة ترتفع يصير {{reduced EDV}} ثم {{absent EDV}} ثم {{reversed EDV}}، وكل ما انحدرنا زاد الخطر ({{fetal acidosis}} و{{stillbirth}}).",
+   "ملاحظة: {{AFI}} هو مقياس السائل الأمنيوسي، و{{oligohydramnios}} هو {{AFI ≤ 5 cm}}؛ السائل القليل علامة أن الجنين يحول الدم للأعضاء المهمة ويقلل البول، فهو دليل على {{fetal compromise}}.",
+   "قاعدة الولادة المبسطة حسب المصدر: {{reduced EDV}} يعني {{induction / vaginal delivery}} ممكن، و{{absent}} أو {{reversed EDV}} يعني {{cesarean}} لأن الجنين ما يتحمل ضغط الانقباضات. والتوقيت يعتمد على العمر الحقيقي أي {{actual GA}} مو الـ{{fundal height}}.",
+   "الحالة: عمر فعلي {{35 weeks}} (مو الـ{{fundal height 29}})، {{EFW < 10th centile}}، {{AFI 3}} يعني {{oligohydramnios}}، و{{absent EDV}}. كل هذي علامات {{severe IUGR}} مع {{fetal compromise}}."
+  ],
+  "steps": [
+   "أول شي لا تخلط بين العمر الفعلي أي {{35}} والـ{{fundal height}} أي {{29}}; القرار يعتمد على العمر الفعلي.",
+   "ثاني شي {{35 weeks}} يعني ما نحتاج {{steroids}} أو انتظار؛ وصلنا موعد الولادة.",
+   "ثالث شي {{absent EDV}} + {{AFI 3}} يعني {{CS}}.",
+   "استبعد {{expectant management}} لأنه خطر، واستبعد {{IOL}} لأنه ما يتحمل الجنين."
+  ],
+  "tip": "استخدم {{actual GA}} للقرار، والـ{{fundal height}} للتشخيص فقط.",
+  "pitfall": "فخ شائع: الـ{{fundal height 29}} يخليك تظن إنها {{preterm}} وتعطي {{steroids}}، لكن العمر الحقيقي {{35 weeks}}."
+ },
+ "A117": {
+  "bg": [
+   "الـ{{IUGR / FGR}} يعني الجنين ما ينمو بالشكل المتوقع؛ التعريف الشائع {{estimated fetal weight < 10th percentile}}، وإذا كان معه {{abnormal Doppler}} أو سائل قليل فهذا أخطر. السبب الأشهر قصور المشيمة أي {{placental insufficiency}} مثل مع {{pre-eclampsia}} و{{chronic hypertension}}.",
+   "عشان نعرف حالة الجنين نستخدم {{umbilical artery Doppler}}: الدم المفروض يمشي للجنين في الانقباض والانبساط أي {{diastole}}. لما المقاومة ترتفع يصير {{reduced EDV}} ثم {{absent EDV}} ثم {{reversed EDV}}، وكل ما انحدرنا زاد الخطر ({{fetal acidosis}} و{{stillbirth}}).",
+   "ملاحظة: {{AFI}} هو مقياس السائل الأمنيوسي، و{{oligohydramnios}} هو {{AFI ≤ 5 cm}}؛ السائل القليل علامة أن الجنين يحول الدم للأعضاء المهمة ويقلل البول، فهو دليل على {{fetal compromise}}.",
+   "قاعدة الولادة المبسطة حسب المصدر: {{reduced EDV}} يعني {{induction / vaginal delivery}} ممكن، و{{absent}} أو {{reversed EDV}} يعني {{cesarean}} لأن الجنين ما يتحمل ضغط الانقباضات. والتوقيت يعتمد على العمر الحقيقي أي {{actual GA}} مو الـ{{fundal height}}.",
+   "في الحالة {{38 weeks}} و{{AFI 3}} مع {{absent EDV}}؛ السائل القليل علامة أن الجنين مضغوط حتى في الـ38 أسبوع، والـ{{absent EDV}} هو اللي يحدد {{CS}}.",
+   "السؤال فيه صورة أي {{IMAGE PAGE}} فلا نفترض تفاصيل إضافية غير المكتوبة."
+  ],
+  "steps": [
+   "أول شي اعرف إن الـ{{absent EDV}} جاء مع السؤال حسب المصدر.",
+   "ثاني شي {{38 weeks}} يعني {{term}} فنولد.",
+   "ثالث شي {{AFI 3}} يؤكد {{fetal compromise}}.",
+   "اختر {{Urgent CS}} واستبعد {{observation}} و{{reassurance}}."
+  ],
+  "tip": "قاعدة: {{Absent EDV}} + {{AFI منخفض}} يعني {{CS}} حتى عند {{38 weeks}}.",
+  "pitfall": "إذا السؤال قال فقط {{IUGR + AFI 3}} بدون {{absent EDV}} فالجواب {{induction}} (راجع A119)."
+ },
+ "A118": {
+  "bg": [
+   "الـ{{IUGR / FGR}} يعني الجنين ما ينمو بالشكل المتوقع؛ التعريف الشائع {{estimated fetal weight < 10th percentile}}، وإذا كان معه {{abnormal Doppler}} أو سائل قليل فهذا أخطر. السبب الأشهر قصور المشيمة أي {{placental insufficiency}} مثل مع {{pre-eclampsia}} و{{chronic hypertension}}.",
+   "عشان نعرف حالة الجنين نستخدم {{umbilical artery Doppler}}: الدم المفروض يمشي للجنين في الانقباض والانبساط أي {{diastole}}. لما المقاومة ترتفع يصير {{reduced EDV}} ثم {{absent EDV}} ثم {{reversed EDV}}، وكل ما انحدرنا زاد الخطر ({{fetal acidosis}} و{{stillbirth}}).",
+   "قاعدة الولادة المبسطة حسب المصدر: {{reduced EDV}} يعني {{induction / vaginal delivery}} ممكن، و{{absent}} أو {{reversed EDV}} يعني {{cesarean}} لأن الجنين ما يتحمل ضغط الانقباضات. والتوقيت يعتمد على العمر الحقيقي أي {{actual GA}} مو الـ{{fundal height}}.",
+   "الحالة طويلة: {{37 weeks}}، {{BP 160/100}}، {{fundal height 35}}، {{low amniotic fluid}}، {{EFW 2.4 kg}}، رقبة لينة وأغشية سليمة، و{{absent EDV}}. كثرة التفاصيل ممكن تشتتك، بس المفتاح هو {{absent EDV}}."
+  ],
+  "steps": [
+   "أول شي حدد المفتاح: {{absent EDV}} يعني {{CS}}.",
+   "ثاني شي تجاهل المشتتات: {{BP 160/100}} و{{EFW 2.4 kg}} و{{soft cervix}}.",
+   "استبعد {{amniotomy}} و{{induction}} و{{wait for spontaneous labor}} لأنها كلها تعرض الجنين للانقباضات.",
+   "اختر {{Cesarean section}}."
+  ],
+  "tip": "قاعدة: {{Absent EDV}} هو الكلمة اللي تحسم السؤال.",
+  "pitfall": "الضغط المرتفع والسائل القليل لا يغيران الطريقة؛ لكن الـ{{absent EDV}} هو السبب."
+ },
+ "A119": {
+  "bg": [
+   "الـ{{IUGR / FGR}} يعني الجنين ما ينمو بالشكل المتوقع؛ التعريف الشائع {{estimated fetal weight < 10th percentile}}، وإذا كان معه {{abnormal Doppler}} أو سائل قليل فهذا أخطر. السبب الأشهر قصور المشيمة أي {{placental insufficiency}} مثل مع {{pre-eclampsia}} و{{chronic hypertension}}.",
+   "عشان نعرف حالة الجنين نستخدم {{umbilical artery Doppler}}: الدم المفروض يمشي للجنين في الانقباض والانبساط أي {{diastole}}. لما المقاومة ترتفع يصير {{reduced EDV}} ثم {{absent EDV}} ثم {{reversed EDV}}، وكل ما انحدرنا زاد الخطر ({{fetal acidosis}} و{{stillbirth}}).",
+   "ملاحظة: {{AFI}} هو مقياس السائل الأمنيوسي، و{{oligohydramnios}} هو {{AFI ≤ 5 cm}}؛ السائل القليل علامة أن الجنين يحول الدم للأعضاء المهمة ويقلل البول، فهو دليل على {{fetal compromise}}.",
+   "الـ{{IUGR}} لوحده، حتى مع {{oligohydramnios}} أو {{pre-eclampsia}}، ليس {{indication}} للقيصرية؛ القيصرية تجي لما يكون فيه {{absent / reversed EDV}} أو {{fetal distress}} أو سبب توليدي آخر.",
+   "الحالة: {{38 weeks}} مع {{IUGR}} و{{AFI 3}} (يعني {{oligohydramnios}}) بدون ذكر {{absent}} أو {{reversed EDV}}. فالـ{{IUGR}} لوحده مع السائل القليل ما يعني قيصرية، نختار {{induction}}.",
+   "السؤال فيه صورة من {{RCOG}} أي {{IMAGE PAGE}} فلا نخترع محتواها."
+  ],
+  "steps": [
+   "أول شي اعرف إن الـ{{IUGR}} ليس {{indication}} للقيصرية.",
+   "ثاني شي لاحظ إن الـ{{Doppler}} ما ذكر فيه {{absent EDV}}.",
+   "ثالث شي {{AFI 3}} علامة {{fetal compromise}} فما نترك الحمل يكمل ({{observation}} و{{reassurance}} غلط).",
+   "اختر {{Induction of labor}} واستبعد {{urgent CS}}."
+  ],
+  "tip": "قاعدة: {{IUGR}} (مع أو بدون {{oligo}}) يعني {{IOL}}، والـ{{CS}} فقط مع {{absent EDV}} أو {{distress}}.",
+  "pitfall": "قارن هذا بـA117: نفس القصة لكن هناك {{absent EDV}} فالجواب {{CS}}، وهنا ما فيه فالجواب {{IOL}}."
+ },
+ "A120": {
+  "bg": [
+   "الـ{{IUGR / FGR}} يعني الجنين ما ينمو بالشكل المتوقع؛ التعريف الشائع {{estimated fetal weight < 10th percentile}}، وإذا كان معه {{abnormal Doppler}} أو سائل قليل فهذا أخطر. السبب الأشهر قصور المشيمة أي {{placental insufficiency}} مثل مع {{pre-eclampsia}} و{{chronic hypertension}}.",
+   "الـ{{IUGR}} لوحده، حتى مع {{oligohydramnios}} أو {{pre-eclampsia}}، ليس {{indication}} للقيصرية؛ القيصرية تجي لما يكون فيه {{absent / reversed EDV}} أو {{fetal distress}} أو سبب توليدي آخر.",
+   "الـ{{pre-eclampsia}} له مواعيد ولادة: {{severe}} عند {{34 weeks}}، و{{mild}} أو {{gestational HTN}} عند {{37 weeks}}، وكلها عن طريق {{induction}} ما لم يوجد سبب آخر. لو ما وصلنا الموعد نفحص ونراقب في المستشفى أي {{admit for observation}}.",
+   "الحالة: {{37 weeks}} تقريباً، {{agitated}}، {{BP 160/100}} (علامات {{severe}})، {{fundal height 34}} (أقل من العمر). عند هذا العمر وهذه الشدة الموعد جاء ({{severe}} يولد من {{34}})، فنختار {{IOL}}."
+  ],
+  "steps": [
+   "أول شي صنف الحالة: {{pre-eclampsia}} شديدة (ضغط عالي مع تهيج).",
+   "ثاني شي قارن العمر بالموعد: {{severe}} من {{34 weeks}} فما فوق يعني ولادة.",
+   "ثالث شي لا تفكر {{CS}} إلا لو فيه {{absent EDV}} أو {{distress}}، وهنا ما ذكر.",
+   "استبعد {{admit for observation}} لأن موعد الولادة تحقق."
+  ],
+  "tip": "قاعدة: {{Severe PE}} يعني {{34 weeks}}، و{{mild PE / gHTN}} يعني {{37 weeks}}، والطريقة {{induction}}.",
+  "pitfall": "انتبه: {{IUGR + pre-eclampsia}} لا يعني قيصرية تلقائياً؛ تذكر إن الـ{{CS}} تحتاج {{indication}} واضح."
+ },
+ "A121": {
+  "bg": [
+   "الـ{{IUGR / FGR}} يعني الجنين ما ينمو بالشكل المتوقع؛ التعريف الشائع {{estimated fetal weight < 10th percentile}}، وإذا كان معه {{abnormal Doppler}} أو سائل قليل فهذا أخطر. السبب الأشهر قصور المشيمة أي {{placental insufficiency}} مثل مع {{pre-eclampsia}} و{{chronic hypertension}}.",
+   "عشان نعرف حالة الجنين نستخدم {{umbilical artery Doppler}}: الدم المفروض يمشي للجنين في الانقباض والانبساط أي {{diastole}}. لما المقاومة ترتفع يصير {{reduced EDV}} ثم {{absent EDV}} ثم {{reversed EDV}}، وكل ما انحدرنا زاد الخطر ({{fetal acidosis}} و{{stillbirth}}).",
+   "قاعدة الولادة المبسطة حسب المصدر: {{reduced EDV}} يعني {{induction / vaginal delivery}} ممكن، و{{absent}} أو {{reversed EDV}} يعني {{cesarean}} لأن الجنين ما يتحمل ضغط الانقباضات. والتوقيت يعتمد على العمر الحقيقي أي {{actual GA}} مو الـ{{fundal height}}.",
+   "الـ{{IUGR}} لوحده، حتى مع {{oligohydramnios}} أو {{pre-eclampsia}}، ليس {{indication}} للقيصرية؛ القيصرية تجي لما يكون فيه {{absent / reversed EDV}} أو {{fetal distress}} أو سبب توليدي آخر.",
+   "الحالة: {{37 weeks}}، {{fundal height 35}}، {{EFW 2.2 kg}}، {{maternal HTN}}، {{reduced amniotic fluid}} وأغشية سليمة. ما ذكر {{absent EDV}} ولا {{distress}} فالـ{{IUGR}} والـ{{HTN}} والـ{{oligo}} كلها تدفع نحو {{induction}} مو {{CS}}."
+  ],
+  "steps": [
+   "أول شي اعرف إن العمر {{37 weeks}} يعني {{term}} فما نترك الحمل.",
+   "ثاني شي ابحث عن {{indication}} للقيصرية: ما فيه {{absent EDV}} ولا {{CTG abnormal}}.",
+   "استبعد {{wait for spontaneous VD}} لأن الجنين محتاج ولادة.",
+   "استبعد {{amniotomy}} كخطوة لوحدها لأن الرقبة ما ذكرت ناضجة والأغشية سليمة.",
+   "اختر {{IOL}}."
+  ],
+  "tip": "قاعدة: {{Term + IUGR + HTN + oligo}} بدون {{absent EDV}} يعني {{IOL}}.",
+  "pitfall": "السؤال بدون ذكر {{Doppler}}؛ لا تفترض {{absent EDV}} من نفسك."
+ },
+ "A122": {
+  "bg": [
+   "الـ{{intrapartum fetal surveillance}} يعني متابعة قلب الجنين أثناء الولادة. وفيه نوعين: {{intermittent auscultation}} (سماعة {{Doppler}} أو {{Pinard}} كل فترة) للحمل منخفض الخطورة، و{{continuous electronic fetal monitoring (CTG)}} للحمل عالي الخطورة.",
+   "الحمل عالي الخطورة أي {{high-risk}} يشمل: {{IUGR / SGA}}، {{pre-eclampsia}} و{{hypertension}}، {{diabetes}}، {{post-term}}، {{oligohydramnios}}، {{abnormal Doppler}}، {{meconium}}، {{induction}} أو {{augmentation}} بـ{{oxytocin}}، {{previous CS}}، والنزيف.",
+   "السبب أن الجنين الصغير أو المصاب بقصور المشيمة أي {{placental insufficiency}} احتياطه الأكسجيني قليل، والانقباضات تقطع الدم عن المشيمة مؤقتاً، فممكن يتدهور بسرعة أي {{fetal hypoxia / acidosis}} وما يكتشفه إلا {{CTG}} مستمر.",
+   "الـ{{CTG}} نقرأه بـ{{DR C BRAVADO}}: {{Define Risk}} و{{Contractions}} و{{Baseline Rate}} و{{Variability}} و{{Accelerations}} و{{Decelerations}} و{{Overall assessment}}."
+  ],
+  "steps": [
+   "أول شي اقرأ السؤال: يسأل عن {{fetal well-being}} في الـ{{labor}} مع {{IUGR}}.",
+   "ثاني شي صنف الحمل: {{IUGR}} يعني {{high-risk}}.",
+   "ثالث شي اربط {{high-risk}} بـ{{continuous electronic fetal monitoring}}.",
+   "استبعد {{intermittent auscultation}} لأنه للـ{{low-risk}}، واستبعد {{maternal vitals}} و{{early recognition of complications}} لأنهم ما يراقبون الجنين."
+  ],
+  "tip": "قاعدة: {{High-risk}} يعني {{Continuous CTG}}، {{Low-risk}} يعني {{Intermittent}}.",
+  "pitfall": "الخيار D يبدو مهم لكنه مو مراقبة للجنين؛ السؤال تحديداً عن {{fetal well-being}}."
+ },
+ "A123": {
+  "bg": [
+   "الـ{{intrapartum fetal surveillance}} يعني متابعة قلب الجنين أثناء الولادة. وفيه نوعين: {{intermittent auscultation}} (سماعة {{Doppler}} أو {{Pinard}} كل فترة) للحمل منخفض الخطورة، و{{continuous electronic fetal monitoring (CTG)}} للحمل عالي الخطورة.",
+   "الحمل عالي الخطورة أي {{high-risk}} يشمل: {{IUGR / SGA}}، {{pre-eclampsia}} و{{hypertension}}، {{diabetes}}، {{post-term}}، {{oligohydramnios}}، {{abnormal Doppler}}، {{meconium}}، {{induction}} أو {{augmentation}} بـ{{oxytocin}}، {{previous CS}}، والنزيف.",
+   "السبب أن الجنين الصغير أو المصاب بقصور المشيمة أي {{placental insufficiency}} احتياطه الأكسجيني قليل، والانقباضات تقطع الدم عن المشيمة مؤقتاً، فممكن يتدهور بسرعة أي {{fetal hypoxia / acidosis}} وما يكتشفه إلا {{CTG}} مستمر.",
+   "الـ{{CTG}} نقرأه بـ{{DR C BRAVADO}}: {{Define Risk}} و{{Contractions}} و{{Baseline Rate}} و{{Variability}} و{{Accelerations}} و{{Decelerations}} و{{Overall assessment}}."
+  ],
+  "steps": [
+   "أول شي حدد سبب الـ{{induction}}: {{IUGR}} يعني {{high-risk}}.",
+   "ثاني شي لاحظ إنها {{multigravida}} و{{medically free}}؛ هذا ما يخفف الخطر لأن الـ{{IUGR}} نفسه كافي.",
+   "ثالث شي ربط {{induction with oxytocin}} بحاجة لـ{{continuous monitoring}}.",
+   "اختر {{continuous fetal monitoring}}."
+  ],
+  "tip": "قاعدة: {{IUGR}} أو {{induction}} يعني {{continuous CTG}}.",
+  "pitfall": "لا تقل {{intermittent}} لأنها {{multigravida}} وصحتها جيدة؛ المهم حالة الجنين."
+ },
+ "A124": {
+  "bg": [
+   "الـ{{intrapartum fetal surveillance}} يعني متابعة قلب الجنين أثناء الولادة. وفيه نوعين: {{intermittent auscultation}} (سماعة {{Doppler}} أو {{Pinard}} كل فترة) للحمل منخفض الخطورة، و{{continuous electronic fetal monitoring (CTG)}} للحمل عالي الخطورة.",
+   "الحمل عالي الخطورة أي {{high-risk}} يشمل: {{IUGR / SGA}}، {{pre-eclampsia}} و{{hypertension}}، {{diabetes}}، {{post-term}}، {{oligohydramnios}}، {{abnormal Doppler}}، {{meconium}}، {{induction}} أو {{augmentation}} بـ{{oxytocin}}، {{previous CS}}، والنزيف.",
+   "السبب أن الجنين الصغير أو المصاب بقصور المشيمة أي {{placental insufficiency}} احتياطه الأكسجيني قليل، والانقباضات تقطع الدم عن المشيمة مؤقتاً، فممكن يتدهور بسرعة أي {{fetal hypoxia / acidosis}} وما يكتشفه إلا {{CTG}} مستمر.",
+   "الـ{{CTG}} نقرأه بـ{{DR C BRAVADO}}: {{Define Risk}} و{{Contractions}} و{{Baseline Rate}} و{{Variability}} و{{Accelerations}} و{{Decelerations}} و{{Overall assessment}}."
+  ],
+  "steps": [
+   "أول شي صنف الخطورة: {{HTN on medication}} و{{fetal weight 8th percentile}} يعني {{high-risk}}.",
+   "ثاني شي {{8th percentile}} هو {{SGA}} (أقل من {{10th}}).",
+   "ثالث شي اربط {{high-risk}} بـ{{continuous CTG}}.",
+   "استبعد {{intermittent}} لأنه للـ{{low-risk}}."
+  ],
+  "tip": "قاعدة: {{HTN}} + {{SGA}} يعني {{high-risk}} يعني {{CTG}} مستمر.",
+  "pitfall": "الضغط المضبوط بالدواء ما يعني حمل منخفض الخطورة؛ الدواء نفسه علامة على {{chronic HTN}}."
+ },
+ "A125": {
+  "bg": [
+   "الـ{{intrapartum fetal surveillance}} يعني متابعة قلب الجنين أثناء الولادة. وفيه نوعين: {{intermittent auscultation}} (سماعة {{Doppler}} أو {{Pinard}} كل فترة) للحمل منخفض الخطورة، و{{continuous electronic fetal monitoring (CTG)}} للحمل عالي الخطورة.",
+   "الحمل عالي الخطورة أي {{high-risk}} يشمل: {{IUGR / SGA}}، {{pre-eclampsia}} و{{hypertension}}، {{diabetes}}، {{post-term}}، {{oligohydramnios}}، {{abnormal Doppler}}، {{meconium}}، {{induction}} أو {{augmentation}} بـ{{oxytocin}}، {{previous CS}}، والنزيف.",
+   "السبب أن الجنين الصغير أو المصاب بقصور المشيمة أي {{placental insufficiency}} احتياطه الأكسجيني قليل، والانقباضات تقطع الدم عن المشيمة مؤقتاً، فممكن يتدهور بسرعة أي {{fetal hypoxia / acidosis}} وما يكتشفه إلا {{CTG}} مستمر.",
+   "الـ{{CTG}} نقرأه بـ{{DR C BRAVADO}}: {{Define Risk}} و{{Contractions}} و{{Baseline Rate}} و{{Variability}} و{{Accelerations}} و{{Decelerations}} و{{Overall assessment}}."
+  ],
+  "steps": [
+   "أول شي اقرأ البيانات: {{G3 P2}} و{{38 weeks}} و{{controlled HTN on medication}} و{{8th percentile}}.",
+   "ثاني شي صنف: {{high-risk}} بسبب {{HTN}} و{{SGA}}.",
+   "ثالث شي اختر {{Continuous fetal CTG}}.",
+   "استبعد {{maternal vitals}} و{{intermittent}} و{{early identification}}."
+  ],
+  "tip": "قاعدة: {{High-risk pregnancy}} يعني {{continuous CTG}}.",
+  "pitfall": "لا تتخدع بالرقم {{8th%}}؛ المصدر يؤكد إنه {{percentile}} وهو يحسب {{SGA}} مو طبيعي."
+ }
+}
