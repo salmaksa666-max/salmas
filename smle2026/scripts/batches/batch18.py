@@ -105,6 +105,235 @@ TOPICS = {
 }
 
 EXPLANATIONS = {
+2194: {
+    "correct_letter": "A",
+    "self_judged": False,
+    "idea": "هذا سؤال عن <bdi>pulmonary embolism</bdi> المشتبه بها عند <bdi>patient</bdi> على <bdi>OCP</bdi> (عامل خطر معروف لتكوّن الخثرات)، و<bdi>troponin</bdi> الطبيعي يبعد التشخيص عن <bdi>MI</bdi> الحاد.",
+    "clues": [
+        ("Women on OCPs", "عامل خطر رئيسي لتكوّن <bdi>thrombosis</bdi> وزيادة فرصة <bdi>PE</bdi>"),
+        ("chest pain for 4 or 5 hours", "ألم صدر حاد الظهور يحتاج استبعاد أسباب خطيرة زي <bdi>PE</bdi> و<bdi>MI</bdi>"),
+        ("Trop was less than the normal range", "يستبعد <bdi>acute MI</bdi> ويدعم التفكير بسبب آخر زي <bdi>PE</bdi>"),
+    ],
+    "why_correct": [
+        "بوجود عامل خطر واضح (<bdi>OCP</bdi>) وألم صدر حاد مع <bdi>troponin</bdi> طبيعي، أول خطوة علاجية عند الشك بـ<bdi>PE</bdi> هي بدء <bdi>anticoagulation</bdi> فورًا.",
+        "<bdi>Anticoagulation</bdi> يمنع تمدد الخثرة وتكوّن خثرات جديدة، وهو الأساس عند أي <bdi>patient</bdi> مستقر هيموديناميكيًا مشتبه فيه <bdi>PE</bdi>.",
+        "ما فيه بالسؤال أي علامة عدم استقرار (هبوط ضغط أو صدمة) تستدعي <bdi>thrombolytic</bdi> كخطوة أولى.",
+    ],
+    "when_changes": [
+        "لو كان <bdi>patient</bdi> غير مستقر هيموديناميكيًا بسبب <bdi>massive PE</bdi>، يصير الجواب <bdi>thrombolytic therapy</bdi>.",
+        "لو فشل العلاج بـ<bdi>anticoagulation</bdi> أو فيه مانع له، يصير التفكير بـ<bdi>IVC filter</bdi>.",
+    ],
+    "rule": "عند الشك بـ<bdi>PE</bdi> عند <bdi>patient</bdi> مستقر هيموديناميكيًا، الخطوة الأولى <bdi>anticoagulation</bdi>، و<bdi>thrombolytic</bdi> يُحجز لحالات عدم الاستقرار.",
+    "comparison": {
+        "headers": ["الخيار", "يُستخدم متى"],
+        "rows": [
+            ["<bdi>Anticoagulation</bdi>", "<bdi>patient</bdi> مستقر هيموديناميكيًا"],
+            ["<bdi>Thrombolytic</bdi>", "صدمة أو هبوط ضغط شديد من <bdi>PE</bdi>"],
+            ["<bdi>IVC filter</bdi>", "مانع من <bdi>anticoagulation</bdi> أو فشله"],
+        ],
+    },
+    "guideline_note": None,
+},
+2195: {
+    "correct_letter": "C",
+    "self_judged": True,
+    "idea": "مريض معروف بـ<bdi>CKD</bdi> يستخدم <bdi>fentanyl</bdi> لألم المفاصل، وجاء بتراجع مستوى الوعي ورعشة مع ارتفاع إنزيمات الكبد 3 أضعاف. السؤال يبي السبب الأرجح لهذا التدهور العصبي.",
+    "clues": [
+        ("take fentanyl drug as analgesia", "دواء أفيوني يُستقلب بشكل أساسي بالكبد"),
+        ("LFT increase 3fold", "خلل كبدي واضح يقلل قدرة الكبد على استقلاب <bdi>fentanyl</bdi>"),
+        ("decrease level of consciousness and tremor", "علامات تراكم دوائي عصبي سمّي"),
+    ],
+    "why_correct": [
+        "ارتفاع إنزيمات الكبد 3 أضعاف يدل على خلل كبدي يقلل استقلاب <bdi>fentanyl</bdi>، فيتراكم الدواء ويسبب <bdi>drug-induced neurotoxicity</bdi>.",
+        "الكلية ليست العضو الأساسي لاستقلاب <bdi>fentanyl</bdi>، فـ<bdi>CKD</bdi> هنا عامل مساعد بس السبب المباشر هو الخلل الكبدي الجديد.",
+        "ما فيه بالسؤال أي ذكر لنقص <bdi>thiamine</bdi> أو سوء تغذية يدعم <bdi>Wernicke encephalopathy</bdi>.",
+    ],
+    "when_changes": [
+        "لو كان المريض يشرب كحول بكثرة أو عنده سوء تغذية شديد مع ترنح وشلل عين، يصير التفكير بـ<bdi>Wernicke encephalopathy</bdi>.",
+        "لو كانت وظائف الكبد طبيعية مع ارتفاع شديد بـ<bdi>urea/creatinine</bdi>، يصير <bdi>uremic encephalopathy</bdi> الأقرب.",
+    ],
+    "rule": "تراكم الأدوية المستقلبة كبديًا عند وجود خلل كبدي حاد يسبب <bdi>neurotoxicity</bdi> عصبية واضحة.",
+    "comparison": None,
+    "guideline_note": None,
+},
+2198: {
+    "correct_letter": "C",
+    "self_judged": True,
+    "idea": "مريض <bdi>COPD</bdi> مزمن جاء بزيادة أعراض و<bdi>pH</bdi> حامضي (7.25)، السؤال يبي نوع الفشل التنفسي الحاد المرافق لتدهور حالته.",
+    "clues": [
+        ("copd pt complain of SOB and cough for 3months", "أعراض تنفسية متكررة تدعم <bdi>COPD</bdi> مع احتمال تفاقم حاد"),
+        ("ph:7.25", "<bdi>acidosis</bdi> حاد يدل على فشل تنفسي حاد مرافق"),
+    ],
+    "why_correct": [
+        "تفاقم <bdi>COPD</bdi> الحاد غالبًا يسبب احتباس <bdi>CO2</bdi> مع نقص أكسجين، وهذا يسمى <bdi>type 2 (hypercapnic) respiratory failure</bdi>.",
+        "الـ<bdi>pH</bdi> الحامضي 7.25 يدعم <bdi>acute respiratory acidosis</bdi> فوق الحالة المزمنة، يعني تفاقم حاد على خلفية مزمنة.",
+        "<bdi>COPD</bdi> نفسه سبب أساسي للفشل التنفسي المزمن من النوع 2، فالتدهور الحاد يصير <bdi>acute on chronic type 2 respiratory failure</bdi>.",
+    ],
+    "when_changes": [
+        "لو كان المريض يعاني نقص أكسجين فقط بدون احتباس <bdi>CO2</bdi>، يصير <bdi>type 1 respiratory failure</bdi>.",
+        "لو كان <bdi>pH</bdi> طبيعي مع ارتفاع مزمن بـ<bdi>CO2</bdi> وتعويض كلوي كامل، يصير الوصف <bdi>chronic respiratory failure</bdi> فقط.",
+    ],
+    "rule": "تفاقم <bdi>COPD</bdi> الحاد مع <bdi>acidosis</bdi> يدل على <bdi>type 2 acute respiratory failure</bdi>.",
+    "comparison": {
+        "headers": ["النوع", "الصفة"],
+        "rows": [["<bdi>Type 1</bdi>", "نقص أكسجين فقط"], ["<bdi>Type 2</bdi>", "نقص أكسجين + احتباس <bdi>CO2</bdi>"]],
+    },
+    "guideline_note": None,
+},
+2200: {
+    "correct_letter": "B",
+    "self_judged": False,
+    "idea": "امرأة بعد الولادة بصداع شديد وتشنجات، والسؤال يبي الخطوة التالية لتشخيص السبب. هذا نمط يوجه لـ<bdi>cerebral venous sinus thrombosis</bdi> بفترة ما بعد الولادة.",
+    "clues": [
+        ("Post partum women", "فترة فرط تخثر طبيعية تزيد خطر <bdi>venous thrombosis</bdi>"),
+        ("tonic clonic seizure", "علامة تحذيرية خطيرة توجه لسبب داخل الجمجمة"),
+        ("doesn't relieved by paracetamol", "صداع غير نمطي مقاوم للعلاج البسيط يرفع الشك بسبب عضوي"),
+    ],
+    "why_correct": [
+        "فترة النفاس حالة فرط تخثر طبيعية، وتزيد خطر <bdi>cerebral venous sinus thrombosis</bdi> اللي تسبب صداع شديد وتشنجات.",
+        "<bdi>CT brain with venography</bdi> هو الفحص الأنسب لتصوير الجيوب الوريدية وتأكيد أو استبعاد الخثرة.",
+        "الـ<bdi>non contrast CT</bdi> العادي ممكن يكون طبيعي بحالات <bdi>venous thrombosis</bdi> المبكرة، فما يكفي لوحده.",
+    ],
+    "when_changes": [
+        "لو كان الصداع مصحوب بارتفاع ضغط شديد ووذمة قبل الولادة، يصير التفكير الأول بـ<bdi>eclampsia</bdi>.",
+        "لو فيه ضعف بؤري مفاجئ بدون صداع تدريجي، يصير <bdi>ischemic stroke</bdi> احتمال يحتاج تصوير أوعية شرياني.",
+    ],
+    "rule": "صداع شديد مع تشنجات بفترة النفاس يستدعي تصوير الجيوب الوريدية لاستبعاد <bdi>cerebral venous sinus thrombosis</bdi>.",
+    "comparison": None,
+    "guideline_note": None,
+},
+2201: {
+    "correct_letter": "D",
+    "self_judged": False,
+    "idea": "شاب بعلامات <bdi>hemolysis</bdi> (شحوب، يرقان، فقر دم) وما يستخدم غير <bdi>omeprazole</bdi>. السؤال يبي السبب الأرجح لـ<bdi>hemolytic anemia</bdi> عنده.",
+    "clues": [
+        ("dizziness and fatigue that worsen after meals", "علامات غير نوعية لفقر الدم"),
+        ("pale and jaundiced", "علامتان كلاسيكيتان لـ<bdi>hemolysis</bdi>"),
+        ("increased bilirubin", "دليل على زيادة تكسير خلايا الدم الحمراء"),
+    ],
+    "why_correct": [
+        "<bdi>G6PD deficiency</bdi> سبب شائع جدًا لـ<bdi>hemolytic anemia</bdi> عند الذكور، وممكن يتفاقم مع محفزات مؤكسدة معينة.",
+        "صورة الشحوب واليرقان مع فقر الدم وارتفاع البيلروبين تدعم <bdi>hemolysis</bdi> نشط، و<bdi>G6PD</bdi> أكثر الأسباب الوراثية انتشارًا بهذا العرض.",
+        "ما فيه بالسؤال دليل مباشر على <bdi>Coombs test</bdi> إيجابي أو دواء معروف يسبب <bdi>hemolysis</bdi> مباشر غير <bdi>omeprazole</bdi>.",
+    ],
+    "when_changes": [
+        "لو كان <bdi>Coombs test</bdi> إيجابي بوضوح، يصير <bdi>Coombs-positive autoimmune hemolytic anemia</bdi> الأقرب.",
+        "لو كانت الأعراض تزيد بالبرد تحديدًا مع اعتلال أطراف، يصير <bdi>cold agglutinin anemia</bdi> الاحتمال الأقوى.",
+    ],
+    "rule": "شحوب ويرقان مع فقر دم وارتفاع بيلروبين عند شاب يوجه أولًا لأسباب <bdi>hemolysis</bdi> الشائعة زي <bdi>G6PD deficiency</bdi>.",
+    "comparison": None,
+    "guideline_note": "عادة <bdi>hemolysis</bdi> يرفع البيلروبين غير المباشر بشكل أساسي؛ ذِكر الارتفاع المباشر بالسؤال غريب، بس الجواب المعتمد بالمصدر يبقى <bdi>G6PD deficiency</bdi>.",
+},
+2202: {
+    "correct_letter": "C",
+    "self_judged": False,
+    "idea": "فتاة بـ<bdi>amenorrhea</bdi> بدون صفات جنسية ثانوية مع <bdi>FSH</bdi> و<bdi>LH</bdi> منخفضين. هذا يوجه لـ<bdi>hypogonadotropic hypogonadism</bdi> منشأه مركزي.",
+    "clues": [
+        ("amenorrhea", "غياب الدورة يستدعي تقييم محور <bdi>HPO</bdi>"),
+        ("no secondary sexual characters", "غياب تطور البلوغ يدعم نقص هرمونات مركزي مبكر"),
+        ("low fsh , lh", "يدل على مشكلة فوق المبيض، يعني مركزية مو مبيضية"),
+    ],
+    "why_correct": [
+        "انخفاض <bdi>FSH/LH</bdi> مع غياب تطور البلوغ يدل على <bdi>hypogonadotropic hypogonadism</bdi>، والسبب يكون بالـ<bdi>hypothalamus</bdi> أو <bdi>pituitary</bdi>.",
+        "<bdi>Brain MRI</bdi> يفيد لتقييم المحور المركزي واستبعاد أورام أو مشاكل تركيبية بالـ<bdi>pituitary</bdi> أو <bdi>hypothalamus</bdi>.",
+        "لو كانت المشكلة بالمبيض، كان المتوقع ارتفاع <bdi>FSH/LH</bdi> لا انخفاضه.",
+    ],
+    "when_changes": [
+        "لو كان <bdi>FSH</bdi> مرتفع بدل منخفض، يصير التفكير بمشكلة مبيضية مباشرة ويحتاج <bdi>pelvic US</bdi> بدل <bdi>MRI</bdi> الدماغ.",
+        "لو ظهرت صفات جنسية ثانوية طبيعية مع <bdi>amenorrhea</bdi> فقط، يصير التفكير بسبب تشريحي أهم من المحور الهرموني.",
+    ],
+    "rule": "<bdi>amenorrhea</bdi> مع غياب البلوغ و<bdi>FSH/LH</bdi> منخفضين يوجه لتقييم المحور المركزي بـ<bdi>brain MRI</bdi>.",
+    "comparison": None,
+    "guideline_note": None,
+},
+2203: {
+    "correct_letter": "D",
+    "self_judged": False,
+    "idea": "مريض بعد حادث بدم عند فتحة مجرى البول وكسر حوضي (<bdi>open book fracture</bdi>). هذا نمط كلاسيكي لإصابة مجرى البول يحتاج تقييم خاص قبل أي محاولة تمرير أنبوب.",
+    "clues": [
+        ("blood in meatus", "علامة تحذيرية مباشرة لإصابة <bdi>urethra</bdi>"),
+        ("open book frature with bilatral pubic rami", "كسور حوضية شديدة مرتبطة بخطر عالي لإصابة مجرى البول"),
+    ],
+    "why_correct": [
+        "وجود دم عند فتحة مجرى البول مع كسر حوضي شديد يرفع قوي الشك بـ<bdi>urethral injury</bdi>.",
+        "<bdi>Retrograde urethrogram</bdi> هو الفحص الصحيح لتقييم سلامة <bdi>urethra</bdi> قبل أي محاولة إدخال <bdi>Foley catheter</bdi>.",
+        "إدخال <bdi>Foley</bdi> بدون تأكيد سلامة المجرى ممكن يحوّل تمزق جزئي إلى تمزق كامل.",
+    ],
+    "when_changes": [
+        "لو كانت الـ<bdi>urethrogram</bdi> طبيعية بدون تسرب، يصير إدخال <bdi>Foley catheter</bdi> خطوة مقبولة بعدها.",
+        "لو كان الشك بإصابة المثانة بدل مجرى البول، يصير <bdi>CT cystogram</bdi> الأنسب.",
+    ],
+    "rule": "دم عند فتحة مجرى البول مع كسر حوضي شديد يستدعي <bdi>retrograde urethrogram</bdi> قبل إدخال أي قسطرة.",
+    "comparison": None,
+    "guideline_note": None,
+},
+2204: {
+    "correct_letter": "A",
+    "self_judged": False,
+    "idea": "طفل بألم بطن متزايد وكدمات بالبطن بعد سقوط من دراجة قبل أيام. السؤال يبي أفضل خطوة لتقييم إصابة داخلية محتملة متأخرة الظهور.",
+    "clues": [
+        ("vague abdominal pain", "ألم غير محدد يحتاج تقييم دقيق لاستبعاد إصابة داخلية"),
+        ("bruises in abdomen", "دليل على إصابة مباشرة بجدار البطن"),
+        ("falling from bicycle days ago", "آلية إصابة كافية لإحداث إصابة بأعضاء داخلية زي البنكرياس"),
+    ],
+    "why_correct": [
+        "الكدمات بالبطن مع ألم متزايد بعد إصابة واضحة تستدعي تقييم مصوّر دقيق للأعضاء الداخلية.",
+        "<bdi>CT abdomen</bdi> أكثر حساسية لرؤية إصابات الأعضاء الصلبة والمجوفة والبنكرياس مقارنة بالفحص السريري أو <bdi>US</bdi> لوحده.",
+        "التأخر بظهور الأعراض بعد إصابة بطنية يرفع الشك بإصابة عضو خلف الصفاق أو مجوف، وهذا يحتاج <bdi>CT</bdi> للتشخيص الدقيق.",
+    ],
+    "when_changes": [
+        "لو كان الطفل مصاب حديثًا وغير مستقر هيموديناميكيًا، تصير الأولوية للتثبيت والتصوير السريع بـ<bdi>FAST US</bdi>.",
+        "لو كانت الكدمات غير مفسّرة بآلية واضحة ومتكررة، يرتفع الشك بإساءة معاملة ويحتاج تقييم موسع.",
+    ],
+    "rule": "ألم بطن متزايد مع كدمات بعد إصابة واضحة يستدعي <bdi>CT abdomen</bdi> لتقييم الأعضاء الداخلية بدقة.",
+    "comparison": None,
+    "guideline_note": None,
+},
+2205: {
+    "correct_letter": "B",
+    "self_judged": False,
+    "idea": "امرأة مرضعة بالتهاب وتورم بالثدي وكتلة مليئة بسائل كثيف بالموجات الصوتية. السؤال يبي أفضل إدارة أولية لهذا الخراج الثديي المرتبط بالرضاعة.",
+    "clues": [
+        ("breast tenderness and erythema", "علامات التهاب موضعي بالثدي"),
+        ("filled with thick fluids", "يدعم تشخيص <bdi>abscess</bdi> مليء بالصديد مو كيس بسيط"),
+    ],
+    "why_correct": [
+        "الخراج الثديي الصغير إلى المتوسط المرتبط بالرضاعة (<bdi>lactational abscess</bdi>) يُدار أولًا بـ<bdi>needle aspiration</bdi> مع الاستمرار بالرضاعة أو الضخ.",
+        "<bdi>Aspiration</bdi> أقل تدخلًا من <bdi>incision and drainage</bdi> ويحافظ على سلامة أنسجة الثدي.",
+        "المضادات الحيوية لوحدها غير كافية لو فيه تجمع سائل صديدي واضح بالتصوير.",
+    ],
+    "when_changes": [
+        "لو كان الخراج كبير أو متعدد التجمعات أو فشلت معه عدة محاولات <bdi>aspiration</bdi>، يصير <bdi>incision and drainage (I/D)</bdi> المناسب.",
+        "لو كان مجرد التهاب بدون تجمع سائل واضح (<bdi>mastitis</bdi>)، تكون المضادات الحيوية كافية بدون تدخل.",
+    ],
+    "rule": "الخراج الثديي الصغير إلى المتوسط المرتبط بالرضاعة يُدار أولًا بـ<bdi>needle aspiration</bdi> مع مضاد حيوي مناسب.",
+    "comparison": {
+        "headers": ["الحالة", "الإدارة"],
+        "rows": [["خراج صغير-متوسط", "<bdi>aspiration</bdi>"], ["خراج كبير أو متعدد", "<bdi>incision and drainage</bdi>"]],
+    },
+    "guideline_note": None,
+},
+2206: {
+    "correct_letter": "C",
+    "self_judged": False,
+    "idea": "امرأة بـ<bdi>secondary amenorrhea</bdi> لمدة 6 شهور مع <bdi>FSH</bdi> و<bdi>prolactin</bdi> طبيعيين، والسؤال قصير بدون تفاصيل مخبرية إضافية. هذا يوجه لخلل وظيفي بمحور <bdi>HPO axis</bdi>.",
+    "clues": [
+        ("secondary amneorrhea for 6 month", "غياب دورة كانت موجودة سابقًا، يستدعي تقييم محور <bdi>HPO</bdi>"),
+        ("normal FSH and prolactin", "يستبعد <bdi>ovarian failure</bdi> و<bdi>hyperprolactinemia</bdi> كسبب مباشر"),
+    ],
+    "why_correct": [
+        "استبعاد ارتفاع <bdi>FSH</bdi> (يرفض <bdi>premature ovarian failure</bdi>) واستبعاد ارتفاع <bdi>prolactin</bdi> يوجه لخلل وظيفي بمحور <bdi>HPO</bdi>.",
+        "غياب تفاصيل مخبرية إضافية يدعم تشخيص عام بخلل وظيفي بالمحور بدل تشخيص محدد.",
+        "هذا النمط شائع بحالات التوتر أو الرياضة المفرطة اللي تثبّط المحور دون رفع أو خفض واضح بالهرمونات الأساسية.",
+    ],
+    "when_changes": [
+        "لو كان <bdi>FSH</bdi> مرتفع، يصير <bdi>premature ovarian failure</bdi> الأقرب.",
+        "لو كانت هناك علامات <bdi>androgen excess</bdi>، يصير التفكير بـ<bdi>PCOS</bdi> الأقوى.",
+    ],
+    "rule": "<bdi>secondary amenorrhea</bdi> مع <bdi>FSH</bdi> و<bdi>prolactin</bdi> طبيعيين بدون تفاصيل إضافية يوجه لخلل وظيفي بمحور <bdi>HPO</bdi>.",
+    "comparison": None,
+    "guideline_note": None,
+},
 # __EXPL_MARKER__
 }
 
