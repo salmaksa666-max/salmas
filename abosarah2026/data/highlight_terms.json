@@ -307,5 +307,1802 @@
     "gaseous distention",
     "foul smelling watery diarrhea",
     "camping where the source of water was contaminated"
+  ],
+  "AS-0001": [
+    "wrong leg",
+    "how to prevent"
+  ],
+  "AS-0045": [
+    "completed a fellowship in spinal surgery",
+    "requesting clinical privileges"
+  ],
+  "AS-0250": [
+    "surgical site infection that progressed to septicemia",
+    "primary cause of death in his death certificate"
+  ],
+  "AS-0319": [
+    "the mother refused to do the surgery"
+  ],
+  "AS-0320": [
+    "frozen sperms",
+    "the husband died"
+  ],
+  "AS-0325": [
+    "military service member",
+    "low back pain",
+    "requests two weeks of sick leave",
+    "muscle power is normal, there are no neurological deficits"
+  ],
+  "AS-0364": [
+    "IRB",
+    "ethical acceptability"
+  ],
+  "AS-0380": [
+    "remove this case from the research report"
+  ],
+  "AS-0404": [
+    "made some changes to some of the data",
+    "omitted other parts of his results"
+  ],
+  "AS-0428": [
+    "16 y/o",
+    "against doctor idea"
+  ],
+  "AS-0428B": [
+    "severe preeclampsia",
+    "both parent refused"
+  ],
+  "AS-0438": [
+    "alarming letter"
+  ],
+  "AS-0497": [
+    "e-research",
+    "online interview"
+  ],
+  "AS-0517": [
+    "Weak Regarding Immunology",
+    "Improve"
+  ],
+  "AS-0518": [
+    "Updated About LATEST THERPAIES"
+  ],
+  "AS-2461": [
+    "peanut allergy",
+    "without the allergy being documented"
+  ],
+  "AS-2496": [
+    "refuses the admission and asked to leave the hospital"
+  ],
+  "AS-2537": [
+    "communication"
+  ],
+  "AS-0002": [
+    "200 women",
+    "180",
+    "misses 20",
+    "sensitivity"
+  ],
+  "AS-0007": [
+    "low specificity",
+    "over treatment"
+  ],
+  "AS-0105": [
+    "50-year-old",
+    "received the seasonal influenza vaccine 6 months ago"
+  ],
+  "AS-0106": [
+    "50-Year-Old"
+  ],
+  "AS-0122": [
+    "include the missed cases"
+  ],
+  "AS-0316": [
+    "50-year-old",
+    "received the seasonal influenza vaccine 6 months ago"
+  ],
+  "AS-0361": [
+    "even include the missed cases"
+  ],
+  "AS-0365": [
+    "1000 people for one year",
+    "15 of them developed",
+    "incidence"
+  ],
+  "AS-0424": [
+    "case-control study",
+    "80 were delivered by cesarean section and 120 by vaginal delivery",
+    "160 were delivered by cesarean section and 40 by vaginal delivery",
+    "odds ratio"
+  ],
+  "AS-0445": [
+    "missed multiple appointments",
+    "medical value"
+  ],
+  "AS-0478": [
+    "100,000",
+    "Existing cases: 300, New cases: 75",
+    "cumulative prevalence"
+  ],
+  "AS-0478B": [
+    "200 adult patients",
+    "75 patients currently have migraine",
+    "among these patients"
+  ],
+  "AS-2278": [
+    "prescribe over the phone"
+  ],
+  "AS-2296": [
+    "warfarin",
+    "10 weeks pregnant"
+  ],
+  "AS-2301": [
+    "DNR from other hospital"
+  ],
+  "AS-2302": [
+    "transferred to another hospital"
+  ],
+  "AS-2303": [
+    "muscular dystrophy",
+    "transferred from one hospital to a tertiary hospital",
+    "without knowing about a Do Not Resuscitate (DNR) order"
+  ],
+  "AS-2339": [
+    "termination of pregnancy due to social issues",
+    "viable baby at 14 weeks"
+  ],
+  "AS-2340": [
+    "Dr is persuading her not to terminate due to personal belief"
+  ],
+  "AS-2341": [
+    "fetal distress",
+    "mother refuses the CS and requests a second opinion"
+  ],
+  "AS-2342": [
+    "She Refuses The Procedure And Requests A Second Opinion"
+  ],
+  "AS-2343": [
+    "elective C-section",
+    "hesitant"
+  ],
+  "AS-2402": [
+    "husband agrees",
+    "she refuses"
+  ],
+  "AS-2403": [
+    "ruptured ectopic pregnancy",
+    "hypotensive and unconscious"
+  ],
+  "AS-2428": [
+    "You Will Receive Standard Care"
+  ],
+  "AS-2443": [
+    "opened the patient's file",
+    "filed a complaint"
+  ],
+  "AS-2460": [
+    "vitamin D",
+    "best way to write the prescription"
+  ],
+  "AS-0084": [
+    "24-week",
+    "monochorionic twin pregnancy",
+    "twin-to-twin transfusion syndrome (TTTS)"
+  ],
+  "AS-0085": [
+    "12-week",
+    "monochorionic twin pregnancy",
+    "twin-to-twin transfusion syndrome (TTTS)"
+  ],
+  "AS-0102": [
+    "Cough And Dyspnea",
+    "Bilateral Rhonchi",
+    "Allergy History"
+  ],
+  "AS-0109": [
+    "HPV",
+    "cervical cancer"
+  ],
+  "AS-0113": [
+    "infertility for 6 years",
+    "severe dysmenorrhea unrelieved by naproxen"
+  ],
+  "AS-0115": [
+    "spontaneous abortion",
+    "PPROM at 28 weeks"
+  ],
+  "AS-0116": [
+    "exhausted",
+    "+2 station",
+    "late deceleration"
+  ],
+  "AS-0117": [
+    "type 2 deceleration",
+    "+2 station",
+    "Severe bleeding"
+  ],
+  "AS-0118": [
+    "falling from a bicycle",
+    "bluish hematoma",
+    "left labia"
+  ],
+  "AS-0124": [
+    "28-week pregnant",
+    "medically and surgically free",
+    "shortness of breath with exertion",
+    "Physical examination is unremarkable"
+  ],
+  "AS-0126": [
+    "24 weeks",
+    "didn't receive rubella vaccine"
+  ],
+  "AS-0141": [
+    "failure to breastfeed",
+    "severe postpartum hemorrhage"
+  ],
+  "AS-0144": [
+    "reduce the size of the uterine fibroid prior to"
+  ],
+  "AS-0147": [
+    "recurrent pregnancy loss",
+    "best predictor for pregnancy complication"
+  ],
+  "AS-0148": [
+    "18 weeks",
+    "painless expulsion"
+  ],
+  "AS-0148B": [
+    "22 weeks",
+    "short soft cervix",
+    "1.5 cm dilated with herniation of fetal membranes"
+  ],
+  "AS-0150": [
+    "type 1 diabetes",
+    "HbA1C 8.0",
+    "prevent congenital malformation"
+  ],
+  "AS-0151": [
+    "first trimester miscarriage"
+  ],
+  "AS-0151B": [
+    "3 consecutive miscarriage first trimester"
+  ],
+  "AS-0155": [
+    "30-week pregnant",
+    "pruritus and jaundice",
+    "Platelets count 160",
+    "Alkaline phosphatase 700"
+  ],
+  "AS-0158": [
+    "38th week",
+    "4 cm dilation",
+    "complete breech",
+    "CTG is reactive",
+    "no change"
+  ],
+  "AS-0159": [
+    "38th week",
+    "4 cm dilation",
+    "\"breech\" presentation",
+    "no change"
+  ],
+  "AS-0160": [
+    "uterine fibroid",
+    "34 weeks",
+    "abdominal pain and fever",
+    "cervix is closed",
+    "no uterine contractions"
+  ],
+  "AS-0171": [
+    "postpartum",
+    "not breastfeeding",
+    "combined oral contraceptive pills (COCs)"
+  ],
+  "AS-0751": [
+    "G8 P5126",
+    "oxytocin",
+    "chorioamnionitis"
+  ],
+  "AS-0752": [
+    "term twin pregnancy"
+  ],
+  "AS-0753": [
+    "low-lying placenta",
+    "One hour post-delivery"
+  ],
+  "AS-0754": [
+    "not known to have any medical or surgical history",
+    "heavy gush of bleeding postpartum"
+  ],
+  "AS-0755": [
+    "uterus noted to be firm"
+  ],
+  "AS-0756": [
+    "forceps delivery",
+    "laceration of the cervix, vagina, and the perineal body"
+  ],
+  "AS-0757": [
+    "12 days ago"
+  ],
+  "AS-0763": [
+    "Asymptomatic Pregnant",
+    "urine culture positive for E coli"
+  ],
+  "AS-0763B": [
+    "Postpartum",
+    "asymptomatic bacteriuria after delivery"
+  ],
+  "AS-0772": [
+    "24 weeks",
+    "cervical length of 27 mm"
+  ],
+  "AS-0783": [
+    "morbidly obese and diabetic",
+    "periods are irregular, occurring every 3-4 months",
+    "Pregnancy test is negative"
+  ],
+  "AS-0792": [
+    "effective and reversible",
+    "most effective"
+  ],
+  "AS-0797": [
+    "1ry amenorrhea and abd pain",
+    "mature genitalia",
+    "mass anterior to the rectum",
+    "cruciate incision"
+  ],
+  "AS-0807": [
+    "methotrexate for an ectopic pregnancy",
+    "Day 4: BhCG was1200",
+    "Day 7: BhCG was 2100"
+  ],
+  "AS-0808": [
+    "methotrexate treatment for an ectopic pregnancy",
+    "Day 4: 1200 mIU/mL Day 7: 2100 mIU/mL"
+  ],
+  "AS-0828": [
+    "POROM",
+    "HEALTH PROMOTION AND PREVENT ILLNESS"
+  ],
+  "AS-0833": [
+    "Pregnant smoking"
+  ],
+  "AS-0837": [
+    "latent phase of labor",
+    "baseline of 140",
+    "moderate variability",
+    "recurrent early decelerations"
+  ],
+  "AS-0855": [
+    "36 wk ga",
+    "CTG type 2 deceleration",
+    "+2 station"
+  ],
+  "AS-0857": [
+    "urine inf for pregnant women"
+  ],
+  "AS-0871": [
+    "on warfarin",
+    "contraception"
+  ],
+  "AS-0872": [
+    "ectopic pregnancy",
+    "methotrexate",
+    "b-hcg on day 4 and 7 is plateauing",
+    "asymptomatic"
+  ],
+  "AS-0873": [
+    "postpartum",
+    "DIC"
+  ],
+  "AS-0905": [
+    "a first-trimester spontaneous abortion"
+  ],
+  "AS-0917": [
+    "6 macrosomic babies",
+    "prevent PPH"
+  ],
+  "AS-0917B": [
+    "multipara",
+    "postpartum hemorrhage",
+    "macrosomic baby"
+  ],
+  "AS-0918": [
+    "PPH",
+    "prevent"
+  ],
+  "AS-1496": [
+    "25-year-old",
+    "Atypical complex hyperplasia"
+  ],
+  "AS-1498": [
+    "pregnant",
+    "large genital warts"
+  ],
+  "AS-1506": [
+    "pregnant",
+    "sickle cell disease"
+  ],
+  "AS-1534": [
+    "irregular menstrual cycle",
+    "obese and BMI 31"
+  ],
+  "AS-1549": [
+    "bhCG"
+  ],
+  "AS-1560": [
+    "uncontrolled bleeding",
+    "DIC"
+  ],
+  "AS-1565": [
+    "large leiomyoma",
+    "Hb is 70"
+  ],
+  "AS-1566": [
+    "large leiomyoma"
+  ],
+  "AS-1568": [
+    "post-menopausal bleeding",
+    "the same size and location"
+  ],
+  "AS-1572": [
+    "low risk and uncomplicated"
+  ],
+  "AS-1577": [
+    "amenorrhea for the last 8 weeks",
+    "expelling blood and tissue through the vagina"
+  ],
+  "AS-1588": [
+    "31 weeks",
+    "preterm labor"
+  ],
+  "AS-1607": [
+    "severe preeclampsia",
+    "rationale",
+    "antihypertensive medications"
+  ],
+  "AS-1612": [
+    "33 weeks'",
+    "small for gestational age",
+    "reversed end-diastolic flow"
+  ],
+  "AS-1687B": [
+    "solid irregular fixed pelvic mass",
+    "multilocular ovarian mass",
+    "advanced epithelial ovarian cancer"
+  ],
+  "AS-1699": [
+    "ectopic pregnancy",
+    "4 cm"
+  ],
+  "AS-1700": [
+    "Dysmenorrhea",
+    "nodularity on uterosacral ligament"
+  ],
+  "AS-2251": [
+    "headache, anxiety, and mastalgia",
+    "start 8-10 days before menstruation and improve afterward"
+  ],
+  "AS-2252": [
+    "19-year-old",
+    "beginning with the onset of menses",
+    "no pain between menses",
+    "Physical examination normal"
+  ],
+  "AS-2255": [
+    "secondary amenorrhea for 6 month",
+    "normal FSH and prolactin"
+  ],
+  "AS-2256": [
+    "primary amenorrhea",
+    "present breast development and secondary characteristics"
+  ],
+  "AS-2262": [
+    "24 weeks' gestation",
+    "intrauterine fetal death",
+    "induce labor"
+  ],
+  "AS-2270": [
+    "amenorrhea",
+    "mass felt from vagina during DRE",
+    "Diagonal incision across the hymen"
+  ],
+  "AS-2272": [
+    "retained placenta for 30 min"
+  ],
+  "AS-2275": [
+    "9 weeks gestation",
+    "hyperthyroidism"
+  ],
+  "AS-2284": [
+    "30 weeks",
+    "preterm premature rupture of membranes",
+    "fever and abdominal pain"
+  ],
+  "AS-2284B": [
+    "preterm premature rupture of membranes",
+    "fever and abdominal pain"
+  ],
+  "AS-2284C": [
+    "prelabor premature rupture of membranes for 7 days",
+    "rigors, and fever",
+    "purulent, foul-smelling vaginal discharge"
+  ],
+  "AS-2292": [
+    "Primigravida",
+    "no medical history or family history of DM"
+  ],
+  "AS-2293": [
+    "38 wkf",
+    "twins in vertex position",
+    "ctg was normal"
+  ],
+  "AS-2295": [
+    "right ovarian cyst measuring 12 cm"
+  ],
+  "AS-2309": [
+    "epilepsy",
+    "valproic acid"
+  ],
+  "AS-2313": [
+    "10 wks",
+    "previous 2 abortion due to congenital anomalies",
+    "screening for anomalies"
+  ],
+  "AS-2315": [
+    "regular adequate contractions",
+    "retraction ring"
+  ],
+  "AS-0254": [
+    "mycoplasma pneumonia",
+    "yellowish discolouration of the eyes",
+    "Hb 60",
+    "Reticulocyte 4 (high)",
+    "Haptoglobin 0.4"
+  ],
+  "AS-0254B": [
+    "put on medications",
+    "Hb: 68",
+    "Haptoglobin: low",
+    "LDH: high"
+  ],
+  "AS-0262": [
+    "intracerebral hemorrhage",
+    "hemodynamically stable"
+  ],
+  "AS-0267": [
+    "Reduced platelets count"
+  ],
+  "AS-0275": [
+    "positive family history of type1 diabetes mellitus",
+    "C-peptide 0.09 (low)"
+  ],
+  "AS-0278": [
+    "high dose of atorvastatins",
+    "cholesterol: within normal range",
+    "Triglycerides: significantly elevated (2.8)"
+  ],
+  "AS-0297": [
+    "tumor lysis syndrome (TLS)",
+    "resumption of chemotherapy"
+  ],
+  "AS-0322": [
+    "atorvastatin",
+    "muscle weakness and generalized muscle aches"
+  ],
+  "AS-0323": [
+    "bicuspid aortic stenosis",
+    "normal EF, no LV dilation",
+    "with no symptoms"
+  ],
+  "AS-0333": [
+    "cholangitis intervention",
+    "HR 92",
+    "Temp 38",
+    "WBC low"
+  ],
+  "AS-0336": [
+    "18-year",
+    "red Urine for 5 days",
+    "tonsillitis 3 weeks ago",
+    "elevated blood pressure"
+  ],
+  "AS-0337": [
+    "elderly",
+    "fever, dysuria",
+    "confusion",
+    "leukocytes present",
+    "reverse the CNS symptoms"
+  ],
+  "AS-0339": [
+    "On Warfarin",
+    "Subdural Hematoma",
+    "Already Received Vitamin K",
+    "Requires Urgent Surgical Evacuation"
+  ],
+  "AS-0340": [
+    "mild intermittent asthma",
+    "using her inhaler at least 3 times a week",
+    "wake up in the middle of the night"
+  ],
+  "AS-0343": [
+    "type 1 DM",
+    "symptoms of hypoglycemia"
+  ],
+  "AS-0347": [
+    "sickle cell disease",
+    "acute chest syndrome",
+    "bilateral lung infiltrates"
+  ],
+  "AS-0349": [
+    "sickle cell disease",
+    "acute chest syndrome",
+    "bilateral lung infiltrates"
+  ],
+  "AS-0350": [
+    "5-pack-year smoker",
+    "blood pressure is 150/92"
+  ],
+  "AS-0359": [
+    "chemotherapy",
+    "fever",
+    "low neutrophils"
+  ],
+  "AS-0367": [
+    "persistent HTN despite being on 2 antihypertensive",
+    "hypokalemia and metabolic alkalosis"
+  ],
+  "AS-0803": [
+    "25 years old",
+    "hypokalemia",
+    "blood pressure still uncontrolled"
+  ],
+  "AS-0805": [
+    "Multiple Sclerosis",
+    "generalized body pain"
+  ],
+  "AS-0811": [
+    "Symptoms increased with stress and after food",
+    "Normal blood lab, normal colonoscopy"
+  ],
+  "AS-0813": [
+    "Persistent Back Pain",
+    "Creatinine: Elevated",
+    "Bone Marrow Biopsy: 20% Plasma Cells"
+  ],
+  "AS-0825": [
+    "mechanical ventilation",
+    "fever and purulent discharge from trachea"
+  ],
+  "AS-0830": [
+    "Persistent HTN",
+    "potassium 3,2"
+  ],
+  "AS-0831": [
+    "elderly",
+    "urinary tract infection symptoms",
+    "sudden change in mental status",
+    "calcium 1.9",
+    "sodium 134"
+  ],
+  "AS-0831B": [
+    "elderly",
+    "UTI symptoms and CNS symptoms",
+    "calcium 1.97 mmol/L",
+    "sodium 132 mmol/L",
+    "mild cortical atrophy"
+  ],
+  "AS-0831C": [
+    "elderly",
+    "fever, dysuria, and confusion",
+    "Na+ = 132",
+    "Ca2+ = 1.6",
+    "leukocytes in urine"
+  ],
+  "AS-0831D": [
+    "71 year old",
+    "S&S of UTI",
+    "confused and unable to recall",
+    "positive nitrites and leukocyte esterase"
+  ],
+  "AS-0835": [
+    "pneumonia symptoms and hemoptysis",
+    "Received 2 course of antibiotics but no improvement"
+  ],
+  "AS-0844": [
+    "25 mm pleural effusion on decubitus film"
+  ],
+  "AS-0845": [
+    "shortness of breath but no chest pain",
+    "ECG show Bradycardia or heart block"
+  ],
+  "AS-0846": [
+    "+ve HBsAg",
+    "Anti HBc IgG"
+  ],
+  "AS-0846B": [
+    "Negative",
+    "Anti-HBsAg Positive",
+    "Anti-HBc IgG Negative"
+  ],
+  "AS-1300": [
+    "2 Liver lesion in the right lobe",
+    "risk factor"
+  ],
+  "AS-1301": [
+    "methotrexate",
+    "mouth ulcer and rigor"
+  ],
+  "AS-1302": [
+    "MVP and sever MR",
+    "without endocarditis",
+    "dentist procedure"
+  ],
+  "AS-1304": [
+    "40-pack-year smoking history",
+    "bloody fluid",
+    "strongly exudative"
+  ],
+  "AS-1321": [
+    "fever chils",
+    "Bp90/50",
+    "MAP is 63",
+    "Lactic acid venous 4"
+  ],
+  "AS-1334": [
+    "Rheumatic fever 15 years ago",
+    "blowing Diastolic decrescendo murmur at aortic area",
+    "BP 154/56"
+  ],
+  "AS-1345": [
+    "2-week history of bloody diarrhea",
+    "tenesmus"
+  ],
+  "AS-1346": [
+    "left leg swelling and pain",
+    "chest tightness and shortness of breath"
+  ],
+  "AS-1359": [
+    "recent hospitalization 10 days ago for pneumonia",
+    "low-grade fever",
+    "Moderate right-sided pleural effusion"
+  ],
+  "AS-1360": [
+    "recent hospitalization 10 days ago for pneumonia",
+    "low-grade fever",
+    "Moderate right-sided pleural effusion"
+  ],
+  "AS-1362": [
+    "COPD",
+    "LL edema",
+    "raised JVP with giant 'a' wave"
+  ],
+  "AS-1368": [
+    "renal impairment 3",
+    "AF"
+  ],
+  "AS-1374": [
+    "salbutamol inhaler 100 mcg prn",
+    "beclometasone dipropionate inhaler 400 mcg bd",
+    "frequent exacerbations"
+  ],
+  "AS-1381": [
+    "COPD exacerbation",
+    "O2 70%",
+    "CO2 high 9",
+    "pH 7.2"
+  ],
+  "AS-1381B": [
+    "acute exacerbation COPD",
+    "no O2 given",
+    "not have confusion or any CNS symptoms or absent gag or any indication for intubation",
+    "pH 7.24"
+  ],
+  "AS-1383": [
+    "headache, fever, photosensitivity",
+    "neck rigidity",
+    "purpuric skin rash over her extremities"
+  ],
+  "AS-1384": [
+    "30 years old",
+    "epigastric pain worse after meal",
+    "No family history"
+  ],
+  "AS-1387": [
+    "diastolic murmur heard at the base of the heart",
+    "increased when the patient leaned forward in full expiration"
+  ],
+  "AS-1388": [
+    "hypotension treated with hydration and inotropes",
+    "repeated one is abnormal",
+    "Unremarkable"
+  ],
+  "AS-1389": [
+    "4-month history of progressive shortness of breath, dry cough",
+    "showed no improvement",
+    "persistent dense area of consolidation",
+    "Atypical cells"
+  ],
+  "AS-1390": [
+    "HIV",
+    "cyanosed",
+    "Signs of ARDS"
+  ],
+  "AS-P349": [
+    "cough, fever, and lung consolidation",
+    "neutrophilia",
+    "No other medical comorbidities"
+  ],
+  "AS-1394": [
+    "angiotensin receptor II blocker"
+  ],
+  "AS-1851": [
+    "first-time generalized tonic-clonic seizure",
+    "Neurological findings are unremarkable"
+  ],
+  "AS-1852": [
+    "elevated blood pressure during a routine checkup"
+  ],
+  "AS-1853": [
+    "confused and behaving in a strange way",
+    "Left leg power is 2/5",
+    "decreased sensation in the left leg"
+  ],
+  "AS-1854": [
+    "glioblastoma multiforme",
+    "hyponatremia"
+  ],
+  "AS-1855": [
+    "type I diabetes mellitus",
+    "BP:150/90"
+  ],
+  "AS-1878": [
+    "jaundice",
+    "SLE",
+    "ANA: 1:640 (High)",
+    "Interphase hepatitis with plasma cells"
+  ],
+  "AS-1897": [
+    "Pulmonary Disease"
+  ],
+  "AS-1919": [
+    "end-stage metastatic cancer",
+    "palliative care",
+    "aggressive and confused"
+  ],
+  "AS-1948": [
+    "pancreatic cancer",
+    "swollen left lower limb during hospitalization",
+    "tender, erythematous swelling"
+  ],
+  "AS-1951": [
+    "long standing DM",
+    "cellulitis"
+  ],
+  "AS-1975": [
+    "10 years ago",
+    "HBs Ag +ve",
+    "HBe Ag +ve"
+  ],
+  "AS-1977": [
+    "headache for 3 months",
+    "Mycobacterium tuberculosis"
+  ],
+  "AS-1978": [
+    "productive cough, fever, and dyspnea for 3 days",
+    "consolidation at the right lower lung field",
+    "empiric"
+  ],
+  "AS-1981": [
+    "femur fracture",
+    "pulmonary embolism",
+    "left cerebral infarction"
+  ],
+  "AS-2005": [
+    "sudden left eye visual loss for 20 minutes",
+    "vision returned to normal"
+  ],
+  "AS-0083": [
+    "dental procedure",
+    "jaundice and chills",
+    "6 cm hypoechoic lesion in the liver"
+  ],
+  "AS-0087": [
+    "hypotensive despite receiving IV fluids",
+    "openbook pelvic fracture"
+  ],
+  "AS-0088": [
+    "inguinal hernia incidentally",
+    "reducible",
+    "slight discomfort"
+  ],
+  "AS-0089": [
+    "tip of her right thumb",
+    "tense tender swelling in pulp",
+    "Nail FOLD Is Intact"
+  ],
+  "AS-0090": [
+    "Recurrent ureteric stones",
+    "bone pain",
+    "Ca: 3.50 mmol",
+    "2cm parathyroid adenoma"
+  ],
+  "AS-0091": [
+    "IV fluid",
+    "well resuscitated"
+  ],
+  "AS-0110": [
+    "jaundice",
+    "RUQ tenderness",
+    "LFT and bilirubin are elevated"
+  ],
+  "AS-0123": [
+    "Vitally stable",
+    "right upper quadrant"
+  ],
+  "AS-0156": [
+    "6hours post femoral artery surgery",
+    "swelling and worsening neurological signs"
+  ],
+  "AS-0161": [
+    "open femur fracture",
+    "5-cm wound"
+  ],
+  "AS-0163": [
+    "dental procedure",
+    "jaundice and chills",
+    "6-cm hypoechoic lesion in the liver"
+  ],
+  "AS-0226": [
+    "plantar foot ulcer",
+    "diminished sensation",
+    "intact peripheral pulses"
+  ],
+  "AS-0233": [
+    "trauma",
+    "decreased pulses"
+  ],
+  "AS-0265": [
+    "intermittent RUQ pain",
+    "jaundice",
+    "high bilirubin and LFTs"
+  ],
+  "AS-0273": [
+    "diabetes",
+    "warmth and tenderness of the (calf)",
+    "2 cm ulcer over the first metatarsal area",
+    "Distal pulses are intact"
+  ],
+  "AS-0312": [
+    "reducible inguinal hernia",
+    "mild discomfort without significant pain"
+  ],
+  "AS-0332": [
+    "lucid interval",
+    "convex lesion"
+  ],
+  "AS-0334": [
+    "Paradoxical chest wall movement"
+  ],
+  "AS-0344": [
+    "hairdresser",
+    "swollen bulb of the thumb finger",
+    "stick from the tools",
+    "Nail bed is intact"
+  ],
+  "AS-0353": [
+    "distal radius fracture",
+    "paresthesia of the hand"
+  ],
+  "AS-0354": [
+    "RTA 1 week ago",
+    "Vitally stable"
+  ],
+  "AS-0354B": [
+    "RTA 1 week ago",
+    "some vitals were abnormal"
+  ],
+  "AS-0355": [
+    "febrile, toxic",
+    "cystic lesion with thick wall in the liver"
+  ],
+  "AS-0369": [
+    "PTC (percutaneous transhepatic cholangiography)",
+    "After 24 hours",
+    "hematemesis",
+    "vitals are stable"
+  ],
+  "AS-0370": [
+    "percutaneous trans-hepatic cholangiography",
+    "24 hours after the procedure",
+    "upper gastrointestinal bleeding"
+  ],
+  "AS-0371": [
+    "DM",
+    "dental infection",
+    "6 cm hypoechoic lesion in the liver"
+  ],
+  "AS-0372": [
+    "decreased breath sounds and dullness on percussion",
+    "hypotensive"
+  ],
+  "AS-0373": [
+    "recurrent ureteric stones and bone pain",
+    "Ca: 3.50 mmol",
+    "2 cm parathyroid adenoma"
+  ],
+  "AS-0375": [
+    "diverticulosis",
+    "mild and intermittent pain"
+  ],
+  "AS-0376": [
+    "diverticulosis",
+    "no fever, normal WBCs and no signs of peritonitis"
+  ],
+  "AS-1193": [
+    "post op 6 days of colectomy",
+    "Potassium 2.5 (low)",
+    "most critical to check"
+  ],
+  "AS-1194": [
+    "pelvic fracture",
+    "actively bleeding",
+    "BP = 80/50"
+  ],
+  "AS-1198": [
+    "72 year old",
+    "fever, tachycardia and leukocytosis",
+    "slight erythema and no pus formation"
+  ],
+  "AS-1201": [
+    "total thyroidectomy",
+    "numbness around the mouth"
+  ],
+  "AS-1216": [
+    "ulcerative colitis",
+    "fulminant disease complicated by toxic megacolon",
+    "URGENT"
+  ],
+  "AS-1221": [
+    "68-year-old",
+    "left reducible inguinal hernia"
+  ],
+  "AS-1229": [
+    "thyroidectomy",
+    "peri oral tingling"
+  ],
+  "AS-1233": [
+    "tachycardic",
+    "no obvious external injury"
+  ],
+  "AS-1234": [
+    "Hypotensive tachycardic",
+    "GCS low"
+  ],
+  "AS-1234B": [
+    "MVA",
+    "head trauma",
+    "conscious but disoriented"
+  ],
+  "AS-1239": [
+    "scaly, oozing lesion on the right nipple",
+    "no palpable breast masses"
+  ],
+  "AS-1248": [
+    "obese",
+    "jaundice",
+    "tender liver",
+    "direct bilirubin 79",
+    "alkaline phosphatase 1000"
+  ],
+  "AS-1251": [
+    "perianal painful lump for 12 hours",
+    "dome-shaped, bluish, tender swelling"
+  ],
+  "AS-1257": [
+    "well demarcated, red, painful to touch"
+  ],
+  "AS-1272": [
+    "MVA",
+    "severe abdominal pain",
+    "BP 83/50"
+  ],
+  "AS-1275": [
+    "visible deformity of the shoulder",
+    "inability to abduct the arm"
+  ],
+  "AS-1280": [
+    "previously used surgical instruments",
+    "surgical site infection"
+  ],
+  "AS-1281": [
+    "past history of peptic ulcer",
+    "severe abdominal pain",
+    "guarding, Rebound",
+    "Skin cool and clammy",
+    "Hypotensive 87/60"
+  ],
+  "AS-1281B": [
+    "peptic ulcer",
+    "rebound tenderness with guarding",
+    "blood pressure was 85/55",
+    "tachycardia 120"
+  ],
+  "AS-1317": [
+    "minor Injury",
+    "painful swelling in forearm",
+    "warmth"
+  ],
+  "AS-1317B": [
+    "rapidly progressive painful skin lesion",
+    "pain is severe and disproportionate to the physical findings",
+    "febrile and appears toxic",
+    "patches of purple discoloration"
+  ],
+  "AS-1319": [
+    "appendicular abscess"
+  ],
+  "AS-1320": [
+    "4 days post knee replacement",
+    "Temp 38.9",
+    "Xray: right lower lobe infilteration"
+  ],
+  "AS-1325": [
+    "Hypo echoic and inside it microcalcifications",
+    "Size: 3 cm"
+  ],
+  "AS-1328": [
+    "diabetic",
+    "foul-smelling ulcer"
+  ],
+  "AS-1332": [
+    "femoral pulse intact but all pulses below cannot be felt"
+  ],
+  "AS-1340": [
+    "right testis is not palpable in the scrotum"
+  ],
+  "AS-1340B": [
+    "5-month-old",
+    "non-bilious vomiting",
+    "olive-shaped mass palpable in the epigastric region"
+  ],
+  "AS-1349": [
+    "testicular torsion",
+    "golden hour"
+  ],
+  "AS-1351": [
+    "testicular torsion"
+  ],
+  "AS-1914": [
+    "blunt abdominal trauma",
+    "Extravasation around the left kidney"
+  ],
+  "AS-1915": [
+    "axillary mass 3x3",
+    "soft and movable"
+  ],
+  "AS-1916": [
+    "Pregnant",
+    "28 weeks",
+    "breast mass"
+  ],
+  "AS-1917": [
+    "28-week pregnant",
+    "enlarging right breast mass",
+    "firm movable"
+  ],
+  "AS-1918": [
+    "bowel obstruction",
+    "no medical or surgical history"
+  ],
+  "AS-1923": [
+    "mouth is full og blood"
+  ],
+  "AS-1924": [
+    "child (10 y.o)",
+    "several hits on his face",
+    "failure"
+  ],
+  "AS-1926": [
+    "newborn",
+    "reducible inguinal hernia"
+  ],
+  "AS-1949": [
+    "confused",
+    "opens his eyes to sound",
+    "localizes pain"
+  ],
+  "AS-1954": [
+    "Bilateral green discharge",
+    "dilated ducts",
+    "BI RADS 2"
+  ],
+  "AS-1955": [
+    "0.8 polyp",
+    "bothered by sx"
+  ],
+  "AS-1965": [
+    "multiple liver injuries"
+  ],
+  "AS-1966": [
+    "unstable",
+    "mul7ple liver lacera7ons"
+  ],
+  "AS-1973": [
+    "2nd degree burn to his both lower limbs",
+    "Weight 70 kg",
+    "Parkland formula"
+  ],
+  "AS-1976": [
+    "recovers from an attack of severe pancreatitis",
+    "cyst form in lesser sac"
+  ],
+  "AS-1226": [
+    "epistaxis"
+  ],
+  "AS-1270": [
+    "3 days after resolving",
+    "purulent nasal discharge and frontal tenderness"
+  ],
+  "AS-1286": [
+    "4 recurrent adenotonsillitis within one academic year"
+  ],
+  "AS-1337": [
+    "profuse nosebleeding over 30 minutes",
+    "known case of hypertension"
+  ],
+  "AS-1414": [
+    "foul-smelling breath",
+    "worsened after 14 days, despite multiple courses of antibiotics"
+  ],
+  "AS-1835": [
+    "coin in the trachea"
+  ],
+  "AS-2075": [
+    "severe hypertension",
+    "anterior epistaxis",
+    "aspirin",
+    "Imaging normal"
+  ],
+  "AS-2090": [
+    "ear discharge",
+    "high-grade fever"
+  ],
+  "AS-2268": [
+    "4 episodes of tonsillitis",
+    "now doing well"
+  ],
+  "AS-2305": [
+    "10 year old",
+    "frontal headache, fever, and stuffed nose",
+    "left cheek tenderness"
+  ],
+  "AS-2331": [
+    "chronic clear thin nasal discharge",
+    "nasal itching",
+    "periorbital dark swollen",
+    "pale turbinates mucosa"
+  ],
+  "AS-2335": [
+    "5 days post tonsillectomy"
+  ],
+  "AS-2377": [
+    "allergic rhinitis",
+    "after take antihistamine"
+  ],
+  "AS-2378": [
+    "URTI, treated. 2 weeks later",
+    "tenderness on the frontal cheeks"
+  ],
+  "AS-2378B": [
+    "3 days after resolving of the symptoms",
+    "purulent nasal discharge and frontal tenderness"
+  ],
+  "AS-2379": [
+    "dull aching headache increases with straining and coughing",
+    "tenderness all over the eyebrows"
+  ],
+  "AS-0017": [
+    "7 y old",
+    "localized left lower consolidation",
+    "O2 is 94",
+    "He can drink fluids"
+  ],
+  "AS-0018": [
+    "4 y old",
+    "localized left lower consolidation",
+    "O2 is 94",
+    "He can drink fluids"
+  ],
+  "AS-0018B": [
+    "3-year-old",
+    "crackles over right lung middle zone",
+    "Oxygen saturation 97 %",
+    "WBC 22"
+  ],
+  "AS-0024": [
+    "29 weeks",
+    "put off oxygen",
+    "healthy with a completely normal examination"
+  ],
+  "AS-0512": [
+    "mass in the abdomen in the left flank",
+    "internal calcification",
+    "Next test"
+  ],
+  "AS-0512B": [
+    "3 year old child",
+    "large mass on his flank",
+    "soft tissue mass with internal calcifications"
+  ],
+  "AS-0513": [
+    "mass in the abdomen in the left flank",
+    "internal calcification",
+    "reach the diagnosis"
+  ],
+  "AS-0514": [
+    "mass in the abdomen in the left flank",
+    "internal calcification",
+    "reach the diagnosis"
+  ],
+  "AS-0515": [
+    "2 cm skin colored painless abdominal mass",
+    "Diagnostic test"
+  ],
+  "AS-0516": [
+    "huge palpable abdominal mass",
+    "CONFIRM"
+  ],
+  "AS-0538": [
+    "fever and irritability",
+    "red warm Painful Tender swelling",
+    "no pus or abscess",
+    "area is Enlarging"
+  ],
+  "AS-0545": [
+    "Macrosomia",
+    "weak moro reflux"
+  ],
+  "AS-0546": [
+    "uncontrolled DM",
+    "macrosomic baby",
+    "week moro reflex on the right side"
+  ],
+  "AS-0549": [
+    "nocturnal cough",
+    "similar episodes of the cough not preceded by URTI",
+    "relieved by inhaler"
+  ],
+  "AS-0551": [
+    "bringing his legs to chest",
+    "red currant jelly stool",
+    "prevent"
+  ],
+  "AS-0552": [
+    "bringing his legs to chest",
+    "red currant jelly stool",
+    "prevent"
+  ],
+  "AS-0553": [
+    "pyloric stenosis",
+    "protective or preventive measures from parents"
+  ],
+  "AS-0554": [
+    "cystic fibrosis",
+    "play with another child who also has cystic fibrosis"
+  ],
+  "AS-0555": [
+    "cystic fibrosis",
+    "playing with other child with cystic fibrosis"
+  ],
+  "AS-0556": [
+    "cystic fibrosis",
+    "recurrent Pulmonary Infections",
+    "start to go school"
+  ],
+  "AS-0564": [
+    "9-year-old",
+    "bilateral leg pain",
+    "spent less time in outdoor activities",
+    "good diet and appetite"
+  ],
+  "AS-0569": [
+    "3-year-old",
+    "hematuria",
+    "large abdominal mass",
+    "decreased air entry in multiple areas"
+  ],
+  "AS-1021": [
+    "meconium aspiration syndrome (MAS)"
+  ],
+  "AS-1022": [
+    "preterm",
+    "gestational diabetes",
+    "grunting and respiratory distress"
+  ],
+  "AS-1024": [
+    "bronchial asthma under control",
+    "adulthood"
+  ],
+  "AS-1026": [
+    "Sodium 127",
+    "Potassium 6.8",
+    "Glucose 2.5"
+  ],
+  "AS-1028": [
+    "never received any vaccinations",
+    "contaminated metal rod",
+    "muscle spasms and convulsions"
+  ],
+  "AS-1030": [
+    "URTI 3 days ago",
+    "gallop rythum"
+  ],
+  "AS-1034": [
+    "asthma",
+    "metered-dose inhaler with a spacer",
+    "educational advice"
+  ],
+  "AS-1035": [
+    "worsens during feeding and crying",
+    "monophasic bilateral expiratory wheezing"
+  ],
+  "AS-1036": [
+    "elevated free T4",
+    "suppressed TSH"
+  ],
+  "AS-1046": [
+    "end-stage cancer",
+    "do-not-resuscitate (DNR)"
+  ],
+  "AS-1050": [
+    "6 weeks",
+    "forceful vomiting after each meal"
+  ],
+  "AS-1053": [
+    "11 y o boy",
+    "lower right quadrant",
+    "high WBC"
+  ],
+  "AS-1067": [
+    "O2% 85",
+    "drowsy"
+  ],
+  "AS-1073": [
+    "3 yo on diet of biscuits and milk",
+    "hb 67 g"
+  ],
+  "AS-1074": [
+    "Indicates Diagnosis Of Asthma"
+  ],
+  "AS-1075": [
+    "phenylketonuria (PKU)"
+  ],
+  "AS-1076": [
+    "pediatric with cirrhosis",
+    "hepatic encephalopathy"
+  ],
+  "AS-1142": [
+    "Neonate",
+    "TSH 60",
+    "no symptoms normal appearance"
+  ],
+  "AS-1143": [
+    "2-year-old",
+    "refuses to walk",
+    "bowing of both legs"
+  ],
+  "AS-1145": [
+    "nasal congestion cough and poor feeding",
+    "alert",
+    "Oxygen saturation is 89%",
+    "bilateral crackles and wheezing"
+  ],
+  "AS-1145B": [
+    "cesarean section",
+    "fluid in the horizontal fissure"
+  ],
+  "AS-1148": [
+    "Cystic fibrosis",
+    "weight 3rd centile",
+    "Foul smelling stool"
+  ],
+  "AS-1149": [
+    "ptosis",
+    "at evening only, he is normal in the morning",
+    "exuasting ptosis"
+  ],
+  "AS-1159": [
+    "seizures",
+    "Anti ds DNA high"
+  ],
+  "AS-1167": [
+    "Foul smelling watery diarrhea, green in color"
+  ],
+  "AS-1170": [
+    "9 month never been vaccinated"
+  ],
+  "AS-1174": [
+    "fever 37.9 for 6 weeks",
+    "salmon color rash"
+  ],
+  "AS-1175": [
+    "bloody",
+    "lost weight"
+  ],
+  "AS-1178": [
+    "enamel hypoplasia",
+    "low calcium, low phosphate, high alkaline phosphatase"
+  ],
+  "AS-1679": [
+    "high LDL"
+  ],
+  "AS-1680": [
+    "LDL 5 mmol",
+    "low HDL",
+    "growing normally"
+  ],
+  "AS-1682": [
+    "projectile vomiting",
+    "pyloric stenosis",
+    "next step"
+  ],
+  "AS-1704": [
+    "high fever",
+    "6 days",
+    "cracked red lips",
+    "cervical lymphadenopathy",
+    "red eyes"
+  ],
+  "AS-1705": [
+    "red urine",
+    "fever",
+    "abdominal discomfort"
+  ],
+  "AS-1711": [
+    "miosis",
+    "excessive salivation",
+    "garlic odour"
+  ],
+  "AS-1713": [
+    "asymptomatic",
+    "continuous murmur",
+    "murmur disappears when the child is supine"
+  ],
+  "AS-1716": [
+    "2 days ago"
+  ],
+  "AS-1726": [
+    "heliotrope rash",
+    "thickening of skin over metacarpophalangeal joints",
+    "proximal muscle weakness"
+  ],
+  "AS-1728": [
+    "URTI",
+    "drooling of saliva",
+    "did not receive any vaccine"
+  ],
+  "AS-1734": [
+    "bowed legs",
+    "Harrison sulcus",
+    "rickets"
+  ],
+  "AS-1743": [
+    "C-peptide 0.09 (low)"
+  ],
+  "AS-1755": [
+    "meningococcal meningitis",
+    "chemoprophylaxis",
+    "close contacts"
+  ],
+  "AS-1756": [
+    "short stature",
+    "Webbed neck",
+    "ejection murmurs"
+  ],
+  "AS-1757": [
+    "after history of runny nose and flu symptoms",
+    "Isolated thrombocytopenia",
+    "Platelet 22"
+  ],
+  "AS-1758": [
+    "after history of runny nose and flu symptoms",
+    "Isolated thrombocytopenia",
+    "Platelet 22",
+    "CONFIRMATORY"
+  ],
+  "AS-1776": [
+    "11-month-old",
+    "right ulnar and radial fracture",
+    "2 days"
+  ],
+  "AS-1780": [
+    "chronic productive cough",
+    "neonatal admission for jaundice",
+    "Brother has same condition"
+  ],
+  "AS-1784": [
+    "Weight chart",
+    "plateauing after six month"
+  ],
+  "AS-1786": [
+    "after CS",
+    "without desaturating",
+    "fluid in the lung fissure"
+  ],
+  "AS-1789": [
+    "renal scarring"
+  ],
+  "AS-1792": [
+    "yellow discoloration of the sclera",
+    "anorexia and abdominal pain",
+    "Alanine aminotransferase 878",
+    "Aspartate aminotransferase 1005"
+  ],
+  "AS-1795": [
+    "Influenza vaccine",
+    "flushing, SYNCOPE"
+  ],
+  "AS-1799": [
+    "dilated CMP",
+    "pulmonary edema"
+  ],
+  "AS-1802": [
+    "Ketone positive",
+    "Characteristic odor",
+    "Hypoglycemia"
+  ],
+  "AS-1814": [
+    "4yo",
+    "nocturia"
+  ],
+  "AS-1816": [
+    "walk backwards",
+    "Follow simple commands",
+    "using a spoon",
+    "Pointing to things"
+  ],
+  "AS-1838": [
+    "large neck swelling",
+    "clear lymphatic fluid"
+  ],
+  "AS-2300": [
+    "cryptorchidism",
+    "low lying epicanthal folds",
+    "nuchal skin"
+  ],
+  "AS-2310": [
+    "Fecal soiling"
+  ],
+  "AS-2311": [
+    "7-month-old",
+    "Symptoms began after the introduction of fruits and fruit juices"
+  ],
+  "AS-2319": [
+    "objective evidence"
+  ],
+  "AS-2329": [
+    "drinks 1 litter of milk daily",
+    "eats dirt",
+    "pale conjunctiva"
+  ],
+  "AS-2337": [
+    "eye puffiness",
+    "Albumin 16",
+    "Protein +4"
+  ],
+  "AS-2344": [
+    "SC trait",
+    "woman didn't test yet"
+  ],
+  "AS-2351": [
+    "progressive jaundice and mild tremors",
+    "decreased school performance",
+    "gold standard"
+  ],
+  "AS-2352": [
+    "progressive jaundice and mild tremors",
+    "decreased school performance",
+    "Most appropriate Investigation"
+  ],
+  "AS-2353": [
+    "drinking 3 glasses of cow's milk daily",
+    "MCV 62",
+    "Ferritin 9"
+  ],
+  "AS-2354": [
+    "drinking 3 pints of cow's milk daily",
+    "MCV 62",
+    "Ferritin 9"
+  ],
+  "AS-2355": [
+    "Drinking excessive amounts Of Milk",
+    "MCV: 62",
+    "Ferritin: 9"
+  ],
+  "AS-2356": [
+    "acetaminophen",
+    "1 day ago",
+    "right upper quadrant abdominal pain"
+  ],
+  "AS-2357": [
+    "cystic fibrosis"
+  ],
+  "AS-2358": [
+    "fever of 9-day duration",
+    "non-purulent conjunctivitis",
+    "red cracked lips",
+    "swollen and erythematous hands and feet"
+  ],
+  "AS-2384": [
+    "grandfather's farm",
+    "miosis",
+    "lacrimation, salivation",
+    "garlic odor"
+  ],
+  "AS-2387": [
+    "KOPLIK spots"
+  ],
+  "AS-2387B": [
+    "measles"
+  ],
+  "AS-2388": [
+    "routine paediatrics exam",
+    "irregular pulse"
+  ],
+  "AS-2390": [
+    "depressed nasal bridge",
+    "upward slanting palpebral fissures",
+    "epicanthal fold"
+  ],
+  "AS-2394": [
+    "chest pain",
+    "high status",
+    "joints are laxed",
+    "arachnodactyly"
+  ],
+  "AS-2395": [
+    "5-week-old",
+    "becomes very hungry and wants to feed again",
+    "Potassium 2.9",
+    "Bicarbonate 32",
+    "Chloride 89"
+  ],
+  "AS-2396": [
+    "sudden abrupt loss of environmental awareness",
+    "sudden return to normal baseline",
+    "EEG 3-Hz spikes"
+  ],
+  "AS-2401": [
+    "panhypopituitarism",
+    "Cortisol low"
+  ],
+  "AS-2404": [
+    "Bilateral Wheeze And Prolonged Expiratory Phase",
+    "Similar Attacks Before",
+    "Oxygen Saturation: 82 %"
+  ],
+  "AS-2405": [
+    "new-onset exertional dyspnea and palpitations",
+    "viral URI 3 weeks ago",
+    "gallop rhythm"
+  ],
+  "AS-2406": [
+    "2 days old",
+    "hemarthrosis",
+    "Prolonged PTT, Normal PT"
+  ],
+  "AS-2412": [
+    "pale",
+    "spleen is 6 cm below the costal margin",
+    "Hb: 52 g/L",
+    "Sickle cell screen: Positive"
+  ],
+  "AS-2416": [
+    "poor concentration and hyperactivity at school",
+    "only sleeps 5 hours per night from 1 AM to 6 AM"
+  ],
+  "AS-2418": [
+    "hx of choking after he ingested some seed",
+    "dec RT side breathing sound"
   ]
 }
