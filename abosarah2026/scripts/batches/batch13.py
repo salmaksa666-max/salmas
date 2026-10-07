@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+# AboSarah batch13: 04- Surgery (AS-1923..AS-2535) + 08- ENT (AS-0008..AS-2268)
+
+EXPLANATIONS = {
+# EXPLANATIONS_END
+}
+
+WHY_WRONG = {
+# WHY_WRONG_END
+}
+
+HIGHLIGHT_TERMS = {
+# HIGHLIGHT_TERMS_END
+}
