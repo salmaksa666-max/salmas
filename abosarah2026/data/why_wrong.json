@@ -3164,196 +3164,196 @@
     "D": "السبب إنه غلط: Precontemplation: no intention to change in the foreseeable future, often unaware or denying the problem; he actively wants to stop, so this does not fit."
   },
   "AS-0003": {
-    "B": "السبب إنه غلط: Vitamin K deficiency is rare in adults and pregnancy, and plant foods (leafy greens) supply it well. Its clinical relevance is the newborn (hemorrhagic disease), hence the vitamin K injection at birth.",
-    "C": "السبب إنه غلط: Vitamin C comes from fruit and vegetables, so vegetarians usually have adequate intake. Deficiency (scurvy) is linked to very poor diets, not vegetarianism.",
-    "D": "السبب إنه غلط: Vitamin E deficiency is very rare and is mainly seen with fat malabsorption or in premature infants; vegetable oils and nuts supply it."
+    "B": "نقصها نادر بالحمل والبالغين، وتغطيها الخضار الورقية بسهولة؛ أهميتها الحقيقية عند المولود (نزيف المولود)، لذا تُعطى حقنة فيتامين K عند الولادة.",
+    "C": "فيتامين C متوفر بكثرة بالفواكه والخضروات، فالنباتيات عادة عندهم مستوى كافي منه.",
+    "D": "فيتامين E نادر نقصه ومب هو المصدر الأساسي للقلق بهالسيناريو."
   },
   "AS-0010": {
-    "B": "خيار غير مطابق لمعطيات السؤال الأساسية المذكورة بالفكرة فوق.",
-    "C": "خيار غير مطابق لمعطيات السؤال الأساسية المذكورة بالفكرة فوق.",
-    "D": "خيار غير مطابق لمعطيات السؤال الأساسية المذكورة بالفكرة فوق."
+    "A": "فحص احتياطي المبيض، ما له علاقة مباشرة بقرار وصف منع الحمل بامرأة بدون شكوى.",
+    "C": "السونار المهبلي يُطلب لو فيه شكوى أو شذوذ سريري، وهي ما عندها أي شكوى.",
+    "D": "خزعة بطانة الرحم تُطلب لو فيه نزيف غير طبيعي، وهي ما عندها أي نزيف."
   },
   "AS-0010B": {
-    "A": "السبب إنه غلط: FSH assesses ovarian reserve or menopausal status (amenorrhea in her 40s). It does not explain or exclude a cause of abnormal bleeding.",
-    "B": "السبب إنه غلط: TSH is part of the general AUB blood work-up for ovulatory dysfunction, but it does not exclude endometrial pathology, which is the key safety question.",
-    "C": "السبب إنه غلط: Ultrasound identifies structural causes (polyps, fibroids) and is the usual first imaging in AUB under 45 without risk factors; it cannot give a tissue diagnosis. The source's alternative answer is ultrasound (see concern)."
+    "A": "فحص احتياطي المبيض ما يفسر ولا يستبعد سبب النزيف غير الطبيعي.",
+    "B": "فحص الغدة الدرقية جزء من تقييم أسباب النزيف الهرموني العام، بس ما يستبعد مرض بطانة الرحم العضوي اللي هو الأهم أمانًا هنا.",
+    "C": "السونار مفيد بس مب كافي لوحده لاستبعاد خباثة بطانة الرحم؛ العينة النسيجية هي الحاسمة."
   },
   "AS-0019": {
-    "A": "السبب إنه غلط: Genetic counselling or karyotyping is offered when single umbilical artery comes with other structural anomalies or soft markers suggesting aneuploidy. Isolated, it does not justify invasive testing.",
-    "B": "السبب إنه غلط: Fetal echocardiography is indicated when the anomaly scan cannot show normal cardiac views or other anomalies are present. Here the detailed scan found no anomaly.",
-    "D": "السبب إنه غلط: Termination has no place for an isolated finding with a usually normal prognosis; it would be considered only for severe, lethal anomalies."
+    "A": "الاستشارة الوراثية تُطلب لو فيه تشوهات ثانية مصاحبة أو علامات تشير لخلل كروموسومي، وهنا ما فيه شي ثاني.",
+    "B": "فحص القلب بالصدى يُطلب لو الفحص التفصيلي ما قدر يأكد سلامة القلب، وهنا مذكور إنه ما فيه تشوه.",
+    "D": "إنهاء الحمل غير مبرر أبدًا بلقطة معزولة حميدة الإنذار."
   },
   "AS-0020": {
-    "A": "السبب إنه غلط: High-dose 5 mg is for high NTD risk (previous NTD pregnancy, NTD in her or her partner, first-degree family history, diabetes, hemolytic anemia, some antiepileptics); starting only during pregnancy is also too late, as the neural tube closes in the first weeks.",
-    "B": "السبب إنه غلط: Correct timing and dose for a high-risk woman, and many guidelines apply it to all women on antiepileptic drugs (see concern), but the source does not classify a cousin's history plus lamotrigine as high risk.",
-    "C": "السبب إنه غلط: Aspirin is for preeclampsia prophylaxis in high-risk women, not NTD prevention."
+    "A": "الجرعة العالية فقط لعالية الخطورة، وهي ليست كذلك؛ والبدء «أثناء الحمل» متأخر على أي حال.",
+    "B": "التوقيت صحيح (قبل الحمل) بس الجرعة (٥ ملغ) مب مناسبة لها لأنها ليست عالية الخطورة.",
+    "C": "الأسبرين لا علاقة له بالوقاية من عيوب الأنبوب العصبي؛ يُستخدم لأسباب ثانية كليًا (مثل الوقاية من تسمم الحمل)."
   },
   "AS-0021": {
-    "A": "السبب إنه غلط: Stopping oxytocin is step 3, after repositioning and oxygen/fluids; it is first priority only when uterine hyperstimulation is the clear cause. The stem does not mention oxytocin.",
-    "B": "السبب إنه غلط: Oxygen with IV fluids is step 2, used after the mother has been repositioned.",
-    "C": "السبب إنه غلط: A tocolytic is the last step, for persistent tachysystole or a tracing that fails to improve with the earlier measures."
+    "A": "إيقاف الأوكسيتوسين خطوة لاحقة (الثالثة)، وتكون أولوية فقط لو كان فرط تحفيز رحمي هو السبب الواضح، وغير مذكور هنا.",
+    "B": "الأكسجين والسوائل خطوة ثانية، تأتي بعد تغيير الوضعية.",
+    "C": "الموسّع الرحمي (<bdi>tocolytic</bdi>) خطوة متأخرة أكثر، تُستخدم لو فشلت الخطوات الأولى."
   },
   "AS-0022": {
-    "A": "السبب إنه غلط: Reflex HPV testing triages ASC-US in women 25 or older; a negative HPV result does not exclude glandular or endometrial disease, so it cannot replace colposcopy for AGC."
+    "A": "فحص <bdi>HPV</bdi> يُستخدم لتصنيف خطورة <bdi>ASC-US</bdi>؛ نتيجة سلبية له ما تستبعد أمراض غدية أو بطانة الرحم، فما يقدر يحل محل <bdi>colposcopy</bdi> هنا."
   },
   "AS-0023": {
-    "A": "السبب إنه غلط: CS: a Category 2 trace is first treated with intrauterine resuscitation; caesarean is for Category 3 (absent variability with recurrent decelerations, bradycardia) or a trace that fails to recover.",
-    "B": "السبب إنه غلط: Change maternal position: the first generic step for a Category 2 trace with no obvious cause; here the stem points to oxytocin as the cause, so stopping it is the key management.",
-    "C": "السبب إنه غلط: Oxygenation: oxygen and IV fluids are a supportive step, but they do not remove the oxytocin-induced hyperstimulation that is causing the late decelerations."
+    "A": "القيصرية خطوة متأخرة جدًا، تُحجز للفئة الثالثة الخطيرة (تذبذب غائب تمامًا) أو فشل كل خطوات الإنعاش.",
+    "B": "تغيير الوضعية خطوة عامة أولى لو ما فيه سبب واضح، بس هنا السبب (الأوكسيتوسين) واضح ومذكور صراحة فنوقفه مباشرة.",
+    "C": "الأكسجين خطوة مساعدة عامة، بس إيقاف السبب المباشر (الأوكسيتوسين) له الأولوية."
   },
   "AS-0025": {
-    "B": "السبب إنه غلط: Retinopathy: retinopathy of prematurity relates to extreme prematurity and oxygen exposure; antibiotics have no specific effect on it.",
-    "C": "السبب إنه غلط: Intracranial hemorrhage: intraventricular hemorrhage is reduced by antenatal corticosteroids, not by antibiotics; MgSO4 below 32 weeks targets cerebral palsy (neuroprotection), not IVH.",
-    "D": "السبب إنه غلط: Respiratory distress syndrome: RDS is the outcome prevented by antenatal corticosteroids; antibiotics may help only indirectly by prolonging latency, which is why some recalls key RDS, but infection is the direct target."
+    "B": "اعتلال الشبكية عند الخدّج مرتبط بشدة الخداج والتعرض للأكسجين، والمضاد الحيوي ما له تأثير عليه.",
+    "C": "النزيف داخل الجمجمة يقل بالستيرويدات قبل الولادة، مو بالمضاد الحيوي.",
+    "D": "متلازمة الضيق التنفسي (<bdi>RDS</bdi>) تقل بالستيرويدات قبل الولادة تحديدًا، مب بالمضاد الحيوي."
   },
   "AS-0026": {
-    "B": "السبب إنه غلط: 30: obesity is the threshold used when no other risk factor is present; with a positive family history the bar drops to 25.",
-    "C": "السبب إنه غلط: 35: this is a bariatric surgery threshold (with comorbidities), not a diabetes screening cut-off.",
-    "D": "السبب إنه غلط: 40: a bariatric surgery threshold (severe obesity); waiting for this BMI would miss most women who need screening."
+    "B": "٣٠ هو الحد لما ما فيه أي عامل خطر إضافي؛ بوجود تاريخ عائلي، الحد ينزل لـ٢٥.",
+    "C": "٣٥ حد لجراحة السمنة مع أمراض مصاحبة، مب حد فحص السكري.",
+    "D": "٤٠ حد لجراحة السمنة الشديدة، مب علاقة له بفحص السكري."
   },
   "AS-0027": {
-    "A": "السبب إنه غلط: 25: overweight alone is not enough; 25 is the cut-off only when combined with another risk factor such as a first-degree relative with diabetes.",
-    "C": "السبب إنه غلط: 35: a bariatric surgery threshold (with comorbidities), not a screening cut-off; obesity starts at 30.",
-    "D": "السبب إنه غلط: 40: severe obesity and a bariatric surgery threshold; far too high for diabetes screening."
+    "A": "٢٥ يُستخدم فقط لو فيه عامل خطر إضافي موجود؛ هنا منصوص صراحة إنه ما فيه.",
+    "C": "٣٥ حد خاص بجراحة السمنة مع أمراض مصاحبة.",
+    "D": "٤٠ حد جراحة السمنة الشديدة، مب لفحص السكري."
   },
   "AS-0028": {
-    "B": "السبب إنه غلط: 30: obesity is the trigger when the stem explicitly says there are no other risk factors (as in the paired recall); the general guideline figure is 25.",
-    "C": "السبب إنه غلط: 35: a bariatric surgery threshold (with comorbidities), not a diabetes screening cut-off.",
-    "D": "السبب إنه غلط: 40: a bariatric surgery threshold for severe obesity; not used for diabetes screening."
+    "B": "٣٠ يُستخدم فقط لو صُرّح إنه ما فيه عوامل خطر؛ هنا السؤال ساكت تمامًا، فنرجع للرقم الإرشادي العام ٢٥.",
+    "C": "٣٥ حد جراحة سمنة، مب فحص سكري.",
+    "D": "٤٠ حد جراحة سمنة شديدة، مب فحص سكري."
   },
   "AS-0054": {
-    "A": "السبب إنه غلط: 36 weeks: the time to offer ECV to a nulliparous woman; in a multipara the breech may still turn spontaneously, so wait until 37 weeks.",
-    "C": "السبب إنه غلط: 38 weeks: ECV can still be attempted later, but success falls as liquor reduces and the breech engages, and labour may begin first; 37 weeks is the planned time.",
-    "D": "السبب إنه غلط: At time of delivery: ECV is contraindicated once labour is established with ruptured membranes or a need for urgent delivery; it is a planned antenatal procedure."
+    "A": "٣٦ أسبوع هو توقيت المحاولة بالحمل الأول (<bdi>nulliparous</bdi>)؛ هي <bdi>multipara</bdi> فالتوقيت المناسب لها ٣٧ أسبوع.",
+    "C": "٣٨ أسبوع متأخر أكثر من اللازم؛ فرصة النجاح تقل مع قرب الولادة ونقص السائل الأمينوسي ونزول الجنين بالحوض.",
+    "D": "وقت الولادة متأخر جدًا؛ المحاولة لازم تكون قبل بأسابيع."
   },
   "AS-0055": {
-    "A": "السبب إنه غلط: Increase in red cell mass: red cells rise less than plasma (dilutional anaemia); it is the total volume and output load, not red cell mass, that decompensates a stenotic valve.",
-    "C": "السبب إنه غلط: Increase in minute ventilation: progesterone-driven hyperventilation causes mild respiratory alkalosis and physiological breathlessness, not cardiac volume overload.",
-    "D": "السبب إنه غلط: Increase in renal plasma flow: it raises GFR and lowers creatinine and urea; it does not load the left atrium."
+    "A": "زيادة كريات الدم أقل نسبيًا من زيادة البلازما (فقر دم تخفيفي)؛ الحجم الكلي والضخة هما سبب المشكلة، مو كتلة الكريات.",
+    "C": "زيادة التهوية بالدقيقة تسبب قلوية تنفسية خفيفة، مالها علاقة مباشرة بتحمل الصمام الميترالي.",
+    "D": "زيادة تدفق البلازما الكلوي تغيّر جرعات بعض الأدوية، بس مالها علاقة بفشل القلب هنا."
   },
   "AS-0056": {
-    "B": "السبب إنه غلط: Cervical cancer: presents with postcoital or irregular bleeding and a cervical lesion; it spreads locally to the parametrium (hydronephrosis), not as an adnexal mass with ascites.",
-    "C": "السبب إنه غلط: Endometrial cancer: presents early with postmenopausal bleeding and a bulky uterus, not with an adnexal mass and ascites.",
-    "D": "السبب إنه غلط: Uterine cancer: arises in the uterus itself (endometrium or sarcoma) and gives bleeding or an enlarging uterus, not an adnexal mass."
+    "B": "سرطان عنق الرحم يظهر بنزيف غير طبيعي وآفة بعنق الرحم، وينتشر موضعيًا (استسقاء كلوي)، مب ككتلة ملحقات مع استسقاء.",
+    "C": "سرطان بطانة الرحم يظهر مبكرًا بنزيف بعد سن اليأس ورحم كبير، مب ككتلة ملحقات.",
+    "D": "سرطان الرحم بشكل عام نفس منطق سرطان بطانة الرحم، يظهر بنزيف مبكر مب بصورة متقدمة كهذي."
   },
   "AS-0065": {
-    "A": "السبب إنه غلط: Weekly hCG follow-up is only for an adequate response, a fall of more than 15% between day 4 and day 7 (as in 1200 to 800).",
-    "B": "السبب إنه غلط: Immediate surgery is for a rising hCG after methotrexate or haemodynamic instability or rupture; here hCG fell slightly and she is stable.",
-    "C": "السبب إنه غلط: After a suboptimal single-dose response the next step is a second single dose, not switching to an inpatient multiple-dose regimen."
+    "A": "المتابعة الأسبوعية فقط لو كانت الاستجابة كافية (نزول أكثر من ١٥٪ بين يوم ٤ ويوم ٧)، وهنا النزول أقل من ذلك.",
+    "B": "التدخل الجراحي الفوري يكون لو ارتفع الهرمون بعد العلاج أو عدم استقرار أو انفجار الحمل، وهي مستقرة وهرمونها نزل قليلًا.",
+    "C": "نظام الجرعات المتعددة يُستخدم من البداية كخطة علاجية مختلفة، مب كخطوة تالية بعد جرعة وحيدة غير كافية الاستجابة."
   },
   "AS-0069": {
-    "A": "السبب إنه غلط: Oxytocin: few oxytocin receptors in the mid-trimester uterus make it ineffective alone; it is used for IUFD later in pregnancy (third trimester) or after a favourable cervix.",
-    "C": "السبب إنه غلط: Mifepristone: an antiprogestogen used as priming 24 to 48 hours before misoprostol to shorten induction; it does not complete the evacuation on its own.",
-    "D": "السبب إنه غلط: Dinoprostone: a PGE2 used mainly for cervical ripening at term; for second-trimester demise misoprostol is more effective, cheaper and stable."
+    "A": "الأوكسيتوسين مستقبلاته قليلة بالرحم بالثلث الثاني فيكون ضعيف لوحده بهذا العمر الحملي.",
+    "C": "الميفيبريستون تحضيري فقط، يُعطى قبل الميزوبروستول بـ٢٤-٤٨ ساعة، ما يفرّغ الرحم لوحده.",
+    "D": "الدينوبروستون أقل استخدامًا وفعالية من الميزوبروستول بهذا السياق تحديدًا."
   },
   "AS-0070": {
-    "B": "السبب إنه غلط: Ceftriaxone: not a recommended prophylactic agent here; the cephalosporin used for surgical prophylaxis at caesarean is cefazolin.",
-    "C": "السبب إنه غلط: Clindamycin and gentamicin: the classic regimen to <bdi>treat</bdi> established postpartum endometritis, not to prevent it.",
-    "D": "السبب إنه غلط: Azithromycin and metronidazole: azithromycin is a recognised adjunct (with cefazolin) at caesarean after labour or ruptured membranes and an alternative to erythromycin in PPROM, but this pairing is not a standard regimen."
+    "B": "السيفترياكسون مب من الأدوية الموصى بها هنا؛ الدواء المستخدم للوقاية الجراحية بالقيصرية هو السيفازولين.",
+    "C": "كليندامايسين وجنتامايسين هو نظام علاج التهاب بطانة الرحم بعد الولادة الفعلي، مب للوقاية.",
+    "D": "أزيثرومايسين ومترونيدازول مب التركيبة المعيارية هنا."
   },
   "AS-0070B": {
-    "A": "السبب إنه غلط: Vancomycin covers only Gram-positive organisms (including MRSA); it misses the anaerobes and Gram-negative rods that drive endometritis. It is added only for specific situations such as known MRSA.",
-    "B": "السبب إنه غلط: Ceftriaxone alone gives poor anaerobic cover, so it is inadequate for polymicrobial pelvic infection. It is the drug for gonorrhea, not for postpartum endometritis.",
-    "D": "السبب إنه غلط: Azithromycin plus metronidazole is not a recognized treatment regimen for endometritis and leaves Gram-negative aerobes poorly covered. Azithromycin is used as an adjunct to cesarean prophylaxis or for chlamydia; metronidazole for BV or trichomonas."
+    "A": "الفانكومايسين يغطي فقط الجراثيم موجبة الغرام (بما فيها المقاومة)، ويفوته اللاهوائية والسالبة الغرام المسببة الأساسية لالتهاب بطانة الرحم.",
+    "B": "السيفترياكسون لوحده تغطيته للاهوائية ضعيفة، فما يكفي لعدوى متعددة الميكروبات.",
+    "D": "أزيثرومايسين ومترونيدازول مب التركيبة القياسية المثبتة لعلاج التهاب بطانة الرحم بعد الولادة."
   },
   "AS-0071": {
-    "A": "السبب إنه غلط: Vancomycin is Gram-positive only and is not used as routine cesarean prophylaxis; it is added only for known MRSA colonization.",
-    "B": "السبب إنه غلط: Clindamycin alone misses Gram-negative aerobes; in beta-lactam allergy it must be paired with an aminoglycoside (gentamicin), which is exactly option C.",
-    "D": "السبب إنه غلط: Azithromycin plus metronidazole is not a standard prophylactic regimen. Azithromycin is used only as an ADD-ON to a cephalosporin in labor or after ROM, and metronidazole is for BV or trichomonas."
+    "A": "الفانكومايسين للغرام الموجب بس، ومب جزء من الوقاية الروتينية للقيصرية إلا بحالة حمل جرثومة مقاومة معروفة.",
+    "B": "كليندامايسين لوحده يفوت الجراثيم سالبة الغرام الهوائية؛ لازم يترافق مع جنتامايسين عند حساسية البنسلين.",
+    "D": "أزيثرومايسين ومترونيدازول مب التركيبة المعيارية للوقاية الجراحية بالقيصرية؛ أزيثرومايسين يُضاف أحيانًا كمساعد للسيفازولين، مب بديل كامل بهذا الشكل."
   },
   "AS-0072": {
-    "A": "السبب إنه غلط: Stopping tamoxifen does not diagnose the cause of the bleeding and would interrupt her breast cancer therapy; that decision comes after tissue diagnosis with the oncologist.",
-    "C": "السبب إنه غلط: Hysterectomy without a tissue diagnosis is premature; it would be right once atypical hyperplasia or carcinoma is confirmed.",
-    "D": "السبب إنه غلط: TVUS is the usual first test in postmenopausal bleeding, but on tamoxifen the endometrial thickness is unreliable (subendometrial cystic change), and a scan cannot give the tissue diagnosis that the inadequate biopsy failed to provide; a reassuring scan would not end the work-up."
+    "A": "إيقاف الدواء ما يشخص سبب النزيف وبيعطل علاج سرطان الثدي؛ القرار يجي بعد التشخيص النسيجي بالتنسيق مع طبيب الأورام.",
+    "C": "استئصال الرحم بدون تشخيص نسيجي قرار متسرع؛ يكون صحيح بعد ما يثبت فرط تنسج أو سرطان.",
+    "D": "السونار المهبلي مفيد كخطوة أولى عادة، بس هنا الخزعة الأولى سوّيت وفشلت، فلازم نطلع لمستوى أعلى (التنظير الرحمي) مو نرجع للسونار."
   },
   "AS-0073": {
-    "A": "السبب إنه غلط: Edema alone can be physiological in pregnancy, but here it comes with a BP of 150/90, so reassurance would miss possible preeclampsia. Reassurance fits only isolated edema with normal BP and no proteinuria."
+    "A": "تجاهل النزيف غير الطبيعي بدون نزيف هنا، بس الطمأنة بوجود ضغط مرتفع فعليًا خطأ لأنها تفوّت تسمم حمل محتمل."
   },
   "AS-0074": {
-    "A": "السبب إنه غلط: Low-dose aspirin is for preeclampsia prevention and is started during pregnancy from about 12 weeks, not preconception; it does nothing for her uncontrolled glucose.",
-    "B": "السبب إنه غلط: Folic acid is also given before conception (high-dose in diabetes), but it does not address the main risk shown by the stem, an HbA1c of 8.2; it is an add-on, not the key step."
+    "A": "الأسبرين منخفض الجرعة للوقاية من تسمم الحمل، يبدأ أثناء الحمل مب قبله، وما يعالج مشكلة السكر غير المضبوط.",
+    "B": "حمض الفوليك مهم كمان قبل الحمل، بس ما يعالج المشكلة الأساسية المذكورة بالسؤال (ضبط السكر)."
   },
   "AS-0077": {
-    "A": "السبب إنه غلط: Rubin manoeuvre is an internal rotational manoeuvre (pressure on the posterior aspect of the anterior shoulder); it is second-line, used when McRoberts and suprapubic pressure fail.",
-    "C": "السبب إنه غلط: Gaskin (all-fours) manoeuvre is an alternative used when first-line manoeuvres fail, especially in mobile women without an epidural; it is not the initial step.",
-    "D": "السبب إنه غلط: Zavanelli manoeuvre (pushing the head back for cesarean) is the last resort after all other manoeuvres fail, with high maternal and fetal morbidity."
+    "A": "مناورة روبين داخلية، خط ثاني يُستخدم لو فشلت مناورة ماكروبرتس والضغط فوق العانة.",
+    "C": "مناورة جاسكين (وضعية الأربع) بديل يُستخدم لو فشلت المناورات الأولى، خصوصًا لو ما فيه تخدير نخاعي.",
+    "D": "مناورة زافانيلي (إرجاع الرأس) هي الملاذ الأخير لو فشل كل شي."
   },
   "AS-0081": {
-    "A": "السبب إنه غلط: The transdermal patch contains estrogen (and gives a high estrogen exposure), so it carries the same VTE risk as the combined pill and is contraindicated after DVT.",
-    "C": "السبب إنه غلط: The combined OCP contains estrogen and increases DVT and PE risk; it is contraindicated with a history of VTE. A progestin-only pill would be acceptable."
+    "A": "اللاصقة الجلدية تحتوي إستروجين بتركيز عالي، فتحمل نفس خطر الجلطات مثل الحبوب المركبة، وممنوعة بتاريخ الجلطة.",
+    "C": "الحبوب المركبة فيها إستروجين يرفع خطر الجلطة الوريدية والرئوية، ممنوعة بتاريخ جلطة سابقة."
   },
   "AS-0172": {
-    "A": "السبب إنه غلط: A dose at 30 minutes still falls inside the window, but the rule examined is within 60 minutes before incision; 30 minutes is not the defining time point.",
-    "C": "السبب إنه غلط: 90 minutes is outside the 60 minute window for the usual cefazolin dose, so tissue levels may already be falling at incision.",
-    "D": "السبب إنه غلط: A 120 minute window applies only to drugs needing long infusions (vancomycin, fluoroquinolones), not to the standard beta-lactam given for CS."
+    "A": "٣٠ دقيقة تدخل ضمن نافذة الـ٦٠ دقيقة، بس القاعدة المحددة هي النافذة كاملة لحد ٦٠ دقيقة، مو نقطة ٣٠ بالذات.",
+    "C": "٩٠ دقيقة خارج النافذة المطلوبة لمعظم الأدوية القياسية، التركيز قد يبدأ ينخفض وقت الشق.",
+    "D": "١٢٠ دقيقة متأخر جدًا عن وقت الشق المطلوب تغطيته."
   },
   "AS-0173": {
-    "B": "خيار غير مطابق لمعطيات السؤال الأساسية المذكورة بالفكرة فوق.",
-    "C": "خيار غير مطابق لمعطيات السؤال الأساسية المذكورة بالفكرة فوق.",
-    "D": "خيار غير مطابق لمعطيات السؤال الأساسية المذكورة بالفكرة فوق."
+    "B": "الاستمرار بدون أي وقاية إضافية يتجاهل وجود عاملي خطر حقيقيين (العمر والبدانة) يرفعان احتمال الجلطة.",
+    "C": "الحركة المبكرة وحدها تكفي للقيصرية البسيطة بدون عوامل خطر إضافية، بس هنا فيه عاملين يستدعيان إضافة الهيبارين.",
+    "D": "الأسبرين أبدًا مو دواء الوقاية من الجلطات الوريدية؛ هذا دوره بالوقاية من تجلط الصفائح الشرياني، مختلف تمامًا."
   },
   "AS-0174": {
-    "B": "السبب إنه غلط: Semaglutide is an option for weight loss, but it is less effective than surgery at BMI 48 and must be stopped before conception because GLP-1 agonists are not used in pregnancy.",
-    "C": "السبب إنه غلط: Lifestyle change and calorie restriction are the first step for anyone with obesity, but she has already been counseled; at BMI 48 after failed lifestyle advice, escalation is needed.",
-    "D": "السبب إنه غلط: Observation ignores a severe modifiable risk factor for infertility, pregnancy complications and chronic disease."
+    "B": "السيماغلوتايد خيار لإنقاص الوزن بس أقل فعالية من الجراحة بهذا المستوى من السمنة، ولازم يوقف قبل الحمل لأنه ممنوع بالحمل.",
+    "C": "نمط الحياة وحده جُرّب قبل وفشل، فتكراره بدون إضافة شي أقوى غير منطقي.",
+    "D": "المراقبة بدون أي تدخل تتجاهل خطورة السمنة الشديدة على الخصوبة والحمل."
   },
   "AS-0178": {
-    "A": "السبب إنه غلط: Continuing losartan exposes the fetus to ARB-induced renal toxicity; it is never acceptable once pregnancy is confirmed.",
-    "B": "السبب إنه غلط: Chronic hypertension still needs control in pregnancy; the fix is switching to a safe drug, not stopping all treatment.",
-    "D": "السبب إنه غلط: Enalapril is an ACE inhibitor, which carries the same fetal renal toxicity as an ARB, so this swap does not solve the problem."
+    "A": "الاستمرار على اللوسارتان يعرّض الجنين لسمية كلوية مؤكدة؛ غير مقبول أبدًا بعد تأكد الحمل.",
+    "B": "إيقاف كل الأدوية يترك ضغطها بدون علاج، والحمل يحتاج ضبط ضغط مستمر بدواء آمن.",
+    "D": "إينالابريل من فئة ACE inhibitors، نفس خطورة اللوسارتان على الجنين، فمو بديل آمن."
   },
   "AS-0187": {
-    "A": "السبب إنه غلط: Ultrasound is part of the later workup for structural causes (fibroids, polyps, endometrial thickness), but it does not assess anaemia or pregnancy first in a fainting patient.",
-    "B": "السبب إنه غلط: A urine pregnancy test alone excludes pregnancy but ignores the symptomatic anaemia; the CBC is the urgent part here.",
-    "C": "السبب إنه غلط: D&amp;C is reserved for severe or refractory bleeding after assessment; it is not done before knowing haemoglobin and pregnancy status."
+    "A": "السونار جزء من التقييم اللاحق للأسباب الهيكلية، بس ما يقيّم شدة فقر الدم أو الحمل كخطوة أولى بمريضة تغمى عليها.",
+    "B": "فحص حمل بالبول وحده يستبعد الحمل بس يتجاهل فقر الدم الحقيقي اللي يحتاج تقييم وربما نقل دم.",
+    "C": "التكشيط إجراء علاجي/تشخيصي لاحق، ما نبدأ فيه قبل ما نعرف شدة فقر الدم ووضعها العام."
   },
   "AS-0201": {
-    "B": "السبب إنه غلط: Inevitable abortion has an OPEN cervix with products still inside (not yet passed); here tissue has passed and the os is closed.",
-    "C": "السبب إنه غلط: Threatened abortion has a closed cervix but NO tissue passed and a viable fetus on ultrasound; she has already expelled the pregnancy.",
-    "D": "السبب إنه غلط: Incomplete abortion has an OPEN cervix with only partial passage of tissue and usually heavier bleeding; a closed os with minimal bleeding argues against retained products."
+    "B": "الإجهاض الحتمي عنقه مفتوح والأنسجة لسا موجودة (ما خرجت بعد)؛ هنا خرجت الأنسجة والعنق مغلق.",
+    "C": "الإجهاض المهدد عنقه مغلق بس بدون خروج أي نسيج وبحمل حي بالسونار؛ هنا خرجت الأنسجة فعلاً.",
+    "D": "الإجهاض الغير مكتمل عنقه عادة مفتوح مع بقايا أنسجة بالرحم؛ هنا العنق مغلق والأنسجة خرجت بالكامل."
   },
   "AS-0208": {
-    "A": "السبب إنه غلط: Expectant management suits a stable patient with light bleeding; moderate bleeding with a sizeable retained mass calls for active evacuation.",
-    "B": "السبب إنه غلط: Oxytocin works poorly on the first trimester uterus and does not remove retained products.",
-    "C": "السبب إنه غلط: Methergine may contract the uterus and reduce bleeding, but it does not empty the retained tissue, which is the definitive treatment."
+    "A": "المحافظة (انتظار) تناسب حالة مستقرة بنزيف خفيف؛ هنا النزيف متوسط مع كتلة متبقية كبيرة.",
+    "B": "الأوكسيتوسين ضعيف التأثير على رحم الثلث الأول وما يزيل البقايا المتبقية.",
+    "C": "الميثرجين يقبض الرحم بس ما يضمن إزالة البقايا بالكامل، والنزيف المتوسط يحتاج تفريغ مباشر."
   },
   "AS-0210": {
-    "A": "السبب إنه غلط: Missed abortion has a closed os and a nonviable fetus; here the os is open and the fetus is viable.",
-    "C": "السبب إنه غلط: Incomplete abortion requires partial passage of tissue; nothing has been passed here.",
-    "D": "السبب إنه غلط: Threatened abortion also has a viable fetus, but the os is closed; an open os moves it to inevitable."
+    "A": "الإجهاض الفائت عنقه مغلق والجنين غير حي؛ هنا العنق مفتوح والجنين حي.",
+    "C": "الإجهاض الغير مكتمل يحتاج خروج جزء من الأنسجة فعلاً؛ هنا ما خرج شي.",
+    "D": "الإجهاض المهدد عنقه مغلق؛ هنا العنق مفتوح، وهذا يلغي كلمة «مهدد»."
   },
   "AS-0218": {
-    "B": "السبب إنه غلط: Continuing the same dose is right in a non-pregnant patient with TSH within range; in pregnancy, TSH 4.4 is above target and demand will keep rising.",
-    "C": "السبب إنه غلط: Decreasing is right only for over-replacement (suppressed TSH, high free T4); here TSH is high for pregnancy.",
-    "D": "السبب إنه غلط: Stopping levothyroxine would cause maternal and fetal hypothyroidism; known hypothyroidism needs lifelong replacement, more so in pregnancy."
+    "B": "الاستمرار بنفس الجرعة صحيح لو كان TSH ضمن هدف الحمل الأضيق، وهنا هو أعلى من الهدف.",
+    "C": "تنقيص الجرعة يكون صحيح لو كان فيه جرعة زايدة (TSH منخفض جدًا)، وهذا عكس الحالة هنا.",
+    "D": "إيقاف الدواء خطر لأنها تحتاج هرمون الدرقية باستمرار، خصوصًا مع زيادة الطلب بالحمل."
   },
   "AS-0219": {
-    "A": "السبب إنه غلط: Reassurance is right after an ordinary sporadic first-trimester miscarriage; a painless mid-trimester loss carries a high recurrence risk and needs intervention.",
-    "C": "السبب إنه غلط: 15 weeks is later than the usual 12 to 14 week window for history-indicated cerclage; she is seen at 10 weeks, so it can be booked in the ideal window, and waiting only adds the risk that the cervix starts to open.",
-    "D": "السبب إنه غلط: Serial cervical length ultrasound is right when the history does not clearly fit cervical incompetence (unspecified loss, or prior preterm birth); with a classic painless second-trimester loss, the plan is planned cerclage."
+    "A": "الطمأنة بدون متابعة تتجاهل تاريخ واضح لضعف عنق الرحم عالي خطورة التكرار.",
+    "C": "١٥ أسبوع متأخر عن نافذة ١٢-١٤ أسبوع المعتادة للغرزة الوقائية؛ هي بالأسبوع ١٠ فلازم نخطط أبكر.",
+    "D": "المتابعة بالسونار فقط بدون غرزة غير كافية بوجود تاريخ مؤكد وواضح لضعف عنق الرحم."
   },
   "AS-0220": {
-    "A": "السبب إنه غلط: Cerclage at 13 weeks is history-indicated only after a painless second-trimester loss typical of cervical incompetence; one unspecified miscarriage does not meet that bar.",
-    "B": "السبب إنه غلط: Placing a cerclage at a fixed 18 weeks without a scan finding is neither history-indicated (12 to 14 wk) nor ultrasound-indicated (cervix &lt;25 mm), so it has no indication.",
-    "C": "السبب إنه غلط: Digital assessment of cervical dilation is subjective and detects change late; transvaginal cervical length is the objective, earlier predictor."
+    "A": "غرزة بـ١٣ أسبوع تحتاج تشخيص واضح لضعف عنق الرحم، وهذا التاريخ هنا غامض وغير كافي لتبرير الغرزة.",
+    "B": "غرزة بـ١٨ أسبوع بدون أي أساس تشخيصي (لا تاريخ واضح ولا سونار يدل على قصر بالعنق) غير مبررة.",
+    "C": "الفحص اليدوي المتكرر غير دقيق ومتأخر الكشف مقارنة بقياس طول العنق بالسونار."
   },
   "AS-0221": {
-    "B": "السبب إنه غلط: 18 weeks is the gestation at which she lost the last pregnancy; waiting until then risks the cervix already dilating, and history-indicated cerclage belongs at 12 to 14 weeks.",
-    "C": "السبب إنه غلط: Digital checks for dilation are subjective and detect cervical change too late; they do not replace a planned cerclage in a woman with this history.",
-    "D": "السبب إنه غلط: Serial cervical length scans (16 to 24 wk, cerclage if &lt;25 mm) are right when the history is not diagnostic, e.g. an unspecified loss or a prior spontaneous preterm birth; with a classic painless mid-trimester loss, cerclage is planned."
+    "B": "١٨ أسبوع هو عمر الحمل اللي فقدت فيه الحمل السابق؛ انتظار نفس التوقيت خطر لأن العنق ممكن يبدأ يتوسع مبكرًا.",
+    "C": "الفحص اليدوي لتوسع العنق غير حساس ومتأخر الكشف، ما يعادل غرزة وقائية مبكرة.",
+    "D": "المتابعة بالسونار فقط غير كافية مع تاريخ مؤكد وواضح لضعف عنق الرحم؛ لازم غرزة فعلية."
   },
   "AS-0222": {
-    "B": "السبب إنه غلط: 18 weeks is too late for an elective history indicated stitch; by then the cervix may already be shortening or dilating. A cerclage in this window is usually ultrasound indicated (short cervix) or rescue (dilated cervix), not planned prophylaxis.",
-    "C": "السبب إنه غلط: Repeated digital assessment of dilation is crude and detects change only once it is advanced; it does not prevent loss in a woman already known to have an incompetent cervix.",
-    "D": "السبب إنه غلط: Serial transvaginal cervical length scans between 16 and 24 weeks are the strategy for a woman with a single prior loss or preterm birth whose diagnosis is uncertain (cerclage if length &lt;25 mm). Here the diagnosis is already stated, so the planned stitch is chosen."
+    "B": "١٨ أسبوع متأخر على الغرزة الانتخابية الوقائية المعتادة بـ١٣-١٤ أسبوع.",
+    "C": "الفحص اليدوي المتكرر أقل دقة وحساسية من المتابعة بالسونار، وبكل الأحوال التشخيص هنا مؤكد فعلاً فلا داعي لمزيد مراقبة.",
+    "D": "المتابعة بالسونار فقط تناسب التاريخ الغامض، بس هنا التشخيص مؤكد وموثق فعلاً فنحتاج غرزة مباشرة."
   },
   "AS-0229": {
-    "B": "خيار غير مطابق لمعطيات السؤال الأساسية المذكورة بالفكرة فوق.",
-    "C": "خيار غير مطابق لمعطيات السؤال الأساسية المذكورة بالفكرة فوق."
+    "B": "التصوير المقطعي مب الخطوة الأولى لتقييم نزيف رحمي؛ السونار المهبلي أبسط وأول خطوة قياسية.",
+    "C": "خزعة بطانة الرحم مباشرة تكون الأولوية لو عمرها ٤٥ فأكثر أو عندها عوامل خطر إضافية؛ هي ٤٣ بدون عوامل خطر مذكورة، فنبدأ بالسونار أولاً."
   },
   "AS-0230": {
-    "B": "السبب إنه غلط: Progestin only pills are not the standard step after NSAID failure and, being progestin dominant without estrogen, they do not improve acne and may worsen it. They are chosen when estrogen is contraindicated (for example migraine with aura, high VTE risk).",
-    "C": "السبب إنه غلط: Continuing NSAIDs is the answer only for a patient not yet tried on them or with partial response; here the stem states they no longer help, so the ladder must move up."
+    "B": "حبوب البروجستيرون فقط مب الخطوة القياسية بعد فشل الـ<bdi>NSAIDs</bdi>، وما تحسّن حب الشباب (ممكن تزيده)؛ تُختار لو فيه مانع من الإستروجين.",
+    "C": "الاستمرار بنفس العلاج غير منطقي لأنه ذُكر صراحة إنه ما عاد يفيد."
   },
   "AS-0234": {
     "B": "السبب إنه غلط: Gaskin (all fours) manoeuvre is an alternative used after McRoberts and suprapubic pressure fail, mainly in a mobile woman without an epidural; it is not the first step.",

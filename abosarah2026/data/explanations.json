@@ -21300,78 +21300,78 @@
   "AS-0003": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Vegetarian or vegan diet = think B12 deficiency (stores last years, so long-standing diets are the risk).",
+    "idea": "<bdi>vegetarian</bdi> من سنين + حامل بالأسابيع الأولى = فكّري بنقص <bdi>vitamin B12</bdi> قبل أي فيتامين ثاني.",
     "clues": [
       [
-        "primigravida",
-        "تلميح مهم مذكور بنص السؤال"
+        "vegetarian since 4 years",
+        "مدة طويلة كافية تستنزف مخزون <bdi>B12</bdi> (المخزون يدوم سنين، عكس <bdi>folate</bdi>)"
       ],
       [
-        "vegetarian since 4 years",
-        "تلميح مهم مذكور بنص السؤال"
+        "primigravida",
+        "حمل أول، والأسبوع ٩ وقت حرج لتكوّن الجهاز العصبي"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: Vitamin B12 is found almost only in animal foods (meat, fish, eggs, dairy), so a woman who has been <bdi>vegetarian since 4 years</bdi> has had time to deplete her stores.",
-      "In a <bdi>9-week</bdi> pregnancy B12 matters for DNA synthesis, red cell production and fetal neural development; deficiency causes maternal megaloblastic anemia and is linked to neural tube defects and infant developmental delay.",
-      "So B12 is the vitamin to check."
+      "<bdi>vitamin B12</bdi> تقريباً كلها من مصادر حيوانية (لحم، سمك، بيض، ألبان)، فالنباتية الصارمة لمدة سنين تخلي مخزونها فاضي.",
+      "بالحمل، نقص <bdi>B12</bdi> يأثر على <bdi>DNA synthesis</bdi> وتكوين كريات الدم وتطور <bdi>neural</bdi> للجنين.",
+      "فالجواب تقييم <bdi>B12</bdi> أولوية، مو <bdi>folate</bdi> اللي وفرته بالخضار الورقية موجودة."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو قالت السؤال فيتامين ناقص عندها <bdi>folate</bdi> (مو نباتية، أو عندها تاريخ عيوب أنبوب عصبي)، الجواب يصير <bdi>folic acid</bdi> مو <bdi>B12</bdi>."
     ],
-    "rule": "Diet clue vegetarian/vegan for years points to B12, not folate (folate is plentiful in leafy plant foods).",
+    "rule": "عبارة «<bdi>vegetarian/vegan</bdi> لسنين» = فكّري <bdi>B12</bdi> مباشرة، مو <bdi>folate</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
   },
   "AS-0010": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "الفكرة الأساسية بالسؤال: Contraception in a healthy woman needs no routine lab or imaging test; investigations are driven by symptoms.",
+    "idea": "امرأة ٤١ سنة، تبي وسيلة منع حمل، <bdi>no complaints</bdi> تمامًا — ما فيه نزيف غير طبيعي ولا أي عرض.",
     "clues": [
       [
         "41 year old",
-        "تلميح مهم مذكور بنص السؤال"
+        "عمر يخلي بعض الفحوصات تجي ببالك، لكن المفتاح هو غياب الشكوى"
       ],
       [
         "no complaints",
-        "تلميح مهم مذكور بنص السؤال"
+        "لا يوجد سبب سريري يستدعي أي فحص قبل الوصفة"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: "
+      "بامرأة سليمة بدون أي شكوى (خصوصًا بدون <bdi>abnormal uterine bleeding</bdi>)، ما فيه فحص مخبري أو إشعاعي روتيني لازم قبل وصف وسيلة منع الحمل — بس التاريخ المرضي والفحص السريري وقياس الضغط.",
+      "لو كانت القائمة تحتوي خيار «ما فيه فحص لازم»، هو الأصح؛ وبما إن الأقرب له منطقيًا هنا هو <bdi>TSH</bdi> كفحص أساسي شائع عند أي اضطراب هرموني غير واضح، اخترناه كأقرب خيار متاح، لكن الحقيقة الطبية إنه مب ضروري أصلاً."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو السؤال ذكر <bdi>abnormal uterine bleeding</bdi> لمدة أشهر (مثل نسخة ٢ من نفس السؤال)، الجواب يصير <bdi>endometrial biopsy</bdi> لاستبعاد مرض بطانة الرحم."
     ],
-    "rule": "Remove the AUB from the stem and every investigation before contraception option loses its indication; see the AUB variant (10B).",
+    "rule": "ما فيه شكوى = ما فيه فحص قبل وصف منع الحمل؛ أي فحص بالخيارات هنا اجتهاد شخصي مو قاعدة ثابتة.",
     "comparison": null,
     "labs": null,
-    "guideline_note": null
+    "guideline_note": "هذا السؤال ما له جواب مؤكد من المصدر أصلاً — الحقيقة الطبية إن ما فيه فحص لازم أبدًا لامرأة سليمة بدون شكوى؛ اخترنا أقرب خيار متاح فقط لأن النظام يتطلب جواب واحد."
   },
   "AS-0010B": {
     "correct_letter": "D",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Endometrial sampling in AUB depends on age and risk.",
+    "idea": "نفس الحالة لكن هذي المرة فيه <bdi>AUB</bdi> لمدة <bdi>6 months</bdi> — هذا يغيّر كل شي.",
     "clues": [
       [
         "41 year old",
-        "تلميح مهم مذكور بنص السؤال"
+        "عمر بداية منطقة الخطر لأمراض بطانة الرحم"
       ],
       [
         "abnormal uterine bleeding (AUB) For SIX MONTHS",
-        "تلميح مهم مذكور بنص السؤال"
+        "نزيف غير طبيعي مستمر لمدة طويلة، مو مجرد طلب منع حمل عادي"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: This recall's key is endometrial biopsy because the woman has <bdi>AUB for six months</bdi> and is about to start hormonal contraception, which may mask or treat the bleeding.",
-      "The source reasons that persistent AUB in a woman in her 40s must have endometrial hyperplasia or cancer excluded by tissue before hormones are started, and the lead-in asks for the <bdi>most important</bdi> test, i.e. the one that rules out malignancy.",
-      "Persistent AUB is one of the accepted indications for sampling under 45."
+      "وجود <bdi>AUB</bdi> مستمر عند امرأة بعمر ٤١ لازم نستبعد <bdi>endometrial hyperplasia</bdi> أو سرطان بطانة الرحم قبل أي وصفة هرمونية، لأن الهرمونات ممكن تخفي أو تعالج النزيف وتأخر التشخيص.",
+      "فالفحص الحاسم هو أخذ عينة نسيجية من بطانة الرحم (<bdi>endometrial biopsy</bdi>)."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو ما فيه أي نزيف غير طبيعي أصلاً (زي السؤال التوأم ١٠-A)، الجواب يرجع ما فيه فحص لازم."
     ],
-    "rule": "Age 41 with no risk factor and no failed treatment is the grey zone: one version of this recall keys TVUS, the other biopsy.",
+    "rule": "<bdi>AUB</bdi> + عمر ٤٠ وفوق + بتبدأ هرمونات = لازم <bdi>endometrial biopsy</bdi> أول شي.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21379,30 +21379,30 @@
   "AS-0019": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Normal cord = 2 arteries + 1 vein; single umbilical artery management depends on whether it is isolated.",
+    "idea": "لقطة فحص تشريحي بالأسبوع ١٨ لقت <bdi>single umbilical artery</bdi> بس بدون أي تشوه ثاني — يعني لقطة معزولة.",
     "clues": [
       [
         "18 week",
-        "تلميح مهم مذكور بنص السؤال"
+        "وقت فحص التشوهات التفصيلي"
       ],
       [
         "single umbilical artery",
-        "تلميح مهم مذكور بنص السؤال"
+        "شريان سري واحد بدل اثنين، علامة ممكن ترتبط بتشوهات ثانية"
       ],
       [
         "no congenital anomaly",
-        "تلميح مهم مذكور بنص السؤال"
+        "أهم جزء — يعني اللقطة معزولة ومافيها شي ثاني"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: A single umbilical artery found at the <bdi>18-week anomaly scan</bdi> with <bdi>no congenital anomaly</bdi> is an isolated finding.",
-      "Isolated single umbilical artery usually has a normal outcome, because the risk comes from associated anomalies (renal, cardiac, aneuploidy), and the detailed scan has already looked for them.",
-      "The patient is reassured and continues <bdi>routine antenatal care</bdi>; some protocols add a later growth scan because of a small association with growth restriction."
+      "الحبل السري الطبيعي فيه شريانين ووريد؛ وجود شريان واحد فقط لوحده (معزول) بدون تشوهات ثانية إنذاره طيب غالبًا.",
+      "الخطر الحقيقي يجي من التشوهات المصاحبة (كلوية، قلبية، أو خلل كروموسومي)، والفحص التفصيلي سوى واستبعدها.",
+      "فالخطة هي متابعة حمل طبيعية (<bdi>Routine ANC</bdi>) بدون تدخل إضافي."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو ظهر أي تشوه ثاني مع الشريان الواحد، الجواب يتغير لفحص تفصيلي إضافي أو استشارة وراثية."
     ],
-    "rule": "The phrase with no congenital anomaly makes it isolated; add any other anomaly and the answer shifts to further testing.",
+    "rule": "<bdi>single umbilical artery</bdi> المعزول (بدون تشوه ثاني) = طمأنة ومتابعة روتينية، مو تدخل.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21410,30 +21410,29 @@
   "AS-0020": {
     "correct_letter": "D",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Folic acid dose follows NTD risk, started before conception and continued through the first trimester.",
+    "idea": "مريضة صرع على <bdi>lamotrigine</bdi> بدون تاريخ شخصي لـ<bdi>NTD</bdi>، بس عندها قريبة (ابنة عم) مصابة — قرابة بعيدة.",
     "clues": [
       [
         "lamotrigine",
-        "تلميح مهم مذكور بنص السؤال"
+        "دواء صرع يرفع خطر <bdi>NTD</bdi> قليلاً، بس مو من الدرجة العالية الخطورة"
       ],
       [
         "no personal history of a baby with NTD",
-        "تلميح مهم مذكور بنص السؤال"
+        "ما عندها هي نفسها ولا طفل سابق مصاب"
       ],
       [
         "cousin",
-        "تلميح مهم مذكور بنص السؤال"
+        "قرابة من الدرجة الثانية/الثالثة — مو قرابة درجة أولى"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: This recall's key is the standard (average-risk) dose: folic acid 400 micrograms (0.4 mg; the 400 mg is a unit typo) with multivitamins.",
-      "The source treats her as average risk because she has <bdi>no personal history of an NTD-affected baby</bdi>, a <bdi>cousin</bdi> is not a first-degree relative, and she is on <bdi>lamotrigine</bdi>, one of the safest antiepileptic drugs in pregnancy and not valproate or carbamazepine.",
-      "Well-controlled epilepsy (<bdi>no seizures for 6 months</bdi>) also means no drug change is needed."
+      "جرعة <bdi>folic acid</bdi> العالية (٥ ملغ) تُعطى فقط لمن عندها خطورة عالية حقيقية: تاريخ شخصي أو بطفل سابق أو قريب درجة أولى (أم، أخت، ابن)، أو أدوية صرع معينة عالية الخطورة.",
+      "ابنة العم مب قرابة درجة أولى، فهي تبقى بخطورة متوسطة عادية، وتاخذ الجرعة القياسية <bdi>400 micrograms</bdi> (المكتوبة بالخيار ٤٠٠ ملغ هي خطأ وحدة بالسؤال، المقصود ٤٠٠ مايكروغرام) مع الفيتامينات المتعددة."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو كان عندها هي شخصيًا طفل سابق بـ<bdi>NTD</bdi>، أو أمها/أختها مصابة، الجواب يتغير للجرعة العالية ٥ ملغ، وتبدأ قبل الحمل بـ٣-٦ أشهر."
     ],
-    "rule": "Watch the relative: cousin (second/third degree) is not high risk; mother, sister or a previous child with NTD is.",
+    "rule": "راقبي درجة القرابة: ابنة عم = خطورة عادية (٤٠٠ مايكروغرام)؛ قرابة درجة أولى أو تاريخ شخصي = ٥ ملغ قبل الحمل.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21441,26 +21440,26 @@
   "AS-0021": {
     "correct_letter": "D",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Category 2 CTG: intrauterine resuscitation in a fixed order.",
+    "idea": "حامل بالمخاض الفعّال، تخطيط قلب الجنين (<bdi>CTG</bdi>) طلع غير طبيعي — السؤال عن أول خطوة بالترتيب.",
     "clues": [
       [
         "active labor",
-        "تلميح مهم مذكور بنص السؤال"
+        "بالمخاض فعليًا، مو مجرد مراقبة"
       ],
       [
         "abnormal fetal heart tracing",
-        "تلميح مهم مذكور بنص السؤال"
+        "تتبع غير مطمئن، لازم تدخل فوري بس بالترتيب الصحيح"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: An <bdi>abnormal fetal heart tracing</bdi> without features of a terminal tracing is treated as Category 2 (non-reassuring), managed by stepwise intrauterine resuscitation.",
-      "The lead-in asks for the <bdi>next step</bdi>, and the first step is lateral repositioning of the mother, which relieves aortocaval compression and improves uteroplacental blood flow.",
-      "All the other options are valid later steps."
+      "تتبع غير طبيعي بدون علامات خطيرة جدًا (<bdi>Category 2</bdi>) يُدار بخطوات إنعاش داخل الرحم بالتسلسل.",
+      "أول خطوة دائمًا تغيير وضعية الأم (عادة ع الجنب) عشان تخفف الضغط على الأوعية الكبيرة وتحسن تدفق الدم للجنين.",
+      "باقي الخطوات (أكسجين، إيقاف الأوكسيتوسين، موسّع رحم) تجي بعدها لو ما تحسن."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو السؤال ذكر إن الأم على <bdi>oxytocin</bdi> وهو سبب واضح للمشكلة، الجواب يتغير لإيقاف الأوكسيتوسين أولاً."
     ],
-    "rule": "When every option is a correct action, pick the earliest in the sequence: reposition first.",
+    "rule": "لو كل الخيارات صحيحة كخطوات، اختاري الأبكر بالتسلسل: تغيير وضعية الأم أولاً.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21468,22 +21467,21 @@
   "AS-0022": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Pap result decides the next step.",
+    "idea": "مسحة عنق الرحم رجعت <bdi>Atypical Glandular Cells (AGC)</bdi> — هذي فئة خطر عالي تحتاج تدخل مباشر.",
     "clues": [
       [
         "Atypical Glandular Cells (AGC)",
-        "تلميح مهم مذكور بنص السؤال"
+        "فئة أعلى خطورة من <bdi>ASC-US</bdi> العادية، ممكن ترتبط بسرطان غدي"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: <bdi>Atypical glandular cells (AGC)</bdi> carry a substantial risk of significant pathology (high-grade cervical lesions, adenocarcinoma of the cervix or endometrium), regardless of HPV status.",
-      "All AGC results therefore go straight to <bdi>colposcopy</bdi> with endocervical sampling, plus endometrial sampling in older women or those with risk factors.",
-      "HPV triage is not used for AGC."
+      "<bdi>AGC</bdi> يحمل احتمال عالي لمرض خطير (آفات عنق رحم عالية الدرجة أو سرطان غدي بعنق الرحم أو بطانة الرحم)، بغض النظر عن نتيجة <bdi>HPV</bdi>.",
+      "فكل حالة <bdi>AGC</bdi> تروح مباشرة لـ<bdi>colposcopy</bdi> مع أخذ عينة من قناة عنق الرحم (وأحيانًا بطانة الرحم)، بدون المرور بفحص <bdi>HPV</bdi> أولاً."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو النتيجة كانت <bdi>ASC-US</bdi> عادية (مو <bdi>AGC</bdi>) عند امرأة ٢٥ سنة فأكثر، الجواب يتغير لفحص <bdi>HPV</bdi> أولاً."
     ],
-    "rule": "Only ASC-US is triaged by HPV; glandular atypia always goes to colposcopy.",
+    "rule": "<bdi>ASC-US</bdi> فقط تتفرز بـ<bdi>HPV</bdi>؛ أي خلل غدي (<bdi>AGC</bdi>) يروح مباشرة <bdi>colposcopy</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21491,25 +21489,25 @@
   "AS-0023": {
     "correct_letter": "D",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Category 2 CTG: intrauterine resuscitation before delivery.",
+    "idea": "بعد إعطاء <bdi>oxytocin</bdi>، صار تباطؤ متأخر متكرر مع تذبذب منخفض — السبب واضح ومذكور بالسؤال.",
     "clues": [
       [
         "given oxytocin",
-        "تلميح مهم مذكور بنص السؤال"
+        "السبب المباشر مذكور صراحة — الأوكسيتوسين هو اللي بدأ المشكلة"
       ],
       [
         "recurrent late deceleration and reduced variability",
-        "تلميح مهم مذكور بنص السؤال"
+        "تتبع غير مطمئن من فئة <bdi>Category 2</bdi>"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: Recurrent late decelerations with reduced (not absent) variability is a Category 2 (non-reassuring) tracing, and the clue is that it appeared <bdi>after oxytocin was given</bdi>.",
-      "Oxytocin drives strong, frequent contractions that cut uteroplacental flow, so the cause-directed fix is to <bdi>stop the oxytocin</bdi>; this is the step of intrauterine resuscitation that removes the trigger."
+      "الأوكسيتوسين يسبب انقباضات رحمية قوية ومتكررة تقلل تدفق الدم للمشيمة، فلما تظهر المشكلة بعد إعطائه مباشرة، السبب المباشر معروف.",
+      "فالخطوة الصحيحة هي إيقاف الأوكسيتوسين فورًا (علاج السبب)، مو خطوة عامة زي تغيير الوضعية."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو ما فيه ذكر لسبب واضح (ما فيه أوكسيتوسين بالسؤال) والسؤال يبي «أول خطوة»، الجواب يرجع تغيير وضعية الأم."
     ],
-    "rule": "If the stem names oxytocin as the trigger, stop it; if no cause is given and the lead-in is 'first step', reposition the mother.",
+    "rule": "لو السؤال يسمي السبب (الأوكسيتوسين)، وقفيه مباشرة؛ لو ما فيه سبب واضح، ابدئي بتغيير الوضعية.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21517,29 +21515,25 @@
   "AS-0025": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: PPROM: match each drug to the neonatal outcome it reduces.",
+    "idea": "<bdi>PPROM</bdi> بالأسبوع ٣٣، أعطوها مضاد حيوي وريدي — السؤال عن أي مضاعفة عند الجنين يقل بسبب المضاد الحيوي بالذات.",
     "clues": [
       [
         "PROM At 33",
-        "تلميح مهم مذكور بنص السؤال"
-      ],
-      [
-        "No Abdominal Pain Or Fever",
-        "تلميح مهم مذكور بنص السؤال"
+        "تمزق أغشية مبكر قبل الولادة الكاملة"
       ],
       [
         "reduced after IV antibiotic",
-        "تلميح مهم مذكور بنص السؤال"
+        "المفتاح — ربط النتيجة بالمضاد الحيوي تحديدًا، مو بالستيرويد"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: In PPROM at 33 weeks, IV latency antibiotics are given to prevent ascending infection (chorioamnionitis) and to prolong the time to delivery.",
-      "Their direct neonatal benefit is a reduction in <bdi>neonatal infection/sepsis</bdi>, which is what the lead-in 'reduced after IV antibiotic' targets."
+      "بـ<bdi>PPROM</bdi>، المضاد الحيوي يُعطى لمنع صعود العدوى (<bdi>chorioamnionitis</bdi>) وإطالة فترة الحمل، وفائدته المباشرة على الجنين هي تقليل خطر <bdi>neonatal sepsis/infection</bdi>.",
+      "أما تقليل <bdi>RDS</bdi> أو النزيف الدماغي فهذي فايدة الـ<bdi>corticosteroids</bdi>، مو المضاد الحيوي."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو السؤال يسأل عن فايدة الـ«<bdi>steroid</bdi>» تحديدًا، الجواب يتغير لـ<bdi>respiratory distress syndrome</bdi>."
     ],
-    "rule": "'Antibiotic reduces' = infection; 'steroid reduces' = RDS. The drug in the lead-in decides the answer.",
+    "rule": "مضاد حيوي بـ<bdi>PPROM</bdi> = يقلل العدوى (<bdi>sepsis</bdi>)؛ ستيرويد = يقلل <bdi>RDS</bdi> والنزيف الدماغي.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21547,21 +21541,21 @@
   "AS-0026": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Early diabetes screening at booking depends on BMI plus risk factors.",
+    "idea": "فحص سكري مبكر بأول زيارة حمل — السؤال عن أي مؤشر كتلة جسم (<bdi>BMI</bdi>) نفحص عنده لو فيه تاريخ عائلي للسكري.",
     "clues": [
       [
         "Positive Family History For Type 2 Diabetes",
-        "تلميح مهم مذكور بنص السؤال"
+        "عامل خطر إضافي يخفض حد الفحص"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: At the first antenatal visit, women with risk factors are screened early for pre-existing (undiagnosed) diabetes.",
-      "The guideline trigger is being <bdi>overweight, BMI ≥25</bdi>, plus at least one additional risk factor, and a <bdi>first-degree family history of type 2 diabetes</bdi> is exactly that additional factor here, so a BMI of 25 is enough to screen."
+      "الفحص المبكر للسكري (غير المشخّص) بأول زيارة يكون لمن عندها <bdi>overweight</bdi> (<bdi>BMI ≥25</bdi>) بالإضافة لعامل خطر واحد إضافي على الأقل.",
+      "تاريخ عائلي من الدرجة الأولى للسكري النوع الثاني هو بالضبط ذاك العامل الإضافي، فالحد يصير ٢٥."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو السؤال ذكر صراحة إنها ما عندها أي عوامل خطر، الحد يرتفع لـ<bdi>BMI ≥30</bdi>."
     ],
-    "rule": "Family history present = 25; 'no risk factors' stated = 30.",
+    "rule": "تاريخ عائلي موجود (أو غير مذكور) = الحد ٢٥؛ «ما فيه عوامل خطر» صراحة = الحد ٣٠.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21569,21 +21563,20 @@
   "AS-0027": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Which BMI triggers diabetes screening in pregnancy?",
+    "idea": "نفس السؤال السابق، بس هذي المرة مكتوب بالسؤال صراحة «<bdi>no risk factors</bdi>».",
     "clues": [
       [
         "No Risk Factors",
-        "تلميح مهم مذكور بنص السؤال"
+        "منصوص عليها صراحة بالسؤال — هذي الكلمة اللي تغيّر الجواب"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: The stem stresses <bdi>'she has no risk factors'</bdi>.",
-      "The BMI ≥25 threshold only applies when an additional risk factor exists, so without one, <bdi>obesity (BMI ≥30)</bdi> is itself the risk factor that justifies screening for diabetes in pregnancy."
+      "حد <bdi>BMI ≥25</bdi> يُستخدم بس لما فيه عامل خطر إضافي موجود؛ لما يكون منصوص «ما فيه عوامل خطر»، البدانة نفسها (<bdi>BMI ≥30</bdi>) تصير هي عامل الخطر اللي يستدعي الفحص."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو السؤال ما يذكر شي عن عوامل الخطر (سؤال عام)، الحد يرجع لـ٢٥ (الحد الإرشادي العام)."
     ],
-    "rule": "The words 'no risk factors' move the answer from 25 to 30.",
+    "rule": "كلمة «ما فيه عوامل خطر» صراحة = تنقل الحد من ٢٥ إلى ٣٠.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21591,21 +21584,20 @@
   "AS-0028": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Three versions of the same recall, three triggers.",
+    "idea": "نفس السؤال، لكن هذي المرة ما فيه أي ذكر — لا للتاريخ العائلي ولا لعدم وجود عوامل خطر — سؤال عام.",
     "clues": [
       [
         "General Question",
-        "تلميح مهم مذكور بنص السؤال"
+        "السؤال ساكت تمامًا عن عوامل الخطر"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: This recall's key is 25 because the BMI cut-off quoted in diabetes screening guidance is <bdi>overweight, BMI ≥25</bdi>, at which a woman with any additional risk factor is screened at booking.",
-      "With the stem silent on risk factors, the recall takes the guideline number itself as the answer."
+      "لما يكون السؤال ساكت تمامًا عن عوامل الخطر، المصدر ياخذ الرقم الإرشادي العام مباشرة: <bdi>overweight, BMI ≥25</bdi> هو حد فحص السكري المبكر المذكور بالإرشادات."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو صرّح السؤال بعدم وجود عوامل خطر، الحد يرتفع لـ٣٠؛ لو ذكر تاريخ عائلي، يبقى ٢٥."
     ],
-    "rule": "Read the stem for the risk-factor phrase: present or silent = 25, explicitly absent = 30.",
+    "rule": "ثلاث نسخ نفس السؤال، ثلاث محفزات: تاريخ عائلي مذكور أو ساكت = ٢٥؛ «ما فيه عوامل خطر» صراحة = ٣٠.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21613,25 +21605,25 @@
   "AS-0054": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: ECV timing and exclusions.",
+    "idea": "حامل بالأسبوع ٣٦، الجنين بوضعية مقعدية (<bdi>breech</bdi>)، وهي <bdi>multipara</bdi> (ولدت قبل مرات) — متى أفضل وقت لمحاولة قلب الجنين؟",
     "clues": [
       [
         "breech presentation",
-        "تلميح مهم مذكور بنص السؤال"
+        "وضعية مقعدية تحتاج قرار: ننتظر ولا نحاول نقلبه"
       ],
       [
         "external cephalic version (ECV)",
-        "تلميح مهم مذكور بنص السؤال"
+        "الإجراء المطلوب توقيته"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: ECV is offered once the pregnancy is <bdi>term (from 37 weeks)</bdi>: by then spontaneous version is less likely, and if a complication forces delivery the baby is mature.",
-      "This woman is <bdi>G4P3 (multiparous)</bdi>, and multiparas are commonly offered ECV from 37 weeks, so at 36 weeks the best plan is to wait until 37 weeks."
+      "<bdi>ECV</bdi> يُعرض بعد اكتمال الحمل (من الأسبوع ٣٧)، لأن احتمال رجوع الجنين لوضعه الطبيعي تلقائيًا يقل، ولو احتاجت ولادة بسبب مضاعفة يكون الجنين ناضج.",
+      "بما إنها <bdi>G4P3</bdi> (ولدت ٣ مرات قبل)، فالوضعية ممكن ترجع طبيعي لوحدها لو انتظرنا لـ٣٧ أسبوع، فما فيه داعي نستعجل بـ٣٦."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو كانت <bdi>nulliparous</bdi> (حمل أول)، العرض يبدأ من ٣٦ أسبوع."
     ],
-    "rule": "If the alternate stem adds vaginal bleeding that will not stop, ECV is contraindicated and the question becomes delivery, not timing.",
+    "rule": "<bdi>ECV</bdi>: <bdi>nulliparous</bdi> من ٣٦ أسبوع، <bdi>multiparous</bdi> من ٣٧ أسبوع.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21639,29 +21631,25 @@
   "AS-0055": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Mitral stenosis is the valve lesion with the worst prognosis in pregnancy.",
+    "idea": "حامل عندها <bdi>mitral stenosis</bdi> من صغرها (حمى روماتيزمية) — أي تغيّر فسيولوجي بالحمل يرفع خطر فشل القلب عندها بالذات؟",
     "clues": [
       [
         "mitral stenosis",
-        "تلميح مهم مذكور بنص السؤال"
+        "صمام ضيق وثابت ما يقدر يتوسع"
       ],
       [
         "physiologic change",
-        "تلميح مهم مذكور بنص السؤال"
-      ],
-      [
-        "heart failure during pregnancy",
-        "تلميح مهم مذكور بنص السؤال"
+        "السؤال عن أي تغيّر طبيعي بالحمل يصير خطير هنا تحديدًا"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: With a fixed, narrow <bdi>mitral valve</bdi>, pregnancy's rise in blood volume and <bdi>stroke volume</bdi> (cardiac output) must all cross the stenotic valve.",
-      "Left atrial pressure rises, causing pulmonary congestion and heart failure; the risk peaks when cardiac output peaks (late second and third trimester, labour, immediately postpartum)."
+      "الصمام الميترالي الضيق ما يقدر يستوعب زيادة الدم بالحمل، وزيادة <bdi>stroke volume</bdi> (حجم الضخة بكل نبضة) ترفع الضغط بالأذين الأيسر أكثر فأكثر.",
+      "هذا يسبب احتقان رئوي وفشل قلب، والخطر يكون بأعلاه وقت ذروة حجم الدم (آخر الثاني والثالث)."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو السؤال عن قصور بالصمام (<bdi>mitral regurgitation</bdi>) بدل تضيّقه، الحمل غالبًا يكون أحسن لأن انخفاض مقاومة الأوعية يخفف الارتجاع."
     ],
-    "rule": "Stenosis = fixed outflow that cannot handle more volume; regurgitation improves with falling SVR.",
+    "rule": "التضيّق (<bdi>stenosis</bdi>) = مجرى ثابت ما يتحمل زيادة حجم؛ الارتجاع (<bdi>regurgitation</bdi>) يتحسن مع انخفاض المقاومة.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21669,25 +21657,25 @@
   "AS-0056": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Ovarian cancer: silent until advanced.",
+    "idea": "امرأة كبيرة بالسن، استسقاء بطني + انصباب جنبي + كتلة بالملحقات — صورة متقدمة كلاسيكية.",
     "clues": [
       [
         "ascites, and pleural effusion",
-        "تلميح مهم مذكور بنص السؤال"
+        "علامات انتشار متقدم"
       ],
       [
         "adnexal mass",
-        "تلميح مهم مذكور بنص السؤال"
+        "كتلة بالمبيض/الملحقات"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: An <bdi>older woman</bdi> with an <bdi>adnexal mass plus ascites and pleural effusion</bdi> has the advanced picture of ovarian cancer: peritoneal spread produces ascites and transdiaphragmatic spread produces a (usually right-sided) pleural effusion.",
-      "Age and ascites both favour a malignant adnexal mass."
+      "بامرأة كبيرة بالسن، كتلة بالملحقات مع استسقاء بطني وانصباب جنبي هي الصورة المتقدمة لـ<bdi>ovarian cancer</bdi>: الانتشار بالصفاق يسبب الاستسقاء، والانتشار عبر الحجاب الحاجز يسبب الانصباب (غالبًا باليمين).",
+      "العمر الكبير والاستسقاء كلاهما يرجحان ورم خبيث بالملحقات."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو الكتلة كانت ورم صلب حميد (<bdi>fibroma</bdi>) مع نفس الصورة، هذا يُسمى <bdi>Meigs syndrome</bdi> — بس بامرأة كبيرة افترضي الخباثة لحد ما تنفى."
     ],
-    "rule": "Ascites plus pleural effusion with a benign solid ovarian fibroma is Meigs syndrome; in an older woman assume malignancy until proven otherwise.",
+    "rule": "استسقاء + انصباب جنبي + كتلة ملحقات بامرأة كبيرة = افترضي <bdi>ovarian cancer</bdi> لحد ما يُثبت العكس.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21695,56 +21683,63 @@
   "AS-0065": {
     "correct_letter": "D",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: After single-dose methotrexate, judge the response on the <bdi>day 4 vs day 7</bdi> hCG, never day 1 vs day 7.",
+    "idea": "علاج حمل خارج الرحم بـ<bdi>methotrexate</bdi> جرعة وحيدة — نقيّم الاستجابة بمقارنة هرمون الحمل بين يوم ٤ ويوم ٧، مو يوم ١ ويوم ٧.",
     "clues": [
       [
         "methotrexate",
-        "تلميح مهم مذكور بنص السؤال"
-      ],
-      [
-        "ectopic pregnancy",
-        "تلميح مهم مذكور بنص السؤال"
+        "علاج طبي للحمل خارج الرحم"
       ],
       [
         "Day 7: 1100 mIU/mL",
-        "تلميح مهم مذكور بنص السؤال"
+        "القيمة اللي لازم نقارنها باليوم الرابع"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: After single-dose methotrexate the response is judged from day 4 to day 7: here hCG goes from 1200 to 1100, a fall of under 10%, i.e. a <bdi>plateau or decrease &lt;15%</bdi>.",
-      "That is an inadequate response, and the protocol is to <bdi>give a second dose of methotrexate</bdi> in a stable patient.",
-      "The day 1 to day 4 rise (1000 to 1200) is expected and should be ignored."
+      "بعد جرعة <bdi>methotrexate</bdi> وحيدة، نحكم على الاستجابة بمقارنة <bdi>β-hCG</bdi> بين يوم ٤ ويوم ٧ تحديدًا، مو يوم ١.",
+      "هنا الهرمون نزل أقل من ١٠٪ بين اليومين، يعني <bdi>plateau or decrease less than 15%</bdi> — استجابة غير كافية.",
+      "فالبروتوكول المعياري هو إعطاء جرعة ثانية من <bdi>methotrexate</bdi> طالما المريضة مستقرة."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو نزل الهرمون أكثر من ١٥٪ بين يوم ٤ ويوم ٧، الجواب يصير متابعة أسبوعية بدون جرعة إضافية."
     ],
-    "rule": "Comparing day 1 with day 7 (1000 vs 1100) looks like a rise and tempts surgery; the rule uses day 4 vs day 7.",
+    "rule": "قارني هرمون الحمل بين يوم ٤ ويوم ٧ دايمًا، أبدًا مو يوم ١ ويوم ٧.",
     "comparison": null,
-    "labs": null,
+    "labs": [
+      [
+        "β-hCG Day 1",
+        "1000 mIU/mL",
+        "—"
+      ],
+      [
+        "β-hCG Day 7",
+        "1100 mIU/mL",
+        "انخفاض متوقع ≥15% من يوم 4"
+      ]
+    ],
     "guideline_note": null
   },
   "AS-0069": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Pregnancy loss: gestation decides the method.",
+    "idea": "حركة جنين قليلة بالأسبوع ٢٤، والسونار أكد وفاة الجنين داخل الرحم — السؤال عن أفضل دواء لتفريغ الرحم.",
     "clues": [
       [
         "24 weeks",
-        "تلميح مهم مذكور بنص السؤال"
+        "عمر حمل ≥٢٠ أسبوع، يعني <bdi>IUFD</bdi> مو إجهاض"
       ],
       [
         "Fetal Demise",
-        "تلميح مهم مذكور بنص السؤال"
+        "وفاة الجنين مؤكدة بالسونار"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: Fetal death at <bdi>24 weeks</bdi> is an IUFD (≥20 weeks), and the uterus must be evacuated by induction.",
-      "Below 28 weeks <bdi>misoprostol</bdi> is the most effective single agent for this, because the uterus is relatively insensitive to oxytocin in the second trimester and misoprostol both ripens the cervix and causes contractions."
+      "وفاة الجنين بـ٢٤ أسبوع تصنف <bdi>IUFD</bdi>، ولازم تفريغ الرحم بالتحريض.",
+      "قبل الأسبوع ٢٨، الرحم شبه غير حساس للأوكسيتوسين، بينما <bdi>misoprostol</bdi> لوحده أفعل دواء — ينضّج عنق الرحم ويحرض انقباضات بنفس الوقت."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو كان الحمل بالثلث الثالث متقدم (قريب من الولادة الطبيعية)، الأوكسيتوسين يصير فعال وممكن يكون الخيار."
     ],
-    "rule": "Mifepristone primes, misoprostol delivers; pick misoprostol when only one drug can be chosen.",
+    "rule": "<bdi>IUFD</bdi> تحت ٢٨ أسبوع = <bdi>misoprostol</bdi> هو الأقوى لوحده؛ <bdi>mifepristone</bdi> بس تحضير قبله.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21752,52 +21747,51 @@
   "AS-0070": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Antibiotics around ruptured membranes.",
+    "idea": "تمزق أغشية لأكثر من ٢٤ ساعة بالأسبوع ٣٣-٣٥ — السؤال عن مضاد حيوي للوقاية من عدوى الحوض بعد الولادة.",
     "clues": [
       [
         "33–35 Weeks",
-        "تلميح مهم مذكور بنص السؤال"
+        "عمر حمل قريب من ناضج بس قبل ٣٧"
       ],
       [
         "Rupture Of Membranes (ROM) for more than 24 hours",
-        "تلميح مهم مذكور بنص السؤال"
+        "تمزق أغشية طويل، خطر عدوى صاعدة"
       ],
       [
         "Prevent",
-        "تلميح مهم مذكور بنص السؤال"
+        "السؤال عن الوقاية مو العلاج"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: This recall's key is vancomycin, likely reasoning that prolonged rupture of membranes (&gt;24 hours) raises the risk of ascending infection, including Group B streptococcus, and that vancomycin is the reserve GBS agent.",
-      "That reasoning is weak: vancomycin is used for GBS prophylaxis only in severe penicillin allergy with a clindamycin-resistant isolate, and it is not a standard regimen for preventing postpartum pelvic infection."
+      "الجواب المسجل بالمصدر هو <bdi>vancomycin</bdi>، بناءً على تفكير إن تمزق الأغشية الطويل يرفع خطر عدوى <bdi>Group B streptococcus</bdi> ويستخدم فانكومايسين كبديل احتياطي لها.",
+      "لكن هذا التفكير ضعيف طبيًا: <bdi>vancomycin</bdi> يُستخدم للوقاية من <bdi>GBS</bdi> بس بحالات حساسية شديدة من البنسلين، مو كخط أول."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو السؤال يسأل عن علاج (مو وقاية) عدوى الحوض بعد الولادة لنفس السيناريو، الجواب يصير <bdi>clindamycin and gentamicin</bdi> (انظري AS-0070B)."
     ],
-    "rule": "Treat endometritis = clindamycin plus gentamicin; prevent it = prophylaxis (cefazolin, plus azithromycin if in labour or after ROM).",
+    "rule": "علاج التهاب بطانة الرحم بعد الولادة = <bdi>clindamycin + gentamicin</bdi>؛ الوقاية الروتينية بالقيصرية = <bdi>cefazolin</bdi>.",
     "comparison": null,
     "labs": null,
-    "guideline_note": null
+    "guideline_note": "جواب المصدر (<bdi>vancomycin</bdi>) منطقه ضعيف طبيًا — فانكومايسين مو خط أول للوقاية هنا؛ أبقينا جواب المصدر زي ما هو بالبطاقة لأنه الموثق، بس احذري هالنقطة إذا جاتك بصيغة مختلفة شوي."
   },
   "AS-0070B": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Postpartum endometritis = polymicrobial: treat with IV clindamycin + gentamicin.",
+    "idea": "نفس سيناريو AS-0070 بالضبط، لكن السؤال هنا يبي العلاج (<bdi>TREAT</bdi>) مو الوقاية — كلمة واحدة تغيّر الجواب بالكامل.",
     "clues": [
       [
         "TREAT",
-        "تلميح مهم مذكور بنص السؤال"
+        "الكلمة المفتاحية اللي تفرّق بين هذا السؤال والي قبله"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: The lead-in asks how to <bdi>TREAT</bdi> a post-delivery pelvic infection after ROM for <bdi>more than 24 hours</bdi>, which is the classic setup for postpartum endometritis (prolonged ROM is a major risk factor for intra-amniotic and uterine infection).",
-      "Postpartum endometritis is polymicrobial (anaerobes plus Gram-negative and Gram-positive aerobes), so treatment needs broad IV cover: <bdi>clindamycin plus gentamicin</bdi> is the standard regimen.",
-      "Antibiotics are continued until the patient is afebrile and clinically improved."
+      "تمزق الأغشية الطويل عامل خطر رئيسي لالتهاب بطانة الرحم بعد الولادة (<bdi>postpartum endometritis</bdi>)، وهذا الالتهاب متعدد الميكروبات (لا هوائية + سلبية الغرام).",
+      "العلاج القياسي هو <bdi>clindamycin + gentamicin</bdi> وريديًا، يغطي الطيف الكامل."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو السؤال يسأل عن الوقاية (مو العلاج) من نفس العدوى، الجواب يرجع لما هو مسجل بالمصدر (انظري AS-0070)."
     ],
-    "rule": "Lead-in verb decides it: TREAT a postpartum pelvic infection = clindamycin + gentamicin; intrapartum chorioamnionitis = ampicillin + gentamicin plus delivery.",
+    "rule": "كلمة «<bdi>TREAT</bdi>» = التهاب بطانة رحم فعلي = <bdi>clindamycin + gentamicin</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21805,25 +21799,25 @@
   "AS-0071": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Cesarean prophylaxis: give before skin incision; broaden when in labor or membranes ruptured.",
+    "idea": "تمزق أغشية أكثر من ٦ ساعات ومخطط لها قيصرية — الوقاية من عدوى الحوض بعد الولادة بهالحالة المختلطة (تمزق + قيصرية).",
     "clues": [
       [
         "Planned For C-Section",
-        "تلميح مهم مذكور بنص السؤال"
+        "عملية قيصرية، تحتاج تغطية أوسع من الوقاية العادية"
       ],
       [
         "Prevent",
-        "تلميح مهم مذكور بنص السؤال"
+        "وقاية مو علاج"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: This recall's key is clindamycin plus gentamicin: the woman has <bdi>ROM for more than 6 hours</bdi> and is going for <bdi>C-section</bdi>, so she carries a high risk of post-delivery endometritis and wound infection, and the source chose the broad combination that covers the polymicrobial pelvic flora (anaerobes plus Gram-negatives).",
-      "Among the listed options it is the only combination that gives that breadth of cover."
+      "تمزق الأغشية مع قيصرية يرفع خطر التهاب بطانة الرحم وعدوى الجرح بعد الولادة، فالمصدر اختار تغطية واسعة (<bdi>clindamycin + gentamicin</bdi>) تغطي الفلورا متعددة الميكروبات بالحوض.",
+      "هذا أوسع من الوقاية الروتينية العادية للقيصرية (<bdi>cefazolin</bdi> لوحدها) بسبب عامل الخطر الإضافي (تمزق الأغشية)."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو ما فيه تمزق أغشية وهي قيصرية عادية بدون عوامل خطر إضافية، الوقاية الروتينية تكون <bdi>cefazolin</bdi> جرعة وحيدة."
     ],
-    "rule": "If cefazolin appears among the options, it is the routine cesarean prophylaxis; clindamycin + gentamicin is the allergy alternative and the treatment regimen.",
+    "rule": "إذا ظهر <bdi>cefazolin</bdi> بالخيارات فهو الوقاية الروتينية للقيصرية؛ <bdi>clindamycin+gentamicin</bdi> للحساسية أو للعلاج.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21831,29 +21825,25 @@
   "AS-0072": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Postmenopausal bleeding: tissue diagnosis is mandatory; if office biopsy fails or is inadequate, go to hysteroscopy + directed biopsy.",
+    "idea": "امرأة بعد سن اليأس على <bdi>tamoxifen</bdi> لسرطان الثدي، عندها نزيف شهرين، وخزعة بطانة الرحم بالعيادة طلعت غير كافية.",
     "clues": [
       [
         "on tamoxifen",
-        "تلميح مهم مذكور بنص السؤال"
-      ],
-      [
-        "abnormal vaginal bleeding",
-        "تلميح مهم مذكور بنص السؤال"
+        "دواء يحفز بطانة الرحم كمنبه إستروجين، يرفع خطر فرط التنسج والسرطان"
       ],
       [
         "endometrial biopsy was attempted but inadequate",
-        "تلميح مهم مذكور بنص السؤال"
+        "الخزعة الأولى فشلت، لازم خطوة أقوى"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: A <bdi>postmenopausal</bdi> woman <bdi>on tamoxifen</bdi> with <bdi>2 months of bleeding</bdi> must have endometrial cancer excluded, because tamoxifen acts as an estrogen agonist on the endometrium and raises the risk of hyperplasia, polyps and carcinoma.",
-      "The office biopsy was <bdi>inadequate</bdi>, so the next step is <bdi>hysteroscopy with directed biopsy</bdi>, which views the cavity and samples focal lesions (such as polyps) that a blind biopsy can miss."
+      "<bdi>tamoxifen</bdi> يعمل كمنبه إستروجين على بطانة الرحم، فأي نزيف بعد سن اليأس عندها لازم نستبعد سرطان بطانة الرحم.",
+      "بما إن الخزعة المكتبية فشلت (غير كافية)، الخطوة التالية هي <bdi>hysteroscopy</bdi> مع خزعة موجهة مباشرة تحت الرؤية."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو الخزعة الأولى كانت كافية وسلبية بس النزيف مستمر، برضو نكمل لـ<bdi>hysteroscopy</bdi>؛ ما نوقف عند خزعة سلبية مع نزيف مستمر."
     ],
-    "rule": "Inadequate or negative biopsy with persistent postmenopausal bleeding is never the end point: proceed to hysteroscopy.",
+    "rule": "نزيف بعد سن اليأس + خزعة فاشلة أو غير كافية = <bdi>hysteroscopy</bdi> مع خزعة موجهة، أبدًا ما نوقف هناك.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21861,80 +21851,89 @@
   "AS-0073": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Hypertension in pregnancy: confirm and classify before treating.",
+    "idea": "حامل، ضغط ١٥٠/٩٠ مع تورم بالأطراف — السؤال يفخّخك بخيار «التورم طبيعي بالحمل».",
     "clues": [
       [
         "BP 150/90",
-        "تلميح مهم مذكور بنص السؤال"
+        "ضغط مرتفع فعليًا (أعلى من ١٤٠/٩٠)"
       ],
       [
         "lower limb edema",
-        "تلميح مهم مذكور بنص السؤال"
+        "تورم ممكن يكون طبيعي لوحده، بس مب مع ضغط مرتفع"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: <bdi>BP 150/90</bdi> in pregnancy is hypertensive (140/90 or more), and with <bdi>lower limb edema</bdi> preeclampsia must be excluded rather than dismissed.",
-      "The next step is further evaluation: confirm the BP, check urine for proteinuria and send labs for end-organ dysfunction (platelets, liver enzymes, creatinine).",
-      "Edema itself is common in pregnancy, but the raised BP is what makes reassurance unsafe."
+      "التورم لوحده طبيعي بالحمل، بس مع ضغط مرتفع ١٥٠/٩٠ لازم نستبعد <bdi>preeclampsia</bdi> مو نطمئنها.",
+      "الخطوة الصحيحة: تنويم لتقييم أدق — تأكيد الضغط، فحص بروتين بالبول، وتحاليل لوظائف الأعضاء (صفائح، إنزيمات كبد، كرياتينين)."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو كان التورم لوحده بدون أي ارتفاع بالضغط، الجواب يرجع طمأنة لأن التورم طبيعي بالحمل."
     ],
-    "rule": "High BP + edema = work-up for preeclampsia (proteinuria, labs); never reassure just because edema is common in pregnancy.",
+    "rule": "تورم + ضغط مرتفع = استبعدي <bdi>preeclampsia</bdi> دايمًا، أبدًا لا تطمّني بس على أساس إن التورم شائع.",
     "comparison": null,
-    "labs": null,
+    "labs": [
+      [
+        "BP",
+        "150/90 mmHg",
+        "&lt;140/90 mmHg بالحمل"
+      ]
+    ],
     "guideline_note": null
   },
   "AS-0074": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Pregestational diabetes preconception care: control glucose first, then conceive.",
+    "idea": "امرأة سكري من ١٥ سنة، تخطط للحمل (<bdi>preconception</bdi>)، <bdi>HbA1c</bdi> عالي ٨.٢ — الأولوية قبل أي شي ثاني.",
     "clues": [
       [
         "preconception",
-        "تلميح مهم مذكور بنص السؤال"
+        "قبل الحمل، فيه وقت للتحضير الصح"
       ],
       [
         "HbA1c is 8.2",
-        "تلميح مهم مذكور بنص السؤال"
+        "تحكم سيء بالسكر، أعلى من الهدف المطلوب"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: She is <bdi>preconception</bdi> with long-standing diabetes and an <bdi>HbA1c of 8.2</bdi>.",
-      "Poor periconceptional glycemic control is the main modifiable driver of congenital anomalies and miscarriage in pregestational diabetes, so the priority is to optimize control to the target <bdi>HbA1c below 6.5%</bdi> before she conceives, using effective contraception until the target is reached."
+      "ضبط السكر السيء حوالين فترة الحمل هو أكبر سبب قابل للتعديل للتشوهات الخلقية والإجهاض بالسكري المزمن.",
+      "فالأولوية ضبط السكر لهدف <bdi>HbA1c</bdi> أقل من ٦.٥٪ قبل ما تحاول الحمل، مو الأسبرين ولا الفوليك أسيد وحدهم."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو كان <bdi>HbA1c</bdi> أصلاً ضمن الهدف (أقل من 6.5%)، الأولوية تتحول للمكملات القياسية (فوليك أسيد الجرعة العالية) ومتابعة الحمل."
     ],
-    "rule": "Raised HbA1c in a woman planning pregnancy: the answer is glycemic control before conception, not supplements.",
+    "rule": "<bdi>HbA1c</bdi> مرتفع قبل الحمل بالسكري = ضبط السكر أولاً، قبل أي مكمل ثاني.",
     "comparison": null,
-    "labs": null,
+    "labs": [
+      [
+        "HbA1c",
+        "8.2%",
+        "&lt;6.5% (الهدف قبل وأثناء الحمل)"
+      ]
+    ],
     "guideline_note": null
   },
   "AS-0077": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Shoulder dystocia ladder: call for help, then external manoeuvres, then internal, then last resort.",
+    "idea": "حامل سكري وبدانة، خطر <bdi>shoulder dystocia</bdi> عالي — السؤال عن أول مناورة تُستخدم لحل الكتف العالق وقت الولادة.",
     "clues": [
       [
         "diabetes mellitus and obesity",
-        "تلميح مهم مذكور بنص السؤال"
+        "عوامل خطر لجنين كبير (<bdi>macrosomia</bdi>) وبالتالي عسر كتف"
       ],
       [
         "prevent shoulder dystocia",
-        "تلميح مهم مذكور بنص السؤال"
+        "لا يوجد منع حقيقي، السؤال عملياً عن أول مناورة علاجية"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: Diabetes and obesity raise the risk of fetal macrosomia and therefore shoulder dystocia.",
-      "No manoeuvre truly prevents dystocia; the lead-in really asks which manoeuvre you use first to relieve the impacted shoulder at delivery.",
-      "Of the listed options, <bdi>suprapubic pressure</bdi> (together with McRoberts) is the <bdi>first-line</bdi>, simplest and safest step: pressure just above the pubic bone pushes the anterior shoulder down and inward so it slips under the symphysis.",
-      "The other options are second-line or last-resort manoeuvres."
+      "ما فيه مناورة تمنع عسر الكتف فعليًا، بس أول خطوة لما يصير فعلاً هي <bdi>McRoberts maneuver</bdi> مع <bdi>suprapubic pressure</bdi> بنفس الوقت.",
+      "من الخيارات المذكورة، <bdi>suprapubic pressure</bdi> هي الخط الأول."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو فشلت المناورات الأولى (<bdi>McRoberts</bdi> و<bdi>suprapubic pressure</bdi>)، ننتقل لمناورات داخلية مثل <bdi>Rubin</bdi>."
     ],
-    "rule": "Suprapubic pressure, NOT fundal pressure: fundal pressure impacts the shoulder further.",
+    "rule": "ضغط فوق العانة (<bdi>suprapubic</bdi>) خط أول؛ أبدًا لا تخلطينه مع الضغط على القاع (<bdi>fundal pressure</bdi>) اللي يزيد المشكلة سوء.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21942,21 +21941,21 @@
   "AS-0081": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: History of VTE: no estrogen.",
+    "idea": "مريضة عندها تاريخ <bdi>DVT</bdi> سابق، تبي منع حمل — أي وسيلة آمنة بدون إستروجين؟",
     "clues": [
       [
         "previous DVT",
-        "تلميح مهم مذكور بنص السؤال"
+        "تاريخ جلطة وريدية يمنع أي وسيلة فيها إستروجين"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: A <bdi>previous DVT</bdi> makes all <bdi>estrogen-containing</bdi> methods contraindicated, because estrogen increases the risk of venous thromboembolism.",
-      "An <bdi>IUD</bdi> (copper, or levonorgestrel which is progestin-only) carries no meaningful thrombotic risk and is highly effective, so it is the method of choice."
+      "تاريخ <bdi>DVT</bdi> يمنع كل وسائل منع الحمل المحتوية على إستروجين، لأن الإستروجين يرفع خطر الجلطات الوريدية.",
+      "اللولب (<bdi>IUD</bdi>) — سواء نحاسي أو هرموني بروجستيرون فقط — ما يحمل خطر جلطات يُذكر وفعال جدًا، فهو الخيار الأنسب."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو ما فيه تاريخ جلطات أصلاً، تصير كل الخيارات (بما فيها الحبوب المركبة) مطروحة حسب تفضيل المريضة."
     ],
-    "rule": "Patch and ring are estrogen methods too: a DVT history excludes them just like the combined pill.",
+    "rule": "تاريخ <bdi>VTE</bdi> = ممنوع أي وسيلة فيها إستروجين (حبوب مركبة، لاصقة، حلقة)؛ الآمن: لولب أو بروجستيرون فقط.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21964,25 +21963,25 @@
   "AS-0172": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Prophylaxis = single dose timed to the incision.",
+    "idea": "حامل بـ<bdi>PPROM</bdi> رايحة قيصرية — متى تُعطى جرعة المضاد الحيوي الوقائي بالنسبة للشق الجراحي؟",
     "clues": [
       [
         "antibiotic preoperatively",
-        "تلميح مهم مذكور بنص السؤال"
+        "توقيت الجرعة قبل العملية"
       ],
       [
         "PPROM",
-        "تلميح مهم مذكور بنص السؤال"
+        "لا يغيّر قاعدة التوقيت"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: Surgical antibiotic prophylaxis for cesarean delivery is a single dose given <bdi>within 60 minutes before skin incision</bdi>, so tissue levels peak when the skin is cut.",
-      "PPROM does not change this timing; for a CS in labor or after membrane rupture, an adjunct (azithromycin) is often added to cefazolin."
+      "الوقاية الجراحية بالمضاد الحيوي للقيصرية تُعطى كجرعة وحيدة خلال ٦٠ دقيقة قبل شق الجلد، عشان يكون تركيز الدواء بالذروة وقت القطع.",
+      "<bdi>PPROM</bdi> ما يغيّر هالتوقيت؛ بس ممكن يضاف دواء إضافي (<bdi>azithromycin</bdi>) لو بالمخاض أو بعد تمزق الأغشية."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو استخدم <bdi>vancomycin</bdi> أو دواء من فئة <bdi>fluoroquinolone</bdi>، يبدأ إعطاؤه أبكر (حوالي ساعتين قبل) لأنه يحتاج وقت تسريب أطول."
     ],
-    "rule": "Older teaching gave CS antibiotics after cord clamping; current practice is before incision.",
+    "rule": "جرعة المضاد الحيوي الوقائي بالقيصرية = خلال ٦٠ دقيقة قبل شق الجلد، مو بعد قطع الحبل السري.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -21990,24 +21989,25 @@
   "AS-0173": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Post-CS VTE prophylaxis is risk based.",
+    "idea": "امرأة ٤٥ سنة، حامل ٣٥ أسبوع، <bdi>BMI 31</bdi>، رايحة قيصرية — السؤال عن الوقاية من الجلطات بعد العملية.",
     "clues": [
       [
         "Scheduled for C/S",
-        "تلميح مهم مذكور بنص السؤال"
+        "عملية قيصرية = عامل خطر أساسي للجلطات"
       ],
       [
         "BMI is 31",
-        "تلميح مهم مذكور بنص السؤال"
+        "بدانة — عامل خطر إضافي"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: "
+      "الوقاية من الجلطات بعد القيصرية تعتمد على عدد عوامل الخطر: هنا عندها عاملين إضافيين — العمر فوق ٣٥ و<bdi>BMI</bdi> ٣٠ فأكثر.",
+      "وجود عاملين خطر إضافيين مع القيصرية يستدعي إضافة <bdi>enoxaparin</bdi> (هيبارين منخفض الوزن الجزيئي) مع الجوارب الضاغطة، مو بس الحركة المبكرة."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو كانت قيصرية عادية بدون أي عامل خطر إضافي (عمر طبيعي، وزن طبيعي)، يكفي الحركة المبكرة والجوارب الضاغطة بدون هيبارين."
     ],
-    "rule": "Count risk factors: CS alone = mobilisation and mechanical measures; CS plus extra factors = add LMWH; aspirin is never the VTE prophylaxis answer.",
+    "rule": "عدّي عوامل الخطر: قيصرية لوحدها = حركة وجوارب؛ قيصرية + عوامل إضافية (عمر>٣٥، BMI≥٣٠) = أضيفي <bdi>LMWH</bdi>؛ الأسبرين أبدًا مو الجواب هنا.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -22015,29 +22015,25 @@
   "AS-0174": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Weight management ladder by BMI and response.",
+    "idea": "امرأة <bdi>BMI 48</bdi> (سمنة درجة ثالثة) بعيادة العقم، سبق ونصحوها بإنقاص الوزن، وفحوصات الخصوبة لكلا الزوجين طبيعية.",
     "clues": [
       [
         "BMI of 48 kg/m²",
-        "تلميح مهم مذكور بنص السؤال"
-      ],
-      [
-        "infertility clinic",
-        "تلميح مهم مذكور بنص السؤال"
+        "سمنة شديدة جدًا، أعلى من حد ٤٠"
       ],
       [
         "counseled on weight loss before",
-        "تلميح مهم مذكور بنص السؤال"
+        "جربت النصح العادي قبل كذا ومافاد"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: A <bdi>BMI of 48</bdi> (class III obesity, above the BMI ≥40 threshold) in a woman who has already been counseled on weight loss before meets criteria for <bdi>bariatric surgery</bdi>, which gives the largest and most durable weight loss.",
-      "Since both partners' fertility work-up is normal, her obesity is the modifiable factor, and surgery is the most effective health promotion step for both fertility and long-term health."
+      "<bdi>BMI 48</bdi> (فوق حد ٤٠) مع فشل تدابير نمط الحياة سابقًا = معايير <bdi>bariatric surgery</bdi>، اللي يعطي أكبر وأثبت نزول وزن.",
+      "بما إن فحوصات الخصوبة لكلا الزوجين طبيعية، البدانة هي السبب الرئيسي وراء صعوبة الحمل، فعلاجها هو الأولوية."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو لم تكن قد جربت تدابير نمط الحياة قبل كذا، الخطوة الأولى تكون حمية وتمارين قبل التفكير بالجراحة."
     ],
-    "rule": "Already counseled means lifestyle has failed; with BMI ≥40 that points to surgery, not more advice.",
+    "rule": "«سبق ونصحوها» = فشل نمط الحياة؛ مع <bdi>BMI ≥40</bdi> هذا يعني جراحة السمنة، مو مزيد نصائح.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -22045,26 +22041,25 @@
   "AS-0178": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Pregnancy: stop ACE inhibitors and ARBs; switch to a pregnancy-safe antihypertensive.",
+    "idea": "امرأة ضغط على <bdi>hydrochlorothiazide</bdi> و<bdi>losartan</bdi>، انقطعت دورتها شهرين وطلع فحص الحمل إيجابي.",
     "clues": [
       [
         "losartan",
-        "تلميح مهم مذكور بنص السؤال"
+        "دواء من فئة ARB خطير على الجنين"
       ],
       [
         "pregnancy test was done and was positive",
-        "تلميح مهم مذكور بنص السؤال"
+        "الحمل مؤكد — لازم تغيير الدواء فورًا"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: A hypertensive woman on losartan now has a positive pregnancy test.",
-      "ARBs (and ACE inhibitors) are fetotoxic, mainly causing fetal renal damage and oligohydramnios, so losartan must be stopped and replaced with a pregnancy-safe agent.",
-      "Methyldopa is a classic safe choice, so the right treatment adjustment is to discontinue losartan and start methyldopa."
+      "أدوية <bdi>ARB</bdi> و<bdi>ACE inhibitors</bdi> سامة للجنين (تأثير كلوي وقلة سائل أمينوسي)، فلازم إيقاف <bdi>losartan</bdi> فورًا بمجرد تأكد الحمل.",
+      "البديل الآمن الكلاسيكي هو <bdi>methyldopa</bdi>."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو ما كانت حامل أصلاً، الاستمرار على نفس الأدوية يكون صحيح."
     ],
-    "rule": "Enalapril and losartan look like different classes but both block the RAAS; any option keeping an ACEi or ARB is wrong in pregnancy.",
+    "rule": "حمل + <bdi>ACEi/ARB</bdi> = أوقفيه فورًا وحوّلي لدواء آمن بالحمل زي <bdi>methyldopa</bdi> أو <bdi>labetalol</bdi>؛ لا توقفي العلاج كله.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -22072,26 +22067,25 @@
   "AS-0187": {
     "correct_letter": "D",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Heavy bleeding with anaemia symptoms: CBC + beta-hCG first, then treat by severity.",
+    "idea": "امرأة ٤٥ سنة، دورة مستمرة ١٥ يوم، دوخة وتعب وإغماء متكرر — علامات فقر دم شديد من نزيف مستمر.",
     "clues": [
       [
         "period has not stopped for the past 15 days",
-        "تلميح مهم مذكور بنص السؤال"
+        "نزيف طويل جدًا"
       ],
       [
         "drowsy and easily fatigued and sometimes faints",
-        "تلميح مهم مذكور بنص السؤال"
+        "أعراض فقر دم واضحة"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: Bleeding for 15 days with drowsy, easily fatigued and faints points to symptomatic anaemia from heavy uterine bleeding.",
-      "The first step is to quantify blood loss with a CBC (haemoglobin guides the need for transfusion and urgency) and to exclude a pregnancy-related cause with beta-hCG, because a 45-year-old is still of reproductive age.",
-      "These results decide the next management (resuscitation, hormonal therapy or D&amp;C)."
+      "الخطوة الأولى بأي نزيف شديد مع أعراض فقر دم هي تحديد شدة الفقر بـ<bdi>CBC</bdi> (يوجه الحاجة لنقل دم) واستبعاد سبب مرتبط بالحمل بـ<bdi>β-hCG</bdi>.",
+      "ما نبدأ بالسونار ولا التكشيط قبل ما نعرف شدة الفقر ونستبعد الحمل."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو كان الهيموغلوبين منخفض جدًا من البداية (مذكور بالسؤال)، الخطوة التالية تتحول لنقل دم فوري."
     ],
-    "rule": "If the stem gives a low haemoglobin already, the next step becomes transfusion rather than more tests.",
+    "rule": "نزيف شديد + أعراض فقر دم = <bdi>CBC + β-hCG</bdi> أول خطوة دايمًا.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -22099,29 +22093,29 @@
   "AS-0201": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Classify miscarriage by cervix (open/closed) x tissue (passed/not passed).",
+    "idea": "طردت أنسجة الحمل بالبيت، وعنق الرحم مغلق مع نزيف خفيف — تصنيف نوع الإجهاض.",
     "clues": [
       [
         "expulsion of products of conception",
-        "تلميح مهم مذكور بنص السؤال"
+        "الأنسجة خرجت فعلاً"
       ],
       [
         "cervix were closed",
-        "تلميح مهم مذكور بنص السؤال"
+        "عنق الرحم مغلق — مؤشر مهم جدًا"
       ],
       [
         "minimal vaginal bleeding",
-        "تلميح مهم مذكور بنص السؤال"
+        "نزيف قليل يدعم إن الرحم فرّغ نفسه"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: Expulsion of products of conception at home (tissue passed) plus a <bdi>closed cervix</bdi> with only minimal bleeding is a <bdi>complete abortion</bdi>: the uterus has emptied itself and the os has closed.",
-      "Ultrasound would show an empty uterus, and she is managed conservatively with outpatient follow-up."
+      "خروج الأنسجة فعليًا مع عنق رحم مغلق ونزيف قليل يعني الرحم فرّغ محتوياته بالكامل — هذا <bdi>complete abortion</bdi>.",
+      "السونار بيطلع رحم فارغ، والإدارة محافظة بمتابعة بالعيادة."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو العنق كان مفتوح مع أنسجة لسا موجودة بالسونار، الجواب يصير <bdi>incomplete abortion</bdi>."
     ],
-    "rule": "The os splits open cases: no tissue passed = inevitable; tissue passed or protruding through the os = incomplete. Tissue passed with a CLOSED os = complete.",
+    "rule": "صنّفي حسب حالة العنق (مفتوح/مغلق) + خروج الأنسجة (نعم/لا): مغلق + خرجت كامل = <bdi>complete abortion</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -22129,29 +22123,29 @@
   "AS-0208": {
     "correct_letter": "D",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Incomplete, inevitable or missed abortion: choose by bleeding and stability.",
+    "idea": "حامل ٧ أسابيع، أنسجة خرجت بالبيت، عنق مفتوح ونزيف متوسط، وبقايا أنسجة ٣×٤ سم بالسونار — إجهاض غير مكتمل مع نزيف يحتاج تدخل.",
     "clues": [
       [
         "history of passing tissue at home",
-        "تلميح مهم مذكور بنص السؤال"
+        "جزء من الأنسجة خرج، مو الكل"
       ],
       [
         "open cervix",
-        "تلميح مهم مذكور بنص السؤال"
+        "عنق مفتوح"
       ],
       [
         "Intrauterine 3x4 cm tissue seen",
-        "تلميح مهم مذكور بنص السؤال"
+        "بقايا كبيرة نسبيًا بالرحم"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: Passed tissue, an <bdi>open cervix</bdi> and <bdi>3x4 cm retained intrauterine tissue</bdi> mean incomplete abortion, and the bleeding is <bdi>moderate</bdi>.",
-      "Moderate to heavy bleeding or instability is the indication for surgical evacuation of the uterus (suction evacuation or D&amp;C), which removes the source of bleeding definitively."
+      "خروج جزئي للأنسجة + عنق مفتوح + بقايا ٣×٤ سم = <bdi>incomplete abortion</bdi>، والنزيف متوسط (مو خفيف).",
+      "النزيف المتوسط إلى الشديد مع كتلة متبقية كبيرة هو مؤشر للتدخل الجراحي الفوري (شفط أو تكشيط) لإزالة مصدر النزيف."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو كان النزيف خفيف فقط والمريضة مستقرة، يمكن الانتظار (محافظ) أو علاج دوائي بـ<bdi>misoprostol</bdi> بدل الجراحة."
     ],
-    "rule": "The word 'moderate' (or heavy) bleeding with retained tissue pushes the answer to evacuation, not observation.",
+    "rule": "كلمة «متوسط/شديد» بالنزيف مع بقايا كبيرة = تفريغ جراحي، مو مراقبة.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -22159,25 +22153,25 @@
   "AS-0210": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Classify early pregnancy bleeding by the os first, then tissue passage, then viability.",
+    "idea": "تقلصات ونزيف خفيف، عنق مفتوح، وسونار يؤكد حمل حي بالأسبوع ٧ — ما خرجت ولا نسيجة.",
     "clues": [
       [
         "open cervix",
-        "تلميح مهم مذكور بنص السؤال"
+        "عنق مفتوح رغم إن الحمل لسا حي — هذا المفتاح"
       ],
       [
         "viable intrauterine pregnancy",
-        "تلميح مهم مذكور بنص السؤال"
+        "الجنين حي، بس العنق فتح"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: <bdi>Cramps and bleeding</bdi> with an <bdi>open cervix</bdi>, no tissue passed, and a still <bdi>viable</bdi> 7-week intrauterine pregnancy is inevitable abortion.",
-      "Once the os has opened the pregnancy cannot be saved, even though fetal activity may still be seen on ultrasound."
+      "عنق مفتوح مع عدم خروج أي أنسجة وحمل لسا حي = <bdi>inevitable abortion</bdi>.",
+      "بمجرد ما يفتح العنق، الحمل ما يصير له إنقاذ حتى لو شفنا نبض قلب بالسونار."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو كان العنق مغلق مع نفس الحمل الحي، الجواب يصير <bdi>threatened abortion</bdi> (يمكن إنقاذه)."
     ],
-    "rule": "A heartbeat does not make it threatened: the open os overrides viability and makes it inevitable.",
+    "rule": "وجود نبض قلب ما يعني الإنقاذ تلقائيًا — عنق مفتوح يلغي كلمة «<bdi>threatened</bdi>» ويخليها <bdi>inevitable</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -22185,53 +22179,53 @@
   "AS-0218": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Hypothyroid + pregnant = increase levothyroxine as soon as pregnancy is confirmed.",
+    "idea": "امرأة قصور غدة درقية على <bdi>levothyroxine</bdi> من سنتين، أول زيارة حمل — لازم نعدّل الجرعة فورًا.",
     "clues": [
       [
         "first prenatal visit",
-        "تلميح مهم مذكور بنص السؤال"
-      ],
-      [
-        "history of hypothyroidism, for which she has taken levothyroxine 125",
-        "تلميح مهم مذكور بنص السؤال"
+        "أول فحص حمل، وقت حرج لضبط الجرعة"
       ],
       [
         "TSH 4.4",
-        "تلميح مهم مذكور بنص السؤال"
+        "ضمن الطبيعي العام بس أعلى من هدف الحمل"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: At her <bdi>first prenatal visit</bdi>, a woman on levothyroxine needs a <bdi>dose increase</bdi>: thyroxine requirement rises early in pregnancy, and the TSH target is tighter (about 0.5 to 2.5 in the first trimester).",
-      "Her TSH 4.4 is inside the general range but above the pregnancy target, and her free T4 is low-normal, so increasing the dose protects fetal neurodevelopment.",
-      "Recheck TSH about every 4 weeks in the first half of pregnancy."
+      "احتياج الجسم لهرمون الدرقية يرتفع من بداية الحمل، وهدف <bdi>TSH</bdi> بالحمل أضيق (حوالي ٠.٥-٢.٥ بالثلث الأول).",
+      "<bdi>TSH 4.4</bdi> طبيعي لغير الحامل بس مرتفع لهدف الحمل، فلازم زيادة الجرعة فورًا."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو كان <bdi>TSH</bdi> أصلاً ضمن هدف الحمل (٠.٥-٢.٥)، الجواب يصير استمرار نفس الجرعة."
     ],
-    "rule": "A normal TSH by the lab range can still be too high for pregnancy.",
+    "rule": "<bdi>TSH</bdi> «طبيعي» بالمختبر العام ممكن يكون مرتفع لهدف الحمل — زيدي الجرعة من أول زيارة.",
     "comparison": null,
-    "labs": null,
+    "labs": [
+      [
+        "TSH",
+        "4.4",
+        "0.5–2.5 (هدف الثلث الأول من الحمل)"
+      ]
+    ],
     "guideline_note": null
   },
   "AS-0219": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Cervical incompetence: manage by history and gestational age.",
+    "idea": "حامل ١٠ أسابيع، تاريخ ولادة بدون ألم بالأسبوع ١٨ وفقدت الجنين — تاريخ كلاسيكي لضعف عنق الرحم.",
     "clues": [
       [
         "painless delivery at 18 weeks and loss the baby",
-        "تلميح مهم مذكور بنص السؤال"
+        "فقدان بدون ألم بالثلث الثاني = ضعف عنق الرحم الكلاسيكي"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: Painless delivery at 18 weeks is a second-trimester loss from painless cervical dilation, the classic history of <bdi>cervical incompetence</bdi>.",
-      "With that history, prophylactic (history-indicated) cerclage is placed at <bdi>12 to 14 weeks</bdi>, after the first-trimester miscarriage window and once a viable pregnancy and normal early scan are confirmed.",
-      "At 10 weeks now, she is planned for <bdi>cerclage at 13 weeks</bdi>."
+      "فقدان حمل بدون ألم بالثلث الثاني هو الصورة الكلاسيكية لـ<bdi>cervical incompetence</bdi>.",
+      "بهذا التاريخ، نضع <bdi>cerclage</bdi> وقائي مبكر بين الأسبوع ١٢-١٤، وهي الآن بالأسبوع ١٠ يعني بالوقت المناسب للتخطيط له."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو كان التاريخ غير واضح (مجرد إجهاض بدون تفاصيل الألم والتوقيت)، الجواب يتحول لمتابعة بالسونار لطول عنق الرحم بدل غرزة فورية."
     ],
-    "rule": "Painless plus second trimester is what earns early cerclage; a vague prior miscarriage gets scans instead.",
+    "rule": "فقدان بدون ألم بالثلث الثاني = <bdi>cerclage</bdi> وقائي بـ١٢-١٤ أسبوع.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -22239,22 +22233,21 @@
   "AS-0220": {
     "correct_letter": "D",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Which history earns which plan.",
+    "idea": "تاريخ إجهاض سابق غير محدد التفاصيل (بدون ذكر الألم أو التوقيت) — السؤال التوأم لـ AS-0219 بس بمعلومات أقل.",
     "clues": [
       [
         "previous miscarriage",
-        "تلميح مهم مذكور بنص السؤال"
+        "مذكور بدون أي تفاصيل عن الألم أو عمر الحمل وقتها"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: The stem gives only previous miscarriage with no timing and no painless cervical dilation, so a diagnosis of cervical incompetence cannot be made and history-indicated cerclage is not justified.",
-      "The safe plan is <bdi>surveillance</bdi>: serial transvaginal ultrasound of cervical length, intervening only if the cervix shortens.",
-      "This recall is the twin of the version that adds painless mid-trimester loss, where the answer switches to cerclage at 13 weeks."
+      "«إجهاض سابق» بدون تفاصيل ما يكفي لتشخيص <bdi>cervical incompetence</bdi>، فما نسوي غرزة وقائية بناءً على معلومة ناقصة.",
+      "الخطة الأسلم هي المراقبة: قياس طول عنق الرحم بالسونار المهبلي بشكل دوري، ونتدخل لو قصر فعليًا."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو أضاف السؤال إن الفقدان كان بدون ألم بالثلث الثاني (زي AS-0221)، الجواب يتحول لغرزة وقائية فورية بـ١٣ أسبوع."
     ],
-    "rule": "Read the history word by word: painless and mid-trimester flip the answer from scans to cerclage.",
+    "rule": "تاريخ غامض أو غير مؤكد = مراقبة بالسونار؛ تاريخ واضح لضعف عنق الرحم = غرزة فورية.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -22262,21 +22255,21 @@
   "AS-0221": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Cervical incompetence = painless 2nd-trimester dilation and loss.",
+    "idea": "نفس تاريخ AS-0219 لكن بتفاصيل كاملة ومؤكدة: فقدان بالأسبوع ١٨ بتوسع بدون ألم وطرد تلقائي.",
     "clues": [
       [
         "one mid trimester abortion at 18 weeks happened by painlessly dilatation of the cervix and spontaneous expulsion",
-        "تلميح مهم مذكور بنص السؤال"
+        "وصف كامل ومؤكد لضعف عنق الرحم الكلاسيكي"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: One mid trimester abortion at 18 weeks by painless dilatation of the cervix and spontaneous expulsion is the textbook history of <bdi>cervical incompetence</bdi>.",
-      "Such a history is the indication for prophylactic (history-indicated) cerclage at <bdi>12 to 14 weeks</bdi>, so at 10 weeks she is counselled for <bdi>cerclage at 13 weeks</bdi>, after the first-trimester miscarriage risk has passed and an early scan has confirmed a normal viable pregnancy."
+      "هذا الوصف الكامل (توسع بدون ألم بالثلث الثاني وطرد تلقائي) هو التشخيص الكلاسيكي المؤكد لـ<bdi>cervical incompetence</bdi>.",
+      "فالخطة هي غرزة وقائية (<bdi>history-indicated cerclage</bdi>) بين ١٢-١٤ أسبوع، وهي الآن بالوقت المناسب بالأسبوع ١٠."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو التاريخ كان مجرد «إجهاض سابق» بدون هالتفاصيل، الجواب يتحول لمراقبة بالسونار (انظري AS-0220)."
     ],
-    "rule": "Same options as the previous miscarriage only twin; the word painless makes this one cerclage at 13 weeks.",
+    "rule": "كلمة «بدون ألم» + «ثلث ثاني» = تشخيص مؤكد، غرزة بـ١٣ أسبوع فورًا.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -22284,22 +22277,20 @@
   "AS-0222": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Cervical incompetence: timing of cerclage decides the answer.",
+    "idea": "هذي المرة التشخيص نفسه مكتوب صراحة: «تاريخ ضعف عنق الرحم» بالحمل الأول، تستشير للحمل الثاني.",
     "clues": [
       [
         "history of cervical incompetence in her first pregnancy",
-        "تلميح مهم مذكور بنص السؤال"
+        "التشخيص موجود جاهز، مو بس أعراض نستنتج منها"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: The stem gives an <bdi>established diagnosis</bdi> of cervical incompetence in the first pregnancy and she is now being counselled for the next one.",
-      "A known incompetent cervix is managed by gestational age: before 24 weeks the answer is a prophylactic (history indicated) cerclage, placed electively early in the second trimester at about <bdi>13 to 14 weeks</bdi>.",
-      "Waiting until this point lets the first trimester miscarriage risk pass and allows viability and early anomaly screening to be confirmed."
+      "تشخيص مؤكد سابق لضعف عنق الرحم = غرزة وقائية مبكرة وانتخابية بالحمل القادم، تُوضع عادة بـ١٣-١٤ أسبوع قبل ما يبدأ العنق يتوسع."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو التشخيص مب مؤكد وبس «إجهاض سابق»، نرجع لمراقبة بالسونار بدل الغرزة الفورية."
     ],
-    "rule": "Known cervical incompetence plus early pregnancy = cerclage at 13 to 14 weeks; previous preterm birth without a diagnosis = cervical length surveillance.",
+    "rule": "تشخيص معروف وموثق لضعف عنق الرحم = غرزة انتخابية مبكرة (١٣-١٤ أسبوع)، ما ننتظر نشوف تغيّر بالسونار.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -22307,59 +22298,51 @@
   "AS-0229": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "الفكرة الأساسية بالسؤال: AUB work-up: decide between imaging and endometrial sampling.",
+    "idea": "امرأة ٤٣ سنة، نزيف مهبلي غزير، تبي وسيلة منع حمل — أي فحص إلزامي قبل أي علاج.",
     "clues": [
       [
         "43 years old",
-        "تلميح مهم مذكور بنص السؤال"
+        "عمرها تحت ٤٥ — حد مهم بقرار الفحص"
       ],
       [
         "heavy vaginal bleeding",
-        "تلميح مهم مذكور بنص السؤال"
-      ],
-      [
-        "want contraceptive methods",
-        "تلميح مهم مذكور بنص السؤال"
+        "نزيف شديد يحتاج تقييم السبب"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: "
+      "بعمر تحت ٤٥ بدون عوامل خطر إضافية مذكورة، الخطوة القياسية الأولى لتقييم النزيف غير الطبيعي هي <bdi>pelvic/transvaginal ultrasound</bdi> لتحديد سبب هيكلي (أورام ليفية، سلائل، سماكة بطانة الرحم).",
+      "خزعة بطانة الرحم المباشرة تكون أولوية أعلى لو كان عمرها ٤٥ فأكثر أو عندها عوامل خطر إضافية (بدانة، تكيس مبايض، سكري غير منضبط)، وهذا غير مذكور هنا."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو كان عمرها ٤٥ فأكثر، أو عندها عوامل خطر لفرط تنسج بطانة الرحم، الجواب يتحول مباشرة لـ<bdi>endometrial biopsy</bdi>."
     ],
-    "rule": "Read for duration and age: a long history of AUB or age ≥45 turns the answer from ultrasound to endometrial biopsy.",
+    "rule": "عمر تحت ٤٥ بدون عوامل خطر إضافية = ابدئي بالسونار؛ ٤٥ فأكثر أو عوامل خطر = خزعة بطانة الرحم مباشرة.",
     "comparison": null,
     "labs": null,
-    "guideline_note": null
+    "guideline_note": "ما فيه جواب موثق من المصدر لهذا السؤال؛ هذا استنتاج طبي مبني على نفس قاعدة العمر المذكورة بالأسئلة المشابهة (AS-0187 وغيرها)."
   },
   "AS-0230": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "الفكرة الأساسية بالسؤال: Primary dysmenorrhea ladder.",
+    "idea": "فتاة ١٨ سنة، ألم دورة شديد مع حب شباب، والـ<bdi>NSAIDs</bdi> ما عادت تفيد — الخطوة التالية بسلم علاج عسر الطمث.",
     "clues": [
       [
         "18 years old",
-        "تلميح مهم مذكور بنص السؤال"
+        "عمر مناسب لعسر طمث أولي"
       ],
       [
-        "painful cycle and acne on face",
-        "تلميح مهم مذكور بنص السؤال"
-      ],
-      [
-        "already on NSAIDs which are not helpful",
-        "تلميح مهم مذكور بنص السؤال"
+        "already on NSAIDs which are not helpful anymore",
+        "فشل الخط الأول من العلاج"
       ]
     ],
     "why_correct": [
-      "الجواب الصح: An 18 year old with painful periods that disturb her routine has primary dysmenorrhea, and she is <bdi>already on NSAIDs which are not helpful anymore</bdi>.",
-      "When NSAIDs fail, the next step is hormonal therapy with combined oral contraceptive pills, which suppress ovulation and reduce endometrial prostaglandin production.",
-      "The <bdi>acne</bdi> is a bonus clue: the combined pill raises SHBG and lowers free androgens, so it treats both problems at once."
+      "عسر الطمث الأولي يُعالج أولاً بـ<bdi>NSAIDs</bdi>؛ لما تفشل، الخطوة التالية هرمونية بحبوب منع الحمل المركبة (<bdi>combined OCPs</bdi>) اللي توقف الإباضة وتقلل البروستاغلاندين المسبب للألم.",
+      "وجود حب الشباب معها ميزة إضافية، لأن الحبوب المركبة تحسّن حب الشباب كمان."
     ],
     "when_changes": [
-      "لو تغيّرت تفاصيل الحالة (العمر، الأعراض، القيم المخبرية)، لازم تراجعين المعايير من جديد قبل ما تثبتين نفس الجواب."
+      "لو كان عندها مانع لاستخدام الإستروجين (مثل صداع نصفي مصحوب بـ<bdi>aura</bdi>)، الجواب يتحول لحبوب بروجستيرون فقط."
     ],
-    "rule": "First presentation of dysmenorrhea = NSAIDs; NSAIDs not helpful anymore = OCP.",
+    "rule": "عسر طمث أولي: خط أول <bdi>NSAIDs</bdi>؛ فشل = حبوب مركبة (خصوصًا لو فيه حب شباب أو حاجة لمنع حمل).",
     "comparison": null,
     "labs": null,
     "guideline_note": null
