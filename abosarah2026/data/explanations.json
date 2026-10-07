@@ -1,0 +1,2367 @@
+{
+  "AS-1614": {
+    "correct_letter": "B",
+    "self_judged": false,
+    "idea": "السؤال يبي أهم <bdi>investigation</bdi> لـ <bdi>intrahepatic cholestasis of pregnancy (ICP)</bdi>، مو بس وصف الأعراض.",
+    "clues": [
+      [
+        "34 weeks'",
+        "ثلث ثالث من <bdi>pregnancy</bdi>، وقت ظهور <bdi>ICP</bdi> المعتاد"
+      ],
+      [
+        "generalized pruritus",
+        "حكة عامة بدون <bdi>rash</bdi> = أهم <bdi>clue</bdi> لـ <bdi>ICP</bdi>"
+      ],
+      [
+        "yellowish discoloration of the sclera",
+        "<bdi>jaundice</bdi> خفيف يصاحب <bdi>ICP</bdi> أحيانًا"
+      ]
+    ],
+    "why_correct": [
+      "حكة عامة بثلث ثالث مع يرقان خفيف صورة <bdi>classic</bdi> لـ <bdi>intrahepatic cholestasis of pregnancy</bdi>.",
+      "الفحص التشخيصي والمراقبة هو <bdi>serum bile acids</bdi> مع <bdi>liver function tests</bdi>: ارتفاع الـ<bdi>bile acids</bdi> يأكد التشخيص، والـ<bdi>LFTs</bdi> يبين ارتفاع الإنزيمات ويستبعد أسباب كبدية ثانية.",
+      "مستوى الـ<bdi>bile acids</bdi> كمان يوجه قرار توقيت <bdi>delivery</bdi> لتقليل خطر الجنين، فلذا هو أهم فحص بالموقف."
+    ],
+    "when_changes": [
+      "لو فيه <bdi>rash</bdi> واضح مع الحكة، الجواب يتحول لـ <bdi>dermatosis of pregnancy</bdi> مو <bdi>ICP</bdi>.",
+      "لو الصورة فيها ارتفاع ضغط وتشوش ونزيف، فكر بـ <bdi>preeclampsia/HELLP</bdi> أو <bdi>AFLP</bdi> وتصير الفحوصات مختلفة."
+    ],
+    "rule": "حكة بدون <bdi>rash</bdi> بالثلث الثالث = <bdi>ICP</bdi> لحد ما يثبت العكس، وفحصها <bdi>bile acids</bdi> مع <bdi>LFTs</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1615": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "السؤال يبي <bdi>initial therapy</bdi> لـ <bdi>stress urinary incontinence</bdi>، مو العلاج النهائي.",
+    "clues": [
+      [
+        "urine leaks when she laughs, coughs, or sneezes",
+        "تسرب مع زيادة الضغط داخل البطن = <bdi>stress incontinence</bdi>"
+      ],
+      [
+        "initial",
+        "يبي الخطوة الأولى بالعلاج مو الجراحة"
+      ]
+    ],
+    "why_correct": [
+      "تسرب البول مع الضحك أو السعال أو العطس، بدون <bdi>frequency</bdi> أو <bdi>dysuria</bdi> أو <bdi>nocturia</bdi> أو <bdi>urgency</bdi>، صورة <bdi>pure stress urinary incontinence</bdi>.",
+      "السؤال يحدد «<bdi>initial therapy</bdi>»، والخط الأول لـ <bdi>stress incontinence</bdi> هو تعديل نمط الحياة مع تمارين <bdi>Kegel</bdi> (تقوية عضلات قاع الحوض).",
+      "الجراحة تُحجز للحالات اللي ما استجابت للعلاج المحافظ."
+    ],
+    "when_changes": [
+      "لو السؤال يذكر إنها فشلت بالعلاج المحافظ، الجواب يتحول لـ <bdi>midurethral sling (TVT)</bdi> كعلاج نهائي.",
+      "لو فيه <bdi>urgency</bdi> مع سماع صوت الماء، نفكر بـ <bdi>urge incontinence</bdi> وعلاجها <bdi>anticholinergics</bdi> مو <bdi>Kegel</bdi>."
+    ],
+    "rule": "«<bdi>initial</bdi>» = <bdi>Kegel exercises</bdi>؛ «<bdi>definitive</bdi>» أو فشل التمارين = <bdi>sling/TVT</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1616": {
+    "correct_letter": "C",
+    "self_judged": false,
+    "idea": "السؤال يختبر خطوة التصوير الأولى لـ <bdi>uterine fibroid</bdi> مشتبه فيه.",
+    "clues": [
+      [
+        "heavy menstrual cycle",
+        "نزيف دورة غزير = عرض شائع لـ <bdi>fibroids</bdi>"
+      ],
+      [
+        "firm fundal mass",
+        "كتلة صلبة بقاع الرحم تدعم تشخيص <bdi>leiomyoma</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "امرأة بسن الإنجاب مع <bdi>heavy menstrual bleeding</bdi> وكتلة صلبة بقاع الرحم غالبًا <bdi>uterine fibroid</bdi>.",
+      "<bdi>pelvic ultrasound</bdi> (ويفضل <bdi>transvaginal</bdi>) هو الفحص الأول والتشخيصي عادة: رخيص وآمن وبدون <bdi>radiation</bdi>، ويبين حجم وعدد ومكان الـ<bdi>fibroids</bdi>."
+    ],
+    "when_changes": [
+      "لو نتيجة الـ<bdi>ultrasound</bdi> غير واضحة أو نحتاج تخطيط قبل جراحة أو <bdi>embolization</bdi>، الجواب يصير <bdi>MRI</bdi>.",
+      "لو فيه شك إن الكتلة ليست نموذجية (نمو سريع بعد سن اليأس مثلًا)، نفكر بأسباب أخرى غير <bdi>fibroid</bdi>."
+    ],
+    "rule": "كتلة حوضية بسؤال نسائية: <bdi>ultrasound</bdi> أولًا قبل <bdi>MRI</bdi> أو <bdi>CT</bdi> إلا إذا ذكر السؤال إن الـ<bdi>ultrasound</bdi> غير حاسم.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1617": {
+    "correct_letter": "D",
+    "self_judged": false,
+    "idea": "السؤال يبي علاج <bdi>dyspareunia</bdi> المعزول بعد سن اليأس، يعني اختيار طريق <bdi>estrogen</bdi> الصح.",
+    "clues": [
+      [
+        "last menstrual period was 18 months ago",
+        "توقف الدورة 18 شهر يعني <bdi>postmenopausal</bdi>"
+      ],
+      [
+        "dyspareunia",
+        "عرض <bdi>genitourinary</bdi> معزول من <bdi>vaginal atrophy</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "توقف الدورة قبل 18 شهر بعمر 53 يعني <bdi>postmenopausal</bdi>، و<bdi>dyspareunia</bdi> لوحدها عرض <bdi>genitourinary</bdi> ناتج عن <bdi>vaginal atrophy</bdi>.",
+      "الأعراض البولية التناسلية المعزولة تُعالج بـ <bdi>local (vaginal) estrogen</bdi> مثل <bdi>conjugated estrogen cream</bdi>، لأنه يشتغل على النسيج المستهدف بامتصاص جهازي قليل."
+    ],
+    "when_changes": [
+      "لو الشكوى الرئيسية <bdi>hot flashes</bdi> (أعراض <bdi>vasomotor</bdi>)، الجواب يتحول لـ <bdi>systemic HRT</bdi> بعد تعديل نمط الحياة.",
+      "لو أعطينا <bdi>systemic estrogen</bdi> ومعها رحم سليم، لازم نضيف <bdi>progestogen</bdi>."
+    ],
+    "rule": "<bdi>dyspareunia</bdi> لوحدها بعد سن اليأس = <bdi>cream</bdi> موضعي، مو حبوب؛ الحبوب الجهازية لـ <bdi>hot flashes</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1618": {
+    "correct_letter": "D",
+    "self_judged": false,
+    "idea": "كتلة عنق رحم مرئية مع نزيف بعد الجماع = لازم تشخيص نسيجي قبل أي شيء ثاني.",
+    "clues": [
+      [
+        "postcoital bleeding",
+        "نزيف بعد الجماع = علامة تحذيرية لـ <bdi>cervical cancer</bdi>"
+      ],
+      [
+        "2*1 cm cervical mass",
+        "كتلة مرئية بعنق الرحم تحتاج خزعة مباشرة"
+      ]
+    ],
+    "why_correct": [
+      "<bdi>postcoital bleeding</bdi> مع كتلة عنق رحم مرئية يُفترض إنها <bdi>cervical cancer</bdi> لحد ما يثبت النسيج العكس.",
+      "الكتلة المرئية تحتاج تشخيص نسيجي، فالخطوة التالية <bdi>punch biopsy</bdi> (ويفضل موجه بـ <bdi>colposcopy</bdi>)."
+    ],
+    "when_changes": [
+      "لو عنق الرحم يبدو طبيعي بالفحص، الجواب يرجع لـ <bdi>Pap/HPV test</bdi> كفحص فرز.",
+      "بعد ما يتأكد التشخيص بالخزعة، نستخدم <bdi>MRI</bdi> للامتداد الموضعي و<bdi>CT/PET</bdi> لانتشار المرض بعيد كجزء من <bdi>staging</bdi>."
+    ],
+    "rule": "ما تجاوب <bdi>Pap smear</bdi> إذا فيه كتلة عنق رحم مرئية: روح على الخزعة مباشرة.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1619": {
+    "correct_letter": "C",
+    "self_judged": false,
+    "idea": "السؤال يختبر إدارة <bdi>SLE</bdi> المستقر بالحمل، وهل نكمل دواء آمن ولا نوقفه.",
+    "clues": [
+      [
+        "20 weeks pregnant",
+        "حامل بمنتصف الحمل"
+      ],
+      [
+        "SLE",
+        "مرض مناعي مزمن محتاج ضبط مستمر"
+      ],
+      [
+        "symptom-free for the past 2 years",
+        "مرض هادئ ومستقر حاليًا"
+      ],
+      [
+        "Plaquenil",
+        "اسم تجاري لـ <bdi>hydroxychloroquine</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "<bdi>hydroxychloroquine (Plaquenil)</bdi> آمن بالحمل وهو العمود الأساسي لضبط <bdi>SLE</bdi>.",
+      "المريضة <bdi>symptom-free</bdi> لمدة سنتين عليه، فالخطوة الصح إنها تكمل الدواء بدون تغيير.",
+      "إيقافه يرفع خطر <bdi>flare</bdi> بالحمل، واللي خطره على الأم والجنين أكبر من خطر الدواء نفسه."
+    ],
+    "when_changes": [
+      "لو فيه <bdi>drug reaction</bdi> حقيقي زي <bdi>retinal toxicity</bdi>، حينها يصير الجواب إيقاف الدواء.",
+      "لو فيه <bdi>active flare</bdi> بالحمل، نضيف <bdi>steroids</bdi> مع الدواء الأساسي، مو بدل منه."
+    ],
+    "rule": "<bdi>hydroxychloroquine</bdi> هو دواء <bdi>SLE</bdi> اللي نكمله بالحمل؛ <bdi>mycophenolate</bdi> و<bdi>methotrexate</bdi> هم اللي نوقفهم.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1620": {
+    "correct_letter": "D",
+    "self_judged": false,
+    "idea": "السؤال يبي عامل خطر <bdi>postpartum hemorrhage</bdi> المرتبط بسرعة الولادة.",
+    "clues": [
+      [
+        "2 hours of labor, just making it to the hospital",
+        "ولادة خلال ساعتين فقط = <bdi>precipitous labor</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "ولادة «بعد ساعتين فقط من المخاض، بالكاد وصلت المستشفى» هي تعريف <bdi>precipitous labor</bdi> (ولادة خلال حوالي 3 ساعات من بداية المخاض).",
+      "المخاض السريع عامل خطر لـ <bdi>uterine atony</bdi> ولإصابات الجهاز التناسلي، وبالتالي لـ <bdi>postpartum hemorrhage</bdi>.",
+      "الولادة الأولى (P1) والوزن 3000 غرام طبيعيان، فما يعتبرون عامل خطر هنا."
+    ],
+    "when_changes": [
+      "لو كانت الولادة طالت لساعات كثيرة (مثلًا 16 ساعة)، الجواب يتحول لـ <bdi>prolonged labor</bdi>.",
+      "لو كان وزن الجنين أكبر من 4000 غرام، الجواب يصير <bdi>macrosomic baby</bdi>."
+    ],
+    "rule": "عبارة «بالكاد وصلت المستشفى» برمز الامتحان تعني <bdi>precipitous labor</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1621": {
+    "correct_letter": "D",
+    "self_judged": false,
+    "idea": "السؤال يبي تصنيف توقيت النزيف التوليدي حسب علاقته بالمخاض والولادة.",
+    "clues": [
+      [
+        "32 weeks of gestation",
+        "لسا حامل ومافي وصف لمخاض"
+      ]
+    ],
+    "why_correct": [
+      "المريضة لسا حامل (<bdi>32 weeks of gestation</bdi>) وما فيه إشارة إنها بمخاض.",
+      "نزيف أثناء الحمل وقبل بداية المخاض يُسمى <bdi>antepartum hemorrhage</bdi>."
+    ],
+    "when_changes": [
+      "لو ذكر السؤال إن عنق الرحم متوسع (مخاض فعلي)، الجواب يتحول لـ <bdi>intrapartum</bdi>.",
+      "لو النزيف بعد الولادة بأقل من 24 ساعة، يصير <bdi>early postpartum</bdi>؛ وإذا بعد أكثر من 24 ساعة لين 12 أسبوع، يصير <bdi>late postpartum</bdi>."
+    ],
+    "rule": "صنّف النزيف التوليدي حسب توقيته بالنسبة للمخاض والولادة: قبل المخاض = <bdi>antepartum</bdi>، أثناءه = <bdi>intrapartum</bdi>، وبعد الولادة = <bdi>postpartum</bdi> (مبكر أو متأخر).",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1621B": {
+    "correct_letter": "B",
+    "self_judged": false,
+    "idea": "نفس تصنيف توقيت النزيف التوليدي، بس هنا بعد الولادة بثلاث أسابيع.",
+    "clues": [
+      [
+        "3 weeks after vaginal delivery",
+        "بعد 24 ساعة من الولادة وقبل 12 أسبوع = <bdi>late (secondary) postpartum</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "<bdi>postpartum hemorrhage</bdi> يُصنف حسب التوقيت: <bdi>primary (early)</bdi> خلال أول 24 ساعة، و<bdi>secondary (late)</bdi> من 24 ساعة لين 12 أسبوع.",
+      "النزيف هنا بعد 3 أسابيع من الولادة، فهو ضمن النافذة الثانية، يعني <bdi>late postpartum (secondary) hemorrhage</bdi>، وغالبًا سببه بقايا مشيمية أو <bdi>endometritis</bdi>."
+    ],
+    "when_changes": [
+      "لو النزيف صار خلال أول 24 ساعة بعد الولادة، الجواب يتحول لـ <bdi>early postpartum</bdi>، والسبب الأشيع <bdi>uterine atony</bdi>.",
+      "لو النزيف قبل الولادة أصلًا، الجواب يصير <bdi>antepartum</bdi>."
+    ],
+    "rule": "الحد الفاصل 24 ساعة: قبل كذا <bdi>early</bdi>، وبعده لين 12 أسبوع <bdi>late</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1621C": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "نفس تصنيف النزيف التوليدي بس هنا بعد الولادة بـ10 ساعات فقط.",
+    "clues": [
+      [
+        "10 hours after vaginal delivery",
+        "خلال أول 24 ساعة بعد الولادة = <bdi>early (primary) postpartum</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "النزيف بدأ «بعد 10 ساعات من الولادة المهبلية»، وأي نزيف بعد الولادة وخلال أول 24 ساعة يُصنف <bdi>early (primary) postpartum hemorrhage</bdi>."
+    ],
+    "when_changes": [
+      "لو صار النزيف بعد أكثر من 24 ساعة لين 12 أسبوع، يصير الجواب <bdi>late postpartum</bdi>.",
+      "لو كانت لسا بمخاض وما ولدت، يصير الجواب <bdi>intrapartum</bdi> أو <bdi>antepartum</bdi> حسب حالة عنق الرحم."
+    ],
+    "rule": "<bdi>early = primary</bdi> = خلال 24 ساعة؛ سواء بعد الولادة بـ10 دقايق أو 10 ساعات، النوع نفسه.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1621D": {
+    "correct_letter": "C",
+    "self_judged": false,
+    "idea": "السؤال يبي توضيح إن اتساع عنق الرحم هو العلامة الحاسمة للمخاض، مو عمر الحمل.",
+    "clues": [
+      [
+        "7 cm dilated",
+        "اتساع فعلي لعنق الرحم = مخاض نشط حاصل الآن"
+      ]
+    ],
+    "why_correct": [
+      "العلامة الحاسمة «<bdi>7 cm dilated</bdi>»: المريضة بمخاض نشط فعلًا.",
+      "النزيف اللي يصير أثناء المخاض والولادة يُصنف <bdi>intrapartum</bdi> بغض النظر عن عمر الحمل."
+    ],
+    "when_changes": [
+      "لو نفس عمر الحمل (32 أسبوع) بدون اتساع عنق الرحم أو مخاض، الجواب يصير <bdi>antepartum</bdi>.",
+      "لو النزيف بعد خروج الجنين والمشيمة، يصير <bdi>postpartum</bdi> (مبكر أو متأخر حسب التوقيت)."
+    ],
+    "rule": "لا تخليك كلمة «32 أسبوع» تسحبك لـ <bdi>antepartum</bdi>: اتساع عنق الرحم يعني مخاض، يعني <bdi>intrapartum</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1622": {
+    "correct_letter": "D",
+    "self_judged": false,
+    "idea": "السؤال يختبر قراءة <bdi>CTG</bdi> وتقدم المخاض الطبيعي، وهل يحتاج تدخل أو مجرد متابعة.",
+    "clues": [
+      [
+        "5 cm dilated",
+        "مخاض فعلي بمرحلة نشطة متقدمة بشكل طبيعي"
+      ],
+      [
+        "good variability, and no decelerations",
+        "<bdi>CTG</bdi> مطمئن"
+      ],
+      [
+        "regular and strong",
+        "انقباضات كافية بالقوة"
+      ],
+      [
+        "3 to 4 in 10 minutes",
+        "معدل انقباضات طبيعي (ضمن 3-5 كل 10 دقايق)"
+      ]
+    ],
+    "why_correct": [
+      "اتساع عنق الرحم 5 سم مع انقباضات منتظمة وقوية 3-4 كل 10 دقايق صورة مخاض نشط يتقدم طبيعيًا مع انقباضات كافية.",
+      "الـ<bdi>CTG</bdi> مطمئن: <bdi>baseline</bdi> 140، تنوع جيد، بدون <bdi>decelerations</bdi> (غياب <bdi>accelerations</bdi> لوحده بالمخاض مو مقلق).",
+      "السائل الأمنيوسي صافي، فالخطوة الصح متابعة <bdi>reassurance</bdi> وإعادة التقييم بعد 30-60 دقيقة."
+    ],
+    "when_changes": [
+      "لو ما فيه مخاض من الأساس، الجواب يصير <bdi>induction of labor</bdi>.",
+      "لو الانقباضات ضعيفة ومافي تقدم بعنق الرحم، الجواب يصير <bdi>augmentation</bdi> بـ<bdi>oxytocin</bdi>.",
+      "لو فيه <bdi>non-reassuring CTG</bdi> أو توقف تقدم المخاض رغم انقباضات كافية لـ4 ساعات، الجواب يصير <bdi>emergency cesarean section</bdi>."
+    ],
+    "rule": "<bdi>induction</bdi> = ما فيه مخاض أصلًا؛ <bdi>augmentation</bdi> = فيه مخاض بس ضعيف.",
+    "comparison": null,
+    "labs": [
+      [
+        "Fetal heart baseline",
+        "140 bpm",
+        "110-160 bpm"
+      ]
+    ],
+    "guideline_note": null
+  },
+  "AS-1629": {
+    "correct_letter": "C",
+    "self_judged": true,
+    "idea": "السؤال خياراته مو واضحة بالمصدر، بس الفكرة العامة التخطيط لمنع تكرار <bdi>postpartum hemorrhage</bdi> بحمل جاي بعد <bdi>placental bleeding</bdi> سابق.",
+    "clues": [
+      [
+        "Postpartum bleeding",
+        "تاريخ نزيف سابق مرتبط بمشكلة بالمشيمة"
+      ],
+      [
+        "prevent it in next pregnancy",
+        "السؤال يبي خطة وقائية للحمل القادم"
+      ]
+    ],
+    "why_correct": [
+      "أهم خطوة وقائية حسب المفهوم المذكور بالمصدر هي التخطيط المسبق لمكان وتوقيت الولادة: تحديد موقع المشيمة بالـ<bdi>early ultrasound</bdi> وتحديد توقيت ومكان ولادة آمن (مستشفى فيه بنك دم ومتابعة كبار الأطباء).",
+      "لو كان السبب <bdi>previa</bdi>، الخطة تكون <bdi>elective cesarean section</bdi> بموعد محدد قبل بداية المخاض، وهذا أقرب للخيار اللي يتكلم عن «<bdi>deliver at</bdi> أسبوع معين»."
+    ],
+    "when_changes": [
+      "لو السبب كان <bdi>abruption</bdi> مو <bdi>previa</bdi>، ما فيه توقيت ولادة مبكر ثابت؛ بدل كذا نعتمد على مراقبة دقيقة طوال الحمل.",
+      "لو المريضة مستقرة وما فيه عامل خطر واضح يتكرر، يكفي تصحيح فقر الدم وتفعيل الإدارة الفعالة للمرحلة الثالثة بالولادة."
+    ],
+    "rule": "نزيف مهبلي بدون ألم = <bdi>previa</bdi> (توقيت الولادة المخطط له مهم)؛ نزيف مع ألم = <bdi>abruption</bdi> (الأهم مراقبة دقيقة).",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": "المصدر نفسه ما حدد جواب مؤكد لهذا السؤال وخياراته غير واضحة بالمصدر الأصلي (ناقصة/غير مكتملة)، فهذا اجتهاد مبني على المفهوم العام المذكور بـ<bdi>key concept</bdi> و<bdi>exam pearl</bdi>."
+  },
+  "AS-1631": {
+    "correct_letter": "C",
+    "self_judged": false,
+    "idea": "السؤال يبي أولوية الإنعاش قبل التشخيص بمريضة <bdi>AUB</bdi> عندها فقر دم عرضي.",
+    "clues": [
+      [
+        "drowsy and easily fatigued",
+        "أعراض فقر دم عرضي (مو مجرد رقم مختبر)"
+      ],
+      [
+        "Hb is 7",
+        "فقر دم شديد يحتاج تعويض"
+      ]
+    ],
+    "why_correct": [
+      "نزيف غزير مستمر 15 يوم، مع <bdi>Hb 7</bdi> وأعراض (نعاس وتعب شديد)، يعني فقر دم عرضي مع نزيف فعال، وهذا يستوفي حد نقل الدم.",
+      "الإنعاش يسبق أي خطوة تشخيصية أو نهائية؛ بعد ما تستقر نوصل لسبب النزيف (<bdi>ultrasound</bdi>، أخذ عينة من بطانة الرحم بعمر 45)."
+    ],
+    "when_changes": [
+      "لو كانت مستقرة وبدون أعراض مع <bdi>Hb</bdi> طبيعي أو قريب الطبيعي، الخطوة الأولى تصير <bdi>ultrasound</bdi> كجزء من تقييم <bdi>AUB</bdi>.",
+      "لو فشل العلاج الدوائي بإيقاف النزيف الغزير، الجواب يتحول لـ <bdi>D&C</bdi>."
+    ],
+    "rule": "نعاس أو إغماء أو تعب مع <bdi>Hb</bdi> منخفض يحول القرار من «نشخص» إلى «ننقل دم أولًا».",
+    "comparison": null,
+    "labs": [
+      [
+        "Hemoglobin",
+        "7 g/dL",
+        "12-15.5 g/dL"
+      ]
+    ],
+    "guideline_note": null
+  },
+  "AS-1637": {
+    "correct_letter": "C",
+    "self_judged": false,
+    "idea": "السؤال يختبر اختيار وسيلة منع حمل فعالة وآمنة بعد تاريخ <bdi>VTE</bdi>.",
+    "clues": [
+      [
+        "history of pulmonary embolism",
+        "تاريخ <bdi>VTE</bdi> يمنع أي وسيلة فيها <bdi>estrogen</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "تاريخ <bdi>pulmonary embolism</bdi> قبل 3 سنين يعني أي وسيلة فيها <bdi>estrogen</bdi> غير مقبولة لأنه يرفع خطر التجلط.",
+      "المريضة تبي وسيلة «فعالة»، وأفضل خيار <bdi>intrauterine device</bdi>: ما فيه <bdi>estrogen</bdi> ومن أكثر الوسائل العكوسة فعالية (<bdi>copper IUD</bdi> أو <bdi>levonorgestrel IUS</bdi> مقبولين بعد <bdi>VTE</bdi>)."
+    ],
+    "when_changes": [
+      "لو ما فيه تاريخ <bdi>VTE</bdi> أصلًا وتبي راحة بدون أجهزة، ممكن تصير حبوب <bdi>combined</bdi> خيار مقبول.",
+      "لو تبي وسيلة بدون جهاز رحمي وما تمانع فعالية أقل مع أمان من ناحية التجلط، الخيار يصير <bdi>progestin-only pill</bdi>."
+    ],
+    "rule": "أي وسيلة فيها <bdi>estrogen</bdi> (حبوب مركبة، لاصقة، حلقة مهبلية) ممنوعة بعد <bdi>DVT</bdi> أو <bdi>PE</bdi>؛ الجواب <bdi>LARC</bdi> بدون <bdi>estrogen</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1644": {
+    "correct_letter": "B",
+    "self_judged": false,
+    "idea": "السؤال يبي تشخيص ورم رحمي بعد سن اليأس كبر بدل ما يصغر.",
+    "clues": [
+      [
+        "post-menopausal",
+        "الـ<bdi>fibroids</bdi> المفروض تصغر بعد سن اليأس"
+      ],
+      [
+        "tamoxifen",
+        "خطر معروف لمشاكل بطانة الرحم"
+      ],
+      [
+        "intramural uterine fibroid measuring 5 x 8 cm",
+        "نمو كبير من 2×3 إلى 5×8 سم بعد سن اليأس"
+      ]
+    ],
+    "why_correct": [
+      "الـ<bdi>fibroids</bdi> معتمدة على <bdi>estrogen</bdi> وتصغر طبيعيًا بعد سن اليأس.",
+      "هنا ورم داخل جدار الرحم كبر من 2×3 إلى 5×8 سم بعد سن اليأس مع نزيف جديد، وهذي العلامة التحذيرية الكلاسيكية لـ <bdi>leiomyosarcoma</bdi>.",
+      "بطانة الرحم <bdi>homogenous</bdi> بسماكة 5 مم تجعل سبب بطانة الرحم أقل احتمالًا رغم استخدام <bdi>tamoxifen</bdi>."
+    ],
+    "when_changes": [
+      "لو كان الورم مستقر أو يصغر بعد سن اليأس، الجواب يصير <bdi>leiomyoma</bdi> حميد.",
+      "لو بطانة الرحم سميكة أو غير منتظمة مع نزيف بعد سن اليأس، الجواب يتحول لـ <bdi>endometrial adenocarcinoma</bdi> ونحتاج خزعة بطانة الرحم."
+    ],
+    "rule": "ورم ليفي ثابت مع نزيف بعد سن اليأس: اشك ببطانة الرحم؛ ورم ليفي يكبر بعد سن اليأس: فكر بـ<bdi>sarcoma</bdi>.",
+    "comparison": null,
+    "labs": [
+      [
+        "Endometrial thickness",
+        "5 mm",
+        "≤4-5 mm postmenopausal"
+      ]
+    ],
+    "guideline_note": null
+  },
+  "AS-1645": {
+    "correct_letter": "B",
+    "self_judged": false,
+    "idea": "السؤال يبي علاج <bdi>fibroid</bdi> بمريضة تبي تحافظ على الخصوبة.",
+    "clues": [
+      [
+        "infertility clinic",
+        "تحتاج علاج يحافظ على الرحم والخصوبة"
+      ],
+      [
+        "fibroid",
+        "السبب المحتمل للعقم هنا"
+      ]
+    ],
+    "why_correct": [
+      "عمرها 35 وتراجع عيادة <bdi>infertility</bdi>، فأي علاج لازم يحافظ على الرحم ويسمح بالحمل.",
+      "<bdi>myomectomy</bdi> يشيل الورم الليفي مع الحفاظ على الخصوبة (<bdi>hysteroscopic</bdi> للـ<bdi>submucosal</bdi>، أو <bdi>laparoscopic/open</bdi> للـ<bdi>intramural/subserosal</bdi>)، وهو الخيار لما يكون الورم سبب محتمل للعقم."
+    ],
+    "when_changes": [
+      "لو كانت لا تبي حمل وتعاني من نزيف غزير فقط، الجواب يصير <bdi>LNG-IUS</bdi> أو علاج دوائي.",
+      "لو كانت أكملت أسرتها ومعاها أعراض شديدة، الجواب يتحول لـ <bdi>hysterectomy</bdi>."
+    ],
+    "rule": "رغبة الخصوبة هي الفيصل: <bdi>myomectomy</bdi> لو تبي أطفال، <bdi>hysterectomy</bdi> لو أسرتها مكتملة.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1667": {
+    "correct_letter": "C",
+    "self_judged": false,
+    "idea": "السؤال يبي تحديد نوع التوأم (<bdi>chorionicity/amnionicity</bdi>) من علامات السونار.",
+    "clues": [
+      [
+        "lambda sign",
+        "علامة <bdi>dichorionic</bdi> (كوريونين منفصلين)"
+      ],
+      [
+        "thick wall",
+        "غشاء سميك = طبقتين كوريون وطبقتين أمنيون"
+      ]
+    ],
+    "why_correct": [
+      "علامة <bdi>lambda (twin peak) sign</bdi> هي نسيج كوريوني داخل في قاعدة الغشاء الفاصل، وما تصير إلا مع وجود كوريونين منفصلين.",
+      "الغشاء السميك كمان يعكس طبقتين كوريون وطبقتين أمنيون، فالصورة مع بعض تعني <bdi>dichorionic diamniotic (Di Di)</bdi> twins."
+    ],
+    "when_changes": [
+      "لو الغشاء رفيع ويلتقي بالمشيمة بزاوية قائمة (<bdi>T sign</bdi>)، الجواب يتحول لـ <bdi>monochorionic diamniotic</bdi>.",
+      "لو ما فيه غشاء فاصل أصلًا، الجواب يصير <bdi>monochorionic monoamniotic</bdi> ونفكر بخطر تشابك الحبل السري."
+    ],
+    "rule": "<bdi>lambda</bdi> = كوريونين (<bdi>Di Di</bdi>)؛ <bdi>T sign</bdi> = كوريون واحد، وغشاء رفيع مع <bdi>T sign</bdi> يعني خطر <bdi>twin to twin transfusion</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1686": {
+    "correct_letter": "D",
+    "self_judged": false,
+    "idea": "السؤال يبي خطة علاج سرطان المبيض الكبير بدون انتشار بعيد.",
+    "clues": [
+      [
+        "Ovarian cancer",
+        "ورم خبيث بالمبيض"
+      ],
+      [
+        "large",
+        "حجم كبير بس لحاله ما يحدد القرار"
+      ],
+      [
+        "no mets",
+        "بدون انتشار بعيد = قابل للاستئصال"
+      ]
+    ],
+    "why_correct": [
+      "سرطان المبيض يُقيّم ويُعالج جراحيًا بالأساس.",
+      "مع ورم كبير وبدون انتشار بعيد (<bdi>no mets</bdi>)، المرض قابل للاستئصال، فالخطوة الأولى <bdi>surgical resection</bdi> مع <bdi>staging</bdi> كامل (استئصال رحم، مبايض، <bdi>omentectomy</bdi>، أخذ عينات من الصفاق والعقد).",
+      "العلاج الكيميائي المساعد يُقرر بعد كذا حسب مرحلة وتصنيف الورم الجراحي."
+    ],
+    "when_changes": [
+      "لو المرض منتشر وواسع وما يتوقع استئصاله كامل أو المريضة غير مهيأة للجراحة، الجواب يتحول لـ <bdi>neoadjuvant chemotherapy</bdi> ثم جراحة لاحقة.",
+      "لو ما فيه إمكانية جراحة إطلاقًا، العلاج الكيميائي يصير الخط الأساسي لوحده."
+    ],
+    "rule": "كلمة «<bdi>large</bdi>» لوحدها ما تعني إن الورم غير قابل للاستئصال؛ الحجم وحده ما يحولك لـ<bdi>neoadjuvant chemo</bdi> إذا ما فيه انتشار.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0277": {
+    "correct_letter": "B",
+    "self_judged": false,
+    "idea": "الصورة هنا <bdi>optic neuritis</bdi> بسبب <bdi>Multiple Sclerosis</bdi>، والسؤال يبي <bdi>initial management</bdi> للنوبة الحادة، مو علاج يمنع النكسات المستقبلية.",
+    "clues": [
+      [
+        "sudden, painless loss of vision",
+        "فقدان بصر مفاجئ وبدون ألم يرجح <bdi>optic neuritis</bdi>"
+      ],
+      [
+        "relative afferent pupillary defect",
+        "<bdi>RAPD</bdi> دليل على مشكلة بـ<bdi>optic nerve</bdi> بنفس الجهة"
+      ],
+      [
+        "oligoclonal band",
+        "<bdi>CSF oligoclonal bands</bdi> يدعم تشخيص <bdi>MS</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "فقدان بصر مفاجئ وبدون ألم بامرأة بعمر 32 سنة مع <bdi>RAPD</bdi> و<bdi>fundus</bdi> طبيعي (يعني <bdi>retrobulbar optic neuritis</bdi>) مع <bdi>CSF oligoclonal bands</bdi> يعطينا <bdi>optic neuritis</bdi> بسبب <bdi>MS</bdi>.",
+      "العلاج الأولي للنوبة الحادة من <bdi>demyelinating attack</bdi> هو <bdi>IV methylprednisolone</bdi> بجرعة عالية (حوالي 1 غرام يوميًا لعدة أيام)، وهذا يسرّع رجوع البصر.",
+      "مراجعة الملف أو العلاج الفموي مو الخيار المعياري هنا لأنه يرتبط بزيادة النكسات حسب الدراسات."
+    ],
+    "when_changes": [
+      "لو السؤال يبي الدواء اللي يقلل النكسات على المدى الطويل (<bdi>disease-modifying therapy</bdi>)، الجواب يصير <bdi>interferon beta</bdi> أو غيره مو <bdi>steroid</bdi>.",
+      "لو ما في استجابة للـ<bdi>steroids</bdi> بنوبة شديدة، الخطوة التالية تصير <bdi>plasmapheresis</bdi>."
+    ],
+    "rule": "«<bdi>initial management</bdi>» للنوبة الحادة = <bdi>IV steroids</bdi>؛ أما أدوية منع النكسات فتجاوب على سؤال مختلف.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0283": {
+    "correct_letter": "B",
+    "self_judged": false,
+    "idea": "مريضة <bdi>rheumatoid arthritis</bdi> على أدوية مثبطة للمناعة وعندها ركبة واحدة متورمة وحرارة خفيفة — هذا <bdi>septic arthritis</bdi> لحد ما يثبت العكس، والخطوة الأولى هي سحب السائل من المفصل.",
+    "clues": [
+      [
+        "rheumatoid arthritis",
+        "خلفية <bdi>RA</bdi> تخليها عرضة لـ<bdi>septic arthritis</bdi>"
+      ],
+      [
+        "low-grade fever",
+        "حرارة خفيفة تدعم وجود <bdi>infection</bdi>"
+      ],
+      [
+        "prednisone, methotrexate, and etanercept",
+        "أدوية تثبط المناعة (<bdi>immunosuppression</bdi>) وتخفي أعراض الالتهاب"
+      ],
+      [
+        "swollen and tender left knee",
+        "مفصل واحد متورم أكثر من باقي المفاصل = إنذار بالعدوى"
+      ]
+    ],
+    "why_correct": [
+      "مفصل واحد متورم ومؤلم بشكل حاد مع حرارة خفيفة بمريضة <bdi>RA</bdi> تاخذ <bdi>prednisone</bdi> و<bdi>methotrexate</bdi> و<bdi>etanercept</bdi> (مثبطات مناعة) يخليها بخطر عالي لـ<bdi>septic arthritis</bdi> لحد ما نثبت العكس.",
+      "<bdi>Arthrocentesis</bdi> مع <bdi>Gram stain</bdi> و<bdi>culture</bdi> و<bdi>cell count</bdi> والكريستالات هي الخطوة الأولى، مع <bdi>blood cultures</bdi> قبل البدء بالمضادات الحيوية.",
+      "الالتهاب الخفيف بمفاصل الأصابع هو مجرد نشاط <bdi>RA</bdi> المعتاد عندها، مو السبب بهالنوبة."
+    ],
+    "when_changes": [
+      "لو كانت كل المفاصل ملتهبة بنفس الدرجة بدون مفصل واحد بارز، الصورة تصير نكسة <bdi>RA</bdi> عادية مو <bdi>septic arthritis</bdi>.",
+      "لو جاء تحليل السائل بعدها وطلع كريستالات، الجواب يتجه لـ<bdi>gout</bdi> أو <bdi>pseudogout</bdi> بدل العدوى."
+    ],
+    "rule": "مفصل واحد يشتعل بشكل غير متناسب بمريض <bdi>RA</bdi> = <bdi>septic arthritis</bdi> مو نكسة عادية، والخطوة الأولى دايمًا سحب السائل.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0292": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "شاب عنده <bdi>severe asthma exacerbation</bdi> ومعه تاريخ <bdi>intubation</bdi> سابق، وما تحسن بعد ساعة من العلاج القياسي — هذا يحدد مكان القبول المناسب.",
+    "clues": [
+      [
+        "severe asthma exacerbation",
+        "درجة النوبة شديدة من البداية"
+      ],
+      [
+        "respiratory distress",
+        "علامة إنذار مستمرة"
+      ],
+      [
+        "After 1 hour of systemic glucocorticoid and B2 agonist nebulizer, he still appeared in respiratory distress",
+        "فشل الاستجابة للعلاج الأولي خلال الساعة الأولى"
+      ]
+    ],
+    "why_correct": [
+      "عنده نوبة شديدة وتاريخ <bdi>intubation</bdi> قبل سنتين، وبعد ساعة من <bdi>systemic glucocorticoid</bdi> و<bdi>nebulized beta-2 agonist</bdi> ما زال بـ<bdi>respiratory distress</bdi>.",
+      "التاريخ السابق للـ<bdi>intubation</bdi> يحدد إنه بخطر عالي للـ<bdi>fatal asthma</bdi>، وفشل الاستجابة يعني احتمال التدهور لفشل تنفسي.",
+      "لذلك القبول بـ<bdi>ICU</bdi> هو الأنسب للمراقبة الدقيقة والتصعيد (مثل <bdi>IV magnesium</bdi> أو التنفس الصناعي عند الحاجة)."
+    ],
+    "when_changes": [
+      "لو تحسن بشكل جيد بعد الساعة الأولى وما عنده عوامل خطر، الجواب يصير الخروج مع متابعة.",
+      "لو كانت الاستجابة جزئية بدون عوامل خطر عالية، الجواب يصير القبول بالقسم العام."
+    ],
+    "rule": "تاريخ <bdi>intubation</bdi> سابق + عدم تحسن بعد ساعة من العلاج = <bdi>ICU</bdi>، مو القسم العام.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0300": {
+    "correct_letter": "C",
+    "self_judged": false,
+    "idea": "مريض على <bdi>atorvastatin</bdi> و<bdi>lisinopril</bdi> و<bdi>thiazide</bdi> وعنده ضعف وآلام عضلية عامة — هذا عرض جانبي معروف لدواء واحد بالذات.",
+    "clues": [
+      [
+        "atorvastatin",
+        "الدواء المرتبط كلاسيكيًا بآلام العضلات"
+      ],
+      [
+        "muscle weakness and generalized muscle aches",
+        "نمط الأعراض يطابق <bdi>statin myopathy</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "<bdi>Muscle weakness</bdi> مع <bdi>generalized muscle aches</bdi> بمريض على <bdi>atorvastatin</bdi> هي <bdi>statin-associated muscle symptoms</bdi> (من <bdi>myalgia</bdi> إلى <bdi>myopathy</bdi> ونادرًا <bdi>rhabdomyolysis</bdi>).",
+      "هذا هو العرض الجانبي الكلاسيكي لـ<bdi>statins</bdi>، ويلزم فحص <bdi>CK</bdi> ووظائف الكلى وإيقاف أو تغيير الدواء إذا ارتفع <bdi>CK</bdi> أو كانت الأعراض لا تحتمل."
+    ],
+    "when_changes": [
+      "لو كانت الأعراض ضعف فقط مع انخفاض بوتاسيوم أو تقلصات عضلية، الجواب يتحول لـ<bdi>thiazide</bdi>.",
+      "لو ظهر بول غامق وارتفاع شديد بـ<bdi>CK</bdi>، الصورة تصير <bdi>rhabdomyolysis</bdi> مو مجرد <bdi>myalgia</bdi>."
+    ],
+    "rule": "آلام مع ضعف عضلي منتشر على <bdi>statin</bdi> = <bdi>statin myopathy</bdi>؛ ضعف مع بوتاسيوم منخفض على <bdi>thiazide</bdi> = سبب الـ<bdi>diuretic</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0315": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "صوت <bdi>click</bdi> منتصف إلى آخر <bdi>systole</bdi> عند القمة مع تغير بالمناورات هو توقيع <bdi>Mitral Valve Prolapse</bdi>.",
+    "clues": [
+      [
+        "late systolic click",
+        "العلامة المميزة لـ<bdi>MVP</bdi>"
+      ],
+      [
+        "increased with standing and diminished with handgrip",
+        "استجابة مميزة لـ<bdi>MVP</bdi> وتختلف عن باقي أسباب <bdi>MR</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "<bdi>Click</bdi> منتصف إلى آخر <bdi>systole</bdi> عند القمة هو العلامة المميزة لـ<bdi>Mitral Valve Prolapse</bdi>.",
+      "<bdi>Standing</bdi> يقلل العود الوريدي وحجم البطين الأيسر، فتتدلى الصمامات أبكر ويطول الـ<bdi>murmur</bdi> ويزيد صوته.",
+      "<bdi>Handgrip</bdi> يرفع <bdi>afterload</bdi> ويكبر البطين الأيسر، فيتأخر الـ<bdi>click</bdi> ويخف الصوت."
+    ],
+    "when_changes": [
+      "لو كان الصوت <bdi>holosystolic</bdi> بدون <bdi>click</bdi> ويزيد مع <bdi>handgrip</bdi>، الجواب يتحول لأحد أنواع <bdi>mitral regurgitation</bdi>.",
+      "لو كان الصوت يزيد مع <bdi>standing</bdi> لكن بصوت خشن عند الحافة القصية اليسرى بدون <bdi>click</bdi>، نفكر بـ<bdi>HOCM</bdi>."
+    ],
+    "rule": "وجود <bdi>click</bdi> = <bdi>MVP</bdi>؛ نفس استجابة المناورات مع صوت خشن بدون <bdi>click</bdi> = <bdi>HOCM</bdi>.",
+    "comparison": {
+      "headers": [
+        "الحالة",
+        "عند الوقوف",
+        "عند القبض"
+      ],
+      "rows": [
+        [
+          "<bdi>MVP</bdi>",
+          "يزيد (click أبكر)",
+          "يخف"
+        ],
+        [
+          "<bdi>MR</bdi> (أي سبب)",
+          "يخف",
+          "يزيد"
+        ],
+        [
+          "<bdi>HOCM</bdi>",
+          "يزيد",
+          "يخف"
+        ]
+      ]
+    },
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0317": {
+    "correct_letter": "C",
+    "self_judged": false,
+    "idea": "مريض <bdi>sickle cell</bdi> بـ<bdi>acute chest syndrome</bdi> شديد مع ارتشاح رئوي بالجهتين — هذا يحتاج علاج يخفض نسبة <bdi>HbS</bdi> بسرعة.",
+    "clues": [
+      [
+        "sickle cell",
+        "مرض أساسي يفسر <bdi>vaso-occlusion</bdi> بالرئة"
+      ],
+      [
+        "acute chest syndrome",
+        "صورة حادة خطيرة بـ<bdi>sickle cell</bdi>"
+      ],
+      [
+        "bilateral lung infiltrates",
+        "علامة على شدة المرض"
+      ]
+    ],
+    "why_correct": [
+      "ارتشاح بالجهتين بـ<bdi>acute chest syndrome</bdi> يدل على مرض شديد، والمرض الشديد مؤشر لـ<bdi>exchange transfusion</bdi>.",
+      "<bdi>Exchange transfusion</bdi> يخفض نسبة <bdi>HbS</bdi> بسرعة بدون ما يرفع اللزوجة، وهذا يحسّن الأكسجة ويوقف تفاقم <bdi>sickling</bdi> بالرئة.",
+      "يُعطى مع الأكسجين والسوائل ومسكنات الألم والمضادات الحيوية."
+    ],
+    "when_changes": [
+      "لو كانت الحالة خفيفة بدون ارتشاح بالجهتين، الجواب يتحول لـ<bdi>simple transfusion</bdi>.",
+      "لو السؤال يبي العلاج اللي يقلل النوبات المستقبلية، الجواب يصير <bdi>hydroxyurea</bdi>."
+    ],
+    "rule": "«العلاج الأنسب» لنوبة حادة شديدة = <bdi>exchange transfusion</bdi>؛ «تقليل النوبات المستقبلية» = <bdi>hydroxyurea</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0318": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "انهيار المريض خلال 15 دقيقة من بدء نقل الدم مع انخفاض ضغط ونقص أكسجين هو توقيت وشدة <bdi>acute hemolytic transfusion reaction</bdi>.",
+    "clues": [
+      [
+        "by 15 minutes",
+        "توقيت مبكر جدًا يميز <bdi>acute hemolytic reaction</bdi>"
+      ],
+      [
+        "hypotensive",
+        "شدة الاستجابة تدل على انحلال دموي داخل الأوعية"
+      ]
+    ],
+    "why_correct": [
+      "انهيار خلال <bdi>15 minutes</bdi> من بدء نقل الدم مع <bdi>hypotension</bdi> ونقص أكسجين (<bdi>SpO2 88%</bdi>) هو التوقيت والشدة الكلاسيكية لـ<bdi>acute hemolytic transfusion reaction</bdi>، غالبًا بسبب خطأ بتوافق <bdi>ABO</bdi>.",
+      "الانحلال داخل الأوعية يطلق وسائط التهابية تسبب صدمة، ضيق تنفس، حرارة، وألم بالصدر أو الظهر.",
+      "الخطوة الأولى دايمًا إيقاف نقل الدم فورًا والحفاظ على الوريد بمحلول ملحي وإرسال عينات لإعادة فحص التوافق."
+    ],
+    "when_changes": [
+      "لو كانت الصورة نقص أكسجين مع ارتشاح رئوي بالجهتين خلال 6 ساعات بدون انهيار سريع، الجواب يصير <bdi>TRALI</bdi>.",
+      "لو كانت الأعراض <bdi>urticaria</bdi> فقط بدون صدمة، الجواب يصير <bdi>allergic reaction</bdi>."
+    ],
+    "rule": "انخفاض ضغط مع حرارة وألم خلال دقائق من نقل الدم = انحلال دموي حاد؛ انخفاض ضغط مع <bdi>urticaria</bdi> وصفير بدون حرارة = <bdi>anaphylaxis</bdi>.",
+    "comparison": null,
+    "labs": [
+      [
+        "SpO2",
+        "88%",
+        "≥ 95%"
+      ]
+    ],
+    "guideline_note": null
+  },
+  "AS-0321": {
+    "correct_letter": "D",
+    "self_judged": false,
+    "idea": "نزيف دماغي خطير (<bdi>subdural hematoma</bdi>) على <bdi>warfarin</bdi> يحتاج عكس فوري وسريع للـ<bdi>INR</bdi> قبل الجراحة، حتى بعد إعطاء <bdi>vitamin K</bdi>.",
+    "clues": [
+      [
+        "On Warfarin",
+        "سبب ارتفاع <bdi>INR</bdi>"
+      ],
+      [
+        "Subdural Hematoma",
+        "نزيف داخل الجمجمة مهدد للحياة"
+      ],
+      [
+        "Already Received Vitamin K",
+        "تأثيره بطيء ويحتاج ساعات"
+      ],
+      [
+        "Requires Urgent Surgical Evacuation",
+        "يفرض عكس فوري للـ<bdi>INR</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "<bdi>Subdural hematoma</bdi> على <bdi>warfarin</bdi> نزيف مهدد للحياة ويحتاج إخلاء جراحي عاجل، فلازم نعكس الـ<bdi>INR</bdi> فورًا.",
+      "<bdi>Vitamin K</bdi> أُعطي لكنه يحتاج ساعات ليشتغل، فنحتاج تعويض سريع لعوامل التخثر.",
+      "<bdi>4-Factor PCC</bdi> يعوّض العوامل II وVII وIX وX بحجم صغير خلال دقائق، وهو المفضل على <bdi>FFP</bdi> بحالات العكس العاجل."
+    ],
+    "when_changes": [
+      "لو كان <bdi>PCC</bdi> غير متوفر بين الخيارات، الجواب يصير <bdi>FFP</bdi> مع <bdi>vitamin K</bdi>.",
+      "لو ما في نزيف نشط والـ<bdi>INR</bdi> بس مرتفع، الجواب يصير إيقاف <bdi>warfarin</bdi> و<bdi>vitamin K</bdi> فموي بدون عوامل تخثر."
+    ],
+    "rule": "نزيف مهدد للحياة على <bdi>warfarin</bdi> = <bdi>vitamin K</bdi> + <bdi>4-factor PCC</bdi> (أو <bdi>FFP</bdi> إذا غير متوفر)، مو انتظار الـ<bdi>vitamin K</bdi> لوحده.",
+    "comparison": null,
+    "labs": [
+      [
+        "INR",
+        "3.9",
+        "0.8-1.2 (therapeutic ~2-3 on warfarin)"
+      ]
+    ],
+    "guideline_note": null
+  },
+  "AS-1308": {
+    "correct_letter": "C",
+    "self_judged": false,
+    "idea": "هذا <bdi>screening</bdi> روتيني لقى عنده كوم من <bdi>modifiable cardiovascular risk factors</bdi> (<bdi>glucose</bdi>، <bdi>blood pressure</bdi>، <bdi>obesity</bdi>، <bdi>smoking</bdi>)، والسؤال يبي الخطوة الأولى الصح، مو علاج واحد بس.",
+    "clues": [
+      [
+        "abnormal fasting glucose",
+        "<bdi>impaired fasting glucose</bdi> — عامل خطر قابل للتعديل"
+      ],
+      [
+        "high blood preesure readings",
+        "<bdi>BP</bdi> مرتفع بس لسا ما تأكد بقراءات متكررة"
+      ],
+      [
+        "BMI is 31",
+        "<bdi>obesity</bdi>"
+      ],
+      [
+        "significant smoking",
+        "أهم عامل خطر <bdi>cardiovascular</bdi> قابل للتعديل"
+      ]
+    ],
+    "why_correct": [
+      "عنده مجموعة <bdi>modifiable risk factors</bdi> مع بعض: <bdi>impaired fasting glucose</bdi>، <bdi>high BP</bdi> (غير مؤكد لسا)، <bdi>BMI 31</bdi>، <bdi>smoking</bdi>، أكل سريع وقلة حركة، مع <bdi>cholesterol</bdi> مرتفع.",
+      "السؤال يسأل عن الخطوة <bdi>initial</bdi>، وهي تغيير نمط الحياة الشامل: ترك <bdi>smoking</bdi>، <bdi>exercise</bdi>، <bdi>diet</bdi> وتخفيف الوزن، مع <bdi>follow up</bdi> لإعادة قياس <bdi>BP</bdi> و<bdi>glucose</bdi> و<bdi>lipids</bdi> قبل أي قرار دوائي.",
+      "الخيار B (مراجعة الملف... لا، هذا السؤال مختلف) — الخيار A (تخفيف الوزن فقط) كشف جزء من المشكلة بس ما يغطي كل العوامل."
+    ],
+    "when_changes": [
+      "لو تأكد <bdi>BP</bdi> بقراءات متكررة وطلع <bdi>stage 2 HTN</bdi> أو عنده <bdi>target organ damage</bdi>، يصير الجواب البدء بدواء مباشرة مع تغيير نمط الحياة.",
+      "لو <bdi>LDL</bdi> كان 4.9 <bdi>mmol/L</bdi> أو أعلى (190 <bdi>mg/dL</bdi>)، يصير <bdi>statin</bdi> لازم بغض النظر عن باقي الخطر."
+    ],
+    "rule": "«<bdi>initial step</bdi>» مع عدة عوامل خطر = الجواب اللي يجمع كل تغييرات نمط الحياة سوا، مو عامل واحد لحاله.",
+    "comparison": null,
+    "labs": [
+      [
+        "LDL",
+        "4.03 mmol/L",
+        "أقل من 4.9 mmol/L (190 mg/dL) حد الـ statin الإلزامي"
+      ],
+      [
+        "Total cholesterol",
+        "7.04 mmol/L",
+        "أقل من 5.2 mmol/L (200 mg/dL) مرغوب"
+      ],
+      [
+        "BMI",
+        "31",
+        "18.5-24.9 طبيعي، 30 فأعلى obese"
+      ]
+    ],
+    "guideline_note": null
+  },
+  "AS-1314": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "<bdi>hypertensive smoker</bdi> كبير بالعمر عنده <bdi>exertional dyspnea</bdi> و<bdi>basal crackles</bdi>، والسؤال يبي التحليل الأكثر فايدة لتشخيص <bdi>ventricular dysfunction</bdi>.",
+    "clues": [
+      [
+        "dyspnoea on exertion",
+        "عرض <bdi>heart failure</bdi> الكلاسيكي"
+      ],
+      [
+        "long standing hypertension",
+        "عامل خطر لـ<bdi>LV dysfunction</bdi>"
+      ],
+      [
+        "rare crackles at the bases of the lungs",
+        "احتقان رئوي خفيف"
+      ]
+    ],
+    "why_correct": [
+      "المريض <bdi>hypertensive smoker</bdi> من فترة طويلة، عنده <bdi>exertional dyspnea</bdi> و<bdi>basal crackles</bdi>، فالشك قوي بـ<bdi>left ventricular dysfunction</bdi> (<bdi>heart failure</bdi>).",
+      "<bdi>BNP</bdi> (أو <bdi>NT-proBNP</bdi>) يطلع من عضلة البطين وهو ممطوط، فهو أكثر تحليل دم يساعد يكشف <bdi>ventricular dysfunction</bdi>؛ وإذا كان طبيعي فده يبعد <bdi>heart failure</bdi>.",
+      "نفس الفكرة تنطبق على مريض <bdi>COPD</bdi> بعرض <bdi>SOB</bdi> و<bdi>crackles</bdi> و<bdi>leg edema</bdi> — يطلب <bdi>pro-BNP</bdi>."
+    ],
+    "when_changes": [
+      "لو السؤال يبي تحليل لتشخيص <bdi>acute coronary syndrome</bdi> (ألم صدر، تغيرات <bdi>ischemic ECG</bdi>)، الجواب يصير <bdi>troponin</bdi>.",
+      "لو السؤال يبي علامة <bdi>inflammation</bdi> عامة، الجواب يصير <bdi>CRP</bdi>."
+    ],
+    "rule": "<bdi>dyspnea</bdi> + <bdi>crackles</bdi> + «كشف <bdi>LV dysfunction</bdi>» = <bdi>BNP</bdi>؛ أما ألم الصدر الإقفاري فجوابه <bdi>troponin</bdi>.",
+    "comparison": {
+      "headers": [
+        "التحليل",
+        "يكشف"
+      ],
+      "rows": [
+        [
+          "BNP / NT-proBNP",
+          "Ventricular dysfunction / heart failure"
+        ],
+        [
+          "Troponin T",
+          "Myocardial necrosis / ACS"
+        ],
+        [
+          "CK (CK-MB)",
+          "Myocardial injury / infarction"
+        ],
+        [
+          "CRP",
+          "Non-specific inflammation"
+        ]
+      ]
+    },
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0164": {
+    "correct_letter": "B",
+    "self_judged": false,
+    "idea": "الحالة عندها <bdi>symptomatic carotid stenosis</bdi> بعد <bdi>recurrent TIA</bdi>، والسؤال يبي الإدارة الصح حسب درجة الضيق.",
+    "clues": [
+      [
+        "recurrent TIA",
+        "<bdi>symptomatic</bdi> مو <bdi>asymptomatic</bdi>، حتى لو الحين ما فيه أعراض"
+      ],
+      [
+        "narrowing 70-90%",
+        "ضيق شديد (<bdi>70-99%</bdi>) يستاهل <bdi>intervention</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "<bdi>symptomatic carotid stenosis</bdi> بدرجة <bdi>70-99%</bdi> في <bdi>surgical candidate</bdi> هو أقوى استطباب لـ<bdi>carotid endarterectomy (CEA)</bdi>، والأفضل خلال أسبوعين من الحدث.",
+      "<bdi>CEA</bdi> يقلل خطر السكتة المستقبلية أكثر بكثير من العلاج الدوائي لوحده بهالدرجة من الضيق."
+    ],
+    "when_changes": [
+      "لو الضيق صار أقل من <bdi>50%</bdi>، الجواب يصير <bdi>best medical therapy</bdi> فقط بدون جراحة.",
+      "لو المريض <bdi>asymptomatic</bdi> من الأساس (بدون <bdi>TIA</bdi>)، الإدارة الأساسية تصير دوائية مع متابعة."
+    ],
+    "rule": "أي <bdi>symptomatic carotid stenosis</bdi> من <bdi>70 إلى 99%</bdi> جوابها <bdi>CEA</bdi>، مو مراقبة ولا تعديل العلاج الدوائي بس.",
+    "comparison": null,
+    "labs": [
+      [
+        "LDL",
+        "فوق الطبيعي بشكل بسيط",
+        "طبيعي حسب المختبر (مرتفع قليلاً هنا)"
+      ]
+    ],
+    "guideline_note": null
+  },
+  "AS-0165": {
+    "correct_letter": "B",
+    "self_judged": false,
+    "idea": "<bdi>diabetic</bdi> مع علامات <bdi>pus collection</bdi> أو <bdi>necrotizing infection</bdi> بالساق، والسؤال يبي الإدارة الفورية.",
+    "clues": [
+      [
+        "Diabetic",
+        "خطر أعلى لعدوى شديدة وسريعة الانتشار"
+      ],
+      [
+        "inflamed, tender",
+        "التهاب فعّال، مو مجرد وذمة"
+      ],
+      [
+        "skin discoloration, Fluctuance",
+        "علامة على <bdi>collection</bdi> أو <bdi>necrotizing infection</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "وجود <bdi>fluctuance</bdi> و<bdi>skin discoloration</bdi> بمريض <bdi>diabetic</bdi> معناه فيه <bdi>pus collection</bdi> أو عدوى نخرية، وهذا <bdi>surgical emergency</bdi>.",
+      "<bdi>surgical exploration</bdi> مع <bdi>drainage</bdi> و<bdi>debridement</bdi> (مع مضاد حيوي وريدي) يأكد <bdi>diagnosis</bdi> ويتحكم بمصدر العدوى فورًا.",
+      "التأخير بانتظار الفحوصات يسوي العاقبة أسوأ في هالنوع من العدوى."
+    ],
+    "when_changes": [
+      "لو ما فيه <bdi>fluctuance</bdi> وبس <bdi>cellulitis</bdi> بسيط، الجواب يصير مضاد حيوي وريدي فقط.",
+      "لو التشخيص مو واضح والمريض <bdi>stable</bdi>، ممكن <bdi>imaging</bdi> يدخل كخطوة إضافية."
+    ],
+    "rule": "متى ما ذُكر <bdi>fluctuance</bdi> أو <bdi>skin discoloration</bdi> بمريض <bdi>diabetic</bdi>، الجواب دايمًا <bdi>surgical exploration</bdi> مو أي <bdi>scan</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0166": {
+    "correct_letter": "D",
+    "self_judged": false,
+    "idea": "السؤال يبي النمط المقلق لـ<bdi>nipple discharge</bdi> اللي يحتاج <bdi>imaging</bdi>.",
+    "clues": [
+      [
+        "nipple discharge",
+        "النمط (<bdi>spontaneous</bdi>، <bdi>unilateral</bdi>، <bdi>single duct</bdi>) أهم من اللون"
+      ]
+    ],
+    "why_correct": [
+      "<bdi>pathological discharge</bdi> نمطه <bdi>spontaneous</bdi> + <bdi>unilateral</bdi> + <bdi>single duct</bdi>، وهذا يرمز لآفة بقناة واحدة مثل <bdi>intraductal papilloma</bdi> أو أندر <bdi>carcinoma</bdi>.",
+      "اللون (<bdi>clear</bdi> أو دموي) أقل أهمية من كون الإفراز من فتحة واحدة وتلقائي."
+    ],
+    "when_changes": [
+      "لو الإفراز <bdi>bilateral</bdi> و<bdi>milky</bdi>، الجواب يصير <bdi>galactorrhea</bdi> ونشوف <bdi>prolactin</bdi> و<bdi>TSH</bdi>.",
+      "لو الإفراز يطلع بس لما تعصر الثدي (<bdi>induced</bdi>)، غالبًا سبب حميد مثل <bdi>duct ectasia</bdi>."
+    ],
+    "rule": "الإفراز المقلق = <bdi>spontaneous + unilateral + single duct</bdi>، حتى لو كان <bdi>clear</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0170": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "إصابة وخز بإصبع الإبهام مع تورم بـ<bdi>pulp</bdi> و<bdi>nail bed</bdi> سليم تشخيصها <bdi>felon</bdi>.",
+    "clues": [
+      [
+        "Hairdresser",
+        "مهنة معرضة لوخزات متكررة بالأصابع"
+      ],
+      [
+        "swollen bulb of the thumb",
+        "تورم بـ<bdi>pulp</bdi> الإصبع نفسه"
+      ],
+      [
+        "stick from the tools",
+        "<bdi>penetrating injury</bdi> هو سبب العدوى"
+      ],
+      [
+        "Nail bed is intact",
+        "يستبعد مشاكل الظفر"
+      ]
+    ],
+    "why_correct": [
+      "<bdi>felon</bdi> هو عدوى بـ<bdi>pulp</bdi> المغلق بإصبع اليد بعد <bdi>puncture injury</bdi>، وأشيع سبب <bdi>Staph aureus</bdi>.",
+      "التقسيمات الداخلية بالـ<bdi>pulp</bdi> تخلي الضغط يرتفع بسرعة، فيصير تورم متوتر ومؤلم جدًا، ويحتاج <bdi>incision and drainage</bdi> لو تكوّن <bdi>pus</bdi>."
+    ],
+    "when_changes": [
+      "لو الالتهاب كان حول الظفر نفسه، الجواب يصير <bdi>paronychia</bdi>.",
+      "لو فيه حويصلات (<bdi>vesicles</bdi>) بالإصبع، فكر بـ<bdi>herpetic whitlow</bdi> واللي ما ينشق أبدًا."
+    ],
+    "rule": "تورم مؤلم بـ<bdi>pulp</bdi> الإصبع بعد وخز مع ظفر سليم = <bdi>felon</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0179": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "استئصال آفة صغيرة بـ<bdi>ear pinna</bdi> بمريض عنده <bdi>heart disease</bdi>، والسؤال يبي أأمن <bdi>anesthesia</bdi>.",
+    "clues": [
+      [
+        "history of heart disease",
+        "لازم نتجنب أدرينالين ومواد قلبية التأثير"
+      ],
+      [
+        "ear pinna",
+        "موقع <bdi>end artery</bdi> يتجنب فيه الأدرينالين تقليديًا"
+      ]
+    ],
+    "why_correct": [
+      "<bdi>1% lidocaine</bdi> بدون أدرينالين سريع وآمن وله هامش أمان واسع، ويناسب استئصال آفة صغيرة سطحية.",
+      "تجنب الأدرينالين يحمي من <bdi>tachycardia</bdi> و<bdi>arrhythmia</bdi> بمريض قلبي، وتجنب <bdi>bupivacaine</bdi> يحمي من سميته القلبية."
+    ],
+    "when_changes": [
+      "لو الآفة كبيرة تحتاج تخدير منطقة واسعة، الجواب يميل لـ<bdi>regional block</bdi>.",
+      "لو المريض بدون مشاكل قلبية وبموقع ليس <bdi>end artery</bdi>، أدرينالين مع ليدوكايين يصير مقبول لتقليل النزيف."
+    ],
+    "rule": "مريض قلبي + آفة بالأذن = <bdi>plain lidocaine</bdi> بدون أدرينالين وبدون <bdi>bupivacaine</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0212": {
+    "correct_letter": "B",
+    "self_judged": false,
+    "idea": "رجل مسن بأعراض بولية و<bdi>back pain</bdi> مع <bdi>PSA</bdi> مرتفع جدًا و<bdi>ALP</bdi> عالي مع <bdi>GGT</bdi> طبيعي، يرمز لـ<bdi>metastatic prostate cancer</bdi>.",
+    "clues": [
+      [
+        "75-year-old man",
+        "عمر خطر لـ<bdi>prostate cancer</bdi>"
+      ],
+      [
+        "back pain",
+        "يرمز لـ<bdi>bone metastasis</bdi> بالعمود الفقري"
+      ],
+      [
+        "Prostate-specific antigen 84",
+        "مرتفع جدًا، أعلى بكثير مما يسببه <bdi>BPH</bdi>"
+      ],
+      [
+        "Alkaline phosphatase 410",
+        "مصدره عظمي مو كبدي لأن <bdi>GGT</bdi> و<bdi>albumin</bdi> طبيعيين"
+      ]
+    ],
+    "why_correct": [
+      "<bdi>PSA</bdi> بهالارتفاع مع <bdi>back pain</bdi> و<bdi>ALP</bdi> مرتفع (مصدره عظمي) يأكد <bdi>metastatic prostate cancer</bdi> مع <bdi>osteoblastic spinal metastases</bdi>.",
+      "<bdi>BPH</bdi> و<bdi>prostatitis</bdi> ما يفسرون <bdi>back pain</bdi> ولا هالارتفاع الشديد بـ<bdi>PSA</bdi> و<bdi>ALP</bdi>."
+    ],
+    "when_changes": [
+      "لو <bdi>PSA</bdi> طبيعي أو بسيط الارتفاع مع أعراض بولية فقط، الجواب يصير <bdi>BPH</bdi>.",
+      "لو فيه حمى وألم عجاني مع بروستات مؤلمة، فكر بـ<bdi>prostatitis</bdi>."
+    ],
+    "rule": "رجل مسن + أعراض بولية + <bdi>back pain</bdi> + <bdi>PSA</bdi> عالي جدًا + <bdi>ALP</bdi> عالي مع <bdi>GGT</bdi> طبيعي = انتقال عظمي لسرطان البروستات.",
+    "comparison": null,
+    "labs": [
+      [
+        "PSA",
+        "84",
+        "0-4"
+      ],
+      [
+        "Alkaline phosphatase",
+        "410 IU/L",
+        "39-117 IU/L"
+      ],
+      [
+        "Albumin",
+        "41",
+        "طبيعي"
+      ],
+      [
+        "GGT",
+        "19 IU/L",
+        "6-37 IU/L"
+      ]
+    ],
+    "guideline_note": null
+  },
+  "AS-0227": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "مريض مسن بتورم ساق ونبض ضعيف/غائب، والسؤال يبي الخطوة الأولى اللي تقيّم الأوعية.",
+    "clues": [
+      [
+        "Old patient",
+        "خطر أعلى لمرض شرياني"
+      ],
+      [
+        "leg swelling and absent or diminished pulses",
+        "يحتاج تقييم وعائي غير جراحي أولًا"
+      ]
+    ],
+    "why_correct": [
+      "<bdi>Doppler ultrasound</bdi> (مع <bdi>ABI</bdi>) هو الخط الأول عند الفراش: يأكد انخفاض التدفق الشرياني ويحدد مستوى المرض، وممكن يقيّم الأوردة أيضًا كسبب للتورم.",
+      "رخيص وسريع وبدون إشعاع، فيجي قبل أي تصوير مقطعي."
+    ],
+    "when_changes": [
+      "لو احتجنا خطة للتدخل (<bdi>intervention</bdi>)، الخطوة التالية تصير <bdi>CT angiography</bdi>.",
+      "لو الحالة <bdi>acute limb ischemia</bdi> مفاجئة، الترتيب يصير هيبارين ثم دوبلر ثم <bdi>CTA</bdi>."
+    ],
+    "rule": "نبض ضعيف/غائب = ابدأ بـ<bdi>Doppler ultrasound</bdi> قبل أي تصوير آخر.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0228": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "مراهق بألم مفاجئ شديد بالصفن مع خصية مرتفعة وفحص <bdi>transillumination</bdi> سالب = <bdi>testicular torsion</bdi> لحد ما يثبت العكس.",
+    "clues": [
+      [
+        "14 years old boy",
+        "العمر الذروة لـ<bdi>torsion</bdi>"
+      ],
+      [
+        "sudden severe",
+        "بداية مفاجئة تميز <bdi>torsion</bdi>"
+      ],
+      [
+        "transillumination test negative",
+        "ينفي <bdi>hydrocele</bdi>"
+      ],
+      [
+        "slight elevated testicle",
+        "خصية مرتفعة (<bdi>high-riding</bdi>) نمطية لـ<bdi>torsion</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "التفاف <bdi>spermatic cord</bdi> يقصّره فترفع الخصية، والألم الشديد المفاجئ مع <bdi>transillumination</bdi> سالب يستبعد <bdi>hydrocele</bdi>.",
+      "التشخيص سريري ويحتاج <bdi>urgent surgical exploration</bdi> فورًا بدون انتظار تصوير."
+    ],
+    "when_changes": [
+      "لو الألم بالقطب العلوي وفيه <bdi>blue dot sign</bdi>، الجواب يصير التفاف الزائدة الخصوية ويُعالج تحفظيًا.",
+      "لو البداية تدريجية مع تورم وزيادة التدفق بالدوبلر، الجواب يصير <bdi>epididymo-orchitis</bdi>."
+    ],
+    "rule": "ألم صفني مفاجئ شديد بمراهق + خصية مرتفعة = <bdi>torsion</bdi> حتى يثبت العكس، استكشاف جراحي فورًا.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0231": {
+    "correct_letter": "D",
+    "self_judged": false,
+    "idea": "فتق جراحي <bdi>strangulated</bdi> مع نخر وتصريف برازي = حالة طوارئ جراحية تحتاج فتح بطن.",
+    "clues": [
+      [
+        "incisional hernia",
+        "فتق بموضع جراحة سابقة"
+      ],
+      [
+        "fecalith discharge",
+        "يرمز لناسور معوي/ثقب"
+      ],
+      [
+        "strangulated with ulcers and necrosis",
+        "أمعاء ميتة، استطباب مطلق للجراحة الفورية"
+      ]
+    ],
+    "why_correct": [
+      "فتق <bdi>strangulated</bdi> مع نخر وتصريف برازي معناه أمعاء غير حيوية وربما مثقوبة، وهذا استطباب مطلق لـ<bdi>emergency surgery</bdi>.",
+      "<bdi>laparotomy</bdi> مفتوحة ضرورية بسبب التلوث والتعقيد لاستئصال الجزء الميت والتعامل مع العيب.",
+      "<bdi>normal vitals</bdi> والعمر الكبير ما يغيّران القرار: الأمعاء الميتة ما ترجع بدون جراحة."
+    ],
+    "when_changes": [
+      "لو الفتق <bdi>reducible</bdi> وبدون أعراض، الجواب يصير مراقبة أو إصلاح اختياري.",
+      "لو الفتق بسيط وبدون نخر، ممكن <bdi>laparoscopic repair</bdi> يكون خيار."
+    ],
+    "rule": "فتق <bdi>strangulated</bdi> مع نخر = <bdi>emergency open laparotomy</bdi> دايمًا، بغض النظر عن العلامات الحيوية.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0232": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "فتق إربي صدفي، مريح، بدون أعراض عند رجل مسن = <bdi>watchful waiting</bdi> مقبول.",
+    "clues": [
+      [
+        "routine exam",
+        "اكتُشف صدفة"
+      ],
+      [
+        "mild swelling in inguinal region when he coughs",
+        "<bdi>reducible</bdi> بدون أعراض"
+      ],
+      [
+        "not tender and causes no symptoms",
+        "لا حاجة ملحة للتدخل"
+      ]
+    ],
+    "why_correct": [
+      "فتق إربي صدفي <bdi>reducible</bdi> وبدون أعراض عند رجل مسن، <bdi>watchful waiting</bdi> مع متابعة دورية خيار آمن ومقبول لأن خطر المضاعفات الحادة منخفض.",
+      "المريض يُعلَّم علامات الخطر (ألم، عدم قابلية الرد) ويُراجَع، ويُعرض الإصلاح لو ظهرت أعراض."
+    ],
+    "when_changes": [
+      "لو الفتق صار مؤلم أو كبير، الجواب يتحول لإصلاح جراحي اختياري.",
+      "لو الفتق <bdi>femoral</bdi>، الجواب دايمًا إصلاح حتى بدون أعراض لخطورة الاختناق."
+    ],
+    "rule": "فتق إربي بدون أعراض برجل مسن = <bdi>watchful waiting</bdi>؛ مو مجرد طمأنة بدون متابعة.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0243": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "سقوط عند مسن مع تخليط ذهني وآفة هلالية الشكل بالتصوير = <bdi>subdural hematoma</bdi>.",
+    "clues": [
+      [
+        "fell down",
+        "رضّة خفيفة كافية عند المسن"
+      ],
+      [
+        "crescent shaped lesion",
+        "شكل مقعر يعبر خطوط الدرز، مميز لـ<bdi>subdural</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "تمزق <bdi>bridging veins</bdi> عند المسنين (بسبب ضمور الدماغ) يعطي تجمع دم هلالي يعبر خطوط الدرز: <bdi>subdural hematoma</bdi>.",
+      "المسنين والمدمنين على الكحول هم الفئة النمطية، وغالبًا بعد رضّة بسيطة."
+    ],
+    "when_changes": [
+      "لو الآفة محدبة (<bdi>lens-shaped</bdi>) ولا تعبر خطوط الدرز مع فترة صفاء (<bdi>lucid interval</bdi>)، الجواب يصير <bdi>epidural hematoma</bdi>.",
+      "لو الدم بالأتلام والصهاريج القاعدية مع صداع مفاجئ شديد، الجواب يصير <bdi>subarachnoid hemorrhage</bdi>."
+    ],
+    "rule": "شكل هلالي يعبر الدروز = <bdi>subdural</bdi>؛ شكل عدسي لا يعبر الدروز = <bdi>epidural</bdi>.",
+    "comparison": {
+      "headers": [
+        "النوع",
+        "الشكل",
+        "السبب"
+      ],
+      "rows": [
+        [
+          "Subdural",
+          "هلالي/مقعر، يعبر الدروز",
+          "<bdi>bridging veins</bdi>"
+        ],
+        [
+          "Epidural",
+          "عدسي/محدب، لا يعبر الدروز",
+          "<bdi>middle meningeal artery</bdi>"
+        ]
+      ]
+    },
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0255": {
+    "correct_letter": "C",
+    "self_judged": false,
+    "idea": "استئصال غدة كظرية مفرزة لكورتيزول يسبب قصور كظري مؤقت بالجهة الأخرى، فيحتاج تغطية ستيرويد ثم تدريج تنازلي.",
+    "clues": [
+      [
+        "cushing syndrome due to left adrenal adenoma",
+        "الغدة المقابلة مثبطة من زيادة الكورتيزول"
+      ],
+      [
+        "adrenalectomy",
+        "إزالة مصدر الكورتيزول فجأة"
+      ]
+    ],
+    "why_correct": [
+      "الورم المفرز للكورتيزول يثبط <bdi>ACTH</bdi>، فالغدة الكظرية المقابلة تصير ضامرة، وبعد الاستئصال يصير نقص كورتيزول حاد.",
+      "جرعة <bdi>stress dose hydrocortisone</bdi> حول الجراحة ثم تدريج تنازلي تدريجي تحمي من <bdi>Addisonian crisis</bdi> لحين تعافي المحور."
+    ],
+    "when_changes": [
+      "لو الاستئصال ثنائي الجانب، الجواب يصير ستيرويدات مدى الحياة.",
+      "لو الورم كان <bdi>pheochromocytoma</bdi> مو <bdi>Cushing</bdi>، التحضير قبل الجراحة يصير <bdi>alpha blockade</bdi> مو ستيرويد."
+    ],
+    "rule": "استئصال غدة كظرية بسبب <bdi>Cushing</bdi> أحادي الجانب = <bdi>stress dose steroid</bdi> ثم تدريج تنازلي، بدون <bdi>fludrocortisone</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0266": {
+    "correct_letter": "B",
+    "self_judged": false,
+    "idea": "السؤال يبي أي علامة تدل على <bdi>acute limb ischemia</bdi> مو مجرد تاريخ مرضي مزمن.",
+    "clues": [
+      [
+        "diminished right leg pulse",
+        "نقص نبض الساق اليمنى الحالية"
+      ],
+      [
+        "popliteal bypass scar",
+        "تاريخ جراحي بالساق اليسرى، مو مكان الشكوى الحالية"
+      ],
+      [
+        "acute limb ischemia",
+        "محور السؤال: ما الذي يدل على الحدّة"
+      ]
+    ],
+    "why_correct": [
+      "<bdi>rest pain</bdi> هو العلامة الوحيدة بين الخيارات اللي ترمز لإقفار شديد كافٍ لتهديد الطرف، وهو جزء من الـ6 Ps للإقفار الحاد.",
+      "باقي الخيارات تاريخ أو عوامل خطر، مو علامات على أن الإقفار حاد الآن."
+    ],
+    "when_changes": [
+      "لو السؤال يبي علامة المرض الشرياني المزمن المستقر، الجواب يصير <bdi>intermittent claudication</bdi>.",
+      "لو فيه شلل أو فقدان حس مفاجئ، هذا يرمز لإقفار حاد شديد يحتاج تدخل فوري بدون تأخير التصوير."
+    ],
+    "rule": "<bdi>claudication</bdi> = مزمن مستقر؛ <bdi>rest pain</bdi> المفاجئ = تهديد حاد للطرف.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-0279": {
+    "correct_letter": "D",
+    "self_judged": false,
+    "idea": "فتق جراحي صار مؤلم ومتوسّع بدون علامات اختناق، فيحتاج إصلاح اختياري بشبكة.",
+    "clues": [
+      [
+        "incisional hernia",
+        "فتق بمكان جراحة سابقة"
+      ],
+      [
+        "became painful with exercise and expanded",
+        "أعراض متزايدة = يحتاج إصلاح"
+      ],
+      [
+        "no signs of strangulation",
+        "ليست حالة طوارئ، لكن لا تزال تحتاج تدخل"
+      ]
+    ],
+    "why_correct": [
+      "الفتق الجراحي المؤلم والمتوسع يحتاج إصلاح اختياري، ويُفضَّل بشبكة لأن الخياطة لوحدها نسبة ارتجاعها عالية.",
+      "النهج التنظيري يتجنب فتح الخط الناصف المتندب ويعطي تعافٍ أسرع عند مريضة مسنة."
+    ],
+    "when_changes": [
+      "لو الفتق صغير وبدون أعراض، المراقبة كافية.",
+      "لو فيه علامات اختناق، الجواب يتحول لجراحة طوارئ مفتوحة."
+    ],
+    "rule": "فتق جراحي مؤلم ومتوسع = إصلاح اختياري بشبكة، ويفضَّل تنظيريًا إذا أمكن.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1078": {
+    "correct_letter": "B",
+    "self_judged": false,
+    "idea": "سؤال يبي نفرق سبب <bdi>thrombocytopenia</bdi> عند <bdi>neonate</bdi> أمه عندها <bdi>SLE</bdi> بالاعتماد على <bdi>coagulation screen</bdi> الطبيعي.",
+    "clues": [
+      [
+        "mother has a history of systemic lupus erythematosus (SLE)",
+        "أجسام مضادة من الأم (<bdi>anti-platelet antibodies</bdi>) تعبر المشيمة وتدمر صفائح الجنين"
+      ],
+      [
+        "thrombocytopenia with normal PT and PTT",
+        "المشكلة بالصفائح فقط، عوامل التجلط سليمة، فمو مشكلة <bdi>coagulation factors</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "<bdi>neonate</bdi> أمه عندها <bdi>SLE</bdi> ويجيه <bdi>thrombocytopenia</bdi> مع <bdi>PT</bdi> و<bdi>PTT</bdi> طبيعيين، يعني عنده مشكلة <bdi>immune-mediated</bdi> بالصفائح بس: أضداد الأم عبرت المشيمة ودمرت صفائح الطفل.",
+      "بما إن عوامل التجلط سليمة، <bdi>treatment</bdi> يستهدف الصفائح مباشرة: <bdi>platelet transfusion</bdi> لوقف <bdi>active bleeding</bdi>، و<bdi>IVIG</bdi> يمنع تدمير الصفائح بالأضداد.",
+      "هذا نفس نمط <bdi>management</bdi> المعياري لأي <bdi>immune thrombocytopenia</bdi> عند <bdi>neonate</bdi> مع <bdi>coagulation screen</bdi> طبيعي."
+    ],
+    "when_changes": [
+      "لو كانت <bdi>PT</bdi> و<bdi>PTT</bdi> طويلة مع صفائح طبيعية وما أخذ <bdi>vitamin K</bdi> بالولادة، الجواب يصير إعطاء <bdi>vitamin K</bdi>.",
+      "لو كان فيه <bdi>bleeding</bdi> مع <bdi>PT/PTT</bdi> طويلة وفيبرينوجين منخفض (صورة <bdi>DIC</bdi>)، الجواب يصير <bdi>FFP</bdi> و<bdi>cryoprecipitate</bdi>."
+    ],
+    "rule": "اقرأ <bdi>coagulation screen</bdi> قبل لا تختار العلاج: صفائح منخفضة مع <bdi>PT/PTT</bdi> طبيعي وسبب <bdi>immune</bdi> يعني <bdi>platelets</bdi> + <bdi>IVIG</bdi>، مو <bdi>FFP</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1080": {
+    "correct_letter": "B",
+    "self_judged": false,
+    "idea": "سؤال يفرق بين <bdi>TTN</bdi> و<bdi>RDS</bdi> عند <bdi>newborn</bdi> أمه سكرية بالاعتماد على <bdi>gestational age</bdi> وشدة الأعراض.",
+    "clues": [
+      [
+        "newborn term",
+        "<bdi>term baby</bdi> ينقص احتمال <bdi>RDS</bdi> اللي أصلاً سببه نقص <bdi>surfactant</bdi> بالخدج"
+      ],
+      [
+        "diabetic mother",
+        "عامل خطر معروف لكل من <bdi>TTN</bdi> و<bdi>RDS</bdi>، بس مو كافي لوحده للتشخيص"
+      ],
+      [
+        "mild tachypnea",
+        "عرض خفيف وفحص طبيعي، يناسب حالة <bdi>self-limiting</bdi> مثل <bdi>TTN</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "<bdi>term baby</bdi> وزنه طبيعي (3800g) وعنده بس <bdi>mild tachypnea</bdi> مع فحص طبيعي، يعني <bdi>transient tachypnea of the newborn (TTN)</bdi>.",
+      "سبب <bdi>TTN</bdi> تأخر امتصاص سوائل الرئة الجنينية، و<bdi>maternal diabetes</bdi> والولادة <bdi>cesarean</bdi> من عوامل الخطر المعروفة له.",
+      "الحالة <bdi>benign</bdi> ومؤقتة وتتحسن خلال الأيام الأولى بـ<bdi>supportive care</bdi> فقط."
+    ],
+    "when_changes": [
+      "لو كان الطفل <bdi>preterm</bdi> ومع <bdi>progressive distress</bdi> و<bdi>grunting</bdi>، الجواب يصير <bdi>respiratory distress syndrome (RDS)</bdi>.",
+      "لو كان فيه <bdi>meconium stained liquor</bdi> وولادة بعد الميعاد، فكر بـ<bdi>meconium aspiration</bdi> بدل <bdi>TTN</bdi>."
+    ],
+    "rule": "<bdi>term baby</bdi> + <bdi>mild tachypnea</bdi> = <bdi>TTN</bdi>؛ ما نفكر بـ<bdi>RDS</bdi> إلا لو الطفل <bdi>preterm</bdi> ومع صورة <bdi>ground glass</bdi>.",
+    "comparison": null,
+    "labs": [
+      [
+        "Weight",
+        "3800 g",
+        "term-appropriate weight"
+      ]
+    ],
+    "guideline_note": null
+  },
+  "AS-1085": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "سؤال يبي خطوة <bdi>management</bdi> الأولى عند رضيع عنده <bdi>bronchiolitis</bdi> مع <bdi>hypoxia</bdi> خفيف وسوء <bdi>feeding</bdi>، قبل التصعيد لـ<bdi>HFNC</bdi>.",
+    "clues": [
+      [
+        "3 month",
+        "عمر نموذجي لـ<bdi>bronchiolitis</bdi>"
+      ],
+      [
+        "O2 89%",
+        "<bdi>hypoxia</bdi> يستدعي <bdi>admission</bdi> وأكسجين، لكن ما يقول إن الخطوة الأولى فشلت"
+      ]
+    ],
+    "why_correct": [
+      "علاج <bdi>bronchiolitis</bdi> أساسه <bdi>supportive care</bdi>، والتصعيد يكون تدريجي.",
+      "هذا الرضيع عنده <bdi>SpO2 89%</bdi> وسوء <bdi>feeding</bdi>، فيحتاج <bdi>admission</bdi> مع <bdi>low flow oxygen</bdi> أولًا، دعم للتغذية/الترطيب، و<bdi>nasal suctioning</bdi> لتنظيف الإفرازات.",
+      "نبدأ بأقل تدخل يصحح <bdi>hypoxia</bdi>، ونصعّد فقط لو ما تحسن."
+    ],
+    "when_changes": [
+      "لو استمر يسقط <bdi>SpO2</bdi> أو ازداد <bdi>work of breathing</bdi> رغم <bdi>low flow oxygen</bdi>، الجواب يصير <bdi>high flow nasal cannula (HFNC)</bdi>.",
+      "لو ما قدر يتحمل <bdi>feeding</bdi> عن طريق الفم أو الأنبوب الأنفي، نضيف <bdi>IV fluids</bdi>."
+    ],
+    "rule": "علاج <bdi>bronchiolitis</bdi> خطوة بخطوة: ابدأ بـ<bdi>low flow O2</bdi> ودعم التغذية، وصعّد لـ<bdi>HFNC</bdi> فقط لو السؤال يذكر فشل الخطوة الأولى.",
+    "comparison": null,
+    "labs": [
+      [
+        "SpO2",
+        "89%",
+        "≥95% (room air)"
+      ]
+    ],
+    "guideline_note": null
+  },
+  "AS-1092": {
+    "correct_letter": "A",
+    "self_judged": true,
+    "idea": "المصدر ما حسم الجواب، لكن الصورة (<bdi>skip lesions</bdi> + <bdi>terminal ileum</bdi> + <bdi>chronic diarrhea</bdi>) تطابق <bdi>pediatric Crohn's disease</bdi>، والسؤال يبي خطوة <bdi>induction</bdi> الأولى.",
+    "clues": [
+      [
+        "chronic diarrhea",
+        "عرض مزمن يوجه لـ<bdi>inflammatory bowel disease</bdi>"
+      ],
+      [
+        "skip lesions",
+        "علامة مميزة لـ<bdi>Crohn's disease</bdi> (مو <bdi>ulcerative colitis</bdi>)"
+      ],
+      [
+        "terminal ileum",
+        "موقع كلاسيكي لإصابة <bdi>Crohn's disease</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "الصورة (<bdi>skip lesions</bdi> + إصابة <bdi>terminal ileum</bdi> + <bdi>chronic diarrhea</bdi>) تشخيصها <bdi>Crohn's disease</bdi> عند طفل.",
+      "خط <bdi>induction</bdi> الأول عند الأطفال بمرض <bdi>luminal Crohn's</bdi> هو <bdi>exclusive enteral nutrition</bdi> (تغذية علاجية كاملة)، وهو أفضل من <bdi>steroids</bdi> من ناحية الآثار الجانبية والنمو.",
+      "<bdi>systemic steroids</bdi> بديل مقبول للـ<bdi>induction</bdi> بس مو الخيار الأول عند الأطفال، و<bdi>MTX</bdi> دوره بـ<bdi>maintenance</bdi> مو البداية."
+    ],
+    "when_changes": [
+      "لو السؤال يبي علاج <bdi>maintenance</bdi> بعد الاستقرار، الجواب يصير <bdi>thiopurines</bdi> أو <bdi>methotrexate</bdi>.",
+      "لو المرض شديد أو عالي الخطورة، الجواب يصير <bdi>anti-TNF</bdi> مثل <bdi>infliximab</bdi>."
+    ],
+    "rule": "عند طفل تشخيصه <bdi>Crohn's disease</bdi> جديد، «وش نعطي» غالبًا يعني <bdi>induction</bdi>، و<bdi>exclusive enteral nutrition</bdi> أفضل من <bdi>steroids</bdi> فيه.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1101": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "سؤال نصيحة وقائية لأهل طفل عنده <bdi>cystic fibrosis</bdi> يتكرر عنده <bdi>URTI</bdi> رغم العلاج الفيزيائي.",
+    "clues": [
+      [
+        "cystic fibrosis",
+        "<bdi>chronic lung disease</bdi> يحتاج عناية خاصة من العدوى"
+      ],
+      [
+        "recurrent URTI 6-7 cold / year",
+        "عدوى فيروسية متكررة، والحل وقائي مو عزل أو مضاد حيوي"
+      ]
+    ],
+    "why_correct": [
+      "أطفال <bdi>cystic fibrosis</bdi> لازم ياخذون <bdi>annual influenza vaccine</bdi> مع التطعيمات الروتينية، لأن <bdi>influenza</bdi> يسبب <bdi>pulmonary exacerbations</bdi> وعدوى بكتيرية ثانوية.",
+      "الأم قلقانة من عدوى <bdi>school</bdi>، والخطوة الوقائية الناقصة هنا هي <bdi>vaccination</bdi>، بدون ما نقيّد حياة الطفل الاجتماعية.",
+      "هذا الحل يحافظ على <bdi>normal school and activity</bdi> ويقلل خطر <bdi>exacerbation</bdi> بنفس الوقت."
+    ],
+    "when_changes": [
+      "لو السؤال عن منع <bdi>cross infection</bdi> بين مرضى <bdi>CF</bdi> أنفسهم، الجواب يصير تجنب التقارب مع مرضى <bdi>CF</bdi> آخرين.",
+      "لو فيه علامات <bdi>bacterial exacerbation</bdi> فعلية، الجواب يصير <bdi>antibiotics</bdi> موجهة، مو وقائية."
+    ],
+    "rule": "عدوى فيروسية متكررة عند طفل <bdi>chronic lung disease</bdi>: الجواب <bdi>vaccination</bdi>، مو عزل اجتماعي ولا <bdi>prophylactic antibiotics</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1109": {
+    "correct_letter": "B",
+    "self_judged": false,
+    "idea": "سؤال يفرق أسباب <bdi>congenital stridor</bdi> بالاعتماد على تأثير وضعية النوم (<bdi>prone</bdi> مقابل <bdi>supine</bdi>).",
+    "clues": [
+      [
+        "noisy breath since birth",
+        "<bdi>congenital stridor</bdi> منذ الولادة يوجه لـ<bdi>laryngomalacia</bdi> غالبًا"
+      ],
+      [
+        "disappear in prone position",
+        "علامة مميزة لـ<bdi>laryngomalacia</bdi>"
+      ],
+      [
+        "more obvious with supine position",
+        "يعاكس <bdi>tracheomalacia</bdi> اللي يتحسن بالعكس"
+      ]
+    ],
+    "why_correct": [
+      "<bdi>noisy breathing</bdi> منذ الولادة يختفي بوضعية <bdi>prone</bdi> ويزيد بـ<bdi>supine</bdi>، مع فحص ونمو طبيعيين، هذا <bdi>laryngomalacia</bdi>.",
+      "السبب انهيار نسيج <bdi>supraglottic</bdi> الرخو للداخل أثناء الشهيق، ويزيد سوء بوضعية الاستلقاء على الظهر وبالبكاء أو الرضاعة.",
+      "هو أشيع سبب لـ<bdi>congenital stridor</bdi>، وغالبًا يتحسن لوحده بعمر 1-2 سنة."
+    ],
+    "when_changes": [
+      "لو تحسن بوضعية <bdi>supine</bdi> بدل <bdi>prone</bdi>، الجواب يصير <bdi>tracheomalacia</bdi>.",
+      "لو فيه علامات خطر مثل سوء نمو أو <bdi>apnea</bdi> أو زرقة، نحتاج تقييم إضافي (<bdi>laryngoscopy</bdi>) مو بس طمأنة."
+    ],
+    "rule": "يتحسن بـ<bdi>prone</bdi> = <bdi>laryngomalacia</bdi>؛ يتحسن بـ<bdi>supine</bdi> = <bdi>tracheomalacia</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1114": {
+    "correct_letter": "B",
+    "self_judged": false,
+    "idea": "سؤال عن العلامة التحذيرية اللي لازم الأهل ينتبهون لها بعد علاج <bdi>Kawasaki disease</bdi>، مرتبطة بمضاعفات <bdi>aspirin</bdi> أو المرض نفسه.",
+    "clues": [
+      [
+        "Kawasaki disease",
+        "مرض وعائي يُعالج غالبًا بـ<bdi>aspirin</bdi> و<bdi>IVIG</bdi>"
+      ],
+      [
+        "warning signs that require urgent medical attention",
+        "نبي عرض خطير مرتبط فعليًا بالعلاج أو المرض، مو عرض حميد"
+      ]
+    ],
+    "why_correct": [
+      "بعد علاج <bdi>Kawasaki disease</bdi> الطفل على <bdi>aspirin</bdi>، اللي ممكن يسبب تآكل بالمعدة ونزيف هضمي، وأحيانًا الالتهاب الوعائي نفسه يصيب الأوعية المساريقية.",
+      "<bdi>severe abdominal pain</bdi> مع <bdi>blood in stool</bdi> علامة تحذيرية حقيقية تحتاج مراجعة عاجلة.",
+      "باقي الخيارات أعراض حميدة أو ما لها علاقة بمضاعفات <bdi>Kawasaki</bdi> أو <bdi>aspirin</bdi>."
+    ],
+    "when_changes": [
+      "لو السؤال عن علامة مضاعفة قلبية، الجواب يصير ألم صدر أو ضيق تنفس أو إغماء (تلميح لـ<bdi>coronary</bdi> involvement).",
+      "لو السؤال عن <bdi>Reye syndrome</bdi>، الخطر يرتفع مع <bdi>aspirin</bdi> + عدوى <bdi>influenza</bdi> أو <bdi>varicella</bdi>."
+    ],
+    "rule": "بعد <bdi>Kawasaki</bdi>، العلامة التحذيرية الحقيقية ترتبط بنزيف (<bdi>aspirin</bdi>) أو مشكلة قلبية، مو الأعراض الحميدة مثل الاحمرار أو ألم المفاصل الخفيف.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1124": {
+    "correct_letter": "D",
+    "self_judged": false,
+    "idea": "سؤال عن أفضل فحص يدعم تشخيص <bdi>abdominal mass</bdi> عند رضيع، بناءً على وجود <bdi>calcification</bdi>.",
+    "clues": [
+      [
+        "14 months old",
+        "عمر نموذجي لـ<bdi>neuroblastoma</bdi>"
+      ],
+      [
+        "large abdominal mass without pain",
+        "كتلة بدون ألم، يحتاج تمييز بين عدة أورام بطنية عند الأطفال"
+      ],
+      [
+        "X-ray showing calcification",
+        "علامة مميزة لـ<bdi>neuroblastoma</bdi> أكثر من <bdi>Wilms tumor</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "رضيع عمره 14 شهر عنده <bdi>abdominal mass</bdi> كبيرة مع <bdi>calcification</bdi> بالأشعة، هذا يوجه بقوة لـ<bdi>neuroblastoma</bdi> (ينشأ من نسيج <bdi>adrenal</bdi> أو <bdi>sympathetic neural crest</bdi>).",
+      "هذا الورم يفرز <bdi>catecholamines</bdi>، فارتفاع <bdi>urinary metabolites (VMA, HVA)</bdi> يدعم التشخيص.",
+      "التأكيد النهائي يحتاج تصوير و<bdi>biopsy</bdi>، لكن الفحص اللي «يقترح» التشخيص هو <bdi>urine catecholamine metabolites</bdi>."
+    ],
+    "when_changes": [
+      "لو الكتلة بدون <bdi>calcification</bdi> عند طفل أكبر وبصحة جيدة، فكر بـ<bdi>Wilms tumor</bdi> وتحري <bdi>renal function</bdi> و<bdi>hematuria</bdi>.",
+      "لو فيه <bdi>hepatomegaly</bdi> مع كتلة كبدية، الفحص المناسب يصير <bdi>alpha fetoprotein</bdi> (<bdi>hepatoblastoma</bdi>)."
+    ],
+    "rule": "كتلة بطنية + <bdi>calcification</bdi> عند رضيع = <bdi>neuroblastoma</bdi>، والفحص الداعم <bdi>urine catecholamine metabolites</bdi>.",
+    "comparison": {
+      "headers": [
+        "الورم",
+        "الصورة",
+        "الفحص الداعم"
+      ],
+      "rows": [
+        [
+          "<bdi>Neuroblastoma</bdi>",
+          "طفل أصغر، يعبر خط الوسط، <bdi>calcification</bdi>",
+          "<bdi>urine VMA/HVA</bdi>"
+        ],
+        [
+          "<bdi>Wilms tumor</bdi>",
+          "طفل بصحة جيدة، كتلة ناعمة بجهة واحدة",
+          "<bdi>renal function</bdi>، لا يوجد <bdi>calcification</bdi> عادة"
+        ],
+        [
+          "<bdi>Hepatoblastoma</bdi>",
+          "كتلة كبدية",
+          "<bdi>alpha fetoprotein</bdi>"
+        ]
+      ]
+    },
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1137": {
+    "correct_letter": "B",
+    "self_judged": false,
+    "idea": "سؤال عن نصيحة <bdi>management</bdi> لمراهق عنده <bdi>prolonged QT</bdi> مع <bdi>echo</bdi> طبيعي وتاريخ عائلي لموت مفاجئ.",
+    "clues": [
+      [
+        "family hx of sudden death",
+        "يرفع احتمال سبب وراثي للقلب مثل <bdi>long QT syndrome</bdi>"
+      ],
+      [
+        "Q T prolongation",
+        "علامة مباشرة لـ<bdi>long QT syndrome</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "مراهق عنده <bdi>prolonged QT</bdi> بال<bdi>ECG</bdi> و<bdi>echo</bdi> طبيعي وتاريخ عائلي لموت مفاجئ، هذا <bdi>congenital long QT syndrome</bdi> على الأغلب، و<bdi>echo</bdi> الطبيعي يستبعد سبب هيكلي مثل <bdi>hypertrophic cardiomyopathy</bdi>.",
+      "العلاج الأساسي <bdi>beta blockers</bdi> لتقليل خطر اضطراب النظم، مع تقييد <bdi>strenuous</bdi> أو الرياضة التنافسية (السباحة خصوصًا بنوع 1 معروف كمحفز).",
+      "ترك المراهق بدون علاج (الخيار A) يهمل خطر حقيقي بموت مفاجئ."
+    ],
+    "when_changes": [
+      "لو <bdi>echo</bdi> أظهر <bdi>LVH</bdi>، الجواب يتجه لـ<bdi>hypertrophic cardiomyopathy</bdi> مو <bdi>long QT syndrome</bdi>.",
+      "لو استمرت أحداث اضطراب نظم خطيرة رغم <bdi>beta blocker</bdi>، الخطوة التالية <bdi>ICD</bdi>."
+    ],
+    "rule": "تاريخ عائلي لموت مفاجئ + <bdi>QT</bdi> طويل + <bdi>echo</bdi> طبيعي = <bdi>long QT syndrome</bdi>: <bdi>beta blocker</bdi> وتقييد الرياضة الشديدة.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-1140": {
+    "correct_letter": "D",
+    "self_judged": false,
+    "idea": "سؤال يفرق بين أسباب غياب الخصية من كيس الصفن عند رضيع بالاعتماد على إمكانية إرجاعها للصفن بسهولة.",
+    "clues": [
+      [
+        "easily moved to scrotum",
+        "العلامة الحاسمة: الخصية ترجع للصفن بسهولة بدون شد، يعني هبوط مكتمل"
+      ]
+    ],
+    "why_correct": [
+      "العلامة الحاسمة هنا إن الخصية بقناة <bdi>inguinal canal</bdi> لكن <bdi>easily moved to scrotum</bdi>، وهذا تعريف <bdi>retractile testis</bdi>.",
+      "الخصية <bdi>retractile</bdi> أكملت هبوطها الطبيعي لكن يسحبها منعكس <bdi>cremasteric reflex</bdi> النشط للأعلى، وترجع للصفن بدون شد.",
+      "يحتاج فقط متابعة لأن بعضها يرتفع لاحقًا، وما يحتاج تدخل جراحي."
+    ],
+    "when_changes": [
+      "لو الخصية ما ترجع للصفن أو ترجع فورًا للأعلى، الجواب يصير <bdi>undescended testis</bdi> ويحتاج <bdi>orchidopexy</bdi>.",
+      "لو الخصية خارج مسار الهبوط الطبيعي (مثل منطقة <bdi>perineum</bdi>)، الجواب يصير <bdi>ectopic testis</bdi>."
+    ],
+    "rule": "لو الخصية ترجع للصفن بسهولة وتبقى = <bdi>retractile testis</bdi> (ملاحظة فقط)؛ لو ما ترجع أو تنط فورًا = <bdi>undescended testis</bdi> (علاج جراحي).",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-2359": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "السؤال يختبر <bdi>TORCH infections</bdi> عند <bdi>newborn</bdi>، وتحديدا أي <bdi>infection</bdi> فيروسية تسبب <bdi>congenital cataract</bdi> مع <bdi>heart defect</bdi> بعد <bdi>maternal infection</bdi> بأول <bdi>trimester</bdi>.",
+    "clues": [
+      [
+        "absent red reflex",
+        "يدل على <bdi>congenital cataract</bdi> بالعين"
+      ],
+      [
+        "cardiac murmur",
+        "يدل على <bdi>congenital heart defect</bdi> مثل <bdi>PDA</bdi>"
+      ],
+      [
+        "viral infection during the first trimester",
+        "<bdi>viral infection</bdi> بأول <bdi>trimester</bdi> يرفع خطر <bdi>congenital</bdi> anomalies"
+      ]
+    ],
+    "why_correct": [
+      "<bdi>absent red reflex</bdi> يدل على <bdi>congenital cataract</bdi>، و<bdi>cardiac murmur</bdi> يدل على <bdi>PDA</bdi> أو <bdi>pulmonary stenosis</bdi>.",
+      "اجتماع مشكلة العين والقلب بعد <bdi>maternal viral infection</bdi> بأول <bdi>trimester</bdi> يطابق <bdi>congenital rubella syndrome</bdi>، اللي <bdi>triad</bdi> المعروف له <bdi>cataract</bdi> + <bdi>PDA</bdi> + <bdi>sensorineural deafness</bdi>، وأحيانا مع <bdi>microcephaly</bdi>.",
+      "خطر الجنين أعلى إذا صارت <bdi>infection</bdi> بأول <bdi>trimester</bdi> بالذات."
+    ],
+    "when_changes": [
+      "لو كانت النتيجة <bdi>periventricular calcifications</bdi> بالدماغ بدل <bdi>cardiac murmur</bdi>، الجواب يصير <bdi>CMV</bdi>.",
+      "لو كانت النتيجة <bdi>hydrocephalus</bdi> مع <bdi>diffuse intracranial calcifications</bdi>، الجواب يصير <bdi>toxoplasmosis</bdi>."
+    ],
+    "rule": "أي <bdi>newborn</bdi> عنده مشكلة بالعين مع مشكلة بالقلب فكر <bdi>rubella</bdi> مباشرة؛ ومشكلة العين مع تكلس بالدماغ فكر <bdi>toxoplasmosis</bdi> أو <bdi>CMV</bdi>.",
+    "comparison": {
+      "headers": [
+        "Infection",
+        "Signature finding"
+      ],
+      "rows": [
+        [
+          "Rubella",
+          "cataract, PDA, deafness, blueberry muffin rash"
+        ],
+        [
+          "CMV",
+          "periventricular calcifications, hearing loss"
+        ],
+        [
+          "Toxoplasmosis",
+          "hydrocephalus, diffuse calcifications, chorioretinitis"
+        ],
+        [
+          "Syphilis",
+          "snuffles, rash on palms/soles, bone lesions"
+        ]
+      ]
+    },
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-2360": {
+    "correct_letter": "C",
+    "self_judged": false,
+    "idea": "السؤال يفرق بين <bdi>kwashiorkor</bdi> و<bdi>marasmus</bdi> بـ<bdi>severe malnutrition</bdi> باستخدام وجود <bdi>edema</bdi> وانخفاض <bdi>albumin</bdi>.",
+    "clues": [
+      [
+        "generalized edema",
+        "يدل على <bdi>hypoalbuminemia</bdi> وانخفاض <bdi>oncotic pressure</bdi> بسبب <bdi>protein</bdi> deficiency"
+      ],
+      [
+        "hyperkeratosis",
+        "تغير جلدي شائع بـ<bdi>kwashiorkor</bdi>"
+      ],
+      [
+        "sparse hair",
+        "من علامات <bdi>protein malnutrition</bdi>"
+      ],
+      [
+        "Albumin 20",
+        "<bdi>albumin</bdi> منخفض جدا يدعم <bdi>severe protein deficiency</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "الطفلة من <bdi>poor area</bdi> عندها <bdi>generalized edema</bdi> و<bdi>distended abdomen</bdi> و<bdi>hyperkeratosis</bdi> و<bdi>sparse hair</bdi> و<bdi>albumin</bdi> 20 g/L، وهذا يطابق <bdi>kwashiorkor</bdi> وهو الشكل <bdi>edematous</bdi> من <bdi>severe acute malnutrition</bdi> بسبب نقص <bdi>protein</bdi>.",
+      "انخفاض <bdi>albumin</bdi> يقلل <bdi>oncotic pressure</bdi> ويسبب <bdi>edema</bdi>.",
+      "<bdi>hypokalemia</bdi> و<bdi>hypomagnesemia</bdi> و<bdi>hypoglycemia</bdi> خفيفة وانخفاض الحرارة كلها مصاحبات متوقعة."
+    ],
+    "when_changes": [
+      "لو ما فيه <bdi>edema</bdi> وفيه <bdi>severe wasting</bdi> بس مع طفل جائع نشيط، الجواب يصير <bdi>marasmus</bdi>.",
+      "لو اجتمع <bdi>edema</bdi> مع <bdi>severe wasting</bdi> مع بعض، التشخيص يصير <bdi>marasmic kwashiorkor</bdi>."
+    ],
+    "rule": "أي <bdi>edema</bdi> مع <bdi>albumin</bdi> منخفض بطفل سوء تغذية يدل على نقص <bdi>protein</bdi> (<bdi>kwashiorkor</bdi>) حتى لو فيه <bdi>wasting</bdi> شديد مرافق.",
+    "comparison": {
+      "headers": [
+        "Kwashiorkor",
+        "Marasmus"
+      ],
+      "rows": [
+        [
+          "نقص protein أساسا، edema موجود",
+          "نقص protein وسعرات مع بعض، لا edema"
+        ],
+        [
+          "عادة بعد الفطام (toddlers)",
+          "عادة infants تحت سنة"
+        ]
+      ]
+    },
+    "labs": [
+      [
+        "Sodium",
+        "132 mmol/L",
+        "134-146 mmol/L"
+      ],
+      [
+        "Potassium",
+        "3.2 mmol/L",
+        "3.5-5.1 mmol/L"
+      ],
+      [
+        "Magnesium",
+        "0.4 mmol/L",
+        "0.7-1.0 mmol/L"
+      ],
+      [
+        "Glucose",
+        "3.1 mmol/L",
+        "3.3-5.5 mmol/L (child)"
+      ],
+      [
+        "Albumin",
+        "20 g/L",
+        "36-52 g/L"
+      ]
+    ],
+    "guideline_note": null
+  },
+  "AS-2364": {
+    "correct_letter": "C",
+    "self_judged": false,
+    "idea": "السؤال يختبر إدارة <bdi>ingested foreign body</bdi> حسب مكانه وخطورته؛ العملة بالـ<bdi>stomach</bdi> عند طفل <bdi>clinically stable</bdi> تحتاج متابعة فقط.",
+    "clues": [
+      [
+        "ingestion of a coin",
+        "<bdi>foreign body</bdi> منخفض الخطورة"
+      ],
+      [
+        "clinically stable",
+        "لا يوجد ما يستدعي تدخل عاجل"
+      ],
+      [
+        "coin is in the stomach",
+        "لو كانت بالـ<bdi>esophagus</bdi> كان لازم إزالة عاجلة"
+      ]
+    ],
+    "why_correct": [
+      "العملة <bdi>foreign body</bdi> منخفض الخطورة، وإذا وضحت الأشعة وصولها للـ<bdi>stomach</bdi> بطفل <bdi>clinically stable</bdi> فهي تمر تلقائيا بالغالب.",
+      "الإدارة <bdi>expectant</bdi>: يطلع البيت مع نصائح وتغذية عادية ومراقبة البراز، ويرجع لو صار ألم أو تقيؤ أو نزيف، مع إعادة أشعة لو ما تأكد مرورها."
+    ],
+    "when_changes": [
+      "لو العملة بالـ<bdi>esophagus</bdi> مع أعراض، الجواب يصير <bdi>urgent endoscopy</bdi>.",
+      "لو كان الجسم الغريب <bdi>button battery</bdi> أو <bdi>magnets</bdi> أو جسم حاد، الجواب يصير إزالة عاجلة بغض النظر عن المكان."
+    ],
+    "rule": "نفس العملة بالـ<bdi>esophagus</bdi> تحتاج إزالة، وبالـ<bdi>stomach</bdi> ننتظر؛ لو تغيرت لـ<bdi>button battery</bdi> الجواب دايما <bdi>urgent endoscopy</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-2365": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "السؤال يختبر الفرق بين <bdi>bedwetting</bdi> الطبيعي حسب العمر وبين <bdi>enuresis</bdi> اللي يحتاج تقييم.",
+    "clues": [
+      [
+        "4-year-old",
+        "تحت سن <bdi>enuresis</bdi> التشخيصي (5 سنوات)"
+      ],
+      [
+        "bedwetting every night",
+        "طبيعي بهذا العمر بدون أعراض نهارية أو <bdi>red flags</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "تشخيص <bdi>enuresis</bdi> لا يصير إلا من عمر 5 سنوات فأكثر؛ بعمر 4 سنوات <bdi>bedwetting</bdi> الليلي وحده ضمن التطور الطبيعي لأن التحكم الليلي بالمثانة ينضج متأخر عن النهاري.",
+      "ما فيه أعراض نهارية ولا <bdi>dysuria</bdi> ولا <bdi>red flags</bdi> بالسؤال، فالتطمين هو الصح لأن أغلب الأطفال يتحسنون تلقائيا."
+    ],
+    "when_changes": [
+      "لو كان عمر الطفل 5 سنوات فأكثر مع <bdi>primary monosymptomatic enuresis</bdi>، الجواب يصير <bdi>urinalysis</bdi> أولا ثم إجراءات سلوكية أو <bdi>desmopressin</bdi>.",
+      "لو صار <bdi>secondary enuresis</bdi> (رجوع البلل بعد فترة جافة)، لازم نفحص عن <bdi>UTI</bdi> أو <bdi>diabetes</bdi> أو <bdi>constipation</bdi>."
+    ],
+    "rule": "العمر هو الفيصل: نفس القصة بعمر 6 سنوات تحتاج <bdi>urinalysis</bdi> وعلاج، مو تطمين فقط.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-2366": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "السؤال يختبر قواعد <bdi>PECARN</bdi> لرضوض الرأس عند الأطفال، وأن <bdi>altered mental status</bdi> بعد <bdi>seizure</bdi> يفرض <bdi>CT brain</bdi> عاجل.",
+    "clues": [
+      [
+        "fell downstairs",
+        "آلية رضية واضحة (<bdi>trauma mechanism</bdi>)"
+      ],
+      [
+        "breif jircky movements",
+        "نوبة تالية للرض (<bdi>post-traumatic seizure</bdi>)"
+      ],
+      [
+        "drwosy and lathergic",
+        "<bdi>altered mental status</bdi>، معيار <bdi>high risk</bdi> بقواعد <bdi>PECARN</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "بعد <bdi>fall</bdi> صار عند الطفل حركات نفضية (نوبة تالية للرض) والآن هو <bdi>drowsy and lethargic</bdi>، وهذا <bdi>altered mental status</bdi>.",
+      "حسب <bdi>PECARN</bdi>، <bdi>altered mental status</bdi> معيار <bdi>high risk</bdi> يفرض <bdi>CT brain</bdi> غير مباشر (non-contrast) عاجل لاستبعاد نزيف داخل الجمجمة.",
+      "السؤال يسأل عن الإجراء الأنسب، فلازم <bdi>imaging</bdi> أولا قبل أي قرار جراحي."
+    ],
+    "when_changes": [
+      "لو كان الطفل <bdi>alert</bdi> تماما بعد تقيؤ أو صداع بسيط فقط، الجواب يصير <bdi>observe</bdi> بدون <bdi>CT</bdi>.",
+      "لو جاء <bdi>CT</bdi> ووضح <bdi>epidural</bdi> أو <bdi>subdural hematoma</bdi>، عندها يصير الجواب <bdi>neurosurgery referral</bdi>."
+    ],
+    "rule": "الطفل الواعي اللي تقيأ = <bdi>observe</bdi>؛ الطفل الـ<bdi>drowsy</bdi> بعد نوبة = <bdi>CT brain</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-2367": {
+    "correct_letter": "C",
+    "self_judged": false,
+    "idea": "السؤال يختبر تأثير <bdi>IVIG</bdi> على <bdi>live vaccines</bdi>، وأن اللقاحات غير الحية مثل <bdi>DTaP</bdi> تُعطى بموعدها بدون تأخير.",
+    "clues": [
+      [
+        "received IVIG",
+        "أجسام <bdi>IVIG</bdi> المضادة تعطل استجابة <bdi>live vaccines</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "بعد <bdi>IVIG</bdi> لعلاج <bdi>Kawasaki disease</bdi>، الأجسام المضادة المنقولة سلبيا ممكن تعادل اللقاحات <bdi>live viral</bdi>، فيتأخر <bdi>MMR</bdi> و<bdi>varicella</bdi> حوالي 11 شهر بعد <bdi>IVIG</bdi> بجرعة عالية.",
+      "اللقاحات غير الحية ما تتأثر وتُعطى بموعدها، فـ<bdi>DTaP</bdi> ممكن يُعطى بزيارة الـ18 شهر هذي."
+    ],
+    "when_changes": [
+      "لو الطفل ما أخذ <bdi>IVIG</bdi> أصلا، كان الجواب يصير <bdi>MMR</bdi> أو <bdi>measles</bdi> بدون مشكلة.",
+      "لو مرت فترة أطول من 11 شهر بعد <bdi>IVIG</bdi>، يصير إعطاء اللقاحات الحية مسموح."
+    ],
+    "rule": "<bdi>IVIG</bdi> يعطل اللقاحات الحية بس مو غير الحية؛ وعلاج <bdi>aspirin</bdi> بـ<bdi>Kawasaki</bdi> يستدعي أيضا لقاح <bdi>influenza</bdi> غير الحي سنويا.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-2369": {
+    "correct_letter": "D",
+    "self_judged": false,
+    "idea": "السؤال يختبر تشخيص <bdi>respiratory distress syndrome</bdi> عند الخديج وعلاجه المحدد بـ<bdi>surfactant</bdi>.",
+    "clues": [
+      [
+        "33 weeks preterm",
+        "<bdi>prematurity</bdi> ترفع خطر نقص <bdi>surfactant</bdi>"
+      ],
+      [
+        "diabetic mother",
+        "<bdi>fetal hyperinsulinemia</bdi> تؤخر نضج <bdi>surfactant</bdi>"
+      ],
+      [
+        "grunting, respiratory distress",
+        "علامات ضيق تنفس بالخديج"
+      ],
+      [
+        "ground glass appearance",
+        "صورة صدر كلاسيكية لـ<bdi>RDS</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "خديج 33 أسبوع لأم <bdi>diabetic</bdi> مع <bdi>grunting</bdi> وضيق تنفس وصورة صدر <bdi>ground glass</bdi> يدل على <bdi>RDS</bdi> بسبب نقص <bdi>surfactant</bdi>.",
+      "<bdi>prematurity</bdi> مع <bdi>fetal hyperinsulinemia</bdi> (تثبط إنتاج <bdi>surfactant</bdi>) يرفعان الخطر مع بعض.",
+      "العلاج المحدد <bdi>intratracheal exogenous surfactant</bdi> مع دعم تنفسي (<bdi>CPAP</bdi> أو تهوية)."
+    ],
+    "when_changes": [
+      "لو كان المولود <bdi>full term</bdi> بعد قيصرية مع سوائل بالـ<bdi>fissure</bdi> بالأشعة، الجواب يصير <bdi>TTN</bdi> وعلاج داعم فقط بدون <bdi>surfactant</bdi>.",
+      "لو صار فجأة <bdi>hyperlucent hemithorax</bdi> مع تدهور مفاجئ، الجواب يصير <bdi>pneumothorax</bdi> وإدخال <bdi>chest tube</bdi>."
+    ],
+    "rule": "نفس الضيق التنفسي بس عند <bdi>full term</bdi> بعد قيصرية مع سوائل بالـ<bdi>fissure</bdi> هو <bdi>TTN</bdi>، ما يحتاج <bdi>surfactant</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-2371": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "السؤال يختبر التفريق بين <bdi>UTI</bdi> و<bdi>HSP</bdi> و<bdi>AIHA</bdi> و<bdi>PSGN</bdi> عند طفلة عندها <bdi>fever</bdi> و<bdi>pyuria</bdi> واضح بدون علامات <bdi>nephritic</bdi>.",
+    "clues": [
+      [
+        "constipated",
+        "عامل خطر لـ<bdi>UTI</bdi> عند الأطفال"
+      ],
+      [
+        "incontinent",
+        "<bdi>incontinence</bdi> جديدة توحي بـ<bdi>UTI</bdi>"
+      ],
+      [
+        "Temperature 38.9° C",
+        "<bdi>fever</bdi> مع أعراض بولية توجه لـ<bdi>UTI</bdi>"
+      ],
+      [
+        "Leukocytes 25-30",
+        "<bdi>pyuria</bdi> واضح يدعم تشخيص <bdi>UTI</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "طفلة 6 سنوات عندها أسبوعين <bdi>constipation</bdi> (عامل خطر لـ<bdi>UTI</bdi>) و<bdi>incontinence</bdi> جديدة وtenderness بالبطن و<bdi>fever</bdi> 38.9، وهذا يوحي بـ<bdi>urinary tract infection</bdi>.",
+      "البول يظهر <bdi>pyuria</bdi> واضح (<bdi>leukocytes</bdi> 25-30/HPF) مع <bdi>hematuria</bdi>، وهذا شائع بـ<bdi>cystitis</bdi> أو <bdi>pyelonephritis</bdi>.",
+      "ضغط الدم طبيعي وما فيه <bdi>edema</bdi>، فمو صورة <bdi>nephritic</bdi>."
+    ],
+    "when_changes": [
+      "لو ظهر <bdi>purpura</bdi> على الأرجل والأرداف مع ألم مفاصل وبطن، الجواب يصير <bdi>HSP</bdi>.",
+      "لو ظهر ارتفاع ضغط و<bdi>edema</bdi> و<bdi>C3</bdi> منخفض بعد عدوى حلق أو جلد سابقة، الجواب يصير <bdi>PSGN</bdi>."
+    ],
+    "rule": "<bdi>fever</bdi> مع <bdi>pyuria</bdi> وأعراض بولية (<bdi>incontinence</bdi> جديدة، <bdi>dysuria</bdi>) بطفل = <bdi>UTI</bdi> لحد ما يثبت العكس؛ وعالج <bdi>constipation</bdi> معه وإلا رجعت العدوى.",
+    "comparison": {
+      "headers": [
+        "الحالة",
+        "العلامة المميزة"
+      ],
+      "rows": [
+        [
+          "UTI",
+          "pyuria وfever مع أعراض بولية"
+        ],
+        [
+          "PSGN",
+          "hematuria + hypertension + edema + C3 منخفض"
+        ],
+        [
+          "HSP",
+          "purpura + arthralgia + abdominal pain"
+        ],
+        [
+          "AIHA",
+          "انحلال دم مع يرقان وhemoglobinuria"
+        ]
+      ]
+    },
+    "labs": [
+      [
+        "WBC",
+        "9.5 x10^9/L",
+        "4.5-10.5 x10^9/L"
+      ],
+      [
+        "Hemoglobin",
+        "79 g/L",
+        "112-165 g/L"
+      ],
+      [
+        "Platelets",
+        "325 x10^9/L",
+        "150-400 x10^9/L"
+      ],
+      [
+        "Urine leukocytes",
+        "25-30/HPF",
+        "0-3/HPF"
+      ],
+      [
+        "Urine erythrocytes",
+        "30-35/HPF",
+        "0-2/HPF"
+      ]
+    ],
+    "guideline_note": null
+  },
+  "AS-2372": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "السؤال يختبر اختيار المضاد الحيوي التجريبي لـ<bdi>UTI</bdi> حموي عند رضيع مستقر يقدر ياخذ علاج فموي.",
+    "clues": [
+      [
+        "Stable not dehydrated. Alert and feeding.",
+        "معيار يسمح بعلاج فموي بدل الدخول والعلاج الوريدي"
+      ]
+    ],
+    "why_correct": [
+      "الرضيع 7 أشهر <bdi>stable</bdi> و<bdi>not dehydrated</bdi> و<bdi>alert</bdi> و<bdi>feeding</bdi>، فـ<bdi>UTI</bdi> حموي (<bdi>nitrite</bdi> و<bdi>leukocytes</bdi> موجبين، حرارة 39.1) ممكن يُعالج بمضاد فموي.",
+      "العلاج الفموي بنفس فعالية الوريدي برضع فوق شهرين غير <bdi>toxic</bdi> وقادرين ياخذوا سوائل فموية.",
+      "المصدر يحدد <bdi>oral amoxicillin</bdi> كخيار العلاج الفموي المطروح."
+    ],
+    "when_changes": [
+      "لو كان عمره أقل من شهرين أو <bdi>toxic</bdi> أو عنده تقيؤ ما يقدر ياخذ فموي، الجواب يصير دخول ومضاد وريدي مثل <bdi>ceftriaxone</bdi>.",
+      "لو العضوية المسببة مقاومة أو <bdi>Pseudomonas</bdi>، يصير اختيار مضاد أوسع طيف ضروري."
+    ],
+    "rule": "لو أضاف السؤال تقيؤ أو مظهر <bdi>toxic</bdi> أو عمر تحت شهرين، الجواب ينقلب لدخول ومضاد وريدي.",
+    "comparison": null,
+    "labs": [
+      [
+        "Temperature",
+        "39.1 °C",
+        null
+      ]
+    ],
+    "guideline_note": null
+  },
+  "AS-2373": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "السؤال يختبر تشخيص <bdi>nephritic syndrome</bdi> مع مضاعفة <bdi>hypertensive encephalopathy</bdi> بعد عدوى جلدية سابقة مع <bdi>C3</bdi> منخفض.",
+    "clues": [
+      [
+        "tea colored urine",
+        "<bdi>hematuria</bdi> يدل على مشكلة <bdi>glomerular</bdi>"
+      ],
+      [
+        "preceding skin eruption",
+        "عدوى جلدية سابقة (<bdi>impetigo</bdi>) قد تسبق <bdi>PSGN</bdi>"
+      ],
+      [
+        "Blood pressure 155/105 mmHg",
+        "ارتفاع ضغط شديد قد يسبب <bdi>hypertensive encephalopathy</bdi>"
+      ],
+      [
+        "Complement C3 0.5",
+        "<bdi>C3</bdi> منخفض يدعم <bdi>PSGN</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "بول لون الشاي بعد طفح جلدي سابق (<bdi>impetigo</bdi>) مع <bdi>edema</bdi> بالأطراف السفلية وضغط 155/105 وارتفاع <bdi>urea</bdi> و<bdi>creatinine</bdi> و<bdi>C3</bdi> منخفض (0.5) هي صورة <bdi>nephritic</bdi> لـ<bdi>post-streptococcal glomerulonephritis</bdi>.",
+      "الحركات غير الطبيعية وعدم الاستجابة تعكس <bdi>hypertensive encephalopathy</bdi>، وهي مضاعفة معروفة لـ<bdi>PSGN</bdi>.",
+      "الصفائح طبيعية وهذا يبعد <bdi>HUS</bdi>."
+    ],
+    "when_changes": [
+      "لو كانت الصفائح منخفضة بعد إسهال دموي، الجواب يصير <bdi>HUS</bdi>.",
+      "لو ظهر <bdi>hematuria</bdi> بعد يوم أو يومين من التهاب حلق مع <bdi>C3</bdi> طبيعي، الجواب يصير <bdi>IgA nephropathy</bdi>."
+    ],
+    "rule": "<bdi>hematuria</bdi> وارتفاع ضغط و<bdi>edema</bdi> و<bdi>C3</bdi> منخفض بعد عدوى حلق أو جلد = <bdi>PSGN</bdi>؛ انخفاض الصفائح يحوله لـ<bdi>HUS</bdi>، وC3 الطبيعي بعد يوم أو يومين من حلق يحوله لـ<bdi>IgA nephropathy</bdi>.",
+    "comparison": null,
+    "labs": [
+      [
+        "Hemoglobin",
+        "78 g/L",
+        "112-165 g/L"
+      ],
+      [
+        "Platelets",
+        "165 x10^9/L",
+        "150-400 x10^9/L"
+      ],
+      [
+        "Blood urea nitrogen",
+        "13.1",
+        "1.8-6.4 mmol/L"
+      ],
+      [
+        "Creatinine",
+        "101",
+        "27-88 µmol/L"
+      ],
+      [
+        "Complement C3",
+        "0.5 g/L",
+        "0.7-1.5 g/L"
+      ]
+    ],
+    "guideline_note": null
+  },
+  "AS-2374": {
+    "correct_letter": "C",
+    "self_judged": false,
+    "idea": "السؤال يختبر معرفة الممرض الأكثر شيوعا لـ<bdi>bacterial community-acquired pneumonia</bdi> حسب عمر الطفل.",
+    "clues": [
+      [
+        "13-month-old",
+        "العمر يحدد الممرض المحتمل"
+      ],
+      [
+        "crackles heard over the right lung base",
+        "علامة لـ<bdi>lobar pneumonia</bdi> بكتيرية"
+      ]
+    ],
+    "why_correct": [
+      "رضيعة 13 شهر ملقحة بالكامل مع <bdi>fever</bdi> 38.6 وسعال و<bdi>crackles</bdi> بؤرية بقاعدة الرئة اليمنى هي صورة <bdi>lobar bacterial CAP</bdi>.",
+      "من عمر 3 أشهر إلى 5 سنوات أكثر سبب بكتيري شيوعا هو <bdi>Streptococcus pneumoniae</bdi>.",
+      "هي <bdi>mildly ill</bdi> بدون <bdi>grunting</bdi> أو <bdi>retractions</bdi>، وهذا يطابق <bdi>pneumonia</bdi> خارجية نموذجية."
+    ],
+    "when_changes": [
+      "لو كان عمرها فوق 5 سنوات مع بداية تدريجية وصداع وعلامات منتشرة، الجواب يصير <bdi>Mycoplasma pneumoniae</bdi>.",
+      "لو ما كانت ملقحة ضد <bdi>Hib</bdi>، يصير <bdi>Haemophilus influenzae type B</bdi> احتمال وارد."
+    ],
+    "rule": "<bdi>crackles</bdi> بؤرية مع حمى عالية بطفل صغير = <bdi>pneumococcus</bdi>؛ بداية تدريجية مع صداع وعلامات منتشرة بطفل مدرسي = <bdi>Mycoplasma</bdi>.",
+    "comparison": null,
+    "labs": [
+      [
+        "Heart rate",
+        "146/min",
+        null
+      ],
+      [
+        "Respiratory rate",
+        "45/min",
+        null
+      ],
+      [
+        "Temperature",
+        "38.6 °C",
+        null
+      ],
+      [
+        "Oxygen saturation",
+        "95%",
+        null
+      ]
+    ],
+    "guideline_note": null
+  },
+  "AS-2375": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "السؤال يختبر التفريق بين الحالات اللي تعطي طول زائد مع مفاصل مفرطة الحركة.",
+    "clues": [
+      [
+        "joint hyperextensibility",
+        "مفاصل مفرطة الحركة"
+      ],
+      [
+        "taller than his classmates",
+        "طول زائد عن أقرانه"
+      ]
+    ],
+    "why_correct": [
+      "صبي 12 سنة أطول من زملائه بشكل واضح (1.78م) مع <bdi>joint hyperextensibility</bdi> يطابق <bdi>Marfan syndrome</bdi>، اضطراب نسيج ضام بسبب <bdi>fibrillin-1</bdi> يجمع الطول الزائد مع ارتخاء المفاصل.",
+      "المصدر يحدد <bdi>Marfan</bdi> كالتشخيص اللي يفسر الصفتين مع بعض."
+    ],
+    "when_changes": [
+      "لو كان عنده جلد مفرط التمدد وسهل التمزق مع المفاصل المرتخية، الجواب يصير <bdi>Ehlers-Danlos syndrome</bdi>.",
+      "لو كان عنده خصيتين صغيرتين وgynecomastia مع تأخر بلوغ، الجواب يصير <bdi>Klinefelter syndrome</bdi>."
+    ],
+    "rule": "طول + مفاصل مفرطة الحركة = <bdi>Marfan</bdi>؛ مفاصل وجلد مفرطا التمدد = <bdi>Ehlers-Danlos</bdi>؛ طول + خصيتين صغيرتين و<bdi>gynecomastia</bdi> = <bdi>Klinefelter</bdi>.",
+    "comparison": {
+      "headers": [
+        "الحالة",
+        "العلامة المميزة"
+      ],
+      "rows": [
+        [
+          "Marfan",
+          "طول + arachnodactyly + ectopia lentis للأعلى + aortic root dilation"
+        ],
+        [
+          "Ehlers-Danlos",
+          "مفاصل وجلد مفرطا التمدد، كدمات سهلة"
+        ],
+        [
+          "Klinefelter",
+          "طول + خصيتين صغيرتين + gynecomastia"
+        ]
+      ]
+    },
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-2381": {
+    "correct_letter": "A",
+    "self_judged": false,
+    "idea": "السؤال يختبر مبدأ <bdi>catch-up vaccination</bdi> عند تأخر الجرعات، وأن الجدول ما يُعاد من البداية أبدا.",
+    "clues": [
+      [
+        "missed his 7-month and 9-month vaccinations",
+        "جرعات متأخرة تحتاج <bdi>catch-up</bdi> مو إعادة"
+      ]
+    ],
+    "why_correct": [
+      "الرضيع اللي فاتته جرعات 7 و9 أشهر يحتاج فقط نعطيه الجرعات المتأخرة الآن ونكمل الباقي حسب العمر الأدنى والفواصل الزمنية.",
+      "سلسلة اللقاح ما تُعاد من البداية أبدا مهما طالت الفترة، لأن الجرعات السابقة تبقى صالحة."
+    ],
+    "when_changes": [
+      "لو كان الطفل يحتاج لقاحين مختلفين بنفس الزيارة، نعطيهم مع بعض بمواقع مختلفة، بس مو جرعتين من نفس اللقاح بجرعة وحدة.",
+      "لو كان عنده <bdi>anaphylaxis</bdi> سابقة من مكون اللقاح، عندها يصير منع حقيقي لتلك الجرعة تحديدا."
+    ],
+    "rule": "مهما كانت الفجوة، الجواب أبدا مو إعادة الجدول؛ بس نعطي الجرعة المستحقة التالية.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-2382": {
+    "correct_letter": "B",
+    "self_judged": false,
+    "idea": "السؤال يختبر معرفة أكثر مضاعفة شائعة بـ<bdi>cystic fibrosis</bdi>.",
+    "clues": [
+      [
+        "recurrent chest infection",
+        "عدوى صدرية متكررة تدعم <bdi>CF</bdi>"
+      ],
+      [
+        "foul-smelling stool",
+        "<bdi>steatorrhea</bdi> من قصور بنكرياس خارجي"
+      ],
+      [
+        "Positive sweat chloride test",
+        "الفحص التشخيصي لـ<bdi>CF</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "عدوى صدرية متكررة مع <bdi>wheeze</bdi> صعب التحكم يُسمى <bdi>asthma</bdi> وبراز كريه الرائحة (<bdi>steatorrhea</bdi>) مع <bdi>sweat chloride</bdi> موجب (≥60 mmol/L) يعني <bdi>cystic fibrosis</bdi>.",
+      "المخاط الكثيف والعدوى المزمنة تتلف الشعب الهوائية تدريجيا، فـ<bdi>bronchiectasis</bdi> هو المضاعفة الأكثر شيوعا والمحرك الأساسي للمراضة."
+    ],
+    "when_changes": [
+      "لو تطور عند المريض سكري بسبب تلف البنكرياس، يصير التشخيص <bdi>CF-related diabetes</bdi> كمضاعفة مختلفة.",
+      "لو تأخر العلاج كثيرا، خطر ورم <bdi>GI</bdi> يرتفع شوي بس يبقى أقل شيوعا من <bdi>bronchiectasis</bdi>."
+    ],
+    "rule": "طفل عنده <bdi>asthma</bdi> صعب السيطرة مع <bdi>nasal polyps</bdi> أو <bdi>rectal prolapse</bdi> وقصور نمو يحتاج <bdi>sweat test</bdi> لاستبعاد <bdi>CF</bdi>.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  },
+  "AS-2383": {
+    "correct_letter": "C",
+    "self_judged": false,
+    "idea": "السؤال يختبر تشخيص <bdi>giardiasis</bdi> بعد تعرض لماء ملوث وعلاجه المحدد.",
+    "clues": [
+      [
+        "gaseous distention",
+        "انتفاخ غازي من سوء امتصاص بـ<bdi>giardiasis</bdi>"
+      ],
+      [
+        "foul smelling watery diarrhea",
+        "إسهال كريه الرائحة يوحي بـ<bdi>Giardia</bdi>"
+      ],
+      [
+        "camping where the source of water was contaminated",
+        "تعرض لماء ملوث هو عامل الخطر الكلاسيكي لـ<bdi>Giardia</bdi>"
+      ]
+    ],
+    "why_correct": [
+      "إسهال مائي كريه الرائحة مع ألم بطن وانتفاخ غازي بعد <bdi>camping</bdi> بماء ملوث هو <bdi>giardiasis</bdi> (<bdi>Giardia lamblia</bdi>).",
+      "العلاج المحدد <bdi>metronidazole</bdi> (أو <bdi>tinidazole</bdi> أو <bdi>nitazoxanide</bdi> كبدائل) مع ترطيب المريض."
+    ],
+    "when_changes": [
+      "لو كان الإسهال مائي بدون دم بعد تعرض لحضانة أطفال مع حمى خفيفة وتقيؤ، الجواب يصير علاج <bdi>supportive</bdi> فقط (فيروسي).",
+      "لو كان الإسهال دموي (<bdi>dysentery</bdi>)، الجواب يتجه لـ<bdi>Entamoeba histolytica</bdi> أو بكتيريا مثل <bdi>Shigella</bdi>."
+    ],
+    "rule": "انتفاخ وغازات وبراز مائي كريه بدون دم بعد ماء جدول أو بئر = <bdi>Giardia</bdi>؛ وجود دم بالبراز يوجه لـ<bdi>dysentery</bdi> بكتيرية أو <bdi>amoebiasis</bdi> بدلا منه.",
+    "comparison": null,
+    "labs": null,
+    "guideline_note": null
+  }
+}

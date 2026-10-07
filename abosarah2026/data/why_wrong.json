@@ -1,0 +1,328 @@
+{
+  "AS-1614": {
+    "A": "تقدير وزن الجنين بالـ<bdi>ultrasound</bdi> ما يشخص ولا يقيّم <bdi>ICP</bdi>؛ خطر الجنين فيها (موت مفاجئ) ما تتوقعه فحوصات النمو.",
+    "C": "<bdi>coagulation profile</bdi> فحص ثانوي (سوء امتصاص فيتامين K من الـ<bdi>cholestasis</bdi> ممكن يطوّل PT)، يساعد بالإدارة بس ما يشخص.",
+    "D": "الأعراض نفسها مذكورة بالسؤال ومو فحص؛ الحكة لوحدها ما تأكد <bdi>ICP</bdi> بدون تحاليل."
+  },
+  "AS-1615": {
+    "B": "<bdi>anticholinergics</bdi> علاج لـ <bdi>urge incontinence</bdi> (فرط نشاط العضلة الدافعة)، والمريضة تنفي أي <bdi>urgency</bdi>.",
+    "C": "<bdi>bladder suspension</bdi> أو <bdi>sling (TVT)</bdi> علاج نهائي بعد فشل العلاج المحافظ، مو خطوة أولى.",
+    "D": "<bdi>anterior colporrhaphy</bdi> يصلح <bdi>cystocele</bdi> وما له فعالية بـ <bdi>stress incontinence</bdi>، وما فيه وصف لـ <bdi>prolapse</bdi> أصلًا."
+  },
+  "AS-1616": {
+    "A": "<bdi>MRI</bdi> خط ثاني: يُستخدم لتخطيط الـ<bdi>fibroids</bdi> قبل جراحة أو <bdi>embolization</bdi>، مو الفحص الأول.",
+    "B": "<bdi>CT</bdi> ضعيف بتمييز أنسجة الرحم اللينة ويضيف إشعاع؛ ما له دور بتشخيص <bdi>fibroids</bdi>.",
+    "D": "<bdi>fibroid</bdi> يُشخص بالتصوير مو بالنسيج؛ الخزعة ليست جزء من تقييم كتلة قاعية نموذجية."
+  },
+  "AS-1617": {
+    "A": "<bdi>Depo-Provera</bdi> موانع حمل <bdi>progestin</bdi> تخفض الـ<bdi>estrogen</bdi> أكثر وتزيد الـ<bdi>atrophy</bdi>، وهي أصلًا ما تحتاج منع حمل.",
+    "B": "حبوب منع الحمل المركبة غير مناسبة بعد سن اليأس وتزيد خطر الجلطات بعمرها.",
+    "C": "<bdi>systemic estrogen</bdi> لأعراض <bdi>vasomotor</bdi> (الهبات الساخنة)؛ للأعراض المهبلية المعزولة يُفضل الموضعي، وإعطاء جهازي مع رحم سليم يحتاج <bdi>progestogen</bdi> إضافي."
+  },
+  "AS-1618": {
+    "A": "<bdi>Pap test</bdi> فحص فرز لعنق رحم بدون كتلة واضحة؛ ممكن يطلع سلبي كاذب مع ورم ظاهر.",
+    "B": "<bdi>pelvic CT</bdi> يقيّم انتشار المرض للعقد والأعضاء البعيدة كجزء من <bdi>staging</bdi> بعد تأكيد التشخيص نسيجيًا.",
+    "C": "<bdi>pelvic MRI</bdi> أفضل لتقييم الامتداد الموضعي بعد التشخيص، وما يعطي تشخيص نسيجي."
+  },
+  "AS-1619": {
+    "A": "إيقاف <bdi>hydroxychloroquine</bdi> يرفع خطر <bdi>flare</bdi> بالحمل؛ ما يوقف إلا لتفاعل دوائي حقيقي زي <bdi>retinal toxicity</bdi>.",
+    "B": "<bdi>steroids</bdi> لعلاج <bdi>flare</bdi> نشط مو مرض هادئ، وتبديلها يضيف مخاطر زي <bdi>gestational diabetes</bdi> و<bdi>hypertension</bdi> بدون فايدة.",
+    "D": "ما فيه سبب لإيقاف الدواء أصلًا، فالتحويل لهذا الغرض غلط؛ متابعة الروماتيزم مفيدة بس مو لإيقاف الدواء."
+  },
+  "AS-1620": {
+    "A": "<bdi>grand parity</bdi> يعني ولادة أكثر من 3، وهي P1 بعيدة عن هالحد.",
+    "B": "ساعتين عكس <bdi>prolonged labor</bdi> تمامًا؛ المخاض المطول مثاله 16 ساعة.",
+    "C": "3000 غرام وزن طبيعي (بين 2500 و3500 غرام)، مو <bdi>macrosomic</bdi>."
+  },
+  "AS-1621": {
+    "A": "<bdi>early postpartum</bdi> يحصل بعد الولادة خلال 24 ساعة؛ المريضة لسا ما ولدت.",
+    "B": "<bdi>late postpartum</bdi> يحصل من 24 ساعة لين 12 أسبوع بعد الولادة؛ المريضة لسا حامل.",
+    "C": "<bdi>intrapartum</bdi> يحتاج مخاض فعلي (مثل اتساع عنق الرحم)؛ ما فيه وصف مخاض هنا."
+  },
+  "AS-1621B": {
+    "A": "<bdi>early postpartum</bdi> خلال أول 24 ساعة بعد الولادة، أغلبها بسبب <bdi>uterine atony</bdi>؛ 3 أسابيع أبعد من هالنافذة بكثير.",
+    "C": "<bdi>intrapartum</bdi> نزيف أثناء المخاض والولادة قبل خروج الجنين والمشيمة.",
+    "D": "<bdi>antepartum</bdi> نزيف أثناء الحمل قبل المخاض (بعد 20 أسبوع) زي <bdi>previa</bdi> أو <bdi>abruption</bdi>؛ هذي المريضة ولدت أصلًا."
+  },
+  "AS-1621C": {
+    "B": "<bdi>late postpartum</bdi> يبدأ بعد 24 ساعة لين 12 أسبوع بعد الولادة؛ يصح لو كانت مثلًا بعد 3 أسابيع من الولادة.",
+    "C": "<bdi>intrapartum</bdi> يحتاج مخاض وولادة مستمرة؛ هي خلصت وولدت أصلًا.",
+    "D": "<bdi>antepartum</bdi> يحصل أثناء الحمل قبل المخاض؛ هي الآن بعد الولادة."
+  },
+  "AS-1621D": {
+    "A": "<bdi>early postpartum</bdi> يحصل بعد الولادة خلال 24 ساعة؛ لسا ما ولدت.",
+    "B": "<bdi>late postpartum</bdi> يحصل من 24 ساعة لين 12 أسبوع بعد الولادة؛ لسا ما ولدت.",
+    "D": "<bdi>antepartum</bdi> كان يصح بعمر 32 أسبوع بدون مخاض، بس اتساع عنق الرحم 7 سم يعني المخاض بدأ."
+  },
+  "AS-1622": {
+    "A": "<bdi>induction of labor</bdi> يبدأ المخاض بمريضة مو بمخاض أصلًا؛ هي فعلًا بمخاض نشط.",
+    "B": "<bdi>augmentation</bdi> يُستخدم مع انقباضات غير كافية بدون تقدم بعنق الرحم؛ انقباضاتها كافية أصلًا، وزيادة <bdi>oxytocin</bdi> ممكن تسبب <bdi>tachysystole</bdi>.",
+    "C": "<bdi>emergency cesarean section</bdi> لحالات ضيق الجنين أو توقف تقدم المخاض أو انسداده؛ ولا شيء من هذا موجود هنا."
+  },
+  "AS-1629": {
+    "A": "صياغة الخيار غامضة وما تمثل خطوة وقائية محددة حسب المفهوم المذكور بالمصدر.",
+    "B": "«الاستعداد للمضاعفات» فكرة عامة صح بس أقل تحديدًا من تخطيط مكان وتوقيت الولادة اللي يذكره المصدر."
+  },
+  "AS-1631": {
+    "A": "<bdi>ultrasound</bdi> جزء من تقييم <bdi>AUB</bdi>، بس يجي بعد تصحيح فقر الدم العرضي، مو قبله.",
+    "B": "<bdi>D&C</bdi> يُحجز لنزيف غزير فشل معه العلاج الدوائي، مو أول خطوة بمريضة نعسانة وفقر دم شديد تحتاج إنعاش.",
+    "D": "مريضة عرضية مع <bdi>Hb 7</bdi> ونزيف مستمر غير آمن إرسالها للبيت؛ العلاج بالبيت يصح بمريضة مستقرة وفقر دم خفيف."
+  },
+  "AS-1637": {
+    "A": "الواقي الذكري آمن بعد <bdi>VTE</bdi> بس معدل فشله بالاستخدام العادي أعلى بكثير، فما يحقق «فعالية» مطلوبة.",
+    "B": "اللاصقة الهرمونية فيها <bdi>estrogen</bdi> و<bdi>progestin</bdi>، والـ<bdi>estrogen</bdi> يرفع خطر <bdi>VTE</bdi>، فهي ممنوعة بعد <bdi>pulmonary embolism</bdi>.",
+    "D": "حبوب منع الحمل المركبة فيها <bdi>estrogen</bdi> وممنوعة مع تاريخ <bdi>VTE</bdi>؛ حبوب <bdi>progestin-only</bdi> مقبولة بس أقل فعالية من الجهاز الرحمي."
+  },
+  "AS-1644": {
+    "A": "<bdi>leiomyoma</bdi> الحميد يُتوقع يصغر بعد سن اليأس؛ هذا يناسب ورم ثابت أو متناقص، مو نمو كبير بعدها.",
+    "C": "<bdi>endometrial adenocarcinoma</bdi> يتوقع معه نزيف وسماكة ببطانة الرحم؛ هنا البطانة <bdi>homogenous</bdi> بـ5 مم والتغير بالورم الليفي نفسه.",
+    "D": "<bdi>metastatic ovarian carcinoma</bdi> يتوقع معه كتلة بالمبيض أو <bdi>ascites</bdi> أو ارتفاع <bdi>CA-125</bdi>؛ ما فيه شيء يشير للمبيض هنا."
+  },
+  "AS-1645": {
+    "A": "<bdi>IUD (LNG-IUS)</bdi> علاج لنزيف غزير بس هو وسيلة منع حمل، عكس هدفها بالحمل.",
+    "C": "<bdi>GnRH agonists</bdi> تصغّر الورم مؤقتًا وتثبط الإباضة؛ تُستخدم قبل العملية للأورام الكبيرة، مو كعلاج نهائي للخصوبة.",
+    "D": "<bdi>hysterectomy</bdi> ينهي الخصوبة تمامًا؛ يصح لمريضة أعراضها شديدة وأكملت أسرتها."
+  },
+  "AS-1667": {
+    "A": "<bdi>Di Mo (dichorionic monoamniotic)</bdi> نوع غير موجود فعليًا: لو فيه كوريونين لازم يكون فيه أمنيونين.",
+    "B": "<bdi>Mono Di</bdi> يعطي غشاء رفيع يلتقي بالمشيمة بزاوية قائمة (<bdi>T sign</bdi>)، مو <bdi>lambda sign</bdi>.",
+    "D": "<bdi>Mono Mono</bdi> ما فيه غشاء فاصل أصلًا، فما تظهر لا <bdi>lambda sign</bdi> ولا غشاء سميك."
+  },
+  "AS-1686": {
+    "A": "<bdi>neoadjuvant chemotherapy</bdi> تُستخدم مع مرض واسع غير متوقع استئصاله كامل أو مريضة غير مهيأة جراحيًا؛ هنا ما فيه انتشار.",
+    "B": "العلاج الكيميائي لوحده ما يحدد مرحلة الورم ولا يشيله؛ هو علاج مساعد بعد الجراحة، أو خط أساسي فقط لمن ما تقدر تسوي جراحة.",
+    "C": "<bdi>radiotherapy</bdi> مو خط علاج معياري بسرطان المبيض الظهاري لأن المرض ينتشر بكل التجويف الصفاقي."
+  },
+  "AS-0277": {
+    "A": "<bdi>Oral prednisone</bdi> بجرعة عادية يُتجنب لأنه بدراسة <bdi>Optic Neuritis Treatment Trial</bdi> ارتبط بزيادة نكسات <bdi>optic neuritis</bdi>.",
+    "C": "<bdi>Rituximab</bdi> علاج طويل المدى (يُستخدم أحيانًا بـ<bdi>MS</bdi> و<bdi>NMOSD</bdi>) لمنع النكسات، مو علاج النوبة الحادة.",
+    "D": "<bdi>Interferon Beta</bdi> دواء يعدّل مسار المرض ويقلل النكسات المستقبلية، ويبدأ لاحقًا مو لعلاج النوبة الحادة."
+  },
+  "AS-0283": {
+    "A": "<bdi>Bone scan</bdi> غير محدد وبطيء، وما يفرّق بين العدوى والالتهاب، ويأخر سحب السائل من مفصل محتمل فيه عدوى.",
+    "C": "الأشعة العادية ممكن تُعمل كخط أساس، لكنها غالبًا طبيعية بمراحل مبكرة من <bdi>septic arthritis</bdi> وما تستبعد العدوى.",
+    "D": "<bdi>MRI</bdi> مفيد لـ<bdi>osteomyelitis</bdi> أو إصابات داخلية بالمفصل، لكنه ما يغني عن تحليل سائل المفصل بحالة التهاب مفصل واحد حاد."
+  },
+  "AS-0292": {
+    "B": "الخروج للمنزل يناسب المرضى اللي استجابوا جيدًا للعلاج الأولي وما عندهم ضيق تنفس، وهو ما زال بـ<bdi>respiratory distress</bdi>.",
+    "C": "القسم العام يناسب الاستجابة الجزئية بدون عوامل خطر عالية؛ تاريخ <bdi>intubation</bdi> السابق واستمرار الضيق يحتاجان مستوى عناية <bdi>ICU</bdi>.",
+    "D": "الخروج مع متابعة لاحقة مخصص للمستجيبين جيدًا والمستقرين؛ غير آمن بمريض عالي الخطورة وما استجاب للعلاج."
+  },
+  "AS-0300": {
+    "A": "<bdi>Lisinopril</bdi> يسبب سعال جاف، <bdi>angioedema</bdi>، ارتفاع بوتاسيوم وارتفاع <bdi>creatinine</bdi>، مو آلام عضلية.",
+    "B": "<bdi>Thiazide</bdi> ممكن يسبب ضعف عبر نقص بوتاسيوم أو صوديوم؛ هذا يكون الجواب لو ذُكر بوتاسيوم منخفض أو تقلصات، لكن الآلام العامة المنتشرة تشير للـ<bdi>statin</bdi>."
+  },
+  "AS-0315": {
+    "B": "<bdi>Ischemic MR</bdi> صوته <bdi>holosystolic</bdi> بدون <bdi>click</bdi>، بمريض له تاريخ احتشاء سابق، ويخف مع الوقوف ويزيد مع القبض، عكس هالصوت.",
+    "C": "<bdi>Functional MR</bdi> من بطين أيسر متوسع، صوته <bdi>holosystolic</bdi> بدون <bdi>click</bdi> ويزيد مع القبض أيضًا.",
+    "D": "<bdi>Rheumatic MR</bdi> صوته <bdi>holosystolic</bdi> وينتشر للإبط وغالبًا مصحوب بـ<bdi>mitral stenosis</bdi>، وبدون <bdi>click</bdi>، ويقل مع الوقوف بدل ما يزيد."
+  },
+  "AS-0317": {
+    "A": "<bdi>Allopurinol</bdi> يخفض حمض اليوريك (<bdi>gout</bdi>، <bdi>tumor lysis</bdi>)؛ ما له دور بعلاج <bdi>acute chest syndrome</bdi>.",
+    "B": "<bdi>Hydroxyurea</bdi> يرفع <bdi>HbF</bdi> وهو الدواء طويل المدى لمنع تكرار <bdi>ACS</bdi> ونوبات الألم؛ ما يعالج نوبة حادة شديدة.",
+    "D": "<bdi>Methotrexate</bdi> مضاد استقلاب ومثبط مناعة (<bdi>RA</bdi>، أورام)؛ ما له دور بـ<bdi>sickle cell disease</bdi>."
+  },
+  "AS-0318": {
+    "B": "<bdi>Transfusion-related acute lung injury</bdi> يسبب نقص أكسجين مع ارتشاح بالجهتين، وغالبًا خلال 1-2 ساعة من النقل؛ يناسب أكثر لما يكون ضيق التنفس والارتشاح هو الصورة المسيطرة مو انهيار خلال دقائق.",
+    "C": "الحساسية البسيطة تبدأ مبكرًا لكن بـ<bdi>urticaria</bdi> وحكة وطفح بدون انهيار جهازي؛ فقط <bdi>anaphylaxis</bdi> (غالبًا بنقص <bdi>IgA</bdi>) تعطي انخفاض ضغط، عادة مع صفير وتورم بدون حرارة."
+  },
+  "AS-0321": {
+    "A": "إعادة <bdi>warfarin</bdi> أثناء نزيف دماغي نشط وجراحة قادمة تزيد النزيف؛ يُعاد لاحقًا بعد السيطرة على النزيف وبقرار متخصص.",
+    "B": "<bdi>FFP</bdi> يعوّض عوامل التخثر أيضًا لكن يحتاج حجم كبير وذوبان وتوافق فصيلة، فهو أبطأ ويحمل خطر زيادة السوائل؛ يُستخدم كبديل لما <bdi>PCC</bdi> غير متوفر.",
+    "C": "<bdi>Recombinant factor VIIa</bdi> ليس جزء من بروتوكول عكس <bdi>warfarin</bdi> المعياري ويحمل خطر تجلط؛ غير موصى فيه لهذا الاستخدام."
+  },
+  "AS-1308": {
+    "A": "<bdi>weight loss</bdi> جزء من الخطة بس عنصر واحد بس، يتجاهل <bdi>smoking</bdi> اللي من أهم عوامل الخطر <bdi>cardiovascular</bdi> عنده.",
+    "B": "الدواء يجي لاحقًا: <bdi>BP</bdi> ما تأكد بقراءات متكررة، و<bdi>LDL</bdi> 4.03 <bdi>mmol/L</bdi> أقل من حد الـ<bdi>statin</bdi> الإلزامي (4.9 <bdi>mmol/L</bdi>) بدون <bdi>diabetes</bdi> أو <bdi>established cardiovascular disease</bdi>.",
+    "D": "الطمأنة خطأ لأن عنده عدة عوامل خطر <bdi>cardiovascular</bdi> و<bdi>prediabetes</bdi> تحتاج تدخل فعلي الحين، مو فحص طبيعي تمامًا."
+  },
+  "AS-1314": {
+    "B": "<bdi>CRP</bdi> علامة <bdi>inflammation</bdi> غير نوعية، تدعم <bdi>pneumonia</bdi> أو التهاب ثاني، مو <bdi>ventricular dysfunction</bdi>.",
+    "C": "<bdi>CK (CK-MB)</bdi> علامة إصابة عضلة القلب و<bdi>ischemia</bdi>، تستخدم لـ<bdi>infarction</bdi> مو لـ<bdi>heart failure</bdi>.",
+    "D": "<bdi>Troponin T</bdi> يدل على <bdi>myocardial necrosis</bdi> وهو تحليل <bdi>acute coronary syndrome</bdi> (ألم صدر، <bdi>ischemic ECG</bdi>)، مو تحليل <bdi>ventricular dysfunction</bdi>."
+  },
+  "AS-0164": {
+    "A": "مراقبة بالموجات فوق الصوتية تناسب الضيق بدون أعراض أو درجة منخفضة؛ تكرار الفحص بعد 3-6 أشهر يترك خطر سكتة عالي بالأسابيع الأولى بدون علاج.",
+    "C": "تقوية العلاج بالستاتين جزء من العلاج الدوائي الأساسي، لكنه لا يغني عن <bdi>revascularization</bdi> بضيق شديد عرضي، والمريض أصلاً على ستاتين.",
+    "D": "تعديل نمط الحياة دايمًا يُضاف لكنه ليس الإدارة الحاسمة لضيق عرضي شديد (70-99%)."
+  },
+  "AS-0165": {
+    "A": "<bdi>CBC</bdi> فحص مساعد يُرسل بالتوازي، لكنه لا يؤخر الجراحة متى ما كان التشخيص واضح سريريًا.",
+    "C": "<bdi>MRI</bdi> يفيد لو التشخيص غير واضح والمريض مستقر، لكنه يضيّع وقت ثمين بحالة واضحة.",
+    "D": "<bdi>CT abdomen</bdi> يفحص منطقة خاطئة؛ لا علاقة له بعدوى الساق."
+  },
+  "AS-0166": {
+    "A": "الإفراز الثنائي غالبًا سببه جهازي أو فسيولوجي؛ حتى الدموي الثنائي (مثل الحمل) غالبًا حميد.",
+    "B": "الإفراز الثنائي الحليبي التلقائي هو <bdi>galactorrhea</bdi>، سببه هرموني مو سرطان الثدي.",
+    "C": "الإفراز اللي يطلع بس بالعصر (<bdi>induced</bdi>) خصوصًا الأخضر، غالبًا يرجع لـ<bdi>duct ectasia</bdi> أو تغيرات ليفية كيسية حميدة."
+  },
+  "AS-0170": {
+    "B": "<bdi>Paronychia</bdi> عدوى حول الظفر بعد قضم أظافر أو مانيكير؛ هنا منطقة الظفر سليمة والمصاب هو الـ<bdi>pulp</bdi>.",
+    "C": "<bdi>Onychomycosis</bdi> عدوى فطرية مزمنة بالظفر، مو تورم حاد مؤلم بعد وخز.",
+    "D": "<bdi>Cellulitis</bdi> احمرار منتشر بدون تجمع متوتر محدد؛ هنا التورم موضعي ومتوتر بالـ<bdi>pulp</bdi>."
+  },
+  "AS-0179": {
+    "B": "<bdi>regional block</bdi> غير ضروري لآفة صغيرة سطحية، والأدوية طويلة المفعول مثل <bdi>levobupivacaine</bdi> تحمل خطر سمية جهازية أعلى لو امتصت.",
+    "C": "<bdi>bupivacaine</bdi> هو الأكثر سمية قلبية بين موضعات التخدير، خيار سيئ بمريض قلبي، و<bdi>regional block</bdi> مبالغ فيه لآفة صغيرة.",
+    "D": "الأدرينالين يُتجنب تقليديًا بالمواقع ذات <bdi>end artery</bdi> كالأذن، ويزيد الحمل القلبي بمريض قلبي."
+  },
+  "AS-0212": {
+    "A": "<bdi>Prostatitis</bdi> قد يرفع <bdi>PSA</bdi> لكن يصاحبه حمى وعسر تبول وألم بروستات مؤلمة، ولا يفسر ألم العظم ولا ارتفاع <bdi>ALP</bdi> العظمي.",
+    "C": "سرطان المثانة يتقدم عادة بـ<bdi>painless hematuria</bdi> بمدخن، ولا يرفع <bdi>PSA</bdi>.",
+    "D": "<bdi>BPH</bdi> يسبب أعراض بولية مع ارتفاع بسيط بـ<bdi>PSA</bdi>؛ لا يسبب <bdi>back pain</bdi> ولا ارتفاع <bdi>ALP</bdi> العظمي."
+  },
+  "AS-0227": {
+    "B": "<bdi>MRI (MRA)</bdi> دراسة تشريحية من الدرجة الثانية تُستخدم للتخطيط بعد ما يثبت الدوبلر مرض مهم.",
+    "C": "<bdi>CT angiography</bdi> هو خارطة التأكيد، يُستخدم بعد الدوبلر أو مباشرة بإقفار حاد يُخطَّط له تدخل.",
+    "D": "<bdi>HbA1c</bdi> يفحص عامل خطر السكري لكن لا يقيّم الطرف نفسه ولا يفسر غياب النبض."
+  },
+  "AS-0228": {
+    "B": "<bdi>Direct inguinal hernia</bdi> حالة اكتسابية عند الرجل الأكبر سنًا، عادة انتفاخ قابل للرد وغير مؤلم؛ لا تسبب خصية مؤلمة مرتفعة بمراهق.",
+    "C": "<bdi>Indirect inguinal hernia</bdi> تعطي انتفاخ من الإربية للصفن مع كتلة منفصلة عن الخصية، لا خصية مرتفعة متوترة.",
+    "D": "<bdi>Hydrocele</bdi> انتفاخ غير مؤلم ويعطي <bdi>transillumination</bdi> موجب؛ هنا الألم شديد والفحص سالب."
+  },
+  "AS-0231": {
+    "A": "التضميد يناسب مشاكل الجرح السطحية فقط؛ يتجاهل أمعاء نخرية مختنقة.",
+    "B": "التنظير يناسب فتق اختياري بسيط؛ فتق مختنق ملوث ونخري يحتاج وصول مفتوح لاستئصال الأمعاء.",
+    "C": "<bdi>MRI</bdi> يضيف تأخير بدون فائدة؛ التشخيص واضح سريريًا والجراحة إلزامية."
+  },
+  "AS-0232": {
+    "B": "<bdi>Open mesh repair</bdi> العملية القياسية لفتق عرضي، لكن غير إلزامية بفتق بدون أعراض برجل مسن.",
+    "C": "<bdi>Laparoscopic mesh repair</bdi> يفضَّل للفتق الثنائي أو المتكرر؛ لا ينطبق هنا والجراحة غير مطلوبة بعد.",
+    "D": "الطمأنة البسيطة بدون متابعة غير آمنة؛ الفتق ممكن يكبر أو يصير مؤلم أو يختنق."
+  },
+  "AS-0243": {
+    "B": "<bdi>Epidural hematoma</bdi> عدسي الشكل (محدب)، محدود بخطوط الدرز، من <bdi>middle meningeal artery</bdi> بعد كسر صدغي، نمطيًا مع فترة صفاء؛ ليس هلالي.",
+    "C": "<bdi>SAH</bdi> يظهر دم بالأتلام والصهاريج القاعدية، مو تجمع هلالي فوق نصف الكرة؛ ويُصاحب صداع مفاجئ شديد."
+  },
+  "AS-0255": {
+    "A": "الستيرويدات مدى الحياة تُعطى بعد استئصال كظري ثنائي أو قصور دائم؛ بعد استئصال ورم أحادي الجانب غالبًا تتعافى الغدة المتبقية.",
+    "B": "إيقاف الستيرويد فجأة خطير: الغدة المقابلة المثبطة لا تقدر تستجيب، فيصير <bdi>adrenal crisis</bdi>.",
+    "D": "<bdi>fludrocortisone</bdi> يعوّض <bdi>aldosterone</bdi>، وهو منظَّم بمحور <bdi>renin-angiotensin</bdi> ويبقى سليم بعد استئصال كظري أحادي لـ<bdi>Cushing</bdi>."
+  },
+  "AS-0266": {
+    "A": "<bdi>Intermittent claudication</bdi> علامة مرض شرياني مزمن مستقر، تُدار بالتمرين وضبط عوامل الخطر، ولا ترمز لإقفار حاد.",
+    "C": "تاريخ <bdi>bypass</bdi> يسار يثبت مرض شرياني سابق، لكن الشكوى الحالية باليمين، فهو تاريخ مو علامة حدّة.",
+    "D": "التدخين عامل خطر لمرض الأوعية والتخثر، لكنه لا يدل على أن الإقفار حاليًا حاد."
+  },
+  "AS-0279": {
+    "A": "الطمأنة تناسب فتق صغير بدون أعراض؛ هذا صار مؤلم ومتوسعًا فيرتفع خطر الاختناق.",
+    "B": "الإصلاح المفتوح بدون شبكة نسبة ارتكاسه عالية جدًا؛ يُحفظ لعيوب صغيرة جدًا أو حقل ملوث.",
+    "C": "الإصلاح التنظيري وحده بدون شبكة إجابة ناقصة؛ الإصلاح التنظيري للفتق الجراحي هو أصلًا إصلاح بشبكة."
+  },
+  "AS-1078": {
+    "A": "<bdi>FFP</bdi> يعوض عوامل التجلط، وهي طبيعية هنا (<bdi>PT/PTT</bdi> طبيعي)، و<bdi>corticosteroids</bdi> لحالها بطيئة لرضيع ينزف وصفائحه منخفضة؛ <bdi>FFP</bdi> مناسب لنقص عوامل تجلط مع <bdi>PT/PTT</bdi> طويلة مثل <bdi>DIC</bdi> أو مرض كبدي."
+  },
+  "AS-1080": {
+    "A": "«<bdi>respiratory distress symptoms</bdi>» مجرد وصف للأعراض مو تشخيص؛ ولو قصدها <bdi>RDS</bdi> الحقيقي، فهذا مرض <bdi>preterm</bdi> بنقص <bdi>surfactant</bdi> مع تدهور تدريجي وصورة <bdi>ground glass</bdi>، بينما هذا طفل <bdi>term</bdi> بأعراض خفيفة."
+  },
+  "AS-1085": {
+    "B": "<bdi>HFNC</bdi> تصعيد يُستخدم لو استمر انخفاض الأكسجين أو زاد <bdi>work of breathing</bdi> رغم <bdi>low flow oxygen</bdi>، و<bdi>IV fluids</bdi> فقط لو ما قدر ياخذ تغذية بالفم أو الأنبوب؛ ما فيه بالسؤال إشارة إن الخطوة الأولى فشلت."
+  },
+  "AS-1092": {
+    "B": "<bdi>systemic steroids</bdi> بديل مقبول لـ<bdi>induction</bdi> لكن مو الخط الأول عند الأطفال بسبب آثاره على النمو؛ الأفضلية لـ<bdi>exclusive enteral nutrition</bdi>.",
+    "C": "<bdi>MTX</bdi> دوره بمرحلة <bdi>maintenance</bdi>، مو كخطوة أولى عند التشخيص."
+  },
+  "AS-1101": {
+    "B": "<bdi>airway clearance</bdi> أصلاً يُطبق، وما يمنع نزلات البرد الفيروسية؛ زيادة تكراره تكون وقت <bdi>exacerbation</bdi> مو كوقاية من عدوى المدرسة.",
+    "C": "تجنب الأنشطة الجماعية والمدرسة يعزل الطفل وغير موصى به؛ النصيحة الصحيحة تجنب قرب مرضى <bdi>CF</bdi> الآخرين (خطر العدوى المتبادلة)، مو الأصدقاء الأصحاء.",
+    "D": "نزلات البرد فيروسية، فالمضاد الحيوي ما يمنعها ويزيد خطر المقاومة؛ المضاد الحيوي يُعطى لـ<bdi>bacterial exacerbation</bdi> محددة، مو لتكرار 6-7 نزلات سنويًا."
+  },
+  "AS-1109": {
+    "A": "<bdi>choanal atresia</bdi> يظهر بالولادة بزرقة تتحسن بالبكاء وصعوبة إدخال قسطرة أنفية، مو ضجيج تنفسي يتغير بالوضعية عند طفل بصحة جيدة.",
+    "C": "<bdi>subglottic stenosis</bdi> (غالبًا بعد تنبيب) يعطي <bdi>stridor</bdi> ثنائي الطور لا يتغير بالوضعية ويميل للاستمرار أو التفاقم.",
+    "D": "<bdi>vocal cord paralysis</bdi> يعطي <bdi>stridor</bdi> مع بكاء ضعيف أو أجش ومشاكل رضاعة أو استنشاق، غالبًا بعد إصابة ولادية أو جراحة قلب، وبدون تغير بالوضعية."
+  },
+  "AS-1114": {
+    "A": "الاحمرار المتقطع بالوجه عرض حميد ما له علاقة بمضاعفات <bdi>Kawasaki</bdi> أو <bdi>aspirin</bdi>.",
+    "C": "الطفح الجلدي الملموس بالأطراف علامة كلاسيكية لـ<bdi>Henoch-Schönlein purpura</bdi>، وهو التهاب وعائي مختلف، مو علامة تحذير لـ<bdi>Kawasaki</bdi>.",
+    "D": "ألم المفاصل الخفيف اللي يتحسن بالراحة ممكن يصير أثناء <bdi>Kawasaki disease</bdi> نفسه وهو <bdi>self-limiting</bdi>، مو حالة طارئة."
+  },
+  "AS-1124": {
+    "A": "فحوصات وظائف الكبد غير محددة؛ ورم كبدي (<bdi>hepatoblastoma</bdi>) يُقترح بارتفاع <bdi>alpha fetoprotein</bdi> مو بـ<bdi>LFT</bdi>.",
+    "B": "وظائف الكلى تُفحص بـ<bdi>Wilms tumor</bdi> لكنها غالبًا طبيعية وما تقترح التشخيص؛ <bdi>Wilms</bdi> عادة بدون <bdi>calcification</bdi> وعند طفل بصحة جيدة.",
+    "C": "<bdi>alpha fetoprotein</bdi> هو مؤشر <bdi>hepatoblastoma</bdi> (وأورام الخلايا الجرثومية)، وليس مرتفعًا بـ<bdi>neuroblastoma</bdi>."
+  },
+  "AS-1137": {
+    "A": "تشجيع النشاط البدني الحر مع متابعة <bdi>ECG</bdi> سنوية فقط يترك مريض عالي الخطورة بدون علاج؛ المراقبة لوحدها غير مقبولة مع <bdi>QT</bdi> طويل وتاريخ عائلي لموت مفاجئ."
+  },
+  "AS-1140": {
+    "A": "الخصية <bdi>ectopic</bdi> تكون خارج مسار الهبوط الطبيعي (منطقة <bdi>perineum</bdi> أو <bdi>femoral</bdi> أو فوق العانة)، مو داخل <bdi>inguinal canal</bdi>.",
+    "B": "الخصية <bdi>undescended</bdi> متوقفة على طول مسار الهبوط ولا يمكن إرجاعها للصفن أو ترجع فورًا للأعلى؛ الحالات الملموسة تحتاج <bdi>orchidopexy</bdi>.",
+    "C": "<bdi>testicular torsion</bdi> حالة طارئة مؤلمة مع خصية مرتفعة ومؤلمة وغياب <bdi>cremasteric reflex</bdi>، مو موجود بالصدفة بزيارة روتينية."
+  },
+  "AS-2359": {
+    "B": "<bdi>Syphilis</bdi> بكتيرية مو فيروسية، و<bdi>congenital syphilis</bdi> يعطي <bdi>snuffles</bdi> و<bdi>rash</bdi> و<bdi>hepatosplenomegaly</bdi> و<bdi>bone lesions</bdi>، مو <bdi>cataract</bdi> مع <bdi>heart defect</bdi>.",
+    "C": "<bdi>Toxoplasmosis</bdi> عدوى طفيلية، <bdi>triad</bdi> تبعها <bdi>chorioretinitis</bdi> و<bdi>hydrocephalus</bdi> و<bdi>diffuse intracranial calcifications</bdi>.",
+    "D": "<bdi>CMV</bdi> فيروسي بس يعطي <bdi>periventricular calcifications</bdi> و<bdi>microcephaly</bdi> و<bdi>chorioretinitis</bdi> و<bdi>sensorineural hearing loss</bdi>، مو <bdi>cataract</bdi> مع <bdi>PDA</bdi>."
+  },
+  "AS-2360": {
+    "A": "نقص <bdi>vitamin B12</bdi> يسبب <bdi>megaloblastic anemia</bdi> و<bdi>glossitis</bdi> و<bdi>neuropathy</bdi>، مو <bdi>edema</bdi> مع <bdi>hypoalbuminemia</bdi>.",
+    "B": "نقص <bdi>vitamin D</bdi> يسبب <bdi>rickets</bdi> (bowed legs, widened wrists, rachitic rosary, low phosphate)، مو <bdi>malnutrition</bdi> <bdi>edematous</bdi>.",
+    "D": "نقص <bdi>carbohydrate</bdi> الشديد (مع <bdi>protein</bdi>) يعطي <bdi>marasmus</bdi>: <bdi>severe wasting</bdi> وجلد مترهل وطفل جائع نشيط بدون <bdi>edema</bdi>."
+  },
+  "AS-2364": {
+    "A": "<bdi>Ultrasound</bdi> ما يضيف شي بعد ما الأشعة حددت مكان عملة <bdi>radio-opaque</bdi>؛ يستخدم لمشاكل بطنية ثانية مثل <bdi>pyloric stenosis</bdi> أو <bdi>intussusception</bdi>.",
+    "B": "<bdi>Immediate endoscopy</bdi> تكون لأجسام <bdi>high risk</bdi> (<bdi>button battery</bdi> بالـ<bdi>esophagus</bdi>، مغناطيسين، أجسام حادة أو كبيرة) أو عملة بالـ<bdi>esophagus</bdi> مع أعراض، أو طفل غير <bdi>stable</bdi>.",
+    "D": "<bdi>CT</bdi> إشعاع غير ضروري لعملة متأكد مكانها بأشعة عادية؛ يُحجز لمضاعفات مثل <bdi>perforation</bdi>."
+  },
+  "AS-2365": {
+    "B": "<bdi>Urine culture</bdi> يكون لاشتباه <bdi>UTI</bdi>: <bdi>dysuria</bdi> أو <bdi>frequency</bdi> أو حمى أو بول كريه الرائحة أو <bdi>secondary wetting</bdi> جديد بعد فترة جافة.",
+    "C": "<bdi>Urinalysis</bdi> هو أول فحص بطفل عنده <bdi>enuresis</bdi> بعمر 5 سنوات فأكثر، أو عند اشتباه <bdi>polyuria</bdi> أو <bdi>glycosuria</bdi> أو عدوى؛ مو لازم هنا بعمر 4 سنوات.",
+    "D": "<bdi>EEG</bdi> لاشتباه نوبات ليلية (عض اللسان، حركات غير طبيعية، <bdi>confusion</bdi> بعدها)، مو لـ<bdi>bedwetting</bdi> منفرد."
+  },
+  "AS-2366": {
+    "B": "<bdi>Observation</bdi> مقبولة فقط مع <bdi>mental status</bdi> وفحص طبيعيين، متل طفل تقيأ أو عنده صداع بس <bdi>fully alert</bdi>؛ الـ<bdi>drowsiness</bdi> بعد نوبة يلغي هذا الخيار.",
+    "C": "<bdi>Electrolytes</bdi> تكون لنوبة غير مثارة أو حموية بدون <bdi>trauma</bdi>؛ هنا السبب <bdi>trauma</bdi> فلازم نستبعد إصابة داخل الجمجمة أولا.",
+    "D": "<bdi>Neurosurgery referral</bdi> يجي بعد <bdi>CT</bdi> يوضح آفة جراحية متل <bdi>epidural</bdi> أو <bdi>subdural hematoma</bdi>؛ بدون تصوير ما فيه شي نحول له بعد."
+  },
+  "AS-2367": {
+    "A": "<bdi>MMR</bdi> لقاح حي واستجابته تضعف بأجسام <bdi>IVIG</bdi> المضادة؛ يُأجل حتى تمر الفترة بعد <bdi>IVIG</bdi>.",
+    "B": "<bdi>Varicella</bdi> لقاح حي مضعف ويُأجل لنفس السبب بعد <bdi>IVIG</bdi>.",
+    "D": "<bdi>Measles</bdi> لقاح حي فيؤجل بعد <bdi>IVIG</bdi> أيضا؛ كان سيكون الجواب الصح لو الطفل ما أخذ <bdi>immunoglobulin</bdi>."
+  },
+  "AS-2369": {
+    "A": "<bdi>Bilateral chest tube insertion</bdi> لعلاج <bdi>pneumothorax</bdi> (<bdi>hyperlucent hemithorax</bdi>، اختفاء خطوط الرئة، تدهور مفاجئ)؛ <bdi>RDS</bdi> يعطي <bdi>ground glass</bdi> منتشر مو هواء بالـ<bdi>pleura</bdi>.",
+    "B": "<bdi>IV antibiotics</bdi> غالبا تبدأ تجريبيا لحين استبعاد <bdi>sepsis</bdi> مبكر أو <bdi>congenital pneumonia</bdi>، بس ما تعالج نقص <bdi>surfactant</bdi> اللي تظهره الأشعة.",
+    "C": "<bdi>Cardiology referral</bdi> تناسب اشتباه <bdi>cyanotic heart disease</bdi> (ازرقاق ما يتحسن بالأكسجين، نفخة، ظل قلب غير طبيعي)؛ <bdi>grunting</bdi> مع <bdi>ground glass</bdi> برئة خديج مشكلة رئوية."
+  },
+  "AS-2371": {
+    "B": "<bdi>HSP</bdi> يحتاج <bdi>purpura</bdi> واضح بالأرجل والأرداف مع <bdi>arthralgia</bdi> وألم بطن؛ ما فيه <bdi>rash</bdi> هنا، وحمى عالية مع <bdi>pyuria</bdi> كثيف مو نموذجي له.",
+    "C": "<bdi>Autoimmune hemolytic anemia</bdi> يسبب <bdi>anemia</bdi> مع يرقان وبول غامق من <bdi>hemoglobinuria</bdi>؛ ما يسبب <bdi>pyuria</bdi> أو حمى مع <bdi>incontinence</bdi> أو RBC كثيرة بكل حقل.",
+    "D": "<bdi>PSGN</bdi> يجي بعد عدوى حلق أو جلد بـ1-6 أسابيع مع بول لون الكولا و<bdi>edema</bdi> وارتفاع ضغط و<bdi>C3</bdi> منخفض؛ هنا الضغط طبيعي وما فيه <bdi>edema</bdi>، و<bdi>pyuria</bdi> مع حمى يوجه لعدوى."
+  },
+  "AS-2372": {
+    "B": "<bdi>Azithromycin</bdi> فعاليته ضعيفة على <bdi>E. coli</bdi> و<bdi>Gram negatives</bdi> البولية؛ يُستخدم لـ<bdi>atypical pneumonia</bdi> أو <bdi>pertussis</bdi>.",
+    "C": "<bdi>Ciprofloxacin</bdi> مو خط أول تجريبي برضع؛ <bdi>fluoroquinolones</bdi> تُحجز لعضويات مقاومة متل <bdi>Pseudomonas</bdi> لما ما فيه بديل.",
+    "D": "<bdi>IV cefepime</bdi> دواء واسع الطيف ضد <bdi>Pseudomonas</bdi> لعدوى معقدة؛ العلاج الوريدي يكون لعمر تحت شهرين أو <bdi>toxic</bdi> أو تقيؤ أو <bdi>dehydration</bdi>، ولا شي منها موجود هنا."
+  },
+  "AS-2373": {
+    "B": "<bdi>HUS</bdi> يجي بعد إسهال دموي (<bdi>E. coli O157</bdi>) ويعطي <bdi>triad</bdi>: <bdi>microangiopathic hemolytic anemia</bdi> و<bdi>thrombocytopenia</bdi> و<bdi>AKI</bdi>؛ الصفائح هنا طبيعية (165) والمحرض كان عدوى جلدية.",
+    "C": "<bdi>HSP</bdi> يسبب <bdi>purpura</bdi> واضح و<bdi>arthralgia</bdi> وألم بطن مع <bdi>complement</bdi> طبيعي؛ انخفاض <bdi>C3</bdi> بعد <bdi>impetigo</bdi> يوجه لـ<bdi>PSGN</bdi>.",
+    "D": "<bdi>Acute renal failure</bdi> يصف إصابة الكلى بس مو السبب الأساسي؛ السؤال يسأل عن التشخيص الكامن وهو <bdi>PSGN</bdi>."
+  },
+  "AS-2374": {
+    "A": "<bdi>Moraxella catarrhalis</bdi> يسبب بالأساس <bdi>otitis media</bdi> و<bdi>sinusitis</bdi> بالأطفال، وسبب نادر لـ<bdi>pneumonia</bdi>.",
+    "B": "<bdi>Mycoplasma</bdi> يسبب <bdi>atypical pneumonia</bdi> بأطفال المدرسة والمراهقين ببداية تدريجية وصداع وعلامات منتشرة؛ نادر بعمر 13 شهر.",
+    "D": "<bdi>Hib</bdi> كان سبب رئيسي لـ<bdi>pneumonia</bdi> و<bdi>epiglottitis</bdi> قبل اللقاح؛ تلقيحها محدث، فهذا يجعله مستبعد."
+  },
+  "AS-2375": {
+    "B": "<bdi>Ehlers-Danlos</bdi> يعطي <bdi>joint hypermobility</bdi> بس مع جلد مفرط التمدد وهش وكدمات سهلة، وما يسبب طول زائد.",
+    "C": "<bdi>Klinefelter</bdi> (47,XXY) يسبب طول زائد مع خصيتين صغيرتين و<bdi>gynecomastia</bdi> وتأخر بلوغ، بس مو <bdi>joint hypermobility</bdi>، وعادة يُلاحظ وقت البلوغ."
+  },
+  "AS-2381": {
+    "B": "جرعات نفس اللقاح ما تنحشر بجرعة وحدة؛ كل جرعة بالسلسلة لازم تحترم الفاصل الأدنى، مع إن لقاحات مختلفة ممكن تُعطى بنفس الزيارة.",
+    "C": "تجاهل اللقاحات المتأخرة يخلي الطفل بدون حماية؛ الجرعات المتأخرة دايما تُستدرك.",
+    "D": "إعادة الجدول غير ضرورية؛ الجرعات السابقة تبقى صالحة والسلسلة تكمل من حيث وقفت."
+  },
+  "AS-2382": {
+    "A": "<bdi>Emphysema</bdi> تلف بالحويصلات شائع بالتدخين أو نقص <bdi>alpha-1 antitrypsin</bdi>؛ <bdi>CF</bdi> يتلف الشعب الهوائية فيعطي <bdi>bronchiectasis</bdi> مو <bdi>emphysema</bdi>.",
+    "C": "<bdi>Hypothyroidism</bdi> مو مضاعفة لـ<bdi>CF</bdi>؛ المضاعفة <bdi>endocrine</bdi> الحقيقية هي <bdi>CF-related diabetes</bdi> من تلف البنكرياس.",
+    "D": "<bdi>CF</bdi> يرفع خطر أورام <bdi>GI</bdi> شوي بالبالغين بس الورم نادر وأقل بكثير من <bdi>bronchiectasis</bdi>."
+  },
+  "AS-2383": {
+    "A": "العلاج <bdi>supportive</bdi> فقط يناسب <bdi>gastroenteritis</bdi> فيروسي؛ عدوى طفيلية بماء ملوث مع انتفاخ وبراز كريه تحتاج علاج مضاد للطفيلي محدد.",
+    "B": "<bdi>Clindamycin</bdi> ما له دور ضد <bdi>Giardia</bdi>؛ هو سبب شائع لإسهال <bdi>C. difficile</bdi> أكثر من كونه علاج.",
+    "D": "<bdi>Loperamide</bdi> يُتجنب بالأطفال وبالإسهال المعدي لأنه يبطئ تخلص الجسم من الممرض وقد يسبب <bdi>ileus</bdi>."
+  }
+}
