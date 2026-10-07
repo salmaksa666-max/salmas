@@ -4156,5 +4156,172 @@
   "AS-1947": [
     "12 weeks",
     "cystic hygroma"
+  ],
+  "AS-0100": [
+    "Fishy Smell Vaginal Discharge",
+    "Clue Cells And Positive Whiff Test"
+  ],
+  "AS-0111": [
+    "multiple sexual transmitted diseases",
+    "37th gestational week",
+    "conjunctivitis and blindness in the newborn"
+  ],
+  "AS-0125": [
+    "38 weeks",
+    "intrauterine growth restriction (IUGR)",
+    "amniotic fluid index (AFI) of 3 cm",
+    "Absent end diastolic flow"
+  ],
+  "AS-0128": [
+    "primigravida",
+    "36-weeks",
+    "headache, blurred vision",
+    "160/110 mmHg",
+    "Protein ++"
+  ],
+  "AS-0129": [
+    "32-weeks",
+    "seizures",
+    "160/110 mmHg",
+    "Protein +++"
+  ],
+  "AS-0130": [
+    "35 GA",
+    "Fetal weight is below the 10th centile",
+    "Amniotic fluid Index is 3",
+    "Umbilical artery end diastolic flow is absent"
+  ],
+  "AS-0826": [
+    "9-month history of amenorrhea",
+    "FSH 60",
+    "LH 60"
+  ],
+  "AS-0908": [
+    "thin milky appearance",
+    "fish-like odor",
+    "vaginal pH of 4.5"
+  ],
+  "AS-0909": [
+    "thin milky appearance",
+    "fish-like odor",
+    "vaginal pH of 7.5"
+  ],
+  "AS-1500": [
+    "menorrhagia",
+    "diabetic and hypertensive",
+    "Thickened endometrial lining"
+  ],
+  "AS-1613": [
+    "33 weeks'",
+    "small for gestational age",
+    "reversed enddiastolic flow"
+  ],
+  "AS-1653": [
+    "41 WEEKS",
+    "IN LABOR",
+    "GUSH OF FLUID"
+  ],
+  "AS-1687": [
+    "markedly elevated CA-125",
+    "high-grade epithelial ovarian carcinoma",
+    "extensive metastatic spread throughout the abdomen"
+  ],
+  "AS-1703": [
+    "preterm labor",
+    "tocolytics",
+    "patent ductus arteriosus"
+  ],
+  "AS-1725": [
+    "Monochorionic Monoamniotic"
+  ],
+  "AS-1735": [
+    "14 weeks",
+    "O negative",
+    "no anti-D antibodies"
+  ],
+  "AS-1736": [
+    "4 cm ectopic pregnancy",
+    "scheduled for surgery"
+  ],
+  "AS-1744": [
+    "history of 2 preterm delivery"
+  ],
+  "AS-1747": [
+    "fundal height is consistent with 19 weeks",
+    "molar pregnancy"
+  ],
+  "AS-1753": [
+    "3rd trimester",
+    "previous BP f/u were normal",
+    "160/100",
+    "No protein in urine"
+  ],
+  "AS-1754": [
+    "39 weeks' gestation",
+    "Urinalysis was negative for protein",
+    "160/90",
+    "Blood pressure 120/70"
+  ],
+  "AS-1767": [
+    "secondary amenorrhea",
+    "D&C 3 month ago"
+  ],
+  "AS-1773": [
+    "severe generalized abdominal pain",
+    "intrauterine contraceptive device",
+    "Fluid collection of approximately 13 x 15 cm",
+    "No identified gestational sac"
+  ],
+  "AS-1775": [
+    "sudden, watery vaginal discharge",
+    "preterm prelabor rupture of membranes (PPROM)",
+    "proteins in the vaginal secretions"
+  ],
+  "AS-1777": [
+    "leiomyoma",
+    "heavy menstruation",
+    "doesn't want children soon"
+  ],
+  "AS-1778": [
+    "right flank radiating to her groin",
+    "rigors and chills",
+    "Numerous pus cells"
+  ],
+  "AS-1781": [
+    "cervical cancer stage 2B"
+  ],
+  "AS-1798": [
+    "Missed abortion",
+    "Infected Abortus",
+    "Fever"
+  ],
+  "AS-1805": [
+    "1ry amenorrhea",
+    "Cyclic pelvic pain",
+    "blue mass in vagina"
+  ],
+  "AS-1807": [
+    "B/L tubal block"
+  ],
+  "AS-1819": [
+    "30 min later",
+    "placenta did not come out"
+  ],
+  "AS-1820": [
+    "every 45 day",
+    "period stopped for 6 months"
+  ],
+  "AS-1952": [
+    "polyhydramnios",
+    "Fetal bradycardia",
+    "after spontaneous rupture of membranes"
+  ],
+  "AS-1953": [
+    "cord prolapse",
+    "CTG"
+  ],
+  "AS-1957": [
+    "Bilateral ovarian cancer",
+    "CA125 90"
   ]
 }
