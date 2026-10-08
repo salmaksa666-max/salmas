@@ -4747,5 +4747,243 @@
     "excessive military training",
     "postural hypotension",
     "Urine osmolality is elevated >500 mOsm/kg"
+  ],
+  "AS-0009": [
+    "ischemic stroke 2 days ago",
+    "RBS was 12.6"
+  ],
+  "AS-0011": [
+    "intermittent claudication",
+    "no symptoms of heart failure",
+    "Echo normal",
+    "atrial fibrillation"
+  ],
+  "AS-0011B": [
+    "intermitent claudicaion",
+    "stable angina"
+  ],
+  "AS-0012": [
+    "DM HTN CKD",
+    "eGFR 50/ml/min",
+    "goal BP to prevent cardiovascular disease"
+  ],
+  "AS-0014": [
+    "1st line Anti-TB medications",
+    "Lisinopril and Amlodipine"
+  ],
+  "AS-0015": [
+    "First-Line Anti-TB Regimen",
+    "Should Be Stopped?"
+  ],
+  "AS-0016": [
+    "First-Line Anti-TB Regimen",
+    "Should Be Adjusted"
+  ],
+  "AS-0029": [
+    "Lower limb weakness and urine incontinence",
+    "T10 sensory level",
+    "no history of previous infection"
+  ],
+  "AS-0030": [
+    "Burkit Lymphoma",
+    "hyperkalemia (6) and hypocalcemia",
+    "Unable to urinate"
+  ],
+  "AS-0031": [
+    "Burkit Lymphoma",
+    "hyperkalemia (6) and hypocalcemia"
+  ],
+  "AS-0031B": [
+    "BULKY diffuse large B cell lymphoma (DLBCL)",
+    "decreased urine output",
+    "UA 570",
+    "PREVENT"
+  ],
+  "AS-0031C": [
+    "BULKY diffuse large B cell lymphoma (DLBCL)",
+    "decreased urine output",
+    "UA 570",
+    "PREVENT"
+  ],
+  "AS-0032": [
+    "progressive dyspnea",
+    "paroxysmal nocturnal dyspnea",
+    "hypokinesia of anterior wall",
+    "ejection fraction 30%"
+  ],
+  "AS-0035": [
+    "ECG shows left bundle branch block",
+    "assess the coronary arteries"
+  ],
+  "AS-0036": [
+    "3-hour continuous retrosternal heaviness",
+    "left bundle branch block. Previous ECG was normal"
+  ],
+  "AS-0039": [
+    "on warfarin",
+    "bloody stool",
+    "PTT and PT prolonged"
+  ],
+  "AS-0040": [
+    "Asymptomatic",
+    "BP 110/85",
+    "Atrial Fibrillation (AF)"
+  ],
+  "AS-0041": [
+    "heart failure",
+    "fast atrial fibrillation"
+  ],
+  "AS-0042": [
+    "Acute Heart Failure",
+    "Atrial Fibrillation"
+  ],
+  "AS-0043": [
+    "acute kidney injury",
+    "cholesterol emboli"
+  ],
+  "AS-0044": [
+    "recently underwent cardiac catheterization",
+    "acute kidney injury",
+    "cholesterol emboli"
+  ],
+  "AS-0046": [
+    "severe mitral valve STENOSIS",
+    "a fib"
+  ],
+  "AS-0047": [
+    "severe mitral valve REGURGITATION",
+    "a fib"
+  ],
+  "AS-0049": [
+    "receiving IV heparin",
+    "deep vein thrombosis 6 days post-operatively",
+    "Platelet count is 75 ×109/L"
+  ],
+  "AS-0050": [
+    "LDL cholesterol: within normal range",
+    "Triglycerides: significantly elevated (300)"
+  ],
+  "AS-0051": [
+    "Triglycerides: significantly elevated (300)",
+    "He Was On Maximum Dose Statin"
+  ],
+  "AS-0058": [
+    "pink frothy spetum"
+  ],
+  "AS-0063": [
+    "concentric left ventricular hypertrophy",
+    "normal ejection fraction (60%)"
+  ],
+  "AS-0064": [
+    "systemic lupus erythematosus",
+    "mycophenolate mofetil",
+    "planning to get pregnant"
+  ],
+  "AS-0086": [
+    "Linear ulcer, stricture",
+    "segmental involvement"
+  ],
+  "AS-0104": [
+    "Blood Transfusion",
+    "Hypotensive With SpO₂ 88%"
+  ],
+  "AS-0107": [
+    "necrotic bowel",
+    "ECG showed sinus rhythm",
+    "Echo was normal"
+  ],
+  "AS-0112": [
+    "resume chemotherapy",
+    "tumor lysis syndrome"
+  ],
+  "AS-0114": [
+    "IV cetriaxone",
+    "Reduced platelets count"
+  ],
+  "AS-0132": [
+    "78-year-old",
+    "chronic kidney disease",
+    "fatigue and nausea",
+    "lisinopril",
+    "K: 6.2 (Or 6.3)"
+  ],
+  "AS-0133": [
+    "chronic kidney disease",
+    "K: 6.2 (Or 6.3)"
+  ],
+  "AS-0135": [
+    "interstitial lung disease",
+    "elevated jugular venous pressure (JVP)",
+    "loud pulmonary component of S2",
+    "prominent V waves",
+    "pulsatile hepatomegaly"
+  ],
+  "AS-0136": [
+    "ileocolonic Crohn's disease",
+    "perineal pain and discharges",
+    "2 perianal fistula"
+  ],
+  "AS-0137": [
+    "Sjogren's syndrome",
+    "hypokalemia"
+  ],
+  "AS-0140": [
+    "sore throat, fatigue, body aches",
+    "cough with white sputum",
+    "streaks of blood",
+    "Chest X-Ray : normal"
+  ],
+  "AS-0142": [
+    "dysphagia for both solid and liquid",
+    "nocturnal cough"
+  ],
+  "AS-0146": [
+    "atrial fibrillation",
+    "converted to sinus rhythm",
+    "maintain sinus rhythm"
+  ],
+  "AS-0149": [
+    "arthralgia, fever, weight loss",
+    "pleuritic chest pains",
+    "synovitis of the small joints of the hands",
+    "ANA 1:320",
+    "small left pleural effusion"
+  ],
+  "AS-0152": [
+    "post aortic valve replacement",
+    "warfarin",
+    "First line four anti-TB drugs"
+  ],
+  "AS-0153": [
+    "hematemesis",
+    "no jaundice or other signs of chronic liver disease",
+    "Blood urea nitrogen 14"
+  ],
+  "AS-0167": [
+    "necrotic bowel",
+    "exclude cardiac causes",
+    "ECG showed sinus rhythm",
+    "Echo was normal"
+  ],
+  "AS-0168": [
+    "lower limb weakness",
+    "urinary incontinence",
+    "T10 sensory level"
+  ],
+  "AS-0169": [
+    "lower limb weakness",
+    "urine incontinence",
+    "T10 sensory level"
+  ],
+  "AS-0175": [
+    "cirrhosis",
+    "undetectable HCV RNA 12 weeks post-treatment",
+    "follow-up"
+  ],
+  "AS-0177": [
+    "systemic lupus erythematosus",
+    "prednisolone",
+    "pain on internal rotation of the right hip",
+    "radiographs were normal"
   ]
 }
