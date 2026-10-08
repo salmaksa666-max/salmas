@@ -1,0 +1,433 @@
+# -*- coding: utf-8 -*-
+# Proper bilingual rewrite — batch p07 (45 questions, Medicine section).
+
+EXPLANATIONS = {
+
+"AS-1516": {"correct_letter": "C", "self_judged": True,
+    "idea": "<bdi>myoclonic seizures</bdi> ما زالت مستمرة رغم <bdi>valproic acid</bdi> بجرعة كافية — الخطوة الثانية بسلم علاج هذا النوع من <bdi>seizures</bdi>.",
+    "clues": [("myoclonic seizures", "نوع <bdi>seizure</bdi> له سلم علاج خاص، وبعض الأدوية تسوّئه"),
+               ("Valproic acid", "خط أول، لكن فشل هنا رغم الجرعة الكافية")],
+    "why_correct": [
+        "<bdi>valproic acid</bdi> هو خط أول لـ<bdi>myoclonic seizures</bdi>، ولما يفشل رغم جرعة كافية، الخط الثاني المعتمد هو <bdi>levetiracetam</bdi>.",
+        "أدوية حاصرة لقنوات الصوديوم زي <bdi>phenytoin</bdi> و<bdi>carbamazepine</bdi> و<bdi>oxcarbazepine</bdi> وكذلك <bdi>gabapentin</bdi> ممكن تسوّئ <bdi>myoclonus</bdi>، فما تُستخدم.",
+        "<bdi>lamotrigine</bdi> كمان ممكن يسوّئ <bdi>myoclonus</bdi> بعض المرات، و<bdi>ethosuximide</bdi> يُستخدم بس لـ<bdi>absence seizures</bdi>، مو <bdi>myoclonic</bdi>."],
+    "when_changes": ["لو كان النوع <bdi>absence seizures</bdi> (مو <bdi>myoclonic</bdi>)، الجواب يتحول لـ<bdi>ethosuximide</bdi>."],
+    "rule": "<bdi>myoclonic seizures</bdi>: خط أول <bdi>valproate</bdi>، خط ثاني <bdi>levetiracetam</bdi>؛ تجنبي حاصرات قنوات الصوديوم لأنها تسوّئ <bdi>myoclonus</bdi>.",
+    "comparison": None, "labs": None,
+    "guideline_note": "هذا السؤال ما له جواب مؤكد من المصدر؛ اخترنا <bdi>levetiracetam</bdi> بناءً على سلم العلاج المعروف لـ<bdi>myoclonic seizures</bdi> بعد فشل <bdi>valproate</bdi>."},
+
+"AS-1521": {"correct_letter": "B", "self_judged": False,
+    "idea": "<bdi>ACS</bdi> قبل ٥ أيام، الآن هبوط ضغط وتسرع نبض مع نفخة شاملة الانقباض (<bdi>pansystolic murmur</bdi>) تنتشر لحافة القص اليمنى — مضاعفة ميكانيكية محددة بعد الاحتشاء.",
+    "clues": [("5 days after", "توقيت كلاسيكي للمضاعفات الميكانيكية بعد الاحتشاء (يوم ٣-٥)"),
+               ("hypotension", "صدمة قلبية جديدة"),
+               ("pansystolic murmur", "نفخة شاملة الانقباض جديدة"),
+               ("right sternal border", "اتجاه الانتشار المميز لهذا السؤال")],
+    "why_correct": [
+        "نفخة شاملة الانقباض جديدة مع هبوط ضغط وتسرع نبض بعد ٥ أيام من <bdi>MI</bdi> هي مضاعفة ميكانيكية.",
+        "النفخة اللي تنتشر من حافة القص اليسرى إلى حافة القص اليمنى هي نفخة <bdi>VSD</bdi> المكتسبة، يعني <bdi>interventricular septal rupture</bdi> (تحويلة من اليسار لليمين تسبب صدمة قلبية)."],
+    "when_changes": ["لو كانت النفخة تنتشر للإبط مع وذمة رئة حادة، الجواب يتحول لـ<bdi>papillary muscle rupture</bdi>."],
+    "rule": "نفخة تتجه للقص = <bdi>septal rupture</bdi>؛ نفخة تتجه للإبط مع وذمة رئة = <bdi>papillary muscle rupture</bdi>.",
+    "comparison": None, "labs": None, "guideline_note": None},
+
+"AS-1524": {"correct_letter": "C", "self_judged": False,
+    "idea": "مريض بعد احتشاء قديم، ضيق تنفس مترقي وضيق نفس بالاستلقاء حتى بالراحة، كسر قذفي ٢٠٪ — قصور قلب حاد لا معاوض بوذمة رئة.",
+    "clues": [("MI two years ago", "مرض قلبي معروف"),
+               ("progressive dyspnea and orthopnea at rest", "ضيق تنفس بالراحة = شدة عالية"),
+               ("EF 20%", "كسر قذفي منخفض جدًا")],
+    "why_correct": [
+        "ضيق تنفس بالراحة مع كسر قذفي ٢٠٪ يعني <bdi>acute decompensated heart failure</bdi> مع وذمة رئة، وعلاج الطوارئ هو تفريغ السوائل بـ<bdi>IV furosemide</bdi> مع دعم التنفس.",
+        "بوجود ضيق نفس شديد، <bdi>non-invasive ventilation</bdi> (<bdi>CPAP/BiPAP</bdi>) تحسّن الأكسجين وتقلل جهد التنفس والحمل القبلي، وتجنّب التنبيب."],
+    "when_changes": ["لو كان المريض خامل الوعي أو مستنفذ أو فشل معه التنفس غير الباضع، الجواب يتحول لـ<bdi>intubation</bdi>."],
+    "rule": "ضيق تنفس بالراحة بقصور قلب حاد = <bdi>IV furosemide</bdi> + <bdi>NIV</bdi>؛ التنبيب فقط لو فشل التنفس غير الباضع.",
+    "comparison": None, "labs": [["EF", "20%", ">50% طبيعي"]], "guideline_note": None},
+
+"AS-1529": {"correct_letter": "B", "self_judged": False,
+    "idea": "مريض قصور كلوي مرحلة نهائية، أصوات قلب مكتومة، انصباب تامور بالصدى، وضغط منخفض فعليًا (٨٦) — دكاك قلبي غير مستقر.",
+    "clues": [("end-stage kidney disease", "سبب شائع لانصباب تامور يوريمي"),
+               ("muffled heart sounds", "علامة من ثلاثية <bdi>Beck</bdi>"),
+               ("pericardial effusion", "مؤكد بالصدى"),
+               ("Was Frankly Hypotensive", "المفتاح — عدم الاستقرار الفعلي")],
+    "why_correct": [
+        "أصوات مكتومة + انصباب مؤكد + ضغط منخفض فعليًا = دكاك قلبي بتأثير هيموديناميكي.",
+        "الدكاك غير المستقر يحتاج تصريف فوري، فـ<bdi>pericardiocentesis</bdi> هي الخطوة التالية بغض النظر عن سبب اليوريميا الأساسي."],
+    "when_changes": ["لو كان الضغط طبيعي (مستقر)، الجواب يتحول لتكثيف <bdi>hemodialysis</bdi> لعلاج الانصباب اليوريمي."],
+    "rule": "انصباب يوريمي مستقر = ديال؛ انصباب مع دكاك غير مستقر (ضغط منخفض) = تصريف فوري.",
+    "comparison": None, "labs": [["BP", "86/.. mmHg", "&lt;90 systolic = هبوط ضغط فعلي"]], "guideline_note": None},
+
+"AS-1535": {"correct_letter": "A", "self_judged": False,
+    "idea": "رجل ٦٠ سنة سكري وضغط، استسقاء بطني بعد ١٠ سنوات من ارتفاع إنزيمات الكبد بدون كحول — صورة <bdi>NAFLD</bdi> المتقدمة لتشمع، والسؤال عن «الأفضل» مو «الخطوة التالية».",
+    "clues": [("HTN and DM", "عوامل خطر <bdi>NAFLD</bdi>"),
+               ("no history of alcohol use", "يستبعد السبب الكحولي"),
+               ("10 years history of high aminotransferase", "مدة طويلة توحي بتليف متقدم"),
+               ("ascites", "علامة تشمع متقدم")],
+    "why_correct": [
+        "الصورة كلها <bdi>non-alcoholic fatty liver disease</bdi> متطورة لتشمع: ضغط وسكري، بدون كحول، وارتفاع إنزيمات طويل الأمد، والآن استسقاء.",
+        "جواب المصدر هنا <bdi>liver biopsy</bdi> لأن السؤال يسأل عن «الأفضل» (<bdi>BEST</bdi>) بمعنى المعيار الذهبي: الخزعة تؤكد <bdi>steatohepatitis</bdi> وتحدد درجة التليف وتستبعد أسباب ثانية لارتفاع الإنزيمات المزمن."],
+    "when_changes": ["لو كان السؤال يسأل عن الخطوة الأولى/التالية للتشخيص (مو الأفضل/المعيار الذهبي)، الجواب يتحول لـ<bdi>ultrasound</bdi> كفحص أولي غير باضع."],
+    "rule": "«الأفضل/المعيار الذهبي» بتشخيص <bdi>NAFLD</bdi>/تشمع = <bdi>liver biopsy</bdi>؛ «الخطوة الأولى/التالية» = <bdi>ultrasound</bdi>.",
+    "comparison": None, "labs": None,
+    "guideline_note": "هذا السؤال وصفه المصدر بإنه مختلف عليه؛ أغلب الإرشادات ما تطلب خزعة روتينية (الخزعة نادرًا لازمة لأن التشخيص يصير بالفحوصات والسونار بأكثر من ٩٠٪ من الحالات)، لكن احتفظنا بجواب المصدر <bdi>liver biopsy</bdi> لأنه الموثق ومربوط بكلمة «الأفضل» كمعيار ذهبي."},
+
+"AS-1537": {"correct_letter": "A", "self_judged": False,
+    "idea": "<bdi>HFrEF</bdi> من <bdi>dilated cardiomyopathy</bdi>، المريض أصلاً على <bdi>ARB</bdi> وحاصر بيتا و<bdi>MRA</bdi> ومدر — أي إضافة تنفع بدون ما تضر.",
+    "clues": [("Heart failure with reduced EF", "يحدد سلم العلاج المطلوب"),
+               ("metoprolol", "حاصر بيتا موجود أصلاً — يستبعد إضافة حاصر بيتا ثاني")],
+    "why_correct": [
+        "المريض متكامل العلاج القياسي (<bdi>ARB</bdi>، حاصر بيتا، <bdi>MRA</bdi>، مدر)، فالإضافة المنطقية لو الأعراض مستمرة بإيقاع جيبي ونبض راحة ٧٠ أو أكثر رغم حاصر البيتا هي <bdi>ivabradine</bdi> (حاصر قناة <bdi>If</bdi>).",
+        "<bdi>ivabradine</bdi> يقلل النبض ويقلل دخول المستشفى بقصور القلب بدون أي ضرر إضافي، وهو الخيار الوحيد اللي يضيف فايدة هنا."],
+    "when_changes": ["لو كان المريض غير معالج بحاصر بيتا أصلاً، الخطوة الصحيحة تبدأ بإضافة حاصر بيتا (<bdi>bisoprolol</bdi>) أولاً."],
+    "rule": "حاصر بيتا موجود + أعراض مستمرة + إيقاع جيبي ونبض ≥٧٠ = أضيفي <bdi>ivabradine</bdi>؛ أبدًا لا تضيفي حاصر بيتا ثاني أو <bdi>verapamil/diltiazem</bdi> بـ<bdi>HFrEF</bdi>.",
+    "comparison": None, "labs": None, "guideline_note": None},
+
+"AS-1540": {"correct_letter": "D", "self_judged": False,
+    "idea": "لمفوما عالية الخطورة على كيماوي، بوتاسيوم مرتفع وكالسيوم منخفض وفوسفات مرتفع — متلازمة تحلل ورم، لكن حمض اليوريك طبيعي، فالإشكال المتبقي هو الفوسفات.",
+    "clues": [("Burkitt lymphoma", "ورم عالي الخطورة لمتلازمة تحلل الورم"),
+               ("hypocalcemia + hyperphosphatemia", "فوسفات مرتفع هو اللي يسحب الكالسيوم للأسفل"),
+               ("Uric acid below 480", "طبيعي — يستبعد الحاجة لعلاج حمض اليوريك")],
+    "why_correct": [
+        "علاج الكيماوي لورم عالي الخطورة مع بوتاسيوم وفوسفات مرتفعين وكالسيوم منخفض = متلازمة تحلل الورم.",
+        "بما إن حمض اليوريك هنا طبيعي (أقل من ٤٨٠) وما فيه ذكر لقلة بول، الخلل المتبقي بين الخيارات هو ارتفاع الفوسفات، اللي هو السبب بترسيب الكالسيوم.",
+        "<bdi>sevelamer</bdi> رابط فوسفات يخفضه ويحمي الكلى من ترسب فوسفات الكالسيوم."],
+    "when_changes": ["لو كان حمض اليوريك مرتفع فعليًا، الجواب يتحول لـ<bdi>allopurinol</bdi> (وقاية) أو <bdi>rasburicase</bdi> (علاج مؤكد)."],
+    "rule": "متلازمة تحلل ورم: بوتاسيوم مرتفع يُعالج بروتوكول فرط البوتاسيوم، حمض يوريك مرتفع = ألوبيورينول/راسبيوريكيز، فوسفات مرتفع = سيفيلامر.",
+    "comparison": None, "labs": [["K", "5.3 mmol/L", "3.5-5.1 طبيعي"], ["Uric acid", "&lt;480 µmol/L", "طبيعي تقريبًا"]], "guideline_note": None},
+
+"AS-1541": {"correct_letter": "B", "self_judged": False,
+    "idea": "امرأة ٥٠ سنة، ألم بمفاصل أصابع بعيدة وقريبة (<bdi>DIP, PIP</bdi>) ثنائي ٣ سنين، بدون تيبس صباحي واضح، وعقد صلبة غير مؤلمة بمفاصل <bdi>DIP</bdi> — صورة <bdi>osteoarthritis</bdi> الكلاسيكية.",
+    "clues": [("distal and proximal interphalangeal joints", "إصابة <bdi>DIP</bdi> تحديدًا تميل لـ<bdi>OA</bdi> مو <bdi>RA</bdi>"),
+               ("does not have significant early morning stiffness", "غياب التيبس الطويل يستبعد التهاب مناعي فعّال"),
+               ("non-tender hard nodules over some distal interphalangeal", "عقد <bdi>Heberden</bdi> الصلبة"),
+               ("Rheumatoid factor 30 (&lt;58 kIU/L)", "طبيعي، يدعم غياب التهاب مناعي")],
+    "why_correct": [
+        "ألم مزمن ٣ سنين بمفاصل <bdi>DIP</bdi> و<bdi>PIP</bdi> ثنائيًا بدون تيبس صباحي طويل، مع عقد صلبة غير مؤلمة بـ<bdi>DIP</bdi> (<bdi>Heberden nodes</bdi>) هي الصورة الكلاسيكية لـ<bdi>hand osteoarthritis</bdi>.",
+        "التحاليل مطمّنة: <bdi>CRP</bdi> و<bdi>ESR</bdi> و<bdi>rheumatoid factor</bdi> كلها طبيعية، يعني ما فيه عملية التهابية تفسر الأعراض."],
+    "when_changes": ["لو كان الالتهاب فعّال بمفاصل <bdi>MCP/PIP/wrist</bdi> (<bdi>DIP</bdi> معفى) مع تيبس أطول من ٣٠ دقيقة وإنزيمات مرتفعة، الجواب يتحول لـ<bdi>seronegative rheumatoid arthritis</bdi>."],
+    "rule": "إصابة <bdi>DIP</bdi> + عقد صلبة + تحاليل طبيعية = <bdi>osteoarthritis</bdi>؛ <bdi>RA</bdi> تعفي <bdi>DIP</bdi> دايمًا تقريبًا.",
+    "comparison": None, "labs": [["CRP", "5", "&lt;8.2 mg/L طبيعي"], ["Rheumatoid factor", "30", "&lt;58 kIU/L طبيعي"], ["ESR", "15", "طبيعي تقريبًا"]], "guideline_note": None},
+
+"AS-1542": {"correct_letter": "B", "self_judged": False,
+    "idea": "رجل ٥٢ سنة سكري، ألم وتورم بمفاصل <bdi>DIP, PIP</bdi> مع ألم ركبة ثنائي وتحديد بثني الركبة — توزيع نموذجي لـ<bdi>OA</bdi> (مفاصل أصابع + مفصل حامل وزن).",
+    "clues": [("DIP and PIP pain and swelling", "توزيع يميل لـ<bdi>OA</bdi>"),
+               ("Rheumatoid factor 55 (normal &lt;58)", "طبيعي بالحدود، لا يدعم <bdi>RA</bdi>")],
+    "why_correct": [
+        "إصابة <bdi>DIP</bdi> و<bdi>PIP</bdi> مع ألم ركبة وتحديد بالثني هي التوزيع النموذجي لـ<bdi>osteoarthritis</bdi> (مفاصل أصابع + مفصل حامل وزن).",
+        "<bdi>RF</bdi> طبيعي (٥٥ وتحت الحد ٥٨) و<bdi>ESR</bdi> بسيط الارتفاع فقط (١٥)، وهذا ما يدعم وجود التهاب مناعي فعلي."],
+    "when_changes": ["لو كان الالتهاب يصيب <bdi>MCP</bdi> والرسغ بشكل متماثل مع تيبس أطول من ٣٠ دقيقة وإنزيمات التهاب واضحة الارتفاع، الجواب يتحول لـ<bdi>seronegative RA</bdi>."],
+    "rule": "لا تدعي قيمة مخبرية «حد» تسحبك لـ<bdi>seronegative RA</bdi> لما تكون مفاصل <bdi>DIP</bdi> هي المصابة.",
+    "comparison": None, "labs": [["Rheumatoid factor", "55", "&lt;58 kIU/L طبيعي"], ["ESR", "15", "&lt;10 طبيعي تقريبًا"]], "guideline_note": None},
+
+"AS-1547": {"correct_letter": "A", "self_judged": True,
+    "idea": "رجل ٢٩ سنة بفحص توظيف روتيني، بدون أعراض، نفخة شاملة الانقباض (<bdi>pansystolic murmur</bdi>) تنتشر للإبط — لقطة عرضية بدون أي سياق مرضي ثاني.",
+    "clues": [("29-year-old", "عمر صغير، ما فيه تاريخ مرضي قلبي"),
+               ("asymptomatic", "لقطة بدون أعراض تمامًا"),
+               ("pansystolic murmur that radiated to the axilla", "النفخة الكلاسيكية لـ<bdi>mitral regurgitation</bdi>")],
+    "why_correct": [
+        "بشاب ٢٩ سنة بدون أي أعراض ولا تاريخ حمى رثوية أو احتشاء، أشيع سبب لنفخة <bdi>MR</bdi> تنكشف صدفة بفحص روتيني هو <bdi>Mitral Valve Prolapse</bdi>، وهو أشيع سبب لـ<bdi>MR</bdi> بالدول المتقدمة بشكل عام وبالشباب الأصحاء تحديدًا."],
+    "when_changes": ["لو ذكر السؤال تاريخ حمى رثوية أو منطقة ينتشر فيها هذا المرض، الجواب يتحول لـ<bdi>rheumatic mitral regurgitation</bdi>؛ ولو ذكر تاريخ احتشاء، يتحول لـ<bdi>ischemic MR</bdi>."],
+    "rule": "نفخة <bdi>MR</bdi> صدفة بشاب بدون أعراض ولا تاريخ = <bdi>MVP</bdi> هو الأشيع؛ تاريخ حمى رثوية = رثوي؛ تاريخ احتشاء = إقفاري؛ قلب متوسع = وظيفي.",
+    "comparison": None, "labs": None,
+    "guideline_note": "هذا السؤال ما له جواب مؤكد من المصدر؛ اخترنا <bdi>MVP</bdi> لأنه الأشيع سبب لنفخة <bdi>MR</bdi> تُكتشف صدفة بشاب سليم بدون أي سياق مرضي آخر."},
+
+"AS-1551": {"correct_letter": "D", "self_judged": False,
+    "idea": "شاب ١٩ سنة نوبات <bdi>seizure</bdi> متكررة بسرعة (بالإسعاف، وبعدها أثناء الفحص)، توقفت بـ<bdi>lorazepam</bdi> وريدي — هذا تصرف كـ<bdi>status epilepticus</bdi>، نحتاج خط ثاني طويل المفعول.",
+    "clues": [("history of seizure", "تاريخ معروف للنوبات"),
+               ("generalized tonic-clonic seizure", "نوبة كاملة ثانية بوقت قصير"),
+               ("terminates after intravenous lorazepam", "البنزوديازيبين وقف النوبة الحالية بس مفعوله قصير")],
+    "why_correct": [
+        "نوبات متكررة متتالية (بالإسعاف، وبعدها أثناء الفحص) تتصرف كـ<bdi>status epilepticus</bdi>، و<bdi>lorazepam</bdi> يوقف النوبة الحالية بس مفعوله قصير.",
+        "الخطوة التالية هي دواء خط ثاني طويل المفعول يمنع تكرار النوبة، والكلاسيكي هو <bdi>fosphenytoin infusion</bdi>، قبل أي فحص تشخيصي."],
+    "when_changes": ["لو كان السيناريو بعد إصابة رأس/رضّة، <bdi>CT brain</bdi> يصير أولوية مباشرة حسب نسخة المصدر الثانية لنفس السؤال."],
+    "rule": "بنزوديازيبين يوقف النوبة الحالية، لكن لازم دواء خط ثاني (<bdi>fosphenytoin</bdi>) يمنع التكرار؛ الفحوصات التشخيصية تجي بعد الاستقرار.",
+    "comparison": None, "labs": None,
+    "guideline_note": "المصدر وضّح جدل حول هذا السؤال: نسخة بدون رضّة = <bdi>fosphenytoin</bdi>؛ نسخة بوجود رضّة رأس (نفس السؤال تقريبًا) = <bdi>CT brain</bdi> أولاً؛ أبقينا جواب المصدر <bdi>fosphenytoin</bdi> لعدم ذكر أي رضّة بهذا النص."},
+
+"AS-1554": {"correct_letter": "B", "self_judged": False,
+    "idea": "نقل دم قبل ١٠ سنين، إنزيمات كبد طبيعية، تحاليل التهاب الكبد B: <bdi>HBsAg</bdi> موجب و<bdi>IgG HBc</bdi> موجب و<bdi>IgM HBc</bdi> سالب و<bdi>HBeAg</bdi> موجب — عدوى مزمنة غير نشطة.",
+    "clues": [("HBsAg (+)", "عدوى حالية (مزمنة أو حادة)"),
+               ("IgG HBc (+)", "التهاب كبد B، مو حادة")],
+    "why_correct": [
+        "<bdi>HBsAg</bdi> موجب يعني عدوى حالية، و<bdi>IgG anti-HBc</bdi> موجب مع <bdi>IgM</bdi> سالب يعني العدوى غير حادة — يعني التهاب كبد B مزمن.",
+        "إنزيمات الكبد الطبيعية وبدون أعراض هي ما تجعل المصدر يصفها بـ«غير نشطة» (<bdi>Chronic inactive HBV</bdi>). (كلمة <bdi>HPV</bdi> بالخيارات خطأ طباعي والمقصود <bdi>HBV</bdi>.)"],
+    "when_changes": ["لو كان <bdi>IgM HBc</bdi> موجب مع إنزيمات مرتفعة بشدة، الجواب يتحول لعدوى حادة."],
+    "rule": "<bdi>HBsAg</bdi> موجب + <bdi>IgM anti-HBc</bdi> = عدوى حادة؛ <bdi>HBsAg</bdi> موجب + <bdi>IgG anti-HBc</bdi> فقط = عدوى مزمنة.",
+    "comparison": None, "labs": None, "guideline_note": None},
+
+"AS-1556": {"correct_letter": "B", "self_judged": False,
+    "idea": "فتاة ١٨ سنة عندها <bdi>WPW</bdi> ودخلت برجفان أذيني، خفقان وضيق تنفس خفيف — السؤال عن دواء ضبط الإيقاع الآمن، مو أي دواء يبطئ العقدة الأذينية البطينية.",
+    "clues": [("Wolff-Parkinson-White syndrome and atrial fibrillation", "تركيبة خطيرة — حاصرات العقدة الأذينية البطينية ممنوعة"),
+               ("control her rhythm", "السؤال عن ضبط الإيقاع تحديدًا")],
+    "why_correct": [
+        "بـ<bdi>WPW</bdi> مع رجفان أذيني، حصر العقدة الأذينية البطينية يدفع التوصيل كامل عبر المسار الإضافي، وهذا ممكن يسبب <bdi>ventricular fibrillation</bdi>.",
+        "السؤال يسأل عن ضبط «الإيقاع»، و<bdi>amiodarone</bdi> هو الخيار الوحيد اللي يعمل كمضاد اضطراب نظم فعلي (ضبط إيقاع)، مو مجرد حاصر للعقدة الأذينية البطينية."],
+    "when_changes": ["لو كانت غير مستقرة هيموديناميكيًا، الجواب يتحول لـ<bdi>synchronized DC cardioversion</bdi> فورًا."],
+    "rule": "<bdi>WPW + AF</bdi>: تجنبي كل حاصرات العقدة الأذينية البطينية (<bdi>adenosine, beta-blockers, CCBs, digoxin</bdi>)؛ المستقر يُعالج بـ<bdi>amiodarone</bdi> أو دواء يعمل على المسار الإضافي، وغير المستقر بتحويل كهربائي.",
+    "comparison": None, "labs": None, "guideline_note": None},
+
+"AS-1562": {"correct_letter": "A", "self_judged": False,
+    "idea": "صورة مسحة دم فيها خلايا منجلية — السؤال عن الفحص المؤكد، مو مجرد المسحة.",
+    "clues": [("sickle cells", "موجودة بالمسحة لكن ما تثبت النمط الجيني"),
+               ("confirmatory test", "الفحص المؤكد وليس الأولي")],
+    "why_correct": [
+        "خلايا منجلية بالمسحة توحي بمرض الخلايا المنجلية، لكن المسحة لوحدها ما تثبت النمط الجيني.",
+        "الفحص المؤكد لأي اعتلال هيموغلوبين هو <bdi>Hb electrophoresis</bdi> (أو <bdi>HPLC</bdi>)، اللي يُظهر <bdi>HbS</bdi> مرتفع مع غياب أو نقص شديد بـ<bdi>HbA</bdi>، ويفرّق بين المرض والسمة."],
+    "when_changes": ["لو كانت المسحة تظهر خلايا كروية (<bdi>spherocytes</bdi>) بدل منجلية، الفحص المؤكد يتحول لـ<bdi>osmotic fragility</bdi> ثم <bdi>EMA binding</bdi>."],
+    "rule": "خلايا منجلية بالمسحة = فحص مؤكد <bdi>Hb electrophoresis</bdi>؛ خلايا كروية = <bdi>osmotic fragility/EMA binding</bdi>.",
+    "comparison": None, "labs": None, "guideline_note": None},
+
+"AS-1567": {"correct_letter": "D", "self_judged": False,
+    "idea": "رجل ٦٦ سنة سكري، سعال وضيق تنفس، تشوش بالمكان والزمان، ضغط منخفض ونبض تنفس سريع ويوريا مرتفعة — حساب درجة <bdi>CURB-65</bdi>.",
+    "clues": [("disoriented", "<bdi>Confusion</bdi> = نقطة"),
+               ("BP: 80/55", "ضغط منخفض = نقطة"),
+               ("RR: 33", "تسرع تنفس شديد = نقطة"),
+               ("urea is 12 mmol/L", "يوريا مرتفعة = نقطة")],
+    "why_correct": [
+        "نحسب كل عنصر: <bdi>Confusion</bdi> (مشوش) = ١، <bdi>Urea</bdi> ١٢ (فوق ٧) = ١، <bdi>RR</bdi> ٣٣ (٣٠ فأكثر) = ١، <bdi>BP</bdi> ٨٠/٥٥ (انقباضي تحت ٩٠) = ١، العمر ٦٦ (٦٥ فأكثر) = ١.",
+        "المجموع = <bdi>5</bdi>، أعلى درجة ممكنة، يعني التهاب رئوي شديد يحتاج تنويم مع تقييم العناية المركزة."],
+    "when_changes": ["لو كان العمر تحت ٦٥ مع باقي العناصر نفسها، الدرجة تنزل لـ٤."],
+    "rule": "<bdi>CURB-65</bdi>: كل عنصر نقطة واحدة (<bdi>Confusion, Urea&gt;7, RR≥30, BP&lt;90/60, Age≥65</bdi>)؛ السكري ليس من ضمن المعيار، مجرد تشتيت بالسؤال.",
+    "comparison": None, "labs": [["Urea", "12 mmol/L", "&lt;7 mmol/L طبيعي بالمعيار"], ["RR", "33 /min", "&lt;20 طبيعي"], ["BP", "80/55 mmHg", "≥90 systolic طبيعي بالمعيار"]], "guideline_note": None},
+
+"AS-1569": {"correct_letter": "D", "self_judged": True,
+    "idea": "سكري من ١٢ سنة، بروتين كبير بالبول وكرياتينين مرتفع، بدأت <bdi>enalapril</bdi> للضغط لكن قطعته بسبب سعال — السؤال عن أفضل علاج بديل بنفس الفئة الوقائية للكلى.",
+    "clues": [("type 2 diabetes", "سكري مزمن مع بروتين بول = حماية كلوية مطلوبة"),
+               ("could not tolerate it because of a cough", "سعال من <bdi>ACE inhibitor</bdi>، تأثير فئة كامل"),
+               ("24-hour urine protein 1500", "بروتينية واضحة تستدعي حصر <bdi>RAAS</bdi>")],
+    "why_correct": [
+        "سكري مع بروتينية ١٥٠٠ ملغ باليوم يحتاج حصر محور <bdi>RAAS</bdi> (<bdi>ACE inhibitor</bdi> أو <bdi>ARB</bdi>) لحماية الكلى، بس السعال من <bdi>enalapril</bdi> هو تأثير فئة <bdi>ACE inhibitors</bdi> كاملة بسبب <bdi>bradykinin</bdi>.",
+        "الحل الصحيح هو التحويل لـ<bdi>Angiotensin receptor blocker</bdi>، اللي يحافظ على الحماية الكلوية بدون التسبب بنفس السعال."],
+    "when_changes": ["لو كان السبب <bdi>angioedema</bdi> (مو سعال فقط)، لازم نحتاط كمان مع <bdi>ARB</bdi> لاحتمال تكرار مشابه."],
+    "rule": "سعال <bdi>ACE inhibitor</bdi> = تأثير فئة كامل، حوّلي لـ<bdi>ARB</bdi>، أبدًا لا تحوّلي لـ<bdi>ACE inhibitor</bdi> ثاني ولا تجمعي الفئتين.",
+    "comparison": None, "labs": [["Creatinine", "142 µmol/L", "44-115 طبيعي"], ["24h urine protein", "1500 mg/24hr", "0-150 طبيعي"]], "guideline_note": None},
+
+"AS-1570": {"correct_letter": "A", "self_judged": False,
+    "idea": "رجل ٣٠ سنة، التهاب مفصل واحد حاد، تحليل السائل الزليلي أثبت وجود بلورات وشُخّص بـ<bdi>gout</bdi> — السؤال عن شكل ولون انكسار هذي البلورات.",
+    "clues": [("gout", "التشخيص معطى مباشرة بالسؤال")],
+    "why_correct": [
+        "بلورات <bdi>gout</bdi> هي <bdi>monosodium urate</bdi>، وشكلها <bdi>needle-shaped</bdi> (إبرية) وانكسارها <bdi>negatively birefringent</bdi> تحت الضوء المستقطب."],
+    "when_changes": ["لو كان التشخيص <bdi>pseudogout</bdi> بدل <bdi>gout</bdi>، الجواب يتحول لبلورات معينية الشكل وموجبة ضعيفة الانكسار."],
+    "rule": "تذكري: <bdi>gout</bdi> = إبرية وسالبة (الاثنين بحرف <bdi>N</bdi>)؛ <bdi>pseudogout</bdi> = معينية وموجبة ضعيفة.",
+    "comparison": None, "labs": None, "guideline_note": None},
+
+"AS-1571": {"correct_letter": "B", "self_judged": False,
+    "idea": "السؤال عن أي نتيجة زرع بول تُعتبر دليل حقيقي على <bdi>UTI</bdi>، مو مجرد وجود بكتيريا.",
+    "clues": [("uti", "السؤال عن معيار التشخيص المخبري")],
+    "why_correct": [
+        "الزرع يكون ذا دلالة لما ينمو <bdi>عضو واحد</bdi> بعدد كبير <bdi>≥10^5 CFU/mL</bdi> من عينة بول نظيفة متوسطة التدفق.",
+        "عضو واحد بعدد مرتفع يعكس عدوى مثانة حقيقية، مو تلوث من الجلد أو منطقة العجان."],
+    "when_changes": ["لو كان النمو من عينة مأخوذة بقسطرة فوق العانة، أي نمو يُعتبر دليل كافٍ حتى بعدد أقل."],
+    "rule": "بكتيريا بول ذات دلالة = عضو واحد بعدد مرتفع (<bdi>≥10^5</bdi>) من عينة نظيفة؛ نمو مختلط يعني تلوث، نعيد العينة.",
+    "comparison": None, "labs": None, "guideline_note": None},
+
+"AS-1573": {"correct_letter": "B", "self_judged": False,
+    "idea": "رجل ٥٠ سنة، <bdi>anti-HCV</bdi> موجب لكن <bdi>HCV RNA</bdi> سالب، بدون أي عامل خطر أو أعراض وإنزيمات وسونار طبيعيين — عدوى شُفيت أو إيجابية كاذبة، ما فيه عدوى فعّالة.",
+    "clues": [("positive anti-HCV (ELISA)", "يعني تعرّض سابق، مو عدوى حالية بالضرورة"),
+               ("Hepatitis C RNA was negative", "المفتاح — ما فيه عدوى فعّالة حاليًا")],
+    "why_correct": [
+        "<bdi>anti-HCV</bdi> موجب مع <bdi>HCV RNA</bdi> سالب يعني عدوى سابقة شُفيت أو إيجابية كاذبة، مو التهاب كبد C فعّال.",
+        "بدون أي عامل خطر أو تعرّض حديث، وبإنزيمات كبد وسونار طبيعيين، المريض يحتاج طمأنة فقط بدون أي فحص إضافي."],
+    "when_changes": ["لو كان فيه تعرّض حديث (مثل وخزة إبرة) يحتمل كونه بفترة النافذة، الجواب يتحول لإعادة <bdi>HCV RNA</bdi> بعد عدة أشهر."],
+    "rule": "<bdi>Ab+/RNA-</bdi> بدون تعرّض حديث وإنزيمات طبيعية = طمأنة بدون فحوصات إضافية؛ وجود تعرّض حديث = أعيدي <bdi>RNA</bdi> لاحقًا.",
+    "comparison": None, "labs": None, "guideline_note": None},
+
+"AS-1580": {"correct_letter": "C", "self_judged": False,
+    "idea": "مريضة بالعناية المركزة بالتهاب رئوي حرج على <bdi>dopamine</bdi>، جلد دافئ وجاف بدون جحوظ عين وغدة طبيعية، <bdi>T3</bdi> منخفض و<bdi>TSH</bdi> منخفض و<bdi>T4</bdi> طبيعي — تغيرات تحاليل الغدة بمريض حرج مو مرض غدة حقيقي.",
+    "clues": [("Intensive Care Unit with pneumonia", "مرض حرج شديد"),
+               ("dopamine", "دواء يثبّط <bdi>TSH</bdi> ويساهم بالصورة"),
+               ("TSH 0.1 (low)", "منخفض بدون أي علامة فرط نشاط فعلي"),
+               ("T3 2 (low)", "أول وأشيع تغيّر بمرض حرج")],
+    "why_correct": [
+        "مريضة حرجة (عناية مركزة، التهاب رئوي، تنبيب، <bdi>dopamine</bdi>) مع <bdi>T3</bdi> منخفض و<bdi>T4</bdi> طبيعي و<bdi>TSH</bdi> منخفض، وغدة طبيعية بدون جحوظ، هذي <bdi>sick euthyroid syndrome</bdi>.",
+        "انخفاض <bdi>T3</bdi> هو أشيع وأبكر تغيّر بهذي المتلازمة، و<bdi>dopamine</bdi> (كمان الستيرويدات) يثبّط <bdi>TSH</bdi> فيفسّر انخفاضه بدون فرط نشاط حقيقي."],
+    "when_changes": ["لو كان <bdi>T4</bdi> و<bdi>T3</bdi> مرتفعين مع جحوظ عين وغدة متضخمة، الجواب يتحول لـ<bdi>Graves disease</bdi>."],
+    "rule": "بمريض حرج بالعناية المركزة، لا تشخّصي فرط نشاط الغدة من <bdi>TSH</bdi> منخفض فقط لو <bdi>T3</bdi> منخفض و<bdi>T4</bdi> غير مرتفع.",
+    "comparison": None, "labs": [["TSH", "0.1", "منخفض"], ["T3", "2", "منخفض"], ["T4", "11-14", "طبيعي"]], "guideline_note": None},
+
+"AS-1582": {"correct_letter": "B", "self_judged": False,
+    "idea": "امرأة على <bdi>prednisolone 60 mg</bdi> لمدة ٦ أسابيع مع تناقص تدريجي، بس استمرت على نفس الجرعة العالية بالغلط — وجدت ميتة بالحمام. السبب مرتبط باستمرار الجرعة العالية، مو بإيقافها.",
+    "clues": [("prednisolone 60 mg", "جرعة عالية جدًا من الستيرويد"),
+               ("continued the same dose", "المفتاح — استمرت عالية، ما أوقفت الدواء"),
+               ("Found dead in bathroom", "وفاة مفاجئة تحتاج تفسير مباشر")],
+    "why_correct": [
+        "بما إنها استمرت على الجرعة (ما أوقفتها)، هذا يستبعد <bdi>adrenal crisis</bdi>، واستمرار جرعة عالية لـ٦ أسابيع يسبب احتباس صوديوم وسوائل وارتفاع ضغط.",
+        "جواب المصدر يربط هذا بارتفاع ضغط مؤدي لنزيف دماغي مفاجئ (<bdi>hypertensive cerebral hemorrhage</bdi>) يفسر الوفاة المفاجئة."],
+    "when_changes": ["لو كانت أوقفت الدواء بغتة بعد استخدام طويل، الجواب يتحول لـ<bdi>adrenal crisis</bdi> (هبوط ضغط وصدمة)."],
+    "rule": "استمرار جرعة ستيرويد عالية = مضاعفات فرط الستيرويد (ضغط، سكر، سوائل)؛ إيقاف مفاجئ بعد استخدام طويل = أزمة كظرية.",
+    "comparison": None, "labs": None, "guideline_note": None},
+
+"AS-1586": {"correct_letter": "A", "self_judged": False,
+    "idea": "رجل ٣٣ سنة، تعب وحمى وتضخم غدد لمفاوية معمم وسعال لأسبوعين، يسافر كثير للشرق الأقصى، وعنده <bdi>oral candidiasis</bdi> — دلالة ضعف مناعة خلوية بشخص بالغ سليم.",
+    "clues": [("generalised lymphadenopathy", "تضخم غدد معمم غير محدد"),
+               ("travels frequently to Far East", "عامل خطر تعرّض"),
+               ("oral candidiasis", "علامة ضعف مناعة خلوية بشخص بالغ")],
+    "why_correct": [
+        "شاب بالغ بدون سكري أو ستيرويدات أو مضادات حيوية، عنده <bdi>oral candidiasis</bdi> مع حمى وتعب وتضخم غدد معمم لمدة أسبوعين وتاريخ سفر وتعرّض محتمل — هذي صورة <bdi>HIV</bdi> لحد ما يُنفى.",
+        "<bdi>thrush</bdi> بشخص سليم ظاهريًا يدل على ضعف بالمناعة الخلوية، والمرض الحموي غير النوعي مع تضخم الغدد يتناسق مع عدوى <bdi>HIV</bdi>."],
+    "when_changes": ["لو كان فيه تاريخ تماس حيواني أو حليب غير مبستر مع حمى متموجة وألم عظمي، الجواب يتحول لـ<bdi>brucellosis</bdi>."],
+    "rule": "<bdi>oral candidiasis</bdi> بشخص بالغ سليم بدون سكري أو ستيرويدات = افحصي <bdi>HIV</bdi>.",
+    "comparison": None, "labs": None, "guideline_note": None},
+
+"AS-1593": {"correct_letter": "B", "self_judged": True,
+    "idea": "ضعف طرف علوي يمين بعد تمديد الرقبة، تصوير الرنين للدماغ طبيعي — الخلل تحت الدماغ، بالرقبة نفسها.",
+    "clues": [("post neck extension", "حركة محددة فجّرت العرض — توحي بسبب رقبي"),
+               ("mri brain normal", "استبعاد السبب الدماغي، الخلل بمكان آخر")],
+    "why_correct": [
+        "ضعف طرف علوي بعد تمديد الرقبة مع تصوير دماغ طبيعي يوجّه للرقبة نفسها، خصوصًا بوجود تنكس فقري عنقي (<bdi>cervical spondylosis</bdi>) يسبب ضيق قناة شوكية يتفاقم بالتمديد.",
+        "<bdi>MRI cervical spine</bdi> هو الفحص اللي يكشف الضغط على الحبل الشوكي أو الجذور العنقية المسؤول عن هذا الضعف."],
+    "when_changes": ["لو كان الضعف عابر (دقائق) مع عوامل خطر وعائية، الجواب يتحول لـ<bdi>carotid duplex</bdi> أولاً (اشتباه <bdi>TIA</bdi>)."],
+    "rule": "تصوير دماغ طبيعي مع ضعف طرف بعد حركة رقبة = شوفي الرقبة بـ<bdi>MRI cervical spine</bdi>؛ ضعف عابر مع عوامل خطر وعائية = <bdi>carotid duplex</bdi>.",
+    "comparison": None, "labs": None,
+    "guideline_note": "هذا السؤال ما له جواب مؤكد من المصدر؛ اخترنا <bdi>MRI cervical spine</bdi> بناءً على كون الضعف مرتبط بحركة الرقبة وتصوير الدماغ طبيعي، ما يوجّه لسبب عنقي مو دماغي."},
+
+"AS-1593B": {"correct_letter": "B", "self_judged": False,
+    "idea": "رجل ٥٥ سنة، ضعف بالذراع اليسرى بدون ألم استمر ٥ دقائق وزال تمامًا، سكري ودهون مرتفعة، بدون نفخة قلبية وإيقاع جيبي طبيعي — نوبة إقفارية عابرة بمنطقة السباتي، نبحث عن المصدر القابل للعلاج.",
+    "clues": [("left arm weakness without pain that lasted 5 minutes", "نوبة إقفارية عابرة كلاسيكية بمنطقة <bdi>carotid</bdi>"),
+               ("initial imaging", "السؤال عن الفحص الأولي تحديدًا")],
+    "why_correct": [
+        "نوبة ضعف ٥ دقائق زالت تمامًا هي <bdi>TIA</bdi> بالدورة الأمامية (السباتي). مع سكري ودهون مرتفعة، تصلب الشرايين الكبيرة هو المصدر الأرجح، والسؤال يؤكد إيقاع جيبي وبدون نفخة، يعني مصدر قلبي أقل احتمالاً.",
+        "<bdi>carotid duplex</bdi> هو الفحص الأولي السريع غير الباضع، واكتشاف تضيّق عرضي كبير يغيّر الخطة العلاجية (استئصال بطانة الشريان)."],
+    "when_changes": ["لو كان فيه نفخة قلبية أو رجفان أذيني، الجواب يتحول لصدى القلب (<bdi>TTE</bdi> ثم <bdi>TEE</bdi>) بحثًا عن مصدر قلبي."],
+    "rule": "أعراض بمنطقة السباتي + عوامل خطر تصلب شرايين + إيقاع جيبي بدون نفخة = <bdi>carotid duplex</bdi> أولاً؛ نفخة أو رجفان أذيني = صدى قلب.",
+    "comparison": None, "labs": None, "guideline_note": None},
+}
+
+WHY_WRONG = {
+
+"AS-1516": {
+    "A": "<bdi>Phenobarbital</bdi> دواء قديم عالي الأعراض الجانبية، ومو الخط الثاني المعتمد لـ<bdi>myoclonic seizures</bdi>.",
+    "B": "<bdi>Lamotrigine</bdi> جيد لنوبات <bdi>focal/GTC</bdi>، لكن ممكن يسوّئ <bdi>myoclonus</bdi> بعض المرات، فمو الخيار الآمن هنا.",
+    "D": "<bdi>Ethosuximide</bdi> يُستخدم بس لـ<bdi>absence seizures</bdi>، مو لـ<bdi>myoclonic seizures</bdi>."},
+
+"AS-1521": {
+    "A": "<bdi>Free wall rupture</bdi> يسبب دكاك قلبي (هبوط ضغط، ارتفاع الوريد الوداجي، أصوات مكتومة، توقف قلب) بدون أي نفخة جديدة.",
+    "C": "<bdi>Pseudoaneurysm</bdi> تمزق محدود بالجدار، غالبًا صامت أو بنفخة تردد بالصدى، ما يعطي نفخة شاملة انقباض تتجه لحافة القص اليمنى."},
+
+"AS-1524": {
+    "A": "هذي أدوية فموية مزمنة لتعديل المرض؛ حاصر بيتا ما يبدأ أثناء التدهور الحاد، و<bdi>propranolol</bdi> أصلاً مو دواء قصور قلب معتمد.",
+    "B": "<bdi>furosemide</bdi> الفموي بطيء وامتصاصه ضعيف بالاحتقان المعوي؛ والموسّع الوريدي المناسب هو النترات لو كان الضغط مرتفع، مو <bdi>hydralazine</bdi>.",
+    "D": "التنبيب يكون لو فشل التنفس غير الباضع أو تراجع الوعي أو استنفاذ المريض؛ هنا ما فيه هذي العلامات، فهو مو الخطوة الأولى."},
+
+"AS-1529": {
+    "A": "<bdi>furosemide</bdi> يقلل الحمل القبلي اللي القلب المدكوك محتاجه، ويسوّئ الهبوط؛ الدكاك يُدار بالسوائل والتصريف، مو بالمدرات.",
+    "C": "تكثيف الديال يعالج الانصباب اليوريمي بمريض مستقر؛ هنا المريض غير مستقر، وسحب السوائل بالديال ممكن يسبب انهيار مفاجئ، فالتصريف أولاً."},
+
+"AS-1535": {
+    "B": "<bdi>ultrasound</bdi> هو الفحص الأولي المفضل لتشخيص الكبد الدهني والتشمع والاستسقاء وارتفاع ضغط البوابة، لكن مو المعيار الذهبي اللي يستهدفه الجواب.",
+    "C": "<bdi>CT</bdi> البطني يضيف تعرض للإشعاع والصبغة بدون ما يفيد بتشخيص الدهون الكبدية أو التشمع؛ يُستخدم لتوصيف كتلة &gt;١ سم تُكتشف بالسونار."},
+
+"AS-1537": {
+    "B": "<bdi>bisoprolol</bdi> حاصر بيتا ثاني، والمريض أصلاً على <bdi>metoprolol</bdi>؛ إضافته تكرار لنفس الفئة، وهو مناسب فقط لو لم يكن على حاصر بيتا أساسًا.",
+    "C": "<bdi>verapamil</bdi> حاصر كالسيوم سلبي التقلص يسوّئ <bdi>HFrEF</bdi>، وممنوع بهذا المرض.",
+    "D": "<bdi>diltiazem</bdi> كمان حاصر كالسيوم سلبي التقلص من فئة غير <bdi>dihydropyridine</bdi>، ممنوع بكسر قذفي منخفض."},
+
+"AS-1540": {
+    "A": "<bdi>Lasix</bdi> يُضاف بمتلازمة تحلل الورم بس بعد ترطيب وريدي كافٍ للحفاظ على إخراج البول أو علاج فرط السوائل؛ ما يصحح الفوسفات، وما فيه قلة بول أو فرط سوائل مذكور هنا.",
+    "B": "<bdi>Thiazide</bdi> يخفض الكالسيوم بالبول ويُستخدم لفرط كالسيوم البول والحصوات؛ ما له دور بمتلازمة تحلل الورم وممكن يسوّئ الصورة بإنقاص حجم السوائل.",
+    "C": "<bdi>Allopurinol</bdi> يمنع تكوّن حمض يوريك جديد، وهو خيار الوقاية أو فرط حمض اليوريك؛ هنا حمض اليوريك مذكور بوضوح إنه غير مرتفع، فما يعالج الخلل الحالي."},
+
+"AS-1541": {
+    "A": "<bdi>seronegative RA</bdi> تعفي مفاصل <bdi>DIP</bdi> وتصيب <bdi>MCP/PIP/wrist</bdi> بتورم زليلي ناعم وتيبس صباحي أطول من ٣٠ دقيقة، غالبًا مع ارتفاع <bdi>ESR/CRP</bdi>؛ ما فيه شي من هذا هنا.",
+    "C": "<bdi>Polyarticular gout</bdi> يظهر كنوبات حادة متكررة بمفاصل حمراء ساخنة شديدة الألم مع إنزيمات التهاب مرتفعة وحمض يوريك عالي، والعقد التوفية تجي بعد سنوات نوبات؛ هذا نمط عقد عظمية غير مؤلمة بدون نوبات وبتحاليل طبيعية.",
+    "D": "<bdi>Reactive arthritis</bdi> التهاب مفصل حاد غير متماثل غالبًا بالأطراف السفلية بعد عدوى هضمية أو بولية، غالبًا مع التهاب أوتار أو ملتحمة؛ مو نمط <bdi>DIP</bdi> متماثل عمره ٣ سنين."},
+
+"AS-1542": {
+    "A": "<bdi>seronegative RA</bdi> تعفي مفاصل <bdi>DIP</bdi> نموذجيًا وتعطي التهاب زليلي متماثل بـ<bdi>MCP/wrist</bdi> مع تيبس صباحي طويل وإنزيمات التهاب واضحة الارتفاع؛ قيمة <bdi>RF</bdi> «حدية» لوحدها ما تحوّل صورة <bdi>OA</bdi> إلى <bdi>RA</bdi>."},
+
+"AS-1547": {
+    "B": "<bdi>Ischemic mitral regurgitation</bdi> تصير بمريض أكبر سنًا بعد احتشاء أو مرض شرايين تاجية؛ ما فيه تاريخ احتشاء هنا.",
+    "C": "<bdi>Functional mitral regurgitation</bdi> تصير مع توسع البطين الأيسر أو قصور قلب؛ هذا شاب سليم بدون أي مرض قلبي معروف.",
+    "D": "<bdi>Rheumatic mitral regurgitation</bdi> تحتاج تاريخ حمى رثوية أو منطقة موبوءة؛ ما فيه ذكر لذلك هنا."},
+
+"AS-1551": {
+    "A": "<bdi>MRI brain</bdi> مفيد لاحقًا للبحث عن سبب تشريحي، لكن ما يُطلب قبل ضبط النوبة؛ بالسياق الحاد أو الرضحي، <bdi>CT</bdi> هو فحص التصوير المفضل.",
+    "B": "<bdi>Continuous EEG</bdi> يُطلب لو المريض ما رجع وعيه بعد توقف النوبة (اشتباه <bdi>non-convulsive status</bdi>) أو مخدّر/مرخي؛ هنا مو الخطوة قبل دواء الخط الثاني.",
+    "C": "<bdi>Lumbar puncture</bdi> صحيح لو فيه حرارة أو تيبس رقبة أو اشتباه عدوى جهاز عصبي مركزي، وبس بعد تصوير يستبعد ارتفاع الضغط داخل الجمجمة؛ ما فيه شي يوحي بعدوى هنا."},
+
+"AS-1554": {
+    "A": "عدوى حادة تحتاج <bdi>IgM anti-HBc</bdi> موجب، غالبًا مع إنزيمات مرتفعة بشدة؛ <bdi>IgM</bdi> هنا سالب والإنزيمات طبيعية.",
+    "C": "التحصين يعطي <bdi>anti-HBs</bdi> فقط، مع <bdi>HBsAg</bdi> و<bdi>anti-HBc</bdi> سالبين؛ هذا المريض <bdi>HBsAg</bdi> موجب.",
+    "D": "الشفاء يتطلب <bdi>HBsAg</bdi> سالب مع <bdi>anti-HBs</bdi> و<bdi>anti-HBc IgG</bdi> موجبين؛ استمرار <bdi>HBsAg</bdi> موجب يستبعد الشفاء."},
+
+"AS-1569": {
+    "A": "<bdi>Beta blocker</bdi> لا يملك نفس الحماية الكلوية المباشرة ضد بروتينية السكري، وممكن يخفي أعراض نقص السكر؛ مناسب لو فيه مؤشر قلبي إضافي بس مو الخيار الأول هنا.",
+    "B": "<bdi>Thiazide diuretic</bdi> يفيد كإضافة لضبط الضغط لكن ما يستهدف البروتينية ولا يحمي الكلى بنفس آلية حصر <bdi>RAAS</bdi>.",
+    "C": "<bdi>Calcium channel blocker</bdi> خيار إضافي جيد لضبط الضغط، لكن ما يقلل البروتينية بنفس فعالية حصر <bdi>RAAS</bdi>، فما يحل محل <bdi>ACEi/ARB</bdi>."},
+
+"AS-1556": {
+    "A": "<bdi>Beta-blocker</bdi> يحصر العقدة الأذينية البطينية، وبالرجفان المُسبق الاستثارة (<bdi>pre-excited AF</bdi>) ممكن يشجّع التوصيل عبر المسار الإضافي؛ هو مناسب لضبط النبض برجفان عادي بدون <bdi>WPW</bdi>.",
+    "C": "<bdi>Digoxin</bdi> يحصر العقدة الأذينية البطينية وممكن يقصّر فترة استعصاء المسار الإضافي، فهو ممنوع بـ<bdi>WPW</bdi>؛ مناسب لضبط نبض رجفان مع قصور قلب بدون <bdi>WPW</bdi>.",
+    "D": "<bdi>Verapamil</bdi> حاصر كالسيوم غير <bdi>dihydropyridine</bdi> (حاصر للعقدة الأذينية البطينية)، ممنوع بـ<bdi>WPW</bdi> مع رجفان لأنه ممكن يسبب <bdi>VF</bdi>؛ مناسب لضبط نبض رجفان عادي أو لـ<bdi>SVT</bdi>."},
+
+"AS-1562": {
+    "B": "<bdi>Osmotic fragility test</bdi> هو الفحص الأولي لـ<bdi>hereditary spherocytosis</bdi> (خلايا كروية بالمسحة)، ويُؤكد بـ<bdi>EMA binding</bdi>؛ ما يحدد نوع الهيموغلوبين غير الطبيعي.",
+    "C": "<bdi>Bone marrow</bdi> يُستخدم للاشتباه بلوكيميا أو فشل نقي (نقص خلايا شامل أو خلايا بلاستية)؛ باضع وغير مستخدم لتشخيص مرض الخلايا المنجلية."},
+
+"AS-1567": {
+    "A": "درجة <bdi>٢</bdi> تعني إن عنصرين فقط موجودين؛ هنا كل العناصر الخمسة موجودة.",
+    "B": "درجة <bdi>٣</bdi> تعني غياب عنصرين؛ التشوش واليوريا المرتفعة وتسرع التنفس وانخفاض الضغط والعمر ٦٥ فأكثر كلها موجودة.",
+    "C": "درجة <bdi>٤</bdi> تفوّت عنصر واحد، غالبًا العمر (٦٦ يُحسب) أو الضغط (٨٠/٥٥ يُحسب كنقطة واحدة)."},
+
+"AS-1570": {
+    "B": "الشكل الإبري يطابق <bdi>urate</bdi>، لكن الانكسار الموجب الضعيف يخص بلورات <bdi>CPPD</bdi> (<bdi>pseudogout</bdi>)، مو <bdi>gout</bdi>.",
+    "C": "الشكل المعيني يخص <bdi>CPPD</bdi>، وهي انكسارها موجب ضعيف مو سالب؛ هذا خيار يخلط بين الصفتين.",
+    "D": "هذي بلورات <bdi>calcium pyrophosphate</bdi>، وهي الجواب الصحيح لو التشخيص <bdi>pseudogout</bdi>."},
+
+"AS-1571": {
+    "A": "نمو بكتيريا مختلطة بالزرع غالبًا يعني تلوث العينة أثناء الأخذ؛ الخطوة الصحيحة إعادة عينة بطريقة صحيحة، مو تشخيص <bdi>UTI</bdi>."},
+
+"AS-1573": {
+    "A": "<bdi>Liver fibroscan</bdi> يُستخدم لتقييم درجة التليف بعدوى <bdi>HCV</bdi> مزمنة مؤكدة (<bdi>RNA</bdi> موجب) قبل العلاج؛ ما فيه عدوى فعّالة هنا تحتاج تقييم.",
+    "C": "<bdi>Triphasic CT scan</bdi> يُستخدم لتوصيف كتلة كبدية مشتبهة أو سرطان كبد، غالبًا بمريض تشمع؛ كبده طبيعي بالسونار.",
+    "D": "إعادة <bdi>HCV RNA</bdi> بعد ٦ أشهر مناسبة لو فيه تعرّض حديث أو خطر مستمر؛ هذا الرجل بدون أي تاريخ تعرّض وإنزيماته طبيعية."},
+
+"AS-1580": {
+    "A": "<bdi>Graves disease</bdi> تحتاج <bdi>TSH</bdi> منخفض مع <bdi>T4/T3</bdi> مرتفعين وتضخم غدة منتشر وجحوظ عين؛ هنا <bdi>T3</bdi> منخفض والغدة طبيعية وما فيه جحوظ.",
+    "B": "<bdi>Subacute thyroiditis</bdi> تعطي غدة مؤلمة ومتضخمة بعد مرض فيروسي مع <bdi>T4</bdi> مرتفع و<bdi>TSH</bdi> منخفض وارتفاع <bdi>ESR</bdi>؛ هنا الرقبة طبيعية و<bdi>T3</bdi> منخفض.",
+    "D": "<bdi>Hashimoto thyroiditis</bdi> هي قصور غدة أساسي بـ<bdi>TSH</bdi> مرتفع و<bdi>T4</bdi> منخفض، غالبًا مع تضخم غدة؛ هنا <bdi>TSH</bdi> منخفض مو مرتفع."},
+
+"AS-1582": {
+    "A": "<bdi>Perforated duodenal ulcer</bdi> هو المنافس الرئيسي لأن الستيرويدات تخفي التهاب الصفاق، لكن الانثقاب غالبًا يسبق بألم بطني شديد واضح، مو موت مفاجئ غير مفسّر؛ هو الجواب لو السؤال وصف ألم بطني أو هواء حر بمريض على ستيرويد (غالبًا مع مضادات الالتهاب).",
+    "C": "<bdi>Acute Cerebral vasculitis</bdi>: الستيرويدات علاج لالتهاب الأوعية، مو سبب له.",
+    "D": "<bdi>Intestinal ischemia with perforation</bdi> تُقترح بمسنة عندها رجفان أذيني أو مرض وعائي مع ألم غير متناسب مع الفحص؛ ليست مضاعفة معروفة لاستمرار البريدنيزولون."},
+
+"AS-1586": {
+    "B": "<bdi>Syphilis</bdi> الثانوي يعطي حمى وتضخم غدد وطفح بالراحتين والأخمصين بعد قرحة تناسلية غير مؤلمة؛ ما يسبب <bdi>oral candidiasis</bdi>.",
+    "C": "<bdi>Brucellosis</bdi> تُقترح بتاريخ حليب نيء أو تماس حيواني مع حمى متموجة وألم ظهر أو مفصل عجزي حرقفي وتضخم كبد وطحال؛ ما فيه هذا التعرّض أو علامة ضعف مناعي هنا.",
+    "D": "<bdi>Toxoplasmosis</bdi> بالبالغ السليم تعطي مرض شبيه بكريات وحيدة خفيف مع تضخم غدد، وبالإيدز تعطي آفات دماغية حلقية التعزيز؛ ما تفسر <bdi>thrush</bdi>."},
+
+"AS-1593": {
+    "A": "<bdi>Carotid US</bdi> مناسب لو كان الضعف عابر (دقائق) مع عوامل خطر وعائية (اشتباه <bdi>TIA</bdi>)؛ هنا الضعف مرتبط بحركة الرقبة مباشرة، مو نوبة عابرة.",
+    "C": "<bdi>CT cervical spine</bdi> مناسب لو فيه تاريخ رضّة واشتباه كسر؛ ما فيه رضّة مذكورة هنا، والسؤال عن ضعف بعد حركة طبيعية للرقبة.",
+    "D": "خيار غير متعلق فعليًا بالتشخيص المطروح هنا."},
+
+"AS-1593B": {
+    "A": "<bdi>Transesophageal echocardiography</bdi> مناسب لو فيه اشتباه مصدر قلبي (رجفان أذيني، نفخة، صمام صناعي، أو شاب بدون عوامل خطر وعائية)؛ ليس الفحص الأولي هنا.",
+    "C": "<bdi>CT angiography of the neck</bdi> دقيق لكن يحتاج صبغة وإشعاع؛ يُستخدم لتأكيد أو توصيف تضيّق وجده السونار، أو لو السونار غير متاح أو غير قاطع، مو كفحص أولي.",
+    "D": "<bdi>MRI of the brain</bdi> جزء من تقييم كامل لـ<bdi>TIA</bdi> لكن السؤال يبي الفحص الأولي للبحث عن المصدر القابل للعلاج، وهو <bdi>carotid duplex</bdi>."},
+}
+
+HIGHLIGHT_TERMS = {
+"AS-1516": ["myoclonic seizures", "Valproic acid"],
+"AS-1521": ["5 days after", "hypotension", "pansystolic murmur", "right sternal border"],
+"AS-1524": ["MI two years ago", "progressive dyspnea and orthopnea at rest", "EF 20%"],
+"AS-1529": ["end-stage kidney disease", "muffled heart sounds", "pericardial effusion", "Was Frankly Hypotensive"],
+"AS-1535": ["HTN and DM", "no history of alcohol use", "10 years history of high aminotransferase", "ascites"],
+"AS-1537": ["Heart failure with reduced EF", "metoprolol"],
+"AS-1540": ["Burkitt lymphoma", "hypocalcemia + hyperphosphatemia", "Uric acid below 480"],
+"AS-1541": ["50-year-old woman", "distal and proximal interphalangeal joints", "does not have significant early morning stiffness", "non-tender hard nodules over some distal interphalangeal", "Rheumatoid factor 30 (<58 kIU/L)"],
+"AS-1542": ["DIP and PIP pain and swelling", "Rheumatoid factor 55 (normal <58)"],
+"AS-1547": ["29-year-old", "asymptomatic", "pansystolic murmur that radiated to the axilla"],
+"AS-1551": ["history of seizure", "generalized tonic-clonic seizure", "terminates after intravenous lorazepam"],
+"AS-1554": ["blood transfusions 10 years ago", "AST and ALT within normal range", "HBsAg (+)", "IgG HBc (+)", "HBeAg (+)"],
+"AS-1556": ["Wolff-Parkinson-White syndrome and atrial fibrillation", "control her rhythm"],
+"AS-1562": ["sickle cells", "confirmatory test"],
+"AS-1567": ["disoriented", "BP: 80/55", "RR: 33", "urea is 12 mmol/L"],
+"AS-1569": ["type 2 diabetes", "could not tolerate it because of a cough", "24-hour urine protein 1500"],
+"AS-1570": ["gout"],
+"AS-1571": ["uti"],
+"AS-1573": ["positive anti-HCV (ELISA)", "Hepatitis C RNA was negative"],
+"AS-1580": ["Intensive Care Unit with pneumonia", "dopamine", "TSH 0.1 (low)", "T3 2 (low)"],
+"AS-1582": ["prednisolone 60 mg", "continued the same dose", "Found dead in bathroom"],
+"AS-1586": ["generalised lymphadenopathy", "travels frequently to Far East", "oral candidiasis"],
+"AS-1593": ["post neck extension", "mri brain normal"],
+"AS-1593B": ["left arm weakness without pain that lasted 5 minutes", "initial imaging"],
+}
