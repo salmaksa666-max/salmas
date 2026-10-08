@@ -5920,5 +5920,896 @@
     "obese",
     "loud snores",
     "BMI 40 kg/m2"
+  ],
+  "AS-1104": [
+    "chronic hepatitis B",
+    "Platelets count 145",
+    "Aspartate aminotransferase 89",
+    "mild coarse liver echotexture"
+  ],
+  "AS-1110": [
+    "heavy smoker",
+    "hemoptysis",
+    "lost the angle of finger nail"
+  ],
+  "AS-1115": [
+    "rheumatoid arthritis",
+    "on methotrexate 20 mg weekly",
+    "erosions at multiple joints"
+  ],
+  "AS-1116": [
+    "febrile neutropenia",
+    "shows no improvement After 72 Hours"
+  ],
+  "AS-1121": [
+    "smoker one pack a day for 20 Years",
+    "LDL 8.7"
+  ],
+  "AS-1122": [
+    "swelling and pain",
+    "insect bite",
+    "erythema, pain and tenderness with irregular borders",
+    "febrile 38.4"
+  ],
+  "AS-1123": [
+    "recurring chest pain mainly at night",
+    "st elevation in inferior leads that subside with sublingual nitrate",
+    "no sclerotic changes"
+  ],
+  "AS-1125": [
+    "tearing chest pain radiating to the back",
+    "aortic dissection"
+  ],
+  "AS-1126": [
+    "69-year-old",
+    "blood pressure to be around 150/84 mmHg",
+    "no evidence of left ventricular hypertrophy",
+    "BMI 31 kg/m2"
+  ],
+  "AS-1127": [
+    "HTN (no medication) DM",
+    "transiet slurred speech for 30 minutes and resolved"
+  ],
+  "AS-1128": [
+    "fever, arthralgia, oral ulcer and skin rash",
+    "skin eruption over the face",
+    "protein positive"
+  ],
+  "AS-1129": [
+    "Pancystolic murmur at the abex radiates to the axilla"
+  ],
+  "AS-1135": [
+    "persistent a-fib",
+    "HTN and DM"
+  ],
+  "AS-1139": [
+    "episodic abdominal pain and altered bowel habits",
+    "Defecation brings some relief",
+    "mucus in her stool",
+    "body weight is stable"
+  ],
+  "AS-1146": [
+    "4-hour history of slurred speech",
+    "target of LDL"
+  ],
+  "AS-1157": [
+    "Copd",
+    "symptoms of pneumonia"
+  ],
+  "AS-1160": [
+    "on warfarin",
+    "bloody stool",
+    "PT and PTT prolonged"
+  ],
+  "AS-1161": [
+    "exertional shortness of breath",
+    "crescendo- decrescendo ejection systolic murmur radiating to the carotid"
+  ],
+  "AS-1164": [
+    "History of previous hospitalization and intubation",
+    "systemic steroids but no benefit"
+  ],
+  "AS-1171": [
+    "migraine",
+    "acute attacks"
+  ],
+  "AS-1172": [
+    "malar rash",
+    "Complement C3 0.3",
+    "confirm the diagnosis"
+  ],
+  "AS-1176": [
+    "abdominal pain after meals"
+  ],
+  "AS-1180": [
+    "not adhere to medx",
+    "not believing in medx"
+  ],
+  "AS-1191": [
+    "Newly dignosed",
+    "BMI 34"
+  ],
+  "AS-1199": [
+    "high tsh, low t4",
+    "+ve anti tpo"
+  ],
+  "AS-1207": [
+    "hypotension",
+    "systolic murmur radiating to the axilla",
+    "ST elevation in leads V2–V4"
+  ],
+  "AS-1208": [
+    "taking chemotherapy",
+    "flu season"
+  ],
+  "AS-1212": [
+    "history of fever for the preceding month",
+    "Total protein 3.6",
+    "Glucose 2.7",
+    "Lymphocytes 73%"
+  ],
+  "AS-1217": [
+    "symptomatic",
+    "heart block"
+  ],
+  "AS-1227": [
+    "smoker",
+    "cough with clear mucus",
+    "similar attacks 1 year ago",
+    "hyperinflation"
+  ],
+  "AS-1231": [
+    "CSF glucose: 3.5mmol/L",
+    "Predominant lymphocytes"
+  ],
+  "AS-1241": [
+    "long flight",
+    "deep vein thrombosis (DVT)"
+  ],
+  "AS-1242": [
+    "lower lobe involvement"
+  ],
+  "AS-1242C": [
+    "green sputum and fever",
+    "consolidation"
+  ],
+  "AS-1244": [
+    "mycoplasma",
+    "low Hb"
+  ],
+  "AS-1250": [
+    "knee pain",
+    "systolic murmur",
+    "3 weeks of URTI"
+  ],
+  "AS-1252": [
+    "intense facial flushing",
+    "full dose of aspirin"
+  ],
+  "AS-1256": [
+    "neck discomfort",
+    "temperature 37.7",
+    "ESR 73"
+  ],
+  "AS-1258": [
+    "severe asthma",
+    "intravenous magnesium sulfate was given",
+    "condition continues to deteriorate"
+  ],
+  "AS-1260": [
+    "recently underwent major surgery",
+    "ischemic stroke two months ago"
+  ],
+  "AS-1262": [
+    "intermittent wheezing after exercise"
+  ],
+  "AS-1263": [
+    "blood transfusion",
+    "skin rash and facial flushes"
+  ],
+  "AS-1271": [
+    "chronic diarrhea, steatorrhea",
+    "blunting of villi"
+  ],
+  "AS-1277": [
+    "old male",
+    "hyperlipidemia and hypertension",
+    "progressive abdominal distention",
+    "AST elevated months ago",
+    "AST and ALT were high, almost 100 both"
+  ],
+  "AS-1277B": [
+    "HTN, DLP, DM",
+    "increased abdominal distention",
+    "no history of alcohol use",
+    "10 years history of high aminotransferase",
+    "ascites no organomegaly",
+    "elevated LFTS I think 3-fold NOT in the thousands"
+  ],
+  "AS-1284": [
+    "stressful job and high sodium diet and no physical activity",
+    "150/90"
+  ],
+  "AS-1288": [
+    "frothy pink sputum",
+    "BP 80/40"
+  ],
+  "AS-1299": [
+    "fever chills",
+    "we give fluid bolus and bp still low"
+  ],
+  "AS-1305": [
+    "40-pack-year smoking history",
+    "bloody fluid",
+    "strongly exudative"
+  ],
+  "AS-1323": [
+    "COPD",
+    "ACIDOSIS",
+    "INITIAL INVESTIGATION"
+  ],
+  "AS-1365": [
+    "shortness of breath and chest pain for one day",
+    "D dimer 800 high",
+    "right deviation with right bundle branch block"
+  ],
+  "AS-1370": [
+    "HTN",
+    "20 pack smoker",
+    "BP 150/95",
+    "LDL 4.5"
+  ],
+  "AS-1398": [
+    "systemic lupus erythematosus (SLE)",
+    "in addition for remission and to reduce vascular complications"
+  ],
+  "AS-1407": [
+    "misbalance",
+    "osteoarthritis in his knee",
+    "prevent fall and strengthen his muscle"
+  ],
+  "AS-1407B": [
+    "old female",
+    "stay active but she is afraid of falling",
+    "osteoartheritis"
+  ],
+  "AS-1411": [
+    "chronic hepatitis C",
+    "ascites",
+    "neutrophil count of 300 cells/mm³"
+  ],
+  "AS-1416": [
+    "pneumonia and sepsis",
+    "in addition to azithromycin"
+  ],
+  "AS-1417": [
+    "signs of dehydration",
+    "severe vomiting and diarrhea",
+    "creatinine is 160"
+  ],
+  "AS-1417B": [
+    "excessive military training",
+    "lightheadedness on standing",
+    "postural hypotension",
+    "Urine osmolality is elevated >500 mOsm/kg"
+  ],
+  "AS-1418": [
+    "diarrhea for 3 years",
+    "foul smelling",
+    "no secondary sexual characteristics",
+    "MCV 70"
+  ],
+  "AS-1422": [
+    "flex his neck forward",
+    "involuntary flexion of the patient hips and knees"
+  ],
+  "AS-1424": [
+    "H. pylori triple therapy"
+  ],
+  "AS-1435": [
+    "Persistent HTN",
+    "potassium 3,2"
+  ],
+  "AS-1439": [
+    "arthritis after Clostridioides difficile infection"
+  ],
+  "AS-1440": [
+    "history of IHD",
+    "shortness of breath, increased when she lay down",
+    "ECG showing ST-elevation in leads II, I, AvF, V5 and V6",
+    "chest x-ray showed pulmonary edema"
+  ],
+  "AS-1446": [
+    "required a vasopressor to maintain a MAP of more than 65 mm Hg",
+    "receiving adequate IV fluid resuscitation"
+  ],
+  "AS-1452": [
+    "diagnosed with celiac disease",
+    "Poor compliance with a gluten-free diet is suspected"
+  ],
+  "AS-1452B": [
+    "diarrhea for 5 months",
+    "eating bread and wheat products"
+  ],
+  "AS-1456": [
+    "rheumatoid arthritis",
+    "prednisone 15 mg"
+  ],
+  "AS-1456B": [
+    "stable systemic lupus erythematosus",
+    "active polyarthritis for 1 week"
+  ],
+  "AS-1457": [
+    "jaundice",
+    "greatest prognostic value",
+    "ALT 1650"
+  ],
+  "AS-1458": [
+    "screening for hepatocellular carcinoma",
+    "cirrhotic"
+  ],
+  "AS-1459": [
+    "pruritus and fatigue",
+    "coarse liver with 3 cm focal lesion"
+  ],
+  "AS-1464": [
+    "SLIGHTLY low glucose",
+    "high lymphocytes",
+    "no encephalitis symptoms"
+  ],
+  "AS-1465": [
+    "IV drug user",
+    "Blood glucose <0.4",
+    "lymphocytic predominance"
+  ],
+  "AS-1466": [
+    "IV drug user",
+    "Blood glucose >0.4",
+    "lymphocytic predominance"
+  ],
+  "AS-1467": [
+    "lymphocytes predominance",
+    "glu 2.5 (lower normal)",
+    "low serum glu"
+  ],
+  "AS-1468": [
+    "CSF glucose: 5 mmol/L",
+    "CSF protein: 700 mg/L",
+    "Predominant lymphocytes"
+  ],
+  "AS-1471": [
+    "hypertension",
+    "renal bruit",
+    "next"
+  ],
+  "AS-1478": [
+    "osteoarthritis of the left knee",
+    "chest pain on exertion relieved by rest"
+  ],
+  "AS-1484": [
+    "diarrhea weight loss",
+    "arthritis or joint pain",
+    "+ Tissue transglutaminase",
+    "RF was a bit high"
+  ],
+  "AS-1486": [
+    "fatigue, lethargy, and weight gain"
+  ],
+  "AS-1487": [
+    "positive anti-HCV (ELISA)",
+    "HCV RNA was negative"
+  ],
+  "AS-1497": [
+    "raised JVP",
+    "distant heart sound",
+    "wide cardiac silhouette"
+  ],
+  "AS-1502": [
+    "Stool for Clostridium difficile toxins positive",
+    "WBC 16",
+    "Albumin 29"
+  ],
+  "AS-1503": [
+    "recently took herbal supplements",
+    "INR is 4"
+  ],
+  "AS-1504": [
+    "Corrigan pulse",
+    "early diastolic murmur",
+    "Severe aortic regurgitation",
+    "ejection fraction of 40%"
+  ],
+  "AS-1505": [
+    "confusion"
+  ],
+  "AS-1507": [
+    "Young",
+    "No proteinuria"
+  ],
+  "AS-1515": [
+    "myoclonic seizure",
+    "valproic acid and failed"
+  ],
+  "AS-1594": [
+    "55-year-old man",
+    "pallor"
+  ],
+  "AS-1595": [
+    "55-year-old man",
+    "pallor"
+  ],
+  "AS-1604": [
+    "papilledema",
+    "Hemorrhagic transformation",
+    "definitive"
+  ],
+  "AS-1605": [
+    "lower back pain",
+    "morning stiffness",
+    "limited lumbar spine movements",
+    "tenderness over the Achilles tendon"
+  ],
+  "AS-1606": [
+    "splenomegaly",
+    "spheroytosis"
+  ],
+  "AS-1608": [
+    "acute exacerbation of asthma",
+    "life-threatening"
+  ],
+  "AS-1609": [
+    "left arm weakness",
+    "lasted 5 minutes",
+    "asymptomatic",
+    "initial imaging"
+  ],
+  "AS-1610": [
+    "exertional shortness of breath",
+    "interferes with his job but does not limit him",
+    "at rest, he is fine"
+  ],
+  "AS-1611": [
+    "smoker for over 50 years",
+    "lost 10 kg"
+  ],
+  "AS-1624": [
+    "hemorrhagic stroke",
+    "after 1 week",
+    "left cerebral infarction"
+  ],
+  "AS-1625": [
+    "understand what is being told",
+    "can't write",
+    "can't remember words",
+    "can't know left and right"
+  ],
+  "AS-1632": [
+    "mouth ulcers",
+    "Complement C4 0.1",
+    "remission and vascular risk"
+  ],
+  "AS-1633": [
+    "IV heparin",
+    "6 days post-operatively",
+    "Platelet count is 75"
+  ],
+  "AS-1657": [
+    "SINGLE CONFIRMATORY TEST",
+    "IDA"
+  ],
+  "AS-1657B": [
+    "Most definitive test",
+    "microcytic anemia"
+  ],
+  "AS-1658": [
+    "SCD",
+    "absent"
+  ],
+  "AS-1659": [
+    "no jaundice",
+    "no lymphadenopathy or splenomegaly",
+    "Reticulocyte count: Elevated",
+    "Haptoglobin: Decreased"
+  ],
+  "AS-1660": [
+    "jaundice",
+    "multiple gallstones"
+  ],
+  "AS-1669": [
+    "excessive urination and thirst",
+    "lung metastases",
+    "Sodium 150",
+    "Osmolality 110"
+  ],
+  "AS-1670": [
+    "non-hemorrhagic stroke 2 months ago",
+    "ST-segment elevation in II, III, aVF"
+  ],
+  "AS-1671": [
+    "history of URTI a few weeks back",
+    "Synovial analysis is normal"
+  ],
+  "AS-1681": [
+    "drinks alcohol",
+    "epigastric pain on and off for months",
+    "mildly raised AST"
+  ],
+  "AS-1688": [
+    "hepatitis C",
+    "viral load 2 million copies"
+  ],
+  "AS-1690": [
+    "trigeminal neuralgia",
+    "weakness"
+  ],
+  "AS-1694": [
+    "Hepatic encephalopathy"
+  ],
+  "AS-1718": [
+    "Sudan",
+    "malaria"
+  ],
+  "AS-1720": [
+    "AIDS",
+    "rising titers of anti-toxoplasma",
+    "multiple hypodense lesions in white matter and basal ganglia with mass effects"
+  ],
+  "AS-1721": [
+    "Spirono",
+    "asymptomatic",
+    "HYPERKALEMIA"
+  ],
+  "AS-1722": [
+    "Methamphetamine abuse",
+    "dehydration, dry mucus membrane, AMS",
+    "No Jaundice, No Lower limb edema"
+  ],
+  "AS-1724": [
+    "chronic use of a steroid inhaler",
+    "white patch on his tongue and mouth"
+  ],
+  "AS-1727": [
+    "tumor lysis",
+    "muscle weakness, fatigue palpitations",
+    "K:6.2"
+  ],
+  "AS-1729": [
+    ".3 norepinephrine",
+    "Hypotensive"
+  ],
+  "AS-1740": [
+    "DM and CKD",
+    "acute coronary syndrome",
+    "high LDL"
+  ],
+  "AS-1741": [
+    "AF",
+    "TIA"
+  ],
+  "AS-1742": [
+    "smoker",
+    "newly diagnosed COPD"
+  ],
+  "AS-1751": [
+    "unprovoked deep vein thrombosis",
+    "three months"
+  ],
+  "AS-1752": [
+    "unprovoked",
+    "no personal or family history",
+    "three months"
+  ],
+  "AS-1769": [
+    "HBV"
+  ],
+  "AS-1779": [
+    "sudden onset of shortness of breath",
+    "pleuritic chest pain",
+    "oral contraceptives"
+  ],
+  "AS-1791": [
+    "history of hemorrhagic stroke",
+    "does not have PCI"
+  ],
+  "AS-1793": [
+    "Long term GERD",
+    "intermittent dysphagia to solid",
+    "weight loss"
+  ],
+  "AS-1796": [
+    "traveled to Indonesia & Thailand",
+    "chronic foul smelling diarrhea",
+    "Macrocytic Anemia"
+  ],
+  "AS-1803": [
+    "high WBC",
+    "negative for Crystal",
+    "Culture is pending"
+  ],
+  "AS-1806": [
+    "↑↑↑ HbA2"
+  ],
+  "AS-1818": [
+    "Haptoglobin: low",
+    "Gallbladder contains a 2.2-cm gallstone"
+  ],
+  "AS-1832": [
+    "maximum tolerated dose of a statin",
+    "LDL slight elevated"
+  ],
+  "AS-1839": [
+    "3 day of chemotherapy",
+    "sudden event"
+  ],
+  "AS-1844": [
+    "unable to complete sentence",
+    "pH was 7.1 with hypercapnia and hypoxia"
+  ],
+  "AS-1845": [
+    "N5W",
+    "Serum Na: 125",
+    "Urine Na: was mildly high"
+  ],
+  "AS-1846": [
+    "SLE",
+    "raised JVP"
+  ],
+  "AS-1847": [
+    "LL edema, raised JVP, shifting dullness"
+  ],
+  "AS-1850": [
+    "systemic lupus erythematosus",
+    "lower limb weakness and urinary incontinence",
+    "paraplegia and hyperreflexia"
+  ],
+  "AS-2007": [
+    "recently diagnosed with type 2 diabetes",
+    "BMI 32 kg/m2",
+    "HA1C 6.9"
+  ],
+  "AS-2008": [
+    "partial response",
+    "h pylori organism"
+  ],
+  "AS-2009": [
+    "Gastro Esophageal Reflux Disease",
+    "burning pain",
+    "over the counter antacids with no relief"
+  ],
+  "AS-2011": [
+    "weight loss",
+    "MCV 70",
+    "Tissue transglutaminase antibody: Positive"
+  ],
+  "AS-2012": [
+    "altered sensorium",
+    "small cell carcinoma of the lung",
+    "euvolemic",
+    "Sodium 115"
+  ],
+  "AS-2014": [
+    "smoking",
+    "lost the nail fold angle"
+  ],
+  "AS-2015": [
+    "20-pack-year smoking",
+    "productive cough for 3 months",
+    "similar attack last year"
+  ],
+  "AS-2016": [
+    "intermediate risk"
+  ],
+  "AS-2017": [
+    "left ventricular ejection fraction of 60%",
+    "pulmonary edema",
+    "Brain natriuretic peptide 900"
+  ],
+  "AS-2035": [
+    "polyarthralgia, skin rash, mucosal ulcers",
+    "malar rash",
+    "Complement C3 0.3",
+    "most likely to confirm"
+  ],
+  "AS-2038": [
+    "Radiation exposure",
+    "After 2 wks"
+  ],
+  "AS-2040": [
+    "left-sided sensorineural hearing loss",
+    "left-sided facial weakness"
+  ],
+  "AS-2051": [
+    "Adult",
+    "meningitis"
+  ],
+  "AS-2055": [
+    "after TIA"
+  ],
+  "AS-2216": [
+    "urease negative",
+    "epigastric pain"
+  ],
+  "AS-2217": [
+    "rt side weakness",
+    "Ct brain free"
+  ],
+  "AS-2226": [
+    "Failure to breastfeed",
+    "severe postpartum hemorrhage",
+    "free T4 level is low"
+  ],
+  "AS-2227": [
+    "Crohn's disease",
+    "prednisone 50 mg daily",
+    "recurrent patchy colitis"
+  ],
+  "AS-2229": [
+    "blank, staring look",
+    "lip-smacking",
+    "temporarily confused"
+  ],
+  "AS-2231": [
+    "hematemesis",
+    "no jaundice, splenomegaly, or other signs of chronic liver disease"
+  ],
+  "AS-2237": [
+    "systemic lupus erythematosus",
+    "generalized tonic-clonic seizures",
+    "multiple hyperintense lesions"
+  ],
+  "AS-2242": [
+    "one week hx of jaundice",
+    "no mention of any chronic illness or risk factors",
+    "ALT 1000 AST 850",
+    "ACUTE"
+  ],
+  "AS-2245": [
+    "Epigastric pain improving with calcium carbonate",
+    "FOBT positive",
+    "Colonoscopy normal"
+  ],
+  "AS-2253": [
+    "came from India",
+    "low glucose",
+    "slightly high protein",
+    "lymphocytosis"
+  ],
+  "AS-2264": [
+    "came from holiday",
+    "ARDS",
+    "sodium 122"
+  ],
+  "AS-2280": [
+    "68-year-old",
+    "5 mm pulmonary nodule",
+    "50-pack-year smoking history",
+    "Interval increase in the size of the nodule, now measuring 10.5 mm"
+  ],
+  "AS-2281": [
+    "newly diagnosed hypertension",
+    "not well controlled with lifestyle modifications"
+  ],
+  "AS-2282": [
+    "ice cravings",
+    "celiac disease",
+    "not compliant with a gluten-free diet",
+    "12 weeks"
+  ],
+  "AS-2283": [
+    "required a vasopressor to maintain a mean arterial pressure (MAP) of more than 65 mm Hg",
+    "receiving adequate IV fluid resuscitation"
+  ],
+  "AS-2291": [
+    "linear ulce",
+    "segmental strictures",
+    "areas of normal mucosa"
+  ],
+  "AS-2304": [
+    "COPD",
+    "Started On High Flow Oxygen",
+    "Level Of Consciousness Is Reduced",
+    "ABG PCO2: 9"
+  ],
+  "AS-2308": [
+    "dilated cardiomyopathy on metoprolol",
+    "cardiogenic shock"
+  ],
+  "AS-2314": [
+    "trachomatis clamydia"
+  ],
+  "AS-2318": [
+    "chronic renal failure for 5 years",
+    "fatigue"
+  ],
+  "AS-2320": [
+    "hypercalcemia"
+  ],
+  "AS-2321": [
+    "hemorrhagic stroke",
+    "pin point",
+    "can not speak or move his body"
+  ],
+  "AS-2322": [
+    "right-sided hemiplegia",
+    "aphasia",
+    "right-hand dominance"
+  ],
+  "AS-2336": [
+    "recurrent UTI, 4 times in 1 year",
+    "best clinical based evidence"
+  ],
+  "AS-2345": [
+    "night sweats, and weight loss",
+    "IGRA is positive",
+    "definitive investigation"
+  ],
+  "AS-2348": [
+    "chronic history of heartburn",
+    "intestinal-type metaplasia at the distal esophagus"
+  ],
+  "AS-2349": [
+    "resolve completely after 20 minutes",
+    "stenosis > 55%"
+  ],
+  "AS-2350": [
+    "Senna",
+    "serious adverse effect"
+  ],
+  "AS-2362": [
+    "mid-systolic click followed by a late systolic murmur",
+    "increases with standing or Valsalva",
+    "decreases with handgrip or squatting"
+  ],
+  "AS-2363": [
+    "Acute exacerbation COPD",
+    "CO2 65 kp",
+    "Ph 7.18"
+  ],
+  "AS-2368": [
+    "insomnia, irritability and palpitation",
+    "amiodarone"
+  ],
+  "AS-2400": [
+    "losartan and amlodipine",
+    "failing to keep his blood pressure within target"
+  ],
+  "AS-2407": [
+    "Cirrhosis",
+    "massive hematemesis",
+    "became drowsy",
+    "blood oozing out from his mouth"
+  ],
+  "AS-2413": [
+    "aspirin",
+    "elevated creatinine and high BUN",
+    "prophylaxis for traveler’s diarrhea"
+  ],
+  "AS-2424": [
+    "bloody bowel movements",
+    "family history of crohn's disease",
+    "MCV 77",
+    "C-reactive protein 22"
+  ],
+  "AS-2426": [
+    "heavy alcohol consumption",
+    "esophageal varices"
+  ],
+  "AS-2427": [
+    "relative with type 1 DM",
+    "Normal urine osmolality and serum osmolality",
+    "0.09 ng/mL (Low)"
+  ],
+  "AS-2435": [
+    "A1c 8",
+    "BMI 34",
+    "first line treatment"
+  ],
+  "AS-2463": [
+    "high liver function test",
+    "tremors and dysarthria and dyskinesia",
+    "greenish-brown ring at comeoscleral junction"
+  ],
+  "AS-2473": [
+    "gram negative diplococci"
   ]
 }
