@@ -5709,5 +5709,216 @@
     "lower back pain",
     "history of unpasteurized milk ingestion",
     "Blood culture: Negative"
+  ],
+  "AS-0947B": [
+    "drinking unpasteurized milk"
+  ],
+  "AS-0949": [
+    "stage 2 chronic kidney disease",
+    "anemia"
+  ],
+  "AS-0950": [
+    "type 2 diabetes mellitus",
+    "hypertension"
+  ],
+  "AS-0951": [
+    "COPD",
+    "loud pulmonary component of S1",
+    "estimated mean pulmonary artery pressure is 55 mmHg"
+  ],
+  "AS-0952": [
+    "endstage renal disease on hemodialysis"
+  ],
+  "AS-0953": [
+    "lymphoma",
+    "chemotherapy",
+    "day 7 post 4th cycle",
+    "fever"
+  ],
+  "AS-0954": [
+    "confusion and irritability",
+    "injured his right leg and has been bed-bound",
+    "Sinus tachycardia"
+  ],
+  "AS-0955": [
+    "known hepatitis B",
+    "extensively taking paracetamol",
+    "AST over 2000",
+    "INR was 2.something"
+  ],
+  "AS-0956": [
+    "brucellosis",
+    "no neurological symptoms",
+    "duration of treatment"
+  ],
+  "AS-0968": [
+    "mycoplasma pneumonia",
+    "yellowish discoloration of the eyes",
+    "Reticulocytes 4% (elevated) Haptoglobin low LDH high"
+  ],
+  "AS-0972": [
+    "contrast-enhanced CT",
+    "Creatinine: 378 µmol/L (elevated)"
+  ],
+  "AS-0972B": [
+    "diarrhea",
+    "Urine sodium: 60",
+    "Osmolality: 220"
+  ],
+  "AS-0981": [
+    "polyurea , polydipsia",
+    "very low c peptide",
+    "niece with dm type 1"
+  ],
+  "AS-0983": [
+    "murmur",
+    "High BP",
+    "preventive"
+  ],
+  "AS-0985": [
+    "ulcerative colitis 6 or 8 yaers ago",
+    "when she do colonoscopy"
+  ],
+  "AS-0990": [
+    "5-cm irregular",
+    "Squamous cell carcinoma",
+    "Negative for metastasis",
+    "while preparing him for surgery"
+  ],
+  "AS-0994": [
+    "6 days post-uneventful subtotal colectomy",
+    "sudden-onset shortness of breath",
+    "hemoptysis",
+    "new finding of a right bundle branch block"
+  ],
+  "AS-0995": [
+    "long-standing chronic renal failure",
+    "aches and pains"
+  ],
+  "AS-0996": [
+    "oriented to time place and person",
+    "Respiratory rate 23",
+    "Urea 5"
+  ],
+  "AS-0997": [
+    "Potassium 6.5",
+    "peaked T waves",
+    "best immediate step"
+  ],
+  "AS-1007": [
+    "obese",
+    "daytime somnolence"
+  ],
+  "AS-1008": [
+    "pulmonary tuberculosis",
+    "infection control precaution"
+  ],
+  "AS-1009": [
+    "severe asthma exacerbation",
+    "hospitalized and intubated 2 years ago",
+    "still appeared in respiratory distress"
+  ],
+  "AS-1010": [
+    "dyspnea on exertion",
+    "pregnant at 30 weeks gestation",
+    "Doppler ultrasonography of both legs is negative"
+  ],
+  "AS-1011": [
+    "persistent fever",
+    "pyelonephritis",
+    "after 5 days of starting an appropriate antibiotic",
+    "susceptible to the antibiotic"
+  ],
+  "AS-1016": [
+    "works out after lunch",
+    "hypoglycemia after exercise"
+  ],
+  "AS-1018": [
+    "SLE",
+    "Low haptoglopin 0.2",
+    "High LDH 1200"
+  ],
+  "AS-1027": [
+    "methotrexate 15 mg weekly",
+    "Aspartate aminotransferase 300",
+    "Alanine aminotransferase 280"
+  ],
+  "AS-1032": [
+    "cough and wheezing 2-3 times each week"
+  ],
+  "AS-1033": [
+    "muscle aches",
+    "6 days postoperative",
+    "hypokalemia"
+  ],
+  "AS-1037": [
+    "hepatorenal syndrome",
+    "low serum albumin"
+  ],
+  "AS-1047": [
+    "heart failure with reduced ejection fraction (HFrEF)",
+    "atrial fibrillation",
+    "BP: 110/70 mmHg",
+    "HR: 130 bpm"
+  ],
+  "AS-1051": [
+    "RT renal bruit"
+  ],
+  "AS-1054": [
+    "SLE",
+    "asymptomatic",
+    "Class I (minimal change) lupus nephritis"
+  ],
+  "AS-1058": [
+    "elevated JVP",
+    "bilateral lower limb edema",
+    "grade 2/6 systolic murmur"
+  ],
+  "AS-1063": [
+    "increased with standing",
+    "diminished with handgrip"
+  ],
+  "AS-1070": [
+    "post renal transplant",
+    "gum hypertrophy (gingival hyperplasia)"
+  ],
+  "AS-1077": [
+    "exertional syncope",
+    "slow rising carotid pulse",
+    "ejection systolic murmur at the upper right sternal edge, radiating to the carotids"
+  ],
+  "AS-1083": [
+    "Renal failure",
+    "hyperparathyrodisim",
+    "metaphysel Fraying"
+  ],
+  "AS-1084": [
+    "lower back pain associated with morning stiffness",
+    "limited lumbar spine movements",
+    "tenderness over the Achilles tendon"
+  ],
+  "AS-1093": [
+    "paraplegia",
+    "Blood pressure 80/55 mmHg",
+    "Dilated right ventricle",
+    "DVT in the left leg"
+  ],
+  "AS-1095": [
+    "chronic hepatitis C",
+    "ascites, abdominal tenderness",
+    "neutrophil count of 400/mm"
+  ],
+  "AS-1097": [
+    "wound from the garden",
+    "tetanus vaccine 12 years ago"
+  ],
+  "AS-1098": [
+    "active neuropsychiatric lupus",
+    "first-line therapy"
+  ],
+  "AS-1103": [
+    "obese",
+    "loud snores",
+    "BMI 40 kg/m2"
   ]
 }

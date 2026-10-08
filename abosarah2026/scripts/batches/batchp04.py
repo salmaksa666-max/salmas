@@ -86,7 +86,7 @@ EXPLANATIONS = {
 
 "AS-0956": {"correct_letter": "B", "self_judged": False,
     "idea": "صورة <bdi>brucellosis</bdi> نموذجية بدون أعراض عصبية وبدون أي تصوير يظهر إصابة موضعية — هذي حالة <bdi>brucellosis</bdi> بسيطة.",
-    "clues": [("brucellosis", "التشخيص مؤكد"), ("no neurological symptoms", "يستبعد النوع العصبي اللي يحتاج مدة أطول"), ("duration of treatment")],
+    "clues": [("brucellosis", "التشخيص مؤكد"), ("no neurological symptoms", "يستبعد النوع العصبي اللي يحتاج مدة أطول"), ("duration of treatment", "السؤال عن طول مدة العلاج تحديدًا")],
     "why_correct": [
         "التشخيص «حالة نموذجية» بدون أعراض عصبية وبدون تصوير يثبت إصابة موضعية (عمود فقري أو مفصل عجزي حرقفي) يعني <bdi>brucellosis</bdi> بسيط غير معقد.",
         "علاج <bdi>brucellosis</bdi> البسيط هو <bdi>doxycycline</bdi> مع <bdi>rifampicin</bdi> أو <bdi>streptomycin</bdi> لمدة ٦ أسابيع؛ المدد الأطول تُحجز للإصابات الموضعية المثبتة."],
