@@ -6940,5 +6940,145 @@
   ],
   "AS-0697B": [
     "ascites"
+  ],
+  "AS-0699": [
+    "diabetes mellitus",
+    "Protein Present"
+  ],
+  "AS-0700": [
+    "smoker for 18 years",
+    "increased AP diameter with hyperresonance",
+    "Increase in total lung capacity and residual volume"
+  ],
+  "AS-0701": [
+    "productive cough for 3 months",
+    "previous 2 years",
+    "smokes"
+  ],
+  "AS-0708": [
+    "multiple sclerosis",
+    "transient worsening of her symptoms when exposed to heat"
+  ],
+  "AS-0709": [
+    "Barrett's esophagus with low dysplasia"
+  ],
+  "AS-0713": [
+    "brief, jerky movements of one arm",
+    "no loss of consciousness"
+  ],
+  "AS-0716": [
+    "71 years old",
+    "fever disuria and suprabupic pain",
+    "confusion and disoriented",
+    "Positive nitrites",
+    "Positive leukocyte esterase"
+  ],
+  "AS-0726": [
+    "patent ductus arteriosus (PDA)",
+    "irregular heart rhythm"
+  ],
+  "AS-0733": [
+    "back pain for 3 weeks associated with fever",
+    "Diffuse discitis in T6 vertebrae"
+  ],
+  "AS-0746": [
+    "Chest Pain For The Past 3 Days",
+    "Diffuse ST-Segment Elevation"
+  ],
+  "AS-0747": [
+    "worsening shortness of breath for 4 months",
+    "Diffuse emphysematous changes"
+  ],
+  "AS-0761": [
+    "Elderly",
+    "progressive swallowing for solid and liquid",
+    "epigastric pain"
+  ],
+  "AS-0764": [
+    "back pain, worsening at morning",
+    "improving within an hour after movement",
+    "positive schober test"
+  ],
+  "AS-0770": [
+    "fine tremor of both hands",
+    "jaundice",
+    "Serum ceruloplasmin Low",
+    "24 hours urine copper High"
+  ],
+  "AS-0775": [
+    "bone marrow transplantation",
+    "febrile neutropenia",
+    "has pneumonia",
+    "Ceftazidime"
+  ],
+  "AS-0455": [
+    "drowsy",
+    "low level"
+  ],
+  "AS-0456": [
+    "postural hypotension",
+    "acute kidney injury due to hypovolemia"
+  ],
+  "AS-0457": [
+    "4-days history",
+    "confusion",
+    "Glucose 3.7",
+    "90% lymphocytes"
+  ],
+  "AS-0458": [
+    "recently returned from Umrah",
+    "87% neutrophils"
+  ],
+  "AS-0473": [
+    "50 tablets of extra strength acetaminophen (500 mg each tablet)",
+    "3 hours ago"
+  ],
+  "AS-0473B": [
+    "extensively taking paracetamol",
+    "HBc IgG positive",
+    "AST >2000, ALT >1000"
+  ],
+  "AS-0474": [
+    "chronic obstructive pulmonary disease (COPD)",
+    "cor pulmonale",
+    "increased survival"
+  ],
+  "AS-0476": [
+    "bilateral pain in PIP and MCP joints",
+    "high ESR and high CRP",
+    "(-ve) AntiSSA"
+  ],
+  "AS-0477": [
+    "periorbital eye swelling, hematuria, and hypertension",
+    "sore throat 3 weeks ago",
+    "ASO titre: positive"
+  ],
+  "AS-0490": [
+    "AF",
+    "control ventricular rate"
+  ],
+  "AS-0491": [
+    "Recurrent ureteric stones and bone pain",
+    "Ca: 3.50 mmol",
+    "2cm parathyroid adenoma"
+  ],
+  "AS-0492": [
+    "Recurrent ureteric stones and bone pain",
+    "2cm parathyroid adenoma",
+    "Initial"
+  ],
+  "AS-0493": [
+    "breast cancer with bone metastases",
+    "serum calcium is 15.2 mg/dL",
+    "initial"
+  ],
+  "AS-0495": [
+    "12 hours",
+    "small to moderate ischemic core",
+    "proximal anterior circulation occlusion"
+  ],
+  "AS-0496": [
+    "12 hours",
+    "That Has Resolved"
   ]
 }
