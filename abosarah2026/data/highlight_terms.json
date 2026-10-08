@@ -5394,5 +5394,320 @@
   "AS-2211": [
     "Positive comb test",
     "normal kidney function"
+  ],
+  "AS-1516": [
+    "myoclonic seizures",
+    "Valproic acid"
+  ],
+  "AS-1521": [
+    "5 days after",
+    "hypotension",
+    "pansystolic murmur",
+    "right sternal border"
+  ],
+  "AS-1524": [
+    "MI two years ago",
+    "progressive dyspnea and orthopnea at rest",
+    "EF 20%"
+  ],
+  "AS-1529": [
+    "end-stage kidney disease",
+    "muffled heart sounds",
+    "pericardial effusion",
+    "Was Frankly Hypotensive"
+  ],
+  "AS-1535": [
+    "HTN and DM",
+    "no history of alcohol use",
+    "10 years history of high aminotransferase",
+    "ascites"
+  ],
+  "AS-1537": [
+    "Heart failure with reduced EF",
+    "metoprolol"
+  ],
+  "AS-1540": [
+    "Burkitt lymphoma",
+    "hypocalcemia + hyperphosphatemia",
+    "Uric acid below 480"
+  ],
+  "AS-1541": [
+    "50-year-old woman",
+    "distal and proximal interphalangeal joints",
+    "does not have significant early morning stiffness",
+    "non-tender hard nodules over some distal interphalangeal",
+    "Rheumatoid factor 30 (<58 kIU/L)"
+  ],
+  "AS-1542": [
+    "DIP and PIP pain and swelling",
+    "Rheumatoid factor 55 (normal <58)"
+  ],
+  "AS-1547": [
+    "29-year-old",
+    "asymptomatic",
+    "pansystolic murmur that radiated to the axilla"
+  ],
+  "AS-1551": [
+    "history of seizure",
+    "generalized tonic-clonic seizure",
+    "terminates after intravenous lorazepam"
+  ],
+  "AS-1554": [
+    "blood transfusions 10 years ago",
+    "AST and ALT within normal range",
+    "HBsAg (+)",
+    "IgG HBc (+)",
+    "HBeAg (+)"
+  ],
+  "AS-1556": [
+    "Wolff-Parkinson-White syndrome and atrial fibrillation",
+    "control her rhythm"
+  ],
+  "AS-1562": [
+    "sickle cells",
+    "confirmatory test"
+  ],
+  "AS-1567": [
+    "disoriented",
+    "BP: 80/55",
+    "RR: 33",
+    "urea is 12 mmol/L"
+  ],
+  "AS-1569": [
+    "type 2 diabetes",
+    "could not tolerate it because of a cough",
+    "24-hour urine protein 1500"
+  ],
+  "AS-1570": [
+    "gout"
+  ],
+  "AS-1571": [
+    "uti"
+  ],
+  "AS-1573": [
+    "positive anti-HCV (ELISA)",
+    "Hepatitis C RNA was negative"
+  ],
+  "AS-1580": [
+    "Intensive Care Unit with pneumonia",
+    "dopamine",
+    "TSH 0.1 (low)",
+    "T3 2 (low)"
+  ],
+  "AS-1582": [
+    "prednisolone 60 mg",
+    "continued the same dose",
+    "Found dead in bathroom"
+  ],
+  "AS-1586": [
+    "generalised lymphadenopathy",
+    "travels frequently to Far East",
+    "oral candidiasis"
+  ],
+  "AS-1593": [
+    "post neck extension",
+    "mri brain normal"
+  ],
+  "AS-1593B": [
+    "left arm weakness without pain that lasted 5 minutes",
+    "initial imaging"
+  ],
+  "AS-0776": [
+    "bone marrow transplant",
+    "ceftazidime",
+    "did not improve after 72 hours",
+    "no pneumonia or hypotension"
+  ],
+  "AS-0776B": [
+    "acute leukemia",
+    "allogenic bone marrow transplantation",
+    "invasive aspergillosis"
+  ],
+  "AS-0777": [
+    "bone marrow transplantation",
+    "febrile neutropenia",
+    "[NO] Pneumonia",
+    "Ceftazidime"
+  ],
+  "AS-0780": [
+    "Ascitis",
+    "sparonolactone with no improvment"
+  ],
+  "AS-0781": [
+    "liver cirrhosis",
+    "increasing ascites",
+    "spironolactone 50 mg/day and furosemide 40 mg/day",
+    "large ascites"
+  ],
+  "AS-0782": [
+    "Watary diarrhea"
+  ],
+  "AS-0785": [
+    "helicobacter-associated duodenal ulcer",
+    "non-tarry black"
+  ],
+  "AS-0788": [
+    "celiac disease"
+  ],
+  "AS-0791": [
+    "rheumatic heart disease",
+    "prosthetic valve replacement",
+    "dental operation"
+  ],
+  "AS-0793": [
+    "post angioplasty after MI 3 monthes ago",
+    "cholesterol was 5.3"
+  ],
+  "AS-0795": [
+    "veterinarian",
+    "right sacro-iliac pain and fever for 2 monthes"
+  ],
+  "AS-0796": [
+    "failed to reach target blood pressure",
+    "on amlodipine and losartan"
+  ],
+  "AS-0848": [
+    "weakness",
+    "image show Afib"
+  ],
+  "AS-0850": [
+    "SOB and fatigue",
+    "stable",
+    "bradycardia"
+  ],
+  "AS-0853": [
+    "Incidentally Found To Have Atrial Fibrillation",
+    "HR: 110 bpm",
+    "BP: 110/70 mmHg"
+  ],
+  "AS-0854": [
+    "LDL-cholesterol",
+    "Optimal range"
+  ],
+  "AS-0868": [
+    "family hx of diabetes",
+    "thirst and polyuria",
+    "Fasting glucose 8 to 10 mmol",
+    "Hb a1c above 7 , 7.8 %"
+  ],
+  "AS-0868B": [
+    "BMI 31",
+    "HbA1C 7.8",
+    "first line anti-diabetic"
+  ],
+  "AS-0869": [
+    "strong family history of diabetes",
+    "occasionally thirst",
+    "fasting blood glucose (FBG ) is 7.5 mmol/L",
+    "No Mention Of A1c"
+  ],
+  "AS-0875": [
+    "25-year-old",
+    "bloody stools",
+    "mother and siblings"
+  ],
+  "AS-0876": [
+    "lethargy",
+    "ECG shows no acute changes",
+    "Potassium 6.6",
+    "Bicarbonate 15"
+  ],
+  "AS-0877": [
+    "severe pain, redness, and swelling of the first metatarsophalangeal (MTP) joint"
+  ],
+  "AS-0879": [
+    "pulmonary embolism",
+    "no vital report"
+  ],
+  "AS-0880": [
+    "massive pulmonary embolism"
+  ],
+  "AS-0881": [
+    "stemi",
+    "long term"
+  ],
+  "AS-0882": [
+    "significant or diagnostic for uti"
+  ],
+  "AS-0887": [
+    "yellowish discolouration",
+    "Alanine aminotransferase 990",
+    "Aspartate aminotransferase 789"
+  ],
+  "AS-0890": [
+    "Sausage digits",
+    "nail pitting"
+  ],
+  "AS-0894": [
+    "asymptomatic",
+    "thyroid nodule 2x2 cm"
+  ],
+  "AS-0907": [
+    "insomnia , irritability and palpitation",
+    "amiodarone"
+  ],
+  "AS-0911": [
+    "sudden movement stop without falling for 15 seconds",
+    "EEG : 3 Hz spike"
+  ],
+  "AS-0914": [
+    "daily wheezing",
+    "moderate persistent asthma"
+  ],
+  "AS-0915": [
+    "early diastolic murmur",
+    "increase during INSPIRATION"
+  ],
+  "AS-0915B": [
+    "early diastolic murmur",
+    "increased by leaning forward",
+    "left ventricular hypertrophy"
+  ],
+  "AS-0925": [
+    "known case of psoriasis",
+    "no improvement"
+  ],
+  "AS-0926": [
+    "asymptomatic",
+    "Severe bicuspid aortic stenosis",
+    "Normal left ventricular ejection fraction"
+  ],
+  "AS-0928": [
+    "high cholesterol level",
+    "cramps in muscle"
+  ],
+  "AS-0928B": [
+    "low potassium"
+  ],
+  "AS-0931": [
+    "went to africa",
+    "intermittent fever"
+  ],
+  "AS-0940": [
+    "st depression",
+    "elevated troponin"
+  ],
+  "AS-0941": [
+    "hypotension, tachycardia",
+    "LV hyper atrophy",
+    "500 bnb"
+  ],
+  "AS-0944": [
+    "jerky movement"
+  ],
+  "AS-0945": [
+    "car repair shop",
+    "symptoms are associated with his workdays",
+    "spirometry results are normal"
+  ],
+  "AS-0946": [
+    "rheumatoid arthritis",
+    "pain and swelling of the left knee and low-grade fever",
+    "prednisone, methotrexate, and etanercept"
+  ],
+  "AS-0947": [
+    "lower back pain",
+    "history of unpasteurized milk ingestion",
+    "Blood culture: Negative"
   ]
 }
