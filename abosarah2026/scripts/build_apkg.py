@@ -100,9 +100,10 @@ CSS = """
 #q mark.l2 { background:#ffca28; color:#000 !important; padding:0 2px; border-radius:3px; font-weight:bold; }
 #q mark.l1 { background:#ffe9a8; color:#000 !important; padding:0 2px; border-radius:3px; }
 #memo { margin-top:10px; padding:8px 10px; background:#e8f5e9; color:#000; border-radius:6px; font-size:14px; }
-.night_mode #q mark.l2, .nightMode #q mark.l2 { background:#caa400; color:#000 !important; }
-.night_mode #q mark.l1, .nightMode #q mark.l1 { background:#8a7a3a; color:#000 !important; }
-.night_mode #memo, .nightMode #memo { background:#3a4a40; color:#eee; }
+.night_mode #q mark.l2, .nightMode #q mark.l2, .night-mode #q mark.l2 { background:#caa400; color:#000 !important; }
+.night_mode #q mark.l1, .nightMode #q mark.l1, .night-mode #q mark.l1 { background:#8a7a3a; color:#000 !important; }
+.night_mode #memo, .nightMode #memo, .night-mode #memo { background:#3a4a40; color:#eee; }
+#q mark { color:#000 !important; }
 """
 
 MODEL = genanki.Model(
