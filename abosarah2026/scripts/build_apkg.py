@@ -20,6 +20,7 @@ FRONT_TEMPLATE = """
   {{#OptD}}<a href="#" class="opt" data-k="D"><span class="t">{{OptD}}</span><div class="why" dir="rtl">{{WhyD}}</div></a>{{/OptD}}
 </div>
 <div id="exp" dir="rtl" style="display:none">{{Explain}}</div>
+{{#Memorize}}<div id="memo" dir="rtl">{{Memorize}}</div>{{/Memorize}}
 <div id="correct" style="display:none">{{Correct}}</div>
 <div id="qid" style="display:none">{{QID}}</div>
 <script>
@@ -96,6 +97,9 @@ CSS = """
 #exp ul { margin:4px 0; padding-inline-start:20px; }
 #exp p.note { background:#fff8e1; padding:6px; border-radius:6px; }
 #exp p.src { font-size:12px; color:#777; direction:ltr; text-align:left; }
+#q mark.l2 { background:#ffd54f; padding:0 2px; border-radius:3px; font-weight:bold; }
+#q mark.l1 { background:#fff3cd; padding:0 2px; border-radius:3px; }
+#memo { margin-top:10px; padding:8px 10px; background:#e8f5e9; border-radius:6px; font-size:14px; }
 """
 
 MODEL = genanki.Model(
@@ -108,6 +112,7 @@ MODEL = genanki.Model(
         {"name": "Correct"},
         {"name": "Explain"},
         {"name": "QID"},
+        {"name": "Memorize"},
     ],
     templates=[
         {
@@ -138,6 +143,21 @@ def highlight_clues(stem, clue_terms):
     return html
 
 
+def highlight_memorize(stem, level2_terms, level1_terms):
+    html = stem
+    # longer terms first so overlapping substrings don't get double-wrapped
+    ordered = sorted(level2_terms, key=len, reverse=True) + sorted(level1_terms, key=len, reverse=True)
+    css_class = {t: "l2" for t in level2_terms}
+    for t in level1_terms:
+        css_class.setdefault(t, "l1")
+    for term in ordered:
+        pattern = re.compile(re.escape(term), re.IGNORECASE)
+        cls = css_class[term]
+        if pattern.search(html):
+            html = pattern.sub(lambda m, cls=cls: f'<mark class="{cls}">{m.group(0)}</mark>', html, count=1)
+    return html
+
+
 def build():
     with open("abosarah2026/data/parsed_questions.json", encoding="utf-8") as f:
         questions = {q["qno"]: q for q in json.load(f)}
@@ -149,6 +169,11 @@ def build():
         highlight_terms_map = json.load(f)
     with open("abosarah2026/data/progress.json", encoding="utf-8") as f:
         progress = set(json.load(f))
+    try:
+        with open("abosarah2026/data/memorize.json", encoding="utf-8") as f:
+            memorize_map = json.load(f)
+    except FileNotFoundError:
+        memorize_map = {}
 
     decks = {}
     parent_deck_id = deck_id_for(PARENT_DECK_NAME)
@@ -169,8 +194,14 @@ def build():
             decks[full_deck_name] = genanki.Deck(deck_id_for(full_deck_name), full_deck_name)
         deck = decks[full_deck_name]
 
-        hl_terms = highlight_terms_map.get(qno, [])
-        question_html = highlight_clues(q["stem"], hl_terms)
+        memo = memorize_map.get(qno)
+        if memo:
+            question_html = highlight_memorize(q["stem"], memo.get("level2", []), memo.get("level1", []))
+            memo_html = memo.get("line", "")
+        else:
+            hl_terms = highlight_terms_map.get(qno, [])
+            question_html = highlight_clues(q["stem"], hl_terms)
+            memo_html = ""
 
         explain_html = render_explain(q, e, SOURCE_NAME)
 
@@ -189,6 +220,7 @@ def build():
             ans_letter,
             explain_html,
             qno,
+            memo_html,
         ]
 
         note = genanki.Note(

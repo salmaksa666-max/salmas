@@ -1,0 +1,113 @@
+{
+  "AS-0005": {
+    "level2": [
+      "drowsy"
+    ],
+    "level1": [
+      "fell from tree",
+      "head swelling",
+      "MOST APPROPRIATE management"
+    ],
+    "line": "احفظي: fell + head swelling + drowsy (no CT yet) → Intubation (secure airway) first"
+  },
+  "AS-0006": {
+    "level2": [
+      "midline shift"
+    ],
+    "level1": [
+      "fall 2 meters",
+      "left limb weakness",
+      "extra dural hematoma",
+      "best next management"
+    ],
+    "line": "احفظي: extradural hematoma + midline shift + limb weakness → Haematoma evacuation"
+  },
+  "AS-0008": {
+    "level2": [
+      "snoring",
+      "grade three"
+    ],
+    "level1": [
+      "mouth breathing during sleep",
+      "six episodes",
+      "most appropriate management"
+    ],
+    "line": "احفظي: snoring + grade three tonsils (OSA) → Tonsillectomy directly, skip sleep study"
+  },
+  "AS-0013": {
+    "level2": [
+      "family history"
+    ],
+    "level1": [
+      "perianal discharge",
+      "on-off abdominal pain",
+      "three fistula openings",
+      "most appropriate next step"
+    ],
+    "line": "احفظي: perianal fistulas + FHx Crohn's (undiagnosed) → Colonoscopy to confirm Crohn's first"
+  },
+  "AS-0033": {
+    "level2": [
+      "pH 6.5"
+    ],
+    "level1": [
+      "ph low",
+      "hypokalemia"
+    ],
+    "line": "احفظي: urine pH 6.5 (not acidified) + hypokalemia in newborn → Distal RTA (type 1)"
+  },
+  "AS-0048": {
+    "level2": [
+      "jittery movements"
+    ],
+    "level1": [
+      "diabetic mother",
+      "Newborn",
+      "Asked About Management"
+    ],
+    "line": "احفظي: IDM + jittery (symptomatic hypoglycemia) → IV dextrose now, not feeding/waiting"
+  },
+  "AS-0057": {
+    "level2": [
+      "NON-HEALING"
+    ],
+    "level1": [
+      "numbness",
+      "unable to perceive touch",
+      "most critical test"
+    ],
+    "line": "احفظي: diabetic NON-HEALING ulcer + numbness confirmed already → ABI, not monofilament"
+  },
+  "AS-0060": {
+    "level2": [
+      "elevated"
+    ],
+    "level1": [
+      "lower abdominal pain",
+      "redness and edema",
+      "most likely diagnosis"
+    ],
+    "line": "احفظي: boy + elevated tender testis + scrotal redness → Testicular torsion (emergency)"
+  },
+  "AS-0061": {
+    "level2": [
+      "incisional hernia"
+    ],
+    "level1": [
+      "previous laparotomy",
+      "symptomatic painful",
+      "best next step"
+    ],
+    "line": "احفظي: incisional hernia + symptomatic → Laparoscopic repair WITH mesh (always mesh)"
+  },
+  "AS-0067": {
+    "level2": [
+      "never been dry"
+    ],
+    "level1": [
+      "9-year-old",
+      "urine CX and analysis are normal"
+    ],
+    "line": "احفظي: 9yo + never dry + normal urine workup → Behavioural therapy, not reassure/refer"
+  }
+}
