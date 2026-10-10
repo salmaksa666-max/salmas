@@ -29,8 +29,10 @@ for qno, m in mod.MEMORIZE.items():
         errors.append(f"{qno}: level2 must have 1-2 entries, has {len(level2)}")
 
     total = len(level2) + len(level1)
-    if not (3 <= total <= 7):
-        errors.append(f"{qno}: total highlighted segments must be 3-7, has {total}")
+    stem_word_count = len(stem.split())
+    min_required = 3 if stem_word_count > 4 else 1
+    if not (min_required <= total <= 7):
+        errors.append(f"{qno}: total highlighted segments must be {min_required}-7, has {total}")
 
     for term in level2 + level1:
         if not term or term not in stem:
