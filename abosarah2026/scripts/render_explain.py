@@ -1,4 +1,8 @@
+FILLER_MEANINGS = {"دليل مهم بالسؤال", "راجعي السؤال الأصلي لمزيد من التفاصيل"}
+
+
 def clues_table(clues):
+    clues = [(t, m) for t, m in (clues or []) if m not in FILLER_MEANINGS]
     if not clues:
         return ""
     rows = "".join(

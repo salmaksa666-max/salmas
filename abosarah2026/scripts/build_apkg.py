@@ -14,11 +14,12 @@ PARENT_DECK_NAME = "SMLE AboSarah Jan-Sep 2026"
 FRONT_TEMPLATE = """
 <div id="q" dir="ltr">{{Question}}</div>
 <div id="opts" dir="ltr">
-  {{#OptA}}<a href="#" class="opt" data-k="A"><span class="t">{{OptA}}</span><div class="why" dir="rtl">{{WhyA}}</div></a>{{/OptA}}
-  {{#OptB}}<a href="#" class="opt" data-k="B"><span class="t">{{OptB}}</span><div class="why" dir="rtl">{{WhyB}}</div></a>{{/OptB}}
-  {{#OptC}}<a href="#" class="opt" data-k="C"><span class="t">{{OptC}}</span><div class="why" dir="rtl">{{WhyC}}</div></a>{{/OptC}}
-  {{#OptD}}<a href="#" class="opt" data-k="D"><span class="t">{{OptD}}</span><div class="why" dir="rtl">{{WhyD}}</div></a>{{/OptD}}
+  {{#OptA}}<div class="opt" data-k="A"><span class="t">{{OptA}}</span><div class="why" dir="rtl">{{WhyA}}</div></div>{{/OptA}}
+  {{#OptB}}<div class="opt" data-k="B"><span class="t">{{OptB}}</span><div class="why" dir="rtl">{{WhyB}}</div></div>{{/OptB}}
+  {{#OptC}}<div class="opt" data-k="C"><span class="t">{{OptC}}</span><div class="why" dir="rtl">{{WhyC}}</div></div>{{/OptC}}
+  {{#OptD}}<div class="opt" data-k="D"><span class="t">{{OptD}}</span><div class="why" dir="rtl">{{WhyD}}</div></div>{{/OptD}}
 </div>
+<div id="expBtn" class="expBtn" style="display:none">الشرح الكامل ▾</div>
 <div id="exp" dir="rtl" style="display:none">{{Explain}}</div>
 {{#Memorize}}<div id="memo" dir="rtl">{{Memorize}}</div>{{/Memorize}}
 <div id="correct" style="display:none">{{Correct}}</div>
@@ -28,36 +29,34 @@ FRONT_TEMPLATE = """
   var correct = document.getElementById('correct').textContent.trim();
   var opts = document.querySelectorAll('.opt');
   var expBox = document.getElementById('exp');
+  var btn = document.getElementById('expBtn');
   var key = 'pick_' + document.getElementById('qid').textContent.trim();
+  function hasSelection() {
+    var s = window.getSelection ? window.getSelection().toString() : '';
+    return s && s.length > 0;
+  }
   function reveal(picked) {
     opts.forEach(function (o) {
       var k = o.dataset.k;
       o.classList.add('done');
       if (k === correct) {
         o.classList.add('right');
-        o.appendChild(expBox);
-        expBox.style.display = 'none';
-        addButton(o);
       } else {
         o.classList.add('wrongOpt');
         if (k === picked) o.classList.add('picked');
       }
     });
+    btn.style.display = 'block';
   }
-  function addButton(o) {
-    var b = document.createElement('a');
-    b.href = '#'; b.className = 'expBtn'; b.textContent = 'الشرح الكامل ▾';
-    b.addEventListener('click', function (e) {
-      e.preventDefault(); e.stopPropagation();
-      var open = expBox.style.display === 'block';
-      expBox.style.display = open ? 'none' : 'block';
-      b.textContent = open ? 'الشرح الكامل ▾' : 'إخفاء الشرح ▴';
-    });
-    o.appendChild(b);
-  }
+  btn.addEventListener('click', function () {
+    if (hasSelection()) return;
+    var open = expBox.style.display === 'block';
+    expBox.style.display = open ? 'none' : 'block';
+    btn.textContent = open ? 'الشرح الكامل ▾' : 'إخفاء الشرح ▴';
+  });
   opts.forEach(function (o) {
-    o.addEventListener('click', function (e) {
-      e.preventDefault(); e.stopPropagation();
+    o.addEventListener('click', function () {
+      if (hasSelection()) return;
       if (document.querySelector('.opt.done')) return;
       try { sessionStorage.setItem(key, o.dataset.k); } catch (err) {}
       reveal(o.dataset.k);
@@ -81,7 +80,9 @@ BACK_TEMPLATE = """{{FrontSide}}
 CSS = """
 #q { direction:ltr; text-align:left; }
 #q mark { background:#fff3a3; color:#000; padding:0 2px; border-radius:2px; }
-.opt { display:block; padding:12px; margin:8px 0; border:1px solid #ccc; border-radius:10px; text-decoration:none; color:inherit; direction:ltr; text-align:left; }
+.opt { display:block; padding:12px; margin:8px 0; border:1px solid #ccc; border-radius:10px; color:inherit; direction:ltr; text-align:left; cursor:pointer; }
+#q, .opt, .opt .why, #exp, #memo { -webkit-user-select:text; user-select:text; }
+.expBtn { cursor:pointer; }
 .opt .why { display:none; font-size:14px; margin-top:6px; direction:rtl; text-align:right; }
 .opt.done.wrongOpt .why { display:block; }
 .opt.right { background:#d4f5dd; border-color:#2e9e56; }
@@ -216,7 +217,9 @@ def build():
         memo = memorize_map.get(qno)
         if memo:
             question_html = highlight_memorize(q["stem"], memo.get("level2", []), memo.get("level1", []))
-            memo_html = memo.get("line", "")
+            line = memo.get("line", "")
+            head, _, rest = line.partition(":")
+            memo_html = f'<b>{head}:</b> <bdi dir="ltr">{rest.strip()}</bdi>' if rest else line
         else:
             hl_terms = highlight_terms_map.get(qno, [])
             question_html = highlight_clues(q["stem"], hl_terms)
