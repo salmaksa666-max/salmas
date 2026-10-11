@@ -21,7 +21,6 @@ FRONT_TEMPLATE = """
 </div>
 <div id="expBtn" class="expBtn" style="display:none">الشرح الكامل ▾</div>
 <div id="exp" dir="rtl" style="display:none">{{Explain}}</div>
-{{#Memorize}}<div id="memo" dir="rtl">{{Memorize}}</div>{{/Memorize}}
 <div id="correct" style="display:none">{{Correct}}</div>
 <div id="qid" style="display:none">{{QID}}</div>
 <script>
@@ -47,6 +46,8 @@ FRONT_TEMPLATE = """
       }
     });
     btn.style.display = 'block';
+    var memo = expBox.querySelector('#memo');
+    if (memo) btn.parentNode.insertBefore(memo, btn);
   }
   btn.addEventListener('click', function () {
     if (hasSelection()) return;
@@ -132,7 +133,6 @@ MODEL = genanki.Model(
         {"name": "Correct"},
         {"name": "Explain"},
         {"name": "QID"},
-        {"name": "Memorize"},
     ],
     templates=[
         {
@@ -240,9 +240,8 @@ def build():
             q["OptA"] or "", q["OptB"] or "", q["OptC"] or "", q["OptD"] or "",
             why_fields["A"], why_fields["B"], why_fields["C"], why_fields["D"],
             ans_letter,
-            explain_html,
+            (f'<div id="memo" dir="rtl">{memo_html}</div>' if memo_html else "") + explain_html,
             qno,
-            memo_html,
         ]
 
         note = genanki.Note(
