@@ -87,6 +87,19 @@ def render_explain(q, e, source_name):
     if e.get("guideline_note"):
         parts.append(f'<p class="note"><b>ملاحظة:</b> {e["guideline_note"]}</p>')
 
+    kc = (q.get("key_concept") or "").strip()
+    pearl = (q.get("exam_pearl") or "").strip()
+    if kc or pearl:
+        body = ""
+        if kc:
+            body += f'<div class="kc">{kc}</div>'
+        if pearl:
+            body += f'<p class="pearl"><b>Exam pearl:</b> {pearl}</p>'
+        parts.append(
+            '<details class="topic"><summary>ملخص الموضوع ▾</summary>'
+            f'<div class="topic-body" dir="ltr">{body}</div></details>'
+        )
+
     note = "بدون جواب مؤكد من المصدر" if e.get("self_judged") else "جواب من المصدر"
     parts.append(
         f'<p class="src">المصدر: {source_name}، السؤال رقم {q["qno"]} ({note})</p>'

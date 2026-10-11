@@ -104,6 +104,21 @@ CSS = """
 .night_mode #q mark.l1, .nightMode #q mark.l1, .night-mode #q mark.l1 { background:#8a7a3a; color:#000 !important; }
 .night_mode #memo, .nightMode #memo, .night-mode #memo { background:#3a4a40; color:#eee; }
 #q mark { color:#000 !important; }
+#exp details.topic { margin:10px 0; border:1px solid #9bbcae; border-radius:8px; overflow:hidden; }
+#exp details.topic summary { cursor:pointer; padding:8px 10px; background:#e7f3ee; color:#1f4d40; font-weight:bold; list-style:none; }
+#exp details.topic summary::-webkit-details-marker { display:none; }
+#exp .topic-body { padding:8px 12px; text-align:left; font-size:14px; line-height:1.55; }
+#exp .topic-body ul { padding-inline-start:20px; margin:4px 0; }
+#exp .topic-body p.pearl { background:#fff8e1; color:#000; padding:6px 8px; border-radius:6px; margin-top:8px; }
+.night_mode .opt.right, .nightMode .opt.right, .night-mode .opt.right { background:#1f3a2a; border-color:#4caf78; color:#e6f4ea; }
+.night_mode .opt.picked, .nightMode .opt.picked, .night-mode .opt.picked { background:#3a2020; border-color:#e06666; color:#f6dede; }
+.night_mode #exp p.note, .nightMode #exp p.note, .night-mode #exp p.note { background:#3a3420; color:#f1e7c6; }
+.night_mode #exp .fromfile, .nightMode #exp .fromfile, .night-mode #exp .fromfile { background:#2a2a2a; color:#ddd; }
+.night_mode #exp .star-badge, .nightMode #exp .star-badge, .night-mode #exp .star-badge { background:#3a3420; color:#f1d98a; border-color:#a88a2a; }
+.night_mode #exp p.src, .nightMode #exp p.src, .night-mode #exp p.src { color:#aaa; }
+.night_mode #exp details.topic summary, .nightMode #exp details.topic summary, .night-mode #exp details.topic summary { background:#25352f; color:#cfe8dd; }
+.night_mode #exp details.topic, .nightMode #exp details.topic, .night-mode #exp details.topic { border-color:#3e5a4f; }
+.night_mode #exp .topic-body p.pearl, .nightMode #exp .topic-body p.pearl, .night-mode #exp .topic-body p.pearl { background:#3a3420; color:#f1e7c6; }
 """
 
 MODEL = genanki.Model(
