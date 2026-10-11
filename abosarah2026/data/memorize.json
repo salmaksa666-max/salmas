@@ -3001,7 +3001,7 @@
       "11year old",
       "next step"
     ],
-    "line": "احفظي: high blood pressure during school + above the 95th percentile + weight >95th percentile with acanthosis → Aldosterone–renin ratio"
+    "line": "احفظي: high blood pressure during school + above the 95th percentile + weight >95th percentile with acanthosis → Cortisol Level ????"
   },
   "AS-0250": {
     "level2": [
@@ -4484,7 +4484,7 @@
       "5-year-old",
       "most appropriate next step"
     ],
-    "line": "احفظي: conductive hearing loss + *persistent* otitis media with effusion + 5-year-old → Follow-up in 3 months"
+    "line": "احفظي: conductive hearing loss + *persistent* otitis media with effusion + 5-year-old → Insertion of tympanostomy tubes (grommets)"
   },
   "AS-0388B": {
     "level2": [
@@ -4648,7 +4648,7 @@
       "Pediatric",
       "sure"
     ],
-    "line": "احفظي: nocturnal enuresis + Pediatric + sure → FASTING glucose ??"
+    "line": "احفظي: nocturnal enuresis + Pediatric + sure → Urine Analysis ??"
   },
   "AS-0402": {
     "level2": [
@@ -5552,7 +5552,7 @@
     "level1": [
       "lady"
     ],
-    "line": "احفظي: pregnant + RLQ pain + lady → CT Abdomen and US (In one option)"
+    "line": "احفظي: pregnant + RLQ pain + lady → IV Ab"
   },
   "AS-0472": {
     "level2": [
@@ -5731,7 +5731,7 @@
       "unstable despite receiving blood",
       "most appropriate Next Step"
     ],
-    "line": "احفظي: lower gi bleeding + diffusely tender abdomen + unstable despite receiving blood + most appropriate Next Step → Give FFP"
+    "line": "احفظي: lower gi bleeding + diffusely tender abdomen + unstable despite receiving blood + most appropriate Next Step → Laparotomy"
   },
   "AS-0485": {
     "level2": [
@@ -5879,7 +5879,7 @@
     "level1": [
       "delayed bone age"
     ],
-    "line": "احفظي: panhypopituitarism + short stature + delayed bone age → Give Testosterone"
+    "line": "احفظي: panhypopituitarism + short stature + delayed bone age → Give recombinant growth hormone"
   },
   "AS-0499": {
     "level2": [
@@ -6255,7 +6255,7 @@
       "68 years old",
       "most appropriate management"
     ],
-    "line": "احفظي: pale and tachycardia + bright red bleedy stool + 68 years old → Urgent Colonoscopy"
+    "line": "احفظي: pale and tachycardia + bright red bleedy stool + 68 years old → IV fluid and blood"
   },
   "AS-0530": {
     "level2": [
@@ -6410,7 +6410,7 @@
       "after severe pneumonia",
       "no improvements still hypoxia"
     ],
-    "line": "احفظي: 10-year-old + echo normal + progressive respiratory distress + after severe pneumonia → Haemoptysis and no something else, I forgo..."
+    "line": "احفظي: 10-year-old + echo normal + progressive respiratory distress + after severe pneumonia → Bilateral infiltrates."
   },
   "AS-0542": {
     "level2": [
@@ -6692,7 +6692,7 @@
       "waist circumference is 125cm",
       "52 y/o"
     ],
-    "line": "احفظي: LDL: 4.3. (2.0-3.7) + waist circumference is 125cm + 52 y/o → LDL"
+    "line": "احفظي: LDL: 4.3. (2.0-3.7) + waist circumference is 125cm + 52 y/o → Waist circumference"
   },
   "AS-0567": {
     "level2": [
@@ -6743,7 +6743,7 @@
       "hypotension",
       "most appropriate"
     ],
-    "line": "احفظي: Hb 6 + INR: 7 + metalic valve on warfarin + bloody stool → ringer lactate administration"
+    "line": "احفظي: Hb 6 + INR: 7 + metalic valve on warfarin + bloody stool → Packed RBC"
   },
   "AS-0571": {
     "level2": [
@@ -7187,7 +7187,7 @@
     "level1": [
       "male"
     ],
-    "line": "احفظي: 14 hour flight + DVT + male → prescribe anticoagulant"
+    "line": "احفظي: 14 hour flight + DVT + male → moving and regular exercise"
   },
   "AS-0607": {
     "level2": [
@@ -9792,7 +9792,7 @@
       "on mechanical ventilator but he",
       "next step"
     ],
-    "line": "احفظي: TTN + on mechanical ventilator but he + next step → Tracheostomy"
+    "line": "احفظي: TTN + on mechanical ventilator but he + next step → Increase o2"
   },
   "AS-0821": {
     "level2": [
@@ -9834,7 +9834,7 @@
       "2 year old",
       "next step"
     ],
-    "line": "احفظي: elective circumcision + 2 year old boy + 2 year old → Do full investigation including coagulation profile."
+    "line": "احفظي: elective circumcision + 2 year old boy + 2 year old → Refer to pediatric surgery."
   },
   "AS-0825": {
     "level2": [
@@ -10006,7 +10006,7 @@
       "soft and lax, tender all",
       "next step"
     ],
-    "line": "احفظي: 90 year old + severe abdominal pain + soft and lax, tender all + next step → Colonoscopy"
+    "line": "احفظي: 90 year old + severe abdominal pain + soft and lax, tender all + next step → Sigmoidoscopy"
   },
   "AS-0837": {
     "level2": [
@@ -10250,7 +10250,7 @@
       "Best",
       "type"
     ],
-    "line": "احفظي: planter of foot + Best + type → Hydrocolloid"
+    "line": "احفظي: planter of foot + Best + type → Alginate"
   },
   "AS-0859": {
     "level2": [
@@ -10283,7 +10283,7 @@
       "alkaline substance",
       "salivation"
     ],
-    "line": "احفظي: 3 hours later + SOB + alkaline substance + salivation → take him to OR"
+    "line": "احفظي: 3 hours later + SOB + alkaline substance + salivation → intubation"
   },
   "AS-0862": {
     "level2": [
@@ -10541,7 +10541,7 @@
       "55-year-old",
       "most appropriate management"
     ],
-    "line": "احفظي: chronic hepatitis B + arterial phase enhancement + ascites that is well controlled + 6 × 6 cm mass → systemic chemotherapy"
+    "line": "احفظي: chronic hepatitis B + arterial phase enhancement + ascites that is well controlled + 6 × 6 cm mass → Trans arterial chemoembolization"
   },
   "AS-0884": {
     "level2": [
@@ -11666,7 +11666,7 @@
     "level1": [
       "weeks"
     ],
-    "line": "احفظي: 6 weeks + absent red reflex + weeks → Toxocariasis"
+    "line": "احفظي: 6 weeks + absent red reflex + weeks → Congenital Cataract"
   },
   "AS-0979": {
     "level2": [
@@ -13797,7 +13797,7 @@
       "9 cm cyst posterior to",
       "Lesser"
     ],
-    "line": "احفظي: Lesser sac + 9 cm cyst posterior to + Lesser → colon neoplasm"
+    "line": "احفظي: Lesser sac + 9 cm cyst posterior to + Lesser → pancreatic pseudocyst"
   },
   "AS-1153": {
     "level2": [
@@ -13931,7 +13931,7 @@
       "23-year-old",
       "most appropriate next step"
     ],
-    "line": "احفظي: open wound + devitalized tissue and dirt in + 23-year-old → Antibiotics"
+    "line": "احفظي: open wound + devitalized tissue and dirt in + 23-year-old → Surgical debridement"
   },
   "AS-1167": {
     "level2": [
@@ -14280,7 +14280,7 @@
       "remember",
       "sucking"
     ],
-    "line": "احفظي: sucking reflex + remember + sucking → 2 months"
+    "line": "احفظي: sucking reflex + remember + sucking → 4"
   },
   "AS-1203B": {
     "level2": [
@@ -14796,7 +14796,7 @@
     "level1": [
       "+ve nitrite & leukocyte"
     ],
-    "line": "احفظي: Child + chills, fever + +ve nitrite & leukocyte → Reassure"
+    "line": "احفظي: Child + chills, fever + +ve nitrite & leukocyte → Oral antibiotic"
   },
   "AS-1250": {
     "level2": [
@@ -15541,7 +15541,7 @@
       "12-year-old",
       "most appropriate next step"
     ],
-    "line": "احفظي: chronic diarrhea, blood in stool, + 12-year-old + most appropriate next step → Admit for full workup"
+    "line": "احفظي: chronic diarrhea, blood in stool, + 12-year-old + most appropriate next step → Colonoscopy"
   },
   "AS-1311": {
     "level2": [
@@ -15639,7 +15639,7 @@
       "2-year-old",
       "most likely diagnosis"
     ],
-    "line": "احفظي: drinking cow’s milk + low hbg low mcv low + 2-year-old → Hereditary spherocytosis"
+    "line": "احفظي: drinking cow’s milk + low hbg low mcv low + 2-year-old → Iron deficiency anemia"
   },
   "AS-1319": {
     "level2": [
@@ -15926,7 +15926,7 @@
       "drink raw milk from goat",
       "most appropriate treatment"
     ],
-    "line": "احفظي: brucellosis + drink raw milk from goat + most appropriate treatment → Trimethoprim-Sulfamethoxazole for 6 week (no rifampicin)"
+    "line": "احفظي: brucellosis + drink raw milk from goat + most appropriate treatment → Doxycycline + Rifampicin for 6 week"
   },
   "AS-1344": {
     "level2": [
@@ -16067,7 +16067,7 @@
       "46-year-old",
       "next best step"
     ],
-    "line": "احفظي: 46-year-old man + father was recently diagnosed with + smooth, regular, and the sulcus → reassurance"
+    "line": "احفظي: 46-year-old man + father was recently diagnosed with + smooth, regular, and the sulcus → PSA in 2 week (literally)"
   },
   "AS-1356B": {
     "level2": [
@@ -16785,7 +16785,7 @@
       "already received IVIG and IV",
       "symptoms are still not improving"
     ],
-    "line": "احفظي: Kawasaki disease + already received IVIG and IV + symptoms are still not improving → IV methylprednisolone"
+    "line": "احفظي: Kawasaki disease + already received IVIG and IV + symptoms are still not improving → Second dose of IVIG"
   },
   "AS-1419B": {
     "level2": [
@@ -16868,7 +16868,7 @@
       "55-year-old",
       "most likely diagnosis"
     ],
-    "line": "احفظي: below and lateral to the + 55-year-old + most likely diagnosis → Direct Inguinal Hernia"
+    "line": "احفظي: below and lateral to the + 55-year-old + most likely diagnosis → Femoral Hernia"
   },
   "AS-1424": {
     "level2": [
@@ -16943,7 +16943,7 @@
       "Acute",
       "limb"
     ],
-    "line": "احفظي: Acute limb ischemia + Acute + limb → Smoking"
+    "line": "احفظي: Acute limb ischemia + Acute + limb → history of claudication"
   },
   "AS-1433": {
     "level2": [
@@ -16953,7 +16953,7 @@
       "2 months claudication pain",
       "3cm occlusion in popliteal artery"
     ],
-    "line": "احفظي: ABI was 0.3 + 2 months claudication pain + 3cm occlusion in popliteal artery → Amputation"
+    "line": "احفظي: ABI was 0.3 + 2 months claudication pain + 3cm occlusion in popliteal artery → Endovascular stenting"
   },
   "AS-1434": {
     "level2": [
@@ -17003,7 +17003,7 @@
       "conventional ventilation then high flow",
       "Newborn"
     ],
-    "line": "احفظي: covered with meconum + conventional ventilation then high flow + Newborn → Broad spectrum antibiotic"
+    "line": "احفظي: covered with meconum + conventional ventilation then high flow + Newborn → Inhaled nitric oxide"
   },
   "AS-1438": {
     "level2": [
@@ -17115,7 +17115,7 @@
       "initial treatment with no effect",
       "baby"
     ],
-    "line": "احفظي: recurrent migraine for 2 weeks + initial treatment with no effect + baby → Ibuprophen"
+    "line": "احفظي: recurrent migraine for 2 weeks + initial treatment with no effect + baby → Tricyclic Antidepressant"
   },
   "AS-1450": {
     "level2": [
@@ -17583,7 +17583,7 @@
     "level1": [
       "Baby"
     ],
-    "line": "احفظي: crying + bluish discoloration + Baby → Immediate heart surgery"
+    "line": "احفظي: crying + bluish discoloration + Baby → Reexamine after baby calmed"
   },
   "AS-1491": {
     "level2": [
@@ -17802,7 +17802,7 @@
     "level1": [
       "months"
     ],
-    "line": "احفظي: T 37.1 + mild flu symptoms + months → OPV & live..."
+    "line": "احفظي: T 37.1 + mild flu symptoms + months → Give DTaP"
   },
   "AS-1511": {
     "level2": [
@@ -18646,7 +18646,7 @@
       "Extravasation around the left kidney",
       "most appropriate step"
     ],
-    "line": "احفظي: BLUNT abdominal trauma + Extravasation around the left kidney + most appropriate step → Left Nephrosectomy"
+    "line": "احفظي: BLUNT abdominal trauma + Extravasation around the left kidney + most appropriate step → Angioembolization"
   },
   "AS-1589B": {
     "level2": [
@@ -18683,7 +18683,7 @@
       "in distress",
       "initial management"
     ],
-    "line": "احفظي: Bp was 80/60 + Oxygen was 80% + barky cough + in distress → oxygen and antibiotic"
+    "line": "احفظي: Bp was 80/60 + Oxygen was 80% + barky cough + in distress → Some type of intubation in the OR"
   },
   "AS-1591B": {
     "level2": [
@@ -19242,7 +19242,7 @@
       "What",
       "signs"
     ],
-    "line": "احفظي: early decompensated shock + What + signs → Tachycardia"
+    "line": "احفظي: early decompensated shock + What + signs → Anuria"
   },
   "AS-1638B": {
     "level2": [
@@ -19273,7 +19273,7 @@
       "patient",
       "presented"
     ],
-    "line": "احفظي: Appendiceal mass with no collection + patient + presented → appendectomy"
+    "line": "احفظي: Appendiceal mass with no collection + patient + presented → Conservative"
   },
   "AS-1641": {
     "level2": [
@@ -19627,7 +19627,7 @@
     "level1": [
       "Triceps"
     ],
-    "line": "احفظي: Triceps mass + Suggestive of malignant + Triceps → Excisional biopsy"
+    "line": "احفظي: Triceps mass + Suggestive of malignant + Triceps → Incisional biopsy"
   },
   "AS-1686": {
     "level2": [
@@ -20046,7 +20046,7 @@
     "level1": [
       "Female"
     ],
-    "line": "احفظي: BMI 35 + VTE prophylaxis + Female → compression socks"
+    "line": "احفظي: BMI 35 + VTE prophylaxis + Female → LMWH 40 mg once daily"
   },
   "AS-1724": {
     "level2": [
@@ -20152,7 +20152,7 @@
     "level1": [
       "initial investigation"
     ],
-    "line": "احفظي: crepitus + Fournier's Gangrene + initial investigation → US scan"
+    "line": "احفظي: crepitus + Fournier's Gangrene + initial investigation → CT"
   },
   "AS-1734": {
     "level2": [
@@ -20528,7 +20528,7 @@
     "level1": [
       "Patient"
     ],
-    "line": "احفظي: MVA + severe back pain + Patient → --"
+    "line": "احفظي: MVA + severe back pain + Patient → ensure spine immobilization"
   },
   "AS-1769": {
     "level2": [
@@ -20555,7 +20555,7 @@
       "acute confusion with fluctuations in",
       "Elderly"
     ],
-    "line": "احفظي: AGITATED + acute confusion with fluctuations in + Elderly → sedation"
+    "line": "احفظي: AGITATED + acute confusion with fluctuations in + Elderly → regular sleep cycle"
   },
   "AS-1773": {
     "level2": [
@@ -20707,7 +20707,7 @@
       "splenic",
       "laceration"
     ],
-    "line": "احفظي: splenic laceration grade3 + splenic + laceration → repeat ct in 24 hour"
+    "line": "احفظي: splenic laceration grade3 + splenic + laceration → NON INTERVENTION MONITORING"
   },
   "AS-1788": {
     "level2": [
@@ -21087,7 +21087,7 @@
       "30-year-old",
       "underwent"
     ],
-    "line": "احفظي: polyp was removed + 30-year-old + underwent → After 3-6 months"
+    "line": "احفظي: polyp was removed + 30-year-old + underwent → After 10 years"
   },
   "AS-1824": {
     "level2": [
@@ -21120,7 +21120,7 @@
       "1.5 cm polyp sigmoid",
       "year"
     ],
-    "line": "احفظي: tubular adenoma + 1.5 cm polyp sigmoid + year → 3-6 months"
+    "line": "احفظي: tubular adenoma + 1.5 cm polyp sigmoid + year → 3 years"
   },
   "AS-1827": {
     "level2": [
@@ -21690,7 +21690,7 @@
       "jaundice",
       "68-year-old"
     ],
-    "line": "احفظي: CA19:510 + CA19-9 very high + jaundice + 68-year-old → Liver tumor"
+    "line": "احفظي: CA19:510 + CA19-9 very high + jaundice + 68-year-old → Cancer of head of pancreas"
   },
   "AS-1877B": {
     "level2": [
@@ -22116,7 +22116,7 @@
       "hasn't developed pincer grasp",
       "Child"
     ],
-    "line": "احفظي: transfer objects hand-to-hand + hasn't developed pincer grasp + Child → 24 months"
+    "line": "احفظي: transfer objects hand-to-hand + hasn't developed pincer grasp + Child → 12 months"
   },
   "AS-1911": {
     "level2": [
@@ -22244,7 +22244,7 @@
       "fever and barky cough",
       "initial management"
     ],
-    "line": "احفظي: Oxygen was 80% + in distress + fever and barky cough + initial management → oxygen and antibiotic"
+    "line": "احفظي: Oxygen was 80% + in distress + fever and barky cough + initial management → Some type of intubation in the OR"
   },
   "AS-1923": {
     "level2": [
@@ -22308,7 +22308,7 @@
       "paracetamol every 4h for 3days",
       "Paedia"
     ],
-    "line": "احفظي: jundice + paracetamol every 4h for 3days + Paedia → Hepatitis b"
+    "line": "احفظي: jundice + paracetamol every 4h for 3days + Paedia → Paracetamol toxicity"
   },
   "AS-1929": {
     "level2": [
@@ -22485,7 +22485,7 @@
       "pediatric",
       "rash"
     ],
-    "line": "احفظي: rash in face or neck + pediatric + rash → kawasaki"
+    "line": "احفظي: rash in face or neck + pediatric + rash → measles"
   },
   "AS-1943": {
     "level2": [
@@ -22894,7 +22894,7 @@
     "level1": [
       "at first stable Then become"
     ],
-    "line": "احفظي: fractured 3 ribs + Chest clear + at first stable Then become → flail chest"
+    "line": "احفظي: fractured 3 ribs + Chest clear + at first stable Then become → pulmonary contusion"
   },
   "AS-1980": {
     "level2": [
@@ -23808,7 +23808,7 @@
       "stromal cells with increased mitotic",
       "Female"
     ],
-    "line": "احفظي: rapidly enlarging 5 cm breast + stromal cells with increased mitotic + Female → Fibroadenoma"
+    "line": "احفظي: rapidly enlarging 5 cm breast + stromal cells with increased mitotic + Female → Phyllodes tumor"
   },
   "AS-2057": {
     "level2": [
@@ -23930,7 +23930,7 @@
     "level1": [
       "Most likely diagnosis"
     ],
-    "line": "احفظي: conjunctivitis + Brother also sick + Most likely diagnosis → Infectious mononucleosis"
+    "line": "احفظي: conjunctivitis + Brother also sick + Most likely diagnosis → Adenoviral pharyngitis"
   },
   "AS-2068": {
     "level2": [
@@ -24342,7 +24342,7 @@
     "level1": [
       "distended bowel"
     ],
-    "line": "احفظي: not abscess + crohns disease + distended bowel → Diagnostic laparoscopy"
+    "line": "احفظي: not abscess + crohns disease + distended bowel → Laparotomy"
   },
   "AS-2102": {
     "level2": [
@@ -24403,7 +24403,7 @@
       "80-year-old",
       "most appropriate next step"
     ],
-    "line": "احفظي: afebrile + hemodynamically stable + 1 × 1 cm fluid + 80-year-old → Immediate surgical drainage"
+    "line": "احفظي: afebrile + hemodynamically stable + 1 × 1 cm fluid + 80-year-old → Start empiric IV antibiotics and observe"
   },
   "AS-2107": {
     "level2": [
@@ -24555,7 +24555,7 @@
       "normal levels of FSH and",
       "mildly elevated serum estradiol"
     ],
-    "line": "احفظي: 14-year-old + Tanner Stage 1 + delayed puberty + normal levels of FSH and → Central Precocious Puberty"
+    "line": "احفظي: 14-year-old + Tanner Stage 1 + delayed puberty + normal levels of FSH and → Alagille Syndrome"
   },
   "AS-2120": {
     "level2": [
@@ -24679,7 +24679,7 @@
       "Ruptured",
       "appendix"
     ],
-    "line": "احفظي: Ruptured appendix with collection + Ruptured + appendix → Appendectomy"
+    "line": "احفظي: Ruptured appendix with collection + Ruptured + appendix → Antibiotics + drainage"
   },
   "AS-2132": {
     "level2": [
@@ -24741,7 +24741,7 @@
     "level1": [
       "failed to insert catheter"
     ],
-    "line": "احفظي: distended bladder + Painless hematuria + failed to insert catheter → Another trial to insert catheter"
+    "line": "احفظي: distended bladder + Painless hematuria + failed to insert catheter → cystoscopy"
   },
   "AS-2138": {
     "level2": [
@@ -25034,7 +25034,7 @@
     "level1": [
       "next step"
     ],
-    "line": "احفظي: wet discharge + bilateral redness + next step → Oral antibiotics for 7 days"
+    "line": "احفظي: wet discharge + bilateral redness + next step → Something about observe and wet wipes or eye drops ( can’t remember exactly)"
   },
   "AS-2163": {
     "level2": [
@@ -25578,7 +25578,7 @@
       "Cough",
       "fevere"
     ],
-    "line": "احفظي: stony dullness on percussion + Cough + fevere → Pneumonia"
+    "line": "احفظي: stony dullness on percussion + Cough + fevere → Pleural effusion"
   },
   "AS-2213": {
     "level2": [
@@ -25633,7 +25633,7 @@
       "no fever normal WBCs and",
       "initial management"
     ],
-    "line": "احفظي: diverticulosis + mild intermittent left lower abdominal + no fever normal WBCs and → CT abdomen"
+    "line": "احفظي: diverticulosis + mild intermittent left lower abdominal + no fever normal WBCs and → Increase fiber and fluid intake"
   },
   "AS-2216": {
     "level2": [
@@ -25694,7 +25694,7 @@
       "Child",
       "moth"
     ],
-    "line": "احفظي: protruded tongue + Child + moth → VSD"
+    "line": "احفظي: protruded tongue + Child + moth → Atrioventricular canal"
   },
   "AS-2222": {
     "level2": [
@@ -26151,7 +26151,7 @@
       "stigmata of chronic liver disease",
       "MOST APPROPRIATE management"
     ],
-    "line": "احفظي: increasing jaundice, flapping tremor and + stigmata of chronic liver disease + MOST APPROPRIATE management → Liver biopsy"
+    "line": "احفظي: increasing jaundice, flapping tremor and + stigmata of chronic liver disease + MOST APPROPRIATE management → 24h urinary copper"
   },
   "AS-2261": {
     "level2": [
@@ -26679,7 +26679,7 @@
       "Mixed",
       "thyroid"
     ],
-    "line": "احفظي: Mixed thyroid, cystic and solid + Mixed + thyroid → Right thyroidectomy"
+    "line": "احفظي: Mixed thyroid, cystic and solid + Mixed + thyroid → Aspirate the solid"
   },
   "AS-2308": {
     "level2": [
@@ -26733,7 +26733,7 @@
       "80-year-old",
       "most appropriate management"
     ],
-    "line": "احفظي: Alzheimer disease + wandering at night + 80-year-old + most appropriate management → Lock the doors and prevent him from leaving t..."
+    "line": "احفظي: Alzheimer disease + wandering at night + 80-year-old + most appropriate management → Install door alarms and motion sensors"
   },
   "AS-2313": {
     "level2": [
@@ -26854,7 +26854,7 @@
       "most appropriate next step",
       "Question"
     ],
-    "line": "احفظي: ruptured appendicitis + most appropriate next step + Question → Interval appendectomy"
+    "line": "احفظي: ruptured appendicitis + most appropriate next step + Question → Immediate appendectomy"
   },
   "AS-2324": {
     "level2": [
@@ -29132,7 +29132,7 @@
       "Anal",
       "fissure"
     ],
-    "line": "احفظي: Anal fissure 7, 3 + Anal + fissure → Surgical sphincterotomy"
+    "line": "احفظي: Anal fissure 7, 3 + Anal + fissure → Topical cream"
   },
   "AS-2524": {
     "level2": [
@@ -29174,7 +29174,7 @@
       "7-year-old",
       "most appropriate"
     ],
-    "line": "احفظي: abnormal jerky movements + sore throat, and fever + 7-year-old → Treat fever and reassure the parents"
+    "line": "احفظي: abnormal jerky movements + sore throat, and fever + 7-year-old → Perform throat culture and start penicillin"
   },
   "AS-2529": {
     "level2": [

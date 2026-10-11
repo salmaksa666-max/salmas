@@ -50943,27 +50943,33 @@
     "guideline_note": null
   },
   "AS-0249": {
-    "correct_letter": "A",
+    "correct_letter": "D",
     "self_judged": true,
-    "idea": "If the expected answer (ABPM) is missing, do not invent a secondary cause; match each listed test to the red flag that justifies it.",
+    "idea": "طفل سمين مع <bdi>acanthosis nigricans</bdi> وضغط مرتفع وتاريخ عائلي، بدون أي أعراض — الصورة صورة ضغط أولي مرتبط بالسمنة.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "high blood pressure during school",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "above the 95th percentile",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "weight >95th percentile with acanthosis",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "If the expected answer (ABPM) is missing, do not invent a secondary cause; match each listed test to the red flag that justifies it."
+      "الجواب المثالي <bdi>ABPM</bdi> لتأكيد الضغط، بس مو موجود بالخيارات؛ من الموجود <bdi>Cortisol level</bdi> هو الأقرب لأن السمنة مع ضغط مرتفع تفتح احتمال <bdi>Cushing</bdi>."
     ],
     "when_changes": [
-      "Definition (1 to under 13 y): ≥95th percentile for age, sex and height on ≥3 occasions",
-      "Obesity + acanthosis + family history = primary HTN",
-      "Aldosterone-renin ratio: hypokalemia or resistant HTN"
+      "لو فيه صداع وتعرق وخفقان، الجواب يصير <bdi>Catecholamines</bdi>."
     ],
-    "rule": "If the expected answer (ABPM) is missing, do not invent a secondary cause; match each listed test to the red flag that justifies it.",
+    "rule": "ضغط طفل سمين بدون أعراض = أكدي بـ<bdi>ABPM</bdi> أولًا، ولا تطلبين فحص سبب ثانوي إلا لو فيه دليل عليه.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0252": {
     "correct_letter": "D",
@@ -51750,25 +51756,31 @@
   "AS-0362": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Without the bracketed triad, the stem describes obesity related primary hypertension; with it, think pheochromocytoma.",
+    "idea": "مراهق سمين مع ضغط مستمر، والمهم إن عنده صداع وتعرق وخفقان — هذا الثلاثي يوجه لـ<bdi>pheochromocytoma</bdi>.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "obese",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "acanthosis nigricans",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "persistent hypertension",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Without the bracketed triad, the stem describes obesity related primary hypertension; with it, think pheochromocytoma."
+      "الثلاثي (صداع، تعرق، خفقان) مع ضغط مرتفع يعني نفحص <bdi>Catecholamine</bdi> أو <bdi>metanephrines</bdi> لتأكيد التشخيص؛ السمنة هنا تشتيت."
     ],
     "when_changes": [
-      "Obese + acanthosis, no other clues: primary (obesity related) HTN; ABPM to confirm",
-      "Headache + sweating + palpitations: catecholamine excess (metanephrines)",
-      "Striae, moon face, growth failure: cortisol tests"
+      "لو ما فيه الثلاثي، الصورة ضغط أولي من السمنة والخطوة <bdi>ABPM</bdi>."
     ],
-    "rule": "Without the bracketed triad, the stem describes obesity related primary hypertension; with it, think pheochromocytoma.",
+    "rule": "صداع + تعرق + خفقان + ضغط = <bdi>Catecholamines</bdi>.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0363": {
     "correct_letter": "B",
@@ -52093,27 +52105,33 @@
     "guideline_note": null
   },
   "AS-0388": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "The word 'persistent' means the observation period is already over.",
+    "idea": "طفل عنده <bdi>otitis media with effusion</bdi> مستمر مع ضعف سمع وطبلة منسحبة — كلمة مستمر تعني فترة الانتظار خلصت.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "conductive hearing loss",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "*persistent* otitis media with effusion",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "5-year-old",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "The word 'persistent' means the observation period is already over."
+      "<bdi>OME</bdi> مستمر ٣ أشهر أو أكثر مع ضعف سمع يحتاج <bdi>tympanostomy tubes</bdi>."
     ],
     "when_changes": [
-      "New OME: observe 3 months, repeat audiology",
-      "Persistent ≥3 months + hearing loss: tympanostomy tubes",
-      "Retraction pocket or structural TM change: ENT referral, consider tubes"
+      "لو الحالة جديدة، الصحيح ننتظر ٣ أشهر ونعيد فحص السمع."
     ],
-    "rule": "The word 'persistent' means the observation period is already over.",
+    "rule": "<bdi>OME</bdi> مستمر + ضعف سمع = <bdi>grommets</bdi>.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0388B": {
     "correct_letter": "D",
@@ -52323,27 +52341,33 @@
     "guideline_note": null
   },
   "AS-0401": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Glucose in the urine dipstick is what prompts a blood glucose test; urinalysis comes first and covers diabetes too.",
+    "idea": "طفل عنده تبول لا إرادي ليلي — أول خطوة لكل طفل هي تحليل البول.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "nocturnal enuresis",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Pediatric",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "sure",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Glucose in the urine dipstick is what prompts a blood glucose test; urinalysis comes first and covers diabetes too."
+      "<bdi>Urine analysis</bdi> يكشف الالتهاب والسكر بالبول مرة وحدة، فيغطي احتمال السكري كمان."
     ],
     "when_changes": [
-      "Bedwetting is considered significant after about age 6",
-      "Secondary (new after a dry period): ask about stressors, UTI, DM",
-      "Primary: screen for systemic causes (DM, DI, sickle cell disease, seizures)"
+      "لو طلع سكر بتحليل البول، بعدها نطلب سكر الدم."
     ],
-    "rule": "Glucose in the urine dipstick is what prompts a blood glucose test; urinalysis comes first and covers diabetes too.",
+    "rule": "تبول لا إرادي = <bdi>urinalysis</bdi> أولًا.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0402": {
     "correct_letter": "C",
@@ -52394,25 +52418,31 @@
   "AS-0408": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Tachycardia points to blood loss and volume first; hypotension with bradycardia after spinal injury is the scenario where a vasopressor enters early.",
+    "idea": "مريض حادث سيارة مع ضغط منخفض وتسارع نبض — هذا نزيف حتى يثبت العكس.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "MVC",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "tachycardia",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "low bp",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Tachycardia points to blood loss and volume first; hypotension with bradycardia after spinal injury is the scenario where a vasopressor enters early."
+      "صدمة بعد حادث مع تسارع نبض = نقص حجم، فأول خطوة <bdi>IV fluid</bdi> وتعويض الدم."
     ],
     "when_changes": [
-      "Hypovolemic (tachycardia, cold peripheries): IV access, fluid/blood, find and stop the bleed",
-      "Neurogenic (bradycardia, warm, spinal injury): fluids first, then vasopressor",
-      "Obstructive (distended neck veins): tamponade or tension pneumothorax, decompress"
+      "لو الضغط منخفض والنبض بطيء مع إصابة عمود فقري، نفكر بـ<bdi>neurogenic shock</bdi> ويدخل <bdi>vasopressor</bdi> بعد السوائل."
     ],
-    "rule": "Tachycardia points to blood loss and volume first; hypotension with bradycardia after spinal injury is the scenario where a vasopressor enters early.",
+    "rule": "حادث + ضغط منخفض + تسارع نبض = سوائل ودم أولًا.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0410": {
     "correct_letter": "A",
@@ -53174,27 +53204,33 @@
     "guideline_note": null
   },
   "AS-0471C": {
-    "correct_letter": "A",
+    "correct_letter": "D",
     "self_judged": true,
-    "idea": "Read the verb: \"confirm/diagnose\" points to imaging (US first in pregnancy), \"treatment\" points to antibiotics with appendectomy, never discharge.",
+    "idea": "حامل مع ألم أسفل البطن يمين وقيء وارتفاع كريات بيض — التهاب زائدة، والسؤال عن العلاج.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "pregnant",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "RLQ pain",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "lady",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Read the verb: \"confirm/diagnose\" points to imaging (US first in pregnancy), \"treatment\" points to antibiotics with appendectomy, never discharge."
+      "علاج التهاب الزائدة <bdi>IV antibiotics</bdi> مع استئصال الزائدة؛ الحمل ما يغير العلاج."
     ],
     "when_changes": [
-      "Imaging: US first in pregnant women and children; MRI if US inconclusive",
-      "CT: best sensitivity in non-pregnant adults; any age for abscess or phlegmon",
-      "Uncomplicated: empirical antibiotics + laparoscopic appendectomy"
+      "لو السؤال عن التشخيص، الجواب التصوير (<bdi>US</bdi> أولًا بالحامل)."
     ],
-    "rule": "Read the verb: \"confirm/diagnose\" points to imaging (US first in pregnancy), \"treatment\" points to antibiotics with appendectomy, never discharge.",
+    "rule": "اقري الفعل: تشخيص = تصوير، علاج = مضاد حيوي + جراحة.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0472": {
     "correct_letter": "B",
@@ -53289,27 +53325,33 @@
     "guideline_note": null
   },
   "AS-0484": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "A soft non-tender abdomen with ongoing bleeding pushes to angiography; a diffusely tender abdomen raises ischemia or peritonitis and pushes toward surgery.",
+    "idea": "مسنة مع نزيف من الأسفل، مو مستقرة رغم الدم، وبطنها مؤلم كله — هذا يوحي بنقص تروية أو التهاب صفاق.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "lower gi bleeding",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "diffusely tender abdomen",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "unstable despite receiving blood",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "A soft non-tender abdomen with ongoing bleeding pushes to angiography; a diffusely tender abdomen raises ischemia or peritonitis and pushes toward surgery."
+      "مريض غير مستقر رغم الإنعاش مع بطن مؤلم بالكامل يحتاج <bdi>Laparotomy</bdi>."
     ],
     "when_changes": [
-      "Unstable: resuscitate, then CT angiography and embolization",
-      "Stable + tolerates prep: colonoscopy",
-      "Peritonitis, ischemia or failed angiography: laparotomy"
+      "لو البطن لين وغير مؤلم والنزيف مستمر، نروح لـ<bdi>angiography</bdi>."
     ],
-    "rule": "A soft non-tender abdomen with ongoing bleeding pushes to angiography; a diffusely tender abdomen raises ischemia or peritonitis and pushes toward surgery.",
+    "rule": "نزيف سفلي + عدم استقرار + بطن مؤلم = جراحة.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0487": {
     "correct_letter": "B",
@@ -53381,27 +53423,33 @@
     "guideline_note": null
   },
   "AS-0498": {
-    "correct_letter": "A",
+    "correct_letter": "D",
     "self_judged": true,
-    "idea": "The fork is GH status: proven GH deficiency means treat with GH; unclear GH axis or no growth velocity data means measure growth first.",
+    "idea": "طفل عنده <bdi>panhypopituitarism</bdi> مع قصر قامة وتأخر عمر العظم — نقص هرمون النمو جزء من المرض نفسه.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "panhypopituitarism",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "short stature",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "delayed bone age",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "The fork is GH status: proven GH deficiency means treat with GH; unclear GH axis or no growth velocity data means measure growth first."
+      "قصور الغدة النخامية الكامل يشمل نقص <bdi>GH</bdi>، فقصر القامة يعالج بـ<bdi>recombinant growth hormone</bdi>."
     ],
     "when_changes": [
-      "Cortisol: hydrocortisone (replace first)",
-      "Thyroid: levothyroxine",
-      "GH: recombinant GH when deficiency is confirmed (low IGF-1, failed stimulation tests)"
+      "لو حالة هرمون النمو غير واضحة، نقيس سرعة النمو ٦ أشهر أولًا."
     ],
-    "rule": "The fork is GH status: proven GH deficiency means treat with GH; unclear GH axis or no growth velocity data means measure growth first.",
+    "rule": "قصور نخامي + قصر قامة = <bdi>GH</bdi>.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0499": {
     "correct_letter": "C",
@@ -53749,27 +53797,33 @@
     "guideline_note": null
   },
   "AS-0529": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Tachycardia and pallor outweigh a normal or high BP in a hypertensive; then let the lead-in verb and the patient's stability choose between resuscitation, CT angiography and colonoscopy.",
+    "idea": "مسن مع دم أحمر بالبراز، شاحب ونبضه ١١٠ — تسارع النبض والشحوب أهم من الضغط المرتفع لأنه أصلًا مريض ضغط.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "pale and tachycardia",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "bright red bleedy stool",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "68 years old",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Tachycardia and pallor outweigh a normal or high BP in a hypertensive; then let the lead-in verb and the patient's stability choose between resuscitation, CT angiography and colonoscopy."
+      "أول خطوة الإنعاش: <bdi>IV fluid and blood</bdi>."
     ],
     "when_changes": [
-      "\"Initial\" + tachycardia or pallor: IV fluid and blood",
-      "Active bleed, still unstable or brisk, after resuscitation: CT angiography",
-      "Stable, bleeding settled: colonoscopy after bowel prep"
+      "لو النزيف مستمر بعد الإنعاش، <bdi>CT angiography</bdi>؛ ولو استقر، <bdi>colonoscopy</bdi>."
     ],
-    "rule": "Tachycardia and pallor outweigh a normal or high BP in a hypertensive; then let the lead-in verb and the patient's stability choose between resuscitation, CT angiography and colonoscopy.",
+    "rule": "نزيف + شحوب + تسارع نبض = سوائل ودم أولًا.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0530": {
     "correct_letter": "C",
@@ -53979,27 +54033,33 @@
     "guideline_note": null
   },
   "AS-0541": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Let the stem's clue decide: oxygen-refractory hypoxia with a normal echo fits a non-cardiogenic diffuse pattern, while haemoptysis, apical disease or wheeze each need their own specific clue.",
+    "idea": "طفل بعد التهاب رئوي شديد، نقص أكسجين ما يتحسن بالأكسجين، والقلب سليم بالإيكو — هذي صورة <bdi>ARDS</bdi>.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "10-year-old",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "echo normal",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "progressive respiratory distress",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Let the stem's clue decide: oxygen-refractory hypoxia with a normal echo fits a non-cardiogenic diffuse pattern, while haemoptysis, apical disease or wheeze each need their own specific clue."
+      "<bdi>ARDS</bdi> يظهر بالأشعة <bdi>bilateral infiltrates</bdi> بدون سبب قلبي."
     ],
     "when_changes": [
-      "Normal echo excludes cardiogenic pulmonary edema",
-      "ARDS: acute insult within a week, hypoxia not corrected by oxygen, bilateral infiltrates, non-cardiac",
-      "Bronchopneumonia: patchy bilateral infiltrates with fever and crackles"
+      "لو فيه صفير وانتفاخ، نفكر بالربو أو التهاب القصيبات."
     ],
-    "rule": "Let the stem's clue decide: oxygen-refractory hypoxia with a normal echo fits a non-cardiogenic diffuse pattern, while haemoptysis, apical disease or wheeze each need their own specific clue.",
+    "rule": "نقص أكسجين ما يستجيب + إيكو طبيعي = <bdi>ARDS</bdi> = ارتشاح بالرئتين.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0547": {
     "correct_letter": "A",
@@ -54163,27 +54223,33 @@
     "guideline_note": null
   },
   "AS-0566": {
-    "correct_letter": "A",
+    "correct_letter": "D",
     "self_judged": true,
-    "idea": "Watch the lead in: 'biochemical indicator' points to LDL, while an anthropometric question points to waist based measures.",
+    "idea": "امرأة سمينة سكري، محيط خصرها ١٢٥ سم — السمنة البطنية أقوى مؤشر خطر من <bdi>BMI</bdi>.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "LDL: 4.3. (2.0-3.7)",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "waist circumference is 125cm",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "52 y/o",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Watch the lead in: 'biochemical indicator' points to LDL, while an anthropometric question points to waist based measures."
+      "<bdi>Waist circumference</bdi> فوق ٨٨ سم بالنساء خطر واضح، وهو المقياس المعتمد بالإرشادات."
     ],
     "when_changes": [
-      "BMI needs weight and height; not available here",
-      "Waist circumference high risk: women above 88 cm, men above 102 cm",
-      "Waist hip ratio high risk: women about 0.85 or more, men about 0.90 or more"
+      "لو السؤال عن مؤشر بالتحاليل، الجواب <bdi>LDL</bdi>."
     ],
-    "rule": "Watch the lead in: 'biochemical indicator' points to LDL, while an anthropometric question points to waist based measures.",
+    "rule": "خطر السمنة البطنية = محيط الخصر (فوق ٨٨ نساء، ١٠٢ رجال).",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0568": {
     "correct_letter": "A",
@@ -54209,27 +54275,33 @@
     "guideline_note": null
   },
   "AS-0570": {
-    "correct_letter": "A",
+    "correct_letter": "D",
     "self_judged": true,
-    "idea": "Source compiler was split B versus D: 'reverse the anticoagulant' points to PCC, 'replace blood loss with Hb 6' points to packed RBCs.",
+    "idea": "مريض صمام معدني على وارفارين، نزيف وضغط منخفض وهيموغلوبين ٦ — السؤال عن السوائل.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Hb 6",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "INR: 7",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "metalic valve on warfarin",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Source compiler was split B versus D: 'reverse the anticoagulant' points to PCC, 'replace blood loss with Hb 6' points to packed RBCs."
+      "مع صدمة نزفية وهيموغلوبين ٦، السائل الصحيح <bdi>Packed RBC</bdi>، ومعه نعكس الوارفارين بـ<bdi>vitamin K</bdi> و<bdi>PCC</bdi>."
     ],
     "when_changes": [
-      "Resuscitate: crystalloid first, then packed RBCs if Hb below 7 (8 with cardiac disease) or massive loss",
-      "Reverse: hold warfarin and give IV vitamin K 10 mg",
-      "Plus PCC (preferred, fast) or FFP if PCC is unavailable"
+      "لو السؤال عن عكس مفعول الوارفارين، الجواب <bdi>PCC</bdi>."
     ],
-    "rule": "Source compiler was split B versus D: 'reverse the anticoagulant' points to PCC, 'replace blood loss with Hb 6' points to packed RBCs.",
+    "rule": "نزيف على وارفارين = دم للتعويض + <bdi>PCC</bdi> للعكس، بنفس الوقت.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0571": {
     "correct_letter": "D",
@@ -54922,27 +54994,33 @@
     "guideline_note": null
   },
   "AS-0606": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "Age alone does not justify an anticoagulant for a flight; the answer climbs the ladder only with added risk factors.",
+    "idea": "مسن مسافر ١٤ ساعة يبي يتجنب الجلطة، بدون عوامل خطر ثانية.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "14 hour flight",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "DVT",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "male",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Age alone does not justify an anticoagulant for a flight; the answer climbs the ladder only with added risk factors."
+      "لكل المسافرين: الحركة وتمارين الساق وشرب الماء (<bdi>moving and regular exercise</bdi>)."
     ],
     "when_changes": [
-      "All travelers: mobilize, calf exercises, aisle seat, hydration",
-      "Increased risk: add properly fitted below-knee compression stockings",
-      "Very high risk: consider prophylactic LMWH, individualized"
+      "لو عنده عوامل خطر زيادة، نضيف جوارب ضاغطة، ولو خطر عالي جدًا نفكر بـ<bdi>LMWH</bdi>."
     ],
-    "rule": "Age alone does not justify an anticoagulant for a flight; the answer climbs the ladder only with added risk factors.",
+    "rule": "رحلة طويلة بدون عوامل خطر = حركة وتمارين.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0607": {
     "correct_letter": "C",
@@ -55338,25 +55416,31 @@
   "AS-0651B": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "The word \"watery\" with vomiting in a child steers to viral antigen testing; blood in the stool flips it to culture.",
+    "idea": "طفل مع إسهال مائي وقيء — هذي صورة فيروسية.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "paediatric",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "with",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "watery",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "The word \"watery\" with vomiting in a child steers to viral antigen testing; blood in the stool flips it to culture."
+      "الإسهال المائي مع القيء بالأطفال غالبًا فيروسي، والفحص <bdi>Stool antigen</bdi>."
     ],
     "when_changes": [
-      "Viral gastroenteritis: stool antigen (ELISA) or PCR; management supportive",
-      "Invasive bacterial diarrhea: stool culture",
-      "Fecal leukocytes point to inflammatory (bacterial) diarrhea, they do not confirm viral disease"
+      "لو فيه دم بالبراز وحرارة عالية، الجواب <bdi>Stool culture</bdi>."
     ],
-    "rule": "The word \"watery\" with vomiting in a child steers to viral antigen testing; blood in the stool flips it to culture.",
+    "rule": "مائي + قيء = فيروس = <bdi>stool antigen</bdi>؛ دموي = بكتيريا = زراعة.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0652": {
     "correct_letter": "B",
@@ -57132,25 +57216,31 @@
   "AS-0809": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Fever or leukocytosis flips any cyst answer to percutaneous drainage; no fever, small and young flips it to observation.",
+    "idea": "التهاب بنكرياس قبل ٣ أسابيع، والحين كيس ٤ سم مع ألم خفيف.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "mild abdominal pain",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "acute pancreatitis 3 weeks ago",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "cyst measure 4 cm",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Fever or leukocytosis flips any cyst answer to percutaneous drainage; no fever, small and young flips it to observation."
+      "كيس أقل من ٦ سم وعمره أقل من ٦ أسابيع وأعراضه خفيفة = <bdi>Observation</bdi>."
     ],
     "when_changes": [
-      "Under 6 cm, under 6 weeks, minimal symptoms: observe.",
-      "Over 6 cm, over 6 weeks, growing or symptomatic: endoscopic internal drainage.",
-      "Infected/abscess (fever, WBC up, gas): percutaneous drainage."
+      "لو الكيس أكبر من ٦ سم أو عمره فوق ٦ أسابيع أو يكبر، نصرفه داخليًا بالمنظار؛ ولو فيه حرارة، تصريف من الجلد."
     ],
-    "rule": "Fever or leukocytosis flips any cyst answer to percutaneous drainage; no fever, small and young flips it to observation.",
+    "rule": "كيس بنكرياس صغير وجديد = مراقبة.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0810": {
     "correct_letter": "B",
@@ -57291,27 +57381,33 @@
     "guideline_note": null
   },
   "AS-0820": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Severe distress that does not settle is not the usual course of TTN: escalate support and look for another cause (pneumothorax, pneumonia, PPHN, cardiac disease).",
+    "idea": "مولود <bdi>TTN</bdi> مع ضيق تنفس شديد على جهاز التنفس وما يتحسن.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "TTN",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "on mechanical ventilator but he",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "next step",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Severe distress that does not settle is not the usual course of TTN: escalate support and look for another cause (pneumothorax, pneumonia, PPHN, cardiac disease)."
+      "أول خطوة نزيد الدعم: <bdi>Increase O2</bdi>، وبعدها ندور سبب ثاني."
     ],
     "when_changes": [
-      "TTN: term or near term, C-section, retained fetal lung fluid, perihilar streaks on CXR, self resolving",
-      "RDS: preterm, surfactant deficiency, ground glass CXR, needs surfactant and ventilation",
-      "Failure to improve: think pneumothorax, pneumonia or sepsis, PPHN, cardiac disease"
+      "لو ما تحسن، نفكر بـ<bdi>pneumothorax</bdi> أو التهاب أو <bdi>PPHN</bdi>."
     ],
-    "rule": "Severe distress that does not settle is not the usual course of TTN: escalate support and look for another cause (pneumothorax, pneumonia, PPHN, cardiac disease).",
+    "rule": "<bdi>TTN</bdi> ما يتحسن = زيدي الدعم وفكري بسبب ثاني.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0821": {
     "correct_letter": "C",
@@ -57360,27 +57456,33 @@
     "guideline_note": null
   },
   "AS-0824": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "Any penile anomaly on exam makes circumcision contraindicated; the foreskin is saved for repair.",
+    "idea": "طفل عمره سنتين لختان اختياري.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "elective circumcision",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "2 year old boy",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "2 year old",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Any penile anomaly on exam makes circumcision contraindicated; the foreskin is saved for repair."
+      "بعد سن الرضاعة الختان يكون بالعمليات تحت تخدير عام، فنحوله لـ<bdi>pediatric surgery</bdi>."
     ],
     "when_changes": [
-      "Hypospadias triad (chordee, hooded foreskin, ventral meatus): never circumcise, refer.",
-      "Bleeding history positive: coagulation work-up first.",
-      "Neonate, normal exam: clinic device circumcision under local."
+      "لو فيه تاريخ نزيف، نفحص التخثر أولًا؛ ولو فيه تشوه بالعضو، الختان ممنوع."
     ],
-    "rule": "Any penile anomaly on exam makes circumcision contraindicated; the foreskin is saved for repair.",
+    "rule": "ختان طفل بعد الرضاعة = جراحة أطفال.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0827": {
     "correct_letter": "A",
@@ -57429,27 +57531,33 @@
     "guideline_note": null
   },
   "AS-0836": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Severe pain with a soft, non-rigid abdomen in the elderly is ischemia until proven otherwise; distension plus constipation shifts you to volvulus.",
+    "idea": "مسن ٩٠ سنة بدار رعاية، ألم بطن شديد ٢٤ ساعة، البطن لين وأصوات الأمعاء عالية.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "90 year old",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "severe abdominal pain",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "soft and lax, tender all",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Severe pain with a soft, non-rigid abdomen in the elderly is ischemia until proven otherwise; distension plus constipation shifts you to volvulus."
+      "مسن بدار رعاية مع ألم وأصوات أمعاء عالية يوجه لـ<bdi>sigmoid volvulus</bdi>، و<bdi>Sigmoidoscopy</bdi> يشخص ويفك الالتواء."
     ],
     "when_changes": [
-      "Pain out of proportion, AF/vascular risk: CT angiography (not listed).",
-      "Nursing-home elderly, distension, constipation: abdominal X-ray (coffee bean) then sigmoidoscopic decompression if stable.",
-      "Peritonitis, gangrene or perforation signs: emergency laparotomy (e.g. Hartmann procedure for gangrenous sigmoid volvulus)."
+      "لو عنده <bdi>AF</bdi> والألم أكبر من الفحص، نفكر بـ<bdi>mesenteric ischemia</bdi> ونطلب <bdi>CT angiography</bdi>."
     ],
-    "rule": "Severe pain with a soft, non-rigid abdomen in the elderly is ischemia until proven otherwise; distension plus constipation shifts you to volvulus.",
+    "rule": "مسن دار رعاية + انسداد = التواء القولون السيني = منظار سيني.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0838": {
     "correct_letter": "A",
@@ -57613,27 +57721,33 @@
     "guideline_note": null
   },
   "AS-0858": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Wet wound gets an absorber (alginate/foam); dry wound gets a donor (hydrogel).",
+    "idea": "أفضل غيار لجرح بأسفل القدم.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "planter of foot",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Best",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "type",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Wet wound gets an absorber (alginate/foam); dry wound gets a donor (hydrogel)."
+      "جروح أسفل القدم غالبًا فيها إفرازات، و<bdi>Alginate</bdi> يمتص الإفرازات."
     ],
     "when_changes": [
-      "Dry/necrotic: hydrogel (adds moisture).",
-      "Low exudate, clean: hydrocolloid or film.",
-      "Moderate to heavy exudate: alginate or foam."
+      "لو الجرح ناشف، نستخدم <bdi>hydrogel</bdi>."
     ],
-    "rule": "Wet wound gets an absorber (alginate/foam); dry wound gets a donor (hydrogel).",
+    "rule": "جرح فيه إفرازات = غيار يمتص؛ جرح ناشف = غيار يرطب.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0859": {
     "correct_letter": "A",
@@ -57682,27 +57796,33 @@
     "guideline_note": null
   },
   "AS-0861": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Absence of oral burns does not exclude esophageal injury; symptoms (drooling, dysphagia, stridor) are what predict significant damage.",
+    "idea": "طفل بلع مادة قلوية، وبعد ٣ ساعات عنده ضيق تنفس وسيلان لعاب.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "3 hours later",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "SOB",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "alkaline substance",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Absence of oral burns does not exclude esophageal injury; symptoms (drooling, dysphagia, stridor) are what predict significant damage."
+      "ضيق التنفس علامة خطر بمجرى الهواء، فأول خطوة <bdi>intubation</bdi>."
     ],
     "when_changes": [
-      "Stridor, hoarseness, respiratory distress: secure airway (intubation) first",
-      "Perforation signs (mediastinitis, peritonitis, free air, shock): surgery",
-      "Symptomatic but stable: admit, NPO, early endoscopy to grade injury"
+      "لو مستقر بدون ضيق تنفس، ننومه ونسوي منظار مبكر."
     ],
-    "rule": "Absence of oral burns does not exclude esophageal injury; symptoms (drooling, dysphagia, stridor) are what predict significant damage.",
+    "rule": "حروق كيميائية + ضيق تنفس = تأمين مجرى الهواء أولًا.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0862": {
     "correct_letter": "A",
@@ -57730,25 +57850,31 @@
   "AS-0863": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Drooling plus dysphagia after alkali means admit even when the oropharynx looks only mildly inflamed.",
+    "idea": "طفل بلع مادة قلوية، عنده ألم وصعوبة بلع وسيلان لعاب، بس علاماته مستقرة.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Vitally stable",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "mild tenderness",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "alkaline fluid 3h ago",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Drooling plus dysphagia after alkali means admit even when the oropharynx looks only mildly inflamed."
+      "وجود أعراض (صعوبة بلع، سيلان لعاب) يعني ننومه حتى لو الفم شكله بسيط: <bdi>Admission</bdi>."
     ],
     "when_changes": [
-      "Airway signs: secure airway first",
-      "Perforation signs: surgery",
-      "Symptomatic but stable: admit, NPO, supportive care, early endoscopy"
+      "لو فيه ضيق تنفس، نأمن مجرى الهواء أولًا."
     ],
-    "rule": "Drooling plus dysphagia after alkali means admit even when the oropharynx looks only mildly inflamed.",
+    "rule": "بلع قلوي + سيلان لعاب = تنويم.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0864": {
     "correct_letter": "A",
@@ -57866,27 +57992,33 @@
     "guideline_note": null
   },
   "AS-0883": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Two near-identical recalls are keyed differently: the version stressing HBV cirrhosis with controlled ascites is keyed to TACE, while the version stressing a biopsy-proven 6 × 6 cm mass is keyed to resection; read for liver reserve.",
+    "idea": "مريض <bdi>hepatitis B</bdi> عنده استسقاء، وكتلة ٦×٦ سم بالكبد ثبتت إنها <bdi>HCC</bdi>.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "chronic hepatitis B",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "arterial phase enhancement",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "ascites that is well controlled",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Two near-identical recalls are keyed differently: the version stressing HBV cirrhosis with controlled ascites is keyed to TACE, while the version stressing a biopsy-proven 6 × 6 cm mass is keyed to resection; read for liver reserve."
+      "ورم ٦ سم أو أكثر مع استسقاء (يعني الكبد ضعيف) = <bdi>TACE</bdi>."
     ],
     "when_changes": [
-      "Single mass &lt;6 cm, good liver function: surgical resection",
-      "Single mass ≥6 cm or multiple masses, liver-confined: TACE",
-      "Within transplant criteria (Milan: single ≤5 cm, or up to 3 lesions ≤3 cm): liver transplant"
+      "لو الورم أقل من ٦ سم والكبد سليم، نختار الاستئصال."
     ],
-    "rule": "Two near-identical recalls are keyed differently: the version stressing HBV cirrhosis with controlled ascites is keyed to TACE, while the version stressing a biopsy-proven 6 × 6 cm mass is keyed to resection; read for liver reserve.",
+    "rule": "<bdi>HCC</bdi> كبير أو كبد ضعيف = <bdi>TACE</bdi>.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0884": {
     "correct_letter": "D",
@@ -58489,25 +58621,31 @@
   "AS-0933": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "\"Wheeze\" rules out croup (stridor) and age rules out asthma; the fork is viral prodrome (bronchiolitis) versus fever or sepsis signs (pneumonia).",
+    "idea": "مولود عنده صفير مع سحب بالصدر وتنفس ٦٥.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "RR 65",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Newborn wheezing",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Newborn",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "\"Wheeze\" rules out croup (stridor) and age rules out asthma; the fork is viral prodrome (bronchiolitis) versus fever or sepsis signs (pneumonia)."
+      "صفير برضيع = <bdi>bronchiolitis</bdi>."
     ],
     "when_changes": [
-      "Coryza then wheeze + crackles, infant: bronchiolitis",
-      "Barking cough + inspiratory stridor: croup",
-      "Fever, crackles, sepsis signs, perinatal risk: pneumonia"
+      "لو فيه حرارة وعلامات التهاب دم، <bdi>pneumonia</bdi>."
     ],
-    "rule": "\"Wheeze\" rules out croup (stridor) and age rules out asthma; the fork is viral prodrome (bronchiolitis) versus fever or sepsis signs (pneumonia).",
+    "rule": "صفير برضيع = التهاب قصيبات.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0936": {
     "correct_letter": "B",
@@ -58878,27 +59016,33 @@
     "guideline_note": null
   },
   "AS-0976": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "If the stem says 'tumor' or gives a family history, answer retinoblastoma; if it gives congenital infection or galactosemia clues, answer cataract.",
+    "idea": "رضيع ٦ أسابيع عنده <bdi>leukocoria</bdi> بعين وحدة، ونموه طبيعي.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "6 weeks",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "absent red reflex",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "weeks",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "If the stem says 'tumor' or gives a family history, answer retinoblastoma; if it gives congenital infection or galactosemia clues, answer cataract."
+      "بهذا العمر الصغير، أشيع سبب لغياب الانعكاس الأحمر هو <bdi>Congenital Cataract</bdi>."
     ],
     "when_changes": [
-      "Retinoblastoma: under 5 years, leukocoria then strabismus, may be heritable",
-      "Congenital cataract: present at birth, rubella, galactosemia, inherited",
-      "Toxocariasis: older child, dog/soil exposure, unilateral"
+      "لو فيه تاريخ عائلي أو الطفل أكبر، نفكر بـ<bdi>retinoblastoma</bdi>."
     ],
-    "rule": "If the stem says 'tumor' or gives a family history, answer retinoblastoma; if it gives congenital infection or galactosemia clues, answer cataract.",
+    "rule": "أي <bdi>leukocoria</bdi> = تحويل عاجل للعيون.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-0979": {
     "correct_letter": "C",
@@ -59386,25 +59530,31 @@
   "AS-1082": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Right idea, wrong detail: hydrocortisone instead of dexamethasone, or MRI booked outpatient, are both traps in a cancer patient with back pain.",
+    "idea": "مريض سرطان بروستاتا مع ألم ظهر — هذا <bdi>spinal cord compression</bdi> حتى يثبت العكس.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "back pain",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "prostate cancer",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "lower limb weakness",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Right idea, wrong detail: hydrocortisone instead of dexamethasone, or MRI booked outpatient, are both traps in a cancer patient with back pain."
+      "أول خطوة ستيرويد وريدي فورًا (<bdi>IV</bdi>)؛ المفروض <bdi>dexamethasone</bdi>، بس الستيرويد الآن أفضل من رنين متأجل."
     ],
     "when_changes": [
-      "Commonest culprits: prostate, breast, lung (bone metastases to spine)",
-      "Immediate: high-dose IV dexamethasone",
-      "Imaging: urgent whole spine MRI (not outpatient)"
+      "الرنين لازم يكون عاجل وللعمود كله، مو بالعيادة."
     ],
-    "rule": "Right idea, wrong detail: hydrocortisone instead of dexamethasone, or MRI booked outpatient, are both traps in a cancer patient with back pain.",
+    "rule": "سرطان + ألم ظهر = ستيرويد وريدي + رنين عاجل.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1117": {
     "correct_letter": "D",
@@ -59432,25 +59582,31 @@
   "AS-1118": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Itch plus allergic shiners = allergic rhinitis; congestion only, with a decongestant spray history = rhinitis medicamentosa.",
+    "idea": "كحة ليلية مع حكة بالعين والحلق والأنف واسوداد تحت العين.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "night cough",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "itchy eye, palate, and nose",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "darkining of the eyelid",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Itch plus allergic shiners = allergic rhinitis; congestion only, with a decongestant spray history = rhinitis medicamentosa."
+      "الحكة مع الهالات السوداء تحت العين = <bdi>Allergic rhinosinusitis</bdi>."
     ],
     "when_changes": [
-      "Allergic: itching (eyes, nose, palate), sneezing, clear discharge, shiners, seasonal or perennial triggers; treat with intranasal steroid, antihistamine, allergen avoidance",
-      "Rhinitis medicamentosa: rebound congestion after prolonged topical decongestant; treat by stopping the decongestant plus intranasal steroid",
-      "Infective: purulent discharge, fever"
+      "لو فيه احتقان بس مع استخدام بخاخ مزيل احتقان طويل، <bdi>rhinitis medicamentosa</bdi>."
     ],
-    "rule": "Itch plus allergic shiners = allergic rhinitis; congestion only, with a decongestant spray history = rhinitis medicamentosa.",
+    "rule": "حكة + هالات = حساسية.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1132": {
     "correct_letter": "B",
@@ -59476,27 +59632,33 @@
     "guideline_note": null
   },
   "AS-1152": {
-    "correct_letter": "A",
+    "correct_letter": "D",
     "self_judged": true,
-    "idea": "Without a pancreatitis history and with septations or solid components, the same location points to a cystic neoplasm, not a pseudocyst.",
+    "idea": "كيس ٩ سم بالـ<bdi>lesser sac</bdi> خلف المعدة.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Lesser sac",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "9 cm cyst posterior to",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Lesser",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Without a pancreatitis history and with septations or solid components, the same location points to a cystic neoplasm, not a pseudocyst."
+      "أشيع كيس بهالمكان <bdi>pancreatic pseudocyst</bdi>."
     ],
     "when_changes": [
-      "Pseudocyst: homogenous, thin wall, more than 4 weeks after pancreatitis; CT is the best imaging",
-      "Small, young or asymptomatic: observe; large, persistent or growing: endoscopic (internal) drainage",
-      "Fever, leukocytosis, gas or thick irregular wall: abscess or infected collection, percutaneous drainage"
+      "لو فيه حواجز أو أجزاء صلبة وما فيه تاريخ التهاب بنكرياس، نفكر بورم كيسي."
     ],
-    "rule": "Without a pancreatitis history and with septations or solid components, the same location points to a cystic neoplasm, not a pseudocyst.",
+    "rule": "كيس خلف المعدة = كيس كاذب بنكرياسي غالبًا.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1153": {
     "correct_letter": "B",
@@ -59545,27 +59707,33 @@
     "guideline_note": null
   },
   "AS-1166": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "If the stem says antibiotics were already given, debridement is unequivocally next.",
+    "idea": "كسر مفتوح بالساق فيه أنسجة ميتة وأوساخ.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "open wound",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "devitalized tissue and dirt in",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "23-year-old",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "If the stem says antibiotics were already given, debridement is unequivocally next."
+      "بعد المضاد الحيوي، الخطوة المهمة <bdi>Surgical debridement</bdi> لتنظيف الجرح."
     ],
     "when_changes": [
-      "Open fracture sequence: IV antibiotics + tetanus, splint or reduce",
-      "Then urgent debridement and irrigation in theatre",
-      "Then definitive fixation: IM nail, or external fixator if soft tissues are badly damaged"
+      "لو السؤال عن أول شي بالطوارئ، الجواب المضاد الحيوي."
     ],
-    "rule": "If the stem says antibiotics were already given, debridement is unequivocally next.",
+    "rule": "كسر مفتوح = مضاد حيوي ثم تنظيف جراحي ثم تثبيت.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1177": {
     "correct_letter": "A",
@@ -59752,73 +59920,91 @@
     "guideline_note": null
   },
   "AS-1203": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Stepping is the earliest reflex to go (about 2 months); a persistent primitive reflex beyond its age suggests a CNS problem such as cerebral palsy.",
+    "idea": "متى يختفي <bdi>sucking reflex</bdi>؟",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "sucking reflex",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "remember",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "sucking",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Stepping is the earliest reflex to go (about 2 months); a persistent primitive reflex beyond its age suggests a CNS problem such as cerebral palsy."
+      "منعكس المص يختفي حوالي ٤ أشهر."
     ],
     "when_changes": [
-      "~2 months: stepping (automatic walking)",
-      "2 to 3 months: ATNR",
-      "~4 months: rooting, sucking, Galant"
+      "منعكس المشي يختفي أبكر، حوالي شهرين."
     ],
-    "rule": "Stepping is the earliest reflex to go (about 2 months); a persistent primitive reflex beyond its age suggests a CNS problem such as cerebral palsy.",
+    "rule": "مشي ٢ شهر، مص ٤ أشهر، مورو ٦ أشهر.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1203B": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Stepping is the earliest reflex to go (about 2 months); a persistent primitive reflex beyond its age suggests a CNS problem such as cerebral palsy.",
+    "idea": "متى يختفي <bdi>automatic walking reflex</bdi>؟",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "automatic walking reflex",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "remember",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "sucking",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Stepping is the earliest reflex to go (about 2 months); a persistent primitive reflex beyond its age suggests a CNS problem such as cerebral palsy."
+      "منعكس المشي أول منعكس يختفي، حوالي شهرين."
     ],
     "when_changes": [
-      "~2 months: stepping (automatic walking)",
-      "2 to 3 months: ATNR",
-      "~4 months: rooting, sucking, Galant"
+      "منعكس المص يختفي حوالي ٤ أشهر."
     ],
-    "rule": "Stepping is the earliest reflex to go (about 2 months); a persistent primitive reflex beyond its age suggests a CNS problem such as cerebral palsy.",
+    "rule": "مشي ٢ شهر، مص ٤ أشهر، مورو ٦ أشهر.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1204": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Monthly immunoglobulin is the long-term answer for Bruton agammaglobulinaemia, but for SCID it is only a bridge to bone marrow transplant.",
+    "idea": "العلاج طويل المدى لـ<bdi>X-linked SCID</bdi>.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "X-linked severe combined immunodeficiency",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Long",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "term",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Monthly immunoglobulin is the long-term answer for Bruton agammaglobulinaemia, but for SCID it is only a bridge to bone marrow transplant."
+      "العلاج الوحيد الشافي <bdi>Bone marrow transplant</bdi>."
     ],
     "when_changes": [
-      "X-linked SCID: IL-2 receptor common gamma chain defect, boys, severe infections and failure to thrive in infancy",
-      "Definitive: haematopoietic stem cell transplant",
-      "Bridging: IVIG, PJP prophylaxis, only irradiated CMV-negative blood products, no live vaccines"
+      "لو كان <bdi>Bruton agammaglobulinemia</bdi>، العلاج <bdi>IVIG</bdi> مدى الحياة."
     ],
-    "rule": "Monthly immunoglobulin is the long-term answer for Bruton agammaglobulinaemia, but for SCID it is only a bridge to bone marrow transplant.",
+    "rule": "<bdi>SCID</bdi> = زراعة نخاع.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1206": {
     "correct_letter": "D",
@@ -59938,25 +60124,23 @@
   "AS-1230": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Whoop plus post-tussive vomiting = pertussis = macrolide for the patient and every household contact.",
+    "idea": "أعراض <bdi>pertussis</bdi> (السعال الديكي).",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "pertussis",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Whoop plus post-tussive vomiting = pertussis = macrolide for the patient and every household contact."
+      "العلاج <bdi>Azithromycin</bdi> للمريض وللمخالطين."
     ],
     "when_changes": [
-      "Paroxysms may end in cyanosis or post-tussive vomiting",
-      "Young infants may have apnoea instead of a whoop",
-      "Diagnosis: nasopharyngeal PCR (culture is the gold standard)"
+      "المخالطين ياخذون وقاية حتى لو مطعمين."
     ],
-    "rule": "Whoop plus post-tussive vomiting = pertussis = macrolide for the patient and every household contact.",
+    "rule": "سعال ديكي = <bdi>macrolide</bdi>.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1242B": {
     "correct_letter": "B",
@@ -60028,27 +60212,33 @@
     "guideline_note": null
   },
   "AS-1249": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "Fever and chills alone do not mandate IV therapy; look for the words toxic, vomiting or not tolerating oral intake before choosing admission.",
+    "idea": "طفل بالعيادة عنده حرارة ورعشة وتحليل بول فيه <bdi>nitrite</bdi> و<bdi>leukocyte</bdi>.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Child",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "chills, fever",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "+ve nitrite & leukocyte",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Fever and chills alone do not mandate IV therapy; look for the words toxic, vomiting or not tolerating oral intake before choosing admission."
+      "الحرارة وحدها ما تفرض علاج وريدي؛ الطفل المستقر اللي يشرب ياخذ <bdi>Oral antibiotic</bdi>."
     ],
     "when_changes": [
-      "Well, alert, drinking: oral antibiotics as outpatient",
-      "Toxic, vomiting, dehydrated, cannot take orally: admit for IV antibiotics",
-      "Always send urine culture before the first dose"
+      "لو الطفل متعب أو يرجع أو جفاف، ننومه للعلاج الوريدي."
     ],
-    "rule": "Fever and chills alone do not mandate IV therapy; look for the words toxic, vomiting or not tolerating oral intake before choosing admission.",
+    "rule": "التهاب بول بحرارة بطفل مستقر = مضاد حيوي بالفم.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1255": {
     "correct_letter": "C",
@@ -60076,25 +60266,31 @@
   "AS-1261": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Weight loss in type 1 DM signals insulin deficiency, which carbohydrate restriction cannot correct; the fork is DKA (stabilise first) versus stable (insulin with family education).",
+    "idea": "طفلة سكري نوع أول، نقص وزن وسكر ٢٥٠.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "7 yrs old girl with",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "girl",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "with",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Weight loss in type 1 DM signals insulin deficiency, which carbohydrate restriction cannot correct; the fork is DKA (stabilise first) versus stable (insulin with family education)."
+      "بدون <bdi>DKA</bdi>، نبدأ إنسولين ونعلم الأهل: <bdi>Educate the family on how to use insulin</bdi>."
     ],
     "when_changes": [
-      "DKA (hyperglycaemia + acidosis + ketosis): stabilise first with fluids and IV insulin",
-      "No DKA: subcutaneous insulin and structured family education",
-      "Teach injection technique, home glucose monitoring, sick day rules"
+      "لو فيه <bdi>DKA</bdi>، نثبت الحالة أولًا بسوائل وإنسولين وريدي."
     ],
-    "rule": "Weight loss in type 1 DM signals insulin deficiency, which carbohydrate restriction cannot correct; the fork is DKA (stabilise first) versus stable (insulin with family education).",
+    "rule": "سكري نوع أول مستقر = إنسولين + تعليم الأهل.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1265": {
     "correct_letter": "A",
@@ -60237,48 +60433,60 @@
   "AS-1287": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Factor VII vs factor VIII is a classic recall slip; rFVIIa is only for haemophilia with inhibitors.",
+    "idea": "مولود <bdi>Hemophilia A</bdi> عنده نزيف.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "bleeding",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "newborn with Hemophilia A",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "newborn",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Factor VII vs factor VIII is a classic recall slip; rFVIIa is only for haemophilia with inhibitors."
+      "العلاج الصحيح <bdi>factor VIII</bdi>، بس مو موجود؛ <bdi>FFP</bdi> فيه <bdi>factor VIII</bdi>."
     ],
     "when_changes": [
-      "Haemophilia A: factor VIII deficiency, prolonged aPTT, normal PT and platelets",
-      "Haemophilia B: factor IX deficiency, treat with factor IX",
-      "Inhibitors present: recombinant factor VIIa (bypassing agent)"
+      "لو عنده أجسام مضادة (<bdi>inhibitors</bdi>)، نعطي <bdi>factor VIIa</bdi>."
     ],
-    "rule": "Factor VII vs factor VIII is a classic recall slip; rFVIIa is only for haemophilia with inhibitors.",
+    "rule": "هيموفيليا أ = <bdi>factor VIII</bdi>.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1289": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Severe pain is the single feature that moves a localised red eye from episcleritis to scleritis.",
+    "idea": "تورم أحمر محدد تحت الملتحمة.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "under the conjunctiva",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "well circumscribed red swelling",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "well",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Severe pain is the single feature that moves a localised red eye from episcleritis to scleritis."
+      "ما فيه ألم شديد، فهذا <bdi>Episcleritis</bdi>."
     ],
     "when_changes": [
-      "Episcleritis: mild or no pain, bright red, mobile, blanches with phenylephrine, self limiting",
-      "Scleritis: severe boring pain, violaceous, tender, non blanching, vision threatening",
-      "Scleritis: look for RA, vasculitis; needs urgent ophthalmology and systemic therapy"
+      "لو فيه ألم شديد ولون بنفسجي، <bdi>scleritis</bdi>."
     ],
-    "rule": "Severe pain is the single feature that moves a localised red eye from episcleritis to scleritis.",
+    "rule": "العين الحمراء: الألم الشديد يفرق بين الاثنين.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1290": {
     "correct_letter": "C",
@@ -60329,25 +60537,31 @@
   "AS-1295": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "CS + term + early onset = TTN; if the baby is preterm think RDS, if distress appears or persists beyond the first days think infection.",
+    "idea": "مولود عمره ٣ أيام قيصري، عنده نقص أكسجين وأنين وزرقة حول الفم.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "grunting",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "c/s delivery",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "neonate",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "CS + term + early onset = TTN; if the baby is preterm think RDS, if distress appears or persists beyond the first days think infection."
+      "<bdi>TTN</bdi> يبدأ بالساعات الأولى ويخف خلال ٢-٣ أيام؛ ضيق بعمر ٣ أيام يوجه لـ<bdi>pneumonia</bdi>."
     ],
     "when_changes": [
-      "TTN: term CS, onset within hours, fissural fluid, settles by 2 to 3 days",
-      "RDS: preterm, onset at birth, ground glass + air bronchograms, low volumes",
-      "Pneumonia/sepsis: risk factors, any time, patchy infiltrates"
+      "لو بدأ الضيق من الساعات الأولى بمولود قيصري، <bdi>TTN</bdi>."
     ],
-    "rule": "CS + term + early onset = TTN; if the baby is preterm think RDS, if distress appears or persists beyond the first days think infection.",
+    "rule": "ضيق تنفس يبدأ أو يستمر بعد الأيام الأولى = التهاب.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1296": {
     "correct_letter": "C",
@@ -60421,25 +60635,31 @@
   "AS-1303": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "If the answer list has 'history, exam and response to bronchodilator', that wins in a young child; spirometry only for school age.",
+    "idea": "رضيع ٧ أشهر عنده أعراض ربو.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "7 month child",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "month",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "child",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "If the answer list has 'history, exam and response to bronchodilator', that wins in a young child; spirometry only for school age."
+      "تحت ٥ سنوات التشخيص سريري؛ من الخيارات <bdi>X-ray</bdi> يستبعد أسباب ثانية."
     ],
     "when_changes": [
-      "Recurrent wheeze/cough, triggers, atopy or family history",
-      "Response to bronchodilator or controller trial",
-      "Infant wheeze: consider bronchiolitis, foreign body, reflux, CF, malformations"
+      "من عمر ٥-٦ سنوات نقدر نسوي <bdi>spirometry</bdi>."
     ],
-    "rule": "If the answer list has 'history, exam and response to bronchodilator', that wins in a young child; spirometry only for school age.",
+    "rule": "ربو تحت ٥ سنين = تشخيص سريري.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1307": {
     "correct_letter": "B",
@@ -60467,48 +60687,60 @@
   "AS-1309": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Red flags (blood, weight loss, fever) mean investigate, not treat symptomatically; acid suppression is never the answer for bloody diarrhea.",
+    "idea": "ولد ١٢ سنة عنده إسهال مزمن مع دم ونقص وزن وحرارة.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "chronic diarrhea, blood in stool,",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "12-year-old",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "most appropriate next step",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Red flags (blood, weight loss, fever) mean investigate, not treat symptomatically; acid suppression is never the answer for bloody diarrhea."
+      "العلامات الخطيرة تعني نفحص، فالجواب <bdi>Admit for full workup</bdi>."
     ],
     "when_changes": [
-      "Exclude infection: stool cultures, C. difficile",
-      "Bloods: CBC, CRP/ESR, albumin; fecal calprotectin",
-      "Diagnostic: ileocolonoscopy with biopsies (+ upper endoscopy in children)"
+      "لو فيه خيار <bdi>colonoscopy</bdi> والطفل مستقر، يكون هو الجواب."
     ],
-    "rule": "Red flags (blood, weight loss, fever) mean investigate, not treat symptomatically; acid suppression is never the answer for bloody diarrhea.",
+    "rule": "إسهال دموي + نقص وزن = فحص، مو علاج أعراض.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1310": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "Diagnosis of IBD rests on endoscopy with biopsy; CT and PPI are traps, and 'admit' wins when the child is toxic.",
+    "idea": "ولد ١٢ سنة عنده إسهال مزمن مع دم ونقص وزن وحرارة.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "chronic diarrhea, blood in stool,",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "12-year-old",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "most appropriate next step",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Diagnosis of IBD rests on endoscopy with biopsy; CT and PPI are traps, and 'admit' wins when the child is toxic."
+      "تشخيص <bdi>IBD</bdi> بالـ<bdi>Colonoscopy</bdi> مع خزعة."
     ],
     "when_changes": [
-      "First exclude infection: stool cultures, C. difficile",
-      "CBC, CRP/ESR, albumin, fecal calprotectin",
-      "Ileocolonoscopy + upper endoscopy with biopsies confirm"
+      "لو الطفل متعب جدًا، ننومه أولًا."
     ],
-    "rule": "Diagnosis of IBD rests on endoscopy with biopsy; CT and PPI are traps, and 'admit' wins when the child is toxic.",
+    "rule": "<bdi>IBD</bdi> بالأطفال = منظار مع خزعة.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1313": {
     "correct_letter": "C",
@@ -60534,27 +60766,33 @@
     "guideline_note": null
   },
   "AS-1318": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Ferritin decides: low ferritin = iron deficiency; normal or high ferritin with microcytosis points to thalassemia trait or chronic disease.",
+    "idea": "طفلة سنتين شاحبة، تشرب حليب بقر وما تاكل لحم، والفيريتين منخفض.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "drinking cow’s milk",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "low hbg low mcv low",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "2-year-old",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Ferritin decides: low ferritin = iron deficiency; normal or high ferritin with microcytosis points to thalassemia trait or chronic disease."
+      "فيريتين منخفض = <bdi>Iron deficiency anemia</bdi>."
     ],
     "when_changes": [
-      "Toddler + excess cow's milk + no meat = iron deficiency",
-      "Cow's milk: iron poor, displaces solids, occult GI loss",
-      "Thal trait: microcytosis, normal ferritin, high RBC count"
+      "لو الفيريتين طبيعي مع صغر الكريات، نفكر بـ<bdi>thalassemia trait</bdi>."
     ],
-    "rule": "Ferritin decides: low ferritin = iron deficiency; normal or high ferritin with microcytosis points to thalassemia trait or chronic disease.",
+    "rule": "فيريتين منخفض = نقص حديد.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1327": {
     "correct_letter": "B",
@@ -60741,27 +60979,33 @@
     "guideline_note": null
   },
   "AS-1343": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "In pediatric brucellosis, the child's age (8 years) decides doxycycline vs TMP-SMX.",
+    "idea": "طفل عنده <bdi>brucellosis</bdi> مع ألم بالركبة بعد حليب ماعز خام.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "brucellosis",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "drink raw milk from goat",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "most appropriate treatment",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "In pediatric brucellosis, the child's age (8 years) decides doxycycline vs TMP-SMX."
+      "العلاج دائمًا دمج دوائين؛ من الخيارات <bdi>Doxycycline + Rifampicin</bdi> لـ٦ أسابيع."
     ],
     "when_changes": [
-      "Age 8 years or older and adults: doxycycline plus rifampicin (or streptomycin) for 6 weeks",
-      "Younger than 8 years: TMP-SMX plus rifampicin",
-      "Spondylitis or sacroiliitis: extend to about 12 weeks"
+      "لو الطفل أقل من ٨ سنوات، نستبدل <bdi>doxycycline</bdi> بـ<bdi>TMP-SMX</bdi>."
     ],
-    "rule": "In pediatric brucellosis, the child's age (8 years) decides doxycycline vs TMP-SMX.",
+    "rule": "بروسيلا = دوائين لـ٦ أسابيع.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1347": {
     "correct_letter": "C",
@@ -60902,27 +61146,33 @@
     "guideline_note": null
   },
   "AS-1356": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Same stem, different key: father diagnosed young or Black patient means PSA; father diagnosed old means reassurance.",
+    "idea": "رجل ٤٦ سنة، أبوه انصاب بسرطان البروستاتا، والفحص طبيعي.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "46-year-old man",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "father was recently diagnosed with",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "smooth, regular, and the sulcus",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Same stem, different key: father diagnosed young or Black patient means PSA; father diagnosed old means reassurance."
+      "وجود قريب درجة أولى يبدأ الفحص من ٤٥ بـ<bdi>PSA</bdi>."
     ],
     "when_changes": [
-      "Average risk: shared decision from about 50",
-      "First-degree relative diagnosed before 65, or Black: from about 45",
-      "Several relatives diagnosed young: earlier still"
+      "لو الأب انصاب بعمر كبير، ممكن نطمنه."
     ],
-    "rule": "Same stem, different key: father diagnosed young or Black patient means PSA; father diagnosed old means reassurance.",
+    "rule": "قريب درجة أولى = <bdi>PSA</bdi> من ٤٥.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1356B": {
     "correct_letter": "B",
@@ -61180,25 +61430,31 @@
   "AS-1392": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Chvostek and Trousseau signs mean calcium, not nerve injury, even though both follow thyroid surgery.",
+    "idea": "بعد عملية الغدة الدرقية، تنميل حول الفم مع <bdi>Chvostek sign</bdi>.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Chovsteks sign",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "post thyroid surg",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "numbness around lips",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Chvostek and Trousseau signs mean calcium, not nerve injury, even though both follow thyroid surgery."
+      "<bdi>Chvostek</bdi> يعني <bdi>hypocalcemia</bdi> من تأثر الغدة جار الدرقية."
     ],
     "when_changes": [
-      "Neck swelling + stridor within hours: hematoma, bedside wound exploration",
-      "Perioral numbness, spasm, Chvostek/Trousseau: hypocalcaemia, check calcium and replace",
-      "Hypocalcaemia refractory to replacement: check magnesium"
+      "لو بحة صوت، العصب الحنجري الراجع."
     ],
-    "rule": "Chvostek and Trousseau signs mean calcium, not nerve injury, even though both follow thyroid surgery.",
+    "rule": "تنميل حول الفم + <bdi>Chvostek</bdi> = نقص كالسيوم.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1396": {
     "correct_letter": "C",
@@ -61316,27 +61572,33 @@
     "guideline_note": null
   },
   "AS-1419": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Look for coronary dilation or carditis in the stem: it removes second IVIG from the top of the ladder.",
+    "idea": "طفل <bdi>Kawasaki</bdi> أخذ <bdi>IVIG</bdi> و<bdi>aspirin</bdi> وما تحسن.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Kawasaki disease",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "already received IVIG and IV",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "symptoms are still not improving",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Look for coronary dilation or carditis in the stem: it removes second IVIG from the top of the ladder."
+      "بدون إصابة بالقلب، الخطوة التالية <bdi>Second dose of IVIG</bdi>."
     ],
     "when_changes": [
-      "No carditis: second IVIG, then infliximab, then tapering oral prednisolone, then pulse IV methylprednisolone",
-      "Carditis/coronary change: infliximab, then tapering oral prednisolone, then pulse IV methylprednisolone",
-      "Second IVIG is not first line once carditis is present"
+      "لو فيه إصابة بالشرايين التاجية، <bdi>infliximab</bdi> قبل الجرعة الثانية."
     ],
-    "rule": "Look for coronary dilation or carditis in the stem: it removes second IVIG from the top of the ladder.",
+    "rule": "كاواساكي ما استجاب = جرعة <bdi>IVIG</bdi> ثانية.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1419B": {
     "correct_letter": "A",
@@ -61454,27 +61716,33 @@
     "guideline_note": null
   },
   "AS-1423": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "Women get inguinal hernias more often than femoral, so decide by the pubic tubercle, not by sex.",
+    "idea": "تورم بالأربية تحت ووحشي عظمة العانة.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "below and lateral to the",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "55-year-old",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "most likely diagnosis",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Women get inguinal hernias more often than femoral, so decide by the pubic tubercle, not by sex."
+      "تحت ووحشي = <bdi>Femoral hernia</bdi>."
     ],
     "when_changes": [
-      "Above and medial: inguinal (direct or indirect)",
-      "Below and lateral: femoral",
-      "Indirect vs direct: lateral vs medial to inferior epigastric vessels; deep ring occlusion controls indirect"
+      "فوق وإنسي = فتق إربي."
     ],
-    "rule": "Women get inguinal hernias more often than femoral, so decide by the pubic tubercle, not by sex.",
+    "rule": "قاعدة عظمة العانة تحدد نوع الفتق.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1425": {
     "correct_letter": "C",
@@ -61500,50 +61768,62 @@
     "guideline_note": null
   },
   "AS-1431": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "If the option list includes AF, that is the classic answer for embolic acute limb ischemia; claudication history points to thrombosis.",
+    "idea": "وش عامل الخطر لـ<bdi>acute limb ischemia</bdi>؟",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Acute limb ischemia",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Acute",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "limb",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "If the option list includes AF, that is the classic answer for embolic acute limb ischemia; claudication history points to thrombosis."
+      "اليوم أشيع سبب جلطة على شريان مريض من قبل، فالعامل <bdi>history of claudication</bdi>."
     ],
     "when_changes": [
-      "Embolic: AF, recent MI, valve disease; sudden onset, normal other limb; treat with embolectomy",
-      "Thrombotic: prior claudication or PAD (smoking, diabetes); acute on chronic; catheter directed thrombolysis",
-      "Features: 6 Ps (pain, pallor, paresthesia, pulselessness, poikilothermia, paralysis)"
+      "لو بالخيارات <bdi>AF</bdi>، يكون هو الجواب (جلطة منتقلة)."
     ],
-    "rule": "If the option list includes AF, that is the classic answer for embolic acute limb ischemia; claudication history points to thrombosis.",
+    "rule": "عرج سابق = جلطة على شريان مريض.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1433": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "Viability decides: a viable limb is revascularized, only a dead or unsalvageable limb is amputated.",
+    "idea": "عرج شهرين، <bdi>ABI</bdi> ٠.٣، وانسداد ٣ سم بالشريان المأبضي.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "ABI was 0.3",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "2 months claudication pain",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "3cm occlusion in popliteal artery",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Viability decides: a viable limb is revascularized, only a dead or unsalvageable limb is amputated."
+      "انسداد قصير مع رجل حية = <bdi>Endovascular stenting</bdi>."
     ],
     "when_changes": [
-      "Chronic claudication: exercise program, risk factor control, antiplatelet; revascularize if disabling or critical",
-      "Short focal lesion, viable limb: endovascular angioplasty or stenting",
-      "Long or diffuse lesion: surgical bypass"
+      "لو الانسداد طويل، <bdi>bypass</bdi>؛ ولو الرجل ميتة، بتر."
     ],
-    "rule": "Viability decides: a viable limb is revascularized, only a dead or unsalvageable limb is amputated.",
+    "rule": "انسداد قصير = دعامة؛ طويل = تحويلة.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1434": {
     "correct_letter": "A",
@@ -61571,48 +61851,60 @@
   "AS-1436": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Older recall keys may show tracheal suction; that applied only to non-vigorous babies and has been dropped as routine.",
+    "idea": "مولود مغطى بالعقي بس يبكي ونشيط.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Newborn covered with meconum",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "vigorous, cry and good muscle",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "most appropriate",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Older recall keys may show tracheal suction; that applied only to non-vigorous babies and has been dropped as routine."
+      "المولود النشيط = <bdi>Routine care with close monitoring</bdi>."
     ],
     "when_changes": [
-      "Vigorous: routine care, observe",
-      "Non-vigorous: initial steps then positive pressure ventilation; no routine tracheal suction",
-      "Intubate and suction only if the airway is obstructed"
+      "لو مو نشيط، نبدأ الخطوات الأولية ثم التنفس."
     ],
-    "rule": "Older recall keys may show tracheal suction; that applied only to non-vigorous babies and has been dropped as routine.",
+    "rule": "عقي + نشيط = رعاية روتينية.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1437": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "A pre/post-ductal saturation gap in a ventilated meconium baby points straight to iNO.",
+    "idea": "مولود عقي مع ضيق تنفس ما يتحسن على التنفس الصناعي.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "covered with meconum",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "conventional ventilation then high flow",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Newborn",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "A pre/post-ductal saturation gap in a ventilated meconium baby points straight to iNO."
+      "هذا يوحي بـ<bdi>PPHN</bdi>، والعلاج <bdi>Inhaled nitric oxide</bdi>."
     ],
     "when_changes": [
-      "Clue: pre-ductal saturation higher than post-ductal (right-to-left ductal shunt)",
-      "Confirm with echocardiography",
-      "Treatment: optimise ventilation and oxygen, then inhaled nitric oxide"
+      "لو فشل، <bdi>ECMO</bdi>."
     ],
-    "rule": "A pre/post-ductal saturation gap in a ventilated meconium baby points straight to iNO.",
+    "rule": "عقي + ما يتحسن على الجهاز = <bdi>iNO</bdi>.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1443": {
     "correct_letter": "B",
@@ -61709,48 +62001,60 @@
   "AS-1447B": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Colonoscopy is the right answer only when the stem says the attack has resolved.",
+    "idea": "<bdi>Acute diverticulitis</bdi> مع تجمع سوائل.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "fluid collection",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "acute diverticulitis",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "next step",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Colonoscopy is the right answer only when the stem says the attack has resolved."
+      "من الخيارات <bdi>IV fluid antibiotic</bdi> (التجمع الصغير يتعالج بالمضاد)."
     ],
     "when_changes": [
-      "Small collection: IV antibiotics (conservative)",
-      "Larger collection (about 4 cm or more): percutaneous drainage + antibiotics",
-      "Generalized peritonitis: laparotomy"
+      "لو التجمع ٤ سم أو أكثر، تصريف من الجلد."
     ],
-    "rule": "Colonoscopy is the right answer only when the stem says the attack has resolved.",
+    "rule": "التهاب الرتوج مع تجمع صغير = مضاد وريدي.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1448": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Decide by pattern: single attack = acute analgesic; frequent or daily attacks failing acute therapy = prophylaxis; heartburn or epigastric pain = PPI.",
+    "idea": "طفل عنده صداع نصفي يومي من أسبوعين وما نفع العلاج الأولي.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "recurrent migraine for 2 weeks",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "initial treatment with no effect",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "baby",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Decide by pattern: single attack = acute analgesic; frequent or daily attacks failing acute therapy = prophylaxis; heartburn or epigastric pain = PPI."
+      "النوبات اليومية مع فشل العلاج الحاد = نبدأ وقاية، مثل <bdi>Tricyclic Antidepressant</bdi>."
     ],
     "when_changes": [
-      "Acute, mild to moderate: NSAID (ibuprofen) or paracetamol",
-      "Acute, moderate to severe: triptan",
-      "Frequent or daily attacks, or acute therapy failing: start prophylaxis"
+      "لو نوبة وحدة، <bdi>ibuprofen</bdi>."
     ],
-    "rule": "Decide by pattern: single attack = acute analgesic; frequent or daily attacks failing acute therapy = prophylaxis; heartburn or epigastric pain = PPI.",
+    "rule": "صداع نصفي متكرر + فشل العلاج = وقاية.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1450": {
     "correct_letter": "D",
@@ -61801,25 +62105,31 @@
   "AS-1454": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Orientation is only one piece (the verbal score) of the full consciousness assessment.",
+    "idea": "طفل صدمته سيارة، كيف نقيم الوعي؟",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "assess consciousness",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "hit by a car",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "child",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Orientation is only one piece (the verbal score) of the full consciousness assessment."
+      "تقييم الوعي بعد الإصابة = <bdi>GCS</bdi>."
     ],
     "when_changes": [
-      "Eye 4, Verbal 5, Motor 6; total 3 to 15",
-      "Verbal 5 = oriented to time, place, person",
-      "GCS below 15 or altered mental status: head CT (PECARN)"
+      "بالأطفال الصغار نستخدم <bdi>pediatric GCS</bdi>."
     ],
-    "rule": "Orientation is only one piece (the verbal score) of the full consciousness assessment.",
+    "rule": "الوعي بعد الإصابة = <bdi>GCS</bdi>.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1455": {
     "correct_letter": "B",
@@ -62008,25 +62318,31 @@
   "AS-1482": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "If echo is offered, it beats every other option as the next investigation for a boot-shaped heart.",
+    "idea": "قلب شكل الجزمة بالأشعة (<bdi>Tetralogy of Fallot</bdi>).",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Boot heart shape",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Most appropriate next investigation",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Boot",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "If echo is offered, it beats every other option as the next investigation for a boot-shaped heart."
+      "الصحيح <bdi>echo</bdi> بس مو موجود؛ من الخيارات <bdi>CT angio</bdi> أقل تدخل."
     ],
     "when_changes": [
-      "CXR: boot-shaped heart, decreased pulmonary markings",
-      "ECG: right axis deviation, RVH",
-      "Confirmatory: transthoracic echocardiography"
+      "لو الإيكو موجود، يكون هو الجواب."
     ],
-    "rule": "If echo is offered, it beats every other option as the next investigation for a boot-shaped heart.",
+    "rule": "قلب جزمة = <bdi>echo</bdi>.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1484B": {
     "correct_letter": "B",
@@ -62054,25 +62370,31 @@
   "AS-1488": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Confirm before you treat: karyotype comes before growth hormone.",
+    "idea": "بنت رقبتها مكففة وقصيرة وصدرها عريض.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "webbed neck",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "short stature",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "widely spaced nipples",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Confirm before you treat: karyotype comes before growth hormone."
+      "هذي صورة <bdi>Turner</bdi>، والتأكيد بالـ<bdi>Karyotype</bdi>."
     ],
     "when_changes": [
-      "Clues: short stature, webbed neck, low hairline, shield chest, widely spaced nipples, cubitus valgus, primary amenorrhea",
-      "Diagnosis: karyotype 45,X (or mosaic)",
-      "Screen: echo (coarctation, bicuspid aortic valve), renal US (horseshoe kidney), thyroid"
+      "بعد التأكيد نبدأ هرمون النمو."
     ],
-    "rule": "Confirm before you treat: karyotype comes before growth hormone.",
+    "rule": "أكدي قبل ما تعالجين.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1489": {
     "correct_letter": "A",
@@ -62098,27 +62420,33 @@
     "guideline_note": null
   },
   "AS-1490": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Cyanosis that appears only with crying settles when the baby is calmed; cyanosis that persists after calming, oxygen and knee-chest position is a true spell that needs escalation.",
+    "idea": "رضيع شهرين عنده مرض قلب خلقي، ازرق وهو يبكي.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "crying",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "bluish discoloration",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Baby",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Cyanosis that appears only with crying settles when the baby is calmed; cyanosis that persists after calming, oxygen and knee-chest position is a true spell that needs escalation."
+      "الزرقة مع البكي تهدأ لما يهدأ، فنعيد الفحص: <bdi>Reexamine after baby calmed</bdi>."
     ],
     "when_changes": [
-      "Cyanosis worse with crying or feeding = classic tetralogy of Fallot picture",
-      "Tet spell first aid: calm baby, knee-chest position, oxygen",
-      "Persistent spell: sedation and further medical treatment, then urgent cardiology"
+      "لو استمرت الزرقة بعد التهدئة، نوبة حقيقية نعالجها."
     ],
-    "rule": "Cyanosis that appears only with crying settles when the baby is calmed; cyanosis that persists after calming, oxygen and knee-chest position is a true spell that needs escalation.",
+    "rule": "زرقة مع البكي = هدي الطفل وأعيدي الفحص.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1491": {
     "correct_letter": "A",
@@ -62146,25 +62474,31 @@
   "AS-1499": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Normal CK plus myopathic EMG points to congenital myopathy; normal CK plus neurogenic EMG and fasciculations points to SMA.",
+    "idea": "رضيع ٤ أشهر، ارتخاء وضعف وانعكاسات قليلة، <bdi>CK</bdi> طبيعي، وتخطيط العضلات عضلي.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "hypotonia",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "CK normal",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "delayed motor",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Normal CK plus myopathic EMG points to congenital myopathy; normal CK plus neurogenic EMG and fasciculations points to SMA."
+      "<bdi>CK</bdi> طبيعي مع تخطيط عضلي = <bdi>Congenital myopathy</bdi>."
     ],
     "when_changes": [
-      "SMA: areflexia, tongue fasciculations, CK normal, EMG neurogenic, SMN1 gene test",
-      "Congenital myopathy: reflexes reduced, CK normal or mildly raised, EMG myopathic, diagnosis by biopsy",
-      "Congenital muscular dystrophy: CK markedly raised, EMG myopathic, contractures common"
+      "لو التخطيط عصبي مع رجفة باللسان، <bdi>SMA</bdi>."
     ],
-    "rule": "Normal CK plus myopathic EMG points to congenital myopathy; normal CK plus neurogenic EMG and fasciculations points to SMA.",
+    "rule": "<bdi>CK</bdi> طبيعي + تخطيط عضلي = اعتلال عضلي خلقي.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1508": {
     "correct_letter": "A",
@@ -62192,48 +62526,60 @@
   "AS-1509": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "In an HIV-infected child, inactivated vaccines are always safe; the live ones (MMR, varicella, BCG) are the ones whose timing depends on age and CD4.",
+    "idea": "رضيع ٦ أشهر عنده <bdi>HIV</bdi> على العلاج ونموه طبيعي.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "vertical transmission of HIV",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "month",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "infant",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "In an HIV-infected child, inactivated vaccines are always safe; the live ones (MMR, varicella, BCG) are the ones whose timing depends on age and CD4."
+      "اللقاحات غير الحية آمنة دائمًا، و<bdi>Inactivated influenza vaccine</bdi> يبدأ من ٦ أشهر."
     ],
     "when_changes": [
-      "Viral vaccines are live except hepatitis B, hepatitis A, IPV, HPV and inactivated influenza",
-      "Inactivated influenza: from 6 months, yearly, recommended in HIV",
-      "MMR and varicella: live, from 12 months, only with adequate CD4"
+      "اللقاحات الحية (<bdi>MMR</bdi>) من ١٢ شهر وبمناعة كافية."
     ],
-    "rule": "In an HIV-infected child, inactivated vaccines are always safe; the live ones (MMR, varicella, BCG) are the ones whose timing depends on age and CD4.",
+    "rule": "<bdi>HIV</bdi> = اللقاحات غير الحية دائمًا.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1510": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "Runny nose with normal temperature = vaccinate today; only a moderately to severely ill child has vaccines deferred.",
+    "idea": "رضيع ٤ أشهر عنده زكام خفيف وحرارته ٣٧.١.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "T 37.1",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "mild flu symptoms",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "months",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Runny nose with normal temperature = vaccinate today; only a moderately to severely ill child has vaccines deferred."
+      "المرض الخفيف مو مانع؛ نعطي تطعيمات الـ٤ أشهر، ومنها <bdi>DTaP</bdi>."
     ],
     "when_changes": [
-      "Postpone only for moderate or severe acute illness",
-      "2 and 4 months: IPV, DTaP, Hep B, Hib, PCV13, rotavirus",
-      "6 months: OPV first appears, plus IPV, DTaP, Hep B, Hib, PCV13"
+      "نأجل بس مع المرض المتوسط أو الشديد."
     ],
-    "rule": "Runny nose with normal temperature = vaccinate today; only a moderately to severely ill child has vaccines deferred.",
+    "rule": "زكام خفيف = طعمي بوقتها.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1511": {
     "correct_letter": "A",
@@ -62790,25 +63136,31 @@
   "AS-1578": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "For a child with ADHD features and a \"what to do\" lead in, the parent based behavioural programme usually beats general lifestyle advice.",
+    "idea": "طفل عنده علامات <bdi>ADHD</bdi> (كثير كلام ويقاطع).",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "prevent the progression",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "talkative and interrupt others",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Child",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "For a child with ADHD features and a \"what to do\" lead in, the parent based behavioural programme usually beats general lifestyle advice."
+      "العلاج الأول تدريب الأهل على إدارة السلوك (<bdi>parent training program</bdi>)."
     ],
     "when_changes": [
-      "Under 6 years: parent training in behaviour management first",
-      "6 years and older: stimulant medication plus behavioural therapy and school support",
-      "Core techniques: positive reinforcement, planned ignoring, consistent limits, time out"
+      "من ٦ سنوات نضيف دواء منبه."
     ],
-    "rule": "For a child with ADHD features and a \"what to do\" lead in, the parent based behavioural programme usually beats general lifestyle advice.",
+    "rule": "<bdi>ADHD</bdi> = برنامج للأهل أولًا.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1579": {
     "correct_letter": "C",
@@ -62926,27 +63278,33 @@
     "guideline_note": null
   },
   "AS-1589": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "\"Extravasation\" alone is not enough: contrast blush in a stable patient = angioembolization; urine leak = observe; unstable = theatre.",
+    "idea": "شاب بعد إصابة بطن، والأشعة فيها تسرب حول الكلية اليسرى.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "BLUNT abdominal trauma",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Extravasation around the left kidney",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "most appropriate step",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "\"Extravasation\" alone is not enough: contrast blush in a stable patient = angioembolization; urine leak = observe; unstable = theatre."
+      "المريض مستقر مع تسرب صبغة = <bdi>Angioembolization</bdi>."
     ],
     "when_changes": [
-      "Unstable despite resuscitation: surgery (exploration, nephrectomy if unreconstructable)",
-      "Stable, most grades: nonoperative, observe and repeat CT",
-      "Stable with active contrast extravasation, pseudoaneurysm or AV fistula: angioembolization"
+      "لو غير مستقر، جراحة؛ ولو تسرب بول، مراقبة."
     ],
-    "rule": "\"Extravasation\" alone is not enough: contrast blush in a stable patient = angioembolization; urine leak = observe; unstable = theatre.",
+    "rule": "كلية + تسرب صبغة + مستقر = قسطرة وسد.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1589B": {
     "correct_letter": "C",
@@ -62974,48 +63332,60 @@
   "AS-1590": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "The stem's word \"UNSTABLE\" pushes toward surgery; if the recall really meant a responder, angioembolization wins.",
+    "idea": "شاب بعد إصابة بطن، تسرب صبغة حول الكلية، وغير مستقر.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "UNSTABLE",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "CONTRAST Extravasation",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "BLUNT abdominal trauma",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "The stem's word \"UNSTABLE\" pushes toward surgery; if the recall really meant a responder, angioembolization wins."
+      "عدم الاستقرار يعني جراحة: <bdi>Left Nephrectomy</bdi>."
     ],
     "when_changes": [
-      "Stable, no blush: observe (fluids, bed rest, serial Hb).",
-      "Stable or responder with blush: angioembolization.",
-      "Persistently unstable: surgery (exploration, nephrectomy if not salvageable)."
+      "لو مستقر، قسطرة وسد."
     ],
-    "rule": "The stem's word \"UNSTABLE\" pushes toward surgery; if the recall really meant a responder, angioembolization wins.",
+    "rule": "كلية + غير مستقر = جراحة.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1591": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "SpO2 80% is never plain mild croup: oxygen and airway assessment come first, then look for severe croup versus a bacterial airway infection.",
+    "idea": "طفل حرارة وكحة نباحية، ضيق تنفس، ضغط ٨٠/٦٠ وأكسجين ٨٠٪.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Bp was 80/60",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Oxygen was 80%",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "barky cough",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "SpO2 80% is never plain mild croup: oxygen and airway assessment come first, then look for severe croup versus a bacterial airway infection."
+      "أكسجين ٨٠٪ مع ضيق = فشل تنفسي وشيك، فنأمن مجرى الهواء: <bdi>intubation in the OR</bdi>."
     ],
     "when_changes": [
-      "Mild croup (no stridor at rest): single dose dexamethasone",
-      "Moderate/severe (stridor at rest, retractions): nebulized epinephrine + steroid + oxygen",
-      "Impending failure (hypoxia, fatigue, altered consciousness): secure airway"
+      "لو الحالة خفيفة، <bdi>dexamethasone</bdi>."
     ],
-    "rule": "SpO2 80% is never plain mild croup: oxygen and airway assessment come first, then look for severe croup versus a bacterial airway infection.",
+    "rule": "كحة نباحية + أكسجين منخفض جدًا = تأمين مجرى الهواء.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1591B": {
     "correct_letter": "C",
@@ -63225,27 +63595,33 @@
     "guideline_note": null
   },
   "AS-1638": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Tachycardia = earliest sign of shock; hypotension = first sign of decompensation.",
+    "idea": "وش علامة الصدمة اللامعاوضة المبكرة؟",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "early decompensated shock",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "What",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "signs",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Tachycardia = earliest sign of shock; hypotension = first sign of decompensation."
+      "بالصدمة اللامعاوضة يصير فشل بالكلى، فالعلامة <bdi>Anuria</bdi>."
     ],
     "when_changes": [
-      "Compensated: normal BP, tachycardia, tachypnea, cool peripheries, reduced urine output.",
-      "Decompensated: hypotension, worsening metabolic acidosis, renal failure (anuria).",
-      "Irreversible: multiorgan failure, poor response to inotropes."
+      "أول علامة للصدمة عمومًا تسارع النبض."
     ],
-    "rule": "Tachycardia = earliest sign of shock; hypotension = first sign of decompensation.",
+    "rule": "تسارع النبض = صدمة مبكرة؛ انخفاض الضغط والفشل الكلوي = لامعاوضة.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1638B": {
     "correct_letter": "C",
@@ -63294,27 +63670,33 @@
     "guideline_note": null
   },
   "AS-1640": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "The words \"no collection\" turn a drainage question into a conservative-management question.",
+    "idea": "التهاب زائدة، والأشعة فيها كتلة بدون تجمع.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Appendiceal mass with no collection",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "patient",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "presented",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "The words \"no collection\" turn a drainage question into a conservative-management question."
+      "كتلة بدون تجمع = <bdi>Conservative</bdi> بالمضاد الوريدي."
     ],
     "when_changes": [
-      "Uncomplicated appendicitis: laparoscopic appendectomy",
-      "Mass/phlegmon, no collection: conservative (IV antibiotics)",
-      "Abscess (collection): percutaneous drainage + IV antibiotics"
+      "لو فيه تجمع، تصريف من الجلد."
     ],
-    "rule": "The words \"no collection\" turn a drainage question into a conservative-management question.",
+    "rule": "كتلة زائدة = مضاد؛ تجمع = تصريف.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1641": {
     "correct_letter": "C",
@@ -63526,48 +63908,60 @@
   "AS-1675": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "\"Rapid control\" or severe agitation points to an antipsychotic; \"mood stabilizer\" or long term control points to lithium.",
+    "idea": "مريض <bdi>bipolar</bdi> نوع أول بنوبة هوس.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "bipolar type 1",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "manic episode",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "bipolar",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "\"Rapid control\" or severe agitation points to an antipsychotic; \"mood stabilizer\" or long term control points to lithium."
+      "العلاج الأول <bdi>Lithium</bdi> مع متابعة مستواه."
     ],
     "when_changes": [
-      "Mild to moderate: lithium, valproate or an antipsychotic alone",
-      "Severe or agitated: antipsychotic plus lithium or valproate; short term benzodiazepine for agitation",
-      "Valproate is avoided in women of childbearing potential"
+      "لو الهوس شديد أو فيه هياج، نضيف مضاد ذهان."
     ],
-    "rule": "\"Rapid control\" or severe agitation points to an antipsychotic; \"mood stabilizer\" or long term control points to lithium.",
+    "rule": "هوس = مثبت مزاج.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1676": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "In a \"depressed\" patient with bipolar family history who now has pressured speech, adding an antidepressant is the trap.",
+    "idea": "مريض اكتئاب متكرر وعائلته فيها ثنائي القطب، والحين كلامه سريع وما ينام.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "depressive episodes",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "positive family history of bipolar",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "pressured speech and insomnia",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "In a \"depressed\" patient with bipolar family history who now has pressured speech, adding an antidepressant is the trap."
+      "هذي علامات هوس، فنعطي مثبت مزاج (<bdi>Mood stabilizer</bdi>)."
     ],
     "when_changes": [
-      "Pressured speech, insomnia without fatigue, grandiosity: hypomania or mania",
-      "Management: mood stabilizer or antipsychotic, stop antidepressant",
-      "Antidepressant monotherapy in bipolar depression can trigger mania"
+      "مضاد الاكتئاب وحده يثير الهوس."
     ],
-    "rule": "In a \"depressed\" patient with bipolar family history who now has pressured speech, adding an antidepressant is the trap.",
+    "rule": "اكتئاب + عائلة ثنائي القطب + هوس = مثبت مزاج.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1677": {
     "correct_letter": "D",
@@ -63616,27 +64010,33 @@
     "guideline_note": null
   },
   "AS-1685": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "If core needle biopsy appears as an option, it beats both excisional and incisional biopsy for a suspected limb sarcoma.",
+    "idea": "كتلة بالعضلة ثلاثية الرؤوس يشتبه إنها خبيثة (<bdi>sarcoma</bdi>).",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Triceps mass",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Suggestive of malignant",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Triceps",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "If core needle biopsy appears as an option, it beats both excisional and incisional biopsy for a suspected limb sarcoma."
+      "للكتلة الكبيرة المشتبهة نسوي <bdi>Incisional biopsy</bdi> على خط الاستئصال."
     ],
     "when_changes": [
-      "Local imaging: MRI of the mass",
-      "Biopsy of choice: core needle (usually image guided)",
-      "Small superficial lesion: excisional biopsy"
+      "لو الكتلة صغيرة وسطحية، خزعة استئصالية."
     ],
-    "rule": "If core needle biopsy appears as an option, it beats both excisional and incisional biopsy for a suspected limb sarcoma.",
+    "rule": "ساركوما مشتبهة = خزعة قبل الاستئصال.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1689": {
     "correct_letter": "C",
@@ -63915,27 +64315,33 @@
     "guideline_note": null
   },
   "AS-1723": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Deciding fork: major surgery with no bleeding risk favours LMWH (± stockings); minor surgery or high bleeding risk favours mechanical prophylaxis alone.",
+    "idea": "امرأة <bdi>BMI</bdi> ٣٥ بتسوي عملية.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "BMI 35",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "VTE prophylaxis",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Female",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Deciding fork: major surgery with no bleeding risk favours LMWH (± stockings); minor surgery or high bleeding risk favours mechanical prophylaxis alone."
+      "السمنة مع الجراحة خطر متوسط-عالي = <bdi>LMWH 40 mg once daily</bdi>."
     ],
     "when_changes": [
-      "Low risk: early mobilization ± mechanical",
-      "Moderate/high risk (obesity, major surgery, cancer, immobility): LMWH, e.g. enoxaparin 40 mg SC daily",
-      "High bleeding risk: mechanical until safe to start drug"
+      "لو خطر النزيف عالي، الوسائل الميكانيكية."
     ],
-    "rule": "Deciding fork: major surgery with no bleeding risk favours LMWH (± stockings); minor surgery or high bleeding risk favours mechanical prophylaxis alone.",
+    "rule": "سمنة + جراحة = مميع وقائي.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1731": {
     "correct_letter": "C",
@@ -63984,27 +64390,33 @@
     "guideline_note": null
   },
   "AS-1732": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "Crepitus in a diabetic perineum means theatre now; imaging is only for doubtful, stable cases.",
+    "idea": "<bdi>Fournier gangrene</bdi> بمريض سكري مع فرقعة تحت الجلد.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "crepitus",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Fournier's Gangrene",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "initial investigation",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Crepitus in a diabetic perineum means theatre now; imaging is only for doubtful, stable cases."
+      "لو احتجنا تصوير، <bdi>CT</bdi> يوضح الغاز والامتداد؛ بس العلاج الأساسي جراحة فورية."
     ],
     "when_changes": [
-      "Risk: diabetes, immunosuppression, perianal or urogenital infection",
-      "Clues: pain out of proportion, crepitus, dusky skin, bullae, systemic toxicity",
-      "Polymicrobial (gram positive, gram negative, anaerobes)"
+      "مع فرقعة واضحة، العمليات فورًا بدون انتظار التصوير."
     ],
-    "rule": "Crepitus in a diabetic perineum means theatre now; imaging is only for doubtful, stable cases.",
+    "rule": "فرقعة بالعجان بمريض سكري = عمليات الآن.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1745": {
     "correct_letter": "C",
@@ -64101,48 +64513,60 @@
   "AS-1759": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "A normal neurological exam excludes kernicterus; jaundice only becomes kernicterus when the baby shows neuro signs.",
+    "idea": "مولود ٥ أيام عنده صفار بس، وباقي الفحص طبيعي.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "5 days old",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Isolated jaundice",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "all other exam normal",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "A normal neurological exam excludes kernicterus; jaundice only becomes kernicterus when the baby shows neuro signs."
+      "صفار برضيع سليم بنهاية الأسبوع الأول = <bdi>Breast milk jaundice</bdi>."
     ],
     "when_changes": [
-      "First 24 hours = pathological (haemolysis) until proven otherwise",
-      "Days 2 to 3, well baby = physiological",
-      "First week with poor intake = breastfeeding jaundice"
+      "لو فيه علامات عصبية مع صفار عالي جدًا، <bdi>kernicterus</bdi>."
     ],
-    "rule": "A normal neurological exam excludes kernicterus; jaundice only becomes kernicterus when the baby shows neuro signs.",
+    "rule": "الفحص العصبي الطبيعي يستبعد اليرقان النووي.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1760": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Rupture means repair; drugs only buy time.",
+    "idea": "كتلة نابضة بالبطن مع دليل على انفجار (<bdi>AAA</bdi>).",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "evidence of rupture",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "pulsatile abdominal mass",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "definitive management",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Rupture means repair; drugs only buy time."
+      "الانفجار = <bdi>surgery</bdi> فورًا."
     ],
     "when_changes": [
-      "Unstable or suspected rupture: bedside ultrasound, straight to theatre",
-      "Stable and symptomatic: CT angiography",
-      "Repair if &gt;5.5 cm in men, &gt;5 cm in women, rapidly growing, symptomatic or ruptured"
+      "لو مستقر وبدون أعراض وصغير، متابعة."
     ],
-    "rule": "Rupture means repair; drugs only buy time.",
+    "rule": "تمدد أبهر منفجر = عمليات.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1766": {
     "correct_letter": "C",
@@ -64168,27 +64592,33 @@
     "guideline_note": null
   },
   "AS-1768": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "\"Best measure now\" in a stable patient awaiting a consult points to protection (immobilization); \"best test\" points to CT.",
+    "idea": "بعد حادث، ألم ظهر شديد والفحص طبيعي، وطلبنا استشارة.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "MVA",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "severe back pain",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Patient",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "\"Best measure now\" in a stable patient awaiting a consult points to protection (immobilization); \"best test\" points to CT."
+      "الأهم الحين حماية العمود: <bdi>ensure spine immobilization</bdi>."
     ],
     "when_changes": [
-      "High energy mechanism + midline back or neck pain = assume spinal injury.",
-      "Maintain immobilization (log roll, collar) until cleared.",
-      "CT is the imaging of choice to clear the spine."
+      "لو السؤال عن الفحص، <bdi>CT</bdi>."
     ],
-    "rule": "\"Best measure now\" in a stable patient awaiting a consult points to protection (immobilization); \"best test\" points to CT.",
+    "rule": "إصابة عمود مشتبهة = ثبتي أولًا.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1770": {
     "correct_letter": "C",
@@ -64214,27 +64644,33 @@
     "guideline_note": null
   },
   "AS-1771": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "\"Agitated\" tempts you to sedate, but exams reward non drug measures plus treating the cause unless there is danger.",
+    "idea": "مسن عنده التهاب بول، صار عنده تشوش متذبذب وهياج (<bdi>delirium</bdi>).",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "AGITATED",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "acute confusion with fluctuations in",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Elderly",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "\"Agitated\" tempts you to sedate, but exams reward non drug measures plus treating the cause unless there is danger."
+      "نعالج السبب ونبدأ بالإجراءات غير الدوائية: <bdi>regular sleep cycle</bdi>."
     ],
     "when_changes": [
-      "Treat the cause (here the UTI and sepsis)",
-      "Non drug measures first: sleep cycle, reorientation, lighting, aids, family",
-      "Antipsychotic only for dangerous agitation"
+      "المهدئ بس لو الهياج خطير."
     ],
-    "rule": "\"Agitated\" tempts you to sedate, but exams reward non drug measures plus treating the cause unless there is danger.",
+    "rule": "هذيان = عالجي السبب + إجراءات غير دوائية.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1774": {
     "correct_letter": "A",
@@ -64283,27 +64719,33 @@
     "guideline_note": null
   },
   "AS-1787": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Any hypotension that does not respond to fluids flips the answer from observation to laparotomy, whatever the grade.",
+    "idea": "تمزق طحال درجة ٣.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "splenic laceration grade3",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "splenic",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "laceration",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Any hypotension that does not respond to fluids flips the answer from observation to laparotomy, whatever the grade."
+      "المريض المستقر = <bdi>non-operative monitoring</bdi>، بغض النظر عن الدرجة."
     ],
     "when_changes": [
-      "Stable: non-operative management with monitoring.",
-      "Stable with contrast blush: angioembolization.",
-      "Unstable or peritonitis: splenectomy (laparotomy)."
+      "لو غير مستقر، استئصال الطحال."
     ],
-    "rule": "Any hypotension that does not respond to fluids flips the answer from observation to laparotomy, whatever the grade.",
+    "rule": "الطحال: الاستقرار يحدد، مو الدرجة.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1788": {
     "correct_letter": "A",
@@ -64377,25 +64819,31 @@
   "AS-1800": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "\"Not compliant with medication\" in psychosis points to a depot (long acting injectable) antipsychotic.",
+    "idea": "مريض ذهان ما يلتزم بالدواء.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "not compliance to medication",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Patient",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "with",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "\"Not compliant with medication\" in psychosis points to a depot (long acting injectable) antipsychotic."
+      "عدم الالتزام = <bdi>long acting injectable antipsychotic</bdi>."
     ],
     "when_changes": [
-      "Non adherence to oral drugs: long acting injectable antipsychotic",
-      "Explore reasons: side effects, poor insight, substance use",
-      "Add psychoeducation, family intervention and support groups"
+      "لو فشل دوائين، <bdi>clozapine</bdi>."
     ],
-    "rule": "\"Not compliant with medication\" in psychosis points to a depot (long acting injectable) antipsychotic.",
+    "rule": "ذهان + عدم التزام = إبرة طويلة المفعول.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1804": {
     "correct_letter": "A",
@@ -64582,27 +65030,33 @@
     "guideline_note": null
   },
   "AS-1823": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "With no size, number or histology given, decide by asking: was it complete, and was it an adenoma? Those two facts set the interval.",
+    "idea": "رجل ٣٠ سنة انشال منه بوليب بالمنظار.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "polyp was removed",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "30-year-old",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "underwent",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "With no size, number or histology given, decide by asking: was it complete, and was it an adenoma? Those two facts set the interval."
+      "بدون معلومات عن الحجم والنوع، البوليب الصغير الواحد متابعته ٧-١٠ سنوات، فالأقرب <bdi>10 years</bdi>."
     ],
     "when_changes": [
-      "1-2 tubular adenomas &lt;10 mm: 7-10 years",
-      "Adenoma ≥10 mm, villous features or high-grade dysplasia: 3 years",
-      "Piecemeal or incomplete removal of a large polyp: short interval re-look (about 6 months)"
+      "لو البوليب ١ سم أو أكثر، ٣ سنوات."
     ],
-    "rule": "With no size, number or histology given, decide by asking: was it complete, and was it an adenoma? Those two facts set the interval.",
+    "rule": "بوليب صغير = ٧-١٠ سنوات؛ كبير = ٣ سنوات.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1824": {
     "correct_letter": "B",
@@ -64651,27 +65105,33 @@
     "guideline_note": null
   },
   "AS-1826": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "'Benign looking' tubular adenoma still needs surveillance; the interval turns on whether the 1.5 cm polyp was removed completely.",
+    "idea": "بوليب ١.٥ سم <bdi>tubular adenoma</bdi>.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "tubular adenoma",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "1.5 cm polyp sigmoid",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "year",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "'Benign looking' tubular adenoma still needs surveillance; the interval turns on whether the 1.5 cm polyp was removed completely."
+      "بوليب ١ سم أو أكثر = متابعة بعد <bdi>3 years</bdi>."
     ],
     "when_changes": [
-      "1-2 tubular adenomas &lt;10 mm: 7-10 years",
-      "Adenoma ≥10 mm, villous features or high-grade dysplasia: 3 years",
-      "Piecemeal or incomplete removal of a large polyp: short interval re-look (about 6 months)"
+      "لو صغير، ٧-١٠ سنوات."
     ],
-    "rule": "'Benign looking' tubular adenoma still needs surveillance; the interval turns on whether the 1.5 cm polyp was removed completely.",
+    "rule": "بوليب كبير = ٣ سنوات.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1827": {
     "correct_letter": "B",
@@ -64906,48 +65366,60 @@
   "AS-1848": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Watch the lead-in: \"next investigation for gas exchange\" favors ABG, while \"repeat after an interval\" wording points to an evolving contusion or pneumothorax.",
+    "idea": "بعد حادث، كان مستقر وفجأة نزل الأكسجين ٨٨٪، والأشعة الأولى طبيعية.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "suddenly desaturated spo2 ~88%",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Chest X ray was NORMAL",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "came",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Watch the lead-in: \"next investigation for gas exchange\" favors ABG, while \"repeat after an interval\" wording points to an evolving contusion or pneumothorax."
+      "<bdi>pulmonary contusion</bdi> ما يظهر بالأشعة إلا بعد ساعات، فنعيد الأشعة: <bdi>Repeat chest X-ray</bdi>."
     ],
     "when_changes": [
-      "Pulmonary contusion: x-ray changes can lag hours after injury",
-      "Pneumothorax: may be occult on a supine film or develop later",
-      "Fat embolism: long bone fractures, typically 24 to 72 hours later, with confusion and petechiae"
+      "<bdi>ABG</bdi> يأكد نقص الأكسجين، بس الأشعة تكشف السبب."
     ],
-    "rule": "Watch the lead-in: \"next investigation for gas exchange\" favors ABG, while \"repeat after an interval\" wording points to an evolving contusion or pneumothorax.",
+    "rule": "أشعة صدر أولى طبيعية ما تستبعد كدمة الرئة.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1849": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "A normal first film after chest trauma does not exclude contusion or pneumothorax; a hypoxic patient needs reassessment, not reassurance.",
+    "idea": "بعد حادث، كان مستقر وفجأة نزل الأكسجين ٨٨٪، والأشعة الأولى طبيعية.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "suddenly desaturated spo2 ~88%",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Chest X ray was NORMAL",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "came",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "A normal first film after chest trauma does not exclude contusion or pneumothorax; a hypoxic patient needs reassessment, not reassurance."
+      "<bdi>pulmonary contusion</bdi> ما يظهر بالأشعة إلا بعد ساعات: <bdi>Repeat chest X-ray after 1 hour</bdi>."
     ],
     "when_changes": [
-      "Pulmonary contusion: x-ray changes can lag hours after injury",
-      "Pneumothorax: may be occult on a supine film or develop later",
-      "Fat embolism: long bone fractures, typically 24 to 72 hours later, with confusion and petechiae"
+      "<bdi>ABG</bdi> يأكد نقص الأكسجين، بس الأشعة تكشف السبب."
     ],
-    "rule": "A normal first film after chest trauma does not exclude contusion or pneumothorax; a hypoxic patient needs reassessment, not reassurance.",
+    "rule": "أشعة صدر أولى طبيعية ما تستبعد كدمة الرئة.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1856": {
     "correct_letter": "C",
@@ -64996,27 +65468,33 @@
     "guideline_note": null
   },
   "AS-1877": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "CA19-9 points to the pancreas or bile ducts; AFP points to the liver.",
+    "idea": "رجل ٦٨ سنة، ألم وقيء وصفار، و<bdi>CA19-9</bdi> مرتفع جدًا.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "CA19:510",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "CA19-9 very high",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "jaundice",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "CA19-9 points to the pancreas or bile ducts; AFP points to the liver."
+      "صفار انسدادي مع <bdi>CA19-9</bdi> عالي = <bdi>Cancer of head of pancreas</bdi>."
     ],
     "when_changes": [
-      "CA19-9: pancreatic/biliary marker; AFP: hepatocellular carcinoma",
-      "Distended gallbladder + dilated intra and extrahepatic ducts: distal (pancreatic head) obstruction",
-      "Shrunken gallbladder + intrahepatic dilation only: hilar (Klatskin) tumor"
+      "لو <bdi>AFP</bdi> عالي، ورم الكبد."
     ],
-    "rule": "CA19-9 points to the pancreas or bile ducts; AFP points to the liver.",
+    "rule": "<bdi>CA19-9</bdi> = بنكرياس؛ <bdi>AFP</bdi> = كبد.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1877B": {
     "correct_letter": "B",
@@ -65341,27 +65819,33 @@
     "guideline_note": null
   },
   "AS-1910": {
-    "correct_letter": "A",
+    "correct_letter": "D",
     "self_judged": true,
-    "idea": "If the expected answer (about 7 months) is missing, the recall is probably garbled; learn the bracket, not the option.",
+    "idea": "طفل ينقل الأشياء بين يديه بس ما عنده مسكة الملقط.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "transfer objects hand-to-hand",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "hasn't developed pincer grasp",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Child",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "If the expected answer (about 7 months) is missing, the recall is probably garbled; learn the bracket, not the option."
+      "النقل بين اليدين ٦ أشهر، والملقط ٩-١٢ شهر، فالعمر ٦-٨ أشهر؛ أقرب خيار ١٢ شهر."
     ],
     "when_changes": [
-      "Transfer hand to hand, palmar grasp, sits alone: 6 months",
-      "Immature pincer grasp: 9 months",
-      "Mature pincer grasp: 12 months"
+      "مسكة الملقط الكاملة بعمر ١٢ شهر."
     ],
-    "rule": "If the expected answer (about 7 months) is missing, the recall is probably garbled; learn the bracket, not the option.",
+    "rule": "نقل بين اليدين ٦ أشهر، ملقط ٩-١٢ شهر.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1911": {
     "correct_letter": "C",
@@ -65431,27 +65915,33 @@
     "guideline_note": null
   },
   "AS-1922": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "SpO2 80% is never plain mild croup: oxygen and airway assessment come first, then look for severe croup versus a bacterial airway infection.",
+    "idea": "طفل حرارة وكحة نباحية، ضيق تنفس، ضغط ٨٠/٦٠ وأكسجين ٨٠٪.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Oxygen was 80%",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "in distress",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "fever and barky cough",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "SpO2 80% is never plain mild croup: oxygen and airway assessment come first, then look for severe croup versus a bacterial airway infection."
+      "أكسجين ٨٠٪ مع ضيق = فشل تنفسي وشيك، فنأمن مجرى الهواء: <bdi>intubation in the OR</bdi>."
     ],
     "when_changes": [
-      "Mild croup (no stridor at rest): single dose dexamethasone",
-      "Moderate/severe (stridor at rest, retractions): nebulized epinephrine + steroid + oxygen",
-      "Impending failure (hypoxia, fatigue, altered consciousness): secure airway"
+      "لو الحالة خفيفة، <bdi>dexamethasone</bdi>."
     ],
-    "rule": "SpO2 80% is never plain mild croup: oxygen and airway assessment come first, then look for severe croup versus a bacterial airway infection.",
+    "rule": "كحة نباحية + أكسجين منخفض جدًا = تأمين مجرى الهواء.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1925": {
     "correct_letter": "C",
@@ -65500,27 +65990,33 @@
     "guideline_note": null
   },
   "AS-1928": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Count the doses: every 4 hours around the clock is 6 doses a day, and jaundice from paracetamol liver injury typically appears around day 3.",
+    "idea": "طفل تشنج حراري، أمه أعطته باراسيتامول كل ٤ ساعات لـ٣ أيام، وصار عنده صفار.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "jundice",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "paracetamol every 4h for 3days",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Paedia",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Count the doses: every 4 hours around the clock is 6 doses a day, and jaundice from paracetamol liver injury typically appears around day 3."
+      "جرعات متكررة لأيام ثم صفار باليوم الثالث = <bdi>Paracetamol toxicity</bdi>."
     ],
     "when_changes": [
-      "Stage 1 (first 24 h): nausea, vomiting, malaise, normal labs",
-      "Stage 2 (days 2 to 3): RUQ pain, rising transaminases",
-      "Stage 3 (days 3 to 4): jaundice, encephalopathy, coagulopathy, liver failure"
+      "العلاج <bdi>N-acetylcysteine</bdi>."
     ],
-    "rule": "Count the doses: every 4 hours around the clock is 6 doses a day, and jaundice from paracetamol liver injury typically appears around day 3.",
+    "rule": "باراسيتامول متكرر + صفار = تسمم.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1929": {
     "correct_letter": "C",
@@ -65571,25 +66067,31 @@
   "AS-1933": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Prophylaxis is about the organism, not the word \"meningitis\": pneumococcus spreads poorly and contacts need nothing.",
+    "idea": "طفل التهاب سحايا، وصبغة غرام فيها <bdi>Gram-positive cocci</bdi>.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "chemoprophylaxis",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Grampositive cocci",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "7-year-old",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Prophylaxis is about the organism, not the word \"meningitis\": pneumococcus spreads poorly and contacts need nothing."
+      "إيجابي الغرام = المكورات الرئوية وما تحتاج وقاية للمخالطين؛ لو لازم نختار، <bdi>Rifampicin</bdi> الأشيع للأطفال."
     ],
     "when_changes": [
-      "Gram-positive diplococci = pneumococcus: no contact prophylaxis",
-      "Gram-negative diplococci = meningococcus: rifampicin, ciprofloxacin or ceftriaxone",
-      "Gram-negative coccobacilli = Hib: rifampicin"
+      "لو سالب الغرام (<bdi>meningococcus</bdi> أو <bdi>Hib</bdi>)، الوقاية <bdi>rifampicin</bdi>."
     ],
-    "rule": "Prophylaxis is about the organism, not the word \"meningitis\": pneumococcus spreads poorly and contacts need nothing.",
+    "rule": "الوقاية تعتمد على الجرثومة.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1934": {
     "correct_letter": "B",
@@ -65822,27 +66324,33 @@
     "guideline_note": null
   },
   "AS-1942B": {
-    "correct_letter": "A",
+    "correct_letter": "D",
     "self_judged": true,
-    "idea": "Peeling of the fingertips after prolonged fever is Kawasaki; fine branny peeling of a fading cephalocaudal rash after a cough/coryza prodrome is measles.",
+    "idea": "طفل عنده طفح يبدأ من الوجه وينزل، وبعدين تقشير.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "rash in face or neck",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "pediatric",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "rash",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Peeling of the fingertips after prolonged fever is Kawasaki; fine branny peeling of a fading cephalocaudal rash after a cough/coryza prodrome is measles."
+      "طفح ينزل من الوجه ثم تقشير ناعم = <bdi>measles</bdi>."
     ],
     "when_changes": [
-      "Measles: 3 Cs + Koplik, confluent rash, fine branny peeling as it fades",
-      "Rubella: mild, discrete pink macules, posterior nodes",
-      "Kawasaki: fever ≥5 days + mucocutaneous signs, fingertip peeling later"
+      "لو تقشير الأصابع بعد حرارة ٥ أيام، <bdi>Kawasaki</bdi>."
     ],
-    "rule": "Peeling of the fingertips after prolonged fever is Kawasaki; fine branny peeling of a fading cephalocaudal rash after a cough/coryza prodrome is measles.",
+    "rule": "طفح من الوجه للأسفل = حصبة أو حصبة ألمانية.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1943": {
     "correct_letter": "A",
@@ -66029,27 +66537,33 @@
     "guideline_note": null
   },
   "AS-1979": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "Paradoxical movement means flail chest, raised JVP with hypotension and equal air entry means tamponade, and isolated progressive hypoxia means contusion: find the sign before naming the lesion.",
+    "idea": "حادث، ٣ أضلاع مكسورة، كان مستقر ثم ضاق تنفسه والصدر نظيف.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "fractured 3 ribs",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Chest clear",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "at first stable Then become",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Paradoxical movement means flail chest, raised JVP with hypotension and equal air entry means tamponade, and isolated progressive hypoxia means contusion: find the sign before naming the lesion."
+      "نقص أكسجين متأخر مع صدر نظيف = <bdi>pulmonary contusion</bdi>."
     ],
     "when_changes": [
-      "Paradoxical segment + multiple rib fractures: flail chest (supportive: analgesia, oxygen, ventilation)",
-      "Hypotension + raised JVP + muffled heart sounds + equal air entry: cardiac tamponade",
-      "Absent breath sounds + hyperresonance + tracheal shift: tension pneumothorax"
+      "لو حركة عكسية بالصدر، <bdi>flail chest</bdi>."
     ],
-    "rule": "Paradoxical movement means flail chest, raised JVP with hypotension and equal air entry means tamponade, and isolated progressive hypoxia means contusion: find the sign before naming the lesion.",
+    "rule": "ضيق متأخر + صدر نظيف = كدمة رئة.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1983": {
     "correct_letter": "B",
@@ -66077,25 +66591,31 @@
   "AS-1984": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Facial injury moves the choice to a surgical airway only when it makes oral intubation unsafe or impossible (distorted anatomy, profuse oral bleeding); otherwise intubate.",
+    "idea": "حادث مع إصابات بالوجه والأكسجين ينزل.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Desaturating",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "facial injuries",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Next step",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Facial injury moves the choice to a surgical airway only when it makes oral intubation unsafe or impossible (distorted anatomy, profuse oral bleeding); otherwise intubate."
+      "نقص الأكسجين يعني نأمن الهواء بـ<bdi>Endotracheal intubation</bdi>، إلا لو الوجه مشوه لدرجة يمنع التنبيب."
     ],
     "when_changes": [
-      "Intubation indications: SpO2 below 88%, GCS 8 or less, unconscious, aspiration risk",
-      "Indication + intact face: endotracheal intubation",
-      "Indication + major facial or mandibular injury: cricothyroidotomy"
+      "لو التنبيب مستحيل، <bdi>cricothyroidotomy</bdi>."
     ],
-    "rule": "Facial injury moves the choice to a surgical airway only when it makes oral intubation unsafe or impossible (distorted anatomy, profuse oral bleeding); otherwise intubate.",
+    "rule": "إصابة وجه + نقص أكسجين = تنبيب، إلا لو مستحيل.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-1985": {
     "correct_letter": "D",
@@ -66995,27 +67515,33 @@
     "guideline_note": null
   },
   "AS-2056": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "\"Stromal\" + \"mitoses\" + \"rapidly enlarging\" are phyllodes words; carcinoma is defined by abnormal epithelial cells.",
+    "idea": "امرأة عندها كتلة ثدي ٥ سم تكبر بسرعة، والخزعة فيها خلايا ليفية مع انقسامات.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "rapidly enlarging 5 cm breast",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "stromal cells with increased mitotic",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Female",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "\"Stromal\" + \"mitoses\" + \"rapidly enlarging\" are phyllodes words; carcinoma is defined by abnormal epithelial cells."
+      "كتلة تكبر بسرعة + خلايا ليفية + انقسامات = <bdi>Phyllodes tumor</bdi>."
     ],
     "when_changes": [
-      "Fibroadenoma: young, small, slow growth, bland stroma",
-      "Phyllodes: rapid growth, large, cellular stroma with mitoses, leaf-like pattern",
-      "Phyllodes spreads hematogenously, not to axillary nodes"
+      "لو صغيرة وبطيئة، <bdi>fibroadenoma</bdi>."
     ],
-    "rule": "\"Stromal\" + \"mitoses\" + \"rapidly enlarging\" are phyllodes words; carcinoma is defined by abnormal epithelial cells.",
+    "rule": "سريع + ليفي + انقسامات = فيلودس.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2057": {
     "correct_letter": "D",
@@ -67110,27 +67636,33 @@
     "guideline_note": null
   },
   "AS-2067": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Conjunctivitis plus runny nose pushes exudative tonsillitis toward a virus; their absence with tender anterior nodes favors strep.",
+    "idea": "طفل لوزه متضخمة مع صديد، أخوه مريض، ومعه زكام والتهاب عين.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "conjunctivitis",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Brother also sick",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Most likely diagnosis",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Conjunctivitis plus runny nose pushes exudative tonsillitis toward a virus; their absence with tender anterior nodes favors strep."
+      "التهاب العين مع الزكام والعدوى العائلية = <bdi>Adenoviral pharyngitis</bdi>."
     ],
     "when_changes": [
-      "Conjunctivitis + coryza + family cluster: adenovirus",
-      "Tender anterior nodes, no cough or coryza: group A strep",
-      "Generalized nodes, splenomegaly, atypical lymphocytes: EBV"
+      "لو غدد أمامية مؤلمة وبدون زكام، <bdi>strep</bdi>."
     ],
-    "rule": "Conjunctivitis plus runny nose pushes exudative tonsillitis toward a virus; their absence with tender anterior nodes favors strep.",
+    "rule": "التهاب عين + زكام = فيروس.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2068": {
     "correct_letter": "C",
@@ -67593,27 +68125,33 @@
     "guideline_note": null
   },
   "AS-2101": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "No abscess on imaging removes drainage; distended bowel makes this an obstruction (stricture) question.",
+    "idea": "مريض <bdi>Crohn</bdi> عنده أمعاء منتفخة بدون خراج.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "not abscess",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "crohns disease",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "distended bowel",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "No abscess on imaging removes drainage; distended bowel makes this an obstruction (stricture) question."
+      "انتفاخ = انسداد من تضيق، والعلاج <bdi>Laparotomy</bdi> مع الاستئصال."
     ],
     "when_changes": [
-      "Abscess: percutaneous drainage + antibiotics",
-      "Stricture with obstruction (vomiting, pain, distension): resection, stricturoplasty second line",
-      "Uncomplicated obstruction: start with bowel rest, NG decompression, IV fluids"
+      "لو فيه خراج، تصريف من الجلد."
     ],
-    "rule": "No abscess on imaging removes drainage; distended bowel makes this an obstruction (stricture) question.",
+    "rule": "كرون + انسداد = جراحة؛ خراج = تصريف.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2103": {
     "correct_letter": "C",
@@ -67662,27 +68200,33 @@
     "guideline_note": null
   },
   "AS-2106": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Size and stability drive the choice: a 1 cm collection is never drained first.",
+    "idea": "رجل ٨٠ سنة، ألم أسفل البطن، مستقر، وتجمع ١×١ سم.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "afebrile",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "hemodynamically stable",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "1 × 1 cm fluid",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Size and stability drive the choice: a 1 cm collection is never drained first."
+      "تجمع صغير أقل من ٤ سم = <bdi>empiric IV antibiotics</bdi>."
     ],
     "when_changes": [
-      "Small (below 4 × 4 cm), stable: antibiotics (conservative)",
-      "4 × 4 cm or more: percutaneous (image-guided) drainage",
-      "Multiple collections: laparoscopy"
+      "لو ٤ سم أو أكثر، تصريف."
     ],
-    "rule": "Size and stability drive the choice: a 1 cm collection is never drained first.",
+    "rule": "تجمع صغير = مضاد؛ كبير = تصريف.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2107": {
     "correct_letter": "B",
@@ -67779,25 +68323,31 @@
   "AS-2115": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "The neurological deficit is what turns an antibiotic case into an emergency surgical decompression.",
+    "idea": "تنميل وضعف بالأرجل وألم ظهر، والرنين فيه خراج يضغط.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "numbness",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "sever back pain",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "lower limb weakness",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "The neurological deficit is what turns an antibiotic case into an emergency surgical decompression."
+      "عجز عصبي = <bdi>I and D with decompression</bdi> فورًا."
     ],
     "when_changes": [
-      "Classic triad: back pain, fever, neurological deficit",
-      "Imaging of choice: MRI with contrast",
-      "Deficit or progressive signs: surgical decompression + drainage + IV antibiotics"
+      "لو ما فيه عجز، مضاد وريدي مع مراقبة."
     ],
-    "rule": "The neurological deficit is what turns an antibiotic case into an emergency surgical decompression.",
+    "rule": "خراج عمود + عجز عصبي = جراحة فورية.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2117": {
     "correct_letter": "C",
@@ -67869,27 +68419,33 @@
     "guideline_note": null
   },
   "AS-2119": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Delayed (not precocious) puberty with short stature in a girl makes Turner the exam favourite, but it needs HIGH gonadotropins.",
+    "idea": "بنت ١٤ سنة بلوغ متأخر، <bdi>FSH</bdi> و<bdi>LH</bdi> طبيعيين، والإستروجين مرتفع شوي.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "14-year-old",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Tanner Stage 1",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "delayed puberty",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Delayed (not precocious) puberty with short stature in a girl makes Turner the exam favourite, but it needs HIGH gonadotropins."
+      "<bdi>Turner</bdi> يحتاج <bdi>FSH/LH</bdi> مرتفعة؛ <bdi>Alagille syndrome</bdi> مرض كبد مزمن يأخر البلوغ ويرفع الإستروجين."
     ],
     "when_changes": [
-      "High FSH/LH, low estradiol: primary ovarian failure (Turner most common)",
-      "Low or normal FSH/LH: constitutional delay, chronic illness, low weight, hypothalamic or pituitary causes",
-      "Precocious puberty: signs before age 8 in girls"
+      "لو <bdi>FSH/LH</bdi> مرتفعة، <bdi>Turner</bdi>."
     ],
-    "rule": "Delayed (not precocious) puberty with short stature in a girl makes Turner the exam favourite, but it needs HIGH gonadotropins.",
+    "rule": "بلوغ متأخر + <bdi>FSH/LH</bdi> عالية = <bdi>Turner</bdi>؛ طبيعية = مرض مزمن.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2120": {
     "correct_letter": "C",
@@ -67961,27 +68517,33 @@
     "guideline_note": null
   },
   "AS-2129": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Read the size: a small collection gets antibiotics only, a large one gets drained, and appendectomy waits.",
+    "idea": "زائدة منفجرة مع تجمع.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Ruptured appendix with collection",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Ruptured",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "appendix",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Read the size: a small collection gets antibiotics only, a large one gets drained, and appendectomy waits."
+      "تجمع = <bdi>Antibiotics + drainage</bdi>."
     ],
     "when_changes": [
-      "Small collection (under about 4 x 4 cm), stable: IV antibiotics",
-      "4 x 4 cm or more: percutaneous drainage + antibiotics",
-      "Multiple collections: laparoscopy"
+      "لو صغير جدًا، مضاد بس."
     ],
-    "rule": "Read the size: a small collection gets antibiotics only, a large one gets drained, and appendectomy waits.",
+    "rule": "زائدة مع تجمع = تصريف ومضاد، والاستئصال لاحقًا.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2132": {
     "correct_letter": "D",
@@ -68053,27 +68615,33 @@
     "guideline_note": null
   },
   "AS-2137": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Retention is the emergency; the hematuria workup comes after the bladder is decompressed.",
+    "idea": "دم بالبول بدون ألم، مثانة منتفخة، وما قدرنا نركب قسطرة.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "distended bladder",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Painless hematuria",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "failed to insert catheter",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Retention is the emergency; the hematuria workup comes after the bladder is decompressed."
+      "فشل القسطرة = <bdi>cystoscopy</bdi> لإزالة الجلطات."
     ],
     "when_changes": [
-      "Clot retention: large three-way catheter + bladder irrigation",
-      "Catheter fails or clots persist: cystoscopy with clot evacuation",
-      "Full workup: cystoscopy (bladder) + CT urography (upper tract)"
+      "بعدها نكمل فحص الدم بالبول بـ<bdi>CT urography</bdi>."
     ],
-    "rule": "Retention is the emergency; the hematuria workup comes after the bladder is decompressed.",
+    "rule": "احتباس بالجلطات + فشل القسطرة = منظار مثانة.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2140": {
     "correct_letter": "A",
@@ -68398,27 +68966,33 @@
     "guideline_note": null
   },
   "AS-2162": {
-    "correct_letter": "A",
+    "correct_letter": "D",
     "self_judged": true,
-    "idea": "Topical steroid for an undiagnosed red eye is the classic wrong move.",
+    "idea": "احمرار بالعينين مع إفرازات رطبة.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "wet discharge",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "bilateral redness",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "next step",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Topical steroid for an undiagnosed red eye is the classic wrong move."
+      "التهاب ملتحمة غالبًا يخف لحاله، فالعلاج النظافة وقطرات بسيطة."
     ],
     "when_changes": [
-      "Watery + URTI + preauricular node: viral, supportive care",
-      "Purulent, lids stuck in morning: bacterial, hygiene ± topical antibiotic",
-      "Itch + watery + atopy: allergic, antihistamine or mast cell stabiliser drops"
+      "لو إفرازات صديدية كثيرة جدًا أو ألم، تحويل."
     ],
-    "rule": "Topical steroid for an undiagnosed red eye is the classic wrong move.",
+    "rule": "عين حمراء بدون علامات خطر = علاج بسيط.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2165": {
     "correct_letter": "D",
@@ -68835,27 +69409,33 @@
     "guideline_note": null
   },
   "AS-2212": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Stony dullness means fluid in the pleural space; plain dullness with bronchial breathing means consolidation.",
+    "idea": "طفل كحة وحرارة وضيق تنفس، خراخر يمين أسفل، و<bdi>stony dullness</bdi>.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "stony dullness on percussion",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Cough",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "fevere",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Stony dullness means fluid in the pleural space; plain dullness with bronchial breathing means consolidation."
+      "<bdi>Stony dullness</bdi> = <bdi>Pleural effusion</bdi>."
     ],
     "when_changes": [
-      "Stony dullness = pleural effusion",
-      "Dull + bronchial breathing = consolidation (pneumonia)",
-      "Hyperresonant + absent breath sounds = pneumothorax"
+      "لو صوت مكتوم مع تنفس قصبي، التهاب رئوي."
     ],
-    "rule": "Stony dullness means fluid in the pleural space; plain dullness with bronchial breathing means consolidation.",
+    "rule": "مكتوم كالحجر = سوائل.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2214": {
     "correct_letter": "C",
@@ -68883,48 +69463,60 @@
   "AS-2215": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Fork: an acute inflammatory picture (fever, leukocytosis) points to treating the attack; colonoscopy belongs to the quiet phase 6 to 8 weeks later.",
+    "idea": "مسن، ألم أسفل البطن يسار، حرارة ٣٨.٥ وكريات ١٨.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "WBCs 18",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "fever 38.5",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "left lower abdominal pain",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Fork: an acute inflammatory picture (fever, leukocytosis) points to treating the attack; colonoscopy belongs to the quiet phase 6 to 8 weeks later."
+      "<bdi>Diverticulitis</bdi> حاد = <bdi>Antibiotic</bdi>."
     ],
     "when_changes": [
-      "Investigation of choice: CT abdomen with contrast",
-      "Treat: antibiotics (bowel rest if more unwell), drainage for a large abscess",
-      "Never scope in the acute phase"
+      "المنظار بعد ٦-٨ أسابيع."
     ],
-    "rule": "Fork: an acute inflammatory picture (fever, leukocytosis) points to treating the attack; colonoscopy belongs to the quiet phase 6 to 8 weeks later.",
+    "rule": "التهاب حاد = علاج؛ منظار لاحقًا.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2215B": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "The listed negatives are the fork: fever, raised WBC or peritonitis push toward CT, antibiotics or surgery; their absence points to conservative dietary care.",
+    "idea": "مسن عنده <bdi>diverticulosis</bdi>، ألم خفيف متقطع، بدون حرارة والكريات طبيعية.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "diverticulosis",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "mild intermittent left lower abdominal",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "no fever normal WBCs and",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "The listed negatives are the fork: fever, raised WBC or peritonitis push toward CT, antibiotics or surgery; their absence points to conservative dietary care."
+      "بدون التهاب = <bdi>Increase fiber and fluid intake</bdi>."
     ],
     "when_changes": [
-      "Diverticulosis / mild intermittent pain, normal WBC, afebrile: high fiber and fluids",
-      "Suspected diverticulitis (fever, WBC up, tenderness): CT with contrast, then antibiotics",
-      "Large abscess: percutaneous drainage"
+      "لو حرارة وكريات مرتفعة، <bdi>CT</bdi> ثم مضاد."
     ],
-    "rule": "The listed negatives are the fork: fever, raised WBC or peritonitis push toward CT, antibiotics or surgery; their absence points to conservative dietary care.",
+    "rule": "رتوج بدون التهاب = ألياف وسوائل.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2218": {
     "correct_letter": "A",
@@ -68952,25 +69544,31 @@
   "AS-2219": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Alarm features (bleeding, anemia, weight loss, growth failure) decide between investigating and treating empirically or reassuring.",
+    "idea": "بنت عندها نزيف من الشرج، إسهال، غثيان طويل وألم معدة.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "bleeding per rectum",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Girl",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "presented",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Alarm features (bleeding, anemia, weight loss, growth failure) decide between investigating and treating empirically or reassuring."
+      "النزيف علامة خطر = <bdi>Admit for further investigation</bdi>."
     ],
     "when_changes": [
-      "GI bleeding, anemia, weight loss / growth failure, nocturnal symptoms, persistent vomiting",
-      "Bloody diarrhea: infectious colitis, IBD",
-      "Painless large rectal bleed: Meckel (technetium scan)"
+      "بدون علامات خطر، <bdi>PPI</bdi> ومتابعة."
     ],
-    "rule": "Alarm features (bleeding, anemia, weight loss, growth failure) decide between investigating and treating empirically or reassuring.",
+    "rule": "علامة خطر = فحص.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2220": {
     "correct_letter": "B",
@@ -68996,27 +69594,33 @@
     "guideline_note": null
   },
   "AS-2221": {
-    "correct_letter": "A",
+    "correct_letter": "D",
     "self_judged": true,
-    "idea": "If the stem gives Down features, the answer is AVSD; VSD wins only when the question asks for the most common CHD in general.",
+    "idea": "رضيع شهرين لسانه بارز (علامة داون) ونفخة قلب.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "protruded tongue",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Child",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "moth",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "If the stem gives Down features, the answer is AVSD; VSD wins only when the question asks for the most common CHD in general."
+      "أشهر عيب قلبي بداون = <bdi>Atrioventricular canal</bdi>."
     ],
     "when_changes": [
-      "Down syndrome: AVSD (atrioventricular canal) most characteristic; VSD and ASD also occur",
-      "Turner syndrome: coarctation, bicuspid aortic valve",
-      "Congenital rubella: PDA"
+      "لو السؤال عن أشيع عيب بشكل عام، <bdi>VSD</bdi>."
     ],
-    "rule": "If the stem gives Down features, the answer is AVSD; VSD wins only when the question asks for the most common CHD in general.",
+    "rule": "داون = <bdi>AVSD</bdi>.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2223": {
     "correct_letter": "C",
@@ -69136,25 +69740,31 @@
   "AS-2230": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Decreased NEED for sleep with high energy is mania; insomnia with fatigue is not.",
+    "idea": "مريض عنده تاريخ اكتئاب وعائلته فيها هوس، والحين أرق وعصبية.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "family hx of mania",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Psyco",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "insomnia",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Decreased NEED for sleep with high energy is mania; insomnia with fatigue is not."
+      "أرق مع عصبية بهالخلفية يوحي بهوس خفيف، فنعطي <bdi>mood stabilizer</bdi>."
     ],
     "when_changes": [
-      "Cannot sleep, tired next day, no mood episode: sleep hygiene / CBT-I",
-      "Low mood + anhedonia + insomnia ≥2 weeks: depression, treat after bipolar screen",
-      "Little sleep but full of energy, irritable: hypomania/mania, mood stabilizer"
+      "لو أرق مع تعب ومزاج منخفض، اكتئاب."
     ],
-    "rule": "Decreased NEED for sleep with high energy is mania; insomnia with fatigue is not.",
+    "rule": "عائلة هوس = لا مضاد اكتئاب لوحده.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2234": {
     "correct_letter": "B",
@@ -69502,27 +70112,33 @@
     "guideline_note": null
   },
   "AS-2260": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "\"Most appropriate management\" asks for treatment; the three listed options are all investigations.",
+    "idea": "طفل صفار يزيد ورعشة ونزول بالدراسة وعلامات كبد مزمن (<bdi>Wilson</bdi>).",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "increasing jaundice, flapping tremor and",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "stigmata of chronic liver disease",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "MOST APPROPRIATE management",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "\"Most appropriate management\" asks for treatment; the three listed options are all investigations."
+      "الخيارات كلها فحوصات؛ الأنسب <bdi>24h urinary copper</bdi> لتأكيد ويلسون."
     ],
     "when_changes": [
-      "Liver: hepatitis, cirrhosis, acute liver failure",
-      "CNS: tremor, rigidity, behavioural change, falling school performance",
-      "Eyes: Kayser-Fleischer rings"
+      "العلاج <bdi>penicillamine</bdi>."
     ],
-    "rule": "\"Most appropriate management\" asks for treatment; the three listed options are all investigations.",
+    "rule": "كبد + دماغ بطفل = <bdi>Wilson</bdi>.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2263": {
     "correct_letter": "D",
@@ -69870,50 +70486,62 @@
     "guideline_note": null
   },
   "AS-2307": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "Cyst fluid is low yield: the malignancy risk lives in the solid component.",
+    "idea": "عقدة غدة درقية مختلطة كيسية وصلبة.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Mixed thyroid, cystic and solid",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Mixed",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "thyroid",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Cyst fluid is low yield: the malignancy risk lives in the solid component."
+      "الخطر بالجزء الصلب، فنسحب منه: <bdi>Aspirate the solid</bdi>."
     ],
     "when_changes": [
-      "Low TSH: thyroid scan plus ultrasound before FNA",
-      "Mixed cystic-solid: sample the solid part",
-      "Bethesda IV: hemithyroidectomy on the affected side"
+      "الجزء الكيسي عائده قليل."
     ],
-    "rule": "Cyst fluid is low yield: the malignancy risk lives in the solid component.",
+    "rule": "عقدة مختلطة = عينة من الجزء الصلب.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2312": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "Antipsychotics for wandering are a trap; they add mortality risk without treating the behavior.",
+    "idea": "مسن ألزهايمر بدأ يمشي بالليل ويطلع.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Alzheimer disease",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "wandering at night",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "80-year-old",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Antipsychotics for wandering are a trap; they add mortality risk without treating the behavior."
+      "الإجراءات غير الدوائية أولًا: <bdi>door alarms and motion sensors</bdi>."
     ],
     "when_changes": [
-      "Identify triggers (pain, toileting, hunger, day-night reversal)",
-      "Daytime activity and sleep hygiene",
-      "Safety: alarms, sensors, identification, supervision"
+      "الدواء بس للهياج الخطير."
     ],
-    "rule": "Antipsychotics for wandering are a trap; they add mortality risk without treating the behavior.",
+    "rule": "خرف + مشي ليلي = حماية، مو دواء.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2316": {
     "correct_letter": "B",
@@ -69939,27 +70567,33 @@
     "guideline_note": null
   },
   "AS-2323": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "The words \"abscess\" or \"mass\" switch the answer from immediate surgery to drain/antibiotics then interval appendectomy.",
+    "idea": "زائدة منفجرة مع ألم وحرارة، بدون ذكر خراج.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "ruptured appendicitis",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "most appropriate next step",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Question",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "The words \"abscess\" or \"mass\" switch the answer from immediate surgery to drain/antibiotics then interval appendectomy."
+      "انفجار بدون خراج = <bdi>Immediate appendectomy</bdi>."
     ],
     "when_changes": [
-      "Uncomplicated appendicitis: laparoscopic appendectomy",
-      "Perforation with generalized peritonitis: IV antibiotics + urgent appendectomy",
-      "Appendiceal abscess: percutaneous drainage + IV antibiotics, then interval appendectomy"
+      "لو فيه خراج أو كتلة، تصريف ثم استئصال لاحقًا."
     ],
-    "rule": "The words \"abscess\" or \"mass\" switch the answer from immediate surgery to drain/antibiotics then interval appendectomy.",
+    "rule": "انفجار بدون خراج = جراحة.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2324": {
     "correct_letter": "C",
@@ -70493,25 +71127,31 @@
   "AS-2437": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Many small follicular papules = folliculitis; one big painful nodule = furuncle.",
+    "idea": "حبوب صغيرة بالوجه بعد الحلاقة.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "small papules on his face",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "most likely diagnosis",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "presents",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Many small follicular papules = folliculitis; one big painful nodule = furuncle."
+      "حبوب صغيرة متعددة = <bdi>Folliculitis</bdi>."
     ],
     "when_changes": [
-      "Folliculitis: small perifollicular papules or pustules, sites of shaving, sweat and abrasion",
-      "Furuncle (boil): tender nodule around one follicle, drain if fluctuant",
-      "Carbuncle: several adjacent follicles, plaque with multiple pus points, classically the nape of the neck"
+      "لو كتلة كبيرة مؤلمة، <bdi>furuncle</bdi>."
     ],
-    "rule": "Many small follicular papules = folliculitis; one big painful nodule = furuncle.",
+    "rule": "صغيرة ومتعددة = التهاب جريبات.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2438": {
     "correct_letter": "C",
@@ -70838,117 +71478,147 @@
   "AS-2472": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Decide with the lead-in words: \"rapid control\" or agitation points to an antipsychotic, \"mood stabilizer\" or maintenance points to lithium, and an SSRI is never the answer in mania.",
+    "idea": "امرأة قلة نوم مع نشاط زايد وكلام سريع (هوس).",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "decreased need for sleep, increased",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "most appropriate treatment",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "female",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Decide with the lead-in words: \"rapid control\" or agitation points to an antipsychotic, \"mood stabilizer\" or maintenance points to lithium, and an SSRI is never the answer in mania."
+      "هوس بدون تفاصيل ثانية = <bdi>Lithium</bdi>."
     ],
     "when_changes": [
-      "Severe agitation or psychosis: antipsychotic (olanzapine, quetiapine, risperidone) for fast control",
-      "Classic euphoric mania and maintenance: lithium",
-      "Mixed features or rapid cycling: valproate often preferred"
+      "لو هياج شديد، مضاد ذهان."
     ],
-    "rule": "Decide with the lead-in words: \"rapid control\" or agitation points to an antipsychotic, \"mood stabilizer\" or maintenance points to lithium, and an SSRI is never the answer in mania.",
+    "rule": "هوس = مثبت مزاج.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2523B": {
-    "correct_letter": "A",
+    "correct_letter": "B",
     "self_judged": true,
-    "idea": "A lateral fissure is a red flag for a secondary cause; do not jump to sphincterotomy before excluding Crohn's or infection.",
+    "idea": "شق شرجي على الساعة ٣ و٧.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Anal fissure 7, 3",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Anal",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "fissure",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "A lateral fissure is a red flag for a secondary cause; do not jump to sphincterotomy before excluding Crohn's or infection."
+      "الشق الجانبي غير نموذجي، والعلاج الأولي <bdi>Topical cream</bdi> مع البحث عن سبب."
     ],
     "when_changes": [
-      "6 o'clock (posterior midline): typical, most common",
-      "12 o'clock (anterior midline): typical, more common in women (postpartum)",
-      "Lateral (e.g. 3 or 7 o'clock), multiple or painless: atypical; think Crohn's, TB, HIV, syphilis, carcinoma; examine under anaesthesia with biopsy"
+      "شق جانبي = نفكر بـ<bdi>Crohn</bdi> أو التهاب."
     ],
-    "rule": "A lateral fissure is a red flag for a secondary cause; do not jump to sphincterotomy before excluding Crohn's or infection.",
+    "rule": "شق جانبي = لا جراحة قبل استبعاد السبب.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2524": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "HBIG is prophylaxis for the exposed person (or the baby), never treatment for the person who already carries HBsAg.",
+    "idea": "<bdi>HBsAg</bdi> إيجابي و<bdi>HBcAb IgG</bdi> إيجابي = التهاب كبد ب مزمن.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Positive HBsAg",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Positive HBeAg",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "Positive HBcAb IgG",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "HBIG is prophylaxis for the exposed person (or the baby), never treatment for the person who already carries HBsAg."
+      "العلاج مضاد فيروسات؛ <bdi>Acyclovir</bdi> مو الصحيح فعليًا (الصحيح <bdi>tenofovir</bdi>/<bdi>entecavir</bdi>)."
     ],
     "when_changes": [
-      "HBsAg+: current infection (acute or chronic)",
-      "IgM anti-HBc+: acute; IgG anti-HBc+ with HBsAg+: chronic",
-      "Anti-HBs+ alone: vaccinated; anti-HBs+ with anti-HBc+: recovered"
+      "<bdi>HBIG</bdi> للشخص المعرض أو المولود."
     ],
-    "rule": "HBIG is prophylaxis for the exposed person (or the baby), never treatment for the person who already carries HBsAg.",
+    "rule": "<bdi>HBIG</bdi> وقاية، مو علاج.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2527": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "\"Relative\" without a degree is the trap: first-degree moves screening to 40; second-degree leaves the patient at average risk.",
+    "idea": "رجل ٤٠ سنة، قريب انصاب بسرطان قولون بعمر ٥٠.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "colon cancer at age of",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "40 YO",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "male",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "\"Relative\" without a degree is the trap: first-degree moves screening to 40; second-degree leaves the patient at average risk."
+      "قريب درجة أولى قبل ٦٠ = الفحص من ٤٠؛ أقرب خيار <bdi>Start at 40 and every 10 years</bdi>."
     ],
     "when_changes": [
-      "Average risk: start at 45 (choose 50 if 45 is not offered), colonoscopy every 10 years",
-      "First-degree relative with CRC before 60 (or two first-degree relatives): colonoscopy at 40 or 10 years before the youngest diagnosis, every 5 years",
-      "Second-degree relative only: treat as average risk"
+      "لو القريب درجة ثانية، خطر عادي (٤٥)."
     ],
-    "rule": "\"Relative\" without a degree is the trap: first-degree moves screening to 40; second-degree leaves the patient at average risk.",
+    "rule": "قريب أول قبل ٦٠ = من ٤٠ كل ٥ سنوات.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2528": {
-    "correct_letter": "A",
+    "correct_letter": "C",
     "self_judged": true,
-    "idea": "Sydenham chorea appears weeks after the sore throat, often without fever; chorea during an acute febrile sore throat should prompt you to rule out CNS infection.",
+    "idea": "طفل ٧ سنوات حركات لا إرادية وألم حلق وحرارة، وإخوانه نفس الشي.",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "abnormal jerky movements",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "sore throat, and fever",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "7-year-old",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Sydenham chorea appears weeks after the sore throat, often without fever; chorea during an acute febrile sore throat should prompt you to rule out CNS infection."
+      "ألم حلق مع حرارة بالعائلة = <bdi>strep</bdi>، فنسوي <bdi>Throat culture and start penicillin</bdi>."
     ],
     "when_changes": [
-      "Rigors: conscious, stops with antipyretic, normal neuro exam",
-      "Meningitis or sepsis: neck stiffness, drowsiness, rash; give IV antibiotics",
-      "Encephalitis: seizures, confusion, focal signs; imaging and LP"
+      "لو تشوش أو تيبس رقبة، أشعة وبزل."
     ],
-    "rule": "Sydenham chorea appears weeks after the sore throat, often without fever; chorea during an acute febrile sore throat should prompt you to rule out CNS infection.",
+    "rule": "حلق + حرارة + عائلة = بكتيريا.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2529": {
     "correct_letter": "C",
@@ -70976,48 +71646,60 @@
   "AS-2530": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "Drooling plus toxic look plus no barking cough means epiglottitis, so the answer is about securing the airway, never steroids or the ward.",
+    "idea": "طفل سام المظهر، يسيل لعابه، أكسجين ٨٨٪ (<bdi>epiglottitis</bdi>).",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "Oxygen sat 88%",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "looks toxic",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "immobile in a chair, opens",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "Drooling plus toxic look plus no barking cough means epiglottitis, so the answer is about securing the airway, never steroids or the ward."
+      "أكسجين ٨٨٪ = تأمين الهواء فورًا: <bdi>Intubation</bdi>."
     ],
     "when_changes": [
-      "Picture: high fever, toxic, drooling, tripod or immobile, muffled voice, no barking cough.",
-      "Clinical diagnosis: do not examine the throat or upset the child.",
-      "Secure airway in a controlled setting (ICU or OR) by the most skilled operator."
+      "بعدها مضاد وريدي."
     ],
-    "rule": "Drooling plus toxic look plus no barking cough means epiglottitis, so the answer is about securing the airway, never steroids or the ward.",
+    "rule": "التهاب لسان المزمار = الهواء أولًا.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2531": {
     "correct_letter": "A",
     "self_judged": true,
-    "idea": "If the lead in asks for the antibiotic, ceftriaxone; if it asks what to do first, the airway.",
+    "idea": "طفلة صعوبة بلع، حرارة، بدون كحة، ساكتة ورقبتها ممدودة (<bdi>epiglottitis</bdi>).",
     "clues": [
       [
-        "مصطلح رئيسي",
-        "راجعي السؤال الأصلي لمزيد من التفاصيل"
+        "no cough",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "sitting silently",
+        "دليل مهم بالسؤال"
+      ],
+      [
+        "difficulty swallowing",
+        "دليل مهم بالسؤال"
       ]
     ],
     "why_correct": [
-      "If the lead in asks for the antibiotic, ceftriaxone; if it asks what to do first, the airway."
+      "أول شي تأمين الهواء: <bdi>Intubate in the OR</bdi>."
     ],
     "when_changes": [
-      "Clues: toxic, drooling, dysphagia, no cough, tripod or sniffing (neck extended) posture.",
-      "Step 1: controlled intubation (OR or ICU).",
-      "Step 2: blood culture plus IV 3rd generation cephalosporin."
+      "بعدها <bdi>ceftriaxone</bdi>."
     ],
-    "rule": "If the lead in asks for the antibiotic, ceftriaxone; if it asks what to do first, the airway.",
+    "rule": "التهاب لسان المزمار = الهواء أولًا.",
     "comparison": null,
     "labs": null,
-    "guideline_note": "ما فيه جواب موثق من المصدر؛ تم اختيار الأقرب سريريًا بناءً على المعطيات."
+    "guideline_note": "ما فيه جواب من المصدر لهذا السؤال؛ الجواب هنا اجتهاد طبي مبني على ملخص الموضوع بالمصدر نفسه."
   },
   "AS-2532": {
     "correct_letter": "D",

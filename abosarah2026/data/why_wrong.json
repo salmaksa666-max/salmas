@@ -8028,9 +8028,9 @@
     "B": "Renal artery ultrasound looks for renovascular hypertension, suspected with severe HTN, an abdominal bruit or a young non-obese child. It is not a first step in an obese child with a clear primary hypertension profile."
   },
   "AS-0249": {
-    "B": "Catecholamine levels screen for pheochromocytoma. It is indicated with paroxysmal headache, sweating and palpitations, and the stem notes no such symptoms.",
-    "C": "Renal artery ultrasound looks for renovascular disease. It is indicated with severe or resistant hypertension, an abdominal bruit or a young non-obese child, not this profile.",
-    "D": "Cortisol level screens for Cushing syndrome, which would show purple striae, moon face, short stature with weight gain or proximal weakness. Obesity with acanthosis alone suggests insulin resistance, not cortisol excess."
+    "A": "<bdi>Aldosterone-renin ratio</bdi> يُطلب لو فيه نقص بوتاسيوم أو ضغط مقاوم، وما فيه شي من هذا.",
+    "B": "<bdi>Catecholamines</bdi> تحتاج نوبات صداع وتعرق وخفقان، والسؤال يقول ما فيه أعراض.",
+    "C": "<bdi>Renal artery US</bdi> لطفل صغير بضغط شديد أو <bdi>bruit</bdi> أو تحاليل كلى غير طبيعية، غير موجود هنا."
   },
   "AS-0252": {
     "A": "Glucose infusion treats hypoglycemia, which IUGR babies are prone to and which should be checked. It does not address the persistent hypothermia that points to sepsis.",
@@ -8179,9 +8179,9 @@
     "D": "Beta blockers are used for long term prevention of recurrent SVT, not for acute termination of an ongoing episode."
   },
   "AS-0362": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "<bdi>Cortisol and ACTH</bdi> لو فيه علامات <bdi>Cushing</bdi> زي الخطوط البنفسجية وتأخر الطول.",
+    "C": "<bdi>Renal US</bdi> للطفل الصغير أو تحليل بول غير طبيعي، ما يفسر الثلاثي.",
+    "D": "<bdi>ABPM</bdi> يأكد وجود الضغط، والضغط هنا موثق أصلًا والسؤال عن السبب."
   },
   "AS-0363": {
     "A": "Simethicone is widely used but trials show no benefit over placebo, so it is not the recommended treatment.",
@@ -8252,7 +8252,7 @@
     "C": "Grommets are for OME persisting ≥3 months with documented hearing loss or speech, learning or behavioural impact, or structural TM changes; it is too early here."
   },
   "AS-0388": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "المتابعة بعد ٣ أشهر للحالة الجديدة، وهنا الحالة مستمرة مع ضعف سمع لاحظته المعلمة."
   },
   "AS-0388B": {
     "A": "Mastoidectomy is for cholesteatoma, coalescent mastoiditis or chronic suppurative disease, not uncomplicated effusion.",
@@ -8297,7 +8297,7 @@
     "B": "Urine culture is for suspected UTI (fever, dysuria, foul urine, pyuria or nitrites on urinalysis) and is not a first test; UTI does not explain weight loss and marked thirst."
   },
   "AS-0401": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "<bdi>Fasting glucose</bdi> يُطلب لو تحليل البول أظهر سكر، مو كخطوة أولى."
   },
   "AS-0402": {
     "A": "Mild dehydration: child is alert and thirsty with normal eyes, wet tongue, normal pulse and normal capillary refill; this child is lethargic and hypotensive.",
@@ -8309,7 +8309,7 @@
     "B": "Von Willebrand disease gives mucosal bleeding (epistaxis, gums, menorrhagia, dental extraction) with prolonged bleeding time and normal or mildly prolonged aPTT; the PT stays normal."
   },
   "AS-0408": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "<bdi>Vasopressor</bdi> قبل تعويض الحجم يخنق الأعضاء ولا يعالج النزيف."
   },
   "AS-0410": {
     "B": "Hearing test is right for an isolated speech or language delay with otherwise normal social interaction; it is part of the autism work-up, but it does not explain absent eye contact and repetitive toy lining.",
@@ -8463,9 +8463,9 @@
     "D": "MRCP images the biliary and pancreatic ducts and has no role in right lower quadrant pain."
   },
   "AS-0471C": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "التصوير للتشخيص مو العلاج، و<bdi>CT</bdi> نتجنبه بالحمل.",
+    "B": "التخريج خطير مع صورة التهاب زائدة واضحة.",
+    "C": "المراقبة تأخر العلاج وتزيد خطر الانفجار وفقد الجنين."
   },
   "AS-0472": {
     "A": "Laxatives add load to a bowel that is not moving and are not used in ileus; early ambulation helps but is supportive only. Laxatives fit simple constipation with a working bowel.",
@@ -8487,9 +8487,9 @@
     "D": "Barium enema is never used in acute bleeding: it neither treats nor reliably localizes bleeding and interferes with later angiography or endoscopy."
   },
   "AS-0484": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "<bdi>FFP</bdi> يصحح التخثر جنب العلاج، مو بديل عن إيقاف النزيف.",
+    "B": "<bdi>Angiography</bdi> للمريض اللي بطنه لين، والألم المنتشر يوجه للجراحة.",
+    "D": "<bdi>Colonoscopy</bdi> للمريض المستقر بعد تحضير الأمعاء."
   },
   "AS-0487": {
     "A": "Too early; C3 is still typically low 1 to 2 weeks into the illness.",
@@ -8504,9 +8504,9 @@
     "B": "OPV prevents poliomyelitis, a neurological disease, and does nothing to reduce respiratory infection complications."
   },
   "AS-0498": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "<bdi>Testosterone</bdi> يُعطى عند سن البلوغ، والطفل عمره ٦.",
+    "B": "<bdi>Hydrocortisone</bdi> يعوض الكورتيزول، والسؤال يقول باقي الهرمونات طبيعية (معوضة).",
+    "C": "الانتظار يضيع وقت النمو مع نقص هرمون معروف."
   },
   "AS-0499": {
     "A": "Nuclear studies (bone scan or MIBG) are used for staging, mainly in neuroblastoma, after the mass has been characterised.",
@@ -8579,8 +8579,8 @@
     "B": "IV fluid and blood is the INITIAL step and is always started first, but it supports the patient rather than finding or stopping the bleed. It is the answer when the question asks \"initial\" or \"first\"."
   },
   "AS-0529": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "<bdi>Colonoscopy</bdi> بعد الاستقرار وتحضير الأمعاء.",
+    "C": "<bdi>CT angiography</bdi> بعد الإنعاش لو النزيف مستمر."
   },
   "AS-0530": {
     "A": "Elective surgery is reserved for complications (perforation, refractory bleeding, obstruction) or truly refractory ulcers, none of which are present.",
@@ -8622,9 +8622,9 @@
     "D": "Hypertension is not mentioned in the history or vitals; you cannot choose a risk factor the stem does not give."
   },
   "AS-0541": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "<bdi>Haemoptysis</bdi> يحتاج دليل خاص بالسؤال، وما فيه.",
+    "C": "<bdi>Apical consolidation</bdi> يوجه للسل.",
+    "D": "صدر منتفخ مع صفير صورة ربو أو التهاب قصيبات."
   },
   "AS-0547": {
     "B": "Restricting fluid has no role in correcting malnutrition; it is used for fluid overload states such as heart or renal failure, not here.",
@@ -8662,9 +8662,9 @@
     "C": "IV KCl alone ignores the volume depletion from vomiting, and potassium is never pushed undiluted; it is given within IV fluid at a controlled rate, which is what D describes."
   },
   "AS-0566": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "<bdi>LDL</bdi> مرتفع شوي، بس السؤال عن مقياس الجسم.",
+    "B": "<bdi>BMI</bdi> يحتاج الوزن والطول وما انذكروا.",
+    "C": "<bdi>Waist hip ratio</bdi> مرتفع كمان، والمصدر نفسه انقسم بينه وبين محيط الخصر."
   },
   "AS-0568": {
     "B": "Pseudogout (CPPD) also favours the knee but occurs in the elderly or with hyperparathyroidism, haemochromatosis or hypomagnesaemia; a healthy 30 year old is atypical.",
@@ -8672,9 +8672,9 @@
     "D": "Septic arthritis gives an acutely hot, swollen joint with fever and leukocytosis; none of these are present here."
   },
   "AS-0570": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "<bdi>Ringer lactate</bdi> يعطي حجم بس ما يعوض الدم المفقود.",
+    "B": "<bdi>PCC</bdi> يعكس التخثر، بس السؤال عن السوائل والهيموغلوبين ٦.",
+    "C": "<bdi>Normal saline</bdi> وحده ما يكفي مع هيموغلوبين ٦."
   },
   "AS-0571": {
     "A": "Low dose CT is the screening tool once he reaches 50 with sufficient pack years; at 49 it is not yet indicated.",
@@ -8816,9 +8816,9 @@
     "C": "Home or ambulatory monitoring is right to CONFIRM a single raised office reading (especially near 140/90); here readings are already raised and lifestyle advice is indicated regardless."
   },
   "AS-0606": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "العمر وحده ما يبرر مميع للدم بالرحلة.",
+    "B": "الجلوس الطويل نفسه هو سبب الجلطة.",
+    "D": "الخيار غير متذكر بالمصدر."
   },
   "AS-0607": {
     "A": "IV tPA is limited to 4.5 hours from onset (or last known well); at 12 hours it adds bleeding risk without proven benefit.",
@@ -8901,7 +8901,7 @@
     "D": "Drugs (antidiarrheals, antiemetics, antibiotics) are not used routinely in infant watery diarrhea; antibiotics need a confirmed or strongly suspected bacterial cause, and antimotility agents are unsafe in young children."
   },
   "AS-0651B": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "<bdi>Stool culture</bdi> للإسهال الدموي البكتيري."
   },
   "AS-0652": {
     "A": "IV antibiotics and chest X-ray do not address the immediate problems (secretions, distress, dehydration); chest X-ray is not routine in bronchiolitis, and antibiotics are added when bacterial pneumonia is suspected (high fever, toxic look, focal consolidation) after the child is stabilized."
@@ -9249,9 +9249,9 @@
     "B": "Omphalocele is a congenital midline defect present at birth, with bowel or liver covered by a membrane (amnion and peritoneum) and the cord inserting into the sac; it does not appear later as a skin covered bulge only on crying."
   },
   "AS-0809": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "التصريف الداخلي للكيس الكبير أو القديم أو اللي يسبب أعراض.",
+    "C": "التصريف الخارجي للكيس الملتهب مع حرارة.",
+    "D": "الجراحة لو فشل التصريف أو فيه شك ورم."
   },
   "AS-0810": {
     "A": "Adrenal insufficiency causes hypoglycemia with low cortisol and a suppressed insulin; it would be the answer if cortisol were low with a clearly high ACTH (often with hyponatremia, hyperkalemia or hypotension), not with unsuppressed insulin."
@@ -9277,7 +9277,7 @@
     "B": "Plain reassurance ignores a real family history and gives no follow up plan; reassurance alone fits only when there is no risk factor and development is normal, and even then routine screening still happens at 18 to 24 months."
   },
   "AS-0820": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "<bdi>Tracheostomy</bdi> للتنفس الصناعي الطويل جدًا، مو حل حاد."
   },
   "AS-0821": {
     "A": "A blood glucose of 55 mg/dL is within the acceptable range for a newborn and says nothing about the lungs. Glucose would only matter here if it were clearly low and the baby had symptoms.",
@@ -9288,9 +9288,9 @@
     "B": "Immediate IV glucose is for confirmed hypoglycemia that is symptomatic, severe or not responding to feeds. Giving it to an asymptomatic baby with no glucose result skips monitoring and early feeding."
   },
   "AS-0824": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "فحص التخثر لو فيه تاريخ نزيف بس.",
+    "B": "ما فيه سبب طبي لتأجيله.",
+    "D": "العيادة للمولود بتخدير موضعي، مو لطفل سنتين."
   },
   "AS-0827": {
     "B": "Vitamin C juice has no proven role in asthma control or in preventing viral triggers. It would distract from fixing the actual problem, which is drug delivery."
@@ -9301,8 +9301,8 @@
     "D": "Lactulose lowers gut ammonia production and is used for hepatic encephalopathy in adults. It has no role in the acute treatment of neonatal urea cycle disorders."
   },
   "AS-0836": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "<bdi>Colonoscopy</bdi> مو أول خطوة بالحالة الحادة.",
+    "C": "<bdi>US</bdi> ما يشوف الأمعاء زين."
   },
   "AS-0838": {
     "B": "Low-dose oral aspirin is the routine antiplatelet step once the fever settles after IVIG, continued until echo follow-up is clear. It does not treat persistent inflammation, so it is not the answer when the stem signals refractory disease or coronary involvement."
@@ -9333,9 +9333,9 @@
     "C": "Antibiotics are perioperative prophylaxis (or for open fractures/infection); there is no sign of infection here to justify ongoing broad-spectrum cover."
   },
   "AS-0858": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "<bdi>Hydrocolloid</bdi> للجرح النظيف قليل الإفرازات، وممكن يحبس الالتهاب بقرحة السكري.",
+    "C": "<bdi>Gauze</bdi> للجرح الملتهب اللي يحتاج تغيير متكرر.",
+    "D": "<bdi>Transparent film</bdi> للجروح السطحية الناشفة."
   },
   "AS-0859": {
     "B": "Hydrogel donates moisture to dry or necrotic wounds to soften slough; on an exudative ulcer it adds fluid and macerates the edges.",
@@ -9348,9 +9348,9 @@
     "C": "Conservative care would be right only for a patient unfit for surgery or with very poor prognosis; with a progressing deficit it risks permanent paraplegia."
   },
   "AS-0861": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "العمليات لو فيه علامات ثقب.",
+    "C": "المراقبة للطفل اللي ما عنده أعراض.",
+    "D": "المنظار بعد تأمين مجرى الهواء."
   },
   "AS-0862": {
     "B": "Emergency bronchoscopy is for suspected aspirated foreign body or airway injury with stridor or respiratory distress; this child has a stable airway and no respiratory signs.",
@@ -9358,9 +9358,9 @@
     "D": "Discharge is only for a fully asymptomatic child with no oral lesions; drooling and difficulty swallowing are warning signs of esophageal injury and need inpatient monitoring."
   },
   "AS-0863": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "<bdi>Bronchoscopy</bdi> لمجرى الهواء، والمشكلة بالمريء.",
+    "C": "العمليات لو فيه علامات ثقب.",
+    "D": "التخريج خطر مع وجود أعراض."
   },
   "AS-0864": {
     "B": "Reassurance would be right only with a normal examination and normal imaging after the episode; here there are objective signs (unilateral hyperinflation, crackles) of a retained foreign body.",
@@ -9386,8 +9386,8 @@
     "B": "Waiting until after 2 years is too late; delayed orchidopexy worsens the risk of impaired fertility and makes malignancy harder to detect. Surgery should be done by about 18 months."
   },
   "AS-0883": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "العلاج الكيميائي للورم المنتشر خارج الكبد.",
+    "C": "الاستئصال يحتاج كبد سليم، والاستسقاء يدل على ضعفه."
   },
   "AS-0884": {
     "A": "Sorafenib is systemic therapy for advanced HCC with vascular invasion or extrahepatic spread; here the veins are patent and the tumour is confined to the liver.",
@@ -9507,9 +9507,9 @@
     "A": "Meconium aspiration: needs meconium-stained amniotic fluid, usually in a post-term or distressed baby, with patchy infiltrates and hyperinflation on CXR; neither is given here."
   },
   "AS-0933": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "الربو للطفل الأكبر مع تكرار الصفير.",
+    "C": "الالتهاب الرئوي يحتاج حرارة وخراخر.",
+    "D": "<bdi>Croup</bdi> صوته <bdi>stridor</bdi> مو صفير."
   },
   "AS-0936": {
     "A": "Vitamin K deficiency bleeding prolongs the PT (and later aPTT) with a normal platelet count; it fits a home birth with no vitamin K prophylaxis or maternal antiepileptic use, not isolated thrombocytopenia.",
@@ -9587,8 +9587,8 @@
     "D": "Neurosurgery referral follows a CT showing a surgical lesion such as an epidural or subdural hematoma; without imaging there is nothing to refer yet."
   },
   "AS-0976": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "<bdi>Toxocariasis</bdi> لطفل أكبر مختلط بالتراب والكلاب.",
+    "B": "<bdi>Retinoblastoma</bdi> يظهر عادة بعمر أكبر، وما فيه تاريخ عائلي."
   },
   "AS-0979": {
     "A": "Reassurance and continuing the same drug is wrong once there is no improvement at 72 h; that defines failure of first line therapy.",
@@ -9688,7 +9688,7 @@
     "C": "Haemorrhoid: prolapsed hemorrhoids appear as separate cushions with radial grooves between them, and classically present with painless bright red bleeding, not concentric circular folds."
   },
   "AS-1082": {
-    "B": "MRI is the right test, but &lt;i>outpatient&lt;/i> timing is wrong: suspected cord compression needs same-day imaging, because delay risks permanent paralysis and sphincter loss. Outpatient MRI suits chronic mechanical back pain without red flags."
+    "B": "الرنين بالعيادة تأخير خطير."
   },
   "AS-1117": {
     "A": "Flail segment needs multiple rib fractures with paradoxical chest wall movement; it causes hypoxia and pain but does not shift the trachea or raise the JVP.",
@@ -9696,7 +9696,7 @@
     "C": "Pulmonary contusion causes hypoxia and crackles developing over hours, but no tracheal deviation, raised JVP or obstructive shock."
   },
   "AS-1118": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "<bdi>Rhinitis medicamentosa</bdi> احتقان من بخاخ الأنف، بدون حكة."
   },
   "AS-1132": {
     "A": "A corneal ulcer (infective keratitis) develops over days, often in contact lens wearers, and shows a white infiltrate or opacity with a staining defect; this is an immediate traumatic defect.",
@@ -9704,9 +9704,9 @@
     "D": "Acute conjunctivitis gives redness with discharge and grittiness, usually without severe pain or a staining epithelial defect."
   },
   "AS-1152": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "أورام القولون ما تكون كيس خلف المعدة.",
+    "B": "أورام المعدة صلبة بالعادة.",
+    "C": "الورم الكيسي يحتاج حواجز أو أجزاء صلبة."
   },
   "AS-1153": {
     "A": "Intubation is indicated for GCS ≤8, inability to protect the airway, hypoxia or aspiration risk; here the GCS is reduced but above 8, so the airway is not the immediate problem.",
@@ -9719,9 +9719,9 @@
     "C": "Sideroblastic anemia shows ringed sideroblasts on marrow and high iron; it is rare in children and has no high RBC count or prominent target cells."
   },
   "AS-1166": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "المضاد الحيوي يُعطى بالطوارئ، والمصدر المرجعي اختار التنظيف للجرح الملوث.",
+    "B": "التثبيت بعد التنظيف.",
+    "D": "التثبيت الداخلي بجرح ملوث يزيد الالتهاب."
   },
   "AS-1177": {
     "B": "Conventional angiography is invasive arterial imaging used for intervention planning in established arterial disease; with intact pulses it is not an initial test.",
@@ -9758,17 +9758,17 @@
     "C": "IV ciprofloxacin is not first line in children (musculoskeletal adverse effects, resistance concerns) and is reserved for resistant or complicated infections; the IV route is also unnecessary here."
   },
   "AS-1203": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "شهرين وقت اختفاء منعكس المشي.",
+    "C": "٦ أشهر وقت اختفاء <bdi>Moro</bdi>.",
+    "D": "٨ أشهر متأخر."
   },
   "AS-1203B": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "٤ أشهر وقت منعكس المص.",
+    "C": "٦ أشهر وقت <bdi>Moro</bdi>.",
+    "D": "٨ أشهر متأخر."
   },
   "AS-1204": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "<bdi>IVIG</bdi> جسر مؤقت لـ<bdi>SCID</bdi>، وعلاج دائم لـ<bdi>Bruton</bdi>."
   },
   "AS-1206": {
     "A": "Avoiding punishment is one element of the behavioural approach, not a complete management plan on its own; the family centred package includes it.",
@@ -9796,8 +9796,8 @@
     "D": "Folate deficiency causes a macrocytic anaemia; here the MCV is low, and multivitamins contain too little iron to treat established anaemia."
   },
   "AS-1230": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "<bdi>Ceftriaxone</bdi> ما يغطي الكحة الديكية.",
+    "C": "الستيرويد مو علاج للسعال الديكي."
   },
   "AS-1242B": {
     "A": "E. coli causes neonatal sepsis and pneumonia and is the top cause of UTI, not of community acquired pneumonia in a 7-year-old.",
@@ -9814,8 +9814,8 @@
     "C": "Skipping or deferring the dose is wrong for a minor illness and leaves the child unprotected. Deferral fits moderate or severe illness, or a true contraindication such as severe immunodeficiency or prior anaphylaxis to the vaccine."
   },
   "AS-1249": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "التطمين خطأ مع التهاب بول.",
+    "B": "العلاج الوريدي للطفل المتعب أو اللي يرجع."
   },
   "AS-1255": {
     "A": "Oral ibuprofen: the treatment for reactive arthritis or transient synovitis once septic arthritis has been excluded. Starting it first risks missing a septic joint.",
@@ -9823,9 +9823,9 @@
     "D": "IV antibiotics: right once septic arthritis is strongly suspected, but ideally after the joint is aspirated so culture is not sterilised. Here the question asks how to manage a new effusion, and aspiration comes first."
   },
   "AS-1261": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "النشرة وحدها ما تكفي.",
+    "C": "تقليل النشويات ما يعالج نقص الإنسولين.",
+    "D": "التعليم يبدأ من أول يوم."
   },
   "AS-1265": {
     "B": "Over-the-counter antacids: symptomatic treatment, not a diagnostic test; at best it would fit a mild dyspepsia question asking for initial symptom relief.",
@@ -9854,10 +9854,10 @@
     "A": "Duodenal atresia: presents in the first days of life with bilious vomiting and a double bubble on X-ray, often with Down syndrome; it does not cause cholestatic jaundice with pale stools or butterfly vertebrae."
   },
   "AS-1287": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "<bdi>Factor VII</bdi> بس للي عنده <bdi>inhibitors</bdi>."
   },
   "AS-1289": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "<bdi>Scleritis</bdi> مؤلم جدًا ويهدد النظر."
   },
   "AS-1290": {
     "A": "Celiac disease gives non-bloody malabsorptive diarrhea, distension and poor growth; it does not explain bloody stools with painful defecation and arthralgia.",
@@ -9868,9 +9868,9 @@
     "A": "AML presents with marrow failure (pallor, bleeding, infections), blasts on the blood film and sometimes gum infiltration; it does not show Reed–Sternberg cells in a lymph node."
   },
   "AS-1295": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "<bdi>Cystic fibrosis</bdi> ما يظهر بهالشكل.",
+    "C": "<bdi>TTN</bdi> يبدأ من الساعات الأولى ويخف بعدها.",
+    "D": "<bdi>RDS</bdi> للخدج من الولادة."
   },
   "AS-1296": {
     "A": "Adrenal insufficiency causes ketotic hypoglycemia with low cortisol (often hyponatremia and hyperkalemia); here cortisol is not low and ketones are suppressed.",
@@ -9888,19 +9888,19 @@
     "C": "Option not recalled; judge any remaining choice against the cardiac red flag list below."
   },
   "AS-1303": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "<bdi>CT</bdi> إشعاع بدون فايدة.",
+    "C": "<bdi>Spirometry</bdi> ما ينفع للرضيع."
   },
   "AS-1307": {
     "A": "Fluid restriction is dangerous in DI (worsens dehydration and hypernatremia); it is the treatment of SIADH, and water restriction is only used diagnostically under supervision."
   },
   "AS-1309": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "<bdi>PPI</bdi> ما له دور بالإسهال الدموي."
   },
   "AS-1310": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "التنويم للطفل المتعب جدًا.",
+    "B": "<bdi>PPI</bdi> ما له دور.",
+    "D": "<bdi>CT</bdi> للمضاعفات الحادة بس."
   },
   "AS-1313": {
     "A": "Strabismus is the condition already present (the cover test shows it), not its complication.",
@@ -9908,9 +9908,9 @@
     "D": "Leukocoria is a white pupillary reflex from retinoblastoma or cataract; it can be a CAUSE of squint, not a consequence of untreated squint."
   },
   "AS-1318": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "<bdi>Hereditary spherocytosis</bdi> تكسير دم مع خلايا كروية.",
+    "C": "فقر الدم المزمن فيه فيريتين طبيعي أو مرتفع.",
+    "D": "الخيار غير متذكر."
   },
   "AS-1327": {
     "A": "Observation is only acceptable for intermittent deviation in early infancy (roughly the first 4 months); waiting until 24 months with a constant squint risks amblyopia and a missed tumour or cataract."
@@ -9950,9 +9950,9 @@
     "C": "Airway malformations give obstructive symptoms (stridor, distress, feeding difficulty) that do not resolve with simple stimulation."
   },
   "AS-1343": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "دواء واحد نسبة الانتكاس عالية.",
+    "C": "<bdi>Ciprofloxacin</bdi> وحده مو العلاج المعتمد.",
+    "D": "<bdi>Amoxicillin</bdi> ما يعالج البروسيلا."
   },
   "AS-1347": {
     "A": "2 years is shorter than any recommended duration of secondary prophylaxis after rheumatic fever.",
@@ -9982,9 +9982,9 @@
     "C": "A CBC does not change management of a localized abscess; it may help in a systemically unwell patient, but drainage is still needed."
   },
   "AS-1356": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "التطمين لو الأب انصاب بعمر كبير.",
+    "C": "الخزعة لو الفحص أو الـPSA غير طبيعي.",
+    "D": "الفحص بالإصبع وحده ما يكفي."
   },
   "AS-1356B": {
     "A": "Immediate biopsy is reserved for an abnormal DRE (hard, nodular, asymmetric gland) or a raised PSA; this gland is soft and he has no PSA result.",
@@ -10036,8 +10036,8 @@
     "D": "Antibiotics treat perianal abscess or infection (fever, fluctuant swelling, discharge), which is not present here."
   },
   "AS-1392": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "النزيف يسبب تورم بالرقبة وضيق تنفس.",
+    "C": "إصابة العصب تسبب بحة."
   },
   "AS-1396": {
     "A": "Adenosine: for stable regular narrow complex tachycardia (SVT) after vagal maneuvers; it may be considered in stable regular monomorphic wide complex tachycardia, never as treatment of an unstable one.",
@@ -10061,8 +10061,8 @@
     "B": "Thrombosed pile: a very painful, tender bluish swelling at the anal verge, usually after straining or constipation, and the patient is typically afebrile. Here the fever points to infection, not thrombosis."
   },
   "AS-1419": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "الستيرويد الوريدي آخر الخيارات.",
+    "C": "<bdi>Infliximab</bdi> لو فيه إصابة قلبية أو فشل الجرعة الثانية."
   },
   "AS-1419B": {
     "B": "Low dose aspirin is the antiplatelet maintenance phase once fever has settled (continued until coronaries are normal on echo); it does nothing to control ongoing vasculitis in a non-responder.",
@@ -10089,9 +10089,9 @@
     "D": "Repeat FNA: the step for Bethesda I (nondiagnostic) and Bethesda III. Repeating cytology for Bethesda IV will not resolve the question of invasion."
   },
   "AS-1423": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "الفتق الإربي المباشر فوق وإنسي.",
+    "B": "الفتق الإربي غير المباشر فوق وإنسي.",
+    "D": "<bdi>Obturator hernia</bdi> نادر وما يظهر كتورم بالأربية."
   },
   "AS-1425": {
     "A": "Factor VIII deficiency (hemophilia A) prolongs the aPTT and classically bleeds into joints or after circumcision; here the PTT is normal.",
@@ -10099,24 +10099,24 @@
     "D": "Thrombocytopenia is excluded by a normal platelet count and causes petechiae and mucosal bleeding rather than stump bleeding."
   },
   "AS-1431": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "التدخين يسبب مرض الشرايين المزمن، والعرج دليل أقرب على الخطر."
   },
   "AS-1433": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "البتر للرجل الميتة.",
+    "B": "<bdi>Thromboembolectomy</bdi> للجلطة المنتقلة الحادة.",
+    "D": "إذابة الجلطة للجلطة الحادة."
   },
   "AS-1434": {
     "B": "Thrombolysis: chosen for acute on chronic in situ thrombosis when the limb is still salvageable; here the severity markers in the stem (ABI below 0.3, long occlusion) are used to signal an unsalvageable limb.",
     "C": "Embolectomy: for embolic acute ischemia (AF, recent MI) in a previously normal artery; this patient has long standing atherosclerotic disease, not an embolic source."
   },
   "AS-1436": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "الشفط من القصبة ما عاد روتيني."
   },
   "AS-1437": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "المضاد الحيوي ما يعالج ضغط الرئة.",
+    "C": "السوائل ما تعالج المشكلة.",
+    "D": "<bdi>Indomethacin</bdi> يقفل القناة الشريانية، مو المطلوب."
   },
   "AS-1443": {
     "A": "Parenteral iron is reserved for failure of oral iron: malabsorption (e.g. celiac or IBD), true intolerance or persistent nonadherence. Nothing here suggests oral therapy has failed.",
@@ -10136,13 +10136,13 @@
     "B": "Open laparotomy: for perforated diverticulitis with generalized (purulent or feculent) peritonitis, Hinchey III or IV, or an unstable patient; not for a contained, drainable collection."
   },
   "AS-1447B": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "المراقبة بدون علاج خطأ.",
+    "C": "استئصال القولون لالتهاب الصفاق المنتشر.",
+    "D": "المنظار بعد ٦-٨ أسابيع، مو بالحالة الحادة."
   },
   "AS-1448": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "<bdi>Ibuprofen</bdi> علاج النوبة، وفشل أصلًا.",
+    "C": "<bdi>PPI</bdi> للحموضة."
   },
   "AS-1450": {
     "A": "Diagnostic laparoscopy: may be used to confirm and resect a Meckel diverticulum once suspected, but it is invasive and not the first test to localize bleeding.",
@@ -10154,8 +10154,8 @@
     "C": "Orotracheal: this is in fact the usual route of endotracheal intubation in trauma; the recall keys the broader term \"endotracheal\", so learn the key as the definitive cuffed tube in the trachea."
   },
   "AS-1454": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "الاتجاه للزمان والمكان جزء من <bdi>GCS</bdi> بس.",
+    "C": "تذكر الحادث مو مقياس للوعي."
   },
   "AS-1455": {
     "A": "Erosive gastritis: usually causes low-volume oozing; it is the classic answer in an alcoholic or NSAID/stress setting, which the stem does not give.",
@@ -10189,8 +10189,8 @@
     "A": "Supplemental oxygen with noninvasive positive pressure suits mild to moderate distress with adequate oxygenation; in severe MAS it is insufficient, and positive pressure without control can worsen air trapping and air leak (pneumothorax)."
   },
   "AS-1482": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "القسطرة متدخلة أكثر.",
+    "C": "الجراحة بعد التشخيص الكامل."
   },
   "AS-1484B": {
     "A": "A hydrolyzed (extensively hydrolyzed protein) diet is for cow's milk protein allergy, mainly in infants; not a 14-year-old with chronic malabsorption.",
@@ -10198,16 +10198,16 @@
     "D": "A fat free diet does not treat celiac disease; fat restriction (with MCT) is used for conditions such as intestinal lymphangiectasia or chylous leaks, not gluten enteropathy."
   },
   "AS-1488": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "هرمون النمو بعد التأكيد."
   },
   "AS-1489": {
     "B": "Age 21 would be the stopping point only if \"until 21\" were longer than 10 years, i.e. in younger children with carditis (or for rheumatic fever without carditis); here 10 years carries him to 23.",
     "C": "Age 15 gives only 2 years of prophylaxis, below even the minimum for rheumatic fever without carditis (5 years or until 21)."
   },
   "AS-1490": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "الجراحة الفورية مبالغة.",
+    "C": "التخريج قبل التأكد خطأ.",
+    "D": "التحويل بدون تقييم خطأ."
   },
   "AS-1491": {
     "B": "A tetanus booster for a clean minor wound is given only if vaccination is incomplete/unknown or the last dose was over 10 years ago (over 5 years for a dirty or tetanus-prone wound); neither applies to this child.",
@@ -10215,22 +10215,22 @@
     "D": "Vaccine plus immunoglobulin together is for a dirty or tetanus-prone wound in an incompletely or unknown immunised patient; it is excessive here."
   },
   "AS-1499": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "<bdi>SMA</bdi> تخطيطه عصبي.",
+    "C": "الضمور العضلي فيه <bdi>CK</bdi> مرتفع جدًا."
   },
   "AS-1508": {
     "B": "Reassurance fits primary monosymptomatic nocturnal enuresis: night wetting only, no daytime symptoms, normal urinalysis and normal exam. Daytime wetting, constipation and a sacral marker rule that out here.",
     "C": "Urinalysis is done in every child with enuresis and is the key test when no red flag is present (it screens for UTI, diabetes and diabetes insipidus), but it cannot find the suspected spinal lesion; the sacral dimple with bladder and bowel dysfunction is the decisive finding."
   },
   "AS-1509": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "<bdi>HPV</bdi> للأكبر سنًا.",
+    "C": "<bdi>Hepatitis B</bdi> آمن بس يُعطى حسب الجدول.",
+    "D": "<bdi>MMR</bdi> حي ومن ١٢ شهر."
   },
   "AS-1510": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "<bdi>OPV</bdi> يبدأ من ٦ أشهر.",
+    "B": "التأجيل للمرض الشديد بس.",
+    "D": "الجدري المائي من ١٢-١٨ شهر."
   },
   "AS-1511": {
     "B": "Vascular ultrasound: a reasonable initial bedside screen, but it is not the definitive test that maps the occlusion and run-off for planning.",
@@ -10340,9 +10340,9 @@
     "A": "Karyotyping &amp; ultrasound: needed to confirm genetic sex and internal anatomy in ambiguous genitalia, but they do not treat a life-threatening salt-wasting crisis. They are the answer for a stable baby with ambiguous genitalia and normal electrolytes."
   },
   "AS-1578": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "عزل الطفل يضر.",
+    "C": "تقليل الشاشة نصيحة عامة.",
+    "D": "التطمين يتجاهل المشكلة."
   },
   "AS-1579": {
     "A": "Aspiration after endoscopy presents with cough, dyspnea, fever and hypoxia with lung infiltrates, not severe chest pain with voice change.",
@@ -10366,8 +10366,8 @@
     "D": "Observation is for a small hematoma with no deficit in a stable patient; this patient has a focal deficit and shock."
   },
   "AS-1589": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "استئصال الكلية لو غير مستقر.",
+    "C": "المراقبة لو ما فيه تسرب صبغة."
   },
   "AS-1589B": {
     "A": "Emergent nephrectomy is for the patient who stays unstable despite resuscitation (non responder) or has an expanding or pulsatile hematoma at laparotomy; she has responded, so a kidney sparing option comes first.",
@@ -10375,12 +10375,12 @@
     "D": "Foley catheter and monitoring is conservative care for a stable, low grade renal injury with no active extravasation; contrast blush here means ongoing arterial bleeding."
   },
   "AS-1590": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "القسطرة للمستقر.",
+    "C": "المراقبة للمستقر بدون تسرب."
   },
   "AS-1591": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "الأكسجين جزء، بس الحالة تحتاج تأمين مجرى الهواء.",
+    "B": "الستيرويد للحالات الخفيفة والمتوسطة."
   },
   "AS-1591B": {
     "A": "Cool humidified air is a traditional home measure without proven benefit; it does not replace a steroid dose.",
@@ -10428,9 +10428,9 @@
     "D": "Hyperthyroidism (Graves) is more frequent in Down syndrome than in the general population but far less common than hypothyroidism."
   },
   "AS-1638": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "تسارع النبض علامة الصدمة المعاوضة.",
+    "C": "برودة الأطراف تبدأ بالمعاوضة.",
+    "D": "تسارع التنفس بالمعاوضة."
   },
   "AS-1638B": {
     "A": "Anuria follows the drop in BP as renal perfusion fails; choose it only if hypotension is not offered.",
@@ -10441,9 +10441,9 @@
     "A": "Strangulated femoral hernia: a femoral hernia lies below and lateral to the pubic tubercle, and strangulation needs a tense, very tender swelling with red skin and systemic signs; neither the site nor these features are described."
   },
   "AS-1640": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "الاستئصال صعب وخطر مع الكتلة.",
+    "C": "التصريف للتجمع.",
+    "D": "الخيار غير متذكر."
   },
   "AS-1641": {
     "A": "Lanugo (fine body hair) is abundant in preterm babies and is largely shed by term; a post-term baby has little or none.",
@@ -10487,12 +10487,12 @@
     "D": "Acute non-lymphoblastic leukemia is another name for AML, which is less common than ALL in children."
   },
   "AS-1675": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "الدواء غير متذكر، و<bdi>clozapine</bdi> مو علاج أول."
   },
   "AS-1676": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "مضاد الاكتئاب يثير الهوس.",
+    "C": "المراقبة تأخر العلاج.",
+    "D": "التثقيف وحده ما يكفي."
   },
   "AS-1677": {
     "A": "Reassurance fits a viral URTI; focal chest signs with neutrophilic leukocytosis mean bacterial pneumonia that needs antibiotics.",
@@ -10503,8 +10503,8 @@
     "B": "Pneumonia: typically days 2 to 3 onward, often from untreated atelectasis, with productive cough, crackles or bronchial breathing and consolidation on X-ray; none of these are described."
   },
   "AS-1685": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "الخزعة الاستئصالية للكتلة الصغيرة السطحية.",
+    "C": "<bdi>CT</bdi> للتدريج بعد الخزعة."
   },
   "AS-1689": {
     "A": "CT whole spine: the imaging used to clear or define the injury, but it comes after immobilisation and the primary survey; it does not replace protecting the spine \"until the surgeon comes\".",
@@ -10561,7 +10561,7 @@
     "D": "An overly tight external (superficial) ring could compress the cord, but this is not the recognized mechanism; the venous thrombosis from cord dissection is."
   },
   "AS-1723": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "الجوارب لو خطر النزيف عالي أو الخطر قليل."
   },
   "AS-1731": {
     "A": "Anal fissure causes sharp pain during and after defecation with fresh bleeding; there is no swelling, fever or raised WBC.",
@@ -10574,8 +10574,8 @@
     "C": "Perianal abscess would come with fever, tachycardia and leukocytosis; here vitals and WBC are normal."
   },
   "AS-1732": {
-    "B": "MRI defines soft tissue extent well but is slow and often unavailable in the emergency setting; waiting for it delays life-saving surgery.",
-    "C": "CT is the most useful imaging to map gas and the extent of spread in a stable patient when the diagnosis is unclear, but with clinical crepitus it should not postpone debridement."
+    "A": "<bdi>US</bdi> أقل دقة بتقدير الامتداد.",
+    "B": "<bdi>MRI</bdi> ياخذ وقت بحالة طارئة."
   },
   "AS-1745": {
     "A": "Klatskin tumor sits at the hepatic duct confluence, so only intrahepatic ducts dilate and the gallbladder is collapsed; extrahepatic dilatation excludes it.",
@@ -10596,10 +10596,10 @@
     "C": "Excisional biopsy is not first-line for a suspicious mass because it can compromise later definitive surgery; it is used when core biopsy is non-diagnostic or discordant, or for some benign lesions."
   },
   "AS-1759": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "<bdi>Kernicterus</bdi> يحتاج علامات عصبية."
   },
   "AS-1760": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "الأدوية تكسب وقت بس."
   },
   "AS-1766": {
     "A": "Short-interval (6-month) follow-up is for BI-RADS 3, probably benign; a BI-RADS 0 study has no final category yet.",
@@ -10607,17 +10607,17 @@
     "D": "Biopsy is for BI-RADS 4 or 5 lesions; overlapping tissue shadows do not justify bilateral tissue sampling before work-up is complete."
   },
   "AS-1768": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "الخيار غير متذكر بالمصدر.",
+    "B": "الخيار غير متذكر بالمصدر.",
+    "D": "<bdi>CT</bdi> مهم بس الحماية أولًا."
   },
   "AS-1770": {
     "A": "Haloperidol: low dose short term use is right when agitation is severe and dangerous to the patient or staff despite non drug measures; not as the first step.",
     "B": "Quetiapine: an antipsychotic alternative when one is needed, preferred in Parkinson disease or Lewy body dementia where haloperidol worsens symptoms; still second line after non drug care."
   },
   "AS-1771": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "التهدئة تزيد الهذيان.",
+    "B": "التقييد يزيد الهياج."
   },
   "AS-1774": {
     "B": "Laparoscopic appendectomy is for acute uncomplicated appendicitis presenting early; with a 7 day history and a formed mass, operating risks bowel injury and fistula.",
@@ -10629,7 +10629,7 @@
     "C": "Watchful waiting suits a painless (asymptomatic) hernia in a man who prefers to avoid surgery; this hernia already causes pain, so elective repair is advised."
   },
   "AS-1787": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "إعادة الأشعة الروتينية مو ضرورية."
   },
   "AS-1788": {
     "B": "Observation alone ignores a known fascial breach; serial exams can be part of care, but the next step here is to define the injury with CT.",
@@ -10646,7 +10646,7 @@
     "D": "Heart rate rises (tachycardia) with blood loss; it does not decrease."
   },
   "AS-1800": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "الدعم مفيد بس ما يحل عدم الالتزام."
   },
   "AS-1804": {
     "B": "Detwist the testicle and discharge if pain relief: manual detorsion is only a temporizing bedside manoeuvre while theatre is arranged; pain relief does not guarantee full untwisting, and the patient still needs surgical exploration and bilateral fixation, never discharge."
@@ -10687,9 +10687,9 @@
     "D": "No screening needed: an adenoma is a precancerous lesion; a 40-45 year old with residual adenoma needs completion and surveillance."
   },
   "AS-1823": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "٣-٦ أشهر لو الإزالة ناقصة.",
+    "B": "٣ سنوات للبوليب الكبير.",
+    "D": "الشاب عنده بوليب يحتاج متابعة."
   },
   "AS-1824": {
     "A": "No need: a tubular adenoma is precancerous and a patient with one needs surveillance; no follow up is never right here.",
@@ -10702,9 +10702,9 @@
     "D": "No screening needed: an adenoma is a precancerous lesion; a 40-45 year old with residual adenoma needs completion and surveillance."
   },
   "AS-1826": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "٣-٦ أشهر لو الإزالة ناقصة.",
+    "C": "١٠ سنوات للمنظار الطبيعي.",
+    "D": "لازم متابعة."
   },
   "AS-1827": {
     "A": "3-6 months: reserved for incomplete or piecemeal removal or poor preparation; here the polyp was resected.",
@@ -10756,12 +10756,12 @@
     "D": "Emergency thoracotomy: for massive hemothorax (about 1500 mL on insertion or 200 to 300 mL per hour), traumatic arrest or decompensation after stabilization; none applies."
   },
   "AS-1848": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "سونار البطن ما يفسر نقص الأكسجين.",
+    "C": "<bdi>ABG</bdi> يأكد النقص بس ما يكشف السبب."
   },
   "AS-1849": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "سونار البطن ما يفسر نقص الأكسجين.",
+    "C": "<bdi>ABG</bdi> يأكد النقص بس ما يكشف السبب."
   },
   "AS-1856": {
     "A": "Closing without exploring leaves the true source of fever and RLQ pain (e.g., Meckel's diverticulitis, ileitis) untreated and missed.",
@@ -10774,7 +10774,7 @@
     "D": "Visible head trauma shows mechanism and injury, not the patient's level of consciousness; serious brain injury can occur with no external signs."
   },
   "AS-1877": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "ورم الكبد علامته <bdi>AFP</bdi>."
   },
   "AS-1877B": {
     "A": "Mirizzi syndrome is extrinsic compression of the common hepatic duct by a stone impacted in the cystic duct or Hartmann pouch; it presents with RUQ pain and cholecystitis features and a stone-filled, usually contracted gallbladder, not weight loss with a huge gallbladder and high CA19-9.",
@@ -10843,9 +10843,9 @@
     "D": "At 24 months the child climbs stairs, uses about 50 words and joins 2 words into phrases; 5 to 6 single words is too few for 24 months."
   },
   "AS-1910": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "٢٤ شهر متأخر جدًا.",
+    "B": "١٨ شهر متأخر.",
+    "C": "١٥ شهر متأخر."
   },
   "AS-1911": {
     "A": "At 3 months the infant only holds the head up and follows objects; crawling, sitting and transferring are not possible yet.",
@@ -10863,8 +10863,8 @@
     "C": "At 12 weeks head control is improving, but full disappearance of head lag on pull to sit is the 4 month (16 week) marker."
   },
   "AS-1922": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "الأكسجين جزء، بس الحالة تحتاج تأمين مجرى الهواء.",
+    "B": "الستيرويد للحالات الخفيفة والمتوسطة."
   },
   "AS-1925": {
     "A": "AML is the second most common childhood leukemia; favour it when the stem gives myeloid clues such as Auer rods, gum infiltration or DIC.",
@@ -10877,7 +10877,7 @@
     "D": "24 months is too late for the initial screen; iron deficiency could already have affected development."
   },
   "AS-1928": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "التهاب الكبد ب ما يفسر القصة."
   },
   "AS-1929": {
     "A": "Observation: acceptable only for a small, clearly non-toxic ingestion in a child who stays well with a normal serum iron; a large ingestion in a sick child needs active treatment, and the quiet latent phase can falsely reassure.",
@@ -10889,9 +10889,9 @@
     "C": "Oral activated charcoal: does not bind iron (nor lithium, alcohols or other metals), so it is ineffective here. Right for many other recent toxic ingestions."
   },
   "AS-1933": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "<bdi>Ceftriaxone</bdi> للحامل المخالطة.",
+    "C": "<bdi>Ciprofloxacin</bdi> للكبار.",
+    "D": "<bdi>Azithromycin</bdi> مو وقاية معتمدة."
   },
   "AS-1934": {
     "A": "Penicillin and rifampin for 1 week: penicillin does not clear nasopharyngeal carriage, and rifampicin prophylaxis is a short 2-day course, not a week. Right when only rifampicin for 2 days is offered for a child contact.",
@@ -10941,9 +10941,9 @@
     "D": "Rubella also spreads face to body, but it is a mild illness with low-grade fever, discrete pink macules that fade quickly and posterior auricular/suboccipital nodes; a prominent cough with a confluent blotchy rash points to measles."
   },
   "AS-1942B": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "<bdi>Kawasaki</bdi> تقشير الأصابع بعد حرارة طويلة.",
+    "B": "الخد المصفوع ثم طفح شبكي.",
+    "C": "<bdi>Rubella</bdi> خفيفة بدون تقشير."
   },
   "AS-1943": {
     "B": "Rubella is a milder illness with discrete pink macules and posterior auricular/suboccipital nodes; it does not produce Koplik spots (any palatal petechiae are on the soft palate).",
@@ -10985,8 +10985,8 @@
     "C": "Sending home with antipyretics fits a simple URTI; a choking history plus unilateral reduced air entry is a foreign body until proven otherwise, and missing it leads to recurrent pneumonia or bronchiectasis."
   },
   "AS-1979": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "الصدر السائب فيه حركة عكسية.",
+    "B": "<bdi>Tamponade</bdi> فيه ضغط منخفض ووريد رقبة مرتفع."
   },
   "AS-1983": {
     "A": "Nodule excision (enucleation) is not an oncological thyroid operation; it leaves uncertain margins and makes later completion surgery harder. Lobectomy is the minimum for a Bethesda 4 lesion.",
@@ -10994,9 +10994,9 @@
     "D": "Radiofrequency ablation is for cytologically benign, symptomatic nodules; it destroys tissue and gives no histology, so it is not used for possibly malignant lesions."
   },
   "AS-1984": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "فتح الحنجرة لو التنبيب مستحيل.",
+    "C": "الخيار غير متذكر.",
+    "D": "الأنبوب الأنفي ممنوع مع كسور الوجه."
   },
   "AS-1985": {
     "A": "A wound swab needs discharge; a dry wound gives nothing to culture. It is right when the wound is red, tender or discharging pus.",
@@ -11188,8 +11188,8 @@
     "D": "Ultrasound is operator dependent and less accurate for diverticulitis; it is preferred for gynecologic causes, pregnancy or children."
   },
   "AS-2056": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "<bdi>Fibroadenoma</bdi> صغير وبطيء.",
+    "C": "السرطان خلاياه طلائية."
   },
   "AS-2057": {
     "A": "Papillary carcinoma is the most common thyroid cancer overall and is also linked to Hashimoto, but it is the second association taught; it is the answer when the stem gives radiation exposure, a solitary nodule with lymph node spread, or psammoma bodies.",
@@ -11210,8 +11210,8 @@
     "A": "Surgical resection of the aganglionic segment is the &lt;i>definitive&lt;/i> treatment, done electively after decompression and biopsy confirmation, not as an immediate first step; a total colectomy is not the standard operation."
   },
   "AS-2067": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "الحمى الغدية فيها تضخم طحال.",
+    "C": "البكتيرية بدون زكام."
   },
   "AS-2068": {
     "A": "Kawasaki disease needs fever for 5 days or more with &lt;i>non exudative&lt;/i> conjunctivitis, lip and tongue changes, extremity changes, rash or a cervical node; exudative tonsillitis and a sibling cluster point to infection instead.",
@@ -11305,8 +11305,8 @@
     "D": "US: endoanal ultrasound can assess simple tracts and sphincters, but transabdominal US does not diagnose Crohn's or map complex perianal disease."
   },
   "AS-2101": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "المنظار التشخيصي ما يعالج.",
+    "C": "التصريف للخراج."
   },
   "AS-2103": {
     "A": "Infantile spasms (West syndrome) occur in infants with clusters of flexor or extensor spasms, developmental regression and hypsarrhythmia on EEG.",
@@ -11318,9 +11318,9 @@
     "C": "Type of delivery may relate to bruising or cephalohematoma, but not to recurrent hemolysis requiring exchange transfusion in siblings."
   },
   "AS-2106": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "التصريف الجراحي للتجمع الكبير.",
+    "C": "التصريف للتجمع الكبير.",
+    "D": "الجراحة لغير المستقر."
   },
   "AS-2107": {
     "A": "Immediate surgical drainage: reserved for collections not reachable percutaneously or failed drainage; excessive for a 1 cm collection in a stable patient.",
@@ -11340,8 +11340,8 @@
     "C": "Starting a gluten-free diet before testing is wrong: gluten withdrawal makes serology and biopsy falsely negative, and diet is only started after the diagnosis is confirmed."
   },
   "AS-2115": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "المراقبة مع عجز عصبي خطر.",
+    "C": "المضاد وحده للمريض بدون عجز."
   },
   "AS-2117": {
     "A": "Blood transfusion: kept for a symptomatic infant (poor feeding, tachycardia, heart failure) or a severe acute hemolytic crisis; this baby is well with a normal exam. It is the main competing option because Hb 70 is lower than the usual nadir.",
@@ -11359,8 +11359,8 @@
     "D": "Anaemia of chronic disease: needs a chronic inflammatory, renal or malignant illness, which this well infant does not have."
   },
   "AS-2119": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "البلوغ المبكر عكس السؤال.",
+    "C": "<bdi>Turner</bdi> فيه <bdi>FSH/LH</bdi> مرتفعة."
   },
   "AS-2120": {
     "A": "Refer to psychiatry: enuresis is a developmental delay in bladder control, not a psychiatric illness; referral fits only when there are clear emotional or behavioural problems or abuse concerns.",
@@ -11374,8 +11374,8 @@
     "A": "Echo: done later to look for structural heart disease or tachycardia-induced cardiomyopathy (for example in recurrent or prolonged SVT); it does not diagnose the rhythm and is not the first test."
   },
   "AS-2129": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "الاستئصال لاحقًا.",
+    "C": "المضاد وحده للتجمع الصغير."
   },
   "AS-2132": {
     "A": "Delay his school by one year: keeping the child away rewards avoidance and makes the anxiety worse; the goal is early return to school.",
@@ -11393,8 +11393,8 @@
     "D": "Alpha blockers relax prostatic smooth muscle and help BPH in older men; they cannot open a fibrotic urethral stricture in a 38-year-old."
   },
   "AS-2137": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "تكرار المحاولة يضيع وقت.",
+    "C": "<bdi>IVP</bdi> قديم وما يحل الاحتباس."
   },
   "AS-2140": {
     "B": "EBV: causes infectious mononucleosis with exudative tonsillitis, posterior cervical nodes, splenomegaly and atypical lymphocytes; parotid swelling is uncommon.",
@@ -11465,9 +11465,9 @@
     "D": "Potassium hydroxide skin scraping: confirms fungal infection (hyphae or yeast) such as tinea cruris or candidiasis; useful to exclude a mimic, not to prove psoriasis."
   },
   "AS-2162": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "المضاد بالفم للسيلان بس.",
+    "B": "الستيرويد بدون تشخيص خطأ كلاسيكي.",
+    "C": "الستيرويد الجهازي ما له دور."
   },
   "AS-2165": {
     "A": "A ventral hernia usually has a positive cough impulse and is reducible; here the cough impulse is negative and the onset is acute and painful after strain.",
@@ -11554,36 +11554,36 @@
     "D": "Maple syrup urine disease presents with poor feeding, encephalopathy and burnt sugar smelling urine; it lacks cataract and hepatomegaly."
   },
   "AS-2212": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "الالتهاب الرئوي فيه تنفس قصبي."
   },
   "AS-2214": {
     "A": "Antibiotic alone: right for uncomplicated diverticulitis or a small abscess (roughly under 3 to 4 cm). A 6.8 cm collection needs drainage.",
     "B": "Exploration: right for purulent or feculent peritonitis (Hinchey III/IV), hemodynamic instability, or failure of percutaneous drainage. None of these is present."
   },
   "AS-2215": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "المنظار ممنوع بالحالة الحادة."
   },
   "AS-2215B": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "<bdi>CT</bdi> لو فيه علامات التهاب.",
+    "B": "المضاد للالتهاب.",
+    "D": "الجراحة لالتهاب الصفاق."
   },
   "AS-2218": {
     "B": "Repeat CT: suitable for a small EDH in a fully alert child with no focal deficit, managed with close neuro observation. A dilated pupil removes the option of waiting.",
     "C": "Mannitol: a temporizing measure to lower intracranial pressure while theatre is arranged; it does not treat the bleed and is not the definitive answer."
   },
   "AS-2219": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "الجراحة بدون تشخيص مبكر.",
+    "C": "التطمين مع نزيف خطأ.",
+    "D": "<bdi>PPI</bdi> بدون علامات خطر بس."
   },
   "AS-2220": {
     "A": "Central precocious puberty is driven by early activation of the HPG axis, so LH and FSH are raised into the pubertal range (especially after GnRH stimulation); non-raised gonadotropins with high estradiol argue against it."
   },
   "AS-2221": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "<bdi>VSD</bdi> أشيع عمومًا.",
+    "B": "<bdi>ASD</bdi> أقل ارتباطًا.",
+    "C": "<bdi>COA</bdi> مع <bdi>Turner</bdi>."
   },
   "AS-2223": {
     "A": "Ct chest: shows bronchiectasis or structural lung damage once CF is known, but it cannot diagnose CF and does not explain the steatorrhea.",
@@ -11610,8 +11610,8 @@
     "D": "Intraoperative fluid shift: transcellular shifts (insulin, beta agonists, alkalosis) are transient and would not explain persistent hypokalemia during ongoing high-volume suction."
   },
   "AS-2230": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "مضاد الاكتئاب يثير الهوس.",
+    "C": "التطمين يتجاهل الهوس."
   },
   "AS-2234": {
     "A": "Fluid restriction and diuretics: supportive measures that may accompany treatment, but they do not close the ductus and so do not address the cause of the congestion.",
@@ -11686,8 +11686,8 @@
     "C": "Antibiotics do not treat a viral illness; they are used only when a secondary bacterial complication such as pneumonia or otitis media develops."
   },
   "AS-2260": {
-    "B": "A HIDA scan assesses biliary excretion (for example biliary atresia or acute cholecystitis); it does not address chronic liver disease with encephalopathy.",
-    "C": "24-hour urinary copper is a supportive diagnostic test for Wilson disease (with low ceruloplasmin and Kayser-Fleischer rings), but the question asks for management, not diagnosis."
+    "A": "الخزعة ما تكون أول خطوة.",
+    "B": "<bdi>HIDA</bdi> للمرارة."
   },
   "AS-2263": {
     "A": "MRI pelvis is too slow for acute trauma and is used later to plan delayed urethral reconstruction, not for the initial diagnosis.",
@@ -11757,13 +11757,13 @@
     "C": "CT: the best imaging to clear spinal and abdominal injuries, but only after the patient is hemodynamically stabilised; a BP of 70/40 belongs in resuscitation, not the scanner."
   },
   "AS-2307": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "الاستئصال قبل التشخيص.",
+    "B": "السائل عائده قليل."
   },
   "AS-2312": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "قفل الأبواب خطر سلامة.",
+    "C": "جهاز التتبع بعد ما يطلع.",
+    "D": "مضاد الذهان يزيد الوفيات."
   },
   "AS-2316": {
     "A": "IV vasodilators: the ischemia is mechanical compression by eschar, not vasospasm; dilators cannot overcome an external constriction and may drop systemic BP.",
@@ -11771,9 +11771,9 @@
     "D": "Measure intracompartmental pressure: useful when deep muscle compartment syndrome is suspected but equivocal, e.g. after escharotomy fails or in electrical/crush injury; here perfusion is clearly compromised and measuring only delays release."
   },
   "AS-2323": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "الاستئصال المؤجل بعد الخراج.",
+    "C": "المراقبة للكتلة.",
+    "D": "التخريج خطر."
   },
   "AS-2324": {
     "A": "Tracheostomy: a planned procedure for prolonged ventilation (common later in high cord injury), not an emergency airway.",
@@ -11886,7 +11886,7 @@
     "D": "Feeding every 3 hours (about 8 feeds a day) is normal for this age, so frequency is not the problem."
   },
   "AS-2437": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "<bdi>Furuncle</bdi> كتلة مؤلمة."
   },
   "AS-2438": {
     "A": "Pancreatitis: causes epigastric pain radiating to the back with vomiting, but nephrotic syndrome itself does not specifically predispose to it; consider it only if lipase is raised or the child is on drugs that cause it.",
@@ -11952,24 +11952,24 @@
     "B": "Empirical antibiotics: right when sepsis or congenital pneumonia is suspected (maternal fever, prolonged rupture of membranes, worsening course); TTN itself is not infective."
   },
   "AS-2472": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "مضاد الاكتئاب ممنوع بالهوس.",
+    "C": "مضاد الذهان للهياج الشديد."
   },
   "AS-2523B": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "الجراحة بعد فشل العلاج."
   },
   "AS-2524": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "<bdi>HBIG</bdi> وقاية، مو علاج للمصاب."
   },
   "AS-2527": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "٥٠ للخطر العادي.",
+    "C": "٥٠ للخطر العادي.",
+    "D": "٦٠ متأخر."
   },
   "AS-2528": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "A": "التطمين يتجاهل الالتهاب.",
+    "B": "<bdi>Ceftriaxone</bdi> لالتهاب السحايا.",
+    "D": "الأشعة والبزل لعلامات السحايا."
   },
   "AS-2529": {
     "A": "Sertraline treats depression or anxiety in dementia; there is no mention of mood symptoms and it does not slow cognitive decline.",
@@ -11977,14 +11977,14 @@
     "D": "Rivastigmine is another cholinesterase inhibitor with the same mechanism; switching within the class is mainly for intolerance of donepezil rather than lack of effect, and the decline is now moderate."
   },
   "AS-2530": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "التحويل يأخر تأمين الهواء.",
+    "C": "الجناح خطر.",
+    "D": "الستيرويد لـ<bdi>croup</bdi>."
   },
   "AS-2531": {
-    "B": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "C": "خيار غير صحيح بناءً على معطيات السؤال.",
-    "D": "خيار غير صحيح بناءً على معطيات السؤال."
+    "B": "الستيرويد للكروب.",
+    "C": "المضاد بعد تأمين الهواء.",
+    "D": "الأدرينالين للكروب."
   },
   "AS-2532": {
     "A": "Urgent referral to ENT for tonsillectomy: tonsillectomy is elective treatment for recurrent tonsillitis or obstructive sleep apnea, not an emergency airway measure.",

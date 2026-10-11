@@ -7538,9 +7538,9 @@
     "weight >95th percentile with acanthosis nigricans"
   ],
   "AS-0249": [
-    "high blood pressure during school screening",
+    "high blood pressure during school",
     "above the 95th percentile",
-    "weight >95th percentile with acanthosis nigricans"
+    "weight >95th percentile with acanthosis"
   ],
   "AS-0252": [
     "IUGR",
@@ -7690,8 +7690,8 @@
   ],
   "AS-0362": [
     "obese",
-    "persistent hypertension",
-    "acanthosis nigricans"
+    "acanthosis nigricans",
+    "persistent hypertension"
   ],
   "AS-0363": [
     "2-month-old infant",
@@ -7752,8 +7752,9 @@
     "Mild hearing loss"
   ],
   "AS-0388": [
+    "conductive hearing loss",
     "*persistent* otitis media with effusion",
-    "conductive hearing loss"
+    "5-year-old"
   ],
   "AS-0388B": [
     "persistent otitis media with effusion",
@@ -7792,7 +7793,9 @@
     "polyuria (thirst)"
   ],
   "AS-0401": [
-    "nocturnal enuresis"
+    "nocturnal enuresis",
+    "Pediatric",
+    "sure"
   ],
   "AS-0402": [
     "delayed capillary refill 4 seconds",
@@ -7806,8 +7809,8 @@
   ],
   "AS-0408": [
     "MVC",
-    "low bp",
-    "tachycardia"
+    "tachycardia",
+    "low bp"
   ],
   "AS-0410": [
     "doesn’t respond to his name",
@@ -7962,7 +7965,8 @@
   ],
   "AS-0471C": [
     "pregnant",
-    "RLQ pain"
+    "RLQ pain",
+    "lady"
   ],
   "AS-0472": [
     "laparotomy 4 days ago",
@@ -8075,8 +8079,9 @@
     "pale and tachycardia"
   ],
   "AS-0529": [
+    "pale and tachycardia",
     "bright red bleedy stool",
-    "pale and tachycardia"
+    "68 years old"
   ],
   "AS-0530": [
     "epigastric pain that worsens after eating",
@@ -8117,10 +8122,8 @@
   ],
   "AS-0541": [
     "10-year-old",
-    "progressive respiratory distress",
-    "after severe pneumonia",
-    "no improvements still hypoxia",
-    "echo normal"
+    "echo normal",
+    "progressive respiratory distress"
   ],
   "AS-0547": [
     "lost 10% of her weight",
@@ -8156,8 +8159,9 @@
     "Potassium Level Of 2.9 Mmol/L"
   ],
   "AS-0566": [
+    "LDL: 4.3. (2.0-3.7)",
     "waist circumference is 125cm",
-    "LDL: 4.3. (2.0-3.7)"
+    "52 y/o"
   ],
   "AS-0568": [
     "repeated episodes of joint pain",
@@ -8165,11 +8169,9 @@
     "Uric acid: 400 (High Normal) (Normal <480)"
   ],
   "AS-0570": [
-    "metalic valve on warfarin",
-    "bloody stool",
-    "hypotension",
     "Hb 6",
-    "INR: 7"
+    "INR: 7",
+    "metalic valve on warfarin"
   ],
   "AS-0571": [
     "49-year-old",
@@ -8310,7 +8312,8 @@
   ],
   "AS-0606": [
     "14 hour flight",
-    "DVT"
+    "DVT",
+    "male"
   ],
   "AS-0607": [
     "after 12h",
@@ -8390,7 +8393,9 @@
     "no fever"
   ],
   "AS-0651B": [
-    "paediatric with watery diarrhea"
+    "paediatric",
+    "with",
+    "watery"
   ],
   "AS-0652": [
     "signs of pneumonia",
@@ -8730,8 +8735,8 @@
     "increase with crying"
   ],
   "AS-0809": [
-    "acute pancreatitis 3 weeks ago",
     "mild abdominal pain",
+    "acute pancreatitis 3 weeks ago",
     "cyst measure 4 cm"
   ],
   "AS-0810": [
@@ -8758,7 +8763,8 @@
   ],
   "AS-0820": [
     "TTN",
-    "on mechanical ventilator but he is not improving"
+    "on mechanical ventilator but he",
+    "next step"
   ],
   "AS-0821": [
     "TTN",
@@ -8768,8 +8774,9 @@
     "Small for Gestational Age"
   ],
   "AS-0824": [
+    "elective circumcision",
     "2 year old boy",
-    "elective circumcision"
+    "2 year old"
   ],
   "AS-0827": [
     "Asthma child",
@@ -8783,7 +8790,7 @@
   "AS-0836": [
     "90 year old",
     "severe abdominal pain",
-    "soft and lax, tender all over"
+    "soft and lax, tender all"
   ],
   "AS-0838": [
     "Kawasaki",
@@ -8811,7 +8818,9 @@
     "post op"
   ],
   "AS-0858": [
-    "planter of foot"
+    "planter of foot",
+    "Best",
+    "type"
   ],
   "AS-0859": [
     "DM",
@@ -8824,10 +8833,9 @@
     "continue to worsen despite medical management"
   ],
   "AS-0861": [
-    "alkaline substance",
     "3 hours later",
     "SOB",
-    "salivation"
+    "alkaline substance"
   ],
   "AS-0862": [
     "alkaline fluid 3h ago",
@@ -8835,9 +8843,9 @@
     "mild tenderness"
   ],
   "AS-0863": [
-    "alkaline fluid 3h ago",
     "Vitally stable",
-    "mild tenderness"
+    "mild tenderness",
+    "alkaline fluid 3h ago"
   ],
   "AS-0864": [
     "choking with a popcorn",
@@ -8866,9 +8874,8 @@
   ],
   "AS-0883": [
     "chronic hepatitis B",
-    "ascites that is well controlled",
-    "6 × 6 cm mass",
-    "arterial phase enhancement"
+    "arterial phase enhancement",
+    "ascites that is well controlled"
   ],
   "AS-0884": [
     "hepatitis B cirrhosis",
@@ -8990,8 +8997,9 @@
     "grunting"
   ],
   "AS-0933": [
+    "RR 65",
     "Newborn wheezing",
-    "RR 65"
+    "Newborn"
   ],
   "AS-0936": [
     "bleeding from the umbilical stump",
@@ -9064,7 +9072,8 @@
   ],
   "AS-0976": [
     "6 weeks",
-    "absent red reflex"
+    "absent red reflex",
+    "weeks"
   ],
   "AS-0979": [
     "bacterial sinusitis",
@@ -9160,8 +9169,8 @@
     "70-year-old female"
   ],
   "AS-1082": [
-    "prostate cancer",
     "back pain",
+    "prostate cancer",
     "lower limb weakness"
   ],
   "AS-1117": [
@@ -9183,7 +9192,8 @@
   ],
   "AS-1152": [
     "Lesser sac",
-    "9 cm cyst posterior to the stomach"
+    "9 cm cyst posterior to",
+    "Lesser"
   ],
   "AS-1153": [
     "fell",
@@ -9198,7 +9208,8 @@
   ],
   "AS-1166": [
     "open wound",
-    "devitalized tissue and dirt in the wound"
+    "devitalized tissue and dirt in",
+    "23-year-old"
   ],
   "AS-1177": [
     "warmth and tenderness of the calf",
@@ -9232,13 +9243,19 @@
     "fever and burning urination"
   ],
   "AS-1203": [
-    "sucking reflex"
+    "sucking reflex",
+    "remember",
+    "sucking"
   ],
   "AS-1203B": [
-    "automatic walking reflex"
+    "automatic walking reflex",
+    "remember",
+    "sucking"
   ],
   "AS-1204": [
-    "X-linked severe combined immunodeficiency"
+    "X-linked severe combined immunodeficiency",
+    "Long",
+    "term"
   ],
   "AS-1206": [
     "11-year-old boy",
@@ -9290,7 +9307,9 @@
     "effusion"
   ],
   "AS-1261": [
-    "7 yrs old girl with type 1 DM"
+    "7 yrs old girl with",
+    "girl",
+    "with"
   ],
   "AS-1265": [
     "7-year-old child",
@@ -9320,12 +9339,14 @@
     "triangular face"
   ],
   "AS-1287": [
+    "bleeding",
     "newborn with Hemophilia A",
-    "bleeding"
+    "newborn"
   ],
   "AS-1289": [
+    "under the conjunctiva",
     "well circumscribed red swelling",
-    "under the conjunctiva"
+    "well"
   ],
   "AS-1290": [
     "frequent diarrhoea that is sometimes bloody",
@@ -9337,8 +9358,9 @@
     "Reed–Sternberg cells"
   ],
   "AS-1295": [
+    "grunting",
     "c/s delivery",
-    "grunting"
+    "neonate"
   ],
   "AS-1296": [
     "beta-hydroxybutyrate levels 0.1 (Normal >1.5)",
@@ -9355,7 +9377,9 @@
     "red flag"
   ],
   "AS-1303": [
-    "7 month child"
+    "7 month child",
+    "month",
+    "child"
   ],
   "AS-1307": [
     "polyuria, polydipsia",
@@ -9363,10 +9387,14 @@
     "After giving desmopressin urine osmolality improved"
   ],
   "AS-1309": [
-    "chronic diarrhea, blood in stool, weight loss, and fever"
+    "chronic diarrhea, blood in stool,",
+    "12-year-old",
+    "most appropriate next step"
   ],
   "AS-1310": [
-    "chronic diarrhea, blood in stool, weight loss, and fever"
+    "chronic diarrhea, blood in stool,",
+    "12-year-old",
+    "most appropriate next step"
   ],
   "AS-1313": [
     "cover test",
@@ -9375,7 +9403,8 @@
   ],
   "AS-1318": [
     "drinking cow’s milk",
-    "low hbg low mcv low ferritin"
+    "low hbg low mcv low",
+    "2-year-old"
   ],
   "AS-1327": [
     "7 months",
@@ -9413,7 +9442,8 @@
   ],
   "AS-1343": [
     "brucellosis",
-    "drink raw milk from goat"
+    "drink raw milk from goat",
+    "most appropriate treatment"
   ],
   "AS-1347": [
     "arthritis",
@@ -9441,8 +9471,8 @@
   ],
   "AS-1356": [
     "46-year-old man",
-    "father was recently diagnosed with prostate cancer",
-    "smooth, regular, and the sulcus is palpable"
+    "father was recently diagnosed with",
+    "smooth, regular, and the sulcus"
   ],
   "AS-1356B": [
     "Father had prostate cancer at age 73"
@@ -9487,9 +9517,9 @@
     "posterior midline tear in the anal canal"
   ],
   "AS-1392": [
+    "Chovsteks sign",
     "post thyroid surg",
-    "numbness around lips",
-    "Chovsteks sign"
+    "numbness around lips"
   ],
   "AS-1396": [
     "Child",
@@ -9515,7 +9545,7 @@
   ],
   "AS-1419": [
     "Kawasaki disease",
-    "already received IVIG and IV aspirin",
+    "already received IVIG and IV",
     "symptoms are still not improving"
   ],
   "AS-1419B": [
@@ -9542,7 +9572,9 @@
     "Bethesda IV (suspicious for follicular neoplasm)"
   ],
   "AS-1423": [
-    "below and lateral to the Pubic Tubercle"
+    "below and lateral to the",
+    "55-year-old",
+    "most likely diagnosis"
   ],
   "AS-1425": [
     "delayed separation of his umbilical cords",
@@ -9550,11 +9582,13 @@
     "normal PT, PTT and platelets count and function"
   ],
   "AS-1431": [
-    "Acute limb ischemia"
+    "Acute limb ischemia",
+    "Acute",
+    "limb"
   ],
   "AS-1433": [
-    "2 months claudication pain",
     "ABI was 0.3",
+    "2 months claudication pain",
     "3cm occlusion in popliteal artery"
   ],
   "AS-1434": [
@@ -9563,11 +9597,13 @@
   ],
   "AS-1436": [
     "Newborn covered with meconum",
-    "vigorous, cry and good muscle tone"
+    "vigorous, cry and good muscle",
+    "most appropriate"
   ],
   "AS-1437": [
     "covered with meconum",
-    "conventional ventilation then high flow ventilation"
+    "conventional ventilation then high flow",
+    "Newborn"
   ],
   "AS-1443": [
     "koilonychia",
@@ -9586,12 +9622,14 @@
     "65 yo male came"
   ],
   "AS-1447B": [
+    "fluid collection",
     "acute diverticulitis",
-    "fluid collection"
+    "next step"
   ],
   "AS-1448": [
-    "recurrent migraine for 2 weeks daily",
-    "initial treatment with no effect"
+    "recurrent migraine for 2 weeks",
+    "initial treatment with no effect",
+    "baby"
   ],
   "AS-1450": [
     "A 19-year-old man presented"
@@ -9600,8 +9638,9 @@
     "identifies site of pain by moaning"
   ],
   "AS-1454": [
+    "assess consciousness",
     "hit by a car",
-    "assess consciousness"
+    "child"
   ],
   "AS-1455": [
     "massive hematemesis",
@@ -9639,7 +9678,9 @@
     "hypoxia and severe respiratory distress"
   ],
   "AS-1482": [
-    "Boot heart shape"
+    "Boot heart shape",
+    "Most appropriate next investigation",
+    "Boot"
   ],
   "AS-1484B": [
     "diarrhea for 3 months",
@@ -9655,17 +9696,18 @@
     "ASO = 800"
   ],
   "AS-1490": [
+    "crying",
     "bluish discoloration",
-    "crying"
+    "Baby"
   ],
   "AS-1491": [
     "fully vaccinated",
     "clean and small wound"
   ],
   "AS-1499": [
-    "delayed motor",
     "hypotonia",
-    "CK normal"
+    "CK normal",
+    "delayed motor"
   ],
   "AS-1508": [
     "day and night enuresis",
@@ -9673,11 +9715,14 @@
     "sacral dimples"
   ],
   "AS-1509": [
-    "vertical transmission of HIV"
+    "vertical transmission of HIV",
+    "month",
+    "infant"
   ],
   "AS-1510": [
+    "T 37.1",
     "mild flu symptoms",
-    "T 37.1"
+    "months"
   ],
   "AS-1511": [
     "4-hour history of sudden left leg pain",
@@ -9790,8 +9835,9 @@
     "17-hydroxyprogesterone level is elevated"
   ],
   "AS-1578": [
+    "prevent the progression",
     "talkative and interrupt others",
-    "prevent the progression"
+    "Child"
   ],
   "AS-1579": [
     "severe chest pain",
@@ -9818,7 +9864,8 @@
   ],
   "AS-1589": [
     "BLUNT abdominal trauma",
-    "Extravasation around the left kidney"
+    "Extravasation around the left kidney",
+    "most appropriate step"
   ],
   "AS-1589B": [
     "blunt abdominal trauma",
@@ -9828,15 +9875,14 @@
     "perirenal hematoma"
   ],
   "AS-1590": [
-    "BLUNT abdominal trauma",
+    "UNSTABLE",
     "CONTRAST Extravasation",
-    "UNSTABLE"
+    "BLUNT abdominal trauma"
   ],
   "AS-1591": [
-    "barky cough",
-    "in distress",
     "Bp was 80/60",
-    "Oxygen was 80%"
+    "Oxygen was 80%",
+    "barky cough"
   ],
   "AS-1591B": [
     "low grade fever",
@@ -9876,7 +9922,9 @@
     "Single Palmar Crease"
   ],
   "AS-1638": [
-    "early decompensated shock"
+    "early decompensated shock",
+    "What",
+    "signs"
   ],
   "AS-1638B": [
     "most initial sign",
@@ -9887,7 +9935,9 @@
     "irreducible"
   ],
   "AS-1640": [
-    "Appendiceal mass with no collection"
+    "Appendiceal mass with no collection",
+    "patient",
+    "presented"
   ],
   "AS-1641": [
     "post term"
@@ -9930,11 +9980,12 @@
   ],
   "AS-1675": [
     "bipolar type 1",
-    "manic episode"
+    "manic episode",
+    "bipolar"
   ],
   "AS-1676": [
     "depressive episodes",
-    "positive family history of bipolar disorder",
+    "positive family history of bipolar",
     "pressured speech and insomnia"
   ],
   "AS-1677": [
@@ -9951,7 +10002,8 @@
   ],
   "AS-1685": [
     "Triceps mass",
-    "Suggestive of malignant"
+    "Suggestive of malignant",
+    "Triceps"
   ],
   "AS-1689": [
     "what to do until the surgeon comes"
@@ -10005,7 +10057,8 @@
   ],
   "AS-1723": [
     "BMI 35",
-    "VTE prophylaxis"
+    "VTE prophylaxis",
+    "Female"
   ],
   "AS-1731": [
     "diabetic",
@@ -10020,8 +10073,9 @@
     "WBC 8"
   ],
   "AS-1732": [
+    "crepitus",
     "Fournier's Gangrene",
-    "crepitus"
+    "initial investigation"
   ],
   "AS-1745": [
     "wt loss, jaundice and dark urine",
@@ -10040,13 +10094,14 @@
     "Biopsy option"
   ],
   "AS-1759": [
-    "Isolated jaundice",
     "5 days old",
+    "Isolated jaundice",
     "all other exam normal"
   ],
   "AS-1760": [
+    "evidence of rupture",
     "pulsatile abdominal mass",
-    "evidence of rupture"
+    "definitive management"
   ],
   "AS-1766": [
     "birad 0",
@@ -10054,15 +10109,17 @@
   ],
   "AS-1768": [
     "MVA",
-    "severe back pain"
+    "severe back pain",
+    "Patient"
   ],
   "AS-1770": [
     "after elective orthopedic surgery",
     "confused"
   ],
   "AS-1771": [
-    "acute confusion with fluctuations in awareness",
-    "AGITATED"
+    "AGITATED",
+    "acute confusion with fluctuations in",
+    "Elderly"
   ],
   "AS-1774": [
     "7 days",
@@ -10074,7 +10131,9 @@
     "mild pain"
   ],
   "AS-1787": [
-    "splenic laceration grade3"
+    "splenic laceration grade3",
+    "splenic",
+    "laceration"
   ],
   "AS-1788": [
     "stabbed in the right lower quadrant",
@@ -10089,7 +10148,9 @@
     "loss 25% of their blood volume"
   ],
   "AS-1800": [
-    "not compliance to medication"
+    "not compliance to medication",
+    "Patient",
+    "with"
   ],
   "AS-1804": [
     "Testicular torsion"
@@ -10127,7 +10188,9 @@
     "remove 1.3 cm of the lesion"
   ],
   "AS-1823": [
-    "polyp was removed"
+    "polyp was removed",
+    "30-year-old",
+    "underwent"
   ],
   "AS-1824": [
     "one polyp size 1.5cm",
@@ -10138,8 +10201,9 @@
     "remove 1.3 cm of the lesion"
   ],
   "AS-1826": [
+    "tubular adenoma",
     "1.5 cm polyp sigmoid",
-    "tubular adenoma"
+    "year"
   ],
   "AS-1827": [
     "Polyp tubular adenoma"
@@ -10183,11 +10247,13 @@
   ],
   "AS-1848": [
     "suddenly desaturated spo2 ~88%",
-    "Chest X ray was NORMAL"
+    "Chest X ray was NORMAL",
+    "came"
   ],
   "AS-1849": [
     "suddenly desaturated spo2 ~88%",
-    "Chest X ray was NORMAL"
+    "Chest X ray was NORMAL",
+    "came"
   ],
   "AS-1856": [
     "normal appendix"
@@ -10196,9 +10262,9 @@
     "best confirmation to consciousness"
   ],
   "AS-1877": [
-    "jaundice",
+    "CA19:510",
     "CA19-9 very high",
-    "CA19:510"
+    "jaundice"
   ],
   "AS-1877B": [
     "jaundice, dark urine, pale stool and weight loss",
@@ -10265,7 +10331,8 @@
   ],
   "AS-1910": [
     "transfer objects hand-to-hand",
-    "hasn't developed pincer grasp"
+    "hasn't developed pincer grasp",
+    "Child"
   ],
   "AS-1911": [
     "sits briefly",
@@ -10284,9 +10351,9 @@
     "no head lag"
   ],
   "AS-1922": [
-    "fever and barky cough",
+    "Oxygen was 80%",
     "in distress",
-    "Oxygen was 80%"
+    "fever and barky cough"
   ],
   "AS-1925": [
     "6-month-old",
@@ -10297,8 +10364,9 @@
     "Irion defiency anemia"
   ],
   "AS-1928": [
+    "jundice",
     "paracetamol every 4h for 3days",
-    "jundice"
+    "Paedia"
   ],
   "AS-1929": [
     "ingestion of 20 tablets of iron"
@@ -10309,8 +10377,9 @@
     "Iron 94"
   ],
   "AS-1933": [
+    "chemoprophylaxis",
     "Grampositive cocci",
-    "chemoprophylaxis"
+    "7-year-old"
   ],
   "AS-1934": [
     "meningococcal meningitis",
@@ -10364,7 +10433,9 @@
     "behind the ear, face and neck"
   ],
   "AS-1942B": [
-    "rash in face or neck then go down"
+    "rash in face or neck",
+    "pediatric",
+    "rash"
   ],
   "AS-1943": [
     "conjunctival erythema",
@@ -10402,16 +10473,17 @@
   ],
   "AS-1979": [
     "fractured 3 ribs",
-    "at first stable Then become distressed",
-    "Chest clear"
+    "Chest clear",
+    "at first stable Then become"
   ],
   "AS-1983": [
     "2.3 cm solid hypoechoic nodule",
     "Follicular neoplasm, Bethesda 4"
   ],
   "AS-1984": [
+    "Desaturating",
     "facial injuries",
-    "Desaturating"
+    "Next step"
   ],
   "AS-1985": [
     "day 6/7 Post OP",
@@ -10587,8 +10659,9 @@
     "localized LLQ tenderness and pain"
   ],
   "AS-2056": [
-    "rapidly enlarging 5 cm breast mass",
-    "stromal cells with increased mitotic figures"
+    "rapidly enlarging 5 cm breast",
+    "stromal cells with increased mitotic",
+    "Female"
   ],
   "AS-2057": [
     "long history of autoimmune thyroiditis"
@@ -10606,8 +10679,9 @@
     "Hirschsprung disease"
   ],
   "AS-2067": [
+    "conjunctivitis",
     "Brother also sick",
-    "conjunctivitis"
+    "Most likely diagnosis"
   ],
   "AS-2068": [
     "bilateral conjunctivitis",
@@ -10701,9 +10775,9 @@
     "three fistula openings"
   ],
   "AS-2101": [
+    "not abscess",
     "crohns disease",
-    "distended bowel",
-    "not abscess"
+    "distended bowel"
   ],
   "AS-2103": [
     "7-year-old boy",
@@ -10721,7 +10795,7 @@
   "AS-2106": [
     "afebrile",
     "hemodynamically stable",
-    "1 × 1 cm fluid collection"
+    "1 × 1 cm fluid"
   ],
   "AS-2107": [
     "febrile",
@@ -10746,9 +10820,8 @@
   ],
   "AS-2115": [
     "numbness",
-    "lower limb weakness",
     "sever back pain",
-    "abscess collection with compression sign"
+    "lower limb weakness"
   ],
   "AS-2117": [
     "53-day-old",
@@ -10769,10 +10842,8 @@
   ],
   "AS-2119": [
     "14-year-old",
-    "delayed puberty",
     "Tanner Stage 1",
-    "normal levels of FSH and LH",
-    "mildly elevated serum estradiol"
+    "delayed puberty"
   ],
   "AS-2120": [
     "8 years old",
@@ -10790,7 +10861,9 @@
     "initial investigation"
   ],
   "AS-2129": [
-    "Ruptured appendix with collection"
+    "Ruptured appendix with collection",
+    "Ruptured",
+    "appendix"
   ],
   "AS-2132": [
     "7-year-old",
@@ -10806,8 +10879,8 @@
     "Cannot empty his bladder, failed transurethral catheterization"
   ],
   "AS-2137": [
-    "Painless hematuria",
     "distended bladder",
+    "Painless hematuria",
     "failed to insert catheter"
   ],
   "AS-2140": [
@@ -10878,8 +10951,9 @@
     "definitive diagnosis"
   ],
   "AS-2162": [
+    "wet discharge",
     "bilateral redness",
-    "wet discharge"
+    "next step"
   ],
   "AS-2165": [
     "after moving a heavy object",
@@ -10967,7 +11041,9 @@
     "E.coli"
   ],
   "AS-2212": [
-    "stony dullness on percussion"
+    "stony dullness on percussion",
+    "Cough",
+    "fevere"
   ],
   "AS-2214": [
     "Perforated diverticulitis",
@@ -10975,28 +11051,32 @@
     "vitally stable"
   ],
   "AS-2215": [
-    "left lower abdominal pain",
+    "WBCs 18",
     "fever 38.5",
-    "WBCs 18"
+    "left lower abdominal pain"
   ],
   "AS-2215B": [
     "diverticulosis",
-    "mild intermittent left lower abdominal pain",
-    "no fever normal WBCs and no signs of peritonitis"
+    "mild intermittent left lower abdominal",
+    "no fever normal WBCs and"
   ],
   "AS-2218": [
     "drowsy and dilated pupil",
     "small epidural hematoma"
   ],
   "AS-2219": [
-    "bleeding per rectum"
+    "bleeding per rectum",
+    "Girl",
+    "presented"
   ],
   "AS-2220": [
     "normal fsh , lh",
     "high estradiol"
   ],
   "AS-2221": [
-    "protruded tongue"
+    "protruded tongue",
+    "Child",
+    "moth"
   ],
   "AS-2223": [
     "BA",
@@ -11020,7 +11100,9 @@
     "potassium level of 2.8 mmol/L"
   ],
   "AS-2230": [
-    "family hx of mania"
+    "family hx of mania",
+    "Psyco",
+    "insomnia"
   ],
   "AS-2234": [
     "continuous machinery-like murmur",
@@ -11093,8 +11175,9 @@
     "Koplik spots"
   ],
   "AS-2260": [
-    "increasing jaundice, flapping tremor and decreased school performance",
-    "stigmata of chronic liver disease"
+    "increasing jaundice, flapping tremor and",
+    "stigmata of chronic liver disease",
+    "MOST APPROPRIATE management"
   ],
   "AS-2263": [
     "motorcycle trauma",
@@ -11167,18 +11250,23 @@
     "BP is 70/40"
   ],
   "AS-2307": [
-    "Mixed thyroid, cystic and solid"
+    "Mixed thyroid, cystic and solid",
+    "Mixed",
+    "thyroid"
   ],
   "AS-2312": [
     "Alzheimer disease",
-    "wandering at night"
+    "wandering at night",
+    "80-year-old"
   ],
   "AS-2316": [
     "circumferential right forearm burn",
     "weak distal pulsation"
   ],
   "AS-2323": [
-    "ruptured appendicitis"
+    "ruptured appendicitis",
+    "most appropriate next step",
+    "Question"
   ],
   "AS-2324": [
     "MVA",
@@ -11284,7 +11372,9 @@
     "19 years old, that's her first baby"
   ],
   "AS-2437": [
-    "small papules on his face after shaving"
+    "small papules on his face",
+    "most likely diagnosis",
+    "presents"
   ],
   "AS-2438": [
     "nephrotic syndrome",
@@ -11347,23 +11437,29 @@
     "fluid in the interlobar fissures"
   ],
   "AS-2472": [
-    "decreased need for sleep, increased energy, and rapid speech"
+    "decreased need for sleep, increased",
+    "most appropriate treatment",
+    "female"
   ],
   "AS-2523B": [
-    "Anal fissure 7, 3"
+    "Anal fissure 7, 3",
+    "Anal",
+    "fissure"
   ],
   "AS-2524": [
     "Positive HBsAg",
-    "Positive HBcAb IgG",
-    "Negative HBcAb IgM",
-    "Positive HBeAg"
+    "Positive HBeAg",
+    "Positive HBcAb IgG"
   ],
   "AS-2527": [
-    "colon cancer at age of 50"
+    "colon cancer at age of",
+    "40 YO",
+    "male"
   ],
   "AS-2528": [
     "abnormal jerky movements",
-    "sore throat, and fever"
+    "sore throat, and fever",
+    "7-year-old"
   ],
   "AS-2529": [
     "Alzheimer's",
@@ -11372,15 +11468,14 @@
     "MMSE was 19 and now is 12"
   ],
   "AS-2530": [
+    "Oxygen sat 88%",
     "looks toxic",
-    "immobile in a chair, opens his mouth with drooling of saliva",
-    "Oxygen sat 88%"
+    "immobile in a chair, opens"
   ],
   "AS-2531": [
-    "difficulty swallowing",
     "no cough",
     "sitting silently",
-    "with her neck extended"
+    "difficulty swallowing"
   ],
   "AS-2532": [
     "ill toxic looking child with drooling of saliva",
