@@ -143,7 +143,7 @@ for r in rows:
     explain += f'<p class="src">المصدر: {SOURCE_NAME}، السؤال رقم {qno}</p>'
 
     deck_name = r["_deck"]
-    if not letter:
+    if not letter or st in ("uncertain", "provisional"):
         deck_name = deck_name.rsplit("::", 1)[0] + "::⚠ المشكوك فيهم"
     if deck_name not in by_deck:
         by_deck[deck_name] = genanki.Deck(B.deck_id_for("mkj::" + deck_name), deck_name)
