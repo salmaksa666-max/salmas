@@ -190,6 +190,11 @@ def build():
     with open("abosarah2026/data/progress.json", encoding="utf-8") as f:
         progress = set(json.load(f))
     try:
+        with open("abosarah2026/data/doubtful.json", encoding="utf-8") as f:
+            doubtful = json.load(f)
+    except FileNotFoundError:
+        doubtful = {}
+    try:
         with open("abosarah2026/data/memorize.json", encoding="utf-8") as f:
             memorize_map = json.load(f)
     except FileNotFoundError:
@@ -209,7 +214,16 @@ def build():
         ww = why_wrong.get(qno, {})
         topic = q["section"]
 
-        full_deck_name = f"{PARENT_DECK_NAME}::{topic}"
+        reason = doubtful.get(qno)
+        if reason == "answer":
+            full_deck_name = f"{PARENT_DECK_NAME}::⚠ المشكوك فيهم::1 جواب غير مؤكد"
+            tags = ["مشكوك_الجواب"]
+        elif reason == "explain":
+            full_deck_name = f"{PARENT_DECK_NAME}::⚠ المشكوك فيهم::2 شرح يحتاج مراجعة"
+            tags = ["شرح_يحتاج_مراجعة"]
+        else:
+            full_deck_name = f"{PARENT_DECK_NAME}::{topic}"
+            tags = []
         if full_deck_name not in decks:
             decks[full_deck_name] = genanki.Deck(deck_id_for(full_deck_name), full_deck_name)
         deck = decks[full_deck_name]
@@ -248,6 +262,7 @@ def build():
             model=MODEL,
             fields=fields,
             guid=guid_for(qno, topic),
+            tags=tags,
         )
         deck.add_note(note)
         count += 1
