@@ -34,7 +34,16 @@ FRONT_TEMPLATE = """
     var s = window.getSelection ? window.getSelection().toString() : '';
     return s && s.length > 0;
   }
+  var known = Array.prototype.some.call(opts, function (o) { return o.dataset.k === correct; });
+  if (!opts.length) { btn.style.display = 'block'; }
   function reveal(picked) {
+    if (!known) {
+      opts.forEach(function (o) { o.classList.add('done'); });
+      btn.style.display = 'block';
+      var m0 = expBox.querySelector('#memo');
+      if (m0) btn.parentNode.insertBefore(m0, btn);
+      return;
+    }
     opts.forEach(function (o) {
       var k = o.dataset.k;
       o.classList.add('done');
