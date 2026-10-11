@@ -20,7 +20,7 @@ did_of = {r[0]: r[1] for r in c.execute("select nid,did from cards")}
 rows = []
 for nid, flds, tags in c.execute("select id,flds,tags from notes order by id"):
     d = dict(zip(names, flds.split("\x1f")))
-    d["_deck"] = decks[did_of[nid]]
+    d["_deck"] = "Months::9 September::" + decks[did_of[nid]].split("::")[-1]
     rows.append(d)
 
 LABELS = {
