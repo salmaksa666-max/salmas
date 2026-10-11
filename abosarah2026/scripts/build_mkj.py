@@ -39,8 +39,19 @@ BADGES = {"Repeated ×2": "🔁 تكرر ٢ مرات", "Repeated ×3": "🔁 ت�
           "Updated answer": "✏ الجواب تحدّث", "Duplicate": "نسخة مكررة", "🆕 New recall": "🆕 سؤال جديد"}
 TAGS = {"Repeated ×2": "تكرر_2", "Repeated ×3": "تكرر_3", "Repeated ×4": "تكرر_4", "Updated answer": "جواب_تحدث", "Duplicate": "مكرر", "🆕 New recall": "جديد"}
 
-def kw(h):
-    return re.sub(r'<span class="kw">(.*?)</span>', r'<mark class="l1">\1</mark>', h, flags=re.S)
+def kw(h, strong=()):
+    def rep(m):
+        cls = "l2" if re.sub(r"<[^>]+>", "", m.group(1)).strip() in strong else "l1"
+        return f'<mark class="{cls}">{m.group(1)}</mark>'
+    return re.sub(r'<span class="kw">(.*?)</span>', rep, h, flags=re.S)
+
+def pick_strong(h):
+    terms = [re.sub(r"<[^>]+>", "", t).strip() for t in re.findall(r'<span class="kw">(.*?)</span>', h, re.S)]
+    terms = [t for t in terms if t]
+    short = sorted([t for t in terms if len(t.split()) <= 3], key=lambda t: (0 if any(ch.isdigit() for ch in t) else 1, len(t)))
+    strong = short[:2] or terms[:1]
+    rest = [t for t in terms if t not in strong]
+    return strong, rest
 
 def opt_text(h):
     return re.sub(r"^[A-E]\.\s*", "", re.sub(r"<[^>]+>", "", h)).strip()
@@ -53,7 +64,9 @@ for r in rows:
     qno = r["QNo"]
     qh = r["OriginalQuestionHTML"]
     m = re.search(r'<div class="question-stem-text">(.*?)</div>\s*(<div class="question-options">|$)', qh, re.S)
-    stem = kw(m.group(1)) if m else kw(re.sub(r'<div class="question-options">.*', "", qh, flags=re.S))
+    raw_stem = m.group(1) if m else re.sub(r'<div class="question-options">.*', "", qh, flags=re.S)
+    strong, rest = pick_strong(raw_stem)
+    stem = kw(raw_stem, strong)
     opts = dict((l, opt_text(t)) for l, t in re.findall(r'<div class="source-option" data-letter="([A-Z])">(.*?)</div>', qh, re.S))
     extra = ""
     if len(opts) > 4 or len(opts) < 2:
@@ -106,7 +119,27 @@ for r in rows:
             badges.append(BADGES[k])
     badge_html = "".join(f'<div class="star-badge">{b_}</div>' for b_ in badges)
 
-    explain = badge_html + answer_line + "".join(parts) + topic
+    memo = ""
+    if letter or mm:
+        ans_txt = (opts.get(letter) if opts and letter else (mm.group(2) if mm else "")) or ""
+        STOP = {"and","of","with","the","to","for","in","a","an","or","but","at","on","was","is","her","his","despite","after"}
+        def short(t):
+            w = t.split()[:5]
+            while w and w[-1].lower().strip(",.;:") in STOP:
+                w.pop()
+            return " ".join(w).strip(" ,.;:")
+        clues = [c_ for c_ in (short(t) for t in strong + rest) if c_]
+        line = ""
+        for n in range(min(len(clues), 3), 0, -1):
+            cand = " + ".join(clues[:n]) + " \u2192 " + ans_txt
+            if len(cand) <= 130:
+                line = cand; break
+        if not line and clues:
+            line = clues[0] + " \u2192 " + ans_txt
+        if line:
+            memo = f'<div id="memo" dir="rtl"><b>احفظي:</b> <bdi dir="ltr">{html.escape(line)}</bdi></div>'
+            stats["memo"] += 1
+    explain = memo + badge_html + answer_line + "".join(parts) + topic
     explain += f'<p class="src">المصدر: {SOURCE_NAME}، السؤال رقم {qno}</p>'
 
     deck_name = r["_deck"]

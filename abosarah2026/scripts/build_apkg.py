@@ -115,6 +115,25 @@ CSS = """
 .night_mode #q mark.l1, .nightMode #q mark.l1, .night-mode #q mark.l1 { background:#8a7a3a; color:#000 !important; }
 .night_mode #memo, .nightMode #memo, .night-mode #memo { background:#3a4a40; color:#eee; }
 #q mark { color:#000 !important; }
+
+/* always-dark theme */
+.card, body { background:#1c1c1e !important; color:#e6e6e6 !important; }
+.opt { border-color:#444; color:#e6e6e6; }
+.opt.right { background:#1f3a2a; border-color:#4caf78; color:#e6f4ea; }
+.opt.picked { background:#3a2020; border-color:#e06666; color:#f6dede; }
+.opt .why { color:#d0d0d0; }
+.expBtn { background:#2e7d4f; color:#fff; }
+#exp table.clues td, #exp table.clues th, #exp table.cmp td, #exp table.cmp th { border-color:#555; }
+#exp .star-badge { background:#3a3420; color:#f1d98a; border-color:#a88a2a; }
+#exp .fromfile { background:#2a2a2a; color:#ddd; }
+#exp p.note { background:#3a3420; color:#f1e7c6; }
+#exp p.src { color:#999; }
+#exp details.topic { border-color:#3e5a4f; }
+#exp details.topic summary { background:#25352f; color:#cfe8dd; }
+#exp .topic-body p.pearl { background:#3a3420; color:#f1e7c6; }
+#memo { background:#26352c; color:#e6f4ea; }
+#q mark.l2 { background:#e0b400; color:#000 !important; }
+#q mark.l1 { background:#8a7a3a; color:#000 !important; }
 #exp details.topic { margin:10px 0; border:1px solid #9bbcae; border-radius:8px; overflow:hidden; }
 #exp details.topic summary { cursor:pointer; padding:8px 10px; background:#e7f3ee; color:#1f4d40; font-weight:bold; list-style:none; }
 #exp details.topic summary::-webkit-details-marker { display:none; }
