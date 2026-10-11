@@ -32794,29 +32794,29 @@
   "AS-0004": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "رجل ٢٨ سنة، تدريب عسكري مجهد، دوخة عند الوقوف وتعب — جفاف ونقص حجم، والكلى تعمل بشكل طبيعي وتركز البول بقوة.",
+    "idea": "جندي بعد تدريب قاسي، دوخة مع الوقوف و<bdi>postural hypotension</bdi>، و<bdi>urine osmolality</bdi> فوق ٥٠٠ — الكلية سليمة وتحاول تحفظ الماء.",
     "clues": [
       [
         "excessive military training",
-        "سبب فقدان سوائل كبير"
+        "فقد سوائل وجفاف"
       ],
       [
         "postural hypotension",
-        "تأكيد نقص حجم الدم"
+        "يأكد <bdi>hypovolemia</bdi>"
       ],
       [
-        "Urine osmolality is elevated >500 mOsm/kg",
-        "دليل إن الأنابيب الكلوية سليمة وتعمل بأقصى تركيز"
+        "Urine osmolality is elevated >500",
+        "الكلية لسا تركز البول، يعني الـ tubules سليمة"
       ]
     ],
     "why_correct": [
-      "التدريب المجهد يسبب فقدان سوائل، والدوخة عند الوقوف تؤكد نقص حجم الدم.",
-      "تركيز بول عالي جدًا (فوق ٥٠٠) يعني الأنابيب الكلوية سليمة وتعمل بأقصى طاقتها للحفاظ على الماء — هذا بالضبط تعريف <bdi>pre-renal azotemia</bdi>."
+      "التدريب سبب جفاف، و<bdi>postural hypotension</bdi> يأكد نقص الحجم.",
+      "<bdi>Urine osmolality</bdi> فوق ٥٠٠ يعني الـ<bdi>tubules</bdi> شغالة وتركز البول بأقصى طاقتها، وهذا تعريف <bdi>pre-renal azotemia</bdi>."
     ],
     "when_changes": [
-      "لو كان تركيز البول منخفض (أقل من ٣٠٠) مع نفس الجفاف، يعني الأنابيب نفسها تضررت، والجواب يتحول لـ<bdi>acute tubular necrosis</bdi>."
+      "لو <bdi>urine osmolality</bdi> أقل من ٣٠٠ (بول مخفف)، يصير الضرر داخل الكلية، مثل <bdi>ATN</bdi>."
     ],
-    "rule": "تركيز بول عالي (أعلى من ٥٠٠) مع نقص حجم = قصور كلوي قبل-كلوي؛ تركيز منخفض (أقل من ٣٠٠) = أذية أنبوبية داخلية.",
+    "rule": "بول مركز فوق ٥٠٠ = <bdi>pre-renal</bdi>؛ بول مخفف أقل من ٣٠٠ = <bdi>intrinsic</bdi> مثل <bdi>ATN</bdi>.",
     "comparison": null,
     "labs": [
       [
@@ -32830,25 +32830,29 @@
   "AS-0009": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "مريض ٧٠ سنة، سكتة دماغية إقفارية قبل يومين، سكر عشوائي مرتفع (١٢.٦) — السكر المرتفع بعد السكتة يسوء النتيجة العصبية، لازم يُعالج.",
+    "idea": "مسنة بعد <bdi>ischemic stroke</bdi> بيومين، مستقرة، وكل التحاليل طبيعية إلا <bdi>RBS</bdi> ١٢.٦.",
     "clues": [
       [
         "ischemic stroke 2 days ago",
-        "سكتة إقفارية حديثة"
+        "مرحلة حادة بعد الجلطة"
+      ],
+      [
+        "VITAL SIGNS WERE NORMAL",
+        "المريض مستقر"
       ],
       [
         "RBS was 12.6",
-        "سكر مرتفع يحتاج علاج"
+        "<bdi>hyperglycemia</bdi>"
       ]
     ],
     "why_correct": [
-      "ارتفاع السكر بعد السكتة الحادة مرتبط باحتشاء أكبر ونتيجة عصبية أسوأ، فيُعالج لهدف معتدل (حوالي ١٤٠-١٨٠ ملغ/دل)، لا نتركه.",
-      "<bdi>Insulin infusion</bdi> هي الطريقة الفعالة للضبط بهذا الموقف الحاد."
+      "<bdi>Hyperglycemia</bdi> بعد الجلطة يكبر منطقة الضرر ويسوء النتيجة.",
+      "فنعالجه بـ<bdi>insulin infusion</bdi> لهدف تقريبًا ٧.٨ إلى ١٠ <bdi>mmol/L</bdi>."
     ],
     "when_changes": [
-      "لو كان السكر ضمن الهدف أصلاً، المراقبة تكفي بدون تدخل دوائي إضافي."
+      "لو السكر أصلًا ضمن الهدف، المراقبة تكفي."
     ],
-    "rule": "سكر مرتفع بعد سكتة حادة (أعلى من ١٠ مليمول تقريبًا) = علاج بالإنسولين، أبدًا لا تهملينه.",
+    "rule": "سكر مرتفع بعد <bdi>stroke</bdi> = <bdi>insulin</bdi>.",
     "comparison": null,
     "labs": [
       [
@@ -32862,25 +32866,29 @@
   "AS-0011": {
     "correct_letter": "D",
     "self_judged": false,
-    "idea": "مريض سكري وقصور كلوي وعرج متقطع، رجفان أذيني مستقر بدون قصور قلب — اختيار دواء ضبط النبض بناءً على الأمراض المصاحبة.",
+    "idea": "مسن عنده <bdi>DM</bdi> و<bdi>CKD</bdi> و<bdi>intermittent claudication</bdi>، الإيكو طبيعي، وجاه <bdi>AF</bdi> نبي نضبط سرعة القلب.",
     "clues": [
       [
-        "intermittent claudication",
-        "عرج متقطع — يبعدنا عن حاصرات بيتا بالمنطق التقليدي"
+        "CKD",
+        "<bdi>digoxin</bdi> يتراكم"
       ],
       [
-        "no symptoms of heart failure",
-        "يستبعد قصور قلب"
+        "intermittent claudication",
+        "المصدر يتجنب <bdi>beta blocker</bdi>"
+      ],
+      [
+        "Echo normal",
+        "ما فيه <bdi>heart failure</bdi>"
       ]
     ],
     "why_correct": [
-      "رجفان أذيني مستقر بوظيفة قلب طبيعية يُضبط بحاصر بيتا أو حاصر قنوات كالسيوم غير ثنائي هيدروبيريدين.",
-      "العرج المتقطع يوجه الاختيار بعيدًا عن حاصرات بيتا (تقليديًا تُخشى تسوء تروية الأطراف)، فيصير <bdi>diltiazem</bdi> الخيار."
+      "<bdi>AF</bdi> مستقر بقلب سليم نضبطه بـ<bdi>beta blocker</bdi> أو <bdi>non-dihydropyridine CCB</bdi>.",
+      "المصدر اختار <bdi>diltiazem</bdi> بسبب <bdi>claudication</bdi>، لأن الكلام القديم إن <bdi>beta blocker</bdi> يزيد ضيق الأوعية الطرفية."
     ],
     "when_changes": [
-      "لو كان المريض عنده قصور قلب مصاحب، ديجوكسين أو حاصر بيتا يصيران أنسب من ديلتيازيم."
+      "لو فيه <bdi>heart failure</bdi> أو ضغط منخفض، نختار <bdi>digoxin</bdi>."
     ],
-    "rule": "رجفان أذيني + عرج متقطع = ديلتيازيم؛ رجفان أذيني + قصور قلب = حاصر بيتا أو ديجوكسين.",
+    "rule": "<bdi>AF</bdi> + <bdi>claudication</bdi> بدون <bdi>HF</bdi> = <bdi>diltiazem</bdi> (حسب المصدر).",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -32888,25 +32896,29 @@
   "AS-0011B": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "مريض سكري وضغط وعرج متقطع، ذبحة مستقرة تستمر رغم أسبرين وستاتين ونترات، نبض ٨٦ — نحتاج دواء يبطئ النبض ويقلل الذبحة بدون حاصرات بيتا.",
+    "idea": "رجل عنده <bdi>stable angina</bdi> على <bdi>aspirin</bdi> و<bdi>statin</bdi> و<bdi>nitrate</bdi> ولسا يجيه ألم، نبضه ٨٦، وعنده <bdi>claudication</bdi>.",
     "clues": [
       [
         "intermitent claudicaion",
-        "يبعدنا عن حاصرات بيتا"
+        "المصدر يتجنب <bdi>beta blocker</bdi>"
       ],
       [
         "stable angina",
-        "تحتاج دواء يبطئ النبض لتقليل طلب الأكسجين"
+        "ألم صدر مستقر"
+      ],
+      [
+        "Heart rate 86",
+        "نحتاج دواء يبطئ القلب"
       ]
     ],
     "why_correct": [
-      "ذبحة مستمرة رغم العلاج القياسي مع نبض ٨٦ تحتاج دواء يبطئ النبض ليقلل حاجة القلب للأكسجين.",
-      "بسبب العرج المتقطع نتجنب حاصرات بيتا، فيبقى <bdi>diltiazem</bdi> (حاصر كالسيوم مبطئ للنبض) هو الخيار."
+      "نحتاج دواء يبطئ القلب ويقلل حاجته للأكسجين.",
+      "المصدر تجنب <bdi>beta blocker</bdi> بسبب <bdi>claudication</bdi>، وبين الـ<bdi>CCB</bdi> بس <bdi>diltiazem</bdi> يبطئ القلب ويوسع الشرايين."
     ],
     "when_changes": [
-      "لو ما فيه عرج متقطع، حاصر بيتا يصير الخيار الأول بدل ديلتيازيم."
+      "بدون <bdi>claudication</bdi>، <bdi>metoprolol</bdi> هو الخيار الأول."
     ],
-    "rule": "حاصر كالسيوم مبطئ للنبض (ديلتيازيم) يحل محل حاصر بيتا؛ حاصر كالسيوم ثنائي هيدروبيريدين (أملوديبين) يُضاف فوقه.",
+    "rule": "<bdi>Angina</bdi> + <bdi>claudication</bdi> + نبض سريع = <bdi>diltiazem</bdi> (حسب المصدر).",
     "comparison": null,
     "labs": [
       [
@@ -32920,24 +32932,29 @@
   "AS-0012": {
     "correct_letter": "D",
     "self_judged": false,
-    "idea": "امرأة ٥٥ سنة، سكري وضغط وقصور كلوي (eGFR 50) — أشد هدف ضغط للوقاية من أمراض القلب والأوعية.",
+    "idea": "امرأة عندها <bdi>DM</bdi> و<bdi>HTN</bdi> و<bdi>CKD</bdi> (<bdi>eGFR</bdi> ٥٠)، وش هدف الضغط؟",
     "clues": [
       [
         "DM HTN CKD",
-        "ثلاثي خطورة قلبية وعائية عالية"
+        "خطر قلبي عالي"
       ],
       [
-        "eGFR 50/ml/min",
-        "قصور كلوي مؤكد"
+        "eGFR 50",
+        "<bdi>CKD</bdi>"
+      ],
+      [
+        "prevent cardiovascular disease",
+        "السؤال عن الهدف للوقاية"
       ]
     ],
     "why_correct": [
-      "أمراض القلب والأوعية السبب الأول للوفاة بقصور الكلى المزمن، فإرشادات KDIGO توصي بهدف صارم (انقباضي أقل من ١٢٠ إن أمكن تحمله)."
+      "أمراض القلب هي أول سبب وفاة بمرضى <bdi>CKD</bdi>.",
+      "المصدر اختار الهدف الأشد <bdi>&lt;125/70</bdi> حسب <bdi>KDIGO</bdi> اللي ينصح بـ<bdi>systolic</bdi> أقل من ١٢٠ لو يتحمله المريض."
     ],
     "when_changes": [
-      "لو كانت أكبر سنًا وهشة، الهدف يصير أقل صرامة لتجنب هبوط الضغط المفرط."
+      "بعض الإرشادات (<bdi>ACC/AHA</bdi> و<bdi>ADA</bdi>) تستخدم ١٣٠/٨٠؛ بس المصدر اختار الأشد."
     ],
-    "rule": "سكري + ضغط + قصور كلوي = هدف صارم جدًا للضغط حسب KDIGO، أصرم من أهداف السكري العادية.",
+    "rule": "<bdi>DM</bdi> + <bdi>CKD</bdi> = هدف ضغط شديد؛ المصدر: <bdi>&lt;125/70</bdi>.",
     "comparison": null,
     "labs": [
       [
@@ -32951,25 +32968,29 @@
   "AS-0014": {
     "correct_letter": "D",
     "self_judged": false,
-    "idea": "مريض ضغط على عدة أدوية، شُخّص بالسل وبدأ علاج أول خط (يحتوي ريفامبيسين) — الريفامبيسين يضعف فعالية أملوديبين.",
+    "idea": "مريض ضغط على <bdi>lisinopril</bdi> و<bdi>amlodipine</bdi>، بدأ علاج <bdi>TB</bdi>.",
     "clues": [
       [
         "1st line Anti-TB medications",
-        "يحتوي ريفامبيسين — محفز إنزيمي قوي"
+        "فيها <bdi>rifampicin</bdi>"
       ],
       [
         "Lisinopril and Amlodipine",
-        "أدوية الضغط الحالية"
+        "علاج الضغط"
+      ],
+      [
+        "most appropriate adjustment",
+        "السؤال عن تعديل الأدوية"
       ]
     ],
     "why_correct": [
-      "الريفامبيسين محفز قوي لإنزيمات الكبد، يقلل مستوى أملوديبين فيضعف ضبط الضغط.",
-      "الحل هو تعويض ذلك بزيادة جرعة الدواء الثاني (ليزينوبريل) مع المراقبة، مو إيقاف أي دواء."
+      "<bdi>Rifampicin</bdi> <bdi>enzyme inducer</bdi> قوي، ينزل مستوى <bdi>amlodipine</bdi> فيخرب ضبط الضغط.",
+      "المصدر عوض بزيادة جرعة <bdi>lisinopril</bdi> بدل ما يوقف أي دواء."
     ],
     "when_changes": [
-      "لو كان الدواء المتأثر دواء آخر مثل الوارفارين، نفس المبدأ: نزيد جرعته، لا نوقف الريفامبيسين."
+      "لو السؤال يسأل أي دواء يتأثر، الجواب <bdi>amlodipine</bdi>."
     ],
-    "rule": "تفاعل الريفامبيسين يُدار بتعديل جرعة الدواء المتأثر (زيادة عادة)، أبدًا لا نوقف الريفامبيسين نفسه.",
+    "rule": "<bdi>Rifampicin</bdi> يضعف <bdi>amlodipine</bdi> و<bdi>warfarin</bdi>؛ نعدل الجرعات، ما نوقف <bdi>rifampicin</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -32977,24 +32998,29 @@
   "AS-0015": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "مريض مسن على ثلاث أدوية ضغط، بدأ علاج سل أول خط — أي دواء يحتاج تعديل بسبب تفاعل الريفامبيسين (يحتاج إيقاف/تحويل)؟",
+    "idea": "مسن على <bdi>amlodipine</bdi> و<bdi>beta blocker</bdi> و<bdi>lisinopril</bdi>، طلع عنده <bdi>TB</bdi> وبدأ العلاج.",
     "clues": [
       [
-        "First-Line Anti-TB Regimen",
-        "يحتوي ريفامبيسين"
+        "Amlodipine",
+        "يتكسر بـ<bdi>CYP3A4</bdi>"
       ],
       [
-        "Should Be Stopped?",
-        "السؤال عن أي دواء يحتاج إيقاف أو تحويل"
+        "Acid-Fast Bacilli Result Came Positive",
+        "<bdi>TB</bdi>"
+      ],
+      [
+        "First-Line Anti-TB Regimen",
+        "فيه <bdi>rifampicin</bdi>"
       ]
     ],
     "why_correct": [
-      "الريفامبيسين محفز قوي لإنزيم CYP3A4، و<bdi>amlodipine</bdi> يُستقلب عبر نفس الإنزيم، فمستواه ينخفض بشكل كبير ويحتاج تعديل جرعة أو تحويل."
+      "<bdi>Rifampicin</bdi> يحفز <bdi>CYP3A4</bdi> بالكبد.",
+      "<bdi>Amlodipine</bdi> يتكسر بـ<bdi>CYP3A4</bdi>، فمستواه ينزل كثير، وهو الدواء اللي يحتاج تغيير."
     ],
     "when_changes": [
-      "حاصر بيتا والليزينوبريل تفاعلهما ضعيف أو معدوم مع الريفامبيسين."
+      "نفس الفكرة مع <bdi>warfarin</bdi>: جرعته تزيد مع <bdi>rifampicin</bdi>."
     ],
-    "rule": "الريفامبيسين يضعف الأدوية المُستقلبة كبديًا (أملوديبين، وارفارين)؛ ليزينوبريل يُطرح كلويًا فما يتأثر.",
+    "rule": "<bdi>Rifampicin</bdi> + <bdi>amlodipine</bdi> = <bdi>amlodipine</bdi> يضعف.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -33002,24 +33028,29 @@
   "AS-0016": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "نفس السيناريو السابق بالضبط، بس السؤال هذي المرة عن أي دواء يحتاج تعديل جرعة (زيادة) — نفس الجواب.",
+    "idea": "مسن على <bdi>amlodipine</bdi> و<bdi>beta blocker</bdi> و<bdi>lisinopril</bdi>، طلع عنده <bdi>TB</bdi> وبدأ العلاج.",
     "clues": [
       [
-        "First-Line Anti-TB Regimen",
-        "يحتوي ريفامبيسين"
+        "Amlodipine",
+        "يتكسر بـ<bdi>CYP3A4</bdi>"
+      ],
+      [
+        "Acid-Fast Bacilli Result Came Positive",
+        "<bdi>TB</bdi>"
       ],
       [
         "Should Be Adjusted",
-        "السؤال عن التعديل تحديدًا"
+        "السؤال عن التعديل"
       ]
     ],
     "why_correct": [
-      "نفس منطق السؤال التوأم: الريفامبيسين يخفّض مستوى <bdi>amlodipine</bdi> (يُستقلب عبر CYP3A4)، فيحتاج تعديل جرعة أو مراقبة ضغط أقرب."
+      "<bdi>Rifampicin</bdi> يحفز <bdi>CYP3A4</bdi> بالكبد.",
+      "<bdi>Amlodipine</bdi> يتكسر بـ<bdi>CYP3A4</bdi>، فهو الدواء اللي يحتاج تعديل."
     ],
     "when_changes": [
-      "لا يتغير — نفس المنطق يطبق سواء كانت الصياغة «إيقاف» أو «تعديل»."
+      "نفس الفكرة مع <bdi>warfarin</bdi>."
     ],
-    "rule": "الريفامبيسين = خففي تأثيره على أدوية الكبد (أملوديبين)، عدّلي جرعتها، لا توقفيه هو.",
+    "rule": "<bdi>Rifampicin</bdi> + <bdi>amlodipine</bdi> = عدلي <bdi>amlodipine</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -33027,29 +33058,29 @@
   "AS-0029": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "رجل ٤٣ سنة، ضعف بالساقين وسلس بولي وصعوبة مشي ٣ أيام، مستوى حسي بـT10، بدون عدوى سابقة — ضغط على الحبل الشوكي.",
+    "idea": "رجل عنده ضعف بالأرجل وسلس بول من ٣ أيام، و<bdi>sensory level</bdi> عند <bdi>T10</bdi>، بدون التهاب سابق.",
     "clues": [
       [
         "Lower limb weakness and urine incontinence",
-        "ضعف وسلس معًا — يوجه نحو الحبل الشوكي"
+        "<bdi>myelopathy</bdi>"
+      ],
+      [
+        "since 3 days",
+        "مسار تحت الحاد"
       ],
       [
         "T10 sensory level",
-        "مستوى حسي محدد يحدد موقع الإصابة"
-      ],
-      [
-        "no history of previous infection",
-        "يبعدنا عن التهاب نخاع تالٍ لعدوى"
+        "الآفة بالـ<bdi>spinal cord</bdi>"
       ]
     ],
     "why_correct": [
-      "مستوى حسي محدد (T10) مع ضعف وسلس بولي يحدد الإصابة بالحبل الشوكي الصدري (اعتلال نخاعي)، مو الأعصاب الطرفية.",
-      "مع تطور تحت حاد (٣ أيام) وبدون عدوى سابقة، الجواب الأرجح ضغط خارجي على الحبل الشوكي (قرص، ورم، نقيلة) يحتاج رنين مغناطيسي عاجل."
+      "<bdi>Sensory level</bdi> مع ضعف وسلس يعني الآفة بالحبل الشوكي الصدري، مو بالأعصاب الطرفية.",
+      "بدون التهاب سابق، المصدر اختار <bdi>spinal cord compression</bdi>، الطارئ اللي لازم نستبعده بـ<bdi>MRI</bdi> عاجل."
     ],
     "when_changes": [
-      "لو كان فيه عدوى فيروسية سابقة حديثة، الجواب يتحول لالتهاب النخاع المستعرض (<bdi>transverse myelitis</bdi>)."
+      "لو قبلها التهاب فيروسي و<bdi>MRI</bdi> ما فيه ضغط، نفكر بـ<bdi>transverse myelitis</bdi>."
     ],
-    "rule": "مستوى حسي + خلل عضلة عاصرة = إصابة حبل شوكي لحد إثبات العكس؛ بدون عدوى سابقة = فكّري بضغط.",
+    "rule": "<bdi>Sensory level</bdi> + سلس = <bdi>cord</bdi>؛ استبعدي <bdi>compression</bdi> أول.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -33057,28 +33088,29 @@
   "AS-0030": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "مريض لمفوما (بيركيت)، على كيماوي، بوتاسيوم مرتفع وكالسيوم منخفض وعدم تبول — متلازمة تحلل الورم مع أذية كلوية فعلية.",
+    "idea": "مريض <bdi>lymphoma</bdi> على <bdi>chemotherapy</bdi>، طلع عنده <bdi>hyperkalemia</bdi> و<bdi>hypocalcemia</bdi> وما يقدر يبول.",
     "clues": [
       [
-        "Burkit Lymphoma",
-        "ورم عالي الخطورة لمتلازمة تحلل الورم"
+        "hyperkalemia",
+        "علامة <bdi>TLS</bdi>"
       ],
       [
-        "hyperkalemia (6) and hypocalcemia",
-        "صورة مخبرية كلاسيكية لتحلل الورم"
+        "hypocalcemia",
+        "علامة <bdi>TLS</bdi>"
       ],
       [
         "Unable to urinate",
-        "أذية كلوية فعلية، مو وقاية فقط"
+        "<bdi>AKI</bdi>"
       ]
     ],
     "why_correct": [
-      "متلازمة تحلل الورم المؤكدة (مع أذية كلوية فعلية) تحتاج <bdi>rasburicase</bdi> اللي يكسر حمض اليوريك الموجود فعليًا بسرعة، يحمي الكلى من أذية أكبر."
+      "هذا <bdi>tumor lysis syndrome</bdi> مع <bdi>AKI</bdi>.",
+      "مع السوائل، <bdi>Rasburicase</bdi> يكسر الـ<bdi>uric acid</bdi> الموجود بسرعة ويحمي الكلى، ويفضل على <bdi>allopurinol</bdi> بالحالات الشديدة."
     ],
     "when_changes": [
-      "لو كان السؤال عن الوقاية (قبل حصول المتلازمة) بخطورة متوسطة، الجواب يتحول لـ<bdi>allopurinol</bdi>."
+      "للوقاية بخطر متوسط، <bdi>allopurinol</bdi> يكفي."
     ],
-    "rule": "متلازمة تحلل ورم مؤكدة فعليًا = راسبيوريكيز (يكسر الموجود)؛ وقاية بخطورة متوسطة = ألوبيورينول (يمنع التكوّن الجديد).",
+    "rule": "<bdi>TLS</bdi> موجود أو خطر عالي = <bdi>rasburicase</bdi> + سوائل.",
     "comparison": null,
     "labs": [
       [
@@ -33118,24 +33150,29 @@
   "AS-0031B": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "لمفوما B كبيرة الخلايا ضخمة (bulky)، بعد أول جرعة كيماوي صار غثيان وقلة بول، بوتاسيوم ٦ وحمض يوريك ٥٧٠ — متلازمة تحلل ورم فعلية، والدواء الأقوى للحالة الفعلية.",
+    "idea": "رجل عنده <bdi>bulky DLBCL</bdi>، بعد أول جرعة <bdi>R-CHOP</bdi> صار عنده <bdi>TLS</bdi>. وش الدواء اللي يمنعه؟",
     "clues": [
       [
-        "BULKY diffuse large B cell lymphoma (DLBCL)",
-        "ورم ضخم عالي الخطورة"
+        "BULKY diffuse large B cell lymphoma",
+        "خطر <bdi>TLS</bdi> عالي"
       ],
       [
         "UA 570",
-        "حمض يوريك مرتفع جدًا — مؤكد"
+        "<bdi>uric acid</bdi> مرتفع"
+      ],
+      [
+        "PREVENT",
+        "السؤال عن الوقاية"
       ]
     ],
     "why_correct": [
-      "ورم ضخم عالي الخطورة مع متلازمة تحلل ورم فعلية (بوتاسيوم وحمض يوريك مرتفعين، قلة بول) يحتاج <bdi>rasburicase</bdi> اللي يكسر حمض اليوريك الموجود فعليًا بسرعة."
+      "الورم الكبير مع <bdi>R-CHOP</bdi> خطر عالي لـ<bdi>TLS</bdi>.",
+      "للخطر العالي، الوقاية <bdi>rasburicase</bdi> مع السوائل قبل الكيماوي."
     ],
     "when_changes": [
-      "لو كان الخيار المتاح بدون راسبيوريكيز، الجواب يتحول لألوبيورينول كأفضل بديل متاح."
+      "لو <bdi>rasburicase</bdi> مو بالخيارات، <bdi>allopurinol</bdi>."
     ],
-    "rule": "ورم ضخم عالي الخطورة + صورة مؤكدة = راسبيوريكيز إذا كان بالخيارات.",
+    "rule": "وقاية <bdi>TLS</bdi>: خطر عالي = <bdi>rasburicase</bdi>؛ متوسط = <bdi>allopurinol</bdi>.",
     "comparison": null,
     "labs": [
       [
@@ -33154,24 +33191,28 @@
   "AS-0031C": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "نفس السيناريو السابق بالضبط، لكن هذي المرة خيار راسبيوريكيز غير متاح (الخيار C فارغ/مفقود) — البديل الأنسب المتاح.",
+    "idea": "نفس الحالة (<bdi>bulky DLBCL</bdi> مع <bdi>TLS</bdi>)، بس <bdi>rasburicase</bdi> مو بالخيارات.",
     "clues": [
       [
-        "UA 570",
-        "حمض يوريك مرتفع جدًا"
+        "BULKY diffuse large B cell lymphoma",
+        "خطر <bdi>TLS</bdi>"
       ],
       [
-        "PREVENT",
-        "السؤال عن الوقاية من مزيد تدهور"
+        "UA 570",
+        "<bdi>uric acid</bdi> مرتفع"
+      ],
+      [
+        "No Rasburicase in options",
+        "<bdi>rasburicase</bdi> مو موجود"
       ]
     ],
     "why_correct": [
-      "بما إن راسبيوريكيز غير متاح بالخيارات، البديل المناسب هو <bdi>allopurinol</bdi> (يمنع تكوّن حمض يوريك جديد)، رغم إنه أبطأ وأقل قوة من راسبيوريكيز."
+      "بدون <bdi>rasburicase</bdi>، الدواء اللي يمنع <bdi>TLS</bdi> هو <bdi>allopurinol</bdi>، يوقف تكوين <bdi>uric acid</bdi> جديد."
     ],
     "when_changes": [
-      "لو ظهر راسبيوريكيز ضمن الخيارات، هو الأفضلية دايمًا على ألوبيورينول بورم عالي الخطورة."
+      "لو <bdi>rasburicase</bdi> موجود، نختاره للخطر العالي."
     ],
-    "rule": "اقرئي الخيارات أولاً: راسبيوريكيز موجود = اختاريه؛ غير موجود = ألوبيورينول هو البديل.",
+    "rule": "وقاية <bdi>TLS</bdi> بدون <bdi>rasburicase</bdi> = <bdi>allopurinol</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -33179,25 +33220,29 @@
   "AS-0032": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "رجل ٥٨ سنة، ضيق تنفس مترقي ونوبات ليلية، صدى قلب يظهر خلل حركة موضعي بالجدار الأمامي وكسر قذفي ٣٠٪ — فكّري بسبب إقفاري، لازم نحدد تشريح الشرايين.",
+    "idea": "رجل عنده ضيق تنفس و<bdi>PND</bdi>، والإيكو فيه <bdi>EF</bdi> ٣٠٪ مع <bdi>hypokinesia</bdi> بالجدار الأمامي.",
     "clues": [
       [
+        "paroxysmal nocturnal dyspnea",
+        "<bdi>heart failure</bdi>"
+      ],
+      [
         "hypokinesia of anterior wall",
-        "خلل حركة موضعي — يوحي بسبب إقفاري"
+        "سبب <bdi>ischemic</bdi> (<bdi>LAD</bdi>)"
       ],
       [
         "ejection fraction 30%",
-        "قصور قلب جديد وشديد"
+        "<bdi>HFrEF</bdi>"
       ]
     ],
     "why_correct": [
-      "خلل حركة موضعي (مو منتشر) بكسر قذفي منخفض يوحي بسبب إقفاري (انسداد بشريان محدد).",
-      "الخطوة التالية تحديد تشريح الشرايين التاجية بدقة عبر <bdi>coronary angiography</bdi>، اللي يسمح بالتشخيص والتدخل بنفس الوقت."
+      "<bdi>Hypokinesia</bdi> بمنطقة وحدة يوحي بسبب <bdi>ischemic</bdi>.",
+      "فنحدد الشرايين بـ<bdi>coronary angiography</bdi>، لأنه يأكد <bdi>CAD</bdi> ويسمح بالتدخل."
     ],
     "when_changes": [
-      "لو كان الخلل منتشر بكل الجدران (مو موضعي)، نفكر باعتلال عضلة قلبية غير إقفاري، ونحتاج فحوصات ثانية."
+      "لو احتمال <bdi>CAD</bdi> قليل أو متوسط، <bdi>CT angio</bdi> يكفي."
     ],
-    "rule": "خلل حركة موضعي بصدى القلب = فكّري بسبب إقفاري، قيّمي الشرايين مباشرة؛ خلل منتشر = اعتلال عضلة قلبية غير إقفاري.",
+    "rule": "<bdi>HFrEF</bdi> + <bdi>regional wall motion abnormality</bdi> = <bdi>coronary angiography</bdi>.",
     "comparison": null,
     "labs": [
       [
@@ -33211,24 +33256,29 @@
   "AS-0035": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "رجل ٥٠ سنة، ألم صدر مجهود يرتاح بالراحة (ذبحة مستقرة)، تخطيط قلب يظهر حصار حزمة يسرى — هذا يمنع تفسير تخطيط الجهد، فنحتاج تصوير بالإجهاد.",
+    "idea": "رجل عنده ألم صدر مع المجهود يروح بالراحة، وتخطيطه فيه <bdi>LBBB</bdi>.",
     "clues": [
       [
-        "ECG shows left bundle branch block",
-        "يمنع قراءة تخطيط الجهد بشكل موثوق"
+        "relieved after 4 minutes with rest",
+        "<bdi>stable angina</bdi>"
       ],
       [
-        "assess the coronary arteries",
-        "الهدف تقييم الشرايين بأمان"
+        "family history of sudden death",
+        "خطر قلبي"
+      ],
+      [
+        "left bundle branch block",
+        "<bdi>exercise ECG</bdi> ما ينفع"
       ]
     ],
     "why_correct": [
-      "حصار الحزمة اليسرى يجعل تغيرات ST بتخطيط الجهد غير قابلة للتفسير، فالبديل هو اختبار تصوير إجهادي زي <bdi>myocardial perfusion imaging</bdi>."
+      "عادة نبدأ بـ<bdi>exercise ECG</bdi>، بس <bdi>LBBB</bdi> يخلي الـ<bdi>ST segment</bdi> ما ينقرى.",
+      "فنسوي <bdi>stress imaging</bdi>: <bdi>myocardial perfusion</bdi> مع <bdi>pharmacological stress</bdi>."
     ],
     "when_changes": [
-      "لو كان تخطيط القلب الأساسي طبيعي (بدون حصار)، تخطيط الجهد العادي يكفي كخطوة أولى."
+      "لو التخطيط طبيعي والمريض يقدر يمشي، <bdi>exercise ECG</bdi>."
     ],
-    "rule": "حصار حزمة يسرى (أو تضخم بطين أيسر أو ناظم خطى) = يلغي تخطيط الجهد العادي، استخدمي تصوير إجهادي بدلاً منه.",
+    "rule": "<bdi>LBBB</bdi> أو <bdi>paced rhythm</bdi> أو <bdi>LVH</bdi> = <bdi>stress imaging</bdi> بدل <bdi>exercise ECG</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -33236,25 +33286,29 @@
   "AS-0036": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "رجل ٦٠ سنة سكري وضغط، ألم صدر مستمر ٣ ساعات مع تعرق، حصار حزمة يسرى جديد (تخطيط سابق طبيعي) — يُعامل كاحتشاء، لازم إعادة ترويه فورًا.",
+    "idea": "رجل عنده ألم صدر مستمر ٣ ساعات مع تعرق، وتخطيط فيه <bdi>LBBB</bdi> جديد.",
     "clues": [
       [
         "3-hour continuous retrosternal heaviness",
-        "ألم مستمر طويل — احتشاء فعلي"
+        "ألم إقفاري مستمر"
       ],
       [
-        "left bundle branch block. Previous ECG was normal",
-        "حصار جديد = مكافئ احتشاء"
+        "left bundle branch block",
+        "<bdi>STEMI equivalent</bdi>"
+      ],
+      [
+        "Previous ECG was normal",
+        "الـ<bdi>LBBB</bdi> جديد"
       ]
     ],
     "why_correct": [
-      "حصار حزمة يسرى جديد مع أعراض إقفارية نشطة يُعامل كمكافئ احتشاء (STEMI equivalent)، يحتاج إعادة ترويه فوري.",
-      "من الخيارات، <bdi>thrombolytic therapy</bdi> هو علاج إعادة الترويه المتاح، لا ننتظر نتائج الإنزيمات."
+      "<bdi>LBBB</bdi> جديد مع ألم إقفاري = نعامله <bdi>STEMI</bdi>.",
+      "الـ<bdi>reperfusion</bdi> ما ينتظر الإنزيمات، ومن الخيارات <bdi>thrombolytic therapy</bdi> (لو <bdi>PCI</bdi> متاح بسرعة يكون أفضل)."
     ],
     "when_changes": [
-      "لو كان مركز قسطرة متاح فورًا، القسطرة الأولية (PCI) تكون الأفضل من التحلل الخثري."
+      "لو ما فيه <bdi>ST elevation</bdi> ولا <bdi>LBBB</bdi> جديد، نشك <bdi>NSTEMI</bdi> وننتظر الإنزيمات."
     ],
-    "rule": "احتشاء أو مكافئه = إعادة ترويه فورية، أبدًا لا تنتظري نتائج الإنزيمات القلبية.",
+    "rule": "ألم إقفاري + <bdi>LBBB</bdi> جديد = <bdi>reperfusion</bdi> فورًا.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -33262,29 +33316,29 @@
   "AS-0039": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "امرأة على وارفارين، نزيف هضمي شديد، هيموغلوبين ٦، ضغط منخفض وأطراف باردة، PT وPTT مطولين — نزيف كبير على مميع، لازم عكس فوري.",
+    "idea": "امرأة على <bdi>warfarin</bdi>، نزيف من تحت، شاحبة وضغطها منخفض، و<bdi>Hb</bdi> ٦ مع <bdi>PT</bdi> و<bdi>PTT</bdi> طويلة.",
     "clues": [
       [
         "on warfarin",
-        "مميّع، يحتاج عكس"
+        "مميع"
       ],
       [
         "bloody stool",
-        "نزيف فعّال"
+        "نزيف"
       ],
       [
-        "PTT and PT prolonged",
-        "تأثير دوائي مؤكد يحتاج عكس"
+        "Hb is 6",
+        "نزيف شديد"
       ]
     ],
     "why_correct": [
-      "نزيف شديد على وارفارين مع عدم استقرار يحتاج عكس فوري للمميع، لا يكفي السوائل وحدها.",
-      "<bdi>Prothrombin complex concentrate (PCC)</bdi> مع فيتامين K هو العكس الأسرع والأفعل، مع نقل دم منفصل لتصحيح الهيموغلوبين."
+      "نزيف كبير على <bdi>warfarin</bdi> يحتاج عكس فوري: <bdi>vitamin K</bdi> وريدي مع <bdi>PCC</bdi>.",
+      "المصدر ركز على تصحيح التخثر لأن الدم ما بيوقف والعوامل ناقصة."
     ],
     "when_changes": [
-      "لو كان المريض ينزف بدون تميع (PT/PTT طبيعيين)، السوائل العادية ونقل الدم يكفيان بدون PCC."
+      "لو السؤال عن تعويض الدم المفقود، <bdi>packed RBC</bdi> يعطى بنفس الوقت."
     ],
-    "rule": "نزيف نشط على وارفارين = فيتامين K + PCC فورًا، مو مجرد سوائل أو نقل دم لوحده.",
+    "rule": "نزيف على <bdi>warfarin</bdi> = <bdi>vitamin K</bdi> + <bdi>PCC</bdi>، ومعها دم.",
     "comparison": null,
     "labs": [
       [
@@ -33298,25 +33352,29 @@
   "AS-0040": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "امرأة ٦٥ سنة، اعتلال عضلة قلبية معروف، بدون أعراض، ضغط مستقر لكن نبض سريع غير منتظم (رجفان أذيني) — ضبط النبض، مو تحويل كهربائي، ودواء آمن بقصور القلب.",
+    "idea": "امرأة عندها <bdi>cardiomyopathy</bdi>، بدون أعراض وضغطها مستقر، و<bdi>AF</bdi> سريع ١٤٥.",
     "clues": [
       [
-        "Asymptomatic",
-        "مستقرة، ما تحتاج تحويل كهربائي طارئ"
+        "Cardiomyopathy",
+        "<bdi>HFrEF</bdi>"
       ],
       [
-        "BP 110/85",
-        "ضغط مستقر"
+        "asymptomatic",
+        "مستقرة"
+      ],
+      [
+        "HR 145 Irregular",
+        "<bdi>fast AF</bdi>"
       ]
     ],
     "why_correct": [
-      "مريضة مستقرة بدون أعراض تحتاج ضبط نبض (مو تحويل كهربائي).",
-      "بوجود اعتلال عضلة قلبية (قصور قلب كامن)، حاصر بيتا زي <bdi>bisoprolol</bdi> يضبط النبض ويحسّن البقيا بنفس الوقت."
+      "مستقرة، فالأولوية <bdi>rate control</bdi> مو <bdi>cardioversion</bdi>.",
+      "بـ<bdi>HFrEF</bdi> المستقر، <bdi>bisoprolol</bdi> يضبط السرعة ويطول العمر."
     ],
     "when_changes": [
-      "لو كانت غير مستقرة (هبوط ضغط حاد أو ألم صدر)، الجواب يتحول لتحويل كهربائي فوري."
+      "لو غير مستقرة (ضغط منخفض أو <bdi>pulmonary edema</bdi>)، <bdi>electrical cardioversion</bdi>."
     ],
-    "rule": "رجفان أذيني مستقر مع قصور قلب مُعوَّض = حاصر بيتا (بيسوبرولول)؛ غير مستقر = تحويل كهربائي فوري.",
+    "rule": "<bdi>AF</bdi> مستقر + <bdi>HFrEF</bdi> = <bdi>beta blocker</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -33324,25 +33382,28 @@
   "AS-0041": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "قصور قلب من اعتلال عضلة قلبية متوسع، رجفان أذيني سريع — دواء ضبط النبض الآمن مع ضخ ضعيف.",
+    "idea": "مريض <bdi>heart failure</bdi> من <bdi>dilated cardiomyopathy</bdi> عنده <bdi>fast AF</bdi>.",
     "clues": [
       [
-        "heart failure",
-        "ضخ ضعيف، يحدد اختيار الدواء"
+        "heart failure due to dilated cardiomyopathy",
+        "قلب ضعيف"
       ],
       [
         "fast atrial fibrillation",
-        "يحتاج ضبط نبض"
+        "نحتاج <bdi>rate control</bdi>"
+      ],
+      [
+        "control the heart rate",
+        "السؤال"
       ]
     ],
     "why_correct": [
-      "بوجود قصور قلب (ضخ ضعيف)، حاصرات القنوات الكالسيوم السلبية التقلص (ديلتيازيم) تُتجنب لأنها تضعف الضخ أكثر.",
-      "<bdi>Digoxin</bdi> يبطئ التوصيل بالعقدة الأذينية البطينية بدون إضعاف قوة الانقباض، فهو الأنسب هنا."
+      "<bdi>Digoxin</bdi> يبطئ الـ<bdi>AV node</bdi> ويقوي انقباض القلب، فما يضعف قلب ضعيف أصلًا."
     ],
     "when_changes": [
-      "لو كانت وظيفة القلب طبيعية (بدون قصور)، ديلتيازيم أو حاصر بيتا يصيران الخيار الأول."
+      "بدون <bdi>heart failure</bdi>، <bdi>beta blocker</bdi> هو الأول."
     ],
-    "rule": "رجفان أذيني + قصور قلب (ضخ ضعيف) = ديجوكسين؛ أبدًا لا تستخدمي ديلتيازيم أو فيراباميل بضخ ضعيف.",
+    "rule": "<bdi>AF</bdi> + <bdi>heart failure</bdi> حاد أو ضغط منخفض = <bdi>digoxin</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -33350,25 +33411,25 @@
   "AS-0042": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "مريض مسن، قصور قلب حاد ورجفان أذيني — ضبط نبض آمن بدون إضعاف الانقباض أكثر.",
+    "idea": "مسن عنده <bdi>acute heart failure</bdi> و<bdi>AF</bdi>.",
     "clues": [
       [
         "Acute Heart Failure",
-        "حاد ومُعاوض حاليًا"
+        "ممنوع أدوية تضعف القلب"
       ],
       [
         "Atrial Fibrillation",
-        "يحتاج ضبط نبض"
+        "نحتاج <bdi>rate control</bdi>"
       ]
     ],
     "why_correct": [
-      "بالقصور الحاد (المُعاوض)، الأدوية السلبية التقلص (حاصر بيتا، ديلتيازيم) ممكن تدفع لصدمة قلبية.",
-      "<bdi>Digoxin</bdi> يضبط النبض بدون إضعاف قوة الانقباض، فهو الأنسب بالحالة الحادة."
+      "بالـ<bdi>decompensation</bdi> الحاد، الأدوية اللي تضعف القلب ممكن تسبب <bdi>cardiogenic shock</bdi>.",
+      "فنختار <bdi>digoxin</bdi>، يبطئ السرعة بدون ما يضعف الانقباض."
     ],
     "when_changes": [
-      "لو كان القصور مستقر ومُعوَّض (مو حاد)، حاصر بيتا يصير خيار أول آمن."
+      "بعد ما يستقر، نبدأ <bdi>beta blocker</bdi>."
     ],
-    "rule": "قصور قلب حاد (غير مُعاوض) + رجفان = ديجوكسين؛ قصور مستقر ومُعوَّض = حاصر بيتا.",
+    "rule": "<bdi>AF</bdi> + <bdi>acute HF</bdi> = <bdi>digoxin</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -33376,20 +33437,24 @@
   "AS-0043": {
     "correct_letter": "D",
     "self_judged": false,
-    "idea": "أذية كلوية حادة — كيف نثبت إن السبب انصمام كوليسترولي (مو سبب ثاني)؟",
+    "idea": "كيف نعرف إن <bdi>AKI</bdi> سببه <bdi>cholesterol emboli</bdi>؟",
     "clues": [
       [
+        "acute kidney injury",
+        "<bdi>AKI</bdi>"
+      ],
+      [
         "cholesterol emboli",
-        "السبب المشتبه به تحديدًا"
+        "<bdi>atheroembolic</bdi>"
       ]
     ],
     "why_correct": [
-      "العلامة البولية المميزة للانصمام الكوليسترولي هي <bdi>eosinophiluria</bdi> (كريات بيضاء يوزينية بالبول)، غالبًا بعد قسطرة أو جراحة وعائية."
+      "<bdi>Eosinophiluria</bdi> علامة البول المميزة لـ<bdi>atheroembolic renal disease</bdi>، عادة بعد قسطرة."
     ],
     "when_changes": [
-      "لو كانت الأذية من نخر أنبوبي (بعد صبغة أو نقص تروية)، نشوف قوالب حبيبية بنية وسخة بدل اليوزينيات."
+      "<bdi>RBC casts</bdi> = <bdi>glomerulonephritis</bdi>؛ <bdi>muddy brown casts</bdi> = <bdi>ATN</bdi>."
     ],
-    "rule": "يوزينيات بالبول بعد قسطرة = انصمام كوليسترولي؛ قوالب حبيبية بنية = نخر أنبوبي حاد.",
+    "rule": "<bdi>AKI</bdi> بعد قسطرة + <bdi>eosinophiluria</bdi> = <bdi>cholesterol emboli</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -33397,24 +33462,25 @@
   "AS-0044": {
     "correct_letter": "D",
     "self_judged": false,
-    "idea": "رجل ٥٥ سنة، بعد قسطرة قلبية حديثة، أذية كلوية حادة — أي علامة بولية ترجح الانصمام الكوليسترولي تحديدًا؟",
+    "idea": "رجل بعد <bdi>cardiac catheterization</bdi> صار عنده <bdi>AKI</bdi>.",
     "clues": [
       [
         "recently underwent cardiac catheterization",
-        "تدخل وعائي حديث — خطر انصمام كوليسترولي"
+        "سبب <bdi>cholesterol emboli</bdi>"
       ],
       [
-        "cholesterol emboli",
-        "السبب المشتبه به"
+        "acute kidney injury",
+        "<bdi>AKI</bdi>"
       ]
     ],
     "why_correct": [
-      "بعد القسطرة، قطع صفائح تصلبية ممكن تنطلق وتسد شرايين كلوية صغيرة، والعلامة البولية المميزة هي <bdi>eosinophiluria</bdi>."
+      "القسطرة تفك قطع من الـ<bdi>plaque</bdi> تسد شرايين الكلى الصغيرة.",
+      "علامة البول المميزة <bdi>eosinophiluria</bdi>."
     ],
     "when_changes": [
-      "لو كانت الأذية بسبب سمية الصبغة نفسها (مو انصمام)، نشوف قوالب حبيبية بنية (نخر أنبوبي) بدل اليوزينيات."
+      "لو <bdi>muddy brown casts</bdi>، نفكر بـ<bdi>contrast nephropathy</bdi> (<bdi>ATN</bdi>)."
     ],
-    "rule": "بعد القسطرة، جوابان محتملان: نخر أنبوبي بالصبغة (قوالب حبيبية) أو انصمام كوليسترولي (يوزينيات بول) — اقرئي أي سبب يذكره السؤال.",
+    "rule": "<bdi>AKI</bdi> بعد قسطرة + <bdi>eosinophiluria</bdi> = <bdi>cholesterol emboli</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -33422,24 +33488,25 @@
   "AS-0046": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "تضيّق شديد بالصمام الميترالي بسبب حمى روماتيزمية مع رجفان أذيني — الوقاية الثانوية من السكتة بتضيّق الصمام تحديدًا.",
+    "idea": "مريض <bdi>mitral stenosis</bdi> شديد من <bdi>rheumatic fever</bdi> مع <bdi>AF</bdi>.",
     "clues": [
       [
         "severe mitral valve STENOSIS",
-        "تضيّق شديد — هذا يحدد الدواء"
+        "<bdi>valvular AF</bdi>"
       ],
       [
         "a fib",
-        "رجفان أذيني يحتاج وقاية من الجلطات"
+        "خطر جلطة"
       ]
     ],
     "why_correct": [
-      "رجفان أذيني مع تضيّق ميترالي متوسط إلى شديد (رجفان صمامي) خطر جلطات عالي جدًا، والوارفارين هو المميع المعتمد — مضادات التخثر الفموية المباشرة غير موصى بها هنا."
+      "<bdi>Mitral stenosis</bdi> مع <bdi>AF</bdi> خطر جلطات عالي جدًا.",
+      "المميع المختار <bdi>warfarin</bdi>؛ الـ<bdi>DOACs</bdi> ما تنفع بـ<bdi>mitral stenosis</bdi>."
     ],
     "when_changes": [
-      "لو كان المرض ارتجاع (مو تضيّق) بالصمام، الجواب يتحول لمضاد تخثر فموي مباشر مثل أبيكسابان."
+      "لو <bdi>mitral regurgitation</bdi> بدل <bdi>stenosis</bdi>، نستخدم <bdi>DOAC</bdi>."
     ],
-    "rule": "رجفان أذيني + تضيّق ميترالي متوسط-شديد (أو صمام ميكانيكي) = وارفارين دايمًا، لا مضادات التخثر المباشرة.",
+    "rule": "<bdi>Mitral stenosis</bdi> أو <bdi>mechanical valve</bdi> + <bdi>AF</bdi> = <bdi>warfarin</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -33447,20 +33514,25 @@
   "AS-0047": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "نفس السؤال السابق بالضبط، لكن المرض هذي المرة ارتجاع (مو تضيّق) — كلمة واحدة تغيّر الدواء بالكامل.",
+    "idea": "مريض <bdi>mitral regurgitation</bdi> مع <bdi>AF</bdi>.",
     "clues": [
       [
         "severe mitral valve REGURGITATION",
-        "ارتجاع، مو تضيّق — يغيّر التصنيف"
+        "تعتبر <bdi>non-valvular AF</bdi>"
+      ],
+      [
+        "a fib",
+        "خطر جلطة"
       ]
     ],
     "why_correct": [
-      "الارتجاع الميترالي (حتى الشديد) يُصنف كرجفان أذيني «غير صمامي»، فمضادات التخثر الفموية المباشرة (مثل <bdi>apixaban</bdi>) مناسبة ومفضلة (نزيف أقل، بدون متابعة INR)."
+      "<bdi>AF</bdi> مع <bdi>MR</bdi> يعتبر <bdi>non-valvular</bdi>؛ الاستثناء بس <bdi>mitral stenosis</bdi> و<bdi>mechanical valves</bdi>.",
+      "فنختار <bdi>DOAC</bdi> مثل <bdi>apixaban</bdi>."
     ],
     "when_changes": [
-      "لو كان المرض تضيّق (مو ارتجاع)، الجواب يرجع للوارفارين حصرًا."
+      "لو <bdi>mitral stenosis</bdi>، <bdi>warfarin</bdi>."
     ],
-    "rule": "«رجفان صمامي» (يحتاج وارفارين حصرًا) = تضيّق ميترالي متوسط-شديد أو صمام ميكانيكي فقط؛ أي شي ثاني = مضاد تخثر مباشر مقبول.",
+    "rule": "<bdi>AF</bdi> + <bdi>MR</bdi> = <bdi>DOAC</bdi>؛ <bdi>AF</bdi> + <bdi>MS</bdi> = <bdi>warfarin</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -33468,25 +33540,29 @@
   "AS-0049": {
     "correct_letter": "D",
     "self_judged": false,
-    "idea": "مريض مسن على هيبارين وريدي، جلطة وريدية عميقة جديدة بعد ٦ أيام، صفائح انخفضت لـ٧٥ — نقص صفائح محرّض بالهيبارين مع جلطة جديدة، لازم نوقف كل الهيبارين ونبدأ مميع غير هيباريني.",
+    "idea": "مسن على <bdi>heparin</bdi> وريدي، بعد ٦ أيام جاته <bdi>DVT</bdi> والصفائح ٧٥.",
     "clues": [
       [
-        "deep vein thrombosis 6 days post-operatively",
-        "جلطة جديدة أثناء الهيبارين — توقيت كلاسيكي"
+        "IV heparin",
+        "سبب <bdi>HIT</bdi>"
+      ],
+      [
+        "deep vein thrombosis 6 days",
+        "جلطة جديدة"
       ],
       [
         "Platelet count is 75",
-        "انخفاض صفائح نموذجي لـHIT"
+        "الصفائح نزلت"
       ]
     ],
     "why_correct": [
-      "جلطة جديدة مع انخفاض صفائح بعد ٥-١٠ أيام من الهيبارين هي <bdi>heparin-induced thrombocytopenia (HIT)</bdi> — حالة تجلطية رغم انخفاض الصفائح.",
-      "العلاج: إيقاف كل أشكال الهيبارين فورًا، والبدء بمميع غير هيباريني مثل <bdi>argatroban</bdi>."
+      "جلطة جديدة مع نزول الصفائح بعد ٥-١٠ أيام من <bdi>heparin</bdi> = <bdi>HIT</bdi>.",
+      "نوقف كل <bdi>heparin</bdi> ونبدأ مميع غير هيباريني مثل <bdi>argatroban</bdi>."
     ],
     "when_changes": [
-      "لو كان نقص الصفائح بدون جلطة جديدة وبدون سياق هيباريني حديث، الأسباب الثانية (مثل العدوى) تصير أرجح."
+      "بدون نزول الصفائح، <bdi>DVT</bdi> عادي يعالج بـ<bdi>enoxaparin</bdi>."
     ],
-    "rule": "جلطة جديدة + انخفاض صفائح على الهيبارين = HIT، أوقفي كل الهيبارين وابدئي مميع بديل (أرجاتروبان)، أبدًا لا تنقلي صفائح.",
+    "rule": "<bdi>Heparin</bdi> + صفائح نازلة + جلطة = <bdi>HIT</bdi> = <bdi>argatroban</bdi>.",
     "comparison": null,
     "labs": [
       [
@@ -33500,25 +33576,24 @@
   "AS-0050": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "رجل ٥٠ سنة سليم، على جرعة ستاتين قصوى والكوليسترول الضار طبيعي، لكن الدهون الثلاثية مرتفعة باعتدال (٣٠٠) — إضافة دواء يستهدف الدهون الثلاثية تحديدًا.",
+    "idea": "رجل بدون أمراض، <bdi>LDL</bdi> طبيعي و<bdi>TG</bdi> ٣٠٠.",
     "clues": [
       [
         "LDL cholesterol: within normal range",
-        "الستاتين يعمل جيدًا، المشكلة مو بالكوليسترول الضار"
+        "<bdi>LDL</bdi> طبيعي"
       ],
       [
         "Triglycerides: significantly elevated (300)",
-        "ارتفاع معتدل بالدهون الثلاثية"
+        "<bdi>TG</bdi> مرتفع"
       ]
     ],
     "why_correct": [
-      "بما إن الستاتين بأقصى جرعة والكوليسترول الضار ضمن الهدف، المشكلة المتبقية هي الدهون الثلاثية.",
-      "<bdi>Omega-3 fatty acids</bdi> تخفض الدهون الثلاثية بدون خطر اعتلال عضلي إضافي (عكس إضافة فايبريت فوق الستاتين)."
+      "المشكلة بالـ<bdi>TG</bdi> بس، والمصدر اختار <bdi>omega-3 fatty acids</bdi> لأنها تنزل <bdi>TG</bdi> بدون خطر <bdi>myopathy</bdi>."
     ],
     "when_changes": [
-      "لو كانت الدهون الثلاثية بمستوى خطر التهاب البنكرياس (أعلى بكثير)، الجواب يتحول لفايبريت."
+      "لو <bdi>TG</bdi> فوق ٥٠٠، <bdi>fibrate</bdi> لمنع <bdi>pancreatitis</bdi>."
     ],
-    "rule": "دهون ثلاثية مرتفعة باعتدال فوق ستاتين قصوى = أوميغا-٣؛ مستوى خطير جدًا (خطر بنكرياس) = فايبريت.",
+    "rule": "<bdi>TG</bdi> مرتفع متوسط = <bdi>omega-3</bdi>؛ فوق ٥٠٠ = <bdi>fibrate</bdi>.",
     "comparison": null,
     "labs": [
       [
@@ -33532,24 +33607,25 @@
   "AS-0051": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "نفس السؤال السابق بالضبط — ستاتين بأقصى جرعة، كوليسترول ضار طبيعي، دهون ثلاثية مرتفعة باعتدال.",
+    "idea": "رجل على أعلى جرعة <bdi>statin</bdi>، <bdi>LDL</bdi> طبيعي و<bdi>TG</bdi> ٣٠٠.",
     "clues": [
       [
         "Triglycerides: significantly elevated (300)",
-        "ارتفاع معتدل"
+        "<bdi>TG</bdi> مرتفع"
       ],
       [
-        "He Was On Maximum Dose Statin",
-        "لا فائدة من زيادة الستاتين"
+        "Maximum Dose Statin",
+        "على <bdi>statin</bdi> أصلًا"
       ]
     ],
     "why_correct": [
-      "نفس المنطق: المشكلة المتبقية بعد ضبط الكوليسترول الضار هي الدهون الثلاثية، وأوميغا-٣ الخيار الأنسب بدون خطر اعتلال عضلي."
+      "زيادة <bdi>statin</bdi> ما تنفع، والمشكلة بالـ<bdi>TG</bdi>.",
+      "المصدر اختار <bdi>omega-3 fatty acids</bdi> كإضافة، بدون خطر <bdi>myopathy</bdi> اللي يجي مع <bdi>fibrate</bdi>."
     ],
     "when_changes": [
-      "لو كان المستوى بمدى خطر التهاب البنكرياس الحاد، الجواب يتحول لفايبريت."
+      "لو <bdi>TG</bdi> فوق ٥٠٠، <bdi>fibrate</bdi>."
     ],
-    "rule": "نفس القاعدة: دهون ثلاثية مرتفعة باعتدال فوق ستاتين قصوى = أوميغا-٣.",
+    "rule": "على <bdi>statin</bdi> + <bdi>TG</bdi> متوسط = <bdi>omega-3</bdi>.",
     "comparison": null,
     "labs": [
       [
@@ -33563,20 +33639,25 @@
   "AS-0058": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "مريض قلب معروف، ضيق تنفس وبلغم وردي رغوي — وذمة رئة قلبية المنشأ، أي حالة ديناميكية دموية تصاحبها؟",
+    "idea": "مريض قلب عنده ضيق تنفس و<bdi>pink frothy sputum</bdi> = <bdi>cardiogenic pulmonary edema</bdi>.",
     "clues": [
       [
+        "hx of heart disease",
+        "<bdi>left heart failure</bdi>"
+      ],
+      [
         "pink frothy spetum",
-        "علامة كلاسيكية لوذمة رئة قلبية"
+        "<bdi>pulmonary edema</bdi>"
       ]
     ],
     "why_correct": [
-      "فشل الضخ يقلل النتاج القلبي، فيعوّض الجسم بتضيّق وعائي محيطي (تحفيز سمبثاوي)، فترتفع المقاومة الوعائية المحيطية (<bdi>SVR</bdi>) بشكل كبير."
+      "القلب ضعيف فالـ<bdi>cardiac output</bdi> ينزل.",
+      "الجسم يعوض بتضييق الأوعية، فالـ<bdi>SVR</bdi> يرتفع، والـ<bdi>PCWP</bdi> مرتفع."
     ],
     "when_changes": [
-      "لو كانت الصورة صدمة إنتانية (نتاج قلبي مرتفع مع مقاومة منخفضة)، الجواب يتحول لنتاج قلبي مرتفع."
+      "<bdi>CO</bdi> مرتفع مع <bdi>SVR</bdi> منخفض = <bdi>septic shock</bdi>."
     ],
-    "rule": "وذمة رئة قلبية = نتاج قلبي منخفض، ضغط إسفيني مرتفع، مقاومة وعائية مرتفعة؛ عكس الصدمة الإنتانية تمامًا.",
+    "rule": "<bdi>Cardiogenic</bdi>: <bdi>CO</bdi> ↓، <bdi>SVR</bdi> ↑، <bdi>PCWP</bdi> ↑.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -33584,24 +33665,29 @@
   "AS-0063": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "مسن، ضيق تنفس مجهودي وتعب بالاستلقاء، تضخم بطين أيسر متحد المركز وكسر قذفي طبيعي (٦٠٪) — قصور قلب بكسر قذفي محفوظ.",
+    "idea": "مسن عنده أعراض <bdi>heart failure</bdi>، والإيكو فيه <bdi>concentric LVH</bdi> مع <bdi>EF</bdi> ٦٠٪.",
     "clues": [
       [
+        "exertional dyspnea, orthopnea",
+        "<bdi>heart failure</bdi>"
+      ],
+      [
         "concentric left ventricular hypertrophy",
-        "تضخم عضلي متماثل، غالبًا من ضغط مزمن"
+        "<bdi>diastolic dysfunction</bdi>"
       ],
       [
         "normal ejection fraction (60%)",
-        "الضخ طبيعي رغم الأعراض"
+        "<bdi>preserved EF</bdi>"
       ]
     ],
     "why_correct": [
-      "قصور قلب بأعراض واضحة مع كسر قذفي محفوظ وتضخم بطيني متماثل (غالبًا من ضغط مزمن) هو <bdi>HFpEF</bdi> — المشكلة بالامتلاء (انبساطي) مو بالضخ."
+      "البطين سميك ومتيبس فما يتعبى زين (<bdi>diastolic dysfunction</bdi>)، والانقباض سليم.",
+      "هذا <bdi>HFpEF</bdi>، وغالبًا سببه ضغط مزمن."
     ],
     "when_changes": [
-      "لو كان فيه تضخم أذيني ثنائي شديد مع جهد منخفض بتخطيط القلب، الجواب يتحول لاعتلال عضلة قلبية تقييدي."
+      "لو فيه تضخم الأذينين و<bdi>low voltage ECG</bdi>، نفكر بـ<bdi>restrictive cardiomyopathy</bdi> مثل <bdi>amyloid</bdi>."
     ],
-    "rule": "أعراض قصور قلب + كسر قذفي طبيعي + تضخم متماثل = HFpEF؛ تضخم أذيني شديد وجهد منخفض = اعتلال تقييدي.",
+    "rule": "أعراض <bdi>HF</bdi> + <bdi>EF</bdi> طبيعي + <bdi>LVH</bdi> = <bdi>HFpEF</bdi>.",
     "comparison": null,
     "labs": [
       [
@@ -33615,25 +33701,29 @@
   "AS-0064": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "امرأة ٣٠ سنة، ذئبة غير نشطة من أكثر من ٦ أشهر، على مايكوفينولات، تخطط للحمل — المايكوفينولات ماسخ، لازم نستبدله بدواء آمن.",
+    "idea": "امرأة <bdi>SLE</bdi> هادي من أكثر من ٦ أشهر، على <bdi>mycophenolate</bdi> و<bdi>hydroxychloroquine</bdi> و<bdi>prednisone</bdi>، وتبي تحمل.",
     "clues": [
       [
         "mycophenolate mofetil",
-        "دواء ماسخ للجنين، ممنوع بالحمل"
+        "<bdi>teratogenic</bdi>"
+      ],
+      [
+        "inactive disease for more than 6 months",
+        "الوقت المناسب للحمل"
       ],
       [
         "planning to get pregnant",
-        "تخطط للحمل فعليًا"
+        "لازم نغير الأدوية الضارة"
       ]
     ],
     "why_correct": [
-      "<bdi>Mycophenolate mofetil</bdi> ماسخ، لازم يوقف قبل الحمل.",
-      "البديل الآمن بالحمل اللي يحافظ على هدوء المرض هو <bdi>azathioprine</bdi>."
+      "<bdi>Mycophenolate</bdi> <bdi>teratogenic</bdi> لازم يوقف قبل الحمل.",
+      "نبدله بـ<bdi>azathioprine</bdi> الآمن بالحمل، ونكمل <bdi>hydroxychloroquine</bdi> و<bdi>prednisone</bdi> لأنها آمنة."
     ],
     "when_changes": [
-      "لو ما كانت تخطط للحمل، نستمر على نفس العلاج الحالي بدون تغيير."
+      "لو المرض نشط، نأجل الحمل لين يهدأ ٦ أشهر."
     ],
-    "rule": "مايكوفينولات ممنوع بالحمل = نحوّله لآزاثيوبرين؛ هيدروكسي كلوروكين وبريدنيزولون بجرعة منخفضة آمنان، نستمر عليهم.",
+    "rule": "<bdi>SLE</bdi> + تبي تحمل = وقفي <bdi>mycophenolate</bdi> وبدليه <bdi>azathioprine</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -49399,24 +49489,29 @@
   "AS-0005": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "طفل سقط من شجرة، قيء وتورم بالرأس وأصبح خاملًا — قبل أي شيء تشخيصي أو جراحي، نؤمّن مجرى الهواء أولاً (ABC).",
+    "idea": "طفل طاح من شجرة، يستفرغ وصار <bdi>drowsy</bdi> — الوعي ينزل، فأول شي نحمي مجرى الهواء.",
     "clues": [
       [
         "fell from tree",
-        "إصابة رأس رضحية"
+        "<bdi>head injury</bdi>"
+      ],
+      [
+        "vomiting",
+        "علامة خطر بعد إصابة الرأس"
       ],
       [
         "drowsy",
-        "تراجع وعي يهدد مجرى الهواء"
+        "الوعي ينزل، فمجرى الهواء بخطر"
       ]
     ],
     "why_correct": [
-      "تراجع الوعي مع القيء يهدد بشفط ونقص أكسجين، فالأولوية دائمًا لتأمين مجرى الهواء (<bdi>Intubation</bdi>) قبل أي خطوة جراحية، حتى قبل تأكيد وجود الورم الدموي بالأشعة."
+      "الإصابات تمشي بترتيب <bdi>ABC</bdi>، و<bdi>drowsy</bdi> مع قيء يعني خطر <bdi>aspiration</bdi> ونقص أكسجين.",
+      "فالأولوية <bdi>Intubation</bdi> قبل أي جراحة، خصوصًا إن <bdi>CT</bdi> لسا ما سوينا."
     ],
     "when_changes": [
-      "لو كانت الأشعة المقطعية مؤكدة ورمًا دمويًا مع انزياح خط الوسط والمريض مستقر تنفسيًا، الخطوة التالية تصير تفريغ الورم جراحيًا."
+      "لو السؤال عاطيك <bdi>CT</bdi> فيه <bdi>epidural hematoma</bdi> مع <bdi>midline shift</bdi> والطفل مجرى هوائه مستقر، الجواب <bdi>hematoma evacuation</bdi>."
     ],
-    "rule": "إصابة رأس مع تراجع وعي = أمّني مجرى الهواء أولاً (ABC)؛ الجراحة تأتي بعد تأكيد الأشعة واستقرار المريض.",
+    "rule": "إصابة رأس + الوعي ينزل وما فيه <bdi>CT</bdi> = <bdi>airway</bdi> أول.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -49424,24 +49519,29 @@
   "AS-0006": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "فتاة سقطت من ارتفاعين متر، فقدان وعي وقيء متكرر وخمول وضعف طرف أيسر وعلامات تموضع، أشعة مقطعية تظهر ورم فوق الجافية مع انزياح خط الوسط — آفة جراحية مؤكدة بالفعل، الخطوة التالية تفريغها فورًا.",
+    "idea": "بنت طاحت من مترين، فقدت وعيها وتستفرغ، عندها ضعف بالطرف الأيسر، و<bdi>CT</bdi> فيه <bdi>extradural hematoma</bdi> مع <bdi>midline shift</bdi>.",
     "clues": [
       [
-        "left limb weakness and sign of lateralization",
-        "عجز بؤري حقيقي"
+        "left limb weakness",
+        "<bdi>focal deficit</bdi>"
+      ],
+      [
+        "sign of lateralization",
+        "الآفة تضغط على جهة"
       ],
       [
         "extra dural hematoma with midline shift",
-        "آفة جراحية مؤكدة بالأشعة"
+        "آفة جراحية مع <bdi>mass effect</bdi>"
       ]
     ],
     "why_correct": [
-      "الأشعة المقطعية أثبتت ورمًا دمويًا فوق الجافية مع انزياح خط الوسط وضعف طرف بؤري، وهذا مؤشر جراحي مباشر لـ<bdi>haematoma evacuation</bdi> عاجلة، القرار هنا جراحي لا تنفسي ولا مراقبة."
+      "<bdi>Midline shift</bdi> مع <bdi>lateralizing signs</bdi> يعني الورم يضغط على الدماغ.",
+      "العلاج النهائي المستعجل <bdi>craniotomy</bdi> و<bdi>haematoma evacuation</bdi>؛ <bdi>midline shift</bdi> أكثر من ٥ ملم سبب كافي للجراحة."
     ],
     "when_changes": [
-      "لو كان الورم صغيرًا بدون انزياح خط الوسط وبدون عجز بؤري بمريض واعٍ، نكتفي بالمراقبة وإعادة الأشعة لاحقًا."
+      "لو الورم صغير بدون <bdi>midline shift</bdi> ولا ضعف والطفلة واعية، نراقبها ونعيد <bdi>CT</bdi>."
     ],
-    "rule": "ورم فوق الجافية + انزياح خط الوسط + عجز بؤري = تفريغ جراحي عاجل، لا تنتظري ولا تكتفي بالمراقبة.",
+    "rule": "<bdi>Extradural hematoma</bdi> + <bdi>midline shift</bdi> أو <bdi>focal deficit</bdi> = جراحة فورًا.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -49449,28 +49549,29 @@
   "AS-0008": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "طفل ٧ سنوات، ٦ نوبات التهاب لوزتين بالسنة مع شخير وتنفس فموي أثناء النوم ولوزتين درجة ثالثة — انسداد تنفسي نومي مع لوزتين كبيرتين هو مؤشر جراحي مباشر لاستئصال اللوزتين.",
+    "idea": "طفل ٧ سنين، التهاب لوز متكرر، وشخير وتنفس من الفم وهو نايم، ولوزه <bdi>grade 3</bdi>.",
     "clues": [
       [
-        "recurrent tonsillitis (six episodes in the past year)",
-        "تكرار عالٍ لالتهاب اللوزتين"
+        "six episodes in the past year",
+        "تكرار التهاب اللوز"
       ],
       [
         "snoring, mouth breathing during sleep",
-        "انسداد تنفسي نومي حقيقي"
+        "<bdi>obstructive sleep-disordered breathing</bdi>"
       ],
       [
         "grade three tonsils",
-        "حجم لوزتين كبير يفسر الانسداد"
+        "لوز كبيرة تفسر الانسداد"
       ]
     ],
     "why_correct": [
-      "وجود انسداد تنفسي نومي (شخير وتنفس فموي) مع لوزتين كبيرتين (درجة ٣) يعطي مؤشرًا مستقلًا لـ<bdi>Tonsillectomy</bdi>، حتى لو ٦ نوبات بالسنة وحدها لا تكفي بمعيار العدد الصارم."
+      "الشخير مع لوز كبيرة يعني <bdi>obstructive sleep apnea</bdi>، وهذا لحاله سبب لـ<bdi>tonsillectomy</bdi>.",
+      "حتى لو ٦ نوبات أقل من حد <bdi>Paradise criteria</bdi>، وجود <bdi>OSA</bdi> يرجح الجراحة."
     ],
     "when_changes": [
-      "لو كان الطفل سمينًا أو عنده متلازمة داون أو تشوه قحفي وجهي، نحتاج دراسة نوم (polysomnography) قبل الجراحة لتأكيد شدة الانسداد."
+      "لو الطفل عنده سمنة أو <bdi>Down syndrome</bdi> أو الأعراض ما تناسب حجم اللوز، نسوي <bdi>sleep study</bdi> أول."
     ],
-    "rule": "انسداد تنفسي نومي + لوزتين كبيرتين بطفل سليم = استئصال لوزتين مباشرة؛ طفل بعوامل خطورة مصاحبة = دراسة نوم أولاً.",
+    "rule": "شخير + لوز كبيرة بطفل سليم = <bdi>adenotonsillectomy</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -49478,24 +49579,29 @@
   "AS-0013": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "رجل ٢٨ سنة، إفراز حول الشرج وألم بطني متقطع وتاريخ عائلي كرون، ثلاث فتحات ناسور — نواسير شرجية متعددة توحي بكرون غير مشخّص بعد، نؤكد التشخيص الأساسي أولاً بالمنظار.",
+    "idea": "شاب عنده إفرازات حول الشرج، ألم بطن متقطع، تاريخ عائلي <bdi>Crohn</bdi>، وثلاث فتحات <bdi>fistula</bdi>.",
     "clues": [
       [
-        "family history of Crohn's disease",
-        "عامل خطورة وراثي"
+        "perianal discharge",
+        "<bdi>perianal fistula</bdi>"
       ],
       [
-        "three fistula openings at 3, 7 and 9 o'clock",
-        "نواسير متعددة ومعقدة — نمط كرون"
+        "family history of Crohn's disease",
+        "يرجح <bdi>Crohn</bdi>"
+      ],
+      [
+        "three fistula openings",
+        "<bdi>complex fistulae</bdi>"
       ]
     ],
     "why_correct": [
-      "نواسير شرجية متعددة معقدة مع ألم بطني متكرر وتاريخ عائلي كرون توجه لتشخيص كرون غير مؤكد بعد، فالخطوة الأولى <bdi>Colonoscopy</bdi> (مع تنظير الدقاق الطرفي وخزعة) لتأكيد المرض الأساسي قبل التخطيط لعلاج الناسور."
+      "<bdi>Fistulae</bdi> متعددة مع ألم بطن وتاريخ عائلي = <bdi>Crohn</bdi> ما انشخص للحين.",
+      "فنأكده أول بـ<bdi>colonoscopy</bdi> مع <bdi>ileoscopy</bdi> و<bdi>biopsy</bdi>، لأن علاج الـ<bdi>fistula</bdi> بـ<bdi>Crohn</bdi> يختلف تمامًا."
     ],
     "when_changes": [
-      "لو كان كرون مشخّصًا مسبقًا والسؤال عن تخطيط مسار الناسور أو خراج مشتبه، الفحص المناسب يتحول لرنين مغناطيسي للحوض."
+      "لو <bdi>Crohn</bdi> معروف، والسؤال عن مسار الـ<bdi>fistula</bdi> أو <bdi>abscess</bdi>، الجواب <bdi>MRI</bdi>."
     ],
-    "rule": "نواسير شرجية متعددة بدون تشخيص كرون مؤكد = منظار قولون أولاً؛ كرون معروف مسبقًا = رنين مغناطيسي لتخطيط الناسور.",
+    "rule": "<bdi>Fistulae</bdi> متعددة + شك <bdi>Crohn</bdi> = <bdi>colonoscopy</bdi>؛ <bdi>Crohn</bdi> معروف = <bdi>MRI pelvis</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -49503,24 +49609,29 @@
   "AS-0033": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "مولود حماض دم مع نقص بوتاسيوم، بول قلوي نسبيًا (pH ٦.٥) رغم الحماض — عجز الكلى عن تحميض البول رغم الحماض الجهازي هو توقيع الحماض الأنبوبي البعيد.",
+    "idea": "مولود عنده <bdi>acidosis</bdi> مع <bdi>hypokalemia</bdi>، و<bdi>urine pH</bdi> ٦.٥.",
     "clues": [
       [
-        "ph low and hypokalemia",
-        "حماض مع نقص بوتاسيوم"
+        "ph low",
+        "<bdi>metabolic acidosis</bdi>"
+      ],
+      [
+        "hypokalemia",
+        "فقد بوتاسيوم"
       ],
       [
         "Urine pH 6.5",
-        "بول غير محمّض رغم الحماض — علامة حاسمة"
+        "البول ما يتحمض رغم الحماض"
       ]
     ],
     "why_correct": [
-      "عجز الكلية عن خفض حموضة البول تحت ٥.٥ رغم وجود حماض جهازي هو التعريف المباشر لـ<bdi>Distal RTA</bdi> (النوع الأول)، حيث يفشل إفراز أيون الهيدروجين بالأنبوب البعيد ويُفقد البوتاسيوم أيضًا."
+      "رغم الحماض بالدم، الكلية ما قدرت تنزل حموضة البول تحت ٥.٥.",
+      "هذا تعريف <bdi>distal RTA</bdi> (<bdi>type 1</bdi>)، والـ<bdi>distal tubule</bdi> ما يفرز <bdi>H+</bdi> ويضيع البوتاسيوم."
     ],
     "when_changes": [
-      "لو كان البول حامضيًا بوضوح (أقل من ٥.٥) رغم انخفاض البيكربونات مع فقد فوسفات وسكر بالبول، الجواب يتحول للحماض الأنبوبي القريب أو متلازمة فانكوني."
+      "لو البول ينزل تحت ٥.٥ رغم الحماض، <bdi>proximal RTA</bdi>؛ ولو البوتاسيوم مرتفع، <bdi>type 4</bdi>."
     ],
-    "rule": "حماض جهازي + بول غير محمّض (فوق ٥.٥) = حماض أنبوبي بعيد (نوع ١)؛ بول محمّض فعليًا رغم الحماض = حماض أنبوبي قريب (نوع ٢).",
+    "rule": "حماض + <bdi>urine pH</bdi> فوق ٥.٥ = <bdi>distal RTA</bdi>.",
     "comparison": null,
     "labs": [
       [
@@ -49580,20 +49691,20 @@
   "AS-0038": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "تشنج حروري — أي عبارة صحيحة بين الخيارات؟ التشنج المعقد (بؤري، طويل، متكرر خلال يوم) يرفع فعليًا خطر الصرع المستقبلي.",
+    "idea": "أي جملة صحيحة عن <bdi>febrile seizure</bdi>؟",
     "clues": [
       [
         "febrile convulsions",
-        "موضوع السؤال"
+        "الموضوع"
       ]
     ],
     "why_correct": [
-      "التشنج الحروري <bdi>complex</bdi> (بؤري، أطول من ١٥ دقيقة، أو متكرر خلال ٢٤ ساعة) يرفع فعليًا خطر تطور صرع لاحق، وهذا العامل الأقوى من بين الخيارات."
+      "<bdi>Febrile seizure</bdi> غالبًا حميد، بس لو كان <bdi>complex</bdi> (بؤري، أطول من ١٥ دقيقة، أو تكرر خلال ٢٤ ساعة) يرفع خطر <bdi>epilepsy</bdi>."
     ],
     "when_changes": [
-      "لو كان السؤال عن تاريخ تشنج حروري بالوالدين (مو تاريخ صرع)، هذا يرفع خطر تكرار التشنج الحروري نفسه لا خطر الصرع."
+      "تاريخ <bdi>febrile seizure</bdi> عند الأهل يرفع تكراره، مو خطر <bdi>epilepsy</bdi>."
     ],
-    "rule": "تشنج حروري معقد = يرفع خطر الصرع المستقبلي فعليًا؛ تاريخ عائلي تشنج حروري = يرفع خطر تكرار نفس النوع فقط، لا الصرع.",
+    "rule": "<bdi>Complex febrile seizure</bdi> = خطر <bdi>epilepsy</bdi> أعلى.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -49601,24 +49712,25 @@
   "AS-0048": {
     "correct_letter": "D",
     "self_judged": false,
-    "idea": "مولود لأم سكرية، حركات رجفانية (jittery) — فرط إنسولين جنيني مستمر بعد الولادة يسبب نقص سكر عرضيًا، نحتاج تصحيح وريدي فوري.",
+    "idea": "مولود لأم سكرية عنده رجفة (<bdi>jittery</bdi>).",
     "clues": [
       [
         "diabetic mother",
-        "فرط إنسولين جنيني مستمر"
+        "<bdi>fetal hyperinsulinism</bdi>"
       ],
       [
         "jittery movements",
-        "عرض نقص سكر حقيقي"
+        "<bdi>symptomatic hypoglycemia</bdi>"
       ]
     ],
     "why_correct": [
-      "رجفان المولود لأم سكرية يعني نقص سكر عرضي حتى يثبت العكس، والعلاج <bdi>IV dextrose</bdi> فورًا (جرعة ٢ مل/كغ من محلول ١٠٪ ثم تسريب مستمر)، لا الانتظار ولا الرضاعة فقط."
+      "المولود لأم سكرية عنده <bdi>hyperinsulinism</bdi> يستمر بعد الولادة، فالسكر ينزل بسرعة.",
+      "الرجفة تعني <bdi>hypoglycemia</bdi> مع أعراض، والعلاج <bdi>IV dextrose</bdi> (١٠٪، ٢ مل/كغ ثم تسريب)."
     ],
     "when_changes": [
-      "لو كان نقص السكر بدون أعراض (رقم منخفض فقط بدون رجفان)، تكفي الرضاعة المبكرة مع مراقبة السكر."
+      "لو السكر منخفض بدون أعراض، رضاعة مبكرة مع مراقبة."
     ],
-    "rule": "نقص سكر عرضي (رجفان) بمولود لأم سكرية = دكستروز وريدي فورًا؛ نقص سكر بدون أعراض = رضاعة مع مراقبة.",
+    "rule": "<bdi>Hypoglycemia</bdi> مع أعراض بمولود = <bdi>IV dextrose</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -49651,24 +49763,21 @@
   "AS-0052": {
     "correct_letter": "D",
     "self_judged": false,
-    "idea": "أي نوع إفراز من الحلمة الأكثر إثارة للقلق؟ — الإفراز التلقائي من قناة واحدة فقط ولون صافٍ (أو دموي) هو الأخطر، بغض النظر عن اللون.",
+    "idea": "أي نوع <bdi>nipple discharge</bdi> يقلق أكثر؟",
     "clues": [
       [
-        "spontaneous",
-        "تلقائي بدون ضغط — علامة إنذار"
-      ],
-      [
-        "single duct",
-        "من قناة واحدة فقط — يوجه لآفة موضعية"
+        "nipple discharge",
+        "الموضوع"
       ]
     ],
     "why_correct": [
-      "الإفراز <bdi>spontaneous, unilateral, from a single duct</bdi> (ولو كان صافيًا) يوحي بآفة قنوية موضعية (ورم حليمي داخل القناة أو سرطان) ويحتاج تقييمًا، بينما باقي الخيارات فيها عنصر يجعلها حميدة."
+      "الإفراز المرضي يكون <bdi>spontaneous</bdi> ومن جهة وحدة ومن <bdi>single duct</bdi>، مهما كان لونه.",
+      "هذا يوحي بآفة بالقناة مثل <bdi>intraductal papilloma</bdi> أو سرطان."
     ],
     "when_changes": [
-      "لو كان الإفراز دمويًا من قناة واحدة تلقائيًا (مو صافيًا)، يبقى نفس الخطورة أو أعلى ويُفحص بنفس الطريقة."
+      "إفراز من الجهتين أو بالضغط بس، غالبًا حميد."
     ],
-    "rule": "الإفراز المقلق = تلقائي + من جانب واحد + من قناة واحدة، بغض النظر عن اللون؛ الإفراز الثنائي أو المستحث غالبًا حميد.",
+    "rule": "<bdi>Spontaneous</bdi> + جهة وحدة + <bdi>single duct</bdi> = افحصي.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -49676,24 +49785,25 @@
   "AS-0053": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "طفل إصابة مقود دراجة بالبطن، ألم وغثيان، الفحص السريع بالسونار (FAST) غير حاسم — إصابة المقود تضغط البنكرياس خلف الصفاق، لذا السونار كثيرًا ما يكون سلبيًا كاذبًا.",
+    "idea": "طفل انضرب ببطنه بمقود الدراجة، والـ<bdi>FAST</bdi> غير واضح.",
     "clues": [
       [
         "handlebar injury",
-        "آلية إصابة تضغط البنكرياس تحديدًا"
+        "ضربة على البطن تضغط الـ<bdi>pancreas</bdi>"
       ],
       [
         "FAST Was Done And It Was Inconclusive",
-        "خلف الصفاق يفسر عدم ظهور سائل حر"
+        "الـ<bdi>pancreas</bdi> <bdi>retroperitoneal</bdi>"
       ]
     ],
     "why_correct": [
-      "إصابة المقود آلية كلاسيكية تضغط <bdi>Pancreas</bdi> (خلف الصفاق) ضد العمود الفقري، وهذا يفسر لماذا جاء الفحص السريع بالسونار غير حاسم، لأن السائل الحر داخل الصفاق قد يتأخر بالإصابات خلف الصفاقية."
+      "<bdi>Handlebar injury</bdi> تضغط الـ<bdi>pancreas</bdi> على العمود الفقري.",
+      "الـ<bdi>pancreas</bdi> <bdi>retroperitoneal</bdi>، فالـ<bdi>FAST</bdi> كثير يطلع غير واضح، والفحص <bdi>CT</bdi> بالصبغة."
     ],
     "when_changes": [
-      "لو كان السونار يُظهر سائلًا حرًا واضحًا بإصابة يمين أعلى البطن، الجواب يتحول للكبد."
+      "لو ضربة يسار فوق مع سوائل بالـ<bdi>FAST</bdi>، <bdi>spleen</bdi>."
     ],
-    "rule": "إصابة مقود دراجة بالبطن + سونار غير حاسم = اشتبهي بالبنكرياس (خلف الصفاق)، أكدي بأشعة مقطعية.",
+    "rule": "<bdi>Handlebar</bdi> + <bdi>FAST</bdi> سلبي = <bdi>pancreas</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -49701,24 +49811,25 @@
   "AS-0057": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "مريض سكري بقرحة قدم غير ملتئمة مع فقدان إحساس واضح — فقدان الإحساس مؤكد أصلاً، السؤال الحقيقي هو هل التروية كافية، فنفحص مؤشر الكاحل-العضد.",
+    "idea": "مريض سكري، قرحة قدم ما تلتئم، و<bdi>neuropathy</bdi> واضح.",
     "clues": [
       [
         "NON-HEALING foot ulcer",
-        "فشل التئام يوحي بسبب إضافي غير العصبي"
+        "القرحة ما تلتئم"
       ],
       [
-        "unable to perceive touch and sensation",
-        "اعتلال عصبي مؤكد بالفعل"
+        "unable to perceive touch",
+        "<bdi>neuropathy</bdi> مؤكد أصلًا"
       ]
     ],
     "why_correct": [
-      "الاعتلال العصبي مؤكد سريريًا بالفعل، فالسبب الأشيع لفشل التئام القرحة رغم ذلك هو نقص التروية الشرياني، والفحص الحاسم لتأكيده <bdi>ABI (Ankle-Brachial Index)</bdi>، يحدد الحاجة لإعادة التوعية."
+      "الـ<bdi>neuropathy</bdi> مؤكد بالفحص، فالسؤال: هل التروية كافية؟",
+      "<bdi>PAD</bdi> أهم سبب لعدم الالتئام، والفحص الحاسم <bdi>ABI</bdi>."
     ],
     "when_changes": [
-      "لو كان الهدف فرز روتيني لفقدان إحساس (مو قرحة فاشلة الالتئام)، فحص الفحص بالخيط الأحادي (مونوفيلامنت) يكون الأنسب."
+      "لو السؤال عن الفحص الروتيني السنوي، <bdi>monofilament</bdi>."
     ],
-    "rule": "قرحة سكري غير ملتئمة مع اعتلال عصبي مؤكد = افحصي التروية بمؤشر الكاحل-العضد؛ فرز روتيني للإحساس فقط = فحص الخيط الأحادي.",
+    "rule": "قرحة سكري ما تلتئم = <bdi>ABI</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -49726,20 +49837,29 @@
   "AS-0060": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "صبي ١٢ سنة، ألم بطني يساري سفلي مع خصية يسرى مرتفعة قليلًا ومؤلمة واحمرار وتورم الصفن — ارتفاع الخصية بالكامل مع ألم حاد هو توقيع الالتواء الخصوي الحقيقي.",
+    "idea": "ولد ١٢ سنة، ألم أسفل البطن، والخصية مرتفعة ومؤلمة.",
     "clues": [
       [
+        "12-year-old",
+        "عمر الالتواء الشائع"
+      ],
+      [
+        "lower abdominal pain",
+        "ألم منتقل"
+      ],
+      [
         "slightly elevated, tender left testis",
-        "ارتفاع الخصية كاملة — توقيع الالتواء الحقيقي"
+        "<bdi>high riding testis</bdi>"
       ]
     ],
     "why_correct": [
-      "ارتفاع الخصية بالكامل مع ألم حاد واحمرار وتورم الصفن بصبي ١٢ سنة هو <bdi>Testicular torsion</bdi>؛ الحبل الملتوي يسحب الخصية للأعلى، والألم البطني السفلي انعكاسي شائع بالمراهقين."
+      "الحبل الملتوي يسحب الخصية لفوق، وهذا <bdi>testicular torsion</bdi>.",
+      "الألم ينتقل للبطن كثير بالمراهقين، والاحمرار من احتقان الدم."
     ],
     "when_changes": [
-      "لو كان الألم موضعيًا بالقطب العلوي فقط مع خصية بوضعها الطبيعي الرأسي (علامة النقطة الزرقاء)، الجواب يتحول لالتواء الزائدة الخصوية."
+      "لو الألم بالقطب العلوي بس والخصية بمكانها (<bdi>blue dot sign</bdi>)، <bdi>torsion of appendage</bdi>."
     ],
-    "rule": "ارتفاع الخصية بالكامل مع ألم حاد = التواء خصوي حقيقي (طوارئ جراحية)؛ ألم موضعي بالقطب العلوي فقط = التواء الزائدة الخصوية.",
+    "rule": "خصية مرتفعة ومؤلمة كلها = <bdi>torsion</bdi> = جراحة فورًا.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -49747,20 +49867,25 @@
   "AS-0061": {
     "correct_letter": "D",
     "self_judged": false,
-    "idea": "امرأة مسنة، فتق جرحي عرضي ومؤلم بعد استئصال سيني سابق — الفتق الجرحي يُصلح دائمًا بشبكة لمنع النكس، والمنظار يعطي أفضل تعافٍ بمريضة مسنة.",
+    "idea": "مسنة عندها <bdi>incisional hernia</bdi> مؤلم بعد عملية سابقة.",
     "clues": [
       [
+        "previous laparotomy",
+        "سبب <bdi>incisional hernia</bdi>"
+      ],
+      [
         "incisional hernia symptomatic painful",
-        "فتق عرضي مؤلم يحتاج إصلاحًا"
+        "يحتاج إصلاح"
       ]
     ],
     "why_correct": [
-      "الفتق الجرحي المؤلم يحتاج إصلاحًا، ودائمًا بشبكة (مش خياطة مباشرة) لتقليل النكس، والمنظار <bdi>Laparoscopic repair with mesh reinforcement</bdi> يعطي عدوى جرح أقل وتعافيًا أسرع، مناسب لمريضة مسنة ببطن متندب."
+      "<bdi>Incisional hernia</bdi> مؤلم يحتاج إصلاح، ودائمًا بـ<bdi>mesh</bdi> لأن الخياطة لحالها ترجع.",
+      "الـ<bdi>laparoscopic</bdi> مع <bdi>mesh</bdi> عدوى أقل وتعافي أسرع."
     ],
     "when_changes": [
-      "لو كان الفتق صغيرًا جدًا بدون أعراض بمريضة غير لائقة جراحيًا، نكتفي بالمراقبة والتطمين."
+      "لو صغير بدون أعراض ومريضة ما تتحمل الجراحة، تطمين."
     ],
-    "rule": "فتق جرحي مؤلم = إصلاح بشبكة دائمًا (منظاري يُفضّل بالمسنين)، الخياطة المباشرة وحدها نسبة نكسها عالية جدًا.",
+    "rule": "<bdi>Incisional hernia</bdi> مؤلم = إصلاح مع <bdi>mesh</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -49768,24 +49893,29 @@
   "AS-0062": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "وليد تسرع تنفس عابر، لسا بضيق تنفس خفيف رغم الأكسجين، معدل تنفس ٦٥ — سرعة التنفس تمنع الرضاعة الآمنة من الفم (خطر شفط)، لكن الأمعاء سليمة فنغذيه بأنبوب أنفي معدي.",
+    "idea": "مولود <bdi>TTN</bdi> على أكسجين، ضيق خفيف، <bdi>RR</bdi> ٦٥. كيف نغذيه؟",
     "clues": [
       [
+        "Transient Tachypnea of the Newborn",
+        "<bdi>TTN</bdi>"
+      ],
+      [
         "mild respiratory distress",
-        "ضيق خفيف مستمر"
+        "ضيق خفيف"
       ],
       [
         "RR is 65",
-        "سرعة تنفس تمنع التنسيق الآمن للرضاعة الفموية"
+        "سرعة تنفس تمنع الرضاعة من الفم"
       ]
     ],
     "why_correct": [
-      "سرعة تنفس ٦٥ مع ضيق خفيف تجعل الرضاعة الفموية خطرة (شفط)، لكن الجهاز الهضمي سليم تمامًا، فالتغذية المناسبة <bdi>NGT</bdi> (أنبوب أنفي معدي) بحليب الأم المعصور، توفر تغذية آمنة بدون خطر شفط."
+      "مع <bdi>RR</bdi> ٦٥ الرضاعة من الفم خطر <bdi>aspiration</bdi>.",
+      "الأمعاء سليمة، فنغذيه بـ<bdi>NGT</bdi> بحليب الأم."
     ],
     "when_changes": [
-      "لو استقر معدل التنفس وتحسّن الضيق تمامًا، نرجّع الرضاعة الفموية المباشرة."
+      "لو الضيق شديد، نوقف التغذية ونعطي <bdi>IV fluids</bdi>."
     ],
-    "rule": "تسرع تنفس عابر مع ضيق خفيف مستمر = تغذية بأنبوب أنفي معدي (نتجاوز الفم لا الأمعاء)؛ ضيق شديد = وقف تغذية فموية وسوائل وريدية.",
+    "rule": "تسرع تنفس + ضيق خفيف = <bdi>NGT</bdi>؛ ضيق شديد = <bdi>NPO</bdi> + <bdi>IV fluids</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -49793,24 +49923,25 @@
   "AS-0066": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "طفل ٣ سنوات، كل المهارات الحركية واللغوية طبيعية تمامًا، لكن لا يلعب مع أقرانه ويفضل اللعب لوحده — الخلل الوحيد هنا اجتماعي، وهذا يستدعي فحصًا نفسيًا اجتماعيًا.",
+    "idea": "طفل ٣ سنين، الحركة واللغة طبيعية، بس ما يلعب مع الأطفال ويفضل يلعب لحاله.",
     "clues": [
       [
         "does not interact or play with other children",
-        "خلل بالمجال الاجتماعي تحديدًا"
+        "الخلل اجتماعي"
       ],
       [
         "prefers to play alone",
-        "تفضيل العزلة بعمر يُفترض فيه لعب جماعي"
+        "يفضل يلعب لحاله"
       ]
     ],
     "why_correct": [
-      "كل المجالات (حركي كبير، حركي دقيق، لغوي) طبيعية تمامًا لعمر ٣ سنوات، والخلل الوحيد هو تجنب اللعب الجماعي مع الأقران، وهذا يوجه لـ<bdi>Psychosocial disorder</bdi> (اضطراب تواصل اجتماعي) يستدعي فحص توحد."
+      "الحركة الكبيرة والدقيقة واللغة كلها مناسبة لعمره.",
+      "الخلل الوحيد اجتماعي، وهذا <bdi>psychosocial disorder</bdi> يحتاج فحص <bdi>autism</bdi>."
     ],
     "when_changes": [
-      "لو كان الطفل عاجزًا عن القفز أو الجري (حركي كبير متأخر)، الجواب يتحول لتأخر حركي كبير."
+      "لو ما يقدر يجري أو ينط، <bdi>gross motor delay</bdi>."
     ],
-    "rule": "تجنب اللعب الجماعي بعمر ٣ سنوات مع كل مجالات أخرى طبيعية = اضطراب تواصل اجتماعي، افحصي للتوحد.",
+    "rule": "خلل اجتماعي بس بعمر ٣ = افحصي <bdi>autism</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -49818,24 +49949,29 @@
   "AS-0067": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "طفل ٩ سنوات، تبول لا إرادي ليلي ٣ مرات أسبوعيًا ولم يجف يومًا، تحليل بول وزرع وفحص طبيعي — تبول لا إرادي أولي بدون سبب عضوي بعمر مدرسي، نبدأ بتدابير سلوكية.",
+    "idea": "ولد ٩ سنين ما جف أبدًا، يبلل بالليل ٣ مرات بالأسبوع، والتحاليل والفحص طبيعي.",
     "clues": [
       [
+        "9-year-old",
+        "عمر يحتاج علاج"
+      ],
+      [
         "never been dry",
-        "تبول لا إرادي أولي (لم يجف قط)"
+        "<bdi>primary enuresis</bdi>"
       ],
       [
         "urine CX and analysis are normal",
-        "يستبعد سببًا عضويًا أو عدوى"
+        "ما فيه سبب عضوي"
       ]
     ],
     "why_correct": [
-      "بعمر ٩ سنوات مع تحليل وزرع طبيعيين وفحص سليم، التبول اللاإرادي الليلي الأولي بدون سبب عضوي يبدأ علاجه بـ<bdi>Behavioural changes</bdi> (تقليل سوائل المساء، التبول قبل النوم، جدول مكافآت، منبه التبول)."
+      "<bdi>Primary nocturnal enuresis</bdi> بدون سبب عضوي.",
+      "بعمره نعالجه، والخط الأول <bdi>behavioural therapy</bdi>: تقليل السوائل بالمساء، جدول مكافآت، و<bdi>enuresis alarm</bdi>."
     ],
     "when_changes": [
-      "لو كان عمره أقل من ٥-٦ سنوات، نكتفي بالتطمين لأن هذا طبيعي بهذا العمر."
+      "لو عمره أقل من ٥-٦ سنين، تطمين."
     ],
-    "rule": "تبول لا إرادي أولي بعمر مدرسي مع فحوصات طبيعية = تدابير سلوكية أولاً؛ عمر أقل من ٦ سنوات = تطمين فقط.",
+    "rule": "<bdi>Enuresis</bdi> بعمر المدرسة مع تحاليل طبيعية = <bdi>behavioural therapy</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -49843,20 +49979,24 @@
   "AS-0068": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "طفل ١٢ سنة سليم تعرّض لجدري الماء قبل يومين، حالته المناعية غير معروفة — بالطفل السليم غير المؤكد مناعته، لقاح الجدري المبكر بعد التعرض يمنع أو يخفف المرض.",
+    "idea": "ولد ١٢ سنة سليم، خالط طفل عنده <bdi>chickenpox</bdi> قبل يومين، ومناعته غير معروفة.",
     "clues": [
       [
+        "12-year-old",
+        "طفل سليم"
+      ],
+      [
         "close contact with a child with chickenpox 2 days ago",
-        "تعرض حديث خلال نافذة فعالية اللقاح"
+        "تعرض حديث"
       ]
     ],
     "why_correct": [
-      "طفل سليم المناعة غير مؤكد تمنيعه السابق، تعرض قبل يومين (ضمن نافذة ٣-٥ أيام)، يُعطى <bdi>Chickenpox vaccine</bdi> كوقاية بعد التعرض، يمنع أو يخفف المرض ويمنح مناعة دائمة."
+      "الطفل السليم غير المطعم ياخذ <bdi>varicella vaccine</bdi> خلال ٣-٥ أيام من التعرض، يمنع أو يخفف المرض."
     ],
     "when_changes": [
-      "لو كان الطفل ضعيف المناعة (سرطان دم أو كيماوي)، اللقاح الحي ممنوع ونعطي بدلًا عنه غلوبيولين مناعي نوعي (VZIG)."
+      "لو ضعيف المناعة، <bdi>VZIG</bdi> بدل اللقاح."
     ],
-    "rule": "تعرض حديث لجدري الماء بطفل سليم مناعته غير مؤكدة = لقاح جدري مبكر؛ ضعف مناعة = غلوبيولين مناعي نوعي بدل اللقاح الحي.",
+    "rule": "تعرض + سليم + غير مطعم = <bdi>vaccine</bdi>؛ ضعيف مناعة = <bdi>VZIG</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -49864,24 +50004,25 @@
   "AS-0068B": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "طفل ٥ سنوات ابيضاض دم على كيماوي وستيرويد ٦ أسابيع، تعرّض لجدري الماء بدون أعراض حتى الآن — ضعف مناعي شديد مع تعرض بدون أعراض، اللقاح الحي ممنوع، نعطي غلوبيولين مناعي نوعي فورًا.",
+    "idea": "طفل <bdi>leukemia</bdi> على كيماوي وستيرويد، خالط طفل عنده <bdi>chickenpox</bdi>، وما عنده أعراض.",
     "clues": [
       [
         "leukemia, on chemotherapy and steroids",
-        "ضعف مناعي شديد يمنع اللقاح الحي"
+        "ضعف مناعة"
       ],
       [
         "contact with a child who has chickenpox",
-        "تعرض حديث بدون أعراض بعد"
+        "تعرض بدون أعراض"
       ]
     ],
     "why_correct": [
-      "ضعف مناعي شديد (كيماوي وستيرويد) مع تعرض حديث بدون أعراض بعد يستدعي <bdi>Varicella-zoster immunoglobulin</bdi> (تمنيع سلبي) فورًا، لأن اللقاح الحي ممنوع تمامًا بهذه الحالة."
+      "ضعيف المناعة وخطر المرض المنتشر عالي، واللقاح الحي ممنوع.",
+      "فنعطيه <bdi>varicella-zoster immunoglobulin</bdi> بأسرع وقت."
     ],
     "when_changes": [
-      "لو ظهرت أعراض الجدري فعليًا (طفح)، الخطوة تتحول لدخول المستشفى وإعطاء أسيكلوفير وريدي."
+      "لو طلعت الأعراض، ننومه ونعطيه <bdi>IV acyclovir</bdi>."
     ],
-    "rule": "ضعف مناعي + تعرض بدون أعراض = غلوبيولين مناعي نوعي فورًا؛ ضعف مناعي + أعراض ظاهرة = دخول وأسيكلوفير وريدي.",
+    "rule": "ضعيف مناعة + تعرض بدون أعراض = <bdi>VZIG</bdi>.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -49889,24 +50030,29 @@
   "AS-0075": {
     "correct_letter": "B",
     "self_judged": false,
-    "idea": "رضيع ٨ أشهر رضاعة طبيعية حصرية، وزنه تراجع من المئين الخمسين للعاشر، لكن الطول ومحيط الرأس ثابتان بالمئين الخمسين — تراجع الوزن وحده مع ثبات الطول والرأس يعني نقص سعرات، وليس مرضًا عضويًا.",
+    "idea": "رضيع ٨ أشهر رضاعة طبيعية بس، وزنه نزل من الـ٥٠ للـ١٠، والطول والرأس على الـ٥٠.",
     "clues": [
       [
         "exclusively breastfeeding",
-        "رضاعة طبيعية وحدها قد لا تكفي بهذا العمر"
+        "رضاعة طبيعية بس"
+      ],
+      [
+        "10th percentile",
+        "الوزن نزل"
       ],
       [
         "height and head circumference still in 50th percentile",
-        "نمو الطول والرأس طبيعي — يستبعد سببًا عضويًا شاملًا"
+        "الطول والرأس طبيعيين"
       ]
     ],
     "why_correct": [
-      "تراجع الوزن فقط (عبر خطين مئينين) مع ثبات الطول ومحيط الرأس يوجه لنقص سعرات حرارية لا مرضًا عضويًا، وبعمر ٨ أشهر الرضاعة وحدها لم تعد كافية، فننصح بـ<bdi>Increase calorie intake</bdi> (بدء الأطعمة التكميلية)."
+      "نزول الوزن لحاله مع ثبات الطول والرأس = نقص سعرات، مو مرض عضوي.",
+      "بعمر ٨ أشهر حليب الأم لحاله ما يكفي، فنزيد السعرات ونبدأ الأكل."
     ],
     "when_changes": [
-      "لو تراجع الطول ومحيط الرأس أيضًا مع الوزن، نشك بمرض عضوي أو استقلابي ونطلب فحوصات موجهة."
+      "لو الطول والرأس نزلوا كمان، نفكر بمرض عضوي."
     ],
-    "rule": "تراجع وزن فقط مع ثبات طول ورأس = نقص سعرات (زيدي التغذية)؛ تراجع الثلاثة معًا = اشتبهي بمرض عضوي/استقلابي.",
+    "rule": "الوزن بس ينزل = نقص أكل؛ الثلاثة ينزلون = سبب عضوي.",
     "comparison": null,
     "labs": null,
     "guideline_note": null
@@ -49939,24 +50085,29 @@
   "AS-0078": {
     "correct_letter": "A",
     "self_judged": false,
-    "idea": "طفل قيء وإسهال، خمول وقلة شرب ١٢ ساعة، رائحة فاكهية بالنفس، ضغط منخفض بسيط، سكر شبه طبيعي، صوديوم منخفض قليلًا وبيكربونات منخفضة — الحماض الكيتوني السكري يحتاج حماضًا مع كيتونات، والرائحة الفاكهية مع انخفاض البيكربونات يؤكدانه حتى لو السكر غير مرتفع جدًا.",
+    "idea": "طفل يستفرغ وخامل، نفسه ريحته فواكه، و<bdi>bicarbonate</bdi> ١٥.",
     "clues": [
       [
         "fruity (nail polish-like) odor",
-        "توقيع الكيتونات المباشر"
+        "<bdi>ketones</bdi>"
+      ],
+      [
+        "Random blood sugar (RBS): 8.9 mmol/L",
+        "السكر مو عالي كثير"
       ],
       [
         "Bicarbonate: 15 mmol/L",
-        "حماض استقلابي مؤكد"
+        "<bdi>metabolic acidosis</bdi>"
       ]
     ],
     "why_correct": [
-      "الرائحة الفاكهية (كيتونات) مع بيكربونات منخفضة (١٥) وخمول وجفاف تشكل صورة <bdi>Diabetic Ketoacidosis</bdi> الكاملة (حماض + كيتونات)، حتى مع سكر غير مرتفع بشدة."
+      "الريحة من الـ<bdi>ketones</bdi>، و<bdi>bicarbonate</bdi> منخفض يعني حماض.",
+      "المصدر اختار <bdi>DKA</bdi> لأنه الوحيد اللي يفسر <bdi>ketones</bdi> مع الحماض."
     ],
     "when_changes": [
-      "لو كان السكر مرتفعًا جدًا جدًا مع أسمولية عالية وكيتونات غائبة أو ضئيلة، الجواب يتحول للحالة فرطية الأسمولية غير الكيتونية."
+      "لو السكر عالي جدًا مع <bdi>osmolality</bdi> عالية وبدون <bdi>ketones</bdi>، <bdi>HHS</bdi>."
     ],
-    "rule": "رائحة فاكهية + بيكربونات منخفضة = حماض كيتوني سكري، حتى لو رقم السكر نفسه ليس مرتفعًا جدًا.",
+    "rule": "ريحة فواكه + <bdi>bicarbonate</bdi> منخفض = <bdi>DKA</bdi>.",
     "comparison": null,
     "labs": [
       [
@@ -49980,7 +50131,7 @@
   "AS-0079": {
     "correct_letter": "C",
     "self_judged": false,
-    "idea": "وليد بعد الولادة ضيق تنفس ونمط تنفس غير طبيعي وتشبع ٧٨٪ مع عقي حول الجسم — وليد غير نشط (non-vigorous) مع عقي وتشبع منخفض جدًا يحتاج تأمين مجرى الهواء وتهوية فورية.",
+    "idea": "مولود بعد الولادة عنده ضيق تنفس، تنفس غير طبيعي، <bdi>SpO2</bdi> ٧٨٪، وعليه <bdi>meconium</bdi>.",
     "clues": [
       [
         "saturation 78%",
@@ -49988,16 +50139,17 @@
       ],
       [
         "meconium stains",
-        "خطر استنشاق عقي"
+        "<bdi>meconium aspiration</bdi>"
       ]
     ],
     "why_correct": [
-      "وليد بضيق تنفس ونمط غير طبيعي وتشبع ٧٨٪ مع تلوث عقي يُعامل كغير نشط، فالخطوة <bdi>Intubation and mechanical ventilation if needed</bdi> لتأمين مجرى الهواء والتهوية فورًا، لا الأكسجين وحده ولا الانتظار لغازات الدم."
+      "المولود <bdi>non-vigorous</bdi> مع نقص أكسجين.",
+      "المصدر اختار نأمن مجرى الهواء بـ<bdi>intubation</bdi> ونعطي <bdi>ventilation</bdi> لو احتاج، بدل الأكسجين لحاله."
     ],
     "when_changes": [
-      "لو كان الوليد نشطًا (يتنفس بقوة، توتر عضلي جيد، نبض فوق ١٠٠) رغم وجود العقي، نكتفي بالرعاية الروتينية والمراقبة."
+      "لو المولود <bdi>vigorous</bdi> (يبكي ونشيط)، رعاية روتينية."
     ],
-    "rule": "وليد غير نشط مع عقي ونقص أكسجين شديد = تأمين مجرى الهواء والتهوية فورًا؛ وليد نشط رغم العقي = رعاية روتينية ومراقبة.",
+    "rule": "<bdi>Meconium</bdi> + مولود غير نشيط ونقص أكسجين = <bdi>airway</bdi> و<bdi>ventilation</bdi>.",
     "comparison": null,
     "labs": [
       [
@@ -50011,20 +50163,25 @@
   "AS-0080": {
     "correct_letter": "D",
     "self_judged": false,
-    "idea": "مراهقة تقارن نفسها بالآخرين عبر الأيباد، ثقة منخفضة وقلق — النمط المعرفي السلبي (المقارنة المستمرة) هو بالضبط ما يستهدفه العلاج السلوكي المعرفي.",
+    "idea": "مراهقة على الآيباد كثير، تقارن نفسها بالناس، ثقتها قليلة وعندها قلق.",
     "clues": [
       [
         "comparing herself with others",
-        "نمط تفكير معرفي مشوّه — هدف مباشر للعلاج السلوكي"
+        "تفكير سلبي"
+      ],
+      [
+        "low self esteem and anxiety",
+        "قلق خفيف"
       ]
     ],
     "why_correct": [
-      "المقارنة المستمرة بالآخرين مع ثقة منخفضة وقلق خفيف-متوسط هي أنماط تفكير مشوّهة، والعلاج الأول لها <bdi>Cognitive behavioral therapy</bdi>، الخط الأول للقلق والمزاج الخفيف بالمراهقين."
+      "المشكلة نمط تفكير سلبي، و<bdi>CBT</bdi> يستهدف هالأفكار بالضبط.",
+      "<bdi>CBT</bdi> الخط الأول للقلق الخفيف والمتوسط بالمراهقين."
     ],
     "when_changes": [
-      "لو كان الاكتئاب أو القلق شديدًا أو فشل العلاج السلوكي المعرفي، نضيف مضاد اكتئاب (فلوكستين) كخط ثانٍ."
+      "لو الاكتئاب أو القلق شديد، نضيف <bdi>SSRI</bdi>."
     ],
-    "rule": "قلق/ثقة منخفضة خفيفة-متوسطة بمراهقة = علاج سلوكي معرفي أولاً؛ حالة شديدة أو فشل العلاج = نضيف دواء.",
+    "rule": "قلق خفيف بمراهقة = <bdi>CBT</bdi> أول.",
     "comparison": null,
     "labs": null,
     "guideline_note": null

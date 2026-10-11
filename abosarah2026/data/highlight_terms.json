@@ -4746,47 +4746,51 @@
   "AS-0004": [
     "excessive military training",
     "postural hypotension",
-    "Urine osmolality is elevated >500 mOsm/kg"
+    "Urine osmolality is elevated >500"
   ],
   "AS-0009": [
     "ischemic stroke 2 days ago",
+    "VITAL SIGNS WERE NORMAL",
     "RBS was 12.6"
   ],
   "AS-0011": [
+    "CKD",
     "intermittent claudication",
-    "no symptoms of heart failure",
-    "Echo normal",
-    "atrial fibrillation"
+    "Echo normal"
   ],
   "AS-0011B": [
     "intermitent claudicaion",
-    "stable angina"
+    "stable angina",
+    "Heart rate 86"
   ],
   "AS-0012": [
     "DM HTN CKD",
-    "eGFR 50/ml/min",
-    "goal BP to prevent cardiovascular disease"
+    "eGFR 50",
+    "prevent cardiovascular disease"
   ],
   "AS-0014": [
     "1st line Anti-TB medications",
-    "Lisinopril and Amlodipine"
+    "Lisinopril and Amlodipine",
+    "most appropriate adjustment"
   ],
   "AS-0015": [
-    "First-Line Anti-TB Regimen",
-    "Should Be Stopped?"
+    "Amlodipine",
+    "Acid-Fast Bacilli Result Came Positive",
+    "First-Line Anti-TB Regimen"
   ],
   "AS-0016": [
-    "First-Line Anti-TB Regimen",
+    "Amlodipine",
+    "Acid-Fast Bacilli Result Came Positive",
     "Should Be Adjusted"
   ],
   "AS-0029": [
     "Lower limb weakness and urine incontinence",
-    "T10 sensory level",
-    "no history of previous infection"
+    "since 3 days",
+    "T10 sensory level"
   ],
   "AS-0030": [
-    "Burkit Lymphoma",
-    "hyperkalemia (6) and hypocalcemia",
+    "hyperkalemia",
+    "hypocalcemia",
     "Unable to urinate"
   ],
   "AS-0031": [
@@ -4794,44 +4798,44 @@
     "hyperkalemia (6) and hypocalcemia"
   ],
   "AS-0031B": [
-    "BULKY diffuse large B cell lymphoma (DLBCL)",
-    "decreased urine output",
+    "BULKY diffuse large B cell lymphoma",
     "UA 570",
     "PREVENT"
   ],
   "AS-0031C": [
-    "BULKY diffuse large B cell lymphoma (DLBCL)",
-    "decreased urine output",
+    "BULKY diffuse large B cell lymphoma",
     "UA 570",
-    "PREVENT"
+    "No Rasburicase in options"
   ],
   "AS-0032": [
-    "progressive dyspnea",
     "paroxysmal nocturnal dyspnea",
     "hypokinesia of anterior wall",
     "ejection fraction 30%"
   ],
   "AS-0035": [
-    "ECG shows left bundle branch block",
-    "assess the coronary arteries"
+    "relieved after 4 minutes with rest",
+    "family history of sudden death",
+    "left bundle branch block"
   ],
   "AS-0036": [
     "3-hour continuous retrosternal heaviness",
-    "left bundle branch block. Previous ECG was normal"
+    "left bundle branch block",
+    "Previous ECG was normal"
   ],
   "AS-0039": [
     "on warfarin",
     "bloody stool",
-    "PTT and PT prolonged"
+    "Hb is 6"
   ],
   "AS-0040": [
-    "Asymptomatic",
-    "BP 110/85",
-    "Atrial Fibrillation (AF)"
+    "Cardiomyopathy",
+    "asymptomatic",
+    "HR 145 Irregular"
   ],
   "AS-0041": [
-    "heart failure",
-    "fast atrial fibrillation"
+    "heart failure due to dilated cardiomyopathy",
+    "fast atrial fibrillation",
+    "control the heart rate"
   ],
   "AS-0042": [
     "Acute Heart Failure",
@@ -4843,8 +4847,7 @@
   ],
   "AS-0044": [
     "recently underwent cardiac catheterization",
-    "acute kidney injury",
-    "cholesterol emboli"
+    "acute kidney injury"
   ],
   "AS-0046": [
     "severe mitral valve STENOSIS",
@@ -4855,9 +4858,9 @@
     "a fib"
   ],
   "AS-0049": [
-    "receiving IV heparin",
-    "deep vein thrombosis 6 days post-operatively",
-    "Platelet count is 75 ×109/L"
+    "IV heparin",
+    "deep vein thrombosis 6 days",
+    "Platelet count is 75"
   ],
   "AS-0050": [
     "LDL cholesterol: within normal range",
@@ -4865,18 +4868,20 @@
   ],
   "AS-0051": [
     "Triglycerides: significantly elevated (300)",
-    "He Was On Maximum Dose Statin"
+    "Maximum Dose Statin"
   ],
   "AS-0058": [
+    "hx of heart disease",
     "pink frothy spetum"
   ],
   "AS-0063": [
+    "exertional dyspnea, orthopnea",
     "concentric left ventricular hypertrophy",
     "normal ejection fraction (60%)"
   ],
   "AS-0064": [
-    "systemic lupus erythematosus",
     "mycophenolate mofetil",
+    "inactive disease for more than 6 months",
     "planning to get pregnant"
   ],
   "AS-0086": [
@@ -7244,25 +7249,27 @@
   ],
   "AS-0005": [
     "fell from tree",
+    "vomiting",
     "drowsy"
   ],
   "AS-0006": [
-    "left limb weakness and sign of lateralization",
+    "left limb weakness",
+    "sign of lateralization",
     "extra dural hematoma with midline shift"
   ],
   "AS-0008": [
-    "recurrent tonsillitis (six episodes in the past year)",
+    "six episodes in the past year",
     "snoring, mouth breathing during sleep",
     "grade three tonsils"
   ],
   "AS-0013": [
     "perianal discharge",
-    "on-off abdominal pain",
     "family history of Crohn's disease",
     "three fistula openings"
   ],
   "AS-0033": [
-    "ph low and hypokalemia",
+    "ph low",
+    "hypokalemia",
     "Urine pH 6.5"
   ],
   "AS-0034": [
@@ -7294,16 +7301,20 @@
   ],
   "AS-0057": [
     "NON-HEALING foot ulcer",
-    "no mention of pulse"
+    "unable to perceive touch"
   ],
   "AS-0060": [
+    "12-year-old",
+    "lower abdominal pain",
     "slightly elevated, tender left testis"
   ],
   "AS-0061": [
+    "previous laparotomy",
     "incisional hernia symptomatic painful"
   ],
   "AS-0062": [
-    "Transient Tachypnea of the Newborn TTN",
+    "Transient Tachypnea of the Newborn",
+    "mild respiratory distress",
     "RR is 65"
   ],
   "AS-0066": [
@@ -7311,10 +7322,12 @@
     "prefers to play alone"
   ],
   "AS-0067": [
-    "nighttime enuresis",
-    "never been dry"
+    "9-year-old",
+    "never been dry",
+    "urine CX and analysis are normal"
   ],
   "AS-0068": [
+    "12-year-old",
     "close contact with a child with chickenpox 2 days ago"
   ],
   "AS-0068B": [

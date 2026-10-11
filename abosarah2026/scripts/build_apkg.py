@@ -216,7 +216,7 @@ def build():
 
         reason = doubtful.get(qno)
         if reason == "answer":
-            full_deck_name = f"{PARENT_DECK_NAME}::⚠ المشكوك فيهم::1 جواب غير مؤكد"
+            full_deck_name = f"{PARENT_DECK_NAME}::⚠ المشكوك فيهم"
             tags = ["مشكوك_الجواب"]
         elif reason == "explain":
             full_deck_name = f"{PARENT_DECK_NAME}::⚠ المشكوك فيهم::2 شرح يحتاج مراجعة"
