@@ -46,12 +46,21 @@ html, body { width: 194mm; }
 .page.qs, .page.sol { grid-template-rows: auto repeat(5, minmax(0, 1fr)); }
 .ph { grid-column: 1 / 3; font-weight: bold; font-size: 10pt; border-bottom: 1.2pt solid #000; padding-bottom: 1mm; margin-bottom: 1mm; }
 .dz { font-size: .85em; font-style: italic; }
+.page.tr { display: block; column-count: 2; column-gap: 6mm; column-fill: auto; padding-top: 1mm; }
+.page.tr h1 { column-span: all; font-size: 11pt; margin: 0 0 2mm; border-bottom: 1.2pt solid #000; }
+.page.tr h3 { font-size: 1.05em; margin: 2.5mm 0 .8mm; border-bottom: 0.5pt solid #000; break-after: avoid; }
+.page.tr ul { margin: 0; padding-left: 4mm; }
+.page.tr li { margin-bottom: 1mm; break-inside: avoid; }
 .sol .q { border-bottom: 0.4pt dashed #000; }
 .ans { font-weight: bold; border: 0.6pt solid #000; border-radius: 1mm; padding: 0 1.5mm; display: inline-block; margin-bottom: .6mm; }
 .why, .pearl { margin-top: .6mm; }
 """
 
 FIT = """<script>
+document.querySelectorAll('.page.tr').forEach(function(pg){
+  var fs = 12; pg.style.fontSize = fs + 'pt';
+  while (fs > 5 && pg.scrollWidth > pg.clientWidth + 2) { fs -= 0.2; pg.style.fontSize = fs + 'pt'; }
+});
 document.querySelectorAll('.page.qs, .page.sol').forEach(function(pg){
   var fs = 8.8;
   pg.style.fontSize = fs + 'pt';
@@ -114,9 +123,24 @@ def solution_cell(i, f):
     return out + "</div>"
 
 
+def traps_page(batch, ep_of):
+    import difflib
+    out = '<div class="page tr"><h1>⚠ فخاخ هالمواضيع — اقريها قبل ما تحلين (Traps)</h1>'
+    for d, part, _ in batch:
+        seen = []
+        for f in part:
+            t = ep_of.get(f["QID"], "")
+            if t and not any(difflib.SequenceMatcher(None, t.lower(), x.lower()).ratio() > 0.8 for x in seen):
+                seen.append(t)
+        if seen:
+            out += f'<h3 dir="ltr">{html.escape(d["title"])}</h3><ul dir="ltr">' + "".join(f"<li>{html.escape(t)}</li>" for t in seen) + "</ul>"
+    return out + "</div>"
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     data = json.load(open(DATA, encoding="utf-8"))
+    ep_of = {q["qid"]: re.sub(r"\s*\d+ topics?, \d+ questions?\s*$", "", q["ep"]).strip() for q in data["questions"]}
     by = {}
     for f in load():
         by.setdefault(f["_dis"], []).append(f)
@@ -144,6 +168,7 @@ def main():
                 if first and d.get("img") and os.path.exists(img):
                     b64 = base64.b64encode(open(img, "rb").read()).decode()
                     pages.append(f'<div class="page map"><img src="data:image/jpeg;base64,{b64}"></div>')
+            pages.append(traps_page(batch, ep_of))
             qs, sols, start = "", "", num + 1
             for d, part, _ in batch:
                 for f in part:
