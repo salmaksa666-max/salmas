@@ -22,8 +22,9 @@ CHROME = sorted(glob.glob("/opt/pw-browsers/chromium_headless_shell-*/*/chrome-h
 CSS = """
 @page { size: A4; margin: 8mm; }
 * { box-sizing: border-box; }
+html, body { width: 194mm; }
 body { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 8.8pt; line-height: 1.3; color: #000; background: #fff; margin: 0; }
-.page { height: 281mm; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: repeat(5, 1fr); gap: 0 5mm; break-after: page; overflow: hidden; }
+.page { height: 281mm; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: repeat(5, minmax(0, 1fr)); gap: 0 5mm; break-after: page; overflow: hidden; }
 .page:last-child { break-after: auto; }
 .q { border-bottom: 0.4pt solid #000; padding: 1.2mm 0 1.4mm; overflow: hidden; }
 .hd { font-weight: bold; font-size: .9em; margin-bottom: .6mm; }
@@ -43,7 +44,7 @@ FIT = """<script>
 document.querySelectorAll('.page').forEach(function(pg){
   var fs = 8.8;
   pg.style.fontSize = fs + 'pt';
-  while (fs > 5.5 && [...pg.querySelectorAll('.q')].some(function(q){ return q.scrollHeight > q.clientHeight + 1; })) {
+  while (fs > 4.6 && [...pg.querySelectorAll('.q')].some(function(q){ return q.scrollHeight > q.clientHeight + 1; })) {
     fs -= 0.2; pg.style.fontSize = fs + 'pt';
   }
 });

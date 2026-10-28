@@ -40,18 +40,22 @@ mark.l2 { background: #b4b4b4; font-weight: bold; text-decoration: underline; }
 .memo b { font-weight: bold; }
 """
 CSS += """
-.page.map { display: flex; flex-direction: column; align-items: center; justify-content: flex-start; }
-.page.map h2 { font-size: 13pt; margin: 0 0 2mm; align-self: flex-start; }
-.page.map img { max-width: 194mm; max-height: 268mm; filter: grayscale(1) contrast(1.15); }
-.page.qs { grid-template-rows: auto repeat(5, 1fr); }
+html, body { width: 194mm; }
+.page.map { display: flex; align-items: center; justify-content: center; }
+.page.map img { width: 194mm; max-height: 280mm; object-fit: contain; filter: grayscale(1) contrast(1.15); }
+.page.qs, .page.sol { grid-template-rows: auto repeat(5, minmax(0, 1fr)); }
 .ph { grid-column: 1 / 3; font-weight: bold; font-size: 10pt; border-bottom: 1.2pt solid #000; padding-bottom: 1mm; margin-bottom: 1mm; }
+.dz { font-size: .85em; font-style: italic; }
+.sol .q { border-bottom: 0.4pt dashed #000; }
+.ans { font-weight: bold; border: 0.6pt solid #000; border-radius: 1mm; padding: 0 1.5mm; display: inline-block; margin-bottom: .6mm; }
+.why, .pearl { margin-top: .6mm; }
 """
 
 FIT = """<script>
-document.querySelectorAll('.page.qs').forEach(function(pg){
+document.querySelectorAll('.page.qs, .page.sol').forEach(function(pg){
   var fs = 8.8;
   pg.style.fontSize = fs + 'pt';
-  while (fs > 5.5 && [...pg.querySelectorAll('.q')].some(function(q){ return q.scrollHeight > q.clientHeight + 1; })) {
+  while (fs > 4.6 && [...pg.querySelectorAll('.q')].some(function(q){ return q.scrollHeight > q.clientHeight + 1; })) {
     fs -= 0.2; pg.style.fontSize = fs + 'pt';
   }
 });
@@ -74,49 +78,92 @@ def load():
     return out
 
 
-def card(i, f):
-    ans = f["Correct"]
+def plain(h):
+    return html.unescape(re.sub(r"<[^>]+>", "", h or "")).strip()
+
+
+def question_cell(i, f, dtitle):
     stem = re.search(r'<div dir="ltr" style="text-align:left">(.*)</div>\s*$', f["Question"], re.S).group(1)
-    opts = "".join(
-        f'<div class="o{" ok" if k == ans else ""}"><bdi dir="ltr">{k}. {html.escape(re.sub(r"<[^>]+>", "", f["Opt" + k]))}</bdi></div>'
-        for k in "ABCD" if f["Opt" + k].strip()
-    )
-    m = re.search(r'<div id="memo"[^>]*>(.*?)</div>', f["Explain"], re.S)
-    memo = f'<div class="memo">{m.group(1)}</div>' if m else ""
+    opts = "".join(f'<div class="o"><bdi dir="ltr">{k}. {html.escape(plain(f["Opt" + k]))}</bdi></div>'
+                   for k in "ABCD" if f["Opt" + k].strip())
+    return (f'<div class="q"><div class="hd">{i}) <span>{f["QID"]}</span></div>'
+            f'<div class="dz" dir="ltr">{html.escape(dtitle)}</div>'
+            f'<div class="stem" dir="ltr">{stem}</div>{opts}</div>')
+
+
+def solution_cell(i, f):
+    ans = f["Correct"]
+    ex = f["Explain"]
+    if ans and f["Opt" + ans].strip():
+        a_txt = f"{ans}. {plain(f['Opt' + ans])}"
+    else:
+        m = re.search(r"<p><b>الجواب:</b> <bdi[^>]*>(.*?)</bdi>", ex, re.S)
+        a_txt = plain(m.group(1)) if m else "— بدون جواب مؤكد من المصدر"
+    memo = re.search(r'<div id="memo"[^>]*>(.*?)</div>', ex, re.S)
+    right = re.search(r"<p><b>ليش الجواب صح:</b></p><div[^>]*>(.*?)</div>", ex, re.S)
+    pearl = re.search(r'<p class="pearl"><b>Exam pearl:</b> (.*?)</p>', ex, re.S)
     flag = " ⚠ المصدر مو متأكد" if f["_doubt"] else ""
-    return (f'<div class="q"><div class="hd">{i}) <span>{f["QID"]}{flag}</span></div>'
-            f'<div class="stem" dir="ltr">{stem}</div>{opts}{memo}</div>')
+    out = f'<div class="q"><div class="hd">{i}) <span>{f["QID"]}{flag}</span></div>'
+    out += f'<div class="ans" dir="ltr">✔ {html.escape(a_txt)}</div>'
+    if memo:
+        out += f'<div class="memo">{memo.group(1)}</div>'
+    if right:
+        out += f'<div class="why" dir="ltr"><b>Why:</b> {html.escape(plain(right.group(1)))}</div>'
+    if pearl:
+        out += f'<div class="pearl" dir="ltr"><b>Pearl:</b> {html.escape(plain(pearl.group(1)))}</div>'
+    return out + "</div>"
 
 
 def main():
     os.makedirs(OUT, exist_ok=True)
     data = json.load(open(DATA, encoding="utf-8"))
-    dis = {d["id"]: d for d in data["diseases"]}
-    cards = load()
     by = {}
-    for f in cards:
+    for f in load():
         by.setdefault(f["_dis"], []).append(f)
     for spec, fname in FILES.items():
-        pages = []
+        # batches of whole diseases, up to 10 questions each (a bigger disease is cut into chunks of 10)
+        batches, cur = [], []  # batch = list of (disease, [cards])
+        n = 0
         for d in [d for d in data["diseases"] if d["specialty"] == spec]:
             fs = sorted(by.get(d["id"], []), key=lambda f: f["QID"])
             if not fs:
                 continue
-            title = html.escape(d["title"])
-            img = os.path.join(IMG_DIR, d.get("img") or "")
-            if d.get("img") and os.path.exists(img):
-                b64 = base64.b64encode(open(img, "rb").read()).decode()
-                pages.append(f'<div class="page map"><h2>🗺 {title}</h2><img src="data:image/jpeg;base64,{b64}"></div>')
             for p in range(0, len(fs), 10):
-                body = "".join(card(p + j + 1, f) for j, f in enumerate(fs[p:p + 10]))
-                pages.append(f'<div class="page qs"><div class="ph">{title}</div>{body}</div>')
+                part = fs[p:p + 10]
+                if n + len(part) > 10 and cur:
+                    batches.append(cur)
+                    cur, n = [], 0
+                cur.append((d, part, p == 0))
+                n += len(part)
+        if cur:
+            batches.append(cur)
+        pages, num = [], 0
+        for batch in batches:
+            for d, part, first in batch:
+                img = os.path.join(IMG_DIR, d.get("img") or "")
+                if first and d.get("img") and os.path.exists(img):
+                    b64 = base64.b64encode(open(img, "rb").read()).decode()
+                    pages.append(f'<div class="page map"><img src="data:image/jpeg;base64,{b64}"></div>')
+            qs, sols, start = "", "", num + 1
+            for d, part, _ in batch:
+                for f in part:
+                    num += 1
+                    qs += question_cell(num, f, d["title"])
+                    sols += solution_cell(num, f)
+            rng = f"{start}–{num}"
+            pages.append(f'<div class="page qs"><div class="ph">Questions {rng}</div>{qs}</div>')
+            pages.append(f'<div class="page sol"><div class="ph">Solutions bank {rng}</div>{sols}</div>')
         doc = f'<html><head><meta charset="utf-8"><style>{CSS}</style></head><body>{"".join(pages)}{FIT}</body></html>'
         src = os.path.join(tempfile.mkdtemp(), "x.html")
         open(src, "w", encoding="utf-8").write(doc)
+        chk = doc.replace("</body>", "<script>document.title=[...document.querySelectorAll('.q')].filter(q=>q.scrollHeight>q.clientHeight+1).length+'/'+Math.min(...[...document.querySelectorAll('.page.qs,.page.sol')].map(p=>parseFloat(p.style.fontSize)))</script></body>")
+        open(src + ".chk.html", "w", encoding="utf-8").write(chk)
+        out = subprocess.run([CHROME, "--no-sandbox", "--dump-dom", "file://" + src + ".chk.html"], capture_output=True, text=True).stdout
+        print("  clipped cells / min font(pt):", re.search(r"<title>(.*?)</title>", out).group(1))
         pdf = os.path.join(OUT, f"Confirmed_{fname}.pdf")
         subprocess.run([CHROME, "--no-sandbox", "--no-pdf-header-footer", f"--print-to-pdf={pdf}", "file://" + src],
                        check=True, capture_output=True)
-        print(fname, len(pages), "pages ->", pdf)
+        print(fname, num, "questions,", len(pages), "pages ->", pdf)
 
 
 main()
