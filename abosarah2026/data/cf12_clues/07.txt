@@ -1,0 +1,74 @@
+0241 | bilateral monophasic expiratory wheezing ;; definitive diagnostic method | 7 months old ;; recurrent admissions due to pneumonia
+0406 | ventilator-induced lung injury ;; mechanical ventilation | PICU ;; sepsis-related respiratory failure
+0425 | PCO2: 70 ;; Oxygen saturation on room air is 85% | pneumonia 4 days back ;; increased work of breathing ;; bilateral crepitation ;; Ph: 7.2
+0352 | chronic clear thin nasal discharge ;; pale turbinates mucosa | nasal itching ;; periorbital dark swollen ;; 7 Years old
+0356 | restricted extraocular movements ;; frontal bone tenderness | nasal purulent discharge ;; eye pain ;; periorbital swelling ;; severe headache
+0357 | normal eye movements and vision ;; no proptosis | 5-year-old ;; swelling, redness, and tenderness around the right eye ;; Cannot open eye
+0212 | 2-month -old infant ;; squint | most appropriate assessment
+0326 | right ? eye misaligned | pre school clinic ;; NEXT / initial
+0380 | right ? eye misaligned | pre school clinic ;; NEXT / initial
+0213 | gallop rhythm ;; URTI 3 days ago | toddler ;; SOB, and Palpitations upon exercise ;; high HR ;; clue you into diagnosis
+0345 | blood pressure was normal ;; BMI 27 | 8 yo boy ;; High blood pressure ;; family history of HTN ;; best way to prevent HTN
+0033 | red currant jelly stool | Intussusception ;; pathologic location
+0405 | red currant jelly stool ;; vomiting crying | origin of this pathology
+0032 | Greenish vomit | 5-day old ;; mildly tender abdomen ;; irritable child ;; most diagnostic test
+0420 | Pyloric Stenosis ;; INITIAL
+0030 | tender mass in the RLQ ;; recurrent abdominal pain for 2 weeks | 7-year-old ;; decreased appetite ;; WBC is 19.52 ;; confirm the diagnosis
+0013 | handlebar injury ;; upper abdomen | riding a bicycle ;; abdominal pain and tenderness ;; Nausea & Vomiting ;; Most Likely Injured
+0331 | common and preventable problem ;; spotting blood per rectum | 3 years child ;; likely diagnosis
+0283 | wakes him up at night ;; hx of PUD | 9 year old ;; 2 months history of epigastric pain ;; confirmatory test
+0231 | ulcerative colitis ;; toxic megacolon | 14 year old ;; failed to respond to many medical therapies ;; fulminant disease ;; URGENT treatment
+0232 | dark urine and jaundice ;; daycare school | four-year-old ;; four-day history ;; diarrhea ;; ALT was 600 ;; most indicated management
+0209 | direct hyperbilirubinemia ;; IgG with positive autoantibodies | 10 year old girl ;; rash, fatigue, joint pain ;; elevated ALT
+0034 | clear lymphatic fluid ;; large neck swelling on the left side | 10 cm in size ;; US FNA ;; appropriate management
+0347 | empty right hemiscrotum ;; left side is normal | 15 months old boy ;; groin ;; What to do
+0216 | MCV 68 fL ;; RDW 20 | preschool child ;; Hb 90 ;; Platelets 490 ;; Reticulocyte 1.1% ;; most likely diagnosis
+0389 | cow's milk and biscuit daily ;; low ferritin | 2-year-old girl ;; pale ;; didn't eat red meat ;; low mcv
+0390 | eat non-food such as soil, chalk ;; ferritin low | child pale ;; microcytic
+0391 | +ve Direct Coombs test ;; High Retics | Low Hg ;; +ve indirect Coombs
+0219 | most common in pediatric age group | leukemia
+0218 | few B cells ;; low all classes of serum immunoglobulin levels | 14-month-old boy ;; third infection in 4 months ;; lost a boy at 10 months of age ;; normal numbers and functioning of T cells
+0220 | glomerular filtration 28 | high creatinine ;; below 10 percentile height weight ;; what degree renal disease
+0230 | 2-month -old ;; nitrites, leukocytes | lethargy ;; poor oral intake ;; Urine dipstick ;; most appropriate management
+0397 | fever and painful urination (dysuria) | 5 year old girl ;; Most appropriate management
+0237 | felt her legs are weak and fell down ;; Lost Consciousness | 17-Year-Old Female ;; Frequent Fainting And Fall ;; Regained Level Of Consciousness ;; Type Of Seizure
+0238 | simple febrile seizures ;; febrile convulsions | which of the following statements is correct
+0379 | abnormal movement when sleeping in her face and limbs ;; frontotemporal spike | 10 years old girl ;; history of seizure ;; EEG
+0228 | CSF glucose 5 ;; CSF lymphocytes 80% | typical meningitis case ;; neck rigidity ;; CSF protein slightly high ;; treatment
+0402 | increasing in drowsiness and confusion ;; one seizure | 5 years old girl ;; fever (38.9) for 2 day ;; occasionally vomiting ;; most important
+0407 | Neck Stiffness, Photophobia, Altered Consciousness ;; After URTI | Meningitis Case ;; Lumbar Puncture
+0411 | PPD shows 14mm induration ;; normal X ray | contact with TB positive father ;; asymptomatic
+0414 | open) pulmonary TB ;; BCG vaccine | 2 year old child ;; living with his grandfather ;; What will you do
+0341 | KOPLIK spots ;; mucopapular rash in the trunk | birthday party ;; fever ;; mood if transition
+0349 | cropped vesicles on the trunk ;; scattered scabbed lesions | 6 years non-vaccinated child ;; Fever ;; most likely diagnosis
+0225 | rash on the hands and feet ;; oral ulcers and drooling | 3-year-old child ;; same presentation ;; mode of transmission
+0226 | sandpaper-like rash ;; strawberry tongue | 7-year-old boy ;; pharyngitis ;; causative organism
+0227 | attacked by a bat ;; Scratched and bitten | 7 year old girl ;; management plan
+0221 | Joint effusion ;; WBC: 11 | 6 y.o child ;; mild hip and thigh pain ;; looking good ;; febrile
+0290 | penetrating wound ;; local warmth and tenderness | 8 years old boy ;; focal pain on his left leg ;; subjective fever ;; diagnostic radiological investigation
+0323 | polyarthritis and fever ;; Rheumatoid factor 100 | 10 yr ;; small joint stiffness ;; First line
+0396 | T1DM with previous DKA admissions ;; annual test for renal complications | 12 yo female
+0365 | never formally completed or signed ;; ejection fraction of 10% | dilated cardiomyopathy ;; renal failure ;; Do-Not- Resuscitate (DNR) order ;; cardiac arrest
+0022 | hypotension ;; vasopressin | Pneumonia ;; shock ;; Fever ;; What will you find
+0058 | T10 sensory level ;; Progressive Lower limb weakness | 43 years old man ;; urine incontinence ;; since 3 days
+0197 | severe epigastric pain radiating to the back ;; confirm the diagnosis
+0194 | high irradiation (20 Gray ;; After 2 weeks | abdominal pain, fatigue, nausea, and vomiting
+0243 | 9 hours daily on social media ;; no prior medical treatment | Seventeen-year-old female ;; decreased concentration for past 6 months ;; anxiety and depression ;; best course of action
+0395 | isolation ;; most concerning | lack of sleep, decreased appetite ;; loss of interest in activities
+0324 | schizophrenia ;; AGITATION | hallucinations ;; disorganized behavior ;; first-line management
+0426 | bibolar I ;; manic episode for 2 weeks | Impulsive buying ;; goal oriented behavior ;; no medication ;; Next best step
+0344 | Sexually active female ;; prevent STDs
+0074 | Low Specificity ;; Inclusion Criteria For PSA | Over Treatment
+0075 | 65-year-old man ;; heavy smoking | routine health checkup ;; asymptomatic ;; most important to screen for
+0028 | Warfarin was not stopped by patient ;; postponed the operation | nurse in the OR noticed
+0176 | CS with episiotomy 10 days ago ;; first obstetrician | vaginal discharge ;; UTI ;; infected vaginal swab ;; medical error
+0416 | Warfarin was not stopped by patient ;; postponed the operation | nurse in the OR noticed
+0076 | nurse said give iv epinephrine ;; doctor said that's right | Surgeon asked nurse ;; what kind of communication
+0207 | Nurse hand over to the next shift ;; not written or documented | peanut allergy ;; technical issue
+0035 | doesn’t want a blood transfusion ;; severe bleeding and became hypotensive | pregnant woman ;; undergoing an operation ;; most appropriate action
+0106 | refuses to be operated on ;; decreased consciousness | colorectal cancer ;; fully aware ;; wife and son ;; most appropriate management
+0362 | on contraception ;; husband refuses it | start a family immediately ;; decision regarding contraception
+0044 | requesting clinical privileges ;; fellowship in spinal surgery | Complex spinal surgeries ;; Certificant Provider
+0383 | give fish oil ;; screen for Alzheimers | IRB ethical board ;; principle
+0404 | drowsy ;; slurred speech | minor mistakes ;; abusing drugs or alcohol ;; colleague ;; next step
+0403 | highest evidence study | hypertension ;; efficacy

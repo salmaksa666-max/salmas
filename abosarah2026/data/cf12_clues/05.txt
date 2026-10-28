@@ -1,0 +1,58 @@
+0413 | multiple occasions ;; hyperlipidemia on atrovstatin | elevated blood pressure 150/90 ;; BP: 143 /85 ;; BMI: 31 ;; most appropriate action
+0354 | right sided flank bruit ;; flushing | 27 years old female ;; multiple episodes of Pulmonary edema ;; obese ;; confirm diagnosis
+0303 | systolic murmur radiated to the axilla ;; ST elevation In Lead 1 & AVL | +ve trop 2 ;; Unstable hypotensive ;; chest pain and SOB ;; cause of hypotension
+0384 | most considerable risk factor ;; ST-segment depression in II, III, and aVF | 5-pack -year smoker ;; blood pressure is 150/92 ;; retrosternal chest pain radiating to the neck
+0301 | HYPERKALEMIA ;; fully normal, asymptomatic | sacubatril/valsartan ;; Spirono ;; Metoprolol ;; mild elevation (5.8)
+0329 | increased when she lay down ;; No chest pain | IHD ;; shortness of breath ;; Vitals normal ;; cause of this patient complaint
+0410 | rare crackles at the bases of the lungs ;; long standing hypertension | 2-day history of dyspnoeaon exertion ;; 30-pack-year smoking history
+0363 | heart failure with reduced ejection fraction (HFrEF) ;; atrial fibrillation | palpitations ;; most appropriate medication
+0364 | maintain sinus rhythm ;; converted to sinus rhythm | atrial fibrillation with controlled ventricular rate ;; palpitations of 4-hour duration
+0418 | persistent atrial fibrillation ;; first line | hypertension ;; type 2 diabetes ;; no contraindications
+0320 | blowing early diastolic decrescendo murmur at the aortic area ;; rheumatic fever 15 years ago | BP 154/56 ;; smokes 10 cigarettes/day ;; preventive health maintenance
+0419 | blowing diastolic decrescendo murmur at aortic area ;; Rheumatic fever 15 years ago | BP 154/56 ;; smokes 10 cigarettes ;; preventive health maintenance
+0339 | pale cold extremities ;; norepinephrine at 0.2 mcg/kg/min | kc of HF ;; hypotensive ;; not responding ;; next step
+0373 | 6L of fluid ;; cvp is 10cm | still hypotensive ;; urine was 20ml/hr ;; next step
+0394 | massive pulmonary embolism | Intensive Care Unit ;; most appropriate initial treatment
+0424 | 65 YO Smoker MALE | Most Important Screen
+0299 | oxygen saturation ranges from 89% to 91% ;; quit smoking 12 years ago | known COPD ;; controlled with bronchodilators ;; routine follow-up ;; symptom exacerbate during winter
+0313 | Rr 10 ;; PH 7.25 | SEVERE COPD ;; drowsiness and cyanosis ;; O2 sat 84% ;; Hypercapnic and hypoximic ;; next step
+0330 | right lung base ;; Right lower lobe infiltrates | fever and a productive cough ;; type 2 diabetes mellitus ;; smoker ;; most appropriate management
+0374 | lung consolidation ;; neutrophilia | cough, fever ;; No other medical comorbidities ;; causative organism
+0319 | foul-smelling green sputum ;; air–fluid level in the left lower lobe | prisoner ;; weight loss ;; cachectic ;; mass with thick wall
+0305 | 25 mm pleural effusion decubitus ;; right lobe consolidation | fever, cough for 3 day ;; No night sweating ;; initial management
+0333 | Exudative effusion ;; not the first time | strong history of smoking ;; weight loss ;; pH 7.3 ;; glucose low 1.5
+0359 | known adenocarcinoma ;; spiculated apical nodules | clubbing ;; mild dyspnea ;; Negative hormone receptors ;; Management
+0322 | oxygen 75 ;; ABG all normal | SOB, confusion ;; urti 5 days ago ;; Vitals normal
+0346 | higher success rate | smoking cessation clinic
+0068 | Not Related To Activity ;; Hb: 110 (Lower Than Normal) | Dull Chest Pain ;; Spicy Meals ;; Increases With Lying Flat ;; establish the diagnosis
+0296 | fails to control with octreotide and ligation ;; Chronic Liver Disease | hematemesis ;; next step
+0297 | Most definitive investigation ;; melena only | Vomiting blood 2 hours ;; melena 2 days ;; BO 95/60
+0041 | metallic valve on warfarin ;; INR 7 | bloody stool ;; cold periphery ;; Hb 6 ;; INITIAL therapy
+0316 | herbal supplements ;; INR 4.4 | HTN and A.fib on warfarin ;; nose bleed ;; management
+0382 | metallic valve on warfarin ;; INR 7 | bloody stool ;; cold periphery ;; Hb 6 ;; Most Appropriate
+0029 | national screening program ;; overall impact and public health burden | cancer prevention ;; most appropriate target
+0091 | NEGATIVE family History ;; 45 years old | colorectal cancer screening ;; everything is normal ;; when to do screening
+0178 | relative was diagnosed with colorectal cancer at the age of 50 ;; 40-year-old | requesting screening for colorectal cancer ;; When should colorectal cancer screening be initiated
+0327 | Relative Diagnosed With colon cancer At Age Of 50 ;; 40 Y.O | family history ;; when to screen
+0415 | change in bowel habits bloody sometimes ;; weight loss | 65 years old woman ;; pale skin ;; initial step
+0003 | positive family history ;; mother and brother have the same condition | bloody diarrhea ;; guaiac test is positive ;; likely diagnosis
+0298 | ulcerative colitis For 7 Years ;; multifocal strictures of the intrahepatic and extra hepatic bile ducts | high billirubin ;; MRCP
+0429 | skip lesions ;; strictures | intermittent diarrhea ;; abdominal pain ;; Colonoscopy with biopsy ;; early twenties
+0310 | On Aspirin ;; travelers' diarrhea | type 2 diabetes mellitus ;; before travelling abroad ;; prophylaxis ;; creatinine
+0314 | visited Thaliand and malesia | abdominal pain for few months ;; negative culture
+0350 | k/c ALL ;; pancytopenia ( wbc 0.9 ) | after 19 days ;; crampy RLQ pain ;; RLQ tenderness with rebound ;; most appropriate investigation
+0295 | red urine and Jundice ;; heptoglobin low | Hb low (90) ;; LDH high ;; High indirect bilirubin ;; helps to diagnose
+0399 | mycoplasma pneumonia ;; On day 3 | yellowish discoloration of the eyes ;; Reticulocyte 4 (high) ;; Haptoglobin 0.4
+0392 | known case of sickle cell disease ;; new right side infiltration on chest x-ray | hypoxic, tachypneic, febrile ;; beside antibiotic
+0393 | sickle symptoms ;; NOT present in electrophoresis | confirm the diagnosis
+0371 | painless neck mass ;; low calcium | wight loss and fever for 3 months ;; high creatinine ;; high K ;; High uric acid
+0372 | tumor lysis syndrome ;; Hodgkin 's lymphoma | undergoing chemotherapy ;; most likely expected disturbance
+0381 | Burkitt Lymphoma ;; Unable to urinate | B-CHOP chemotherapy ;; hyperkalemia (6) ;; hypocalcemia ;; in addition to hydration
+0388 | high irradiation (20 Gray ;; nausea, vomiting | abdominal pain, malaise ;; loss of appetite
+0308 | Urine sodium ~60 mmol/L ;; Urine osmolality ~250 mOsm/kg | vomiting and diarrhea ;; Creatinine ~160 umol/L ;; acute kidney injury
+0409 | falling while running a marathon ;; no RBCs on microscopic analysis | dark urine ;; dip-stick positive for large blood
+0325 | CKD ;; ASCVD) risk of 18% | hypertension, diabetes ;; metformin, ACE inhibitor, and statin ;; next recommended therapy
+0338 | hypertension for 10 years ;; Creatinine level of >200 | DLP and DM 5m ago ;; BP is 170/110 ;; A1c is 7 ;; cause of the renal failure
+0398 | Bilaterally Enlarged Kidneys With Multiple Cysts ;; Father Required Dialysis | Bilateral Flank Pain ;; No Fluid Overload ;; eGFR: 6 Months Ago 36; Now 18 ;; Most Appropriate NEXT Step
+0355 | sore throat 3 weeks ago ;; ASO titre: positive | periorbital eye swelling ;; hematuria ;; hypertension
+0300 | brain tumor ;; hyponatremia | possibly glioblastoma ;; hypokalemia ;; most likely cause

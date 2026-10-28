@@ -1,0 +1,57 @@
+0128 | fluctuating mass ;; Perianal pain and pruritus | high WBCs and fever ;; Appropriate next
+0271 | painful perianal swelling ;; fever | 40-year-old diabetic ;; Temperature 38.0°C
+0189 | bloody diarrhoea ;; frequent urges to defecate | 3-weeks history ;; mild lower abdominal cramps ;; mucus with few blood drops ;; 17-year-old man
+0027 | highest risk of malignant transformation
+0056 | large annular ulcerating rectal mass ;; CT chest/abdomen/pelvis is normal | progressive constipation ;; hard bleeding mass ;; 10 cm from the anal verge
+0089 | 1.3 Tubular Adenoma ;; COMPLETELY Resected | 1.5 cm polyp ;; next colonoscopy screening
+0052 | NO bulge felt at the inguinal ;; vomiting and abdominal pain | right inguinal hernia ;; reduced it every time ;; mild abdominal tenderness
+0164 | irreducible hernia ;; negative cough impulse | most appropriate step
+0186 | following hernia repair ;; prevent the recurrence
+0250 | strangulated with ulcers and necrosis ;; fecalith discharge | 90-year-old ;; incisional hernia ;; All vitals are normal
+0251 | incisional hernia symptomatic painful | previous laparotomy ;; sigmoidectomy ;; complicated diverticulitis
+0260 | Post Hernia Repair ;; prevent recurrence
+0005 | Newborn ;; inguinal hernia (reducible) | right high ride testis ;; left inguinal hernia ;; next step
+0148 | single testis in the scrotum ;; pushed down to the scrotum manually | other is the inguinal canal ;; newborn
+0249 | newborn right reducible inguinal hernia | high raising testies ;; Left inguinal hernia with no swelling
+0261 | olive shaped mass ;; non- bilious vomiting | 5-month-old ;; dehydrated ;; epigastric region
+0151 | positive murhpy sign ;; pericholecystic fluid | multiple gall bladder stones ;; thickened wall ;; WBC 18000 ;; Febrile ptn
+0153 | unstable ;; gallstone and gallbladder thickness | severe abdominal pain and tenderness ;; most appropriate step
+0018 | diffusely calcified gallbladder without stones | 2-month history ;; right upper quadrant abdominal pain
+0118 | Calcified wall gall bladder without stones | right upper quadrant pain for 2 months
+0272 | 2 cm polyp inside the gallbladder | after eating a fatty meal ;; similar episodes in the past ;; afebrile, with no tenderness
+0045 | jaundice ;; elevated liver enzymes and serum bilirubin | right upper quadrant (RUQ) abdominal pain ;; most appropriate Diagnostic imaging
+0062 | Dilated intrahepatic bile duct with no gallstones | jaundice, pruritus, and weight loss ;; next investigation
+0137 | dilatation of intrahepatic and extrahepatic duct ;; dark urine | jaundice ;; wt loss ;; cholestatic picture ;; epigastric pain for 3m
+0109 | 2 weeks later ;; Large collection in the sub-hepatic area | uneventful laparoscopic cholecystectomy ;; vague abdominal pain ;; Total bilirubin 3.7
+0110 | 2 weeks later ;; Large collection in the sub-hepatic area | uneventful laparoscopic cholecystectomy ;; vague abdominal pain ;; Total bilirubin 3.7
+0190 | biloma ;; 10–15 cm subhepatic fluid collection | 2 weeks after cholecystectomy ;; vague abdominal pain
+0268 | Large collection in the subhepatic area | uneventful laparoscopic cholecystectomy ;; Two weeks later ;; vague abdominal pain
+0112 | Entamoeba histolytica ;; septated abscess in the right lobe of the liver | 10-day history ;; right upper quadrant abdominal pain ;; initial management
+0136 | Recently Returned From India ;; Solitary Liver Mass | Right Upper Quadrant Abdominal Pain, Fever ;; No History Of Alcohol Use
+0088 | hepatitis B cirrhosis ;; well-controlled ascites | 6 cm lesion with arterial enhancement ;; portal vein and hepatic veins were patent ;; INR 1.5 ;; best treatment option
+0060 | acute pancreatitis 2 weeks ago ;; cyst measure 4 cm | persistent mild abdominal pain ;; manage
+0280 | acute pancreatitis 2 months ago ;; early satiety | epigastric fullness ;; no signs of peritonitis ;; most appropriate investigation
+0006 | keep rolling ;; radiating to the groins and scrotum | hematuria ;; nausea & vomiting ;; High WBC
+0258 | Rolling On The ground ;; Severe Loin Pain That Radiates To The Scrotum | NO FEVER
+0277 | unable to sit still ;; right loin region | nausea, vomiting, and dysuria ;; 17-year-old
+0061 | painless hematuria ;; INITIAL investigation | for 3 days
+0107 | hematuria ;; Urine culture shows no growth | 67 ;; mild tenderness ;; hemoglobin levels of 100 g/L ;; red blood cells without casts ;; NEXT step
+0166 | Right Flank pain ;; 20 RBC | seeing blood in his urine ;; No history of trauma ;; enlarged prostate On DRE ;; most appropriate investigation
+0185 | right flank pain ;; 20 RBC | seeing blood in his urine ;; enlarged prostate On DRE ;; most appropriate investigation
+0008 | alpha-blocker for the past 2 years ;; persistent symptoms | BPH ;; incomplete bladder emptying ;; next step
+0125 | contributing risk factor | urinary hesitancy ;; diabetes for 10 years ;; Body Mass Index (BMI) is 41 ;; Benign Prostatic Hyperplasia
+0159 | on alpha blocker for 2 years ;; urinary incontinence | BPH ;; no improvement ;; best next step
+0173 | risk factor of this condition | BPH ;; BMI of 41 ;; urine retention
+0007 | Prostate-specific antigen 84 ;; back pain | Alkaline phosphatase 410 ;; Gamma glutamyltransferase 19 ;; difficulty with passing urine
+0124 | His father was diagnosed with prostate CA at age of 78 ;; smooth and small prostate | no symptoms ;; palpable medial sulcus ;; screen for prostate CA
+0043 | slightly elevated, tender left testis ;; redness and edema of the scrotum | 12-year-old ;; suddenly ;; left sided lower abdominal pain
+0048 | transillumination test negative ;; slight elevated testicle | sudden severe left abdominal and groin pain ;; severe tender on touch ;; 14 years old
+0147 | high-riding testis ;; absent cremasteric reflex | sudden severe pain ;; ultrasound is not provided ;; initial step
+0262 | Acute Testicular Pain 3hours Ago ;; Slightly Elevated | 13 (Or 14) YO ;; vertical vs horizontal
+0019 | expanding with crepitus ;; severe perineal pain and swelling | discoloration
+0086 | pain that is out proportion ;; Crepitus | Bulle ;; pain extends further than the erythema ;; weak pulse ;; Diabetic
+0115 | finish full Course of antibiotic ;; still there is pain and tenderness | left leg redness and tenderness ;; minor trauma ;; fever spiking
+0201 | pustules after shaving
+0334 | multiple bilateral axillary nodules ;; multiple sinus openings | multiple painful nodules in both axillae ;; recurrent for the past year ;; foul odor
+0292 | mass 5 cm in right upper limb ;; mass from triceps | MRI ;; what to do next
+0111 | pulled her by the hand ;; no swelling, ecchymosis, or focal tenderness | holds her right arm slightly flexed and pronated ;; refuses to use it ;; click

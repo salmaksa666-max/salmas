@@ -1,0 +1,60 @@
+0311 | dehydration, dry mucous membranes ;; methamphetamine | vomiting for 3 months ;; agitation ;; BP: 140/? mmHg ;; No labs
+0328 | Hypotonic Fluids D5W ;; Serum Na 121 | 2 Days Post Hip Surgery ;; Confusion And Drowsiness ;; Urine Osm 600 ;; Urine Sodium 46
+0427 | Hypotonic Fluids D5W ;; Serum Na 121 | Post Hip Surgery ;; Confusion And Drowsiness ;; Urine Osm 600 ;; Urine Sodium 46
+0306 | both ACTH (15) and cortisol (8) are elevated | Cushing's syndrome ;; TSH Normal ;; most likely type
+0367 | purple striae ;; K 2.9, significantly low | Cushing 's syndrome for 4 months ;; weight gain ;; High cortisol 8am 840 ;; ACTH 15 (high)
+0340 | TSH 16 ;; TPO Ab 64 | sleepiness, fatigue, and constipation ;; T4 low ;; TG Ab high ;; overweight
+0315 | SLE ;; 60mg steroid dose | instead of tapering ;; daily for 6 weeks ;; found dead in her bathtub
+0150 | lasted for 5 minutes then completley resolved ;; Normal ECG | hypertensive ;; left upper limb weakness ;; No carotid bruit
+0417 | resolve completely after 20 minutes ;; 55% Carotid stenosis Bilaterally | left side body weakness ;; brain Ct normal ;; next step
+0302 | ipsilateral facial weakness ;; sensorineural hearing loss | sudden ;; artery
+0368 | pin point ;; hemorrhagic stroke | Hypertensive ;; can not speak or move his body ;; BP was 190 ;; where is the lesion
+0309 | left facial severe pain especially when she brushes her teeth ;; Right upper limb weakness | Female 20 ;; numbness since 1 week
+0317 | first- time generalized tonic-clonic seizure ;; neurological examination are normal | 26-year-old man ;; laboratory studies are normal ;; initial step
+0321 | problem in naming ;; says animal instead of cat | no memory impairment or personality changes ;; similar condition in her family ;; 70s
+0377 | calling the specific names with general ones ;; no personality changes | remember names ;; imaging
+0400 | sensory level of T10 ;; brisk reflexes in both legs | 3 days history ;; progressive bilateral leg weakness ;; urinary retention
+0335 | alcohol consumption ;; tremors, sweating, and hallucination | asthma ;; days after the accident ;; initial treatment
+0304 | repeated episodes of joint pain for 3 months ;; right knee pain | no fever ;; Uric acid: 400 ;; Wbc normal
+0378 | positive schober test ;; worsening at morning and improving within an hour after movement | back pain ;; next
+0370 | gram-negative coccobacilli ;; Saudi man | 3-month history of fever and back pain ;; bony tenderness over the entire back
+0412 | recurrence ;; plasmodia | malaria
+0318 | hemorrhagic stroke 2 years ago ;; routine follow-up visit | 50 -year-old man ;; seasonal influenza vaccine 6 months ago ;; vaccines
+0369 | mother was diagnosed by breast cancer at 43 ;; 35 healthy woman | father by colon cancer at 54 ;; screening
+0342 | international alarm | outbreak of covid ;; Wuhan
+0208 | personal email | cancer screening results ;; elderly patient
+0336 | medication weren’t documented ;; critical mistake | lisinopril and metoprolol ;; transferred to the surgical ward ;; IV morphine
+0337 | social media diets | diabetic patient ;; most appropriate advice
+0233 | intensive phototherapy ;; fail to decrease | severe unconjugated hyperbilirubinemia ;; 309 µmol/L ;; newborn boy
+0234 | 4 day old ;; feeding well | slightly yellow body discoloration ;; cause of his jaundice
+0229 | kernicterus ;; neurological sequelae | Expected physical examination finding
+0210 | delivered by cesarean ;; hyperaeration and interstitial infiltrates | Term neonate ;; retractions and flaring ;; Was given oxygen ;; next step
+0244 | meconium aspiration syndrome ;; intubated and ventilated | hypoxia and hypercapnia ;; assess complications
+0376 | dark green color ;; DURING | 39 weeks pregnant ;; amniotic fluid ;; most appropriate action
+0421 | bronchopulmonary dysplaisa ;; difficulty weaning off mechanical ventilation | most appropriate management
+0401 | diabetic mother ;; macrosomia | respiratory distress and desaturation ;; shortly after birth ;; next step
+0217 | delayed separation of umbilical cords ;; prolonged PT PTT | bleeding from the site ;; platelets count normal ;; delay in clot time
+0387 | mother has SLE ;; PLT 18000 | bleeds after umbilical stump ;; normal PTt and pt ;; TREATMENT
+0358 | microcephaly ;; marked hepatosplenomegaly | distended abdomen ;; maternal diabetes ;; pancytopenia ;; next step
+0239 | 21-hydroxylase ;; hyperkalemia | metabolic acidosis ;; hyponatremia ;; hypoglycemia ;; initial management
+0360 | maple syrup disease | dietary restrictions
+0211 | tongue fasciculations ;; EMG showed denervation | hypotonic newborn ;; counseling
+0236 | hypotonia and decreased proximal muscle power ;; CK normal | 5 month old ;; EMG showed myopathy ;; no fasciculation
+0214 | 6-month-old baby ;; gross motor development | most consistent
+0215 | Rubbing side of the mouth ;; primitive reflexes | 2-week-old infant ;; name of this reflex
+0366 | identify colors ;; articulate words | age in years
+0422 | frightened when ;; recognizes strangers | sense of individuality ;; most likely age
+0423 | 6-month-old boy ;; gross motor milestones | normal development ;; present at this age
+0235 | huge swelling at injection site ;; temperature 37.9 | 6 months old ;; previous DTaP ;; URTI
+0348 | immunduffincy ;; what to not give | recurnt infection and atopy
+0385 | severe persistent asthma ;; urticaria, syncope | vaccinated by influenza
+0386 | 9 months ;; contraindicated | vaccine
+0240 | 2-month-old ;; frothy secretion from mouth | cough, sneezing ;; circumoral cyanosis ;; intercostal retraction ;; SpO2 91 %
+0343 | 3 month old ;; sneezing | increasing dyspnea for 3 days ;; older brother ;; most likely organism
+0222 | can complete full sentences ;; SpO2 95% | peak flow meter at best 60 ;; two puffs of salbutamol ;; mild wheeze
+0223 | not following doctor’s orders in using the inhaler | frequent exacerbations ;; best preventive method
+0224 | recurrent acute asthma exacerbation ;; prevention | 6 years old ;; most helpful teaching points
+0375 | worried about her son who has asthma | counseling
+0242 | opens his mouth with drooling of saliva ;; toxic | fever and SOB ;; sore throat ;; Fever 40
+0353 | stridor and drooling saliva | URTI for 3 days ;; next step
+0351 | Tracheomalacia ;; cyanosis during crying | 4 months old ;; poor weight gain ;; below the 3rd centile

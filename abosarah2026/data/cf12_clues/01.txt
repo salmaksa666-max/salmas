@@ -1,0 +1,60 @@
+0021 | early sign | lidocaine toxicity ;; local anesthesia
+0040 | Pallor ;; severe Hand pain | lidocaine with adrenaline ;; numbness ;; initial step
+0047 | safest ;; heart disease | small lesion ;; ear pinna
+0145 | earliest sign | lidocaine toxicity ;; excessive dose
+0039 | antibiotic prophylaxis | follicular thyroid cancer ;; remove the cancer
+0096 | nutritional intervention | 10% wight loss ;; inadequate protein and caloric intake ;; colorectal surgery
+0144 | 10% weight loss | CRC surgery ;; loss of appetite ;; low on carbohydrate and protein
+0015 | preventive measures | motor vehicle accident ;; multiple surgical interventions ;; post-op care
+0100 | stopped 5 days ago | anticoagulant ;; robotic surgery ;; enhances safety ;; previous stroke
+0077 | distended, tense, and tender | hit by a car 2 hours ago ;; Heart rate: 120/min ;; Temperature: 35 °C
+0097 | bowel perforation ;; hypotensive 88/55 | air under diaphragm ;; laparotomy ;; Best next action
+0205 | BP 90/50 ;; GCS 12/15 | fever, chills ;; COPD ;; lower lobe infiltration ;; crackles in all lungs fields
+0256 | INR 2 | chronic hepa88s C and liver cirrhosis ;; urgent laparotomy ;; prior to the procedure
+0057 | she does not complain of anything ;; wound is clean | 5th day post-hysterectomy ;; fever
+0087 | 72 hours ago ;; Oxygen saturation: 80% | major upper abdominal surgery ;; Temperature: 38 °C ;; most likely cause
+0162 | postoperative day 4 | appendectomy ;; fever it's 38.7 C
+0181 | On the 2nd day postoperative ;; O2 sat was in the 80s | cesarean section ;; SOB ;; Normal HR
+0080 | only 50 mL ;; INITIAL step | abdominal aortic aneurysm repair ;; urine output
+0054 | Foley catheter insertion failed | prostate cancer ;; acute urinary retention ;; next step
+0081 | unable to void ;; spinal anesthesia | hernia repair ;; lower abdominal distended
+0259 | muscle aches ;; 6 days post-operative | unable to pass stool ;; abdominal distension ;; nausea, vomiting
+0263 | pH 7.56 ;; HCO3− 42 | nasogastric tube ;; K+ 3.1 ;; PCO2 50 mm Hg ;; orthostatic hypotension
+0332 | high suction ;; 2.8 mmol/L | nasogastric tube ;; subtotal colectomy ;; hypokalemia
+0108 | seroma formation ;; no signs of surrounding inflammation | draining freely ;; gaping wound ;; 8 days ago
+0163 | redness and swelling and tenderness | after a few days ;; same site of surgery
+0011 | scalp open wound | after 6h ;; assault ;; wound management
+0099 | healthy granulation tissue ;; without oozing pus | wound is 10 cm ;; post colostomy ;; after 10 days
+0155 | small bowel fistula | passing urine, flatus, and stool ;; 16 days post-cesarean ;; not responding to antipyretics
+0183 | right side ;; INITIAL investigation | patch repair of perforated duodenal ulcer ;; RUQ pain ;; pleural effusion ;; 3 weeks later
+0036 | mouth is FULL of blood | MVA ;; multiple fracture ;; severe bleeding ;; patent airway
+0037 | mouth is FULL of blood | MVA ;; multiple fracture ;; severe bleeding ;; secure the airway
+0078 | mouth is FULL of blood | MVA ;; multiple fracture ;; severe bleeding ;; secure the airway
+0082 | GCS 14 ;; profuse bleeding from nose and mouth | not wearing a helmet ;; decreased breath sounds in right hemithorax ;; motorcycle accident
+0160 | open wound to the anterior surface of the neck ;; Oxygen saturaon 87% | conscious and alert ;; devitalized ssue ;; motor vehicle crash
+0248 | GCS Is 8 | Actively Bleeding ;; Trauma Patient ;; INITIAL Step
+0265 | nasal and oral bleeding ;; first step | not wearing a helmet ;; decreased breath sounds on the right side ;; hypotension ;; unconscious
+0025 | vital signs are all within normal limits | motorcycle accident ;; abdominal pain ;; suprapubic tenderness
+0188 | e-FAST was negative ;; vitally stable | MVA ;; next step
+0279 | stable patient ;; FAST showed intraperitoneal fluid | Blunt trauma
+0285 | sever diffuse lower abdominal pain | MVA ;; WB were 16 ;; no other vitals
+0289 | vital signs are all within normal limits ;; most diagnostic study | motorcycle accident ;; mild abdominal tenderness
+0084 | partially exposed omentum ;; hemodynamically stable | stab wound to the abdomen ;; CT scan shows no internal injuries
+0031 | unstable trauma patient | multiple liver lacerations
+0051 | extravasation around kidney ;; 100/80 | hypotensive despite resuscitation ;; vitals provided were normal
+0104 | IMPROVED ;; contrast extravasation near the left kidney | hypotensive despite resuscitation ;; 100/80 mmHg ;; perirenal hematoma
+0105 | absent breath sound in the right ;; BP 69/40 | gun shot in the upper abdomen ;; Shortness of Breath ;; Heart rate 125
+0133 | trachea is deviated to the left ;; BP: 80/60 | head-on collision ;; severely tachypnea ;; subcutaneous emphysema ;; reduced air entry in the right hemithorax
+0161 | tracheal deviation ;; reduced breath sound | next step
+0195 | resonance on percussion ;; reduced air entry to the right chest | O2 sat 70% ;; BP 90/40 ;; no external bleeding
+0255 | Distended Neck Veins ;; Absent Breath Sounds On The Right | Trauma Patient ;; Shortness Of Breath ;; Chest Pain
+0264 | suction sound ;; lacerated wound on fractured ribs | fractured 4th and 5th ribs ;; lateral chest wall
+0130 | Dullness on percussion of right side | RTA ;; shortness of breath ;; Sp02 89% ;; BP 95/60
+0288 | dullness on percussion ;; Pleural effusion of the right hemithorax | decreased breath sounds over the right chest ;; vitally stable ;; slight anemia ;; Hx of trauma
+0012 | right lung infiltration ;; After an hour | 3-7 rib fractures ;; no hemothorax or pneumothorax ;; no initial SOB
+0065 | Paradoxical Chest Movement ;; Hypotensive | Crepitus ;; Motor Vehicle Accident
+0286 | distinct right lung infiltration ;; after 2 hours | T3-T7 rib fractures ;; no pneumothorax or hemothorax ;; difficulty breathing
+0287 | lung contusion ;; normal breath sounds | ribs 3,4,5,6 ;; pain and SOB ;; next best step
+0132 | pneumomediastinum ;; cervical emphysema | subcutaneous emphysema ;; head-on motor vehicle collision ;; intubated ;; right-sided pneumothorax
+0066 | severe hematoma ;; Bp 88/55 | severe pelvic pain after MVA ;; multiple pelvic injury
+0083 | pelvic instability ;; hypotensive | RTA ;; initial

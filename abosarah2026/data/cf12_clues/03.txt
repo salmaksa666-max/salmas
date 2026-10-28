@@ -1,0 +1,55 @@
+0199 | vomiting blood after attacks of excessive vomiting ;; O2 sat 96 % | BP 112/63 mmH ;; Hb 135 ;; most appropriate management plan
+0282 | after forceful vomiting ;; decreased breath sound in the left lower chest | sudden left lower chest pain ;; epigastric pain
+0131 | inhalation of alkaline fluid ;; Drooling Of Saliva | difficulty swallowing ;; Vitally stable ;; mild tenderness
+0070 | Prevent Gastric Cancer | Recommended
+0122 | NSAID use ;; duodenal ulcer | epigastric pain that worsens after eating ;; Osteoarthritis ;; next step
+0168 | peptic ulcer ;; most significant risk factor
+0184 | intracranial hemorrhage ;; mechanical ventilation | coffee ground emesis ;; 3 days later
+0247 | UGIB Due To Peptic Ulcer ;; Takes Ibuprofen | Osteoarthritis ;; Old Female
+0281 | relived by calcium carbonate ;; Colonoscopy normal | Stool occult test: Positive ;; upper GI symptoms since 11mo ;; aggravated after meal
+0071 | Naproxen Almost Daily ;; Sudden Onset Of Intense Epigastric Pain | Pale ;; 90/60 mmHg ;; Pulse Rate Of 125 ;; No Fluid Wave Or Hepatomegaly
+0103 | Rheumatoid arthritis ;; NSAD | sever epigastric pain ;; abdominal distention ;; initial investigating
+0187 | abdomen is scaphoid and rigid ;; heavy smoker | generalized abdominal pain ;; Temperature 38.5°C ;; next step
+0196 | Air under the left hemidiaphragm ;; absent bowel sounds | radiating to the back ;; plavix and aspirin ;; ill looking and dehydrated
+0053 | splenomegaly with normal portal vein ;; gastric antral ulcer | acute pancreatitis ;; hematwmsis
+0073 | Fresh Blood And Coffee Ground In Her NGT Tube Bag | Colon Resection ;; Day 5 Post-Op ;; Vitals And Hgb Levels Are Normal
+0202 | 24 hours after the procedure ;; upper gastrointestinal bleeding | percutaneous trans-hepatic cholangiography ;; obstructive jaundice ;; Hb 103 g/L
+0023 | left lower abdomen ;; pain in the RIF | suspected to have appendicitis ;; sign
+0085 | pain referral to the RLQ when palpate the LLQ | suspected appendicitis ;; name of the sign
+0093 | feculent discharge from the wound site ;; signs of peritonitis | open appendectomy for a perforated appendix ;; 6th postoperative day ;; inability to pass stool ;; pH 7.25
+0119 | Radio opaque area at right iliac fossa ;; rebound tenderness at Mc Burney's point | right lower quadrant pain ;; anorexia ;; WBC 21.3
+0146 | 2-cm carcinoid tumor ;; base of the appendix | Laparoscopic surgery for appendicitis
+0169 | periumbilical pain ;; classical case of appendicitis | Female patient ;; next step
+0206 | peri- appendicular collection 10x12 of abscess ;; right iliac fossa mass | RLQ pain ;; fecalith ;; most appropriate next step
+0158 | before the CT | severe abdominal pain and vomiting ;; 27 years old female ;; WBC is high
+0175 | 28yo female ;; US: inconclusive | left lower quadrant pain ;; suprapubic and lower quadrant tenderness ;; without rebound
+0177 | guarding and rigidity | Long case
+0269 | localized mass in the right iliac fossa ;; vitally stable | after playing tennis 3 hours ago ;; tenderness and rebound
+0120 | history of appendectomy 10 years ago ;; most initial step | abdominal pain, vomiting, and constipation
+0172 | No guarding ;; no rigidity | small obstruction symptoms ;; Patient undergoes surgery
+0094 | pointing to the right upper quadrant ;; empty rectum | 75-year-old man ;; sudden lower abdominal pain ;; progressive abdominal distension ;; absolute constipation
+0254 | constipation requiring use of laxatives ;; palpable mass in the le\ lumbar and hypochondrium | absolute constipation for 2 days ;; abdomen is distended, tense, tender all over ;; site of volvulus
+0009 | free intra-peritoneal air ;; thickened sigmoid wall | K/C of diverticulosis ;; abdominal pain and fever
+0067 | small collection 1x1 in the sigmoid | bloody diarrhea ;; left lower abdominal tenderness ;; guarding
+0156 | left lower quadrant pain and tenderness ;; WBC high | 42 years old male ;; next step
+0180 | recurrent left lower quadrant pain ;; Previous episodes resolved with antibiotics | 38 year old obese male ;; fever ;; DRE shows no blood
+0182 | left lower quadrant abdominal pain ;; bleeding per rectum | 2 days of worsening ;; fever ;; old man
+0200 | localized perforated diverticulitis ;; health promotion | conservative treatment ;; acute abdomen
+0245 | Multiple Diverticuli ;; Paracolonic Collection 1 × 1 cm | Fever 38.3 ;; Left Lower Quadrant Tenderness ;; Bloody Diarrhea ;; STOPPED
+0270 | 1x1 cm peri-colonic fluid collection ;; hemodynamically stable | left lower quadrant abdominal pain ;; fever ;; best management
+0004 | massive bleeding ;; most common cause | 60 y old make
+0072 | Hypotensive Despite Receiving Blood | Lower GI Bleeding ;; Diffusely Tender Abdomen ;; Fresh Blood
+0266 | became unstable ;; Blood pressure 80/60 mm Hg | lower Gi bleeding ;; fresh blood per rectum ;; resuscitation with fluids and blood
+0149 | Blood oozing from ileocecal valve ;; 12 yo | fresh bleed per rectum ;; Colonoscopy
+0010 | reduce spontaneously | bleeding with stool ;; a mass that projects ;; grade of hemorrhoid
+0167 | Definitive treatment ;; grade 3 | recurrent on and off PR bleeding ;; manually reduction ;; 3 hemorrhoids ;; Hb was low
+0191 | bleeding during and after defecation ;; itching and discomfort | 10d
+0192 | injection sclerotherapy ;; prolapse during straining but reduces spontaneously | painless rectal bleeding ;; symptoms completely resolved ;; type of hemorrhoids
+0257 | ANEMIA ;; Hb Of ~10-11 | Hemorrhoids ;; Fresh Blood ;; Next Step
+0098 | low-lying perianal fistula ;; external opening posteriorly close to the anal verge | intermittent perianal pain ;; purulent discharge
+0116 | Fistula at 7 o'clock | Where will it open
+0117 | NO CHANGE IN BOWEL HABITS ;; 7 and 3 o'clock | 1 year of perianal discharge ;; (2 openings) ;; next step
+0126 | family history of Crohn's disease ;; three fistula openings | perianal discharge ;; on-off abdominal pain ;; 3, 7 and 9 o'clock
+0127 | denied history of bowel changes ;; Proctoscopic exam was normal | perianal discharge for months ;; 3 perianal sinuses ;; Next step
+0129 | external opening at the 7 o'clock position ;; internal opening | perianal fistula ;; most common site
+0246 | No change in bowel habits ;; 7 and 3 o'clock | 1 year of perianal discharge ;; perianal fistulas ;; next step

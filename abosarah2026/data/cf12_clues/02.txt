@@ -1,0 +1,60 @@
+0026 | blood at the urethral meatus | motorcycle trauma ;; pelvic fracture ;; initial investigation
+0079 | extraperitoneal bladder injury ;; normal urethrogram | pelvic pain ;; motorcycle collision ;; pelvic fracture
+0114 | blood at the urethral meatus | motorcycle trauma ;; pelvic fracture ;; initial investigation
+0274 | blood at the urethral meatus | motorcycle trauma ;; pelvic fracture ;; initial investigation
+0055 | visible underline tissues and bone ;; initial treatment | Fall??? From High Place ;; Fracture Of Distal Femur ;; trauma to the thigh
+0101 | supracondylar fracture ;; pulselessness | pallor paresthesia ;; Initial management
+0134 | high-pressure oil dissolving injection ;; sensation is intact | index finger ;; mild tenderness ;; swollen
+0014 | blisters ;; Painful | Total surface area of burn is 4% ;; erythema ;; moist ;; Type of burn
+0135 | circumferential right forearm burn ;; weak distal pulsation | oxygen saturation 86% in right arm ;; next step
+0275 | burned nose hair ;; confused | house fire ;; next step
+0123 | lost consciousness ;; convex hematoma in the temporal region | Initially he was stable ;; Dilated pupils ;; GCS was 6/15
+0165 | extradural hemorrhage ;; left side weakness | fells from 2 meters ;; vomiting multiple times ;; sleepy
+0017 | crescent shaped lesion | Old man fell down ;; confused
+0278 | right pupil is dilated ;; obvious skull fracture | intubated in the field ;; tachycardic and hypotensive ;; next best management
+0064 | the worst headache ;; BEST diagnostic test | sudden-onset severe headache
+0179 | subarachnoid hemorrhage | most diagnostic step
+0016 | Left Lateral Calf And Left Lateral Foot | Back Pain ;; Hypesthesia ;; Nerve Root Levels
+0063 | Weakness Of The Right Arm With Neck Extension ;; MRI Brain Done And Reported Normal | Investigation
+0291 | spinal epidural abscess ;; lower limb weakness | 10 days after vaginal delivery ;; fever and back pain ;; incontinence
+0428 | sensory level of T10 ;; brisk reflexes in both legs | 3 days history ;; progressive bilateral leg weakness ;; urinary retention
+0001 | atrial fibrillation ;; pain out of proportion | severe abdominal pain ;; initial investigation
+0157 | AF ;; severe abdominal pain | 45 years old ;; initial investigation
+0174 | atrial fibrillation ;; pain out of proportion | most appropriate investigation
+0267 | IHD ;; mild tenderness | central abdominal pain for 10 hours ;; bowel sounds are sluggish ;; Amylase 400 IU/L ;; WBC 22
+0276 | atrial fibrillation ;; sudden onset severe abdominal pain | initial investigation
+0020 | acute limb ischemia | diminished right leg pulse ;; calf pain ;; popliteal bypass scar
+0152 | pain, parasthesia and pulselessness ;; undetectable | 3 hours ;; next step
+0171 | pain and paralysis ;; Intact distal pulse | intermittent claudication ;; most appropriate diagnostic study
+0170 | superficial thrombophlebitis ;; diabetic and smoker | ulcer on 2nd , 3rd and 4th left foot toes ;; absent dorsalis pedis ;; popliteal pulse was intact ;; initial management
+0002 | medial leg ulcers | highest risk factor
+0024 | history of burn injury on the same side ;; oozing | erythematous ;; painful lesion
+0049 | warmth and tenderness ;; Distal pulses are intact | swelling of the big toe ;; calf ;; 4 days ;; No discharge
+0050 | first metatarsal Bone ;; Distal pulses intact | big toe swelling and discharge ;; ulcer 2cm ;; most appropriate way to assess
+0092 | pulses are present ;; Lateral foot ulcer | Diabetic patients ;; pus discharge ;; underlying etiology
+0203 | bad smelling ulcer | 45 diabetic patients ;; initial step
+0046 | recurrent TIA ;; narrowing 70-90% | now he is asymptomatic ;; dyslipidemia ;; atorvastatin ;; carotid US
+0090 | recurrent TIA ;; narrowing 70- 90% | now he is asymptomatic ;; dyslipidemia ;; carotid US
+0102 | Abdominal pain above umbilicus | Elderly ;; What will you order
+0138 | widened mediastinum ;; radiating to the back | sudden epigastric pain ;; 65 years old woman
+0141 | solid and cystic components ;; next step | suspicious thyroid nodule ;; 3×4 cm
+0142 | high calcitonin and CEA ;; spindle-like shape cells | neck mass and dysphagia ;; poorly cohesive ;; 32 years old
+0154 | most suggestive indication for surgical intervention | thyroid nodule
+0273 | Bethesda IV | mixed cystic and solid components ;; 3.4 x 3.8 cm ;; neck mass ;; most appropriate management
+0059 | Chvostic Signs ;; most diagnostic test | Thyroidectomy ;; Multi-Nodular Goiter ;; Peri-Oral Numbness ;; Hypo-Calcemia
+0042 | painless midline neck swelling ;; moves up and down with swallowing | mucoid fluid ;; biopsy
+0143 | midline neck swelling below the hyoid bone ;; moves up and down with swallowing | 14-year -old ;; painless neck swelling
+0038 | positive for BRCA1 ;; screening for breast cancer | mother was diagnosed with breast cancer at 45 ;; oral contraceptive pills ;; menarche started at 11
+0095 | BIRADS III ;; Probably benign | first screening mammography ;; no family history of cancer ;; dense breast
+0140 | BI-RAD V ;; axillary lymph node involvement | speculated mass ;; suspicious microcalcification ;; next step
+0204 | very dense tissue ;; positive family history | no suspicious lesions ;; appropriate next step
+0139 | bilateral green discharge from multiple ducts ;; not suspicious | bilateral breast pain ;; multiple dilated ducts
+0294 | bloody nipple discharge | Female non-pregnant
+0293 | nipple ulceration, crusting, oozing and redness ;; negative | 6 months ;; most appropriate thing to do
+0193 | 1 week postpartum ;; fluctuant mass | fever ;; tenderness ;; septations
+0113 | lobular carcinoma in situ ;; free surgical margins | fibroadenoma ;; incidental finding ;; most appropriate next step
+0121 | metaplastic intestinal type mucosa | chronic GERD ;; upper GI endoscopy ;; most likely diagnosis
+0253 | dysphagia for solids ;; gastroesophageal reflux disease | 10-year history ;; pantoprazole ;; 4-month history ;; next investigation
+0198 | dysphagia for both solid and liquid ;; 9-months | nocturnal cough ;; central chest discomfort ;; unremarkable
+0252 | Achalasia ;; Best Treatment Option | 34-Year-Old Woman ;; Progressive Dysphagia ;; Not On Any Medications
+0069 | After 8 Hours Of Pneumatic Dilatation ;; Change In Voice | Severe Chest Pain ;; Esophageal Stricture
