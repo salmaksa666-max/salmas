@@ -1,0 +1,150 @@
+0206 | Appendicitis with a walled-off abscess vs free perforation: drain or operate?
+0158 | Woman with abdominal pain before a CT: what must you do first?
+0175 | Suprapubic/LLQ pain in a woman, US inconclusive: what next — and what if TVUS was already done?
+0177 | Which two signs turn "investigate" into "operate"?
+0269 | Acute abdomen with a vitally stable patient: CT or theatre?
+0120 | Prior appendectomy with obstruction: X-ray or CT — what changes it?
+0172 | Post-op small bowel obstruction with no guarding or rigidity: image or theatre?
+0094 | Volvulus loop pointing to the right upper quadrant: sigmoid or cecal?
+0254 | Chronic constipation + obstruction in an older adult: which volvulus?
+0009 | Diverticulitis: abscess vs free perforation — drain or laparotomy?
+0067 | Localized guarding with a 1 cm collection: theatre or antibiotics/observation?
+0156 | Acute diverticulitis: colonoscopy now or CT now and scope later?
+0180 | Under 40 with recurrent LLQ pain: can you dismiss diverticulitis?
+0182 | Diverticulitis with bleeding: colonoscopy or CT?
+0200 | Diverticular disease prevention: low or high fibre?
+0245 | Acute diverticulitis with small collection: scope now or wait?
+0270 | Diverticulitis with a 1 cm vs 5 cm collection: conservative or drainage?
+0004 | Massive lower GI bleed: diverticulitis or diverticulosis?
+0072 | Lower GI bleed, hypotensive despite blood: angiography or laparotomy?
+0266 | Lower GI bleed unstable: when is it angiography and when laparotomy?
+0149 | Blood from the ileocecal valve in a child: where do you look?
+0010 | Hemorrhoid grades: which one "reduces by itself" and which needs pushing back?
+0167 | Grade 3 hemorrhoids: "initial" vs "definitive" treatment?
+0191 | Bleeding with itching: hemorrhoids or fissure — which word flips it?
+0192 | Is "prolapsed" a grade or a type of hemorrhoid?
+0257 | Hemorrhoids with anemia: treat the piles or scope?
+0098 | Low simple fistula vs high/complex: fistulotomy or seton + MRI?
+0116 | Fistula at 7 o'clock: where does the internal opening lie? (Goodsall)
+0117 | Multiple fistulas with no bowel symptoms: MRI or colonoscopy — what shifts it?
+0126 | Multiple fistulas with Crohn's clues: MRI or colonoscopy?
+0127 | Fistulas, no bowel changes, normal proctoscopy: colonoscopy or MRI?
+0129 | Goodsall's rule: anterior vs posterior fistula tracts?
+0246 | Multiple fistulas without bowel symptoms: map with MRI or scope?
+0128 | Fluctuant perianal swelling: antibiotics or drainage?
+0271 | Painful perianal lump: with vs without fever — abscess or thrombosed piles?
+0189 | Bloody diarrhea with urgency in a young patient: UC or Crohn's?
+0027 | Which polyp type carries the highest malignant risk?
+0056 | Rectal mass with bowel obstruction: colonoscopy first or relieve obstruction?
+0089 | Adenoma ≥1 cm completely resected: surveillance interval?
+0052 | Obstructive symptoms after hernia reduction with no bulge: reassure or image?
+0164 | Irreducible hernia with a negative cough impulse: reassure or operate?
+0186 | After hernia repair: what advice prevents recurrence (and what to fix BEFORE repair)?
+0250 | Strangulated incisional hernia with normal vitals: observe or laparotomy?
+0251 | Symptomatic incisional hernia: which repair?
+0260 | Preventing recurrence after hernia repair: device or avoiding heavy lifting?
+0005 | Infant inguinal hernia: wait or herniotomy (and what about hydrocele)?
+0148 | Retractile testis: discharge or follow up?
+0249 | Child with an inguinal hernia: mesh, wait, or herniotomy?
+0261 | Pyloric stenosis in a dehydrated infant: surgery or fluids first?
+0151 | Cholecystitis with mildly raised ALP/ALT: surgery now or search for a duct stone?
+0153 | Gallstones, unstable and too sick for anesthesia: emergency surgery or cholecystostomy?
+0018 | Calcified gallbladder vs distended GB in an ICU patient: cholecystectomy or cholecystostomy?
+0118 | Porcelain gallbladder without stones: observe or cholecystectomy?
+0272 | Gallbladder polyp: 2 cm vs 5 mm — surgery or surveillance?
+0045 | Charcot triad: initial imaging vs most accurate imaging?
+0062 | Painless jaundice with dilated intrahepatic ducts: EUS or CT/MRCP?
+0137 | Dilated CBD with jaundice: hilar (Klatskin) or ampullary?
+0109 | Post-cholecystectomy biloma: ERCP stent or percutaneous drainage?
+0110 | Post-cholecystectomy collection: what is the logical first step if ERCP is also offered?
+0190 | Large biloma: drain first or ERCP stent first?
+0268 | Subhepatic collection after cholecystectomy: when is ERCP the answer?
+0112 | Amoebic liver abscess: does size/septation change the first step?
+0136 | Fever, travel to India, single liver lesion: pyogenic or amebic — is drainage needed?
+0088 | HCC with ascites: resection or TACE?
+0060 | Pancreatic pseudocyst: when is external drainage right, and when observe?
+0280 | Early satiety weeks after pancreatitis: CT or endoscopy?
+0006 | Severe loin-to-groin pain, patient rolling: colic or peritonitis?
+0258 | Writhing vs lying still: colic or peritonitis?
+0277 | Loin pain with fever and rigors: stone or pyelonephritis?
+0061 | Painless hematuria: initial test vs definitive next step?
+0107 | Hematuria in an older man with mild prostate tenderness: prostatitis or cystoscopy?
+0166 | Flank pain + hematuria + enlarged prostate: cystoscopy or CT KUB?
+0185 | Painful vs painless hematuria in an older man: CT KUB or cystoscopy?
+0008 | BPH: acute retention vs failed medical therapy — catheter or TURP?
+0125 | BPH risk factor: age, obesity or diabetes?
+0159 | BPH with overflow incontinence on alpha-blocker: another tablet or surgery?
+0173 | BPH: risk factor vs necessary factor (androgens)?
+0007 | High ALP with high GGT vs normal GGT: liver or bone?
+0124 | Prostate screening: how does the relative's age at diagnosis change the answer?
+0043 | Boy with lower abdominal pain: what must you examine?
+0048 | Negative transillumination with sudden severe pain: hernia or torsion?
+0147 | Suspected torsion and no ultrasound available: wait or theatre?
+0262 | Vertical, non-elevated testis with superior pole tenderness: torsion of the testis or of the appendix?
+0019 | Crepitus in a soft-tissue infection: cellulitis or necrotizing infection?
+0086 | Pain beyond the erythema or crepitus: radiology or theatre?
+0115 | Abscess after a full antibiotic course: more antibiotics or drainage?
+0201 | Pustules after shaving vs one tender nodule vs multi-headed plaque?
+0334 | Bilateral recurrent axillary nodules with sinus tracts: hidradenitis or furuncle?
+0292 | Soft-tissue mass: when excise and when core biopsy first?
+0111 | Child pulled by the hand vs fall with swelling: reduction or X-ray first?
+0413 | Mildly raised BP: what extra risk factor moves lifestyle to medication?
+0354 | Renal artery stenosis imaging: obese patient — CT or US; poor renal function — CTA or MRA?
+0303 | MI with a systolic murmur to the axilla and shock: cardiogenic shock or mitral regurgitation?
+0384 | Chest pain risk factor: what would flip hypertension to smoking?
+0301 | Asymptomatic mild hyperkalemia on ARNI + spironolactone: which drug to cut?
+0329 | "Cause of the complaint": the mechanism or the underlying disease?
+0410 | Dyspnea with basal crackles in a hypertensive: which test first?
+0363 | HFrEF with AF: digoxin or a beta-blocker?
+0364 | "Maintain sinus rhythm" vs "control the rate": which drug class?
+0418 | AF anticoagulation: DOAC vs warfarin vs antiplatelet?
+0320 | Rheumatic valve disease with a new murmur: IE prophylaxis or echo?
+0419 | New murmur in a patient with rheumatic history: wait or echo?
+0339 | Cold HF shock vs warm vasodilated shock: inotrope or vasopressor?
+0373 | Hypotensive after 6 L of fluid with CVP 10: more fluid or norepinephrine?
+0394 | PE: stable vs massive — LMWH or thrombolysis?
+0424 | Which screening is triggered by "male + smoker + 65"?
+0299 | COPD: SpO2 ≤88% vs 89–91% — home oxygen or vaccine?
+0313 | Hypercapnic COPD, drowsy with slow RR: BiPAP or intubation?
+0330 | Pneumonia in a diabetic smoker: outpatient or admit — what decides?
+0374 | Pneumonia with no risk factors: which organism?
+0319 | Foul sputum with an air–fluid level: surgery or antibiotics?
+0305 | Pneumonia with a small effusion: antibiotics alone or diagnostic thoracocentesis?
+0333 | Recurrent malignant effusion: decortication or IPC/pleurodesis?
+0359 | Lung adenocarcinoma with metastases/effusion: surgery or systemic therapy?
+0322 | Low SpO2 with a normal ABG: pulmonary edema or methemoglobinemia/CO?
+0346 | Smoking cessation: highest success rate vs initial therapy vs epilepsy?
+0068 | Reflux with low Hb: PPI trial or scope?
+0296 | Variceal bleed failing octreotide and banding: balloon or TIPS?
+0297 | Upper GI bleed: "initial" step vs "definitive" investigation?
+0041 | GI bleed on warfarin with INR 7: fluids/blood or PCC?
+0316 | High INR after a herbal product: stop warfarin or stop the herb and recheck?
+0382 | Bleeding with INR 7: PCC or fluids/blood alone?
+0029 | National screening program: which cancer (average-risk population)?
+0091 | Colorectal screening at 45, average risk: start now or at 50?
+0178 | Relative with colorectal cancer at 50: how does it set start age and interval?
+0327 | Relative with colon cancer at 50: which start age, which interval?
+0415 | Change in bowel habits with weight loss: FOBT or colonoscopy?
+0003 | Bloody diarrhea with family history: what flips FAP to Peutz-Jeghers or UC?
+0298 | Big ducts beaded on MRCP vs normal ducts with AMA: PSC or PBC?
+0429 | Skip lesions, strictures, granulomas: Crohn's or UC?
+0310 | Traveler's diarrhea prophylaxis in an aspirin user: bismuth or no antibiotics?
+0314 | Chronic diarrhea after travel to the tropics: Whipple or tropical sprue?
+0350 | RLQ pain in a neutropenic adult vs a child: US or CT?
+0295 | Hemolysis: "next" step vs test that "diagnoses" the cause?
+0399 | Hemolysis after a new drug vs weeks into Mycoplasma: drug-induced or cold agglutinins?
+0392 | Sickle cell acute chest syndrome: exchange transfusion vs hydroxyurea?
+0393 | Sickle cell trait vs disease: which hemoglobin is NOT present?
+0371 | Low calcium with high K and urate: TLS or hypercalcemia causes?
+0372 | TLS: which electrolyte goes DOWN?
+0381 | TLS with oliguria: management vs prevention?
+0388 | High radiation dose: acute symptoms or late malignancy?
+0308 | Vomiting/diarrhea AKI: prerenal or ATN — what decides?
+0409 | Dipstick positive for blood with no RBCs on microscopy: hematuria or pigment?
+0325 | Diabetes + CKD: which drug class to add?
+0338 | Two diseases of different duration: which owns the kidney damage?
+0398 | Polycystic kidneys with falling eGFR and no fluid overload: dialysis or transplant preparation?
+0355 | Hematuria after a sore throat: how does timing separate PSGN from IgA nephropathy?
+0300 | Brain lesion with hyponatremia: SIADH or cerebral salt wasting — what decides?
+0311 | Chronic vomiting, dehydration, no labs: what is the best explanation?
+0328 | Hyponatremia with confusion: why is "RAPID" correction wrong?

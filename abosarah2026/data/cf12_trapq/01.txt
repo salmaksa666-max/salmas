@@ -1,0 +1,140 @@
+0021 | Lidocaine toxicity: which signs count as "early" — subjective CNS symptoms or seizures/bradycardia?
+0040 | Pain and pallor after lidocaine + adrenaline, "initial step" and no exam yet: treat (phentolamine) or assess?
+0047 | "Safest" anesthesia for a minor lesion in a cardiac patient: plain lidocaine, or adrenaline/bupivacaine?
+0145 | Earliest sign of lidocaine toxicity: what competes with tinnitus if perioral numbness is offered, and which signs are never earliest?
+0039 | Thyroidectomy (clean surgery): give antibiotic prophylaxis or not, and when is it an exception?
+0096 | Malnourished pre-op patient whose gut works: which route first?
+0144 | Does malnutrition alone mean TPN? What is the deciding question?
+0015 | DVT prevention question with LMWH among the options: mobilization or pharmacological prophylaxis?
+0100 | In "enhance safety" questions, do you skip steps or verify and monitor?
+0077 | Post-trauma hypotension: tachycardia vs bradycardia — bleeding or spinal shock?
+0097 | Hypotensive perforation going to laparotomy: peripheral short wide cannula or long central line?
+0205 | Pneumonia + hypotension + confusion: fluids, antibiotics, or pressors first?
+0256 | Cirrhotic with raised INR before surgery: FFP or platelets? When are platelets needed?
+0057 | Isolated fever after surgery with a clean wound: which stem details redirect you to a site, and what does a truly isolated fever point to?
+0087 | Post-op fever and desaturation: atelectasis or pneumonia — does the timing change it?
+0162 | Fever after abdominal surgery: examine the wound first, or think drug fever first?
+0181 | Day-2 post-cesarean with saturation in the 80s: atelectasis or PE?
+0080 | Oliguria after AAA repair, initial step: treat the kidney or check the tube?
+0054 | Failed Foley: retrograde urethrogram or suprapubic catheter — when does each apply?
+0081 | Low urine output after surgery: how to tell an empty bladder (fluids) from a full one (catheter)?
+0259 | Any significant potassium disturbance: ECG first or find the cause first?
+0263 | Alkalemia with raised PCO2: second disorder or compensation?
+0332 | Hypokalemia with NG suction vs diarrhea: where does the potassium go in each?
+0108 | Draining seroma, no inflammation: dressings — and what extra findings flip it to open drainage?
+0163 | Infected wound with a collection: antibiotics alone or open the wound?
+0011 | Scalp or face wound: primary or delayed closure — and what would push toward delayed?
+0099 | Clean wound with healthy granulation: treat it or close it?
+0155 | Small bowel fistula with passing flatus and stool: surgery or conservative?
+0183 | Subphrenic collection: US or CT — which words change the answer?
+0036 | Airway in a bloody, fractured face: intubate or cricothyroidotomy?
+0078 | Blood in the mouth alone vs blood plus a smashed face: which airway?
+0082 | Does a GCS of 14 protect an airway filling with blood?
+0160 | Neck/facial injury that prevents intubation: what is the airway answer?
+0248 | GCS 8 in trauma: what is the initial step, and which order does "initial" follow?
+0265 | Several life threats at once: which one is the "first step"?
+0025 | Fresh trauma arrival with normal vitals: imaging or initial assessment/resuscitation?
+0188 | Trauma and negative e-FAST: what decides unstable (theatre/DPL) vs stable (CT)?
+0279 | Positive FAST: stable vs unstable — CT or laparotomy?
+0285 | Blunt abdominal trauma, stable: what extra findings flip CT to FAST/laparotomy?
+0289 | "First thing to do" vs "most diagnostic" in stable trauma?
+0084 | Stab wound with omentum protruding and a clean CT: observe or laparotomy?
+0031 | Unstable patient with liver lacerations: resect or pack?
+0051 | Kidney extravasation, hypotensive non-responder vs improved: angioembolization or surgery?
+0104 | Which single word turns a laparotomy question into an angioembolization question?
+0105 | Absent breath sounds + shock: chest tube or needle — what makes needle come first?
+0133 | Unstable patient with tension signs: can you wait for an X-ray or blood gas?
+0161 | Suspected tension pneumothorax: confirm with chest X-ray or decompress?
+0195 | Hyperresonant vs dull percussion: needle or chest tube?
+0255 | Distended neck veins + unilateral absent breath sounds: haemothorax or tension pneumothorax?
+0264 | Sucking chest wound: why three sides and not four?
+0130 | Both shock-causing: how does percussion separate hemothorax from pneumothorax?
+0288 | Needle or chest tube — when is each right?
+0012 | Rib fractures with a new infiltrate: contusion or flail — which clue decides?
+0065 | What is the real danger in flail chest?
+0286 | Same rib fractures: what separates lung contusion from flail chest?
+0287 | Stable contusion with pain: analgesia or ventilation — what flips it?
+0132 | Pneumothorax + decreased breath sounds are distractors: which finding points to the airway?
+0066 | Pelvic hematoma with hypotension: transfusion vs binder vs angioembolization?
+0083 | Unstable pelvic fracture: binder or laparotomy first?
+0026 | Blood at the meatus: Foley or retrograde urethrogram first?
+0079 | Extraperitoneal vs intraperitoneal bladder injury: catheter or theatre?
+0114 | RUG shows a urethral tear: what is the next step, and the classic wrong answer?
+0274 | After a urethrogram shows disruption, what is the next step?
+0055 | Open fracture: when does hemorrhage control come before antibiotics?
+0101 | Supracondylar fracture with pallor and pulselessness: fasciotomy or surgical exploration?
+0134 | High-pressure injection injury with mild signs: observe or theatre?
+0014 | Burn: which findings make it superficial partial, and what makes it deeper?
+0135 | "Circumferential" burn with weak pulses: what is the trigger-word action?
+0275 | Smoke exposure: when can you observe, and what flips it to intubation?
+0123 | Lucid interval + convex temporal clot: medical measures or surgery?
+0165 | Epidural hematoma: what flips evacuation to intubation first?
+0017 | Subdural vs epidural: banana or lens shape?
+0278 | "Initial" vs "next best" with a blown pupil: temporizing measure or craniotomy?
+0064 | Worst headache: CT or LP — which verb decides?
+0179 | SAH with a normal CT: what is the next test?
+0016 | Calf and lateral foot sensory loss vs dorsum of foot/big toe: which root (L5 vs S1)?
+0063 | Arm weakness triggered by neck extension with a normal brain MRI: image the neck or the vessels?
+0291 | Spinal epidural abscess with weakness/incontinence: antibiotics alone or surgery too?
+0428 | A sensory level: GBS, cauda equina, or cord compression?
+0001 | AF + severe abdominal pain: "initial" vs "gold standard/therapeutic" — CT or angiography?
+0157 | AF with severe abdominal pain: plain film or CT angiography?
+0174 | Pain out of proportion in AF: why not a plain film?
+0267 | Raised amylase in a cardiac patient with pain out of proportion: pancreatitis or ischemia?
+0276 | Same AF patient but with sudden leg pain and paralysis: imaging or embolectomy?
+0020 | Rest pain alone: acute or chronic limb ischemia — what makes it ALI?
+0152 | Threatened limb with paresthesia/paralysis: more imaging or the vascular surgeon?
+0171 | Acute limb ischemia: which question wording gives CT angiography and which gives heparin?
+0170 | Young smoker with thrombophlebitis and toe ulcers (Buerger): stop smoking or anticoagulate?
+0002 | Lateral malleolus or toe ulcer with absent pulses: venous or atherosclerosis?
+0024 | Burn scar with a new non-healing ulcer: what is the diagnosis and next step?
+0049 | Calf signs with intact pulses in a diabetic: duplex or osteomyelitis imaging?
+0050 | "MR angiography" vs MRI for osteomyelitis: which is a vessel study?
+0092 | Ulcer with pulses present: venous or neuropathic — foot vs leg?
+0203 | Foul-smelling diabetic foot wound: debride or NPWT first?
+0046 | Recurrent TIAs but asymptomatic now: is the carotid stenosis symptomatic?
+0090 | Define a symptomatic carotid stenosis.
+0102 | Abdominal pain above the umbilicus with normal amylase/lipase: another enzyme or aortic imaging?
+0138 | Epigastric pain radiating to the back with a widened mediastinum: pancreatitis or aortic?
+0141 | Complex thyroid nodule: which component do you aspirate?
+0142 | Calcitonin in the stem: which cancer, and what to screen before surgery?
+0154 | Why does Bethesda IV go to lobectomy rather than repeat FNA?
+0273 | Follicular carcinoma is a histology diagnosis: what proves it?
+0059 | Post-thyroidectomy hypocalcemia: calcium, PTH or magnesium — which wording gives which?
+0042 | Thyroglossal cyst vs thyroid nodule: what separates them (both move with swallowing)?
+0038 | BRCA-positive woman: MRI or mammogram first, and when to start?
+0095 | Which BI-RADS category is managed by short-interval follow-up imaging?
+0140 | Even BI-RADS 5: surgery or core biopsy first?
+0204 | Negative mammogram, very dense breasts, family history: repeat mammogram or MRI?
+0139 | Bilateral discharge from multiple ducts vs one bloody duct: which is physiological?
+0294 | Bloody nipple discharge: papilloma or cancer — which findings flip it?
+0293 | Non-healing nipple rash with negative imaging: reassure or biopsy?
+0193 | Postpartum breast collection with septations: antibiotics or incision and drainage?
+0113 | LCIS vs DCIS found incidentally: which one needs excision plus radiotherapy?
+0121 | GERD with metaplasia on endoscopy: esophagitis or Barrett's?
+0253 | GERD with new dysphagia to solids: PPI or endoscopy?
+0198 | Dysphagia to liquids and solids from the start: stricture or motility disorder?
+0252 | Young, fit achalasia patient: Botox or definitive therapy?
+0069 | Mallory-Weiss vs perforation: how do they differ (mucosal vs transmural)?
+0199 | Vomiting then hematemesis with stable vitals: Mallory-Weiss or Boerhaave?
+0282 | Vomiting then chest pain with air/effusion: Mallory-Weiss or Boerhaave?
+0131 | Alkali ingestion with only a mildly red mouth: discharge or admit?
+0070 | Gastric cancer prevention: which option is strongest if offered?
+0122 | NSAID duodenal ulcer without an H. pylori result: antibiotics or PPI?
+0168 | Peptic ulcer risk factor: H. pylori or NSAIDs?
+0184 | Burns vs head injury stress ulcers: Curling or Cushing?
+0247 | Cause vs risk factor of an NSAID ulcer?
+0281 | Positive occult blood with a normal colonoscopy: PPI trial or EGD?
+0071 | Perforation workup: unstable vs stable — bedside test or CT?
+0103 | "Initial" vs "most sensitive": erect chest X-ray or CT?
+0187 | Rigid abdomen in a smoker/NSAID user: erect CXR or CT first?
+0196 | Pain radiating to the back with air under the diaphragm: pancreatitis or perforated ulcer?
+0053 | Splenomegaly, normal portal vein, gastric bleeding after pancreatitis: cirrhotic or left-sided portal hypertension?
+0073 | Post colon surgery bleed with coffee-ground NG output: colonoscopy or upper endoscopy?
+0202 | GI bleed after a hepatobiliary procedure: endoscopy or angiography?
+0023 | Press left, pain in the right: which sign?
+0085 | How is Rovsing's sign named (where you press vs where it hurts)?
+0093 | Feculent wound discharge with peritonitis: conservative or back to theatre?
+0119 | Right iliac fossa calcification with peritonism: ureteric stone or appendicolith?
+0146 | Appendiceal carcinoid: when appendectomy only and when right hemicolectomy?
+0169 | Woman of reproductive age with lower abdominal pain: what comes before imaging or surgery?

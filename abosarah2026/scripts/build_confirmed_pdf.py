@@ -49,7 +49,7 @@ html, body { width: 194mm; }
 .page.tr { display: block; column-count: 2; column-gap: 6mm; column-fill: auto; padding-top: 1mm; }
 .page.tr h1 { column-span: all; font-size: 11pt; margin: 0 0 2mm; border-bottom: 1.2pt solid #000; }
 .page.tr h3 { font-size: 1.05em; margin: 2.5mm 0 .8mm; border-bottom: 0.5pt solid #000; break-after: avoid; }
-.page.tr ul { margin: 0; padding-left: 4mm; }
+.page.tr ol { margin: 0; padding-left: 5mm; }
 .page.tr li { margin-bottom: 1mm; break-inside: avoid; }
 .sol .q { border-bottom: 0.4pt dashed #000; }
 .ans { font-weight: bold; border: 0.6pt solid #000; border-radius: 1mm; padding: 0 1.5mm; display: inline-block; margin-bottom: .6mm; }
@@ -58,7 +58,7 @@ html, body { width: 194mm; }
 
 FIT = """<script>
 document.querySelectorAll('.page.tr').forEach(function(pg){
-  var fs = 12; pg.style.fontSize = fs + 'pt';
+  var fs = 8.8; pg.style.fontSize = fs + 'pt';
   while (fs > 5 && pg.scrollWidth > pg.clientWidth + 2) { fs -= 0.2; pg.style.fontSize = fs + 'pt'; }
 });
 document.querySelectorAll('.page.qs, .page.sol').forEach(function(pg){
@@ -123,17 +123,32 @@ def solution_cell(i, f):
     return out + "</div>"
 
 
+def load_trapq():
+    out = {}
+    for f in sorted(glob.glob(os.path.join(os.path.dirname(DATA), "cf12_trapq", "*.txt"))):
+        for ln in open(f, encoding="utf-8"):
+            if "|" in ln:
+                k, v = ln.split("|", 1)
+                out[k.strip()] = v.strip()
+    return out
+
+
+TRAPQ = load_trapq()
+
+
 def traps_page(batch, ep_of):
     import difflib
-    out = '<div class="page tr"><h1>⚠ فخاخ هالمواضيع — اقريها قبل ما تحلين (Traps)</h1>'
+    out = '<div class="page tr"><h1>⚠ Traps — answer each one in your head, the answer is right below</h1>'
     for d, part, _ in batch:
-        seen = []
+        seen, items = [], []
         for f in part:
             t = ep_of.get(f["QID"], "")
             if t and not any(difflib.SequenceMatcher(None, t.lower(), x.lower()).ratio() > 0.8 for x in seen):
                 seen.append(t)
-        if seen:
-            out += f'<h3 dir="ltr">{html.escape(d["title"])}</h3><ul dir="ltr">' + "".join(f"<li>{html.escape(t)}</li>" for t in seen) + "</ul>"
+                q = TRAPQ.get(f["QID"][5:], "")
+                items.append(f'<li><b>{html.escape(q)}</b><br>{html.escape(t)}</li>' if q else f"<li>{html.escape(t)}</li>")
+        if items:
+            out += f'<h3 dir="ltr">{html.escape(d["title"])}</h3><ol dir="ltr">' + "".join(items) + "</ol>"
     return out + "</div>"
 
 

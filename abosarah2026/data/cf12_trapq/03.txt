@@ -1,0 +1,132 @@
+0427 | Post-op hyponatremia with confusion: why is the "RAPID" option the trap?
+0306 | High ACTH and high cortisol: pituitary or adrenal?
+0367 | Cushing's with hypokalemia but only modestly high ACTH: ectopic ACTH or pituitary?
+0340 | Painless hypothyroid with antibodies vs painful neck: Hashimoto or subacute?
+0315 | Sudden death on prolonged high-dose steroids: what is the likely cause?
+0150 | Resolved TIA with a normal ECG: carotid imaging — what if the ECG showed AF?
+0417 | TIA: anticoagulate or antiplatelet — which suits the heart vs the arteries?
+0302 | Facial weakness with sensorineural hearing loss: which artery, and why?
+0368 | Pinpoint pupils with a hypertensive bleed: where is the lesion?
+0309 | Facial pain with a limb deficit under 40: trigeminal neuralgia or MS?
+0317 | First seizure with normal labs/exam: CT first or EEG first?
+0321 | Naming "animal" for "cat" with memory spared: Alzheimer or frontotemporal?
+0377 | Memory loss vs losing word meaning: which brain region?
+0400 | Brisk reflexes with a sensory level: GBS, cauda equina, or cord compression?
+0335 | Alcohol withdrawal: which option beats the same drug without it?
+0304 | Normal uric acid in a young man with recurrent joint pain: rule out gout?
+0378 | Ankylosing spondylitis: which associations are real (aortic, apical fibrosis) vs distractors?
+0370 | Coccobacilli + Saudi + chronic fever + back pain: brucellosis or TB?
+0412 | Malaria: relapse vs recrudescence — which species and mechanism?
+0318 | Healthy 50-year-old at a routine visit: which vaccine does the age point to?
+0369 | Mother with breast cancer at 43: how do you work out when she should screen?
+0342 | "International alarm" vs "report to WHO": which body is which?
+0208 | Insecure channel for results: which principle is violated?
+0336 | "Medications were not documented" after transfer: which error?
+0337 | Social media diets: forbid, allow, or guide to trusted sources?
+0233 | Intensive phototherapy failing: what is the trigger for exchange transfusion?
+0234 | Jaundice at day 4 vs in the first 24 hours: breastmilk or hemolytic?
+0229 | Kernicterus vs prematurity: dyskinetic or spastic CP?
+0210 | Term cesarean baby: TTN or RDS — what do the lung volumes show?
+0244 | Meconium aspiration, ventilated and hypoxic: what do you order to assess complications?
+0376 | Meconium-stained fluid: "during" vs "after" delivery — which action?
+0421 | BPD and difficult weaning: short-term or long-term steroids?
+0401 | Unwell infant of a diabetic mother: what do you check?
+0217 | Newborn bleeding: long PT and PTT with normal platelets vs normal tests with stump bleeding?
+0387 | Umbilical bleeding with normal PT/PTT and platelets 18,000: vitamin K or immune thrombocytopenia?
+0358 | Microcephaly + hepatosplenomegaly + cytopenias in a newborn of a diabetic mother: what is the bait?
+0239 | CAH crisis vs a stable infant in clinic: IV or oral hydrocortisone?
+0360 | Musty odour vs maple-syrup odour: which diet restriction?
+0211 | Floppy baby with tongue fasciculations: what to counsel?
+0236 | Hypotonia with normal CK vs very high CK: congenital myopathy or muscular dystrophy?
+0214 | Rolling at 4 vs 6 months: which direction?
+0215 | Mouth stimulus reflex vs parachute: which one disappears?
+0366 | Pointing to vs naming colors: which age?
+0422 | Recognizes vs frightened by strangers: which age?
+0423 | 6-month-old milestones: sitting without support or rolling supine to prone?
+0235 | Previous DTaP with a local reaction: when do you drop the pertussis component?
+0348 | Immunodeficient child: which vaccines are avoided in household contacts?
+0385 | Mild reaction vs serious allergic reaction after a vaccine: which is a contraindication?
+0386 | Mild vs moderate/severe illness: which one defers vaccination?
+0240 | Recurrent wheeze with atopy in an older child: bronchiolitis or asthma?
+0343 | Infant with cold and breathing difficulty: RSV or parainfluenza — which adds barking cough?
+0222 | Asthma exacerbation: which SpO2/speech findings upgrade it to severe?
+0223 | Asthma child misusing the inhaler: environmental control or inhaler technique?
+0224 | Preventing exacerbations: when is the answer inhaler technique and when environmental control?
+0375 | Asthma counselling: evidence-based reassurance or "always/never" extremes?
+0242 | Toxic child with drooling: what NOT to do in the ER?
+0353 | Stridor with drooling vs barking cough: OR laryngoscopy or medical?
+0351 | Tracheomalacia: when is reassurance enough and when surgery?
+0241 | Monophasic expiratory wheeze with recurrent pneumonia: asthma or structural airway cause?
+0406 | Ventilated child: chase a normal PaCO2 or accept permissive hypercapnia?
+0425 | ARDS vs respiratory failure: what in the stem decides the more specific label?
+0352 | Nasal discharge: allergic rhinitis vs foreign body — which discharge features?
+0356 | Orbital signs vs lid swelling only: CT or oral antibiotics?
+0357 | Periorbital vs orbital cellulitis: which findings flip it?
+0212 | "Maybe squint" at 2 months: reassure, refer, or red reflex?
+0326 | Misaligned eye in a preschooler: Hirschberg, referral, or history?
+0380 | Misaligned eye "initial" step: history or Hirschberg?
+0213 | Which finding best points to myocarditis/heart disease in a toddler?
+0345 | Elevated BP once in a child: confirm vs prevent — what is the answer for each?
+0033 | Pediatric intussusception: which location, and what does a small-bowel type suggest?
+0405 | Is red currant jelly stool early or late, and does its absence exclude intussusception?
+0032 | Bilious vomiting in a neonate: "initial" vs "most diagnostic" test?
+0420 | Pyloric stenosis: what is the emergency step?
+0030 | Child with RLQ pain vs RLQ mass after weeks: US or CT?
+0013 | Handlebar injury vs blunt trauma in general: pancreas or spleen?
+0331 | Child with rectal spotting, "common and preventable": fissure or polyp?
+0283 | Ulcer: confirmatory vs stool antigen — which test?
+0231 | Toxic megacolon: first presentation vs failed medical therapy?
+0232 | Hepatitis A in a child: when does supportive care become transplant referral?
+0209 | Girl with hepatitis, high IgG and autoantibodies: treatment?
+0034 | Neck swelling with clear lymph on FNA: surgery or chemo/radiotherapy?
+0347 | Unilateral vs bilateral non-palpable testes: laparoscopy or karyotype first?
+0216 | Microcytic child: iron deficiency or thalassaemia trait — which RDW/platelet pattern?
+0389 | Low ferritin with a mildly raised reticulocyte count: iron deficiency or hemolysis?
+0390 | Pica with microcytosis: lead poisoning or iron deficiency — what decides?
+0391 | Spherocytes: hereditary spherocytosis or warm AIHA — which test separates them?
+0219 | Most common childhood leukemia: ALL or AML?
+0218 | Low Ig with absent B cells vs normal B cells: Bruton or CVID?
+0220 | GFR 28: which CKD stage?
+0230 | Febrile infant under 3 months with a positive urine dip: outpatient or IV antibiotics?
+0397 | Child with dysuria and fever: oral or IV antibiotics — what decides?
+0237 | Brief jerks on waking vs sudden loss of tone: myoclonic or atonic?
+0238 | Febrile seizures: which features raise the epilepsy risk?
+0379 | Sleep-related face seizures with centrotemporal spikes: which syndrome?
+0228 | Meningitis with lymphocytes and low glucose: viral or TB/fungal?
+0402 | Febrile seizure with recovery vs ongoing drowsiness and confusion: is LP needed?
+0407 | Meningitis with lymphocytes and low glucose: viral or TB/fungal?
+0411 | Exposed child with a negative test vs positive test: prophylaxis or latent TB treatment?
+0414 | Child under 5 with an open TB contact: reassure (BCG) or start INH?
+0341 | Measles, varicella and TB: which transmission precautions?
+0349 | Vesicles in crops vs all at the same stage: varicella or smallpox?
+0225 | Hand, foot and mouth vs herpangina: where are the ulcers?
+0226 | Strawberry tongue: scarlet fever or Kawasaki — which extras flip it?
+0227 | Bat bite: which category, even if trivial?
+0221 | Hip pain with effusion: toxic synovitis or septic arthritis — what flips it?
+0290 | Bone infection: "initial" imaging vs "best/diagnostic" imaging?
+0323 | Polyarticular JIA with positive RF: NSAID first or MTX?
+0396 | Diabetic annual renal screening: dipstick or albumin ratio?
+0365 | Newborn with poor prognosis and an unsigned DNR: resuscitate or not?
+0022 | Septic shock with hypotension and fever: SVR high or low, and what is the cardiac output?
+0058 | Cord syndrome with sensory level: compression or transverse myelitis — which history flips it?
+0197 | Epigastric pain to the back: which test confirms pancreatitis?
+0194 | Radiation exposure: weeks vs years — marrow/gut failure or cancer?
+0243 | Untreated adolescent with mild-moderate symptoms: therapy or tablets?
+0395 | Depression: core symptom vs what is most concerning?
+0324 | First-line antipsychotic: when to avoid olanzapine, and when clozapine?
+0426 | Acute mania in the ER: antipsychotic or lithium?
+0344 | Preventing STDs: screening or barrier method?
+0074 | Screening test: sensitivity or specificity matters?
+0075 | Heavy smoker aged 65: AAA ultrasound or lung CT — what competes?
+0028 | Error caught before harm vs harm done: near miss or adverse event?
+0176 | "What did the FIRST doctor do wrong": which options do you discard?
+0416 | Error that did not reach the patient: near miss or adverse event?
+0076 | Repeat-back without the sender's confirmation: is that a closed loop?
+0207 | Missing allergy info at shift handover: which type of failure?
+0035 | Documented refusal of blood vs vague prior statement in an emergency: respect or treat?
+0106 | Competent patient refuses surgery then loses consciousness: surrogate request or honour refusal?
+0362 | Consent for her own contraception/surgery: husband or patient alone?
+0044 | Granting privileges: certificate/years or competence assessment?
+0383 | Research participant protection vs resource allocation: deontology or utilitarianism?
+0404 | Impaired colleague endangering patients: talk privately or report?
+0403 | Highest evidence for a new drug: systematic review of RCTs or a single RCT?
