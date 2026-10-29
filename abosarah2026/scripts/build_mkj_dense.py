@@ -28,8 +28,13 @@ body { font-family: "DejaVu Sans", Arial, sans-serif; line-height: 1.3; color: #
 .hd span { float: right; font-weight: normal; }
 .sec { font-size: .85em; font-style: italic; }
 .o { padding-left: 3.2mm; text-indent: -3.2mm; }
-.page.ak { column-count: 3; }
-.it { break-inside: avoid; margin-bottom: 1.2mm; border-bottom: 0.3pt dashed #000; padding-bottom: .8mm; font-weight: bold; }
+.page.ak { column-count: 2; }
+.it { break-inside: avoid; margin-bottom: 1.2mm; border-bottom: 0.3pt dashed #000; padding-bottom: .8mm; }
+.memo { margin-top: .4mm; border-left: 1.2pt solid #000; padding-left: 1.5mm; }
+.flip { margin-top: .4mm; padding-left: 1.5mm; direction: rtl; text-align: right; }
+mark { color: #000; background: #fff3a3; }
+mark.l2 { background: #ffd800; font-weight: bold; text-decoration: underline; }
+mark.l1 { background: #fff3a3; }
 """
 FIT = """<script>
 document.querySelectorAll('.page').forEach(function(pg){
@@ -40,7 +45,8 @@ document.querySelectorAll('.page').forEach(function(pg){
 
 
 def plain(h):
-    return html.unescape(re.sub(r"<[^>]+>", "", h or "")).strip()
+    t = html.unescape(html.unescape(re.sub(r"<[^>]+>", "", h or "")))
+    return re.sub(r"\s+", " ", t.replace("\xa0", " ")).strip()
 
 
 d = tempfile.mkdtemp()
@@ -76,8 +82,39 @@ def classify(text):
     return "Medicine", "Other medicine"
 
 
+NOTES = {}
+for nf in sorted(glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "gb_notes", "*.txt"))):
+    for ln in open(nf, encoding="utf-8"):
+        if "|" not in ln:
+            continue
+        pr = [x.strip() for x in ln.split("|")]
+        pr += [""] * (4 - len(pr))
+        sp = lambda t: [q.strip() for q in t.split(" ;; ") if q.strip()]
+        NOTES["GB-" + pr[0]] = (sp(pr[1]), sp(pr[2]), pr[3])
+
+
+def hilite(text, l2, l1):
+    h = html.escape(text, quote=False)
+    seen = []
+    for terms, cls in ((sorted(l2, key=len, reverse=True), "l2"), (sorted(l1, key=len, reverse=True), "l1")):
+        for t in terms:
+            pat = re.compile(re.escape(html.escape(t, quote=False)), re.I)
+            m = None
+            for mm in pat.finditer(h):
+                inside = h.rfind("<", 0, mm.start()) > h.rfind(">", 0, mm.start())
+                in_mark = h[:mm.start()].count("<mark") > h[:mm.start()].count("</mark>")
+                if not inside and not in_mark:
+                    m = mm
+                    break
+            if m:
+                h = h[:m.start()] + f'<mark class="{cls}">' + m.group(0) + "</mark>" + h[m.end():]
+    return h
+
+
 items = []
 for r in rows:
+    if "NOTE" in r["QNo"]:
+        continue
     qh = r["OriginalQuestionHTML"]
     m = re.search(r'<div class="question-stem-text">(.*?)</div>', qh, re.S)
     stem = re.sub(r"^\s*\d+\.\s*", "", plain(m.group(1) if m else qh.split('<div class="question-options">')[0]))
@@ -86,7 +123,30 @@ for r in rows:
     sa = r["SourceAnswer"].strip()
     flag = " ⚠" if r["AnswerState"] != "confirmed" or not sa else ""
     part, sec = classify(stem + " " + " ".join(t for _, t in opts))
-    items.append(dict(qid=r["QNo"], stem=stem, opts=opts, ans=sa or "— no firm answer in the source", flag=flag, part=part, sec=sec))
+    l2, l1, flip = NOTES.get(r["QNo"], ([], [], ""))
+    items.append(dict(qid=r["QNo"], stem=stem, opts=opts, ans=sa or "— no firm answer in the source", flag=flag, part=part, sec=sec, l2=l2, l1=l1, flip=flip))
+
+LAT = re.compile(r"[A-Za-z][A-Za-z0-9'’\-/.+%±]*(?: (?:[A-Za-z0-9±][A-Za-z0-9'’\-/.+%±]*|\+|/))*")
+
+
+def bidi(t):
+    t = html.escape(t, quote=False)
+    t = LAT.sub(lambda m: f'<bdi dir="ltr">{m.group(0)}</bdi>', t)
+    return re.sub(r"[\u0600-\u06FF][\u0600-\u06FF\u064B-\u0652ـ ]*[\u0600-\u06FF]|[\u0600-\u06FF]", lambda m: f'<bdi dir="rtl">{m.group(0)}</bdi>', t)
+
+
+def answer_item(num, it):
+    ans = re.sub(r"^[A-E]\.\s*", "", it["ans"]).strip(" .")
+    clues = [c for c in it["l2"] + it["l1"]][:4]
+    memo = ""
+    if clues and it["ans"]:
+        line = " + ".join(clues)
+        if len(line) > 110:
+            line = " + ".join(clues[:2])
+        memo = f'<div class="memo"><b>احفظي:</b> <bdi dir="ltr">{html.escape(line)} \u2192 {html.escape(ans)}</bdi></div>'
+    flip = f'<div class="flip">\U0001F501 {bidi(it["flip"])}</div>' if it["flip"] else ""
+    return f'<div class="it"><b dir="ltr">{num}) \u2714 {html.escape(it["ans"])}{it["flag"]}</b>{memo}{flip}</div>'
+
 
 def build(items, out):
     w = lambda it: len(it["stem"]) + sum(len(t) + 6 for _, t in it["opts"])
@@ -99,9 +159,9 @@ def build(items, out):
         chunks.append(cur)
 
     pages, num = [], 0
-    for g in range(0, len(chunks), 3):
+    for g in range(0, len(chunks), 2):
         ak, first = "", num + 1
-        for ch in chunks[g:g + 3]:
+        for ch in chunks[g:g + 2]:
             start, body = num + 1, ""
             for it in ch:
                 num += 1
@@ -109,8 +169,8 @@ def build(items, out):
                 if not it["opts"]:
                     o = ""
                 body += (f'<div class="q"><div class="hd">{num}) <span>{it["qid"]}</span></div>'
-                         f'<div class="sec" dir="ltr">{it["sec"]}</div><div dir="ltr">{html.escape(it["stem"])}</div>{o}</div>')
-                ak += f'<div class="it" dir="ltr">{num}) ✔ {html.escape(it["ans"])}{it["flag"]}</div>'
+                         f'<div class="sec" dir="ltr">{it["sec"]}</div><div dir="ltr">{hilite(it["stem"], it["l2"], it["l1"])}</div>{o}</div>')
+                ak += answer_item(num, it)
             pages.append(f'<div class="page"><div class="ph">Questions {start}–{num}</div>{body}</div>')
         pages.append(f'<div class="page ak"><div class="ph">Answers {first}–{num}</div>{ak}</div>')
 
