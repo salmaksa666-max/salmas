@@ -1,0 +1,73 @@
+@ 1 | Local anesthesia & Lidocaine toxicity
+> h: وش هو؟
+> p: الـLidocaine مخدر موضعي يوقف الإحساس بالعصب. لو دخل الدم بكمية كبيرة (جرعة زايدة أو حقن بالغلط داخل وريد) يأثر على الدماغ أول ثم القلب. هذا اسمه LAST (Local Anesthetic Systemic Toxicity).
+> h: مين معرض أكثر؟
+> list: جرعة كبيرة أو منطقة فيها أوعية كثيرة ;; كبار السن ومرضى القلب والكبد ;; ○ الجرعة القصوى: lidocaine ٤.٥ mg/kg بدون adrenaline و٧ mg/kg مع adrenaline
+> h: كيف يجي المريض؟ (الترتيب مهم)
+> box: ★ أول شي :: Tinnitus، تنميل حول الفم (perioral numbness)، طعم معدني، دوخة ;; بعدها :: رجفة عضلات (twitching) ثم Seizures ;; آخر شي :: Coma ثم Bradycardia وarrhythmia وتوقف القلب
+> h: كيف نعالج؟
+> box: Stop the injection :: أول خطوة دايم ;; Airway + Oxygen :: افتحي مجرى الهواء وأعطي أكسجين ;; Benzodiazepine :: لو صار seizure ;; Lipid emulsion 20% :: للسمّية الشديدة أو القلب
+> h: مشكلة ثانية: الـAdrenaline
+> p: بعض المخدر فيه Adrenaline يضيّق الأوعية عشان يقلل النزيف ويطوّل التخدير. لو انحقن في مكان دمه من شريان واحد (إصبع، أذن، أنف، عضو ذكري) ممكن يسبب ischemia.
+> two: Lidocaine toxicity :: Tinnitus، تنميل الفم، seizures. العلاج stop + airway + benzodiazepine ;; Adrenaline ischemia :: الإصبع/الأذن أبيض ومؤلم. أول شي Assess (افحصي الدورة)، بعدين phentolamine
+> h: فخاخ الاختبار
+> list: ★ "Early sign" = Tinnitus أو perioral numbness. Seizures وbradycardia ما تكون أول ;; ★ مريض قلب وعنده ورم صغير بالأذن ← Plain 1% lidocaine. لا adrenaline ولا bupivacaine (أخطر على القلب) ;; ★ "Initial step" وما فحصتي ← Assess hand أول
+> sum: يعني باختصار: السمّية تبدأ بالأعراض الذاتية (tinnitus) وتنتهي بالقلب. أوقفي الحقن وأمّني الـairway.
+
+@ 2,3,4 | Perioperative care: Antibiotic، تغذية، وجلطات
+> h: ١) Antibiotic prophylaxis
+> p: الهدف نمنع التهاب الجرح. نعطي جرعة وحدة قبل الجرح بساعة، والقرار حسب نوع العملية:
+> box: ★ Clean (مثل thyroid، hernia بدون mesh) :: No prophylaxis ;; Clean + implant/mesh :: جرعة وحدة (cefazolin) ;; Clean-contaminated (أمعاء، مرارة) :: جرعة وحدة قبل الشق ;; Dirty (perforation، abscess) :: هنا علاج مو وقاية
+> note: مرض المريض (HTN مثلًا) ما يغيّر القرار. نوع الجرح هو اللي يقرر.
+> h: ٢) التغذية قبل العملية
+> p: المريض اللي نزل وزنه ١٠٪ أو ما ياكل كفاية يحتاج دعم غذائي قبل العملية لأنه يقلل المضاعفات. والقاعدة: إذا الأمعاء شغالة نستخدمها.
+> box: ★ يقدر ياكل والأمعاء شغالة :: Oral high-protein diet + supplements ;; ما يقدر ياكل لكن الأمعاء شغالة :: Tube feeding (NG/NJ) ;; الأمعاء ما تشتغل (obstruction، fistula) :: TPN
+> h: ٣) منع الجلطات (VTE)
+> p: بعد العملية أو الكسور المريض ما يتحرك فيصير عنده خطر DVT وPE.
+> box: ★ بعد trauma أو كسور :: Early mobilization + LMWH ;; Mechanical :: Stockings / compression devices ;; ★ مريض على anticoagulant ويبي عملية :: تأكدي كم يوم وقفه + coagulation tests، وبعد العملية راقبي النزيف
+> h: فخاخ الاختبار
+> list: ★ Thyroidectomy = clean = لا prophylaxis ;; ★ Malnutrition ما يعني TPN. السؤال: الفم والأمعاء شغالين؟ ;; ★ لو LMWH بالخيارات والسؤال عن DVT ← هو الجواب ;; ★ أسئلة "safety" ← تتأكد وتراقب، ما تقفز خطوات
+> sum: يعني باختصار: Antibiotic حسب نوع الجرح، تغذية بالفم أول، وحركة + LMWH ضد الجلطات.
+
+@ 5,6,7,8 | Post-op problems: حرارة، أكسجين، بول، shock
+> h: الفكرة
+> p: بعد العملية أسئلتك تعتمد على متى صارت المشكلة (كم يوم بعد العملية) وعلى الفحص. واحفظي القاعدة: ابدئي بالأبسط.
+> h: ١) الحرارة بعد العملية (احفظي الأيام)
+> box: ★ أول ٢٤–٤٨ ساعة :: Atelectasis (الرئة ما تتمدد كامل). العلاج: تنفس عميق + incentive spirometry + حركة ;; ★ اليوم ٣ تقريبًا :: Pneumonia (حرارة + desaturation) ;; اليوم ٣–٥ :: UTI (خصوصًا مع catheter) ;; اليوم ٥–٧ :: Wound infection ← افحصي الجرح ;; اليوم ٥–١٠ :: DVT/PE أو abscess ;; ★ حرارة لحالها والجرح نظيف وما يشتكي :: Drug fever ← Review medication
+> note: ★ بعد الولادة القيصرية + SpO2 بالثمانينات = PE حتى لو اليوم الثاني. لا تقولين atelectasis.
+> h: ٢) البول قليل (Oliguria)
+> box: ★ أول خطوة :: Check Foley catheter (يمكن مسدود) ;; بعدها :: قيمي السوائل: المريض ناشف؟ أعطي fluid challenge ;; لو ما تحسن :: فكري بالكلى (AKI)
+> h: ٣) ما يقدر يبول (Retention)
+> box: ★ بعد spinal anesthesia أو hernia repair والمثانة مليانة :: Urinary catheterization ;; ★ Foley ما دخل (مثلًا prostate cancer) :: Suprapubic catheter ;; ★ Trauma + دم عند فتحة البول :: Retrograde urethrogram أول، لا Foley
+> h: ٤) Shock بعد العملية أو بعد trauma
+> two: Hypovolemic / hemorrhagic :: ضغط واطي + نبض سريع ← Fluids/blood وابحثي عن النزيف ;; Spinal shock :: ضغط واطي + نبض بطيء بعد إصابة الظهر
+> box: ★ Pneumonia + ضغط واطي + confusion :: Septic shock ← Fluids أول، antibiotics معها، وvasopressor لو ما استجاب ;; ★ لإعطاء سوائل بسرعة :: Peripheral cannula قصيرة وعريضة أسرع من central line طويل
+> sum: يعني باختصار: الوقت يحدد سبب الحرارة، و"Check the tube" قبل ما تعالجين الكلى.
+
+@ 9 | Fluids & Electrolytes بعد العملية
+> h: الفكرة
+> p: بعد العمليات المريض يفقد سوائل من الـNG tube أو الاستفراغ أو الإسهال. ونوع الفقد يحدد نوع المشكلة.
+> h: من وين ضاعت السوائل؟
+> two: فوق (Vomiting / NG suction) :: يضيع حمض المعدة (HCl) ← Metabolic alkalosis + Hypokalemia + Hypochloremia. الكلية هي اللي تطلع البوتاسيوم ;; تحت (Diarrhea / fistula) :: يضيع bicarbonate ← Metabolic acidosis + Hypokalemia. الأمعاء هي اللي تفقد البوتاسيوم
+> h: كيف أقرأ الـABG؟
+> box: ١) pH :: أقل من ٧.٣٥ acidosis، أكثر من ٧.٤٥ alkalosis ;; ٢) مين السبب؟ :: لو HCO3 ماشي مع الـpH = metabolic. لو CO2 = respiratory ;; ٣) Compensation :: ★ Alkalosis مع PCO2 عالي = الرئة تعوّض، مو مرض ثاني
+> h: البوتاسيوم
+> box: ★ أي مشكلة كبيرة بالبوتاسيوم :: ECG أول قبل ما تدورين السبب ;; Hyperkalemia :: Peaked T ← Calcium gluconate أول ثم insulin + glucose ;; Hypokalemia :: U waves ← Potassium replacement (وصححي الـmagnesium)
+> h: تعويض السوائل
+> list: Vomiting/NG loss ← Normal saline + KCl ;; Hyponatremia: صححي ببطء عشان ما يصير osmotic demyelination
+> sum: يعني باختصار: فقد فوق = alkalosis، فقد تحت = acidosis. والبوتاسيوم المضطرب = ECG أول.
+
+@ 10,11,12,13 | الجروح: التهاب، إغلاق، Fistula، Abscess
+> h: ١) التهاب الجرح (Surgical site infection)
+> p: يصير غالبًا بعد ٥–٧ أيام. الجرح يصير أحمر ومنتفخ ويألم، وأحيانًا يطلع منه صديد.
+> box: ★ احمرار + تورم + ألم بالجرح :: Open the wound (افتحيه ونظفيه) ;; Cellulitis حول الجرح بدون صديد :: Antibiotics ;; ★ Seroma (سائل صافي) بدون التهاب :: Regular dressings
+> note: Antibiotics لحالها ما تكفي لو فيه صديد تحت الجرح. لازم تفتحينه.
+> h: ٢) متى أخيّط الجرح؟
+> two: Primary closure :: جرح نظيف وجديد. ★ الوجه والرأس ينخاطون حتى بعد ساعات لأن دمهم كثير ;; Delayed closure :: جرح ملوث، عضة، أو جرح قديم في الأطراف ← نظفيه ونخيطه بعدين
+> box: ★ جرح فيه granulation tissue صحي وما فيه إفرازات :: جاهز للإغلاق (Primary closure ± vacuum)
+> h: ٣) Enterocutaneous fistula
+> p: فتحة بين الأمعاء والجلد يطلع منها محتوى الأمعاء. أغلبها تنقفل لحالها لو ما فيه انسداد بعدها.
+> box: ★ المريض يطلع gas وstool طبيعي :: يعني ما فيه obstruction ← Conservative: NPO + TPN + secretion inhibitors (octreotide/PPI) ;; ○ ما تنقفل لو :: Foreign body، Radiation، IBD، Epithelialization، Neoplasm، Distal obstruction (FRIEND)
+> h: ٤) Abscess بعد العملية
+> box: ★ حرارة + ألم بعد عملية بطن (مثل ulcer repair) :: Ultrasound أول (خصوصًا يمين). CT لو "best" أو الجهة يسار ;; العلاج :: Percutaneous drainage + antibiotics
+> sum: يعني باختصار: صديد = افتحي/صرّفي. Fistula مع flatus وstool = conservative.

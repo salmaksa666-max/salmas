@@ -1,0 +1,86 @@
+@ 67,68 | IBD و Colorectal cancer
+> h: Crohn vs Ulcerative colitis
+> two: Crohn :: ★ أي مكان من الفم للشرج، skip lesions، fistula، terminal ileum ;; UC :: ★ يبدأ من الـrectum ويطلع، مستمر، إسهال بدم، تدخين يحمي
+> h: كيف نشخص؟
+> list: Colonoscopy + biopsy ;; ★ UC شديد + بطن منفوخ + حرارة ← Toxic megacolon ← X-ray (لا colonoscopy)
+> h: Colorectal cancer
+> list: ★ Right side: أنيميا (iron deficiency) + تعب ;; ★ Left side: تغير بعادة البراز + دم + ضيق البراز ;; ★ كبير بأنيميا نقص حديد بدون سبب ← Colonoscopy ;; Screening: من ٤٥ سنة
+> h: Screening للعائلة
+> list: ★ قريب درجة أولى قبل ٦٠ ← Colonoscopy من ٤٠ أو قبل عمره بـ١٠ سنين ;; ○ FAP ← colectomy
+> sum: يعني باختصار: كبير + أنيميا حديد = colonoscopy. Rectum مستمر = UC.
+
+@ 69,70,71 | Hernias و Pyloric stenosis
+> h: Inguinal hernia
+> list: ★ Indirect: يطلع من الـdeep ring، شباب، ممكن ينزل للـscrotum ;; Direct: كبار، من Hesselbach triangle ;; العلاج: Elective repair (mesh)
+> h: Incarcerated أو Strangulated
+> list: ★ كتلة ما ترجع + ألم + ترجيع ← Incarcerated ;; ★ احمرار + حرارة + ألم شديد ← Strangulated ← Emergency surgery
+> h: Umbilical hernia عند الأطفال
+> list: ★ غالبًا تقفل لحالها ;; Repair لو ما قفلت بعد ٤–٥ سنين أو كبيرة
+> h: Femoral hernia
+> list: ★ امرأة كبيرة + كتلة تحت الـinguinal ligament ;; ★ خطر strangulation عالي ← repair دائمًا
+> h: Pyloric stenosis
+> list: ★ رضيع ٢–٨ أسابيع + ترجيع قوي (projectile) بدون صفار + جوعان بعده ;; كتلة زيتونة (olive) ;; ★ Hypochloremic hypokalemic metabolic alkalosis ;; الفحص: Ultrasound ;; ★ صححي السوائل والأملاح أول ← بعدين Pyloromyotomy
+> sum: يعني باختصار: Femoral = صلحيها دايمًا. Pyloric = سوائل أول ثم عملية.
+
+@ 72,73,74,75,76 | المرارة والقنوات الصفراوية
+> p: كل مشاكل المرارة تبدأ من حصوة. والفرق بينها: وين علقت الحصوة، وفيه حرارة ولا لا، وفيه صفار ولا لا.
+> h: Biliary colic
+> list: ★ ألم RUQ بعد أكل دسم، يروح خلال ساعات ;; بدون حرارة ;; ← US ثم elective cholecystectomy
+> h: Acute cholecystitis
+> list: ★ ألم RUQ مستمر + حرارة + Murphy sign ;; أول فحص: Ultrasound (جدار سميك + سوائل حولها) ;; ★ HIDA scan لو الـUS ما وضح ;; العلاج: Antibiotics + Cholecystectomy خلال ٧٢ ساعة
+> h: Choledocholithiasis و Cholangitis
+> list: ★ صفار + CBD متوسع بالـUS ← ERCP ;; ★ Charcot: حرارة + صفار + ألم RUQ = Cholangitis ;; ★ Reynolds: + confusion + ضغط واطي ;; العلاج: Antibiotics + ERCP عاجل
+> h: Gallstone pancreatitis و Gallstone ileus
+> list: Pancreatitis من حصوة ← cholecystectomy بنفس التنويم ;; ★ Gallstone ileus: obstruction + هواء بالقنوات (pneumobilia) ← surgery
+> h: Cancer
+> list: ★ Courvoisier: مرارة كبيرة ما تؤلم + صفار ← Pancreatic head cancer ;; ○ Porcelain gallbladder ← cholecystectomy
+> h: فخاخ الاختبار
+> list: ★ صفار بدون ألم = فكري بالسرطان ;; ★ حرارة + صفار = cholangitis = ERCP
+> sum: يعني باختصار: RUQ + حرارة = cholecystitis ← US. RUQ + حرارة + صفار = cholangitis ← ERCP.
+
+@ 77,78,79 | الكبد والبنكرياس
+> h: Acute pancreatitis: نشخص
+> list: ★ ألم epigastric ينتشر للظهر + ترجيع ;; الأسباب: Gallstones، Alcohol، Triglycerides ;; ★ التشخيص: ٢ من ٣ (ألم، Lipase أكثر من ٣ أضعاف، CT/US)
+> h: Acute pancreatitis: نعالج
+> box: ★ أول شي :: IV fluids (Ringer lactate) + pain control ;; أكل :: Early oral feeding لو يقدر ;; ★ Antibiotics :: بس لو infected necrosis
+> h: مضاعفات البنكرياس
+> list: ★ Pseudocyst: بعد ٤ أسابيع، كتلة + شبع مبكر ;; ما فيه أعراض ← observe. فيه أعراض ← Drainage ;; Necrosis مع غاز ← Infected
+> h: Liver abscess و Hydatid cyst
+> list: ★ Pyogenic: حرارة + ألم RUQ ← Drainage + antibiotics ;; ★ Amebic: سافر + إسهال قديم ← Metronidazole ;; ★ Hydatid: رعي غنم/كلاب + cyst فيه daughter cysts ← Albendazole + surgery (لا تسوين aspiration بسيط)
+> h: Liver tumors
+> list: ★ Hemangioma: الأشهر benign ← اتركيه ;; Adenoma: حبوب منع حمل ← وقفيها ;; ★ HCC: cirrhosis + AFP مرتفع
+> sum: يعني باختصار: Pancreatitis = سوائل. Pseudocyst بأعراض = drain. Hydatid = albendazole + surgery.
+
+@ 80,81 | حصى الكلى والدم بالبول
+> h: Renal colic: نشخص
+> list: ★ ألم جانبي شديد ينتقل للـgroin + دم بالبول + يتقلب ;; ★ أفضل فحص: Non-contrast CT ;; حامل ← Ultrasound
+> h: Renal colic: نعالج
+> box: ★ الألم :: NSAIDs ;; حصوة أقل من ١٠ مم :: Tamsulosin + سوائل (MET) ;; كبيرة :: ESWL أو ureteroscopy ;; ★ حصوة + حرارة (obstructed infected) :: Drain عاجل (stent أو nephrostomy)
+> h: Hematuria
+> list: ★ كبير مدخن + دم بالبول بدون ألم ← Bladder cancer ← Cystoscopy + CT urography ;; ★ دم مع ألم ← حصوة غالبًا ;; ○ دم بعد رياضة ← أعيدي التحليل
+> sum: يعني باختصار: حصوة + حرارة = drain فورًا. دم بدون ألم عند المدخن = cystoscopy.
+
+@ 82,83,84 | BPH و Prostate cancer و Torsion
+> h: BPH
+> list: ★ رجل كبير + يقوم بالليل + بول ضعيف ;; ★ Acute retention ← Foley catheter ;; العلاج: Alpha blocker (tamsulosin) + 5-ARI (finasteride) ;; ما نفع ← TURP
+> h: Prostate cancer
+> list: ★ Prostate قاسي nodular بالـDRE ;; PSA مرتفع ← MRI ثم biopsy ;; ★ ألم ظهر ← bone mets
+> h: Testicular torsion
+> list: ★ شاب + ألم خصية مفاجئ + ترجيع + خصية مرفوعة + cremasteric غايب ;; ★ لو الشك عالي ← Surgery فورًا بدون US ;; ○ شك بسيط ← Doppler US ;; العلاج: Detorsion + orchiopexy للجهتين
+> h: الفرق
+> two: Torsion :: مفاجئ + cremasteric غايب ← Surgery ;; Epididymitis :: تدريجي + حرارة + Prehn positive ← Antibiotics
+> list: ★ Torsion of appendix testis: Blue dot sign ← Supportive
+> h: Testicular cancer
+> list: ★ كتلة قاسية ما تؤلم ;; US ثم tumor markers ;; ★ لا تسوين biopsy من الـscrotum ← Radical inguinal orchiectomy
+> sum: يعني باختصار: ألم خصية مفاجئ = torsion = theatre. كتلة ما تؤلم = cancer = inguinal orchiectomy.
+
+@ 85,86,87,88 | Soft tissue: كتل وخراجات والتهابات
+> h: Lipoma و Sebaceous cyst
+> list: ★ Lipoma: كتلة ناعمة تتحرك ما تؤلم ;; ★ Epidermoid cyst: فيها punctum ;; العلاج: Excision لو أزعجت ;; ★ ملتهب ← I&D (مو excision)
+> h: Abscess و Cellulitis
+> list: ★ Cellulitis: احمرار منتشر حار بدون كتلة ← Antibiotics ;; ★ Abscess: كتلة fluctuant ← I&D ;; ★ Necrotizing fasciitis: ألم أكبر من الشكل + crepitus + toxic ← Surgical debridement فورًا
+> h: اليد
+> list: ★ Paronychia: حول الظفر ← drainage ;; ★ Felon: رأس الإصبع منتفخ ← I&D ;; ★ Flexor tenosynovitis: Kanavel signs ← surgery
+> h: Melanoma والجلد
+> list: ★ ABCDE: Asymmetry، Border، Color، Diameter، Evolving ;; ★ Excisional biopsy ;; BCC: لؤلؤي بالوجه. SCC: قرحة بمكان شمس أو حرق
+> sum: يعني باختصار: Fluctuant = I&D. ألم أكبر من الشكل = necrotizing fasciitis.

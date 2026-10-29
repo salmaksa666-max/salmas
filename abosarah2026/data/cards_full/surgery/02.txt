@@ -1,0 +1,83 @@
+@ 14,15,16,17 | Trauma: الـAirway والبطن
+> p: أي مريض trauma نبدأ معه بنفس الترتيب: ABCDE. وبعدها السؤال المهم: المريض stable ولا unstable؟ هذا اللي يقرر وش نسوي.
+> h: A: Airway (أول شي)
+> list: ★ GCS 8 أو أقل ← Intubate ;; ★ دم بالفم بس ← Endotracheal intubation مع حماية الرقبة ;; ★ دم بالفم + وجه مكسور ما نقدر ندخل الأنبوب ← Cricothyroidotomy ;; ★ GCS 14 مع دم يملأ الفم ← ما يحمي الـairway، intubate
+> h: B و C: التنفس والدورة
+> list: B: افحصي الصدر (tension pneumothorax، hemothorax) ;; C: وقفي النزيف + خطين وريد كبار + سوائل/دم ;; ★ ضغط واطي + نبض سريع = Hemorrhagic shock ;; ★ ضغط واطي + نبض بطيء = Spinal shock
+> h: Blunt abdominal trauma: كيف نشخص؟
+> box: ★ وصل للتو ولو vitals طبيعية :: Initial assessment & resuscitation قبل أي أشعة ;; Unstable :: FAST بالسرير. لو positive ← Laparotomy ;; Stable :: CT with contrast (أدق فحص)
+> h: Penetrating trauma (طعن أو رصاص)
+> list: ★ Omentum طالع من الجرح ← Laparotomy حتى لو الـCT نظيف ;; Peritonitis أو unstable ← Laparotomy ;; Stab مستقر بدون علامات ← ممكن CT ومراقبة
+> h: Solid organ injury (كبد، طحال، كلية)
+> list: Stable ← Non-operative management + مراقبة ;; ★ كلية فيها contrast extravasation والضغط تحسن ← Angioembolization ;; ★ ضغطه ما يتحسن رغم السوائل والدم ← Surgery ;; ★ كبد unstable ← Perihepatic packing (damage control)
+> h: فخاخ الاختبار
+> list: ★ "First thing to do" = ABCDE. "Most diagnostic" في المريض المستقر = CT ;; ★ كلمة "improved" تحوّل الجواب من laparotomy إلى angioembolization ;; ★ نفس الـFAST positive: stable ← CT، unstable ← laparotomy
+> sum: يعني باختصار: ABCDE أول، وبعدها stable = CT، unstable = FAST ثم theatre.
+
+@ 18,19,20,21,22 | Chest trauma: هواء ولا دم ولا جدار؟
+> p: الصدر غرفة مقفلة فيها الرئة والقلب. بعد الحادث يا يدخل هواء، يا دم، يا ينكسر الجدار. وتعرفين وش صار من الـpercussion والـneck veins ومكان الـtrachea.
+> h: Tension pneumothorax
+> list: وش هو: هواء يدخل ولا يطلع، يضغط الرئة والقلب ;; ★ المريض unstable + trachea منحرفة + neck veins منتفخة + hyperresonant + صوت التنفس غايب ;; العلاج: Needle decompression فورًا ثم chest tube ;; ★ لا تنتظرين X-ray أبدًا
+> h: Massive hemothorax
+> list: وش هو: دم كثير في الصدر ;; ★ Dull بالـpercussion + صدمة + neck veins مسطحة ;; العلاج: Chest tube + دم وسوائل ;; لو طلع ١٥٠٠ مل مرة وحدة أو يستمر النزيف ← Thoracotomy
+> h: Open pneumothorax
+> list: ★ جرح يسحب هواء (sucking wound) ;; العلاج: Occlusive dressing على ٣ جوانب ;; ★ لو سدّيتيه ٤ جوانب يصير tension ;; بعدها chest tube
+> h: Flail chest و Pulmonary contusion
+> list: ★ Flail: ضلوع مكسورة بأكثر من مكان + حركة عكسية للجدار (paradoxical) ;; ★ Contusion: كسور + opacity جديد بالـX-ray بعد ساعات ;; العلاج: Oxygen + مسكن قوي ;; ★ لو SpO2 نزل (مثل ٨٤٪) أو تعب ← Ventilation
+> h: حالات ثانية
+> list: ★ Tracheobronchial injury: هواء بالرقبة والـmediastinum + pneumothorax ما يتحسن ← Bronchoscopy ;; ○ Cardiac tamponade: ضغط واطي + neck veins منتفخة + صوت قلب بعيد ← Pericardiocentesis ;; ○ Aortic injury: حادث سرعة + mediastinum واسع ← CT angiography
+> h: الفرق
+> two: Tension pneumothorax :: Hyperresonant + neck veins منتفخة ← Needle ;; Massive hemothorax :: Dull + neck veins مسطحة ← Chest tube
+> sum: يعني باختصار: Hyperresonant = هواء = Needle. Dull = دم = Chest tube.
+
+@ 23,24 | Pelvic fracture: نزيف وإصابة مجرى البول
+> p: الحوض عظم كبير، لو انكسر ينزف كثير ممكن يموّت المريض. وغالبًا يصيب مجرى البول أو المثانة معه.
+> h: كيف يجي المريض؟
+> list: ألم حوض بعد حادث ;; ★ Pelvic instability + ضغط واطي ;; ★ دم عند فتحة البول (blood at the meatus) ;; ما يقدر يبول، أو scrotal hematoma
+> h: النزيف: كيف نعالج؟
+> box: ★ أول خطوة :: Pelvic binder (يقفل الحوض ويقلل النزيف) ;; مع :: Blood transfusion ;; لو استمر النزيف :: Angioembolization أو pelvic packing
+> note: ★ نزيف الحوض علاجه binder مو laparotomy.
+> h: مجرى البول (Urethra)
+> box: ★ Blood at meatus :: لا تحطين Foley ;; أول فحص :: Retrograde urethrogram (RUG) ;; ★ لو فيه tear :: Suprapubic catheter
+> h: المثانة (Bladder)
+> two: Extraperitoneal rupture :: ★ أشيع مع كسر الحوض ← Catheter drainage أسبوعين ثم صورة ;; Intraperitoneal rupture :: البول يدخل البطن ← Surgery
+> h: فخاخ الاختبار
+> list: ★ تحطين Foley بعد ما الـRUG بيّن tear = الجواب الغلط ;; ★ Extra = catheter، Intra = theatre
+> sum: يعني باختصار: Binder للنزيف، ودم بالمجرى = RUG قبل أي Foley.
+
+@ 25,26,27,28 | إصابات الأطراف والحروق
+> h: Open fracture
+> list: وش هو: كسر والعظم مكشوف من الجرح ;; ★ العلاج: IV antibiotics خلال أول ساعة + tetanus ;; ثم Debridement بالعمليات ;; ★ لو فيه نزيف نشط ← وقفي النزيف أول
+> h: Compartment syndrome
+> list: وش هو: ضغط داخل العضلات يقطع الدم بعد كسر أو ضربة ;; أول علامة: ألم شديد أكبر من الإصابة، ويزيد لما نحرك الأصابع ;; ★ Pulselessness علامة متأخرة ;; العلاج: Fasciotomy فورًا
+> h: Supracondylar fracture عند الأطفال
+> list: ★ يد باردة شاحبة بدون نبض ← Surgical exploration (إصابة الشريان) ;; ألم شديد + تورم ← Compartment ← Fasciotomy
+> h: High-pressure injection injury
+> list: ★ حقن زيت أو بوية بقوة في الإصبع ;; ★ الشكل خفيف بالبداية (tenderness بسيط وإحساس سليم) لكن الداخل متضرر ;; العلاج: Surgical debridement بالعمليات
+> h: الحروق
+> list: ★ Superficial partial: ألم + رطب + blisters ;; Deep partial / full thickness: أقل ألم أو بدون ألم، جلد أبيض أو جلدي ;; ★ Circumferential burn + نبض ضعيف ← Escharotomy ;; ★ شعر أنف محروق + confusion أو بحة أو soot ← Intubation مبكر
+> sum: يعني باختصار: الألم الأكبر من الإصابة = compartment. الحرق الدائري = escharotomy. علامات الاستنشاق = intubate.
+
+@ 29,30,31,32 | إصابات الرأس والنزيف داخل الجمجمة
+> h: Epidural hematoma
+> list: وش هو: نزيف من شريان (middle meningeal) بعد ضربة على جانب الرأس ;; ★ يصحى ويطيح (lucid interval) ;; CT: شكل عدسة (lens/convex) ;; ★ العلاج: Evacuation فورًا. لو GCS ٨ أو أقل ← intubate أول
+> h: Subdural hematoma
+> list: وش هو: نزيف من أوردة، شائع بكبار السن والكحول ;; ★ كبير طاح + confusion ;; CT: شكل هلال (crescent/banana) ;; العلاج: حسب الحجم والأعراض
+> h: Herniation (ضغط الدماغ)
+> list: ★ Pupil متوسع + skull fracture + وعي ناقص ;; "Next best" ← Craniotomy ;; ★ "Initial" بدون خيار craniotomy ← Hyperventilation / mannitol مؤقت
+> h: Subarachnoid hemorrhage
+> list: ★ "أسوأ صداع بحياتي" مفاجئ ;; أول فحص: CT بدون contrast ;; ★ CT طبيعي والشك قائم ← LP ;; ○ السبب الأشهر: aneurysm
+> h: الفرق
+> two: Epidural :: Lucid interval + lens shape ;; Subdural :: كبير السن + crescent shape
+> sum: يعني باختصار: Banana = subdural. Egg/lens = epidural. أسوأ صداع = CT ثم LP.
+
+@ 33,34 | العمود الفقري: الأعصاب والـcord
+> h: Radiculopathy (عصب مضغوط)
+> list: ★ تنميل الساق الجانبية + طرف القدم الجانبي ← S1 ;; Dorsum القدم + الإصبع الكبير ← L5 ;; ★ ضعف اليد مع تمديد الرقبة + MRI الدماغ طبيعي ← Cervical spine MRI
+> h: Spinal cord compression
+> list: ★ ضعف بالرجلين + sensory level (مثل T10) + احتباس بول أو incontinence ;; ★ Brisk reflexes ← cord (مو GBS ولا cauda equina) ;; الفحص: MRI spine طارئ ;; ○ السبب: سرطان، disc، abscess
+> h: Spinal epidural abscess
+> list: ★ حرارة + ألم ظهر + ضعف أو incontinence ;; الفحص: MRI ;; ★ العلاج: Surgical decompression + antibiotics (مو antibiotics بس)
+> h: الفرق
+> two: Cord lesion :: Sensory level + brisk reflexes + Babinski ;; GBS :: ضعف صاعد + areflexia + بدون sensory level
+> sum: يعني باختصار: Sensory level = cord = MRI بسرعة.

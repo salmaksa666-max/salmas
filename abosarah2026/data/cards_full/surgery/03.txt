@@ -1,0 +1,34 @@
+@ 35,36,37 | Acute ischemia: الأمعاء والرجل وBuerger
+> h: Mesenteric ischemia: وش هو؟
+> list: الشريان اللي يغذي الأمعاء ينسد فجأة (غالبًا جلطة من القلب) ;; ★ مريض عنده AF أو IHD ;; ★ ألم بطن شديد جدًا والفحص هادي (pain out of proportion)
+> h: Mesenteric ischemia: نشخص ونعالج
+> box: ★ Initial :: CT angiography (الـplain X-ray يطلع طبيعي) ;; ★ Gold standard :: Mesenteric angiography ;; العلاج :: Resuscitation + heparin + جراحة/فتح الشريان
+> h: Acute limb ischemia
+> list: ★ ٦ P: Pain، Pallor، Pulseless، Paresthesia، Paralysis، Poikilothermia ;; ★ Paralysis + paresthesia = الرجل مهددة ← Vascular surgeon ;; ★ AF + ألم رجل مفاجئ + شلل ← Embolectomy بدون imaging ;; ★ "Most appropriate diagnostic" ← CT angiography، "Next step" ← Heparin
+> h: Buerger disease
+> list: ★ شاب مدخن + toe ulcers + superficial thrombophlebitis ;; ★ العلاج الأهم: Stop smoking (مو anticoagulant)
+> h: فخاخ الاختبار
+> list: ★ Amylase مرتفع شوي (أقل من ٣ أضعاف) لا يعني pancreatitis ;; ★ Rest pain بدون بداية مفاجئة = chronic، مو acute
+> sum: يعني باختصار: AF + ألم كبير والفحص هادي = mesenteric ischemia ← CT angiography.
+
+@ 38,39 | قرح الرجل والقدم السكرية
+> h: كيف أفرق نوع القرحة؟
+> list: ★ Venous: فوق الكعب من الداخل (medial) + تورم وتصبغ ;; ★ Arterial: أصابع أو جانب القدم + نبض غايب + ألم ;; ★ Neuropathic: قدم مريض السكر (تحت الكعب أو الأصابع) والنبض موجود ;; ★ Marjolin: قرحة ما تشفى على ندبة حرق قديم ← Biopsy (SCC)
+> h: القدم السكرية: نشخص
+> list: ★ قرحة فوق العظم + إفراز ← شك osteomyelitis ← MRI (أو CT) ;; ★ تورم ربلة الساق + حرارة + النبض موجود ← Duplex (DVT) ;; تقييم النبض ← ABI
+> h: القدم السكرية: نعالج
+> box: ★ قرحة ريحتها كريهة أو فيها نسيج ميت :: Debridement أول ;; بعدها :: Antibiotics + offloading + ضبط السكر ;; جرح نظيف :: ممكن vacuum (NPWT)
+> h: فخاخ الاختبار
+> list: ★ "MR angiography" دراسة أوعية، مو MRI اللي يشخص osteomyelitis ;; ★ Foot مو Leg: قرحة القدم عند السكري مع نبض = neuropathic
+> sum: يعني باختصار: Medial leg = venous. أصابع بدون نبض = arterial. قدم سكري مع نبض = neuropathic.
+
+@ 40,41 | Carotid و Aorta
+> h: Carotid stenosis
+> list: وش هو: تضيّق شريان الرقبة يسبب TIA أو stroke ;; ★ TIA (ضعف دقايق وزال) ← Carotid duplex أول ;; ★ "Symptomatic" = صار TIA أو stroke بنفس الجهة، حتى لو الحين بخير ;; ★ Symptomatic + تضيق ٧٠–٩٩٪ ← Carotid endarterectomy
+> h: علاج TIA
+> list: ★ ما فيه AF ← Antiplatelet (aspirin) + statin ;; لو ECG فيه AF ← Anticoagulation
+> h: Aortic dissection
+> list: ★ ألم صدر أو epigastric حاد ينتشر للظهر ;; ★ Widened mediastinum بالـX-ray ;; الفحص: CT angiography ;; Type A (ascending) ← Surgery. Type B ← BP control
+> h: AAA (aortic aneurysm)
+> list: ★ Screening: رجل + مدخن + ٦٥ سنة ← Ultrasound ;; ★ ألم فوق السرة بكبير السن والإنزيمات طبيعية ← فكري بالـaorta (US ثم CT angio)
+> sum: يعني باختصار: TIA ← carotid duplex. ألم للظهر + mediastinum واسع = dissection.

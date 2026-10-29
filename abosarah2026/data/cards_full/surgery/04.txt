@@ -1,0 +1,44 @@
+@ 42,43,44 | الغدة الدرقية: Nodule وسرطان وعملية
+> p: أي كتلة بالغدة نمشي فيها بنفس الطريق: TSH أول، بعدين ultrasound، بعدين FNA.
+> h: Thyroid nodule: كيف نشخص؟
+> box: ★ أول فحص :: TSH ;; TSH طبيعي أو مرتفع :: Ultrasound ثم FNA ;; ○ TSH واطي :: Thyroid scan (ممكن hot nodule)
+> h: متى نشك إنه سرطان؟
+> list: Nodule قاسي وما يتحرك ;; ★ غدد لمفاوية بالرقبة ;; بحة صوت ;; تاريخ إشعاع بالرقبة وهو صغير ;; Microcalcification بالـUS
+> h: أنواع السرطان
+> list: ★ Papillary: الأشهر، ينتشر للـlymph nodes، Psammoma bodies ;; Follicular: ينتشر بالدم (عظم ورئة) ;; ★ Medullary: من C cells، Calcitonin، مع MEN2 ;; Anaplastic: كبير السن، سريع وسيء
+> h: بعد العملية: وش ممكن يصير؟
+> list: ★ تنميل حول الفم + تشنج + Chvostek/Trousseau ← Hypocalcemia (parathyroid) ← IV calcium gluconate ;; ★ بحة ← Recurrent laryngeal nerve ;; ★ تورم رقبة + صعوبة تنفس ← Hematoma ← افتحي الجرح بالسرير فورًا ;; ○ بحة بالنبرة العالية ← Superior laryngeal nerve
+> h: فخاخ الاختبار
+> list: ★ Hematoma مع ضيق تنفس: الجواب فتح الجرح مو CT ولا intubation أول ;; ★ Medullary ← افحصي pheochromocytoma قبل العملية
+> sum: يعني باختصار: TSH ثم US ثم FNA. بعد العملية: تنميل = calcium. ضيق تنفس = افتحي الجرح.
+
+@ 45,46,47,48,49 | الثدي: كتلة وألم وإفراز
+> p: أول سؤال بكتلة الثدي: كم عمرها؟ تحت ٣٠ نبدأ بـultrasound، وفوق ٣٠ أو ٤٠ نبدأ بـmammogram + US.
+> h: الكتلة: كيف نشخص؟
+> box: ★ عمرها أقل من ٣٠ :: Ultrasound ;; ★ عمرها ٤٠ أو أكثر :: Mammogram + US ;; أي كتلة مشكوكة :: Core needle biopsy (triple assessment)
+> h: أشهر الأنواع
+> list: ★ Fibroadenoma: بنت صغيرة + كتلة ناعمة تتحرك (breast mouse) ← Reassure / follow-up ;; ★ Fibrocystic: ألم قبل الدورة + كتل بالجهتين ;; ★ Cyst: كتلة تنعصر وتختفي بالـaspiration ;; ★ Fat necrosis: بعد ضربة أو عملية، تشبه السرطان ← biopsy
+> h: الإفراز من الحلمة
+> list: ★ دم من فتحة وحدة ← Intraductal papilloma ;; أخضر أو لزج بالجهتين بعمر الأربعين ← Duct ectasia ;; ★ حليب بدون حمل ← Prolactin
+> h: الالتهاب والخراج
+> list: ★ مرضعة + احمرار وحرارة ← Mastitis ← antibiotics + كملي الرضاعة ;; ★ لو فيه كتلة مليانة صديد ← Abscess ← US-guided aspiration أو drainage
+> h: السرطان
+> list: ★ كتلة قاسية ثابتة + جلد مثل البرتقال (peau d'orange) ;; ○ Paget: حلمة متقشرة ما تشفى ← biopsy ;; الأسباب: BRCA، أول دورة مبكرة، menopause متأخر، بدون رضاعة
+> h: فخاخ الاختبار
+> list: ★ "Continue breastfeeding" هو الجواب الصح بالـmastitis ;; ★ Fat necrosis يشبه السرطان، فلازم biopsy
+> sum: يعني باختصار: صغيرة = US. كبيرة = mammogram. دم من الحلمة = papilloma.
+
+@ 50,51,52,53 | المريء: بلع وألم وتمزق
+> h: Achalasia
+> list: وش هو: العضلة تحت المريء ما ترتخي ;; ★ صعوبة بلع للأكل والسوائل من البداية ;; Barium: Bird's beak ;; ★ التشخيص الأكيد: Manometry ;; العلاج: Pneumatic dilation أو Heller myotomy
+> h: Cancer of esophagus
+> list: ★ صعوبة بلع تزيد: أكل صلب أول ثم سوائل + نقص وزن ;; Squamous: تدخين وكحول، الجزء العلوي ;; Adenocarcinoma: Barrett و GERD، الجزء السفلي ;; أول فحص: Endoscopy + biopsy
+> h: Boerhaave (تمزق المريء)
+> list: ★ ترجيع قوي (بعد أكل أو شرب كثير) ثم ألم صدر حاد ;; ★ هواء تحت الجلد بالرقبة (subcutaneous emphysema) ;; الفحص: Gastrografin swallow أو CT ;; العلاج: Surgery + antibiotics
+> h: Mallory-Weiss
+> list: ★ ترجيع متكرر ثم دم أحمر بسيط ;; تمزق بالـmucosa بس ;; يوقف لحاله غالبًا (supportive)
+> h: GERD و Barrett
+> list: حرقة بعد الأكل والنوم ← PPI ;; ★ علامات خطر (نقص وزن، صعوبة بلع، أنيميا) ← Endoscopy ;; Barrett ← متابعة بالمنظار
+> h: الفرق
+> two: Boerhaave :: تمزق كامل + ألم صدر + هواء بالرقبة ← Surgery ;; Mallory-Weiss :: تمزق سطحي + دم بسيط ← Supportive
+> sum: يعني باختصار: صعوبة بلع للصلب والسائل من البداية = achalasia. صلب ثم سائل + نقص وزن = cancer.

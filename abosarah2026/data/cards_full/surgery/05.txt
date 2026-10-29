@@ -1,0 +1,51 @@
+@ 54,55,56 | المعدة: Peptic ulcer والنزيف العلوي
+> h: Peptic ulcer
+> list: ★ Duodenal: ألم يتحسن مع الأكل، يصحيه بالليل ;; Gastric: ألم يزيد مع الأكل ;; الأسباب: H. pylori و NSAIDs ;; العلاج: PPI + علاج H. pylori (triple therapy)
+> h: Perforation (انثقاب)
+> list: ★ ألم بطن مفاجئ شديد + بطن قاسي مثل الخشب ;; ★ Erect chest X-ray: هواء تحت الحجاب (free air) ;; العلاج: Resuscitation ثم Surgery (Graham patch)
+> h: Upper GI bleeding: كيف نتعامل؟
+> box: ★ أول شي :: ABC + خطين وريد + سوائل/دم ;; بعدها :: IV PPI ;; ★ خلال ٢٤ ساعة :: Endoscopy (للتشخيص والعلاج)
+> h: Variceal bleeding (مريض cirrhosis)
+> list: ★ Cirrhosis + ترجيع دم كثير ;; قبل المنظار: Octreotide + antibiotics (ceftriaxone) ;; ★ Endoscopic band ligation ;; لو ما وقف ← TIPS
+> h: فخاخ الاختبار
+> list: ★ Melena = نزيف علوي غالبًا ;; ★ المريض unstable: resuscitation أول قبل أي منظار
+> sum: يعني باختصار: نزيف علوي = ABC ثم PPI ثم منظار. Cirrhosis = octreotide + antibiotics.
+
+@ 57,58,59,60 | البطن الحاد: Appendicitis و Obstruction و Volvulus
+> h: Appendicitis
+> list: ★ ألم حول السرة ثم ينتقل لليمين تحت (RLQ) + ترجيع + حرارة ;; فحص: McBurney tenderness، Rovsing ;; ★ الأطفال والبالغين: Clinical أو US. البالغ: CT ;; ★ حامل ← US أو MRI (مو CT) ;; العلاج: Appendectomy + antibiotics
+> h: Appendiceal mass أو abscess
+> list: ★ ألم من أيام + كتلة بالـRLQ ;; العلاج: Antibiotics + percutaneous drainage ;; وبعدين Interval appendectomy
+> h: Small bowel obstruction
+> list: ★ ترجيع + انتفاخ + ما يطلع غازات + عمليات قديمة (adhesions) ;; X-ray: Air-fluid levels ;; ★ العلاج الأول: NPO + NG tube + IV fluids ;; ★ ألم مستمر + حرارة + tenderness ← strangulation ← Surgery
+> h: Volvulus
+> list: ★ Sigmoid: كبير السن بدار رعاية + إمساك + انتفاخ كبير ;; X-ray: Coffee bean ;; ★ Sigmoid ← Endoscopic decompression أول ;; Cecal ← Surgery
+> h: فخاخ الاختبار
+> list: ★ Mass = لا تسوين appendectomy مباشرة ;; ★ Peritonitis أو gangrene بالـvolvulus ← Surgery مباشرة
+> sum: يعني باختصار: Obstruction بدون علامات خطر = NG + fluids. Coffee bean = sigmoid ← scope.
+
+@ 61,62,63 | Diverticular disease و LGIB و Meckel
+> h: Diverticulosis
+> list: وش هو: جيوب صغيرة بجدار القولون (left side) ;; ★ أكثر سبب للنزيف السفلي عند كبار السن، نزيف بدون ألم ;; العلاج: Fiber
+> h: Diverticulitis: نشخص
+> list: ★ ألم يسار تحت (LLQ) + حرارة + كبير السن ;; ★ أفضل فحص: CT with contrast ;; ★ لا تسوين colonoscopy وقت الالتهاب
+> h: Diverticulitis: نعالج
+> box: بسيط :: Oral antibiotics + سوائل ;; ★ Abscess :: Percutaneous drainage ;; Perforation + peritonitis :: Surgery (Hartmann) ;; ★ بعد ٦ أسابيع :: Colonoscopy عشان نستبعد cancer
+> h: Lower GI bleeding
+> box: أول شي :: Resuscitation ;; ★ مستقر :: Colonoscopy ;; ★ نزيف شديد :: CT angiography ثم embolization
+> h: Meckel diverticulum
+> list: ★ طفل + نزيف أحمر من الشرج بدون ألم ;; قاعدة الـ2: ٢٪، عمر سنتين، ٢ قدم من الـileocecal ;; الفحص: Technetium scan (Meckel scan)
+> sum: يعني باختصار: LLQ + حرارة = diverticulitis ← CT. طفل ينزف بدون ألم = Meckel scan.
+
+@ 64,65,66 | الشرج: Fissure و Hemorrhoids و Abscess و Fistula
+> h: Anal fissure
+> list: ★ ألم شديد وقت البراز + دم بسيط على المنديل ;; مكانه: posterior midline ;; العلاج: Fiber + sitz bath + Topical nitrate ;; ما تحسن ← Lateral internal sphincterotomy
+> h: Hemorrhoids
+> list: ★ دم أحمر بدون ألم مع البراز ;; Internal: بدون ألم. External thrombosed: ألم + كتلة زرقاء ;; ★ Thrombosed خلال ٧٢ ساعة ← Excision
+> h: Perianal abscess
+> list: ★ ألم + تورم أحمر + حرارة ;; ★ العلاج: Incision and drainage (مو antibiotics بس)
+> h: Fistula in ano
+> list: ★ إفراز متكرر من فتحة جنب الشرج بعد abscess ;; العلاج: Fistulotomy أو seton ;; ○ متعدد ← فكري بـCrohn
+> h: Pilonidal sinus
+> list: ★ شاب كثير الشعر + فتحة أو خراج فوق الـcoccyx ;; Abscess ← I&D. Chronic ← Excision
+> sum: يعني باختصار: ألم مع دم = fissure. دم بدون ألم = hemorrhoids. خراج = I&D.

@@ -51,10 +51,14 @@ LAT = re.compile(r"[A-Za-z][A-Za-z0-9'’\-/.+%±↑↓]*(?: (?:[A-Za-z0-9±][A-
 
 
 def e(t):
-    t = html.escape(t.strip(), quote=False)
-    t = LAT.sub(lambda m: f'<bdi dir="ltr">{m.group(0)}</bdi>', t)
-    t = t.replace("★", '<span class="st">★</span>').replace("○", '<span class="ex">○</span>')
-    return t
+    t = t.strip()
+    out, last = [], 0
+    for m in LAT.finditer(t):
+        out.append(html.escape(t[last:m.start()], quote=False))
+        out.append(f'<bdi dir="ltr">{html.escape(m.group(0), quote=False)}</bdi>')
+        last = m.end()
+    out.append(html.escape(t[last:], quote=False))
+    return "".join(out).replace("★", '<span class="st">★</span>').replace("○", '<span class="ex">○</span>')
 
 
 def box(t):
