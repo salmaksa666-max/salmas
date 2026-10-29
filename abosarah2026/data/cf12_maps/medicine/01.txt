@@ -1,0 +1,98 @@
+@ 89,90 | Hypertension: when to treat, renal artery stenosis
+> idea: ضغط عالي: متى أبدأ دواء؟ وإذا الشاب أو المرأة الصغيرة ضغطها عالي مع علامات غريبة ← فكري secondary.
+> flow Starting treatment: ★ BP عالي بقراءات متكررة + hyperlipidemia (على statin) :: Antihypertensive agents (مو lifestyle بس) ;; ○ بدون risk factors زيادة :: Lifestyle أول
+> flow Renal artery stenosis: ★ شابة + HTN + flank bruit + flash pulmonary edema :: Suspect RAS ;; ★ Obese :: CT angiography (مو US) ;; ○ Kidney function ضعيف :: MRA بدل CTA
+> trick: ★ الـrisk factor الإضافي (dyslipidemia + statin) هو اللي ينقل الجواب من lifestyle إلى medication.
+> trick: ★ Flank bruit + pulmonary edema مرات متكررة = renal artery stenosis.
+
+@ 91,92 | Coronary risk factors, MI complication, heart failure
+> idea: القلب: مين السبب؟ المريض stable ولا لأ؟ وبالـHF: الدوا يتعدل حسب الـlab.
+> flow ACS: ★ ST-depression II, III, aVF + HTN + 5 pack-year :: أكبر risk factor = Hypertension (Smoking لو "heavy" ٣٠+ pack-years) ;; ★ MI + systolic murmur للإبط + hypotension :: Acute mitral regurgitation
+> flow Heart failure: ★ ضيق نفس لما يستلقي + بدون chest pain (قديم IHD) :: Pulmonary edema ;; ★ Dyspnea + basal crackles + HTN :: BNP ثم echo ;; ★ HF على ARNI + spironolactone + Hyperkalemia ٥٫٨ بدون أعراض :: Reduce spironolactone (وكمّل الـARNI)
+> trick: ★ Systolic murmur للإبط عند مريض MI + shock ← MR (مو cardiogenic shock بس).
+> trick: ★ "Cause of the complaint" = آلية العرض (fluid بالـalveoli)، مو اسم المرض.
+> trick: ★ Mild hyperkalemia asymptomatic ← قلّلي spironolactone، لا توقفين كل الدوا.
+
+@ 93,94 | Atrial fibrillation & rheumatic heart disease
+> idea: AF: الأسئلة دايم: وش أستخدم (rate ولا rhythm ولا anticoag)؟ والـrheumatic: murmur جديد = echo.
+> flow AF treatment: ★ HFrEF + AF :: Digoxin (لو beta-blocker بالخيارات فهو أحسن) ;; ★ "Maintain sinus rhythm" بعد cardioversion :: Amiodarone (rhythm control) ;; ★ Persistent AF + HTN + DM :: Anticoagulation: DOAC لو موجود، وإلا Warfarin
+> flow Rheumatic: ★ Rheumatic fever قديم + early diastolic decrescendo murmur (aortic) + BP 154/56 :: Immediate echocardiography
+> trick: ★ "Control the rate" = beta-blocker أو CCB. "Maintain sinus rhythm" = rhythm drug.
+> trick: ★ DOAC أحسن من warfarin، وwarfarin أحسن من أي antiplatelet.
+> trick: ★ أي murmur جديد مع rheumatic history = echo الحين.
+
+@ 95,96,97 | Shock, pulmonary embolism, AAA screening
+> idea: Shock: بارد ولا دافي؟ وPE: stable ولا massive؟
+> flow Shock: ★ HF + cold extremities + hypotensive + norepinephrine ما استجاب :: Add dobutamine (inotrope) ;; ★ ICU + 6 L fluid + CVP عالي :: Stop fluids ← Norepinephrine
+> flow PE: ★ Massive PE (unstable) :: Thrombolysis ;; ○ Stable PE :: LMWH
+> flow Screening: ★ Male + smoker + 65 :: AAA ultrasound
+> trick: ★ Cold extremities مع HF = مشكلة inotrope. Warm vasodilated = vasopressor.
+> trick: ★ Large fluid volume + CVP عالي ← stop fluids وابدأي norepinephrine.
+
+@ 98,99,100 | COPD, pneumonia, lung abscess
+> idea: COPD: SpO2 وCO2 يحددون. Pneumonia: admit ولا لأ؟ والعضوية الأكثر.
+> flow COPD: ★ Stable + SpO2 89–91% :: Pneumococcal vaccine (مو home O2) ;; ○ SpO2 ≤ 88% at rest :: Home oxygen ;; ★ Severe + drowsy + RR 10 + pH 7.25 :: Intubation (مو BiPAP)
+> flow Pneumonia: ★ DM + smoker + RLL infiltrate :: Admit + ceftriaxone + azithromycin ;; ★ Consolidation + neutrophilia + بدون comorbidity :: Streptococcus pneumoniae ;; ★ Foul sputum + air-fluid level :: Lung abscess ← Aspiration + antibiotics
+> trick: ★ RR بطيء + drowsy في hypercapnic COPD = exhaustion مو تحسن.
+> trick: ★ بدون risk factors ← أكثر organism = S. pneumoniae.
+
+@ 101,102,103,104 | Pleural effusion, lung cancer, hypoxemia, smoking cessation
+> idea: Effusion: sample أول. وبـmalignant recurrent: catheter. وSpO2 واطي مع ABG طبيعي = سؤال.
+> flow Effusion: ★ Pneumonia + effusion صغير :: Diagnostic thoracocentesis ;; ★ Smoker + weight loss + exudate (pH 7.3, glucose low) + recurrent :: Indwelling tunneled catheter ;; ○ Chronic malignant :: Pleurodesis
+> flow Others: ★ Adenocarcinoma + spiculated apical nodules + hormone-negative :: Surgical ;; ★ SpO2 75 + ABG طبيعي + سبق viral illness :: Saturation gap (الجواب بالمفتاح Pulmonary edema) ;; ★ أعلى success rate للإقلاع :: Varenicline
+> trick: ★ "Not the first time" + weight loss + smoker = malignant recurrent ← IPC / pleurodesis.
+> trick: ★ Metastases/malignant effusion تحول الجواب من surgery إلى systemic therapy.
+
+@ 105,106 | GERD & upper GI bleeding / varices
+> idea: GERD مع alarm sign (Hb واطي) = scope. ونزيف الـvarices: خطوات.
+> flow GERD: ★ Chest pain يزيد بالاستلقاء + Hb واطي :: Endoscopy (مو PPI trial)
+> flow UGIB: ★ Chronic liver disease + hematemesis + فشل octreotide + ligation :: TIPS ;; ★ Hematemesis ساعتين + melena + epigastric tenderness :: "Definitive" = Upper endoscopy
+> trick: ★ Low Hb في reflux stem = scope الحين.
+> trick: ★ "Initial" في unstable bleed = resuscitation. "Definitive" = endoscopy.
+
+@ 107 | Bleeding on warfarin
+> idea: INR عالي + نزيف: كل قرار يعتمد على الشدة.
+> flow Major bleed: ★ Metallic valve + warfarin + bloody stool + shock + INR 7 :: Prothrombin complex concentrate (PCC) ;; ○ + Vitamin K :: مع PCC
+> flow Minor bleed: ★ AF + warfarin + nosebleed + herbal + INR 4.4 :: Stop the herb + recheck INR في ٤٨ ساعة
+> trick: ★ Bleeding + high INR: اللي يصلح coagulopathy (PCC) أحسن من fluids/blood لحاله.
+> trick: ★ INR عالي بعد herbal جديد ← وقفي الـherbal وأعيدي الفحص، لا تقطعين anticoagulation.
+
+@ 108,109,110 | Colorectal cancer: screening, suspected cancer, FAP
+> idea: Screening يعتمد على عمر القريب. والأعراض = colonoscopy.
+> flow Screening: ★ Average risk (no FH) :: At 50 and every 10 years (لو "45" بالخيارات فهو أحدث) ;; ★ قريب dx at 50 :: Start screening now (عمر القريب ١٠ سنين) وكرري ١٠ سنين ;; ★ National program :: Colorectal cancer
+> flow Symptoms: ★ Bowel habit change + bloody + weight loss :: Colonoscopy with biopsy ;; ★ Bloody diarrhea + mother وbrother + guaiac positive :: Familial polyposis (FAP)
+> trick: ★ عمر القريب وقت التشخيص يحدد بداية الفحص والفترة.
+> trick: ★ FOBT للأصحاء. الأعراض = colonoscopy.
+> trick: ○ Peutz-Jeghers لو في perioral pigmentation. UC لو urgency/tenesmus.
+
+@ 111,112,113 | IBD/PSC, chronic diarrhea, typhlitis
+> idea: ثلاث أسئلة: IBD (UC/Crohn's/PSC)، إسهال مزمن بعد سفر، وneutropenic بألم RLQ.
+> flow IBD: ★ UC سنوات + high bilirubin + multifocal bile duct strictures :: Primary sclerosing cholangitis ;; ★ Skip lesions + strictures :: Crohn's disease
+> flow Diarrhea: ★ Travel tropics + abdominal pain شهور + negative culture :: Tropical sprue ;; ★ Travelers' diarrhea prophylaxis + aspirin :: No need for antibiotics (bismuth + aspirin = salicylate)
+> flow Typhlitis: ★ ALL على chemo + WBC 0.9 + RLQ pain + rebound :: CT (مو US)
+> trick: ★ Big ducts beaded على MRCP = PSC. Normal ducts + AMA = PBC.
+> trick: ★ Neutropenic adult + RLQ pain ← CT. طفل مع appendicitis ← US.
+
+@ 114,115,116,117 | Hemolysis, sickle cell, tumor lysis, radiation
+> idea: Hemolysis: labs + Coombs. Sickle: acute chest. TLS: electrolytes.
+> flow Hemolysis: ★ Low Hb + low haptoglobin + high LDH + high indirect bilirubin :: Coombs test (يشخص السبب) ;; ★ Mycoplasma + antibiotic جديد + jaundice يوم ٣ :: Drug-induced ← Stop antibiotic
+> flow Sickle cell: ★ Hypoxic + new infiltrate + fever :: Acute chest syndrome ← Exchange transfusion ;; ★ Electrophoresis: Disease :: NO HbA (Trait عنده HbA وHbS)
+> flow TLS & radiation: ★ Chemo + high K + high urate + low Ca :: TLS ← Hyperkalemia + hypocalcemia ;; ★ TLS + oliguria + K ٦ :: Hydration + Lasix (loop) ;; ★ Radiation 20 Gy + nausea/vomiting/abdominal pain :: Bone marrow destruction
+> trick: ★ Calcium هو الوحيد اللي ينزل في TLS.
+> trick: ★ "Next step" في anemia = reticulocytes. اللي "يشخص" الـhemolysis = Coombs.
+> trick: ★ Sickle: لو السؤال "REDUCE future episodes" ← Hydroxyurea.
+
+@ 118,119,120 | AKI, CKD, post-streptococcal GN
+> idea: Kidney: AKI من إيش؟ CKD: وش تضيفين؟ وPSGN: الوقت بعد الحلق.
+> flow AKI: ★ Vomiting/diarrhea + urine Na ٦٠ + urine osm ٢٥٠ :: ATN (مو prerenal) ;; ★ بعد marathon + dark urine + dipstick + بدون RBC :: Rhabdomyolysis ← Hydration
+> flow CKD: ★ CKD + HTN + DM + metformin + ACEi + statin :: Add Dapagliflozin (SGLT2) ;; ★ HTN ١٠ سنين + DM جديد :: Hypertensive nephrosclerosis (الأقدم) ;; ★ Polycystic kidneys + eGFR ٣٦→١٨ + no overload :: Prepare for transplant
+> flow PSGN: ★ Periorbital swelling + hematuria + HTN + sore throat قبل ٣ أسابيع + ASO + :: PSGN
+> trick: ★ Prerenal history ما يعني prerenal AKI: urine Na وosmolality يحددون.
+> trick: ★ Dipstick blood + microscopy بدون RBC = pigment (myoglobin).
+> trick: ★ Hematuria بعد الحلق بيوم يومين = IgA nephropathy. بعد ٣ أسابيع = PSGN.
+
+@ 121 | Hyponatremia & electrolytes
+> idea: Na واطي: سبب الـvolume (SIADH ولا dehydration)؟ والعلاج لا يكون سريع.
+> flow Hyponatremia: ★ بعد hip surgery + D5W + Na 121 + urine osm 600 + urine Na 46 :: SIADH-like ← Fluid restriction & monitoring ;; ★ Brain tumor + low Na + low K :: SIADH ;; ★ Chronic vomiting + dehydration + بدون labs :: Electrolyte disturbance
+> trick: ★ كلمة "RAPID" في الخيار = الفخ (correction سريع خطر).
+> trick: ★ Euvolemic = SIADH (restrict fluid). Dehydrated = cerebral salt wasting (saline).

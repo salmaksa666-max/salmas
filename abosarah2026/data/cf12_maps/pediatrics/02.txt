@@ -1,0 +1,36 @@
+@ 176,177,178,179 | Pediatric hematology & immunology
+> idea: CBC + MCV + RDW + Coombs يحددون.
+> flow Anemia: ★ MCV 68 + RDW 20 + Platelets 490 :: Iron deficiency ;; ★ حليب بقر + بسكوت + low ferritin :: Iron deficiency ;; ★ Pica (soil, chalk) + microcytic + low ferritin :: Iron deficiency (مو lead) ;; ★ Direct + indirect Coombs + low Hb + high retics :: Autoimmune hemolytic anemia
+> flow Others: ★ أكثر leukemia بالأطفال :: Acute lymphoblastic (ALL) ;; ★ ولد + low all Ig + few B cells + normal T cells :: X-linked agammaglobulinemia (Bruton)
+> trick: ★ High RDW + high platelets مع microcytic = iron deficiency. Normal RDW + high RBC = thalassemia trait.
+> trick: ★ Spherocytes في HS وAIHA، فالـCoombs يفرق.
+> trick: ★ Low Ig مع normal B cells = CVID.
+
+@ 180,181 | CKD staging & UTI
+> idea: GFR يحدد stage. والـUTI عند infant يختلف عن الطفل الأكبر.
+> flow Rules: ★ GFR ٢٨ :: CKD stage 4 (١٥–٢٩) ;; ★ ٢ شهر + fever + vomiting + lethargy + nitrites/leukocytes :: Send to hospital + IV antibiotics ;; ★ ٥ سنوات + fever + dysuria :: Oral antibiotics (amoxicillin حسب المفتاح)
+> trick: ★ أقل من ٣ شهور + positive urine dip = IV antibiotics حتى لو شكله زين.
+> trick: ★ Fever لحاله ما يعني IV. الـtoxicity أو القيء أو العمر الصغير هي اللي تحدد.
+
+@ 182,183 | Seizures & meningitis in children
+> idea: Seizure: النوع من الأعراض. Meningitis: CSF.
+> flow Seizures: ★ مراهقة + سقوط + weakness بالرجل + فقدت وعي ثم رجعت :: Atonic seizure ;; ★ Simple febrile seizure :: ٢٪ risk epilepsy ;; ★ Seizure بالنوم + وجه + طفل طبيعي + spikes :: Rolandic epilepsy
+> flow Meningitis: ★ Meningitis + CSF lymphocytes + glucose طبيعي :: Viral ← IV acyclovir ;; ★ Fever + drowsiness + confusion + seizure :: LP ضروري
+> trick: ★ Lymphocytes + LOW glucose = TB / fungal، مو viral.
+> trick: ★ Febrile seizure مع recovery كامل ما يحتاج LP. Drowsiness وconfusion مستمرين = LP.
+> trick: ★ Brief jerks عند الاستيقاظ = myoclonic (JME)، مو atonic.
+
+@ 184,185,186,187,188,189 | Pediatric infections: TB, measles, varicella, HFMD, scarlet fever, bites
+> idea: كل عدوى clue كلاسيكي. وTB contacts: positive test = latent TB.
+> flow Clues: ★ Contact مع TB + test positive (PPD ١٤ مم) + asymptomatic :: Treat latent TB ;; ★ طفل < ٥ سنوات + contact open TB + BCG :: IGRA + INH (BCG ما يغني) ;; ★ Koplik spots + maculopapular rash :: Measles ← Airborne ;; ★ Vesicles بمراحل مختلفة + non-vaccinated :: Varicella ;; ★ Rash يد وقدم + oral ulcers + daycare :: HFMD ← Fecal-oral ;; ★ Sandpaper rash + strawberry tongue + pharyngitis :: Streptococcus pyogenes ;; ★ Bat bite :: Rabies vaccine + immunoglobulins
+> trick: ★ Measles وvaricella وTB = airborne (N95 / negative pressure).
+> trick: ★ Bats دايم category III حتى لو العضة بسيطة.
+> trick: ★ Strawberry tongue + حمى طويلة + conjunctivitis + يد منتفخة = Kawasaki.
+> trick: ★ Vesicles كلها نفس المرحلة = smallpox.
+
+@ 190,191,192,193,194 | Bone & joint, JIA, diabetes screening, ethics
+> idea: عظام ومفاصل: weight bearing وWBC. وCPR: بدون order موقّع ← ابدئي.
+> flow Clues: ★ ٦ سنوات + hip pain + effusion + looks well + WBC 11 :: Toxic synovitis (septic لو ما يمشي + WBC/ESR عالي) ;; ★ Penetrating wound + focal leg pain + warmth + subjective fever :: Osteomyelitis ← MRI ;; ★ Polyarthritis + fever + RF موجب :: JIA ← Methotrexate ;; ★ T1DM + أمها خايفة من complications :: Urine microalbumin سنويًا ;; ★ Newborn + dilated cardiomyopathy + DNR مو موقّع :: Initiate CPR
+> trick: ★ Effusion لحاله ما يفرق بين synovitis وseptic arthritis.
+> trick: ★ "Initial" imaging = X-ray. "Diagnostic/best" = MRI.
+> trick: ★ بدون signed DNR ← ابدئي CPR دايمًا.

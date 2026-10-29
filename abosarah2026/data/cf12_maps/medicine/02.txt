@@ -1,0 +1,35 @@
+@ 122,123,124 | Cushing, thyroid, steroid adverse effects
+> idea: Hormones: شوفي ACTH مع cortisol، وTSH مع T4، والـsteroid.
+> flow Cushing: ★ ACTH عالي + cortisol عالي :: Pituitary adenoma ;; ★ Striae + weight gain + K واطي + ACTH عالي بسيط :: Pituitary (لو ACTH عالي جدًا + K واطي كثير ← ectopic) ;; ○ ACTH واطي :: Adrenal / exogenous
+> flow Thyroid / steroids: ★ TSH 16 + T4 low + TPO Ab :: Hashimoto's ;; ★ SLE + 60 mg steroid ٦ أسابيع + وفاة مفاجئة :: Hypertensive intracerebral hemorrhage
+> trick: ★ Painless + hypothyroid + antibodies = Hashimoto. Painful neck = subacute.
+> trick: ★ High ACTH + high cortisol: فكري pituitary أول.
+
+@ 125,126,127,128 | Neuro: TIA, stroke syndromes, MS, first seizure
+> idea: Neuro: الوقت (TIA ولا stroke)، الـartery، وأول seizure = CT.
+> flow TIA: ★ ضعف ٥ دقايق وزال + ECG طبيعي + no bruit :: Carotid Doppler ;; ★ TIA + CT طبيعي + carotid ٥٥% bilateral :: Aspirin (antiplatelet للشرايين) ;; ★ لو ECG فيه AF :: Anticoagulation
+> flow Stroke / MS / seizure: ★ Ipsilateral facial weakness + sensorineural hearing loss :: AICA ;; ★ Hemorrhagic stroke + pinpoint pupils + ما يتكلم ولا يتحرك :: Pons ;; ★ شابة + ضعف طرف + facial pain :: MS ← MRI brain with gadolinium ;; ★ First GTC + labs وexam طبيعية :: Head CT قبل EEG
+> trick: ★ Hearing loss = AICA (labyrinthine artery من AICA).
+> trick: ★ Trigeminal neuralgia تحت ٤٠ أو مع deficit ثاني = MS.
+> trick: ★ Anticoagulate للقلب (AF). Antiplatelet للشرايين.
+
+@ 129,130,131 | Dementia, cord compression, alcohol withdrawal
+> idea: Dementia: وش تفقد (memory ولا معاني الكلمات)؟ وCord: sensory level. والـalcohol: thiamine.
+> flow Dementia: ★ تسمي القطة "animal" + memory سليم + عيلة فيها نفس الحالة :: Frontotemporal dementia ;; ★ Imaging :: Temporal atrophy
+> flow Cord / alcohol: ★ Sensory level T10 + brisk reflexes + urinary retention :: Cord compression ;; ★ Alcohol + asthma + أيام بعد accident + tremor/hallucination :: Thiamine + benzodiazepines
+> trick: ★ Memory سليم بس معنى الكلمات يضيع ← Frontotemporal مو Alzheimer.
+> trick: ★ Brisk reflexes تستبعد GBS وcauda equina.
+> trick: ★ أي مريض alcohol ← الخيار اللي فيه thiamine يغلب.
+
+@ 132,133,134,135 | Gout, ankylosing spondylitis, brucellosis, malaria
+> idea: مفاصل وعدوى: كل واحد له clue واضح.
+> flow Clues: ★ شاب + joint pain متكرر + uric acid ٤٠٠ (طبيعي) :: Gout (uric normal ما ينفي) ;; ★ Back pain يتحسن بالحركة + positive Schober :: AS ← افحصي العين (uveitis) ;; ★ Saudi + fever + back pain + gram-negative coccobacilli :: Brucellosis (مو TB) ;; ★ Malaria relapse :: Vivax (hypnozoites)
+> trick: ★ Uric acid طبيعي ما يستبعد gout وقت الهجمة.
+> trick: ★ Relapse = hypnozoites = vivax/ovale. Recrudescence = بقايا blood stages.
+
+@ 136,137,138,139 | Vaccination, screening, outbreaks, ethics
+> idea: أسئلة public health وethics: القاعدة تحدد الجواب.
+> flow Prevention: ★ ٥٠ سنة healthy زيارة روتين :: Shingles vaccine ;; ★ ٣٥ سنة وأمها breast cancer عمر ٤٣ :: Mammogram annually (٤٣ − ١٠ = ٣٣، فهي مستحقة) ;; ★ Outbreak عالمي :: WHO يطلق الـalarm
+> flow Ethics: ★ Cancer results عبر email شخصي :: Unauthorized access ;; ★ "Medications weren't documented" بعد transfer :: Incomplete medication reconciliation ;; ★ Diabetic يسأل عن diets من social media :: Refer to verified diet resources
+> trick: ★ "International alarm" = WHO. "Report to WHO" = الحكومة الوطنية.
+> trick: ★ Communication: الطريق الوسط (وجّهي لمصدر موثوق) أحسن من "امنعي" و"عادي سوي".

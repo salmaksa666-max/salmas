@@ -1,0 +1,27 @@
+@ 195,196,197,198 | Emergencies: septic shock, cord compression, pancreatitis, radiation
+> idea: أسئلة متفرقة، كلها clue واحد.
+> flow Clues: ★ Pneumonia + hypotension + fever + vasopressors :: Septic shock: high cardiac output + low SVR ;; ★ ٤٣ سنة + weakness رجلين + incontinence + T10 sensory level :: Cord compression ;; ★ Epigastric pain للظهر :: Pancreatitis ← Lipase يؤكد ;; ★ Radiation 20 Gy بعد أسبوعين + غثيان واستفراغ :: Bone marrow destruction
+> trick: ★ Septic shock المبكر: warm، cardiac output عالي، SVR واطي. المتأخر cold.
+> trick: ★ Lipase تؤكد المرض. Triglycerides وcalcium وUS تدور على السبب.
+> trick: ★ أسابيع بعد radiation = marrow + gut. سنين بعدها = cancer.
+
+@ 199,200,201 | Psychiatry: depression, schizophrenia, mania
+> idea: Psychiatry: كل سؤال "إيش أول علاج؟" أو "إيش أخطر عرض؟".
+> flow Treatment: ★ مراهقة + anxiety/depression خفيف-متوسط + بدون علاج سابق :: CBT (therapy قبل tablets) ;; ★ Schizophrenia + agitation :: Risperidone ثم titrate لأقل جرعة فعالة ;; ★ Bipolar I + acute mania :: Olanzapine
+> flow Depression: ★ "Most concerning" :: Isolation and social withdrawal ;; ○ "Core symptom" :: Anhedonia
+> trick: ★ Mania في ER تحتاج أسرع agent (antipsychotic)، lithium هو الـlong-term.
+> trick: ★ لو في obesity/diabetes/dyslipidemia تجنبي olanzapine؛ clozapine بعد فشل علاجين.
+
+@ 202,203,208 | Prevention, screening principles, research evidence
+> idea: Prevention: primary (قبل المرض) وscreening وأعلى evidence.
+> flow Rules: ★ Prevent STDs :: Consistent condom use (primary prevention) ;; ★ Screening test يبي ما يفوّت أحد :: High sensitivity ;; ★ Heavy smoker ٦٥ :: Abdominal aortic aneurysm (لو lung CT موجود ينافس) ;; ★ أعلى evidence :: Systematic review of RCTs
+> trick: ★ Sensitivity للـscreening (rule out). Specificity للـconfirmation (rule in).
+> trick: ★ لو ما فيه systematic review ← single RCT.
+
+@ 204,205,206,207 | Patient safety, communication, consent, professional ethics
+> idea: أسئلة المبادئ: عرفي الـevent، ومن يقرر، ومتى تبلغين.
+> flow Patient safety: ★ Error انكشف قبل ما يوصل للمريض :: Near miss ;; ★ Error وصل وسبب harm :: Adverse event ;; ★ Repeat-back بدون تأكيد المرسل :: مو closed loop ;; ★ Missing allergy معلومة وقت handover :: Communication failure
+> flow Consent / ethics: ★ Documented refusal من مريض competent :: احترميها ;; ★ Refused blood قبل العملية + emergency الحين :: Start transfusion (حسب مفتاح الكونفرميد) ;; ★ Contraception + زوجها يرفض :: Mutual consent (حسب المفتاح) ;; ★ Colleague مؤذي للمرضى :: Report to administration ;; ★ Privileges :: Assess competence ;; ★ Research participants :: Deontology
+> trick: ★ Did the error reach the patient and cause harm؟ ما وصل = near miss.
+> trick: ★ "Talk to him privately" مغري، بس لو المرضى معرضين للخطر ← report رسمي.
+> trick: ★ لو السؤال who signs consent لعملية لنفسها ← المريضة وحدها.

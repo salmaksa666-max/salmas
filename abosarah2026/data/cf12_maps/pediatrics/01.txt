@@ -1,0 +1,77 @@
+@ 140,141 | Neonatal jaundice & kernicterus
+> idea: Jaundice الوليد: متى بدأ؟ ومتى يحتاج exchange؟
+> flow Approach: ★ ٤ أيام + feeding كويس + أصفر خفيف :: Breastmilk jaundice ;; ○ أول ٢٤ ساعة أو يزيد بسرعة :: Hemolytic (ABO/Rh) ;; ★ Unconjugated severe + intensive phototherapy ما نزّل :: Exchange transfusion ;; ★ Kernicterus (اللي يصير بعدها) :: Dyskinetic cerebral palsy
+> trick: ★ Exchange يعتمد على threshold حسب العمر وعلى فشل الـphototherapy، مو رقم واحد.
+> trick: ★ Prematurity ← spastic diplegia. Kernicterus ← dyskinetic CP.
+
+@ 142,143,144,145 | Newborn respiratory: TTN, meconium aspiration, BPD, infant of diabetic mother
+> idea: Respiratory distress عند الوليد: شوفي الـlung volume والسبب.
+> flow Respiratory distress: ★ Term + cesarean + retractions + hyperaeration :: TTN ← Supportive care + monitor ;; ○ RDS :: Low lung volumes + ground glass (premature) ;; ★ Meconium aspiration + ventilated + hypoxic :: Echocardiogram (PPHN) ;; ★ Dark green liquor أثناء الولادة :: Oropharyngeal suction قبل ما يطلع باقي الجسم
+> flow Others: ★ BPD + صعب يفطم من ventilator :: Short-term steroids ;; ★ Infant of diabetic mother + distress/desaturation + macrosomia :: NICU admission + glucose monitoring
+> trick: ★ TTN = lungs hyperinflated. RDS = low volumes.
+> trick: ★ أي infant of diabetic mother مريض ← تحققي من الـglucose.
+> trick: ★ "Short" مقابل "long" term steroids هو السؤال كله في BPD.
+
+@ 146,147,148,149 | Newborn bleeding, TORCH, CAH, metabolic
+> idea: أسئلة تعتمد على clue واحد قوي لكل مرض.
+> flow Clues: ★ Delayed cord separation + bleeding + PT/PTT طويل + platelets طبيعي :: Vitamin K deficiency ;; ★ أمه SLE + PT/PTT طبيعي + PLT 18,000 :: Immune thrombocytopenia ← Platelets + IVIG ;; ★ Microcephaly + hepatosplenomegaly + cytopenias :: TORCH screening ;; ★ Vomiting + acidosis + hyperkalemia + hyponatremia + hypoglycemia :: Salt-wasting CAH ← IV hydrocortisone + saline ;; ★ Maple syrup urine disease :: Restrict leucine + good calories
+> trick: ★ Bleeding من stump لحاله يخليك تفكرين vitamin K، لكن PT/PTT طبيعي مع PLT واطي = immune.
+> trick: ★ "Maternal diabetes" في stem الـTORCH = bait.
+> trick: ★ Musty odour = PKU (phenylalanine). Maple syrup = MSUD (leucine).
+
+@ 150,151 | Floppy infant, developmental milestones, primitive reflexes
+> idea: Floppy: fasciculations = SMA. وMilestones: احفظي الأعمار.
+> flow Floppy infant: ★ Tongue fasciculations + EMG denervation :: SMA ← early disease-modifying therapy ;; ★ Hypotonia + CK طبيعي + EMG myopathy :: Congenital myopathy ;; ○ CK عالي جدًا :: Muscular dystrophy
+> flow Milestones: ★ ٦ شهور :: Sits without support ;; ★ Identify colors + articulate words :: ٤ سنوات ;; ★ Frightened by strangers :: ~١٠ شهور ;; ★ Mouth stimulus :: Rooting reflex
+> trick: ★ Rolling: prone→supine = ٤ شهور، supine→prone = ٦ شهور.
+> trick: ★ "Recognizes" strangers أبكر (٦ شهور). "Frightened" أخير (٩–١٠).
+> trick: ★ Pointing to color = ٣ سنوات. Naming = ٤.
+
+@ 152 | Vaccine contraindications & precautions
+> idea: الـvaccine: متى أعطي ومتى أؤجل؟ القاعدة: الخفيف ما يمنع.
+> flow Rules: ★ URTI + temp 37.9 + local swelling بعد DTaP :: Give now (مو contraindication) ;; ★ Moderate/severe acute illness :: Defer ;; ★ Urticaria + syncope بعد influenza vaccine :: Don't give it again (serious allergic reaction) ;; ★ Immunodeficiency :: Live vaccines (مثل Varicella) ممنوعة ;; ○ Encephalopathy خلال ٧ أيام من الجرعة السابقة :: Drop pertussis component
+> trick: ★ Mild illness / low-grade fever ما يأجل. Moderate/severe يأجل.
+> trick: ★ Siblings يتطعمون MMR وvaricella عادي. بس OPV يتجنب في contacts.
+
+@ 153,154 | Bronchiolitis & childhood asthma
+> idea: Infant + cold = bronchiolitis (RSV). Older child متكرر + atopy = asthma.
+> flow Bronchiolitis: ★ ٢ شهر + cough/sneezing + wheeze + tachypnea :: Bronchiolitis ;; ★ ٣ شهور + أخوه كان عنده URTI :: RSV ;; ○ + barking cough + stridor :: Croup (parainfluenza)
+> flow Asthma: ★ Mild exacerbation: SpO2 95%, full sentences :: Salbutamol by spacer ← reassess ;; ○ SpO2 < 92% أو ما يكمل جمل :: Severe: ipratropium + steroids ;; ★ Frequent exacerbations + يستخدم inhaler غلط :: Teach inhaler technique ;; ★ Frequent exacerbations بدون سبب واضح :: Environmental control ;; ★ Counselling :: Childhood asthma غالبًا يزول بالمراهقة
+> trick: ★ Counselling questions: الجواب المطمئن المبني على evidence، مو "دايم" أو "أبدًا".
+> trick: ★ Recurrent episodes عند child أكبر + atopy = asthma مو bronchiolitis.
+
+@ 155,156,157,158 | Pediatric airway: epiglottitis, tracheomalacia, fixed wheeze, ARDS
+> idea: Stridor + drooling = خطر. لا تلمسين الـairway في ER.
+> flow Airway: ★ Toxic + drooling + fever ٤٠ + opens mouth :: Epiglottitis ← Transfer to PICU ;; ★ URTI + stridor + drooling فقط :: Laryngoscopy in OR ;; ★ Barking cough + stridor بدون drooling :: Croup (medical)
+> flow Others: ★ ٤ شهور + cyanosis عند البكاء + poor weight gain + Tracheomalacia :: Surgical consultation ;; ★ ٧ شهور + recurrent pneumonia + monophasic wheeze :: Flexible bronchoscopy ;; ★ Ventilated PICU sepsis :: Low tidal volume + permissive hypercapnia
+> trick: ★ Epiglottitis: لا تفحصين الحلق ولا تحطين instrument في ER مو مضبوط.
+> trick: ★ Monophasic wheeze = airway كبير ضيق (structural) مو asthma.
+> trick: ★ لا تلحقين normal PaCO2 على الـventilator.
+
+@ 159,160,161 | Allergic rhinitis, orbital cellulitis, squint
+> idea: العين والأنف: الحركة والبصر يفرقون.
+> flow Eye: ★ Lid swelling + eye movements ورؤية طبيعية + no proptosis :: Periorbital (preseptal) cellulitis ← Oral antibiotics ;; ★ Restricted eye movements + frontal tenderness + headache :: Orbital cellulitis ← CT with contrast ;; ★ ٢ شهر + "squint" :: Red reflex أول
+> flow Nose: ★ Chronic clear thin discharge + itching + pale turbinates :: Allergic rhinitis ;; ○ Unilateral foul discharge :: Foreign body
+> trick: ★ Proptosis / painful eye movement / ↓vision = orbital، مو preseptal.
+> trick: ★ Misaligned eye بالـpreschool: السؤال "screen" ← Hirschberg، "initial" في هالـrecall ← history.
+
+@ 162,163 | Myocarditis, pediatric hypertension
+> idea: Toddler + URTI + gallop = myocarditis. وHTN بالطفل: confirm ولا prevent.
+> flow Clues: ★ Toddler + SOB + palpitations + URTI قبل ٣ أيام + gallop :: Viral myocarditis (أخصص sign = gallop) ;; ★ BP عالي مرة وعاد طبيعي + BMI ٢٧ :: Prevent ← Weight loss
+> trick: ★ "Which finding points to the diagnosis" ← الأكثر نوعية (gallop = heart).
+> trick: ★ Confirm = repeated measurements. Prevent = weight loss.
+
+@ 164,165,166,167,168 | Pediatric abdomen: intussusception, malrotation, pyloric stenosis, appendicitis, trauma
+> idea: الطفل ببطن حاد: عمره + نوع القيء + الكتلة.
+> flow Approach: ★ Red currant jelly stool + vomiting :: Intussusception (ileocolic) ;; ★ ٥ أيام + bilious vomiting :: Malrotation ← Upper GI study ;; ★ Pyloric stenosis :: NPO + correct alkalosis ثم pyloromyotomy ;; ★ ٧ سنوات + RLQ tender mass + WBC ١٩ :: CT abdomen ;; ★ Handlebar injury + upper abdominal pain :: Pancreas
+> trick: ★ Red currant jelly = علامة متأخرة (ischemia). غيابها ما ينفي intussusception.
+> trick: ★ "Initial" = X-ray. "Most diagnostic" لـbilious vomiting = upper GI contrast.
+> trick: ★ Child + simple RLQ pain = US. RLQ mass بعد أسابيع = CT.
+> trick: ★ Pyloromyotomy مو emergency، صححي الـalkalosis أول.
+
+@ 169,170,171,172,173,174,175 | Pediatric GI & surgical: rectal bleeding, PUD, UC, hepatitis, cystic hygroma, testis
+> idea: كل مرض clue وحيد. اربطي الـclue بالجواب.
+> flow Clues: ★ ٣ سنوات + دم من الشرج + "شائع ويُمنع" :: Anal fissure ;; ★ ٩ سنوات + epigastric pain يصحيه بالليل + hx PUD :: Upper GI endoscopy + biopsy ;; ★ UC + toxic megacolon + فشل medical therapy :: Colectomy ;; ★ ٤ سنوات + dark urine + jaundice + daycare + ALT 600 :: Hepatitis A ← Rest + hydration ;; ★ بنت + rash + joint pain + direct hyperbilirubinemia + high IgG + autoantibodies :: Autoimmune hepatitis ← Steroids + azathioprine ;; ★ Neck swelling ١٠ سم + clear lymphatic fluid :: Cystic hygroma ← Surgery ;; ★ ١٥ شهر + empty right hemiscrotum + left طبيعي :: Diagnostic laparoscopy
+> trick: ★ "Confirmatory / gold standard" للـulcer = endoscopy.
+> trick: ★ Toxic megacolon أول مرة ← medical rescue. فشل medical therapy = surgery.
+> trick: ★ Bilateral non-palpable testes ← CAH، karyotype أول.
