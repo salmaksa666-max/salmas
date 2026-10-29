@@ -1,0 +1,80 @@
+@ 57,58,59,60 | Appendicitis, acute abdomen, obstruction, volvulus
+> idea: الـacute abdomen: شوفي guarding/rigidity (يعني theatre) ولا stable (يعني imaging). وبالنساء: pregnancy test قبل أي شي.
+> flow Appendicitis: ★ Left press ← pain right (Rovsing's sign) :: Appendicitis ;; ★ Classic + woman reproductive age :: Pregnancy test قبل imaging ;; ★ Mass + abscess collection :: Percutaneous drainage ;; ★ Perforation + peritonitis / feculent discharge :: Back to theatre ;; ★ Carcinoid ٢ سم + عند الـbase :: Right hemicolectomy
+> flow Acute abdomen / obstruction: ★ Guarding + rigidity :: Operate ;; ★ Stable (vitally stable) :: CT ;; ★ "Initial" + obstruction :: Abdominal X-ray (CT لو فيه air-fluid) ;; ★ Post-op small bowel obstruction بدون guarding :: CT
+> flow Volvulus: ★ Loop يشير لـRUQ + empty rectum + elderly :: Sigmoid volvulus ;; ★ Chronic constipation + obstruction :: Sigmoid ;; ○ Loop يشير لـLUQ :: Cecal
+> trick: ★ Pregnancy test لأي أنثى ١٢–٥٠ بألم بطن قبل CT.
+> trick: ★ Abscess = drain. Free perforation = laparotomy.
+> trick: ★ Appendicolith (calcification بالـRIF) مع peritonism = appendectomy مو stone.
+
+@ 61,62,63 | Diverticulitis, lower GI bleeding, Meckel
+> idea: LLQ pain + fever = diverticulitis. نزيف كبير = diverticulosis. وبالطفل: Meckel.
+> flow Diverticulitis: ★ Stable + LLQ + fever :: CT with contrast ;; ★ Collection ١ سم :: Conservative (antibiotics) ;; ★ Collection ٥ سم :: Percutaneous drainage ;; ★ Free air :: Laparotomy ;; ★ بعد النوبة :: Colonoscopy بعد ٦–٨ أسابيع + High fiber diet
+> flow Lower GI bleed: ★ Massive bleeding :: Diverticulosis (مو diverticulitis) ;; ★ Unstable رغم fluids + blood :: Laparotomy ;; ★ Unstable بس يستجيب للـfluids :: Angiography ;; ★ طفل + دم من ileocecal valve :: Meckel diverticulum
+> trick: ★ لا colonoscopy في الـacute diverticulitis أبدًا (حتى مع bleeding).
+> trick: ★ "Despite receiving blood" ← Laparotomy.
+> trick: ★ Localized guarding مو generalized peritonitis.
+
+@ 64,65,66 | Anorectal: hemorrhoids, fistula, abscess
+> idea: Hemorrhoids: الدرجة والعلاج. Fistula: وين المدخل وهل simple. Abscess: fluctuant = drain.
+> flow Hemorrhoids: ★ Reduces spontaneously :: Grade 2 ;; ★ يحتاج دفع باليد :: Grade 3 ;; ★ "Initial" grade 3 :: Banding ;; ★ "Definitive" :: Hemorrhoidectomy ;; ★ Hemorrhoids + anemia :: Colonoscopy
+> flow Perianal fistula: ★ Low + simple :: Fistulotomy ;; ★ Multiple / high / Crohn's clues :: MRI (أو colonoscopy لو Crohn's) ;; ★ Opening ٧ o'clock :: Internal opening posterior midline (Goodsall)
+> flow Perianal abscess: ★ Painful fluctuant swelling + fever :: Incision & drainage ;; ★ بدون fever :: Thrombosed piles
+> trick: ★ Antibiotics وحدها لـperianal abscess = الخطأ الكلاسيكي.
+> trick: ★ Itching بدون ألم = hemorrhoids. الألم عند التبرز = fissure.
+> trick: ★ Multiple fistulas بدون أعراض أمعاء = MRI. مع Crohn's clues = colonoscopy.
+
+@ 67,68 | IBD & colorectal polyps/cancer
+> idea: UC: دم + urgency من الـrectum. Crohn's: skip lesions وfistulas وstrictures.
+> flow IBD: ★ Young + bloody diarrhea + urgency :: Ulcerative colitis ;; ★ Skip lesions + strictures + fistulas :: Crohn's
+> flow Polyps / cancer: ★ Villous adenoma :: أعلى خطر cancer ;; ★ Adenoma ≥ 1 cm + removed كامل :: Colonoscopy بعد ٣ سنوات ;; ★ Rectal mass + obstruction :: Relieve obstruction أول ثم colonoscopy ;; ★ Bowel habit change + weight loss :: Colonoscopy with biopsy
+> trick: ★ Villous = villain: كل ما زاد الـvillous زاد الخطر.
+> trick: ★ Symptoms of cancer ← colonoscopy (FOBT للأصحاء).
+
+@ 69,70,71 | Hernias & pediatric surgical conditions
+> idea: Hernia: reducible ولا incarcerated؟ وبالطفل: أي inguinal hernia = herniotomy.
+> flow Adult hernia: ★ Irreducible + cough impulse سلبي :: Incarceration ← Surgery ;; ★ Strangulated + necrosis :: Emergency laparotomy ;; ★ Incisional hernia :: Mesh repair ;; ★ بعد repair :: Avoid heavy lifting ٦ شهور
+> flow Children: ★ Inguinal hernia :: Herniotomy (لا mesh ولا wait) ;; ★ Testis في الـinguinal canal ويرجع باليد :: Retractile testis ← Follow-up ;; ★ Non-bilious vomiting + olive mass + dehydrated :: Pyloric stenosis ← Pyloromyotomy بعد تصحيح fluids
+> trick: ★ Hydrocele وumbilical hernia = wait. Inguinal hernia = herniotomy.
+> trick: ★ Reduction en masse: obstruction بعد ما رجّعت الـhernia وما فيه bulge ← CT.
+> trick: ★ Pyloric stenosis: صححي الـalkalosis قبل الجراحة.
+
+@ 72,73,74,75,76 | Biliary: cholecystitis, polyps, cholangitis, jaundice, bile leak
+> idea: ألم RUQ: stones ولا cholangitis؟ وبعد المرارة: collection ولا leak؟
+> flow Cholecystitis: ★ Murphy + wall thick + pericholecystic fluid :: Laparoscopic cholecystectomy بنفس الـadmission ;; ★ Unstable + شديد :: Emergency cholecystectomy ;; ★ Porcelain gallbladder :: Cholecystectomy ;; ★ Polyp ٢ سم :: Cholecystectomy (٥ مم = surveillance)
+> flow Jaundice / cholangitis: ★ Fever + jaundice + RUQ pain :: Cholangitis ← US initial، MRCP لو "most accurate" ;; ★ Jaundice + pruritus + weight loss + dilated ducts :: Ampullary/pancreatic ← CT / EUS ;; ★ Klatskin :: collapsed gallbladder + normal CBD
+> flow Bile leak بعد cholecystectomy: ★ ٢ أسابيع + large subhepatic collection :: Percutaneous drainage أول ;; ★ Leak مستمر :: ERCP + biliary stent
+> trick: ★ Mildly raised ALP/ALT طبيعي في cholecystitis.
+> trick: ★ Large collection ← drain أول. Ongoing bile leak ← ERCP stent.
+> trick: ★ Dilated CBD ينفي hilar lesion (Klatskin).
+
+@ 77,78,79 | Liver abscess, HCC, pancreatic pseudocyst
+> idea: Liver mass: السفر والـfever (amebic) ولا cirrhosis مع arterial enhancement (HCC)؟
+> flow Liver abscess: ★ سافرت India + fever + solitary mass :: Amebic ← Metronidazole ;; ★ ELISA Entamoeba + abscess كبير :: Metronidazole أول (حتى لو كبير)
+> flow HCC: ★ Cirrhosis + lesion ٦ سم + arterial enhancement + ascites :: TACE (مو resection)
+> flow Pseudocyst: ★ بعد pancreatitis بأسابيع + early satiety :: CT abdomen ;; ★ Cyst ٤ سم بدون infection :: Observe ;; ★ Infected / gas / fever :: External (percutaneous) drainage
+> trick: ★ Ascites = الكبد ما يتحمل resection.
+> trick: ★ Amebic ينعالج metronidazole حتى لو كبير ومتعدد الحجرات.
+
+@ 80,81 | Renal colic, ureteric stones, hematuria
+> idea: ألم مغص يتقلب (colic) = stone. ثابت ومتكئ = peritonitis. وهماتوريا: مؤلمة ولا لأ؟
+> flow Renal colic: ★ Loin → groin/scrotum + rolling in pain :: Ureteric stone ;; ★ + fever + rigors :: Infected obstructed kidney / pyelonephritis ;; ★ Flank pain + hematuria :: CT KUB
+> flow Hematuria: ★ Painless + "initial" :: Urinalysis ;; ★ Painless في كبير بعد urinalysis :: Cystoscopy + CT urography ;; ★ Mild prostate tenderness + sterile urine :: لا تقعين في prostatitis، يبقى cystoscopy
+> trick: ★ Painful hematuria = stone ← CT KUB. Painless in older man = cancer حتى يثبت العكس.
+> trick: ★ Enlarged prostate بالصدفة + flank pain ← CT مو cystoscopy.
+
+@ 82,83,84 | BPH, prostate cancer, testicular torsion
+> idea: BPH: العمر هو الـrisk factor. فشل medical = TURP. والولد بألم مفاجئ بالخصية = torsion.
+> flow BPH: ★ فشل alpha-blocker ٢ سنة :: TURP ;; ★ Incontinence (overflow) :: Chronic retention ← TURP ;; ★ Risk factor :: Age
+> flow Prostate cancer: ★ PSA عالي جدًا + ALP عالي + GGT طبيعي :: Bone metastases ← Prostate cancer ;; ★ Father dx at 78 :: Average risk ← Reassurance
+> flow Testis: ★ Sudden pain + high-riding + no cremasteric :: Torsion ← Urgent surgery ;; ★ ما فيه Ultrasound :: ما ينتظرين ;; ★ Vertical + superior pole tenderness :: Torsion of appendix testis
+> trick: ★ ألم أسفل البطن عند ولد ← افحصي الـscrotum.
+> trick: ★ High ALP + normal GGT = bone. High ALP + high GGT = liver.
+
+@ 85,86,87,88 | Soft tissue infections, sarcoma, nursemaid elbow
+> idea: Crepitus أو ألم أكبر من الاحمرار = necrotizing = theatre.
+> flow Necrotizing / Fournier: ★ Perineal pain + swelling + crepitus :: Fournier gangrene ← Debridement ;; ★ ألم أكبر من الاحمرار + bullae + weak pulse :: Fasciotomy + aggressive debridement
+> flow SSTI: ★ Pustules بعد shaving :: Folliculitis ;; ★ Bilateral recurrent axillary nodules + sinuses :: Hidradenitis suppurativa ;; ★ Abscess بعد antibiotics كاملة :: Drainage
+> flow Others: ★ Mass ٥ سم + deep :: Core needle biopsy ;; ★ Child pulled by hand + no swelling :: Nursemaid elbow
+> trick: ★ Antibiotics ما تعالج abscess.
+> trick: ★ Swelling/bruise/fall بدل pull ← X-ray قبل reduction.

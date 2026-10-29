@@ -26,7 +26,7 @@ body { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 9pt; line-heigh
 .ft { font-weight: bold; font-size: .95em; margin-bottom: 1mm; text-decoration: underline; }
 .box { border: 0.8pt solid #000; border-radius: 2mm; padding: 1mm 2mm; text-align: center; background: #f0f0f0; }
 .box b { display: block; font-size: 1.02em; }
-.vs .box, .tr li, .idea, .ft, .lab { text-align: right; }
+.tr li, .idea, .ft, .lab { text-align: start; }
 .box small { display: block; font-size: .88em; }
 .arrow { text-align: center; line-height: 1; font-size: 11pt; margin: .3mm 0; }
 .vs { display: flex; gap: 2mm; margin: 2mm 0; }
@@ -35,6 +35,8 @@ body { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 9pt; line-heigh
 .tr { margin: 0; padding-left: 4mm; }
 .tr li { margin-bottom: .8mm; }
 .lab { font-weight: bold; margin-top: 1.5mm; }
+.st { color: #e0a100; font-size: 1.1em; }
+.ex { color: #777; }
 """
 
 FIT = """<script>
@@ -48,17 +50,39 @@ document.querySelectorAll('.map').forEach(function(m){
 LAT = re.compile(r"[A-Za-z][A-Za-z0-9'’\-/.+%()±↑↓→←]*(?: (?:[A-Za-z0-9±][A-Za-z0-9'’\-/.+%()±]*|→|←|\+|/))*")
 
 
+PACK = """<script>
+var src = document.getElementById('src'), out = document.getElementById('out');
+var maps = [...src.children]; src.remove();
+function newPage(){ var p = document.createElement('div'); p.className = 'pk'; out.appendChild(p); return p; }
+var page = newPage();
+maps.forEach(function(m){
+  page.appendChild(m);
+  if (page.scrollWidth > page.clientWidth + 2 && page.children.length > 1) { page.removeChild(m); page = newPage(); page.appendChild(m); }
+});
+</script>"""
+CSS += """
+.pk { height: 279mm; column-count: 2; column-gap: 4mm; column-fill: auto; break-after: page; overflow: hidden; font-size: 8pt; }
+.pk .map { break-inside: avoid; margin-bottom: 3mm; padding: 2mm 2.5mm; }
+.pk .map h2 { font-size: 9.5pt; }
+.pk .cols { display: block; }
+.pk .flow { margin-bottom: 1.5mm; }
+.pk .vs { gap: 1.5mm; }
+"""
+
+
 def e(t):
     t = html.escape(t.strip(), quote=False)
-    return LAT.sub(lambda m: f'<bdi dir="ltr">{m.group(0)}</bdi>', t)
+    t = LAT.sub(lambda m: f'<bdi dir="ltr">{m.group(0)}</bdi>', t)
+    t = re.sub(r"[\u0600-\u06FF][\u0600-\u06FF\u064B-\u0652ـ ]*[\u0600-\u06FF]|[\u0600-\u06FF]", lambda m: f'<bdi dir="rtl">{m.group(0)}</bdi>', t)
+    return t.replace("★", '<span class="st">★</span>').replace("○", '<span class="ex">○</span>')
 
 
 def box(t):
     t = t.strip().replace("● ", "● ", 1)
     if "::" in t:
         a, b = t.split("::", 1)
-        return f'<div class="box"><b dir="rtl">{e(a)}</b><small dir="rtl">{e(b)}</small></div>'
-    return f'<div class="box"><b dir="rtl">{e(t)}</b></div>'
+        return f'<div class="box"><b dir="auto">{e(a)}</b><small dir="auto">{e(b)}</small></div>'
+    return f'<div class="box"><b dir="auto">{e(t)}</b></div>'
 
 
 def render(block):
@@ -81,15 +105,15 @@ def render(block):
             tricks.append(ln[6:])
     out = f'<div class="map"><h2 dir="ltr">{html.escape(title.strip())}</h2>'
     if idea:
-        out += f'<div class="idea" dir="rtl">{e(idea)}</div>'
+        out += f'<div class="idea" dir="auto">{e(idea)}</div>'
     out += '<div class="cols">'
     for t, items in flows:
-        out += f'<div class="flow"><div class="ft" dir="rtl">{e(t)}</div>' + '<div class="arrow">↓</div>'.join(box(x) for x in items) + "</div>"
+        out += f'<div class="flow"><div class="ft" dir="auto">{e(t)}</div>' + '<div class="arrow">↓</div>'.join(box(x) for x in items) + "</div>"
     out += "</div>"
     for pair in vs:
         out += '<div class="vs">' + "".join(box(x) for x in pair) + "</div>"
     if tricks:
-        out += '<div class="lab">⚠ فخاخ الاختبار</div><ul class="tr">' + "".join(f'<li dir="rtl">{e(t)}</li>' for t in tricks) + "</ul>"
+        out += '<div class="lab">⚠ فخاخ الاختبار</div><ul class="tr">' + "".join(f'<li dir="auto">{e(t)}</li>' for t in tricks) + "</ul>"
     return out + "</div>"
 
 
@@ -98,9 +122,12 @@ def main():
     for f in sorted(glob.glob(os.path.join(MAPS, "*.txt"))):
         blocks += [b for b in re.split(r"(?m)^(?=@ )", open(f, encoding="utf-8").read()) if b.strip().startswith("@")]
     maps = [render(b) for b in blocks]
-    pages = ['<div class="page">' + "".join(maps[i:i + PER]) + "</div>" for i in range(0, len(maps), PER)]
+    if PER == 0:  # packed: 2 columns, JS fills pages
+        pages = ['<div id="src">' + "".join(maps) + '</div><div id="out"></div>']
+    else:
+        pages = ['<div class="page">' + "".join(maps[i:i + PER]) + "</div>" for i in range(0, len(maps), PER)]
     css = CSS.replace("repeat(PER,", f"repeat({PER},")
-    doc = f'<html><head><meta charset="utf-8"><style>{css}</style></head><body>{"".join(pages)}{FIT.replace("START", "12.5" if PER == 1 else "9.4")}</body></html>'
+    doc = f'<html><head><meta charset="utf-8"><style>{css}</style></head><body>{"".join(pages)}{PACK if PER == 0 else FIT.replace("START", "12.5" if PER == 1 else "9.4")}</body></html>'
     src = os.path.join(tempfile.mkdtemp(), "x.html")
     open(src, "w", encoding="utf-8").write(doc)
     subprocess.run([CHROME, "--no-sandbox", "--no-pdf-header-footer", f"--print-to-pdf={OUT}", "file://" + src], check=True, capture_output=True)

@@ -1,0 +1,56 @@
+@ 35,36,37 | Acute ischemia: mesentery, limb, Buerger
+> idea: ألم "أكبر من الفحص" أو طرف بارد مفاجئ ← فكري بـembolus (خصوصًا مع AF).
+> flow Mesenteric ischemia: ★ AF/IHD + severe pain out of proportion :: Suspect mesenteric ischemia ;; ★ Initial :: CT angiography (مو plain X-ray) ;; ★ Gold standard / definitive :: Mesenteric angiography ;; ○ بعدها :: Resuscitation + heparin + revascularization
+> flow Acute limb ischemia: ★ Pain + paralysis + paresthesia + pulseless :: Threatened limb ← Vascular surgeon ;; ★ AF + sudden leg pain + paralysis :: Embolectomy بدون imaging ;; ★ "Most appropriate diagnostic" :: CT angiography. "Next step" ← Heparin
+> flow Buerger: ★ Young smoker + superficial thrombophlebitis + toe ulcers :: Buerger disease ← Stop smoking
+> trick: ★ Amylase مرتفع قليلًا (أقل من ×٣) مع pain out of proportion ← Ischemia مو pancreatitis.
+> trick: ★ Rest pain بدون بداية مفاجئة = chronic critical ischemia، البداية الحادة هي اللي تخليه ALI.
+> trick: ★ Buerger ← Stop smoking، مو anticoagulation.
+
+@ 38,39 | Leg & foot ulcers, Marjolin, diabetic foot
+> idea: الموقع والـpulses يفرّقون: medial leg = venous، toes/malleolus + pulses ضعيفة = arterial، الكعب/القدم عند السكر = neuropathic.
+> flow Ulcers: ★ Medial leg ulcer :: Venous hypertension ;; ★ Lateral malleolus / toe + pulses غايبة :: Atherosclerosis ;; ★ Diabetic foot + pulses موجودة :: Neuropathic ;; ★ Burn scar + ulcer ما يشفى :: Marjolin ← Biopsy (SCC)
+> flow Diabetic foot: ★ Foul-smelling / necrotic :: Debridement أول (NPWT بعدين) ;; ★ Ulcer فوق first metatarsal + discharge :: MRI / CT for osteomyelitis ;; ★ Calf swelling + warmth + pulses intact :: Duplex ultrasound
+> trick: ★ "MR angiography" دراسة أوعية مو MRI اللي يشخص osteomyelitis.
+> trick: ★ Foot مو leg: ulcer عند السكر مع pulses = neuropathic.
+
+@ 40,41 | Carotid disease, aortic dissection, AAA
+> idea: Carotid: "symptomatic" معناه صار له TIA/stroke بنفس الجهة. والـaorta: وين الألم وشكل الـchest X-ray.
+> flow Carotid: ★ TIA قديم + stenosis ٧٠–٩٠% :: Symptomatic ← Carotid endarterectomy ;; ★ "Now asymptomatic" :: ما يغيّر، يظل symptomatic ;; ★ TIA عابر + ECG طبيعي :: Carotid Doppler
+> flow Aorta: ★ Epigastric/back pain + widened mediastinum :: Aortic dissection ;; ★ Epigastric pain فوق السرة عند كبير + enzymes طبيعية :: فكري aortic imaging (US ثم CT angio)
+> trick: ★ Symptomatic = TIA أو stroke بنفس الـterritory، حتى لو الحين زين.
+> trick: ★ Epigastric pain للظهر يخليك تفكرين pancreatitis، لكن widened mediastinum = aortic.
+> trick: ★ "Male + smoker + 65" ← AAA screening ultrasound.
+
+@ 42,43,44 | Thyroid & neck masses
+> idea: Nodule: FNA. والنتيجة (Bethesda) تحدد. وبعد العملية: calcium.
+> flow Thyroid nodule: ★ Complex (solid + cystic) :: FNA من الـsolid component ;; ★ Bethesda IV (follicular) :: Lobectomy (مو repeat FNA) ;; ★ High calcitonin + CEA :: Medullary ← Screen MEN2 قبل surgery
+> flow Post-thyroidectomy hypocalcemia: ★ Perioral numbness + Chvostek/Trousseau :: Hypocalcemia ;; ★ "Next step" :: Calcium ;; ★ "Most diagnostic" :: PTH ;; ★ ما استجاب للـcalcium :: Magnesium
+> flow Neck mass: ★ Midline + moves with swallowing + يتحرك مع tongue protrusion :: Thyroglossal duct cyst ← Sistrunk (surgery)
+> trick: ★ Follicular lesion ما ينشخص بالـFNA، علشان كذا Bethesda IV = lobectomy.
+> trick: ★ Thyroglossal يتحرك مع tongue protrusion. Thyroid nodule يتحرك بالبلع بس.
+
+@ 45,46,47,48,49 | Breast: screening, discharge, Paget, abscess, LCIS
+> idea: Breast: شوفي الـBI-RADS، وعمر الأقارب، وشكل الإفراز.
+> flow Screening / BI-RADS: ★ BRCA positive :: MRI annually + start now ;; ★ BI-RADS 3 :: Short-interval follow-up imaging ;; ★ BI-RADS 5 :: Core biopsy قبل أي surgery ;; ★ Dense breasts + family history :: MRI
+> flow Discharge / lesions: ★ Bloody, one duct :: Intraductal papilloma (investigate) ;; ★ Bilateral multi-duct green :: Physiological ;; ★ Nipple ulcer/crust ما يشفى :: Paget ← Nipple biopsy ;; ★ Fluctuant collection + septations بعد الولادة :: Abscess ← Incision & drainage ;; ★ LCIS incidental :: High-risk screening + follow-up
+> trick: ★ BI-RADS 3 هي الوحيدة اللي علاجها follow-up imaging.
+> trick: ★ LCIS = follow-up. DCIS = excision + radiotherapy.
+> trick: ★ Nipple rash ما يشفى ← Biopsy حتى لو mammogram وUS سلبيين.
+
+@ 50,51,52,53 | Esophagus: GERD, achalasia, perforation, caustic
+> idea: Dysphagia: صلب فقط ولا صلب وسوائل؟ وبعد استفراغ: دم ولا ألم صدر؟
+> flow Dysphagia: ★ GERD طويل + dysphagia للصلب :: Endoscopy ;; ★ Liquids وsolids من البداية :: Achalasia (motility) ;; ★ Achalasia شاب وصحته كويسة :: Pneumatic dilatation (Botox للضعيف) ;; ★ Intestinal metaplasia :: Barrett's
+> flow After vomiting: ★ Hematemesis + stable vitals :: Mallory-Weiss ← Conservative ;; ★ Chest pain + subcutaneous emphysema / effusion :: Boerhaave ← Surgical emergency ;; ★ بعد pneumatic dilatation + ألم صدر + تغيّر صوت :: Perforation
+> flow Caustic: ★ Alkali + drooling حتى لو الفم خفيف :: Admit + conservative + antibiotics
+> trick: ★ "Metaplasia" = Barrett's. "Inflammation" = esophagitis.
+> trick: ★ Mallory-Weiss = mucosal tear. Perforation = transmural.
+> trick: ★ Alkali يسوي deep necrosis حتى لو الفم شكله بسيط.
+
+@ 54,55,56 | Peptic ulcer, perforation, upper GI bleeding
+> idea: Ulcer: NSAID ولا H. pylori؟ وشوفي الاستقرار.
+> flow Peptic ulcer: ★ NSAID + duodenal ulcer بدون H. pylori result :: PPI ;; ★ Risk factor :: H. pylori (لو موجود بالخيارات) وإلا NSAIDs ;; ★ Prevention gastric cancer :: Eradicate H. pylori
+> flow Perforation: ★ Rigid abdomen + smoker/NSAID :: Erect chest X-ray أول ;; ★ Air under diaphragm :: Perforated peptic ulcer ;; ★ Cirrhosis + perforation + INR مرتفع :: FFP قبل العملية
+> flow UGIB: ★ Occult blood + colonoscopy طبيعي :: EGD ;; ★ Bleed بعد procedure hepatobiliary :: Angiography (haemobilia) ;; ★ Coffee-ground بالـNGT بعد colon surgery :: Upper endoscopy
+> trick: ★ Critically ill (ICU, burns, head injury) ← Stress ulcer: Curling (burns) / Cushing (head).
+> trick: ★ "Initial" ← Erect CXR. "Most sensitive" أو CXR سلبي ← CT.

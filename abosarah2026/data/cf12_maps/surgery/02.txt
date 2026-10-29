@@ -1,0 +1,42 @@
+@ 14,15,16,17 | Trauma: airway, abdomen, solid organs
+> idea: أول شي ABC. وبعدين: المريض stable ولا unstable يحدد الباقي.
+> flow Airway: ★ GCS 8 أو أقل :: Intubate ;; ★ دم بالفم + وجه مكسور :: Cricothyroidotomy (مو intubation) ;; ★ دم بالفم بس :: Endotracheal + cervical spine control ;; ★ "First step" لما فيه أكثر من خطر :: الأقدم في ABC
+> flow Blunt abdominal trauma: ★ Unstable + FAST positive :: Laparotomy ;; ★ Stable + FAST positive :: CT scan ;; ★ Stable + e-FAST negative :: CT ;; ★ وصل trauma جديد + vitals طبيعية :: Initial assessment & resuscitation قبل أي imaging
+> flow Penetrating / solid organ: ★ Stab + omentum طالع :: Laparotomy (حتى لو CT نظيف) ;; ★ Unstable + liver lacerations :: Perihepatic packing (damage control) ;; ★ Kidney extravasation + كان hypotensive وتحسن (improved) :: Angioembolization ;; ★ Non-responder :: Surgery
+> trick: ★ "First thing to do" = ABCDE. "Most diagnostic" في stable = contrast CT.
+> trick: ★ كلمة "improved" تحول laparotomy إلى angioembolization.
+> trick: ★ GCS 14 ما يحمي الـairway لو الدم يملأه.
+> trick: ★ Hypotension + tachycardia = bleeding. Hypotension + bradycardia = spinal.
+
+@ 23,24 | Pelvic fracture, urethra & bladder
+> idea: Pelvic fracture ينزف، وغالبًا معه إصابة urethra أو bladder.
+> flow Unstable pelvic fracture: ★ Pelvic instability + hypotension :: Pelvic binder أول ;; ★ Transfusion :: مع الـbinder ;; ○ Angioembolization :: لو يستمر النزيف
+> flow Urethra / bladder: ★ Blood at the meatus :: لا Foley ← Retrograde urethrogram أول ;; ★ RUG يبين tear :: Suprapubic catheter ;; ★ Extraperitoneal bladder injury :: Catheter drainage ~٢ أسبوع ;; ○ Intraperitoneal bladder rupture :: Surgery (theatre)
+> trick: ★ Blood at meatus = ما تحطين Foley. Foley بعد RUG وtear = الخطأ الكلاسيكي.
+> trick: ★ Extra = catheter. Intra = theatre.
+> trick: ★ Pelvic bleed = binder، مو laparotomy.
+
+@ 25,26,27,28 | Limb & hand emergencies, burns
+> idea: الأطراف: شوفي الدورة الدموية والـcompartments. والحروق: الـdepth والـairway.
+> flow Limb: ★ Open fracture :: IV antibiotics خلال أول ساعة (لو ما فيه bleeding) ;; ★ Supracondylar fracture + pallor + pulselessness :: Surgical exploration (vascular) ;; ★ Compartment syndrome :: Fasciotomy ;; ★ Injection injury (oil) مع أعراض خفيفة :: Surgical evacuation
+> flow Burns: ★ Painful + moist + blisters :: Superficial partial thickness ;; ★ Circumferential burn + weak pulses :: Escharotomy ;; ★ Burned nose hair + confusion :: Intubation (inhalation injury)
+> trick: ★ Pulselessness علامة متأخرة في compartment syndrome.
+> trick: ★ "Mild tenderness, sensation intact" في injection injury = فخ، تروح theatre.
+> trick: ★ "Circumferential" = Escharotomy.
+> trick: ★ Smoke بس بدون علامات airway ← تراقبين. Hoarseness / soot / confusion ← Intubate.
+
+@ 29,30,31,32 | Head injury & intracranial bleeds
+> idea: شكل الـCT + الوقت + الـGCS يحددون النوع والعلاج.
+> flow Epidural: ★ Lucid interval + lens/convex temporal clot + GCS يهبط :: Immediate evacuation ;; ★ GCS 8 أو أقل / airway مهدد :: Intubate أول
+> flow Subdural: ★ Old man + سقطة + confusion + crescent (banana) shape :: Subdural hematoma
+> flow Herniation / SAH: ★ Blown pupil + skull fracture :: Craniotomy ("next best") ;; ★ Worst headache :: CT أول، ولو CT طبيعي ← LP ;; ★ "Initial" بدون craniotomy بالخيارات :: Hyperventilation (temporizing)
+> trick: ★ Subdural = banana. Epidural = egg/lens.
+> trick: ★ The verb decides: initial/next ← CT. Confirm بعد CT طبيعي ← LP.
+> trick: ★ Epidural مع GCS منخفض ← Intubation قبل evacuation.
+
+@ 33,34 | Spine: radiculopathy, cord compression
+> idea: Sensory level أو weakness + incontinence = cord. وبعدين فرقي: compression ولا infection.
+> flow Radiculopathy: ★ Lateral calf + lateral foot :: S1 (L5–S1) ;; ★ Dorsum of foot + big toe :: L5 ;; ★ Arm weakness مع neck extension + brain MRI طبيعي :: Cervical spine MRI
+> flow Cord: ★ Sensory level + weakness + incontinence :: Cord compression ;; ★ Spinal epidural abscess (fever, back pain, weakness) :: Surgical decompression + antibiotics ;; ★ Brisk reflexes :: ما هو GBS ولا cauda equina
+> trick: ★ Sensory level = cord. تستبعدين GBS وcauda equina.
+> trick: ★ Epidural abscess + weakness/incontinence ← Surgery + antibiotics، مو antibiotics وحدها.

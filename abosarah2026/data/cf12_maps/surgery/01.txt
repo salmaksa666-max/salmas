@@ -1,0 +1,45 @@
+@ 1 | Local anesthesia & lidocaine toxicity
+> idea: الـLidocaine لو زاد بالدم يضرب الـCNS أول وبعدين القلب. السؤال دايم: "إيش يطلع أول؟"
+> flow ترتيب السمّية: ★ Tinnitus / perioral numbness / metallic taste :: أول شي، أعراض ذاتية ;; ★ Twitching → Seizures :: بعدها ;; ★ Coma → Bradycardia / arrhythmia → Arrest :: آخر شي
+> flow العلاج: ○ Stop the injection :: أول خطوة ;; ○ Airway + O2 :: ثانيًا ;; ○ Benzodiazepine :: للـseizures ;; ○ Lipid emulsion :: للشديد
+> vs ★ Lidocaine toxicity :: Tinnitus, perioral numbness, seizures ;; ★ Adrenaline ischemia :: إصبع/أذن/أنف + pallor وألم. Assess hand أول، وبعدين phentolamine
+> trick: ★ "Early sign" ← Tinnitus (أو perioral numbness لو موجود). Seizures وbradycardia ما يكونون أول شي.
+> trick: ★ مريض قلب + ورم صغير ← Plain 1% lidocaine. لا adrenaline ولا bupivacaine.
+> trick: ★ "Initial step" وما فحصتي بعد ← Assess، والعلاج بعدين.
+
+@ 2,3,4 | Perioperative care: prophylaxis, nutrition, anticoagulation
+> idea: ٣ أسئلة تتكرر: هل أعطي antibiotic؟ وش أعطيه يأكل؟ وكيف أمنع الـDVT؟
+> flow Antibiotic prophylaxis: ★ Clean surgery (thyroid, hernia بدون mesh) :: No prophylaxis ;; ○ Clean + implant/mesh :: Single pre-incision dose (cefazolin) ;; ○ Clean-contaminated (bowel, biliary) :: Single dose قبل الشق
+> flow Nutrition: ★ Gut works + يقدر ياكل :: Oral high-protein diet / supplements ;; ○ ما يقدر ياكل والأمعاء شغالة :: NG / NJ tube ;; ○ Gut مو شغال (obstruction, fistula) :: TPN
+> flow VTE prevention: ★ Post-trauma/fracture :: Early mobilization + LMWH ;; ★ على anticoagulant ويبي عملية :: Verify ما أخذه (كم يوم) + check coagulation ;; ○ Bridging :: بس للـhigh thrombotic risk
+> trick: ★ Thyroidectomy = clean = ما فيه prophylaxis (إلا لو implant).
+> trick: ★ Malnutrition ما يعني TPN. السؤال: الأمعاء شغالة؟ الفم يقدر؟ استخدمي الفم أول.
+> trick: ★ لو LMWH بالخيارات والسؤال عن DVT prevention ← Pharmacological prophylaxis.
+> trick: ★ أسئلة "safety" ← تتأكد وتراقب، ما تقفز خطوات.
+
+@ 5,6,7,8 | Post-op problems: shock, fever, oliguria, retention
+> idea: بعد العملية: شوفي المشكلة بالوقت (كم يوم بعدها) وبالفحص. وأول شي تفحصينه هو الأبسط.
+> flow Fever / hypoxia بعد العملية: ★ ٢٤ ساعة :: Atelectasis ;; ★ ٧٢ ساعة + fever + desaturation :: Pneumonia ;; ★ Post-cesarean + SpO2 في الـ80s :: Pulmonary embolism ;; ★ Fever + wound نظيف ما فيه شكوى :: Review medication ;; ★ Fever بعد abdominal surgery :: Assess surgical site أول
+> flow Oliguria / retention: ★ Oliguria بعد AAA repair :: Check Foley catheter أول (قبل أي علاج) ;; ★ Retention + Foley فشل :: Suprapubic catheter (RUG بس للـtrauma + blood at meatus) ;; ★ Spinal anesthesia + ما يبول + full bladder :: Urinary catheterization
+> flow Shock: ★ Pneumonia + hypotension + confusion :: Septic shock ← Fluids أول ;; ★ Hypotension + tachycardia :: Hemorrhagic ;; ★ Hypotension + bradycardia بعد trauma :: Spinal shock
+> trick: ★ "Check the tube" قبل ما تعالجين الكلى.
+> trick: ★ Full bladder ما يبول ← Catheter. Empty bladder + low output ← Fluids.
+> trick: ★ لا تخلين "day 2 low-grade fever = atelectasis" يغطي على PE لو SpO2 في الـ80s.
+> trick: ★ Peripheral cannula القصير العريض أحسن من central line طويل في الـresuscitation.
+
+@ 9 | Fluids, electrolytes & acid-base after surgery
+> idea: ركزي على: مصدر الفقد (فوق ولا تحت)، وبعدين اشتغلي على الـpH.
+> flow NG suction / vomiting: ★ Upper GI loss :: الكلية تفقد potassium ← Hypokalemia + Metabolic alkalosis ;; ★ Alkalemia + PCO2 مرتفع :: Compensation مو disorder ثاني ;; ○ Diarrhea :: الأمعاء تفقد potassium + Metabolic acidosis
+> flow أي potassium مضطرب: ★ Significant hypo/hyperkalemia :: ECG أول ;; ○ بعدين دوري على السبب
+> trick: ★ Upper GI loss = الكلية تفقد K. Lower GI loss = الأمعاء تفقده مع acidosis.
+> trick: ★ PCO2 مرتفع مع alkalemia = compensation طالما يتوافق مع المتوقع.
+> trick: ★ أي potassium مضطرب ← ECG قبل البحث عن السبب.
+
+@ 10,11,12,13 | Wounds, SSI, fistula, abscess
+> idea: الجرح: نظيف ولا ملوّث؟ فيه pus/collection ولا لأ؟ وإيش الوقت؟
+> flow Wound infection: ★ Redness + swelling + tenderness بعد أيام :: Open the wound (antibiotics وحدها ما تكفي لو فيه collection) ;; ★ Seroma ينزل وما فيه inflammation :: Regular dressings ;; ★ Healthy granulation + ما فيه discharge :: Close it (Primary closure ± vacuum)
+> flow Closure: ★ Scalp/face wound بعد ٦ ساعات :: Debridement + Primary closure (دم كثير) ;; ○ Dirty limb wound / bite :: Delayed closure
+> flow Fistula / abscess: ★ Small bowel fistula + يطلع gas وstool :: NPO + secretion inhibitors (conservative) ;; ★ Fever + RUQ pain + pleural effusion بعد duodenal ulcer repair :: US أول (CT لو "best" أو left-sided)
+> trick: ★ Collection تحت الجرح ← افتحيه. الـantibiotics لحالها خطأ كلاسيكي.
+> trick: ★ Healthy granulation = الجرح جاهز للإغلاق، مو للعلاج.
+> trick: ★ "Initial" + right side ← US. "Best/most accurate" ← CT.
