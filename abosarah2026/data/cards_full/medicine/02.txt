@@ -1,0 +1,49 @@
+@ 98,99,100 | COPD و Pneumonia و Lung abscess
+> h: COPD: متابعة
+> list: ★ مريض COPD مستقر جاء للمتابعة ← Pneumococcal vaccine (+ influenza) ;; ★ SpO2 ٨٨٪ أو أقل وهو مرتاح ← Home oxygen ;; ٨٩–٩١٪ لحالها ما تكفي ;; ○ أهم شي يطوّل العمر: Stop smoking + oxygen
+> h: COPD exacerbation
+> box: أول :: Bronchodilators + steroids + antibiotics لو البلغم تغير ;; CO2 مرتفع وهو صاحي :: BiPAP ;; ★ نعسان + تنفسه بطيء + cyanosis :: Intubation (هذا تعب مو تحسن)
+> h: Pneumonia: كيف نعالج؟
+> list: ★ ما فيه شي خاص ← Streptococcus pneumoniae ;; ★ عنده DM أو مرض مزمن أو CURB-65 عالي ← Admit + Ceftriaxone + Azithromycin ;; ○ صحي بدون أمراض ← Outpatient (amoxicillin أو doxy)
+> h: Lung abscess
+> list: ★ بلغم كريه + ريحة + cavity فيها air-fluid level ;; مين؟ aspiration (كحول، صرع، أسنان سيئة، سجين) ;; ★ العلاج: Antibiotics (clindamycin أو amox-clav) أول، مو جراحة
+> h: فخاخ الاختبار
+> list: ★ نعسان + RR بطيء بمريض COPD = تعبان ← intubate مو BiPAP ;; ★ Cavity + ريحة = abscess، مو cancer
+> sum: يعني باختصار: COPD نعسان = intubate. Pneumonia مع أمراض = ceftriaxone + azithro.
+
+@ 101,102,103,104 | Pleural effusion و Lung cancer و التدخين
+> h: Pleural effusion: نشخص
+> list: ★ Pneumonia + effusion نقدر نسحب منه ← Diagnostic thoracentesis أول ;; Light criteria: Exudate لو protein أو LDH عاليين ;; ○ pH أقل من ٧.٢ أو صديد ← Chest tube (empyema)
+> h: Malignant effusion
+> list: ★ مدخن + نقص وزن + "مو أول مرة" (يرجع) ← Indwelling tunneled catheter أو pleurodesis ;; مو decortication
+> h: Lung cancer
+> list: ★ Adenocarcinoma محدود بدون انتشار ← Surgery ;; ★ فيه metastasis أو malignant effusion ← Chemo / systemic ;; Clubbing علامة شائعة
+> h: SpO2 واطي والـABG طبيعي
+> list: ★ Saturation gap ← فكري بـMethemoglobinemia أو CO poisoning ;; المصدر جوابه Pulmonary edema لهذا السؤال
+> h: Smoking cessation
+> list: ★ أعلى نجاح ← Varenicline ;; بعض الأسئلة "initial" ← NRT ;; ★ عنده صرع ← تجنبي Bupropion
+> sum: يعني باختصار: Pneumonia + effusion = اسحبي عينة. Effusion يرجع بمدخن = catheter. التدخين = varenicline.
+
+@ 105,106,107 | GERD والنزيف العلوي والـWarfarin
+> h: GERD
+> list: حرقة وألم صدر بعد الأكل الحار ويزيد وهو منسدح ;; بدون علامات خطر ← PPI trial ;; ★ Hb واطي أو نقص وزن أو صعوبة بلع ← Endoscopy
+> h: Upper GI bleeding
+> box: ★ Initial (unstable) :: Resuscitation ;; بعدها :: IV PPI ;; ★ Most definitive :: Upper endoscopy
+> h: Variceal bleeding
+> box: أول :: Octreotide + antibiotics + band ligation ;; ★ ما وقف رغم ذلك :: TIPS ;; نزيف قوي ومريض unstable :: Balloon tamponade كجسر مؤقت
+> h: نزيف على Warfarin
+> list: ★ نزيف + shock + INR عالي (عنده metallic valve) ← Prothrombin complex concentrate (PCC) + vitamin K ;; ★ INR ٤.٤ + رعاف بسيط + بدأ أعشاب ← وقفي الأعشاب وأعيدي INR بعد ٤٨ ساعة ;; ○ INR عالي بدون نزيف ← وقفي جرعة أو جرعتين
+> h: فخاخ الاختبار
+> list: ★ PCC يغلب السوائل والدم لحالها لأنه يصلح التخثر ;; ★ لا توقفين المميع نهائي عند مريض AF عشان INR عالي شوي
+> sum: يعني باختصار: نزيف + INR عالي = PCC. Varices ما وقف = TIPS.
+
+@ 108,109,110 | Colorectal cancer: Screening والشك والـFAP
+> h: Screening للشخص العادي
+> list: ★ Colorectal هو اللي ينفع screening وطني للكل ;; ★ المصدر جوابه "at 50 every 10 years". لو فيه خيار "now at 45 every 10" ← اختاريه
+> h: Screening مع قريب مصاب
+> list: ★ قريب درجة أولى ← ابدئي من ٤٠ أو قبل عمره بـ١٠ سنين (الأصغر) ;; ★ قريب انصاب بعمر ٥٠ والمريض ٤٠ ← Start now وأعيدي كل ١٠ سنين ;; اختاري البداية الصح أول، بعدين الفترة
+> h: لو فيه أعراض
+> list: ★ تغير بالبراز + دم + نقص وزن + شحوب ← Colonoscopy with biopsy ;; ★ FOBT للأصحاء بس، مو لمريض فيه أعراض
+> h: FAP و Peutz-Jeghers
+> list: ★ إسهال بدم + أمه وأخوه نفس الشي ← Familial adenomatous polyposis ;; ★ Pigmentation حول الفم ← Peutz-Jeghers ;; ○ FAP ← colectomy وقائي
+> sum: يعني باختصار: أعراض = colonoscopy مو FOBT. قريب مصاب = قبل عمره بـ١٠.

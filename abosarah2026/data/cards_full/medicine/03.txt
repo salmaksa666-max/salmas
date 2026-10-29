@@ -1,0 +1,47 @@
+@ 111,112,113 | IBD والإسهال المزمن و Typhlitis
+> h: Crohn ولا UC؟
+> two: Crohn :: ★ Skip lesions + strictures + fistula + granulomas ;; UC :: مستمر من الـrectum + إسهال بدم
+> h: UC + صفار
+> list: ★ UC + bilirubin عالي + MRCP فيه strictures (beaded) ← Primary sclerosing cholangitis ;; ○ PBC: امرأة + AMA positive + القنوات طبيعية
+> h: إسهال مزمن بعد سفر
+> list: ★ سافر لتايلند أو ماليزيا + إسهال وmalabsorption + مزرعة سلبية ← Tropical sprue ;; Whipple يحتاج مفاصل أو قلب أو أعصاب ;; ○ Celiac: anti-tTG
+> h: Traveler's diarrhea
+> list: ★ ما نعطي antibiotics وقائي عادةً ;; ★ على aspirin ← لا تعطين bismuth (salicylate)
+> h: Typhlitis
+> list: ★ مريض لوكيميا على chemo + neutropenia + ألم RLQ + إسهال بدم ;; ★ الفحص: CT ;; العلاج: Bowel rest + broad antibiotics
+> sum: يعني باختصار: UC + strictures بالقنوات = PSC. سفر + malabsorption = tropical sprue. Neutropenia + RLQ = CT.
+
+@ 114,115,116,117 | الدم: Hemolysis و Sickle cell و Tumor lysis
+> h: Hemolytic anemia: نشخص
+> list: بول أحمر + صفار + Hb واطي ;; "Next" ← Reticulocytes ;; ★ "Diagnose the cause" ← Coombs test ;; ★ بعد أيام من دواء جديد ← Drug-induced ← وقفي الدواء
+> h: Sickle cell: Acute chest syndrome
+> list: ★ Sickle + حرارة + hypoxia + infiltrate جديد ← Exchange transfusion + antibiotics ;; ★ "تقليل النوبات بالمستقبل" ← Hydroxyurea ;; ★ Electrophoresis: المرض ما فيه HbA. الـtrait فيه HbA و HbS
+> h: Tumor lysis syndrome
+> list: ★ بعد chemo (lymphoma، Burkitt) ;; ★ K و phosphate و uric acid ترتفع. Calcium ينزل ;; ★ وقاية ← Hydration + allopurinol أو rasburicase ;; ★ ما يبول + K عالي ← Furosemide بعد السوائل
+> h: Radiation
+> list: ★ جرعة عالية + ترجيع وألم بطن بعد أيام أو أسابيع ← Bone marrow destruction ;; السرطان أثر متأخر بعد سنين
+> sum: يعني باختصار: سبب الـhemolysis = Coombs. TLS = كل شي يرتفع إلا الكالسيوم.
+
+@ 118,119,120,121 | الكلى والأملاح
+> h: AKI
+> list: Prerenal: urine Na أقل من ٢٠ ;; ★ إسهال وترجيع بس urine Na عالي ← Acute tubular necrosis (التحاليل تقرر) ;; ★ بعد ماراثون: dipstick دم positive بس ما فيه RBC ← Rhabdomyolysis ← Hydration
+> h: CKD
+> list: ★ ضغط من ١٠ سنين + سكر من ٥ شهور ← Hypertensive nephrosclerosis (المرض الأقدم) ;; ★ ما فيه fluid overload ولا AEIOU ← Prepare for transplant (مو dialysis) ;; ★ DM + CKD ← أضيفي SGLT2i (dapagliflozin)
+> h: Post-strep GN
+> list: ★ تورم حول العين + دم بالبول + ضغط + التهاب حلق قبل ٢–٣ أسابيع + ASO ;; ★ لو الدم بعد يوم أو يومين من الحلق ← IgA nephropathy
+> h: Hyponatremia
+> list: ★ ورم بالمخ + euvolemic ← SIADH ← Fluid restriction ;; ★ Dehydrated ← Cerebral salt wasting ← Saline ;; ★ بعد عملية + D5W + confusion ← Fluid restriction & monitoring ;; ★ أي خيار فيه "rapid correction" غلط (osmotic demyelination)
+> h: فخاخ الاختبار
+> list: ★ ترجيع مزمن + جفاف بدون تحاليل ← Electrolyte disturbance
+> sum: يعني باختصار: Dipstick دم بدون RBC = rhabdo. Hyponatremia: لا تصححين بسرعة أبدًا.
+
+@ 122,123,124 | الهرمونات: Cushing والغدة والـsteroids
+> h: Cushing: كيف يجي؟
+> list: زيادة وزن + striae بنفسجية + ضغط + سكر ;; ○ أول فحص: Dexamethasone suppression test أو 24h urine cortisol
+> h: Cushing: وين المشكلة؟
+> box: ★ ACTH عالي + cortisol عالي :: Pituitary adenoma (Cushing disease) ;; ACTH عالي جدًا + K واطي جدًا :: Ectopic ACTH (lung cancer) ;; ACTH واطي :: Adrenal أو steroids من برا
+> h: Hypothyroidism
+> list: ★ امرأة شابة + نعاس + تعب + إمساك ← Hashimoto ;; Hashimoto: ما يؤلم + antibodies ;; ★ رقبة تؤلم بعد فيروس ← Subacute thyroiditis
+> h: آثار الـSteroids
+> list: ★ جرعة عالية لفترة طويلة ← Hypertension ← نزيف بالمخ (هذا جواب المصدر للوفاة المفاجئة) ;; ○ سكر، osteoporosis، عدوى، Cushing ;; ○ وقف فجأة ← Adrenal crisis
+> sum: يعني باختصار: ACTH + cortisol عاليين = pituitary. ما يؤلم + antibodies = Hashimoto.

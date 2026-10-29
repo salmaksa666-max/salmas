@@ -1,0 +1,44 @@
+@ 180,181 | الكلى والـUTI عند الأطفال
+> h: CKD stages (GFR)
+> list: Stage 3: ٣٠–٥٩ ;; ★ Stage 4: ١٥–٢٩ (GFR ٢٨ = stage 4) ;; Stage 5: أقل من ١٥
+> h: UTI: نعالج
+> list: ★ عمره أقل من ٣ شهور + حرارة + dipstick positive ← Hospital + IV antibiotics ;; ★ ٥ سنين + حرارة + حرقان بس ← Oral amoxicillin (أو حسب المقاومة) ;; ○ Toxic أو يرجع ← IV
+> h: بعد الـUTI
+> list: ○ أول UTI مع حرارة تحت سنتين ← Renal US ;; ○ US غير طبيعي أو يتكرر ← VCUG
+> sum: يعني باختصار: أقل من ٣ شهور = IV دايمًا. GFR ١٥–٢٩ = stage 4.
+
+@ 182,183 | Seizures و Meningitis عند الأطفال
+> h: أنواع النوبات
+> list: ★ تطيح فجأة لأن عضلاتها ارتخت ← Atonic ;; ★ نوبات بالنوم بالوجه + طفل طبيعي + centrotemporal spikes ← Rolandic ;; ○ رجفات بالصباح بمراهق ← Juvenile myoclonic ;; ○ يسرح ثواني ← Absence (3 Hz)
+> h: Febrile seizure
+> list: ٦ شهور–٥ سنين، مرة وحدة، أقل من ١٥ دقيقة ;; ★ خطر الصرع بعدها: حوالي ٢٪ ;; رجع طبيعي ← ما يحتاج LP
+> h: Meningitis: متى LP؟
+> list: ★ حرارة + نعاس وconfusion مستمر + نوبة ← Lumbar puncture ;; ○ Unstable أو علامات ضغط ← antibiotics أول
+> h: قراءة الـCSF
+> two: Bacterial :: Neutrophils + glucose واطي ;; Viral :: Lymphocytes + glucose طبيعي
+> list: ★ Lymphocytes + glucose واطي ← TB أو fungal ;; ★ المصدر في سؤال CSF glucose طبيعي + lymphocytes ← IV Acyclovir (HSV)
+> sum: يعني باختصار: Lymphocytes + glucose طبيعي = viral. Confusion مستمر = LP.
+
+@ 184,185,186,187,188,189 | العدوى عند الأطفال
+> h: TB contact
+> list: ★ أبوه TB + الطفل ما عنده أعراض + X-ray طبيعي + PPD ١٤ مم ← Treat latent TB ;; ★ عمره أقل من ٥ وعايش مع TB مفتوح ← IGRA + ابدئي INH (حتى لو أخذ BCG)
+> h: الطفح الجلدي
+> list: ★ Measles: Koplik spots + حرارة + طفح ← Airborne ;; ★ Varicella: حبوب بمراحل مختلفة (vesicles و scabs) ;; كلها بنفس المرحلة ← Smallpox ;; ★ HFMD: طفح باليد والرجل + قرح بالفم ← Fecal-oral ;; ★ Scarlet fever: حلق + طفح خشن مثل الصنفرة ← Strep pyogenes
+> h: الفرق
+> two: Scarlet fever :: حلق + sandpaper rash ← Penicillin ;; Kawasaki :: حرارة ٥ أيام + عيون حمرا + يدين متورمة ← IVIG + aspirin
+> h: Animal bite
+> list: ★ خفاش (bat) ← دايمًا category III ← Rabies vaccine + immunoglobulin
+> sum: يعني باختصار: Measles و varicella و TB = airborne. خفاش = vaccine + Ig.
+
+@ 190,191,192,193,194 | العظام والسكري والأخلاقيات عند الأطفال
+> h: Transient synovitis ولا Septic arthritis؟
+> two: Transient synovitis :: ★ بعد زكام + يمشي مع ألم بسيط + WBC طبيعي ← Rest + NSAID ;; Septic arthritis :: ما يمشي أبدًا + حرارة عالية + WBC و ESR عاليين ← Aspiration + antibiotics
+> h: Osteomyelitis
+> list: ★ ألم مكان واحد يزيد + حرارة + دفء ← Initial: X-ray. ★ Best: MRI ;; ○ أشهر سبب: Staph aureus
+> h: JIA
+> list: ★ مفاصل كثيرة + RF positive ← Methotrexate (مو NSAID بس)
+> h: Type 1 DM screening
+> list: ★ الكلى ← Urine microalbumin (albumin/creatinine) سنويًا ;; ○ العين ← fundus. الغدة ← TSH. Celiac
+> h: DNR
+> list: ★ ما فيه DNR موقّع ← CPR كامل حتى لو الحالة سيئة
+> sum: يعني باختصار: يمشي = synovitis. ما يمشي = septic. RF+ = MTX. ما فيه DNR موقع = CPR.

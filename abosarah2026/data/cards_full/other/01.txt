@@ -1,0 +1,39 @@
+@ 195,196,197,198 | الطوارئ: Sepsis و Cord و Pancreatitis و Radiation
+> h: Septic shock
+> list: ★ عدوى + حرارة + ضغط واطي ← Cardiac output يرتفع + SVR ينزل (warm shock) ;; العلاج: سوائل + antibiotics بأول ساعة + Norepinephrine
+> h: Spinal cord compression
+> list: ★ ضعف رجلين + incontinence + sensory level T10 ← Cord compression ;; ألم ظهر أو سرطان يرجح compression ;; ○ بعد عدوى بدون ألم ← Transverse myelitis
+> h: Acute pancreatitis
+> list: ★ ألم epigastric للظهر ← يأكد التشخيص: Lipase ;; Triglycerides و calcium و US ← يدورون السبب
+> h: Radiation
+> list: ★ جرعة عالية + بعد أسبوعين تعب وترجيع ← Bone marrow destruction ;; بعد سنين ← سرطان
+> sum: يعني باختصار: Sepsis = CO عالي + SVR واطي. Pancreatitis = lipase.
+
+@ 199,200,201 | الطب النفسي: Depression و Schizophrenia و Mania
+> h: Depression عند المراهق
+> list: ★ خفيف أو متوسط ← CBT قبل الدواء ;; ○ شديد ← CBT + fluoxetine ;; ★ "أكثر شي يقلق" ← Isolation و social withdrawal ;; العرض الأساسي للتشخيص ← Anhedonia
+> h: Schizophrenia
+> list: Hallucinations + delusions + سلوك مضطرب أكثر من ٦ شهور ;; ★ أول علاج: Risperidone (أو atypical) بأقل جرعة فعالة ;; ★ سمين أو سكري ← تجنبي Olanzapine ;; ○ فشل دوائين ← Clozapine
+> h: Acute mania
+> list: ★ Mania بالطوارئ ← Olanzapine (antipsychotic سريع) ;; Lithium للمدى الطويل ;; ○ Lithium: افحصي الكلى والغدة
+> sum: يعني باختصار: مراهق خفيف = CBT. Schizophrenia = risperidone. Mania طارئة = olanzapine.
+
+@ 202,203,208 | الوقاية والـScreening والأبحاث
+> h: الوقاية
+> list: ★ "Prevent STDs" ← Consistent condom use ;; Primary prevention = نمنع المرض. Secondary = نكتشفه بدري (screening)
+> h: مبادئ الـScreening
+> list: ★ اختبار الـscreening لازم يكشف أكبر عدد = Sensitivity عالية ;; Specificity ← للتأكيد ;; ★ رجل مدخن ٦٥ سنة ← AAA ultrasound ;; ○ Lung CT لو موجود بالخيارات ينافس بالمدخن الثقيل
+> h: هرم الأدلة
+> list: ★ أعلى: Systematic review of RCTs ;; بعدها RCT ;; ثم cohort ثم case-control ثم case report
+> sum: يعني باختصار: Screening = sensitivity. أعلى دليل = systematic review.
+
+@ 204,205,206,207 | سلامة المريض والتواصل والموافقة
+> h: تصنيف الأخطاء
+> list: ★ انمسك الخطأ قبل يوصل للمريض ← Near miss ;; وصل وسبب ضرر ← Adverse event ;; ★ "وش غلط الدكتور الأول" ← اختاري اللي يخص الدكتور نفسه (protocol)
+> h: التواصل
+> list: ★ معلومة ضاعت بين الشفتات ← Handover miscommunication ;; ★ دكتور يقول + ممرضة تعيد + دكتور يأكد ← Closed loop ;; إعادة بدون تأكيد ← مو closed loop
+> h: الموافقة والرفض
+> list: ★ رفض واضح وموثق ← احترميه ;; ★ كلام قديم غير واضح + نزيف خطير ← Start blood transfusion ;; ★ مريض واعي رفض العملية ← احترمي رفضه ;; ★ منع الحمل بين الزوجين ← Mutual consent. عمليتها ← هي توقع
+> h: أخلاقيات المهنة
+> list: ★ صلاحيات بعد fellowship ← قيّمي الكفاءة أول ;; ★ دكتور يجي نعسان ويغلط ← Report to administration ;; ★ IRB يحمي المشارك ← Deontology
+> sum: يعني باختصار: ما وصل للمريض = near miss. خطر على المرضى = report.

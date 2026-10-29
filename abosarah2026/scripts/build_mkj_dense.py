@@ -12,11 +12,15 @@ import sys
 import tempfile
 import zipfile
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import annot
+
 SRC, OUT = sys.argv[1], sys.argv[2]  # OUT is a directory when classifying
 CHROME = sorted(glob.glob("/opt/pw-browsers/chromium_headless_shell-*/*/chrome-headless-shell"))[-1]
 CAP = int(os.environ.get("CAP", "6500"))
 
 CSS = """
+.ref { font-size: .82em; font-style: italic; color: #444; }
 @page { size: A4; margin: 8mm; }
 * { box-sizing: border-box; }
 html, body { width: 194mm; }
@@ -165,11 +169,11 @@ def build(items, out):
             start, body = num + 1, ""
             for it in ch:
                 num += 1
-                o = "".join(f'<div class="o"><bdi dir="ltr">{k}. {html.escape(t)}</bdi></div>' for k, t in it["opts"])
+                o = "".join(f'<div class="o"><bdi dir="ltr">{k}. {annot.annotate_text(html.escape(t), labs=False)}</bdi></div>' for k, t in it["opts"])
                 if not it["opts"]:
                     o = ""
                 body += (f'<div class="q"><div class="hd">{num}) <span>{it["qid"]}</span></div>'
-                         f'<div class="sec" dir="ltr">{it["sec"]}</div><div dir="ltr">{hilite(it["stem"], it["l2"], it["l1"])}</div>{o}</div>')
+                         f'<div class="sec" dir="ltr">{it["sec"]}</div><div dir="ltr">{annot.annotate_html(hilite(it["stem"], it["l2"], it["l1"]))}</div>{o}</div>')
                 ak += answer_item(num, it)
             pages.append(f'<div class="page"><div class="ph">Questions {start}–{num}</div>{body}</div>')
         pages.append(f'<div class="page ak"><div class="ph">Answers {first}–{num}</div>{ak}</div>')

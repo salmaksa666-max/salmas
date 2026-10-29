@@ -16,6 +16,9 @@ import sys
 import tempfile
 import zipfile
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import annot
+
 APKG, DATA, IMG_DIR, OUT = sys.argv[1:5]
 CHROME = sorted(glob.glob("/opt/pw-browsers/chromium_headless_shell-*/*/chrome-headless-shell"))[-1]
 FILES = {"Surgery": "01_Surgery", "Medicine": "02_Medicine", "Pediatrics": "03_Pediatrics",
@@ -40,6 +43,7 @@ mark.l2 { background: #b4b4b4; font-weight: bold; text-decoration: underline; }
 .memo b { font-weight: bold; }
 """
 CSS += """
+.ref { font-size: .82em; font-style: italic; color: #444; }
 html, body { width: 194mm; }
 .page.map { display: flex; align-items: center; justify-content: center; }
 .page.map img { width: 194mm; max-height: 280mm; object-fit: contain; filter: grayscale(1) contrast(1.15); }
@@ -93,7 +97,8 @@ def plain(h):
 
 def question_cell(i, f, dtitle):
     stem = re.search(r'<div dir="ltr" style="text-align:left">(.*)</div>\s*$', f["Question"], re.S).group(1)
-    opts = "".join(f'<div class="o"><bdi dir="ltr">{k}. {html.escape(plain(f["Opt" + k]))}</bdi></div>'
+    stem = annot.annotate_html(stem)
+    opts = "".join(f'<div class="o"><bdi dir="ltr">{k}. {annot.annotate_text(html.escape(plain(f["Opt" + k])), labs=False)}</bdi></div>'
                    for k in "ABCD" if f["Opt" + k].strip())
     return (f'<div class="q"><div class="hd">{i}) <span>{f["QID"]}</span></div>'
             f'<div class="dz" dir="ltr">{html.escape(dtitle)}</div>'

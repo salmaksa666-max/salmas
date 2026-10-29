@@ -11,6 +11,9 @@ import tempfile
 
 from PIL import Image
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import annot
+
 MAPS, OUT = sys.argv[1], sys.argv[2]
 PNG_DIR = sys.argv[3] if len(sys.argv) > 3 else tempfile.mkdtemp()
 os.makedirs(PNG_DIR, exist_ok=True)
@@ -47,6 +50,7 @@ body {{ width: {W}px; margin: 0; padding: 18px 16px 22px; color: #ececec; font-f
 .sum {{ grid-column: 1 / 3; margin-top: 14px; border: 1px solid #2f6f55; background: #10231b; padding: 10px 14px; border-radius: 14px; font-weight: 700; font-size: 17px; text-align: center; position: relative; z-index: 1; }}
 .st {{ color: #f2b800; }}
 .ex {{ color: #9a9aa2; }}
+.ref {{ color: #8fb8ff; font-size: .85em; font-weight: 400; }}
 """
 
 LAT = re.compile(r"[A-Za-z][A-Za-z0-9'’\-/.+%±↑↓]*(?: (?:[A-Za-z0-9±][A-Za-z0-9'’\-/.+%±]*|\+|/))*")
@@ -57,7 +61,7 @@ def e(t):
     out, last = [], 0
     for m in LAT.finditer(t):
         out.append(html.escape(t[last:m.start()], quote=False))
-        out.append(f'<bdi dir="ltr">{html.escape(m.group(0), quote=False)}</bdi>')
+        out.append(f'<bdi dir="ltr">{annot.annotate_text(html.escape(m.group(0), quote=False), labs=False)}</bdi>')
         last = m.end()
     out.append(html.escape(t[last:], quote=False))
     return "".join(out).replace("★", '<span class="st">★</span>').replace("○", '<span class="ex">○</span>')
@@ -124,18 +128,65 @@ def shot(doc, png):
                     "--virtual-time-budget=2000", f"--screenshot={png}", "file://" + src], check=True, capture_output=True)
 
 
+PRINT = """
+@page { size: A4; margin: 0; }
+html, body { width: 210mm; background: #0e0e10; margin: 0; padding: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { width: 210mm; padding: 0; }
+.stage { position: absolute; left: 0; top: 0; visibility: hidden; }
+.mp { width: %dpx; padding: 14px 12px 18px; zoom: var(--z); }
+.page { width: 210mm; height: 297mm; box-sizing: border-box; padding: 5mm; display: flex; flex-direction: row-reverse; gap: 4mm; break-after: page; overflow: hidden; background: #0e0e10; }
+.page:last-child { break-after: auto; }
+.col { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: 3mm; }
+.mp + .mp { border-top: 1px dashed #333; }
+""" % W
+
+PACK = """<script>
+document.fonts.ready.then(function () {
+  var page = document.createElement('div'); page.className = 'page';
+  var probe = document.createElement('div'); probe.className = 'col'; page.appendChild(probe);
+  var probe2 = document.createElement('div'); probe2.className = 'col'; page.appendChild(probe2);
+  document.body.appendChild(page);
+  var cw = probe.getBoundingClientRect().width, ch = probe.getBoundingClientRect().height;
+  page.remove();
+  var z = cw / %d; document.documentElement.style.setProperty('--z', z);
+  var maps = [...document.querySelectorAll('.stage .mp')], cur = null, col = 2, used = 0;
+  var gap = parseFloat(getComputedStyle(probe).gap) || 11;
+  maps.forEach(function (m) {
+    var h = m.getBoundingClientRect().height;
+    if (h > ch) { m.style.zoom = z * ch / h; h = ch; }
+    if (!cur || used + h > ch + 0.5) {
+      if (col >= 2) { var pg = document.createElement('div'); pg.className = 'page'; document.body.appendChild(pg); cur = pg; col = 0; }
+      var c = document.createElement('div'); c.className = 'col'; cur.appendChild(c); cur.lastCol = c; col += 1; used = 0;
+    }
+    cur.lastCol.appendChild(m); used += h + gap;
+  });
+  document.querySelector('.stage').remove();
+  document.title = 'pages:' + document.querySelectorAll('.page').length;
+});
+</script>""" % W
+
+
 def main():
     blocks = []
     for f in sorted(glob.glob(os.path.join(MAPS, "*.txt"))):
         blocks += [b for b in re.split(r"(?m)^(?=@ )", open(f, encoding="utf-8").read()) if b.strip().startswith("@")]
-    pngs = []
-    for i, b in enumerate(blocks, 1):
-        png = os.path.join(PNG_DIR, f"tree_{i:03d}.png")
-        shot(f'<html><head><meta charset="utf-8"><style>{CSS}</style></head><body>{render(b)}</body></html>', png)
-        pngs.append(png)
-    imgs = [Image.open(p).convert("RGB") for p in pngs]
-    imgs[0].save(OUT, save_all=True, append_images=imgs[1:], resolution=192.0)
-    print(len(imgs), "maps ->", OUT)
+    if os.environ.get("PNG"):
+        for i, b in enumerate(blocks, 1):
+            shot(f'<html><head><meta charset="utf-8"><style>{CSS}</style></head><body>{render(b)}</body></html>',
+                 os.path.join(PNG_DIR, f"tree_{i:03d}.png"))
+    # vector PDF (sharp at any zoom), ~4 maps per A4 page in two columns
+    css = CSS.replace("html, body { background: #0e0e10; }", "").replace("body {", ".mp {", 1)
+    doc = (f'<html><head><meta charset="utf-8"><style>{css}{PRINT}</style></head><body><div class="stage">'
+           + "".join(f'<div class="mp">{render(b)}</div>' for b in blocks) + f"</div>{PACK}</body></html>")
+    src = os.path.join(tempfile.mkdtemp(), "all.html")
+    open(src, "w", encoding="utf-8").write(doc)
+    out = subprocess.run([CHROME, "--no-sandbox", "--virtual-time-budget=8000", "--dump-dom", "file://" + src], capture_output=True, text=True).stdout
+    pages = re.search(r"<title>(.*?)</title>", out)
+    packed = src.replace("all.html", "packed.html")
+    open(packed, "w", encoding="utf-8").write(re.sub(r"<script>.*?</script>", "", out, flags=re.S))  # print the laid-out DOM
+    subprocess.run([CHROME, "--no-sandbox", "--no-pdf-header-footer", "--virtual-time-budget=4000", f"--print-to-pdf={OUT}", "file://" + packed],
+                   check=True, capture_output=True)
+    print(len(blocks), "maps,", pages.group(1) if pages else "?", "->", OUT)
 
 
 main()

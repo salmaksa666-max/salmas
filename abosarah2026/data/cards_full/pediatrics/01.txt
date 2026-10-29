@@ -1,0 +1,66 @@
+@ 140,141 | Neonatal jaundice و Kernicterus
+> p: أهم سؤال بصفار المولود: متى بدأ؟ أول ٢٤ ساعة = خطير دايمًا.
+> h: Physiologic ولا Pathologic؟
+> list: ★ أول ٢٤ ساعة ← Pathologic (hemolysis: ABO/Rh) ;; يوم ٢–٣ + يرضع زين ← Physiologic ;; ★ عمره ٤ أيام + صفار خفيف + يرضع زين ← المصدر: Breastmilk jaundice ;; ○ Direct bilirubin عالي أو أكثر من أسبوعين ← Biliary atresia
+> h: العلاج
+> box: أول :: Phototherapy ;; ★ ما نزل رغم intensive phototherapy :: Exchange transfusion ;; القرار :: حسب عمره بالساعات وعوامل الخطر
+> h: Kernicterus
+> list: Bilirubin يدخل المخ ;; ★ النتيجة: Dyskinetic (athetoid) cerebral palsy + صمم ;; ★ Prematurity ← Spastic diplegia
+> sum: يعني باختصار: أول ٢٤ ساعة = خطير. Phototherapy ما نفع = exchange. Kernicterus = dyskinetic CP.
+
+@ 142,143,144,145 | تنفس المولود: TTN و Meconium و BPD و أم سكري
+> h: TTN
+> list: ★ مولود كامل + قيصرية + تنفس سريع ;; ★ X-ray: Hyperinflation + سوائل بالشقوق ;; العلاج: Supportive + oxygen، يروح خلال ٢–٣ أيام
+> h: RDS (للمقارنة)
+> list: ○ Preterm + ground glass + الرئة صغيرة ← Surfactant + CPAP
+> h: Meconium
+> list: ★ "During delivery" والسائل أخضر ← المصدر: Oropharyngeal suction قبل باقي الجسم ;; ○ الإرشادات الجديدة: لا suction روتيني ;; ★ Meconium aspiration + ventilated + hypoxia ← Echo (PPHN)
+> h: BPD
+> list: Preterm استمر على O2 أكثر من ٢٨ يوم ;; ★ صعب نفصله عن الـventilator ← Short-term steroid (مو long)
+> h: Infant of diabetic mother
+> list: ★ Respiratory distress + desat ← NICU + Glucose monitoring ;; أشهر مشكلة: Hypoglycemia ;; ○ Macrosomia، polycythemia، hypocalcemia، heart defects
+> sum: يعني باختصار: قيصرية + hyperinflation = TTN. أم سكري = افحصي السكر.
+
+@ 146,147,148,149 | المولود: نزيف و TORCH و CAH و MSUD
+> h: نزيف المولود
+> list: ★ نزيف من السرة + PT و PTT طويلين + platelets طبيعية ← Vitamin K deficiency ;; ★ أمه SLE + platelets ١٨٠٠٠ + PT/PTT طبيعي ← Immune thrombocytopenia ← Platelets + IVIG
+> h: TORCH
+> list: ★ Microcephaly + hepatosplenomegaly + cytopenia ← TORCH screen ;; ★ "أمه سكري" بالسؤال طُعم ;; ○ CMV: calcifications حول البطين ;; ○ Toxo: calcifications متفرقة
+> h: Salt-wasting CAH
+> list: ★ رضيع يرجع + Na واطي + K عالي + سكر واطي ;; سببه: 21-hydroxylase ;; ★ Acute ← IV hydrocortisone + normal saline ;; مستقر بالعيادة ← Oral hydrocortisone + fludrocortisone
+> h: Metabolic
+> list: ★ MSUD: ريحة maple syrup ← قللي Leucine مع سعرات كافية ;; PKU: ريحة عفنة ← قللي Phenylalanine
+> sum: يعني باختصار: PT+PTT طويلة = vitamin K. Platelets واطية وأمه SLE = IVIG. CAH حاد = hydrocortisone + saline.
+
+@ 150,151,152 | Floppy infant والنمو والتطعيمات
+> h: Floppy infant
+> list: ★ Tongue fasciculations + denervation ← SMA ← فيه علاج جديد أفضل لو بدأ بدري ;; ★ ضعف proximal + reflexes موجودة + ما فيه fasciculations ← Congenital myopathy ;; CK عالي جدًا ← Muscular dystrophy
+> h: Milestones (الحركة)
+> list: ٤ شهور: يتقلب من البطن للظهر ;; ★ ٦ شهور: يجلس بدون مسند (ويتقلب من الظهر للبطن) ;; ٩ شهور: يحبي ;; ١٢ شهر: يمشي
+> h: Milestones (اجتماعي ولغة)
+> list: ★ يخاف من الغرباء ← ٩–١٠ شهور ;; يعرف الغريب ← ٦ شهور ;; ★ يسمي الألوان ← ٤ سنين. يأشر على اللون ← ٣ سنين
+> h: Primitive reflexes
+> list: ★ نلمس جنب الفم ويلف ← Rooting ;; ○ Parachute يظهر متأخر ويبقى
+> h: تطعيمات: متى ما نعطي؟
+> list: ★ ورم كبير مكان الإبرة + حرارة ٣٧.٩ ← Give now ;; ★ Anaphylaxis (urticaria + syncope) ← لا تعطين نفس اللقاح ;; ★ Contraindicated ← مرض متوسط أو شديد (مو زكام) ;; ★ Immunodeficiency ← لا live vaccines (Varicella، MMR) ;; ○ Encephalopathy خلال ٧ أيام من DTaP ← شيلي pertussis
+> sum: يعني باختصار: Fasciculations = SMA. ٦ شهور = يجلس. زكام ما يمنع اللقاح.
+
+@ 153,154 | Bronchiolitis و Asthma عند الأطفال
+> h: Bronchiolitis
+> list: ★ رضيع أقل من سنتين + زكام ثم ضيق تنفس + wheeze ;; ★ السبب: RSV ;; العلاج: Supportive (O2، سوائل، suction) ;; ○ Barking cough + stridor ← Croup (parainfluenza)
+> h: Asthma attack: كم شدته؟
+> list: ★ SpO2 ٩٥٪ + يكمل الجمل ← Salbutamol بالـspacer وأعيدي التقييم ;; ★ SpO2 أقل من ٩٢٪ أو ما يقدر يتكلم ← Severe ← Ipratropium + steroids
+> h: الوقاية
+> list: ★ ما يستخدم البخاخ صح ← Teach inhaler technique ;; ★ بدون ذكر سوء الاستخدام ← Environmental control ;; ★ الأم قلقة ← كثير منهم يتحسن بالمراهقة
+> sum: يعني باختصار: رضيع + زكام + wheeze = RSV. يتكلم وSpO2 زين = salbutamol بس.
+
+@ 155,156,157,158 | مجرى التنفس عند الأطفال
+> h: Epiglottitis
+> list: ★ طفل toxic + drooling + جالس ما يتحرك + حرارة ;; ★ لا تفحصين الحلق ولا تزعجينه ;; ★ Next ← Laryngoscopy أو intubation بالعمليات / PICU ;; ○ Croup: barking cough بدون drooling ← Dexamethasone
+> h: Tracheomalacia
+> list: Stridor يزيد مع البكاء ;; ★ Cyanosis + ضعف بالوزن ← Surgical consultation ;; بدونها ← Reassure
+> h: Wheeze ثابت من مكان واحد
+> list: ★ Pneumonia متكررة + monophasic wheeze ← Flexible bronchoscopy (foreign body أو سبب تركيبي) ;; ○ لا تعتبرينه asthma
+> h: ARDS و الـventilator
+> list: Infiltrates بالجهتين + hypoxia بعد pneumonia ← ARDS ;; ★ حماية الرئة: Low tidal volume + نقبل CO2 عالي (permissive hypercapnia)
+> sum: يعني باختصار: Drooling = epiglottitis = OR. Monophasic wheeze = bronchoscopy.

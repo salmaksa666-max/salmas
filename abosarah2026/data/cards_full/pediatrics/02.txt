@@ -1,0 +1,52 @@
+@ 159,160,161 | الأنف والعين: Rhinitis و Cellulitis و Squint
+> h: Allergic rhinitis
+> list: ★ إفراز شفاف + حكة + هالات تحت العين + turbinates شاحبة ;; ★ من جهة وحدة + ريحة ← Foreign body ;; ○ العلاج: Intranasal steroid
+> h: Periorbital ولا Orbital؟
+> two: Periorbital (preseptal) :: ★ تورم الجفن + حركة العين والنظر طبيعية ← Oral antibiotics ;; Orbital :: ★ ألم مع حركة العين أو حركة محدودة أو proptosis ← CT with contrast + IV antibiotics
+> h: Squint
+> list: ★ رضيع شهرين أهله شاكين ← Red reflex أول ;; ★ ٥ سنين عين منحرفة ← المصدر: Detailed history ;; ○ Screening ← Corneal light reflex (Hirschberg) + cover test ;; ○ بعد ٤ شهور أي squint ← Refer
+> sum: يعني باختصار: حركة العين طبيعية = periorbital. محدودة = orbital = CT.
+
+@ 162,163 | قلب الأطفال: Myocarditis والضغط
+> h: Viral myocarditis
+> list: ★ طفل بعد URTI + ضيق + palpitation ;; ★ العلامة اللي تدل على القلب: Gallop rhythm ;; ○ Echo + troponin
+> h: الضغط عند الأطفال
+> list: ★ ضغط مرتفع مرة وبعدين طبيعي + BMI عالي ← Weight loss ;; ★ "Confirm diagnosis" ← قياسات متكررة صح ;; ○ صغير + ضغط عالي ← دوري سبب (كلية)
+> sum: يعني باختصار: Gallop بعد زكام = myocarditis. طفل سمين = weight loss.
+
+@ 164,165,166,167,168 | بطن الأطفال: الجراحي
+> h: Intussusception
+> list: ★ ٦ شهور–٣ سنين + بكاء متقطع + ترجيع + red currant jelly stool ;; ★ المكان: Ileocolic ;; US: target sign ;; العلاج: Air أو contrast enema
+> h: Malrotation + volvulus
+> list: ★ مولود + ترجيع أخضر (bilious) = طوارئ ;; Initial ← X-ray ;; ★ Most diagnostic ← Upper GI contrast ;; العلاج: Ladd procedure
+> h: Pyloric stenosis
+> list: ★ Initial ← NPO + IV fluids وتصحيح الـalkalosis ;; بعدين Pyloromyotomy
+> h: Appendicitis عند الطفل
+> list: ألم RLQ بسيط ← US ;; ★ ألم أسبوعين + كتلة RLQ ← CT
+> h: Trauma
+> list: ★ Handlebar injury (دراجة) ← Pancreas أو duodenum ;; ○ بدون handlebar أكثر عضو ← Spleen
+> sum: يعني باختصار: ترجيع أخضر = upper GI. Jelly stool = ileocolic. Handlebar = pancreas.
+
+@ 169,170,171,172,173,174,175 | بطن الأطفال: الباطني وغيره
+> h: نزيف من الشرج
+> list: ★ "Common and preventable" ← Anal fissure (امنعي الإمساك) ;; ○ بدون ألم ومتكرر ← Juvenile polyp ;; ○ بدون ألم وكثير ← Meckel
+> h: PUD عند الطفل
+> list: ★ ألم epigastric يصحيه بالليل ← Confirm: Upper GI endoscopy with biopsy
+> h: UC + Toxic megacolon
+> list: ★ فشل العلاج الدوائي ← Colectomy ;; أول مرة ← علاج دوائي إسعافي أول
+> h: الكبد
+> list: ★ Hepatitis A: حضانة + صفار + بول غامق ← Rest + hydration ;; INR يرتفع أو encephalopathy ← Transplant center ;; ★ بنت + IgG عالي + autoantibodies ← Autoimmune hepatitis ← Steroids + azathioprine
+> h: Cystic hygroma و Undescended testis
+> list: ★ كتلة رقبة كبيرة + سائل لمفاوي شفاف ← Surgery (أو sclerotherapy) ;; ★ خصية وحدة ما تنحس بعمر ١٥ شهر ← Diagnostic laparoscopy ;; ★ الثنتين ما تنحس ← Karyotype (CAH) أول
+> sum: يعني باختصار: Common & preventable = fissure. Hep A = supportive. خصية ما تنحس = laparoscopy.
+
+@ 176,177,178,179 | دم ومناعة الأطفال
+> h: Iron deficiency anemia
+> list: ★ يشرب حليب بقر كثير + شاحب ;; ★ Microcytic + RDW عالي + platelets عالية + ferritin واطي ;; ★ ياكل تراب وطباشير (pica) ← iron deficiency ;; ○ Thalassemia trait: RDW طبيعي + RBC عالي
+> h: Autoimmune hemolytic anemia
+> list: ★ Coombs positive + retics عالية + Hb واطي ← AIHA ;; Spherocytes بالاثنين، الـCoombs يفرق عن hereditary spherocytosis
+> h: Leukemia
+> list: ★ أشهر واحد بالأطفال: ALL ;; ○ AML = acute non-lymphoblastic
+> h: Bruton
+> list: ★ ولد + infections بكتيرية متكررة بعد ٦ شهور + كل الـIg واطية + B cells غايبة ← X-linked agammaglobulinemia ;; ○ B cells طبيعية ← CVID ;; ○ العلاج: IVIG
+> sum: يعني باختصار: حليب بقر + RDW عالي = iron. B cells صفر = Bruton.

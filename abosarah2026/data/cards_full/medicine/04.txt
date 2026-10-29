@@ -1,0 +1,41 @@
+@ 125,126,127,128 | الأعصاب: TIA و Stroke و MS و الصرع
+> h: TIA
+> list: ★ ضعف دقايق وراح + مريض ضغط ← Carotid doppler ;; ★ تضيق أقل من ٧٠٪ (مثل ٥٥٪) ← Aspirin ;; ★ ECG فيه AF ← Anticoagulation ;; القاعدة: مميع للقلب، antiplatelet للشرايين
+> h: Stroke: وين المكان؟
+> list: ★ ضعف وجه + فقدان سمع بنفس الجهة ← AICA ;; ★ نزيف + pinpoint pupils + ما يقدر يحرك ← Pons ;; ○ ضعف الرجل أكثر ← ACA. الوجه واليد ← MCA
+> h: Multiple sclerosis
+> list: ★ بنت ٢٠ سنة + ضعف ونمّل + trigeminal neuralgia ← MRI brain with gadolinium ;; ○ Optic neuritis، أعراض تروح وترجع
+> h: First seizure
+> list: ★ أول نوبة + التحاليل والفحص طبيعي ← Head CT أول ثم EEG ;; ○ نوبة وحدة غالبًا ما تحتاج دواء
+> sum: يعني باختصار: TIA = carotid doppler. سمع + وجه = AICA. Pinpoint = pons.
+
+@ 129,130,131 | Dementia و Cord compression و Alcohol withdrawal
+> h: Dementia: أي نوع؟
+> list: ★ تسمي الأشياء بأسماء عامة (animal بدل cat) والذاكرة سليمة ← Frontotemporal (semantic) ← Temporal atrophy ;; ★ ينسى الأحداث الجديدة ← Alzheimer (hippocampus) ;; ○ Hallucinations + parkinsonism ← Lewy body ;; ○ تدهور على درجات ← Vascular
+> h: Cord compression
+> list: ★ ضعف رجلين + brisk reflexes + احتباس بول + sensory level ← Cord compression ;; Brisk reflexes تستبعد GBS و cauda equina ;; الفحص: MRI طارئ ;; ○ سرطان ← Dexamethasone + radiotherapy
+> h: Alcohol withdrawal
+> list: رعشة وتعرق بعد يوم أو يومين من آخر شرب ;; ○ Delirium tremens بعد ٢–٣ أيام ;; ★ العلاج: Thiamine + Benzodiazepine ;; ★ الخيار اللي فيه thiamine يغلب نفس الدواء بدونه
+> sum: يعني باختصار: Animal بدل cat = frontotemporal. Alcohol = thiamine + benzo.
+
+@ 132,133,134,135 | المفاصل والعدوى: Gout و AS و Brucella و Malaria
+> h: Gout
+> list: ★ رجل شاب + نوبات متكررة ألم مفصل بدون حرارة ← Gout ;; ★ Uric acid طبيعي وقت النوبة ما يستبعد gout ;; التشخيص: Joint aspiration (needle crystals) ;; النوبة: NSAIDs أو colchicine. الوقاية: Allopurinol
+> h: Ankylosing spondylitis
+> list: ★ ألم ظهر صباحي يتحسن مع الحركة + Schober positive ;; ★ الفحص اللي بعده: العين (Uveitis) ;; ○ HLA-B27، aortic regurgitation
+> h: Brucellosis
+> list: ★ سعودي + حرارة مزمنة + ألم ظهر + gram-negative coccobacilli ;; حليب غير مبستر أو تعامل مع ماشية ;; ○ العلاج: Doxycycline + rifampicin (أو streptomycin)
+> h: Malaria
+> list: ★ ترجع بعد العلاج (relapse) ← Vivax و Ovale (hypnozoites بالكبد) ;; ○ Falciparum الأخطر ;; ○ Vivax ← Primaquine للكبد
+> sum: يعني باختصار: AS = افحصي العين. Brucella = سعودي + ظهر + حرارة. Relapse = vivax.
+
+@ 136,137,138,139 | التطعيمات والـScreening والأخلاقيات
+> h: تطعيمات الكبار
+> list: ★ رجل ٥٠ سنة صحي زيارة روتينية ← Shingles vaccine ;; ○ ٦٥ سنة ← Pneumococcal ;; كل سنة ← Influenza
+> h: Breast cancer screening مع قريب مصاب
+> list: ★ أمها انصابت بعمر ٤٣ ← ابدئي ٣٣ (١٠ سنين قبل) ;; ★ عمرها ٣٥ ← Mammogram annually الحين
+> h: Outbreaks
+> list: ★ "International alarm" ← WHO ;; ★ "Report to WHO" ← الحكومة
+> h: الأخلاقيات
+> list: ★ نتايج بإيميل شخصي ← ممكن يوصلها شخص غير مصرح (confidentiality) ;; ★ أدوية ما انكتبت بعد النقل ← Incomplete medication reconciliation ;; ★ مريض يسأل عن رجيم من السوشال ← وجهيه لمصادر موثوقة
+> sum: يعني باختصار: ٥٠ سنة = shingles. قريب مصاب = اطرحي ١٠ من عمره.

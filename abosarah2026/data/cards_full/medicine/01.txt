@@ -1,0 +1,52 @@
+@ 89,90 | Hypertension: متى نعالج؟ ومتى نشك بسبب ثاني؟
+> p: الضغط العالي غالبًا ما له سبب (essential). بس لو المريض صغير أو ضغطه صعب أو صار عنده pulmonary edema فجأة، فكري بسبب ثاني مثل renal artery stenosis.
+> h: كيف نشخص الضغط؟
+> list: قراءات متكررة ١٤٠/٩٠ أو أكثر بأكثر من زيارة ;; ○ أكدي بقياس البيت أو ambulatory BP
+> h: متى نبدأ دواء؟
+> list: ★ ضغط عالي + عامل خطر ثاني (dyslipidemia، DM، سمنة) ← Antihypertensive مباشرة ;; ضغط خفيف بدون عوامل خطر ← lifestyle أول ;; ○ أول الأدوية: ACEi/ARB، CCB، Thiazide
+> h: Renal artery stenosis: مين ويجي كيف؟
+> list: ★ بنت صغيرة (fibromuscular dysplasia) أو كبير مدخن (atherosclerosis) ;; ★ Flash pulmonary edema متكرر ;; ○ الكرياتينين يرتفع بعد ACEi ;; ○ Bruit بالبطن
+> h: كيف نشخص RAS؟
+> list: ○ Duplex US أول فحص ;; ★ مريض سمين ← CT angiography (أفضل من US) ;; ★ الكلية ضعيفة ← MRA بدل CT (عشان الصبغة)
+> h: فخاخ الاختبار
+> list: ★ عامل خطر إضافي يحوّل الجواب من lifestyle إلى دواء ;; ★ شابة + ضغط + pulmonary edema = فكري بالكلية
+> sum: يعني باختصار: ضغط + عامل خطر = دواء. شابة بضغط + edema = RAS.
+
+@ 91,92 | الشرايين التاجية و Heart failure
+> h: Risk factors
+> list: ★ أهم عامل قابل للتعديل حسب السؤال: لو الضغط عالي ← Hypertension. لو تدخين ثقيل والضغط طبيعي ← Smoking ;; DM، dyslipidemia، family history، سمنة
+> h: MI ومضاعفاته
+> list: ST elevation ← Primary PCI ;; ★ بعد MI + shock + systolic murmur ينتشر للـaxilla ← Mitral regurgitation (papillary muscle rupture) ;; ○ VSD: murmur بالنص + step-up بالأكسجين ;; ○ بعد أسابيع: ألم + حرارة ← Dressler
+> h: Heart failure: كيف يجي ونشخص؟
+> list: ★ ضيق تنفس مع المجهود + crackles بالقاعدة + مريض ضغط ← BNP ثم Echo ;; ★ ضيق يزيد لما ينسدح (orthopnea) ← السبب: Pulmonary edema ;; Echo يحدد EF
+> h: Heart failure: نعالج
+> box: الأدوية الأساسية :: ARNI (sacubitril/valsartan) + Beta blocker + Spironolactone + SGLT2i ;; الاحتقان :: Furosemide ;; ★ K ارتفع شوي والمريض بخير :: خففي spironolactone وكملي الباقي
+> h: فخاخ الاختبار
+> list: ★ "Cause of the complaint" = آلية العرض (fluid بالرئة)، مو اسم المرض ;; ★ MR يغلب "cardiogenic shock" لو موجود بالخيارات
+> sum: يعني باختصار: ضيق + crackles = BNP ثم echo. K عالي على علاج HF = خففي spironolactone.
+
+@ 93,94 | Atrial fibrillation و Rheumatic heart disease
+> p: AF يعني القلب ينبض بشكل عشوائي. نسأل ثلاث أسئلة: المريض مستقر؟ نتحكم بالسرعة ولا بالنظم؟ يحتاج مميع؟
+> h: كيف نشخص؟
+> list: نبض غير منتظم + ECG بدون P waves ;; ○ Unstable (ضغط واطي) ← DC cardioversion
+> h: Rate ولا Rhythm؟
+> list: ★ "Control the rate" ← Beta blocker أو CCB ;; ★ "Maintain sinus rhythm / prevent recurrence" ← Amiodarone ;; ★ HFrEF + AF: المصدر جوابه Digoxin. لو bisoprolol أو carvedilol بالخيارات ← هو أفضل
+> h: المميع
+> list: ★ Persistent AF + ضغط + سكر ← Anticoagulation ;; ★ DOAC أفضل من warfarin، وwarfarin أفضل من aspirin ;; ○ Metallic valve أو mitral stenosis ← Warfarin بس
+> h: Rheumatic heart disease
+> list: تاريخ rheumatic fever + mitral stenosis أو regurgitation ;; ★ Murmur جديد عند مريض rheumatic ← Echo فورًا ;; ○ AR: diastolic murmur + pulse pressure واسع (مثل ١٥٤/٥٦)
+> h: فخاخ الاختبار
+> list: ★ Rheumatic بدون valve صناعي ما يحتاج antibiotic قبل الأسنان ;; ★ Murmur جديد = echo مو follow-up
+> sum: يعني باختصار: Rate = BB. Rhythm = amiodarone. مميع = DOAC. Murmur جديد = echo.
+
+@ 95,96,97 | Shock و Pulmonary embolism و AAA
+> h: أنواع الـShock
+> two: Cold (cardiogenic) :: أطراف باردة + HF ← Dobutamine (inotrope) ;; Warm (septic) :: أطراف دافية + حرارة ← سوائل ثم Norepinephrine
+> list: ★ أعطيناه سوائل كثير (٦ لتر) والـCVP طبيعي وما زال ضغطه واطي ← Norepinephrine ;; ★ HF + أطراف باردة + على norepinephrine ← أضيفي Dobutamine
+> h: Pulmonary embolism: كيف يجي؟
+> list: ضيق مفاجئ + ألم صدر + نبض سريع ;; بعد عملية، سفر طويل، حبوب منع، سرطان ;; الفحص: CT pulmonary angiography (أو V/Q لو الكلية ضعيفة أو حامل)
+> h: PE: نعالج
+> two: Massive (unstable) :: ★ Thrombolysis ;; Stable :: ★ LMWH أو DOAC
+> h: AAA Screening
+> list: ★ رجل + مدخن + ٦٥ سنة ← Ultrasound مرة وحدة ;; ○ أكثر من ٥.٥ سم ← repair
+> sum: يعني باختصار: بارد = dobutamine. دافي بعد سوائل = norepinephrine. PE unstable = thrombolysis.
