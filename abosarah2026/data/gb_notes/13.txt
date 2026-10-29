@@ -1,0 +1,54 @@
+0539 | small bowel fistula ;; passing urine, flatus, and stool | 16 days post-cesarean section ;; fever that is not responding to antipyretics and antibiotics | Fistula + يمرر flatus/stool (بدون obstruction) ← NPO + secretion inhibitors (conservative).
+0540 | primary infertility for the last 3 years ;; 3-month trial of induction of ovulation with clomiphene | hormonal profile, and an ultrasound is normal ;; semen analysis is also normal | Unexplained + فشل clomiphene ← Diagnostic laparoscopy أول (استبعدي endometriosis/tubal).
+0541 | proximal blocked tubes bilaterally ;; hysterosalpingogram | primary infertility for the last 4 years ;; hormonal profile is normal | HSG proximal block (ممكن spasm) ← Laparoscopy + dye للتأكد قبل IVF.
+0542 | bilateral tubal blockage ;; diagnostic laparoscopy and dye test | hysterosalpingography ;; semen analysis was also normal | Bilateral tubal block مؤكد ← IVF.
+0543 | right fallopian tube blockage but the left tube was found to be patent ;; normal hormonal profile | primary infertility for the last 4 years | Tube واحد مفتوح + ovulation طبيعي ← Ovulation induction (Clomiphene) أول.
+0544 | variable decelerations | 4 cm dilated ;; strong and regular | Labor قائم + contractions قوية + CTG طبيعي ← ARM (تسرّع labor). Tocolytics لا.
+0545 | uterine contractions suddenly stopped being recorded ;; severe abdominal pain and vaginal bleeding | G8P7 ;; baseline is 80 beats per minute | Grand multipara + ألم + توقف contractions + bradycardia ← Uterine rupture ← Laparotomy فورًا.
+0546 | mild and irregular ;; 2 contractions in each 10 minutes | 7 cm dilated ;; good variability | Active labor + contractions ضعيفة + CTG طبيعي ← Augmentation (oxytocin).
+0547 | recurrent late decelerations ;; baseline is 90 beats per minute | 10 cm dilated ;; vertex is at -3 station | Late decel + bradycardia + station عالي ← Emergency cesarean (لا instrumental).
+0548 | head is at +3 station ;; prolonged deceleration was noted for the last 7 minutes | 10 cm dilated ;; good variability | Prolonged decel + fully dilated + station +3 ← Instrumental delivery (سريع).
+0549 | sinusoidal pattern ;; 140 beats per minute | 4 cm dilated | Sinusoidal pattern = خطر شديد (fetal anemia/hypoxia) ← Cesarean.
+0550 | latent phase of labor ;; cervix is 2 cm dilated | Uterine contractions are mild and irregular ;; moderate variability | Latent phase + contractions ضعيفة + CTG طبيعي ← Augmentation (المفتاح).
+0551 | recurrent variable decelerations ;; poor variability | G8P7 ;; 7 cm dilated | Poor variability + recurrent variable decel ← Emergency cesarean.
+0552 | myomectomy ;; reduce the size of the uterine fibroid prior | large uterine fibroid | قبل myomectomy ← GnRH agonist (يصغر fibroid ويقلل blood loss).
+0553 | large uterine anterior wall fibroid of 10 cm ;; The patient was offered hysterectomy but she declined | menorrhagia ;; distorted endometrial lining | بديل للـhysterectomy مع fibroid كبير + رغبة بالحفاظ ← Uterine artery embolization.
+0554 | anterior subserosal fibroid of 3 x 2 cm ;; menstrual cycle is regular | incidental finding of a uterine fibroid | Asymptomatic small fibroid ← Reassure ومتابعة.
+0555 | menorrhagia for the last few months ;; serosal fibroid, 4 x 4 cm | single woman | Serosal fibroid ما يسبب menorrhagia عادة ← NSAIDs (أو ابحثي عن سبب ثاني). Surgery لا.
+0556 | menorrhagia for the last year ;; fibroid, 7 x 7 cm in size, which is distorting the endometrial lining | trial of medical treatment failed ;; 50-year-old woman | فشل medical + fibroid كبير + عمر ٥٠ ← Hysterectomy.
+0557 | multiple uterine fibroids ;; 2 unsuccessful in vitro fertilization trials | seeking fertility for the last 3 years | Fibroids + infertility + فشل IVF ← Myomectomy.
+0558 | post-menopausal bleeding ;; ultrasound performed 5 years ago showed the same size | uterine fibroid of 5 cm | Postmenopausal bleeding حتى مع fibroid قديم ← Endometrial sample أول.
+0559 | fetal tachycardia with a baseline of 180 beats per minute | accelerations, early deceleration, and good variability | الأخطر من النتائج ← Fetal tachycardia (استبعدي infection/hypoxia). Early decel طبيعي.
+0560 | cervix was found to be 1 cm dilated and uneffaced ;; no decelerations | mild abdominal pain ;; accelerations were present | CTG طبيعي + cervix غير متغير ← Reassurance (ليست labor).
+0561 | After one hour of observation ;; CTG improved with good variability | decreased fetal movement ;; poor variability | CTG تحسن بعد ساعة ← Discharge مع kick chart. لو ما تحسن ← مزيد مراقبة/BPP.
+0562 | decreased fetal movement for the last few hours ;; baseline is 160 beats per minute | early decelerations ;; 35 weeks of gestation | Baseline 160 + decreased movement ← Observation + continuous CTG (لا تعيدينها).
+0563 | mild, infrequent abdominal pains ;; irregular and mild | no cervical dilation ;; good accelerations and variability | False labor ← Reassurance.
+0564 | no accelerations, good variability, and no decelerations ;; clear amniotic fluid draining | 5 cm dilated ;; regular and strong | Active labor + CTG مقبول ← Reassurance وإعادة التقييم بعد ٣٠–٦٠ دقيقة.
+0565 | baseline is 100 beats per minute ;; meconium stained amniotic fluid | poor variability, no accelerations ;; 41 weeks of gestation | Bradycardia + poor variability + meconium ← Emergency cesarean.
+0566 | recurrent late decelerations ;; intrauterine growth restriction | poor variability ;; meconium-stained amniotic fluid | IUGR + late decel + poor variability + meconium ← Emergency cesarean.
+0567 | 41 weeks of gestation ;; cervix is thick and not dilated | no uterine contractions ;; good variability | Post-term + CTG طبيعي ← Induction of labor (مو انتظار ٧ أيام).
+0568 | absent accelerations and variability ;; recurrent late decelerations | 6 cm dilated ;; 38 weeks of gestation | Absent variability + recurrent late decel ← Emergency cesarean.
+0569 | cord prolapse ;; most expected finding on CTG | active labor | Cord prolapse ← Variable decelerations + bradycardia.
+0570 | sudden gush of heavy vaginal bleeding ;; delivered a 4.2 kg baby | placenta was completely delivered ;; without an episiotomy being required | بعد delivery placenta كامل + macrosomia ← Check uterine contractility (atony أول).
+0571 | mild uterine contractions for 12 hours ;; cervix is 4 cm dilated | head is at -1 station ;; fundal height corresponds to gestational age | Labor بطيء + contractions خفيفة ← Augmentation (oxytocin).
+0572 | the head is at +1 station ;; decelerations | cervix is 7 cm dilated ;; draining clear amniotic fluid | Decel مع contractions + head compression ← Early decelerations (طبيعي).
+0573 | Rh isoimmunization ;; fetal anemia | 37 weeks of gestation | Fetal anemia عند ٣٧ أسبوع ← Immediate delivery. قبل ٣٥ ← Intrauterine transfusion.
+0574 | induction of labor ;; Pelvic examination shows the cervix is closed and uneffaced | diabetic ;; CTG is done | بدون أعراض + CTG ← Reassuring pattern.
+0575 | 4 previous cesarean sections ;; low blood pressure | contractions that started 8 hours ago ;; restless and hyperventilated | Previous CS + labor + ألم شديد + shock ← Uterine rupture.
+0576 | ovulation is regular ;; husband's semen analysis is adequate | seeking fertility assistance | Ovulation + semen طبيعي ← فحص Fallopian tubal patency (HSG).
+0577 | snowstorm appearance ;; uterine size is 18 weeks and is doughy | amenorrhea for the last 14 weeks ;; mild vaginal bleeding | Molar pregnancy ← Suction evacuation (مو medical).
+0578 | amenorrhea for the last 6 months ;; withdrawal bleeding pills | primary infertility for 2 years ;; investigations repeated twice | Premature ovarian insufficiency (FSH عالي) ← HRT. حمل يحتاج donor eggs.
+0579 | endometrial hyperplasia without atypia ;; menorrhagia for the last 6 months | 40-year-old woman | Hyperplasia بدون atypia ← Progesterone (IUD هرموني أو oral).
+0580 | endometrial hyperplasia with atypia ;; 50-year-old woman | prolonged and heavy menstruation | Atypical hyperplasia + عمر ٥٠ ← Hysterectomy.
+0581 | endometrial hyperplasia with atypia ;; unfit for surgery and anesthesia | 70-year-old woman ;; post-menopausal bleeding | Atypical hyperplasia + غير صالحة للعمل ← Continuous progesterone (بديل).
+0582 | monochorionic monoamniotic twins ;; first twin is in breech presentation | 37 weeks of gestation ;; cervix is 4 cm dilated | Monoamniotic + twin A non-vertex ← Cesarean.
+0583 | polycystic ovarian syndrome ;; trying to get pregnant for the last 18 months | irregular menstrual cycles ;; husband's semen analysis was normal | PCOS + infertility ← Clomiphene (أول). Metformin/letrozole بدائل.
+0584 | painless vaginal bleeding for one day ;; 36 weeks of gestation | 30-year-old woman | نزيف بدون ألم بالثلث الثالث ← Ultrasound (لتحديد previa) قبل أي فحص مهبلي.
+0585 | miscarriage ;; her age contributed | 50-year-old woman | العمر يرفع خطر miscarriage (≥ ٤٠ ← ٣٠–٥٠٪+). المفتاح: بين ١٠–٥٠٪.
+0586 | sudden unexpected rupture of membranes ;; painless expulsion of products of conception | 18 weeks of gestation | Painless mid-trimester loss ← Cervical incompetence (cerclage بالحمل القادم).
+0587 | sudden unexpected rupture of membranes ;; painless expulsion of the products of conception | mid-trimester | Painless + mid-trimester ← Cervical incompetence.
+0588 | snowstorm pattern within the uterine cavity ;; amenorrhea for the last 18 weeks | 45-year-old | Snowstorm ← Molar pregnancy ← hCG (عالي جدًا).
+0589 | Day 7: BhCG was 2900 miu/ml ;; Day 4: BhCG was 3100 miu/ml | methotrexate for an ectopic pregnancy ;; 3000 miu/ml on the day of the injection | hCG ما نزل ١٥٪ يوم ٤–٧ ← Second dose (إن stable). ينزل ≥ ١٥٪ ← متابعة.
+0591 | methotrexate 8 days ago ;; drop from 1200 miu/ml on Day 4 to 500 miu/ml on Day 7 | mild abdominal pain and vaginal spotting ;; soft and non-tender abdomen | hCG نزل ≥ ١٥٪ + stable ← Reassure ومتابعة (ألم خفيف شائع).
+0592 | intrauterine contraceptive device ;; Fluid collection of approximately 13 x 15 cm | severe generalized abdominal pain ;; No identified gestational sac | IUD + حمل + free fluid كبير + no sac ← Ruptured ectopic.
+0593 | smokes more than 20 cigarettes a day ;; complete abortion at 10 weeks | heavy smoker ;; not taking any folic acid | Smoking > ٢٠ ← يزيد miscarriage. Folate يمنع NTD مو miscarriage.

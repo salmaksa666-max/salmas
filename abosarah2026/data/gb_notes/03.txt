@@ -1,0 +1,45 @@
+0091 | best distinguishes Crohn's disease from ulcerative colitis | inflammatory bowel disease ;; 25-year-old man | Non-caseating granuloma ← Crohn's. Crypt abscess ومتصل من الـrectum ← UC.
+0092 | dyslipidemia ;; fatigue | 5-month history ;; takes no medication | الـdyslipidemia هنا ثانوي (hypothyroidism) ← عالجي الـthyroid أول. لو TSH طبيعي ← Statin.
+0093 | intermittent dysphagia for solids ;; 10-year history of gastroesophageal reflux disease | pantoprazole ;; 4 month history | لو dysphagia للسوائل والصلب ← Manometry (achalasia). GERD + dysphagia صلب ← Endoscopy.
+0094 | Corrigan's pulse ;; Severe aortic regurgitation and ejection fraction of 40% | early diastolic murmur at the left upper sternal border ;; bilateral fine basal crepitations | لو EF طبيعي وبدون أعراض ← ACE inhibitor ومراقبة. EF أقل من ٥٠٪ أو أعراض ← AVR.
+0095 | diabetes mellitus for 4 years ;; abnormal liver function test | clinically asymptomatic ;; metformin | لو ferritin وtransferrin saturation عاليين ← Hemochromatosis. لو HBV/HCV موجب ← Viral hepatitis.
+0096 | tense ascites ;; decreased level of consciousness | liver cirrhosis ;; lower limb pitting edema bilaterally | لو refractory للـdiuretics ← Paracentesis/TIPS. لو hepatic encephalopathy ← Lactulose.
+0097 | modified Child-Turcotte-Pugh score ;; tense ascites | confused patient ;; cirrhosis | Child-Pugh يعتمد على bilirubin، albumin، INR، ascites، encephalopathy: ٥–٦ A، ٧–٩ B، ١٠–١٥ C.
+0098 | hypotension | severe pneumonia ;; intubation and ventilation | AST/ALT عالي جدًا بعد shock ← Ischemic hepatitis. لو دوا (مثل paracetamol) ← Drug-induced.
+0099 | streaks of blood ;; 7-month history of recurrent episodes of abdominal pain and diarrhea | occasional audible peristalsis ;; fever and loss of appetite | لو watery بدون دم + انتفاخ ← IBS. لو steatorrhea + gluten ← Celiac.
+0100 | serum ascites albumin gradient (SAAG) of more than 1.1 ;; chronic viral hepatitis | ascites | SAAG أكثر من ١٫١ ← portal hypertension (cirrhosis). أقل من ١٫١ ← TB/nephrotic/pancreatitis.
+0101 | positive polymerase chain reaction for Mycobacterium tuberculosis ;; headache for 3 months | weight loss ;; contact with a tuberculosis patient several years ago | TB meningitis ← anti-TB + dexamethasone. لو TB رئوي بدون CNS ← anti-TB بدون steroids.
+0102 | after 48 hours is 12 mm ;; nurse | employment contract renewal ;; asymptomatic | لو أقل من ١٠ مم (healthcare) ← لا علاج. لو HIV ← ٥ مم كافية. latent TB ← INH ٦–٩ شهور.
+0103 | persistent after 5 days of starting an appropriate antibiotic ;; tenderness over the left loin area | pyelonephritis ;; susceptible to the antibiotic | لو الحرارة استجابت ← كمّلي. Fever مستمر أكثر من ٧٢ ساعة ← US/CT (obstruction أو abscess).
+0104 | third trimester ;; asymptomatic | Urine culture: Positive for Escherichia coli ;; routine checkup visit | Asymptomatic bacteriuria في الحامل ← عالجي. غير الحامل ← لا علاج.
+0105 | unpasteurized milk ingestion ;; Blood culture: Negative | right knee arthritis ;; limited spinal movements | لو Gram-positive cocci بالـaspirate ← Septic arthritis. حليب غير مبستر + sacroiliitis ← Brucella serology.
+0106 | positive urinary culture for Candida albicans ;; denies any history of fever or urinary symptoms | indwelling urinary catheter | Candiduria بدون أعراض ← شيلي الـcatheter وبدون antifungal. لو symptomatic/neutropenic ← Fluconazole.
+0107 | dysuria and urethral discharge ;; new female partner | afebrile ;; recent sexual activity | لو gonorrhea مؤكد ← Ceftriaxone. المفتاح هنا يغطي chlamydia ← Azithromycin.
+0108 | acute uncomplicated pyelonephritis ;; young woman | Emergency Department | لو sepsis/استفراغ/حامل ← Admit + IV ceftriaxone.
+0109 | type 2 diabetes mellitus ;; crackles at the right lung base | productive cough of yellowish sputum ;; Right lower lobe infiltrate | هنا Outpatient cefuroxime + azithromycin. لو severe أو risk كبير ← Admit + ceftriaxone + azithromycin.
+0110 | pulmonary tuberculosis ;; infection control precaution | Standard universal precautions | TB وmeasles وvaricella ← Airborne. Influenza ← Droplet. C. diff ← Contact.
+0111 | gonorrhea ;; sexually active | young man ;; most appropriate to establish the diagnosis | لو امرأة ← cervical swab/NAAT. Disseminated ← blood/joint culture.
+0112 | mechanical prosthesis ;; methicillin-resistant Staphylococcus aureus (MRSA) | infective endocarditis ;; mitral valve replacement | Native valve MRSA ← vancomycin وحده. Prosthetic ← + rifampin + gentamicin.
+0113 | left bundle branch block ;; Previous ECG was normal | 3-hour continuous retrosternal heaviness ;; S4 gallop | New LBBB + ألم صدر = STEMI-equivalent ← Reperfusion. Old LBBB ← لا يحسب STEMI.
+0114 | early diastolic murmur at the base of the heart ;; increase during inspiration | dyspnea on exertion | يزيد بالشهيق ← Right-sided (pulmonary regurgitation). يزيد بالزفير ← Aortic regurgitation.
+0115 | prominent vwave ;; pulsating hepatomegaly | interstitial lung disease ;; loud pulmonary component | Giant v wave + pulsatile liver ← Tricuspid regurgitation. لو a wave كبيرة ← Pulmonary hypertension.
+0116 | woke up 2 hours later unable to walk or speak ;; Right side of his body has power of 2/5 | conscious but disoriented ;; type 2 diabetes mellitus | لو CT فيه hemorrhage ← لا rtPA. لو خارج نافذة ٤٫٥ ساعة ← Aspirin.
+0117 | raised JVP ;; liver cirrhosis | positive shifting dullness ;; drowsy | لو dehydrated/hypovolemic ← Saline. لو hepatic encephalopathy ← Lactulose.
+0118 | chronic kidney disease stage IV ;; fatigue | welllooking patient ;; type 2 diabetes mellitus, hypertension, dyslipidemia | لو iron deficiency ← Iron أول. لو Hb أقل من ٧ + أعراض ← Transfusion.
+0119 | endoscopic variceal ligation 1 month ago ;; recurrent variceal bleeding | liver cirrhosis with esophageal varices ;; long-term intervention | Secondary prophylaxis ← Beta blocker + repeat banding. PPI بس يعالج ulcer بعد banding.
+0120 | bronchial asthma ;; chronic sinusitis | cough that disturbs her sleep ;; salbutamol MDI prn | لو الأعراض نادرة ← SABA بس. لو severe exacerbation ← Oral prednisone.
+0121 | Diffuse emphysematous changes ;; worsening shortness of breath for 4 months | Anoro Ellipta ;; heavy smoker | لو SpO2 أعلى من ٨٨٪ ← مو home oxygen. لو exacerbations/eosinophils ← أضيفي ICS.
+0122 | increased the dose of Haloperidol ;; confused and began sweating | psychiatric disease ;; intubated | Neuroleptic malignant syndrome ← Bromocriptine/dantrolene. Serotonin syndrome ← Cyproheptadine.
+0123 | crescendodecrescendo ejection systolic murmur radiating to the carotid ;; forceful apex beat | exertional shortness of breath ;; slow down his walk | Mid-diastolic rumble ← Mitral stenosis. Early diastolic ← Aortic regurgitation.
+0124 | central stabbing continuous chest pain ;; ischemic stroke 1 month ago | sublingual nitroglycerin ;; 3 hours | Stroke حديث = contraindication للـthrombolysis ← Primary PCI. بدون contraindication وPCI غير متوفر ← Thrombolysis.
+0125 | interferes with his job but does not limit him ;; at rest, he is fine | exertional shortness of breath | NYHA I: بدون limitation. II: limitation بسيط. III: limitation واضح. IV: أعراض بالراحة.
+0126 | DLCO 40% ;; 2 weeks ago | exertional shortness of breath ;; uncomplicated vaginal delivery | DLCO واطي مع spirometry طبيعي ← PE أو ILD. FEV1 منخفض ← Obstructive.
+0127 | noncaseating granuloma ;; bilateral hilar lymphadenopathy | prominent hilar structures bilaterally ;; denies any history of shortness of breath | Asymptomatic stage I sarcoid ← Observe. أعراض أو organ involvement ← Prednisone.
+0128 | endstage renal disease on hemodialysis ;; ECG finding | +3 lower limb edema ;; high JVP | Hyperkalemia ← Peaked T. Hypocalcemia ← Prolonged QT. Hypokalemia ← U waves.
+0129 | fatigue and nausea ;; chronic kidney disease | lisinopril ;; drowsy but not in distress | K عالي مع ECG changes ← Calcium gluconate أول. K عالي بدون ECG changes ← Insulin + glucose.
+0130 | systemic sclerosis ;; raised JVP | drowsiness and visual changes ;; normal kidney function | SSc + HTN شديد/AKI = Scleroderma renal crisis ← ACE inhibitor (حتى مع AKI).
+0131 | end-stage renal disease ;; abnormal blood results | type 1 diabetes mellitus ;; routine follow-up | لو phosphate عالي ← Sevelamer. لو Ca عالي ← Cinacalcet. المفتاح هنا Calcitriol.
+0132 | Low glucose, markedly increased protein, WBC 9000 with predominantly neutrophils ;; just returned from Makkah | neck stiffness ;; fever, lethargy, and headache | لو عمر فوق ٥٠ أو immunocompromised ← أضيفي Ampicillin (Listeria). Bacterial meningitis ← Ceftriaxone + vancomycin.
+0133 | increased sleepiness, fatigue, and constipation ;; overweight | very healthy diet ;; no lymphadenopathy or masses | لو الغدة مؤلمة + ESR ← Subacute thyroiditis. لو hyper ← Graves.
+0134 | Left leg power is 2/5 ;; decreased sensation in the left leg | confused and behaving in a strange way ;; Other neurological exams are normal | ضعف الرجل ← ACA. وجه + يد ← MCA. أعراض خلفية ← Basilar.
+0135 | left leg swelling and pain ;; chest tightness and shortness of breath | pitting edema extending to the thigh ;; Sinus tachycardia | DVT/PE مشتبه ← Anticoagulation فورًا. UFH لو unstable أو كلى ضعيفة. LMWH لو stable.

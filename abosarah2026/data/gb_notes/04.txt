@@ -1,0 +1,45 @@
+0136 | his blood pressure dropped to 80/45 mmHg ;; Supraventricular tachycardia (SVT) | he became less responsive ;; palpitations | لو stable ← Vagal maneuvers ثم Adenosine. Unstable ← Synchronized cardioversion.
+0137 | parents are related ;; frequent blood transfusions | pale, jaundiced, and have hepatosplenomegaly ;; scar from laparoscopic cholecystectomy | شك hemoglobinopathy (thalassemia/sickle) ← Hb electrophoresis أعلى قيمة.
+0138 | smoker for over 50 years ;; lost 10 kg | malaise, night sweats, fever ;; productive cough for the past 5 months | لو apical infiltrate + prison/homeless ← TB. لو fever حاد وقصير ← Pneumonia.
+0139 | PaO2/FiO2 of 180 ;; Bilateral lung infiltrates | community-acquired pneumonia ;; hospital day 3 | ARDS: PaO2/FiO2 ≤ 300 + bilateral infiltrates بدون heart failure. لو PCWP عالي ← Cardiogenic edema.
+0140 | increased when the patient leaned forward in full expiration ;; diastolic murmur heard at the base of the heart | routine checkup ;; 25-year-old | Aortic regurgitation يتسمع أفضل مع leaning forward + expiration. Mitral stenosis ← left lateral.
+0141 | angiotensin-converting enzyme inhibitor (ACEI) ;; contraindicated during pregnancy | planning to get pregnant ;; hypertension | الـACEi/ARB ← fetal malformation (المفتاح)، وبالثلث ٢–٣ renal dysgenesis. البديل ← Methyldopa/labetalol/nifedipine.
+0142 | tumor lysis syndrome ;; Hodgkin's lymphoma | undergoing chemotherapy | TLS: K↑ وphosphate↑ وuric acid↑ وCa↓.
+0143 | alcoholic ;; Fluid thrill | yellow discoloration of the sclera ;; vague abdominal pain mainly at the epigastrium | SAAG ≥ 1.1 ← Portal hypertension. لو amylase عالي بالسائل ← Pancreatic ascites.
+0144 | angiotensin receptor II blocker ;; reduce the risk of ischemic heart disease | family history of ischemic heart disease ;; recently diagnosed with hypertension | ARB ينتهي بـ-sartan (Irbesartan). ACEi ينتهي بـ-pril (Perindopril).
+0145 | pulsus paradoxus ;; Low voltage | high JVP ;; distant heart sounds | Beck triad (hypotension، JVD، muffled heart sounds) ← Tamponade ← Pericardiocentesis.
+0146 | 50 tablets of extra strength acetaminophen ;; 3 hours ago | conscious and oriented ;; 500 mg each tablet | Paracetamol جرعة سامة ← NAC. Charcoal لو خلال ١–٢ ساعة. NAC ينفع حتى بعدها.
+0147 | history of pulmonary embolism 5 years ago ;; proximal Deep Vein Thrombosis | not taking any medications ;; right leg swelling and pain | First provoked DVT ← ٣ شهور. Recurrent/unprovoked ← Long-term anticoagulation.
+0148 | Chest X-ray: Normal ;; blood streaks | cough, fatigue, sore throat, and body aches ;; previously healthy | لو hemoptysis كبير + renal ← Goodpasture. Acute bronchitis ← Supportive.
+0150 | recently released from prison ;; Left lung apical infiltration | homeless man ;; weight loss, and night sweats | Ziehl-Neelsen ← AFB (TB). Thick/thin film ← Malaria.
+0151 | dip-stick positive for large blood, but no RBCs on microscopic analysis ;; falling while running a marathon | dark urine | Dipstick positive بدون RBC ← Myoglobinuria (Rhabdomyolysis). لو RBC موجود ← Hematuria.
+0152 | no RBCs on microscopic analysis ;; falling while running a marathon | dark urine ;; dip-stick positive for large blood | Rhabdomyolysis ← Aggressive IV hydration. Diuresis بعد hydration لو oliguria.
+0153 | 6 days post-operative ;; unable to pass stool | nausea, vomiting, and muscle aches ;; abdominal distension | أي disturbance بالـpotassium ← ECG أول قبل السبب.
+0154 | invasive aspergillosis ;; allogenic bone marrow transplantation | neutropenic ;; fever and cough | Aspergillus ← Voriconazole. Candida ← Echinocandin. Mucor ← Amphotericin.
+0155 | 3 abortions in the first trimester ;; rash over the nose bridge | swelling and tenderness of the small joints of the hands ;; right calf that is 2 cm larger | Antiphospholipid + VTE ← Lifelong warfarin (DOAC ما ينفع). لو حامل ← LMWH.
+0156 | Diffuse discitis in T6 vertebrae ;; upper motor neuron signs in the lower limbs | back pain for 3 weeks associated with fever ;; weakness 3/5 | لو exposure لحليب/ماشية ← Brucella titers. لو TB endemic ← PPD/biopsy.
+0157 | Hemorrhagic transformation ;; papilledema | massive stroke ;; new weakness | Mannitol جسر مؤقت. العلاج النهائي لـmass effect ← Decompressive craniotomy.
+0158 | infected bedsore ;; debridement 2 days ago | mental confusion ;; poor response to commands | Infection + confusion ← Septic shock. لو chest pain/hypoxia بعد immobility ← PE.
+0159 | HIV positive ;; open tuberculosis (TB) | 22-year-old prisoner ;; weight loss for 3 weeks | المفتاح: ابدئي anti-TB أول (تجنب IRIS). لو CD4 أقل من ٥٠ ← ابدئي ART خلال أسبوعين.
+0160 | forgetting names ;; tender knee joints | cannot remember things ;; wife fears he has Alzheimer’s disease | Dementia ← يضعف وظائف الحياة اليومية ويتدهور. Benign forgetfulness ← يتذكر لاحقًا بدون تأثير.
+0161 | pancreatic cancer ;; tender, erythematous swelling | swollen left lower limb ;; hospitalization | Cancer + hospitalization ← DVT (Doppler). لو fever + erythema ينتشر ← Cellulitis.
+0162 | erythematous palpable rash ;; extending up to his buttocks | abdominal pain and aches in both knees ;; Moderate proteinuria | Palpable purpura + بطن + مفاصل + كلى ← HSP. لو platelets منخفضة + neuro ← TTP.
+0163 | recently married ;; burning micturition for one week | suprapubic tenderness | Uncomplicated cystitis ← Nitrofurantoin. لو fever/flank pain ← Pyelonephritis.
+0164 | long-standing chronic renal failure ;; aches and pains for 1 month | general pallor | CKD bone disease ← Calcitriol (active vitamin D). Vitamin D3 للـnutritional deficiency.
+0165 | unable to breastfeed her last child ;; her menses did not return after giving birth | cold intolerance ;; delayed relaxation phase of her ankle jerks | شك Sheehan: اطلبي TSH/Free T4 قبل أي علاج. ولا تعطين levothyroxine قبل cortisol.
+0166 | glioblastoma multiforme ;; hyponatremia | recurrent seizures and cognitive dysfunction | Euvolemic ← SIADH. لو dehydrated ← Cerebral salt wasting.
+0167 | Lasix ;; severe pain and redness in the first metatarsophalangeal joint | gout ;; congestive heart failure | Loop/thiazide ← ترفع uric acid ← Gout flare.
+0169 | On day 7 post 4th cycle ;; fever | lymphoma ;; chemotherapy | Febrile neutropenia ← Empiric IV antibiotics فورًا في المستشفى. بس low-risk ممكن oral.
+0170 | 4 packs a day ;; chest pain on exertion | most appropriate initial therapy ;; peripheral cyanosis | هنا Nicotine replacement (CAD). بدون مشكلة قلبية ← Varenicline أعلى success.
+0171 | multiple demyelinating hyperintense lesions ;; periventricular white matter | transient loss of vision ;; unsteady gait | Periventricular + callososeptal ← Multiple sclerosis.
+0172 | prednisolone 5 mg daily and methotrexate 15 mg weekly ;; multiple swollen and tender joints | 2-week history of joint pain ;; morning stiffness lasting almost 45 minutes | فشل methotrexate ← أضيفي Biologic (anti-TNF). NSAID للأعراض بس.
+0173 | chronic renal failure for 5 years ;; fatigue for 3 months | physical examination is unremarkable | CKD anemia + iron كافي ← ESA (Erythropoietin). لو iron deficiency ← Iron أول.
+0174 | Bleeding esophageal varices ;; intravenous pharmacological treatment | liver cirrhosis ;; hematemesis | Variceal bleed ← Octreotide + antibiotics + banding. بعدها Beta blocker.
+0175 | large ascites ;; spironolactone 50 mg/day and furosemide 40 mg/day | no history of fever or decreased level of consciousness | Large/tense ascites ← Therapeutic paracentesis + albumin. Refractory ← TIPS.
+0176 | after an aerobic class ;; recurrent history of wheezing | exertional shortness of breath ;; diffuse bilateral wheezes | الحاد ← Inhaled salbutamol (SABA). الوقاية ← SABA قبل التمرين.
+0177 | started after exercise ;; intermittent wheezing in response to exercise | diffuse wheezes | الحاد ← Inhaled salbutamol. الوقاية ← SABA قبل التمرين.
+0178 | type I diabetes mellitus on insulin ;; regular follow-up | asymptomatic | لو microalbuminuria ← ACE inhibitor. بدونه ← لا حاجة.
+0179 | proteinuria of 1.5 g/24h ;; systemic lupus erythematosus | multiple joint swelling and oral ulcer ;; feeling unwell | Proteinuria أكثر من ٠٫٥ g ← Kidney biopsy يحدد class ويقرر العلاج.
+0180 | lower limb pitting edema up to the knees bilaterally ;; proteinuria | fatigue ;; systemic examination is unremarkable | Adult nephrotic syndrome ← Kidney biopsy (إلا DM أو سبب ثانوي واضح).
+0181 | hydrochlorothiazide and losartan ;; pregnancy test was done and was positive | absence of her menstrual cycle for 2 months ;; hypertensive | ARB/ACEi ممنوعة بالحمل ← Methyldopa أو labetalol أو nifedipine.
+0182 | rapid correction of hyponatremia ;; symptomatic hyponatremia | most serious consequence | صححي Na ببطء (≤ ٨–١٠ mEq/L بـ٢٤ ساعة) عشان تتجنبي Central pontine myelinolysis.

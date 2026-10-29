@@ -1,0 +1,45 @@
+0396 | Monochorionic Monoamniotic twins ;; time interval between ovulation and cleavage | first pregnancy | Monoamniotic ← ٩–١٢ يوم. Monochorionic diamniotic ← ٤–٨. Dichorionic ← ٠–٣ أيام (٧٢ ساعة).
+0397 | Dichorionic Diamniotic twins ;; time interval between ovulation and cleavage | first pregnancy | Dichorionic ← ٠–٣ أيام (قبل الـblastocyst). كل ما تأخر الانقسام قلّت الأغشية.
+0398 | ACE inhibitors ;; when she gets pregnant | preconception counseling ;; hypertension | ACEi/ARB ← بدّليها قبل الحمل بـmethyldopa/labetalol/nifedipine.
+0399 | 39 weeks pregnant ;; headache and blurred vision | normal prenatal care ;; G2 P1 L1 | أعراض preeclampsia severe بـ٣٩ أسبوع ← Delivery. قبل ٣٤ أسبوع ← stabilize + steroids.
+0400 | inevitable abortion ;; severe bleeding and lost consciousness | pelvic pain and spotting ;; 15-year-old woman | Inevitable + نزيف شديد/shock ← D&C فورًا. مستقرة ← medical/expectant.
+0401 | passing vesicles ;; uterine size appears larger than the date | 8th week ;; bleeding | Vesicles + uterus أكبر من العمر ← Molar pregnancy.
+0402 | Snowstorm appearance ;; passing vesicles | spotting | Snowstorm ← Molar pregnancy ← Suction evacuation (وليس medical).
+0403 | preterm premature rupture of membranes ;; fever and abdominal pain | 3 days ago ;; managed conservatively | PPROM + fever ← Chorioamnionitis ← Antibiotics + Delivery (لا انتظار).
+0404 | post-date with dates confirmed by early scan ;; induction of labor | normal CTG and amniotic fluid index | Induction ← Prostaglandin E2 لو cervix غير ناضج. Oxytocin لو ناضج.
+0405 | headache, blurred vision, and abdominal pain ;; twins | 35 weeks ;; no contraction | Headache + blurred vision + ألم بطن ← Preeclampsia (severe features). Seizure ← Eclampsia.
+0406 | pregnant with twins ;; risk factor for preeclampsia | headache, blurred vision, and abdominal pain ;; 35 weeks | Preeclampsia risk: Multiple gestation، primigravida، DM، HTN مزمن، obesity، age.
+0407 | grand mal seizure ;; pregnant with twins | headache, blurred vision, and abdominal pain ;; 35 weeks | Preeclampsia + seizure ← Eclampsia. Epilepsy معروفة قبل الحمل ← ليست.
+0408 | grand mal seizure ;; pregnant with twins | headache, blurred vision, and abdominal pain | Eclampsia ← Magnesium + stabilize ثم Delivery (مو antiepileptic عادي).
+0409 | CTG showed deceleration ;; 41 weeks pregnant | no signs of labor ;; confirmed dating with an early scan | ٤١ أسبوع + CTG abnormal ← Delivery. لو CTG طبيعي ← مراقبة/induction مجدولة.
+0410 | fetal heart dropped to 70 beats per minute ;; not recovering with fluid and oxygen | cervix was closed and long ;; Prostaglandin E2 | Bradycardia بعد PGE2 + cervix مقفل ← C-section. لو fully dilated وstation +2 ← Ventouse.
+0411 | profuse vaginal bleeding and abdominal pain ;; regular contractions | 30 weeks gestation | نزيف + ألم + contractions ← Abruption. نزيف بدون ألم ← Previa.
+0412 | profuse vaginal bleeding ;; She had no pain | missing her clinic appointments ;; baby was moving well | نزيف شديد بدون ألم + بدون contractions ← Placenta previa.
+0413 | open cervix with tissue seen at the cervix ;; passing tissue | 7 weeks ago ;; moderate vaginal bleeding | cervix مفتوح + tissue ← Incomplete abortion. مقفل + طلع tissue كامل ← Complete.
+0414 | No intrauterine pregnancy seen ;; moderate intra-abdominal fluid | tender abdomen and a closed cervix ;; vaginal spotting | لا IUP + free fluid + ألم ← Ectopic pregnancy.
+0415 | No intrauterine pregnancy seen ;; moderate intra-abdominal fluid | tender abdomen and a closed cervix | الخطوة بعد ultrasound بدون IUP ← Quantitative BhCG (وليس qualitative).
+0416 | regular uterine contractions ;; 30 weeks gestation | no vaginal bleeding or leaking ;; four contractions in 10 minutes | تأكيد preterm labor ← Vaginal exam لتقييم cervix. contractions وحدها لا تكفي.
+0417 | preterm premature rupture of membranes ;; vaginal leaking | 30 weeks gestation ;; no contractions | PPROM ← Erythromycin + ampicillin (latency) + dexamethasone. Tocolysis ما يفيد.
+0418 | baby boy weighing 4600 g ;; bleed heavily | G4 P3 L2 ;; 5 hours of labor | Macrosomia ← Atony (risk factor). 
+0419 | twin pregnancy ;; healthy twin boys weighing 2800 g and 2900 g | bleed heavily | Twins ← Atony/overdistension (risk factor للـPPH).
+0420 | 16 hours of labor ;; healthy boy weighing 3000 g | G4 P3 L2 ;; bleed heavily | Prolonged labor ← Atony (risk factor).
+0421 | G7 P6 L6 ;; 7 hours of labor | healthy boy weighing 3000 g ;; bleed heavily | Grand multipara (≥ 5) ← Atony (risk factor).
+0422 | just making it to the hospital ;; 2 hours of labor | healthy boy weighing 3000 g ;; bleed heavily | Precipitous labor (أقل من ٣ ساعات) ← Atony/laceration.
+0423 | most appropriate initial step in managing ;; bleed heavily | After placental delivery ;; healthy boy weighing 3000 g | PPH: Call for help + cross-matched blood + ABC. لا تنقلين OR مباشرة قبل stabilize.
+0424 | most appropriate medication for managing her postpartum hemorrhage | After placental delivery ;; bleed heavily | PPH medical: Oxytocin أول، ثم Misoprostol/Methergine/Carboprost (المفتاح Misoprostol).
+0425 | large amount of fluid and it is still ongoing | vaginal leaking ;; 30 weeks gestation | شك PROM ← Sterile speculum exam (لا digital). Digital يزيد infection.
+0426 | preterm premature rupture of membranes ;; fever and abdominal pain | 3 days ago ;; managed expectantly | PPROM + fever + ألم ← Chorioamnionitis.
+0427 | 4 weeks ago ;; clear liquor noted | preterm premature rupture of membranes ;; cervix is 3 cm dilated | PPROM قديم + labor ← ابدئي بـ High vaginal swab (cultures) مع antibiotics، وclear liquor ما يدل على infection.
+0428 | meconium-stained liquor ;; non-stress test done shows no abnormalities | 9 cm dilated ;; pethidine and promethazine | Meconium + CTG طبيعي ← مراقبة، غيري position. Naloxone لو depression تنفس بالوليد.
+0429 | late decelerations ;; 36 weeks gestation | Fetal monitoring trace | Late decel ← Intrauterine resuscitation: hydrate + reposition + O2 وقف oxytocin، ثم أعيدي التقييم.
+0430 | grade 3 posterior vaginal wall prolapse ;; asymptomatic | denies any symptoms related to urine or stool incontinence ;; routine gynecology checkup | Asymptomatic prolapse ← Conservative وreassurance. Surgery بس لو symptoms.
+0431 | uterine procidentia ;; 90-year-old woman | heart failure ;; never bothered her | High surgical risk + مو منزعجة ← Vaginal pessary.
+0432 | grade 2 posterior vaginal wall prolapse ;; mild pelvic pressure symptoms | denies any urinary, fecal, or gas incontinence ;; para 5 | Mild/early ← Pelvic floor exercise + reassurance. Surgery لو تضرر الحياة.
+0433 | grade 3 posterior vaginal prolapse ;; no progression or improvement | managed conservatively for the last 6 months ;; mild to moderate pelvic discomfort | فشل conservative ٦ شهور + grade 3 ← Counsel for surgical management.
+0434 | 29 weeks gestation ;; grade 2 posterior vaginal prolapse | bulge protruding from the vagina ;; denies any pain | Prolapse بالحمل بدون أعراض ← Conservative + reassurance. لا urgent delivery.
+0435 | urgency, frequency, and burning micturition for the past week ;; grade 2 anterior | 80-year-old woman | أعراض UTI + prolapse ← Urine analysis أول قبل أي surgery.
+0436 | 1-week history of urgency and occasional urinary incontinence ;; recently married | 20-year-old healthy woman ;; Pelvic examination is unremarkable | Recent onset (أسبوع) + عروس ← Urine analysis/culture (UTI) أول.
+0437 | Day 7: 1100 mIU/mL ;; Day 4: 1200 mIU/mL | first dose of methotrexate 50 mg/m² IM was administered one week ago ;; ectopic pregnancy | hCG يوم ٧ أقل من ١٥٪ من يوم ٤ ← Second dose methotrexate.
+0438 | Day 7: 800 mIU/mL ;; Day 4: 1200 mIU/mL | first dose of methotrexate 50 mg/m² IM was administered one week ago ;; ectopic pregnancy | hCG نزل ≥ ١٥٪ (١٢٠٠ ← ٨٠٠) ← Repeat BhCG أسبوعيًا.
+0439 | Day 7: 2100 mIU/mL ;; Day 4: 1200 mIU/mL | first dose of methotrexate 50 mg/m² IM was administered one week ago ;; ectopic pregnancy | hCG يرتفع بقوة ← فشل methotrexate ← Surgery. 
+0440 | Day 14: 500 mIU/mL ;; Day 7: 800 mIU/mL | first dose of methotrexate 50mg/m² IM 14 days ago ;; ectopic pregnancy | hCG ينزل بشكل مطلوب ← استمري المتابعة الأسبوعية لين يصير سلبي (لا تقفين).

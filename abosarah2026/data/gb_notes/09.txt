@@ -1,0 +1,45 @@
+0351 | history of pulmonary embolism 3 years ago ;; effective family planning method | 43-year-old woman | PE سابق ← ممنوع estrogen (COC/patch). IUD أو progestin-only آمن.
+0352 | 5*5 cm uterine leiomyoma ;; incidentally | 23-year-old single girl ;; kidney ultrasound | Asymptomatic fibroid ← Conservative. Surgery لو أعراض أو حمل مخطط.
+0353 | leiomyoma associated with heavy menstruation ;; lab result | 35-year-old woman | Fibroid + heavy bleeding + anemia ← صححي الـanemia أول (iron) قبل الجراحة.
+0354 | embryo transfer 3 weeks ago ;; severe abdominal pain | primary infertility ;; 35-year-old woman | بعد IVF/ART ← Ectopic (أعلى خطر). لو pain + فحص hCG موجب ← فكري heterotopic.
+0355 | intermenstrual vaginal bleeding for 5 days | most appropriate investigation | أي نزيف بعمر إنجابي ← Beta hCG أول (استبعدي الحمل).
+0356 | morbidly obese ;; Endometrial thickness of 18 mm | heavy menstruation lasting for 14 days ;; type 2 diabetes mellitus | AUB + obesity + DM + سماكة كبيرة ← Endometrial sample (استبعدي hyperplasia/cancer).
+0357 | heavy vaginal bleeding | 44-year-old woman | AUB حاد شديد غير مستقر ← D&C (تشخيص وعلاج). المستقر ← medical (tranexamic/ hormonal).
+0358 | endometriosis ;; tried non-steroidal anti-inflammatory agents but is still symptomatic | 30-year-old woman | فشل NSAIDs ← هرمونات: COC أو progestin. المفتاح هنا Oral progesterone.
+0359 | cyclic pelvic pain and dyschezia ;; diagnostic laparoscopy | nulliparous ;; 33-year-old | Cyclic pain + dyschezia + laparoscopy ← Endometriosis.
+0360 | Diffuse thickened myometrium ;; chronic pelvic pain and heavy menstruation | 45-year-old woman P6 ;; most definitive treatment | Adenomyosis (parous + MRI thick myometrium) ← Hysterectomy (definitive).
+0361 | postcoital bleeding ;; 2*1 cm cervical mass | 45-year-old woman | Cervical mass ← Punch biopsy (مو Pap). Pap للـscreening.
+0362 | spontaneous abortion ;; most common cause | 9 weeks pregnant | أشيع سبب لـearly miscarriage ← Chromosomal abnormality.
+0363 | dysmenorrhea ;; most important history for evaluation | 32-year-old woman | Dysmenorrhea ← Menstrual history أهم (primary vs secondary).
+0364 | passed some tissue at home ;; Ultrasound: Shows an empty uterus | closed cervix ;; 10-week pregnant | Complete abortion مستقر ← Reassure. لو tissue باقي ← Evacuation.
+0365 | irregular and she is unsure of the last day ;; dating her pregnancy | missed her period for the last 6-8 weeks | LMP غير معروف ← Ultrasound الآن (CRL).
+0366 | No intrauterine pregnancy seen ;; spotting on and off with no pain | last period was 6 weeks back | PUL بدون ألم + مستقرة ← Repeat BhCG بعد ٤٨ ساعة. لو ruptured/ unstable ← surgery.
+0367 | unsure of her gestational age ;; Determined gestational age as 11 weeks | missed her period 3 months ago | الأول ← Crown-rump length (أدق للـfirst trimester).
+0368 | first day of her last menstrual period is May 7th | periods are regular | قاعدة Naegele: LMP + ٧ أيام − ٣ شهور ≈ ١٤ فبراير. أقرب خيار بالأسئلة (Feb 10) هو المفتاح.
+0369 | fetal heart dropped to 70 bpm ;; fully dilated cervix and presenting part at +2 | induction of labor ;; Prostaglandin E2 | Fetal bradycardia + fully dilated + station +2 ← Assisted vaginal delivery (ventouse). C-section لو مو ممكن.
+0370 | spontaneous abortion at 8 weeks ;; most common cause | 28-year-old woman | Early miscarriage ← Chromosomal abnormalities. لو recurrent second-trimester ← cervical insufficiency.
+0371 | blood group is O negative ;; spotting | 20 weeks ;; No history of trauma | Rh-negative + bleeding ← Anti-D. 
+0372 | epilepsy and is taking Phenytoin ;; last convulsion was 6 years ago | 15 weeks | الحمل + epilepsy مستقرة ← كمّلي نفس الدواء (لا تتغيرين بعد الحمل). Valproate ← بدّليه قبل الحمل.
+0373 | SLE ;; Plaquenil daily | symptom-free for the past 2 years ;; 20 weeks pregnant | Hydroxychloroquine آمن بالحمل ← كمّلي (يقلل flares).
+0374 | right breast is red, enlarged, and tender ;; no fluctuation | delivered her first baby 3 weeks ago ;; fever, chills | Mastitis ← Antibiotics (S. aureus) + استمرار الرضاعة. لو fluctuation ← abscess ← drainage.
+0375 | ectopic pregnancy ;; medical management | mild pelvic pain and spotting | Ectopic stable ← Methotrexate. لو unstable/ruptured ← Surgery.
+0376 | vesicles passing through the internal os ;; uterus was larger than expected | 10th week ;; spotting and pain | Molar pregnancy ← Serum hCG + Ultrasound ثم evacuation.
+0377 | levels have not changed for the past month ;; molar pregnancy | After evacuation and curettage ;; BhCG levels | hCG plateau/ارتفاع بعد mole ← GTN ← Oncology + methotrexate.
+0378 | period has not stopped for the past 15 days ;; drowsy and easily fatigued | 45-year-old woman ;; sometimes faints | AUB مع anemia/ضعف ← CBC + hCG أول (استبعدي حمل).
+0379 | period has not stopped for the past 15 days ;; drowsy and easily fatigued | 45-year-old woman ;; lab results | AUB + symptomatic anemia شديد (Hb منخفض جدًا) ← Blood transfusion.
+0380 | heavy periods lasting more than 10 days ;; Pregnancy test is negative and ultrasound is normal | 45-year-old woman | Heavy menstrual bleeding ← Tranexamic acid.
+0381 | severe pain the day prior to menses ;; misses work | 23-year-old woman | Primary dysmenorrhea شديد ← Combined hormonal contraceptive pills (تكبح ovulation).
+0382 | off contraceptive pills for the last 18 months ;; has not gotten pregnant | 30-year-old woman married for 3 years | Infertility ≥ 12 شهر ← Investigate الاثنين (ما تنتظرين).
+0383 | 2 weeks postpartum ;; exclusively breastfeeding | contraception | المفتاح هنا: Combined pills؟ (عادة لا قبل ٦ أسابيع). الخيارات الآمنة: progestin-only / IUD.
+0384 | blood pressure was 170/110 mmHg ;; urine dipstick showed +3 protein | 38 weeks ;; primigravida | Severe preeclampsia ← Magnesium sulfate (وقاية seizures) + antihypertensive + delivery.
+0385 | severe preeclampsia ;; prevent eclampsia | 33 weeks of gestation | الـdrug of choice لـeclampsia ← Magnesium sulfate (مو diazepam ولا phenytoin).
+0386 | headache, blurred vision, and abdominal pain ;; contracting every 2 minutes | 35 weeks ;; cervix is 2 cm dilated | أعراض severe preeclampsia + labor ← Magnesium sulfate.
+0387 | fundal height is 38 cm ;; gestational diabetes on insulin and is non-compliant | 32 weeks ;; anatomy scan at 20 weeks was normal | GDM غير مسيطر + fundal > dates ← Polyhydramnios. لو twin ← كان بالـscan.
+0388 | last menstrual period is unknown ;; most reliable way of dating | first pregnancy | أدق dating ← Crown-rump length (٧–١٣ أسبوع).
+0389 | not sure of her last menstrual period ;; highest diagnostic value for dating pregnancy | lactating ;; positive pregnancy test | الـCRL أدق parameter بالـfirst trimester.
+0390 | irregular, occurring every 3-4 months ;; morbidly obese and diabetic | heavy clots ;; Pregnancy test is negative | Obese + DM + دورة كل ٣–٤ شهور ← Chronic anovulation (PCOS) ← unopposed estrogen.
+0391 | missed abortion ;; 8 weeks | 21-year-old woman | Missed abortion ← Misoprostol (أو expectant/surgical حسب الحالة).
+0392 | dysuria and suprapubic pain ;; No fever | 20-year-old woman ;; Urine dipstick | Uncomplicated cystitis ← Empiric treatment بدون انتظار culture.
+0393 | preterm labor ;; cervix was 2 cm dilated and 80% effaced | 30 weeks gestation ;; regular contractions 4 in 10 minutes | Preterm labor: Dexamethasone + Tocolytic (nifedipine) + GBS prophylaxis.
+0394 | diagnose if she has preterm labor | 30 weeks gestation ;; regular contractions 4 in 10 minutes | تشخيص preterm labor ← contractions + تغيّر cervix بالفحص (digital/ cervical length).
+0395 | Monochorionic Diamniotic twins ;; time interval between ovulation and cleavage | first pregnancy | Dichorionic diamniotic ← ٠–٣ أيام. Monochorionic diamniotic ← ٤–٨ أيام. Monoamniotic ← ٨–١٢. Conjoined ← > ١٢.

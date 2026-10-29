@@ -1,0 +1,40 @@
+0228 | oral glucose tolerance test ;; 18 weeks of gestation | first time ;; indication for this early request | History of GDM ← OGTT مبكر. BMI عالي أو DM بالعيلة برضو. BMI 20 ما يستدعي.
+0229 | slight limitation of physical activity ;; tricuspid regurgitation | 28 weeks of gestation ;; heart failure class | NYHA II: limitation بسيط. III: limitation واضح. IV: أعراض بالراحة.
+0230 | therapeutic dose of heparin ;; uterus was contracted | no lacerations ;; Shortly after a heparin injection | PPH بسبب heparin ← Protamine sulfate. لو uterine atony ← Uterotonics.
+0231 | cardiac valve disease ;; worst outcome | shortness of breath during an antenatal visit ;; primigravida | Mitral stenosis أسوأ بالحمل (pulmonary edema). Regurgitant lesions تتحمل أحسن.
+0232 | cervix is closed and 3.5 cm long ;; cervical ripening | induction of labor ;; primigravida | Unfavorable cervix ← Prostaglandin E2. Favorable ← Oxytocin.
+0233 | latent phase be considered prolonged ;; irregular contractions | 40 weeks of gestation ;; G4 P3 | المفتاح ٨ ساعات. Latent phase طويل: أكثر من ٢٠ ساعة (nullipara) أو ١٤ (multipara) في المراجع.
+0234 | retraction ring ;; despite regular adequate contractions | 5 cm dilatation ;; 7 cm and station of -1 | Bandl's ring + تقدم بطيء ← Obstructed labor.
+0235 | uterus is tender and firm ;; constant abdominal pain | moderate bleeding ;; Unprovoked decelerations | ألم + uterus صلب ← Abruption. نزيف بدون ألم + uterus طري ← Placenta previa.
+0236 | Group-B streptococci ;; during labor and delivery | 100,000 colony-forming units | GBS (حتى bacteriuria) ← IV Penicillin/Ampicillin وقت الولادة.
+0237 | right flank radiating to her groin ;; rigors and chills | 30 weeks of gestation ;; Numerous pus cells | Pyelonephritis بالحمل ← Admit + IV antibiotics.
+0238 | gush of clear fluid ;; 40 weeks of gestation | cervical dilatation of 3 cm ;; painful uterine contractions | SROM = يتمزق أثناء labor. PROM = قبل labor ≥ ٣٧. PPROM = قبل ٣٧.
+0239 | oxytocin antagonist (atosiban) ;; tocolytic | 30 weeks of gestation ;; cervical dilatation of 2 cm | Tocolysis ← تأخير ٤٨ ساعة لإكمال steroids (ونقل المريضة). مو لمدّ الحمل لـ٣٧.
+0240 | cystic hygroma ;; 12 weeks of gestation | 39-year-old ;; Single viable fetus | عند ١٢ أسبوع ← CVS. بعد ١٥ أسبوع ← Amniocentesis.
+0241 | IDDM for 12 years ;; most likely increase markedly | 12 weeks of gestation | Pregestational DM ← Congenital malformations. GDM ما يسبب malformations.
+0242 | iron deficiency anemia ;; indication for intravenous iron therapy | twin gestation ;; 33 weeks | IV iron: فشل/عدم تحمل oral أو anemia شديدة أو قرب الولادة.
+0243 | 15 weeks of gestation ;; most expected finding | blood and urine investigations | الحمل: Blood volume ↑ ٤٠–٥٠٪، وRBC mass ↑ ٢٠–٣٠٪ ← Hct ينزل (dilutional).
+0244 | menorrhagia and occasional dysmenorrhea ;; requesting contraception | 20-year-old nulliparous ;; No family history of note | COC يخفف menorrhagia وdysmenorrhea. لو smoker فوق ٣٥ أو migraine with aura ← Progestin-only.
+0245 | anti-D immunoglobulin ;; 300-g dose | blood group is B- ;; fetal blood will be protected | ٣٠٠ mcg anti-D يحمي من ~١٥ mL fetal red cells (≈ ٣٠ mL fetal whole blood).
+0246 | 11th week of pregnancy ;; lethargy, constipation, and intolerance to cold | primigravida | Hypothyroidism بالحمل ← Thyroxine فورًا. Hyperthyroid ← Propylthiouracil.
+0247 | Braxton Hicks contractions ;; non-pruritic vaginal discharge like cervical mucus | 32 weeks gestation ;; uncomplicated | Physiologic ← Follow-up. لو gush ماء ← PROM. لو pruritic/نتن ← infection.
+0248 | rubella vaccine ;; advised not to become pregnant for 2 months | home pregnancy test ;; last menstrual period was 36 days ago | Live vaccine بالغلط ← ما يزيد الـteratogenic risk (طمنيها). Rubella infection بأول ١٢ أسبوع ← خطر CRS عالي.
+0249 | mild headache and facial edema ;; preeclampsia | 35 weeks gestation ;; reflexes are brisk | Preeclampsia ← Proteinuria (٣٠٠ mg/24h أو أكثر).
+0250 | vaginal vault prolapse extending beyond the introitus ;; abdominal hysterectomy at the age of 48 | very deficient perineum ;; 70-year-old | لو ما تبي surgery ← Pessary. Frail + بدون نشاط جنسي ← Colpocleisis.
+0251 | 5-week gestational size ;; no fetal heart detected | 9 weeks' gestation ;; vaginal spotting and mild abdominal pain | مستقرة ← Expectant management. لو نزيف شديد أو infection ← Evacuation.
+0252 | delivered her first child 5 days ago ;; tearful and depressed | insomnia, fatigue, and sadness | المفتاح SSRI. لو خفيف وأقل من ١٠ أيام ← Postpartum blues (reassure).
+0253 | second-degree uterine descent ;; moderate cystorectocele | 44-year-old ;; P6006 | Cystocele ← Anterior colporrhaphy. لو uterine prolapse أشد ← Vaginal hysterectomy.
+0254 | morbidly obese ;; BMI is 48 | pelvic organ prolapse ;; most expected type | المفتاح: Rectocele. (السمنة ترفع الضغط داخل البطن).
+0255 | reversed end-diastolic flow on umbilical artery Doppler ;; small for gestational age | 33 weeks ;; 38-year-old primigravida | Absent EDF ← Deliver حوالي ٣٤ أسبوع. Reversed EDF ← Steroids ثم Delivery.
+0256 | antenatal corticosteroids ;; threatened preterm labor at 30 weeks | rationale | Steroids ← نضج الرئة (↓ RDS، IVH، NEC).
+0257 | history of a previous second-trimester abortion ;; cervical length | 17 weeks gestation ;; serial ultrasound assessments | Cerclage قبل ٢٤ أسبوع: cervical length أقل من ٢٥ مم + history. Funneling وحده لا.
+0258 | cervical length of 20 mm ;; 23 weeks' gestation | small amount of vaginal bleeding ;; viable fetus | بدون history سابق ← Conservative (± progesterone). مع history ← Cerclage.
+0259 | placental abruption ;; Bleeding settled with conservative management | 32 weeks ;; low-risk pregnancy | بعد abruption ← High-risk care + serial growth scans.
+0260 | generalized pruritus ;; 34 weeks' gestation | yellowish discoloration of the sclera and skin | Intrahepatic cholestasis ← Bile acids + LFT.
+0261 | raised blood pressure ;; 32 weeks' gestation | 19-year-old primigravida ;; referred | BP ≥ 160/110 ← Admit + treat. أقل من ذلك ← مراقبة.
+0262 | sickle cell disease ;; 8 weeks' gestation | folic acid supplement ;; husband has normal hemoglobin | Sickle cell disease ← Folic acid ٥ mg طوال الحمل. الاعتيادي ← ٤٠٠ mcg حتى ١٢ أسبوع.
+0263 | Type 1 diabetes ;; regular painful contractions and a closed cervix | 32 weeks' gestation | Preterm labor عند diabetic ← Steroids + زيادة insulin (steroids ترفع glucose) + Tocolytic.
+0264 | breast carcinoma ;; How long after completion of treatment | preconception counseling ;; nulliparous | بعد breast cancer ← انتظري حوالي ٢ سنة قبل الحمل.
+0265 | sickle cell trait ;; more common in her case | antenatal booking clinic ;; 8 weeks' gestation | Trait ← UTI أكثر. Disease ← crises وIUGR وpreeclampsia.
+0266 | polyhydramnios ;; Fetal bradycardia | spontaneous rupture of membranes ;; 36+5 weeks | Polyhydramnios + rupture + bradycardia ← Cord prolapse ← فحص مهبلي فورًا + C-section.
+0267 | placenta accreta ;; major placenta previa | 2 previous caesarean sections ;; 32 weeks' gestation | Previa بدون accreta ← ٣٨ أسبوع. Accreta ← ٣٤–٣٧ أسبوع (المفتاح ٣٦–٣٧).

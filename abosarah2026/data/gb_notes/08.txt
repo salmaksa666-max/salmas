@@ -1,0 +1,40 @@
+0311 | heavy menstrual cycle ;; firm fundal mass | most appropriate next step in management | Menorrhagia + mass ← Pelvic ultrasound أول (MRI بعد لو قرار surgery).
+0312 | passing tissue at home ;; closed cervix | 7 weeks' amenorrhea ;; vaginal bleeding | Passed tissue + cervix مقفل + نزيف خفيف ← Complete abortion. cervix مفتوح ← Incomplete.
+0313 | 7-week viable intrauterine pregnancy ;; closed cervix | mild vaginal bleeding | Bleeding + cervix مقفل + fetus حي ← Threatened abortion. Missed ← fetus ميت.
+0314 | positive embryonic heartbeat ;; closed cervical os | 17-year-old primigravida ;; mild bleeding | Heartbeat موجود + cervix مقفل ← Threatened. لو لا heartbeat ← Missed abortion.
+0315 | open cervix with mild bleeding ;; 7-week viable intrauterine pregnancy | abdominal cramps ;; mild vaginal bleeding | Cervix مفتوح + fetus حي ← Inevitable abortion. بعد ما يطلع tissue ← Incomplete.
+0316 | passed tissue at home ;; open cervix | Ultrasound: Intrauterine tissue | Tissue طلع + cervix مفتوح + tissue بالرحم ← Incomplete abortion.
+0317 | open cervix with moderate vaginal bleeding ;; Intrauterine 3x4 cm tissue | passing tissue at home ;; 7 weeks' pregnant | Incomplete + نزيف ← Evacuation. لو نزيف قليل ← expectant أو misoprostol.
+0318 | closed cervix ;; 7 weeks' viable intrauterine pregnancy | mild vaginal bleeding | Threatened abortion ← Conservative (راحة ومتابعة). لا D&C.
+0319 | lower abdominal pain and vaginal bleeding ;; 33 weeks' pregnant | Emergency Room ;; next management step | نزيف بالثلث الثالث: ابدئي ABC أول (٢ IV lines كبيرة) قبل فحص أو scan. لا vaginal exam قبل exclude previa.
+0320 | mild painless vaginal bleeding ;; 32 weeks' pregnant | most appropriate next management step | نزيف بدون ألم ← Placenta previa ← ultrasound لتحديد الـplacenta قبل أي فحص مهبلي.
+0321 | husband was recently diagnosed with gonorrhea ;; vaginal discharge and burning with urination | highest diagnostic value | Gonorrhea ← Endocervical swab (NAAT/culture). Urine NAAT برضو ممكن.
+0322 | yellowish, fishy-smelling vaginal discharge | itching | Fishy odor ← Bacterial vaginosis (clue cells). Frothy أخضر ← Trichomonas. Cottage cheese ← Candida.
+0323 | whitish vaginal discharge and itching for 3 days | 25-year-old | White + itching ← Candidiasis (cottage cheese). Fishy ← BV.
+0324 | last menstrual period was 18 months ago ;; dyspareunia | 53-year-old woman | Vaginal atrophy فقط ← Local estrogen cream. Systemic hot flashes ← Systemic estrogen.
+0325 | menopausal ;; on-and-off vaginal bleeding | recent ;; most common cause | Postmenopausal bleeding أشيع سبب ← Atrophy. لكن لازم تستبعدين cancer (endometrial thickness).
+0326 | hot flashes and insomnia ;; first-line management | 50-year-old woman | أول خطوة ← Lifestyle modification. HRT لو شديد وبدون contraindication.
+0327 | primary infertility for 3 years ;; 3 cycles of Clomid | polycystic ovaries ;; 35-year-old smoker man | Infertility ← Semen analysis أول (أسهل وأرخص) قبل فحوص الزوجة.
+0328 | scanty irregular cycles with prolonged intervals ;; primary infertility for 1 year | 20-year-old woman ;; important workup | Primary oligomenorrhea صغيرة ← Chromosomal analysis (Turner mosaic). Prolactin/TSH روتينية.
+0329 | secondary infertility for 4 years ;; see image | 28-year-old woman | صورة laparoscopy: endometriotic implants (chocolate/ powder-burn) ← Endometriosis.
+0330 | Beta hCG ;; plateauing of Beta hCG on day 4 and day 7 | tubal ectopic pregnancy ;; treated with methotrexate | hCG لازم ينزل ١٥٪ بين يوم ٤ و٧. لو ما نزل ← Second dose methotrexate. لو ruptured ← surgery.
+0331 | intermenstrual bleeding ;; 13 mm long echogenic structure in the endometrium | 43-year-old ;; last 3 months | Endometrial polyp ← Hysteroscopy + removal (تشخيص + علاج).
+0332 | first 2 days of her cycle ;; severe lower abdominal pain and back pain | 18-year-old ;; medically free | Primary dysmenorrhea ← NSAIDs أول.
+0333 | Tried NSAID but no improvement ;; first 2 days of her cycle | 18-year-old ;; severe lower abdominal pain | فشل NSAIDs ← Oral contraceptive pills. لو ما تحسن ← laparoscopy (endometriosis).
+0334 | last cycle was 9 months ago ;; menarche was at the age of 15 years | 26-year-old woman | Secondary amenorrhea + FSH عالي قبل ٤٠ ← Premature ovarian insufficiency. PCOS ← LH/FSH + hirsutism.
+0335 | infertility for 3 years | G0P0 | المفتاح: hyperprolactinemia ← Bromocriptine (cabergoline). Clomid لو anovulation بدون prolactin.
+0336 | irregular cycle ;; husband's seminal analysis was normal | married for 3 years | Irregular cycle + semen طبيعي ← Ovulatory dysfunction (PCOS).
+0337 | molar pregnancy ;; fundal height is consistent with 19 weeks | 12 weeks pregnant ;; vaginal bleeding | Molar pregnancy ← Suction evacuation. ثم متابعة hCG أسبوعيًا.
+0338 | involuntary urine leak, especially when she runs | most appropriate next clinical evaluation | Stress incontinence ← Cough stress test (leak مع cough بمثانة ممتلئة).
+0339 | epithelial tumor marker is high ;; abdominal ascites | right ovarian mass ;; stage her tumor | Ovarian cancer staging ← Surgical staging (laparotomy).
+0340 | vaginal bulging ;; difficulty emptying her bladder completely | urinary tract infection for the second time in the last 6 months | Prolapse + incomplete emptying + recurrent UTI ← Post-void residual volume.
+0341 | frequency and urgency for 1 month ;; overactive bladder syndrome | 40-year-old woman | قبل تشخيص OAB ← Urine culture (استبعدي infection).
+0342 | recurrent urinary tract infections ;; after sexual intercourse | 30-year-old woman | UTI بعد الجماع ← Postcoital single-dose antibiotic. Frequent ← prophylaxis daily.
+0343 | prosthetic heart valve on warfarin ;; bedridden | 80-year-old woman ;; stage 3 pelvic organ prolapse | High surgical risk ← Pessary. Colpocleisis لو ما تستخدم pessary وبدون intercourse.
+0344 | stress urinary incontinence ;; most effective treatment | 40-year-old woman | أكثر علاج فعال لـSUI ← Midurethral sling. Conservative: Kegel/pessary.
+0345 | received the first dose of the human papilloma virus vaccine 3 months ago | 25-year-old woman | HPV vaccine جدول ٣ جرعات: ٠، ١–٢، ٦ شهور. فاتت بعد ٣ شهور ← أعطي الجرعة التالية اليوم.
+0346 | leak of thick fatty material from the cyst ;; ovarian cystectomy | 30-year-old woman | Fatty material + hair/teeth ← Dermoid (Cystic teratoma).
+0347 | intermittent vaginal bleeding over the last 2 months ;; no history of weight loss | 60-year-old woman ;; not on any medication | Postmenopausal bleeding أشيع سبب ← Endometrial atrophy. cancer الأخطر.
+0348 | Endometrial thickness of 8 mm ;; intermittent vaginal bleeding | 60-year-old woman | PMB + endometrium > 4 mm ← Endometrial biopsy. أقل ← يطمن.
+0349 | absence of her period for the last 3 months | 30-year-old woman ;; most appropriate test | Amenorrhea ← Pregnancy test أول.
+0350 | heavy menstruation during the first 4 days ;; for the last 2 years | 23-year-old single woman ;; see image | Menorrhagia + uterus كبير ← Fibroids (leiomyomas). Polyp ← intermenstrual.

@@ -1,0 +1,7 @@
+0594 | uterine size corresponds to 20 weeks of gestation and feels doughy ;; amenorrhea for the last 17 weeks | normal vital signs ;; highest diagnostic value | Doughy uterus أكبر من العمر + amenorrhea ← Molar pregnancy ← Ultrasound أول (snowstorm) ثم hCG.
+0595 | snowstorm appearance with no clearly identified fetal pole ;; uterus is about 22 weeks in size and feels doughy | amenorrhea for the last 18 weeks ;; 17-year-old | Snowstorm + بدون fetal pole + hCG عالي ← Complete mole. Partial ← fetal parts + triploidy.
+0596 | Thickened endometrial lining of approximately 23 mm ;; menorrhagia for the last 8 months | known to be diabetic and hypertensive ;; 45-year-old | Endometrium سميك + AUB + DM/HTN ← Endometrial biopsy (استبعدي hyperplasia/cancer).
+0597 | expelling blood and tissue through the vagina ;; amenorrhea for the last 8 weeks | otherwise healthy ;; highest diagnostic value | Amenorrhea + tissue ← Pelvic examination + Ultrasound (يحدد نوع abortion).
+0598 | fundal height corresponded with 19 weeks of gestation ;; 12 weeks pregnant | vaginal bleeding | Uterus أكبر من dates + نزيف ← Complete mole (hCG عالي، snowstorm).
+0599 | grape-like structure is filling the uterine cavity completely ;; passage of tissue that she describes as vesicles | amenorrhea for the last 15 weeks ;; vaginal bleeding | Grape-like + vesicles ← Complete mole. Partial ← fetal tissue موجود.
+0600 | partial molar pregnancy ;; follow-up plan | confirmed by histopathology ;; 44-year-old | بعد mole (حتى partial) ← hCG أسبوعيًا لين سلبي ثم متابعة.

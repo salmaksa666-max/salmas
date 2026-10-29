@@ -1,0 +1,42 @@
+0268 | induction of labor by prostaglandin ;; suddenly developed vaginal bleeding and shock | 41+5 weeks ;; G4 P2012 | Induction + shock + نزيف ← Ruptured uterus (خصوصًا multiparous/previous scar). لو ألم + uterus صلب ← Abruption.
+0269 | right upper quadrant pain ;; 32 weeks' gestation | G4 P3 | RUQ pain بالحمل المتأخر ← Hepatic capsule distension (HELLP/preeclampsia). Hepatic rupture نادر ويصاحبه shock.
+0270 | start 8-10 days before menstruation ;; improve afterward | headache, anxiety, and mastalgia ;; recurrent symptoms | PMS: قبل الدورة وتتحسن بعدها. لو الألم يستمر بعد الدورة ← Endometriosis.
+0271 | nausea and vomiting ;; 16 weeks' gestation | primigravida | Hyperemesis بالمفتاح مرتبط بنقص folate. فكري بنقص folate لو macrocytic anemia.
+0272 | inverted uterus ;; baby boy weighing 30.5 kg | 39 weeks' gestation ;; G4 P3003 | Uterine inversion ← Fundal placenta (+ traction زيادة). عالجي reduction فورًا.
+0273 | placenta is still in place ;; After 30 minutes | normal vaginal delivery at term ;; most appropriate next step | Retained placenta ٣٠ دقيقة ← Manual extraction. لو نزيف شديد قبلها ← تدخل أبكر.
+0274 | inverted uterus ;; 1200 cc of vaginal bleeding | Placenta delivery is complicated ;; G4 P3003 | الـinversion يسبب atony (Inadequate myometrial contraction) ← عالجي reduction وuterotonics.
+0275 | Fetal monitoring shows distress ;; augmentation of labor with parenteral oxytocin | spontaneous rupture of membranes ;; 35 weeks' gestation | Fetal distress + oxytocin ← أوقفي oxytocin. وغيري position (left lateral)، O2، IV fluids.
+0276 | does not respond to medical treatment ;; desires future pregnancies | exceeds 700 cc after a normal vaginal delivery ;; surgical management | PPH فشل medical + تبي حمل ← Internal iliac artery ligation (أو B-Lynch). Hysterectomy last resort.
+0277 | bleeding from multiple venipuncture sites ;; abruption placenta | significant uterine bleeding ;; vaginal delivery | Abruption + bleeding من أماكن كثيرة = DIC ← عالجي Coagulopathy أول.
+0278 | BP of 160/110 mmHg ;; magnesium sulfate along with steroid injections | 33 weeks' gestation ;; headaches | Severe preeclampsia (بعد stabilization + steroids) ← Delivery. المفتاح: Induction of labor.
+0279 | 5-week gestational size with no fetal heart ;; cervical os closed | 8 weeks' gestation ;; vaginal spotting | Missed/early failure مستقر ← Expectant. لو نزيف شديد/infection ← Suction curettage.
+0280 | low-lying placenta covering part of the cervix ;; moderately severe vaginal bleeding | 37 weeks' gestation ;; G4 P2103 | Placenta previa + نزيف شديد ← Cesarean. لا Digital exam أبدًا.
+0281 | placenta previa ;; 27 weeks' gestation | vaginal bleeding ;; transvaginal ultrasound | Previa ← نزيف بدون ألم (painless) وممكن postcoital spotting. Abruption ← مؤلم.
+0282 | squamous cell carcinoma in situ (CIS) ;; wants to preserve her fertility | High grade squamous intraepithelial lesion (HSIL) ;; heavy cigarette smoker | CIN3/CIS مع رغبة بالحمل ← Conization. لو ما تبي حمل ← Hysterectomy.
+0283 | lesion in the uterine cavity ;; Endometrial biopsy: Normal histology | 13 mm ;; heavy prolonged vaginal bleeding over the past 7 months | Endometrial lesion + biopsy طبيعي ← Sonohysterogram/ hysteroscopy يميز polyp عن fibroid.
+0284 | lesion in the uterine cavity ;; normal-sized uterus | heavy and prolonged vaginal bleeding over the past 7 months ;; 42-year-old | Intracavitary lesion صغيرة ← Endometrial polyp. Fibroid ← uterus كبير. Adenomyosis ← uterus globular.
+0285 | 12 cm left ovarian mass ;; ascites | thickening of the peritoneum ;; 58-year-old woman | Ovarian cancer ← Surgery + Chemotherapy. Early stage I ← surgery فقط.
+0286 | uterus noted to be firm ;; vital signs are stable | 1000 cc of vaginal bleeding ;; After placental delivery | Uterus صلب + نزيف ← Genital tract laceration. Uterus رخو ← Atony.
+0287 | chorioamnionitis ;; large continuous vaginal bleeding | fever and fetal tachycardia ;; 4 hours later | Chorioamnionitis ← Atony (التهاب يضعف contraction). 
+0288 | twin pregnancy ;; active vaginal bleeding | 2 hours ago | Twin/ polyhydramnios/ macrosomia ← Uterine atony (أكثر سبب للـPPH).
+0289 | low-lying placenta ;; One hour post-delivery | postpartum hemorrhage | PPH بعد ساعة ← Atony أشيع سبب (4 T's: Tone، Trauma، Tissue، Thrombin).
+0290 | heavy gush of bleeding postpartum ;; first baby | 2.7 kg ;; 38 weeks | PPH أشيع سبب ← Uterine atony.
+0291 | urine leakage while coughing and sneezing ;; denies any frequency, dysuria, or urgency | P5005 | Stress incontinence ← Hypermobile urethra. Urgency incontinence ← detrusor overactivity.
+0292 | using her fingers to push her vagina backward ;; constipation and difficulty with defecation | 64-year-old | Splinting ← Rectocele ← Posterior colporrhaphy.
+0293 | mucosal bulging through the introitus ;; vulvar atrophy | pelvic heaviness ;; 58-year-old woman | المفتاح: Enterocele. Cystocele ← أمامي. Rectocele ← خلفي.
+0294 | large bulging of the anterior vaginal wall ;; works in loading and unloading heavy boxes | 5 term spontaneous vaginal deliveries ;; pelvic pressure associated with urinary frequency | Symptomatic cystocele كبير ← Anterior colporrhaphy. خفيف أو ما تبي surgery ← Pessary.
+0295 | Urodynamic study shows spontaneous bladder contractions ;; without warning | involuntary urine leaks with urgency ;; Urinalysis and culture are negative | Urge incontinence (OAB) ← Anticholinergics. Stress ← Kegel/sling.
+0296 | second-degree pelvic prolapse ;; known diabetic and with congestive heart failure | postmenopausal ;; occasional incontinence with coughing and sneezing | High surgical risk (DM + HF) ← Vaginal pessary.
+0297 | urine leaks when she laughs, coughs, or sneezes ;; denies any history of frequency | initial therapy ;; P4004 | Stress incontinence ← Kegel exercises أول (conservative).
+0298 | sparse hair covering the labia majora ;; breast buds and papilla and areolar enlargement | 13-year-old ;; not yet starting menstruation | Breast bud = Tanner II. III ← breast أكبر بدون separation. IV ← double contour.
+0300 | primary attack of herpes simplex virus infection ;; Acyclovir is given orally for 10 days | 23 weeks' gestation | Acyclovir يقلل الأعراض وviral shedding. بعد ٣٦ أسبوع ← suppression. Active lesions بالولادة ← C-section.
+0301 | placenta is covering the cervical internal os ;; vaginal bleeding associated with clots | No abdominal pain ;; 33 weeks gestation | Previa risk: previous CS، multiple gestation، advanced age، smoking. بدون ألم ← Previa.
+0302 | adherent placenta to the uterus ;; methotrexate treatment | patient opted to keep her uterus ;; placenta was ligated with suture | Conservative management للـaccreta ← Infection أشهر complication. نزيف ثاني.
+0303 | endometrial cavity was entered during surgery ;; subserosal | symptomatic multiple uterine fibroids ;; myomectomy | المفتاح: Not affected. (accreta مرتبط أكثر بـprevious CS + previa).
+0304 | ruptured ectopic pregnancy ;; most important early indicator of ongoing bleeding | Moderate free fluid in the abdominal cavity ;; vital signs are within normal limits | أبكر مؤشر لنزيف مستمر ← Tachycardia. Hypotension علامة متأخرة.
+0305 | 12 weeks gestation ;; most expected finding | Blood electrolytes and renal function tests | الحمل ← creatinine وBUN ينزلون (GFR يرتفع ٥٠٪).
+0306 | fetal head is in the fundus ;; extended knees and flexed hips | fetal spine is parallel to the mother's spine ;; near term | Hips flexed + knees extended = Frank breech. Complete breech ← hips + knees flexed.
+0307 | lack of fetal heart activity ;; 28 weeks' gestation | vaginal spotting 2 weeks ago ;; fundal height equivalent to 18 weeks' size | أكثر من ٢٠ أسبوع بدون fetal heart ← Fetal demise (IUFD). أقل ← Missed abortion.
+0308 | Diminished blood flow toward the left ovary ;; known to have a left ovarian cyst | severe left lower quadrant pain ;; nausea | Ovarian torsion ← Laparoscopy (detorsion/cystectomy) فورًا. Doppler الطبيعي ما ينفي.
+0309 | menopausal for 3 years ;; conjugated estrogen pills | on-and-off vaginal bleeding ;; no previous surgical history | Estrogen بدون progesterone ← hyperplasia/cancer ← أضيفي Progesterone (uterus موجود).
+0310 | Subserosal uterine fibroid ;; incidentally | 5x5 cm ;; 33-year-old single woman | Asymptomatic fibroid ← Conservative. Surgery بس لو أعراض.

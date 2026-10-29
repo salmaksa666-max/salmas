@@ -1,0 +1,45 @@
+0441 | Day 14: 2210 mIU/mL ;; first dose of methotrexate 50 mg/m² was administered intramuscularly 14 days ago | Day 7: 1500 mIU/mL ;; ectopic pregnancy | hCG يرتفع بعد methotrexate ← قيمي TVUS (rupture؟) ثم surgery. لو نزل ← متابعة.
+0442 | hydatidiform mole ;; advised surveillance protocol | suction evacuation | بعد mole: hCG أسبوعيًا لين سلبي ثم شهريًا ٦ شهور. تجنبي الحمل خلال المتابعة.
+0443 | 5th week post-evacuation: 1 mIU/mL ;; weekly betahCG levels | molar pregnancy ;; 70,000 mIU/mL prior to the procedure | hCG لسه ما صار undetectable (١ ≠ ٠) ← Repeat weekly لين سلبي ثم monthly.
+0444 | 5th week: 300 mIU/mL ;; fleshy vaginal mass | hydatidiform mole ;; 870,000 mIU/mL prior to the procedure | hCG ينزل ثم يرتفع (٧٠ ← ٣٠٠) + mass ← GTN ← Metastatic workup بدون biopsy (خطر نزيف).
+0445 | fleshy vaginal mass protruding from the cervix that bleeds on touch ;; 3-month postpartum | abnormal vaginal bleeding ;; involving the uterine cavity | Mass بعد ولادة تنزف + hCG ← شك Choriocarcinoma ← Metastatic workup (بدون biopsy).
+0446 | most effective method of contraception ;; effective reversible method | 34-year-old | المفتاح: Hormonal vaginal ring. أفعل reversible: IUD/implant. Condoms أقل.
+0447 | 4-cm stable right tubal ectopic pregnancy ;; no clinical symptoms | 7 weeks' gestation ;; primigravida | Ectopic ≥ ٣.٥–٤ سم أو fetal heartbeat ← Surgery. أقل من ٣.٥ سم ومستقر ← Methotrexate.
+0448 | in-vitro fertilization ;; left tubal hydrosalpinx | right-sided 4-cm ectopic pregnancy ;; laparoscopic surgical excision | IVF + hydrosalpinx بالجهة الثانية ← Bilateral salpingectomy (يرفع نجاح IVF).
+0449 | does not reveal an intrauterine or extrauterine gestational sac ;; vaginal spotting for the last 3 days | 7 weeks pregnant | PUL مستقرة ← Repeat hCG وultrasound بعد ٤٨ ساعة. لا methotrexate قبل التأكد.
+0450 | intrauterine gestational sac with no embryonic heartbeat ;; last menstrual period was 5 weeks ago | closed cervical os ;; 17-year-old primigravida | Sac بدون heartbeat عند ٥ أسابيع ← Uncertain viability (مبكر). عند CRL ≥ ٧ مم ← missed.
+0451 | crown-rump length of 9 weeks' gestation with no embryonic heartbeat ;; closed cervical os | LMP 9 weeks ago ;; no bleeding | CRL ٩ أسابيع بدون heartbeat + cervix مقفل ← Missed abortion.
+0452 | fetal death ;; without expulsion of any fetal tissue for at least 8 weeks | 10 weeks of gestation | Fetal demise بدون expulsion ← Missed abortion.
+0453 | membranes protruding through the cervix ;; open cervical os | positive embryonic heartbeat ;; 9 weeks | Open cervix + sac برز + heartbeat ← Inevitable miscarriage.
+0454 | feeling unwell ;; gestational sac protruding through the cervix | vaginal bleeding ;; open cervical os | نفس الصورة + مريضة مو بخير/ fever ← Septic miscarriage.
+0455 | closed cervix with bleeding ;; positive heartbeat | vaginal bleeding and abdominal cramping ;; 9 weeks' gestation | Threatened مستقر ← Reassure ومتابعة. المفتاح: Admit وstabilize (حسب السؤال).
+0456 | mild vaginal bleeding and abdominal cramping ;; positive heartbeat | 9 weeks' gestation ;; most appropriate next step | Bleeding بالأول ← Pelvic assessment (speculum + bimanual) لتقييم cervix.
+0457 | open cervical os with mild vaginal bleeding ;; LMP was 6 weeks ago | missed her period ;; positive home pregnancy test | نزيف + cervix مفتوح ← Transvaginal ultrasound لتحديد النوع.
+0458 | abdominal pain on manipulation of the cervix ;; closed cervical os | LMP was 6 weeks ago ;; mild vaginal bleeding | Cervical motion tenderness + نزيف + ٦ أسابيع ← Transvaginal ultrasound (استبعدي ectopic).
+0459 | radiating to the right shoulder ;; Abundant fluid collected in the pouch of Douglas | sudden severe abdominal pain ;; last episode was six weeks ago | Shoulder pain + free fluid + amenorrhea ← Ruptured ectopic.
+0460 | guarding and rigidity of the abdomen ;; highest diagnostic value | sudden severe abdominal pain ;; radiating to the right shoulder | امرأة بعمر إنجابي بألم حاد + amenorrhea ← Pregnancy test أول (تؤكد/تستبعد ectopic).
+0461 | rigid abdomen with guarding ;; Abundant fluid in the pouch of Douglas | radiating to the right shoulder ;; irregular menstrual cycle | Ruptured ectopic مع unstable ← Laparotomy فورًا.
+0462 | guarding and rigidity ;; sharp in nature, and radiating to the right shoulder | LMP was six weeks ago | Peritonism + shoulder pain ← Laparotomy (مو methotrexate).
+0463 | uterus is palpable, soft, and reaching to just above the symphysis pubis ;; mild vaginal bleeding | Her last menstrual period was 9 weeks ago ;; 18-year-old woman | Pregnancy bleeding ← Pelvic ultrasound. CT/MRI لا.
+0464 | snowstorm appearance | ultrasound image | Snowstorm ← Molar pregnancy (complete mole).
+0465 | 3 weeks after vaginal delivery ;; sudden vaginal bleeding of 700 cc | 700 cc | PPH أكثر من ٢٤ ساعة إلى ١٢ أسبوع ← Late (secondary) postpartum. أول ٢٤ ساعة ← Primary.
+0466 | 10 hours after vaginal delivery ;; sudden vaginal bleeding of 700 cc | 700 cc | أول ٢٤ ساعة ← Early/primary postpartum hemorrhage.
+0467 | 32 weeks of gestation ;; sudden vaginal bleeding of 700 cc | 700 cc | نزيف بعد ٢٠ أسبوع قبل labor ← Antepartum hemorrhage.
+0468 | 7 cm dilated ;; suddenly develops vaginal bleeding of 700 cc | 32 weeks of gestation | نزيف أثناء labor ← Intrapartum hemorrhage.
+0469 | cervix is partially dilated without passage of any products of conception ;; 12 weeks of gestation | vaginal bleeding and lower abdominal pain | Cervix مفتوح بدون expulsion ← Inevitable abortion.
+0470 | closed cervix ;; positive fetal heart | 13 weeks of gestation ;; vaginal bleeding | Cervix مقفل + fetal heart موجود ← Threatened abortion.
+0471 | Atypical complex hyperplasia ;; 25-year-old woman | abnormal uterine bleeding ;; endometrial biopsy | عمر ٢٥ + atypical hyperplasia ← High-dose progesterone (تحافظ على fertility). بعد ٤٥ أو انتهاء الإنجاب ← Hysterectomy.
+0472 | passage of some placental tissue through the cervix ;; 10 weeks of gestation | vaginal bleeding, cramp-like pain | Tissue طلع جزئيًا ← Incomplete abortion.
+0473 | Rh-negative delivered an Rh-positive infant ;; routine prophylactic Rh immunoglobulin at 28 weeks | 22-year-old primigravida | بعد ولادة طفل Rh+ ← ٣٠٠ mcg anti-D خلال ٧٢ ساعة (حتى لو أخذت ٢٨ أسبوع).
+0474 | generalized tonic-clonic epilepsy 2 years ago ;; poorly controlled | preconception clinic | Preconception + epilepsy غير مضبوط ← Review medication (valproate لازم يتغير) وfolic acid ٥ mg.
+0475 | free fluid in the cul-de-sac ;; no gestational sac is seen | severe abdominal pain, dizziness ;; Examination revealed a distended abdomen | Dizziness + guarding + free fluid + no sac ← Ruptured ectopic.
+0476 | Pap smear showed abnormal results | sexually active ;; vaginal discharge | Abnormal Pap ← Colposcopy (+ biopsy). لا إعادة بعد ٣ شهور في HSIL.
+0477 | forceps delivery of a 3.7 kg baby ;; laceration of the cervix, vagina, and the perineal body | postpartum hemorrhage | Forceps + lacerations ← Genital tract trauma. الرحم صلب والنزيف مستمر.
+0478 | large submucous fibroid 7x8 cm ;; 51-year-old woman | heavy menstrual bleeding ;; pelvic pressure | Large fibroid + عمر ٥١ وانتهى الإنجاب ← Hysterectomy. لو تبي fertility ← Myomectomy.
+0479 | idiopathic thrombocytopenic purpura ;; postpartum hemorrhage | 39 weeks of gestation | PPH عند ITP ← Platelet concentrate.
+0480 | irregular menses ;; not sure of her dates | home pregnancy test ;; booking clinic | أدق dating ← Crown-rump length (٧–١٣ أسبوع).
+0481 | tonic-clonic convulsions for the first time ;; 31 weeks of gestation | primigravida ;; unconscious | Eclampsia ← ABC أول (Airway) ثم Magnesium sulfate ثم antihypertensive.
+0482 | post-coital bleeding for the past three months ;; 41-year-old woman | cycle is irregular ;; Para 4 | Post-coital bleeding ← Pap smear + cervical exam (استبعدي cervical cancer) أول.
+0483 | twin A is in vertex presentation ;; twin B is also in vertex presentation | twin pregnancy ;; active labor | Twin A vertex + twin B vertex ← Vaginal delivery. لو twin A non-vertex ← Cesarean.
+0484 | uterine fundal height lags more than 3 cm behind the gestational age ;; predicting fetal weight | chronic hypertension | أفضل parameter لـfetal weight ← Abdominal circumference.
+0485 | intrauterine growth restriction ;; highest diagnostic value | fundal height on 2 occasions | شك IUGR ← Serial ultrasound (growth + Doppler).

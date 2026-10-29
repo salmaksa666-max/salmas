@@ -1,0 +1,53 @@
+0486 | intrauterine growth restriction ;; reactive fetal heart on CTG | vertex presentation ;; cervix is 4 cm dilated | IUGR + vertex + CTG reactive ← Vaginal delivery. لو CTG abnormal/Doppler سيئ ← Cesarean.
+0487 | 42 weeks of gestation with firm dates ;; cervix is favorable | fetal head is well fixed in the pelvis | Post-term + dates مؤكدة + cervix ناضج ← Induction of labor.
+0488 | known cardiac patient receiving anticoagulants ;; contraceptive advice | 29-year-old | Cardiac + anticoagulant ← Progestin-only (estrogen ممنوع). IUD ممكن لكن نزيف.
+0489 | uterine fibroid ;; abdominal pain and fever | 34 weeks of gestation ;; cervix is closed | Fibroid بالحمل + ألم/حمى (red degeneration) ← Observation + analgesia. لا surgery.
+0490 | cottage cheese ;; vaginal itching, burning, and irritation | 36 weeks of gestation | Candida بالحمل ← Topical antifungal (مو oral).
+0491 | dysmenorrhea and deep dyspareunia ;; tubal patency | married for the last 3 years ;; Infertility Clinic | شك endometriosis + فحص tubal patency ← Laparoscopy + dye (يشخص ويعالج). HSG لو بدون شك pelvic disease.
+0492 | ovarian cyst of 4 cm in diameter ;; 9 weeks of gestation | moderate pelvic pain, which is dull | Simple cyst بالحمل ← Observation (غالبًا corpus luteum). Torsion/rupture ← surgery.
+0493 | 4-day course of antibiotics with no improvement ;; breast abscess is suspected | painful, hard mass in the right breast ;; febrile | Mastitis لا يتحسن ← Breast ultrasound + surgical review (drainage). وكمّلي الرضاعة.
+0494 | highest diagnostic value for ovulation | FSH, LH, and serum prolactin are normal | Ovulation ← Progesterone day 21 (mid-luteal).
+0495 | mild stress urinary incontinence ;; cough stress test | P4+0 ;; 38-year-old | Mild SUI ← Pelvic floor exercise أول. بعدها pessary/surgery لو فشل.
+0496 | prolonged with heavy menstrual bleeding ;; uterine fibroid | pelvic pressure, bloating | Heavy bleeding + fibroid ← Submucosal (يسبب menorrhagia). Subserosal ← pressure.
+0497 | secondary dysmenorrhea and menorrhagia ;; tender, diffusely enlarged uterus | Normal endometrium ;; 42-year-old P4+2 | Parous + diffusely tender enlarged uterus ← Adenomyosis. Endometriosis ← nulliparous، uterus طبيعي.
+0498 | highest diagnostic value | newly married woman ;; routine examination | الفحص النسائي الأدق ← Pelvic digital (bimanual) examination.
+0499 | previous intrauterine death with multiple congenital anomalies ;; detailed anomaly scan | 10 weeks of gestation | Detailed anomaly scan ← ١٨–٢٢ أسبوع. Nuchal ← ١١–١٤.
+0500 | late decelerations of the fetal heart ;; active stage of labor | 39 weeks of gestation | Late decel ← Change maternal position (left lateral) + O2 + IV fluids + stop oxytocin.
+0501 | chronic hypertension ;; blood pressure of 140/90 mmHg | 22 weeks of gestation | HTN مزمن بالحمل ← Methyldopa (أو labetalol/nifedipine). ACEi/ARB ممنوعة.
+0502 | prelabor premature rupture of membranes for 7 days ;; purulent, foul-smelling vaginal discharge | fever ;; 29 weeks of gestation | PPROM + fever + discharge نتن ← Chorioamnionitis.
+0503 | recurrent abortion in the first trimester | highest diagnostic value | Recurrent first-trimester loss ← Karyotyping (الزوجين) أول. Second-trimester ← uterine/cervical.
+0504 | oral contraceptive pills with strong androgenic progestin ;; teratogenic effect on the external genitalia of a female fetus | positive pregnancy test | Androgenic progestin ← Masculinization of female genitalia.
+0505 | reduced fetal movements ;; 36 weeks of gestation | 32-year-old woman | Reduced fetal movements ← CTG أول (+ ultrasound لو شك).
+0506 | hepatitis B surface antigen positive ;; recommendation for the infant after birth | 14 weeks of gestation | HBsAg+ ← الوليد يأخذ Vaccine + HBIG معًا خلال ١٢ ساعة.
+0507 | preterm labor at 27 weeks of gestation ;; cervix is 6 cm dilated | most appropriate drug | cervix 6 سم ← Steroids (tocolysis ما يفيد في cervix متقدم). Magnesium للـneuroprotection قبل ٣٢.
+0508 | eclamptic seizures ;; 29 weeks of gestation | primigravida | Eclampsia ← Magnesium sulfate (مو phenytoin).
+0509 | placenta previa totalis ;; two previous episodes of vaginal bleeding | scanty vaginal bleeding ;; 37 weeks of gestation | Previa totalis + نزيف سابق ← Admit فورًا ثم planned cesarean.
+0510 | spontaneous rupture of membranes 24 hours ago ;; no uterine contractions | 39 weeks of gestation ;; CTG shows normal fetal heart | PROM بـterm + مرت ٢٤ ساعة ← Induction of labor (يقلل infection).
+0511 | three previous cesarean sections ;; placenta is found to be attached deeply into the uterus | elective surgery at 37 weeks of gestation | Attached للعضلة ← Accreta (increta عميق في العضلة، percreta تخترق).
+0512 | eclamptic seizures ;; seizures were controlled | 34 weeks of gestation ;; antihypertensive medications | Eclampsia بعد stabilization ← Delivery (مهما كان العمر).
+0513 | preterm labor ;; membrane was ruptured 12 hours ago | 32 weeks of gestation ;; first dose of steroids | تحت ٣٢ أسبوع ← Magnesium sulfate للـneuroprotection. Tocolytics ممنوعة مع chorioamnionitis.
+0514 | known case of low-lying placenta ;; mild vaginal bleeding at home | vital signs are normal ;; no more bleeding is noted | Previa + نزيف خفيف وتوقف ← CTG لتقييم الجنين (ultrasound معروفة).
+0515 | cervix is closed and long ;; cervical ripening | induction of labor at 41 weeks of gestation | Unfavorable cervix ← Prostaglandin E2.
+0516 | smoking 12-15 cigarettes/day ;; most significant risk factor | subfertility ;; family history of diabetes in a second degree relative | أقوى risk factor مُعدّل ← Smoking (IUGR، abruption، preterm).
+0517 | intrauterine fetal death ;; abruptio placentae | cervix is found to be 5 cm dilated ;; mild uterine contractions | IUFD + abruption + labor قائمة ← Augmentation (vaginal delivery). Cesarean لو نزيف كثير.
+0518 | headache and blurred vision ;; antihypertensive medication | 30 weeks of gestation ;; primigravida | Severe HTN بالحمل ← Labetalol (أو hydralazine/nifedipine). Nitroprusside آخر خيار.
+0519 | Beta mimetics (tocolytics) ;; most common side effect | 27 weeks of gestation | Beta-agonist ← Palpitations/tachycardia (وhypokalemia وpulmonary edema).
+0520 | painful vaginal bleeding and uterine contractions ;; known smoker | late decelerations | ألم + contractions + smoker ← Abruption. نزيف بدون ألم ← Previa.
+0521 | preterm labor ;; cervix is closed | 31 weeks of gestation ;; uterus is contracting | Preterm labor قبل ٣٢ أسبوع ← Magnesium sulfate (neuroprotection). Tocolytic لتأخير ٤٨ ساعة.
+0522 | painless vaginal bleeding ;; uterus is soft | two cesarean sections ;; fetal heart rate is normal | بدون ألم + uterus طري + previous CS ← Placenta previa.
+0523 | headache and blurred vision ;; ++ proteinuria | 31 weeks of gestation ;; primigravida | HTN + proteinuria + أعراض ← Preeclampsia.
+0524 | acute painful vaginal bleeding ;; uterine tenderness | 36 weeks of gestation | نزيف مؤلم + uterine tenderness ← Abruption.
+0525 | patent ductus arteriosus ;; tocolytics | preterm labor | Indomethacin (NSAID) ← يقفل PDA مبكرًا ويقلل السائل. 
+0526 | cervix is 6 cm dilated ;; vertex presentation | preterm labor at 34 weeks ;; CTG confirms normal fetal heart | Preterm + vertex + labor متقدم + CTG طبيعي ← Vaginal delivery.
+0527 | massive antepartum hemorrhage ;; fetal distress | 30 weeks of gestation | Massive APH + fetal distress ← Cesarean فورًا.
+0528 | placenta previa totalis ;; hemodynamically stable | 27 weeks of gestation ;; scanty vaginal bleeding | Previa مستقرة قبل ٣٤ أسبوع ← Steroids (احتمال preterm delivery) + admit.
+0529 | perineal laceration involving the rectal mucosa | 4.2 kg baby | Rectal mucosa ← Fourth-degree. Third ← anal sphincter فقط.
+0530 | excessive amniotic fluid | 34 weeks of gestation | Polyhydramnios ← Uncontrolled diabetes. Renal agenesis ← oligohydramnios.
+0531 | known case of hypertension and diabetes ;; 14 weeks of gestation | booking | HTN + DM بالحمل ← Review medication أول (ACEi/ARB/statins/ oral hypoglycemics).
+0532 | solitary, cystic, right complex adnexal mass ;; 65-year-old woman | acute abdominal pain | Postmenopausal complex adnexal mass ← Pelvic MRI للتصنيف (أو gyne-oncology) قبل أي surgery.
+0533 | multiloculated, solid, right adnexal complex mass of 6 cm ;; 20-year-old asymptomatic woman | lower abdominal pain for 3 months | شابة + complex mass ← Cystectomy (حافظي على الـovary).
+0534 | multiloculated, solid, right adnexal complex mass of 6 cm ;; 76-year-old woman | abdominal pain | نفس الـmass عند ٧٦ ← Consult gynecologic oncology (خطر malignancy عالي).
+0535 | right ovarian cyst measuring 5 cm ;; planned for a cesarean section | breech presentation ;; 40 weeks of gestation | Cyst أثناء cesarean ← Cystectomy (بدون aspiration/rupture).
+0536 | simple right adnexal mass of 5 cm ;; incidental ultrasound finding | 20-year-old asymptomatic woman | Simple cyst عند شابة ← Reassess بعد ٦–٨ أسابيع (functional cyst).
+0537 | multiloculated, solid, right adnexal mass ;; weight loss and loss of appetite | 60-year-old woman | Epithelial ovarian cancer ← CA-125. Germ cell ← hCG وAFP. Granulosa ← inhibin.
+0538 | Ultrasound: Does not reveal any intrauterine or extrauterine pregnancy ;; closed cervix | 9 weeks of gestation ;; mild vaginal bleeding | PUL stable + hCG عالي (مفتاح) ← Methotrexate. لو hCG منخفض/ يتابع ← انتظري ٤٨ ساعة.

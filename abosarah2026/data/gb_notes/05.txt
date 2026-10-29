@@ -1,0 +1,45 @@
+0183 | painful skin eruption over the left side of his chest ;; maculopapular lesions and vesicles | 2-day history of fever ;; skin crusting | Shingles تشخيص clinical. لو غير واضح ← PCR. لو يتعدى الخط الأوسط/immunocompromised ← Disseminated.
+0184 | purpuric skin rash ;; neck rigidity | headache, fever, photosensitivity ;; drowsy woman | Meningococcemia ← ابدئي ceftriaxone فورًا ولا تأخرين العلاج لأجل LP.
+0185 | firm, mobile, non-tender nodule ;; most appropriate initial test | thyroid enlargement ;; asymptomatic | TSH أول. TSH واطي ← Scan. TSH طبيعي ← FNA.
+0186 | acute myeloid leukemia on chemotherapy ;; 1-day history of fever | chest radiograph and urinalysis are normal ;; Blood and urinary cultures are taken | Febrile neutropenia ← IV antibiotics فورًا. لو الحرارة استمرت ٤–٧ أيام ← أضيفي antifungal.
+0187 | Blood culture: Gram-positive cocci ;; Intravenous antibiotics are started | coarse crackles at the right lower lung ;; fever, progressive shortness of breath | لو hypotension/lactate عالي ← Fluid bolus (٣٠ mL/kg). لو ما فيه shock ← antibiotics بس.
+0188 | diminished gag reflex ;; use of accessory muscles of breathing | acute exacerbation of COPD ;; Oxygen, glucocorticoids, antibiotics, and nebulizers are started | لو alert + pH 7.25–7.35 ← NIV. Drowsy/diminished gag ← Intubation.
+0189 | massive pulmonary embolism | Intensive Care Unit ;; medically free | Massive/unstable ← Thrombolysis. Stable ← LMWH.
+0190 | tenderness over the Achilles tendon ;; limited lumbar spine movements | morning stiffness lasting almost 1 hour ;; active arthritis at both knees bilaterally | لو urethritis + conjunctivitis ← Reactive arthritis. لو مفاصل صغيرة symmetrical ← RA.
+0191 | spherocytosis ;; splenomegaly | pale conjunctiva ;; shortness of breath on exertion | Coombs موجب ← AIHA ← Steroids. Coombs سلبي ← Hereditary spherocytosis (splenectomy).
+0192 | 3-month history of palpitations and fatigue | Physical examination is unremarkable | لو MCV عالي + B12 واطي ← B12. لو Hb أقل من ٧ + أعراض شديدة ← Transfusion.
+0193 | bloody diarrhea ;; tenesmus | 2-week history ;; lower abdominal cramps | IBD ← Colonoscopy. لو antibiotics حديثة ← C. difficile toxin. لو أقل من أسبوع ← Stool culture.
+0194 | Three days after admission to ICU ;; hypotension treated with hydration and inotropes | liver function at the day of admission was normal ;; severe pneumonia | AST/ALT عالي جدًا بعد hypotension ← Ischemic hepatitis. Cholestatic + RUQ ← Acalculous cholecystitis.
+0195 | consolidation at the right lower lung field ;; most appropriate empiric antimicrobial regimen | productive cough, fever, and dyspnea for 3 days ;; two blood cultures | Ward CAP ← β-lactam + macrolide. لو موسم influenza ← أضيفي oseltamivir. لو Pseudomonas risk ← antipseudomonal.
+0196 | ST-segment elevation in leads II, III, and aVF ;; non-hemorrhagic stroke 2 months ago | sudden onset of retrosternal chest pain ;; hypertension | Stroke قبل أقل من ٣ شهور = contraindication للـfibrinolytic ← PCI.
+0197 | early diastolic murmur at the left upper sternal border that is augmented when sitting forward ;; Left ventricular hypertrophy | progressive shortness of breath on exertion for 8 months ;; Cardiomegaly | Aortic regurgitation. لو systolic ejection murmur ← Aortic stenosis.
+0198 | using oral contraceptives regularly ;; pleuritic chest pain | sudden onset of shortness of breath ;; past medical history is unremarkable | PE ← CT pulmonary angiography. لو حامل أو renal failure ← V/Q.
+0199 | pitting edema over both legs up to the knees ;; lower limb edema and fatigue for 1 month | systemic examinations are unremarkable | Nephrotic ← proteinuria كثير + low albumin. GN ← hematuria + HTN + RBC casts.
+0200 | stable systemic lupus erythematosus ;; active polyarthritis for 1 week | most appropriate management | لو kidney/CNS involvement ← Cyclophosphamide/MMF. مفاصل بس ← Steroids + Methotrexate.
+0201 | positive modified Schober test ;; tenderness over the Achilles tendon | 6-month history of lower back pain ;; morning stiffness for almost 1 hour | MRI sacroiliac يظهر sacroiliitis أبكر من X-ray. HLA-B27 داعم بس.
+0202 | pallor but no organomegaly ;; 55-year-old man | 3-month history of fatigue and lethargy | رجل ٥٥ + anemia ← دوري على GI blood loss (FOB/endoscopy). لو MCV عالي ← B12.
+0203 | ST-segment depression in II, III, and aVF ;; most considerable risk factor | 55-year-old male smoker ;; retrosternal chest pain radiating to the neck | لو السؤال عن modifiable risk factor ← Smoking. الـnon-modifiable الأقوى هنا ← Age.
+0204 | planning for pregnancy ;; recent thyroid function | 6-month history of mild fatigue | Overt hypothyroidism ← ابدئي thyroxine فورًا. Subclinical + حمل ← Thyroxine أثناء الحمل.
+0205 | looking more depressed and isolated ;; suicide | 2-year history of depression ;; no eye contact | أعلى risk: محاولة سابقة، خطة، ذكر، كبير، isolation.
+0206 | HIV ;; Mantoux tuberculin test (PPD) after 48 hours is 6 mm | chest radiography (CXR) is unremarkable ;; generally doing well | HIV + PPD ≥ 5 مم ← Latent TB ← INH + pyridoxine ٩ شهور. أقل من ٥ ← لا.
+0207 | uncontrolled diabetes during this pregnancy ;; neonatal complications | full term at labor | Infant of diabetic mother ← RDS، hypoglycemia، macrosomia، polycythemia. Hyperglycemia مو complication.
+0208 | 1 week after delivery ;; tearful, has spells of crying | lacks appetite and sleep ;; primipara | لو أقل من ١٠ أيام وخفيف ← Postpartum blues. لو hallucinations ← Postpartum psychosis.
+0209 | valproic acid ;; epilepsy | 17 weeks of gestation | Valproate ← Neural tube defect. Phenytoin ← Fetal hydantoin syndrome.
+0210 | chronic hypertension ;; contraindicated | 8 weeks of gestation | آمنة بالحمل: labetalol، nifedipine، methyldopa. الممنوعة: ACE inhibitors/ARB.
+0211 | prior history of preeclampsia and fetal growth restriction ;; 12 weeks of gestation | G4 P3 | Aspirin (٧٥–١٥٠ mg) من ١٢ أسبوع يقلل preeclampsia وFGR.
+0212 | painless fetal passage at 22 weeks | first pregnancy ;; 13 weeks of gestation | Cervical insufficiency ← Cerclage (١٢–١٤ أسبوع). لو short cervix بدون history ← Progesterone.
+0213 | hyperthyroidism during her pregnancy ;; most contraindicated | Primigravida | Radioactive iodine ممنوع. Propylthiouracil بالثلث الأول، وmethimazole بعده.
+0214 | oligohydramnios ;; Single viable fetus | significant lower levels of amniotic fluid | Oligo ← Placental insufficiency/PROM/renal agenesis. Polyhydramnios ← Diabetes/anencephaly/duodenal atresia.
+0215 | polyhydramnios ;; Single viable fetus | significant increased levels of amniotic fluid | Poly ← Anencephaly. Oligo ← Posterior urethral valve/renal agenesis.
+0216 | Rhesus (Rh) alloimmunization ;; most diagnostic sign | prenatal diagnosis | Fetal ascites + skin edema = Hydrops (أشد). MCA Doppler PSV عالي ← فقر دم الجنين.
+0217 | fetal hydrops ;; peak systolic velocity more than 1.8 MOM | 28 weeks of gestation ;; middle cerebral artery Doppler | MCA PSV أكثر من ١٫٥ MoM ← Fetal anemia. Anti-Kell ← Anemia + hydrops.
+0218 | biophysical profile score (BPS) ;; decreased fetal movement | 33 weeks of gestation | BPS 8–10 ← مطمئن. ٦ ← Equivocal. ٤ أو أقل ← Delivery.
+0219 | cardiotocography ;; deceleration | active labor | Early ← Head compression. Variable ← Cord compression. Late ← Uteroplacental insufficiency.
+0220 | positive Homan's sign ;; 25 weeks of gestation | severe left calf pain and swelling | DVT بالحمل ← Compression ultrasonography أول. D-dimer ما ينفع بالحمل.
+0221 | diabetic on insulin ;; same for her as for the general population | no significant family history | DM ← hydramnios، macrosomia، preeclampsia تزيد. Cystic fibrosis (وراثي) ما يتأثر.
+0222 | severe preeclampsia ;; right upper quadrant abdominal pain | 30 weeks of gestation | RUQ pain في preeclampsia ← Liver capsule distension (HELLP/eclampsia وشيك).
+0223 | severe preeclampsia ;; rationale behind giving antihypertensive | 34 weeks of gestation | Antihypertensive يحمي الأم (stroke)، ما يحسن نتيجة الجنين.
+0224 | severe preeclampsia ;; decreased significantly | 34 weeks of gestation | Preeclampsia ← Plasma volume ينزل، وurea وuric acid وcreatinine ترتفع.
+0225 | lax uterus ;; no laceration or retained product of conception | moderate postpartum hemorrhage ;; preeclampsia | Uterine atony ← Oxytocin IV. مع preeclampsia تجنبي ergometrine (يرفع الضغط).
+0226 | newly diagnosed with preeclampsia ;; contraindicated | 30 weeks of gestation | Captopril (ACE inhibitor) ممنوع. الآمنة: nifedipine، hydralazine، labetalol، methyldopa.
+0227 | newly diagnosed with gestational diabetes ;; first-line therapy | 33 weeks of gestation | Diet أول. لو فشل ← Insulin (أو metformin).
