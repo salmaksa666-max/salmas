@@ -1,0 +1,12 @@
+@ 18,19,20,21,22 | Chest trauma (كل حالات الصدر)
+> idea: أول ما يجيك trauma بالصدر: ABC. فيه ٦ حالات تقتل بسرعة وتنعالج بالـprimary survey، وبعدها حالات "مخفية" تدورين عليها. ● = طلعت بأسئلتك. ○ = إضافية عشان تكتمل الصورة.
+> flow ١) تقتل بسرعة (عالجي فورًا): ● Tension pneumothorax :: Unstable + trachea deviated + neck veins منتفخة + hyperresonant ← Needle decompression ثم chest tube ;; ● Open pneumothorax :: Sucking wound ← Occlusive dressing على ٣ جوانب ثم chest tube ;; ● Massive hemothorax :: Dull + shock ← Chest tube + fluids/blood ;; ● Flail chest :: Paradoxical movement + hypoxia ← Oxygen + analgesia، وVentilation لو hypoxic ;; ○ Cardiac tamponade :: Hypotension + neck veins + muffled heart sounds ← Pericardiocentesis / thoracotomy ;; ● Airway: Tracheobronchial injury :: Cervical/mediastinal air + pneumothorax ما يتحسن ← Airway/bronchoscopy
+> flow ٢) مخفية (دوري عليها بعد ما تستقرين): ● Pulmonary contusion :: Rib fractures + opacity جديدة بعد ساعات ← Oxygen + analgesia، راقبي ;; ○ Simple pneumothorax :: Decreased breath sounds مستقر ← Chest tube ;; ○ Blunt aortic injury :: Deceleration + widened mediastinum ← CT angiography ;; ○ Diaphragmatic rupture :: Bowel في الصدر ← Surgical repair ;; ○ Blunt cardiac injury :: ECG abnormal / troponin ← Monitoring ;; ○ Esophageal rupture :: Chest pain + subcutaneous emphysema بعد trauma ← Surgery
+> vs ● Tension pneumothorax :: Hyperresonant، trachea deviated. ما تنتظرين X-ray. Needle أول ثم chest tube ;; ● Massive hemothorax :: Dull، trachea مو deviated. Chest tube مباشرة
+> vs ● Flail chest :: Paradoxical movement. الخطر الحقيقي هو الـcontusion تحتها ;; ● Pulmonary contusion :: Rib fractures + opacity بعد ساعات من غير paradoxical movement
+> trick: ● مريض unstable + absent breath sounds ← لا تطلبين X-ray ولا blood gas. أي خيار يأخر الـdecompression غلط.
+> trick: ● Neck veins منتفخة + صوت التنفس غايب ← Tension pneumothorax، مو hemothorax.
+> trick: ● Hyperresonant = هواء = Needle. Dull = دم = Chest tube.
+> trick: ● Sucking chest wound ← ٣ جوانب (٤ جوانب ممكن تسوي tension).
+> trick: ● Rib fractures + SpO2 84% أو paradoxical movement ← Assisted ventilation. بدونها ← IV analgesia بس.
+> trick: ● Cervical/mediastinal air هو الدليل على الـairway/tracheobronchial، مو الـpneumothorax لحاله.

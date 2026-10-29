@@ -39,7 +39,7 @@ body { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 9pt; line-heigh
 
 FIT = """<script>
 document.querySelectorAll('.map').forEach(function(m){
-  var fs = 9.4; m.style.fontSize = fs + 'pt';
+  var fs = START; m.style.fontSize = fs + 'pt';
   while (fs > 5.2 && m.scrollHeight > m.clientHeight + 1) { fs -= 0.2; m.style.fontSize = fs + 'pt'; }
 });
 </script>"""
@@ -54,6 +54,7 @@ def e(t):
 
 
 def box(t):
+    t = t.strip().replace("● ", "● ", 1)
     if "::" in t:
         a, b = t.split("::", 1)
         return f'<div class="box"><b dir="rtl">{e(a)}</b><small dir="rtl">{e(b)}</small></div>'
@@ -63,7 +64,7 @@ def box(t):
 def render(block):
     head, *rest = block.strip().splitlines()
     ids, title = head[1:].split("|", 1)
-    idea, flows, vs, tricks = "", [], None, []
+    idea, flows, vs, tricks = "", [], [], []
     for ln in rest:
         ln = ln.strip()
         if not ln.startswith(">"):
@@ -75,7 +76,7 @@ def render(block):
             t, body = ln[4:].split(":", 1) if ":" in ln[4:] else ("", ln[4:])
             flows.append((t.strip(), [x for x in body.split(";;") if x.strip()]))
         elif ln.startswith("vs"):
-            vs = [x for x in ln[2:].replace("vs", "", 0).split(";;") if x.strip()]
+            vs.append([x for x in ln[2:].split(";;") if x.strip()])
         elif ln.startswith("trick:"):
             tricks.append(ln[6:])
     out = f'<div class="map"><h2 dir="ltr">{html.escape(title.strip())}</h2>'
@@ -85,8 +86,8 @@ def render(block):
     for t, items in flows:
         out += f'<div class="flow"><div class="ft" dir="rtl">{e(t)}</div>' + '<div class="arrow">↓</div>'.join(box(x) for x in items) + "</div>"
     out += "</div>"
-    if vs:
-        out += '<div class="vs">' + "".join(box(x) for x in vs) + "</div>"
+    for pair in vs:
+        out += '<div class="vs">' + "".join(box(x) for x in pair) + "</div>"
     if tricks:
         out += '<div class="lab">⚠ فخاخ الاختبار</div><ul class="tr">' + "".join(f'<li dir="rtl">{e(t)}</li>' for t in tricks) + "</ul>"
     return out + "</div>"
@@ -99,7 +100,7 @@ def main():
     maps = [render(b) for b in blocks]
     pages = ['<div class="page">' + "".join(maps[i:i + PER]) + "</div>" for i in range(0, len(maps), PER)]
     css = CSS.replace("repeat(PER,", f"repeat({PER},")
-    doc = f'<html><head><meta charset="utf-8"><style>{css}</style></head><body>{"".join(pages)}{FIT}</body></html>'
+    doc = f'<html><head><meta charset="utf-8"><style>{css}</style></head><body>{"".join(pages)}{FIT.replace("START", "12.5" if PER == 1 else "9.4")}</body></html>'
     src = os.path.join(tempfile.mkdtemp(), "x.html")
     open(src, "w", encoding="utf-8").write(doc)
     subprocess.run([CHROME, "--no-sandbox", "--no-pdf-header-footer", f"--print-to-pdf={OUT}", "file://" + src], check=True, capture_output=True)
