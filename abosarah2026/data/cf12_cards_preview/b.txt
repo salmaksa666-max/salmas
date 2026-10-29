@@ -1,0 +1,15 @@
+@ 18,19,20,21,22 | Chest trauma: كيف تفرقين بين حالات الصدر؟
+> p: أول قاعدة: مريض trauma بالصدر ← ABC. والأسئلة تعطيك مريض مو مستقر وتسألك "إيش اللي في صدره؟". وتعرفين بالفحص: الـpercussion، والـneck veins، والـtrachea. ★ = طلع بأسئلتك، ○ = إضافة مني.
+> h: ١) حالات تموّت بسرعة، تعالجينها فورًا
+> box: ★ Tension pneumothorax :: الهواء يدخل الصدر ولا يطلع (مثل صمام باتجاه واحد). يضغط على الرئة والقلب: الضغط ينزل، الـtrachea تنزاح، الـneck veins تنتفخ ;; Needle decompression :: فورًا. لا تنتظرين X-ray ;; Chest tube :: بعدها
+> note: أي خيار يأجل الـdecompression عشان X-ray أو blood gas في مريض مو مستقر = غلط.
+> two: Tension pneumothorax :: Hyperresonant (صوت طبل). Neck veins منتفخة. الـtrachea منحرفة ;; Massive hemothorax :: Dull (صوت مكتوم). Neck veins مسطحة لأن الدم نازل. Chest tube مباشرة
+> box: ★ Open pneumothorax :: جرح بالصدر يسحب هواء مع كل نفس (sucking wound) ;; Occlusive dressing على ٣ جوانب :: يخلي الهواء يطلع ولا يدخل. لو سدّيتي ٤ جوانب يصير tension ;; بعدها Chest tube :: 
+> box: ★ Flail chest :: ضلوع مكسورة في أكثر من مكان فجزء من الجدار يتحرك عكس التنفس (paradoxical movement) ;; الخطر الحقيقي :: مو الجزء المتحرك، بل الـpulmonary contusion اللي تحته ;; العلاج :: Oxygen + analgesia. لو SpO2 نزل أو تعب ← Ventilation
+> box: ○ Cardiac tamponade :: دم حول القلب يمنعه يتمدد: Hypotension + Neck veins منتفخة + Muffled heart sounds ;; Pericardiocentesis :: أو thoracotomy
+> h: ٢) حالات مخفية، دوري عليها بعد ما يستقر
+> box: ★ Pulmonary contusion :: كسور بالأضلاع ثم opacity جديدة في الـX-ray بعد ساعات ;; العلاج :: Oxygen + analgesia + مراقبة ;; ★ Tracheobronchial injury :: هواء في الرقبة أو mediastinum + pneumothorax ما يتحسن ← Bronchoscopy
+> list: ○ Blunt aortic injury: حادث سرعة + mediastinum واسع ← CT angiography ;; ○ Diaphragmatic rupture: أمعاء داخل الصدر ← Surgical repair
+> h: للاختبار احفظي الفرق
+> list: Hyperresonant = هواء = Needle ;; Dull = دم = Chest tube ;; Neck veins منتفخة + صوت التنفس غايب = Tension pneumothorax (مو hemothorax) ;; Rib fractures + opacity جديدة بعد ساعات = Lung contusion ;; Paradoxical movement = Flail chest
+> sum: يعني باختصار: هواء ولا دم ولا جدار؟ الـpercussion والـneck veins يقولون لك.
