@@ -141,21 +141,22 @@ body { width: 210mm; padding: 0; }
 """ % W
 
 PACK = """<script>
+var COLS = __COLS__;
 document.fonts.ready.then(function () {
   var page = document.createElement('div'); page.className = 'page';
   var probe = document.createElement('div'); probe.className = 'col'; page.appendChild(probe);
-  var probe2 = document.createElement('div'); probe2.className = 'col'; page.appendChild(probe2);
+  for (var i = 1; i < COLS; i++) { var p2 = document.createElement('div'); p2.className = 'col'; page.appendChild(p2); }
   document.body.appendChild(page);
   var cw = probe.getBoundingClientRect().width, ch = probe.getBoundingClientRect().height;
   page.remove();
   var z = cw / %d; document.documentElement.style.setProperty('--z', z);
-  var maps = [...document.querySelectorAll('.stage .mp')], cur = null, col = 2, used = 0;
+  var maps = [...document.querySelectorAll('.stage .mp')], cur = null, col = COLS, used = 0;
   var gap = parseFloat(getComputedStyle(probe).gap) || 11;
   maps.forEach(function (m) {
     var h = m.getBoundingClientRect().height;
     if (h > ch) { m.style.zoom = z * ch / h; h = ch; }
     if (!cur || used + h > ch + 0.5) {
-      if (col >= 2) { var pg = document.createElement('div'); pg.className = 'page'; document.body.appendChild(pg); cur = pg; col = 0; }
+      if (col >= COLS) { var pg = document.createElement('div'); pg.className = 'page'; document.body.appendChild(pg); cur = pg; col = 0; }
       var c = document.createElement('div'); c.className = 'col'; cur.appendChild(c); cur.lastCol = c; col += 1; used = 0;
     }
     cur.lastCol.appendChild(m); used += h + gap;
@@ -163,7 +164,7 @@ document.fonts.ready.then(function () {
   document.querySelector('.stage').remove();
   document.title = 'pages:' + document.querySelectorAll('.page').length;
 });
-</script>""" % W
+</script>""".replace("__COLS__", os.environ.get("COLS", "1")) % W
 
 
 def main():
