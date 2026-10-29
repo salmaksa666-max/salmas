@@ -1,0 +1,72 @@
+@ 18,19,20,21,22 | Chest trauma: كيف أعرف إيش اللي في صدر المريض؟
+> p: تخيلي الصدر غرفة مقفلة فيها الرئة والقلب. بعد الحادث ممكن يدخل فيها هواء، أو دم، أو ينكسر جدارها. وإنتِ تعرفين وش صار من ٣ أشياء تفحصينها بيدك قبل أي أشعة.
+> list: صوت الصدر لما تنقرين عليه (percussion) ;; الأوردة اللي بالرقبة (neck veins) ;; مكان القصبة الهوائية (trachea): بالنص ولا مزاحة؟
+> h: أول: الحالات اللي تموّت بسرعة
+> p: دي تعالجينها فورًا بدون ما تنتظرين X-ray.
+> box: ★ Tension pneumothorax :: الهواء يدخل الصدر ما يطلع (مثل صمام باتجاه واحد). الضغط يزيد على الرئة والقلب فينزل الضغط وتنزاح الـtrachea وتنتفخ الـneck veins ;; الفحص :: Hyperresonant (صوت طبل) + صوت التنفس غايب ;; العلاج :: Needle decompression فورًا ثم chest tube
+> note: لا تطلبين X-ray ولا blood gas لمريض unstable. أي خيار يأجل العلاج غلط.
+> box: ★ Massive hemothorax :: دم كثير بالصدر. المريض بصدمة والـneck veins مسطحة لأن الدم نازل ;; الفحص :: Dull (صوت مكتوم) ;; العلاج :: Chest tube + سوائل أو دم
+> box: ★ Open pneumothorax :: جرح بالصدر يسحب هواء مع كل نفس (sucking wound) ;; العلاج :: Occlusive dressing على ٣ جوانب بس. لو سدّيتيه ٤ جوانب يتحول tension ;; بعدها :: Chest tube
+> box: ★ Flail chest :: ضلوع مكسورة في أكثر من مكان فجزء من الجدار يتحرك عكس التنفس (paradoxical) ;; الخطر الحقيقي :: مو الجزء المتحرك، بل الـpulmonary contusion اللي تحته ;; العلاج :: Oxygen + مسكن. لو SpO2 نزل أو تعب ← Ventilation
+> box: ○ Cardiac tamponade :: دم حول القلب يمنعه يتمدد. ضغط واطي + neck veins منتفخة + صوت القلب بعيد ;; العلاج :: Pericardiocentesis
+> h: ثانيًا: حالات مخفية تدورين عليها بعد ما يستقر
+> box: ★ Pulmonary contusion :: كسور بالأضلاع، وبعد ساعات يظهر opacity جديد بالـX-ray. العلاج oxygen ومسكن ومراقبة ;; ★ Tracheobronchial injury :: هواء بالرقبة أو mediastinum + pneumothorax ما يتحسن بعد chest tube ← Bronchoscopy ;; ○ Blunt aortic injury :: حادث بسرعة عالية + mediastinum واسع ← CT angiography
+> h: الفرق اللي يطلع بالاختبار
+> two: Tension pneumothorax :: Hyperresonant. Neck veins منتفخة. الـtrachea منحرفة. Needle أول ;; Massive hemothorax :: Dull. Neck veins مسطحة. Chest tube مباشرة
+> two: Flail chest :: حركة معاكسة للتنفس (paradoxical) ;; Pulmonary contusion :: كسور + opacity جديد بعد ساعات بدون حركة معاكسة
+> sum: يعني باختصار: هواء ولا دم ولا جدار؟ الـpercussion والـneck veins يقولون لك، وبعدها الحل.
+
+@ 35,36,37 | Mesenteric ischemia: ليش المريض يتألم كثير والبطن هادي؟
+> p: الأمعاء تاخذ دمها من شريان. لو انسد الشريان فجأة (غالبًا جلطة جات من القلب بسبب AF) الأمعاء تنخنق وتتألم جدًا، لكن البطن من برا يكون طري لأن الالتهاب لسه ما وصل للجدار. وهذا اللي نسميه "pain out of proportion".
+> h: كيف تشكين فيه؟
+> box: ★ مريض عنده AF أو IHD :: الجلطة تجي من القلب ;; ★ ألم بطن شديد جدًا :: أكبر من اللي تلقينه بالفحص ;; ★ Amylase مرتفع شوي :: لا تقولين pancreatitis. إذا ما وصلت ٣ أضعاف الطبيعي وعنده قلب فهو ischemia
+> h: وش أطلب؟
+> two: Initial :: CT angiography (مو plain X-ray لأنه يطلع طبيعي) ;; Definitive / gold standard :: Mesenteric angiography
+> box: بعد التشخيص :: Resuscitation + heparin ثم مراجعة جراحية لفتح الشريان
+> h: نفس الفكرة بالطرف
+> box: ★ AF + ألم رجل مفاجئ + شلل :: Acute limb ischemia ← Embolectomy مباشرة بدون imaging ;; ★ Buerger disease :: شاب مدخن + toe ulcers + thrombophlebitis ← أهم علاج Stop smoking
+> note: Rest pain لحاله بدون بداية مفاجئة معناه chronic ischemia. البداية المفاجئة هي اللي تخليه acute.
+> sum: يعني باختصار: AF + ألم كبير والفحص هادي = Mesenteric ischemia ← CT angiography.
+
+@ 52,50,51,53 | Esophagus: ألم صدر بعد استفراغ أو صعوبة بلع
+> p: المريء أنبوب بين الفم والمعدة. لو انقطع أو اتشقق بعد استفراغ قوي، الجواب يعتمد على: ما طلع دم بس؟ ولا ألم صدر وهواء؟
+> h: استفراغ قوي… وبعده وش صار؟
+> two: Mallory-Weiss tear :: تشقق صغير بالطبقة السطحية (mucosa). المريض يستفرغ دم ويكون مستقر. غالبًا يوقف لحاله ← Conservative ;; Boerhaave syndrome :: انفجار بكل جدار المريء. ألم صدر شديد + subcutaneous emphysema أو effusion. طوارئ جراحية
+> note: Stable vitals + Hb طبيعي = Mallory-Weiss ← conservative.
+> h: لو المشكلة بلع
+> box: ★ GERD سنين + بدأ يصعب عليه بلع الصلب :: Endoscopy (تدورين على Barrett's أو stricture) ;; ★ Intestinal metaplasia بالـbiopsy :: Barrett's esophagus ;; ★ يصعب عليه الصلب والسوائل من أول المرض :: Achalasia (مشكلة بحركة المريء)
+> box: Achalasia علاجها :: شاب وصحته كويسة ← Pneumatic dilatation. كبير وضعيف ← Botox
+> h: حالتان لازم تنتبهين
+> list: ★ بعد pneumatic dilatation ظهر ألم صدر وتغيّر صوت = Perforation ;; ★ بلع مادة قلوية (alkali) = ضرر عميق حتى لو الفم شكله خفيف. يدخل المستشفى ويشوفونه
+> sum: يعني باختصار: استفراغ ثم دم بس = Mallory-Weiss. استفراغ ثم ألم صدر وهواء = Boerhaave.
+
+@ 61,62,63 | Diverticulitis: ألم يسار البطن مع حرارة
+> p: الـdiverticula أكياس صغيرة تطلع بجدار القولون. لو التهبت يصير ألم يسار تحت البطن (LLQ) مع حرارة. والسؤال دايم: وش العلاج؟ وهذا يعتمد على حجم المشكلة.
+> h: الخطوات
+> box: ★ ألم LLQ + حرارة + مستقر :: CT with contrast يأكد التشخيص ;; بدون collection أو collection صغير (١ سم) :: Conservative: مضادات حيوية ;; collection كبير (٥ سم) :: Percutaneous drainage ;; Free air بالـCT :: Laparotomy
+> note: لا colonoscopy أبدًا بوقت الالتهاب الحاد، حتى لو فيه bleeding. تسوينه بعد ٦–٨ أسابيع.
+> h: أسئلة تتكرر
+> two: Diverticulosis (بدون التهاب) :: هو سبب النزيف الكبير بالقولون. الالتهاب نادرًا ينزف ;; Diverticulitis :: ألم + حرارة. النزيف قليل
+> list: ★ Localized guarding مو peritonitis عام. اللي يروح للعمليات هو الـdiffuse peritonitis أو free air ;; ★ بعد التعافي: High fiber diet ;; ★ نزيف قولون تحت وضغطه واطي حتى بعد دم ← Laparotomy. لو يستجيب للسوائل ← Angiography
+> sum: يعني باختصار: LLQ + حرارة = CT. ما تسوين colonoscopy بوقت الالتهاب.
+
+@ 84 | Testicular torsion: ولد يتألم فجأة بالخصية
+> p: الخصية معلقة بحبل فيه الدم. لو لتفّ الحبل انقطع الدم عن الخصية وتموت خلال ساعات. علشان كذا أي ولد أو مراهق ألمه مفاجئ شديد بالخصية (أو حتى بالبطن) نعتبره torsion لين يثبت العكس.
+> h: كيف أعرفه؟
+> box: ★ ألم مفاجئ شديد :: ممكن يحسّه بالبطن السفلي، فافحصي الـscrotum دايمًا ;; ★ الخصية مرتفعة (high-riding) :: لأن الحبل تقصّر باللفّة ;; ★ ما فيه cremasteric reflex :: لو فيه reflex غالبًا مو torsion
+> note: لو ما فيه Ultrasound في المستشفى، لا تنتظرين. الجواب Urgent referral للعمليات.
+> h: وش الفرق عن الأشياء الثانية؟
+> two: Torsion of the testis :: ألم مفاجئ، الخصية مرتفعة، بدون reflex ← Surgery فورًا ;; Torsion of the appendix testis :: الخصية في مكانها (vertical)، والألم عند الطرف العلوي ← غالبًا مراقبة
+> list: Transillumination سلبي ما يعني hernia. مع ألم مفاجئ وخصية مرتفعة = torsion ;; ○ الطبيب يعمل Orchiopexy للخصيتين لأن الثانية معرضة
+> sum: يعني باختصار: ولد + ألم مفاجئ + خصية مرتفعة = نروح للعمليات بدون ما ننتظر شي.
+
+@ 42,43,44 | Thyroid nodule: وش أسوي بالكتلة اللي بالغدة؟
+> p: كتلة بالغدة الدرقية معظمها حميد. والمطلوب إنك تعرفين متى تسحبين عينة ومتى تشيلين الغدة.
+> h: الخطوات
+> box: ★ اكتشفتي nodule :: اطلبي TSH أول ثم Ultrasound ;; ★ nodule فيه جزء solid وجزء cystic :: FNA من الجزء الـsolid (السائل لحاله ما يشخص) ;; نتيجة FNA :: Bethesda
+> two: Bethesda IV (Follicular neoplasm) :: ما ينشخص بالـFNA لأن السرطان الجريبي يتأكد من الـhistology (غزو الكبسولة). لهذا الجواب Lobectomy ;; Calcitonin + CEA عاليين :: Medullary carcinoma ← افحصي MEN2 قبل الجراحة
+> h: بعد استئصال الغدة
+> box: ★ تنميل حول الفم + Chvostek + Trousseau :: Hypocalcemia (لأن جارات الدرقية تضررت) ;; "Next step" :: Calcium ;; "Most diagnostic test" :: PTH ;; ما استجاب للـcalcium :: Magnesium
+> h: كتلة بالرقبة بالنص
+> box: ★ كتلة بنص الرقبة + تتحرك مع البلع ومع إخراج اللسان :: Thyroglossal duct cyst ← Sistrunk (surgery)
+> sum: يعني باختصار: TSH + Ultrasound ← FNA من الـsolid. Bethesda IV = Lobectomy.
