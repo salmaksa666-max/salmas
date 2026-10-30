@@ -30,25 +30,50 @@ def by_unit(cut, small, big):
     return lambda v: small if v is None or v < cut else big
 
 
-CATS = ["Vitals", "CBC", "Glucose & endocrine", "Electrolytes & renal", "ABG", "Lipids", "Liver & pancreas", "Cardiac"]
+CATS = ["Vitals", "CBC", "Coagulation", "Glucose & endocrine", "Electrolytes & renal", "ABG", "Lipids", "Liver & pancreas",
+        "Cardiac", "Immunology & other"]
 # (label regex, shown name, category, range picker)
 LABS = [
     (r"\bBP\b|blood pressure", "BP", "Vitals", lambda v: rng(None, None, "<120/80 · HTN ≥130/80 (AHA) or ≥140/90 (JNC)")),
     (r"\bHR\b|heart rate|pulse", "HR", "Vitals", lambda v: rng(60, 100, "60–100 /min")),
     (r"\bRR\b|resp\w* rate", "RR", "Vitals", lambda v: rng(12, 20, "12–20 /min")),
     (r"\btemp\w*", "Temp", "Vitals", lambda v: rng(36.1, 37.5, "36.1–37.5 °C")),
-    (r"SpO2|O2 sat\w*|saturation", "SpO2", "Vitals", lambda v: rng(95, 100, "95–100%")),
+    (r"SpO2|O2 sat\w*|oxygen sat\w*|saturation", "SpO2", "Vitals", lambda v: rng(95, 100, "95–100%")),
     (r"\bBMI\b", "BMI", "Vitals", lambda v: rng(18.5, 24.9, "18.5–24.9 · obese ≥30")),
     (r"waist circumference", "Waist", "Vitals", lambda v: rng(None, 102, "men <102 · women <88 cm")),
     (r"hip circumference", "Hip", "Vitals", lambda v: rng(None, None, "waist:hip ratio — men <0.9 · women <0.85")),
     (r"\bheight\b", "Height", "Vitals", lambda v: rng(None, None, "percentile")),
     (r"\bweight\b", "Weight", "Vitals", lambda v: rng(None, None, "percentile")),
-    (r"\bRBCs?\b", "RBC", "CBC", lambda v: rng(4.2, 5.9, "4.2–5.9 ×10¹²/L")),
+    (r"PA pressure|pulmonary artery pressure", "PA pressure", "Cardiac", lambda v: rng(None, 25, "mean <20–25 mmHg (pulmonary HTN above)")),
+    (r"\bRDW\b", "RDW", "CBC", lambda v: rng(11.5, 14.5, "11.5–14.5%")),
+    (r"retic\w*", "Reticulocytes", "CBC", lambda v: rng(0.5, 2.5, "0.5–2.5%")),
+    (r"haptoglobin", "Haptoglobin", "CBC", lambda v: rng(0.3, 2.0, "0.3–2.0 g/L (low = hemolysis)")),
+    (r"\bLDH\b", "LDH", "CBC", lambda v: rng(None, 250, "140–250 U/L")),
+    (r"ferritin", "Ferritin", "CBC", lambda v: rng(30, 300, "30–300 ng/mL (<30 = iron deficiency)")),
+    (r"eosinophil\w*(?: count)?", "Eosinophils", "CBC", lambda v: rng(None, 5, "1–5%")),
+    (r"neutrophil\w*|\bANC\b", "Neutrophils", "CBC", lambda v: rng(1.5, 7.5, "1.5–7.5 ×10⁹/L (neutropenia <1.5)")),
+    (r"\bINR\b", "INR", "Coagulation", lambda v: rng(0.8, 1.2, "0.8–1.2 · on warfarin 2–3 (2.5–3.5 mechanical mitral)")),
+    (r"\baPTT\b|\bPTT\b", "aPTT", "Coagulation", lambda v: rng(25, 35, "25–35 s")),
+    (r"\bPT\b", "PT", "Coagulation", lambda v: rng(11, 13.5, "11–13.5 s")),
+    (r"bleeding time", "Bleeding time", "Coagulation", lambda v: rng(2, 7, "2–7 min")),
+    (r"fibrinogen", "Fibrinogen", "Coagulation", lambda v: rng(2, 4, "2–4 g/L")),
+    (r"uric acid", "Uric acid", "Electrolytes & renal", by_unit(20, rng(3.5, 7, "3.5–7 mg/dL"), rng(200, 420, "200–420 µmol/L"))),
+    (r"phosph\w*", "Phosphate", "Electrolytes & renal", by_unit(3, rng(0.8, 1.5, "0.8–1.5 mmol/L"), rng(2.5, 4.5, "2.5–4.5 mg/dL"))),
+    (r"\bMg\b|magnesium", "Mg", "Electrolytes & renal", lambda v: rng(0.7, 1.0, "0.7–1.0 mmol/L")),
+    (r"\bCrCl\b|creatinine clearance", "CrCl", "Electrolytes & renal", lambda v: rng(90, None, ">90 mL/min · <30 = dose-adjust LMWH")),
+    (r"urine protein|proteinuria", "Proteinuria", "Electrolytes & renal", lambda v: rng(None, 0.15, "<0.15 g/24h · nephrotic >3.5 g/24h")),
+    (r"urine pH", "Urine pH", "Electrolytes & renal", lambda v: rng(4.5, 8, "4.5–8 (≥6.5 = alkaline)")),
+    (r"\bESR\b", "ESR", "Immunology & other", lambda v: rng(None, 20, "<20 mm/hr (Kocher: >40)")),
+    (r"\bCRP\b", "CRP", "Immunology & other", lambda v: rng(None, 10, "<10 mg/L")),
+    (r"\bANA(?: titer)?", "ANA", "Immunology & other", lambda v: rng(None, None, "<1:80")),
+    (r"\bRF\b|rheumatoid factor", "RF", "Immunology & other", lambda v: rng(None, 14, "<14 IU/mL")),
+    (r"\bTSH\b", "TSH", "Glucose & endocrine", lambda v: rng(0.4, 4.0, "0.4–4.0 mIU/L")),
+    (r"\bRBCs?\b|erythrocytes", "RBC", "CBC", lambda v: rng(4.2, 5.9, "4.2–5.9 ×10¹²/L")),
     (r"\bHb\b|\bHgb\b|ha?emoglobin", "Hb", "CBC", by_unit(25, rng(12, 17, "women 12–16 · men 13–17 g/dL"), rng(120, 170, "women 120–160 · men 130–170 g/L"))),
     (r"\bMCV\b", "MCV", "CBC", lambda v: rng(80, 100, "80–100 fL")),
     (r"\bMCH\b", "MCH", "CBC", lambda v: rng(27, 33, "27–33 pg")),
-    (r"platelets?|\bPLTs?\b", "Platelets", "CBC", lambda v: rng(150, 400, "150–400 ×10⁹/L")),
-    (r"\bWBCs?\b", "WBC", "CBC", lambda v: rng(4, 11, "4–11 ×10⁹/L")),
+    (r"platelets?(?: count)?|\bPLTs?\b", "Platelets", "CBC", by_unit(1000, rng(150, 400, "150–400 ×10⁹/L"), rng(150000, 400000, "150,000–400,000 /µL"))),
+    (r"\bWBCs?\b", "WBC", "CBC", by_unit(200, rng(4, 11, "4–11 ×10⁹/L"), rng(4000, 11000, "4,000–11,000 /µL"))),
     (r"fasting (?:blood )?glucose|\bFBS\b|\bFBG\b", "Fasting glucose", "Glucose & endocrine",
      by_unit(30, rng(3.9, 5.5, "3.9–5.5 mmol/L · pre-DM 5.6–6.9 · DM ≥7.0"), rng(70, 100, "70–100 mg/dL · DM ≥126"))),
     (r"random (?:blood )?glucose|\bRBS\b|\bRBG\b", "Random glucose", "Glucose & endocrine",
@@ -69,7 +94,7 @@ LABS = [
     (r"\burea\b|\bBUN\b", "Urea", "Electrolytes & renal", lambda v: rng(2.5, 7.5, "2.5–7.5 mmol/L")),
     (r"creatinine|\bCr\b", "Creatinine", "Electrolytes & renal", by_unit(20, rng(0.6, 1.2, "0.6–1.2 mg/dL"), rng(60, 110, "60–110 µmol/L"))),
     (r"e?GFR", "eGFR", "Electrolytes & renal", lambda v: rng(90, None, ">90 · CKD3 30–59 · CKD4 15–29")),
-    (r"\bpH\b", "pH", "ABG", lambda v: rng(7.35, 7.45, "7.35–7.45")),
+    (r"(?:blood )?\bpH\b", "pH", "ABG", lambda v: rng(7.35, 7.45, "7.35–7.45")),
     (r"PCO2|PaCO2", "PCO2", "ABG", lambda v: rng(35, 45, "35–45 mmHg")),
     (r"\bPO2|PaO2", "PO2", "ABG", lambda v: rng(80, 100, "80–100 mmHg")),
     (r"\bLDL\b", "LDL", "Lipids", by_unit(20, rng(None, 3.0, "<3.0 mmol/L · target <2.5, <2.0 if ASCVD · ≥4.9 = high statin"), rng(None, 116, "<116 mg/dL · target <100, <70 if ASCVD · ≥190 = high statin"))),
@@ -84,14 +109,22 @@ LABS = [
     (r"\bGGT\b", "GGT", "Liver & pancreas", lambda v: rng(None, 50, "<50 U/L")),
     (r"globulin", "Globulin", "Liver & pancreas", lambda v: rng(20, 35, "20–35 g/L")),
     (r"amylase", "Amylase", "Liver & pancreas", lambda v: rng(30, 110, "30–110 U/L · pancreatitis >3× upper limit")),
-    (r"\bANA\b", "ANA", "Liver & pancreas", lambda v: rng(None, None, "<1:80")),
     (r"troponin", "Troponin", "Cardiac", lambda v: rng(None, None, "below the lab's 99th-percentile cut-off")),
     (r"CK-?MB", "CK-MB", "Cardiac", lambda v: rng(None, 5, "<5 ng/mL")),
     (r"\bEF\b|ejection fraction", "EF", "Cardiac", lambda v: rng(55, 70, "55–70% · HFrEF ≤40%")),
     (r"valve gradient|gradient", "Aortic valve gradient", "Cardiac", lambda v: rng(None, 40, "severe AS: mean ≥40 mmHg · very severe ≥60")),
     (r"ASCVD risk|risk of", "10-yr ASCVD risk", "Cardiac", lambda v: rng(None, None, "<5% low · 5–7.4 borderline · 7.5–19.9 intermediate · ≥20 high")),
 ]
+RAW = LABS
 LABS = [(re.compile(rf"(?:{p})\s*[:=(~]*\s*$", re.I), name, cat, fn) for p, name, cat, fn in LABS]
+UNIT = r"(?:%|mmol/L|µmol/L|umol/L|mg/dL|g/dL|g/L|mEq/L|mmHg|mL/min|mIU/L|IU/mL|x ?10\^?9/L|×10⁹/L|/min|°C|ng/mL|U/L|IU/L|fL|pg|mm/hr|g/24 ?h\w*|cm|kg|sec|s(?![a-z]))"
+LEAD = r"(?:\s|:|=|\(|is|was|now|still|of|level|count|titer|at|~|≈|about|around|only|initially|negative|positive|elevated|high|low|lower|higher|this time|significantly)*"
+VALUE = re.compile(rf"{LEAD}(?P<v>1:\d[\d,]*|[<>≤≥~≈]?\s?\d[\d.,]*\+*(?:\s?[–-]\s?\d[\d.,]*)?(?:\s?/\s?\d{{2,3}}(?:[–-]\d{{2,3}})?)?(?:\s?{UNIT})?)", re.I)
+SRC_AFTER = re.compile(r"\s*[(\[]\s*(?:[a-z ,]*?\b(?:normal|nl|N|ref\w*)\b[a-z ]*[:=]?\s*(?P<r>[<>≤≥~]?\s?\d[^)\]]{0,25})"
+                       r"|(?P<r2>[<>≤≥]?\s?\d[\d.,]*\s?[–-]\s?\d[\d.,]*\s?[^\s)\]]{0,10}))\s*[)\]]", re.I)  # "(normal 3.5–5.0)" or "[130-170 g/L]"
+ARROW = re.compile(r"\s*(?:\([^)]{0,20}\))?\s*(?:→|->)\s*(?P<v>[<>~]?\d[\d.,]*\s?[a-zµ/%]*)", re.I)  # "60 (1 week ago) → 160"
+URINE_LINE = re.compile(r"\burin(?:e|alysis)\s*:|\burine\b[^,.;]{0,12}$", re.I)
+ANY_LABEL = re.compile("|".join(f"(?P<g{i}>(?<![A-Za-z0-9])(?:{p})(?![A-Za-z]))" for i, (p, *_) in enumerate(RAW)), re.I)
 SRC_RANGE = re.compile(r"(?:normal|nl|reference|ref|normal range)\s*[:=]?\s*$", re.I)
 CHILD = re.compile(r"\b(\d{1,2})[- ]?(?:year|yr|y\.?o)|month|infant|newborn|neonate|toddler|\bboy\b|\bgirl\b|child", re.I)
 SPAN = re.compile(r'<span class="refrange">(.*?)</span>', re.S)
@@ -116,7 +149,7 @@ def flag(name, val, r):
             return ""
         s, d = int(m.group(1)), int(m.group(2))
         return "↑" if s >= 130 or d >= 80 else ("↓" if s < 90 or d < 60 else "✓")
-    v = first_num(val)
+    v = first_num(val.split("→")[-1])
     if v is None or (r["lo"] is None and r["hi"] is None):
         return ""
     if r["hi"] is not None and v > r["hi"]:
@@ -127,36 +160,40 @@ def flag(name, val, r):
 
 
 FILLER = re.compile(r"(?:\s*(?:\(|\)|:|,|is|was|now|this time|lower|higher|negative|positive|elevated|high|low|level|count|of|about|around|only|significantly|≈|~))+\s*$", re.I)
-URINE = {"Na": "<20 = volume depletion (prerenal)", "K": "<20 = GI loss · >20–30 = renal loss",
+URINE = {"RBC": "<3 /HPF", "Na": "<20 = volume depletion (prerenal)", "K": "<20 = GI loss · >20–30 = renal loss",
          "Cl": "<15–20 = saline-responsive (vomiting / NG suction)"}
 
 
 def rows_of(q):
-    rows, last_end, urine = [], 0, False
-    for m in SPAN.finditer(q):
-        seg = q[last_end:m.start()]
-        before = plain(seg)
-        last_end = m.end()
-        if re.search(r"urine\s*:", before, re.I):
-            urine = True  # a "Urine: Na …, K …, Cl …" line
-        elif "<br" in seg or re.search(r"serum\s*:", before, re.I):
-            urine = False
-        val = plain(m.group(1))
-        if rows and SRC_RANGE.search(before[-25:]):
-            rows[-1]["src"] = val  # the question gives its own normal range for the value before
-            continue
-        tail = before[-40:]
-        for t in (tail, FILLER.sub("", tail)):
-            hit = next(((name, cat, fn) for rx, name, cat, fn in LABS if rx.search(t)), None)
-            if hit:
-                break
-        if hit:
-            name, cat, fn = hit
-            r = fn(first_num(val))
-            if urine and name in URINE:
-                name, r = "Urine " + name, rng(None, None, URINE[name])
-            if not any(x["name"] == name and x["val"] == val for x in rows):  # the same value quoted twice
-                rows.append(dict(name=name, cat=cat, val=val, r=r, src=None))
+    """find "LABEL value" pairs in the question text (highlighted or not), in reading order"""
+    t = plain(re.sub(r"<br\s*/?>", " ¶ ", q))
+    rows, pos = [], 0
+    while True:
+        m = ANY_LABEL.search(t, pos)
+        if not m:
+            break
+        pos = m.end()
+        i = int(next(k for k, v in m.groupdict().items() if v)[1:])
+        v = VALUE.match(t, m.end())
+        if not v or len(v.group(0)) - len(v.group("v")) > 22:
+            continue  # label without a number right after it
+        val = v.group("v").strip().rstrip(".,")
+        pos = v.end()
+        a = ARROW.match(t, pos)
+        if a:  # keep the trend, the arrow uses the latest number
+            val += " → " + a.group("v").strip().rstrip(".,")
+            pos = a.end()
+        _, name, cat, fn = RAW[i]
+        r = fn(first_num(val))
+        line = t[t.rfind("¶", 0, m.start()) + 1:m.start()]
+        if URINE_LINE.search(line) and name in URINE:
+            name, r = "Urine " + name, rng(None, None, URINE[name])
+        if name == "WBC" and re.search(r"arthrocentesis|synovial|joint fluid|aspirat", line, re.I):
+            name, r = "Synovial WBC", rng(None, None, "<200 normal · 2,000–50,000 inflammatory · >50,000 septic")
+        sa = SRC_AFTER.match(t, pos)
+        src = (sa.group("r") or sa.group("r2")).strip() if sa else None
+        if not any(x["name"] == name and x["val"] == val for x in rows):  # the same value quoted twice
+            rows.append(dict(name=name, cat=cat, val=val, r=r, src=src))
     return sorted(rows, key=lambda r: CATS.index(r["cat"]))  # stable: keeps the question's order inside a group
 
 
@@ -206,9 +243,14 @@ def main():
         if not rows:
             skipped += 1 if SPAN.search(q) else 0
             continue
+        if len(rows) == 1 and not SPAN.search(q) and rows[0]["cat"] == "Vitals" and rows[0]["name"] in ("Weight", "Height"):
+            continue
         child = bool(CHILD.search(plain(q))) and not re.search(r"\b(1[89]|[2-9]\d)[- ]?(?:year|yr)", plain(q))
         for r in rows:  # adult cut-offs would mislabel a child's vitals, so no arrow there
-            r["flag"] = "" if r["src"] or (child and r["cat"] == "Vitals" and r["name"] != "BMI") else flag(r["name"], r["val"], r["r"])
+            if r["src"]:  # judge against the range the question itself gives
+                m = re.match(r"\s*(?:(?P<lt><)\s*(?P<u>\d[\d.]*)|(?P<a>\d[\d.]*)\s*[–-]\s*(?P<b>\d[\d.]*))", r["src"])
+                r["r"] = rng(float(m["a"]) if m and m["a"] else None, float(m["b"] or m["u"]) if m and (m["b"] or m["u"]) else None, "")
+            r["flag"] = "" if (r["src"] and r["r"]["lo"] is None and r["r"]["hi"] is None) or (child and r["cat"] == "Vitals" and r["name"] != "BMI") else flag(r["name"], r["val"], r["r"])
         tbl = table(rows, child)
         cut = q.rfind("<br/><br/>")
         f[1] = (q[:cut] + tbl + q[cut:]) if cut > 0 else q + tbl
