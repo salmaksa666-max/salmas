@@ -1,26 +1,56 @@
-@ 1 | Anemia: كيف أعرف النوع؟ (Microcytic)
-> p: أول سؤال بأي أنيميا: الـMCV صغير ولا طبيعي ولا كبير؟ والـretics عالية (الجسم يكسر الدم) ولا واطية (ما يصنع)؟
-> h: Iron deficiency anemia
-> list: ★ طفل يشرب حليب بقر كثير + بسكويت + ما ياكل لحم ← IDA ;; ★ ياكل تراب أو طباشير (pica) + microcytic + ferritin واطي ← Pica مع IDA ;; ★ أدق تحليل وتأكيد واحد ← Low ferritin ;; RDW عالي + platelets عالية ;; ★ العلاج ← Oral iron + تعديل الأكل ;; ★ رضيع ما زال حديده ناقص رغم الأكل ← Iron supplements
-> h: Thalassemia
-> list: ★ شحوب من الصغر + طحال كبير + MCV واطي + RBC طبيعي أو عالي + target cells ← Beta thalassemia ;; ★ رضيع + nucleated RBCs + target cells + كبد وطحال ← Beta thalassemia major ;; ★ Frontal bossing + عظم الفك كبير ← اطلبي Hemoglobin (electrophoresis) ;; ★ مولود مات بـhydrops fetalis ← Alpha thalassemia ;; RDW طبيعي يفرقها عن IDA
-> h: Lead poisoning
-> list: ★ Basophilic stippling + target cells ← Lead ;; ★ Pica + فقر + مستواه بالمدرسة نازل + dense metaphyseal bands بالأشعة ← Blood lead level ;; ★ العلاج (من خيارات السؤال) ← D-penicillamine. ○ الشديد ← Succimer أو EDTA
-> h: CKD وأنيميا
-> list: ★ CKD stage 2 + تعب وشحوب ← Serum iron studies أول ;; ★ أدق تشخيص للسبب ← Bone marrow (بس قليل نحتاجه)
-> sum: يعني باختصار: حليب بقر = IDA = ferritin. Target cells + RDW طبيعي = thalassemia. Stippling = lead.
+@ 1 | Anemia: الحجم أول (MCV) والـHemolysis
+> p: قبل أي شي بالدم اسألي: الكرية صغيرة ولا طبيعية ولا كبيرة؟ بعدها طبقي الفروقات.
+> h: صغيرة (Microcytic)
+> list: IDA ;; Thalassemia ;; Anemia of chronic disease (أحيانًا) ;; Lead poisoning (أحيانًا)
+> h: طبيعية (Normocytic)
+> list: Anemia of chronic disease ;; Lead ;; Hemolysis ;; Aplastic anemia
+> h: كبيرة (Macrocytic)
+> two: B12 :: فيه أعراض أعصاب (subacute combined degeneration) ;; Folate :: ما فيه أعراض أعصاب
+> h: كيف أفرقهم؟
+> list: ★ IDA ← pica + RDW عالي (أكثر من 14) ;; ★ Thalassemia trait ← RBC عالي (الأنيميا الوحيدة) + RDW طبيعي + HbA2 عالي ;; Lead ← بيت قديم (بوية) + basophilic stippling + ألم بطن + أعراض أعصاب ;; ACD ← مرض مزمن (RA، SLE) + ferritin عالي + retics واطية
+> h: علامات الـHemolysis (احفظيها مع بعض)
+> list: Retics عالية ;; LDH عالي ;; Haptoglobin واطي ;; Indirect bilirubin عالي ;; ★ Ferritin عالي بمريض SLE ما يعني ACD (acute phase). الـhaptoglobin والـLDH والـretics هم اللي يحكمون
+> two: Extravascular (الطحال) :: البول طبيعي ;; Intravascular (داخل الأوعية) :: بول غامق + dipstick دم positive بدون RBC
+> h: Aplastic anemia
+> list: عكس الـhemolysis: Retics واطية ;; ممكن خط واحد أو كل الخطوط (pancytopenia) ;; خطين ناقصين ← Bone marrow examination
+> sum: يعني باختصار: RDW عالي = IDA. RBC عالي = thalassemia. أعصاب = B12. Retics عالية = hemolysis.
 
-@ 2 | Anemia: Hemolysis و Sickle cell و G6PD
-> h: علامات الـhemolysis
-> list: Retics عالية + haptoglobin واطي + LDH عالي + indirect bilirubin عالي ;; ★ مريض SLE + هالنمط ← Hemolytic anemia
-> h: أي نوع hemolysis؟
-> list: ★ Direct + indirect Coombs positive ← AIHA ;; ★ بدون صفار وبدون أدوية أو عدوى ← AIHA ;; ★ نفس التحاليل + صفار + حصى مرارة ← Hereditary spherocytosis ;; ★ مولود صفار أول 12 ساعة + smear spherocytes ← Osmotic fragility test ;; ★ تعب بعد الأكل + صفار + indirect bilirubin (فول أو أدوية) ← G6PD deficiency
-> h: Mycoplasma والأدوية
-> list: ★ اليوم 3 من الـantibiotic + hemolysis ← Drug-induced ← Stop antibiotics ;; بعد أسابيع من Mycoplasma ← Cold agglutinins ;; ★ Platelets نزلت بعد ceftriaxone ← Ceftriaxone
-> h: Sickle cell disease
-> list: ★ رضيع 6–18 شهر + dactylitis (تورم الأصابع) أو أنيميا + retics عالية ← Hb electrophoresis ;; ★ Electrophoresis: المرض ما فيه HbA ;; ★ Acute chest syndrome (حرارة + hypoxia + infiltrate جديد) ← Exchange transfusion + antibiotics ;; ★ حصى مرارة ← Chronic hemolysis
-> h: الاستشارة الوراثية
-> list: ★ زوجين أقارب وأخت الزوج عندها SCD ← Genetic counseling قبل الحمل ;; ★ الأب trait والأم ما فيها تاريخ ← خطر بسيط، وصفر لو الأم طلعت سلبية
-> h: Splenectomy
-> list: ★ يشفي: Spherocytosis ;; ★ "most commonly cured": ITP (حسب المصدر)
-> sum: يعني باختصار: Coombs + = AIHA. صفار + حصى = spherocytosis. Dactylitis = electrophoresis.
+@ 2 | Platelets: TTP و HUS و DIC و ITP
+> h: ليش الـplatelets ناقصة؟ (الطبيعي 150–450)
+> list: ما تنصنع (marrow: سرطان، chemo، cirrhosis، dengue) ← platelets صغيرة ;; تتكسر (ITP، TTP، HUS، DIC) ← platelets كبيرة ;; شغلها خربان (vWD) ← العدد طبيعي والـbleeding time طويل
+> note: مشاكل الـplatelets ما تطول PT ولا PTT. لو طالت، المشكلة بعوامل التخثر.
+> h: HUS
+> list: ★ طفل أقل من 5 + إسهال بدم (لحم غير مطبوخ، E. coli O157:H7) + أنيميا + platelets واطية + AKI ;; Schistocytes + PT و PTT طبيعي ;; ★ التأكيد ← Stool culture (مو blood culture) ;; العلاج: Supportive، بدون antibiotics
+> h: TTP
+> list: ★ Pentad: حرارة + confusion + أنيميا + platelets واطية + AKI ;; امرأة 20–40 بدون إسهال ;; ★ Next ← Blood film for schistocytes ;; العلاج: Plasmapheresis
+> h: DIC
+> list: نزيف من كل مكان + platelets واطية + PT و PTT طويلين + fibrinogen واطي ;; أسباب: abruption، fat embolism، NEC، سرطان ;; ★ العلاج: FFP ثم cryo ثم platelets (Preterm DIC ← FFP + platelets)
+> h: ITP
+> two: Acute (أطفال) :: بعد زكام بأسابيع. غالبًا يروح لحاله ← ما يحتاج علاج إلا لو نزيف شديد ;; Chronic (كبار) :: IVIG + steroid. Platelets لو أقل من 20,000
+> list: ★ ITP = platelets بس. لو Hb أو WBC نازلين ← فكري بشي ثاني ;; ★ تشخيص سريري: CBC ± film ;; HSP: طفح بالأرداف + platelets طبيعية
+> sum: يعني باختصار: إسهال بدم = HUS = stool culture. حرارة + confusion = TTP = plasmapheresis. PT/PTT طويلة = DIC.
+
+@ 3 | التخثر: العوامل والـAntidotes ومنتجات الدم
+> h: جدول PT و PTT و Bleeding time
+> list: Hemophilia (VIII أو IX) ← PTT بس طويل ;; vWD ← Bleeding time بس طويل. الأم والولد مصابين (autosomal) ;; Vitamin K أو factor X ← PT و PTT طويلين ;; Factor XIII ← كله طبيعي، بس الجلطة تتفكك (السرة تتأخر)
+> h: الـAntidotes بالترتيب
+> list: DIC ← FFP ثم Cryo ثم Platelets ;; Thrombocytopenia بس ← Platelets ;; ★ Warfarin ← PCC ثم FFP ثم Cryo ثم Factor VII، ومعهم Vitamin K ;; Heparin ← Protamine ;; Apixaban ← Andexanet alfa ثم PCC ;; Dabigatran ← Idarucizumab
+> note: أي نزيف (بالمخ أو بالإصبع الصغير): ضبط الـcoagulopathy أول أولوية. Vitamin K يتأخر، فالـPCC أسرع.
+> h: منتجات الدم للنزيف
+> box: RBC transfusion :: Hb أقل من 7 (أو أقل من 9 مع مرض قلب) أو ضغط واطي مهما كان الـHb ;; FFP و Cryo :: Coagulopathy: DIC، cirrhosis، warfarin ;; Platelets :: أقل من 20,000 أو نقص + نزيف شديد
+> list: ★ Warfarin + نزيف + shock ← PCC (مو سوائل أو دم بس) ;; ★ Cirrhosis + INR 2 + عملية ← FFP ;; ★ Abruption + coagulopathy بعد 4 وحدات دم ← Cryoprecipitate ;; ★ ITP + نزيف بعد الولادة ← Platelet concentrate
+> sum: يعني باختصار: Warfarin = PCC. Heparin = protamine. Dabigatran = idarucizumab. DIC = FFP.
+
+@ 4 | الجلطات: الأدوية والـThrombolysis
+> h: Arterial ولا Venous؟
+> two: Arterial (plaque) :: MI، stroke، limb ischemia ← Antiplatelets ;; Venous (stasis) :: DVT، PE، AF ← Anticoagulation
+> note: AF و ventricular aneurysm تعتبر venous. Stroke بدون سبب مذكور ← اعتبريه arterial.
+> h: أي مميع؟
+> list: الأساس DOAC (apixaban، rivaroxaban، dabigatran) ما تحتاج bridging ;; Warfarin يحتاج bridging بالـheparin، ما يعالج لحاله بالحاد ;; Warfarin بدل DOAC في 4: valvular AF (metallic valve أو MS متوسط لشديد)، metallic valve، APS، GFR أقل من 15 ;; Mitral regurgitation و aortic ← DOAC عادي ;; Heparin للحاد، وبالحمل للمدى الطويل ;; HIT ← Argatroban
+> h: DAPT (حبتين antiplatelet)
+> list: الأساس حبة وحدة، إلا: ;; MI ← DAPT ثم حبة طول العمر ;; بعد PCI ← DAPT 6–12 شهر ;; Stroke بسيط أو TIA ← DAPT 3–4 أسابيع بس
+> h: tPA: متى؟
+> list: Ischemic stroke خلال 4.5 ساعة ;; STEMI لو PCI مو موجود (خلال 12 ساعة) ;; Massive PE (مع ضغط واطي) ;; Limb ischemia من thrombosis ← tPA موضعي بالقسطرة. من embolus ← Embolectomy ;; لا tPA بالـNSTEMI
+> h: موانع الـtPA والضغط
+> list: Hemorrhagic stroke بأي وقت ;; Ischemic stroke خلال 3 شهور ;; عملية أو حادث قريب ;; Aortic dissection ;; الضغط: tPA مخطط ← نزله لو أكثر من 185/110. بدون tPA ← لو أكثر من 220/120. Hemorrhagic ← دايمًا (SBP 140–160)
+> sum: يعني باختصار: شريان = antiplatelet. وريد = مميع. DOAC أول إلا الـ4 استثناءات = warfarin.

@@ -1,39 +1,32 @@
-@ 3 | Platelets: TTP و HUS و ITP و HIT
-> h: TTP و HUS (schistocytes)
-> list: ★ حرارة + confusion + أنيميا + platelets واطية + كلية ← أول خطوة: Blood film for schistocytes ;; ★ طفل + إسهال بدم بعد لحم غير مطبوخ + أنيميا + platelets واطية + كرياتينين عالي ← HUS ← Stool culture ;; PT و PTT طبيعيين (يفرقها عن DIC)
-> h: ITP عند الطفل
-> list: ★ كدمات و petechiae بعد زكام بأسبوعين + platelets بس واطية (Hb و WBC طبيعي) ← ITP ;; ★ تشخيص سريري: CBC + Blood film ;; ★ Bone marrow ما يأكد ITP ;; ★ أخوه نفس الشي ← Blood film (ممكن Wiskott-Aldrich أو وراثي)
-> h: لو خطين من الدم ناقصين
-> two: Evans syndrome :: Hb ↓ + platelets ↓ + Coombs positive + retics عالية + bilirubin عالي ;; ALL :: Hb ↓ + platelets ↓ + retics واطية + كبد وطحال ← Bone marrow
-> list: ★ Platelets و Hb واطيين بعد زكام ← Bone marrow (عشان نستبعد ALL)
-> h: HIT (بعد heparin)
-> list: ★ بعد 5–10 أيام من heparin + platelets تنزل + جلطة ← HIT ;; ★ أول شي ← Stop heparin ;; ★ بعدها ← Argatroban (أو lepirudin) ;; ★ SCD أخذ enoxaparin + platelets 80 ← HIT ;; ★ ما أخذ heparin ← المصدر جوابه TTP
-> h: الحمل والمواليد
-> list: ★ أم ITP + نزيف بعد الولادة ← Platelet concentrate ;; ★ مولود platelets واطية والأم platelets طبيعية ← Alloimmune thrombocytopenia ;; ★ أمها SLE + نزيف من السرة + platelets 18,000 ← Platelet transfusion + IVIG (المصدر سماها alloimmune)
-> sum: يعني باختصار: Schistocytes = TTP/HUS. ITP = CBC + film. Heparin + platelets ↓ = وقفي heparin ثم argatroban.
-
-@ 4 | النزيف عند المولود والأطفال: Vitamin K و Hemophilia و vWD
-> h: اقرئي التحاليل
-> box: PT و PTT طويلين + platelets طبيعية :: Vitamin K deficiency ;; PTT بس طويل :: Hemophilia (VIII أو IX) ;; كل التحاليل طبيعية + نزيف من السرة + تأخر سقوط السرة :: Factor XIII deficiency ;; Platelets بس واطية :: ITP أو alloimmune
-> h: Vitamin K deficiency
-> list: ★ نزيف من السرة + PT و aPTT طويلين ← Vitamin K deficiency ;; ★ أمه على phenytoin + نزيف يوم 5 ← Vitamin K deficiency bleeding
-> h: Hemophilia
-> list: ★ ولد + نزيف بالمفاصل (hemarthrosis) + PTT طويل + PT طبيعي ← Factor VIII ;; ★ خاله (أخو أمه) عنده نزيف ← Hemophilia A (X-linked) ;; ★ العلاج ← Factor VIII ;; ★ نزيف بعد الختان + aPTT 70 ← أول شي Pressure dressing ;; ★ PTT ما يتصحح بالـmixing study ← Acquired (antibodies)
-> h: Von Willebrand
-> list: ★ أمه وأخوه عندهم نزيف (يصيب الجنسين) ← vWD (autosomal) ;; Bleeding time طويل + PTT ممكن طويل
+@ 5 | RBC A: Sickle cell و Hemolysis بالأدوية و IDA
+> h: Smear يحدد الفحص
+> box: Sickle cells :: Hb electrophoresis (أو HPLC) ;; Spherocytes :: Coombs test ;; Coombs negative :: Hereditary spherocytosis ← Osmotic fragility (أو EMA) ;; Coombs positive :: AIHA ← steroids
+> h: Sickle cell
+> list: ★ المرض (HbSS): ما فيه HbA، HbF عالي ;; Trait: HbA + HbS ;; ★ الأعراض تبدأ 6–18 شهر (HbF ينزل) ← dactylitis ← electrophoresis ;; ★ Acute chest syndrome ← Exchange transfusion + antibiotics ;; Hydroxyurea ← يمنع النوبات الجاية، مو للنوبة الحادة ;; ★ حصى مرارة ← Chronic hemolysis
+> h: Mycoplasma: متى صارت الـhemolysis؟
+> two: بدري (اليوم 1–3) :: من الدواء (ceftriaxone) ← Stop antibiotic ;; متأخر (بعد 10 أيام) :: Cold agglutinin ← خفيف
+> list: Vancomycin يسبب platelets واطية بس، مو hemolysis
+> h: IDA عند الطفل
+> list: ★ Pica ← IDA ;; ★ حليب بقر كثير + بسكويت ← IDA ;; ★ العلاج: Oral iron + الأكل. IV بس لو ما يمتص أو ما يتحمل ;; ★ ما تحسن بالأكل بعمر 9 شهور ← Iron supplements ;; نقل دم بس لو Hb أقل من 5 أو خطر على الحياة (حتى Hb 6.2 مع حليب البقر ← حديد بالفم)
+> h: IDA ولا Thalassemia؟
+> two: IDA :: RDW أكثر من 14، ferritin واطي، RBC طبيعي أو واطي ;; Thalassemia trait :: RDW أقل من 14، ferritin طبيعي، RBC عالي
+> list: Target cells بالاثنين. Nucleated RBCs ← thalassemia major
 > h: حالات ثانية
-> list: ★ نزيف بعد ختان + PT و aPTT طويلين جدًا ← Blood transfusion (حسب المصدر) ;; ★ مولود بعد vacuum + ورم يتعدى الـsutures + ضغط واطي + Hb واطي ← Subgaleal hemorrhage ← Blood transfusion + سوائل ;; ★ Preterm + DIC ← FFP + platelets
-> sum: يعني باختصار: PT + PTT = vitamin K. PTT بس = hemophilia. الكل طبيعي + السرة = factor XIII.
+> list: ★ Frontal bossing + فك كبير + كبد وطحال ← Thalassemia (hemoglobin) ;; ★ Lead: stippling ممكن normocytic ;; ★ AIHA ولا spherocytosis؟ Coombs + = AIHA. حصى + Coombs − = spherocytosis ;; ★ يتعب بعد الأكل (فول/فلافل) ← G6PD
+> sum: يعني باختصار: Sickle = electrophoresis. Spherocytes = Coombs. يوم 3 من دواء = وقفيه.
 
-@ 5 | التخثر: الـWarfarin والـDVT والـPE ونقل الدم
-> h: نزيف على warfarin
-> list: ★ نزيف + shock + INR عالي ← Prothrombin complex concentrate (PCC) ;; ★ Cirrhosis + INR 2 + عملية طارئة ← FFP ;; ★ نزيف ولادة + coagulopathy واضحة ← Cryoprecipitate ;; ★ INR 4 بعد أعشاب + رعاف ← وقفي الأعشاب وأعيدي INR ;; ★ APS على apixaban ← حولي لـWarfarin
-> h: DVT: نعالج
-> list: ★ مستقر بدون سرطان أو عملية ← DOAC بس ;; ★ بعد عملية ← Enoxaparin ;; ★ CrCl أقل من 30 + BMI أكثر من 40 ← UFH ;; ★ stroke قبل شهرين (ما نقدر نميع) ← IVC filter ;; ★ Unprovoked DVT بعد 3 شهور ← Warfarin طول العمر
-> h: PE
-> list: ★ Massive PE أو RV متوسع + ضغط واطي ← Thrombolysis (alteplase) ;; الوقاية بالطيارة ← تحركي وسوي تمارين
-> h: Antiphospholipid syndrome
-> list: ★ جلطات متكررة + إجهاض متكرر + livedo reticularis ← APS ;; ★ ANA ممكن سلبي ;; ★ التأكيد ← Antiphospholipid antibodies (lupus anticoagulant، anticardiolipin، anti-β2GPI) ;; العلاج ← Warfarin (مو DOAC)
-> h: مضاعفات نقل الدم
-> list: ★ بعد النقل مباشرة: ضيق + SpO2 واطي + ضغط واطي ← TRALI ;; ★ ألم مكان الإبرة + حرارة + ضيق صدر بدقايق ← Hemolytic reaction ;; ★ حرارة ورجفة وقت النقل ← Stop transfusion فورًا ;; ★ طفح واحمرار ← الوقاية: Antihistamine قبل النقل
-> sum: يعني باختصار: Warfarin + نزيف = PCC. Cirrhosis = FFP. APS = warfarin. HIT = argatroban.
+@ 6 | RBC B: TTP و HUS والطحال والـThalassemia و Lead
+> h: TTP و HUS
+> list: ★ TTP pentad ← Blood film for schistocytes ;; ★ HUS ← Stool culture (blood culture ما يفيد) ;; PT و PTT طبيعيين بالاثنين، طويلين بالـDIC
+> h: Splenectomy يشفي مين؟
+> list: ★ Hereditary spherocytosis ← يشفي ;; ★ Chronic ITP ← يشفي ;; Thalassemia ← يخفف بس ;; Sickle cell و G6PD ← لا ;; Acute ITP ← ما يحتاج
+> h: Alpha ولا Beta thalassemia؟
+> list: ★ مولود مات بـhydrops fetalis ← Alpha thalassemia major (Hb Barts) ;; Beta تبين بعد 3–6 شهور (قبلها HbF يغطي) ;; MCV: sickle طبيعي، thalassemia واطي ;; Trait ← RBC عالي. Major ← RBC واطي
+> h: Lead: انتبهي للكلمة
+> list: ★ "Highest-yield" بدون علامات lead ← CBC + smear ;; "Next" ← CBC + smear ممكن ;; ★ "Diagnostic" + metaphyseal bands + فقر ← Blood lead level ;; ★ العلاج: D-penicillamine (chelator، مثل Wilson)
+> h: الاستشارة الوراثية
+> list: ★ أقارب + أخت الزوج SCD ← Genetic counseling قبل الحمل ;; ★ الأب trait والأم ما تنعرف ← خطر بسيط، وصفر لو الأم سلبية
+> h: IDA: أي فحص؟
+> list: ★ Definitive / gold standard ← Bone marrow (نادرًا) ;; ★ Most appropriate (مثل CKD) ← Serum iron studies ;; ★ Most specific / single ← Low ferritin
+> note: Radiation: جرعة 20 Gy + ترجيع وإسهال ← السؤال ما له جواب أكيد بالمصدر (marrow ولا GI).
+> sum: يعني باختصار: Hydrops = alpha. Diagnostic lead = blood lead. Specific IDA = ferritin.

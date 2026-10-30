@@ -1,0 +1,74 @@
+@ 12 | Rheumatology: المفاصل و SLE
+> h: ألم مفاصل اليد: أي مرض؟
+> list: ★ ما فيه جفاف عيون ← Osteoarthritis (Heberden بالـDIP، Bouchard بالـPIP) ;; ★ جفاف عيون + X-ray سليم ← Sjögren ;; ★ جفاف + X-ray فيه تدمير ← Psoriatic ;; ★ MCP + PIP ← RA (ما يجي على DIP) ;; ★ DIP + أصابع سجق ← Psoriatic ← افحصي الجلد والأظافر
+> h: SLE ولا Behçet؟
+> list: ★ قرح فم وأعضاء تناسلية + uveitis + جلطات ← Behçet (نادر يصيب الكلى) ;; SLE ← كلى + C3/C4 واطيين
+> h: SLE: الأجسام المضادة
+> list: ANA ← screening ;; Anti-Smith ← أكثر specific ;; ★ Anti-dsDNA ← specific + نشاط المرض ;; ★ Anti-RNP ← MCTD ;; Anti-histone ← Drug-induced (★ hydralazine، procainamide، isoniazid، methyldopa)
+> h: Lupus nephritis
+> box: أي كرياتينين أو بروتين أو دم :: Renal biopsy أول ;; Class 1/2 :: ضبط الضغط بس ;; Class 3/4/5 :: Steroid + MMF ;; مع RPGN :: Steroid + cyclophosphamide
+> h: علاج الـflare
+> list: ★ خفيف (طفح، مفاصل، قرح) ← Hydroxychloroquine (أساس لكل مريض) ;; ★ شديد (أعصاب، تشنج، كلى) ← IV methylprednisolone + cyclophosphamide ;; ★ مفاصل نشطة رغم HCQ ← Methotrexate ;; مفاصل + كلى ← Belimumab أو rituximab
+> sum: يعني باختصار: DIP + سجق = psoriatic. Activity = anti-dsDNA. كلى = biopsy. HCQ للكل.
+
+@ 13 | Rheumatology: RA و الأطفال و الأدوية
+> h: RA: سلم العلاج
+> box: أول :: MTX (أو leflunomide، HCQ، sulfasalazine) ;; فشل MTX :: Anti-TNF (adalimumab، infliximab) ;; فشل :: Rituximab
+> list: ★ على MTX + حرارة + قرح فم بدون طحال ← Neutropenia من MTX ;; ★ RA + ركبة حارة + WBC 35,000 ← IV antibiotics فورًا ;; ★ RF عالي + anti-tTG ← Celiac ← Gluten-free
+> h: Gout ولا Pseudogout؟
+> list: ★ شاب + نوبات متكررة + uric acid طبيعي ← Gout ;; Pseudogout ← أكبر من 55
+> h: أمراض الأطفال
+> list: ★ HSP: purpura بالأرجل والأرداف + ألم بطن + مفاصل ← راقبي البول ;; ★ Kawasaki: أخطر عرض ← ألم بطن شديد مع دم (intussusception) ;; ★ Systemic JIA: حرارة يومية + طفح salmon ← NSAIDs، ثم MTX ;; ★ Rheumatic fever: ألم مفاصل يتنقل ;; ★ Oligoarticular JIA: ركبة 7 أسابيع بدون أعراض عامة
+> h: MCTD و Dermatomyositis
+> list: ★ SLE + scleroderma + myositis ← Anti-RNP ;; ★ Heliotrope + Gottron + ضعف + CK عالي ← Juvenile dermatomyositis ;; ★ Polymyositis ← CK
+> h: الأدوية
+> list: ★ Steroids عالية بدون تخفيف ← ضغط ← نزيف بالمخ ;; ★ Gum hypertrophy ← Cyclosporine (أو phenytoin، CCB) ;; ★ موت مفاجئ يوم 3 من الكيماوي ← Arrhythmia ;; الحمل: Steroids و HCQ و sulfasalazine و azathioprine آمنة. MMF و MTX ممنوعة
+> sum: يعني باختصار: MTX ثم anti-TNF. Salmon rash = systemic JIA. Gottron = dermatomyositis.
+
+@ 14 | Kocher: ورك الطفل
+> p: Septic arthritis طارئ جراحي، و toxic synovitis بسيط ويروح. يتشابهون، فنستخدم Kocher والمشي.
+> h: Kocher (4)
+> list: WBC أكثر من 12,000 ;; ESR أكثر من 40 ;; حرارة أكثر من 38.5 ;; ما يقدر يمشي ;; استخدمي الأرقام بالضبط (11,500 مو 12,000)
+> box: 1 :: Toxic synovitis غالبًا ← لا aspiration، NSAIDs ;; 2 :: ممكن septic ← Synovial aspiration ;; Red flags (شكله تعبان، ما يحرك الرجل، ألم شديد) :: Septic مهما كان السكور
+> h: أهم علامة: يمشي؟
+> two: Toxic synovitis :: ★ يمشي + شكله زين + ألم خفيف ← Supportive ;; Septic :: ما يمشي + toxic + ألم شديد ← Aspirate ثم antibiotics
+> note: Effusion بالألتراساوند موجود بالاثنين، ما يفرق.
+> h: Reactive arthritis (بعد gastroenteritis)
+> list: ★ ما فيه effusion ← Ibuprofen ;; ★ مفصل واحد + effusion ← Aspirate ;; مفاصل كثيرة + effusion ← فيه خلاف ;; ★ effusion مو مذكور ← Aspiration أسلم
+> h: أمراض ثانية
+> list: Growing pains ← الرجلين بالليل + فحص طبيعي ← طمني ;; JIA ← أكثر من 6 أسابيع ;; ★ SLE خفيف على prednisone ← أضيفي HCQ ;; ★ Lupus anticoagulant ← اطلبي antiphospholipid antibodies
+> sum: يعني باختصار: يمشي = synovitis. Kocher 2 أو red flags = aspirate. Aspirate قبل antibiotics.
+
+@ 15 | Pediatric Hypertension
+> p: أغلب ضغط الأطفال white-coat. القاعدة: أكدي التشخيص بـABPM قبل ما تدورين السبب.
+> h: الخطوات
+> box: طفل ضغطه طبيعي وأهله عندهم ضغط :: Regular monitoring ;; ضغط عالي مسجل :: ABPM يأكد ;; تأكد :: دوري السبب حسب العلامات
+> list: ★ Stage 2: ABPM بعد قراءتين. Stage 1: بعد 3 ;; قراءات أقل ← ضغط اليد والرجل (coarctation) ثم lifestyle ;; ★ Stage 1 + وزن طبيعي ← lifestyle + تحاليل
+> h: العلامة ← الفحص
+> list: سمنة + acanthosis ← Cortisol أو سكر (★ لو ABPM موجود هو الجواب) ;; ★ صداع + palpitations + تعرق ← Metanephrines (urine لو فيه أعراض، plasma للفرز) ;; ★ K واطي + alkalosis ← Renin:aldosterone ratio ;; فرق اليد والرجل ← Coarctation
+> note: Metanephrines أفضل من catecholamines دايمًا. Catecholamines بس لو metanephrines مو موجودة.
+> h: الوقاية
+> list: ★ طفل صغير طبيعي ← Regular BP monitoring ;; ★ مراهق ← Aerobic exercise + ملح قليل (مو "normal salt")
+> h: كلى السكري
+> list: ★ الأفضل سنويًا ← Urine albumin:creatinine ratio ;; بعده urine microalbumin ثم creatinine ;; ★ أول علامة ← Microalbuminuria
+> h: معلومات تجي معها
+> list: ★ Sarcoidosis + calcium عالي ← steroids ;; ★ نزيف رئة + فقدان سمع + كلى ← ANCA (GPA) ;; ★ ظهر بعد رياضة + حركة كاملة ← NSAID + muscle relaxant ;; ★ Sjögren ← lymphoma ;; ★ Rouleaux ← myeloma ;; ★ Calcium عالي خفيف ← IV saline
+> sum: يعني باختصار: أكدي بـABPM. تعرق + صداع = metanephrines. UACR سنويًا.
+
+@ 16 | Tumor Lysis Syndrome
+> h: وش يصير؟
+> list: خلايا الورم تموت بسرعة وتطلع K وفوسفات و uric acid ;; بعد كيماوي أو أشعة، أو لحاله قبل العلاج (lymphoma كبير) ;; ★ مات قبل الكيماوي بأسبوع بـK عالي ← TLS
+> h: الأملاح الأربعة
+> list: ★ K ↑ ← ضعف عضلات بدون ألم + arrhythmia ;; Uric acid ↑ ← كلى ;; Phosphate ↑ ← يرسب مع الكالسيوم ;; ★ Ca ↓ ← ألم وتشنج عضلات + QT طويل
+> list: Laboratory TLS = 2 من 4 ;; Clinical = 2 من 4 + (AKI أو arrhythmia أو seizure)
+> h: مين معرض؟
+> list: ★ DLBCL كبير أو Burkitt ;; AML مع WBC 100,000 أو أكثر ;; Venetoclax ;; أي ورم كبير
+> h: الوقاية
+> box: دايمًا أول :: IV hydration ;; خطر عادي :: Allopurinol ;; خطر عالي :: Rasburicase ;; ★ Rasburicase مو موجود :: Allopurinol
+> list: G6PD ← لا rasburicase
+> h: العلاج
+> box: أول :: IV hydration ;; ★ Uric acid عالي :: Rasburicase ;; ★ Phosphate عالي (uric طبيعي) :: Sevelamer ;; K عالي :: Kayexalate أو Lasix. طارئ ← calcium gluconate + insulin ;; ★ ما يبول بعد السوائل :: Lasix
+> note: Sodium bicarbonate مو علاج روتيني (★ أقل شي يفيد). يرسب الفوسفات.
+> h: نرجع للكيماوي متى؟
+> list: ★ لما الأملاح والكلى ترجع طبيعية ;; Uric acid أقل من 475، creatinine أقل من 141، pH 7 أو أكثر
+> sum: يعني باختصار: كل شي ↑ إلا Ca ↓. سوائل أول. Uric عالي = rasburicase. Phosphate = sevelamer.

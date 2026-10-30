@@ -1,54 +1,40 @@
-@ 8 | Nephrology: Glomerulonephritis و Nephrotic و AKI
-> h: Post-strep GN ولا IgA؟
-> two: PSGN :: ★ حلق أو impetigo قبل 2–3 أسابيع + تورم حول العين + دم بالبول + ضغط + ASO ;; IgA nephropathy :: ★ حلق قبل 1–3 أيام بس + دم بالبول
-> list: ★ PSGN: الزرعة اللي تأكد ← Throat ;; ★ C3 يرجع طبيعي بعد 3–4 أسابيع (HSP ← purpura + ألم بطن)
-> h: Nephrotic syndrome
-> list: ★ تورم حول العين + protein 3+ ← Nephrotic ;; ★ Proteinuria 3.5 g/day عند طفل ← Nephrotic ;; ★ سكري + ضغط + تورم + كلى حجمها طبيعي ← Diabetic nephropathy
-> h: AKI
-> list: ★ ترجيع وإسهال + lisinopril + كرياتينين 60 ← 160 ← Pre-renal AKI ;; ★ بعد antibiotic بأسابيع + eosinophils عالية + حرارة ← Acute interstitial nephritis
+@ 9 | WBC: Immunodeficiency و Leukemia و الغدد
+> h: B cell ولا T cell؟
+> two: B cell بس (Bruton XLA) :: Infections جيوب ورئة + إسهال giardia + T cells طبيعية + Ig ما تنقاس + B cells قليلة ← IVIG ;; T + B (SCID) :: نفس الشي + فطريات وفيروسات ← Bone marrow transplant
+> note: "X-linked" ما تعني شي لحالها. شوفي الكلمة اللي بعدها: agammaglobulinemia = IVIG. SCID = transplant.
+> h: المتلازمات
+> list: ★ Wiskott-Aldrich ← infections + إكزيما + platelets صغيرة وواطية، الطفح ما يجي على منطقة الحفاض ;; DiGeorge ← قلب + calcium واطي + ما فيه thymus (22q11) ;; CGD ← خراجات من catalase-positive (Staph، Aspergillus) ← NBT/DHR ;; ★ infections متكررة + إسهال ← Serum immunoglobulins
+> h: Leukemia ولا Lymphoma؟
+> two: Leukemia :: شحوب وأنيميا بدري + ألم عظام ← Bone marrow ;; Lymphoma :: غدد كبيرة + حرارة + نقص وزن ← Lymph node biopsy
+> note: كلمة "confirm" بالسؤال ← Bone marrow. "Next" أو "initial" بدونها ← CBC / blood film.
+> h: خط واحد ولا خطين؟
+> list: ★ Platelets بس ← ITP ← CBC + film ;; ★ خطين ← Bone marrow ;; ★ خطين + retics عالية + bilirubin عالي + Coombs + ← Evans syndrome ;; ALL ← retics واطية ;; ★ أشهر leukemia بالأطفال ← ALL ← chemotherapy ;; ★ ALL بالـCSF ← Intrathecal chemo
+> h: الغدد اللمفاوية
+> list: ★ متحركة + ما تؤلم + أقل من 2 سم + الطفل بخير ← طمنيهم وراقبي 4–6 أسابيع ;; ★ مع حرارة + نقص وزن + كبد كبير ← Lymph node biopsy ;; ثابتة (fixed) ← biopsy
+> sum: يعني باختصار: Bruton = IVIG. SCID = transplant. Confirm = bone marrow. Evans = Coombs + retics عالية.
+
+@ 10 | Nephrology: الصوديوم والأملاح والـRTA
+> h: Hyponatremia: كم أسرع؟
+> box: Acute (أقل من 48 ساعة، بعد العمليات والسوائل) :: 3% saline دايمًا ;; Chronic + confusion أو صداع :: Fluid restriction ;; Chronic + تشنج أو coma :: 3% saline
+> list: Normal saline ممكن يسوء SIADH ;; ★ بعد عملية + D5W + confusion ← المصدر ما حسمها (fluid restriction ولا 3%)
+> h: الأملاح والـECG
+> list: ★ Hypercalcemia ← QT قصير (سرطان بالعظم) ;; Hypocalcemia ← QT طويل (3 hypos: K، Mg، Ca) ;; Hyperkalemia ← peaked T ثم QRS عريض ثم sine wave ;; Hypokalemia ← T مسطحة و U waves ;; ★ Calcium عالي شوي + أعراض ← IV saline أول
 > h: RTA
-> list: ★ مولود + acidosis + K واطي + urine pH 6.5 ← Distal RTA (type 1) ;; ★ Sjögren ← Type 1 ;; ★ RTA مع K عالي ← Type 4
+> list: ★ Type 1 (distal) ← K واطي + urine pH أكثر من 5.5 رغم acidosis. Sjögren و SLE ;; Type 2 (proximal) ← K واطي + Fanconi (سكر وفوسفات بالبول) ;; ★ Type 4 ← K عالي. Diabetic nephropathy
+> h: Secondary hypertension
+> list: Renin ↑ + aldosterone ↑ ← Renal artery stenosis (bruit) ;; Renin ↓ + aldosterone ↑ ← Conn ;; ★ Renin ↓ + aldosterone ↓ ← Liddle ;; ★ Bruit بالجنب ← CT (confirm). Doppler للفرز ;; ★ ما انضبط على CCB + ACE-I/ARB ← Diuretic ;; لا ACE-I مع ARB
+> sum: يعني باختصار: QT قصير = Ca عالي. RTA 4 = K عالي. Renin و aldosterone واطيين = Liddle.
+
+@ 11 | Nephrology: AKI و GN و CKD
+> h: AKI
+> list: ★ ترجيع وإسهال + ACE-I + كرياتينين 60 ← 160 ← Pre-renal ;; لو طال ← ATN ;; ★ بعد amoxicillin بأيام لأسابيع + eosinophils ← Acute interstitial nephritis ;; ★ Myeloma (plasma cells 10% أو أكثر + ألم ظهر) ← light chains ;; حجم الكلى: صغيرة ← ضغط. كبيرة ← polycystic. طبيعية ← سكري
+> h: Nephrotic ولا Nephritic؟
+> two: Nephrotic :: بروتين أكثر من 3.5 g + تورم حول العين + بدون دم + ضغط طبيعي ;; Nephritic :: دم + ضغط + بروتين أقل
+> h: IgA ولا PSGN؟ (الوقت)
+> two: 1–3 أيام بعد الحلق :: IgA nephropathy ;; 1–4 أسابيع بعد الحلق أو impetigo :: PSGN
+> list: ★ طفح purpura + ألم بطن بعد زكام بيومين ← IgA vasculitis (HSP)، ولو مو موجود ← IgA nephropathy ;; ★ تأكيد PSGN ← Throat culture أو ASO ;; ★ C3 يرجع بعد 3–4 أسابيع (أو 6–8 حسب Nelson)
 > h: CKD
-> list: ★ GFR 28 ← Stage 4 ;; ★ CKD + PTH عالي + ألم عظام ← Hyperphosphatemia ;; ★ CKD + neuropathy (uremic) ← Initiate dialysis ;; ★ Polycystic + eGFR 36 ← 18 ← Prepare for transplant ;; ★ ESRD + pericardial effusion + ضغط واطي ← Pericardiocentesis ;; ★ قصور كلوي + حكة ← Gout (المصدر)
-> h: أملاح وضغط
-> list: ★ سرطان + QT قصير + نعاس ← Hypercalcemia ;; ★ Calcium عالي بشكل خفيف + أعراض ← IV saline ;; ★ Hyponatremia بعد عملية + D5W ← Fluid restriction ;; ★ K واطي + alkalosis + renin واطي + aldosterone واطي ← Liddle ;; ★ ما انضبط على ACE-I + CCB ← أضيفي Diuretic ;; ★ شابة سمينة + bruit بالجنب ← CT of kidney
-> sum: يعني باختصار: حلق قبل أسابيع = PSGN، قبل أيام = IgA. Sjögren = RTA 1. K عالي = RTA 4.
-
-@ 9 | Rheumatology: SLE و RA و الفروقات
-> h: SLE: التشخيص
-> list: ★ حرارة + ألم مفاصل + قرح بالفم + طفح + دم وبروتين بالبول ← SLE ;; ★ نشاط المرض ← anti-dsDNA ;; ★ C3 و C4 واطيين + كلى ← Lupus nephritis ;; ★ أي علامات كلى (بروتين، كرياتينين) ← Renal biopsy ;; ★ Class I ← ضبط الضغط ;; ★ أشهر دواء يسبب lupus ← Hydralazine
-> h: SLE: العلاج
-> list: ★ الأساس لكل مريض ولتقليل الجلطات والـflares ← Hydroxychloroquine ;; ★ مفاصل نشطة رغم HCQ ← أضيفي Methotrexate ;; ★ Neuropsychiatric lupus (تشنج) ← Steroids + Cyclophosphamide ;; ★ Prednisolone 60 بدون تخفيف ← ضغط عالي ← نزيف بالمخ
-> h: RA
-> list: ★ PIP و MCP بالجهتين + ESR و CRP عالي ← RA ;; ★ على MTX ومفاصل نشطة + erosions ← أضيفي anti-TNF (adalimumab أو infliximab) أو rituximab ;; ★ على MTX + حرارة + قرح بالفم ← Neutropenia من MTX ;; ★ RA + ركبة حارة + حرارة + WBC 35,000 بالمفصل ← IV antibiotics
-> h: Osteoarthritis ولا Psoriatic؟
-> list: ★ كبير + DIP و PIP + عقد قاسية (Heberden) + RF و ESR طبيعي ← Osteoarthritis ;; ★ DIP + أصابع مثل السجق (dactylitis) ← Psoriatic ← افحصي الجلد ;; ★ تدمير بالمفاصل بالأشعة ← Psoriatic
-> h: أمراض ثانية
-> list: ★ قرح فم وأعضاء تناسلية + عين + جلطة ← Behçet ;; ★ ألم ظهر صباحي + Schober ← افحصي العين (uveitis) ;; ★ Raynaud + PIP + ضعف عضلات + ANA عالي ← Anti-RNP (MCTD) ;; ★ Heliotrope + Gottron + CK عالي ← Dermatomyositis ;; ★ Polymyositis ← CK عالي ;; ★ نزيف رئة + فقدان سمع + كلى ← ANCA ;; ★ Gum hypertrophy ← Cyclosporine
-> sum: يعني باختصار: SLE = HCQ دايمًا. كلى = biopsy. Sausage finger = psoriatic. DIP + عقد = OA.
-
-@ 10 | مفاصل الأطفال: Kocher و JIA و Rheumatic fever
-> h: Transient synovitis ولا Septic؟
-> list: ★ ألم ورك خفيف + يمشي + شكله زين + effusion ← Toxic synovitis ;; Kocher: حرارة أكثر من 38.5، ما يمشي، ESR أكثر من 40، WBC أكثر من 12 ;; ★ طفل يصرخ لما نلمس الركبة + حرارة ← Septic ← Aspiration
-> h: بعد gastroenteritis (reactive)
-> list: ★ ما فيه effusion ← NSAIDs (ibuprofen) ;; ★ مفصل واحد + effusion ← Synovial aspiration + culture ;; ★ effusion مو مذكور + مفصل واحد ← Aspiration
-> h: JIA
-> list: ★ حرارة يومية + طفح salmon + مفاصل ← Systemic JIA ← Methotrexate (أو steroids) ;; ★ ركبة وحدة 7 أسابيع بدون أعراض عامة ← Oligoarticular JIA ;; ★ أنيميا + نقص وزن + anti-tTG ← Celiac ← Gluten-free
-> h: Rheumatic fever
-> list: ★ ألم مفاصل يتنقل (ركبة ثم ركبة ثم وتر) + طفح + التهاب حلق متكرر ← Rheumatic fever ;; ★ مدة الوقاية: بدون carditis ← 5 سنين أو لين 21 ;; carditis بدون valve ← 10 سنين أو لين 21 ;; carditis مع valve ← 10 سنين أو لين 40 (الأطول دايمًا)
-> h: HSP و Kawasaki
-> list: ★ طفح بالأرداف + بول طبيعي ← Follow-up للكلى ;; ★ HSP + ألم بطن + تورم + دم بالبول ← جزء من الـvasculitis ;; ★ Kawasaki: أخطر عرض بعد العلاج ← ألم بطن شديد + دم بالبراز (intussusception)
-> sum: يعني باختصار: يمشي = synovitis. مفصل واحد + effusion = aspiration. Salmon rash = systemic JIA.
-
-@ 11 | ضغط الأطفال والسكري
-> h: طفل ضغطه عالي
-> list: ★ سمين + acanthosis + ضغط عالي أكثر من مرة ← ABPM أول ;; ★ مع صداع + تعرق + palpitations ← Metanephrines (أو catecholamines) ;; ★ ABPM مو بالخيارات ← Cortisol ;; ★ Stage 1 + وزن طبيعي ← Lifestyle
-> h: ضغط ما ينضبط بالكبار
-> list: ★ K واطي + alkalosis ← Renin:aldosterone ratio ;; ★ ضغط + palpitations ← Urine metanephrines
-> h: الوقاية
-> list: ★ طفل ضغطه طبيعي وأهله عندهم ضغط ← Regular monitoring ;; ★ مراهق يبي يقلل الخطر ← Aerobic exercise + ملح أقل
-> h: كلى السكري
-> list: ★ أول علامة diabetic nephropathy ← Microalbuminuria ;; ★ الفحص السنوي ← Urine albumin/creatinine ratio
-> h: معلومات سريعة
-> list: ★ Sarcoidosis: steroids لو ← Hypercalcemia ;; ★ ألم ظهر بعد كورة + حركة كاملة ← NSAID + muscle relaxant
-> sum: يعني باختصار: طفل سمين بضغط = ABPM. ضغط + تعرق = metanephrines. سكري كلى = UACR.
+> list: Stage 1 أكثر من 90، 2: 60–90، 3: 30–60، ★ 4: 15–30، 5: أقل من 15 ;; ★ ألم عظام + PTH عالي ← Phosphate عالي و calcium واطي ;; خطر gout يزيد
+> h: متى dialysis؟
+> list: أعراض uremia أو GFR أقل من 5 ;; ★ 3 U: Uremia (ترجيع، حكة)، Uremic pericarditis، Uremic encephalopathy أو neuropathy ← dialysis مباشرة ;; EFA: Electrolytes، Fluid، Acidosis لو ما استجابت للعلاج ;; ★ Pericardial effusion + ضغط واطي ← Pericardiocentesis أول ;; ★ Polycystic + eGFR ينزل بسرعة ← Prepare for transplant
+> sum: يعني باختصار: حلق قبل أيام = IgA، قبل أسابيع = PSGN. Uremic neuropathy = dialysis.
