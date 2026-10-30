@@ -57,7 +57,74 @@ LAT = re.compile(r"[A-Za-z][A-Za-z0-9'’\-/.+%±↑↓]*(?::[A-Za-z0-9]+)*(?: (
                  r"|\d[\d.,]*(?: ?[–\-/×] ?\d[\d.,]*)+%?|\d{1,3}(?:,\d{3})+")  # Latin runs, and number ranges like 15–20 (kept LTR)
 
 
-SEEN = set()  # drugs already explained in the current map
+SEEN = set()  # drugs / labs already explained in the current map
+
+# normal values shown (once per map) the first time a lab is mentioned
+LABREF = [
+    (r"HbA1c|\bA1c\b", "N <5.7% · pre-DM 5.7–6.4 · DM ≥6.5"),
+    (r"HbA2", "N <3.5% · thalassemia trait >3.5"),
+    (r"\bHbF\b", "adult <1%"),
+    (r"\bHb\b|\bHgb\b|hemoglobin(?! electrophoresis)", "anemia: men <13, women <12 g/dL (130 / 120 g/L)"),
+    (r"\bMCV\b", "N 80–100 fL · micro <80 · macro >100"),
+    (r"\bMCH\b", "N 27–33 pg"),
+    (r"\bRDW\b", "N 11.5–14.5% · IDA >14"),
+    (r"ferritin", "N 30–300 ng/mL · IDA <30"),
+    (r"retic\w*", "N 0.5–2.5%"),
+    (r"haptoglobin", "N 0.3–2.0 g/L"),
+    (r"\bLDH\b", "N 140–280 U/L"),
+    (r"platelets?(?! concentrate| transfusion)", "N 150–450 ×10⁹/L · bleed risk <20"),
+    (r"\bWBCs?\b", "N 4–11 ×10⁹/L"),
+    (r"\bINR\b", "N 0.8–1.2 · warfarin target 2–3"),
+    (r"\baPTT\b|\bPTT\b", "N 25–35 s"),
+    (r"\bPT\b", "N 11–13.5 s"),
+    (r"fibrinogen", "N 2–4 g/L"),
+    (r"bleeding time", "N 2–7 min"),
+    (r"(?<!urine )\bNa\b|(?<!urine )sodium(?! bicarbonate)", "N 135–145 mmol/L"),
+    (r"(?<!urine )\bK\b|potassium", "N 3.5–5.0 mmol/L"),
+    (r"urine chloride", "<15–20 = saline-responsive"),
+    (r"HCO3|bicarbonate(?! is)", "N 22–26 mmol/L"),
+    (r"PCO2", "N 35–45 mmHg"),
+    (r"(?<!urine )\bpH\b", "N 7.35–7.45"),
+    (r"\bCa\b|calcium(?! gluconate| stones| channel)", "N 2.15–2.6 mmol/L (8.5–10.5 mg/dL)"),
+    (r"phosphate", "N 0.8–1.5 mmol/L"),
+    (r"\bMg\b|magnesium", "N 0.7–1.0 mmol/L"),
+    (r"uric acid", "N 200–420 µmol/L (3.5–7 mg/dL)"),
+    (r"creatinine(?! clearance)", "N 60–110 µmol/L (0.6–1.2 mg/dL)"),
+    (r"\bCrCl\b", "N >90 mL/min"),
+    (r"\be?GFR\b", "N >90 mL/min"),
+    (r"UACR|albumin/creatinine|albumin:creatinine", "N <3 mg/mmol (<30 mg/g)"),
+    (r"proteinuria", "N <150 mg/day · nephrotic >3.5 g/day"),
+    (r"serum osmolality|\bosmolality", "N 275–295 mOsm/kg"),
+    (r"\bTG\b|triglycerides?", "N <1.7 mmol/L (150 mg/dL)"),
+    (r"\bLDL\b", "N <3.0 mmol/L · target <2.5, <2.0 with ASCVD"),
+    (r"\bHDL\b", "N >1.0 men · >1.3 women mmol/L"),
+    (r"total cholesterol|\bcholesterol\b", "N <5.2 mmol/L (200 mg/dL)"),
+    (r"C-peptide", "N 0.5–2.0 ng/mL"),
+    (r"\bTSH\b", "N 0.4–4.0 mIU/L"),
+    (r"\bPTH\b", "N 1.6–6.9 pmol/L"),
+    (r"\bESR\b", "N <20 mm/hr"),
+    (r"\bCRP\b", "N <10 mg/L"),
+    (r"\bANA\b", "N <1:80"),
+    (r"\bCK\b", "N <200 U/L"),
+    (r"NT-proBNP|\bBNP\b", "N <100 pg/mL"),
+    (r"lipase|amylase", "pancreatitis >3× upper limit"),
+    (r"\bAST\b|\bALT\b", "N <40 U/L"),
+    (r"bilirubin", "N <21 µmol/L (1.2 mg/dL)"),
+    (r"\bAFP\b", "N <10 ng/mL"),
+    (r"\bPSA\b", "N <4 ng/mL"),
+    (r"SpO2", "N 95–100%"),
+]
+LABREF = [(re.compile(rf"(?<![A-Za-z0-9-])(?:{p})(?![A-Za-z0-9-])", re.I), t) for p, t in LABREF]
+
+
+def lab_once(t):
+    """append the normal range after the first mention of each lab in this map"""
+    for rx, ref in LABREF:
+        m = rx.search(t)
+        if m and ref not in SEEN:
+            SEEN.add(ref)
+            t = t[:m.end()] + f' <span class="ref">({html.escape(ref, quote=False)})</span>' + t[m.end():]
+    return t
 
 
 def drug_once(t):
@@ -70,12 +137,12 @@ def drug_once(t):
     return annot.DRUG_RE.sub(sub, t)
 
 
-def e(t):
+def e(t, refs=True):
     t = t.strip()
     out, last = [], 0
     for m in LAT.finditer(t):
         out.append(html.escape(t[last:m.start()], quote=False))
-        out.append(f'<bdi dir="ltr">{drug_once(html.escape(m.group(0), quote=False))}</bdi>')
+        out.append(f'<bdi dir="ltr">{lab_once(drug_once(html.escape(m.group(0), quote=False))) if refs else html.escape(m.group(0), quote=False)}</bdi>')
         last = m.end()
     out.append(html.escape(t[last:], quote=False))
     return "".join(out).replace("★", '<span class="st">★</span>').replace("○", '<span class="ex">○</span>')
@@ -120,14 +187,14 @@ def render(block):
                 cur[1] += [node(x) for x in items]
             elif kind == "note":
                 cur[1].append(node(body, "k note"))
-    out = f'<div class="root">{e(title)}</div>'
+    out = f'<div class="root">{e(title, False)}</div>'
     if intro.strip():
         out += f'<div class="intro">{e(intro)}</div>'
     out += '<div class="tree">'
     cols, load = [[], []], [0, 0]  # balance the two sides by text length so neither column runs empty
     for i, (h, kids) in enumerate(branches):
         col = COLORS[i % len(COLORS)]
-        html_ = f'<div class="br"><div class="bh" style="background:{col}">{e(h)}</div><div class="kids">{"".join(kids)}</div></div>'
+        html_ = f'<div class="br"><div class="bh" style="background:{col}">{e(h, False)}</div><div class="kids">{"".join(kids)}</div></div>'
         w = len(re.sub(r"<[^>]+>", "", html_)) + 60 * (len(kids) + 1)
         side = 0 if load[0] <= load[1] else 1
         cols[side].append(html_)
@@ -135,7 +202,7 @@ def render(block):
     out += f'<div class="tc r">{"".join(cols[0])}</div><div class="tc l">{"".join(cols[1])}</div>'
     if summary:
         lines = [x for x in re.split(r"(?<=[.:])\s+", summary) if x.strip()]
-        out += '<div class="sum">' + "".join(f'<div dir="rtl">{e(x.strip(" ."))}</div>' for x in lines) + '</div>'
+        out += '<div class="sum">' + "".join(f'<div dir="rtl">{e(x.strip(" ."), False)}</div>' for x in lines) + '</div>'
     return out + "</div>"
 
 
