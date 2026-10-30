@@ -53,8 +53,21 @@ body {{ width: {W}px; margin: 0; padding: 18px 16px 22px; color: #ececec; font-f
 .ref {{ color: #8fb8ff; font-size: .85em; font-weight: 400; }}
 """
 
-LAT = re.compile(r"[A-Za-z][A-Za-z0-9'’\-/.+%±↑↓]*(?::[A-Za-z0-9]+)*(?: (?:[A-Za-z0-9±][A-Za-z0-9'’\-/.+%±]*(?::[A-Za-z0-9]+)*|\+|/))*"
-                 r"|\d[\d.,]*(?: ?[–\-/×] ?\d[\d.,]*)+%?")  # Latin runs, and number ranges like 15–20 (kept LTR)
+LAT = re.compile(r"[A-Za-z][A-Za-z0-9'’\-/.+%±↑↓]*(?::[A-Za-z0-9]+)*(?: (?:[A-Za-z0-9±][A-Za-z0-9'’\-/.+%±]*(?:,\d{3})*(?::[A-Za-z0-9]+)*|\+|/))*"
+                 r"|\d[\d.,]*(?: ?[–\-/×] ?\d[\d.,]*)+%?|\d{1,3}(?:,\d{3})+")  # Latin runs, and number ranges like 15–20 (kept LTR)
+
+
+SEEN = set()  # drugs already explained in the current map
+
+
+def drug_once(t):
+    def sub(m):
+        k = m.group(1).lower()
+        if k in SEEN:
+            return m.group(0)
+        SEEN.add(k)
+        return annot._drug(m)
+    return annot.DRUG_RE.sub(sub, t)
 
 
 def e(t):
@@ -62,7 +75,7 @@ def e(t):
     out, last = [], 0
     for m in LAT.finditer(t):
         out.append(html.escape(t[last:m.start()], quote=False))
-        out.append(f'<bdi dir="ltr">{annot.annotate_text(html.escape(m.group(0), quote=False), labs=False)}</bdi>')
+        out.append(f'<bdi dir="ltr">{drug_once(html.escape(m.group(0), quote=False))}</bdi>')
         last = m.end()
     out.append(html.escape(t[last:], quote=False))
     return "".join(out).replace("★", '<span class="st">★</span>').replace("○", '<span class="ex">○</span>')
@@ -76,6 +89,7 @@ def node(t, cls="k"):
 
 
 def render(block):
+    SEEN.clear()
     head, *rest = block.strip().splitlines()
     _, title = head[1:].split("|", 1)
     intro, branches, summary = "", [], ""

@@ -1,0 +1,25 @@
+@ 6 | Immunodeficiency و Leukemia و الغدد
+> h: Immunodeficiency
+> list: ★ ولد + infections بكتيرية بعد 6 شهور + كل الـIg واطية + B cells قليلة + T cells طبيعية ← Bruton (XLA) ;; ★ الغدد اللمفاوية ما تنحس + أخوه مات بـsepsis ← XLA ;; ★ علاج XLA ← Immunoglobulin replacement ;; ★ SCID ← Bone marrow transplant ;; ★ إكزيما + platelets صغيرة وواطية + infections ← Wiskott-Aldrich ;; ★ infections متكررة ← أول فحص: Serum immunoglobulins
+> h: Leukemia
+> list: ★ أشهر leukemia بالأطفال ← ALL ;; ★ ألم عظام + حرارة + كدمات + كبد وطحال ← Bone marrow ;; ★ ALL + بالـCSF lymphoblasts ← Intrathecal chemotherapy ;; ★ "Next" ← Blood film. ★ "Confirm" ← Bone marrow
+> h: غدة لمفاوية بالرقبة
+> list: ★ غدة 2 سم ما تؤلم وتتحرك + الطفل بخير ← انتظري 4–6 أسابيع ;; ★ فيه نقص وزن أو حرارة أو كبد كبير أو غدد كثيرة ← Lymph node biopsy
+> h: معلومات سريعة
+> list: ★ Rouleaux ← Multiple myeloma ;; ★ Plasma cells 20% + كلى ← Light chains ;; ★ Sjögren ← خطر Non-Hodgkin lymphoma
+> sum: يعني باختصار: B cells صفر = Bruton = IVIG. Next = film، Confirm = marrow. غدة صغيرة = انتظري.
+
+@ 7 | Tumor Lysis Syndrome
+> p: الخلايا السرطانية تتكسر بسرعة بعد الكيماوي (أو قبله بالـlymphoma الكبير) وتطلع اللي داخلها للدم.
+> h: وش يصير بالتحاليل؟
+> list: K ↑ + Phosphate ↑ + Uric acid ↑ + Calcium ↓ ;; ★ مين؟ Burkitt، DLBCL كبير، ALL، AML ;; ★ ممكن يصير قبل الكيماوي أو بعد الأشعة
+> h: الأعراض: وش السبب؟
+> two: ضعف عضلات + palpitations :: Hyperkalemia ;; ألم عضلات + تشنج :: Hypocalcemia
+> list: ★ QT طويل ← Hypocalcemia ;; ★ مات فجأة (cardiac arrest) ← Hyperkalemia ← arrhythmia
+> h: الكلى
+> list: ★ كلى تتدهور + uric acid عالي ← Uric acid nephropathy ;; ★ كريستالات بالبول ← Uric acid crystals ;; ★ أقل علاج مفيد ← Sodium bicarbonate
+> h: العلاج
+> box: ★ أول شي :: IV fluids (hydration) ;; ★ ما يبول أو uric acid عالي :: Rasburicase ;; ★ Rasburicase مو بالخيارات :: Allopurinol ;; ★ Uric acid طبيعي + phosphate عالي :: Sevelamer
+> h: نرجع للكيماوي متى؟
+> list: ★ لما الأملاح والكلى ترجع طبيعية: uric acid أقل من 475، كرياتينين أقل من 141، pH 7 أو أكثر
+> sum: يعني باختصار: كل شي ↑ إلا الكالسيوم ↓. سوائل أول. ما يبول = rasburicase.
