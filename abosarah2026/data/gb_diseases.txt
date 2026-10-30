@@ -1,0 +1,86 @@
+# part | section | disease | regex (first match wins, top to bottom; matched on stem + options + answer, lower case)
+OB | Obstetrics | Ectopic pregnancy | ectopic|tubal pregnancy|right shoulder|methotrexate|no intrauterine|does not reveal an intrauterine
+OB | Obstetrics | Miscarriage & early pregnancy bleeding | miscarriage|abortion|threatened|products of conception|molar|hydatidiform|trophoblastic|weeks ago.*(spotting|bleeding)|bhcg|spotting|passing tissue|passed (some )?tissue|open cervix|closed cervix|snowstorm|vesicles|evacuation|gestational sac|crown-rump|transvaginal|amenorrhea for the last \d+ weeks|vaginal bleeding
+OB | Obstetrics | Hyperemesis & nausea | hyperemesis|nausea and vomiting
+OB | Obstetrics | Rh isoimmunization | rh-?negative|anti-d|rhesus|isoimmun|alloimmun|kleihauer|rh immunoglobulin|fetal whole blood
+OB | Obstetrics | Postpartum hemorrhage & third stage | postpartum hemorrhage|post-?partum haemorrhage|\bpph\b|atony|inverted uterus|inversion|placenta (is still|did not deliver)|retained placenta|manual (removal|extraction)|after (placental )?delivery.*bleeding|bleeding.*after.*deliver|vaginal bleeding of \d+|laceration|genital tract|internal iliac|uterotonic|carboprost|post-?partum.*bleeding|1000 cc|700 cc
+OB | Obstetrics | Antepartum hemorrhage: placenta previa & abruption | previa|abruption|abruptio|accreta|low-lying placenta|antepartum hemorrhage|painless vaginal bleeding
+OB | Obstetrics | Preeclampsia & hypertension in pregnancy | eclampsia|hellp|gestational hypertension|magnesium sulfate|labetalol|methyldopa|blood pressure|hypertens|severe headache|blurred vision|convulsion|tonic-clonic|hepatic capsule|right upper quadrant
+OB | Obstetrics | Diabetes in pregnancy | diabet|glucose|insulin|ogtt|macrosomi
+OB | Obstetrics | Preterm labor & PROM | preterm|premature rupture|\bprom\b|pprom|rupture of membranes|tocoly|atosiban|antenatal steroid|cervical length|cerclage|incompeten
+OB | Obstetrics | Infections in pregnancy | \bhiv\b|hepatitis|hbsag|rubella|\bcmv\b|toxoplasm|varicella|chickenpox|syphilis|group b strep|\bgbs\b|herpes|parvovirus|listeria|urinary tract|bacteriuria|pyelonephritis|chorioamnionitis|ampicillin|influenza|tubercul|vaginal itching|antifungal|amoxicillin
+OB | Obstetrics | Puerperium, breastfeeding & postpartum mood | breastfe|lactat|mastitis|breast (pain|mass|abscess)|engorg|blues|psychosis|postnatal depression|tearful|delivered .* weeks ago|weeks after (vaginal )?delivery
+OB | Obstetrics | Fetal growth, fetal wellbeing & multiple pregnancy | twin|iugr|\bfgr\b|growth restrict|small for gestational|polyhydramnios|oligohydramnios|amniotic fluid|biophysical|doppler|end-diastolic|post-?term|41 weeks|42 weeks|stillbirth|fetal death|decreased fetal movement|reduced fetal movement|fetal anemia
+OB | Obstetrics | Labor: progress, CTG & delivery | labou?r|cardiotocograph|\bctg\b|deceleration|partogram|breech|transverse|malpresent|occiput|shoulder dystocia|cord prolapse|induction|bishop|cesarean|caesarean|vbac|instrumental|vacuum|forceps|episiotomy|perineal|dilated|contractions
+OB | Obstetrics | Medical disease in pregnancy | thyroid|epilep|valpro|phenytoin|asthma|lupus|valve|mitral|cardiac disease|heart disease|anemia|hemoglobin|\biron\b|sickle|thalass|kidney|creatinine|cholesta|pruritus|fatty liver|appendic|\bdvt\b|thrombo|embol|heparin|warfarin|protamine|\bitp\b|thrombocytopeni|cryoprecipitate|coagulopathy|folate|folic|calf|compression ultrasonography|tricuspid|class ii|cold temperature|thyroxin|\bsle\b
+OB | Obstetrics | Antenatal care, screening & dating | antenatal|booking|screening|down syndrome|nuchal|amniocentesis|chorionic villus|vaccin|teratogen|x-ray|radiation|dating|last menstrual period|naegele|due date|weight gain|prolapse|preconception|gestational age
+OB | Obstetrics | Other obstetrics | .
+GYN | Gynecology | Early pregnancy: ectopic, molar, miscarriage & dating | ectopic|molar|hydatidiform|trophoblastic|beta ?-?hcg|bhcg|abortion|miscarriage|pregnancy test|crown.rump|right shoulder|dating
+GYN | Gynecology | Amenorrhea, PCOS & hyperprolactinemia | amenorrh|absence of her (period|menstrual)|pcos|polycystic|prolactin|galactorrh|hirsut|turner|kallmann|asherman|mullerian|androgen insensitivity|oligomenorrh|anorexia
+GYN | Gynecology | Abnormal uterine bleeding & fibroids | heavy menstrual|period has not stopped|menorrhag|abnormal uterine bleeding|intermenstrual|fibroid|leiomyoma|adenomyosis|polyp|postcoital
+GYN | Gynecology | Endometriosis & pelvic pain | endometrios|dysmenorrh|pelvic pain|dyspareunia
+GYN | Gynecology | Menopause & HRT | menopaus|hormone replacement|hrt|hot flush|hot flash|vasomotor|atrophic vaginitis|osteoporosis
+GYN | Gynecology | Postmenopausal bleeding & endometrial cancer | postmenopausal bleeding|endometrial (cancer|hyperplasia|carcinoma|thickness|biopsy)|hyperplasia
+GYN | Gynecology | Cervical screening & cervical cancer | cervical (cancer|screening|smear|dysplasia|intraepithelial)|pap|hpv|colposcop|cin\b|lletz|cone biopsy
+GYN | Gynecology | Ovarian masses & ovarian cancer | ovarian (cyst|mass|tumou?r|cancer|torsion)|torsion|adnexal|ca-?125|dermoid|teratoma|granulosa|brca|ovary
+GYN | Gynecology | Vulva & vagina: infections and lesions | vaginal discharge|vaginosis|candid|trichomon|vulv|bartholin|lichen|clue cells|whiff
+GYN | Gynecology | STIs & PID | chlamydia|gonorr|pelvic inflammatory|pid\b|syphilis|herpes|genital wart|sexually transmitted|tubo-ovarian
+GYN | Gynecology | Contraception | contracepti|iud|intrauterine device|implant|pill|ocp|condom|depo|emergency contraception|levonorgestrel|sterili|tubal ligation
+GYN | Gynecology | Infertility | infertil|subfertil|ovulation|clomiphene|letrozole|semen|ivf|hysterosalpingo
+GYN | Gynecology | Prolapse & urinary incontinence | prolapse|incontinence|urine leak|vaginal bulging|colporrhaphy|post-void|cystocele|rectocele|pessary|overactive bladder|stress urinary
+GYN | Gynecology | Breast | breast|mammogra|nipple
+GYN | Gynecology | Other gynecology | .
+
+Medicine | Infectious disease | HIV & STIs | \bhiv\b|syphilis|gonor|chlamydia|urethral discharge|urethritis
+Medicine | Infectious disease | TB | tubercul|isoniazid|ziehl|\bppd\b|quantiferon|night sweats
+Medicine | Infectious disease | Meningitis & CNS infection | meningitis|encephalitis|neck stiffness
+Medicine | Infectious disease | Neutropenic fever & fungal | neutropeni|febrile neutro|voriconazole|antifungal|candid|aspergill|bone marrow transplant
+Medicine | Infectious disease | Tropical & zoonotic: malaria, brucella | malaria|brucell|dengue|leishman|typhoid|rabies|returned from|makkah|hajj
+Medicine | Rheumatology | SLE & lupus nephritis | lupus|\bsle\b|anti-?ds|antiphospholipid
+Medicine | Rheumatology | Rheumatoid arthritis | rheumatoid|anti-ccp|proximal interphalangeal
+Medicine | Rheumatology | Gout & pseudogout | gout|pseudogout|crystal|\buric|allopurinol|colchicine
+Medicine | Rheumatology | Spondyloarthritis | spondyl|psoria|reactive arthritis|sacroiliitis|hla-b27
+Medicine | Rheumatology | Vasculitis | vasculit|giant cell|temporal arteritis|takayasu|polyarteritis|granulomatosis|behcet|henoch|anca
+Medicine | Rheumatology | Scleroderma, myositis & Sjogren | sclero|myositis|sjogren|raynaud|polymyalgia
+Medicine | Endocrinology | Diabetes & DKA | ketoacidosis|\bdka\b|hypoglyc|type 1 diabetes|type i diabetes|fruit juice|excessively sweating|hba1c|diabetes (control|management)|insulin (dose|regimen)|newly diagnosed (type 2 )?diabetes
+Medicine | Endocrinology | Thyroid | thyroid|\btsh\b|graves|hashimoto|goit|levothyrox|thyroxin
+Medicine | Endocrinology | Adrenal & pituitary | adrenal|cushing|addison|cortisol|pheochromo|aldosteron|pituitar|prolactin|acromegal|insipidus|unable to breastfeed
+Medicine | Endocrinology | Calcium, bone & vitamin D | parathyroid|osteopor|vitamin d|\bpth\b|paget|hypercalc|calcitriol
+Medicine | Nephrology & Electrolytes | Potassium & acid-base | kal(a)?emia|potassium|peaked t|acidosis|alkalosis|anion gap|calcium gluconate
+Medicine | Nephrology & Electrolytes | Sodium & water | hyponat|hypernat|siadh|serum sodium
+Medicine | Nephrology & Electrolytes | AKI & rhabdomyolysis | acute kidney|\baki\b|acute renal|tubular necrosis|rhabdo|dip-?stick positive for (large )?blood
+Medicine | Nephrology & Electrolytes | CKD, anemia of CKD & dialysis | chronic kidney|\bckd\b|chronic renal|renal failure|end-?stage renal|dialysis|erythropoietin|transplant
+Medicine | Nephrology & Electrolytes | Glomerular disease | nephrotic|nephritic|glomerul|proteinuria|iga nephro
+Medicine | Nephrology & Electrolytes | UTI, pyelonephritis & stones | pyelonephritis|urinary tract infection|renal stone|kidney stone|flank pain|cystitis
+Medicine | Hematology & Oncology | Anemia & hemoglobinopathies | anemia|\biron\b|\bb12\b|folate|ferritin|thalass|hemoly|sickle|g6pd|electrophoresis|pallor
+Medicine | Hematology & Oncology | Bleeding & platelets | thrombocytopeni|\bitp\b|\bttp\b|hemophilia|von willebrand|\bdic\b
+Medicine | Hematology & Oncology | DVT & anticoagulation | \bdvt\b|deep vein|leg swelling|anticoag|warfarin|heparin|doac|apixaban|rivaroxaban
+Medicine | Hematology & Oncology | Leukemia, lymphoma & myeloma | leukemia|lymphoma|myeloma|polycythemia|myeloprolif
+Medicine | Neurology | Stroke & TIA | stroke|\btia\b|transient ischemic|hemipar|carotid
+Medicine | Neurology | Seizures & epilepsy | seizure|epilep|convuls
+Medicine | Neurology | Headache | headache|migraine|cluster|subarachnoid
+Medicine | Neurology | Neuromuscular: GBS, MG, neuropathy | guillain|myasthenia|neuropath|motor neuron|\bals\b
+Medicine | Neurology | Movement disorders & dementia | parkinson|tremor|dementia|alzheimer|huntington
+Medicine | Cardiology | Pericardial & myocardial disease | pericard|tamponade|myocarditis|cardiomyopathy
+Medicine | Cardiology | Valve disease & endocarditis | valv|murmur|aortic stenosis|mitral|regurgitation|endocarditis|rheumatic|\bavr\b
+Medicine | Cardiology | Acute coronary syndrome & angina | myocardial infarction|stemi|nstemi|coronary|angina|troponin|st elevation|retrosternal|chest pain|\bpci\b
+Medicine | Cardiology | Heart failure | heart failure|ejection fraction|\bbnp\b|nyha|class ii
+Medicine | Cardiology | Arrhythmias & AF | atrial fibrillation|flutter|tachycardia|bradycardia|heart block|arrhythm|\bqt\b|wpw|palpitation
+Medicine | Cardiology | Hypertension & lipids | hypertension|blood pressure|lipid|cholesterol|statin|\bldl\b
+Medicine | Pulmonology | Pulmonary embolism | pulmonary embol|d-dimer|ctpa|ventilation-perfusion
+Medicine | Pulmonology | Asthma | asthma|wheez|car repair|workplace exposure|occupational
+Medicine | Pulmonology | COPD | copd|emphysema|chronic bronchitis|ipratropium|tiotropium|long history of smoking
+Medicine | Pulmonology | Pneumonia & sepsis | pneumonia|consolidation|productive cough|sputum|sepsis|septic
+Medicine | Pulmonology | Pleural disease & pneumothorax | pleural|pneumothorax|effusion|empyema
+Medicine | Pulmonology | Interstitial lung disease & sarcoidosis | interstitial|fibrosis|sarcoid|asbestos|clubbing|high-resolution ct|plumber
+Medicine | Pulmonology | Lung cancer & nodules | lung cancer|lung mass|nodule|bronchogenic|small cell|hemoptysis
+Medicine | Pulmonology | Sleep apnea & chronic cough | sleep|snor|somnolence|chronic cough|spirometry
+Medicine | Gastroenterology & Hepatology | Liver: hepatitis & cirrhosis | hepat|liver|cirrho|ascites|varic|encephalopathy|jaundice|bilirubin
+Medicine | Gastroenterology & Hepatology | Pancreas & biliary | pancrea|gallstone|biliary|cholang|cholecyst
+Medicine | Gastroenterology & Hepatology | IBD | colitis|crohn|inflammatory bowel
+Medicine | Gastroenterology & Hepatology | Esophagus, GERD & PUD | dysphagia|esophag|gerd|reflux|dyspepsia|peptic|h\. ?pylori|gastric
+Medicine | Gastroenterology & Hepatology | Diarrhea, celiac & IBS | diarrh|celiac|irritable bowel|malabsorp|constipation
+Medicine | Gastroenterology & Hepatology | GI bleeding & colon cancer screening | melena|hematochezia|colorectal|colonoscopy|fecal occult|polyp
+Medicine | Rheumatology | Osteoarthritis & joint/back pain | osteoarth|septic arthritis|joint|back pain|fibromyalgia
+Medicine | Infectious disease | Vaccines & other infections | vaccin|infection|antibiotic|fever
+Medicine | Other medicine | Psychiatry, ethics & other | .

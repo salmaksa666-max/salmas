@@ -31,6 +31,9 @@ body { font-family: "DejaVu Sans", Arial, sans-serif; line-height: 1.3; color: #
 .hd { font-weight: bold; font-size: .9em; margin-bottom: .6mm; }
 .hd span { float: right; font-weight: normal; }
 .sec { font-size: .85em; font-style: italic; }
+.dh { break-after: avoid; background: #000; color: #fff; font-weight: bold; padding: .6mm 1.5mm; margin: 1.5mm 0 .5mm; border-radius: 1mm; }
+.toc .ts { font-weight: bold; margin-top: 2mm; border-bottom: .6pt solid #000; break-after: avoid; }
+.toc .tr { display: flex; justify-content: space-between; border-bottom: .3pt dotted #888; padding: .4mm 0; break-inside: avoid; }
 .o { padding-left: 3.2mm; text-indent: -3.2mm; }
 .page.ak { column-count: 2; }
 .it { break-inside: avoid; margin-bottom: 1.2mm; border-bottom: 0.3pt dashed #000; padding-bottom: .8mm; }
@@ -60,8 +63,8 @@ model = list(json.loads(c.execute("select models from col").fetchone()[0]).value
 names = [f["name"] for f in model["flds"]]
 rows = [dict(zip(names, r[0].split("\x1f"))) for r in c.execute("select flds from notes order by id")]
 
-OB = re.compile(r"pregnan|gestation|primigravida|multigravida|trimester|antenatal|postpartum|puerper|\blabou?r\b|\bdelivery|fetal|fetus|placent|eclampsia|gravid|lactat|breastfe|\bg\d ?p\d|cesarean|weeks'? (of )?(gestation|pregnan)|\bobstetric|amniotic|contraction")
-GYN = re.compile(r"menstr|amenorrh|ovar|uter(us|ine)|endometri|contracepti|menopaus|vagin|pcos|polycystic|fibroid|leiomyoma|cervi(x|cal) (cancer|screening|dysplasia|smear)|pap smear|\bhpv|infertil|pelvic inflammatory|vulv|dysmenorrh|prolapse|hirsut|mammogra|breast|cervix|ectopic|\bhcg|galactorrh|prolactin|oligomenorrh")
+OB = re.compile(r"abortion|miscarriage|pregnan|gestation|primigravida|multigravida|trimester|antenatal|postpartum|puerper|\blabou?r\b|\bdelivery|fetal|fetus|placent|eclampsia|gravid|lactat|breastfe|\bg\d ?p\d|cesarean|weeks'? (of )?(gestation|pregnan)|\bobstetric|amniotic|contraction")
+GYN = re.compile(r"her period|incontinence|urine leak|adnexal|fertility|postcoital|hot flash|overactive bladder|cervical mass|menstr|amenorrh|ovar|uter(us|ine)|endometri|contracepti|menopaus|vagin|pcos|polycystic|fibroid|leiomyoma|cervi(x|cal) (cancer|screening|dysplasia|smear)|pap smear|\bhpv|infertil|pelvic inflammatory|vulv|dysmenorrh|prolapse|hirsut|mammogra|breast|cervix|ectopic|\bhcg|galactorrh|prolactin|oligomenorrh")
 MED = [("Rheumatology", r"lupus|arthritis|gout|spondyl|vasculit|scleroderma|systemic sclerosis|myositis|sjogren|fibromyalgia|osteoarth|joint|polymyalgia|behcet|raynaud|sle\b"),
        ("Pulmonology", r"pulmonary|lung|copd|asthma|pneumonia|pleural|dyspnea|shortness of breath|cough|sarcoid|bronch|oxygen|spirometry|wheez"),
        ("Cardiology", r"cardiac|heart|chest pain|hypertension|atrial|myocard|coronary|ecg|murmur|valv|aort|angina|arrhythm|syncope|blood pressure"),
@@ -74,8 +77,13 @@ MED = [("Rheumatology", r"lupus|arthritis|gout|spondyl|vasculit|scleroderma|syst
 SECT = {"OB": "OB", "GYN": "GYN"}
 
 
+OB_STRONG = re.compile(r"gestation|weeks pregnant|weeks' pregnant|pregnant (woman|patient)|trimester|primigravida|multigravida|gravid|postpartum|post-partum|delivered|delivery|\blabou?r\b|antenatal|fetal|fetus|placent|eclampsia|abortion|miscarriage|\bpg\b|\bg\d")
+
+
 def classify(text):
     t = text.lower()
+    if GYN.search(t) and not OB_STRONG.search(t):
+        return "GYN", "Gynecology"
     if OB.search(t):
         return "OB", "Obstetrics"
     if GYN.search(t):
@@ -84,6 +92,22 @@ def classify(text):
         if re.search(pat, t):
             return "Medicine", name
     return "Medicine", "Other medicine"
+
+
+DIS = []
+for ln in open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "gb_diseases.txt"), encoding="utf-8"):
+    if ln.strip() and not ln.startswith("#"):
+        pt, sc, dn, rx = [x.strip() for x in ln.split("|", 3)]
+        DIS.append((pt, sc, dn, re.compile(rx)))
+
+
+def disease(part, sec, text):
+    """first matching disease line of this part (Medicine: any section, so the disease decides the section)"""
+    t = text.lower()
+    for i, (pt, sc, dn, rx) in enumerate(DIS):
+        if pt == part and (part == "Medicine" or sc == sec) and rx.search(t):
+            return i, dn, sc
+    return 999, sec, sec
 
 
 NOTES = {}
@@ -128,7 +152,8 @@ for r in rows:
     flag = " ⚠" if r["AnswerState"] != "confirmed" or not sa else ""
     part, sec = classify(stem + " " + " ".join(t for _, t in opts))
     l2, l1, flip = NOTES.get(r["QNo"], ([], [], ""))
-    items.append(dict(qid=r["QNo"], stem=stem, opts=opts, ans=sa or "— no firm answer in the source", flag=flag, part=part, sec=sec, l2=l2, l1=l1, flip=flip))
+    di, dn, sec = disease(part, sec, stem + " " + " ".join(t for _, t in opts) + " " + sa)
+    items.append(dict(qid=r["QNo"], stem=stem, opts=opts, ans=sa or "— no firm answer in the source", flag=flag, part=part, sec=sec, l2=l2, l1=l1, flip=flip, di=di, dn=dn))
 
 LAT = re.compile(r"[A-Za-z][A-Za-z0-9'’\-/.+%±]*(?: (?:[A-Za-z0-9±][A-Za-z0-9'’\-/.+%±]*|\+|/))*")
 
@@ -162,22 +187,34 @@ def build(items, out):
     if cur:
         chunks.append(cur)
 
-    pages, num = [], 0
+    pages, num, last, toc = [], 0, [None], []
     for g in range(0, len(chunks), 2):
         ak, first = "", num + 1
         for ch in chunks[g:g + 2]:
             start, body = num + 1, ""
             for it in ch:
                 num += 1
+                if it["dn"] != last[0]:
+                    last[0] = it["dn"]
+                    body += f'<div class="dh">{html.escape(it["dn"])}</div>'
+                    toc.append((it["sec"], it["dn"], num))
                 o = "".join(f'<div class="o"><bdi dir="ltr">{k}. {annot.annotate_text(html.escape(t), labs=False)}</bdi></div>' for k, t in it["opts"])
                 if not it["opts"]:
                     o = ""
                 body += (f'<div class="q"><div class="hd">{num}) <span>{it["qid"]}</span></div>'
-                         f'<div class="sec" dir="ltr">{it["sec"]}</div><div dir="ltr">{annot.annotate_html(hilite(it["stem"], it["l2"], it["l1"]))}</div>{o}</div>')
+                         f'<div class="sec" dir="ltr">{it["sec"]} › {html.escape(it["dn"])}</div><div dir="ltr">{annot.annotate_html(hilite(it["stem"], it["l2"], it["l1"]))}</div>{o}</div>')
                 ak += answer_item(num, it)
             pages.append(f'<div class="page"><div class="ph">Questions {start}–{num}</div>{body}</div>')
         pages.append(f'<div class="page ak"><div class="ph">Answers {first}–{num}</div>{ak}</div>')
 
+    ends = [n - 1 for _, _, n in toc[1:]] + [num]
+    rows, cur_sec = "", None
+    for (sc, dn, n), e in zip(toc, ends):
+        if sc != cur_sec:
+            cur_sec = sc
+            rows += f'<div class="ts">{html.escape(sc)}</div>'
+        rows += f'<div class="tr"><span>{html.escape(dn)}</span><span>Q {n}–{e} ({e - n + 1})</span></div>'
+    pages.insert(0, f'<div class="page toc"><div class="ph">Contents — by disease</div>{rows}</div>')
     doc = f'<html><head><meta charset="utf-8"><style>{CSS}</style></head><body>{"".join(pages)}{FIT}</body></html>'
     src = os.path.join(tempfile.mkdtemp(), "x.html")
     open(src, "w", encoding="utf-8").write(doc)
@@ -188,6 +225,6 @@ os.makedirs(OUT, exist_ok=True)
 ORDER = {n: i for i, (n, _) in enumerate(MED)}
 for part in ("Medicine", "OB", "GYN"):
     sub = [it for it in items if it["part"] == part]
-    sub.sort(key=lambda it: (ORDER.get(next((n for n, _ in MED if n == it["sec"]), ""), 99) if part == "Medicine" else 0, it["qid"]))
+    sub.sort(key=lambda it: (ORDER.get(it["sec"], 99) if part == "Medicine" else 0, it["di"], it["qid"]))
     print(part, end=": ")
     build(sub, os.path.join(OUT, f"MKJ_GB_{part}.pdf"))
