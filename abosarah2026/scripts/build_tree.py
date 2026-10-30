@@ -35,11 +35,11 @@ body {{ width: {W}px; margin: 0; padding: 18px 16px 22px; color: #ececec; font-f
 .tree {{ position: relative; display: grid; grid-template-columns: 1fr 1fr; column-gap: 46px; margin-top: 14px; padding-top: 10px; }}
 .tree:before {{ content: ""; position: absolute; top: -14px; bottom: 30px; left: 50%; border-left: 3px solid #555; transform: translateX(-1.5px); }}
 .br {{ position: relative; margin: 12px 0; }}
-.br:nth-child(odd) {{ grid-column: 1; }}
-.br:nth-child(even) {{ grid-column: 2; }}
+.tc.r {{ grid-column: 1; }}
+.tc.l {{ grid-column: 2; }}
 .br .bh {{ position: relative; border-radius: 14px; padding: 8px 12px; font-weight: 700; font-size: 18px; color: #111; text-align: center; }}
-.br:nth-child(odd) .bh:after {{ content: ""; position: absolute; top: 50%; left: -26px; width: 26px; border-top: 3px solid #555; }}
-.br:nth-child(even) .bh:after {{ content: ""; position: absolute; top: 50%; right: -26px; width: 26px; border-top: 3px solid #555; }}
+.tc.r .bh:after {{ content: ""; position: absolute; top: 50%; left: -26px; width: 26px; border-top: 3px solid #555; }}
+.tc.l .bh:after {{ content: ""; position: absolute; top: 50%; right: -26px; width: 26px; border-top: 3px solid #555; }}
 .kids {{ margin: 6px 14px 0 0; padding-right: 14px; border-right: 2px solid #3a3a3f; }}
 .k {{ position: relative; background: #17171a; border: 1px solid #34343a; border-radius: 12px; padding: 7px 10px; margin: 8px 0; font-size: 15px; }}
 .k:before {{ content: ""; position: absolute; top: 16px; right: -16px; width: 14px; border-top: 2px solid #3a3a3f; }}
@@ -53,7 +53,8 @@ body {{ width: {W}px; margin: 0; padding: 18px 16px 22px; color: #ececec; font-f
 .ref {{ color: #8fb8ff; font-size: .85em; font-weight: 400; }}
 """
 
-LAT = re.compile(r"[A-Za-z][A-Za-z0-9'’\-/.+%±↑↓]*(?: (?:[A-Za-z0-9±][A-Za-z0-9'’\-/.+%±]*|\+|/))*")
+LAT = re.compile(r"[A-Za-z][A-Za-z0-9'’\-/.+%±↑↓]*(?::[A-Za-z0-9]+)*(?: (?:[A-Za-z0-9±][A-Za-z0-9'’\-/.+%±]*(?::[A-Za-z0-9]+)*|\+|/))*"
+                 r"|\d[\d.,]*(?: ?[–\-/×] ?\d[\d.,]*)+%?")  # Latin runs, and number ranges like 15–20 (kept LTR)
 
 
 def e(t):
@@ -109,9 +110,15 @@ def render(block):
     if intro.strip():
         out += f'<div class="intro">{e(intro)}</div>'
     out += '<div class="tree">'
+    cols, load = [[], []], [0, 0]  # balance the two sides by text length so neither column runs empty
     for i, (h, kids) in enumerate(branches):
         col = COLORS[i % len(COLORS)]
-        out += f'<div class="br"><div class="bh" style="background:{col}">{e(h)}</div><div class="kids">{"".join(kids)}</div></div>'
+        html_ = f'<div class="br"><div class="bh" style="background:{col}">{e(h)}</div><div class="kids">{"".join(kids)}</div></div>'
+        w = len(re.sub(r"<[^>]+>", "", html_)) + 60 * (len(kids) + 1)
+        side = 0 if load[0] <= load[1] else 1
+        cols[side].append(html_)
+        load[side] += w
+    out += f'<div class="tc r">{"".join(cols[0])}</div><div class="tc l">{"".join(cols[1])}</div>'
     if summary:
         lines = [x for x in re.split(r"(?<=[.:])\s+", summary) if x.strip()]
         out += '<div class="sum">' + "".join(f'<div dir="rtl">{e(x.strip(" ."))}</div>' for x in lines) + '</div>'
@@ -127,6 +134,16 @@ def shot(doc, png):
     subprocess.run([CHROME, "--no-sandbox", "--hide-scrollbars", "--force-device-scale-factor=2", f"--window-size={W},{h + 4}",
                     "--virtual-time-budget=2000", f"--screenshot={png}", "file://" + src], check=True, capture_output=True)
 
+
+COMPACT = """
+.mp { line-height: 1.38; padding: 8px 10px 10px; }
+.k { padding: 4px 9px; margin: 5px 0; }
+.br { margin: 6px 0; }
+.tree { margin-top: 8px; padding-top: 4px; }
+.intro { margin-top: 6px; }
+.sum { margin-top: 8px; padding: 6px 12px; }
+.arrow { margin: -3px 0; }
+"""
 
 PRINT = """
 @page { size: A4; margin: 0; }
@@ -176,7 +193,7 @@ def main():
             shot(f'<html><head><meta charset="utf-8"><style>{CSS}</style></head><body>{render(b)}</body></html>',
                  os.path.join(PNG_DIR, f"tree_{i:03d}.png"))
     # vector PDF (sharp at any zoom), ~4 maps per A4 page in two columns
-    css = CSS.replace("html, body { background: #0e0e10; }", "").replace("body {", ".mp {", 1)
+    css = (CSS + (COMPACT if os.environ.get('COMPACT') else '')).replace("html, body { background: #0e0e10; }", "").replace("body {", ".mp {", 1)
     doc = (f'<html><head><meta charset="utf-8"><style>{css}{PRINT}</style></head><body><div class="stage">'
            + "".join(f'<div class="mp">{render(b)}</div>' for b in blocks) + f"</div>{PACK}</body></html>")
     src = os.path.join(tempfile.mkdtemp(), "all.html")

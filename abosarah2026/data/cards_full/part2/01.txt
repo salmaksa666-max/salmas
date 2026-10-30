@@ -1,0 +1,177 @@
+@ 1 | Electrolytes & Renal: الـABG والصوديوم والبوتاسيوم
+> p: امشي بالترتيب كل مرة، حتى لو الجواب "باين". الاختبار يحط أرقام قريبة من الطبيعي عشان يطيحك.
+> h: قراءة الـABG بأربع خطوات
+> box: ١. شوفي الـpH :: أقل من 7.35 = acidemia. أكثر من 7.45 = alkalemia ;; ٢. وش المشكلة الأساسية؟ :: HCO3 يمشي مع الـpH = metabolic. PCO2 = respiratory ;; ٣. احسبي الـcompensation المتوقع :: Metabolic alkalosis: PCO2 يرتفع 0.7 × ΔHCO3. Metabolic acidosis: PCO2 = 1.5×HCO3 + 8 (±2) ;; ٤. قارني :: يطابق = compensated. ما يطابق = mixed أو uncompensated
+> note: فخ: pH 7.8 مع PCO2 "طبيعي" 44 = مو compensated. الـpH المتطرف ما يجي مع PCO2 طبيعي لو فيه compensation.
+> h: Metabolic alkalosis
+> list: Urine chloride أقل من 15–20 = chloride-responsive (ترجيع، NG suction) ← Isotonic saline ;; NG suction طويل ← يضيع H+ و Cl- ← hypochloremic hypokalemic alkalosis ;; ضغط عالي ما ينضبط + K واطي + alkalosis ← Conn (aldosterone:renin ratio)
+> h: Hyponatremia (Na أقل من 135)
+> box: أول شي :: Serum osmolality واطية = hyponatremia حقيقية ;; Hypovolemic (جفاف، ترجيع، إسهال، diuretics) :: Isotonic saline ;; Euvolemic (SIADH، hypothyroid، بعد العمليات، شرب ماء كثير، beer) :: Fluid restriction ;; Hypervolemic (HF، cirrhosis، nephrotic، CKD) :: Restriction ± diuretic
+> note: الشدة تحدد السرعة: نوبات أو coma أو نعاس شديد ← 3% hypertonic saline مهما كان السبب. لا تصححين أكثر من 8–10 بـ24 ساعة (osmotic demyelination).
+> h: البوتاسيوم
+> list: أي مشكلة K ← ECG أول شي ;; Hyperkalemia بالـECG: peaked T ← PR طويل وP تختفي ← QRS عريض ← sine wave ← VF ;; Hypokalemia: T مسطحة، ST depression، U waves، QT طويل ;; لو ECG مو بالخيارات ← افحصي عضلات التنفس ;; IV KCl لازم مخفف وبالـinfusion، أبدًا push ;; خفيف ويقدر ياكل ← oral
+> h: الأعراض: كيف أفرق؟
+> two: ضعف بدون ألم :: Hyperkalemia ;; ألم عضلات + تشنج + tetany :: Hypocalcemia
+> list: البوتاسيوم ما يسبب confusion. خطره على القلب والعضلات ;; CKD أو dialysis بالسؤال ← افترضي hyperkalemia إلا لو كاتب رقم واطي
+> sum: يعني باختصار: ABG = 4 خطوات. Hyponatremia = osmolality ثم الـvolume. K = ECG أول.
+
+@ 2 | Electrolytes & Renal: الكلى المزمنة و Nephrotic والحصى
+> h: CKD-MBD (العظام مع الكلى)
+> box: GFR ينزل :: الفوسفات ما يطلع ← hyperphosphatemia ;; الفوسفات يمسك الكالسيوم :: hypocalcemia (ويقل active vitamin D) ;; النتيجة :: Secondary hyperparathyroidism ← renal osteodystrophy (ألم عظام) ;; الأكل :: قللي الطماطم والبطاطس والموز (K عالي)
+> h: Nephrotic syndrome
+> list: Proteinuria أكثر من 3.5 g/day + albumin واطي + تورم + cholesterol عالي ;; يجلط (يضيع antithrombin III) ويجيه infections (يضيع Ig) ;; Fatty casts ("Maltese cross") ;; كلها تحتاج biopsy إلا diabetic nephropathy
+> h: Diabetic kidney disease
+> list: UACR واحد عالي مو تشخيص ;; لازم 2 من 3 قراءات عالية خلال 3–6 شهور ;; أول خطوة بعد قراءة وحدة عالية ← أعيديها
+> h: الوقاية من الحصى حسب النوع
+> list: Calcium stones ← thiazide + كالسيوم طبيعي بالأكل (لا تمنعينه) + ملح أقل + citrate ;; Uric acid ← allopurinol + قلوية البول ;; Cystine ← سوائل كثير + قلوية + penicillamine ;; Struvite ← عالجي الـUTI
+> h: Tumor lysis و ADPKD
+> list: TLS: K ↑ + phosphate ↑ + uric acid ↑ + calcium ↓ ;; QT طويل = "3 Hypos": K، Mg، Ca ;; ADPKD: قريب درجة أولى ← Renal ultrasound أول
+> sum: يعني باختصار: CKD = فوسفات ↑ وكالسيوم ↓. UACR = أعيديه. Calcium stones = لا تمنعين الكالسيوم.
+
+@ 3 | Diabetes Mellitus: التشخيص والنوع والإنسولين
+> h: الأرقام اللي تشخص
+> list: Fasting 7.0 mmol/L (126 mg/dL) أو أكثر ;; Random 11.1 mmol/L (200 mg/dL) أو أكثر ;; A1c 6.5% أو أكثر
+> h: تحليل واحد غير طبيعي: وش أسوي؟
+> box: فيه أعراض كلاسيكية (عطش + كثرة بول + نقص وزن) :: قراءة وحدة تكفي ← ابدئي metformin ;; ما فيه أعراض :: لازم تحليل ثاني يأكد ;; التحليلين بمدى السكري :: مؤكد ;; واحد سكري وواحد pre-DM :: أعيدي التحليل اللي طلع بمدى السكري
+> note: "عطش وتعب أحيانًا" مو أعراض كلاسيكية واضحة. السؤال هذا فيه خلاف.
+> h: Type 1 ولا Type 2؟
+> two: Type 1 :: C-peptide واطي (ما فيه إنسولين من الجسم) ;; Type 2 :: C-peptide طبيعي أو عالي
+> list: C-peptide واطي يغلب أي "known T2DM" مكتوب بالسؤال. صدقي التحليل ;; MODY: C-peptide طبيعي + تاريخ عائلي بأجيال كثيرة
+> h: Hypoglycemia: أي إنسولين أخفف؟
+> list: حول الأكل أو بعده ← خففي الـbolus (lispro، aspart، glulisine) ;; بالليل أو الصباح أو صايم أو طول اليوم ← خففي الـbasal (glargine، degludec، detemir) ;; بعد الرياضة رغم إنه أكل ← خففي الـbolus قبل الرياضة
+> note: هذا من أكثر شي يتكرر بالبنك (3–4 مرات). احفظيه.
+> sum: يعني باختصار: أعراض + قراءة = تشخيص. C-peptide واطي = Type 1. بعد الأكل = bolus. بالليل = basal.
+
+@ 4 | Diabetes Mellitus: DKA والعلاج والمضاعفات
+> h: DKA: كيف أعرفه؟
+> list: لازم 2 من 3: سكر أكثر من 11 mmol/L (200)، ketones (ريحة فواكه)، HCO3 أقل من 15 أو pH أقل من 7.3 ;; Euglycemic DKA: bicarbonate واطي + ريحة فواكه + سكر شبه طبيعي ← SGLT2 inhibitor أو ترجيع أو ما ياكل ;; Bicarbonate طبيعي = مو DKA حتى مع الريحة (لو Na أقل من 125 فكري hyponatremia)
+> h: DKA: نعالج
+> box: أول :: IV fluids ;; بعدها :: IV regular insulin infusion (مو تحت الجلد) ;; نكمل الإنسولين :: لين يقفل الـanion gap، مو لين السكر يطبع ;; السكر تحت 250 والـgap مفتوح :: أضيفي dextrose وكملي الإنسولين
+> note: وقفي الإنسولين بس لو K أقل من 3.3 لين تعوضينه. Sodium bicarbonate مو علاج روتيني حتى مع pH 7.0–7.15.
+> h: العلاج حسب الحالة
+> list: أول دواء لـT2DM ← Metformin للكل (سمين أو لا). GLP-1 دايمًا إضافة ;; T2DM + قلب أو كلى ← أضيفي SGLT2i (dapagliflozin) أو GLP-1 مهما كان الـGFR ;; نخفف العلاج بس لو خطر hypoglycemia عالي (75 سنة أو أكثر، سكر من 10–20 سنة، مضاعفات، على إنسولين) ;; T1DM ← لا sulfonylureas أبدًا
+> h: حالات ثانية
+> list: طفل جديد T1DM بدون DKA ← علمي العائلة على الإنسولين الحين ;; فيه DKA ← ثبتي أول وبعدين التعليم ;; سكر متذبذب + شبع بسرعة + انتفاخ بسكري قديم ← Gastroparesis ← Gastric emptying scan (مو منظار)
+> sum: يعني باختصار: DKA = سوائل ثم IV insulin لين يقفل الـgap. T2DM = metformin. قلب أو كلى = SGLT2i.
+
+@ 5 | Hypertension: الأهداف والأدوية والأسباب
+> h: الهدف حسب الحالة
+> list: Ischemic stroke قبل tPA ← أقل من 180/105 ;; Intracerebral hemorrhage (SBP 150–220) ← SBP 130–140 لمدة 7 أيام على الأقل ;; TIA وراح ← علاج عادي، ACE-I أفضل ;; 60 سنة أو أكثر (JNC) ← SBP أقل من 150 ;; DM + CKD ← أقل من 125/70 ;; متى نبدأ دواء ← 140/90 أو أكثر. أو 130/80 لو فيه CVD أو DM أو CKD أو خطر 10 سنين 7.5% أو أكثر (غير كذا lifestyle 3–6 شهور)
+> note: انتبهي السؤال على أي guideline (JNC ولا AHA/ACC). الرقم يتغير خصوصًا عند الكبار.
+> h: الدواء حسب المرض المصاحب
+> two: سكري أو proteinuria أو CKD :: ACE-I (أو ARB). يحمي الكلية ;; حمل :: Labetalol أو Nifedipine أو Methyldopa. ACE-I و ARB ممنوعة
+> list: بعد TIA أو stroke ← ACE-I
+> h: الأعراض الجانبية
+> list: ACE-I ← كحة ناشفة + angioedema ← حولي لـARB (تغيير ACE-I لثاني ما يفيد) ;; Thiazide ← Na واطي، K واطي، سكر عالي، uric acid عالي ;; Loop ← ما يسبب hyponatremia مثل thiazide
+> h: Secondary hypertension
+> list: ضغط ما ينضبط + كلية صغيرة من جهة ← Renal artery stenosis ← Renal Doppler US ;; Palpitation + تعرق + احمرار + صداع على نوبات ← Pheochromocytoma ← Plasma/urine metanephrines (alpha blocker قبل beta) ;; ضغط ما ينضبط + K واطي + alkalosis ← Conn ← Aldosterone:renin ratio
+> note: Resistant HTN = ما انضبط على 3 أدوية. Lifestyle (ملح أقل، نقص وزن، DASH، رياضة، وقف تدخين) هو الأساس، وغالبًا الجواب "الأشمل" لو المريض عنده عوامل خطر كثيرة.
+> sum: يعني باختصار: سكري أو كلى = ACE-I. حامل = labetalol. كحة من ACE-I = ARB.
+
+@ 6 | Lipid Disorders: متى نبدأ statin؟
+> h: High-intensity statin مباشرة
+> list: LDL 4.9 mmol/L (190) أو أكثر ;; ASCVD موجود (MI، stroke، أي شريان) حتى لو LDL طبيعي تمامًا ;; سكري مع مضاعفات (micro أو macro)
+> h: سكري بدون مضاعفات
+> list: Moderate-intensity statin أو أكثر
+> h: غير كذا: حسب العمر
+> list: أكبر من 75 ← غالبًا لا ;; أصغر من 40 ← بس لو LDL 4.0 أو أكثر + تاريخ عائلي مبكر ;; 40–75 ← احسبي خطر 10 سنين: أقل من 5% lifestyle، 5–20% moderate (أو high لو فيه risk enhancers)، أكثر من 20% high ;; Risk enhancers: TG 175 أو أكثر، LDL 160 أو أكثر، CRP عالي، coronary calcium عالي
+> h: LDL ما نزل رغم أعلى جرعة
+> list: الفرق بسيط (حوالي 25%) ← Ezetimibe ;; الفرق كبير (بدون ASCVD أكثر من 3.0، مع ASCVD أكثر من 2.5) ← Evolocumab (PCSK9i) ;; Evolocumab مو بالخيارات ← اختاري Ezetimibe
+> h: Triglycerides
+> box: أول :: Lifestyle ;; الخطر أكثر من 5% :: Statin ;; TG 150–500 :: Omega-3 ;; TG أكثر من 500 :: Fibrate (أو Omega-3 لو خطر القلب عالي)
+> note: Fibrates ما تقلل خطر القلب. Omega-3 تقلل. لو السؤال "يقلل CVS risk" ← Omega-3 حتى لو TG أكثر من 500.
+> h: الأهداف وأشياء ثانية
+> list: LDL بدون ASCVD أقل من 2.5 (100) ;; LDL مع ASCVD أقل من 2.0 (70) ;; TG أقل من 1.7 (150) ;; أفضل أكل للقلب: Mediterranean. DASH لو موجود يغلبه ;; Screening للأطفال: كلهم بعمر 9–11 ;; Statin: ألم عضلات بدون ضعف شائع ;; Lipid profile ناقص ← "cannot be determined" ;; NASH ← نقص وزن + vitamin E. AST/ALT حوالي 1000 + ANA + globulin عالي ← autoimmune hepatitis ← prednisolone
+> sum: يعني باختصار: بعد MI = high statin مهما كان LDL. Fibrate ما يحمي القلب، Omega-3 يحمي.
+
+@ 7 | Ischemic Heart Disease: التشخيص والـSTEMI
+> h: أي فحص؟
+> box: دايمًا أول :: Resting ECG ;; طبيعي ويقدر يمشي :: Exercise ECG ;; ما يقدر يمشي أو ST مو طبيعي من قبل (LBBB أو LVH) :: Dobutamine stress echo أو myocardial perfusion ;; تغيرات ST حادة الحين :: STEMI أو NSTEMI
+> list: LBBB قديم + أعراض مزمنة ← stable angina ← perfusion ;; LBBB جديد + أعراض حادة ← مثل STEMI ← PCI ;; Wall-motion abnormality بالـecho = أبكر علامة MI ← angiography حتى لو ECG شبه طبيعي
+> h: STEMI
+> list: STEMI و PCI موجود ← PCI (أكثر قاعدة تتكرر) ;; ما فيه PCI ← tPA، أو نقل لـPCI لو السؤال "best" والنقل ممكن ;; Inferior MI (II، III، aVF) ← Right-sided ECG، ولو RV infarct لا nitrates ;; NSTEMI (ST depression + troponin) ← Aspirin + clopidogrel + heparin، وangiography بعدين
+> h: موانع الـtPA
+> list: Hemorrhagic stroke بأي وقت = ممنوع ;; Ischemic stroke أقل من 3 شهور = ممنوع ;; اسألي عن نزيف أو stroke قريب ;; Sildenafil يهم مع nitrates، مو مع tPA
+> h: مضاعفات بعد MI (2–5 أيام)
+> two: VSD rupture :: Holosystolic، بدون انتشار أو عند الـsternum ;; Acute MR :: Mid-systolic، ينتشر للـaxilla
+> list: الاثنين يسببون cardiogenic shock. الانتشار هو اللي يفرق
+> sum: يعني باختصار: STEMI = PCI. Inferior = right-sided ECG. Axilla = MR. Sternum = VSD.
+
+@ 8 | Ischemic Heart Disease: Heart failure والحالات الخاصة
+> h: Angina خاصة
+> list: Prinzmetal: ألم بالليل يروح مع nitrate + angiogram نظيف ← CCB + nitrate، beta blocker ممنوع ;; Beta blocker يضر بـ3 C: Claudication، COPD، Coronary vasospasm ;; يحتاج rate control وعنده claudication ← Diltiazem أو verapamil (بس ممنوعة بـHFrEF)
+> h: Heart failure
+> list: HFrEF والنبض فوق 70 رغم أعلى beta blocker ← Ivabradine ;; ضيق تنفس ما ندري قلب ولا رئة ← BNP / NT-proBNP ;; Pulmonary edema حاد وهو صاحي ← IV furosemide + NIV. Intubation لو نقص الوعي أو فشل NIV ;; Murmur جديد + HF ← Cardiology referral
+> h: معلومات سريعة
+> list: Nitroglycerin يشتغل بتوسيع الأوردة ← يقلل preload ;; "أهم عامل خطر للـMI" بدون أرقام: أقل من 50 ← smoking، أكثر من 50 ← العمر ;; مع أرقام: BP 150 ← HTN، BP 140 ← smoking لو كثير
+> sum: يعني باختصار: Prinzmetal = CCB. HFrEF والنبض عالي = ivabradine. قلب ولا رئة = BNP.
+
+@ 9 | Atrial Fibrillation: المميع والسرعة
+> h: مين ياخذ مميع؟
+> list: CHA2DS2-VASc: 1 أو أكثر للرجل، 2 أو أكثر للمرأة ← مميع ;; 0 للرجل، 1 للمرأة ← لا مميع ولا aspirin (الإرشادات القديمة كانت تقول aspirin) ;; HTN و DM بالسكور. Dyslipidemia و التدخين لا ;; العمر: 75 أو أكثر = 2، 65–74 = 1
+> h: أي مميع؟
+> list: الأساس DOAC ;; Valvular AF (metallic valve أو mitral stenosis متوسط لشديد) ← Warfarin بدون حساب السكور ;; Lupus anticoagulant (antiphospholipid) ← Warfarin ;; GFR أقل من 15 ← Warfarin. أكثر من 15 ← Apixaban ;; HIT ← وقفي heparin وابدئي argatroban
+> note: Mitral regurgitation مو valvular AF، ولا أي مرض بالـaortic valve ← DOAC عادي.
+> h: CHADS2 (القديم)
+> list: CHF 1، HTN 1، Age 75 أو أكثر 1، DM 1، Stroke/TIA 2 ;; عمر 65 يحسب بـCHA2DS2-VASc بس ;; HF لازم علامات مكتوبة (JVP، S3، crackles)
+> h: Rate ولا Rhythm؟
+> list: AF لحاله ← أي beta blocker. Rhythm ← amiodarone أو cardioversion ;; AF + HF حاد (decompensated) ← Digoxin، لا beta blocker ;; AF + HFrEF بس palpitations ← MBC (metoprolol، bisoprolol، carvedilol)، ولو مو موجود ← digoxin ;; HFpEF ← أي beta blocker أفضل من digoxin ;; CCB ممنوعة بالـHFrEF ;; Cardioversion بس لو unstable
+> h: Amiodarone
+> list: يسبب hypo و hyperthyroidism ;; أعراض نفسية (أرق، عصبية، قلق) ← افحصي TSH قبل ما تقولين نفسي
+> sum: يعني باختصار: Valvular = warfarin. غير كذا DOAC. AF + HF حاد = digoxin.
+
+@ 10 | Arrhythmias & Syncope
+> h: القاعدة الذهبية
+> box: SVT unstable :: Synchronized cardioversion ;; Ventricular unstable :: Defibrillation ;; Bradycardia (مستقر أو لا) :: Atropine أول، بعدها pacemaker. أبدًا cardioversion
+> list: SVT مستقر ← vagal maneuvers ثم Adenosine ;; Unstable = ضغط واطي، وعي ناقص، shock، HF، أو طيحة/إغماء حتى لو صاحي
+> h: Myocarditis
+> list: زكام قبل 2–3 أسابيع + ضيق مع المجهود + palpitations + gallop (S3) ± كبد كبير ;; أكثر علامة خاصة: Gallop ;; "Initial" لأي شي بالقلب ← ECG ;; "Most appropriate / best" ← Echo ;; Palpitations بس بدون علامات HF ← ECG هو الأول والأفضل
+> h: Syncope: عادي ولا خطير؟
+> two: Vasovagal (عادي) :: خوف، ألم، سحب دم، وقوف طويل، حر + دوخة قبلها. رعشات قصيرة عادي ← Reassure ;; Red flags :: مع المجهود، ألم صدر، palpitations، murmur جديد، تاريخ عائلي لوفاة مفاجئة
+> list: إغماء مع المجهود ← ECG ثم Echo ;; إغماء + murmur ← Echo (HOCM أو AS)
+> h: WPW + AF
+> list: كل الأدوية اللي تسد الـAV node ممنوعة: beta blocker، digoxin، verapamil، diltiazem ;; Amiodarone أفضل الموجود. Procainamide أو flecainide لو موجود أفضل
+> h: معلومات سريعة
+> list: رضيع + نبض 220–300 ← Pediatric SVT ;; ألم صدر بعد سفر + S1Q3T3 ← PE ;; ST elevation مقعر بكل الـleads بعد فيروس ← Viral pericarditis (Coxsackie B) ;; رياضي + تاريخ عائلي وفاة + QT طويل ← Beta blocker + رياضة خفيفة + ECG سنوي
+> sum: يعني باختصار: Brady = atropine. Unstable SVT = synchronized. Initial = ECG، Best = Echo.
+
+@ 11 | Valvular Heart Disease: الـMurmurs
+> h: نوع الـmurmur
+> list: MVP ← click + mid-late systolic ;; MR ← holosystolic ;; MS ← early diastolic + زيادة قبل الـsystole ;; AR ← early diastolic decrescendo ;; AS و HOCM ← crescendo-decrescendo systolic ;; VSD ← holosystolic بدون انتشار ;; TR/TS مثل MR/MS بس parasternal. PR/PS مثل AR/AS بس 2nd left ICS
+> h: الانتشار والحركات
+> list: MR ← axilla. AS ← carotids. VSD ← ما ينتشر ;; Right side يزيد مع الشهيق، left side مع الزفير ;; Hand grip: HCM ↓، AS ↓، MR ↑ ;; Squat: HCM ↓، AS ↑، MR ↑ ;; Valsalva: HCM ↑، AS ↓، MR ↓
+> note: HCM عكس الكل: يعلى مع Valsalva والوقوف (حجم أقل بالقلب).
+> h: Murmurs لها أسماء
+> list: Austin Flint (AR شديد) ← mid-diastolic بالـapex ;; Carey Coombs (rheumatic fever حاد) ← mid-diastolic ;; Machinery (PDA) ← continuous
+> h: متى نبدل الـvalve؟
+> list: أعراض (syncope، angina، dyspnea) ;; EF أقل من 50% ;; AS + aortic aneurysm أكثر من 5.5 سم ;; AS شديد جدًا (jet أكثر من 4.5–5 أو gradient أكثر من 50–60) حتى بدون أعراض ;; Murmur بس أو LVH بس أو "severe" بدون أعراض ← لا (التبديل بدون سبب يضر)
+> h: أي طريقة؟
+> list: AS أقل من 65 سنة ← SAVR ;; AS 65 أو أكثر + tricuspid ← TAVR ;; Bicuspid بأي عمر ← SAVR ;; AS عند الأطفال ← Balloon valvuloplasty ;; أي stenosis ثاني ← Balloon ;; أي regurgitation ← جراحة دايمًا
+> sum: يعني باختصار: Valsalva يعلي HCM بس. أعراض أو EF واطي = بدلي. Regurgitation = جراحة.
+
+@ 12 | Endocarditis Prophylaxis و أسئلة الـValves
+> h: Endocarditis prophylaxis: لازم الاثنين
+> two: الحالة :: Prosthetic valve، cyanotic heart disease، endocarditis قبل، CHD مصلح كامل (أول 6 شهور)، مصلح جزئي (طول العمر) ;; الإجراء :: الأسنان. Hernia repair أو thyroidectomy أو GI ما تحسب
+> list: الاثنين موجودين ← Amoxicillin oral ;; ما يقدر oral ← Ampicillin IV ;; حساسية penicillin ← Clindamycin ;; MVP أو MR/AS/MS شديد لحالهم ← ما يحتاجون ;; Metallic valve + hernia repair ← ما يحتاج
+> h: Aortic stenosis
+> box: أعراض أو EF واطي أو gradient عالي جدًا :: بدلي ;; ما فيه :: Echo كل 6 شهور حتى لو "severe"
+> h: Murmur ← التشخيص
+> list: Systolic للـcarotids + أعراض ← AS (مو sclerosis) ;; Click + late systolic يزيد بالوقوف ← MVP ;; Pansystolic للـaxilla بشاب ← Rheumatic MR ;; Diastolic يزيد مع الشهيق ← Pulmonary regurgitation ;; Diastolic يزيد وهو مايل قدام بالزفير ← AR ;; Apex منزاح + diastolic ← AR ;; Collapsing pulse + pulse pressure واسع ← AR شديد ;; Mid-diastolic بالـapex + rheumatic ← MS ;; S4 + systolic بالـRUSB + ضغط قديم ← AS ;; Thrill + نبض carotid مزدوج + رياضي طاح ← HOCM ;; Diastolic بالـ2nd left ICS + click ← Pulmonary stenosis
+> h: حالات تنحفظ
+> list: Rheumatic MS + AF ← Warfarin ;; أصعب valve بالحمل ← Mitral stenosis ;; Rheumatic حاد ← MR. مزمن ← MS ;; بعد Tetralogy repair + diastolic يزيد بالشهيق ← Pulmonary regurgitation ;; رقبة عريضة + hypertelorism + pulmonary stenosis ← Noonan ;; Steatorrhea: أي سبب قلبي ما يناسب؟ ← Left atrial myxoma
+> sum: يعني باختصار: Prophylaxis = حالة + أسنان. MVP ما يحتاج. Amoxicillin أول.
+
+@ 13 | Congenital Heart Disease
+> h: التقسيم
+> two: Acyanotic :: VSD (الأشهر)، ASD، AVSD (Down)، PDA (rubella وprematurity)، Coarctation (Turner) ;; Cyanotic (5 T) :: TGA، Tetralogy of Fallot، Tricuspid atresia، Truncus، TAPVR
+> list: أشهر cyanotic بشكل عام ← TOF. أشهر cyanotic عند المولود ← TGA ;; أي واحد شديد ممكن يصير ductus-dependent
+> h: Ductus-dependent
+> box: مولود أزرق يوم 1 وما يتحسن على O2 :: + فرق ضغط أو SpO2 بين فوق وتحت، نبض femoral غايب ;; العلاج أول :: IV Prostaglandin E1 (alprostadil) ;; بعدين :: جراحة
+> note: لا تعطين indomethacin أو NSAIDs: تقفل الـduct وممكن يموت. والأكسجين لحاله ما يصلح.
+> h: كل مرض
+> list: VSD ← يبان 3–6 شهور، holosystolic بدون انتشار، echo، diuretics ثم جراحة ;; ASD ← غالبًا بدون أعراض، الـmurmur من الـpulmonary valve ;; Coarctation ← ضغط فوق عالي وتحت واطي، رعاف ;; TOF ← PS + RVH + overriding aorta + VSD، boot-shaped ;; TGA ← egg on a string، prostaglandin ثم arterial switch ;; PDA ← machinery murmur
+> h: المتلازمات
+> list: Down ← AVSD ;; Turner ← Coarctation ;; Noonan ← Pulmonary stenosis ;; DiGeorge ← Truncus ;; Trisomy 13 ← VSD ;; Alagille ← Pulmonary stenosis ;; Rubella ← PDA ;; أم SLE (anti-Ro) ← Complete heart block ;; أم سكري ← Hypertrophic cardiomyopathy مؤقت
+> h: حالات ثانية
+> list: Tet spell (يبكي ويزرق) ← knee-chest، O2، propranolol، phenylephrine. ما فيه خيارات ← افحصيه بعد ما يهدأ ;; DCM + HF + edema ← Furosemide أول ;; نبض غير منتظم بس والطفل طبيعي ← Sinus arrhythmia عادي ;; Murmur جديد مع حرارة أو أنيميا ← Innocent murmur ;; Diastolic murmur دايمًا مرضي ← Echo
+> sum: يعني باختصار: أزرق يوم 1 = prostaglandin. Down = AVSD. Turner = coarctation.
