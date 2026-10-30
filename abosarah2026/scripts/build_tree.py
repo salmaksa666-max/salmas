@@ -85,7 +85,7 @@ LABREF = [
     (r"HCO3|bicarbonate(?! is)", "N 22–26 mmol/L"),
     (r"PCO2", "N 35–45 mmHg"),
     (r"(?<!urine )\bpH\b", "N 7.35–7.45"),
-    (r"\bCa\b|calcium(?! gluconate| stones| channel)", "N 2.15–2.6 mmol/L (8.5–10.5 mg/dL)"),
+    (r"\bCa\b|(?<!coronary )calcium(?! gluconate| stones| channel| score)", "N 2.15–2.6 mmol/L (8.5–10.5 mg/dL)"),
     (r"phosphate", "N 0.8–1.5 mmol/L"),
     (r"\bMg\b|magnesium", "N 0.7–1.0 mmol/L"),
     (r"uric acid", "N 200–420 µmol/L (3.5–7 mg/dL)"),
