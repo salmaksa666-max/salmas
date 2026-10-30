@@ -19,8 +19,7 @@ FRONT_TEMPLATE = """
   {{#OptC}}<div class="opt" data-k="C"><span class="t">{{OptC}}</span><div class="why" dir="rtl">{{WhyC}}</div></div>{{/OptC}}
   {{#OptD}}<div class="opt" data-k="D"><span class="t">{{OptD}}</span><div class="why" dir="rtl">{{WhyD}}</div></div>{{/OptD}}
 </div>
-<div id="expBtn" class="expBtn" style="display:none">الشرح الكامل ▾</div>
-<div id="exp" dir="rtl" style="display:none">{{Explain}}</div>
+<details id="expd" style="display:none"><summary id="expBtn" class="expBtn">الشرح الكامل ▾</summary><div id="exp" dir="rtl">{{Explain}}</div></details>
 <div id="correct" style="display:none">{{Correct}}</div>
 <div id="qid" style="display:none">{{QID}}</div>
 <script>
@@ -29,19 +28,20 @@ FRONT_TEMPLATE = """
   var opts = document.querySelectorAll('.opt');
   var expBox = document.getElementById('exp');
   var btn = document.getElementById('expBtn');
+  var box = document.getElementById('expd');  // native <details>: opens on tap even where scripts get no click (AnkiMobile)
   var key = 'pick_' + document.getElementById('qid').textContent.trim();
   function hasSelection() {
     var s = window.getSelection ? window.getSelection().toString() : '';
     return s && s.length > 0;
   }
   var known = Array.prototype.some.call(opts, function (o) { return o.dataset.k === correct; });
-  if (!opts.length) { btn.style.display = 'block'; }
+  if (!opts.length) { box.style.display = 'block'; }
   function reveal(picked) {
     if (!known) {
       opts.forEach(function (o) { o.classList.add('done'); });
-      btn.style.display = 'block';
+      box.style.display = 'block';
       var m0 = expBox.querySelector('#memo');
-      if (m0) btn.parentNode.insertBefore(m0, btn);
+      if (m0) box.parentNode.insertBefore(m0, box);
       return;
     }
     opts.forEach(function (o) {
@@ -54,15 +54,12 @@ FRONT_TEMPLATE = """
         if (k === picked) o.classList.add('picked');
       }
     });
-    btn.style.display = 'block';
+    box.style.display = 'block';
     var memo = expBox.querySelector('#memo');
-    if (memo) btn.parentNode.insertBefore(memo, btn);
+    if (memo) box.parentNode.insertBefore(memo, box);
   }
-  btn.addEventListener('click', function () {
-    if (hasSelection()) return;
-    var open = expBox.style.display === 'block';
-    expBox.style.display = open ? 'none' : 'block';
-    btn.textContent = open ? 'الشرح الكامل ▾' : 'إخفاء الشرح ▴';
+  box.addEventListener('toggle', function () {
+    btn.textContent = box.open ? 'إخفاء الشرح ▴' : 'الشرح الكامل ▾';
   });
   opts.forEach(function (o) {
     o.addEventListener('click', function () {
@@ -98,6 +95,8 @@ CSS = """
 .opt.right { background:#d4f5dd; border-color:#2e9e56; }
 .opt.picked { background:#fde0e0; border-color:#d33; }
 .opt.picked .t { text-decoration:line-through; }
+#expd > summary { list-style:none; }
+#expd > summary::-webkit-details-marker { display:none; }
 .expBtn { display:block; text-align:center; background:#2e9e56; color:#fff; padding:8px; border-radius:8px; margin-top:8px; text-decoration:none; direction:rtl; }
 #exp { margin-top:8px; direction:rtl; text-align:right; }
 #exp .star-badge { background:#fff3cd; border:2px solid #e0a800; color:#7a5c00; padding:10px; border-radius:10px; margin-bottom:10px; font-weight:bold; text-align:center; direction:rtl; }
