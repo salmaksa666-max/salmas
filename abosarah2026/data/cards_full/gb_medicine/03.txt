@@ -1,0 +1,23 @@
+@ 11 | الغدد: الغدة والسكري
+> h: الغدة الدرقية
+> list: ★ تعب + زيادة وزن ← TSH أول ;; ★ Nodule ← TSH أول ;; ★ TSH عالي ← Thyroxine ;; ★ نعاس + إمساك + antibodies ← Hashimoto ;; ★ ألم بالرقبة بعد زكام بـ3 أسابيع ← Subacute thyroiditis ;; ★ Hyperthyroid + goiter عقدي + antibodies سلبية ← Toxic nodular goiter
+> h: السكري
+> list: ★ نعسان + تعرق + سكر واطي وهو صاحي ← Fruit juice ;; ★ Type 1 + microalbuminuria ← ACE inhibitor ;; ★ ESRD + Ca واطي و PTH عالي ← Calcitriol
+> h: الـPituitary بعد الولادة
+> list: ★ ما قدرت ترضع والدورة ما رجعت ← Sheehan ← TSH (وباقي الهرمونات)
+> sum: يعني باختصار: أي شي بالغدة = TSH أول. ألم بعد زكام = subacute. Sheehan = ما رضعت.
+
+@ 12 | Rheumatology
+> h: SLE
+> list: ★ ألم ورك على steroids ← Avascular necrosis ;; ★ Neuropsychiatric lupus ← Steroids + cyclophosphamide ;; ★ مفاصل نشطة ← Prednisolone + methotrexate ;; ★ بروتين بالبول ← Kidney biopsy ;; ★ Class I ← Control BP ;; ★ Raynaud + ضعف عضلات + PIP ← Anti-RNP ;; ★ SLE + ضعف رجلين مفاجئ ← LP + MRI spinal cord (transverse myelitis) ;; ★ على MMF وتبي تحمل ← حولي لـazathioprine ;; ★ APS (إجهاضات + طفح) ← Warfarin طول العمر
+> h: RA
+> list: ★ PIP و wrists + ركبة ← MTX + HCQ + prednisone ;; ★ على MTX + adalimumab + حرارة ← وقفي العلاج وابدئي antibiotics ;; ★ ركبة متورمة + حرارة ← Arthrocentesis ;; ★ على prednisone ← خففيه وابدئي MTX ;; ★ نشط رغم العلاج ← Biologic
+> h: Gout والظهر
+> list: ★ Gout crystals ← Needle-shaped, negatively birefringent ;; ★ Gout + psoriasis + ما تحسن ← Psoriatic arthritis ;; ★ Gout بعد HF ← Lasix ;; ★ ألم ظهر صباحي + ركب ← Ankylosing spondylitis ← MRI sacroiliac
+> h: أمراض ثانية
+> list: ★ Sjögren + K واطي ← RTA type 1 ;; ★ Scleroderma + ضغط + رؤية ← Renal crisis ← Lisinopril ;; ★ طفح بالأرجل + ألم بطن + ركب ← HSP ;; ★ OA بالركبة ← لا فحوص زيادة
+> sum: يعني باختصار: Steroids + ورك = AVN. Scleroderma crisis = ACE-I. RA + حرارة = arthrocentesis.
+
+@ 13 | الدم: الأنيميا
+> list: ★ Celiac + يحب الثلج + IDA ← IV iron (ما يمتص) ;; ★ IDA عادي ← Oral iron ;; ★ كبير + أنيميا ← Fecal occult blood (أو colonoscopy) ;; ★ طفل كان يحتاج نقل دم كثير ← Hb electrophoresis ;; ★ أنيميا + طحال + hemolysis ← Corticosteroids (AIHA) ;; ★ قبل عملية + أنيميا ← Iron studies
+> sum: يعني باختصار: IDA ما يمتص = IV iron. كبير + IDA = دوري نزيف GI.

@@ -1,0 +1,41 @@
+@ 5 | Preeclampsia و Eclampsia والضغط بالحمل
+> h: التشخيص
+> list: ضغط 140/90 أو أكثر بعد 20 أسبوع + proteinuria ;; ★ صداع + زغللة + ألم بطن ← Preeclampsia شديدة ;; ★ ألم RUQ ← تمدد كبسولة الكبد ;; ★ أكثر شي ينقص ← Plasma volume ;; ★ توأم ← خطر أعلى
+> h: نعالج
+> list: ★ ضغط عالي بالـ32 أسبوع ← Admit + antihypertensive ;; ★ الدواء ← Labetalol (أو nifedipine، hydralazine) ;; ★ ليش نعالج الضغط؟ ← نحمي الأم من stroke ;; ★ منع التشنج ← Magnesium sulfate ;; ★ 38 أسبوع + ضغط 170/110 + بروتين ← Magnesium ثم delivery ;; ★ 33 أسبوع + 160/110 ← Induction للولادة
+> h: Eclampsia (تشنج)
+> box: ★ أول شي :: Open and maintain airway ;; ★ وقف التشنج :: Magnesium sulfate ;; ★ بعد ما استقرت :: Delivery
+> h: الضغط المزمن والأدوية
+> list: ★ ممنوع: ACE-I (lisinopril، captopril) و ARB ← يضرون كلى الجنين ;; ★ تخطط للحمل ← حولي من ACE-I ;; ★ ضغط مزمن 140/90 ← Methyldopa ;; ★ preeclampsia قبل ← Aspirin من 12 أسبوع ;; ★ ضغط + سكري تحجز ← راجعي أدويتها
+> sum: يعني باختصار: التشنج = magnesium. الضغط = labetalol. ACE-I ممنوع. العلاج النهائي = الولادة.
+
+@ 6 | السكري بالحمل والسائل الأمنيوسي
+> h: Gestational diabetes
+> list: ★ OGTT بدري لو ← سكري حمل قبل، سمنة، تاريخ عائلي ;; ★ أول علاج ← Diet ;; ★ ما انضبط ← Insulin ;; ★ مدخنة + عوامل خطر ← أهم شي تتركه: Smoking
+> h: المضاعفات
+> list: ★ سكري ما انضبط ← Polyhydramnios ;; ★ المولود ← RDS، hypoglycemia، macrosomia ;; ★ IDDM من سنين ← Congenital malformations ترتفع ;; ★ ولادة مبكرة + سكري ← Steroids + insulin زيادة + tocolytic
+> h: السائل
+> two: Polyhydramnios :: سكري، anencephaly (ما يبلع) ;; Oligohydramnios :: Placental insufficiency، كلى الجنين، PROM
+> sum: يعني باختصار: سكري الحمل = diet أول. Polyhydramnios = سكري. Oligo = مشيمة ضعيفة.
+
+@ 7 | الولادة المبكرة و PROM
+> h: Preterm labor
+> list: ★ انقباضات منتظمة 30 أسبوع ← Vaginal exam (dilation) ;; ★ العلاج ← Steroids (للرئة: RDS) + tocolytic (nifedipine) + GBS prophylaxis ;; ★ Magnesium قبل 32 أسبوع ← يحمي مخ الجنين ;; ★ 27 أسبوع + 6 سم ← Steroids ;; ★ أخرنا الولادة عشان الـsteroids تشتغل ;; ★ Beta mimetics ← Palpitations ;; ★ Indomethacin ← يقفل الـductus
+> h: Cervical incompetence
+> list: ★ cervix أقل من 25 مم ← خطر ;; ★ ولادة بدون ألم بالـ22 أسبوع قبل ← Cerclage
+> h: PROM
+> box: ★ تأكيد :: Sterile speculum (لا فحص بالأصابع) ;; ★ Preterm PROM :: Erythromycin + ampicillin + dexamethasone ;; ★ حرارة + إفراز ريحته سيئة :: Chorioamnionitis ← Ampicillin + gentamicin + deliver ;; ★ Term PROM 24 ساعة :: Induction
+> sum: يعني باختصار: Preterm = steroids. PROM = speculum + erythromycin. حرارة = chorioamnionitis = ولّدي.
+
+@ 8 | الولادة: المراحل و CTG
+> h: الـCTG
+> list: ★ Early deceleration ← ضغط على رأس الجنين (طبيعي) ;; ★ Variable ← ضغط الحبل السري ;; ★ Late ← قصور المشيمة ;; ★ Cord prolapse ← Variable + bradycardia ;; ★ Baseline 180 ← Fetal tachycardia
+> h: CTG مو زين: وش أسوي؟
+> box: ★ أول شي :: غيري وضعية الأم + سوائل + وقفي oxytocin ;; ★ ما تحسن + الولادة بعيدة :: Emergency cesarean ;; ★ Fully dilated + الرأس +3 :: Instrumental delivery ;; ★ 10 سم والرأس -3 + CTG سيء :: Cesarean
+> h: تقدم الولادة
+> list: ★ Latent phase طويلة أكثر من 8 ساعات (multipara) ;; ★ بطيئة + CTG زين ← Augmentation (oxytocin) ;; ★ 34 أسبوع + 4 سم + membranes intact ← Rupture the membranes ;; ★ انقباضات + الرأس ما ينزل ← Obstructed labor
+> h: Induction
+> list: ★ Cervix مقفل وطويل ← Prostaglandin E2 مهبلي ;; ★ 41–42 أسبوع ← Induction ;; ★ فشل induction ← Cesarean
+> h: Presentation
+> list: ★ رأس بالأعلى + ركب ممدودة ← Frank breech ;; ★ توأم الاثنين رأس ← Vaginal ;; ★ Mono-mono أو الأول breech ← Cesarean
+> sum: يعني باختصار: Late = مشيمة. Variable = حبل. CTG سيء = وضعية أول ثم cesarean.

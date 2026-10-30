@@ -1,0 +1,44 @@
+@ 1 | الإجهاض (Miscarriage): أي نوع؟
+> p: المفتاح: عنق الرحم مفتوح ولا مقفل؟ والجنين طالع ولا لا؟
+> h: الأنواع
+> box: ★ Threatened :: نزيف + cervix مقفل + جنين حي ← Conservative ;; ★ Inevitable :: cervix مفتوح + الجنين لسا داخل ;; ★ Incomplete :: cervix مفتوح + طلع شي وبقى شي ← Evacuation ;; ★ Complete :: طلع كله + cervix مقفل ← Reassure ;; ★ Missed :: جنين ميت + cervix مقفل + ما طلع شي ← Misoprostol أو expectant ;; ★ Septic :: حرارة + تعبانة ← Admit، antibiotics، evacuation
+> h: كيف نتعامل؟
+> list: ★ أول شي ← Pelvic assessment (speculum) ;; ★ بعدين ← Transvaginal ultrasound ;; ★ 5 أسابيع وما فيه شي واضح ← Pregnancy of uncertain viability ← أعيدي ;; ★ بنت 15 سنة + inevitable ← Dilatation and curettage
+> h: الأسباب
+> list: ★ أشهر سبب ← Chromosomal abnormality ;; ★ إجهاض متكرر ← Karyotyping ;; ★ عمر 50 ← الخطر 10–50% ;; ★ إجهاض في الثلث الثاني بدون ألم ← Cervical incompetence ← Cerclage بالحمل الجاي ;; ★ مدخنة أكثر من 20 سيجارة ← Smoking
+> h: أنواع النزيف حسب الوقت
+> list: ★ قبل الولادة (32 أسبوع) ← Antepartum ;; ★ أثناء الولادة ← Intrapartum ;; ★ أول 24 ساعة بعد الولادة ← Early postpartum ;; ★ بعد 24 ساعة لين 12 أسبوع ← Late postpartum
+> sum: يعني باختصار: مقفل + حي = threatened. مفتوح = inevitable. طلع بعضه = incomplete. ميت ومقفل = missed.
+
+@ 2 | Ectopic pregnancy و Molar pregnancy
+> h: Ectopic: كيف يجي؟
+> list: ★ ألم بطن + نزيف بسيط + حمل 6–8 أسابيع ;; ★ ألم ينتشر للكتف + دوخة ← Ruptured ← Laparotomy ;; ★ أول علامة نزيف داخلي ← Tachycardia ;; ★ IUD أو IVF ← خطر أعلى ;; ★ أول خطوة ← Pregnancy test ;; ★ ما فيه كيس داخل ولا برا ← أعيدي β-hCG بعد 48 ساعة
+> h: Methotrexate: متى؟
+> list: ★ مستقرة + بدون ألم شديد + كيس صغير ← Methotrexate ;; ★ كيس 4 سم أو أكثر ← Surgery ;; ★ IVF + الجهتين متضررة ← شيلي الأنبوبين
+> h: بعد Methotrexate
+> box: ★ β-hCG نزل 15% بين اليوم 4 و 7 :: أعيدي كل أسبوع ;; ★ ما نزل (plateau) :: جرعة ثانية ;; ★ ألم شديد أو نزيف داخلي :: Surgery ;; ★ ألم خفيف بعد 8 أيام :: طبيعي ← Reassure
+> h: Molar pregnancy
+> list: ★ نزيف + رحم أكبر من العمر + vesicles + snowstorm ← Complete mole ;; ★ العلاج ← Suction evacuation ;; ★ المتابعة ← β-hCG أسبوعي لين يصير سلبي، بعدين شهري 6 شهور ;; ★ β-hCG ثابت أو يرتفع ← Oncology + methotrexate ;; ★ Mass بالمهبل بعد mole ← Metastatic workup بدون biopsy (تنزف)
+> sum: يعني باختصار: ألم للكتف = ruptured = laparotomy. ما نزل β-hCG = جرعة ثانية. Snowstorm = suction.
+
+@ 3 | نزيف قبل الولادة: Previa و Abruption
+> h: Previa ولا Abruption؟
+> two: ★ Placenta previa :: نزيف بدون ألم + رحم لين + جنين بخير ;; ★ Abruption :: نزيف مع ألم + رحم قاسي ومؤلم + CTG مو زين + مدخنة أو ضغط
+> h: أول شي
+> list: ★ نزيف + ألم بالـ33 أسبوع ← خطين وريد كبار ;; ★ نزيف بدون ألم ← Ultrasound يحدد مكان المشيمة (لا فحص مهبلي) ;; ★ Low-lying + نزيف خفيف ← CTG
+> h: Previa: العلاج
+> list: ★ 27 أسبوع + نزيف قليل + مستقرة ← Steroids ;; ★ 37 أسبوع + نزيف ← Cesarean (immediately) ;; ★ Previa + accreta ← Elective cesarean 36–37 أسبوع ;; ★ قيصريات قبل + previa ← خطر Accreta ;; ★ Previa مع ← Multigestation
+> h: Abruption: العلاج
+> list: ★ نزيف كثير + fetal distress ← Cesarean ;; ★ الجنين ميت + cervix 5 سم ← Augmentation of labor ;; ★ نزيف بعد abruption ← Coagulopathy correction (DIC) ;; ★ تحسن ← High-risk + ultrasound متابعة
+> h: Uterine rupture
+> list: ★ قيصريات كثيرة أو oxytocin/prostaglandin + ألم فجأة + shock ← Uterine rupture ← Immediate laparotomy
+> sum: يعني باختصار: بدون ألم = previa = US. مع ألم + رحم قاسي = abruption. ألم مفاجئ + قيصرية = rupture.
+
+@ 4 | النزيف بعد الولادة (PPH)
+> h: الأسباب (4 T)
+> list: ★ Tone (الأشهر): Uterine atony ← توأم، طفل كبير، ولادة طويلة أو سريعة جدًا، ولادات كثيرة ;; ★ Trauma ← تمزق بعد forceps أو طفل كبير ;; ★ Tissue ← مشيمة باقية ;; ★ Thrombin ← ITP، DIC
+> h: كيف نتعامل؟
+> box: ★ أول شي :: Call for help + خطين + دم ;; ★ بعدين :: افحصي انقباض الرحم ;; ★ Atony :: Oxytocin 20 وحدة IV ثم misoprostol ;; ما وقف :: ربط internal iliac artery ;; ★ الرحم منقبض :: دوري تمزق
+> h: حالات خاصة
+> list: ★ المشيمة ما طلعت بعد 30 دقيقة ← Manual extraction ;; ★ Manual removal ← خطر infection ;; ★ Inverted uterus ← المشيمة كانت Fundal ;; ★ أم ITP ← Platelets ;; ★ على heparin + نزيف ← Protamine ;; ★ تمزق يوصل للـrectal mucosa ← Fourth degree
+> sum: يعني باختصار: الأشهر atony = oxytocin. منقبض ويخر = تمزق. المشيمة بعد 30 دقيقة = manual.

@@ -1,0 +1,73 @@
+@ 1 | Amenorrhea و Infertility
+> h: Amenorrhea
+> list: ★ أول فحص لأي amenorrhea ← Pregnancy test ;; ★ آخر دورة قبل 9 شهور + FSH عالي بعمر 26 ← Premature ovarian insufficiency ← HRT ;; ★ دورة قليلة + FSH عالي بعمر صغير ← Chromosomal analysis ;; ★ بنت 13 + شعر خفيف ← Tanner II ;; ★ ضغط على losartan + دورة متأخرة ← حامل؟ وقفي ARB وابدئي methyldopa
+> h: Infertility: كيف نفحص؟
+> box: ★ متى نبدأ؟ :: سنة بدون حمل (6 شهور لو أكبر من 35) ;; ★ الزوج :: Semen analysis ;; ★ الإباضة :: Progesterone يوم 21 ;; ★ الأنابيب :: HSG أو laparoscopy and dye test
+> h: Infertility: العلاج
+> list: ★ PCOS ← Clomiphene ;; ★ أخذت Clomid 3 مرات ← تأكدي من الزوج (semen) ;; ★ الدورة غير منتظمة ← Ovulatory dysfunction ;; ★ أنابيب مسدودة ← IVF ;; ★ كل شي طبيعي + HSG طبيعي ← Clomiphene ;; ★ كل شي طبيعي ← Diagnostic laparoscopy ;; ★ Fibroids + فشل IVF ← Myomectomy ;; ★ Prolactin عالي ← Bromocriptine
+> sum: يعني باختصار: Amenorrhea = حمل أول. PCOS = clomiphene. الأنابيب = laparoscopy and dye.
+
+@ 2 | AUB و Fibroids و Adenomyosis
+> h: النزيف غير الطبيعي
+> list: ★ نزيف بين الدورات ← β-hCG أول ;; ★ نزيف 15 يوم + دوخة ← CBC + β-hCG ← نقل دم لو Hb واطي ;; ★ نزيف كثير بسمنة + سكري + دورة غير منتظمة ← Chronic anovulation ;; ★ دورة تطول وتزيد + echogenic بالرحم ← Endometrial polyp ← Hysteroscopy ;; ★ نزيف بعد العلاقة + mass بالعنق ← Punch biopsy ;; ★ نزيف ثقيل بدون سبب ← Tranexamic acid ;; ★ ثقيل + تبي منع حمل ← COC
+> h: Fibroids
+> list: ★ بالصدفة بدون أعراض ← Conservative ;; ★ نزيف ثقيل + كتلة ← Ultrasound ;; ★ نزيف + anemia ← صححي الأنيميا ;; ★ Submucosal ← نزيف ثقيل ;; ★ قبل myomectomy ← GnRH يصغره ;; ★ تبي تحمل + تشوه بالرحم ← Uterine artery embolization (المصدر) أو myomectomy ;; ★ 50 سنة وفشل العلاج ← Hysterectomy ;; ★ Myomectomy دخلت التجويف ← قيصرية بالحمل الجاي
+> h: Adenomyosis
+> list: ★ امرأة ولادات كثيرة + ألم دورة يزيد + نزيف + رحم كبير ومؤلم ← Adenomyosis ;; ★ العلاج النهائي ← Hysterectomy
+> sum: يعني باختصار: أي نزيف = β-hCG أول. Fibroid بدون أعراض = اتركيه. Adenomyosis = hysterectomy.
+
+@ 3 | Endometrial hyperplasia و PMB
+> h: Postmenopausal bleeding
+> list: ★ أشهر سبب ← Endometrial atrophy ;; ★ أول فحص ← TVUS (أكثر من 4 مم ← biopsy) ;; ★ 8 مم ← Endometrial biopsy ;; ★ Fibroid + PMB ← لا تعتمدين عليه ← endometrial sample ;; ★ على estrogen لحاله + نزيف ← أضيفي progesterone
+> h: متى biopsy قبل المنوباوز؟
+> list: ★ عمر 45 أو أكثر + نزيف ;; ★ سمنة + سكري (unopposed estrogen) ;; ★ Endometrium سميك 23 مم
+> h: Hyperplasia: العلاج
+> box: ★ بدون atypia :: Progesterone ;; ★ Atypia + عمرها صغير تبي تحمل :: Oral progesterone ;; ★ Atypia + كبيرة :: Hysterectomy ;; ★ Atypia + ما تتحمل عملية :: Progesterone مستمر
+> sum: يعني باختصار: PMB أشهر سبب atrophy. Atypia = hysterectomy إلا لو تبي تحمل.
+
+@ 4 | Endometriosis و ألم الدورة و PMS
+> h: Dysmenorrhea
+> list: ★ أهم سؤال ← Menstrual history ;; ★ Primary (بنت صغيرة) ← NSAIDs ;; ★ ما نفع ← COC
+> h: Endometriosis
+> list: ★ ألم دورة + ألم وقت العلاقة + ألم مع البراز + infertility ;; ★ التشخيص ← Laparoscopy ;; ★ العلاج: NSAIDs ثم Progesterone (أو COC)
+> h: PMS
+> list: ★ صداع وقلق وألم صدر قبل الدورة بـ8–10 أيام وتروح ← Premenstrual syndrome
+> h: Menopause
+> list: ★ Hot flashes ← أول شي lifestyle ;; ★ ألم وقت العلاقة بعد المنوباوز ← Vaginal estrogen cream ;; ★ Estrogen لحاله مع رحم ← لازم progesterone
+> sum: يعني باختصار: Dysmenorrhea = NSAIDs ثم COC. Endometriosis = laparoscopy. Hot flashes = lifestyle.
+
+@ 5 | Ovarian masses
+> h: كيس بسيط
+> list: ★ بنت 20 + كيس بسيط 5 سم ← أعيدي بعد 6–8 أسابيع ;; ★ صغيرة + mass معقد 6 سم ← Cystectomy ;; ★ كبيرة 76 + mass معقد ← Gynecology oncology ;; ★ كيس بالقيصرية 5 سم ← Cystectomy
+> h: Torsion
+> list: ★ كيس + ألم مفاجئ + ترجيع + Doppler ضعيف ← Laparoscopic cystectomy (detorsion)
+> h: الأنواع
+> list: ★ سائل دهني ← Dermoid (cystic teratoma)
+> h: السرطان
+> list: ★ Tumor marker ← CA-125 ;; ★ Staging ← Surgical ;; ★ انتفاخ + ascites ← Surgery ثم chemo ;; ★ كيس معقد بكبيرة ← Pelvic MRI أو oncology
+> sum: يعني باختصار: بسيط بصغيرة = انتظري. معقد بكبيرة = oncology. Ovarian = CA-125 + surgical staging.
+
+@ 6 | العنق والمهبل والعدوى
+> h: Cervical screening
+> list: ★ Pap غير طبيعي ← Colposcopy ;; ★ نزيف بعد العلاقة ← Pap smear (أو biopsy لو فيه mass) ;; ★ Colposcopy غير مقنع ← Cold knife cone biopsy
+> h: الإفرازات
+> list: ★ أصفر + ريحة سمك ← Bacterial vaginosis (metronidazole) ;; ★ أبيض + حكة ← Candida ;; ★ زوجها عنده gonorrhea ← Endocervical swab
+> h: UTI عند النساء
+> list: ★ UTI بعد العلاقة ← Antibiotic بعد العلاقة ;; ★ Urgency + frequency ← Urine culture أول (قبل overactive bladder)
+> sum: يعني باختصار: Pap غير طبيعي = colposcopy. ريحة سمك = BV. أبيض = candida.
+
+@ 7 | Contraception
+> h: الاختيار حسب المريضة
+> list: ★ PE قبل ← IUD (لا estrogen) ;; ★ قلب + مميعات ← Progesterone pills ;; ★ Dysmenorrhea + ثقيلة ← COC ;; ★ أكثر وسيلة فعالة من الخيارات ← Vaginal ring (المصدر) ;; ★ حبوب منع + ضيق + ألم صدر ← CT angiography (PE)
+> h: infertility بعد وقف الحبوب
+> list: ★ 18 شهر بدون حمل ← فحص infertility لها ولزوجها
+> sum: يعني باختصار: جلطة قبل = IUD. قلب = progesterone. حبوب + ضيق = PE.
+
+@ 8 | Prolapse و Incontinence
+> h: Prolapse
+> list: ★ Cystocele (أمامي) + أعراض بول ← Anterior colporrhaphy ;; ★ Rectocele + تدفع المهبل عشان تتبرز ← Posterior colporrhaphy ;; ★ سمنة ← Rectocele ;; ★ بعد hysterectomy + vault prolapse ← Sacrospinous fixation ;; ★ Enterocele ← بعد استئصال الرحم ;; ★ كبيرة بالسن أو مريضة قلب أو ما تتحمل عملية ← Pessary ;; ★ بدون أعراض ← Reassure ;; ★ Grade 2 + أعراض خفيفة ← Pelvic floor exercises ;; ★ فشل العلاج المحافظ ← Surgery
+> h: Stress incontinence
+> list: ★ تسرب مع الكحة والضحك ← Hypermobile urethra ;; ★ التأكيد ← Cough test ;; ★ أول علاج ← Kegel (pelvic floor) ;; ★ أكثر فعالية ← Midurethral sling
+> h: Urge incontinence
+> list: ★ تسرب مفاجئ مع urgency ليل ونهار ← Anticholinergics ;; ★ قبل التشخيص ← Urine culture ;; ★ UTI متكرر + prolapse ← Post-void residual
+> sum: يعني باختصار: Stress = Kegel ثم sling. Urge = anticholinergic. ما تتحمل عملية = pessary.

@@ -1,0 +1,56 @@
+@ 6 | القلب: ACS والصمامات و HF
+> h: ACS
+> list: ★ STEMI بدون PCI ← Thrombolysis ;; ★ NSTEMI ← PCI (المصدر) ;; ★ أهم عامل خطر بدون أرقام ← العمر ;; ★ ألم صدر بعد stroke بشهر ← Urgent coronary angiography
+> h: الصمامات
+> list: ★ Corrigan pulse + early diastolic بالـleft sternal ← AR ← Surgical AVR ;; ★ Diastolic يزيد وهو مايل قدام ← AR ;; ★ Diastolic يزيد مع الشهيق ← Pulmonary regurgitation ;; ★ JVP v wave + كبد ينبض + ILD ← Tricuspid regurgitation ;; ★ كبير + ضيق مع المشي + أعراض ← Aortic stenosis
+> h: Endocarditis
+> list: ★ Mechanical valve + MRSA ← Vancomycin + rifampin + gentamicin
+> h: Heart failure و NYHA
+> list: ★ تعب مع المجهود العادي ← Class II ;; ★ Transudate effusion ← Heart failure ;; ★ Fluid overload + confusion ← Furosemide
+> h: Arrhythmia و Pericardium
+> list: ★ Palpitations ثم صار unstable ← Cardioversion ;; ★ JVP عالي + pulsus paradoxus + صوت قلب بعيد ← Pericardium (tamponade)
+> h: Shock
+> list: ★ Vasopressor + سوائل كافية + حرارة ← Septic shock ;; ★ ICU بعد pneumonia + LFT عالي ← Ischemic hepatitis
+> sum: يعني باختصار: Corrigan = AR. v wave = TR. Pulsus paradoxus = tamponade. Unstable = cardioversion.
+
+@ 7 | الضغط والدهون والتدخين
+> h: Hypertension
+> list: ★ سكري + ضغط ← ACE-I (ramipril) ;; ★ ضغط عالي بالعيادة بدون شي ← Ambulatory BP ;; ★ ما انضبط بالـlifestyle ← Lisinopril + amlodipine (لو مرتفع كثير) ;; ★ ARB ← Irbesartan (من الخيارات)
+> h: التدخين
+> list: ★ مدخن + angina ← Nicotine replacement (آمن للقلب) ;; ★ أعلى نجاح بشكل عام ← Varenicline
+> h: أدوية نفسية
+> list: ★ مريض نفسي على antipsychotic + حرارة + تيبس + confusion ← NMS ← Bromocriptine (أو dantrolene) ;; ★ Depression + عزلة ← أكثر شي يقلق: Social isolation
+> h: الذاكرة
+> list: ★ ينسى أسماء ويتذكر بعدين وحياته طبيعية ← Benign forgetfulness
+> sum: يعني باختصار: سكري = ACE-I. NMS = bromocriptine. مدخن بقلب = NRT.
+
+@ 8 | الجلطات: DVT و PE و Stroke
+> h: DVT و PE
+> list: ★ رجل متورمة بمريض سرطان ← DVT ;; ★ ضيق + hemoptysis بعد عملية ← CT pulmonary angiography ;; ★ جلطة كبيرة + ضيق صدر ← Unfractionated heparin ;; ★ بعد عملية سرطان ← Enoxaparin ;; ★ PE سابق + DVT جديد ← Long-term anticoagulation ;; ★ Massive PE ← Thrombolysis ;; ★ Confusion بعد إصابة الرجل والنوم ← PE
+> h: Warfarin
+> list: ★ INR غير مستقر بالبداية ← أعيدي INR بعد يومين ;; ★ Mitral stenosis + AF ← INR 2–3
+> h: Stroke و TIA
+> list: ★ ضعف ذراع 5 دقايق وراح ← Carotid duplex ;; ★ صحى ما يقدر يتكلم (أقل من 4.5 ساعة من آخر وقت طبيعي) ← rtPA ;; ★ Confusion وسلوك غريب ← ACA stroke ;; ★ نزيف كبير + papilledema ← Craniotomy
+> h: الصرع
+> list: ★ أول نوبة ← Head CT ;; ★ ما انضبطت وتبي تحمل ← Review medication (valproate)
+> sum: يعني باختصار: TIA = carotid duplex. PE بعد عملية = CTPA. Massive PE = thrombolysis.
+
+@ 9 | الكبد والجهاز الهضمي
+> h: Cirrhosis
+> list: ★ بعد علاج HCV ← Liver US كل 6 شهور (HCC) ;; ★ SAAG أكثر من 1.1 ← Portal hypertension (cirrhosis) ;; ★ Ascites تزيد بدون حرارة ← Therapeutic paracentesis ;; ★ Ascites + confusion ← Diuretic + spironolactone ;; ★ Varices بعد ligation ← Beta blocker طويل المدى ;; ★ Varices تنزف ← Octreotide ;; ★ Child-Pugh ← حسب السؤال (Stage B)
+> h: Fatty liver
+> list: ★ سكري + LFT عالي بدون أعراض ← NAFLD
+> h: IBD
+> list: ★ Crohn ← Non-caseating granuloma ;; ★ ألم بطن + إسهال بدم أحيانًا لشهور ← IBD ;; ★ إسهال بدم + tenesmus أسبوعين ← Colonoscopy
+> h: البلع
+> list: ★ GERD 10 سنين + صعوبة بلع للصلب ← Endoscopy
+> sum: يعني باختصار: Varices = octreotide ثم BB. SAAG أكثر من 1.1 = portal HTN.
+
+@ 10 | الكلى والأملاح
+> h: AKI
+> list: ★ تدريب عسكري + دوخة ← Pre-renal ← BUN/Cr أكثر من 20 ;; ★ ماراثون + dipstick دم بدون RBC ← Rhabdomyolysis ← Hydration ;; ★ بعد قسطرة + eosinophiluria ← Cholesterol emboli ;; ★ RA على HCQ + حرارة ← Acute interstitial nephritis ;; ★ تورم + بروتين + كرياتينين ← Acute GN أو biopsy ;; ★ بعد زكام بـ3 أيام ← IgA nephropathy
+> h: CKD
+> list: ★ أنيميا بـCKD 2 ← Iron studies أول ;; ★ CKD + أنيميا ← Erythropoietin deficiency ← Subcutaneous erythropoietin ;; ★ CKD + ألم عظام ← Oral calcitriol ;; ★ أهم سبب وفاة على dialysis ← Cardiovascular disease
+> h: البوتاسيوم والصوديوم
+> list: ★ Dialysis + K عالي ← Peaked T ;; ★ K عالي + ECG ← Calcium gluconate ;; ★ ترجيع بعد عملية + K واطي ← ECG أول ;; ★ ورم دماغ + Na واطي ← SIADH ;; ★ تصحيح Na بسرعة ← Central pontine myelinolysis ;; ★ TLS ← K ↑ + Ca ↓
+> sum: يعني باختصار: Dipstick دم بدون RBC = rhabdo. CKD أنيميا = EPO. Dialysis = يموتون من القلب.

@@ -1,0 +1,26 @@
+@ 9 | نمو الجنين والتوائم و Rh
+> h: IUGR و Post-term
+> list: ★ ارتفاع الرحم أقل ← Serial ultrasound ;; ★ أهم قياس ← Abdominal circumference ;; ★ Reversed end-diastolic flow ← Steroids + ولادة خلال أسبوع ;; ★ 41 أسبوع + CTG فيه decelerations ← Delivery ;; ★ قلة حركة الجنين ← CTG أول ;; ★ BPP مطمئن ← 8/10
+> h: التوائم
+> list: ★ Di-Di ← انقسام 0–72 ساعة ;; ★ Mono-Di ← 4–8 أيام ;; ★ Mono-Mono ← 9–12 يوم
+> h: Rh isoimmunization
+> list: ★ Rh negative + نزيف بالـ20 أسبوع ← Anti-D ;; ★ بعد الولادة ← 300 µg anti-D (يغطي 30 mL دم الجنين) ;; ★ أدق علامة ← Fetal ascites + skin edema (hydrops) ;; ★ Fetal anemia + 37 أسبوع ← Immediate delivery ;; ★ MCA Doppler عالي + hydrops ← Anti-Kell
+> sum: يعني باختصار: IUGR = AC. Rh negative + نزيف = anti-D. Hydrops = anemia.
+
+@ 10 | أمراض الأم بالحمل
+> h: القلب والجلطات
+> list: ★ أسوأ صمام بالحمل ← Mitral stenosis ;; ★ تعب مع المجهود العادي ← NYHA class II ;; ★ رجل متورمة ← Compression ultrasonography ;; ★ ضيق + الحمل ← V/Q scan ;; ★ ضيق + رجل منتفخة ← Doppler الرجل أول ;; ★ ألم صدر بعد الولادة بأسبوعين ← PE
+> h: الغدة والصرع
+> list: ★ Hypothyroid بالحمل ← Thyroxine ;; ★ تخطط تحمل + TSH عالي ← ابدئي thyroxine ;; ★ ممنوع بالـhyperthyroid ← Radioactive iodine ;; ★ Valproate ← Neural tube defect ;; ★ مستقرة على phenytoin 6 سنين ← كملي نفس الدواء
+> h: أمراض ثانية
+> list: ★ حكة + صفار بالثلث الأخير ← Bile acids + LFT (cholestasis) ;; ★ Sickle cell ← Folic acid 5 mg من البداية ;; ★ Sickle trait ← UTI أكثر ;; ★ SLE على Plaquenil ← كمليه ;; ★ الكرياتينين بالحمل ← ينزل ;; ★ حجم الدم ← يزيد 40–45%
+> h: العدوى
+> list: ★ Bacteriuria بدون أعراض ← Amoxicillin ;; ★ GBS positive بالولادة ← Ampicillin ;; ★ حرارة + ألم جنب ← Pyelonephritis ;; ★ Herpes ← acyclovir يقلل الإفراز ;; ★ Candida ← Topical antifungal ;; ★ HBsAg positive ← المولود: vaccine + immunoglobulin
+> sum: يعني باختصار: MS أسوأ صمام. Valproate = NTD. حكة + صفار = bile acids. HBsAg = vaccine + Ig.
+
+@ 11 | بعد الولادة ومتابعة الحمل
+> h: بعد الولادة
+> list: ★ تبكي وما تنام بعد أسبوع ← Postnatal depression (SSRI) ;; ★ Mastitis ← Antibiotics لـStaph + ultrasound ;; ★ ما تحسنت + كتلة قاسية ← Breast US + surgical review (abscess) ;; ★ مرضعة تبي حبوب منع ← المصدر: Combined pill (○ الأفضل عادة progestin-only)
+> h: المتابعة والـscreening
+> list: ★ موعد الولادة ← LMP + 9 شهور + 7 أيام ;; ★ أدق تحديد للعمر ← Crown-rump length ;; ★ Cystic hygroma بالـ12 أسبوع ← Chorionic villus sampling ;; ★ تشوهات قبل ← Anomaly scan 18–22 أسبوع ;; ★ حبوب androgenic وحامل ← Masculinization ;; ★ Rubella vaccine قبل الحمل بأسابيع ← النتيجة غالبًا طبيعية ;; ★ Prolapse grade 2 بالحمل ← Reassure ;; ★ Cyst 4 سم بالحمل ← Observation
+> sum: يعني باختصار: Dating = CRL. Hygroma = CVS. بكاء بعد الولادة = depression.

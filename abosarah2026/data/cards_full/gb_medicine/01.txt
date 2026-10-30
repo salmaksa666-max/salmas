@@ -1,0 +1,54 @@
+@ 1 | Asthma: الدرجات والنوبة
+> h: Asthma: نصعد العلاج درجة درجة
+> box: أعراض خفيفة أحيانًا :: Salbutamol (SABA) وقت الحاجة ;; ★ يرجع رغم salbutamol :: أضيفي Inhaled corticosteroid ;; ★ ما انضبط على ICS :: أضيفي LABA (salmeterol) ;; ★ أعراض يومية :: Low-dose ICS + LABA ;; ★ مع allergic rhinitis وما انضبط :: Leukotriene antagonist (montelukast)
+> h: أنواع خاصة
+> list: ★ ضيق بعد الرياضة ← Inhaled salbutamol قبلها ;; ★ ورشة سيارات + أعراض بالشغل ← Occupational asthma ← أعيدي spirometry بعد التعرض ;; ★ كحة ناشفة بس ← Methacholine challenge (cough-variant) ;; ★ Cough-variant وما تحسن ← أضيفي PPI (reflux) ;; ★ Asthma + polyps + aspirin ← وقفي aspirin و ibuprofen + montelukast ;; ★ Stridor مع الرياضة ← Vocal cord dysfunction ← ENT
+> h: نوبة شديدة
+> list: ★ علامة الخطر على الحياة ← Peak flow 30% أو أقل ;; ما يكمل الجمل + نعاس + صدر صامت ← Life-threatening ;; ★ ما تحسن بالأدوية ← IV Magnesium sulfate ;; ★ ما يقدر يتكلم ونعسان ← Intubation ;; ★ مراهق ما تحسن خلال 12 ساعة ← ICU
+> h: Asthma ولا COPD؟
+> two: Asthma :: شاب + allergy + يتحسن تمامًا بالـbronchodilator ;; COPD :: مدخن + كبير + ما يرجع طبيعي
+> sum: يعني باختصار: SABA ثم ICS ثم LABA. شديد ما تحسن = magnesium. نعسان = intubate.
+
+@ 2 | COPD والكحة المزمنة
+> h: التشخيص
+> list: ★ مدخن + كحة سنين ← Spirometry ;; ★ بلغم 3 شهور لسنتين ورا بعض ← Chronic bronchitis ;; FEV1/FVC أقل من 0.7 بعد bronchodilator
+> h: العلاج الثابت
+> box: ★ أول شي لكل مدخن :: Smoking cessation (★ NRT لو قلب) ;; أعراض قليلة :: SABA وقت الحاجة ;; أكثر :: LAMA (tiotropium) أو LABA ;; ★ نوبات متكررة على tiotropium :: LABA + ICS (salmeterol + fluticasone)
+> h: الأكسجين
+> list: ★ Home oxygen لو PaO2 أقل من 55 أو SpO2 88% أو أقل ;; ★ Cor pulmonale أو FEV1 40% مع hypoxia ← Long-term oxygen ;; الأكسجين و وقف التدخين هم اللي يطولون العمر
+> h: Exacerbation
+> list: ★ Nebulized salbutamol + ipratropium + steroids + antibiotics لو البلغم تغير ;; ★ صار نعسان على O2 4 لتر ← قللي الأكسجين (CO2 retention) ;; ★ Accessory muscles + gag reflex ضعيف ← Intubation
+> sum: يعني باختصار: وقف التدخين أول. نوبات = LABA + ICS. نعسان على O2 = قللي الأكسجين.
+
+@ 3 | الرئة: Pneumonia و Pleural و Nodules و ILD
+> h: Pneumonia
+> list: ★ صحي بدون أمراض ← Outpatient (cefuroxime + azithromycin) ;; ★ مستشفى ← Ceftriaxone + azithromycin ;; ★ ICU + لا رئة مزمنة ← Moxifloxacin (المصدر) ;; ★ Bronchitis: كحة + حلق + عضلات ← supportive ;; ★ ما تحسن بعد كورسين ← Bronchogenic cancer ;; ★ بعد pneumonia بأيام + hypoxia شديد ← ARDS ;; ★ sepsis + ضغط واطي ← 1000 mL saline
+> h: Pleural effusion
+> list: ★ Exudate: LDH السائل أكثر من 2/3 حد الـserum (Light) ;; ★ Effusion مع pneumonia ← Diagnostic thoracentesis ;; ★ Complicated: pH أقل من 7.2 ← drain ;; ★ Empyema بعد pneumonia ← Small-bore drain + pip-tazo ;; ★ Transudate ← Heart failure
+> h: Lung nodule
+> list: ★ 1 سم حدود واضحة ← CT بعد 3–6 شهور ;; ★ 2 مم ثابت 4 سنين ← لا شي ;; ★ 5 مم يكبر ← Thoracic surgery ;; ★ Hemoptysis + نقص وزن + mass ← قبل العملية: Pulmonary function tests ;; ★ مدخن + effusion كبيرة ← CT chest with contrast
+> h: ILD و Sarcoid و Sleep apnea
+> list: ★ سباك + clubbing + crackles ← High-resolution CT ;; ★ Hilar lymph nodes بالجهتين بدون أعراض ← Observe ;; ★ سمين + نعاس بالنهار + تورم ← Sleep study
+> sum: يعني باختصار: Pneumonia بالمستشفى = ceftriaxone + azithro. pH أقل من 7.2 = drain. ILD = HRCT.
+
+@ 4 | TB و HIV و STIs و Brucella
+> h: TB
+> list: ★ سجين + حرارة + نقص وزن + تعرق ليلي ← Ziehl-Neelsen stain ;; ★ العزل ← Standard + airborne ;; ★ TB meningitis ← RIPE + dexamethasone ;; ★ TB مع HIV ← ابدئي anti-TB لحاله أول (IRIS) ;; ★ HIV + PPD 6 مم ← Isoniazid + pyridoxine 9 شهور ;; ★ ممرضة PPD positive + X-ray طبيعي ← Isoniazid 6 شهور
+> h: HIV
+> list: ★ HIV + ضيق + cyanosis + infiltrates بالجهتين ← Pneumocystis jirovecii
+> h: STIs
+> list: ★ Urethral discharge بعد علاقة جديدة ← Azithromycin (+ ceftriaxone) ;; ★ تشخيص gonorrhea ← Urethral swab
+> h: Brucellosis
+> list: ★ سعودي + حرارة + ألم ظهر + gram-negative coccobacilli ← Brucella ;; ★ حليب غير مبستر + حرارة + تعرق ليلي ← Brucella serology ;; ★ ألم ظهر + حرارة + ما يقدر يمشي ← Brucella titers
+> sum: يعني باختصار: TB = Ziehl-Neelsen + airborne. HIV + PPD 5 مم أو أكثر = INH. حليب = brucella.
+
+@ 5 | العدوى: Neutropenia و Meningitis و UTI
+> h: Febrile neutropenia
+> list: ★ حرارة بعد chemo ← IV antibiotics بالمستشفى ;; ★ مع shock ← Meropenem ;; ★ Aspergillus بعد transplant ← Voriconazole ;; ★ Candida بالبول بدون أعراض ← لا علاج
+> h: Meningitis
+> list: ★ رجعت من مكة + حرارة + صداع ← Ceftriaxone + vancomycin ;; ★ حرارة + رقبة + طفح ← Lumbar puncture ;; ★ أسوأ صداع + رقبة ← LP لو CT طبيعي (SAH)
+> h: UTI
+> list: ★ امرأة + حرقان بدون حرارة ← Empiric (nitrofurantoin) ;; ★ Pyelonephritis بسيط ← Outpatient ciprofloxacin ;; ★ حرارة مستمرة بعد 5 أيام علاج ← Kidney ultrasound (abscess أو انسداد)
+> h: أشياء ثانية
+> list: ★ HPV vaccine: تأخرت الجرعة الثانية ← أعطيها اليوم (لا تعيدين) ;; ★ Shingles واضح ← ما يحتاج فحوص ;; ★ Paracetamol overdose ← N-acetylcysteine + charcoal
+> sum: يعني باختصار: Neutropenia + حرارة = IV antibiotics. حج + meningitis = ceftriaxone + vanco.
