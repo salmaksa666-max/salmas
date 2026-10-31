@@ -2,7 +2,8 @@
 """Mistake-review sheets: per topic, the similar questions (condensed) on the left with their answers underneath,
 and the basic idea on the right (points / small tree / table).  Black & white, A4 landscape, packed.
 
-usage: build_review.py SRC.txt OUT.pdf [SPECIALTY] [ONLY_SECTION]
+usage: build_review.py SRC.txt OUT.pdf [SPECIALTY] [ONLY_SECTION] [DECK.apkg]
+A question line may end with "@QNo"; with DECK.apkg the options of that card are printed under the question.
 SRC format:  "# Section"  "== Topic"  "q: text | answer"  "idea:" then lines: "## sub", "- point", "> a → b", "| a | b |"
 """
 import glob
@@ -15,7 +16,8 @@ import tempfile
 
 SRC, OUT = sys.argv[1], sys.argv[2]
 SPEC = sys.argv[3] if len(sys.argv) > 3 else "Medicine"
-ONLY = sys.argv[4] if len(sys.argv) > 4 else None
+ONLY = sys.argv[4] if len(sys.argv) > 4 and sys.argv[4] != "-" else None
+DECK = sys.argv[5] if len(sys.argv) > 5 else None
 CHROME = sorted(glob.glob("/opt/pw-browsers/chromium_headless_shell-*/*/chrome-headless-shell"))[-1]
 
 LAT = re.compile(r"[A-Za-z0-9][A-Za-z0-9'’\-/.+%±↑↓:]*(?: (?:[A-Za-z0-9±][A-Za-z0-9'’\-/.+%±:]*|\+|/|=|–))*")
@@ -36,6 +38,8 @@ body { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 8.6pt; line-hei
 .qs { padding: 1.5mm 2mm; border-right: 0.8pt solid #000; }
 .qs ol { margin: 0; padding-left: 5mm; }
 .qs li { margin-bottom: .7mm; }
+.opts { font-size: .9em; color: #222; padding-left: 1mm; }
+.opts span { margin-right: 3mm; white-space: nowrap; }
 .ans { margin-top: 1.5mm; border-top: 1pt solid #000; padding-top: 1mm; font-size: .95em; }
 .ans b.h { display: block; font-size: .85em; letter-spacing: .5px; }
 .ans span { display: inline-block; margin-right: 3.5mm; }
@@ -93,6 +97,23 @@ def idea_html(lines):
     return "".join(out).replace("</ul><ul>", "")
 
 
+def deck_options(path):
+    """{QNo: [(letter, text), ...]} from an MKJ-style apkg (collection.anki21)"""
+    import json
+    import sqlite3
+    import zipfile
+    d = tempfile.mkdtemp()
+    zipfile.ZipFile(path).extract("collection.anki21", d)
+    c = sqlite3.connect(os.path.join(d, "collection.anki21"))
+    names = [f["name"] for f in list(json.loads(c.execute("select models from col").fetchone()[0]).values())[0]["flds"]]
+    out = {}
+    for (flds,) in c.execute("select flds from notes"):
+        f = dict(zip(names, flds.split("\x1f")))
+        opts = re.findall(r'data-letter="([A-Z])">(.*?)</div>', f.get("OriginalQuestionHTML", ""), re.S)
+        out[f["QNo"]] = [(k, re.sub(r"^[A-Z]\.\s*", "", html.unescape(re.sub(r"<[^>]+>", "", t))).strip()) for k, t in opts]
+    return out
+
+
 def parse(path):
     secs, sec, blk, mode = [], None, None, None
     for ln in open(path, encoding="utf-8"):
@@ -106,7 +127,8 @@ def parse(path):
             mode = "q"
         elif ln.startswith("q: "):
             q, _, a = ln[3:].rpartition("|")
-            blk["qs"].append((q.strip(), a.strip()))
+            a, _, qno = a.partition("@")
+            blk["qs"].append((q.strip(), a.strip(), qno.strip()))
         elif ln.strip() == "idea:":
             mode = "idea"
         elif mode == "idea" and blk is not None:
@@ -116,6 +138,7 @@ def parse(path):
 
 def main():
     secs = parse(SRC)
+    opts = deck_options(DECK) if DECK else {}
     if ONLY:
         secs = [s for s in secs if s["name"].lower() == ONLY.lower()]
     body = ""
@@ -124,8 +147,9 @@ def main():
         n = 0
         for b in s["blocks"]:
             first = n + 1
-            qs = "".join(f"<li>{bold(q)}</li>" for q, _ in b["qs"])
-            ans = "".join(f"<span><b>{first + i}.</b> {bold(a)}</span>" for i, (_, a) in enumerate(b["qs"]))
+            qs = "".join(f"<li>{bold(q)}" + (f'<div class="opts">' + "".join(f"<span>{k}. {html.escape(t)}</span>" for k, t in opts[n_]) + "</div>" if opts.get(n_) else "") + "</li>"
+                         for q, _, n_ in b["qs"])
+            ans = "".join(f"<span><b>{first + i}.</b> {bold(a)}</span>" for i, (_, a, _) in enumerate(b["qs"]))
             n += len(b["qs"])
             body += (f'<div class="blk"><div class="ttl">{html.escape(b["title"])}</div>'
                      f'<div class="qs"><ol start="{first}">{qs}</ol><div class="ans"><b class="h">ANSWERS</b>{ans}</div></div>'

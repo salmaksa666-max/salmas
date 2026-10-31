@@ -1,20 +1,20 @@
 # Neurology
 == Stroke & TIA: what do I do?
-q: Weakness **resolved in 5 min**, carotid stenosis **55%** | Start statin
-q: TIA resolved; after preventive measures, what to add? | Add statin
-q: Weakness resolved in 20 min, CT normal, carotid **55% bilateral** | Aspirin
-q: TIA with **ABCD2 = 3** | Aspirin
-q: TIA in elderly with DM, HTN and **AF** | Oral anticoagulant
-q: Weakness **12 h**, now **RESOLVED**, proximal anterior occlusion | Observation
-q: Weakness **12 h**, **NOT resolved**, proximal anterior occlusion, small–moderate core | Mechanical thrombectomy
-q: CT already shows **hypodensity** in MCA territory at **6 h** | Aspirin
-q: Weakness **2 h**, CT no bleed, BP 160/95 | Thrombolysis (tPA)
-q: Face/arm/leg weakness **4 h**, CT given | tPA
-q: On aspirin, sudden weakness 2/5 ⚠ (source debated) | Alteplase
-q: Aphasia + hemiplegia after a fall: **first** step | CT without contrast
-q: ICH, stable: BP target first 24–48 h | SBP 140–160
-q: Young man, **femur fracture → PE → stroke** | Patent foramen ovale
-q: Stroke + **rheumatic fever as a child** | AF
+q: Weakness **resolved in 5 min**, carotid stenosis **55%** | Start statin @SWR-0030
+q: TIA resolved; after preventive measures, what to add? | Add statin @SWR-0031
+q: Weakness resolved in 20 min, CT normal, carotid **55% bilateral** | Aspirin @SWR-0491
+q: TIA with **ABCD2 = 3** | Aspirin @SWR-0342
+q: TIA in elderly with DM, HTN and **AF** | Oral anticoagulant @SWR-0653
+q: Weakness **12 h**, now **RESOLVED**, proximal anterior occlusion | Observation @SWR-0281
+q: Weakness **12 h**, **NOT resolved**, proximal anterior occlusion, small–moderate core | Mechanical thrombectomy @SWR-0282
+q: CT already shows **hypodensity** in MCA territory at **6 h** | Aspirin @SWR-0654
+q: Weakness **2 h**, CT no bleed, BP 160/95 | Thrombolysis (tPA) @SWR-0854
+q: Face/arm/leg weakness **4 h**, CT given | tPA @SWR-0686
+q: On aspirin, sudden weakness 2/5 ⚠ (source debated) | Alteplase @SWR-0510
+q: Aphasia + hemiplegia after a fall: **first** step | CT without contrast @SWR-1087
+q: ICH, stable: BP target first 24–48 h | SBP 140–160 @SWR-0190
+q: Young man, **femur fracture → PE → stroke** | Patent foramen ovale @SWR-0309
+q: Stroke + **rheumatic fever as a child** | AF @SWR-0230
 idea:
 ## أول شي دايمًا
 > Stroke symptoms → CT without contrast → نزيف؟ لا → كم ساعة؟
@@ -33,12 +33,12 @@ idea:
 - Rheumatic fever قديم → mitral disease → AF → embolus
 
 == Where is the lesion?
-q: Right hemiparesis | Left MCA (endorsed; not in options)
-q: Look right: **left eye can't adduct**, right eye **nystagmus** | MLF
-q: Right temporo-occipital infarct | Left homonymous hemianopia
-q: HTN, unresponsive, moves eyes **vertically only**, no limb movement | Pons
-q: EOM weakness, vertical nystagmus, miosis, dysarthria, ataxia | Basilar artery
-q: Sudden loss of vision in **one eye for 3 min**, then normal | Amaurosis fugax
+q: Right hemiparesis | Left MCA (endorsed; not in options) @SWR-0216
+q: Look right: **left eye can't adduct**, right eye **nystagmus** | MLF @SWR-0284
+q: Right temporo-occipital infarct | Left homonymous hemianopia @SWR-0291
+q: HTN, unresponsive, moves eyes **vertically only**, no limb movement | Pons @SWR-0306
+q: EOM weakness, vertical nystagmus, miosis, dysarthria, ataxia | Basilar artery @SWR-0307
+q: Sudden loss of vision in **one eye for 3 min**, then normal | Amaurosis fugax @SWR-0082
 idea:
 | العلامة | المكان |
 | ضعف بجهة الجسم | المخ بالجهة الثانية (right weakness = left MCA) |
@@ -52,20 +52,20 @@ idea:
 - القاعدة: المخ يتحكم بالجهة العكسية. الـbrainstem يعطي علامات أعصاب الوجه والعيون.
 
 == Thunderclap headache (SAH)
-q: "Worst headache of my life": **best** diagnostic test | Non-contrast CT head
-q: CT shows SAH + hydrocephalus: how to find the artery? | CT angiography
-q: Worst headache + **dilated non-reactive pupil**, CT normal | MRI brain (source)
+q: "Worst headache of my life": **best** diagnostic test | Non-contrast CT head @SWR-0624
+q: CT shows SAH + hydrocephalus: how to find the artery? | CT angiography @SWR-0623
+q: Worst headache + **dilated non-reactive pupil**, CT normal | MRI brain (source) @SWR-0621
 idea:
 > أسوأ صداع → Non-contrast CT → فيه نزيف → CT angiography (يدور الـaneurysm)
 > CT طبيعي والشك عالي → LP (xanthochromia)
 - Pupil متوسع وما يتفاعل = ضغط على CN III (aneurysm بالـPCom)
 
 == Meningitis: read the CSF
-q: Fever **1 month**, confusion, lymphocytes 73%, protein **very high**, glucose low-normal | TB meningitis
-q: From **India**, headache **3 weeks**, seizure, lymphocytes, glucose **1.2** | TB meningitis
-q: High protein, CSF/blood glucose **< 0.4** | TB
-q: Seizure + ↓LOC after viral illness, lymphocytes | Acyclovir
-q: Flex the neck → **hips and knees flex** | Brudzinski sign
+q: Fever **1 month**, confusion, lymphocytes 73%, protein **very high**, glucose low-normal | TB meningitis @SWR-0246
+q: From **India**, headache **3 weeks**, seizure, lymphocytes, glucose **1.2** | TB meningitis @SWR-0866
+q: High protein, CSF/blood glucose **< 0.4** | TB @SWR-0635
+q: Seizure + ↓LOC after viral illness, lymphocytes | Acyclovir @SWR-0637
+q: Flex the neck → **hips and knees flex** | Brudzinski sign @SWR-1044
 idea:
 | النوع | الخلايا | Glucose | Protein |
 | Bacterial | Neutrophils | واطي | عالي |
@@ -76,12 +76,12 @@ idea:
 - Brudzinski: نثني الرقبة فتنثني الركب. Kernig: نمد الركبة فيألم الظهر
 
 == Dementia: which type?
-q: **Visual hallucinations**, autonomic problems, **memory intact** | Lewy body dementia
-q: HIV, **stepwise** attacks of weakness, gait problem | Vascular dementia
-q: Says **"animal" instead of "cat"**, memory OK | Frontotemporal dementia
-q: Same picture: MRI shows? | Temporal atrophy
-q: **Recent memory** loss, personality normal, no insight | Alzheimer disease
-q: Memory decline, trouble learning new things: imaging? | Cortical atrophy
+q: **Visual hallucinations**, autonomic problems, **memory intact** | Lewy body dementia @SWR-0969
+q: HIV, **stepwise** attacks of weakness, gait problem | Vascular dementia @SWR-0970
+q: Says **"animal" instead of "cat"**, memory OK | Frontotemporal dementia @SWR-0971
+q: Same picture: MRI shows? | Temporal atrophy @SWR-0975
+q: **Recent memory** loss, personality normal, no insight | Alzheimer disease @SWR-0972
+q: Memory decline, trouble learning new things: imaging? | Cortical atrophy @SWR-0974
 idea:
 | النوع | المفتاح |
 | Alzheimer | ينسى الجديد أول + شخصيته طبيعية → hippocampus و cortical atrophy |
@@ -90,9 +90,9 @@ idea:
 | Vascular | ينزل على درجات (stepwise) + strokes + عوامل خطر |
 
 == Nerves, MS and the cord
-q: **2 weeks after gastroenteritis**: ascending weakness, areflexia | Guillain-Barré
-q: Numbness, MRI **periventricular** white matter lesions: supports diagnosis | CSF oligoclonal bands
-q: Known **cancer** + urine retention + **T10** sensory level | Dexamethasone
+q: **2 weeks after gastroenteritis**: ascending weakness, areflexia | Guillain-Barré @SWR-0855
+q: Numbness, MRI **periventricular** white matter lesions: supports diagnosis | CSF oligoclonal bands @SWR-0576
+q: Known **cancer** + urine retention + **T10** sensory level | Dexamethasone @SWR-0796
 idea:
 - GBS: بعد إسهال (Campylobacter) أو زكام + ضعف يطلع لفوق + reflexes غايبة → راقبي التنفس
 - MS: lesions حول الـventricles + oligoclonal bands بالـCSF
@@ -100,14 +100,14 @@ idea:
 
 # Cardiology
 == Murmurs
-q: Mid-systolic **click**, ↑ standing/Valsalva, ↓ handgrip | Mitral valve prolapse
-q: Late systolic, ↑ standing, ↓ handgrip | Mitral prolapse
-q: Young, asymptomatic, **pansystolic to axilla** | Rheumatic MR
-q: Diastolic, ↑ **leaning forward in expiration** | Aortic regurgitation
-q: Early diastolic at base, ↑ **inspiration** | Pulmonary regurgitation
-q: ILD + **v wave**, pulsatile liver, loud P2 | Tricuspid regurgitation
-q: Ejection systolic **right upper sternal border**, S4, slow-rising pulse (×5 questions) | Aortic stenosis
-q: Post-MI hypotension + harsh pansystolic at **sternal border** | Ventricular septal rupture
+q: Mid-systolic **click**, ↑ standing/Valsalva, ↓ handgrip | Mitral valve prolapse @SWR-0069
+q: Late systolic, ↑ standing, ↓ handgrip | Mitral prolapse @SWR-0710
+q: Young, asymptomatic, **pansystolic to axilla** | Rheumatic MR @SWR-0711
+q: Diastolic, ↑ **leaning forward in expiration** | Aortic regurgitation @SWR-0310
+q: Early diastolic at base, ↑ **inspiration** | Pulmonary regurgitation @SWR-0486
+q: ILD + **v wave**, pulsatile liver, loud P2 | Tricuspid regurgitation @SWR-1031
+q: Ejection systolic **right upper sternal border**, S4, slow-rising pulse (×5 questions) | Aortic stenosis @SWR-1035
+q: Post-MI hypotension + harsh pansystolic at **sternal border** | Ventricular septal rupture @SWR-0068
 idea:
 | الـmurmur | المكان أو الانتشار | التشخيص |
 | Ejection systolic | Right upper sternal → carotids | AS |
@@ -121,14 +121,14 @@ idea:
 - AS: syncope مع المجهود + slow rising pulse + S4
 
 == AF with heart failure & HF
-q: HF + AF, palpitations | Carvedilol
-q: AF + **HFpEF**: rate control | Bisoprolol
-q: AF + **decompensated** HF | Digoxin
-q: Dilated cardiomyopathy HF + fast AF | Digoxin
-q: **HFrEF** + AF | Digoxin
-q: CHADS2: 70 years, HTN, stroke | 4
-q: **S3 gallop** | Furosemide
-q: Drowsy + raised JVP + ascites + edema | Furosemide
+q: HF + AF, palpitations | Carvedilol @SWR-0038
+q: AF + **HFpEF**: rate control | Bisoprolol @SWR-0129
+q: AF + **decompensated** HF | Digoxin @SWR-0259
+q: Dilated cardiomyopathy HF + fast AF | Digoxin @SWR-0384
+q: **HFrEF** + AF | Digoxin @SWR-0549
+q: CHADS2: 70 years, HTN, stroke | 4 @SWR-0338
+q: **S3 gallop** | Furosemide @SWR-0508
+q: Drowsy + raised JVP + ascites + edema | Furosemide @SWR-0603
 idea:
 > AF + HF → decompensated (حاد)؟ → نعم → Digoxin
 > مستقر → Beta blocker (carvedilol أو bisoprolol)
@@ -137,10 +137,10 @@ idea:
 - S3 أو JVP عالي أو تورم = fluid overload → Furosemide
 
 == Chest pain & lipids
-q: Knee OA (can't exercise) + exertional angina, ECG normal | Dobutamine stress echo
-q: Night chest pain, ST elevation **relieved by nitrate**, normal angiogram | Long-acting CCB
-q: After STEMI, LDL 3.36 | Atorvastatin (high intensity)
-q: Pneumonia + septic shock: hemodynamics | ↑ Cardiac output
+q: Knee OA (can't exercise) + exertional angina, ECG normal | Dobutamine stress echo @SWR-0618
+q: Night chest pain, ST elevation **relieved by nitrate**, normal angiogram | Long-acting CCB @SWR-0808
+q: After STEMI, LDL 3.36 | Atorvastatin (high intensity) @SWR-0838
+q: Pneumonia + septic shock: hemodynamics | ↑ Cardiac output @SWR-0554
 idea:
 - ما يقدر يمشي → stress echo بالـdobutamine (أو perfusion)
 - Prinzmetal (بالليل + ST ترتفع وترجع + angiogram نظيف) → CCB، لا beta blocker
@@ -148,10 +148,10 @@ idea:
 - Septic shock = warm: CO يرتفع و SVR ينزل
 
 == Hypertension work-up
-q: BP 155/90 at checkup, all labs normal | Ambulatory BP measurement
-q: **Resistant HTN + palpitations** | Urine fractionated metanephrines
-q: RAS **70% and 85%**, creatinine high | Renal artery angioplasty
-q: HTN + **renal bruit**: confirm | Renal CT (angiography)
+q: BP 155/90 at checkup, all labs normal | Ambulatory BP measurement @SWR-0258
+q: **Resistant HTN + palpitations** | Urine fractionated metanephrines @SWR-0324
+q: RAS **70% and 85%**, creatinine high | Renal artery angioplasty @SWR-0219
+q: HTN + **renal bruit**: confirm | Renal CT (angiography) @SWR-0887
 idea:
 | العلامة | الفحص |
 | قراءة عالية وحدة | ABPM يأكد |
@@ -161,14 +161,14 @@ idea:
 
 # Hematology
 == Bleeding on anticoagulants
-q: Warfarin + GI bleed + **shock**, PT/PTT long | PCC
-q: Warfarin, INR 3.9, **subdural** needs surgery | FFP + vitamin K (source)
-q: **Apixaban** + subdural (version 1) | FFP
-q: **Apixaban** + subdural (version 2) | PCC
-q: INR **6**, vitamin K already given, needs surgery | 4-factor PCC
-q: INR 6, **no bleeding** (warfarin held) | Re-measure INR in 2 days
-q: LMWH for DVT → platelets drop | Stop heparin ⚠
-q: Melena on ibuprofen, BP 90/60, cold limbs | Normal saline first
+q: Warfarin + GI bleed + **shock**, PT/PTT long | PCC @SWR-0285
+q: Warfarin, INR 3.9, **subdural** needs surgery | FFP + vitamin K (source) @SWR-0413
+q: **Apixaban** + subdural (version 1) | FFP @SWR-0414
+q: **Apixaban** + subdural (version 2) | PCC @SWR-0415
+q: INR **6**, vitamin K already given, needs surgery | 4-factor PCC @SWR-0587
+q: INR 6, **no bleeding** (warfarin held) | Re-measure INR in 2 days @SWR-0651
+q: LMWH for DVT → platelets drop | Stop heparin ⚠ @SWR-0937
+q: Melena on ibuprofen, BP 90/60, cold limbs | Normal saline first @SWR-0982
 idea:
 | الدواء | العكس |
 | Warfarin + نزيف كبير | PCC (الأسرع) + vitamin K |
@@ -181,19 +181,19 @@ idea:
 - Shock → سوائل أول (ABC) ثم السبب
 
 == Hemolysis & platelets
-q: **Mycoplasma** (pharyngitis, conjunctivitis, otitis) + hemolysis | IgM cold agglutinins
-q: Chest infection 3 weeks ago, spherocytes, retics 7 ⚠ | (no source answer)
-q: Severe thrombocytopenia only, **no schistocytes** | ITP
+q: **Mycoplasma** (pharyngitis, conjunctivitis, otitis) + hemolysis | IgM cold agglutinins @SWR-0144
+q: Chest infection 3 weeks ago, spherocytes, retics 7 ⚠ | (no source answer) @SWR-1097
+q: Severe thrombocytopenia only, **no schistocytes** | ITP @SWR-0197
 idea:
 - Mycoplasma → IgM cold agglutinin → hemolysis
 - Spherocytes + Coombs positive → AIHA. Coombs negative → hereditary spherocytosis
 - Platelets بس + film طبيعي = ITP. فيه schistocytes = TTP أو HUS
 
 == VTE / PE
-q: **Pregnant**, S1Q3T3, stable | LMWH
-q: OCP + **saddle** embolus | UFH (source)
-q: Old PE + new proximal DVT | Long-term anticoagulation
-q: Post-op PE suspected, high creatinine | V/Q scan (endorsed)
+q: **Pregnant**, S1Q3T3, stable | LMWH @SWR-0683
+q: OCP + **saddle** embolus | UFH (source) @SWR-0684
+q: Old PE + new proximal DVT | Long-term anticoagulation @SWR-0788
+q: Post-op PE suspected, high creatinine | V/Q scan (endorsed) @SWR-0448
 idea:
 - الحمل → LMWH (warfarin ممنوع)
 - Massive أو unstable → thrombolysis. ممكن نحتاج نوقفه بسرعة → UFH
@@ -202,10 +202,10 @@ idea:
 
 # Pulmonology
 == Asthma attack: how bad?
-q: Can't complete a sentence, PEFR **30%** | Life-threatening
-q: Feature of **acute severe** | Can't complete sentences in one breath
-q: Best PEF 600, now **250** (~42%) | Acute severe
-q: Feature of acute severe | RR > 25
+q: Can't complete a sentence, PEFR **30%** | Life-threatening @SWR-0859
+q: Feature of **acute severe** | Can't complete sentences in one breath @SWR-0861
+q: Best PEF 600, now **250** (~42%) | Acute severe @SWR-0862
+q: Feature of acute severe | RR > 25 @SWR-0863
 idea:
 | الشدة | PEF | علامات |
 | Moderate | 50–75% | يتكلم عادي |
@@ -214,13 +214,13 @@ idea:
 - احسبي النسبة من أفضل PEF له مو الطبيعي
 
 == COPD, ABG & lungs
-q: COPD + infection: pH low, CO2 very high, O2 low | Exacerbation with type 2 respiratory failure
-q: On O2 4 L, becomes **drowsy** | Reduce inspired O2
-q: Smoker, FEV1/FVC < 0.7, **low DLCO**, no reversibility | Emphysema
-q: pH 7.8, HCO3 48, PCO2 **44** | Mixed metabolic + respiratory alkalosis
-q: Classic sarcoid + hilar nodes: next | Transbronchial biopsy
-q: Lobar infiltrate + air bronchogram | Strep pneumoniae
-q: ICU pneumonia, add to azithromycin | Ceftriaxone
+q: COPD + infection: pH low, CO2 very high, O2 low | Exacerbation with type 2 respiratory failure @SWR-0440
+q: On O2 4 L, becomes **drowsy** | Reduce inspired O2 @SWR-0858
+q: Smoker, FEV1/FVC < 0.7, **low DLCO**, no reversibility | Emphysema @SWR-0865
+q: pH 7.8, HCO3 48, PCO2 **44** | Mixed metabolic + respiratory alkalosis @SWR-0463
+q: Classic sarcoid + hilar nodes: next | Transbronchial biopsy @SWR-0257
+q: Lobar infiltrate + air bronchogram | Strep pneumoniae @SWR-0754
+q: ICU pneumonia, add to azithromycin | Ceftriaxone @SWR-0723
 idea:
 - Type 1 = O2 واطي بس. Type 2 = O2 واطي + CO2 عالي
 - COPD نعسان على O2 → CO2 retention → قللي الأكسجين (88–92%)
@@ -229,37 +229,37 @@ idea:
 
 # Endocrine
 == Diabetes
-q: Asymptomatic, FPG **7.3**, A1c **6.3** | OGTT
-q: FPG 7.4 + A1c 6.3 at screening | 75 g OGTT
-q: New T1DM after DKA, discharge | Basal-bolus (glargine + aspart)
-q: Family Hx DM, BMI 35: advice | 150 min moderate exercise weekly
-q: Diabetic girl BMI 35 | Bariatric surgery (source)
+q: Asymptomatic, FPG **7.3**, A1c **6.3** | OGTT @SWR-0839
+q: FPG 7.4 + A1c 6.3 at screening | 75 g OGTT @SWR-0840
+q: New T1DM after DKA, discharge | Basal-bolus (glargine + aspart) @SWR-0841
+q: Family Hx DM, BMI 35: advice | 150 min moderate exercise weekly @SWR-0331
+q: Diabetic girl BMI 35 | Bariatric surgery (source) @SWR-0457
 idea:
 - بدون أعراض + تحليلين مختلفين (واحد سكري وواحد pre) → OGTT يحسم
 - T1DM → basal-bolus. Sliding scale بس غلط
 - الوقاية: 150 دقيقة رياضة بالأسبوع + نقص وزن 7%
 
 == Adrenal, pituitary & thyroid
-q: Dizzy on standing, weight loss, **dark scar**, BP 90/60 | Synacthen test
-q: Cushing + **high ACTH** | Pituitary adenoma
-q: Hyperthyroid + **diffuse goiter** | Graves disease
+q: Dizzy on standing, weight loss, **dark scar**, BP 90/60 | Synacthen test @SWR-0849
+q: Cushing + **high ACTH** | Pituitary adenoma @SWR-0765
+q: Hyperthyroid + **diffuse goiter** | Graves disease @SWR-0548
 idea:
 - Addison: تصبغ + ضغط واطي + Na واطي + K عالي → Synacthen (ACTH stimulation)
 - Cushing: ACTH عالي → pituitary (أو ectopic). واطي → adrenal
 - Goiter منتشر = Graves. عقد = toxic nodular
 
 == Calcium & bone
-q: Squamous lung cancer + hypercalcemia: FDA-approved | Pamidronate
-q: Osteoporosis drug approved for malignant hypercalcemia | Denosumab
-q: CKD stage 4 + osteoporosis (×2) | Denosumab
+q: Squamous lung cancer + hypercalcemia: FDA-approved | Pamidronate @SWR-0851
+q: Osteoporosis drug approved for malignant hypercalcemia | Denosumab @SWR-0852
+q: CKD stage 4 + osteoporosis (×2) | Denosumab @SWR-0876
 idea:
 - Hypercalcemia: سوائل أول → bisphosphonate (pamidronate أو zoledronic)
 - CKD شديد (GFR أقل من 30) → لا bisphosphonates → Denosumab
 
 # Renal & GI
 == Kidney & potassium
-q: Lisinopril + diarrhea, creatinine 60→160, **urine Na 68**, osm 220, SG low (×2) | ATN
-q: Comatose, **K 8** | IV calcium gluconate
+q: Lisinopril + diarrhea, creatinine 60→160, **urine Na 68**, osm 220, SG low (×2) | ATN @SWR-0117
+q: Comatose, **K 8** | IV calcium gluconate @SWR-0265
 idea:
 | | Prerenal | ATN |
 | Urine Na | أقل من 20 | أكثر من 40 |
@@ -269,12 +269,12 @@ idea:
 - K عالي + ECG → calcium gluconate أول (يحمي القلب)
 
 == Liver & GI
-q: Cirrhosis, ascites: lymphocytes, protein 3.2, **SAAG 1.0** | Peritoneal biopsy (TB)
-q: Tremor, dysarthria, **ring around cornea** | Low ceruloplasmin (Wilson)
-q: Anti-HAV IgM+, anti-HBs+ only | Acute hepatitis A + HBV immunized
-q: HCV Ab+ and RNA 1.5 million ⚠ | (no source answer) → chronic HCV
-q: Melena, H. pylori −, biopsy − | Nuclear medicine scan
-q: GERD prevention | Avoid eating before sleep
+q: Cirrhosis, ascites: lymphocytes, protein 3.2, **SAAG 1.0** | Peritoneal biopsy (TB) @SWR-0105
+q: Tremor, dysarthria, **ring around cornea** | Low ceruloplasmin (Wilson) @SWR-0605
+q: Anti-HAV IgM+, anti-HBs+ only | Acute hepatitis A + HBV immunized @SWR-0770
+q: HCV Ab+ and RNA 1.5 million ⚠ | (no source answer) → chronic HCV @SWR-0909
+q: Melena, H. pylori −, biopsy − | Nuclear medicine scan @SWR-0428
+q: GERD prevention | Avoid eating before sleep @SWR-0604
 idea:
 | SAAG | المعنى |
 | 1.1 أو أكثر | Portal HTN (cirrhosis، HF) |
@@ -287,15 +287,15 @@ idea:
 
 # Infection & Rheumatology
 == Infections
-q: Recurrent UTI prevention (×2) | Cranberry juice
-q: UTI not improving on cipro | Midstream urine culture
-q: Chlamydia | Doxycycline
-q: Red **streaks** up the leg | Penicillin (lymphangitis)
-q: Raw milk + G− coccobacilli: duration | 6 weeks (brucella)
-q: Pregnant with TB symptoms: definitive | Sputum smear
-q: 67-year-old routine checkup | PCV13
-q: COPD + zoster 3 months ago ⚠ | (undecided) → Shingrix
-q: **Prosthetic** mitral valve + fever + new murmur | Vancomycin + gentamicin + rifampicin
+q: Recurrent UTI prevention (×2) | Cranberry juice @SWR-0062
+q: UTI not improving on cipro | Midstream urine culture @SWR-0933
+q: Chlamydia | Doxycycline @SWR-0502
+q: Red **streaks** up the leg | Penicillin (lymphangitis) @SWR-0722
+q: Raw milk + G− coccobacilli: duration | 6 weeks (brucella) @SWR-0743
+q: Pregnant with TB symptoms: definitive | Sputum smear @SWR-0884
+q: 67-year-old routine checkup | PCV13 @SWR-1074
+q: COPD + zoster 3 months ago ⚠ | (undecided) → Shingrix @SWR-0066
+q: **Prosthetic** mitral valve + fever + new murmur | Vancomycin + gentamicin + rifampicin @SWR-0836
 idea:
 - علاج ما نفع → زرعة قبل ما تغيرين
 - Brucella: doxy + rifampicin 6 أسابيع
@@ -303,9 +303,9 @@ idea:
 - Prosthetic valve → rifampicin (biofilm) + vanco + gent
 
 == Rheumatology
-q: RA not improving on MTX 20 mg | Adalimumab
-q: Rash, ulcers, arthritis, low C3/C4: confirm | ANA (source)
-q: SLE + acute arthritis ⚠ | (no source answer)
+q: RA not improving on MTX 20 mg | Adalimumab @SWR-0332
+q: Rash, ulcers, arthritis, low C3/C4: confirm | ANA (source) @SWR-1025
+q: SLE + acute arthritis ⚠ | (no source answer) @SWR-0977
 idea:
 - RA: MTX فشل → anti-TNF (adalimumab)
 - SLE: ANA للفرز. Anti-dsDNA و anti-Smith أدق
