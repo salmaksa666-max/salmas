@@ -76,7 +76,7 @@ def idea_html(lines):
 
     def flush():
         if table:
-            out.append("<table>" + "".join("<tr>" + "".join(f"<td>{bidi(c.strip())}</td>" for c in r) + "</tr>" for r in table) + "</table>")
+            out.append("<table>" + "".join("<tr>" + "".join(f"<td>{bidi(c.strip())}</td>" if AR.search(c) else f'<td><bdi dir="ltr">{html.escape(c.strip(), quote=False)}</bdi></td>' for c in r) + "</tr>" for r in table) + "</table>")
             table.clear()
     for ln in lines:
         s = ln.strip()

@@ -101,7 +101,19 @@ idea:
 | TB | Lymphocytes | واطي | عالي جدًا |
 | Fungal (crypto) | Lymphocytes | واطي | عالي |
 | HSV encephalitis | Lymphocytes + RBC | طبيعي | طبيعي أو شوي |
-- قارني CSF glucose بسكر الدم: ratio أقل من 0.4 = واطي (TB أو bacterial)
+## كيف نحسب الـCSF glucose ratio
+> سكر الـCSF ÷ سكر الدم (نفس الوحدة) = الـratio
+| الـratio | المعنى |
+| 0.6 تقريبًا | طبيعي (يعني CSF ثلثين سكر الدم) |
+| أقل من 0.4 | واطي → bacterial أو TB أو fungal |
+## أمثلة
+| سكر الـCSF | سكر الدم | الحساب | النتيجة |
+| 1.2 mmol/L | 6 mmol/L | 1.2 / 6 = 0.2 | واطي |
+| 30 mg/dL | 150 mg/dL | 30 / 150 = 0.2 | واطي |
+| 60 mg/dL | 100 mg/dL | 60 / 100 = 0.6 | طبيعي |
+| 60 mg/dL | 300 mg/dL | 60 / 300 = 0.2 | واطي (فخ) |
+- الفخ: سكر الـCSF يبان طبيعي بس سكر الدم عالي، فالـratio يطلع واطي
+- لو ما عطاك سكر الدم: الـCSF أقل من 2.2 mmol/L (40 mg/dL) = واطي
 - Lymphocytes لحالها ما تعني viral. Lymphocytes + glucose واطي + أسابيع = TB
 - تشنج أو confusion أو سلوك غريب = encephalitis → acyclovir فورًا → HSV PCR + MRI (temporal lobe)
 - العلاج المبدئي ceftriaxone + vancomycin + dexamethasone
