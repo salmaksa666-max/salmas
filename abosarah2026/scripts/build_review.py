@@ -39,7 +39,7 @@ body { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 8.6pt; line-hei
 .qs ol { margin: 0; padding-left: 5mm; }
 .qs li { margin-bottom: .7mm; }
 .opts { font-size: .9em; color: #222; padding-left: 1mm; }
-.opts span { margin-right: 3mm; white-space: nowrap; }
+.opts span { margin-right: 2mm; display: inline-block; }
 .ans { margin-top: 1.5mm; border-top: 1pt solid #000; padding-top: 1mm; font-size: .95em; }
 .ans b.h { display: block; font-size: .85em; letter-spacing: .5px; }
 .ans span { display: inline-block; margin-right: 3.5mm; }
@@ -147,7 +147,7 @@ def main():
         n = 0
         for b in s["blocks"]:
             first = n + 1
-            qs = "".join(f"<li>{bold(q)}" + (f'<div class="opts">' + "".join(f"<span>{k}. {html.escape(t)}</span>" for k, t in opts[n_]) + "</div>" if opts.get(n_) else "") + "</li>"
+            qs = "".join(f"<li>{bold(q)}" + (f'<div class="opts">' + " ".join(f"<span>{k}. {html.escape(t)}</span>" for k, t in opts[n_]) + "</div>" if opts.get(n_) else "") + "</li>"
                          for q, _, n_ in b["qs"])
             ans = "".join(f"<span><b>{first + i}.</b> {bold(a)}</span>" for i, (_, a, _) in enumerate(b["qs"]))
             n += len(b["qs"])

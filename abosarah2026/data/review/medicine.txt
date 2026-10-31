@@ -16,21 +16,34 @@ q: ICH, stable: BP target first 24–48 h | SBP 140–160 @SWR-0190
 q: Young man, **femur fracture → PE → stroke** | Patent foramen ovale @SWR-0309
 q: Stroke + **rheumatic fever as a child** | AF @SWR-0230
 idea:
-## أول شي دايمًا
-> Stroke symptoms → CT without contrast → نزيف؟ لا → كم ساعة؟
-## الوقت يحدد العلاج
+## الخطوة الأولى دايمًا
+> أعراض stroke → Non-contrast CT (يستبعد النزيف) → ما فيه نزيف → كم ساعة؟ والأعراض باقية؟
+## Acute ischemic stroke: الوقت يقرر
 | الوضع | الجواب |
-| أقل من 4.5 ساعة + ما فيه نزيف | tPA |
-| Large vessel occlusion (proximal) + الأعراض باقية (لين 24 ساعة) | Mechanical thrombectomy |
-| الأعراض راحت (TIA أو resolved) | لا tPA ولا thrombectomy → observation و الوقاية |
+| 4.5 ساعة أو أقل + CT ما فيه نزيف + ما فيه مانع | tPA (alteplase) |
+| Large vessel occlusion (proximal) + الأعراض باقية + أقل من 24 ساعة | Mechanical thrombectomy |
+| LVO + أقل من 4.5 ساعة | tPA + thrombectomy |
+| الأعراض راحت (resolved) | Observation + workup + الوقاية |
 | فات الوقت أو CT فيه hypodensity واضح | Aspirin |
-## الوقاية بعد TIA
-- Carotid أقل من 70% → antiplatelet (aspirin) + statin. 70% أو أكثر → endarterectomy
-- فيه AF → مميع (oral anticoagulant) مو aspirin
-- ABCD2 أقل من 4 → aspirin بس. 4 أو أكثر → DAPT
+## الضغط
+| الحالة | متى ننزله |
+| قبل tPA | لو أعلى من 185/110 (يعني 160/95 ما يأخر tPA) |
+| بدون tPA | بس لو أعلى من 220/120 |
+| ICH (نزيف) | SBP حوالي 140، لا تنزلينه تحت 130 (المصدر 140–160 ⚠) |
+## بعد TIA: الوقاية
+| Carotid stenosis | العلاج |
+| أقل من 50% | Aspirin + statin |
+| 50–69% | Medical (المصدر). بعض المراجع: endarterectomy ⚠ |
+| 70–99% | Endarterectomy خلال أسبوعين |
+| 100% مسدود | لا عملية |
+- أول فحص بعد TIA → carotid duplex
+- ABCD2 من 0 إلى 3 → aspirin بس. 4 أو أكثر → aspirin + clopidogrel لمدة 21 يوم
+- TIA + AF → مميع (oral anticoagulant) مو aspirin
 ## Stroke بشاب
-- كسر أو DVT ثم stroke → PFO (paradoxical embolus)
-- Rheumatic fever قديم → mitral disease → AF → embolus
+- كسر أو DVT أو PE ثم stroke → PFO (paradoxical embolus) → bubble echo
+- Rheumatic fever قديم → mitral stenosis → AF → embolus
+- علاجه warfarin، ما نعطي DOAC مع mitral stenosis
+- 🔁 لو الأعراض راحت → observation. لو باقية + proximal occlusion → thrombectomy
 
 == Where is the lesion?
 q: Right hemiparesis | Left MCA (endorsed; not in options) @SWR-0216
@@ -40,25 +53,40 @@ q: HTN, unresponsive, moves eyes **vertically only**, no limb movement | Pons @S
 q: EOM weakness, vertical nystagmus, miosis, dysarthria, ataxia | Basilar artery @SWR-0307
 q: Sudden loss of vision in **one eye for 3 min**, then normal | Amaurosis fugax @SWR-0082
 idea:
+## القاعدة
+- المخ يتحكم بالجهة العكسية: ضعف يمين = المشكلة يسار
+- Crossed signs (عصب وجه بجهة + الجسم بالجهة الثانية) = brainstem
 | العلامة | المكان |
-| ضعف بجهة الجسم | المخ بالجهة الثانية (right weakness = left MCA) |
-| الوجه والذراع + aphasia | MCA (اليسار يتكلم) |
-| الرجل أكثر | ACA |
-| Hemianopia | PCA أو occipital، بالجهة العكسية |
-| ما يتحرك إلا العيون فوق وتحت (locked-in) | Pons |
-| عيون + دوخة + ataxia + الجهتين | Basilar (brainstem) |
-| عين ما تروح للداخل + الثانية nystagmus | MLF (INO) |
-| عين وحدة تعمى دقايق وترجع | Amaurosis fugax (embolus من carotid) |
-- القاعدة: المخ يتحكم بالجهة العكسية. الـbrainstem يعطي علامات أعصاب الوجه والعيون.
+| الوجه والذراع أكثر من الرجل + aphasia أو neglect | MCA |
+| الرجل أكثر + incontinence + تغير شخصية | ACA |
+| Hemianopia بالجهة العكسية (macula سليمة) | PCA (occipital) |
+| ضعف بس (pure motor) بالوجه والذراع والرجل بالتساوي | Lacunar (internal capsule) |
+| Quadriplegia + ما يتكلم + صاحي + يحرك عيونه فوق وتحت بس | Ventral pons (locked-in) |
+| Vertigo + ataxia + vertical nystagmus + dysarthria | Basilar / brainstem |
+| عين ما تروح للداخل + الثانية nystagmus + convergence سليم | MLF (INO) |
+## INO
+- العين اللي ما تقدر adduct = نفس جهة الـlesion
+- INO بالجهتين بشاب → MS. بكبير عنده عوامل خطر → stroke
+## العمى المؤقت بعين وحدة
+| الوصف | التشخيص |
+| دقايق وترجع + الفحص طبيعي | Amaurosis fugax → carotid duplex |
+| أيام + ألم مع حركة العين + RAPD | Optic neuritis |
+| Flashes + floaters + ستارة | Retinal detachment |
+| مفاجئ وما يرجع + cherry red spot | Central retinal artery occlusion |
 
 == Thunderclap headache (SAH)
 q: "Worst headache of my life": **best** diagnostic test | Non-contrast CT head @SWR-0624
 q: CT shows SAH + hydrocephalus: how to find the artery? | CT angiography @SWR-0623
 q: Worst headache + **dilated non-reactive pupil**, CT normal | MRI brain (source) @SWR-0621
 idea:
-> أسوأ صداع → Non-contrast CT → فيه نزيف → CT angiography (يدور الـaneurysm)
-> CT طبيعي والشك عالي → LP (xanthochromia)
-- Pupil متوسع وما يتفاعل = ضغط على CN III (aneurysm بالـPCom)
+> أسوأ صداع بحياته → Non-contrast CT → فيه دم → CT angiography (يدور الـaneurysm)
+> CT طبيعي (بعد 6 ساعات) → LP (xanthochromia) → إيجابي → CTA
+- CT طبيعي خلال أول 6 ساعات (جهاز حديث) → SAH مستبعد تقريبًا
+- Pupil متوسع + ptosis + صداع = PCom aneurysm يضغط على CN III
+- بعد التشخيص نعطي nimodipine عشان الـvasospasm، ونعالج الـaneurysm بـcoiling أو clipping
+- 🔁 أول فحص → CT. لو CT سليم → LP. وين الـaneurysm → CTA
+- فخ: MRA للرقبة غلط
+- سؤال 24: الجواب حسب المصدر MRI brain ⚠
 
 == Meningitis: read the CSF
 q: Fever **1 month**, confusion, lymphocytes 73%, protein **very high**, glucose low-normal | TB meningitis @SWR-0246
@@ -68,12 +96,20 @@ q: Seizure + ↓LOC after viral illness, lymphocytes | Acyclovir @SWR-0637
 q: Flex the neck → **hips and knees flex** | Brudzinski sign @SWR-1044
 idea:
 | النوع | الخلايا | Glucose | Protein |
-| Bacterial | Neutrophils | واطي | عالي |
+| Bacterial | Neutrophils كثير | واطي جدًا | عالي |
 | Viral | Lymphocytes | طبيعي | طبيعي أو شوي |
 | TB | Lymphocytes | واطي | عالي جدًا |
-- TB: أسابيع مو أيام + جاي من الهند أو باكستان
-- Confusion أو تشنج أو سلوك غريب + lymphocytes → HSV encephalitis → Acyclovir فورًا
-- Brudzinski: نثني الرقبة فتنثني الركب. Kernig: نمد الركبة فيألم الظهر
+| Fungal (crypto) | Lymphocytes | واطي | عالي |
+| HSV encephalitis | Lymphocytes + RBC | طبيعي | طبيعي أو شوي |
+- قارني CSF glucose بسكر الدم: ratio أقل من 0.4 = واطي (TB أو bacterial)
+- Lymphocytes لحالها ما تعني viral. Lymphocytes + glucose واطي + أسابيع = TB
+- تشنج أو confusion أو سلوك غريب = encephalitis → acyclovir فورًا → HSV PCR + MRI (temporal lobe)
+- العلاج المبدئي ceftriaxone + vancomycin + dexamethasone
+- نضيف ampicillin لو فوق 50 سنة أو حامل (Listeria)
+| العلامة | كيف |
+| Brudzinski | نثني الرقبة → الركب تنثني |
+| Kernig | الورك 90° ونمد الركبة → ألم |
+- 🔁 لو الـprotein طبيعي والبداية encephalitis → HSV مو TB
 
 == Dementia: which type?
 q: **Visual hallucinations**, autonomic problems, **memory intact** | Lewy body dementia @SWR-0969
@@ -84,19 +120,37 @@ q: **Recent memory** loss, personality normal, no insight | Alzheimer disease @S
 q: Memory decline, trouble learning new things: imaging? | Cortical atrophy @SWR-0974
 idea:
 | النوع | المفتاح |
-| Alzheimer | ينسى الجديد أول + شخصيته طبيعية → hippocampus و cortical atrophy |
-| Frontotemporal | الكلام أو الشخصية تتغير والذاكرة سليمة → frontal أو temporal atrophy |
-| Lewy body | Hallucinations بصرية + parkinsonism + تذبذب |
-| Vascular | ينزل على درجات (stepwise) + strokes + عوامل خطر |
+| Alzheimer | ينسى الجديد أول والشخصية سليمة. العلاج donepezil |
+| Frontotemporal (behavioural) | الشخصية والتصرفات أول، أقل من 65 → frontal atrophy |
+| Frontotemporal (semantic) | ينسى معنى الكلمات والذاكرة سليمة → anterior temporal atrophy |
+| Lewy body | Visual hallucinations + تذبذب + parkinsonism |
+| Vascular | ينزل على درجات (stepwise) + focal signs + عوامل خطر |
+| NPH | مشي مغناطيسي + سلس بول + نسيان → ventricles كبيرة بدون atrophy |
+| Huntington | Chorea + تاريخ عائلي → caudate atrophy |
+| CJD | سريع جدًا (أشهر) + myoclonus |
+- مريض Lewy body لا تعطينه typical antipsychotics (حساسية شديدة)
+- الأمراض الثانية بالقصة (HIV، DM) طُعم: طريقة النزول هي اللي تقرر
+- 🔁 تغير الشخصية بدري → FTD مو Alzheimer
 
 == Nerves, MS and the cord
 q: **2 weeks after gastroenteritis**: ascending weakness, areflexia | Guillain-Barré @SWR-0855
 q: Numbness, MRI **periventricular** white matter lesions: supports diagnosis | CSF oligoclonal bands @SWR-0576
 q: Known **cancer** + urine retention + **T10** sensory level | Dexamethasone @SWR-0796
 idea:
-- GBS: بعد إسهال (Campylobacter) أو زكام + ضعف يطلع لفوق + reflexes غايبة → راقبي التنفس
-- MS: lesions حول الـventricles + oligoclonal bands بالـCSF
-- سرطان + sensory level + احتباس بول = cord compression → Dexamethasone فورًا ثم MRI
+## GBS
+- بعد إسهال (Campylobacter) أو زكام بـ1–3 أسابيع + ضعف يطلع لفوق + areflexia
+- الـCSF فيه protein عالي + خلايا طبيعية = albuminocytologic dissociation
+- راقبي FVC (التنفس) → IVIG أو plasmapheresis (لا steroids)
+- 🔁 لو الـreflexes موجودة والتعب يزيد مع الاستخدام → myasthenia
+## MS
+- بنت شابة + optic neuritis أو تنميل أو ضعف، يروح ويرجع
+- أفضل فحص → MRI
+- لو سأل وش يدعم التشخيص → CSF oligoclonal bands
+- علاج الـrelapse → high-dose methylprednisolone
+## Cord compression (سرطان)
+- سرطان + ألم ظهر + ضعف رجول + sensory level + بول أو براز
+- أول شي dexamethasone فورًا → MRI whole spine → radiotherapy أو surgery
+- أشهر الأورام: lung، breast، prostate، myeloma
 
 # Cardiology
 == Murmurs
