@@ -1,0 +1,311 @@
+# Neurology
+== Stroke & TIA: what do I do?
+q: Weakness **resolved in 5 min**, carotid stenosis **55%** | Start statin
+q: TIA resolved; after preventive measures, what to add? | Add statin
+q: Weakness resolved in 20 min, CT normal, carotid **55% bilateral** | Aspirin
+q: TIA with **ABCD2 = 3** | Aspirin
+q: TIA in elderly with DM, HTN and **AF** | Oral anticoagulant
+q: Weakness **12 h**, now **RESOLVED**, proximal anterior occlusion | Observation
+q: Weakness **12 h**, **NOT resolved**, proximal anterior occlusion, small–moderate core | Mechanical thrombectomy
+q: CT already shows **hypodensity** in MCA territory at **6 h** | Aspirin
+q: Weakness **2 h**, CT no bleed, BP 160/95 | Thrombolysis (tPA)
+q: Face/arm/leg weakness **4 h**, CT given | tPA
+q: On aspirin, sudden weakness 2/5 ⚠ (source debated) | Alteplase
+q: Aphasia + hemiplegia after a fall: **first** step | CT without contrast
+q: ICH, stable: BP target first 24–48 h | SBP 140–160
+q: Young man, **femur fracture → PE → stroke** | Patent foramen ovale
+q: Stroke + **rheumatic fever as a child** | AF
+idea:
+## أول شي دايمًا
+> Stroke symptoms → CT without contrast → نزيف؟ لا → كم ساعة؟
+## الوقت يحدد العلاج
+| الوضع | الجواب |
+| أقل من 4.5 ساعة + ما فيه نزيف | tPA |
+| Large vessel occlusion (proximal) + الأعراض باقية (لين 24 ساعة) | Mechanical thrombectomy |
+| الأعراض راحت (TIA أو resolved) | لا tPA ولا thrombectomy → observation و الوقاية |
+| فات الوقت أو CT فيه hypodensity واضح | Aspirin |
+## الوقاية بعد TIA
+- Carotid أقل من 70% → antiplatelet (aspirin) + statin. 70% أو أكثر → endarterectomy
+- فيه AF → مميع (oral anticoagulant) مو aspirin
+- ABCD2 أقل من 4 → aspirin بس. 4 أو أكثر → DAPT
+## Stroke بشاب
+- كسر أو DVT ثم stroke → PFO (paradoxical embolus)
+- Rheumatic fever قديم → mitral disease → AF → embolus
+
+== Where is the lesion?
+q: Right hemiparesis | Left MCA (endorsed; not in options)
+q: Look right: **left eye can't adduct**, right eye **nystagmus** | MLF
+q: Right temporo-occipital infarct | Left homonymous hemianopia
+q: HTN, unresponsive, moves eyes **vertically only**, no limb movement | Pons
+q: EOM weakness, vertical nystagmus, miosis, dysarthria, ataxia | Basilar artery
+q: Sudden loss of vision in **one eye for 3 min**, then normal | Amaurosis fugax
+idea:
+| العلامة | المكان |
+| ضعف بجهة الجسم | المخ بالجهة الثانية (right weakness = left MCA) |
+| الوجه والذراع + aphasia | MCA (اليسار يتكلم) |
+| الرجل أكثر | ACA |
+| Hemianopia | PCA أو occipital، بالجهة العكسية |
+| ما يتحرك إلا العيون فوق وتحت (locked-in) | Pons |
+| عيون + دوخة + ataxia + الجهتين | Basilar (brainstem) |
+| عين ما تروح للداخل + الثانية nystagmus | MLF (INO) |
+| عين وحدة تعمى دقايق وترجع | Amaurosis fugax (embolus من carotid) |
+- القاعدة: المخ يتحكم بالجهة العكسية. الـbrainstem يعطي علامات أعصاب الوجه والعيون.
+
+== Thunderclap headache (SAH)
+q: "Worst headache of my life": **best** diagnostic test | Non-contrast CT head
+q: CT shows SAH + hydrocephalus: how to find the artery? | CT angiography
+q: Worst headache + **dilated non-reactive pupil**, CT normal | MRI brain (source)
+idea:
+> أسوأ صداع → Non-contrast CT → فيه نزيف → CT angiography (يدور الـaneurysm)
+> CT طبيعي والشك عالي → LP (xanthochromia)
+- Pupil متوسع وما يتفاعل = ضغط على CN III (aneurysm بالـPCom)
+
+== Meningitis: read the CSF
+q: Fever **1 month**, confusion, lymphocytes 73%, protein **very high**, glucose low-normal | TB meningitis
+q: From **India**, headache **3 weeks**, seizure, lymphocytes, glucose **1.2** | TB meningitis
+q: High protein, CSF/blood glucose **< 0.4** | TB
+q: Seizure + ↓LOC after viral illness, lymphocytes | Acyclovir
+q: Flex the neck → **hips and knees flex** | Brudzinski sign
+idea:
+| النوع | الخلايا | Glucose | Protein |
+| Bacterial | Neutrophils | واطي | عالي |
+| Viral | Lymphocytes | طبيعي | طبيعي أو شوي |
+| TB | Lymphocytes | واطي | عالي جدًا |
+- TB: أسابيع مو أيام + جاي من الهند أو باكستان
+- Confusion أو تشنج أو سلوك غريب + lymphocytes → HSV encephalitis → Acyclovir فورًا
+- Brudzinski: نثني الرقبة فتنثني الركب. Kernig: نمد الركبة فيألم الظهر
+
+== Dementia: which type?
+q: **Visual hallucinations**, autonomic problems, **memory intact** | Lewy body dementia
+q: HIV, **stepwise** attacks of weakness, gait problem | Vascular dementia
+q: Says **"animal" instead of "cat"**, memory OK | Frontotemporal dementia
+q: Same picture: MRI shows? | Temporal atrophy
+q: **Recent memory** loss, personality normal, no insight | Alzheimer disease
+q: Memory decline, trouble learning new things: imaging? | Cortical atrophy
+idea:
+| النوع | المفتاح |
+| Alzheimer | ينسى الجديد أول + شخصيته طبيعية → hippocampus و cortical atrophy |
+| Frontotemporal | الكلام أو الشخصية تتغير والذاكرة سليمة → frontal أو temporal atrophy |
+| Lewy body | Hallucinations بصرية + parkinsonism + تذبذب |
+| Vascular | ينزل على درجات (stepwise) + strokes + عوامل خطر |
+
+== Nerves, MS and the cord
+q: **2 weeks after gastroenteritis**: ascending weakness, areflexia | Guillain-Barré
+q: Numbness, MRI **periventricular** white matter lesions: supports diagnosis | CSF oligoclonal bands
+q: Known **cancer** + urine retention + **T10** sensory level | Dexamethasone
+idea:
+- GBS: بعد إسهال (Campylobacter) أو زكام + ضعف يطلع لفوق + reflexes غايبة → راقبي التنفس
+- MS: lesions حول الـventricles + oligoclonal bands بالـCSF
+- سرطان + sensory level + احتباس بول = cord compression → Dexamethasone فورًا ثم MRI
+
+# Cardiology
+== Murmurs
+q: Mid-systolic **click**, ↑ standing/Valsalva, ↓ handgrip | Mitral valve prolapse
+q: Late systolic, ↑ standing, ↓ handgrip | Mitral prolapse
+q: Young, asymptomatic, **pansystolic to axilla** | Rheumatic MR
+q: Diastolic, ↑ **leaning forward in expiration** | Aortic regurgitation
+q: Early diastolic at base, ↑ **inspiration** | Pulmonary regurgitation
+q: ILD + **v wave**, pulsatile liver, loud P2 | Tricuspid regurgitation
+q: Ejection systolic **right upper sternal border**, S4, slow-rising pulse (×5 questions) | Aortic stenosis
+q: Post-MI hypotension + harsh pansystolic at **sternal border** | Ventricular septal rupture
+idea:
+| الـmurmur | المكان أو الانتشار | التشخيص |
+| Ejection systolic | Right upper sternal → carotids | AS |
+| Pansystolic | Apex → axilla | MR |
+| Click + late systolic | Apex، يزيد بالوقوف | MVP |
+| Early diastolic | Left sternal، مايل قدام | AR |
+| Diastolic يزيد بالشهيق | Left 2nd ICS | PR (right side) |
+| Pansystolic + v wave + كبد ينبض | Left lower sternal | TR |
+- الشهيق يعلّي الجهة اليمنى. الزفير يعلّي اليسرى
+- Valsalva والوقوف يعلّون MVP و HOCM بس
+- AS: syncope مع المجهود + slow rising pulse + S4
+
+== AF with heart failure & HF
+q: HF + AF, palpitations | Carvedilol
+q: AF + **HFpEF**: rate control | Bisoprolol
+q: AF + **decompensated** HF | Digoxin
+q: Dilated cardiomyopathy HF + fast AF | Digoxin
+q: **HFrEF** + AF | Digoxin
+q: CHADS2: 70 years, HTN, stroke | 4
+q: **S3 gallop** | Furosemide
+q: Drowsy + raised JVP + ascites + edema | Furosemide
+idea:
+> AF + HF → decompensated (حاد)؟ → نعم → Digoxin
+> مستقر → Beta blocker (carvedilol أو bisoprolol)
+- لا CCB (diltiazem أو verapamil) بالـHFrEF
+- CHADS2: CHF 1، HTN 1، Age 75 أو أكثر 1، DM 1، Stroke أو TIA 2
+- S3 أو JVP عالي أو تورم = fluid overload → Furosemide
+
+== Chest pain & lipids
+q: Knee OA (can't exercise) + exertional angina, ECG normal | Dobutamine stress echo
+q: Night chest pain, ST elevation **relieved by nitrate**, normal angiogram | Long-acting CCB
+q: After STEMI, LDL 3.36 | Atorvastatin (high intensity)
+q: Pneumonia + septic shock: hemodynamics | ↑ Cardiac output
+idea:
+- ما يقدر يمشي → stress echo بالـdobutamine (أو perfusion)
+- Prinzmetal (بالليل + ST ترتفع وترجع + angiogram نظيف) → CCB، لا beta blocker
+- بعد MI → high-intensity statin مهما كان الـLDL
+- Septic shock = warm: CO يرتفع و SVR ينزل
+
+== Hypertension work-up
+q: BP 155/90 at checkup, all labs normal | Ambulatory BP measurement
+q: **Resistant HTN + palpitations** | Urine fractionated metanephrines
+q: RAS **70% and 85%**, creatinine high | Renal artery angioplasty
+q: HTN + **renal bruit**: confirm | Renal CT (angiography)
+idea:
+| العلامة | الفحص |
+| قراءة عالية وحدة | ABPM يأكد |
+| Palpitations + تعرق + صداع | Metanephrines (pheo) |
+| K واطي + alkalosis | Aldosterone:renin |
+| Bruit بالبطن أو الجنب | CT angiography → angioplasty |
+
+# Hematology
+== Bleeding on anticoagulants
+q: Warfarin + GI bleed + **shock**, PT/PTT long | PCC
+q: Warfarin, INR 3.9, **subdural** needs surgery | FFP + vitamin K (source)
+q: **Apixaban** + subdural (version 1) | FFP
+q: **Apixaban** + subdural (version 2) | PCC
+q: INR **6**, vitamin K already given, needs surgery | 4-factor PCC
+q: INR 6, **no bleeding** (warfarin held) | Re-measure INR in 2 days
+q: LMWH for DVT → platelets drop | Stop heparin ⚠
+q: Melena on ibuprofen, BP 90/60, cold limbs | Normal saline first
+idea:
+| الدواء | العكس |
+| Warfarin + نزيف كبير | PCC (الأسرع) + vitamin K |
+| Warfarin بدون PCC بالخيارات | FFP + vitamin K |
+| Apixaban أو rivaroxaban | Andexanet → PCC |
+| Dabigatran | Idarucizumab |
+| Heparin | Protamine |
+- INR عالي بدون نزيف → وقفي الجرعة وأعيدي INR
+- Heparin + platelets تنزل = HIT → وقفي heparin → argatroban
+- Shock → سوائل أول (ABC) ثم السبب
+
+== Hemolysis & platelets
+q: **Mycoplasma** (pharyngitis, conjunctivitis, otitis) + hemolysis | IgM cold agglutinins
+q: Chest infection 3 weeks ago, spherocytes, retics 7 ⚠ | (no source answer)
+q: Severe thrombocytopenia only, **no schistocytes** | ITP
+idea:
+- Mycoplasma → IgM cold agglutinin → hemolysis
+- Spherocytes + Coombs positive → AIHA. Coombs negative → hereditary spherocytosis
+- Platelets بس + film طبيعي = ITP. فيه schistocytes = TTP أو HUS
+
+== VTE / PE
+q: **Pregnant**, S1Q3T3, stable | LMWH
+q: OCP + **saddle** embolus | UFH (source)
+q: Old PE + new proximal DVT | Long-term anticoagulation
+q: Post-op PE suspected, high creatinine | V/Q scan (endorsed)
+idea:
+- الحمل → LMWH (warfarin ممنوع)
+- Massive أو unstable → thrombolysis. ممكن نحتاج نوقفه بسرعة → UFH
+- الكلية ضعيفة أو حامل → V/Q بدل CTPA
+- جلطة ثانية أو unprovoked proximal → طول العمر
+
+# Pulmonology
+== Asthma attack: how bad?
+q: Can't complete a sentence, PEFR **30%** | Life-threatening
+q: Feature of **acute severe** | Can't complete sentences in one breath
+q: Best PEF 600, now **250** (~42%) | Acute severe
+q: Feature of acute severe | RR > 25
+idea:
+| الشدة | PEF | علامات |
+| Moderate | 50–75% | يتكلم عادي |
+| Acute severe | 33–50% | RR 25 أو أكثر، HR 110 أو أكثر، ما يكمل جملة |
+| Life-threatening | أقل من 33% | SpO2 أقل من 92، صدر صامت، تعب، confusion |
+- احسبي النسبة من أفضل PEF له مو الطبيعي
+
+== COPD, ABG & lungs
+q: COPD + infection: pH low, CO2 very high, O2 low | Exacerbation with type 2 respiratory failure
+q: On O2 4 L, becomes **drowsy** | Reduce inspired O2
+q: Smoker, FEV1/FVC < 0.7, **low DLCO**, no reversibility | Emphysema
+q: pH 7.8, HCO3 48, PCO2 **44** | Mixed metabolic + respiratory alkalosis
+q: Classic sarcoid + hilar nodes: next | Transbronchial biopsy
+q: Lobar infiltrate + air bronchogram | Strep pneumoniae
+q: ICU pneumonia, add to azithromycin | Ceftriaxone
+idea:
+- Type 1 = O2 واطي بس. Type 2 = O2 واطي + CO2 عالي
+- COPD نعسان على O2 → CO2 retention → قللي الأكسجين (88–92%)
+- DLCO واطي = emphysema (الـalveoli خربانة). طبيعي = chronic bronchitis أو asthma
+- Metabolic alkalosis: PCO2 المتوقع يرتفع. لو PCO2 طبيعي (44) والـpH عالي جدًا → فيه respiratory alkalosis معها
+
+# Endocrine
+== Diabetes
+q: Asymptomatic, FPG **7.3**, A1c **6.3** | OGTT
+q: FPG 7.4 + A1c 6.3 at screening | 75 g OGTT
+q: New T1DM after DKA, discharge | Basal-bolus (glargine + aspart)
+q: Family Hx DM, BMI 35: advice | 150 min moderate exercise weekly
+q: Diabetic girl BMI 35 | Bariatric surgery (source)
+idea:
+- بدون أعراض + تحليلين مختلفين (واحد سكري وواحد pre) → OGTT يحسم
+- T1DM → basal-bolus. Sliding scale بس غلط
+- الوقاية: 150 دقيقة رياضة بالأسبوع + نقص وزن 7%
+
+== Adrenal, pituitary & thyroid
+q: Dizzy on standing, weight loss, **dark scar**, BP 90/60 | Synacthen test
+q: Cushing + **high ACTH** | Pituitary adenoma
+q: Hyperthyroid + **diffuse goiter** | Graves disease
+idea:
+- Addison: تصبغ + ضغط واطي + Na واطي + K عالي → Synacthen (ACTH stimulation)
+- Cushing: ACTH عالي → pituitary (أو ectopic). واطي → adrenal
+- Goiter منتشر = Graves. عقد = toxic nodular
+
+== Calcium & bone
+q: Squamous lung cancer + hypercalcemia: FDA-approved | Pamidronate
+q: Osteoporosis drug approved for malignant hypercalcemia | Denosumab
+q: CKD stage 4 + osteoporosis (×2) | Denosumab
+idea:
+- Hypercalcemia: سوائل أول → bisphosphonate (pamidronate أو zoledronic)
+- CKD شديد (GFR أقل من 30) → لا bisphosphonates → Denosumab
+
+# Renal & GI
+== Kidney & potassium
+q: Lisinopril + diarrhea, creatinine 60→160, **urine Na 68**, osm 220, SG low (×2) | ATN
+q: Comatose, **K 8** | IV calcium gluconate
+idea:
+| | Prerenal | ATN |
+| Urine Na | أقل من 20 | أكثر من 40 |
+| Urine osm | أكثر من 500 | أقل من 350 |
+| SG | عالي | واطي (~1.010) |
+- القصة ممكن تكون prerenal بس الأرقام تقول ATN → صدقي الأرقام
+- K عالي + ECG → calcium gluconate أول (يحمي القلب)
+
+== Liver & GI
+q: Cirrhosis, ascites: lymphocytes, protein 3.2, **SAAG 1.0** | Peritoneal biopsy (TB)
+q: Tremor, dysarthria, **ring around cornea** | Low ceruloplasmin (Wilson)
+q: Anti-HAV IgM+, anti-HBs+ only | Acute hepatitis A + HBV immunized
+q: HCV Ab+ and RNA 1.5 million ⚠ | (no source answer) → chronic HCV
+q: Melena, H. pylori −, biopsy − | Nuclear medicine scan
+q: GERD prevention | Avoid eating before sleep
+idea:
+| SAAG | المعنى |
+| 1.1 أو أكثر | Portal HTN (cirrhosis، HF) |
+| أقل من 1.1 | Peritoneum: TB، سرطان → biopsy |
+| Marker | المعنى |
+| IgM | عدوى حادة |
+| Anti-HBs بس | تطعيم |
+| HBsAg + anti-HBc | عدوى |
+| HCV RNA موجود | عدوى نشطة |
+
+# Infection & Rheumatology
+== Infections
+q: Recurrent UTI prevention (×2) | Cranberry juice
+q: UTI not improving on cipro | Midstream urine culture
+q: Chlamydia | Doxycycline
+q: Red **streaks** up the leg | Penicillin (lymphangitis)
+q: Raw milk + G− coccobacilli: duration | 6 weeks (brucella)
+q: Pregnant with TB symptoms: definitive | Sputum smear
+q: 67-year-old routine checkup | PCV13
+q: COPD + zoster 3 months ago ⚠ | (undecided) → Shingrix
+q: **Prosthetic** mitral valve + fever + new murmur | Vancomycin + gentamicin + rifampicin
+idea:
+- علاج ما نفع → زرعة قبل ما تغيرين
+- Brucella: doxy + rifampicin 6 أسابيع
+- 65 أو أكثر → pneumococcal
+- Prosthetic valve → rifampicin (biofilm) + vanco + gent
+
+== Rheumatology
+q: RA not improving on MTX 20 mg | Adalimumab
+q: Rash, ulcers, arthritis, low C3/C4: confirm | ANA (source)
+q: SLE + acute arthritis ⚠ | (no source answer)
+idea:
+- RA: MTX فشل → anti-TNF (adalimumab)
+- SLE: ANA للفرز. Anti-dsDNA و anti-Smith أدق
