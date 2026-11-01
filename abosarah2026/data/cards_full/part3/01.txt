@@ -1,0 +1,117 @@
+@ 1 | Pulmonology: متى أسوي intubation؟ و ARDS
+> h: Intubate فورًا
+> list: نعسان أو confused أو GCS 8 أو أقل أو gag ضعيف ← intubate (لا تجربين NIV) ;; Asthma مع PaCO2 طبيعي أو عالي ← تعبان وبيوقف ← intubate ;; Agitated + CO2 عالي + pH 7.1 ← intubation مو BiPAP ;; NIV فشل ← intubate
+> h: NIV أو O2 أول
+> list: COPD صاحي + CO2 عالي ← NIV (BiPAP) ;; COPD صاحي + SpO2 70% على room air ← controlled O2 (Venturi) لين 88–92% ;; الأهداف: أطفال أقل من 92%، كبار أقل من 90%، COPD أقل من 88%
+> note: ما فيه pH cutoff ثابت للـintubation. الوعي والـgag أهم من الأرقام. Tracheostomy أبدًا مو أول خطوة.
+> h: ARDS ولا cardiogenic؟
+> two: ARDS :: bilateral infiltrates + على O2 + PCWP طبيعي (5–12) ;; Cardiogenic edema :: PCWP عالي ;; على room air :: ما نقول ARDS، نقول respiratory failure
+> list: Hamman-Rich: بعد viral URTI بأيام + hypoxemia شديد + باقي الـABG طبيعي ;; أهم prognostic test بالـARDS ← ABG متكرر ;; CO2 = RR × tidal volume: نزيد أي واحد ← CO2 ينزل. FiO2 و PEEP للأكسجين بس
+> sum: يعني باختصار: الوعي قبل الأرقام. Asthma + CO2 طبيعي = intubate. ARDS = على O2 + PCWP طبيعي.
+
+@ 2 | Pulmonology: Pneumonia والمضادات
+> h: CURB-65 (كل وحدة = نقطة)
+> list: Confusion ;; Urea أكثر من 7 mmol/L ;; RR 30 أو أكثر ;; BP: systolic أقل من 90 أو diastolic 60 أو أقل ;; العمر 65 أو أكثر ;; 0–1 بيت. 2 فكري admission. 3 أو أكثر admit و ICU
+> note: سبب واضح للتنويم (immunocompromised، قلب أو رئة شديد) ← admit بدون CURB-65. اجمعي كل الخمس.
+> h: CAP: وش أعطي؟
+> list: صغير، ما عنده شي، CURB-65 = 0 ← azithromycin لحاله ;; فوق 65 أو DM أو يدخن ← azithromycin + beta-lactam (cefuroxime) بالبيت ;; Severe أو ICU ← azithromycin + ceftriaxone ;; ICU وما بدأ azithromycin ← moxifloxacin لحاله ;; Cavitation بالـCXR ← أضيفي vancomycin ;; Hypotension جديد ← أضيفي ceftriaxone (± vancomycin فوقه)
+> note: لا moxifloxacin + azithromycin مع بعض. Vancomycin إضافة، ما يغني عن Gram-negative.
+> h: أطفال
+> list: Admit: أقل من 6 شهور، hypoxia، ما ياكل، toxic، RR عالي ;; غير كذا ← amoxicillin ;; أحسن علامة pneumonia بطفل ← tachypnea
+> h: الجرثومة حسب القصة
+> list: Hyponatremia + سفر أو فندق أو مكيفات ← Legionella ;; Aspiration ← anaerobes و Klebsiella ;; Young + bilateral + خفيف ← Mycoplasma (مو تحت 5) ;; طفل مطعم + crackles ← S. pneumoniae
+> h: مضاعفات
+> list: Lung abscess (بلغم ريحته كريهة + cavity بجدار سميك + air-fluid level) ← antibiotics طويلة ;; Cor pulmonale ← JVP + كبد كبير + ascites بمريض رئة ;; VAP: رأس السرير 30–45، sedation break، chlorhexidine (مو suction روتيني)
+> sum: يعني باختصار: CURB-65 = 5 نقاط. Cavity = vancomycin. Hyponatremia + سفر = Legionella.
+
+@ 3 | Pulmonology: Effusion و OSA و Asthma و CF
+> h: Pleural effusion (Light's)
+> list: Exudate لو وحدة صح: protein ratio أكثر من 0.5، LDH ratio أكثر من 0.6، LDH أكثر من ثلثين الـULN ;; Transudate = CHF، cirrhosis، nephrotic ;; Exudate = infection، malignancy، RA/SLE، PE ;; Glucose أقل من 60 ← TB أو empyema أو RA ;; Pneumonia + effusion أكثر من 2 cm ← thoracentesis
+> note: Effusion يمين + ALT عالي يغريك بـcirrhosis. لو Light's قال exudate، مو cirrhosis.
+> h: OSA ولا OHS
+> two: OSA :: ما فيه acidosis ← CPAP ;; OHS :: chronic respiratory acidosis (CO2 و HCO3 عاليين) ← BiPAP
+> h: Asthma
+> list: ما تحسن على SABA ← شيكي على inhaler technique أول ;; Severe attack بالطوارئ ← oral steroids ;; الخروج ← steroid، مو SABA لحاله ;; على ICS وما يلتزم ← علميه الـtechnique ;; على SABA بس ← environmental control (التدخين أهم شي) ;; Exercise wheeze ← salbutamol
+> h: COPD
+> list: أهم خطوة ← وقف التدخين ;; Exacerbation ← CXR أول ;; عمال القطن ← byssinosis
+> h: Cystic fibrosis و Pertussis
+> list: Asthma ما ينضبط + براز دهني ← sweat chloride (حوالي 66 = CF) ;; CF + بلغم تغير لونه ← empiric antibiotics ;; أشهر مضاعفة ← bronchiectasis ;; Pertussis: كحة نوبات + ترجيع بعدها + lymphocytosis ← azithromycin
+> sum: يعني باختصار: Light's وحدة تكفي = exudate. OHS = acidosis = BiPAP. Asthma ما تحسن = technique.
+
+@ 4 | Infection: Meningitis و Prophylaxis
+> h: Empiric حسب العمر
+> list: Neonate ← ampicillin + cefotaxime (أو aminoglycoside) ;; طفل وكبير ← vancomycin + ceftriaxone ;; فوق 50 ← نفسها + ampicillin (Listeria) ;; Listeria ما تتأثر بالـcephalosporins ;; سباحة بماء دافي ← Naegleria fowleri
+> h: CSF
+> two: Bacterial :: neutrophils + protein عالي + glucose واطي ;; Viral :: lymphocytes + الباقي طبيعي ;; TB :: lymphocytes + protein عالي جدًا + ratio أقل من 0.4 ;; Fungal :: lymphocytes + ratio 0.4–0.6 ;; HSV :: lymphocytes + protein طبيعي ← acyclovir
+> list: Ratio = CSF glucose ÷ serum glucose ;; لو ما عطاك سكر الدم ← افترضي 70–100 mg/dL ;; Lab ranges بالسؤال أحيانًا غلط، احفظي الطبيعي
+> h: Gram stain
+> two: Gram + diplococci :: S. pneumoniae ;; Gram − diplococci :: Neisseria meningitidis ;; Gram − coccobacilli :: Brucella ;; Gram − pleomorphic coccobacilli :: H. influenzae ;; Gram + rods :: Listeria
+> h: Prophylaxis للمخالطين
+> list: Meningococcus ← rifampin مرتين يوميًا لمدة يومين، أو ceftriaxone جرعة وحدة، أو ciprofloxacin جرعة وحدة ;; Hib ← rifampin ;; Pneumococcus ← لا prophylaxis ;; المريض نفسه ما ياخذ prophylaxis
+> sum: يعني باختصار: فوق 50 = ampicillin. Protein طبيعي = HSV. Meningococcus contact = rifampin يومين.
+
+@ 5 | Infection: TB
+> h: Latent ولا active؟
+> list: طفل أقل من 5 + contact ← INH فورًا + TST و CXR مع بعض ;; غيره ← فحص واحد (TST أو IGRA) ← إيجابي ← CXR ;; CXR طبيعي + ما فيه أعراض ← LTBI ;; CXR غير طبيعي أو أعراض ← RIPE
+> h: TST positive
+> two: 5 mm :: HIV أو contact قريب ;; 10 mm :: healthcare workers أو أقل من 4 سنين ;; 15 mm :: صحي بدون عوامل خطر
+> h: العلاج
+> list: LTBI 2 سنين أو أكثر ← rifapentine + INH لمدة 3 شهور ;; LTBI أقل من سنتين ← rifampin لمدة 4 شهور ;; Active ← RIPE شهرين ثم RI أربع شهور ;; Steroids مع RIPE ← meningitis أو pleural أو pericardial ;; Pulmonary TB ← isolation (airborne، negative pressure) قبل أي فحص ;; CNS TB ← ابدئي RIPE فورًا
+> h: الأعراض الجانبية
+> two: Isoniazid :: neuropathy (أعطي B6) ;; Rifampin :: بول وعرق برتقالي (طمنيه) ;; Pyrazinamide :: uric acid عالي ;; Ethambutol :: optic neuritis (ألوان)
+> note: Rifampin يضعف warfarin و amlodipine ← زيدي الجرعة (warfarin أول). لا توقفين rifampin.
+> sum: يعني باختصار: RIPE للـactive بس. Steroids لو serosa. Rifampin = زيدي warfarin.
+
+@ 6 | Infection: Febrile neutropenia و Brucella و Malaria
+> h: Febrile neutropenia
+> list: لازم الاثنين: حرارة + ANC واطي (بعد chemo بدون neutropenia مو منها) ;; أول شي ← antipseudomonal واحد: meropenem أو pip-tazo أو cefepime أو ceftazidime ;; Ceftriaxone أبدًا ;; Pneumonia أو hypotension أو line infection ← أضيفي vancomycin ;; ما تحسن 3–7 أيام بدون سبب ← antifungal (voriconazole أو amphotericin) ;; Antifungal مو بالخيارات ← vancomycin بالاستبعاد ;; كل شي فشل ← أعيدي blood cultures
+> h: Brucellosis
+> list: حليب غير مبستر + حرارة متموجة + ألم ظهر أو مفاصل ;; أقل من 8 سنين ← TMP-SMX + rifampin ;; أكبر من 8 ← doxycycline + rifampin ;; MRI طبيعي أو ما سووه ← 6 أسابيع ;; Spondylitis بالـMRI ← 12 أسبوع
+> h: Malaria
+> list: التشخيص ← blood film (thick ثم thin) ;; العلاج ← ACT دايمًا. لو مو موجود ← chloroquine ;; Primaquine للـvivax و ovale (hypnozoites) بعد العلاج ;; Doxycycline للوقاية بس ;; الوقاية بالترتيب: atovaquone-proguanil ← doxycycline ← mefloquine (لا مع اكتئاب) ← chloroquine ;; Anopheles = malaria. Aedes = dengue
+> sum: يعني باختصار: Ceftriaxone لا بالـneutropenia. Brucella = rifampin دايمًا. Malaria = ACT.
+
+@ 7 | Infection: Rash و Isolation و UTI
+> h: Measles ولا rubella؟
+> two: Measles :: حرارة عالية + Koplik + يتقشر ← airborne ;; Rubella :: حرارة خفيفة + lymph nodes خلف الأذن والـoccipital + ما يتقشر ← droplet
+> list: Rash من الوجه للجسم = measles أو rubella ;; Sandpaper rash + strawberry tongue ← scarlet fever (GAS) ;; Hand-foot-mouth ← coxsackie (fecal-oral)
+> h: Isolation
+> two: Airborne :: measles، TB (pulmonary بس)، chickenpox ;; Droplet :: الباقي: flu، rubella، meningococcus ;; Contact :: جلد وأسطح
+> h: UTI بالأطفال
+> list: أقل من 3 شهور ← IV دايمًا ;; أكبر ← oral amoxicillin إلا لو toxic أو يرجع أو ما يقدر ياكل ;; الحرارة العالية لحالها مو سبب للـIV ;; أول UTI تحت 6 شهور ← renal US ;; US غير طبيعي ← MCUG ;; Scarring ← DMSA ;; أدق عينة ← suprapubic ;; Mixed growth = contamination
+> h: كبار و STI
+> list: Toxic + ألم بالخاصرة ← IV ceftriaxone ;; Chlamydia ← azithromycin ;; Confusion عند كبير + dysuria ← urine culture ;; Central line + حرارة ← CLABSI
+> sum: يعني باختصار: Koplik + تقشر = measles. TB = airborne. UTI تحت 3 شهور = IV.
+
+@ 8 | GI: IBD و IBS
+> h: Toxic megacolon
+> list: Colon أكثر من 6 cm + toxic ;; C. diff؟ ← antibiotics أول ;; UC ← IV methylprednisolone ← infliximab ← colectomy (لو الاثنين فشلوا) ;; العملية بالطوارئ ← subtotal colectomy + end ileostomy ;; لا antimotility أو opioids ;; لا methotrexate كـrescue
+> h: UC ولا Crohn؟
+> two: UC :: دم + colon بس من الـrectum + mucosa + albumin واطي + erythema nodosum ;; Crohn :: بدون دم + أي مكان + skip lesions + transmural + B12 واطي
+> list: Crohn بالأطفال ← exclusive enteral nutrition ;; Steroid-refractory ← anti-TNF. Azathioprine للـmaintenance ;; Folate واطي بس ← celiac. B12 واطي ← Crohn
+> h: IBS ولا IBD؟
+> list: دم أو anemia ← organic (UC أو IBD) ;; Mucus لحاله ما يفرق ;; ما فيه دم ولا anemia ← IBS ;; IBS ← clinical، ما يحتاج فحص. العلاج تجنب المحفزات ;; Functional ولا inflammatory ← fecal calprotectin
+> sum: يعني باختصار: Toxic megacolon = steroid ثم infliximab ثم عملية. دم أو anemia = مو IBS.
+
+@ 9 | GI: الكبد و Hepatitis B
+> h: Ascites (SAAG = serum albumin − ascitic albumin)
+> two: SAAG أكثر من 1.1 + protein واطي :: cirrhosis ;; SAAG أكثر من 1.1 + protein عالي :: heart failure ;; SAAG أقل من 1.1 + protein واطي :: nephrotic أو malnutrition ;; SAAG أقل من 1.1 + protein عالي :: TB أو cancer أو pancreatitis
+> list: PMN 250 أو أكثر ← SBP ← IV antibiotics فورًا حتى بدون أعراض ;; Ascites يرجع ← sodium أقل من 2 g ;; Encephalopathy ← lactulose + rifaximin ;; Cirrhosis جديد ← endoscopy (varices) ;; NAFLD ← US للكبد والطحال ;; Varices + كبد طبيعي + pancreatitis ← splenic vein thrombosis
+> h: Hepatitis B
+> two: Acute :: HBsAg + و anti-HBc IgM + ;; Chronic active :: HBsAg + و HBeAg + ;; Chronic inactive :: HBsAg + و HBeAg − ;; Recovered :: anti-HBs + و anti-HBc IgG + ;; Vaccinated :: anti-HBs + بس (anti-HBc −)
+> list: HBV ساء فجأة ← افحصي Hepatitis D ;; HBV + paracetamol كثير + AST آلاف ← NAC ;; طفل + حضانة + jaundice ← Hepatitis A ;; نقل دم قديم ← Hepatitis C (HCV RNA)
+> sum: يعني باختصار: SAAG ثم protein. PMN 250 = antibiotics. Vaccinated = anti-HBc سالب.
+
+@ 10 | GI: Celiac و متفرقات
+> h: Celiac
+> list: قريب درجة أولى ← screen حتى بدون أعراض ;; بدون أعراض وتحت 3 ← طمني ;; أعراض ← screen بأي عمر ;; tTG-IgA ← biopsy (هو التأكيد) ;; Celiac تجنب: wheat و barley. CKD تجنب: طماطم و بطاطس و موز
+> h: متفرقات
+> list: Alagille: cholestasis + butterfly vertebrae + وجه مثلث + pulmonary stenosis ;; Diabetic gastroparesis ← gastric emptying scan ;; Autoimmune hepatitis ← prednisone + azathioprine ;; Senna ← hypokalemia ;; Pyoderma gangrenosum ما يمشي مع نشاط المرض
+> sum: يعني باختصار: Celiac = biopsy يأكد. Wheat و barley للـceliac، والطماطم والبطاطس للـCKD.
+
+@ 11 | Keyword Index: الكلمة ← التشخيص
+> h: Pulmonology
+> list: COPD + وعي نازل ← intubate ;; Asthma + PaCO2 طبيعي ← intubate ;; Infiltrates + O2 + PCWP طبيعي ← ARDS ;; بعد URTI + hypoxemia بس ← Hamman-Rich ;; بلغم كريه + cavity + air-fluid ← lung abscess ;; Pleural glucose أقل من 60 ← TB ;; سمين + نعسان + CO2 و HCO3 عاليين ← OHS (BiPAP) ;; Sweat chloride 66 ← CF ;; كحة نوبات + ترجيع + lymphocytosis ← pertussis
+> h: Infection و GI
+> list: Pneumonia + hyponatremia + مكيفات ← Legionella ;; حليب غير مبستر + حرارة متموجة ← Brucella ;; Koplik + تقشر ← measles ;; Lymph nodes خلف الأذن + ما يتقشر ← rubella ;; سباحة بماء دافي ← Naegleria ;; CSF lymphocytes + protein طبيعي ← HSV ;; Ascitic PMN 250 أو أكثر ← SBP ;; Anti-HBs + و anti-HBc − ← vaccinated ;; Colon أكثر من 6 cm + toxic ← toxic megacolon ;; Butterfly vertebrae + وجه مثلث ← Alagille
+> sum: يعني باختصار: غطي العمود الثاني وسمّعي التشخيص.

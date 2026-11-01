@@ -19,7 +19,7 @@ PNG_DIR = sys.argv[3] if len(sys.argv) > 3 else tempfile.mkdtemp()
 os.makedirs(PNG_DIR, exist_ok=True)
 CHROME = sorted(glob.glob("/opt/pw-browsers/chromium_headless_shell-*/*/chrome-headless-shell"))[-1]
 FONT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets"))
-W = 900
+W = int(os.environ.get("MAPW", "900"))
 COLORS = ["#4f9cf9", "#f2b800", "#43c59e", "#f07167", "#b388ff", "#56cfe1", "#ff9f1c", "#9ccc65"]
 
 CSS = f"""
