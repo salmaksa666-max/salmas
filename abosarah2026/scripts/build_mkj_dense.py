@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Dense print PDF for an MKJ-style apkg (old-format collection.anki21): questions packed in columns,
-answer key after every 3 pages.  usage: build_mkj_dense.py SRC.apkg OUT.pdf"""
+answers in a strip at the bottom of each page.  usage: build_mkj_dense.py SRC.apkg OUT.pdf"""
 import glob
 import html
 import json
@@ -25,7 +25,12 @@ CSS = """
 * { box-sizing: border-box; }
 html, body { width: 194mm; }
 body { font-family: "DejaVu Sans", Arial, sans-serif; line-height: 1.3; color: #000; margin: 0; }
-.page { height: 281mm; display: block; column-count: 2; column-gap: 6mm; column-fill: auto; break-after: page; overflow: hidden; }
+.page { height: 281mm; display: flex; flex-direction: column; break-after: page; overflow: hidden; }
+.page.toc { display: block; column-count: 2; column-gap: 6mm; column-fill: auto; }
+.cols { flex: 1 1 auto; min-height: 0; column-count: 2; column-gap: 6mm; column-fill: auto; overflow: hidden; }
+.strip { flex: 0 0 auto; border-top: 1.6pt solid #000; margin-top: 1mm; padding-top: .8mm; font-size: .92em; line-height: 1.35; }
+.strip b.h { font-size: .85em; letter-spacing: .5px; margin-right: 2mm; }
+.strip span { display: inline-block; margin-right: 3mm; }
 .ph { column-span: all; font-weight: bold; font-size: 10pt; border-bottom: 1.2pt solid #000; margin-bottom: 1mm; }
 .q { break-inside: avoid; border-bottom: 0.4pt solid #000; padding: 1.2mm 0 1.4mm; }
 .hd { font-weight: bold; font-size: .9em; margin-bottom: .6mm; }
@@ -46,7 +51,8 @@ mark.l1 { background: #fff3a3; }
 FIT = """<script>
 document.querySelectorAll('.page').forEach(function(pg){
   var fs = 8.4; pg.style.fontSize = fs + 'pt';
-  while (fs > 4.6 && pg.scrollWidth > pg.clientWidth + 2) { fs -= 0.2; pg.style.fontSize = fs + 'pt'; }
+  var c = pg.querySelector('.cols') || pg;
+  while (fs > 4.6 && c.scrollWidth > c.clientWidth + 2) { fs -= 0.2; pg.style.fontSize = fs + 'pt'; }
 });
 </script>"""
 
@@ -188,10 +194,9 @@ def build(items, out):
         chunks.append(cur)
 
     pages, num, last, toc = [], 0, [None], []
-    for g in range(0, len(chunks), 2):
-        ak, first = "", num + 1
-        for ch in chunks[g:g + 2]:
-            start, body = num + 1, ""
+    for ch in chunks:
+        if True:
+            start, body, ak = num + 1, "", ""
             for it in ch:
                 num += 1
                 if it["dn"] != last[0]:
@@ -203,9 +208,8 @@ def build(items, out):
                     o = ""
                 body += (f'<div class="q"><div class="hd">{num}) <span>{it["qid"]}</span></div>'
                          f'<div class="sec" dir="ltr">{it["sec"]} › {html.escape(it["dn"])}</div><div dir="ltr">{annot.annotate_html(hilite(it["stem"], it["l2"], it["l1"]))}</div>{o}</div>')
-                ak += answer_item(num, it)
-            pages.append(f'<div class="page"><div class="ph">Questions {start}–{num}</div>{body}</div>')
-        pages.append(f'<div class="page ak"><div class="ph">Answers {first}–{num}</div>{ak}</div>')
+                ak += f'<span><b>{num})</b> {html.escape(it["ans"])}{it["flag"]}</span>'
+            pages.append(f'<div class="page"><div class="cols">{body}</div><div class="strip"><b class="h">ANSWERS</b>{ak}</div></div>')
 
     ends = [n - 1 for _, _, n in toc[1:]] + [num]
     rows, cur_sec = "", None
