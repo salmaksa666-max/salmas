@@ -1,0 +1,189 @@
+# Pulmonology
+== Asthma
+| الحالة | الجواب | Q |
+| أعراض خفيفة على SABA بس | أضيفي inhaled corticosteroid | 0079 |
+| أعراض يومية أو تحد النشاط، FEV1 74% | low-dose ICS + LABA | 0011 |
+| على ICS (beclometasone) وما انضبط | أضيفي LABA (salmeterol) | 0020 |
+| على ICS + LABA + allergic rhinitis | Leukotriene receptor antagonist | 0024 |
+| Asthma + sinusitis + كحة بالليل | Budesonide MDI | 0120 |
+| Asthma + aspirin أو NSAIDs + polyps | وقفي NSAIDs + montelukast | 0037 |
+| Cough-variant ما تحسن + يزيد وهي منسدحة | PPI (GERD) | 0017 |
+| Exercise-induced | Salbutamol | 0176 0177 |
+| أعراض مع الشغل | أعيدي spirometry بعد الشغل | 0014 |
+| كحة مزمنة + spirometry طبيعي | Methacholine challenge | 0015 |
+| Stridor مع الرياضة (مو wheeze) | Vocal cord dysfunction ← ENT | 0013 |
+- Life-threatening: PEF أقل من 33%، SpO2 أقل من 92%، PaCO2 طبيعي، silent chest، cyanosis، تعب، confusion [0025]
+- النوبة: O2 + salbutamol + ipratropium + steroid ← IV magnesium [0026] ← ما تحسن أو تعب ← intubation [0023]. نوبة شديدة 12 ساعة ← ICU [0018]
+== COPD
+| الحالة | الجواب | Q |
+| كحة مع بلغم 3 شهور لسنتين | Chronic bronchitis | 0071 |
+| مدخن + RA + SOB | Emphysema | 0078 |
+| تشخيص جديد | وقف التدخين أول | 0081 |
+| Stable | SABA عند الحاجة + LAMA + rehab | 0016 0039 |
+| Exacerbations متكررة على LAMA | أضيفي ICS + LABA | 0021 |
+| Exacerbation | nebulized salbutamol + ipratropium | 0073 |
+| CO2 عالي + نعسان على O2 | قللي الأكسجين | 0070 |
+| Gag ضعيف أو وعي نازل | Intubate | 0188 |
+| Hypoxia مستمر أو cor pulmonale أو PH | Long-term O2 (يطول العمر) | 0010 0027 0121 |
+| كحة + dyspnea + الفحص طبيعي | Spirometry | 0028 |
+== Pneumonia و Pleural
+| الحالة | الجواب | Q |
+| Outpatient + DM | cefuroxime + azithromycin | 0109 |
+| Admit | ceftriaxone + azithromycin | 0195 |
+| ICU بدون أمراض رئة | moxifloxacin | 0076 |
+| Poor prognosis | DM (من الخيارات) | 0075 |
+| Pneumonia + hypotension | 1000 mL saline bolus | 0187 |
+| يوم 3 + SOB شديد + bilateral | ARDS | 0139 |
+| Pneumonia + shock + LFT بالآلاف | Ischemic hepatitis | 0098 0194 |
+| كحة وحلق وجسم بدون consolidation | Bronchitis | 0148 |
+| Pneumonia ترجع بنفس المكان | Bronchogenic cancer | 0077 |
+| Effusion + pneumonia | Diagnostic thoracentesis | 0036 |
+| يحتاج chest tube | pH أقل من 7.2 | 0033 |
+| Empyema بعد pneumonia | Small-bore drain + pip-tazo | 0012 |
+| Exudate | LDH أكثر من ثلثين ULN | 0022 |
+| Transudate يمين | Heart failure | 0019 |
+== Lung: nodules، cancer، ILD، OSA
+| الحالة | الجواب | Q |
+| 1 cm حوافه حادة | CT بعد 3–6 شهور | 0032 |
+| ثابت سنتين أو أكثر | ما يحتاج متابعة | 0029 0009 |
+| كبر بالمتابعة | Thoracic surgery | 0030 |
+| مدخن + نقص وزن + SOB | CT chest with contrast. أو lung carcinoma | 0031 0138 |
+| قبل عملية الرئة | Pulmonary function tests | 0038 |
+| Bilateral hilar بدون أعراض | Observe (sarcoidosis) | 0127 |
+| Clubbing + crackles | HRCT | 0072 |
+| سمين + نعسان + شخير | Sleep study | 0074 |
+# Infection
+== TB و Brucella
+| الحالة | الجواب | Q |
+| اشتباه pulmonary TB | Standard + airborne | 0110 |
+| أعلى قيمة تشخيصية | Ziehl-Neelsen | 0150 |
+| PPD إيجابي + CXR طبيعي (latent) | INH 6–9 شهور + pyridoxine | 0102 0206 |
+| TB meningitis | RIPE + dexamethasone | 0101 |
+| Confusion + حرارة أسابيع + من الهند | ابدئي RIPE | 0088 |
+| HIV + TB جديد | TB أول، ARV بعدين (IRIS) | 0159 |
+| حليب غير مبستر + حرارة + ألم ظهر | Brucella serology | 0105 0156 0090 |
+| SAAG أكثر من 1.1 | Cirrhosis أو portal HTN | 0100 0143 |
+== Meningitis و neutropenia و HIV و UTI
+| الحالة | الجواب | Q |
+| حرارة + صداع + rash + رقبة | LP | 0184 |
+| صداع مفاجئ + CT سليم | LP | 0056 |
+| رجعت من مكة + حرارة + صداع | ceftriaxone + vancomycin | 0132 |
+| Febrile neutropenia | IV antibiotics بالمستشفى | 0169 0186 |
+| + shock | Meropenem | 0083 |
+| Aspergillus بعد BMT | Voriconazole | 0154 |
+| Candida بدون neutropenia | No antifungal | 0106 |
+| HIV + SOB + cyanosis | Pneumocystis | 0082 |
+| Urethritis | Azithromycin. Gonorrhea ← urethral swab | 0107 0111 |
+| Cystitis | Nitrofurantoin. Dipstick إيجابي ← empiric | 0163 0392 |
+| Pyelonephritis | Outpatient cipro. ما تحسن ← kidney US | 0108 0103 |
+| Shingles | Clinical، ما يحتاج فحص | 0183 |
+| HPV جرعة ثانية متأخرة | أعطيها اليوم | 0345 |
+| Septic shock | Vasopressor لـMAP 65. Bedsore + confusion | 0084 0158 |
+# Cardiology
+== القلب
+| الحالة | الجواب | Q |
+| STEMI أو LBBB جديد | Thrombolysis. PCI متوفر ← PCI | 0113 0196 |
+| بعد stroke + ألم صدر | Urgent angiography | 0124 |
+| أهم risk factor (من الخيارات) | العمر | 0203 |
+| Angina + يبي يوقف تدخين | Nicotine replacement | 0170 |
+| Unstable tachycardia | Cardioversion | 0136 |
+| NYHA قيود بسيطة | Class II | 0125 |
+| JVP + pulsus paradoxus + أصوات بعيدة | Pericardium (tamponade) | 0145 |
+| Severe AR + EF 40% | AVR | 0094 |
+| Early diastolic يزيد بالشهيق | Pulmonary regurgitation | 0114 |
+| Early diastolic يزيد لما يميل لقدام | Aortic regurgitation | 0140 0197 |
+| Ejection systolic → carotids | Aortic stenosis | 0123 |
+| ILD + v wave + كبد ينبض | Tricuspid regurgitation | 0115 |
+| Mechanical valve + MRSA | Vancomycin + rifampin + gentamicin | 0112 |
+| MS + AF | INR 2–3 | 0066 |
+== Hypertension
+| الحالة | الجواب | Q |
+| DM + HTN | ACE-I (ramipril) | 0068 |
+| ما انضبط | ACE-I + CCB | 0044 |
+| قراءة عالية بدون أعراض | Ambulatory BP | 0069 |
+| ARB | Irbesartan | 0144 |
+| Scleroderma + crisis | ACE-I (lisinopril) | 0130 |
+| وعي نازل + pulmonary edema | Furosemide | 0117 |
+== DVT و PE و Stroke
+| الحالة | الجواب | Q |
+| بعد عملية + SOB + hemoptysis | CTPA | 0035 |
+| بعد إصابة + confusion | PE | 0080 |
+| بعد عملية + hypoxia | Enoxaparin | 0058 |
+| Massive PE | Thrombolysis | 0189 |
+| DVT كبير | Unfractionated heparin | 0135 |
+| DVT ثاني مرة | Long-term anticoagulation | 0147 |
+| Cancer + رجل منتفخة | DVT | 0161 |
+| INR عالي بدون نزيف | وقفي warfarin وأعيدي INR | 0064 |
+| TIA | Carotid duplex | 0057 |
+| Stroke ساعتين | rtPA | 0116 |
+| سلوك غريب + رجل أضعف | ACA stroke | 0134 |
+| Stroke كبير + papilledema | Craniotomy | 0157 |
+| أول seizure | CT head | 0055 |
+| تبي حمل + صرع ما انضبط | راجعي الأدوية | 0474 |
+| ينسى الأسماء وحياته طبيعية | Benign forgetfulness | 0160 |
+# Renal، GI، Endocrine، Heme
+== الكلى والأملاح
+| الحالة | الجواب | Q |
+| Dialysis: سبب الوفاة | Cardiovascular | 0046 |
+| Dialysis + SOB | Peaked T | 0128 |
+| K عالي + ECG | Calcium gluconate. K مشكوك ← ECG | 0129 0153 |
+| Tumor lysis | K عالي + Ca واطي | 0142 |
+| تصحيح Na سريع | Central pontine myelinolysis | 0182 |
+| Glioblastoma + Na واطي | SIADH | 0166 |
+| بعد catheterization + AKI | Eosinophiluria (cholesterol emboli) | 0045 |
+| تمارين شديدة + دوخة | Pre-renal، BUN/Cr أكثر من 20 | 0050 0051 |
+| دم بالـdipstick بدون RBCs | Rhabdo ← hydration | 0151 0152 |
+| دواء جديد + AKI | AIN | 0048 |
+| بعد URTI بـ3 أيام | IgA nephropathy | 0049 |
+| Edema + hematuria | Acute GN | 0199 |
+| Proteinuria | Kidney biopsy | 0180 0179 |
+| SLE class I | ضبط الضغط | 0054 |
+| Sjogren + K واطي | RTA type 1 | 0047 |
+| CKD anemia | Iron studies أول ← EPO | 0052 0062 0118 0173 |
+| CKD + PTH عالي | Calcitriol | 0131 0164 |
+== الكبد والجهاز الهضمي
+| الحالة | الجواب | Q |
+| Varices تنزف | Octreotide | 0174 |
+| بعد ligation | Beta blocker | 0119 |
+| Cirrhosis بعد علاج HCV | US كل 6 شهور | 0053 |
+| Ascites tense | Therapeutic paracentesis | 0175 |
+| Ascites + encephalopathy | Diuretic + spironolactone (المصدر) | 0096 |
+| Child-Pugh | Stage B | 0097 |
+| سكري + LFT عالي شوي | NAFLD | 0095 |
+| Paracetamol overdose | NAC + charcoal | 0146 |
+| Crohn مقابل UC | Non-caseating granuloma | 0091 |
+| إسهال بدم | IBD ← colonoscopy | 0099 0193 |
+| GERD قديم + dysphagia | Endoscopy | 0093 |
+| رجل + anemia | FOB | 0202 |
+== الغدد والدم والسكري
+| الحالة | الجواب | Q |
+| أي شك بالغدة أو nodule | TSH | 0085 0185 |
+| Hyperthyroid + nodule | Toxic nodular goiter | 0086 |
+| بعد URTI + رقبة تألم | Subacute thyroiditis | 0089 |
+| تعب + إمساك | Hashimoto | 0133 |
+| Lipids + hypothyroid | Thyroxine | 0092 |
+| Hypoglycemia وهو صاحي | Juice | 0087 |
+| T1DM + albuminuria | ACE-I | 0178 |
+| IDA + celiac ما استجاب | IV iron | 0063 |
+| IDA عادي | Oral iron | 0192 |
+| أهل أقارب + نقل دم | Hb electrophoresis | 0137 |
+| Hemolysis (Coombs) | Steroids | 0191 |
+== Rheumatology
+| الحالة | الجواب | Q |
+| SLE على steroids + ورك | Avascular necrosis | 0004 |
+| Lupus + Raynaud + myositis | Anti-RNP (MCTD) | 0041 |
+| Neuropsychiatric lupus | Steroids + cyclophosphamide | 0042 |
+| SLE + arthritis | Prednisolone + MTX | 0200 |
+| RA جديد | MTX + HCQ + prednisone | 0003 |
+| RA على steroids | خففي steroid + MTX | 0043 |
+| RA ما انضبط | Biologic | 0172 |
+| على biologic + infection | وقفي + antibiotics | 0006 |
+| ركبة حارة + حرارة | Arthrocentesis | 0040 |
+| Psoriasis + "gout" ما تحسن | Psoriatic arthritis | 0001 |
+| Gout | Needle، negatively birefringent | 0007 |
+| Loop diuretic | يسبب gout | 0167 |
+| Back pain التهابي | AS ← MRI sacroiliac | 0190 0201 |
+| Rash بالرجول + بطن + ركب | HSP | 0162 |
+| Gait + زغللة بشابة | MS | 0171 |
+| OA | ما يحتاج فحص | 0005 |
+- Depression: أعلى suicide risk من الخيارات ← عزلة اجتماعية [0205]. Postpartum depression ← SSRI [0252]. NMS ← bromocriptine [0122]. Ectopic ruptured ← laparotomy [0462]
