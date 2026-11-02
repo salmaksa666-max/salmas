@@ -19,6 +19,11 @@ AR = re.compile(r"[؀-ۿ]")
 LAT = re.compile(r"[A-Za-z0-9][A-Za-z0-9'’\-/.+%±:&]*(?: (?:[A-Za-z0-9±][A-Za-z0-9'’\-/.+%±:&]*|\+|/|=|–))*")
 QID = re.compile(r"\b\d{4}\b")
 PREFIX = os.environ.get("PREFIX", "GB-")
+EXPL = json.load(open(os.environ["EXPL"], encoding="utf-8")) if os.environ.get("EXPL") else {}
+
+
+def clean_ex(t):
+    return re.sub(r"\s*الجواب والشرح من بطاقات.*$", "", t or "").strip()
 
 items = {it["qid"]: it for it in json.load(open(ITEMS, encoding="utf-8"))}
 OPTS = {}
@@ -94,6 +99,8 @@ td.q { white-space: nowrap; font-weight: bold; direction: ltr; text-align: left;
 .q { break-inside: avoid; margin-bottom: .9mm; }
 .q .o { padding-left: 3mm; color: #222; }
 .q .o span { margin-right: 2.5mm; }
+.q .ex { direction: rtl; text-align: right; font-size: .95em; border-right: 1.2pt solid #000; padding-right: 1.5mm; margin: .3mm 0 0 3mm; }
+td.why { font-size: .92em; color: #222; }
 .rp { border: .8pt solid #000; border-radius: 1mm; padding: 0 1mm; font-weight: bold; }
 .tree { direction: rtl; display: flex; flex-wrap: wrap; align-items: center; gap: 1mm; padding: .8mm 2mm; font-size: 8pt; }
 .tree .n { border: .8pt solid #000; border-radius: 1.5mm; padding: .3mm 1.5mm; }
@@ -122,7 +129,7 @@ for sname, topics in secs:
             if not o or not re.match(r"[A-E][.)]", ans.strip()):
                 o += f' <span class="ok">✔ {html.escape(ans)}</span>'
             badge = f'<span class="rp">مكرر {html.escape(it["rep"])}</span> ' if it.get("rep") else ""
-            qs += f'<div class="q"><b>{num[q]})</b> {badge}{html.escape(it["stem"])}{it["flag"]}<div class="o">{o}</div></div>'
+            qs += f'<div class="q"><b>{num[q]})</b> {badge}{html.escape(it["stem"])}{it["flag"]}<div class="o">{o}</div>' + "".join(f'<div class="ex">{icon} {bidi(clean_ex(EXPL.get(PREFIX + q, {}).get(k)))}</div>' for icon, k in (("💡", "rule"), ("🔁", "flip")) if clean_ex(EXPL.get(PREFIX + q, {}).get(k))) + '</div>'
         tree = "".join('<div class="tree">' + '<span class="a">←</span>'.join(f'<span class="n">{bidi(x)}</span>' for x in br) + "</div>" for br in tp["tree"])
         body += (f'<div class="tp"><div class="tt">{bidi(tp["title"])}</div>{tree}' + (f"<table>{rows}</table>" if rows else "")
                  + (f'<div class="notes">{notes}</div>' if notes else "") + (f'<div class="qs">{qs}</div>' if qs else "") + "</div>")

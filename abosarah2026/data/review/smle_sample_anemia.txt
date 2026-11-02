@@ -1,0 +1,57 @@
+# Part 1: Hematology (عينة بالطريقة الجديدة)
+== الخريطة 1: أول سؤال تسألينه بأي أنيميا: كم الـMCV؟
+> Hb واطي → شوفي الـMCV
+> MCV واطي (microcytic) → خريطة 2: IDA ولا thalassemia ولا lead ولا chronic disease
+> MCV طبيعي + retics عالية → الجسم يصنع بس الدم يتكسر أو ينزف → خريطة 3: hemolysis
+> MCV عالي (macrocytic) → B12 أو folate → دوري سبب سوء الامتصاص بالأمعاء
+== الخريطة 2: Microcytic: أربع أسباب، كل واحد له مفتاح
+> MCV واطي → ferritin واطي → IDA (أكل: حليب بقر وبسكويت، أو نزيف)
+> MCV واطي → ferritin طبيعي + RBC عالي أو طبيعي + target cells → thalassemia (Hb electrophoresis)
+> MCV واطي أو طبيعي → basophilic stippling + pica + خطوط كثيفة بالعظم → lead poisoning
+> MCV واطي → ferritin عالي + مرض مزمن (SLE، sarcoid، CKD) → anemia of chronic disease
+| المفتاح بالسؤال | الجواب | ليش | Q |
+| طفل حليب بقر وبسكويت، ما ياكل لحم | IDA ← oral iron + غيري الأكل | حليب البقر فقير بالحديد ويسبب نزيف خفي بالأمعاء | 0080 0079 0081 |
+| ياكل تراب + ferritin واطي | Pica مع IDA | نقص الحديد نفسه يسبب الرغبة بأكل أشياء غريبة | 0078 |
+| ياكل تراب: أول فحص | CBC + smear | يفرق بين IDA و lead من شكل الخلايا | 0103 |
+| Basophilic stippling | Lead poisoning | الرصاص يعطل تصنيع الـheme ويترك بقايا RNA بالخلية | 0083 |
+| Pica + خطوط كثيفة بالـmetaphysis | Blood lead level | الخطوط هي الرصاص المترسب بالعظم | 0104 |
+| Lead مؤكد | Chelation (D-penicillamine) | يسحب الرصاص | 0105 |
+| "Specific" أو "single confirmatory" | Ferritin واطي | أدق رقم لمخزون الحديد بدون إبرة | 0110 0111 |
+| "Most definitive" | Bone marrow | الـgold standard، بس نادر نسويه | 0108 |
+| CKD + anemia | Iron studies أول | لازم نستبعد نقص الحديد قبل EPO | 0109 |
+| MCV واطي جدًا + RBC طبيعي أو عالي + طحال | Beta thalassemia | المشكلة بتصنيع السلسلة مو بالحديد، فالـRBC كثيرة وصغيرة | 0082 0086 0102 |
+| Frontal bossing + طحال كبير | Hemoglobin (thalassemia) | النخاع يتوسع بالعظم عشان يعوض | 0089 |
+| Hydrops fetalis | Alpha thalassemia major | ما فيه alpha أبدًا ← Hb Bart's ما توصل الأكسجين | 0101 |
+== الخريطة 3: Hemolysis: هل الدم يتكسر؟ وليش؟
+> علامات hemolysis: retics و LDH و indirect bilirubin عالية + haptoglobin واطي → أول فحص: Coombs
+> Coombs إيجابي → AIHA → steroids
+> Coombs سلبي + spherocytes أو gallstones أو طحال → hereditary spherocytosis → osmotic fragility
+> Coombs سلبي + بعد أكل (فول) أو دواء + bite cells → G6PD
+> Hb S بالـsmear → sickle cell → خريطة 4
+| المفتاح بالسؤال | الجواب | ليش | Q |
+| Coombs مباشر وغير مباشر إيجابيين | AIHA | أجسام مضادة على الكريات | 0091 0092 |
+| نفس الأرقام + jaundice + gallstones | Hereditary spherocytosis | التكسر المزمن يسوي حصوات pigment | 0093 |
+| مولود jaundice بأول 12 ساعة + spherocytes | Osmotic fragility | الخلايا الكروية تنفجر أسرع بالمحلول المخفف | 0077 |
+| بعد الأكل + أدوية (PPI) | G6PD | ما يقدر يحمي الكريات من الأكسدة | 0095 |
+| SLE + LDH عالي + haptoglobin واطي | Hemolytic | SLE يسبب AIHA | 0087 |
+| حرارة + confusion + platelets واطية + anemia | Blood film (schistocytes) ← TTP | الجلطات الصغيرة تقطع الكريات | 0097 |
+| إسهال بدم + كلى + platelets واطية | Stool culture ← HUS (E. coli) | السموم من الأكل غير المطبوخ | 0098 |
+| Splenectomy تعالج | Spherocytosis | الطحال هو اللي يكسرها | 0099 |
+| Splenectomy: الأشهر نسويها لـ | ITP | الطحال يكسر الـplatelets المغطاة بأجسام مضادة | 0100 |
+== الخريطة 4: Sickle cell
+> Sickle → التشخيص: Hb electrophoresis → HbSS: ما فيه Hb A أبدًا → HbAS (trait): Hb A موجود
+> Sickle + ألم وتورم إصبع → dactylitis
+> Sickle + hypoxia + infiltrate جديد → acute chest → exchange transfusion
+| المفتاح بالسؤال | الجواب | ليش | Q |
+| تأكيد التشخيص | Hb electrophoresis | يفصل أنواع الهيموقلوبين | 0084 0085 0090 |
+| وش ما يطلع بالـSS | Hb A | ما فيه beta طبيعية أبدًا | 0072 |
+| تورم إصبع | Dactylitis | انسداد الأوعية بعظام اليد | 0088 |
+| Acute chest + hypoxia | Exchange transfusion | تقلل نسبة HbS بسرعة | 0076 |
+| Sickle + RUQ مع الأكل | Chronic hemolysis (حصوات) | Pigment stones من التكسر | 0094 |
+| زوجين أقارب + أخت sickle | Genetic counseling | احتمال إنهم الاثنين حاملين | 0106 |
+| حامل للصفة + زوجة سليمة | الخطر قليل، وصفر لو فحصها سلبي | لازم الاثنين حاملين عشان يطلع مريض | 0107 |
+== متفرقات بنفس القسم
+| المفتاح بالسؤال | الجواب | ليش | Q |
+| Mycoplasma + jaundice يوم 3 | وقفي الـantibiotic | Drug-induced liver injury | 0074 |
+| Pneumonia تحسن | وقفي ceftriaxone (حوليه oral) | IV ما يحتاج بعد التحسن | 0073 |
+- [0075 0096] المصدر ما حدد جواب ⚠
