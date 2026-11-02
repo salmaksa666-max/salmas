@@ -1,0 +1,186 @@
+# Part 6: Milestones و Vaccines
+== Milestones و التغذية
+| الحالة | الجواب | Q |
+| ما يلعب مع الأطفال بعمر 3 | Psychosocial (autism؟) | 1185 |
+| Preterm: احسبي العمر المصحح | طمني | 1186 |
+| Preterm: التطعيم | حسب العمر الحقيقي | 1187 |
+| 6 شهور ما يجلس لحاله | طمني وتابعي | 1188 |
+| تاريخ عائلي | Full developmental assessment | 1189 |
+| 12 شهر يمشي على الأثاث | طمني | 1190 |
+| Colic | أول 3 شهور | 1191 |
+| الأكل الصلب | 6 شهور | 1192 |
+| Peanut و egg (المصدر) | 10 شهور | 1194 |
+| T1DM: celiac screening | وقت التشخيص ثم كل سنتين | 1196 |
+- [1193 1195] المصدر ما حدد جواب ⚠
+== Vaccines: الجدول و catch-up
+| الحالة | الجواب | Q |
+| شهرين | IPV، HBV، DTP، Hib، PCV، Rota | 1197 1198 |
+| سنة | OPV، MMR، varicella، PCV | 1199 |
+| 6 سنين | MMR، varicella، DTP، OPV | 1200 |
+| 9 شهور مكمل | Measles + meningococcal | 1203 |
+| 9 شهور ما تطعم أبد | BCG، HepB، OPV، DTaP، measles (+ MCV4) | 1202 1204 1205 |
+| فاته تطعيم | Catch-up | 1206 1207 |
+| جاه chickenpox مؤكد | ما يحتاج varicella | 1201 1229 |
+| نفس القصة (المصدر) | أعطيه varicella | 1208 |
+| تعرض لـchickenpox وهو سليم | Varicella vaccine خلال 3–5 أيام | 1209 1216 1217 1218 |
+| رضيع شهرين تعرض | طمني | 1219 |
+| Chemo + تعرض | VZIG | 1212 1215 |
+| Chemo + جاه chickenpox | Acyclovir (IV) | 1213 1214 |
+| أخوه measles + 5 شهور | Immunoglobulin | 1210 1211 |
+| Measles بالحضانة | Supportive (أو MMR) | 1222 1223 |
+| Zoster عادي | Supportive | 1220 |
+| 50 + zoster قبل أو COPD | Recombinant zoster vaccine | 1224 1225 1228 1230 |
+| 30 + zoster قريب | ما يعطى | 1231 |
+| Nephrotic على steroid عالي | DTaP بس. Live بعد ما يوقف شهر | 1232 1233 1235 1236 |
+| Preschool | OPV | 1234 |
+- [1221 1226 1227] المصدر ما حدد جواب ⚠
+== Vaccines: موانع و سفر و tetanus
+| الحالة | الجواب | Q |
+| تورم كبير أو حرارة 37.9 أو زكام | أعطيه الحين | 1237 1238 1240 1245 1246 |
+| Contraindication مطلقة للـDTaP | Encephalopathy خلال 7 أيام | 1239 |
+| Febrile seizure بعد DTaP | ما لها أثر طويل | 1241 |
+| Moderate أو severe illness | أجليه | 1247 |
+| Immunodeficiency | لا live vaccines (varicella، BCG) | 1248 1249 1315 |
+| أخته زراعة كلى | لا OPV | 1314 |
+| HIV | MMR يحتاج تقييم. CD4 واطي: لا varicella | 1311 1312 1313 |
+| Egg allergy | أعطيه MMR و flu | 1243 1244 |
+| أخذ IVIG | سأليه قبل live vaccines. DTaP عادي | 1251 1252 1253 |
+| Anaphylaxis بعد flu | لا تعطيه | 1254 |
+| Reaction قبل | شوفي وش أخذ | 1255 |
+| ما تطعم + infection | PCV | 1256 |
+| Kenya | Yellow fever (بدونه: meningococcal) | 1257 1258 1259 |
+| Ghana | Antimalarial | 1273 |
+| أفريقيا | Yellow fever + antimalarial | 1302 |
+| الهند | Hep A + typhoid + أكل آمن | 1300 1301 |
+| إسهال المسافر | ماي معبأ وتجنب النيء | 1317 1318 |
+| Dengue بالسعودية | الغرب | 1242 |
+| Tetanus أكثر من 10 سنين | Tdap booster | 1260 1261 |
+| مطعم + مسمار | Irrigation | 1262 |
+| Chickenpox | Varicella | 1250 |
+| Mumps | Parotid | 1316 |
+| Rash بعد MMR بـ3 أيام | Unrelated | 1309 |
+- [1310 1319] المصدر ما حدد جواب ⚠
+== Vaccines: الكبار و HBV
+| الحالة | الجواب | Q |
+| أم HBsAg + | Vaccine + HBIG للطفل | 1266 1267 1268 |
+| أهل ضد التطعيم | صححي المعلومة واشرحي | 1269 1270 |
+| حامل | Influenza | 1271 1272 1306 1307 |
+| Rubella سلبية | بعد الولادة | 1287 |
+| أخذت rubella وحملت | ما يتأثر | 1288 |
+| RA على MTX | Inactivated flu + pneumococcal | 1278 1279 |
+| 65 أو أكثر | Pneumococcal (PCV ثم PPSV) | 1280 1281 1282 1283 1284 1299 |
+| Chemo | Inactivated vaccine | 1285 1286 |
+| بعد splenectomy | بعد أسبوعين | 1304 1305 |
+| Thalassemia + transfusions | Hepatitis B | 1308 |
+| حج: meningococcal | 10 أيام قبل | 1298 |
+| أخذ 12 و 18 شهر مع بعض | أعطيها ولاحظي | 1303 |
+== GI و السوائل
+| الحالة | الجواب | Q |
+| إسهال بدم | Campylobacter | 1274 |
+| رضيع إسهال مائي | Rotavirus | 1275 1289 |
+| مطعم rota + إسهال | Norovirus | 1265 |
+| أخوه نوم بسبب gastroenteritis | تأكدي من rota | 1263 |
+| أخته gastroenteritis + مطعم | طمني | 1264 |
+| بالنهار بس + ما يأثر على النمو | Toddler's diarrhea | 1276 |
+| رضيع 3 شهور + أعراض | Admit | 1277 |
+| إسهال بدم مزمن + نقص وزن | Admit للـworkup | 1290 1291 1292 |
+| Shigella | Ceftriaxone (أو azithromycin) | 1321 1322 1323 |
+| Pyloric stenosis | Normal saline | 1325 |
+| حسبة السوائل | حسب الوزن (Holliday-Segar) | 1326 1327 1328 |
+| إسهال بدون جفاف | ORS | 1329 1330 |
+| يبكي وقت الإخراج والبراز طبيعي | طمني | 1320 |
+| Infections بالحضانة | غسيل اليدين | 1331 |
+| عضة قطة مريضة | Irrigate ثم rabies Ig + vaccine | 1293 1294 1295 |
+| خفاش | Rabies Ig + vaccine | 1296 1297 |
+- [1324] المصدر ما حدد جواب ⚠
+== Child abuse و psychiatry و delirium
+| الحالة | الجواب | Q |
+| قصة منطقية + تأخر | Neglect أو delayed presentation | 1332 1333 1339 |
+| حليب مخفف | تحضير الحليب غلط | 1334 1335 |
+| كدمات بأعمار مختلفة | عالجي + بلغي | 1336 1337 |
+| Autism | Screening 18–24 شهر. أعراض ← investigate | 1341 1342 |
+| ADHD: الوقاية | تجنب المواد بالحمل | 1343 |
+| ADHD + ما تنام | روتين نوم | 1344 |
+| ADHD بأقل من 6 | Parent behavioral therapy | 1349 1351 |
+| بالبيت بس | معلومات من المدرسة | 1352 |
+| Social media + قلق | CBT (أو قللي الاستخدام) | 1345 1346 1347 |
+| ما يتحرك | شجعيه | 1348 |
+| يرفض المدرسة | Gentle separation | 1353 |
+| يصرخ بالليل وما يتذكر | Night terror ← طمني | 1354 1355 |
+| UTI + delirium | Antibiotics | 1356 1357 1359 |
+| Ca واطي + agitation | Calcium gluconate | 1358 |
+| Depression: أهم علامة | الانعزال | 1360 1361 |
+| Insomnia | روتين نوم ← CBT-I | 1362 1363 1364 1365 |
+- [1338 1340 1350] المصدر ما حدد جواب ⚠
+# Day 1 GameBoy
+== Rheumatology و Lung و Kidney
+| الحالة | الجواب | Q |
+| Gout ما يتحسن + psoriasis | Psoriatic | 0001 |
+| SLE + ضعف رجول + بول | LP + MRI spine | 0002 |
+| RA جديد | MTX + HCQ + prednisone | 0003 |
+| SLE + steroids + ورك | AVN | 0004 |
+| OA | ما يحتاج فحص | 0005 |
+| Biologic + infection | وقفي + antibiotics | 0006 |
+| Gout | Needle، negative | 0007 |
+| SLE تبي حمل | MMF ← azathioprine | 0008 |
+| RA + ركبة حارة | Arthrocentesis | 0009 |
+| MCTD | Anti-RNP | 0010 |
+| NP lupus | Steroids + cyclophosphamide | 0011 |
+| RA على prednisone | خففيه + MTX | 0012 |
+| COPD + PH | LTOT | 0013 0027 |
+| Stridor بالرياضة | ENT | 0014 |
+| Empyema | Drain + pip-tazo | 0015 |
+| Occupational asthma | Spirometry بعد الشغل | 0016 |
+| COPD stable | SABA + LAMA + rehab | 0017 |
+| Cough-variant ما تحسن | PPI | 0018 |
+| Asthma 12 ساعة ما تحسن | ICU | 0019 |
+| Transudate | HF | 0020 |
+| على ICS (المصدر) | LAMA | 0021 |
+| COPD exacerbations | ICS + LABA | 0022 |
+| Exudate | LDH | 0023 |
+| Asthma ما تحسن بعد Mg | Intubation | 0024 |
+| Life-threatening | PEF 30% | 0025 |
+| Severe asthma | Magnesium | 0026 |
+| كحة مزمنة | Spirometry | 0028 |
+| Chest tube | pH أقل من 7.2 | 0029 |
+| حامل + رجل منتفخة | Doppler | 0030 |
+| بعد عملية + hemoptysis | CTPA | 0031 |
+| Effusion + pneumonia | Thoracentesis | 0032 |
+| AERD | وقفي NSAIDs + montelukast | 0033 |
+| قبل عملية الرئة | PFT | 0034 |
+| COPD | Ipratropium | 0035 |
+| COPD + O2 عالي | قللي O2 | 0036 |
+| Chronic bronchitis | Chronic bronchitis | 0037 |
+| ILD | HRCT | 0038 |
+| COPD exacerbation | Salbutamol + ipratropium | 0039 |
+| OSA | Sleep study | 0040 |
+| Pneumonia poor prognosis | DM | 0041 |
+| ICU pneumonia | Moxifloxacin | 0042 |
+| Pneumonia ترجع | Cancer | 0043 |
+| مدخنة + RA | Emphysema | 0044 |
+| SABA بس | ICS | 0045 |
+| بعد إصابة + confusion | PE | 0046 |
+| COPD جديد | وقف التدخين | 0047 |
+| HIV + ARDS | Pneumocystis | 0048 |
+| Cholesterol emboli | Eosinophiluria | 0049 |
+| Dialysis | سبب الوفاة: CVD | 0050 |
+| Sjogren | RTA type 1 | 0051 |
+| دواء + AKI | AIN | 0052 |
+| بعد URTI بـ3 أيام | IgA | 0053 |
+| تمارين + دوخة | Pre-renal، BUN/Cr أكثر من 20 | 0054 0055 |
+| CKD anemia | Iron studies | 0056 |
+| Cirrhosis | US كل 6 شهور | 0057 |
+| Lupus class I | الضغط | 0058 |
+| أول نوبة | CT | 0059 |
+| SAH + CT سليم | LP | 0060 |
+| TIA | Carotid duplex | 0061 |
+| بعد عملية + cancer + hypoxia | Enoxaparin | 0062 |
+| قبل عملية + نزيف دورة | Iron studies | 0063 |
+| PPH + DIC | Cryoprecipitate | 0064 |
+| CKD anemia | EPO deficiency | 0065 |
+| Celiac + IDA | IV iron | 0066 |
+| INR عالي بدون نزيف | أعيدي INR بعد يومين | 0067 |
+| MS + AF | INR 2–3 | 0068 |
+| Sickle + حمل | Observation | 0069 |
+| DM + HTN | Ramipril | 0070 |
+| ضغط بدون أعراض | Ambulatory | 0071 |
