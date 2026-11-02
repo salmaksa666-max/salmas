@@ -1,0 +1,243 @@
+@@ abortion_types | abortion|miscarriage|cervical os|closed cervix|open cervi|passing tissue|passed tissue|products of conception|fetal death
+## 📋 أنواع الإجهاض
+| النوع | الـos | الجنين | العلاج |
+| Threatened | مقفل | حي، نبض موجود | conservative وطمني |
+| Inevitable | مفتوح | لسا داخل | evacuation |
+| Incomplete | مفتوح | طلع جزء | evacuation (أو misoprostol) |
+| Complete | مقفل | طلع كله، الرحم فاضي | طمني |
+| Missed | مقفل | ميت وما طلع | misoprostol أو suction |
+| Septic | أي | + حرارة + ريحة | admit + antibiotics + evacuation |
+- CRL 7 mm أو أكثر بدون نبض، أو sac 25 mm أو أكثر بدون جنين = miscarriage أكيد. أقل ← pregnancy of uncertain viability ← أعيدي بعد 7–14 يوم
+- أشهر سبب إجهاض أول trimester ← chromosomal abnormality
+- Recurrent (3 أو أكثر) ← karyotyping للزوجين + antiphospholipid
+- خطر الإجهاض حسب العمر: 40 أو أكثر حوالي 40–50%
+@@ ectopic | ectopic|tubal|methotrexate|pouch of douglas|shoulder|bhcg|beta-hcg|hcg
+## 📋 Ectopic pregnancy
+| الحالة | العلاج |
+| Unstable أو ruptured (ألم كتف، سوائل بالـpouch، صدمة) | laparotomy (أو laparoscopy لو مستقرة) |
+| مستقرة + hCG أقل من 5000 + كتلة أقل من 3.5 cm + ما فيه نبض | methotrexate |
+| كتلة 3.5 cm أو أكثر أو نبض أو hCG عالي | surgery (salpingectomy) |
+| PUL (ما شفنا الحمل) | hCG بعد 48 ساعة |
+- hCG بعد 48 ساعة: زاد 66% أو أكثر ← غالبًا حمل داخل الرحم. نزل ← miscarriage. ثابت ← ectopic
+- متابعة MTX: hCG يوم 4 و 7. نزل 15% أو أكثر بين يوم 4 و 7 ← أسبوعيًا لين يصير سلبي. ما نزل 15% ← جرعة ثانية. ارتفع كثير أو ألم شديد ← surgery
+- أول علامة نزيف ← tachycardia. الضغط ينزل متأخر
+@@ molar | mole|molar|vesicle|snowstorm|fundal height corresponded|gtn|choriocarcinoma|fleshy
+## 📋 Molar pregnancy
+| | Complete | Partial |
+| Karyotype | 46XX (من الأب) | 69XXY (triploid) |
+| الجنين | ما فيه | فيه أجزاء |
+| hCG | عالي جدًا | أقل |
+| الرحم | أكبر من العمر | طبيعي أو أصغر |
+| خطر GTN | 15–20% | 1–5% |
+- العلاج ← suction evacuation (لا D&C حاد، ولا oxytocin قبلها)
+- المتابعة ← hCG أسبوعيًا لين يصير سلبي، بعدها شهريًا (6 شهور للـcomplete)
+- hCG ثابت أو يرتفع أو metastasis ← GTN ← metastatic workup (بدون biopsy، تنزف) + methotrexate
+@@ aph | previa|abruption|antepartum hemorrhage|painless vaginal bleeding|painful vaginal bleeding|accreta|vasa previa|uterine rupture|ruptured uterus
+## 📋 Antepartum hemorrhage
+| | Placenta previa | Abruption |
+| الألم | ما فيه (painless) | فيه، رحم قاسي ومؤلم |
+| الدم | أحمر فاتح | داكن، أو مخفي |
+| الجنين | غالبًا سليم | distress أو وفاة |
+| Risk | C-sections قبل، توائم، multiparity | الضغط، تدخين، cocaine، trauma |
+- Previa: لا vaginal exam ← ultrasound أول. Steroids لو أقل من 34. ولادة C-section 36–37 أسبوع
+- C-sections قبل + previa ← فكري accreta ← ولادة 34–36 + C-section hysterectomy
+- Abruption + IUFD ← vaginal delivery (amniotomy و oxytocin) + صححي الـcoagulopathy
+- Uterine rupture: C-section قبل + ألم فجأة + الطلق وقف + الجنين بطيء أو يطلع لفوق ← laparotomy فورًا
+- Vasa previa: نزيف مع rupture of membranes + fetal bradycardia
+- النزيف حسب الوقت: antepartum (بعد 20–24 أسبوع)، intrapartum (أثناء الولادة)، primary PPH (أول 24 ساعة)، secondary (بعد 24 ساعة لين 12 أسبوع)
+@@ pph | postpartum hemorrhage|after placental delivery|bleed heavily|atony|uterine bleeding that exceeds|oxytocin|misoprostol|placenta is still|retained placenta|laceration|perineal
+## 📋 Postpartum hemorrhage: 4 Ts
+| السبب | النسبة | المفتاح |
+| Tone (atony) | 70% | رحم رخو ← massage + oxytocin |
+| Trauma | 20% | رحم قاسي ومع ذلك تنزف ← laceration (forceps، طفل كبير) |
+| Tissue | 10% | placenta ناقصة أو ما طلعت |
+| Thrombin | 1% | coagulopathy (abruption، ITP، heparin) |
+- Risk factors للـatony: طفل كبير (أكثر من 4 kg)، توائم، polyhydramnios، grand multipara (5 أو أكثر)، ولادة طويلة أو سريعة جدًا، chorioamnionitis، magnesium
+- العلاج بالترتيب: اطلبي مساعدة + 2 IV lines + cross-match ← massage ← oxytocin ← ergometrine (لا مع الضغط) ← carboprost (لا مع asthma) ← misoprostol ← balloon ← surgery (B-Lynch، internal iliac ligation، hysterectomy)
+- Placenta ما طلعت بعد 30 دقيقة ← manual removal
+- Heparin ← protamine. ITP + نزيف ← platelets
+| درجة الـtear | وش يشمل |
+| First | الجلد والمخاط |
+| Second | عضلات الـperineum |
+| Third | الـanal sphincter |
+| Fourth | يوصل للـrectal mucosa |
+@@ preeclampsia | preeclampsia|eclampsia|blood pressure of|160/110|170/110|140/9|headache, blurred vision|magnesium sulfate|labetalol|methyldopa|hellp|right upper quadrant
+## 📋 Hypertension بالحمل
+| النوع | التعريف |
+| Chronic HTN | قبل الحمل أو قبل 20 أسبوع |
+| Gestational | بعد 20 أسبوع بدون proteinuria |
+| Preeclampsia | بعد 20 أسبوع + proteinuria أو أعراض |
+| Eclampsia | preeclampsia + تشنج |
+- Severe features: 160/110 أو أكثر، صداع، زغللة، ألم RUQ (تمدد كبسولة الكبد)، platelets أقل من 100، creatinine عالي، pulmonary edema
+- الأدوية الآمنة: labetalol، nifedipine، methyldopa. ممنوع: ACE-I و ARB (تشوهات الكلى)
+- Magnesium sulfate ← يمنع ويعالج التشنج. سمّيته ← reflexes تختفي ← calcium gluconate
+- Eclampsia ← airway أول (ABC) ← MgSO4 ← ثبتي الضغط ← ولادة
+- Severe preeclampsia من 34 أسبوع ← ولادة. أقل ← steroids ثم ولادة
+- تاريخ preeclampsia قبل ← aspirin من 12 أسبوع
+- Risk factors: أول حمل، توائم، preeclampsia قبل، chronic HTN، DM، SLE، سمنة، عمر 40 أو أكثر
+@@ gdm | diabet|gdm|insulin|macrosomi|polyhydramnios|fundal height|amniotic fluid|oligohydramnios
+## 📋 السكري بالحمل والسائل الأمنيوسي
+- GDM: diet أول ← insulin (أو metformin)
+- OGTT بدري (قبل 24 أسبوع) لو: GDM قبل، سمنة، طفل كبير قبل، تاريخ عائلي
+- DM قبل الحمل ← تشوهات (القلب، neural tube، caudal regression). DM بالحمل ← macrosomia + polyhydramnios + RDS + neonatal hypoglycemia
+| Polyhydramnios | Oligohydramnios |
+| DM، anencephaly، esophageal أو duodenal atresia، توائم | placental insufficiency، renal agenesis، PUV، PROM، NSAIDs |
+@@ preterm_prom | preterm|tocoly|rupture of membranes|prom|leaking|chorioamnionitis|cerclage|cervical incompetence|cervical length|nifedipine|indomethacin
+## 📋 Preterm labor و PROM
+- Preterm labor = طلق منتظم + تغير بالـcervix قبل 37 أسبوع ← التشخيص بالـvaginal exam
+| أقل من 34 أسبوع | الخطوات |
+| Steroids (dexamethasone أو betamethasone) | تمنع RDS |
+| Tocolytic (nifedipine) | يأخر الولادة 48 ساعة عشان الـsteroids |
+| MgSO4 (أقل من 32) | يحمي مخ الجنين |
+| GBS prophylaxis | ampicillin أو penicillin |
+- Tocolytics: beta-mimetics ← palpitations. Indomethacin ← يقفل الـductus (PDA) و oligohydramnios
+- اشتباه PROM ← sterile speculum (لا digital exam)
+- PPROM ← erythromycin + steroids. Chorioamnionitis (حرارة + ألم + tachycardia) ← ampicillin + gentamicin + ولادة
+- PROM بالـterm ← induction
+- Cervical incompetence: إجهاض بالـsecond trimester بدون ألم ← cerclage 12–14 أسبوع. Cervical length أقل من 25 mm قبل 24 أسبوع + تاريخ ← cerclage
+@@ labor_ctg | ctg|cardiotocography|deceleration|fetal heart|fetal tachycardia|bradycardia|biophysical|cord prolapse|reduced fetal movement|decreased fetal movement
+## 📋 CTG
+| النوع | السبب | وش أسوي |
+| Early deceleration | ضغط على الراس | طبيعي |
+| Variable | ضغط على الـcord | غيري الوضعية |
+| Late | placental insufficiency | وقفي oxytocin + غيري الوضعية + سوائل + O2، استمرت ← C-section |
+| Prolonged bradycardia | cord prolapse أو abruption أو rupture | ولادة فورًا |
+- طبيعي: baseline 110–160، variability 5–25، accelerations موجودة
+- Fetal tachycardia ← فكري infection (chorioamnionitis) أو حرارة الأم
+- Pethidine يقلل الـvariability مؤقتًا
+- Cord prolapse ← ارفعي الجزء النازل + knee-chest + C-section فورًا
+- BPP: 8–10 طبيعي، 6 مشكوك، 4 أو أقل ← ولادة
+- قلة حركة الجنين ← CTG أول
+@@ labor_progress | cervix is found to be|cm dilated|station|augmentation|latent phase|active labor|instrumental|ventouse|breech|presentation|obstructed|bishop|prostaglandin|induction
+## 📋 تقدم الولادة
+- Latent: لين 4–6 cm (بطيء طبيعي). Active: من 6 cm، 1 cm بالساعة تقريبًا
+- طلق ضعيف (أقل من 3 بكل 10 دقايق) + CTG طبيعي ← augmentation (oxytocin أو amniotomy)
+- Fully dilated + الراس نازل (0 أو أقل) + fetal distress ← instrumental (ventouse أو forceps)
+- Fully dilated + الراس فوق (-3) أو distress مع راس عالي ← emergency C-section
+- Obstructed labor: caput + molding + الـcervix وقف ← C-section
+- Cervix مقفل وطويل (Bishop واطي) ← prostaglandin E2 للتنضيج قبل الـinduction
+- Post-term: 41–42 أسبوع ← induction
+- Frank breech: الورك منثني والركب ممدودة
+@@ multiple | twin|monochorionic|dichorionic|diamniotic|monoamniotic|multiple
+## 📋 التوائم
+| وقت الانقسام | النوع |
+| 0–3 أيام | DCDA |
+| 4–8 أيام | MCDA (أشهر نوع للمتطابقة) |
+| 9–12 يوم | MCMA |
+| أكثر من 12 يوم | conjoined |
+- Twin A cephalic ← vaginal delivery. Twin A مو cephalic ← C-section
+- مخاطر التوائم: preeclampsia، preterm، PPH، anemia، GDM
+@@ rh | rh\b|rhesus|anti-d|alloimmun|isoimmun|hydrops|kell|o negative
+## 📋 Rh isoimmunization
+- Rh negative + نزيف أو إجراء أو trauma ← anti-D خلال 72 ساعة
+- Anti-D 300 mcg (1500 IU) يغطي 30 mL دم جنين كامل (15 mL RBCs). كثير ← Kleihauer
+- Routine anti-D بـ28 أسبوع وبعد الولادة لو الطفل Rh positive
+- علامة anemia بالجنين ← MCA Doppler peak systolic velocity عالي. Hydrops = ascites + skin edema
+- Anti-Kell ← hydrops حتى بدون Rh
+@@ infections_preg | gbs|group b|bacteriuria|pyelonephritis|herpes|hepatitis b|candid|vaginal itching|syphilis|toxoplasm|cmv|rubella
+## 📋 العدوى بالحمل
+| العدوى | العلاج |
+| Asymptomatic bacteriuria | علاج دايمًا (amoxicillin أو nitrofurantoin أو cephalexin) |
+| Pyelonephritis | admit + IV antibiotics |
+| GBS إيجابي | ampicillin أو penicillin وقت الولادة |
+| Candida | topical azole (لا fluconazole بالفم) |
+| HSV أول مرة | acyclovir. Lesions وقت الولادة ← C-section |
+| HBsAg إيجابي | الطفل ياخذ vaccine + HBIG خلال 12 ساعة |
+@@ medical_preg | thyroid|hypothyroid|hyperthyroid|thyroxin|radioactive|epilep|valpro|phenytoin|cholestasis|pruritus|bile acid|sickle|\bsle\b|mycophenolate|azathioprine|\bace\b|lisinopril|losartan|warfarin|mitral|nyha|creatinine|blood volume|dvt|calf|pulmonary embolism|ventilation-perfusion
+## 📋 الأمراض مع الحمل
+- Hypothyroid بالحمل ← thyroxine وزيدي الجرعة 30%. Hyperthyroid ← PTU أول trimester ثم methimazole. Radioactive iodine ممنوع
+- Valproate ← neural tube defects ← folic acid 5 mg. لو الصرع منضبط على دواء ← كملي عليه
+- Mycophenolate ممنوع ← azathioprine. ACE-I و ARB ممنوعة ← methyldopa أو labetalol أو nifedipine
+- Warfarin ممنوع (أول trimester) ← LMWH. Mitral stenosis أسوأ صمام بالحمل
+- Cholestasis of pregnancy: حكة بالكفوف والرجول بالليل ← bile acids ← ursodeoxycholic acid + ولادة 37 أسبوع
+- Sickle cell بالحمل ← folic acid 5 mg + aspirin. Sickle trait ← UTI أكثر
+- تغيرات الحمل الطبيعية: الدم يزيد 40–50%، الـcreatinine ينزل، plasma volume أكثر من RBCs (dilutional anemia)
+- DVT بالحمل ← compression ultrasound. PE ← V/Q scan (CXR طبيعي) أو CTPA
+- Postpartum depression (أكثر من أسبوعين) ← SSRI. Mastitis ← flucloxacillin وكملي رضاعة. Abscess ← ultrasound + drainage
+- الرضاعة + contraception: progesterone-only أو IUD (combined pill بعد 6 أسابيع)
+@@ antenatal | booking|estimated date|naegele|crown-rump|dating|anomaly scan|chorionic villus|nuchal|cystic hygroma|tanner
+## 📋 متابعة الحمل
+- EDD (Naegele): أول يوم من آخر دورة + 7 أيام − 3 شهور + سنة
+- Dating ← CRL بالـultrasound (أدق شي 7–13 أسبوع)
+- Anomaly scan ← 18–22 أسبوع
+- CVS ← 10–13 أسبوع. Amniocentesis ← من 15 أسبوع
+- Cystic hygroma ← CVS (karyotype، Turner)
+- أحسن مقياس لوزن الجنين ← abdominal circumference. IUGR ← serial ultrasound + umbilical Doppler
+- Reversed end-diastolic flow ← steroids + ولادة
+@@ aub_fibroid | fibroid|leiomyom|myomectomy|menorrhagia|heavy menstrua|heavy period|polyp|adenomyosis|tranexamic|intermenstrual
+## 📋 AUB و Fibroids (PALM-COEIN)
+- PALM (structural): Polyp، Adenomyosis، Leiomyoma، Malignancy. COEIN: Coagulopathy، Ovulatory، Endometrial، Iatrogenic، Not classified
+- أي نزيف ← hCG أول، بعدها CBC
+| Fibroid | العلاج |
+| بدون أعراض | conservative وطمني |
+| نزيف + anemia | صححي الـanemia أول |
+| تبي حمل + submucosal أو يشوه الـcavity | myomectomy (hysteroscopic) |
+| كبير قبل العملية | GnRH agonist يصغره |
+| ما تبي عملية كبيرة | uterine artery embolization |
+| خلصت إنجاب | hysterectomy |
+- Adenomyosis: رحم كبير متساوي وطري + dysmenorrhea + menorrhagia، عمر 40 وفوق. العلاج النهائي ← hysterectomy
+- Polyp ← hysteroscopy + removal
+- Menorrhagia بدون سبب: tranexamic acid أو NSAIDs، أو LNG-IUD، أو COC
+@@ endometrium_pmb | postmenopausal|post-menopausal|endometrial|hyperplasia|endometrial thickness|sonohysterogram|hrt|conjugated estrogen
+## 📋 Postmenopausal bleeding و endometrium
+- PMB ← transvaginal US. Endometrium 4 mm أو أقل ← غالبًا atrophy (أشهر سبب). أكثر من 4 ← endometrial biopsy
+- عمر 45 أو أكثر + AUB، أو سمنة أو PCOS أو DM مع نزيف ← endometrial biopsy
+| الـhyperplasia | العلاج |
+| بدون atypia | progesterone (oral أو LNG-IUD) |
+| مع atypia | hysterectomy. تبي حمل أو ما تقدر عملية ← progesterone مستمر |
+- Estrogen لحاله مع رحم موجود ← hyperplasia ← لازم نضيف progesterone
+- Hot flashes ← lifestyle أول ← HRT. Vaginal atrophy ← vaginal estrogen
+@@ amenorrhea_infert | amenorrh|infertil|ovulation|clomiphene|pcos|polycystic|prolactin|bromocriptine|seminal|premature ovarian|turner|laparoscopy and dye|tubal|ivf|in-vitro
+## 📋 Amenorrhea و Infertility
+- أي amenorrhea ← pregnancy test أول
+- PCOS (Rotterdam 2 من 3): دورة غير منتظمة، hyperandrogenism، ovaries polycystic بالـUS ← تبي حمل: نقص وزن + letrozole أو clomiphene
+- Prolactin عالي ← bromocriptine أو cabergoline
+- Premature ovarian insufficiency: أقل من 40 + FSH عالي مرتين ← HRT
+- Primary amenorrhea + قصيرة ← karyotype (Turner)
+- Infertility بعد سنة (أو 6 شهور لو فوق 35) ← للزوجين: semen analysis أول + ovulation (progesterone يوم 21) + tubal patency
+- Tubes: HSG أو laparoscopy and dye (الأدق). الاثنين مسدودة ← IVF
+- كل شي طبيعي (unexplained) ← clomiphene أو IUI ثم IVF
+@@ endometriosis | endometriosis|dysmenorrh|dyschezia|dyspareunia|pelvic pain|premenstrual
+## 📋 Endometriosis و ألم الدورة
+- Primary dysmenorrhea ← NSAIDs ← ما نفع ← COC
+- Endometriosis: dysmenorrhea + dyspareunia + dyschezia + infertility. التشخيص ← laparoscopy. العلاج: NSAIDs ← COC أو progesterone ← GnRH ← surgery
+- PMS: أعراض بالـluteal phase وتروح مع الدورة
+@@ ovarian | ovar|adnexal|teratoma|ca-125|torsion|cyst
+## 📋 كتل المبيض
+| الحالة | وش أسوي |
+| Simple cyst صغير بشابة | أعيدي US بعد 6–8 أسابيع |
+| ألم فجأة + كتلة (torsion) | laparoscopy + cystectomy (لا تشيلين المبيض) |
+| شعر وأسنان | dermoid (mature teratoma) |
+| كبيرة بالعمر + ascites + كتلة solid | CA-125 ← gyn oncology ← surgery (staging) + chemo |
+- Ovarian cancer staging = surgical
+@@ cervix_vagina | pap|colposcopy|punch biopsy|postcoital|cervical|cone biopsy|vaginal discharge|bacterial vaginosis|candidiasis|trichomon|gonorrh|chlamydia|endocervical
+## 📋 العنق والإفرازات
+- Pap غير طبيعي ← colposcopy. كتلة على العنق ← punch biopsy (مو Pap)
+- Postcoital bleeding بدون كتلة ← Pap smear
+| الإفراز | المرض | العلاج |
+| رمادي، ريحة سمك، clue cells | bacterial vaginosis | metronidazole |
+| أبيض جبني + حكة | candida | azole |
+| أصفر أخضر رغوي + strawberry cervix | trichomonas | metronidazole للزوجين |
+- الزوج عنده gonorrhea أو chlamydia ← endocervical swab (NAAT)
+@@ contraception | contracept|iud|intrauterine device|vaginal ring|pill|condom|progesterone pills
+## 📋 Contraception
+| الحالة | الأنسب |
+| تاريخ DVT أو PE، أو smoker فوق 35، أو migraine with aura | IUD (copper أو LNG) أو progesterone-only |
+| رضاعة أقل من 6 أسابيع | progesterone-only أو IUD |
+| Dysmenorrhea أو menorrhagia | COC أو LNG-IUD |
+| على warfarin | progesterone-only أو IUD |
+- أقوى الطرق: implant و IUD (الـLARC)
+@@ prolapse_incont | prolapse|cystocele|rectocele|enterocele|pessary|colporrhaphy|incontinence|urine leak|urgency|overactive|kegel|sling|cough test|post-void
+## 📋 Prolapse و Incontinence
+| Prolapse | الجدار |
+| Cystocele | أمامي ← anterior colporrhaphy |
+| Rectocele | خلفي (صعوبة إخراج) ← posterior colporrhaphy |
+| Enterocele | بعد hysterectomy |
+| Vault prolapse | sacrospinous fixation أو sacrocolpopexy |
+- بدون أعراض ← reassurance. أعراض خفيفة ← pelvic floor exercise
+- ما تقدر عملية (كبيرة، قلب) ← pessary. خلصت علاج conservative ← surgery
+| Incontinence | المفتاح | العلاج |
+| Stress | مع الكحة والعطاس، hypermobile urethra | Kegel ← midurethral sling (الأقوى) |
+| Urge | إلحاح | bladder training ← anticholinergic |
+| Overflow | residual عالي | post-void residual ← catheter |
+- أي urgency جديد ← urine analysis و culture أول
