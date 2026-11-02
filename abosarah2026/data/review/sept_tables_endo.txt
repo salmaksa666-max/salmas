@@ -1,0 +1,62 @@
+# Endocrinology
+== Secondary hypertension بشاب
+> شاب + ضغط ما ينضبط على دوائين → K واطي + bicarbonate عالي: aldosterone:renin → تاريخ عائلي + K واطي + renin و aldosterone واطيين: Liddle → claudication أو نبض الرجل ضعيف: coarctation (echo Doppler) → نوبات تعرق وخفقان: metanephrines
+| الحالة | الجواب | Q |
+| شاب + ما انضبط + تاريخ عائلي أو K واطي | Aldosterone:renin ratio | 3551 3621 4066 4067 4403 |
+| K واطي + metabolic alkalosis (المصدر) | Urine metanephrines ⚠ | 3337 |
+| نوبات تعرق وخفقان + ضغط | Catecholamines (pheochromocytoma) | 4894 |
+| تعرق وخفقان + ضغط (المصدر) | TSH | 4337 |
+| مراهق + ضعف عضلات + تاريخ عائلي + aldosterone واطي | Liddle syndrome | 2079 2923 |
+| Claudication + صداع + ضغط شاب | Echo Doppler (coarctation) | 2788 2789 3519 |
+- [2434] المصدر ما حدد جواب ⚠
+== Adrenal و pituitary
+| الحالة | الجواب | Q |
+| دوخة وقوف + تصبغ + cortisol واطي | ACTH (synacthen) test | 0848 0850 |
+| ACTH عالي + Na واطي + تصبغ | Primary adrenal insufficiency | 1123 2556 3274 |
+| Cushing + ACTH و cortisol عالية | Pituitary adenoma | 4726 5104 |
+| Adrenalectomy للـCushing | Perioperative hydrocortisone | 0846 0847 |
+| Panhypopituitarism | Hydrocortisone أول (قبل thyroxine) | 4968 |
+| Prolactin عالي | MRI sella turcica | 3252 |
+| Hyponatremia + urine osm عالي | SIADH | 3516 4630 4631 |
+== Thyroid
+| الحالة | الجواب | Q |
+| أي اشتباه أو nodule | TSH أول | 0404 0597 2565 4629 4926 |
+| Nodule + TSH طبيعي | Ultrasound | 4336 |
+| على amiodarone + أعراض | TSH و T4 | 0487 3418 |
+| Graves: الأعراض | Beta-blocker | 0844 0845 |
+| TSH عالي + T4 طبيعي + anti-TPO + أعراض | Levothyroxine | 4546 4721 |
+| Lipids + hypothyroid | Thyroxine | 1448 |
+| Hashimoto + كتلة تكبر بسرعة | Lymphoma | 3699 |
+== Diabetes
+| الحالة | الجواب | Q |
+| C-peptide واطي | Type 1 DM | 0025 4794 0121 |
+| T2DM جديد + BMI 31 | Metformin | 0336 3692 |
+| A1c 6 + fasting 6.5 + C-peptide طبيعي (المصدر) | Prediabetes | 2213 |
+| نفس الأرقام + acanthosis + أعراض | Type 2 DM | 2215 |
+| A1c 5.8 على metformin + gliclazide | طمني وكملي | 2276 4445 |
+| DKA + K 2.5 | انتبهي: K ينزل أكثر | 0843 |
+| T1DM قديم + انتفاخ | Gastric emptying scan | 4943 |
+| Cirrhosis + DM + يشرب | وقف الكحول | 2961 |
+| DM + COPD + 60 | Shingles vaccine | 4537 |
+| CKD test | eGFR | 4934 |
+| DM + CKD + murmur | Cardiology (valve) | 4484 |
+- [1708] المصدر ما حدد جواب ⚠
+== Calcium و bone و غيره
+| الحالة | الجواب | Q |
+| Ca عالي + حصوة | Primary hyperparathyroidism | 2933 |
+| CKD + phosphate عالي + PTH عالي | قللي الـphosphate بالأكل | 2978 3729 |
+| Celiac + أرجل مقوسة | Vitamin D | 3124 |
+| إسهال دهني + انتفاخ | Celiac | 2752 |
+| Osteoporosis risk | Alcoholism | 0989 |
+| TLS | K عالي + Ca واطي | 4490 |
+| ALL + انسداد بعد chemo | Hyperuricemic nephropathy | 2673 |
+| مدخن 65 | AAA ultrasound | 4499 |
+| Seizure + Ca و Na واطيين شوي | Unknown، أو generalized epilepsy | 1709 1710 |
+| Hemiparesis + CT طبيعي | Ischemic stroke (CT بدري طبيعي) | 1269 4266 |
+| Organophosphate | Miosis + salivation + bronchospasm | 1134 |
+| URTI ثم intubation + hypoxemia | Pulmonary edema (ARDS) | 3322 4902 5111 |
+| شخير + نعسان + CO2 عالي | BiPAP بالليل | 4394 4483 |
+| Hypoglycemia + dysautonomia + أعراض | Lewy body (المصدر) | 4238 |
+| Alcoholic encephalopathy | Ammonia | 2969 |
+| BP بالبيت طبيعي | Risk ما ينحسب | 4059 |
+- [2932] المصدر ما حدد جواب ⚠
