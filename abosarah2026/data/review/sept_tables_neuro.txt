@@ -1,0 +1,48 @@
+# Neurology
+== Seizures
+> نوبة → ما صحى بين النوبات (status) → benzodiazepine → أول نوبة: glucose + electrolytes + CT → صرع ما انضبط: زيدي نفس الدواء → myoclonic: valproate (فشل: levetiracetam)
+| الحالة | الجواب | Q |
+| نوبات ورا بعض بدون ما يصحى | Benzodiazepine | 0253 3735 4643 4983 5100 |
+| أول نوبة | Glucose + electrolytes، و CT head | 4907 1904 |
+| على carbamazepine 600 وما انضبط | زيديه لـ800 | 1241 3596 4161 5043 |
+| Jerky movements بيد (myoclonic) | Valproate | 2934 |
+| Myoclonic + valproate فشل | Levetiracetam | 1746 1747 |
+| يحدق + يمضغ شفايفه + automatisms | Temporal lobe epilepsy | 2340 4684 4683 |
+| يطيح فجأة بدون حركات | Atonic | 4753 |
+| بعد الولادة + صداع + تشنج | CT venogram | 2307 |
+| بعد عملية + D5W + Na 121 | Fluid restriction | 1762 |
+| 90 سنة + confused فجأة | Delirium | 3432 |
+== Stroke و TIA
+| الحالة | الجواب | Q |
+| TIA + carotid أقل من 50% | Observe (أو aspirin) | 0032 3609 3463 |
+| Stroke + AF أو rheumatic قديم | Atrial fibrillation | 1003 3098 4453 |
+| CHA2DS2-VASc: 70 + HTN + stroke | 4 | 1723 |
+| Ischemic stroke قبل يومين | Aspirin + high-intensity statin | 4375 |
+| بعد stroke بشهر + STEMI | Urgent angiography | 4467 4468 |
+| قبل tPA | تأكدي ما فيه نزيف أو stroke قريب | 3301 |
+| Hemiplegia بدون sensory أو كلام + HTN | Basal ganglia (أو internal capsule) | 3047 3881 |
+| Hemorrhage | نزلي SBP لـ140 | 3108 |
+| ضعف ذراع مع مد الرقبة | MRI cervical spine | 1488 1489 |
+| T10 + احتباس بول | Spinal compression | 1252 |
+| Murmur → carotids | Echo | 4018 4271 4249 |
+- [3278 3999] المصدر ما حدد جواب ⚠
+== Headache و infection
+| الحالة | الجواب | Q |
+| أسوأ صداع بحياته | CT بدون contrast أول | 1789 |
+| CT سليم | Lumbar puncture | 0622 1968 |
+| CSF turbid + polymorphs + glucose واطي | Streptococcus pneumoniae | 1639 1752 |
+| Sinusitis ما تحسن على amoxicillin | Amoxicillin-clavulanate | 4509 |
+| Chemo + ANC 200 + hypotension | Lactate + procalcitonin | 2389 |
+| Radiation 11 Gy | Bone marrow destruction | 1612 |
+- [3473 5037] المصدر ما حدد جواب ⚠
+== Dementia و movement
+| الحالة | الجواب | Q |
+| Dementia جديدة | Brain MRI | 4580 |
+| Dementia + طاح | إضاءة الدرج | 3118 3119 |
+| يبي يسوق | Driving test | 3720 |
+| أدوية كثيرة + quetiapine | وقفي quetiapine | 2428 |
+| Amitriptyline أو أدوية dementia + احتباس | Anticholinergic | 2567 2568 2569 |
+| مراهق + jaundice + tremor | Ceruloplasmin واطي (Wilson) | 0449 |
+| Wilson: العلاج | D-penicillamine | 0853 |
+| HBV + flapping + ascites + K واطي | Spironolactone | 2409 |
+| شارب + confusion | Thiamine قبل glucose | 3412 |
