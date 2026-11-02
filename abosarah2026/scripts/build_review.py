@@ -18,6 +18,20 @@ SRC, OUT = sys.argv[1], sys.argv[2]
 SPEC = sys.argv[3] if len(sys.argv) > 3 else "Medicine"
 ONLY = sys.argv[4] if len(sys.argv) > 4 and sys.argv[4] != "-" else None
 DECK = sys.argv[5] if len(sys.argv) > 5 else None
+SOLVED = bool(os.environ.get("SOLVED"))
+DENSE = """
+@page { margin: 5mm; }
+html, body { width: 287mm; }
+body { font-size: 7.5pt; line-height: 1.25; }
+.blk { grid-template-columns: 64% 36%; break-inside: auto; margin-bottom: 1.5mm; }
+.qs li { margin-bottom: .4mm; }
+.qs { padding: 1mm 1.5mm; }
+.idea { padding: 1mm 1.5mm; }
+.sec { break-before: auto; }
+.hdr { margin: 1mm 0 1mm; }
+.rp { display: inline-block; border: .8pt solid #000; border-radius: 1mm; padding: 0 1mm; font-weight: bold; font-size: .9em; margin-right: 1mm; }
+"""
+IDEA_LTR = bool(os.environ.get("IDEA_LTR"))
 CHROME = sorted(glob.glob("/opt/pw-browsers/chromium_headless_shell-*/*/chrome-headless-shell"))[-1]
 
 LAT = re.compile(r"[A-Za-z0-9][A-Za-z0-9'’\-/.+%±↑↓:]*(?: (?:[A-Za-z0-9±][A-Za-z0-9'’\-/.+%±:]*|\+|/|=|–))*")
@@ -44,6 +58,10 @@ body { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 8.6pt; line-hei
 .ans b.h { display: block; font-size: .85em; letter-spacing: .5px; }
 .ans span { display: inline-block; margin-right: 3.5mm; }
 .idea { padding: 1.5mm 2mm; direction: rtl; text-align: right; }
+.ok { font-weight: bold; text-decoration: underline; }
+.idea.ltr { direction: ltr; text-align: left; }
+.idea.ltr .lbl { text-align: left; }
+.idea.ltr ul { padding-left: 3mm; padding-right: 0; list-style: none; }
 .idea .h { font-weight: bold; text-decoration: underline; margin: 1mm 0 .5mm; }
 .idea .lbl { font-size: .85em; font-weight: bold; letter-spacing: .5px; direction: ltr; text-align: right; }
 .idea ul { margin: 0; padding-right: 4mm; padding-left: 0; }
@@ -143,19 +161,33 @@ def main():
         secs = [s for s in secs if s["name"].lower() == ONLY.lower()]
     body = ""
     for s in secs:
-        body += f'<div class="sec"><div class="hdr"><span class="spec">{html.escape(SPEC)}</span><span class="sys">{html.escape(s["name"])}</span><span>Basic idea</span></div>'
+        body += f'<div class="sec"><div class="hdr"><span class="spec">{html.escape(SPEC)}</span><span class="sys">{html.escape(s["name"])}</span><span>{"Solved + explained" if SOLVED else "Basic idea"}</span></div>'
         n = 0
         for b in s["blocks"]:
             first = n + 1
-            qs = "".join(f"<li>{bold(q)}" + (f'<div class="opts">' + " ".join(f"<span>{k}. {html.escape(t)}</span>" for k, t in opts[n_]) + "</div>" if opts.get(n_) else "") + "</li>"
-                         for q, _, n_ in b["qs"])
+            def opt_html(k, t, a):
+                ok = SOLVED and re.match(rf"{k}[.)]", a.strip())
+                return f'<span class="ok">✔ {k}. {html.escape(t)}</span>' if ok else f"<span>{k}. {html.escape(t)}</span>"
+
+            def q_html(q, a, n_):
+                o = opts.get(n_)
+                body = "<li>" + re.sub(r"\{\{rep:(.*?)\}\}", lambda m: f'<span class="rp" dir="rtl">مكرر {m.group(1)}</span>', bold(q))
+                if o:
+                    body += '<div class="opts">' + " ".join(opt_html(k, t, a) for k, t in o) + "</div>"
+                    if SOLVED and not any(re.match(rf"{k}[.)]", a.strip()) for k, _ in o):
+                        body += f'<div class="opts"><span class="ok">✔ {bold(a)}</span></div>'
+                elif SOLVED:
+                    body += f'<div class="opts"><span class="ok">✔ {bold(a)}</span></div>'
+                return body + "</li>"
+            qs = "".join(q_html(q, a, n_) for q, a, n_ in b["qs"])
             ans = "".join(f"<span><b>{first + i}.</b> {bold(a)}</span>" for i, (_, a, _) in enumerate(b["qs"]))
             n += len(b["qs"])
             body += (f'<div class="blk"><div class="ttl">{html.escape(b["title"])}</div>'
-                     f'<div class="qs"><ol start="{first}">{qs}</ol><div class="ans"><b class="h">ANSWERS</b>{ans}</div></div>'
-                     f'<div class="idea"><div class="lbl">BASIC IDEA</div>{idea_html(b["idea"])}</div></div>')
+                     f'<div class="qs"><ol start="{first}">{qs}</ol>' + ("" if SOLVED else f'<div class="ans"><b class="h">ANSWERS</b>{ans}</div>') + '</div>'
+                     f'<div class="idea{" ltr" if IDEA_LTR else ""}"><div class="lbl">{"EXPLANATION" if SOLVED else "BASIC IDEA"}</div>'
+                     + re.sub(r"\[\[(\d+)\]\]", lambda m: f"<b>{first + int(m.group(1))})</b>", idea_html(b["idea"])) + '</div></div>')
         body += "</div>"
-    doc = f'<html><head><meta charset="utf-8"><style>{CSS}</style></head><body>{body}</body></html>'
+    doc = f'<html><head><meta charset="utf-8"><style>{CSS}{DENSE if os.environ.get("DENSE") else ""}</style></head><body>{body}</body></html>'
     src = os.path.join(tempfile.mkdtemp(), "r.html")
     open(src, "w", encoding="utf-8").write(doc)
     subprocess.run([CHROME, "--no-sandbox", "--no-pdf-header-footer", f"--print-to-pdf={OUT}", "file://" + src], check=True, capture_output=True)

@@ -31,6 +31,9 @@ body { font-family: "DejaVu Sans", Arial, sans-serif; line-height: 1.3; color: #
 .strip { flex: 0 0 auto; border-top: 1.6pt solid #000; margin-top: 1mm; padding-top: .8mm; font-size: .92em; line-height: 1.35; }
 .strip b.h { font-size: .85em; letter-spacing: .5px; margin-right: 2mm; }
 .strip span { display: inline-block; margin-right: 3mm; }
+.strip.pl span { display: block; margin: 0 0 .3mm; }
+.strip .pe { color: #222; }
+.rp { font-style: normal; font-weight: bold; border: .8pt solid #000; border-radius: 1mm; padding: 0 1mm; margin-left: 1.5mm; font-size: .9em; }
 .ph { column-span: all; font-weight: bold; font-size: 10pt; border-bottom: 1.2pt solid #000; margin-bottom: 1mm; }
 .q { break-inside: avoid; border-bottom: 0.4pt solid #000; padding: 1.2mm 0 1.4mm; }
 .hd { font-weight: bold; font-size: .9em; margin-bottom: .6mm; }
@@ -147,7 +150,7 @@ def hilite(text, l2, l1):
 
 items = []
 for r in rows:
-    if "NOTE" in r["QNo"]:
+    if "NOTE" in r["QNo"] or r.get("StatusLabel") == "Duplicate":
         continue
     qh = r["OriginalQuestionHTML"]
     m = re.search(r'<div class="question-stem-text">(.*?)</div>', qh, re.S)
@@ -155,11 +158,27 @@ for r in rows:
     opts = re.findall(r'<div class="source-option" data-letter="([A-Z])">(.*?)</div>', qh, re.S)
     opts = [(k, re.sub(r"^[A-E]\.\s*", "", plain(t))) for k, t in opts]
     sa = r["SourceAnswer"].strip()
-    flag = " ⚠" if r["AnswerState"] != "confirmed" or not sa else ""
+    if "no_source_answer" in sa:
+        sa = ""
+    flag = " ⚠" if r["AnswerState"] not in ("confirmed", "sourced") or not sa else ""
     part, sec = classify(stem + " " + " ".join(t for _, t in opts))
     l2, l1, flip = NOTES.get(r["QNo"], ([], [], ""))
     di, dn, sec = disease(part, sec, stem + " " + " ".join(t for _, t in opts) + " " + sa)
-    items.append(dict(qid=r["QNo"], stem=stem, opts=opts, ans=sa or "— no firm answer in the source", flag=flag, part=part, sec=sec, l2=l2, l1=l1, flip=flip, di=di, dn=dn))
+    if os.environ.get("FORCE_PART"):
+        part = os.environ["FORCE_PART"]
+        di, dn, sec = disease(part, sec, stem + " " + " ".join(t for _, t in opts) + " " + sa)
+    pearl = re.search(r'<span class="study-label">Exam pearl</span><div class="study-value">(.*?)</div></div>', r.get("StudyNote", ""), re.S)
+    pearl = plain(pearl.group(1)) if pearl and os.environ.get("PEARL") else ""
+    sn = dict((plain(k), v) for k, v in re.findall(r'<span class="study-label">(.*?)</span><div class="study-value">(.*?)</div></div>', r.get("StudyNote", ""), re.S))
+    check = plain(sn.get("⚠ Check this answer", ""))
+    keyc = sn.get("Key concept", "")
+    items.append(dict(check=check, keyc=keyc, rep=r.get("RepeatLabel", "").replace("Repeated", "").strip(), pearl=pearl, qid=r["QNo"], stem=stem, opts=opts, ans=sa or "— no firm answer in the source", flag=flag, part=part, sec=sec, l2=l2, l1=l1, flip=flip, di=di, dn=dn))
+
+if os.environ.get("DUMP"):
+    ORDER = {n: i for i, (n, _) in enumerate(MED)}
+    items.sort(key=lambda it: (ORDER.get(it["sec"], 99), it["di"], it["qid"]))
+    json.dump(items, open(os.environ["DUMP"], "w", encoding="utf-8"), ensure_ascii=False)
+    sys.exit(0)
 
 LAT = re.compile(r"[A-Za-z][A-Za-z0-9'’\-/.+%±]*(?: (?:[A-Za-z0-9±][A-Za-z0-9'’\-/.+%±]*|\+|/))*")
 
@@ -184,7 +203,7 @@ def answer_item(num, it):
 
 
 def build(items, out):
-    w = lambda it: len(it["stem"]) + sum(len(t) + 6 for _, t in it["opts"])
+    w = lambda it: len(it["stem"]) + sum(len(t) + 6 for _, t in it["opts"]) + len(it.get("pearl", "")) * 0.8
     chunks, cur, tot = [], [], 0
     for it in items:
         if cur and (len(cur) >= int(os.environ.get("PERPAGE", "16")) or tot + w(it) > CAP):
@@ -206,10 +225,11 @@ def build(items, out):
                 o = "".join(f'<div class="o"><bdi dir="ltr">{k}. {annot.annotate_text(html.escape(t), labs=False)}</bdi></div>' for k, t in it["opts"])
                 if not it["opts"]:
                     o = ""
-                body += (f'<div class="q"><div class="hd">{num}) <span>{it["qid"]}</span></div>'
+                body += (f'<div class="q"><div class="hd">{num}) {('<i class="rp">🔁 مكرر ' + it["rep"] + '</i>') if it.get("rep") else ""}<span>{it["qid"]}</span></div>'
                          f'<div class="sec" dir="ltr">{it["sec"]} › {html.escape(it["dn"])}</div><div dir="ltr">{annot.annotate_html(hilite(it["stem"], it["l2"], it["l1"]))}</div>{o}</div>')
-                ak += f'<span><b>{num})</b> {html.escape(it["ans"])}{it["flag"]}</span>'
-            pages.append(f'<div class="page"><div class="cols">{body}</div><div class="strip"><b class="h">ANSWERS</b>{ak}</div></div>')
+                pe = f' <i class="pe">💡 {html.escape(it["pearl"])}</i>' if it.get("pearl") else ""
+                ak += f'<span><b>{num})</b> {html.escape(it["ans"])}{it["flag"]}{pe}</span>'
+            pages.append(f'<div class="page"><div class="cols">{body}</div><div class="strip{' pl' if os.environ.get('PEARL') else ''}"><b class="h">ANSWERS</b>{ak}</div></div>')
 
     ends = [n - 1 for _, _, n in toc[1:]] + [num]
     rows, cur_sec = "", None
@@ -233,4 +253,5 @@ for part, members in GROUPS:
     sub = [it for it in items if it["part"] in members]
     sub.sort(key=lambda it: (members.index(it["part"]), ORDER.get(it["sec"], 99) if it["part"] == "Medicine" else 0, it["di"], it["qid"]))
     print(part, end=": ")
-    build(sub, os.path.join(OUT, f"MKJ_GB_{part}.pdf"))
+    if sub:
+        build(sub, os.path.join(OUT, f"{os.environ.get('PREFIX', 'MKJ_GB')}_{part}.pdf"))
