@@ -1,0 +1,71 @@
+# Infectious disease
+== Febrile neutropenia
+> حرارة بعد chemo + ANC أقل من 500 → blood cultures → antipseudomonal (cefepime أو pip-tazo، shock: meropenem) → pneumonia أو line أو shock: أضيفي vancomycin → حرارة 4–7 أيام: antifungal
+| الحالة | الجواب | Q |
+| أول خطوة | Blood cultures | 2387 2858 2984 |
+| أول antibiotic | Cefepime أو extended-spectrum penicillin | 0221 0821 0737 4470 |
+| + shock | Meropenem | 0823 |
+| ما تحسن + pneumonia أو بدون سبب (المصدر) | Vancomycin | 0822 0825 3356 |
+| على pip-tazo + vancomycin 5 أيام | IV antifungal | 0595 3717 2467 |
+| BMT + 72 ساعة بدون تحسن | Voriconazole | 0824 |
+| Neutropenia + hypotension | Lactate + procalcitonin | 2388 |
+| RA على MTX + حرارة + ulcers بالفم | MTX-induced neutropenia | 2948 4421 |
+| ALL + RLQ + دم (typhlitis) | CT | 1774 3710 |
+| Lymphoma + chemo + ما يبول | IV saline | 4977 |
+- [1091 2390] المصدر ما حدد جواب ⚠
+== TB و pleural
+| الحالة | الجواب | Q |
+| TB نشط مع contact + cavity | RIPE | 4687 |
+| نيرس PPD 12 (latent) | INH 6 شهور (المصدر 600 mg ⚠، الصحيح 300) | 0081 |
+| Effusion + نقص وزن (TB أو cancer) | Needle aspiration (thoracentesis) | 3564 1527 |
+| Exudate + lymphocytes | Tuberculosis | 2733 3778 |
+| اشتباه TB effusion | AFB (المصدر) | 3258 |
+| مدخن + effusion كبير بدون انحراف القصبة | Carcinoma يسد الـbronchus | 0533 0534 |
+| مدخن + clubbing | Bronchial carcinoma | 2416 3419 1721 2850 |
+| TB قديم + ascites | Cirrhosis أو HF (حسب SAAG) | 1833 1834 3703 |
+| Lymphadenopathy + hilar | Biopsy | 2228 |
+| من الهند + إسهال وسعال | Contaminated water | 1788 |
+| مصنع قطن + كحة | COPD (byssinosis) | 2311 2580 |
+- [3043 2581] المصدر ما حدد جواب ⚠
+== Meningitis و HIV و seizures
+| الحالة | الجواب | Q |
+| ثني الرقبة ← الركب تنثني | Brudzinski | 1044 |
+| CSF glucose ratio 0.3 أو lymphocytes + glucose واطي | TB meningitis | 1771 1906 |
+| تشنج + CSF glucose طبيعي + lymphocytes | HSV ← IV acyclovir | 4246 4247 |
+| Lymphocytes + glucose و protein طبيعي | Viral meningitis | 4686 |
+| Meningitis: الأهل | Prophylaxis | 1112 |
+| حج + meningococcus | Rifampin يومين | 1447 |
+| HIV + أول seizure | CT head | 0776 2859 3288 3426 |
+| نفس القصة (المصدر) | LP | 1225 |
+| حركات jerky سريعة بيد وحدة | Myoclonic | 3302 |
+- [0636 3424] المصدر ما حدد جواب ⚠
+== Malaria و السفر و التطعيم
+| الحالة | الجواب | Q |
+| حرارة دورية + أفريقيا | Blood film | 0065 |
+| Malaria ترجع | P. vivax (أو ovale) | 1754 3938 4740 |
+| Dengue | Aedes mosquito | 1997 |
+| سفر لأفريقيا | Yellow fever vaccine + chemoprophylaxis | 2983 |
+| حليب غير مبستر + ظهر | Brucella serology | 0027 0260 |
+| رجع من بلد + ALT 1000 + jaundice | HBsAg (acute hepatitis) | 2509 |
+| 66 سنة بدون شي | Pneumococcal | 3531 |
+| Chemo + تبي vaccine | Inactivated | 4908 |
+| HBsAb + فقط | Vaccination | 2824 |
+| HBsAg + و IgM core + | Acute hepatitis B | 3758 |
+| HBsAg + و IgG core + و HBeAg + | المصدر: chronic inactive ⚠ (HBeAg + = active) | 5055 |
+== UTI و جلد و غيره
+| الحالة | الجواب | Q |
+| Cystitis | Empiric antibiotics (nitrofurantoin) | 0127 0934 2611 |
+| حرارة + suprapubic | Culture + empiric | 0935 |
+| Pyelonephritis + حرارة | IV ceftriaxone | 4164 |
+| 4 UTI بالسنة | Prophylactic antibiotics | 1882 |
+| Cellulitis بسكري | Clindamycin | 1727 4383 |
+| RA + ركبة حارة | IV antibiotics | 2218 |
+| حلق + amoxicillin ← rash | Infectious mononucleosis | 2952 |
+| Exudate + lymph nodes | Acute follicular tonsillitis | 1767 |
+| Arthritis + conjunctivitis + urethritis | Reiter (reactive) | 2505 |
+| Chlamydia | Azithromycin | 2020 |
+| Septic shock على noradrenaline (المصدر) | Add dobutamine ⚠ (الأصح vasopressin) | 1892 4769 |
+| Ventilator | Low tidal volume | 2294 |
+| TIA على aspirin | Aspirin + clopidogrel | 2689 |
+| HF + infection: وش نوقف | Metformin | 3597 |
+- [3298 3839] المصدر ما حدد جواب ⚠
