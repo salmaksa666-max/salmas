@@ -1,0 +1,166 @@
+# Part 5: Pediatrics
+== Endocrine
+| الحالة | الجواب | Q |
+| أكثر خطر adrenal crisis | Steroid أعلى جرعة وأطول مدة | 0953 |
+| CAH + Na واطي و K عالي أو ambiguous genitalia | IV hydrocortisone + saline (+ glucose) | 0954 0955 0956 0957 0960 |
+| Adrenalectomy للـCushing | Stress dose steroid ثم خففيه | 0958 |
+| ACTH و cortisol عاليين | Pituitary adenoma | 0959 |
+| URTI + رقبة تألم + ESR عالي | Subacute thyroiditis | 0961 0962 |
+| T4 واطي | TSH | 0963 0968 |
+| Panhypopituitarism | Hydrocortisone أول | 0964 0965 |
+| Panhypo على علاج + قصير | Growth hormone | 0966 0998 |
+| Graves بطفل | Methimazole | 0967 |
+| حامل أول trimester | PTU. Third trimester ← methimazole | 0969 0970 |
+| DM + كلى | Glycemic control | 0971 |
+| خطر سكري + سمنة | نزول وزن | 0972 |
+| Septic shock + سكر عالي | IV insulin | 0973 |
+| DKA | IV insulin | 0975 |
+| T2DM جديد | Metformin | 0976 0977 |
+| متى نبدأ screening | 35 سنة | 0978 |
+| Celiac يتجنب | Wheat أو barley | 0979 0980 |
+- [0974] المصدر ما حدد جواب ⚠
+== Growth و puberty و rickets
+| الحالة | الجواب | Q |
+| FTT + مشاكل اجتماعية | Multidisciplinary | 0981 |
+| يخففون الحليب | Hospitalization | 0982 |
+| نزل من 50 لـ10 percentile | زيدي السعرات | 0983 0984 0992 |
+| ثابت على 25 percentile | طمني | 0985 0991 |
+| إسهال + انتفاخ + نقص وزن | Gluten-free | 0986 |
+| Rickets | Vitamin D + calcium | 0987 0988 0989 0990 |
+| Nutritional rickets: الـlabs | Ca و PO4 و vit D واطية، ALP عالي | 1001 1002 1003 |
+| Down + murmur + ما يرضع | عملية 3–4 شهور | 0993 |
+| رضيع يتعرق ويزرق وقت الرضاعة | Cardiology | 0995 0996 0997 |
+| ترجيع + وزن نازل | Organic FTT | 0994 |
+| شعر عانة بس | Pubarche | 0999 |
+| شعر عانة + DHEA عالي | CAH | 1000 |
+| Frontal bossing + طحال | Hb (thalassemia) | 1004 |
+| Bone age متأخر + velocity طبيعي | Constitutional ← طمني | 1005 1009 |
+| Bone age متأخر + velocity بطيء | Growth hormone | 1006 1007 1008 1010 |
+| GH طبيعي + IGF-1 واطي | GH deficiency | 1011 |
+| Velocity و bone age طبيعيين + أمه قصيرة | Familial short stature | 1012 |
+== Metabolic
+| الحالة | الجواب | Q |
+| مشاكل بعد ما بدأ فواكه أو عصير | Fructose intolerance | 1013 1014 |
+| Seizure + hypoglycemia + ريحة سكر محروق | Maple syrup urine disease | 1015 1016 1017 1049 |
+| MSUD: الأكل | قللي leucine | 1024 1025 1026 |
+| Jaundice + cataract + reducing substances | Galactosemia | 1018 1019 1047 1048 |
+| Galactosemia: الفحص | Urine reducing substances | 1021 1022 |
+| Cataract + lactate عالي (المصدر) | Liver biopsy | 1020 |
+| Metabolic crisis | وقفي البروتين + glucose | 1023 |
+| Ammonia 450 + apnea | Dialysis بعد الاستقرار | 1028 1029 1030 1031 |
+| PKU | تجنب phenylalanine | 1027 |
+| Cirrhosis + ammonia | Lactulose + rifaximin | 1033 1034 |
+| طويل + عيون + تخلف | Homocystinuria | 1035 |
+| طويل + عيون بدون تخلف | Marfan ← echo | 1036 1038 1039 |
+| Webbed neck + PS (ولد) | Noonan | 1040 1041 |
+| Webbed neck + بنت قصيرة | Turner | 1042 |
+| Hypoglycemia + insulin عالي، أو أمه GDM | Hyperinsulinism | 1043 1044 1045 |
+| Fatty acid oxidation defect + فيروس | Glucose infusion | 1046 |
+| ترجيع + ريحة بول | UTI | 1050 |
+- [1032 1037] المصدر ما حدد جواب ⚠
+== Neonate
+| الحالة | الجواب | Q |
+| Preterm + ground glass | Surfactant | 1051 |
+| TTN | Delayed clearance للسوائل | 1056 1063 |
+| TTN + RR 65 | NGT feeding | 1053 |
+| TTN بدون desaturation | 30–40% O2 | 1054 |
+| TTN يسوء | O2 requirement يزيد | 1055 |
+| MAS + O2 88% | NIV | 1057 |
+| MAS + severe distress | Intubation | 1058 |
+| MAS + PPHN | Inhaled nitric oxide | 1059 |
+| MAS: مضاعفات | Echo | 1060 |
+| Meconium وقت الولادة (المصدر) | Suction | 1061 |
+| MAS + أم سكري | NICU + glucose | 1062 |
+| Apnea of prematurity | Respiratory center ما نضج | 1064 |
+| Apnea بدون ذكر للـeffort | Mixed | 1065 |
+| Ventilator | Low tidal volume | 1066 |
+| BPD ما يفطم | Short-term steroid | 1067 |
+| Kernicterus | Dyskinesia | 1068 |
+| PVL | Prematurity | 1069 |
+| Blueberry muffin | TORCH | 1070 |
+| Cataract + PDA | Congenital rubella | 1071 |
+| ملامح Down | Chromosomes | 1072 |
+| حرارة بأقل من شهر | Full septic workup + IV antibiotics | 1073 1074 1075 1076 |
+| Jitteriness أو seizure + glucose واطي | Glucose bolus | 1077 1078 1079 |
+| IUGR | Hypocalcemia | 1080 |
+| TSH 60 | Levothyroxine فورًا | 1081 |
+| Down + إمساك | TSH | 1082 |
+| Subgaleal + Hb 7.5 | Packed RBC | 1083 |
+| Polycythemia | IV fluids | 1084 |
+| SGA | Glucose و الحرارة | 1085 |
+| بعد resuscitation | NGT | 1086 |
+| HCM بمولود | أمه DM | 1087 |
+| Admission | Tachypnea | 1088 |
+- [1052] المصدر ما حدد جواب ⚠
+== ENT
+| الحالة | الجواب | Q |
+| 7 نوبات بالسنة أو OSA | Adenotonsillectomy | 1089 1090 |
+| URTIs كثيرة أو 4 بالسنة | Hygiene وطمني | 1091 1092 |
+| Wheeze monophasic بعد intubation أو TEF repair | Tracheomalacia | 1093 1094 |
+| Recurrent pneumonia + monophasic | Flexible bronchoscopy | 1095 |
+| Tracheomalacia ينمو كويس | طمني | 1096 |
+| Tracheomalacia + FTT أو cyanosis | Surgery، أو BiPAP | 1097 1098 |
+| Stridor يزيد على ظهره | Laryngomalacia | 1100 |
+| Laryngomalacia + FTT أو apnea | ENT | 1101 |
+| بلع popcorn + wheeze يمين | Bronchoscopy | 1099 |
+| Allergic rhinitis | Allergic rhinitis ← intranasal steroid | 1102 1160 |
+| Sinusitis أكثر من 10 أيام أو رجع | Amoxicillin | 1103 1104 1106 1159 |
+| ما تحسن 72 ساعة | Amox-clav | 1105 |
+| حول العين + حركة العين محدودة | CT with contrast | 1107 |
+| حول العين + الحركة والنظر سليمة | Periorbital cellulitis | 1108 |
+| 14 أسبوع | Nasal endoscopy | 1109 |
+| OME | Observation 3 شهور | 1110 |
+| OME مستمر + سمع | Tympanostomy tubes | 1111 |
+| سمع نازل | Audiology | 1112 |
+| Pierre Robin | ENT + NGT | 1113 |
+| Strep: Centor | RADT ← سلبي: culture ← إيجابي: penicillin V | 1115 1116 1117 |
+| بدون exudate، أو RADT سلبي | Supportive | 1114 1118 |
+| Exudate + طحال + lymphocytes | Mononucleosis | 1119 |
+| Conjunctivitis + tonsillitis | Adenovirus | 1120 |
+| رضيع URTI | RSV | 1121 |
+== Bronchiolitis و croup و epiglottitis
+| الحالة | الجواب | Q |
+| Bronchiolitis | RSV | 1122 |
+| O2 89% | O2 + suction + أكل | 1123 1124 |
+| Hypotension | Intubation | 1125 |
+| بعدها حرارة عالية مستمرة | ابحثي | 1126 |
+| Preterm 28–29 أسبوع | Palivizumab (المصدر يختلف) | 1127 1128 |
+| Croup خفيف | Dexamethasone 0.15 mg/kg | 1129 |
+| Croup + stridor | Dexamethasone 0.6 mg/kg | 1130 |
+| ما تحسن | Racemic epinephrine | 1131 |
+| بعد epinephrine | Dexamethasone | 1132 |
+| Stridor + barking بعد URTI | Croup | 1133 1134 |
+| Drooling + فجأة | Epiglottitis | 1135 |
+| Epiglottitis | Intubate في الـOR، أو PICU | 1137 1138 1139 |
+| Unvaccinated + drooling | Diphtheria | 1140 |
+| Wheeze يمين | CXR | 1141 |
+| Foreign body | Rigid bronchoscopy. أشهر مكان: right main | 1142 1145 |
+| عملة بالمعدة | انتظري | 1143 |
+| يختنق | 5 back slaps + 5 thrusts | 1144 |
+| Stridor فجأة بدون حرارة | Foreign body | 1146 |
+| حريق | Inhalation injury | 1147 |
+| Rubella | Rubella | 1148 |
+| Scarlet fever | Strep pyogenes | 1149 |
+| Rheumatic fever: يمنع الرجوع | Benzathine penicillin شهري | 1150 |
+| Strep: يقلل المضاعفات | Penicillin V 10 أيام | 1151 |
+| Arthritis ينتقل | Aspirin | 1152 |
+| Prophylaxis: carditis + valve | لين 40 | 1153 |
+| Carditis بدون valve | 10 سنين أو لين 21 (المصدر 15 و23) | 1154 1155 |
+| بعد TEF repair | GERD | 1156 |
+| Polyhydramnios + NGT ملفوف + غاز | EA + TEF | 1157 |
+- [1136 1158] المصدر ما حدد جواب ⚠
+== CF و abdominal mass
+| الحالة | الجواب | Q |
+| CF + براز دهني | Pancreatic enzymes | 1161 |
+| CF + infections | Influenza vaccine | 1162 1163 1164 |
+| طفلين CF يلعبون | افصليهم | 1165 1166 |
+| CF diabetes | OGTT سنوي | 1167 |
+| كتلة + calcification | CT | 1168 1169 1171 1174 |
+| تأكيد | Biopsy | 1170 1173 |
+| كتلة + hematuria + ضغط | Wilms (nephroblastoma) | 1181 1182 |
+| نفس القصة بدون Wilms بالخيارات | Neuroblastoma | 1183 |
+| Paravertebral + ضعف رجول | Neuroblastoma | 1184 1178 |
+| Catecholamines | Neuroblastoma | 1179 |
+| أول فحص | US (و X-ray) | 1175 1176 1177 |
+| بدون catecholamines بالخيارات | Renal biopsy | 1180 |
+- [1172] المصدر ما حدد جواب ⚠
