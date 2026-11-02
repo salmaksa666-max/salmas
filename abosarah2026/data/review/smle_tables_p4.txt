@@ -1,0 +1,101 @@
+# Part 4: Neurology و Preventive
+== MS و neuromuscular
+| الحالة | الجواب | Q |
+| شابة + أعراض تجي وتروح + periventricular | MS | 0833 0834 0835 |
+| Relapse أو optic neuritis | IV methylprednisolone | 0836 0837 |
+| MS + spasticity وألم | Tizanidine | 0838 |
+| تسوء مع الحرارة | Uhthoff | 0839 |
+| يدعم التشخيص | CSF oligoclonal bands | 0840 |
+| Trigeminal neuralgia بشابة + ضعف | MRI with gadolinium | 0841 0842 |
+| العين ما تـadduct | MLF (INO) | 0843 |
+| رضيع + tongue fasciculations + reflexes غايبة | SMA (فيه علاج جديد) | 0844 |
+| Ptosis يزيد آخر اليوم | Acetylcholine receptor antibodies | 0846 |
+| Hypotonia proximal + reflexes موجودة | Congenital myopathy | 0847 |
+| Ataxia بعد URTI | Post-infectious cerebellitis | 0848 |
+| UMN و LMN + bulbar | ALS | 0849 |
+| Spastic paraparesis | B12 | 0850 |
+| GBS + تنفس | Intubation | 0851 |
+| GBS + protein عالي | Cranial nerves | 0852 |
+- [0845] المصدر ما حدد جواب ⚠
+== Dementia
+| الحالة | الجواب | Q |
+| Stepwise + TIAs | Vascular | 0853 |
+| ينسى الكلمات والذاكرة سليمة | Frontotemporal (temporal atrophy) | 0854 0858 |
+| ينسى الجديد | Alzheimer ← cholinesterase inhibitor | 0855 0860 |
+| Hallucinations + autonomic | Lewy body | 0856 |
+| تعلم صعب | Cortical atrophy | 0857 |
+| ذاكرة تنزل + aphasia | Dementia | 0859 |
+| Lewy + hallucinations | Quetiapine | 0861 |
+| Donepezil ما نفع | Memantine | 0862 |
+== Seizures
+| الحالة | الجواب | Q |
+| Jerky بيد | Myoclonic ← valproate ← levetiracetam | 0886 0888 0889 |
+| يطيح فجأة | Atonic | 0887 0899 |
+| 3 Hz + يوقف | Absence ← ethosuximide | 0890 0891 |
+| رضيع + spasms | Hypsarrhythmia (infantile spasms) | 0892 |
+| نوبات بالنوم + وجه | Benign Rolandic | 0893 0894 |
+| يحدق + يمضغ | Temporal lobe | 0895 0896 |
+| Status | Benzodiazepine | 0897 0898 |
+| Febrile seizure | خطر صرع 2%. Complex ← EEG أو تقييم | 0900 0901 |
+| Simple febrile | طمني + ابحثي عن سبب الحرارة | 0902 0903 0904 |
+| الأم تعطي antipyretic عشان تمنعها | علميها الإسعافات | 0905 |
+| أول نوبة | Electrolytes + glucose | 0906 0908 |
+| طاح من الدرج + نعسان | CT head | 0907 |
+| ظهر + incontinence | MRI lumbar | 0909 |
+| حرارة + confusion + نوبة | LP | 0912 |
+| URTI + تشنج + confusion | Viral encephalitis | 0913 |
+| شعر على أسفل الظهر | MRI | 0914 |
+| أغمى عليه وقت الجري + murmur | Echo | 0911 |
+- [0910] المصدر ما حدد جواب ⚠
+== Stroke
+| الحالة | الجواب | Q |
+| TIA low risk | Aspirin | 0915 |
+| TIA + carotid أقل من 70% | Aspirin | 0916 0918 |
+| TIA + 70–90% | Endarterectomy | 0919 |
+| AF + limb ischemia | مصدر الجلطة: left atrium | 0920 |
+| كسر + PE + stroke | PFO | 0921 |
+| 12 ساعة + proximal occlusion (anterior أو posterior) | Thrombectomy | 0922 0923 |
+| الأعراض راحت | Observation | 0924 |
+| ICH | 140–160 (المصدر) أو 140 | 0925 0926 |
+| Ischemic بدون tPA | ننزل الضغط فوق 220/120 | 0927 0928 |
+| Stroke + سكر عالي | Insulin | 0945 |
+| TIA | تتحسن خلال 24 ساعة | 0946 0947 |
+| أعراض راحت + MRI infarct | Ischemic stroke | 0948 |
+| عمى عين دقايق | Amaurosis fugax | 0949 |
+| TIA + DM + HTN | ACE-I | 0950 |
+| Stroke 4 ساعات | CT | 0951 |
+- [0917 0952] المصدر ما حدد جواب ⚠
+== وين الـlesion
+| الحالة | الجواب | Q |
+| Vertigo + بلع + Horner + crossed | Lateral medulla (PICA) | 0929 0930 0931 0941 |
+| Vertical nystagmus + miosis + ataxia | Basilar | 0932 |
+| وجه + سمع | AICA | 0933 |
+| Hemiplegia بدون sensory | Basal ganglia أو internal capsule | 0934 0938 |
+| Pinpoint pupils | Pons | 0935 |
+| ICH + يد يسار | Right MCA | 0936 |
+| يمين + aphasia | Left MCA | 0937 |
+| سلوك غريب | ACA | 0939 |
+| Temporal-occipital يمين | Left homonymous hemianopia | 0940 |
+| ما يعرف يستخدم الكوب | Parietal (apraxia) | 0942 0943 |
+| بعد SAH بأسبوع | Vasospasm | 0944 |
+== Screening
+| الحالة | الجواب | Q |
+| رجل 65 مدخن | AAA | 0863 |
+| 65 بدون تدخين | Colon cancer | 0864 |
+| مدخن أقل من 50 | ما يحتاج lung screening | 0865 0866 |
+| Tubular adenoma أكبر من 1 cm | Colonoscopy بعد 3 سنين | 0867 |
+| Polyp ما انشال كامل (المصدر) | 6 شهور | 0868 |
+| Cancer بالـpolyp + margins سليمة | Observation | 0869 |
+| UC | 8–10 سنين بعد التشخيص | 0870 |
+| بدون تاريخ عائلي، 50 | FOBT سنوي | 0871 |
+| أبوه colon 50 | ابدئي الحين كل 5 سنين | 0872 |
+| Colon cancer: المتابعة | CEA | 0876 |
+| PSA | يلقى أكثر حالات | 0877 |
+| أبوه prostate كبير بالعمر | طمني | 0878 0879 0880 |
+| أمها breast 43 (المصدر) | Annual mammogram | 0881 |
+| Mammogram طبيعي: 45 | كل سنة | 0882 |
+| 55 | كل سنتين | 0883 |
+| BRCA | ناقشي الأثر النفسي أول | 0884 |
+| أخت breast + ovarian | Genetic screening | 0885 |
+| ما تطعم + asthma (المصدر) | Lipid profile أو CBC | 0873 0874 |
+| Rheumatic + diastolic murmur | Echo | 0875 |
