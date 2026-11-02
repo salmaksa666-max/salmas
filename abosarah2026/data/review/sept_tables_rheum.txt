@@ -1,0 +1,56 @@
+# Rheumatology (و الأسئلة اللي انحطت معها)
+== Tumor lysis syndrome (أكثر شي تكرر هنا)
+> Lymphoma أو leukemia كبير + chemo → K و phosphate و uric acid عالية + Ca واطي + ما يبول → IV hydration أول → rasburicase (uric عالي أو خطر عالي) أو allopurinol (وقاية)
+| الحالة | الجواب | Q |
+| خطر عالي (ALL، bulky DLBCL، WBC عالي): وقاية | Rasburicase | 0154 0593 3311 4885 4816 0155 |
+| نفس القصة (المصدر) | Allopurinol | 3977 4803 |
+| Uric acid عالي أو TLS بدأ | IV hydration أول | 0263 0769 2656 2657 3112 4092 4318 |
+| ما يبول بعد الترطيب (المصدر) | Lasix | 1306 |
+| Lymphoma + مات قبل الـchemo | TLS (spontaneous) | 1498 2638 4898 |
+| ALL + ما يبول + انسداد | Uric acid nephropathy أو TLS | 1524 2463 2535 |
+| بعد radiotherapy | Radiotherapy-induced TLS | 1593 |
+| متى نرجع للـchemo | Uric أقل من 476، creatinine أقل من 141 | 3013 3014 3015 3016 |
+- TLS بالأرقام (Cairo-Bishop): uric 476 أو أكثر، K 6 أو أكثر، phosphate 1.45 أو أكثر، Ca 1.75 أو أقل
+- [1307 2835 2885] المصدر ما حدد جواب ⚠
+== Gout و المفصل
+| الحالة | الجواب | Q |
+| نوبة gout + كلى طبيعية | NSAID (meloxicam) | 2268 |
+| نوبة + creatinine عالي | Steroids | 2269 |
+| ركبة وحدة + uric عالي | Gout | 3632 3633 1234 2283 |
+| "Gout" ما تحسن على allopurinol + psoriasis | Psoriatic arthritis | 0571 |
+| OA + creatinine عالي | Paracetamol | 2270 2315 |
+| إسهال قبل أسبوعين + ركبة | Reactive arthritis ← NSAID | 1372 0329 |
+| شاب + ألم ظهر صباحي | MRI (sacroiliitis) | 2112 |
+| Uric عالي + سفر | Fluoroquinolone (للإسهال) | 1176 |
+- [4135] المصدر ما حدد جواب ⚠
+== SLE و RA
+| الحالة | الجواب | Q |
+| حرارة + مفاصل + ulcers + rash | SLE | 0771 3354 3355 |
+| Lupus + Raynaud + myositis | Anti-RNP | 1027 |
+| Neuropsychiatric lupus | Steroids + cyclophosphamide | 1378 1379 |
+| SLE + arthritis | Prednisolone + MTX، أو hydroxychloroquine | 0979 3431 |
+| SLE + interface hepatitis | Prednisolone | 1128 |
+| ANA + transaminases عالية جدًا | Autoimmune hepatitis | 1265 |
+| Steroid عالي وما خففه + مات فجأة | Hemorrhagic stroke | 0311 1144 |
+| Thyroid + rash + platelets واطية | ITP | 1879 |
+| بعد الولادة + صداع + تشنج | CT venogram (sinus thrombosis) | 2306 |
+| SLE + edema + كبد (المصدر) | Constrictive pericarditis ⚠ | 4962 |
+| PIP و MCP + صلابة ساعة + عيون ناشفة | Rheumatoid arthritis | 0693 |
+| RA جديد | MTX + HCQ + prednisone | 0978 |
+| على MTX وما انضبط | Anti-TNF (infliximab) | 2078 2991 |
+| Systemic sclerosis + صداع + زغللة + ضغط | Captopril (renal crisis) | 2495 |
+- [1273 3099 3169 3010 2297 2708] المصدر ما حدد جواب ⚠
+== Neuro و kidney انحطت هنا
+| الحالة | الجواب | Q |
+| MS + العين ما تـadduct | MLF (INO) | 1846 3304 |
+| MS + تسوء مع الحرارة أو الشمس | Uhthoff | 2060 2815 4228 |
+| CIS: كيف نشخص MS | Lesions جديدة بالـMRI | 4785 |
+| تصرفات غريبة متكررة | Temporal lobe epilepsy | 2055 |
+| T10 sensory level + بول | MRI spine | 0096 |
+| Prostate cancer + ظهر + ضعف | IV dexamethasone | 1121 |
+| بعد hemorrhagic stroke بأسبوع + أعراض جديدة | Vasospasm | 1635 |
+| AS murmur | Aortic stenosis | 2031 |
+| URTI قبل يومين + hematuria + C3 طبيعي | IgA nephropathy | 0818 |
+| DM + HTN + proteinuria | Diabetic nephropathy | 4374 |
+| DM و HTN منضبطين + كلى | Hypertensive nephrosclerosis | 1322 |
+- [5053 1741 3345] المصدر ما حدد جواب ⚠
