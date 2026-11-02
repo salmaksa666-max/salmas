@@ -1,0 +1,100 @@
+# Cardiology
+== Hypertension
+> ضغط عالي بالعيادة → أعيديه أو ambulatory → مؤكد → عمره صغير أو resistant أو bruit؟ → دوري secondary cause (renal artery stenosis)
+| الحالة | الجواب | Q |
+| أول قراءة عالية بدون أمراض | أعيدي القياس | 4052 |
+| Ambulatory عالي | Primary hypertension | 4696 |
+| 140–150 + سمنة، بدون خطر عالي | Lifestyle وإنقاص الوزن | 3365 |
+| مؤكد عالي (150/90 أكثر من مرة) | ابدئي دواء | 3366 3364 |
+| شاب أو مراهق، stage 1 | DASH diet | 0395 |
+| DM أو proteinuria أو تاريخ عائلي | ACE inhibitor (lisinopril) | 2133 2134 3502 4953 |
+| على losartan + amlodipine | أضيفي diuretic | 1800 |
+| Resistant + renal bruit | CT أو CTA للكلى | 1430 4603 4151 |
+| Renal artery stenosis بالجهتين أو resistant | Angioplasty أو stenting | 2264 2265 2266 2469 |
+| LVH + strain بفحص | BP عالي (170) | 1325 1326 |
+| ما التزم بالعلاج | يجيه heart failure | 0139 |
+| Hemorrhagic stroke | نزلي الضغط | 3760 |
+| Aortic dissection + ضغط واطي | IV fluids | 1142 |
+| شابة + ضغط بدون سبب واضح | المصدر ما حدد ⚠ | 2263 |
+- Resistant HTN: renal artery stenosis، hyperaldosteronism، OSA، أدوية (NSAIDs). ACE-I ممنوع مع bilateral RAS
+== Lipids و risk factors
+| الحالة | الجواب | Q |
+| CHD أو بعد MI أو stroke | Statin، LDL أقل من 70 mg/dL (1.8) | 0932 1730 1971 3206 |
+| نفس السؤال (المصدر) | TG أقل من 150 ⚠ | 3000 |
+| LDL 4 أو أكثر + HTN | High-intensity statin | 4082 4083 |
+| PAD حتى لو lipids طبيعية | Atorvastatin | 0837 |
+| ألم عضلات على statin | السبب atorvastatin | 0878 |
+| خطر 10 سنين من الجدول | أكثر من 30% | 1893 2786 |
+| أقوى risk factor (حسب الخيارات) | العمر، أو التدخين، أو الضغط | 4398 4399 4397 1942 |
+| سمنة + LDL عالي | High LDL | 1629 |
+| أخوه بُترت رجله + DM | ABI | 4578 |
+== ACS
+| الحالة | الجواب | Q |
+| ألم صدر + troponin عالي + ECG بدون ST elevation | NSTEMI | 1141 |
+| NSTEMI أو ischemia | Aspirin + clopidogrel + heparin | 2710 |
+| LBBB جديد + ألم | Coronary angiography | 1830 |
+| ألم بالليل + ST elevation تروح (vasospasm) | Calcium channel blocker | 1272 |
+| Inferior MI + hypotension + bradycardia | IV atropine، أو سوائل (RV infarct) | 3809 4237 4167 |
+| بعد MI بـ5 أيام + murmur جديد + صدمة | Ventricular septal rupture | 2459 2488 |
+| بعد angioplasty + creatinine عالي + JVP | IV furosemide | 4933 |
+| بعد NSTEMI + صدمة على noradrenaline | المصدر ما حدد ⚠ | 4815 |
+== Heart failure و الصدمة
+| الحالة | الجواب | Q |
+| اشتباه HF أو COPD ضد HF | BNP | 0358 1445 2365 4542 |
+| Orthopnea + crackles، بدون edema | Pulmonary edema ← IV furosemide | 4822 4364 |
+| HF + edema على furosemide | قللي السوائل وزيدي furosemide | 3742 2506 |
+| COPD + pulmonary edema + صاحي | IV furosemide + BiPAP | 5068 |
+| HFrEF بدون أعراض | ACE-I | 1700 |
+| HFrEF على كل الأدوية + HR عالي | Ivabradine | 0385 |
+| HFrEF + AF | Digoxin | 2331 |
+| أعراض HF جديدة | حوليه للقلب | 3232 |
+| Cardiogenic shock على metoprolol | وقفي metoprolol | 4195 4196 |
+| Cardiogenic shock على noradrenaline | أضيفي dobutamine | 1797 3848 3866 |
+| Shock + بارد + JVP عالي + troponin | Cardiogenic shock | 4365 2101 2944 |
+| Cardiogenic shock | SVR عالي | 4359 4437 |
+| PCWP و CVP و CO واطية + SVR عالي | Hypovolemic | 4341 2028 3438 |
+| HF أو تعب + bradycardia | Atropine | 2729 2730 |
+== الصمامات و rheumatic fever
+| الحالة | الجواب | Q |
+| Rheumatic fever + murmur أو BP واسع، بدون أعراض | Echo الحين | 2852 2853 2854 5036 4245 |
+| نفس القصة (المصدر) | ECG immediately ⚠ | 3682 4975 |
+| Click بنص الـsystole + يزيد وقوف | Mitral valve prolapse | 1467 1932 |
+| MVP أو regurgitation بدون صمام صناعي + أسنان | ما يحتاج prophylaxis | 2687 1876 |
+| صمام صناعي + أسنان | Amoxicillin أو ampicillin | 0892 1873 0111 1562 |
+| AS بدون أعراض + EF طبيعي | Follow-up | 3495 |
+| Ejection murmur + S4 + ضغط | Aortic stenosis | 1032 |
+| AS: أعلى قيمة تشخيصية | Echo | 2348 |
+| Severe MR بدون أعراض | Serial echo | 1819 |
+| Murmur من الـapex للـaxilla | Mitral regurgitation | 2937 |
+| Rheumatic fever: السبب | Group A strep | 0070 |
+| Rheumatic fever + arthritis | High-dose aspirin | 2620 3801 4450 |
+- اللي يحتاج prophylaxis قبل الأسنان: صمام صناعي، endocarditis قبل، congenital heart disease معين، transplant مع valve disease. MVP و regurgitation لحالها ما تحتاج
+== Arrhythmia
+| الحالة | الجواب | Q |
+| Unstable tachycardia | Cardioversion | 0652 |
+| AF من 4 ساعات بدون أعراض شديدة | Amiodarone | 1474 |
+| صدمة بعد شوفة دم وراحت | Vasovagal ← طمني | 5051 |
+| ECG مو موجود | المصدر ما حدد ⚠ | 3563 |
+- Pericardial (JVP + أصوات بعيدة + pulsus paradoxus) ← tamponade
+== أسئلة مو قلب انحطت هنا
+| الحالة | الجواب | Q |
+| Variceal bleeding ما وقف بالـoctreotide والـbanding | TIPS | 1804 |
+| Varices + صدمة: وش يقلل الوفيات | Ceftriaxone | 3688 |
+| Varices بشارب | Portal hypertension | 4723 |
+| Varices + pancreatitis + كبد طبيعي | Left-sided portal HTN | 1651 |
+| SBP (PMN 300) | Antibiotics | 2104 |
+| GERD بدون alarm | PPI | 4431 0772 |
+| GERD قديم + dysphagia | Endoscopy | 2844 |
+| ألم يزيد بعد الأكل والنوم + ECG طبيعي | pH monitoring | 1389 |
+| حرقة + occult blood | PUD | 2709 |
+| IBD + skin + diarrhea | Anti-TNF | 1881 |
+| Pneumonia + DM + مدخن | Admit + ceftriaxone + azithromycin | 2090 |
+| Plumber + clubbing | المصدر ما حدد ⚠ | 4095 |
+| مدخنة + wheeze (المصدر) | Pleural biopsy ⚠ | 1874 |
+| COPD: impending failure | Consciousness ينزل | 3577 |
+| COPD + home | Home oxygen | 3785 |
+| Stroke + ضغط عالي | CT بدون contrast | 1087 1687 |
+| Methamphetamine + جفاف + confusion | Electrolytes | 0356 |
+| ضغط بس + سفر | ما يحتاج prophylaxis للإسهال | 3218 |
+| Dyspepsia بكبير | أشهر سبب: الأدوية | 1196 |
+| Pulmonary embolism بعد عملية | CTPA | 0469 |
