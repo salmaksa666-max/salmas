@@ -110,7 +110,7 @@ def deck_options(path):
     for (flds,) in c.execute("select flds from notes"):
         f = dict(zip(names, flds.split("\x1f")))
         opts = re.findall(r'data-letter="([A-Z])">(.*?)</div>', f.get("OriginalQuestionHTML", ""), re.S)
-        out[f["QNo"]] = [(k, re.sub(r"^[A-Z]\.\s*", "", html.unescape(re.sub(r"<[^>]+>", "", t))).strip()) for k, t in opts]
+        out[f["QNo"]] = [(k, re.sub(r"^[A-Z]\.\s*", "", html.unescape(html.unescape(re.sub(r"<[^>]+>", "", t)))).strip()) for k, t in opts]
     return out
 
 

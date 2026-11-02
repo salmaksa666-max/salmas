@@ -1,0 +1,70 @@
+# Cardiology: Murmurs
+== Diastolic murmur: which valve?
+q: 25-y, routine checkup: **diastolic murmur at the base**, ↑ when **leaning forward in full expiration** | C. Aortic regurgitation @GB-0140
+q: 55-y, exertional SOB: **early diastolic** murmur, left upper sternal border, ↑ **sitting forward**; cardiomegaly, LVH | C. Aortic regurgitation @GB-0197
+q: 44-y, DOE: early diastolic murmur at the base, **↑ with inspiration** | D. Pulmonary regurgitation @GB-0114
+q: 60-y: **Corrigan's pulse** + early diastolic murmur LUSB + crepitations; echo: **severe AR, EF 40%** → treatment? | C. Surgical valve replacement (AVR) @GB-0094
+idea:
+## Early diastolic murmur بالـbase: AR ولا PR؟
+| العلامة | الجواب |
+| يزيد لما يميل لقدام + زفير كامل | Aortic regurgitation |
+| يزيد مع الشهيق (inspiration) | Pulmonary regurgitation |
+| Corrigan's pulse أو wide pulse pressure أو LVH | Aortic regurgitation |
+- القاعدة: الشهيق يزيد murmurs الجهة اليمين (tricuspid و pulmonary). الزفير يزيد اليسار
+## Severe AR: متى عملية؟
+- Severe AR + أعراض → AVR
+- Severe AR + EF أقل من 55% (حتى بدون أعراض) → AVR
+- الأدوية (diuretics، ACE-I) تخفف الأعراض بس، ما تعالج
+- مثال سؤال 4: severe AR + EF 40% → AVR
+== Systolic murmur & right heart
+q: 76-y, DM/HTN, exertional SOB: forceful apex, **crescendo-decrescendo ejection systolic** murmur → **carotids** | B. Aortic stenosis @GB-0123
+q: ILD + edema: **JVP prominent v wave**, **pulsating liver**, parasternal heave, loud P2 → expected murmur? | C. Tricuspid regurgitation @GB-0115
+idea:
+| الوصف | الصمام |
+| Ejection systolic + crescendo-decrescendo + ينتشر للـcarotids | Aortic stenosis |
+| Holosystolic بالـapex + ينتشر للـaxilla | Mitral regurgitation |
+| Holosystolic بالـLLSB + يزيد مع الشهيق + v wave + كبد ينبض | Tricuspid regurgitation |
+| Mid-diastolic rumble بالـapex + opening snap | Mitral stenosis |
+## TR: كيف يجي؟
+> مرض رئة (ILD أو COPD) → pulmonary hypertension (loud P2) → RV يتعب → tricuspid regurgitation
+- علامات TR: giant v wave بالـJVP + pulsatile liver + edema
+## AS
+- الأعراض: angina و syncope و SOB
+- كبير بالعمر + عوامل خطر = calcific (degenerative)
+== Valve disease: anticoagulation, endocarditis & pregnancy
+q: Rheumatic **mitral stenosis + AF** on warfarin: INR target? | C. 2.0–3.0 @GB-0066
+q: **Mechanical mitral valve** + endocarditis, blood culture **MRSA** → regimen? | D. Vancomycin, rifampin, and gentamicin @GB-0112
+q: Pregnant with valve disease: which has the **worst outcome**? | A. Mitral stenosis @GB-0231
+q: Pregnant with TR, **slight limitation** of physical activity → NYHA class? | C. Class II @GB-0229
+idea:
+## INR
+| الحالة | INR |
+| AF (منها MS + AF) | 2–3 |
+| Mechanical mitral valve | 2.5–3.5 |
+| Mechanical aortic valve | 2–3 |
+- MS + AF → warfarin مو DOAC
+## Prosthetic valve endocarditis
+| الجرثومة | العلاج |
+| Staph (MRSA) على صمام صناعي | Vancomycin + rifampin + gentamicin |
+| MRSA على صمام طبيعي | Vancomycin لحاله |
+- تذكري: صمام صناعي + staph → نضيف rifampin (biofilm) + gentamicin
+## الحمل
+- أسوأ شي: Mitral stenosis (الحمل يزيد الحجم والنبض → pulmonary edema)
+- الـregurgitation تتحمل الحمل أحسن، لأن الـvasodilation يخففها
+| NYHA | الوصف |
+| I | ما فيه أي قيود |
+| II | قيود بسيطة (slight limitation) |
+| III | قيود واضحة، مرتاح بس وهو جالس |
+| IV | أعراض وهو مرتاح |
+== Flow murmur (anemia)
+q: Celiac (not compliant) + IDA on oral iron 12 wks, **no response**; 2/6 systolic flow murmur | B. Intravenous iron preparation @GB-0063
+q: Sickle cell, 12 wks pregnant, stable, 2/6 systolic **flow murmur** | B. Close observation throughout pregnancy @GB-0067
+idea:
+- 2/6 systolic flow murmur مع anemia أو حمل = طبيعي (الدم يمشي أسرع). مو مرض صمام
+- الـmurmur هنا طُعم. جاوبي على المرض الأساسي
+## IDA ما استجاب على oral iron
+> شيكي الالتزام → سبب يمنع الامتصاص (celiac، IBD، gastric bypass) → IV iron
+## Sickle cell بالحمل
+- مستقرة وما عندها مضاعفات → close observation + folic acid
+- Hydroxyurea ممنوع بالحمل
+- Exchange transfusion بس لو فيه مضاعفات (acute chest أو stroke)
