@@ -1,0 +1,172 @@
+# Part 2: Electrolytes، Diabetes، HTN، Lipids
+== الأملاح والكلى
+| الحالة | الجواب | Q |
+| ترجيع أو NG + pH عالي + HCO3 عالي | Metabolic alkalosis | 0319 0320 |
+| Cirrhosis + edema + Na واطي | Hypervolemic hyponatremia | 0321 |
+| K عالي | Peaked T | 0322 0323 |
+| K 2.9 + ترجيع | IV fluids + KCl | 0324 0325 |
+| مسن + thiazide + confusion + Na 120 | Hyponatremia | 0326 0327 |
+| بعد عملية + ileus + ضعف | ECG (K) | 0329 |
+| بعد عملية + ضعف (المصدر) | Respiratory distress | 0330 |
+| IDM: dextrose 20% | Central line | 0331 |
+| CKD + PTH عالي | Hyperphosphatemia (أو Ca حسب الخيارات) | 0332 0333 |
+| TLS + QT طويل أو ألم عضلات | Hypocalcemia | 0334 0341 |
+| TLS + ضعف | Hyperkalemia | 0340 |
+| CKD: الأكل | تتجنب الطماطم | 0335 |
+| أخته ADPKD | Abdominal US | 0336 |
+| Nephrotic | Hypercholesterolemia | 0337 |
+| UACR عالي مرة | أعيديه | 0338 |
+| Hypercalciuria | Thiazide | 0339 |
+| بعد عملية + D5W + Na 121 | Fluid restriction | 0342 |
+| CKD + DM + تشنج + labs شبه طبيعية | Unknown cause | 0328 |
+== Diabetes
+| الحالة | الجواب | Q |
+| C-peptide واطي | Type 1 | 0345 0346 0347 |
+| A1c منضبط على الأدوية | Reassurance | 0343 0344 |
+| أعراض + سكر عالي | Metformin | 0348 0349 0350 0357 |
+| Fasting 7.4 بدون أعراض | 2-hour OGTT | 0351 |
+| ريحة فواكه + HCO3 واطي | DKA | 0353 0354 0355 |
+| نفس القصة + HCO3 طبيعي + Na 124 | Hyponatremia | 0356 |
+| DKA | IV fluids + insulin infusion | 0363 0364 |
+| T1DM جديد بدون DKA | علمي الأهل الإنسولين | 0358 |
+| Hypoglycemia بالليل | قللي الـbasal | 0359 0362 0365 |
+| Hypo بعد الرياضة | قللي الـbolus قبلها (أو كلي قبلها) | 0360 0361 |
+| Gastroparesis | Nuclear scan | 0366 |
+| ASCVD عالي + CKD + DM | Dapagliflozin | 0373 0406 |
+- [0352] المصدر ما حدد جواب ⚠
+== Hypertension
+| الحالة | الجواب | Q |
+| DM أو proteinuria | ACE-I | 0367 0383 0384 |
+| HTN + سمنة: screening | Fasting glucose | 0368 |
+| حامل | ACE-I ممنوع | 0369 |
+| ICH | 140 أو أقل | 0370 |
+| 60 أو أكثر (JNC) | SBP أقل من 150 | 0371 |
+| DM + CKD | أقل من 125/70 | 0372 |
+| تورم لسان | ACE-I (angioedema) | 0374 |
+| كحة | ACE-I ← غيريه لـlosartan | 0375 0376 |
+| Resistant + كلى غير متساوية | Renal artery stenosis | 0377 |
+| يأخر ESRD | ضبط الضغط | 0378 |
+| على thiazide | Low salt | 0379 |
+| خفقان وتعرق | Catecholamines | 0380 |
+| K واطي + alkalosis | Renin:aldosterone | 0381 0382 |
+| قراءة وحدة عالية | Ambulatory BP | 0403 |
+| بالعيادة عالي وبالبيت طبيعي | Risk ما ينحسب | 0412 |
+== Lipids و lifestyle
+| الحالة | الجواب | Q |
+| TG عالي بدون شي | Lifestyle | 0385 |
+| TG عالي على statin | Omega-3 | 0386 0387 0388 0389 0390 0391 |
+| بعد MI على max statin + LDL عالي | Evolocumab، أو ezetimibe | 0392 0393 0394 0428 |
+| LDL عالي بدون أمراض | Lifestyle | 0395 0407 |
+| LDL عالي + HTN + مدخن | High-intensity statin | 0396 |
+| أكثر من خطر + سمنة + تدخين | وقف التدخين + أكل + رياضة | 0397 0398 |
+| BP 140–150 + سمنة | Lifestyle + نزول وزن | 0399 0400 |
+| ملح عالي + ما يتحرك | ملح أقل + رياضة | 0401 0402 |
+| تبي تمنع السكري + BMI 34 | High-intensity exercise (المصدر) | 0404 |
+| بعد MI + LDL عالي | Statin | 0405 0417 0418 0419 0420 |
+| NASH | Vitamin E + نزول وزن | 0408 |
+| Autoimmune hepatitis | Prednisolone | 0409 |
+| ألم عضلات | Atorvastatin | 0410 0411 |
+| 71 + ضغط + cholesterol | Risk أكثر من 30% | 0413 |
+| بنت 13 + ما تتحرك | Lipid profile + counsel | 0414 |
+| أهم risk | Lifestyle وأكل | 0415 |
+| أحسن أكل | Mediterranean | 0421 0422 0435 |
+| LDL عالي + مدخن بدون statin بالخيارات | Bupropion | 0423 0424 |
+| Stroke: LDL target | أقل من 2 | 0425 0426 |
+| CHD + DM | LDL أقل من 70 | 0436 |
+| OA + خوف من الطيحة | Low impact (walking، swimming) | 0429 0430 |
+| مراهق + HTN | 30 دقيقة مشي 5 أيام | 0431 |
+| Biochemical marker | LDL | 0432 |
+| مو biochemical | Waist-hip ratio | 0433 0434 |
+| ولد 12 + BMI 26 | نزول وزن | 0437 |
+- [0416 0427] المصدر ما حدد جواب ⚠
+# Part 2: Cardiology
+== Ischemic heart disease
+| الحالة | الجواب | Q |
+| ألم صدر + ECG طبيعي | Exercise ECG | 0438 |
+| ما يقدر يمشي (OA) | Dobutamine stress echo | 0439 |
+| LVH أو ECG ما يتقرأ | Myocardial perfusion | 0440 0441 |
+| EF 30% + hypokinesia | Coronary angiography | 0442 |
+| LBBB جديد | Thrombolysis (أو PCI) | 0443 0452 |
+| نفس القصة + ECG شبه طبيعي | Angiography | 0444 |
+| STEMI | PCI أو angiogram | 0445 0450 0451 0454 |
+| Inferior MI | Right-sided ECG | 0446 |
+| بعد MI + murmur جديد + صدمة | VSD rupture | 0447 0448 0449 |
+| NSTEMI | Aspirin + clopidogrel + heparin | 0453 |
+| STEMI + stroke قبل | حوليه لـPCI | 0455 |
+| CKD + AF | Diltiazem | 0456 |
+| Vasospasm | Long-acting CCB | 0457 |
+| Echo طبيعي + مشي صعب | HTN و سمنة | 0458 |
+| HF جديد | حوليه للقلب | 0459 0460 0470 0471 |
+| بعد stent + orthopnea + SpO2 واطي | Pulmonary edema ← NIV + IV furosemide | 0461 0462 0472 0473 |
+| قبل thrombolysis | اسألي عن stroke أو نزيف قريب | 0463 0464 |
+| أقوى risk factor (حسب الخيارات) | HTN، أو تدخين، أو العمر | 0465 0466 0467 0468 |
+| HFrEF على كل شي | Ivabradine | 0469 |
+| HF أو COPD | BNP | 0474 0475 0476 |
+| Nitroglycerin | يقلل الـpreload | 0477 |
+== AF و arrhythmias
+| الحالة | الجواب | Q |
+| MS + AF | Warfarin (MR ← apixaban) | 0478 0484 |
+| AF + aortic sclerosis (المصدر) | Warfarin | 0479 |
+| AF + CKD 3 | Apixaban | 0480 |
+| Rate control | Metoprolol، bisoprolol | 0481 0486 |
+| CHA2DS2-VASc | 5، أو 4 بدون HF | 0482 0483 |
+| AF عرضي بشاب (المصدر) | Aspirin + bisoprolol | 0485 |
+| HF + AF | Digoxin، أو carvedilol | 0487 0489 |
+| نفس القصة بدون HF | Propranolol | 0488 |
+| Amiodarone + أعراض | TSH و T4 | 0490 |
+| طفل SVT + طاح أو unstable | Synchronized cardioversion | 0491 0492 0493 0494 0495 0497 |
+| SVT مستقر | Adenosine | 0496 |
+| بعد فيروس + gallop + hepatomegaly | Myocarditis ← echo (initial: ECG) | 0498 0499 0500 0501 0502 0503 |
+| Bradycardia مع أعراض | Atropine | 0504 0505 |
+| Narrow complex فوق 220 | SVT | 0506 0507 0508 0509 |
+| S1Q3T3 بعد سفر | PE | 0510 |
+| أبوه HCM مات فجأة | Beta blocker + ما يلعب competitive | 0511 0512 |
+| أغمى عليها وقت سحب الدم | Vasovagal ← طمني | 0513 |
+| بعد رحلة جبلية + ST مقعر | Coxsackie | 0514 |
+| طفل شاحب + HR 220 | ECG | 0515 0516 0519 0521 |
+| أغمى عليه وقت الجري + murmur | Echo | 0518 |
+| Red flag | تاريخ عائلي لوفاة مفاجئة | 0520 |
+| WPW + AF | Amiodarone (لا AV blockers) | 0522 |
+- [0517] المصدر ما حدد جواب ⚠
+== الصمامات
+| الحالة | الجواب | Q |
+| Ejection → carotids أو إغماء | Aortic stenosis | 0523 0524 0560 0565 |
+| Severe AS بدون أعراض | Follow-up echo | 0525 0526 0541 0551 0552 |
+| AS + أعراض | Valve replacement (أو TAVI) | 0527 0542 0549 |
+| Click + late systolic | MVP | 0528 0559 |
+| Pansystolic → axilla | MR | 0529 0530 0566 |
+| MI + murmur → axilla | Acute MR. بدون murmur: cardiogenic shock | 0531 0532 |
+| صمام صناعي + أسنان | Amoxicillin أو ampicillin | 0533 0534 0535 |
+| صمام صناعي + hernia (مو أسنان) | No antibiotic | 0536 |
+| MVP أو MR | ما يحتاج prophylaxis | 0537 0538 0545 |
+| رضيع AS | Balloon valvuloplasty | 0539 |
+| طفل HCM + AS بدون balloon | Mechanical valve | 0540 |
+| Noonan (webbed neck + PS) | Cardiology + genetic | 0543 0544 |
+| PDA + cyanosis | Infection | 0546 |
+| Diastolic + wide pulse pressure | AR | 0547 0550 0554 0555 0567 0569 |
+| Diastolic يزيد بالشهيق | PR | 0553 |
+| بعد TOF repair | Pulmonary regurgitation | 0568 |
+| Rheumatic + MR شديد | Mitral valve replacement | 0548 |
+| Acute rheumatic | MR. Chronic: MS | 0556 0557 |
+| أسوأ صمام بالحمل | MS | 0558 |
+| Rheumatic + loud S1 | MS | 0561 0562 |
+| Cyanosis + a wave + heave | Pulmonary stenosis | 0563 |
+| شاب يطيح وقت الرياضة | HOCM | 0564 |
+| Mid-diastolic بشابة | Echo | 0570 |
+| Rheumatic قديم + murmur | Echo الحين | 0596 |
+| ما يسبب steatorrhea | Atrial myxoma | 0571 |
+== Congenital heart disease
+| الحالة | الجواب | Q |
+| Cyanosis أو ضغط مختلف بين الأيدي والرجول | Prostaglandin | 0572 0573 0574 0575 0576 0579 0580 0581 0582 |
+| تأكيد coarctation | Echo | 0583 |
+| Boot-shaped | TOF | 0584 |
+| Shunt بين الـatria | ASD | 0585 |
+| Trisomy 13 | VSD | 0586 |
+| Down | AVSD (cushion defect) | 0587 0588 0591 |
+| Complete heart block بمولود | أمه SLE | 0589 |
+| HCM بمولود | أمه DM | 0590 |
+| DCM + pulmonary edema | Furosemide | 0592 0593 0594 |
+| تصير زرقا وقت البكي | افحصيه بعد ما يهدأ | 0578 0595 |
+| نبض غير منتظم بطبيعي | Sinus arrhythmia (طبيعي) | 0597 |
+| Murmur مع حرارة | Innocent | 0598 |
+- [0577] المصدر ما حدد جواب ⚠
