@@ -1,0 +1,92 @@
+# Other medicine (متفرقات)
+== Neurology: وين الـlesion و MS و stroke
+| الحالة | الجواب | Q |
+| يفهم بس ما يكتب ولا يفرق يمين ويسار | Parietal lobe (Gerstmann) | 1256 1392 |
+| ما يعرف الألوان والأشياء | Contralateral homonymous hemianopia | 1388 |
+| دوخة + يطيح يمين + nystagmus | Cerebellar أو lateral brainstem | 1454 2547 |
+| ضعف وجه + سمع بنفس الجهة | AICA | 1964 4086 |
+| Hemiplegia + HTN، أو عيونه فوق وتحت بس | Basal ganglia (المصدر) | 1427 3046 |
+| ضعف ذراع مع مد الرقبة | MRI cervical | 1490 |
+| ضعف رجول + reflexes عالية + احتباس | Cord compression | 1253 1948 |
+| Prostate cancer + ضعف | IV dexamethasone | 3411 |
+| شابة + ضعف + ألم trigeminal | MRI brain with gadolinium (MS) | 1802 3121 |
+| أعراض MS راحت | MRI brain و spine | 2317 5126 |
+| MS: تشخيص بعد أول نوبة | Lesions جديدة بالـMRI | 4675 4676 |
+| MS relapse | High-dose methylprednisolone | 2530 3067 3346 4651 5023 |
+| Stroke 12 ساعة + proximal occlusion | Mechanical thrombectomy | 0279 1164 |
+| Stroke 12 ساعة + شريان صغير | Observe | 0278 |
+| Stroke: متى ننزل الضغط بدون tPA | فوق 220/110 | 4888 |
+| SAH: BP (المصدر) | 140–160 | 4486 |
+| Absence + 3 Hz | Ethosuximide | 1358 |
+| Myoclonic | Valproate. فشل ← levetiracetam | 3213 4286 4904 4185 |
+| Carbamazepine level طبيعي + نوبات | زيدي لـ800 | 2816 |
+| أول نوبة | CT head | 5136 |
+- [2364 4278 5148 2115] المصدر ما حدد جواب ⚠
+== Dementia و falls
+| الحالة | الجواب | Q |
+| نسيان | Cognitive assessment أول | 4442 4561 |
+| MMSE 22 أو نسيان + انعزال | Brain MRI | 1122 4557 4893 |
+| Dementia + سواقة | On-road driving test | 2147 |
+| يطيح | إضاءة الدرج | 3120 |
+- [2892 5138] المصدر ما حدد جواب ⚠
+== Screening و prevention
+| الحالة | الجواب | Q |
+| 45–50 بدون تاريخ عائلي | Colon من 50 كل 10 سنين | 0305 0953 2812 |
+| أبوها colon cancer قبل 60 | Colonoscopy كل 5 سنين | 2165 |
+| أمها breast cancer 43 (المصدر) | Mammogram | 2981 |
+| أبوه melanoma | حوله للجلدية | 1404 3636 |
+| مدخن 65 | AAA ultrasound | 3294 |
+| سمنة | Lifestyle، أهمها إنقاص الوزن | 2973 4469 |
+| سكري ودايت من السوشال | Dietitian | 0642 |
+| UTI 4 بالسنة | Prophylactic antibiotics | 0471 1583 |
+| UTI متكرر بدون عدد، أو نفس القصة (المصدر) | Cranberry juice | 1061 1683 3392 3593 |
+| UTI بعد الجماع | Single dose بعد الجماع | 3822 |
+| Dysuria + RBC بالبول بالرجال | الذكورة complication risk | 4786 |
+| Sickle trait + زوجة ما انفحصت | Low risk | 4573 |
+- [2690 2691 3297] المصدر ما حدد جواب ⚠
+== Diabetes و HTN و endocrine
+| الحالة | الجواب | Q |
+| DM جديد + سمنة | Metformin | 0335 0337 |
+| A1c منضبط | Reassurance | 1011 3919 |
+| C-peptide واطي + antibodies | DM1 | 2035 |
+| دوخة وقوف | Synacthen test | 0867 |
+| Ca 3.5 | IV fluids | 1249 3277 |
+| ESRD + Ca واطي | Vitamin D3 | 2446 |
+| Osteoporosis risk | Alcohol | 0988 |
+| Renal bruit | Renal CT angiography أو US | 1837 1969 3093 |
+| BP 147 + BMI 31 (المصدر) | Start antihypertensive | 3293 |
+| RTA + K واطي + urine pH عالي | Distal (type 1) | 1843 |
+| Rifampin + amlodipine | Amlodipine يحتاج تعديل | 0784 |
+| Rifampin + lisinopril (المصدر) | زيدي lisinopril | 0786 |
+| أكبر risk factor (المصدر) | Age | 4669 |
+- [4395] المصدر ما حدد جواب ⚠
+== GI و hepatitis و دم
+| الحالة | الجواب | Q |
+| Varices + نعسان + نزيف | IV octreotide + cross-match | 2169 5025 |
+| نزيف rectal نشط + صدمة (المصدر) | IV PPI + blood | 2220 |
+| ترجيع دم متكرر | PPI | 2809 |
+| ترجيع ثم دم (Mallory-Weiss) | طمني | 2704 |
+| حرقة 4 شهور | H. pylori test | 4703 |
+| IDA بدون أعراض | Upper و lower endoscopy | 4770 |
+| سافر + إسهال مزمن | Tropical sprue | 2453 |
+| Needlestick: acute HBV | HBsAg + IgM anti-HBc | 4512 4632 4633 |
+| Anti-HCV + بعد نقل دم | Hepatitis C | 4745 |
+| Transfusion + rash | Antihistamine قبل النقل | 2522 3197 |
+| Sickle + acute chest | Transfusion | 3040 |
+| TLS: وقاية | Allopurinol | 3976 |
+| TB transmission | Airborne | 2670 2671 |
+| بعد عملية + حرارة | Blood culture | 2857 |
+- [0976 0981 2508 3090 3941 2430] المصدر ما حدد جواب ⚠
+== Cardio و shock و غيره
+| الحالة | الجواب | Q |
+| HFrEF + cardiogenic shock على BB | وقفي BB | 1808 |
+| HFrEF + overload | زيدي IV furosemide | 3037 4932 |
+| T1DM + بعد رحلة + S3 + ST مقعر | Coxsackie B (myocarditis) | 1648 4123 |
+| PE | Peripheral resistance تزيد | 1124 |
+| Shock compensated: أول علامة | أطراف باردة وشاحبة | 2498 |
+| ماراثون + جفاف | Normal saline | 3407 5056 |
+| IHD + SOB شديد (المصدر) | UFH | 1606 |
+| Necrotic bowel: سبب قلبي | Holter | 1944 |
+| حبوب بعد الحلاقة | Folliculitis | 2312 2313 |
+| Hidradenitis | Hidradenitis suppurativa | 3143 |
+- [1156 2822 2987 3997 4344 4664] المصدر ما حدد جواب ⚠
