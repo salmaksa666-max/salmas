@@ -187,7 +187,7 @@ def build(items, out):
     w = lambda it: len(it["stem"]) + sum(len(t) + 6 for _, t in it["opts"])
     chunks, cur, tot = [], [], 0
     for it in items:
-        if cur and (len(cur) >= 16 or tot + w(it) > CAP):
+        if cur and (len(cur) >= int(os.environ.get("PERPAGE", "16")) or tot + w(it) > CAP):
             chunks.append(cur); cur, tot = [], 0
         cur.append(it); tot += w(it)
     if cur:
@@ -218,7 +218,8 @@ def build(items, out):
             cur_sec = sc
             rows += f'<div class="ts">{html.escape(sc)}</div>'
         rows += f'<div class="tr"><span>{html.escape(dn)}</span><span>Q {n}–{e} ({e - n + 1})</span></div>'
-    pages.insert(0, f'<div class="page toc"><div class="ph">Contents — by disease</div>{rows}</div>')
+    if not os.environ.get("NOTOC"):
+        pages.insert(0, f'<div class="page toc"><div class="ph">Contents — by disease</div>{rows}</div>')
     doc = f'<html><head><meta charset="utf-8"><style>{CSS}</style></head><body>{"".join(pages)}{FIT}</body></html>'
     src = os.path.join(tempfile.mkdtemp(), "x.html")
     open(src, "w", encoding="utf-8").write(doc)
@@ -227,8 +228,9 @@ def build(items, out):
 
 os.makedirs(OUT, exist_ok=True)
 ORDER = {n: i for i, (n, _) in enumerate(MED)}
-for part in ("Medicine", "OB", "GYN"):
-    sub = [it for it in items if it["part"] == part]
-    sub.sort(key=lambda it: (ORDER.get(it["sec"], 99) if part == "Medicine" else 0, it["di"], it["qid"]))
+GROUPS = [("Medicine", ["Medicine"]), ("OBGYN", ["OB", "GYN"])] if os.environ.get("MERGE_WOMEN") else [(p, [p]) for p in ("Medicine", "OB", "GYN")]
+for part, members in GROUPS:
+    sub = [it for it in items if it["part"] in members]
+    sub.sort(key=lambda it: (members.index(it["part"]), ORDER.get(it["sec"], 99) if it["part"] == "Medicine" else 0, it["di"], it["qid"]))
     print(part, end=": ")
     build(sub, os.path.join(OUT, f"MKJ_GB_{part}.pdf"))
