@@ -1,0 +1,104 @@
+# Hematology
+== Anemia: الخريطة اللي تحل أغلب الأسئلة
+> أنيميا → شوفي MCV
+> MCV واطي (microcytic) → ferritin → واطي = IDA ، عالي = chronic disease ، طبيعي + RBC عالي = thalassemia trait
+> MCV طبيعي + retics عالي + LDH عالي + haptoglobin واطي + indirect bilirubin عالي → hemolysis → Coombs
+> MCV عالي (macrocytic) → B12 و folate واطيين → دوري السبب بالأمعاء: celiac ، Crohn ، tropical sprue
+== Microcytic: IDA و thalassemia و chronic disease
+| السؤال أو القصة | الجواب | Q |
+| Most specific أو best to confirm IDA | Ferritin واطي | 0430 0431 1110 4842 4950 3363 |
+| "Most definitive" (حسب المصدر) | Bone marrow (iron stain) | 2989 3924 3925 5032 |
+| IDA عادي | Oral iron | 1160 |
+| على oral iron 12 أسبوع وما تحسن | IV iron | 2880 |
+| رجل، أو كبيرة بالعمر، أو بدون نزيف واضح | Upper و lower endoscopy | 3033 4505 4715 2599 |
+| RBC عالي + MCV واطي جدًا + Hb قريب من الطبيعي | β-thalassemia trait | 3374 5147 |
+| RBC عالي + microcytic (المصدر) | IDA ⚠ | 2963 |
+| Ferritin عالي + مرض مزمن (sarcoid) | Anemia of chronic disease | 0118 |
+| IDA + إسهال بدون دم | tTG (celiac) | 4789 2631 |
+| إسهال + aphthous ulcers + مفاصل + microcytic | Colonoscopy + ileal biopsy (Crohn) | 2166 |
+- Ferritin يرتفع مع الالتهاب، فـferritin طبيعي ما يستبعد IDA بمريض مريض
+- قاعدة الكلام: "specific أو best" ← ferritin. "definitive أو gold standard" ← bone marrow. "underlying cause" بكبير ← endoscopy و colonoscopy
+- [5002 3504] المصدر ما حدد جواب ⚠
+== Macrocytic
+| القصة | الجواب | Q |
+| إسهال مزمن + B12 و folate واطيين + سافر لآسيا | Tropical sprue | 0055 3870 |
+| شابة نحيفة + إسهال + انتفاخ + B12 و folate واطيين | Celiac | 3186 |
+| شاب + ألم بطن + إسهال بدون دم + MCV عالي | Crohn (terminal ileum) | 0211 |
+- Folate لحاله واطي ← فكري celiac (proximal). B12 واطي ← terminal ileum (Crohn) [3080]
+- AST أكثر من ALT بمرتين + يشرب ← alcoholic hepatitis [1266]
+== Hemolysis
+| القصة | الجواب | Q |
+| Hemolysis: أول أو next step | Direct Coombs | 2217 3082 |
+| Retics ما انطلب | Retics أول | 4914 |
+| بعد أكل (فول) أو دواء + Heinz bodies أو bite cells | G6PD | 2091 2496 5086 |
+| Mycoplasma: حلق + conjunctivitis + bullous lesions | IgM cold agglutinin | 2286 4438 5064 |
+| بول داكن + Coombs ما ذكر + spherocytes ما ذكرت | PNH | 4367 |
+| Coombs إيجابي + platelets واطية | Evans syndrome | 2527 |
+| حرارة + confusion + كلى + platelets واطية + anemia | TTP ← blood film (schistocytes) | 2847 2848 |
+| Platelets 5 + بدون schistocytes + نزيف لثة | ITP | 0195 0196 |
+| Sickle + enoxaparin + platelets نزلت | HIT | 4758 5010 |
+- [1097 3021 4915 4366] المصدر ما حدد جواب ⚠. Spherocytes بعد عدوى ← warm AIHA أو hereditary spherocytosis ← Coombs يفرق
+== Sickle cell
+| القصة | الجواب | Q |
+| تأكيد التشخيص | Hb electrophoresis | 0252 1912 |
+| وش ما يطلع بالـelectrophoresis بالـSS | HbA | 0408 0409 1204 |
+| نفس السؤال (المصدر) | Hb C ⚠ | 1203 |
+| Acute chest ما تحسن على antibiotics | Blood transfusion | 2997 |
+| حرارة أو رجفة أثناء نقل الدم | وقفي النقل فورًا | 2303 3722 |
+| Gallstones + leg ulcers + hemolysis | Sickle cell | 3786 |
+| Trait + زوجة سليمة | الخطر قليل | 2716 |
+- [0407] المصدر ما حدد جواب ⚠. Warfarin + نزيف + INR 7 + صدمة ← سوائل ودم + PCC + vitamin K [1901]
+== Warfarin و DOAC: الـINR والنزيف والعكس
+> INR عالي → فيه نزيف خطير؟ → لا: وقفي warfarin وأعيدي INR ورجعيه بجرعة أقل → إيه: PCC + vitamin K + دم
+| الحالة | الجواب | Q |
+| INR 4 تقريبًا بدون نزيف | Hold warfarin وأعيديه بجرعة أقل | 2216 3637 |
+| INR عالي + بدأ herbal + نزيف خشم بسيط | وقفي الـherbal وأعيدي INR بعد 48 ساعة | 0620 1182 2097 3226 3227 |
+| Herbal + INR 2.1 (المصدر) | Stop warfarin ⚠ | 4722 |
+| نزيف دماغ أو subdural على warfarin | PCC | 1652 |
+| نزيف على apixaban (دماغ أو بعد طيحة) | PCC (أو andexanet) | 0584 0585 0586 1655 |
+| Melena + صدمة + INR 7 + Hb 6 | Packed RBC + PCC و vitamin K | 3757 4090 1111 |
+| بدأ RIPE (rifampin) | يضعف warfarin ← زيدي warfarin | 0781 0783 0787 |
+| نفس القصة: وش ممكن نغيره ثاني (المصدر) | Amlodipine | 0782 |
+| Unprovoked DVT أو PE بعد 3 شهور | Continue indefinitely | 4671 2245 |
+| DVT أو PE ثاني مرة | Long-term anticoagulation | 0998 1304 1305 |
+| DVT على apixaban + antiphospholipid | Switch to warfarin | 4134 2504 |
+| AF + MS، أو valve ميكانيكي | Warfarin (مو DOAC) | 3603 4104 |
+| AF بدون valve، CKD stage 3 | Apixaban | 4772 |
+| AF + TIA متكرر | Oral anticoagulant | 3017 |
+| Heparin + K عالي + captopril | وقفي captopril | 2244 |
+- Rifampin enzyme inducer: يضعف warfarin و amlodipine. القاعدة: warfarin أول
+- DOAC ممنوع مع: mechanical valve، moderate-severe MS، antiphospholipid، الحمل
+== DVT و PE
+| الحالة | الجواب | Q |
+| اشتباه DVT | Duplex US | 1903 3631 |
+| DVT أو PE مستقر | LMWH أو DOAC | 1832 4810 4909 1387 4905 1818 |
+| ممكن عملية، كلى ضعيفة، أو سمنة شديدة | Unfractionated heparin | 1793 1663 1607 |
+| Massive PE (صدمة، cyanosis) | Thrombolysis (alteplase) | 1740 1831 |
+| Cancer + رجل حمراء منتفخة | DVT | 3289 |
+| سفر طويل | تحرك وتمارين رجول | 2630 |
+| بعد عملية + حرارة + infiltrate (pneumonia) | Antibiotics. أول خطوة: IV fluids | 2454 2455 |
+== HIT
+| الحالة | الجواب | Q |
+| Heparin + platelets نزلت 50% بعد 5–10 أيام | HIT | 3353 |
+| أول خطوة | وقفي كل heparin | 0938 2920 |
+| يحتاج مميع | Argatroban (أو fondaparinux) | 2919 |
+== TIA و ACS
+| الحالة | الجواب | Q |
+| TIA + carotid 70% | Carotid endarterectomy | 1439 |
+| TIA low risk (ABCD2 3) | Aspirin | 2249 2250 2418 |
+| TIA وهو على aspirin | Statin (المصدر) أو أضيفي clopidogrel | 3719 |
+| TIA متكرر + stenosis + ما يقدر عملية | Aspirin + clopidogrel | 1722 3668 |
+| TIA متكرر بدون AF (المصدر) | Warfarin ⚠ | 4449 |
+| NSTEMI | Aspirin + clopidogrel + heparin | 2080 4132 |
+| STEMI + ICH قديم + ما فيه cath lab | حوليه لمستشفى فيه PCI (لا thrombolysis) | 2994 3804 |
+| Stroke + سكر عالي جدًا | Insulin infusion | 4621 |
+- [0511 2375] المصدر ما حدد جواب ⚠
+== Oncology و platelets
+| الحالة | الجواب | Q |
+| Blasts 20% + platelets واطية | Bone marrow infiltration | 2828 |
+| Reed-Sternberg | Hodgkin | 1470 |
+| Tumor lysis (K عالي، Ca واطي، ما يبول) | Hydration + rasburicase | 4759 |
+| Lymphoma + ما يبول + labs طبيعية | Hydration + furosemide | 1308 |
+| بعد chemo يطيح | Arrhythmia (electrolytes) | 2338 |
+| TTP | ADAMTS13 deficiency | 3201 |
+- [3032 4038] المصدر ما حدد جواب ⚠
