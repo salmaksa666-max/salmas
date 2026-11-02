@@ -1,0 +1,56 @@
+# Nephrology & Electrolytes
+== Potassium
+> K عالي → ECG فيه تغيرات؟ → إيه: IV calcium gluconate أول (يحمي القلب) → بعدها insulin + dextrose (يدخل K للخلايا) → السبب: spironolactone، ARB، TLS
+| الحالة | الجواب | Q |
+| K 8 + ECG تغيرات أو comatose | IV calcium gluconate | 3474 2918 |
+| K عالي بدون ECG تغيرات: أول علاج | Insulin + dextrose | 4471 4797 |
+| HF على spironolactone + K 5.8 | قللي spironolactone | 0354 0355 4710 |
+| بدأ candesartan + creatinine ارتفع | وقفي candesartan (renal artery stenosis) | 5020 2672 3020 |
+| K واطي جدًا + ECG | IV potassium | 4702 |
+| K ما يرتفع رغم العلاج | Magnesium | 4985 2468 |
+| Senna | Hypokalemia | 0484 |
+| إسهال | Metabolic acidosis + hypokalemia | 3912 |
+| TLS + ضعف + palpitations | Hyperkalemia | 1313 1497 0156 |
+| NG tube + pH 7.52 + HCO3 40 | Metabolic alkalosis | 3291 |
+| COPD + CO2 عالي + pH واطي | Type 2 respiratory failure | 2843 3537 |
+| Pneumonia + pH 7.1 | Intubation | 2107 |
+| Cirrhosis + K عالي + edema | Furosemide | 2410 |
+- [1653 3421] المصدر ما حدد جواب ⚠
+== Sodium و water
+| الحالة | الجواب | Q |
+| مسنة على thiazide + confusion + Na 120 | Hyponatremia | 4187 |
+| Small cell + Na واطي | Fluid restriction (SIADH) | 5073 |
+| بعد ماراثون + hypotension + Na عالي | 0.9% saline | 1594 |
+| Methamphetamine + جفاف | Electrolyte imbalance | 0016 |
+| Pneumonia + agitated + lorazepam + O2 89% | راجعي الأدوية + O2 | 3002 |
+| UTI + confusion بكبير | Antibiotics | 1941 |
+| Seizure + labs شبه طبيعية | Idiopathic generalized | 1711 |
+== CKD و dialysis
+| الحالة | الجواب | Q |
+| Uremic pericarditis أو neuropathy | ابدئي dialysis | 1670 1743 |
+| Pericardial effusion + hypotension | Pericardiocentesis | 2103 2891 4329 |
+| Effusion + على gentamicin | وقفي aminoglycoside | 2873 |
+| ESRD + SOB + ضغط عادي | IV furosemide | 5070 |
+| CKD + AF | Apixaban (rate: diltiazem) | 2811 3035 |
+| CKD + fentanyl + confusion + myoclonus | Opioid neurotoxicity | 2860 2861 2862 3440 |
+| CKD + heparin + platelets 16 + رجل باردة | وقفي heparin (HIT) | 2176 2515 |
+| CKD 4 + osteoporosis | Denosumab | 3574 4371 |
+| CKD + DM + SOB أو murmur | Cardiology | 4788 5063 2727 |
+| ADPKD (أبوه dialysis + flank pain) | Prepare for transplant | 0596 |
+| السبب: HTN 10 سنين + NSAIDs | Hypertension | 2595 |
+| DM + كلى | Glycemic control | 2000 |
+| إسهال + جفاف + creatinine | ATN | 2642 |
+| Marathon + بول غامق بدون RBCs | Hydration (rhabdo) | 1229 |
+| ألم ظهر + creatinine + bone marrow | Light chains (myeloma) | 3074 |
+== UTI و غيره انحط هنا
+| الحالة | الجواب | Q |
+| UTI متكررة 4 بالسنة | Low-dose antibiotic prophylaxis | 1943 |
+| UTI متكررة بدون عدد (المصدر) | Cranberry juice | 3763 |
+| Hemolysis + طحال + gallstones | Hereditary spherocytosis | 1297 2814 4418 |
+| HCV + cirrhosis | Direct-acting antivirals | 0532 |
+| HBV + paracetamol | N-acetylcysteine | 4847 |
+| Sickle + acute chest متكرر | Hydroxyurea | 1426 |
+| Pleural lymphocytes | TB | 4981 |
+| شارب + ألم متكرر + amylase شوي | Chronic pancreatitis | 0767 |
+| Steroid 60 mg ما خففته + ماتت | Hypertensive brain hemorrhage | 1143 |
+| خطر قلب + سمنة | Mediterranean diet | 0396 |
