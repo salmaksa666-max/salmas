@@ -1,0 +1,174 @@
+# Part 3: Infection
+== Febrile neutropenia
+| الحالة | الجواب | Q |
+| حرارة قبل أو بعد chemo | Extended-spectrum penicillin أو IV antibiotic | 0599 0600 |
+| + shock | Meropenem | 0601 |
+| بعد BMT | Cefepime | 0604 |
+| 72 ساعة بدون تحسن | Antifungal (voriconazole أو amphotericin) | 0602 0608 0606 |
+| نفس القصة بدون antifungal بالخيارات، أو pneumonia | Vancomycin | 0603 0605 0609 |
+| Meropenem + vancomycin وما تحسن | Blood culture | 0607 |
+== TB
+| الحالة | الجواب | Q |
+| طفل contact + IGRA أو PPD + CXR طبيعي | Latent: rifampicin + INH 3 شهور | 0610 0611 0617 |
+| HIV + PPD 6 | INH + pyridoxine 9 شهور، أو rifapentine + INH 3 شهور | 0613 0614 0619 |
+| نيرس PPD 12–14 | INH 6 شهور، أو rifampin | 0615 0616 |
+| CXR إيجابي أو أعراض | RIPE | 0612 0618 |
+| طفل أقل من 5 + contact | IGRA + CXR + ابدئي INH | 0623 |
+| المربية IGRA + | CXR للطفل | 0624 |
+| PPD 10 mm بطفل contact | Positive | 0757 |
+| تنميل | Isoniazid | 0620 |
+| بول برتقالي | Rifampin | 0621 |
+| Uric عالي | Pyrazinamide | 0622 |
+| Rifampin + warfarin | زيدي warfarin | 0625 0628 |
+| Rifampin + amlodipine أو lisinopril | Amlodipine، أو زيدي lisinopril (المصدر) | 0626 0627 |
+| Isolation | Airborne، غرفة negative pressure | 0750 0751 |
+| TB transmission | Air/droplet | 0749 |
+| TB meningitis | RIPE (+ dexamethasone) | 0752 0753 |
+== Meningitis
+| الحالة | الجواب | Q |
+| Polymorphs + glucose واطي | Bacterial (S. pneumoniae) | 0629 0642 0644 |
+| Gram − coccobacilli | H. influenzae | 0758 0759 |
+| Gram + bacilli + كبير | Listeria ← ampicillin | 0640 |
+| Lymphocytes + glucose واطي + أسابيع | TB meningitis | 0630 0636 |
+| IVDU + lymphocytes + ratio فوق 0.4 | Fungal أو aseptic | 0631 |
+| تشنج + lymphocytes + glucose طبيعي | HSV ← acyclovir | 0632 0633 0635 0641 0646 0647 |
+| Lymphocytes + glucose طبيعي | Viral | 0634 0645 0643 |
+| ثني الرقبة ← الركب | Brudzinski | 0637 0638 0639 |
+| سباحة بنهر | Naegleria | 0648 |
+| رضيع + fontanelle بارز | Meningitis | 0649 |
+| Petechiae + رقبة | LP | 0768 |
+| Meningococcal | Droplet ← prophylaxis للأهل | 0754 0756 |
+| Prophylaxis للإخوان | Ciprofloxacin جرعة وحدة | 0717 0718 |
+| حج بدون تطعيم | Rifampicin يومين | 0719 |
+- [0720] المصدر ما حدد جواب ⚠
+== Pediatric UTI
+| الحالة | الجواب | Q |
+| فوق 3 شهور + مستقر (حتى مع حرارة 39) | Oral amoxicillin | 0650 0651 0652 0654 |
+| Toxic أو flank + ترجيع | IV antibiotics | 0653 0764 |
+| أقل من 3 شهور | المستشفى + IV | 0655 0656 |
+| UTI متكررة أو أقل من 6 شهور | Renal US | 0657 0662 0664 0665 |
+| Bilateral hydronephrosis | MCUG | 0658 |
+| Unilateral (المصدر) | IV pyelogram | 0659 |
+| Scarring | DMSA | 0660 |
+| أدق تشخيص | Single organism أكثر من 10⁵ أو suprapubic | 0666 0667 |
+| Klebsiella أكثر من 100,000 + أعراض | عالجيه UTI | 0763 |
+| Confusion + dysuria | Culture + antibiotics | 0767 |
+| Central line + حرارة | Line infection | 0769 |
+- [0661 0663 0766] المصدر ما حدد جواب ⚠
+== Rash و transmission
+| الحالة | الجواب | Q |
+| Measles: transmission | Airborne | 0737 0739 0740 0747 0748 |
+| Koplik + conjunctivitis + حرارة عالية | Measles | 0742 0743 0744 |
+| حرارة خفيفة + lymph nodes + بدون تقشر | Rubella | 0745 0746 |
+| Hand-foot-mouth | Fecal-oral | 0738 0762 |
+| Sandpaper rash | Strep pyogenes | 0760 0761 |
+| Pneumonia | Droplet | 0755 |
+| Chlamydia | Azithromycin | 0765 |
+| حكة شرجية + خيوط | Enterobius | 0716 |
+- [0741] المصدر ما حدد جواب ⚠
+== Brucella و pneumonia و malaria
+| الحالة | الجواب | Q |
+| Brucella + spondylitis بالـMRI | 12 أسبوع | 0722 |
+| بدون MRI | 6 أسابيع | 0723 |
+| بيطري + sacroiliac + سلوك | Brucellosis | 0724 |
+| رجع من سفر + ما تحسن على amoxicillin | Legionella | 0725 |
+| بلغم بدم + air bronchogram | S. pneumoniae | 0726 0728 |
+| مراهقة + bilateral | Mycoplasma | 0727 |
+| Malaria | ACT (chloroquine لو حساس) | 0729 0730 0731 |
+| اكتئاب + وقاية | Atovaquone-proguanil | 0732 |
+| تشخيص | Blood film | 0733 |
+| Malaria vector | Female Anopheles | 0734 |
+| Dengue | Aedes | 0735 |
+| ترجع | Vivax | 0736 |
+- [0721] المصدر ما حدد جواب ⚠
+# Part 3: GI و Pulmonology
+== IBD و IBS
+| الحالة | الجواب | Q |
+| UC أو toxic megacolon ما استجاب | Colectomy + end ileostomy | 0668 0670 |
+| Crohn بطفل | Exclusive enteral nutrition | 0669 |
+| ulcers فم + RLQ، أو skip و strictures | Crohn | 0671 0672 |
+| Crohn على steroids | Anti-TNF | 0673 |
+| Mucus + anemia | UC أو IBD | 0674 0675 0677 |
+| بدون anemia | IBS | 0676 |
+| IBS: الأكل | قللي الحار والدهون | 0679 |
+| IBS: أول فحص (المصدر) | Celiac testing | 0680 |
+| إسهال بالليل + aphthous | Fecal calprotectin | 0713 |
+| IBD + جرح بالرجل | Pyoderma gangrenosum | 0712 |
+- [0678] المصدر ما حدد جواب ⚠
+== الكبد
+| الحالة | الجواب | Q |
+| Ascites + PMN 250 أو أكثر | IV antibiotics (SBP) | 0681 0682 |
+| Encephalopathy: الأكل (المصدر) | Protein | 0683 0685 |
+| بدون encephalopathy | Fat | 0684 |
+| Ammonia عالي | Lactulose + rifaximin | 0686 |
+| Ascites يرجع | Sodium أقل من 2 g | 0687 |
+| SAAG أكثر من 1.1 | Cirrhosis أو portal HTN | 0688 0690 |
+| HBsAg + و HBeAg + | Active، أو chronic (المصدر) | 0691 0692 |
+| Anti-HBs + بس | Immunized | 0693 0695 |
+| HBsAg + و IgG core + و anti-HBe + | Chronic | 0694 0696 |
+| HBV ساء فجأة | Anti-delta | 0697 |
+| بعد نقل دم + RNA | HCV | 0698 |
+| Hep A بالحضانة | Rest + hydration | 0699 |
+| Cirrhosis جديد | Endoscopy (varices) | 0710 |
+| NAFLD | US كبد وطحال | 0708 |
+| Pancreatitis + varices | Left-sided portal HTN | 0709 |
+| HBV + paracetamol | NAC | 0711 |
+| Autoimmune hepatitis | Prednisone + azathioprine | 0714 |
+- [0689] المصدر ما حدد جواب ⚠
+== Celiac و غيره
+| الحالة | الجواب | Q |
+| tTG + EMA إيجابية | Duodenal biopsy | 0701 |
+| أخوه celiac وتحت 3 | طمني | 0702 |
+| أخوه celiac وفوق 3، أو أعراض | tTG-IgA | 0703 0704 |
+| Celiac يتجنب | Wheat | 0705 |
+| Dialysis يتجنب | Tomatoes | 0706 |
+| Cholestasis + وجه مميز | Alagille | 0707 |
+| Gastroparesis | Nuclear scan | 0700 |
+| Senna | Hypokalemia | 0715 |
+== Intubation و pneumonia
+| الحالة | الجواب | Q |
+| COPD + وعي نازل | علامة failure ← intubate | 0772 0778 |
+| Pneumonia + pH 7.1 + agitated | Intubation | 0770 0771 |
+| COPD بدون O2 + CO2 عالي | Positive pressure ventilation | 0773 |
+| COPD + pH 7.2 + hypoxia | Mechanical ventilation | 0775 |
+| COPD صاحي | NIV | 0776 |
+| Asthma + ما يتكلم | Intubation | 0777 |
+| COPD صاحي + SpO2 70% | Non-rebreather | 0779 |
+| طفل + consolidation + يشرب | Oral amoxicillin | 0780 0781 |
+| طفل pneumonia + CO2 عالي | Respiratory failure | 0782 0784 0785 |
+| Sepsis + hypoxia + bilateral | ARDS | 0783 0786 |
+| بعد URTI + hypoxemia | Pulmonary edema | 0787 0788 0789 |
+| VAP | رفع الراس | 0790 |
+| COPD + كبد + ascites | Right heart failure | 0791 |
+| CURB-65 كلها | 5 | 0792 |
+| أهم prognostic بالـARDS | ABG | 0820 |
+| زيادة إخراج CO2 | زيدي الـRR | 0832 |
+- [0774 0793] المصدر ما حدد جواب ⚠
+== Pleural و asthma و pneumonia
+| الحالة | الجواب | Q |
+| Exudate (LDH ratio 2) | TB | 0794 0795 |
+| شخير + CO2 | BiPAP بالليل | 0796 |
+| ما تحسن على SABA | شيكي الـtechnique | 0797 0803 |
+| نوبة شديدة | Oral steroids | 0798 |
+| Severe asthma مزمن + كحة بالليل | ICS | 0800 0801 |
+| الوقاية بدون ICS | Environment control | 0799 0802 0804 0805 |
+| حامل + asthma بعد تحسن | Steroids | 0806 |
+| Asthma: objective | FEV1 يزيد بعد bronchodilator | 0807 |
+| Polyphonic wheeze | Asthma | 0808 |
+| Exercise wheeze | Salbutamol | 0823 |
+| مصنع قطن | COPD | 0809 |
+| COPD جديد | وقف التدخين | 0810 |
+| COPD + أعراض | CXR | 0827 0828 |
+| ICU + hypotension على azithromycin | أضيفي ceftriaxone | 0811 0813 0815 |
+| ICU بدون azithromycin | Moxifloxacin | 0812 |
+| Cavitation | Vancomycin | 0814 |
+| شاب + crackles | Oral azithromycin | 0816 |
+| DM + مدخن | Cefuroxime + azithromycin، أو admit | 0817 0818 |
+| Effusion + pneumonia | Thoracentesis | 0819 |
+| CF + بلغم | Antibiotics. MSSA ← amox-clav | 0821 0822 |
+| Asthma + براز دهني | Sweat chloride | 0824 |
+| CF: مضاعفة | Bronchiectasis | 0825 |
+| بعد pneumonia | Pneumococcal vaccine | 0826 |
+| أحسن علامة بطفل | RR عالي | 0829 |
+| رضيع URTIs | التطعيمات | 0830 |
+| Pertussis | Azithromycin | 0831 |
