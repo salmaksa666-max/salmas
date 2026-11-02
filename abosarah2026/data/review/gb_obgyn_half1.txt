@@ -1,0 +1,73 @@
+# Obstetrics
+== Early pregnancy: نزيف بأول الحمل والإجهاض
+| الـos | الجنين أو الرحم | التشخيص | العلاج | Q |
+| مقفل | حي، نبض موجود | Threatened | conservative وطمني | 0313 0314 0318 0470 0248 |
+| مفتوح | لسا داخل (أو membranes طالعة) | Inevitable | evacuation أو D&C | 0315 0453 0469 0400 |
+| مفتوح | طلع جزء، tissue باقي | Incomplete | evacuation | 0316 0317 0472 0413 |
+| مقفل | طلع كله، الرحم فاضي | Complete | طمني | 0312 0364 0593 |
+| مقفل | ميت وما طلع | Missed | misoprostol | 0451 0452 0391 |
+| أي | + حرارة وتعبانة | Septic | admit + antibiotics + evacuation | 0454 0455 |
+| مقفل | sac بدون نبض وصغير، أو sac بدون جنين | Uncertain viability | أعيدي US و hCG بعد أيام، أو expectant | 0450 0251 0279 |
+- أول خطوة مع نزيف بالحمل: pelvic assessment (speculum) ثم transvaginal US [0456 0457 0458]
+- أشهر سبب للإجهاض: chromosomal abnormality [0362 0370]. Recurrent ← karyotyping [0503]. عمر 40 أو أكثر ← خطر 10–50% [0585]. تدخين أكثر من 20 باليوم [0593]
+- 3 إجهاضات + مفاصل + rash ← antiphospholipid ← warfarin مدى الحياة بعد الجلطة [0155]
+- 28 أسبوع بدون نبض = fetal demise (IUFD)، مو missed [0307]
+- كبيرة بالعمر + amenorrhea ← ultrasound [0594]
+- Dating: أدق شي CRL بالـultrasound (أول trimester) [0367 0389 0388 0480]. Test إيجابي من أسبوعين ← US الحين [0365]
+== Ectopic pregnancy
+| الحالة | الجواب | Q |
+| ألم + نزيف خفيف + ما فيه حمل داخل الرحم + سوائل | Ectopic | 0414 0354 |
+| ألم شديد فجأة + ينتشر للكتف + سوائل بالـpouch أو صدمة | Ruptured ectopic ← laparotomy | 0459 0475 0592 0461 |
+| ما نعرف وين الحمل (PUL) | quantitative hCG ← أعيديه بعد 48 ساعة | 0415 0366 0449 |
+| مستقرة + كتلة صغيرة + ما فيه نبض | Methotrexate | 0538 0375 |
+| كتلة 4 cm أو أكثر، أو IVF مع ectopic بالجهتين | Surgery (salpingectomy) | 0447 0448 |
+| MTX: hCG يوم 4 و 7 نزل 15% أو أكثر | أعيدي hCG بعد أسبوع | 0438 0440 0591 |
+| MTX: hCG ثابت أو ما نزل 15% | جرعة MTX ثانية | 0437 0330 0589 |
+| MTX: hCG يرتفع كثير (يوم 7) | Surgery فورًا | 0439 |
+| MTX: يرتفع بعد أسبوعين | Transvaginal US (وين الحمل؟) | 0441 |
+- أول علامة نزيف مستمر ← tachycardia [0304]
+- أي ألم بطن أو نزيف بامرأة بعمر الإنجاب ← pregnancy test أول [0460 0355 0349]
+== Labor و CTG
+| CTG أو الحالة | السبب أو الجواب | Q |
+| Early deceleration | ضغط الراس، طبيعي | 0572 |
+| Variable | ضغط الـcord ← غيري الوضعية | 0219 0428 |
+| Late | placental insufficiency ← وقفي oxytocin + غيري الوضعية + سوائل | 0500 0429 0275 |
+| Cord prolapse | variable + bradycardia | 0569 0266 |
+| Fetal tachycardia | infection | 0559 |
+| CTG طبيعي + ألم خفيف | Reassurance | 0560 0563 0574 0564 |
+| قلة حركة الجنين | CTG ← continuous monitoring | 0505 0562 0561 |
+| BPP | 8/10 مطمئن | 0218 |
+| طلق ضعيف + CTG طبيعي | Augmentation (oxytocin أو amniotomy) | 0546 0550 0571 0544 |
+| Fully dilated + الراس نازل + distress | Instrumental | 0548 0369 |
+| الراس عالي (-3) أو distress قبل full | Emergency C-section | 0547 0549 0551 0565 0566 0568 |
+| ما يتقدم + caput | Obstructed labor | 0234 |
+| Post-term 41–42 | Induction (PGE2 لو cervix مقفل) | 0487 0567 0515 0404 0232 0409 0410 |
+| Twin A cephalic | Vaginal. MCMA ← C-section | 0483 0582 |
+| IUGR | serial US. Cephalic ← vaginal | 0485 0486 0255 0484 |
+- Frank breech = الورك منثني والركب ممدودة [0306]. التوائم حسب وقت الانقسام: 0–3 أيام DCDA، 4–8 MCDA، 9–12 MCMA [0397 0395 0396]
+- Latent phase يطول لين 8 ساعات تقريبًا [0233]. Fibroid degeneration بالحمل ← observation [0489]. كيس مبيض بالعملية ← cystectomy [0535 0492]
+- بعد C-section + حرارة + pancreatitis ← NPO [0539]. EDD: Naegele [0368]
+== الأمراض مع الحمل وما بعد الولادة
+| الحالة | الجواب | Q |
+| Hypothyroid | Thyroxine | 0246 0204 |
+| Hyperthyroid | Radioactive iodine ممنوع | 0213 |
+| Valproate | Neural tube defects | 0209 |
+| صرع منضبط على phenytoin | كملي نفس الدواء | 0372 |
+| SLE منضبط | كملي hydroxychloroquine. Mycophenolate ← azathioprine | 0373 0008 |
+| Cholestasis | Bile acids + LFT | 0260 |
+| Sickle cell | Folic acid 5 mg. Trait ← UTI. مستقرة ← observation | 0262 0265 0067 |
+| DVT | Compression US | 0220 0034 |
+| PE بالحمل | V/Q scan. بعد الولادة ← PE | 0059 0126 0198 |
+| قلب | MS أسوأ صمام. NYHA II | 0231 0229 |
+| تغيرات طبيعية | creatinine ينزل، الدم يزيد 40–45% | 0305 0243 |
+| Bacteriuria | Amoxicillin | 0104 |
+| GBS | Ampicillin وقت الولادة | 0236 |
+| Pyelonephritis | ألم خاصرة + رجفة | 0237 |
+| HSV | Acyclovir يقلل الـshedding | 0300 |
+| Candida | Topical antifungal | 0490 |
+| HBsAg + | الطفل: vaccine + HBIG | 0506 |
+| Postpartum depression | تعيط ونومها مضطرب | 0208 |
+| Mastitis | Antibiotics لـStaph + كملي رضاعة. كتلة ← US + surgery | 0374 0493 |
+| Contraception بالرضاعة | المصدر: COC ⚠ (الأصح progesterone-only قبل 6 أسابيع) | 0383 |
+- IDA بالتوائم: IV iron لو moderate أو severe [0242]. Cystic hygroma ← CVS [0240]. Anomaly scan 18–22 [0499]
+- Androgenic progestin ← masculinization [0504]. Prolapse بالحمل ← reassurance [0434]. Hyperemesis ← المصدر: folate deficiency ⚠ [0271]
