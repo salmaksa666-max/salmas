@@ -1,0 +1,181 @@
+# Part 1: Hematology
+== Anemia
+> أنيميا → MCV → microcytic: ferritin (واطي IDA) ، RBC عالي = thalassemia ، basophilic stippling = lead → hemolysis (retics و LDH عالية، haptoglobin واطي) → Coombs ← + AIHA ، − spherocytosis أو G6PD
+| الحالة | الجواب | Q |
+| طفل حليب بقر وبسكويت + microcytic | IDA ← oral iron + diet | 0080 0079 0081 |
+| ياكل تراب + ferritin واطي | Pica مع IDA | 0078 |
+| أعلى قيمة لطفل ياكل تراب | CBC + smear | 0103 |
+| Pica + basophilic stippling + خطوط كثيفة بالعظم | Lead ← blood lead ← chelation | 0083 0104 0105 |
+| Specific أو confirm IDA | Ferritin واطي | 0110 0111 |
+| CKD + anemia | Iron studies | 0109 |
+| Definitive (المصدر) | Bone marrow | 0108 |
+| MCV واطي جدًا + RBC طبيعي أو عالي + طحال | Beta thalassemia | 0082 0086 0102 |
+| Frontal bossing + طحال | Hemoglobin (thalassemia) | 0089 |
+| Hydrops fetalis | Alpha thalassemia | 0101 |
+| Sickle: التشخيص | Hb electrophoresis | 0084 0085 0090 |
+| Sickle: وش ما يطلع | Hb A | 0072 |
+| Sickle + إصبع منتفخ | Dactylitis | 0088 |
+| Sickle + acute chest | Exchange transfusion | 0076 |
+| Sickle + RUQ مع الأكل | Chronic hemolysis (pigment stones) | 0094 |
+| Coombs + | AIHA | 0091 0092 |
+| نفس الأرقام + jaundice + gallstones | Hereditary spherocytosis | 0093 |
+| مولود jaundice بأول يوم + retics | Osmotic fragility | 0077 |
+| بعد الأكل أو دواء + hemolysis | G6PD | 0095 |
+| SLE + LDH عالي + haptoglobin واطي | Hemolytic | 0087 |
+| Splenectomy تعالج | Spherocytosis. الأشهر علاجه: ITP | 0099 0100 |
+| زوجين أقارب + أخت sickle | Genetic counseling | 0106 |
+| Trait + زوجة سليمة | Low risk | 0107 |
+| Pneumonia + jaundice يوم 3 | وقفي antibiotics | 0074 |
+| Pneumonia تحسن | وقفي ceftriaxone | 0073 |
+- [0075 0096] المصدر ما حدد جواب ⚠
+== النزيف و التخثر
+| الحالة | الجواب | Q |
+| Fever + confusion + platelets + anemia | Blood film (schistocytes، TTP) | 0097 0112 |
+| بعد إسهال بدم + كلى (HUS) | Stool culture | 0098 0113 |
+| Warfarin + نزيف + صدمة | PCC | 0114 0115 |
+| Cirrhosis + عملية مستعجلة + INR عالي | FFP | 0116 |
+| PPH ما وقف + DIC | Cryoprecipitate | 0117 |
+| ITP + PPH | Platelets | 0118 |
+| APS على apixaban | Warfarin | 0119 |
+| تأخر الحبل السري + أخوه نفس الشي + labs طبيعية | Factor XIII | 0120 |
+| PT و PTT طويلة + platelets طبيعية بمولود | Vitamin K deficiency | 0121 0122 |
+| أم عندها SLE + platelets واطية | Neonatal immune ← platelets + IVIG | 0123 0126 |
+| Platelets واطية + أم صحية | Alloimmune | 0124 |
+| مولود + aPTT طويل + mixing ما صحح | Maternal autoantibodies | 0125 |
+| Hemophilia A | Factor VIII | 0127 0147 |
+| ختان + aPTT طويل | Pressure dressing | 0128 |
+| ختان + PT و aPTT طويلة جدًا | Blood transfusion | 0129 |
+| الأب والأم الاثنين عندهم | Von Willebrand | 0130 |
+| خال الطفل | Hemophilia A | 0131 |
+| Unprovoked DVT بعد 3 شهور | Continue indefinitely | 0132 |
+| نقل دم + hypoxia | TRALI | 0133 0134 |
+| ألم مكان النقل + حرارة | Hemolytic reaction | 0135 |
+| Rash مع النقل | Antihistamine قبل | 0136 |
+| حرارة أثناء النقل | وقفي النقل | 0137 |
+| Warfarin + herbal + INR 4 | وقفي الـherbal وأعيدي INR | 0138 |
+| Sickle بدون heparin + platelets واطية | TTP | 0140 |
+| نفس القصة مع enoxaparin | HIT | 0141 |
+| HIT | وقفي heparin ← argatroban أو lepirudin | 0142 0143 0144 |
+| سفر طويل | تحرك | 0145 |
+| DIC بمولود | FFP + platelets | 0146 |
+| DVT + stroke قريب | IVC filter | 0148 |
+| بعد عملية + DVT | Enoxaparin | 0150 |
+| Massive PE | Thrombolysis | 0151 0152 |
+| CrCl أقل من 30 + BMI 40 أو أكثر | UFH 7500 كل 8 ساعات | 0154 |
+| DVT بدون سبب ومستقر | DOAC | 0155 |
+| Ventouse + تورم يعبر الـsutures + صدمة | Subgaleal ← دم + سوائل | 0156 |
+- [0139 0149 0153] المصدر ما حدد جواب ⚠
+== Immunodeficiency و leukemia و lymph nodes
+| الحالة | الجواب | Q |
+| ولد + infections + كل Ig ما تطلع + T طبيعي | X-linked (Bruton) agammaglobulinemia | 0157 0158 0159 |
+| XLA: العلاج | Immunoglobulin replacement | 0163 |
+| X-linked SCID أو Wiskott: العلاج | Bone marrow transplant | 0162 0164 |
+| Eczema + platelets صغيرة + infections | Wiskott-Aldrich | 0160 0161 |
+| Infections متكررة: أول فحص | Serum immunoglobulins | 0165 |
+| ALL + CNS | Intrathecal chemo | 0166 |
+| Leukemia بطفل | ALL ← chemotherapy | 0167 0168 |
+| Lymph nodes + B symptoms | Lymph node biopsy | 0169 0170 0171 0188 0191 |
+| تأكيد leukemia | Bone marrow | 0172 0174 0175 0180 0181 0183 0178 |
+| "Next" بس (مو confirm) | Blood film | 0173 0184 0182 0185 0176 |
+| نفس القصة و CBC بالخيارات | CBC | 0177 |
+| Coombs + و platelets واطية | Evans | 0179 |
+| Node 2 cm بدون أعراض | Follow-up 4–6 أسابيع | 0186 0187 0189 0190 |
+# Part 1: Nephrology و Rheumatology
+== الكلى
+| الحالة | الجواب | Q |
+| بعد التهاب حلق 3 أسابيع، أو impetigo | PSGN | 0195 0209 |
+| بعد حلق بـ3 أيام | IgA nephropathy | 0210 0196 |
+| PSGN: الـculture | Throat | 0197 |
+| C3 يرجع | 3–4 أسابيع (المصدر) | 0204 |
+| تورم حول العين + protein 3+ | Nephrotic | 0198 0199 |
+| GFR 28 | Stage 4 | 0200 |
+| ترجيع + ACE-I + AKI | Pre-renal | 0201 |
+| Amoxicillin + eosinophils | AIN | 0203 |
+| Urine pH عالي + acidosis + K واطي | Distal RTA (type 1) | 0205 0206 |
+| RTA مع K عالي | Type 4 | 0207 |
+| DM + CKD: BP | أقل من 125/70 (المصدر) | 0208 |
+| K واطي + alkalosis + renin و aldosterone واطيين | Liddle | 0211 |
+| على ACE أو ARB + CCB | أضيفي diuretic | 0212 0213 |
+| Bruit | CT kidney | 0214 |
+| DM + edema + كلى حجمها طبيعي | Diabetic nephropathy | 0216 |
+| CKD + PTH عالي | Hyperphosphatemia | 0217 |
+| Uremic neuropathy | Dialysis | 0218 |
+| Myeloma | Light chains | 0219 |
+| Breast cancer + QT قصير | Hypercalcemia | 0194 |
+| ADPKD | Transplant | 0193 |
+| ESRD + effusion + hypotension | Pericardiocentesis | 0202 |
+| حكة + creatinine 980 (المصدر) | Gouty arthritis | 0220 |
+- [0192 0215] المصدر ما حدد جواب ⚠
+== Rheumatology
+| الحالة | الجواب | Q |
+| Ulcers فم و genital + عين | Behçet | 0221 |
+| حرارة + ulcers + rash + protein | SLE | 0222 |
+| AS: وش نفحص بعد | العين (uveitis) | 0223 |
+| بعد chemo + cardiac arrest | Arrhythmia | 0224 |
+| DM + أصابع + ESR و RF طبيعية | Osteoarthritis | 0225 0260 0261 |
+| PIP و MCP + عيون ناشفة + SSA سلبي | RA | 0226 |
+| PIP و DIP + تشوه أو sausage digits | Psoriatic | 0227 0249 |
+| MTX + حرارة + ulcers | Neutropenia | 0228 |
+| Drug-induced lupus | Hydralazine | 0229 |
+| HSP + كلى | Expected (vasculitis) | 0230 |
+| HSP + بول سليم | Follow-up للكلى | 0231 |
+| Kawasaki: علامة خطر | ألم بطن + دم (intussusception) | 0232 |
+| زراعة كلى + لثة | Cyclosporin | 0233 |
+| حرارة يومية + rash سلموني | Systemic JIA ← methotrexate | 0234 0237 |
+| Arthritis ينتقل | Rheumatic fever | 0235 |
+| tTG + | Gluten-free | 0236 |
+| SLE + CNS | Cyclophosphamide | 0238 |
+| SLE: يقلل الـflares والأوعية | Hydroxychloroquine | 0239 0240 0270 |
+| SLE على HCQ + arthritis | Methotrexate | 0246 |
+| Uric عالي + ركبة | Gout | 0241 |
+| ركبة 7 أسابيع بدون أعراض عامة | Oligo JIA | 0242 |
+| RA erosions على MTX | Biologic (rituximab أو adalimumab أو infliximab) | 0244 0245 0256 |
+| Steroids ما خففها + ماتت | Hemorrhagic stroke | 0247 0248 |
+| Lupus + Raynaud + myositis | Anti-RNP | 0250 |
+| Activity | dsDNA | 0251 |
+| Lupus nephritis class I | ضبط الضغط | 0252 |
+| SLE + كلى | Biopsy | 0253 0254 0255 |
+| C3 و C4 واطية + كلى | Lupus nephritis | 0257 |
+| Heliotrope + ضعف | Juvenile dermatomyositis | 0258 |
+| Polymyositis | CK | 0273 |
+| RA + ركبة حارة + WBC 35000 | IV antibiotics | 0259 |
+| إجهاض متكرر + جلطة | Antiphospholipid antibodies | 0271 0272 |
+| Sjogren | Non-Hodgkin lymphoma | 0292 |
+| Rouleaux | Myeloma | 0293 |
+| Ca عالي شوي + ترجيع | IV saline | 0294 |
+| Sarcoid + steroids | Hypercalcemia | 0289 |
+| Hemoptysis + سمع + كلى | ANCA | 0290 |
+| Back pain بعد رياضة | NSAID + muscle relaxant | 0291 |
+== ألم المفاصل بالأطفال (Kocher)
+| الحالة | الجواب | Q |
+| ورك + effusion + يمشي + بدون علامات خطيرة | Toxic synovitis | 0262 0263 |
+| بعد gastroenteritis + بدون effusion | NSAIDs | 0264 0267 |
+| ركبة وحدة + effusion | Aspiration + culture | 0266 0268 |
+- Kocher (septic): حرارة أكثر من 38.5، ما يحمل وزن، ESR أكثر من 40، WBC أكثر من 12. كل ما زادت زاد الخطر
+- [0265 0269] المصدر ما حدد جواب ⚠
+== Pediatric HTN و diabetes
+| الحالة | الجواب | Q |
+| ضغط عالي بطفل أو مراهق سمين | Ambulatory BP | 0274 0280 0282 0285 |
+| نفس القصة بدون ABPM بالخيارات (المصدر) | Cortisol | 0281 |
+| + صداع وتعرق وخفقان | Catecholamines أو metanephrines | 0275 0276 0277 |
+| K واطي + alkalosis | Renin:aldosterone | 0278 0279 |
+| ضغط stage 1 بدون مضاعفات | Lifestyle | 0243 |
+| تاريخ عائلي | راقبي الضغط، رياضة وملح أقل | 0283 0284 |
+| T1DM: أول علامة كلى | Microalbuminuria | 0287 |
+| T2DM: فحص سنوي | Urine albumin:creatinine | 0288 |
+- [0286] المصدر ما حدد جواب ⚠
+== Tumor lysis syndrome
+| الحالة | الجواب | Q |
+| متى نرجع للـchemo | Uric أقل من 475 و creatinine أقل من 141 و pH 7 أو أكثر | 0295 0296 |
+| ضعف عضلات | Hyperkalemia | 0297 |
+| ألم عضلات أو QT طويل | Hypocalcemia | 0298 0299 |
+| Crystals | Sodium bicarbonate (المصدر) | 0300 |
+| بعد radiotherapy | Radiotherapy-induced TLS | 0301 |
+| مات قبل الـchemo أو بدون chemo | Spontaneous TLS | 0302 0316 0317 0318 |
+| بعد chemo + الأرقام | TLS | 0303 0305 0307 |
+| Burkitt أو ALL + كلى | Uric acid nephropathy | 0304 0306 |
+| Bulky + ما يبول + uric عالي | Rasburicase | 0308 0312 0314 |
+| Uric طبيعي + phosphate عالي | Sevelamer | 0313 |
+| Rasburicase مو موجود | Allopurinol | 0315 |
+| أول خطوة | IV fluids | 0310 0311 |
+- [0309] المصدر ما حدد جواب ⚠

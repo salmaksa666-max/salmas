@@ -21,15 +21,17 @@ QID = re.compile(r"\b\d{4}\b")
 PREFIX = os.environ.get("PREFIX", "GB-")
 
 items = {it["qid"]: it for it in json.load(open(ITEMS, encoding="utf-8"))}
-d = tempfile.mkdtemp()
-zipfile.ZipFile(DECK).extract("collection.anki21", d)
-c = sqlite3.connect(os.path.join(d, "collection.anki21"))
-names = [f["name"] for f in list(json.loads(c.execute("select models from col").fetchone()[0]).values())[0]["flds"]]
 OPTS = {}
-for (flds,) in c.execute("select flds from notes"):
-    f = dict(zip(names, flds.split("\x1f")))
-    OPTS[f["QNo"].split("-")[-1]] = [(k, re.sub(r"^[A-Z]\.\s*", "", html.unescape(html.unescape(re.sub(r"<[^>]+>", "", t)))).strip())
-                          for k, t in re.findall(r'data-letter="([A-Z])">(.*?)</div>', f.get("OriginalQuestionHTML", ""), re.S)]
+if DECK != "-":
+    d = tempfile.mkdtemp()
+    zipfile.ZipFile(DECK).extract("collection.anki21", d)
+    c = sqlite3.connect(os.path.join(d, "collection.anki21"))
+    names = [f["name"] for f in list(json.loads(c.execute("select models from col").fetchone()[0]).values())[0]["flds"]]
+    OPTS = {}
+    for (flds,) in c.execute("select flds from notes"):
+        f = dict(zip(names, flds.split("\x1f")))
+        OPTS[f["QNo"].split("-")[-1]] = [(k, re.sub(r"^[A-Z]\.\s*", "", html.unescape(html.unescape(re.sub(r"<[^>]+>", "", t)))).strip())
+                              for k, t in re.findall(r'data-letter="([A-Z])">(.*?)</div>', f.get("OriginalQuestionHTML", ""), re.S)]
 
 
 def bidi(t):
@@ -114,7 +116,7 @@ for sname, topics in secs:
             it = items[PREFIX + q]
             ans = it["ans"]
             o = ""
-            for k, t in OPTS.get(q, []):
+            for k, t in (it.get("opts") or OPTS.get(q, [])):
                 ok = re.match(rf"{k}[.)]", ans.strip())
                 o += f'<span class="{"ok" if ok else ""}">{"✔ " if ok else ""}{k}. {html.escape(t)}</span> '
             if not o or not re.match(r"[A-E][.)]", ans.strip()):
