@@ -1,0 +1,258 @@
+@@ asthma_severity | life-threatening|acute severe asthma|severe asthma exacerbation|asthma attack|magnesium sulfate
+## 📋 Acute asthma: درجات الشدة
+| الدرجة | العلامات |
+| Moderate | PEF 50–75%، يتكلم جمل كاملة |
+| Acute severe (أي وحدة) | PEF 33–50%، RR 25 أو أكثر، HR 110 أو أكثر، ما يكمل جملة |
+| Life-threatening (أي وحدة) | PEF أقل من 33%، SpO2 أقل من 92%، PaO2 أقل من 8 kPa، PaCO2 طبيعي، silent chest، cyanosis، ضعف تنفس، arrhythmia، hypotension، تعب، confusion |
+| Near-fatal | PaCO2 عالي أو يحتاج ventilation |
+- العلاج بالترتيب: O2 ← salbutamol + ipratropium nebs ← steroids (prednisolone أو hydrocortisone) ← IV magnesium ← ICU و intubation
+- PaCO2 طبيعي أو عالي بنوبة asthma = تعبان، مو تحسن
+@@ asthma_steps | asthma|wheez|salbutamol|beclometasone|inhaled cortico|cough-variant
+## 📋 Asthma المزمن: درج العلاج
+> SABA بس ← low-dose ICS ← ICS + LABA ← زيادة ICS أو LTRA ← specialist (biologics، oral steroid)
+- يستخدم SABA أكثر من مرتين بالأسبوع أو يصحى بالليل ← أضيفي ICS
+- على ICS وما انضبط ← أضيفي LABA (salmeterol). لا تعطين LABA لحاله أبدًا
+- قبل أي زيادة ← شيكي الـtechnique والالتزام والـtriggers
+- Exercise-induced ← salbutamol قبل الرياضة
+- Occupational ← spirometry أو PEF وقت الشغل وبعيد عنه
+- Aspirin + nasal polyps + asthma = Samter (AERD) ← وقفي NSAIDs + montelukast
+- Cough-variant asthma ما تحسن ← فكري GERD (PPI) أو postnasal drip
+- Asthma + allergic rhinitis ← montelukast مفيد للاثنين
+@@ copd | copd|chronic bronchitis|tiotropium|cor pulmonale|emphysema
+## 📋 COPD
+- التشخيص: spirometry، FEV1/FVC أقل من 0.7 بعد bronchodilator
+- Chronic bronchitis = كحة مع بلغم 3 شهور بالسنة لسنتين ورا بعض
+| الحالة | العلاج |
+| أول شي دايمًا | وقف التدخين |
+| Exacerbation | nebulized salbutamol + ipratropium، steroids، antibiotics لو البلغم تغير |
+| Exacerbation متكررة على LAMA | أضيفي ICS + LABA |
+| CO2 عالي + نعسان على O2 | قللي الأكسجين (88–92%) ← NIV |
+| Gag ضعيف أو وعي نازل | intubate |
+- يطول العمر: وقف التدخين + long-term O2
+- LTOT: PaO2 7.3 kPa أو أقل (55 mmHg)، أو 7.3–8 مع cor pulmonale أو polycythemia
+@@ pneumonia | pneumonia|consolidation|purulent sputum|productive cough|empyema|pleural fluid|curb
+## 📋 Pneumonia
+| الحالة | العلاج |
+| Outpatient بدون أمراض | amoxicillin أو macrolide (azithromycin) |
+| Outpatient + أمراض (DM، قلب…) | beta-lactam (cefuroxime) + macrolide، أو respiratory quinolone |
+| Inpatient | ceftriaxone + azithromycin |
+| ICU | ceftriaxone + azithromycin أو moxifloxacin، و vancomycin لو MRSA |
+- CURB-65: confusion، urea أكثر من 7، RR 30 أو أكثر، BP أقل من 90/60، العمر 65 أو أكثر
+- Parapneumonic effusion يحتاج chest tube لو: pH أقل من 7.2، glucose أقل من 60، LDH عالي، pus أو Gram stain إيجابي
+- Pneumonia ما تتحسن أو ترجع بنفس المكان ← فكري cancer (CT أو bronchoscopy)
+- بعد pneumonia بأيام: SOB شديد + bilateral infiltrates ← ARDS
+@@ sepsis | septic shock|sepsis|vasopressor|map\b|mean arterial|hypotension
+## 📋 Sepsis و septic shock
+- Septic shock = يحتاج vasopressor عشان MAP 65 أو أكثر، و lactate أكثر من 2 بعد السوائل
+- العلاج: سوائل 30 mL/kg ← cultures ← antibiotics خلال ساعة ← norepinephrine
+- Hypotension بـpneumonia ← 1000 mL saline bolus أول شي
+- Pneumonia + shock + AST و ALT بالآلاف ← ischemic hepatitis
+@@ pleural | pleural effusion|exudative|light's|ldh
+## 📋 Pleural effusion: Light's criteria
+- Exudate لو وحدة صح: protein ratio أكثر من 0.5، LDH ratio أكثر من 0.6، LDH أكثر من ثلثين الـULN
+| Transudate | Exudate |
+| Heart failure (أشهر شي)، cirrhosis، nephrotic | Pneumonia، TB، cancer، PE، RA أو SLE |
+@@ nodule | nodule|hilar|bronchogenic|lung carcinoma|lung cancer|hemoptysis
+## 📋 Pulmonary nodule و lung cancer
+| النودول | وش أسوي |
+| ثابت سنتين أو أكثر، أو calcified | ما يحتاج متابعة |
+| صغير وحوافه حادة | CT متابعة 3–6 شهور |
+| كبر بالمتابعة أو حوافه spiculated | biopsy أو thoracic surgery |
+- مدخن + hemoptysis + نقص وزن ← lung cancer ← CT chest with contrast
+- قبل العملية ← pulmonary function tests
+- Bilateral hilar lymphadenopathy بدون أعراض ← sarcoidosis ← observe
+@@ ild_osa | clubbing|basal crackles|plumber|asbestos|somnolence|sleep study|snoring|obese|methacholine
+## 📋 ILD و OSA والكحة المزمنة
+- Clubbing + basal fine crackles + كحة ناشفة ← ILD ← HRCT (أعلى قيمة تشخيصية)
+- سمين + نعسان بالنهار + شخير ← OSA ← sleep study (polysomnography)
+- كحة مزمنة + spirometry طبيعي ← methacholine challenge (cough-variant asthma)
+- أسباب الكحة المزمنة الثلاثة: asthma، GERD، postnasal drip، وأي ACE inhibitor
+@@ tb | tubercul|\btb\b|ppd|mantoux|ziehl|isoniazid|airborne
+## 📋 TB
+| الحالة | الجواب |
+| أعلى قيمة تشخيصية بالبلغم | Ziehl-Neelsen (AFB) |
+| Isolation | standard + airborne (negative pressure، N95) |
+| Latent (PPD إيجابي + CXR طبيعي) | isoniazid + pyridoxine 6–9 شهور |
+| Active | RIPE شهرين ثم RI أربع شهور |
+| TB meningitis | RIPE + dexamethasone |
+| HIV + TB جديد | ابدئي TB أول، ARV بعد أسبوعين (IRIS) |
+- PPD إيجابي: 5 mm (HIV، contact)، 10 mm (healthcare، مهاجر)، 15 mm (ما عنده شي)
+- Confusion + حرارة أسابيع + من الهند ← TB meningitis ← ابدئي RIPE
+@@ brucella | brucell|unpasteurized|back pain|sacroiliac|spondyl
+## 📋 Brucellosis و ألم الظهر
+- حليب غير مبستر + حرارة + تعرق + ألم ظهر أو مفاصل ← brucella serology (titers)
+- العلاج: doxycycline + rifampin (أقل من 8 سنين: TMP-SMX + rifampin)
+- ألم ظهر التهابي بشاب + صلابة الصباح ساعة + يتحسن بالحركة ← ankylosing spondylitis ← MRI sacroiliac
+- علامات الألم الالتهابي: أقل من 40، بداية تدريجية، يتحسن بالحركة، يصحى منه بالليل
+@@ hiv_sti | hiv|pneumocystis|urethral discharge|gonorrh|chlamydia|sexual
+## 📋 HIV و STIs
+- HIV + SOB + cyanosis + bilateral infiltrates ← Pneumocystis jirovecii ← TMP-SMX (و steroids لو PaO2 واطي)
+- Urethritis: gonorrhea ← ceftriaxone. Chlamydia ← azithromycin أو doxycycline
+- تشخيص gonorrhea ← urethral swab أو NAAT
+@@ meningitis | meningitis|neck stiffness|photosensitiv|lumbar puncture|makkah|worst headache|sudden onset of a global
+## 📋 Meningitis و SAH
+- اشتباه meningitis ← ceftriaxone + vancomycin (و ampicillin لو فوق 50) + dexamethasone، ولا تأخرين العلاج للـLP
+- رجع من مكة + حرارة + صداع ← meningococcus
+- Purpuric rash + حرارة ← meningococcemia
+- صداع مفاجئ شديد ← CT أول. CT طبيعي ← LP (xanthochromia)
+@@ neutropenia | neutropeni|chemotherapy|post-chemo|bone marrow transplant|aspergill|antifungal|leukemia
+## 📋 Febrile neutropenia
+- حرارة 38.3 مرة أو 38 لساعة + ANC أقل من 500 ← IV antibiotics بالمستشفى فورًا
+- أول دواء: antipseudomonal (meropenem أو pip-tazo أو cefepime). مع shock ← meropenem
+- ما تحسن 4–7 أيام ← antifungal. Aspergillus بعد BMT ← voriconazole
+- Candida بالـurine أو sputum بمريض مو neutropenic = colonization ← no antifungal
+@@ uti | dysuria|burning micturition|pyeloneph|nitrofurantoin|suprapubic|flank pain
+## 📋 UTI
+| الحالة | العلاج |
+| Cystitis بسيطة | nitrofurantoin 5 أيام (أو fosfomycin) |
+| Dipstick إيجابي + أعراض واضحة | empiric بدون culture |
+| Pyelonephritis خفيف | outpatient ciprofloxacin |
+| Pyelonephritis ما تحسن 48–72 ساعة | kidney ultrasound (abscess أو obstruction) |
+@@ acs | chest pain|retrosternal|stemi|left bundle|thrombolytic|pci|coronary|angina|ischemic heart
+## 📋 ACS
+- STEMI أو LBBB جديد ← PCI خلال 90–120 دقيقة. ما فيه PCI قريب ← thrombolysis خلال 12 ساعة
+- لا تنتظرين التروبونين مع STEMI
+- العلاج: aspirin + P2Y12 + anticoagulant + nitrate + beta blocker، و statin
+- Modifiable risk factors: تدخين، HTN، DM، lipids، سمنة. Non-modifiable: العمر، الجنس، الوراثة
+- يبي يوقف تدخين + angina ← nicotine replacement (varenicline مع حذر)
+@@ hf_nyha | nyha|heart failure|ejection fraction|furosemide|pulmonary edema
+## 📋 Heart failure و NYHA
+| NYHA | الوصف |
+| I | ما فيه قيود |
+| II | قيود بسيطة مع النشاط العادي |
+| III | قيود واضحة، مرتاح بس وهو جالس |
+| IV | أعراض وهو مرتاح |
+- Pulmonary edema + وعي نازل ← furosemide IV
+- Effusion transudate يمين ← heart failure
+@@ arrhythmia | palpitation|svt|cardioversion|tachycardi|atrial fibrillation
+## 📋 Tachyarrhythmia
+- Unstable (hypotension، confusion، chest pain، HF) ← synchronized cardioversion فورًا
+- Stable SVT ← vagal maneuvers ← adenosine
+- AF: rate (beta blocker) + anticoagulation حسب CHA2DS2-VASc. MS + AF ← warfarin
+@@ pe_dvt | pulmonary embolism|dvt|deep ve|leg swelling|enoxaparin|heparin|warfarin|inr|thrombolysis|anticoagul|hemoptysis
+## 📋 DVT و PE
+| الحالة | العلاج |
+| اشتباه PE | CT pulmonary angiography |
+| PE أو DVT عادي | LMWH (enoxaparin) أو DOAC |
+| Massive PE (hypotension) | thrombolysis |
+| DVT كبير أو كلى ضعيفة أو ممكن عملية | unfractionated heparin |
+| DVT ثاني مرة أو بدون سبب | long-term anticoagulation |
+| Cancer | LMWH |
+- INR عالي بدون نزيف ← وقفي warfarin وأعيدي INR. نزيف ← vitamin K + PCC
+- INR: AF و DVT ← 2–3. Mechanical mitral ← 2.5–3.5
+@@ htn | hypertension|blood pressure|antihypertensive|ramipril|lisinopril|irbesartan|ambulatory
+## 📋 Hypertension
+| المريض | أول دواء |
+| DM أو CKD أو proteinuria | ACE-I (ramipril) أو ARB |
+| أسود أو كبير | CCB أو thiazide |
+| ما انضبط على وحدة | ACE-I + CCB (lisinopril + amlodipine) |
+- قراءة عالية بالعيادة بدون أعراض ← ambulatory BP قبل الدواء
+- ARBs تنتهي بـ-sartan (irbesartan، losartan)
+- Scleroderma renal crisis ← ACE-I حتى مع AKI
+@@ stroke | stroke|weakness|tia|hemiplegi|unable to walk or speak|aca|papilledema|carotid
+## 📋 Stroke
+- TIA ← carotid duplex أول
+- Ischemic stroke أقل من 4.5 ساعة + CT ما فيه نزيف ← rtPA (wake-up stroke: من آخر مرة شافوه طبيعي)
+- ACA ← الرجل أكثر + سلوك غريب + incontinence. MCA ← الوجه والذراع + aphasia
+- Stroke كبير + papilledema (ضغط عالي) ← craniotomy و decompression
+@@ seizure | seizure|epilep|glioblastoma
+## 📋 Seizures
+- أول seizure ← CT head (و glucose و electrolytes)
+- بنت تبي تحمل + epilepsy ما انضبطت ← راجعي الأدوية (لا valproate) + folic acid
+@@ dementia_psych | forget|memory|suicide|depress|postpartum|delivered her first child|neuroleptic|bromocriptine|refusing food
+## 📋 الذاكرة والنفسية
+- ينسى الأسماء والأرقام بس شغله وحياته طبيعية ← benign forgetfulness. لو تأثرت حياته ← dementia
+- Suicide risk factors: ذكر، كبير، عزلة اجتماعية، محاولة قبل، أدوية أو سلاح، إدمان
+- Postpartum depression (أكثر من أسبوعين) ← SSRI. Baby blues (أقل من أسبوعين) ← طمني
+- حرارة + rigidity + confusion على antipsychotic ← NMS ← وقفي الدواء + bromocriptine أو dantrolene
+@@ rheum_sle | lupus|sle\b|anti-|antibod|ribonucleo|raynaud
+## 📋 SLE و الأجسام المضادة
+| الجسم المضاد | المرض |
+| ANA | screening (حساس) |
+| Anti-dsDNA و anti-Smith | SLE (specific). dsDNA يمشي مع الكلى |
+| Anti-RNP | mixed connective tissue disease |
+| Anti-histone | drug-induced lupus |
+| Anti-Ro و La | Sjogren، neonatal lupus |
+| Anti-centromere | limited scleroderma (CREST) |
+| Anti-Scl-70 | diffuse scleroderma |
+| Anti-CCP | RA (specific) |
+- Lupus nephritis: proteinuria أكثر من 0.5 g ← biopsy. Class I أو II ← ضغط بس. III أو IV ← steroids + cyclophosphamide أو MMF
+- Neuropsychiatric lupus ← steroids + cyclophosphamide
+- SLE على steroids + ألم ورك ← avascular necrosis
+@@ rheum_ra | rheumatoid|methotrexate|adalimumab|biologic|synovial|monoarthritis|knee|gout|uric|crystal|psoria
+## 📋 RA و Gout و المفصل الحار
+- RA جديد ← methotrexate (± hydroxychloroquine + steroid جسر). ما انضبط ← biologic (anti-TNF)
+- على biologic + infection ← وقفي الدواء + antibiotics. قبل anti-TNF ← افحصي TB
+- مفصل واحد حار + حرارة ← arthrocentesis أول (septic arthritis)
+| الكريستال | الشكل |
+| Gout (urate) | needle، negatively birefringent |
+| Pseudogout (CPPD) | rhomboid، positively birefringent |
+- أدوية ترفع uric acid: loop و thiazide diuretics، aspirin جرعة قليلة، pyrazinamide
+- Osteoarthritis ← تشخيص clinical، ما يحتاج فحص
+@@ liver | cirrho|ascites|varice|hepatitis|liver|child|octreotide|nafld|paracentesis|saag|acetaminophen
+## 📋 الكبد
+- Varices تنزف ← octreotide + antibiotics + endoscopy (band ligation). الوقاية بعدها ← non-selective beta blocker (propranolol)
+- Cirrhosis ← ultrasound كل 6 شهور (HCC) حتى بعد علاج HCV
+- Ascites: SAAG أكثر من 1.1 = portal HTN. العلاج: spironolactone + furosemide. tense ← therapeutic paracentesis
+- Child-Pugh: bilirubin، albumin، INR، ascites، encephalopathy ← A (5–6)، B (7–9)، C (10–15)
+- سكري + سمين + ALT عالي شوي ← NAFLD
+- Paracetamol overdose ← NAC (و charcoal خلال ساعة إلى 4)
+@@ gi | crohn|colitis|inflammatory bowel|bloody diarrhea|dysphagia|endoscopy|fecal occult|colonoscopy
+## 📋 الجهاز الهضمي
+| Crohn | UC |
+| Non-caseating granuloma، transmural، skip lesions | crypt abscess، mucosa، متصل من الـrectum |
+- إسهال بدم أسابيع ← colonoscopy
+- Dysphagia جديد على GERD قديم ← endoscopy (Barrett أو stricture أو cancer)
+- رجل كبير + IDA ← ابحثي عن نزيف GI (FOB أو colonoscopy)
+@@ kidney_aki | acute kidney|aki|rhabdo|creatinine|bun|azotemia|eosinophiluria|cholesterol emboli|dark urine|interstitial nephritis|military
+## 📋 AKI
+| النوع | المفتاح |
+| Pre-renal | جفاف، BUN/Cr أكثر من 20، FENa أقل من 1% |
+| ATN | muddy brown casts، FENa أكثر من 2% |
+| AIN | دواء جديد (antibiotics، NSAIDs، PPI) + rash + eosinophils |
+| Cholesterol emboli | بعد catheterization + livedo + eosinophiluria |
+| GN | RBC casts + ضغط + تورم |
+- Rhabdo: dipstick دم إيجابي بدون RBCs + CK عالي ← hydration
+@@ ckd | ckd|chronic kidney|hemodialysis|erythropoietin|renal failure|end-stage renal|calcitriol|hyperkal|peaked|calcium gluconate|tumor lysis|hyponat|siadh|myelinolysis
+## 📋 CKD والأملاح
+- أشهر سبب وفاة بالـdialysis ← cardiovascular disease
+- Anemia بـCKD ← iron studies أول ← عوضي الحديد ← erythropoietin
+- CKD-MBD: phosphate عالي + calcium واطي + PTH عالي ← phosphate binder + calcitriol
+- Hyperkalemia مع ECG changes ← calcium gluconate أول (يحمي القلب) ← insulin + dextrose ← salbutamol ← dialysis
+- ECG بالترتيب: peaked T ← PR طويل ← QRS عريض ← sine wave
+- Tumor lysis: K و phosphate و uric acid عالية، calcium واطي
+- SIADH: Na واطي + urine osm عالي + euvolemic (tumors، CNS، أدوية)
+- تصحيح Na بسرعة ← central pontine myelinolysis (لا تزيدين أكثر من 8–10 باليوم)
+@@ glomerular | proteinuria|nephrotic|glomerulo|iga nephropathy|kidney biopsy|edema up to
+## 📋 Glomerular
+| المرض | المفتاح |
+| IgA nephropathy | hematuria بعد URTI بـ1–3 أيام |
+| Post-strep GN | بعد التهاب حلق بـ2–3 أسابيع، C3 واطي |
+| Nephrotic | proteinuria أكثر من 3.5 g + albumin واطي + edema + lipids |
+- أدق فحص للتشخيص ← kidney biopsy
+@@ dm | diabet|insulin|hypoglyc|microalbumin|albuminuria
+## 📋 السكري
+- Hypoglycemia وهو صاحي ← عصير أو سكر بالفم. ما يقدر يبلع ← IV dextrose أو glucagon IM
+- Microalbuminuria بالسكري ← ACE-I أو ARB حتى لو الضغط طبيعي
+- سكري + ضغط ← ACE-I أول خيار
+@@ thyroid | thyroid|tsh|goiter|hashimoto|thyroxine|weight gain|heat intolerance|lethargy
+## 📋 الغدة الدرقية
+- أي شك بالغدة أو nodule ← TSH أول فحص
+| الحالة | المفتاح |
+| Hashimoto | تعب + إمساك + TSH عالي + anti-TPO |
+| Graves | diffuse goiter + exophthalmos + uptake متوزع |
+| Toxic nodular | عقدة + hyperthyroid + hot nodule |
+| Subacute (de Quervain) | بعد URTI + ألم بالرقبة + حرارة + ESR عالي + uptake واطي |
+- Dyslipidemia مع hypothyroid ← عالجي الغدة أول (thyroxine)
+@@ anemia | anemia|iron|ferritin|hemoglobin electrophoresis|thalass|hemoly|pallor|ice crav|pica|sickle
+## 📋 Anemia
+| الحالة | الجواب |
+| IDA | oral iron. ما استجاب مع celiac أو malabsorption ← IV iron |
+| أهل أقارب + نقل دم + تضخم طحال | Hb electrophoresis (thalassemia) |
+| Autoimmune hemolytic (Coombs إيجابي) | corticosteroids |
+| رجل أو امرأة بعد سن اليأس + IDA | ابحثي عن نزيف GI |
+| CKD | iron studies ← erythropoietin |
+@@ zoster_vacc | zoster|vesicle|shingles|vaccine|papilloma
+## 📋 Zoster و التطعيمات
+- Shingles بتوزيع dermatome ← تشخيص clinical، ما يحتاج فحص
+- HPV vaccine: الجرعة الثانية بعد 1–2 شهر، والثالثة بعد 6 شهور. تأخرت ← كملي بدون إعادة

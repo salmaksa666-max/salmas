@@ -1,0 +1,913 @@
+# Rheumatology
+== SLE & lupus nephritis
+q: A 30-year-old woman with systemic lupus erythematosus is evaluated for right hip pain that started 3 weeks ago and occurs at night and with walking. Her current medications are azathioprine, hydroxychloroquine, prednisolone, and lisinopril for the last 5 years. Her examination was normal except for pain on internal rotation of the right hip. Laboratory tests including pelvic and left hip radiographs were normal. Which of the following is the most likely cause of hip pain? | C. Avascular necrosis affecting right hip @GB-0004
+q: A 40-year-old woman presents with pain and swelling of the hands with early morning stiffness for 3 months. She has photosensitivity, hair loss, difficulty climbing stairs, and Raynaud's phenomenon. Examination reveals active arthritis at the second and third proximal interphalangeal joints, malar rash, and healed ulcers at the tip of the second finger. Proximal muscle strength is 3/5 (see lab results). Antinuclear antibody (ANA titer 1: 2540) Which of the following antibodies will most likely confirm the diagnosis? | B. Anti-ribonucleoprotein (RNP) @GB-0041
+q: A 28-year-old woman with active neuropsychiatric lupus based on clinical manifestations and her workups. Which of the following is the most appropriate first-line therapy? | A. Corticosteroids and cyclophosphamide @GB-0042
+q: An 18-year-old man is evaluated because of acute kidney injury 3 days after an upper respiratory tract infection. Examination reveals lower limb pitting edema up to the knee levels. His laboratory investigations were normal 3 days ago but are repeated today (see lab results). Which of the following is the most likely diagnosis? | A. IgA nephropathy @GB-0049
+q: A 34-year-old woman, a known case of SLE on hydroxychloroquine, came to the clinic for a routine checkup. She is asymptomatic with an unremarkable clinical examination. Urine analysis and her blood tests are done. She underwent renal biopsy, which revealed Class I (minimal change) lupus nephritis (see lab results). Which of the following is the most appropriate initial management? | D. Control of blood pressure @GB-0054
+q: A 38-year-old woman known to have systemic lupus erythematosus (SLE) presents for regular follow-up. She is feeling unwell. Examination reveals multiple joint swelling and oral ulcer. Her 24-hour urine collection showed proteinuria of 1.5 g/24h (see lab results). Which of the following tests will confirm her kidney disease? | B. Kidney biopsy @GB-0179
+q: A 30-year-old woman with stable systemic lupus erythematosus presents to the clinic with active polyarthritis for 1 week. Which of the following is the most appropriate management? | A. Prednisolone and methotrexate @GB-0200
+idea:
+- [[0]] 🔑 pain on internal rotation of the right hip + prednisolone + at night and with walking → Avascular necrosis affecting right hip
+- 🔁 لو fever + مفصل ساخن ← Septic arthritis. ولو X-ray يبين تضيق مفصل ← Osteoarthritis.
+- [[1]] 🔑 difficulty climbing stairs + Raynaud's phenomenon + malar rash → Anti-ribonucleoprotein (RNP)
+- 🔁 لو glomerulonephritis ← anti-dsDNA/Smith (SLE). لو erosive arthritis + RF ← anti-CCP (RA).
+- [[2]] 🔑 neuropsychiatric lupus + first-line therapy + active → Corticosteroids and cyclophosphamide
+- 🔁 لو mild ← steroids بس. لو antiphospholipid thrombosis ← anticoagulation.
+- [[3]] 🔑 3 days after an upper respiratory tract infection + acute kidney injury + lower limb pitting edema → IgA nephropathy
+- 🔁 لو بعد ٢–٣ أسابيع من الحلق/الجلد ← Post-infectious GN. بعد ١–٣ أيام ← IgA nephropathy.
+- [[4]] 🔑 Class I (minimal change) lupus nephritis + asymptomatic + Urine analysis and her blood tests are done → Control of blood pressure
+- 🔁 Class III/IV ← Pulse steroid + cyclophosphamide/MMF. Class I–II خفيف ← BP control.
+- [[5]] 🔑 proteinuria of 1.5 g/24h + systemic lupus erythematosus + multiple joint swelling and oral ulcer → Kidney biopsy
+- 🔁 Proteinuria أكثر من ٠٫٥ g ← Kidney biopsy يحدد class ويقرر العلاج.
+- [[6]] 🔑 stable systemic lupus erythematosus + active polyarthritis for 1 week + most appropriate management → Prednisolone and methotrexate
+- 🔁 لو kidney/CNS involvement ← Cyclophosphamide/MMF. مفاصل بس ← Steroids + Methotrexate.
+## 📋 SLE و الأجسام المضادة
+| الجسم المضاد | المرض |
+| ANA | screening (حساس) |
+| Anti-dsDNA و anti-Smith | SLE (specific). dsDNA يمشي مع الكلى |
+| Anti-RNP | mixed connective tissue disease |
+| Anti-histone | drug-induced lupus |
+| Anti-Ro و La | Sjogren، neonatal lupus |
+| Anti-centromere | limited scleroderma (CREST) |
+| Anti-Scl-70 | diffuse scleroderma |
+| Anti-CCP | RA (specific) |
+- Lupus nephritis: proteinuria أكثر من 0.5 g ← biopsy. Class I أو II ← ضغط بس. III أو IV ← steroids + cyclophosphamide أو MMF
+- Neuropsychiatric lupus ← steroids + cyclophosphamide
+- SLE على steroids + ألم ورك ← avascular necrosis
+## 📋 Glomerular
+| المرض | المفتاح |
+| IgA nephropathy | hematuria بعد URTI بـ1–3 أيام |
+| Post-strep GN | بعد التهاب حلق بـ2–3 أسابيع، C3 واطي |
+| Nephrotic | proteinuria أكثر من 3.5 g + albumin واطي + edema + lipids |
+- أدق فحص للتشخيص ← kidney biopsy
+== Rheumatoid arthritis
+q: A 50-year-old man is complaining of pain affecting the wrist joints bilaterally, second and third proximal interphalangeal joints, and right knee joint for the last 4 months. His examination revealed active arthritis at both wrists and second and third proximal interphalangeal joints (see lab results). Which of the following is the most appropriate treatment? | D. Methotrexate, hydroxychloroquine, and prednisone @GB-0003
+q: A 52-year-old man with rheumatoid arthritis for 12 years. His current treatment consists of methotrexate 15 mg weekly and adalimumab 40 mg/2 weeks. He presented to the clinic complaining of fever and shortness of breath for 1 week. His chest examination revealed coarse crackles over the lower part of the right lung (see lab results). Which of the following is the most appropriate action to be taken on this visit? | C. Hold his current treatment and start antibiotics @GB-0006
+q: A 33-year-old woman with rheumatoid arthritis for 3 years is evaluated in the Emergency Department with a 3-day history of pain and swelling of the left knee and low-grade fever. There was no history of trauma. Her medications are prednisone, methotrexate, and etanercept. Joints examination reveals a swollen and tender left knee, and mild synovitis is present on the third proximal interphalangeal joint bilaterally. Which of the following is the most appropriate initial management? | B. Arthrocentesis of the left knee @GB-0040
+q: A 35-year-old man is evaluated during a follow-up visit. He is a known case of rheumatoid arthritis that is well controlled with prednisone 15 mg and hydroxychloroquine 400 mg daily. His physical examinations are unremarkable (see lab results). Which of the following is the most appropriate management? | A. Taper prednisone and start methotrexate @GB-0043
+q: A 35-year-old woman presents to the Emergency Department with fever and shortness of breath for 2 days. She is a known rheumatoid arthritis patient on hydroxychloroquine 400 mg daily. Examination reveals crepitations at the right lower lung. Renal and liver function are normal. She was treated with cefuroxime with resultant significant improvement. However, her renal function is deteriorating (see lab results). Which of the following is the most likely cause of kidney function deterioration? | B. Acute interstitial nephritis @GB-0048
+q: A 45-year-old woman, a smoker for 18 years, presented with exertional shortness of breath and a chronic cough for 5 months. She is also known to have long-standing rheumatoid arthritis. Chest examination revealed increased AP diameter with hyperresonance all over the chest and scattered crackles (see report). Pulmonary function test: Increase in total lung capacity and residual volume. FEV1 60% with no change post-bronchodilator. Which of the following is the most likely diagnosis? | B. Emphysema @GB-0078
+q: A 48-year-old woman with rheumatoid arthritis presents to the clinic with a 2-week history of joint pain and increased morning stiffness lasting almost 45 minutes. Her current medications include prednisolone 5 mg daily and methotrexate 15 mg weekly. Her examination reveals multiple swollen and tender joints (see lab results). Which of the following is the most appropriate treatment to be added? | D. Biologic agent @GB-0172
+q: A 32-year-old woman presents to the clinic with a 3-month history of lower back pain associated with morning stiffness lasting almost 1 hour, as well as joint pain affecting both knees and ankles bilaterally. She denied any history of skin rash or mucosal ulcerations. No history of fever. Clinical examination reveals limited lumbar spine movements and active arthritis at both knees bilaterally. She also has tenderness over the Achilles tendon (see lab results). Which of the following is the most likely diagnosis? | C. Ankylosing spondylitis @GB-0190
+idea:
+- [[0]] 🔑 second and third proximal interphalangeal joints + active arthritis at both wrists + right knee joint → Methotrexate, hydroxychloroquine, and prednisone
+- 🔁 لو حامل ← لا Methotrexate. ولو ما استجاب بعد ٣ شهور ← أضيفي biologic.
+- [[1]] 🔑 methotrexate 15 mg weekly + adalimumab 40 mg/2 weeks + fever and shortness of breath for 1 week → Hold his current treatment and start antibiotics
+- 🔁 لو ما كان على immunosuppressants ← antibiotics بس بدون hold. لو شك TB على biologic ← screen TB.
+- [[2]] 🔑 swelling of the left knee + methotrexate, and etanercept + low-grade fever → Arthrocentesis of the left knee
+- 🔁 لو fever عالي + immunosuppressed ← IV antibiotics بعد aspiration.
+- [[3]] 🔑 prednisone 15 mg + well controlled + hydroxychloroquine 400 mg → Taper prednisone and start methotrexate
+- 🔁 لو already على methotrexate ← كمّلي. لو حامل ← hydroxychloroquine + sulfasalazine بدل methotrexate.
+- [[4]] 🔑 treated with cefuroxime + her renal function is deteriorating + significant improvement → Acute interstitial nephritis
+- 🔁 لو hypotension/dehydration ← Prerenal. لو RBC casts ← GN. دواء جديد + rash/eosinophilia ← AIN.
+- [[5]] 🔑 Increase in total lung capacity and residual volume + no change post-bronchodilator + increased AP diameter with hyperresonance → Emphysema
+- 🔁 لو TLC واطي (restrictive) ← Fibrosis. لو reversibility واضح ← Asthma.
+- [[6]] 🔑 prednisolone 5 mg daily and methotrexate 15 mg weekly + multiple swollen and tender joints + 2-week history of joint pain → Biologic agent
+- 🔁 فشل methotrexate ← أضيفي Biologic (anti-TNF). NSAID للأعراض بس.
+- [[7]] 🔑 tenderness over the Achilles tendon + limited lumbar spine movements + morning stiffness lasting almost 1 hour → Ankylosing spondylitis
+- 🔁 لو urethritis + conjunctivitis ← Reactive arthritis. لو مفاصل صغيرة symmetrical ← RA.
+## 📋 RA و Gout و المفصل الحار
+- RA جديد ← methotrexate (± hydroxychloroquine + steroid جسر). ما انضبط ← biologic (anti-TNF)
+- على biologic + infection ← وقفي الدواء + antibiotics. قبل anti-TNF ← افحصي TB
+- مفصل واحد حار + حرارة ← arthrocentesis أول (septic arthritis)
+| الكريستال | الشكل |
+| Gout (urate) | needle، negatively birefringent |
+| Pseudogout (CPPD) | rhomboid، positively birefringent |
+- أدوية ترفع uric acid: loop و thiazide diuretics، aspirin جرعة قليلة، pyrazinamide
+- Osteoarthritis ← تشخيص clinical، ما يحتاج فحص
+== Gout & pseudogout
+q: A 40-year-old man with a history of recurrent painful attacks affecting the right big toe, was diagnosed with gout and started on allopurinol. He is also a known case of psoriasis for several years. He presented to the clinic with recurrent joint pain affecting the right big toe, left ankle, and bilateral knees. He is using allopurinol regularly as prescribed but has no improvement in his joint pain. Examinations revealed he has active arthritis at the left ankle and knee joints bilaterally (see lab results). Which of the following is the most likely cause for his joint pain? | C. Psoriatic arthritis @GB-0001
+q: A 30-year-old man presented to the Emergency Department with an acute monoarthritis where joint aspiration was performed. Based on the presence of crystals in the synovial fluid, he was diagnosed with gout. Which of the following is the most likely type of the crystals seen? | A. Needle-shaped, negatively birefringent @GB-0007
+q: A 60-year-old man known to have systemic hypertension, gout, and dyslipidemia presented to the Emergency Room 5 days ago with signs of heart failure and was diagnosed with congestive heart failure and new-onset diabetes mellitus. He was stabilized and discharged on Lasix, aspirin, Plavix, and metformin. Yesterday, he came to the ER with severe pain and redness in the first metatarsophalangeal joint. Examination confirms tenderness and swelling of that joint. Which of the following medications has most likely caused this new complaint? | A. Lasix @GB-0167
+idea:
+- [[0]] 🔑 no improvement in his joint pain + psoriasis + allopurinol regularly → Psoriatic arthritis
+- 🔁 لو ما كان عنده psoriasis ← فكري gout resistant (adherence/dose). ولو needle crystals + uric عالي ← gout.
+- [[1]] 🔑 crystals in the synovial fluid + acute monoarthritis + gout → Needle-shaped, negatively birefringent
+- 🔁 لو rhomboid positive birefringent ← Pseudogout (CPPD).
+- [[2]] 🔑 Lasix + severe pain and redness in the first metatarsophalangeal joint + gout → Lasix
+- 🔁 Loop/thiazide ← ترفع uric acid ← Gout flare.
+== Spondyloarthritis
+q: A 28-year-old man presents to the clinic with a 6-month history of lower back pain associated with morning stiffness for almost 1 hour, as well as joint pain affecting both knees and ankles bilaterally. He denied any history of skin rash or mucosal ulcerations. Clinical examination reveals limited lumbar spine movements, a positive modified Schober test, and active arthritis in both knees bilaterally. He also has tenderness over the Achilles tendon. Which of the following is the most appropriate investigation to establish the diagnosis? | B. MRI of sacroiliac joint @GB-0201
+idea:
+- [[0]] 🔑 positive modified Schober test + tenderness over the Achilles tendon + 6-month history of lower back pain → MRI of sacroiliac joint
+- 🔁 MRI sacroiliac يظهر sacroiliitis أبكر من X-ray. HLA-B27 داعم بس.
+== Vasculitis
+q: A 16-year-old boy presents with a 4-day history of a rash over his legs associated with abdominal pain and aches in both knees. He had one bout of bloody loose bowel motions. Physical examination reveals an erythematous palpable rash extending up to his buttocks (see reports). Urinalysis: Moderate proteinuria Ultrasound kidneys: Normal Which of the following is the most likely diagnosis? | C. Henoch-Schönlein purpura @GB-0162
+q: A 20-year-old woman is referred to Neurology Clinic because of an unsteady gait and transient loss of vision during a sports game at university. She has no history of fever, sweating, or recent trauma, and no past medical or drug history (see report). MRI Brain: Multiple demyelinating hyperintense lesions are seen distributed in the periventricular white matter and callososeptal regions bilaterally. Which of the following is the most likely diagnosis? | C. Multiple sclerosis @GB-0171
+idea:
+- [[0]] 🔑 erythematous palpable rash + extending up to his buttocks + abdominal pain and aches in both knees → Henoch-Schönlein purpura
+- 🔁 Palpable purpura + بطن + مفاصل + كلى ← HSP. لو platelets منخفضة + neuro ← TTP.
+- [[1]] 🔑 multiple demyelinating hyperintense lesions + periventricular white matter + transient loss of vision → Multiple sclerosis
+- 🔁 Periventricular + callososeptal ← Multiple sclerosis.
+== Scleroderma, myositis & Sjogren
+q: A 30-year-old woman with Sjogren's syndrome on hydroxychloroquine is evaluated in the clinic because of fatigue. Her physical examinations are unremarkable (see lab results). Which of the following renal tubular acidosis type is the most likely cause of her hypokalemia? | A. Type 1 @GB-0047
+q: A 33-year-old woman known to have systemic sclerosis with normal kidney function, diagnosed 2 years ago, is on pantoprazole. She complains of drowsiness and visual changes, denies fever, cough, shortness of breath, chest pain, seizures, abdominal pain, or vomiting. Examination reveals an unwell patient with raised JVP, clear chest, and +3 lower limb edema (see lab result). Which of the following is the most appropriate management? | A. Lisinopril @GB-0130
+idea:
+- [[0]] 🔑 Sjogren's syndrome + hypokalemia + renal tubular acidosis type → Type 1
+- 🔁 Type 1 (distal) ← K واطي. Type 4 ← K عالي (hyperkalemia).
+- [[1]] 🔑 systemic sclerosis + raised JVP + drowsiness and visual changes → Lisinopril
+- 🔁 SSc + HTN شديد/AKI = Scleroderma renal crisis ← ACE inhibitor (حتى مع AKI).
+== Osteoarthritis & joint/back pain
+q: A 60-year-old man complaining of right knee pain for several years that has increased over the last few months. He also has noticed frequent knee clicks. A diagnosis of osteoarthritis is suspected. Which of the following is the most appropriate to confirm the diagnosis? | C. No further investigation @GB-0005
+idea:
+- [[0]] 🔑 osteoarthritis is suspected + several years + frequent knee clicks → No further investigation
+- 🔁 لو فيه hot swollen joint أو stiffness الصباح أكثر من ساعة ← aspiration/ فكري RA. تشخيص OA clinical.
+# Pulmonology
+== Pulmonary embolism
+q: A 59-year-old woman admitted with an infected bedsore and had debridement 2 days ago. She suddenly developed mental confusion and poor response to commands. Which of the following is the most likely cause of her deterioration? | A. Septic shock @GB-0158
+idea:
+- [[0]] 🔑 infected bedsore + debridement 2 days ago + mental confusion → Septic shock
+- 🔁 Infection + confusion ← Septic shock. لو chest pain/hypoxia بعد immobility ← PE.
+== Asthma  (1/2)
+q: A 58-year-old woman presented to the medical clinic complaining of daily wheezing and breathlessness during allergy season. These episodes of wheezing have limited her activities several times a week. She has a long history of seasonal allergies in the form of itchy eyes and runny nose. No other medical history. Medications include loratadine as needed, and antihistamine eye drops. Examination revealed watery eyes with conjunctival irritation, expiratory wheezing, and normal cardiac examination (see reports). Chest radiograph: Unremarkable. Spirometry: FEV1 of 74% of predicted, which improved by 18% with a bronchodilator. Which of the following is the most appropriate treatment? | D. Add a low-dose inhaled glucocorticoid and long-acting B2 agonist @GB-0011
+q: A 33-year-old man presented with shortness of breath, fatigue, and nighttime cough. He has been working in a car repair shop for the past 1 year and notes that his symptoms began about 8 months ago. He believes his symptoms are associated with his workdays. He is being evaluated after several days off from work and currently has no symptoms or medical concerns. He has an unremarkable medical history and takes no medications. He has never smoked. Physical examination is unremarkable. A chest radiograph and spirometry results are normal. Which of the following is the most appropriate next step in management? | D. Repeat spirometry after workplace exposure @GB-0014
+q: A 57-year-old man is evaluated for chronic cough, occasional wheezing, and exertional dyspnea while walking. Medical history includes an episode of bronchitis, for which he underwent outpatient treatment 8 months ago. He has a 20-pack-year smoking history. Examination revealed normal vital signs, mildly decreased breath sounds throughout both lungs, and scattered expiratory wheezes bilaterally. Spirometry shows an FEV1 of 75% of predicted and a post-bronchodilator FEV/FVC ratio of 68%. His modified Medical Research Council (mMRC) symptom score is 2. In addition to smoking cessation, which of the following is the most appropriate long-term management plan? | C. Short-acting bronchodilator as needed, a long-acting bronchodilator, and pulmonary rehabilitation @GB-0016
+q: A 42-year-old woman presented to the clinic for follow-up of a 7-month history of chronic, nonproductive cough. She was recently diagnosed with cough-variant asthma after a methacholine challenge test. She was started on inhaled fluticasone and as-needed albuterol 2 months ago. Her cough initially improved; however, her symptoms have not fully resolved and are worsened at times, most notably when she lies down. She also noted that mild hoarseness occasionally accompanies her cough, especially when she wakes up in the morning. Examination revealed a dry cough with frequent throat clearing. The chest was clear with no wheezing. Which of the following is the most appropriate management? | B. Add a proton pump inhibitor @GB-0017
+q: A 24-year-old woman is reviewed in the Asthma Clinic. She currently uses a salbutamol inhaler 100 mcg prn combined with a beclometasone dipropionate inhaler 400 mcg bd. Despite this, she is having frequent exacerbations of her asthma that required frequent courses of prednisolone and hospitalization three times in the last 6 months. What is the most appropriate next step in management? | C. Add long-acting B2 agonist (Salmeterol) @GB-0020
+q: A 33-year-old man with a history of severe asthma is admitted to the Emergency Department with an asthma attack. He received high flow oxygen and nebulized salbutamol. He is unable to complete sentences, has bilateral expiratory wheeze, and is unable to perform a peak flow reading. He was immediately given intravenous hydrocortisone and nebulized salbutamol continuously. After 10 minutes, there is no improvement, and intravenous magnesium sulfate was given. His condition continues to deteriorate (see lab results). Which of the following is the most appropriate management? | D. Intubation and mechanical ventilation @GB-0023
+q: A 34-year-old woman with a history of asthma and allergic rhinitis has been discharged from the hospital 2 weeks ago following an acute exacerbation of bronchial asthma and reports generally poor control with a persistent nighttime cough and exertional wheeze. Her current asthma therapy is salbutamol inhaler 100 mcg prn, beclometasone dipropionate inhaler 800 mcg bd, and salmeterol 50 mcg bd. Which of the following is the most appropriate next step in outpatient management? | C. Leukotriene receptor antagonist @GB-0024
+q: A 33-year-old woman has been assessed in the Emergency Department with an acute exacerbation of asthma. Which of the following features is most likely to indicate a life-threatening attack? | C. Peak flow of 30% best or predicted @GB-0025
+idea:
+- [[0]] 🔑 limited her activities several times a week + FEV1 of 74% of predicted + daily wheezing and breathlessness → Add a low-dose inhaled glucocorticoid and long-acting B2 agonist
+- 🔁 لو الأعراض أقل من مرتين بالأسبوع ← SABA prn بس. لو daily/ تحد من النشاط ← ICS + LABA.
+- [[1]] 🔑 several days off from work + notes that his symptoms began about 8 months ago + car repair shop → Repeat spirometry after workplace exposure
+- 🔁 لو الأعراض مستمرة وهو بالإجازة ← مو work-related. لو spirometry غير طبيعي ← ابدئي ICS.
+- [[2]] 🔑 post-bronchodilator FEV/FVC ratio of 68% + symptom score is 2 + 20-pack-year smoking history → Short-acting bronchodilator as needed, a long-acting bronchodilator, and pulmonary rehabilitation
+- 🔁 لو exacerbations متكررة ← أضيفي ICS. لو mMRC 0–1 بدون exacerbations ← SABA prn بس.
+- [[3]] 🔑 most notably when she lies down + mild hoarseness + cough-variant asthma → Add a proton pump inhibitor
+- 🔁 لو فيه post-nasal drip ← antihistamine/nasal steroid. لو على ACE inhibitor ← بدّليه.
+- [[4]] 🔑 frequent exacerbations + beclometasone dipropionate inhaler 400 mcg bd + salbutamol inhaler 100 mcg prn → Add long-acting B2 agonist (Salmeterol)
+- 🔁 لو ما كانت على ICS ← ابدئي ICS. لو already على ICS + LABA ← LTRA أو tiotropium.
+- [[5]] 🔑 intravenous magnesium sulfate was given + His condition continues to deteriorate + unable to complete sentences → Intubation and mechanical ventilation
+- 🔁 لو تحسن بعد magnesium ← كمّلي nebulizer وsteroids. لو exhaustion/hypercapnia ← Intubation (مو NIV).
+- [[6]] 🔑 salmeterol 50 mcg bd + beclometasone dipropionate inhaler 800 mcg bd + persistent nighttime cough → Leukotriene receptor antagonist
+- 🔁 لو ما كانت على LABA ← أضيفي LABA أول.
+- [[7]] 🔑 life-threatening attack + most likely to indicate → Peak flow of 30% best or predicted
+- 🔁 Peak flow أقل من ٣٣٪ = life-threatening. ٣٣–٥٠٪ = acute severe. ٥٠–٧٥٪ = moderate.
+## 📋 Acute asthma: درجات الشدة
+| الدرجة | العلامات |
+| Moderate | PEF 50–75%، يتكلم جمل كاملة |
+| Acute severe (أي وحدة) | PEF 33–50%، RR 25 أو أكثر، HR 110 أو أكثر، ما يكمل جملة |
+| Life-threatening (أي وحدة) | PEF أقل من 33%، SpO2 أقل من 92%، PaO2 أقل من 8 kPa، PaCO2 طبيعي، silent chest، cyanosis، ضعف تنفس، arrhythmia، hypotension، تعب، confusion |
+| Near-fatal | PaCO2 عالي أو يحتاج ventilation |
+- العلاج بالترتيب: O2 ← salbutamol + ipratropium nebs ← steroids (prednisolone أو hydrocortisone) ← IV magnesium ← ICU و intubation
+- PaCO2 طبيعي أو عالي بنوبة asthma = تعبان، مو تحسن
+## 📋 Asthma المزمن: درج العلاج
+> SABA بس ← low-dose ICS ← ICS + LABA ← زيادة ICS أو LTRA ← specialist (biologics، oral steroid)
+- يستخدم SABA أكثر من مرتين بالأسبوع أو يصحى بالليل ← أضيفي ICS
+- على ICS وما انضبط ← أضيفي LABA (salmeterol). لا تعطين LABA لحاله أبدًا
+- قبل أي زيادة ← شيكي الـtechnique والالتزام والـtriggers
+- Exercise-induced ← salbutamol قبل الرياضة
+- Occupational ← spirometry أو PEF وقت الشغل وبعيد عنه
+- Aspirin + nasal polyps + asthma = Samter (AERD) ← وقفي NSAIDs + montelukast
+- Cough-variant asthma ما تحسن ← فكري GERD (PPI) أو postnasal drip
+- Asthma + allergic rhinitis ← montelukast مفيد للاثنين
+== Asthma  (2/2)
+q: A 55-year-old man presented with a productive cough for 3 months. He had a similar attack of chronic cough for the previous 2 years. He smokes 1 pack/day for the last 15 years. Examination revealed an obese patient with scattered wheeze and crackles over the lungs. Which of the following is the most likely diagnosis? | D. Chronic bronchitis @GB-0071
+q: A 65-year-old man known to have COPD admitted with 2 weeks of worsening productive cough and breathlessness. Examination shows that he is drowsy with bilateral wheeze over the chest (see lab results). Which of the following is the most appropriate next step in management? | D. Nebulized salbutamol and ipratropium @GB-0073
+q: A 17-year-old student presented with recurrent attacks of mild wheeze and shortness of breath despite using inhaled salbutamol regularly. Which of the following is the best next step in the management? | B. Inhaled corticosteroid @GB-0079
+q: A 21-year-old man with a recurrent history of wheezing and exertional shortness of breath when participating in exercises presents to the Emergency Room with increasing shortness of breath after an aerobic class. Examination reveals that he is having obvious difficulty in breathing with diffuse bilateral wheezes. Which of the following is the most effective treatment to be started in the emergency? | B. Inhaled salbutamol @GB-0176
+q: A 28-year-old man presents to the Emergency Room with shortness of breath on exertion that started after exercise. He has a history of intermittent wheezing in response to exercise. His chest examination reveals diffuse wheezes. Which of the following is the most appropriate treatment? | A. Inhaled salbutamol @GB-0177
+q: A 54-year-old man presents to the Emergency Room with an acute exacerbation of COPD. Examination reveals the use of accessory muscles of breathing, diminished gag reflex, decreased breath sounds with wheezing heard throughout both lung fields. Oxygen, glucocorticoids, antibiotics, and nebulizers are started (see lab results). Which of the following is the most appropriate next step in management? | C. Intubate and start mechanical ventilation @GB-0188
+idea:
+- [[0]] 🔑 productive cough for 3 months + previous 2 years + smokes 1 pack/day for the last 15 years → Chronic bronchitis
+- 🔁 Chronic bronchitis = كحة منتجة ٣ شهور لمدة سنتين متتاليتين. لو بلغم كثير قيحي ← Bronchiectasis.
+- [[1]] 🔑 drowsy + COPD + 2 weeks of worsening productive cough → Nebulized salbutamol and ipratropium
+- 🔁 لو hypercapnia + acidosis ← NIV. High-flow O2 يضر. العلاج الأول Nebulized salbutamol + ipratropium.
+- [[2]] 🔑 despite using inhaled salbutamol regularly + recurrent attacks of mild wheeze + 17-year-old student → Inhaled corticosteroid
+- 🔁 لو الأعراض نادرة (أقل من مرتين بالأسبوع) ← SABA prn بس.
+- [[3]] 🔑 after an aerobic class + recurrent history of wheezing + exertional shortness of breath → Inhaled salbutamol
+- 🔁 الحاد ← Inhaled salbutamol (SABA). الوقاية ← SABA قبل التمرين.
+- [[4]] 🔑 started after exercise + intermittent wheezing in response to exercise + diffuse wheezes → Inhaled salbutamol
+- 🔁 الحاد ← Inhaled salbutamol. الوقاية ← SABA قبل التمرين.
+- [[5]] 🔑 diminished gag reflex + use of accessory muscles of breathing + acute exacerbation of COPD → Intubate and start mechanical ventilation
+- 🔁 لو alert + pH 7.25–7.35 ← NIV. Drowsy/diminished gag ← Intubation.
+== COPD
+q: A 63-year-old woman is in the COPD clinic for frequent exacerbations, despite being maintained on a salbutamol inhaler as required and a tiotropium inhaler regularly. She was diagnosed with COPD three years ago and recently quit smoking. Her latest FEV1 was 39% of predicted. Which of the following is the most appropriate next step in her management? | D. Combined salmeterol + fluticasone inhaler @GB-0021
+q: A 75-year-old man with COPD presented with acute exacerbation due to super-added pneumonia. He was managed with IV fluids, antibiotics, nebulized salbutamol, and nasal oxygen at 4 L/min. A few hours later, he started to become drowsy (see lab results). Which of the following is the most appropriate immediate management? | C. Reduce inspired oxygen concentration @GB-0070
+q: A 65-year-old man, a smoker who was recently diagnosed with COPD, complains of shortness of breath on moderate exertion. He has no other medical problems, and chest examination was unremarkable. Which of the following is the most appropriate initial step in management? | C. Smoking cessation @GB-0081
+idea:
+- [[0]] 🔑 frequent exacerbations + FEV1 was 39% of predicted + tiotropium inhaler regularly → Combined salmeterol + fluticasone inhaler
+- 🔁 لو SpO2 ≤ 88% أو PaO2 ≤ 55 ← Long-term oxygen. لو بدون exacerbations ← LABA أو LAMA وحده.
+- [[1]] 🔑 become drowsy + nasal oxygen at 4 L/min + acute exacerbation due to super-added pneumonia → Reduce inspired oxygen concentration
+- 🔁 في COPD: Reduce O2 (target 88–92%). لو hypercapnia/acidosis بعدها ← NIV.
+- [[2]] 🔑 recently diagnosed with COPD + most appropriate initial step + smoker → Smoking cessation
+- 🔁 أول خطوة دايم Smoking cessation. لو exacerbations متكررة ← LAMA/LABA ± ICS.
+## 📋 COPD
+- التشخيص: spirometry، FEV1/FVC أقل من 0.7 بعد bronchodilator
+- Chronic bronchitis = كحة مع بلغم 3 شهور بالسنة لسنتين ورا بعض
+| الحالة | العلاج |
+| أول شي دايمًا | وقف التدخين |
+| Exacerbation | nebulized salbutamol + ipratropium، steroids، antibiotics لو البلغم تغير |
+| Exacerbation متكررة على LAMA | أضيفي ICS + LABA |
+| CO2 عالي + نعسان على O2 | قللي الأكسجين (88–92%) ← NIV |
+| Gag ضعيف أو وعي نازل | intubate |
+- يطول العمر: وقف التدخين + long-term O2
+- LTOT: PaO2 7.3 kPa أو أقل (55 mmHg)، أو 7.3–8 مع cor pulmonale أو polycythemia
+== Pneumonia & sepsis
+q: A 71-year-old man is evaluated after a recent hospitalization 10 days ago for pneumonia and was discharged with a 10-day course of appropriate antibiotics. For the past 5 days, he has had a low-grade fever and increased shortness of breath. Pulmonary examination reveals decreased fremitus, dullness to percussion, and decreased breath sounds over the lower third of the right hemithorax (see lab results and report). Chest radiograph: Moderate right-sided pleural effusion. Which of the following is the most appropriate management? | D. Small-bore pleural drain and piperacillin-tazobactam @GB-0012
+q: A 71-year-old man is admitted to the hospital because of high fever and dyspnea associated with purulent sputum. Physical examination reveals dullness on percussion on the right lower chest and rales on auscultation (see reports). Chest radiography: Pneumonic infiltrate in the right upper lobe and a pleural effusion. Aspiration: Pending result. Which of the following pleural fluid analyses will most likely indicate the need for chest-tube drainage? | A. pH &lt; 7.2 @GB-0033
+q: A 62-year-old diabetic woman was admitted to the Intensive Care Unit with pneumonia and sepsis (see lab results and report). Chest X-ray: Right lobe consolidation and pleural effusion. Which of the following most likely indicates a poor prognosis? | B. Diabetes mellitus @GB-0075
+q: A 64-year-old diabetic woman was admitted to the Intensive Care Unit with pneumonia and sepsis. She has no chronic lung disease and is not a smoker (see lab results and report). Chest X-ray: Right lobe consolidation and pleural effusion. Which of the following is the most appropriate empiric antibiotic? | A. Moxifloxacin @GB-0076
+q: A 65-year-old woman presented with a 4-month history of progressive shortness of breath, dry cough, and fatigue. She was treated for pneumonia with 2 courses of antibiotics but showed no improvement in her symptoms. She has no significant medical problems (see reports). Chest X-ray (after antibiotics): A persistent dense area of consolidation at the right lower lobe. Bronchioalveolar lavage: Atypical cells. Which of the following is the most likely diagnosis? | D. Bronchogenic cancer @GB-0077
+q: A 36-year-old man, previously healthy, presented to primary healthcare complaining of cough, fatigue, sore throat, and body aches. The cough is productive with whitish sputum; on a few occasions, there were some blood streaks. Chest examination was within normal limits (see report). Chest X-ray: Normal, without evidence of consolidation. Which of the following is the most likely diagnosis? | A. Bronchitis @GB-0148
+q: A 42-year-old man presents to the Emergency Room with productive cough, fever, and dyspnea for 3 days. Chest examination reveals evidence of consolidation at the right lower lung field. Baseline laboratory studies, two blood cultures, and sputum samples for cultures and gram stain are obtained. Which of the following is the most appropriate empiric antimicrobial regimen? | B. Ceftriaxone and azithromycin @GB-0195
+idea:
+- [[0]] 🔑 recent hospitalization 10 days ago for pneumonia + Moderate right-sided pleural effusion + low-grade fever → Small-bore pleural drain and piperacillin-tazobactam
+- 🔁 لو effusion صغير جدًا ← antibiotics بس. لو community-acquired بدون hospital ← ceftriaxone + azithromycin.
+- [[1]] 🔑 chest-tube drainage + pleural effusion + purulent sputum → pH &lt; 7.2
+- 🔁 pH أقل من 7.2 أو glucose منخفض أو positive Gram stain ← chest tube. Gram سالب/serosanguineous ما يحتاج.
+- [[2]] 🔑 poor prognosis + pneumonia and sepsis + diabetic woman → Diabetes mellitus
+- 🔁 CURB-65: Confusion، Urea، RR، BP، عمر ≥ 65. المفتاح هنا Diabetes.
+- [[3]] 🔑 pneumonia and sepsis + no chronic lung disease and is not a smoker + Right lobe consolidation → Moxifloxacin
+- 🔁 لو Pseudomonas risk ← antipseudomonal. لو MRSA ← vancomycin. ICU CAP ← β-lactam + macrolide أو respiratory fluoroquinolone.
+- [[4]] 🔑 Atypical cells + persistent dense area of consolidation + 2 courses of antibiotics → Bronchogenic cancer
+- 🔁 Consolidation ما يتحسن + atypical cells ← Bronchogenic cancer. لو granulomas ← Sarcoidosis.
+- [[5]] 🔑 Chest X-ray: Normal + blood streaks + cough, fatigue, sore throat, and body aches → Bronchitis
+- 🔁 لو hemoptysis كبير + renal ← Goodpasture. Acute bronchitis ← Supportive.
+- [[6]] 🔑 consolidation at the right lower lung field + most appropriate empiric antimicrobial regimen + productive cough, fever, and dyspnea for 3 days → Ceftriaxone and azithromycin
+- 🔁 Ward CAP ← β-lactam + macrolide. لو موسم influenza ← أضيفي oseltamivir. لو Pseudomonas risk ← antipseudomonal.
+## 📋 Pneumonia
+| الحالة | العلاج |
+| Outpatient بدون أمراض | amoxicillin أو macrolide (azithromycin) |
+| Outpatient + أمراض (DM، قلب…) | beta-lactam (cefuroxime) + macrolide، أو respiratory quinolone |
+| Inpatient | ceftriaxone + azithromycin |
+| ICU | ceftriaxone + azithromycin أو moxifloxacin، و vancomycin لو MRSA |
+- CURB-65: confusion، urea أكثر من 7، RR 30 أو أكثر، BP أقل من 90/60، العمر 65 أو أكثر
+- Parapneumonic effusion يحتاج chest tube لو: pH أقل من 7.2، glucose أقل من 60، LDH عالي، pus أو Gram stain إيجابي
+- Pneumonia ما تتحسن أو ترجع بنفس المكان ← فكري cancer (CT أو bronchoscopy)
+- بعد pneumonia بأيام: SOB شديد + bilateral infiltrates ← ARDS
+## 📋 Sepsis و septic shock
+- Septic shock = يحتاج vasopressor عشان MAP 65 أو أكثر، و lactate أكثر من 2 بعد السوائل
+- العلاج: سوائل 30 mL/kg ← cultures ← antibiotics خلال ساعة ← norepinephrine
+- Hypotension بـpneumonia ← 1000 mL saline bolus أول شي
+- Pneumonia + shock + AST و ALT بالآلاف ← ischemic hepatitis
+## 📋 Pleural effusion: Light's criteria
+- Exudate لو وحدة صح: protein ratio أكثر من 0.5، LDH ratio أكثر من 0.6، LDH أكثر من ثلثين الـULN
+| Transudate | Exudate |
+| Heart failure (أشهر شي)، cirrhosis، nephrotic | Pneumonia، TB، cancer، PE، RA أو SLE |
+== Pleural disease & pneumothorax
+q: A 69-year-old smoker presents with a 3-week history of worsening breathlessness. Examination revealed normal vital signs and decreased breathing sounds over the lower left zone (see reports). Chest X-ray: Large left-sided pleural effusion. Pleural tapping: Pending result. Which of the following will most likely indicate that it is an exudative effusion? | D. Effusion LDH level greater than 2/3rds the upper limit of serum LDH @GB-0022
+idea:
+- [[0]] 🔑 exudative effusion + Large left-sided pleural effusion + 69-year-old smoker → Effusion LDH level greater than 2/3rds the upper limit of serum LDH
+- 🔁 Light's: pleural/serum LDH > 0.6 أو protein > 0.5 أو LDH > ثلثين الحد الأعلى ← exudate. أقل من كذا ← transudate.
+== Interstitial lung disease & sarcoidosis
+q: A 55-year-old man, a plumber, presented with a 1-year history of dry cough and progressive exertional breathlessness. Examination shows finger clubbing and bilateral basal crackles (see reports). Chest X-ray: Bilateral reticular shadowing at the lower zone of the lungs. Which of the following has the highest diagnostic value? | C. High-resolution CT scan of the chest @GB-0072
+q: A 61-year-old obese man presented with daytime somnolence, poor concentration, nocturia, and progressive shortness of breath. Examination reveals an obese patient with bilateral lower limb edema and normal vesicular breath sounds on lung auscultation. Which of the following is the most appropriate investigation to establish the diagnosis? | B. Sleep study @GB-0074
+idea:
+- [[0]] 🔑 plumber + finger clubbing and bilateral basal crackles + dry cough → High-resolution CT scan of the chest
+- 🔁 ILD ← HRCT أعلى قيمة تشخيصية. لو pleural plaques ← Asbestos.
+- [[1]] 🔑 daytime somnolence + obese + poor concentration → Sleep study
+- 🔁 OSA ← Sleep study. لو الشك heart failure ← Echocardiography.
+## 📋 ILD و OSA والكحة المزمنة
+- Clubbing + basal fine crackles + كحة ناشفة ← ILD ← HRCT (أعلى قيمة تشخيصية)
+- سمين + نعسان بالنهار + شخير ← OSA ← sleep study (polysomnography)
+- كحة مزمنة + spirometry طبيعي ← methacholine challenge (cough-variant asthma)
+- أسباب الكحة المزمنة الثلاثة: asthma، GERD، postnasal drip، وأي ACE inhibitor
+== Lung cancer & nodules
+q: A 55-year-old woman is referred to the clinic because of a 1 cm solitary nodule with sharp borders in the right lung. The nodule was detected on an abdominal CT performed to evaluate abdominal pain. She does not have any respiratory complaints. She smoked 20 cigarettes per day for 10 years but managed to stop smoking 20 years ago. Which of the following is the most appropriate next step? | A. Follow-up CT in 3-6 months @GB-0032
+q: A 63-year-old man is evaluated for hemoptysis and a 5-kg weight loss over the last 2 months. He has a history of 30 pack-years of smoking but stopped 10 days ago (see reports). Chest X-ray: 5-cm irregular mass in the right upper lobe. Fiberoptic bronchoscopy: Tumor in the right upper lobe bronchus. Biopsy: Squamous cell carcinoma. Whole body FDG-PET scan: Negative for metastasis. Which of the following is the most appropriate action while preparing him for surgery? | B. Pulmonary function tests @GB-0038
+idea:
+- [[0]] 🔑 1 cm solitary nodule with sharp borders + stop smoking 20 years ago + detected on an abdominal CT → Follow-up CT in 3-6 months
+- 🔁 لو spiculated + heavy smoker ← PET/resection. لو calcified أو stable سنتين ← No follow-up.
+- [[1]] 🔑 Squamous cell carcinoma + Negative for metastasis + 5-cm irregular mass → Pulmonary function tests
+- 🔁 لو PET فيه mediastinal nodes ← chemo/radiotherapy قبل أي surgery.
+## 📋 Pulmonary nodule و lung cancer
+| النودول | وش أسوي |
+| ثابت سنتين أو أكثر، أو calcified | ما يحتاج متابعة |
+| صغير وحوافه حادة | CT متابعة 3–6 شهور |
+| كبر بالمتابعة أو حوافه spiculated | biopsy أو thoracic surgery |
+- مدخن + hemoptysis + نقص وزن ← lung cancer ← CT chest with contrast
+- قبل العملية ← pulmonary function tests
+- Bilateral hilar lymphadenopathy بدون أعراض ← sarcoidosis ← observe
+== Sleep apnea & chronic cough
+q: A 49-year-old woman is evaluated for a 4-month history of dry cough, which began 4 months ago when she noted a paroxysmal onset of persistent coughing spells that make it difficult to carry on a conversation. She was initially diagnosed with allergic rhinitis and was started on a glucocorticoid nasal inhaler with no improvement. Medical history is otherwise unremarkable except for a history of dust allergies. Examination revealed normal vital signs, slight nasal congestion, and dry cough are noted during the examination. Cardiovascular, pulmonary, and abdominal examination findings are unremarkable (see reports). Chest radiograph: Normal. Spirometry: Slightly reduced FEV/FVC ratio of 70% which increased after bronchodilator challenge by 20%. Which of the following is the most appropriate diagnostic test to perform next? | D. Methacholine challenge testing @GB-0015
+idea:
+- [[0]] 🔑 paroxysmal onset of persistent coughing spells + Slightly reduced FEV/FVC ratio + glucocorticoid nasal inhaler with no improvement → Methacholine challenge testing
+- 🔁 لو الـspirometry طبيعي والأعراض مستمرة ← Methacholine challenge. لو reversibility ≥ 12% واضح ← asthma مباشرة.
+# Cardiology
+== Pericardial & myocardial disease
+q: A 42-year-old man presented to the hospital complaining of shortness of breath, fever, and fatigue for the past few days. Examination showed he has high JVP, pulsus paradoxus, and distant heart sounds. Lung auscultation was clear (see reports). ECG: Low voltage. Chest X-ray: An increase in cardiac silhouette. Which area of the heart is most likely involved? | B. Pericardium @GB-0145
+idea:
+- [[0]] 🔑 pulsus paradoxus + Low voltage + high JVP → Pericardium
+- 🔁 Beck triad (hypotension، JVD، muffled heart sounds) ← Tamponade ← Pericardiocentesis.
+== Valve disease & endocarditis
+q: A 63-year-old woman presented with exertional dyspnea for 8 months. She was diagnosed with COPD 3 years ago and has had 4 exacerbations in the last year. She completed pulmonary rehabilitation and quit smoking 2 years ago. Medications include long-acting B2 agonist, inhaled glucocorticoid, roflumilast, and albuterol as needed. Examination revealed no jugular venous distention; decreased breath sounds, a loud pulmonary component of S1 (see lab results and reports). Chest radiograph: Normal. Echocardiogram: Ejection fraction of 60%, no valvular or wall motion abnormalities, and estimated mean pulmonary artery pressure is 55 mmHg. Which of the following is the most appropriate treatment? | B. Long-term oxygen therapy @GB-0010
+q: A 55-year-old man is evaluated for an 18-month history of intermittent, nonproductive chronic cough, and dyspnea with exertion. No history of fever, chest pain, heartburn, loss of appetite, or weight loss. He has smoked 1 pack daily for the last 30 years. His medical history is otherwise unremarkable, and he takes no medications. Examination revealed he is comfortable, no jugular venous distention, normal heart sounds, no murmur, clear lungs, and no lower limb edema. A chest radiograph and electrocardiogram are normal. Which of the following is the most appropriate next diagnostic test? | B. Spirometry @GB-0028
+q: A 60-year-old man is evaluated in the clinic because of a 6-month history of exertional shortness of breath. Clinical examination reveals a positive Corrigan's pulse, early diastolic murmur at the left upper sternal border, and bilateral fine basal crepitations (see report). Echocardiogram: Severe aortic regurgitation and ejection fraction of 40%. Which of the following is the most appropriate treatment? | C. Surgical valve replacement (AVR) @GB-0094
+q: A 60-year-old man who has a history of mitral valve replacement with a mechanical prosthesis is admitted with infective endocarditis (see report). Blood culture: Positive for methicillin-resistant Staphylococcus aureus (MRSA). Which of the following is the most appropriate antibiotic regimen? | D. Vancomycin, rifampin, and gentamicin @GB-0112
+q: A 44-year-old man complains of dyspnea on exertion. Heart auscultation reveals an early diastolic murmur at the base of the heart. The intensity and duration of the murmur increase during inspiration. Which of the following is the most likely cause? | D. Pulmonary regurgitation @GB-0114
+q: A 55-year-old woman with interstitial lung disease presented with exertional dyspnea and bilateral lower limb edema. Physical examination revealed an elevated JVP with a prominent vwave, pulsating hepatomegaly, a left parasternal heave, and a loud pulmonary component of the second heart sound (P2). Which of the following is the most expected additional finding on heart auscultation? | C. Tricuspid regurgitation @GB-0115
+q: A 25-year-old college student came for a routine checkup. He does not have any active complaints. Examination reveals a diastolic murmur heard at the base of the heart, which increased when the patient leaned forward in full expiration. Which of the following is the most likely diagnosis? | C. Aortic regurgitation @GB-0140
+q: A 55-year-old man presents to the clinic with progressive shortness of breath on exertion for 8 months. He has no history of chest pain or other systemic manifestations. Physical examination reveals an early diastolic murmur at the left upper sternal border that is augmented when sitting forward (see reports). Chest radiography: Cardiomegaly. ECG: Left ventricular hypertrophy. Which of the following is the most likely diagnosis? | C. Aortic regurgitation @GB-0197
+idea:
+- [[0]] 🔑 mean pulmonary artery pressure is 55 mmHg + COPD + Ejection fraction of 60% → Long-term oxygen therapy
+- 🔁 لو SpO2 ≤ 88% أو PaO2 ≤ 55 ← Long-term oxygen therapy. ولو الـsaturation طبيعي ← مو oxygen.
+- [[1]] 🔑 18-month history + nonproductive chronic cough + smoked 1 pack daily for the last 30 years → Spirometry
+- 🔁 لو hemoptysis أو weight loss ← Chest CT/bronchoscopy. بدونها ← Spirometry أول.
+- [[2]] 🔑 Corrigan's pulse + Severe aortic regurgitation and ejection fraction of 40% + early diastolic murmur at the left upper sternal border → Surgical valve replacement (AVR)
+- 🔁 لو EF طبيعي وبدون أعراض ← ACE inhibitor ومراقبة. EF أقل من ٥٠٪ أو أعراض ← AVR.
+- [[3]] 🔑 mechanical prosthesis + methicillin-resistant Staphylococcus aureus (MRSA) + infective endocarditis → Vancomycin, rifampin, and gentamicin
+- 🔁 Native valve MRSA ← vancomycin وحده. Prosthetic ← + rifampin + gentamicin.
+- [[4]] 🔑 early diastolic murmur at the base of the heart + increase during inspiration + dyspnea on exertion → Pulmonary regurgitation
+- 🔁 يزيد بالشهيق ← Right-sided (pulmonary regurgitation). يزيد بالزفير ← Aortic regurgitation.
+- [[5]] 🔑 prominent vwave + pulsating hepatomegaly + interstitial lung disease → Tricuspid regurgitation
+- 🔁 Giant v wave + pulsatile liver ← Tricuspid regurgitation. لو a wave كبيرة ← Pulmonary hypertension.
+- [[6]] 🔑 increased when the patient leaned forward in full expiration + diastolic murmur heard at the base of the heart + routine checkup → Aortic regurgitation
+- 🔁 Aortic regurgitation يتسمع أفضل مع leaning forward + expiration. Mitral stenosis ← left lateral.
+- [[7]] 🔑 early diastolic murmur at the left upper sternal border that is augmented when sitting forward + Left ventricular hypertrophy + progressive shortness of breath on exertion for 8 months → Aortic regurgitation
+- 🔁 Aortic regurgitation. لو systolic ejection murmur ← Aortic stenosis.
+== Acute coronary syndrome & angina  (1/2)
+q: A 20-year-old man is evaluated for a 6-month history of chest and throat tightness, acute episodes of stridor, and a prolonged wheeze that occur during his college basketball practice. He has a history of moderate persistent asthma, which is controlled. He takes a short-acting B2 agonist inhaler as needed, but this does not relieve his symptoms. In addition to a low-dose inhaled glucocorticoid and a long-acting inhaled B2 agonist, he otherwise feels well. Medical history is otherwise unremarkable. Examination reveals normal vital signs and unremarkable systemic examination (see reports). Chest radiograph: Normal. Spirometry: No evidence of obstruction. Which of the following is the most appropriate next step in management? | C. Otolaryngology evaluation @GB-0013
+q: A 17-year-old man presented to the Emergency Department with severe asthma exacerbation that began 12 hours ago. He is on an albuterol inhaler and a long-acting glucocorticoid at home without improvement. He was hospitalized and intubated 2 years ago. Examination revealed respiratory distress with diffuse expiratory wheezes. After 1 hour of systemic glucocorticoid and B2 agonist nebulizer, he still appeared in respiratory distress (see lab results and report). Chest X-ray: Hyperinflated lungs. Which of the following is the most appropriate next step in management? | A. Admit to the ICU @GB-0018
+q: A 79-year-old man is evaluated in follow-up for a 2 mm solitary pulmonary nodule, which was incidentally discovered on imaging for chest pain 4 years ago. Follow-up chest CT was obtained at 1, 2, and 3-year intervals, and the pulmonary nodule appears unchanged. He feels well and does not have any respiratory or constitutional symptoms. He never smokes. Examination revealed normal vital signs and cardiopulmonary examination. Which of the following is the most appropriate recommendation? | D. No further imaging is necessary @GB-0029
+q: A 68-year-old woman is evaluated in follow-up after a 5 mm pulmonary nodule was discovered on chest imaging obtained 9 months ago. She feels well and has not had shortness of breath, cough, hemoptysis, weight loss, or chest pain. She has a 50-pack-year smoking history and is a recurrent smoker. Examination revealed normal vital signs, no cervical or supraclavicular lymphadenopathy, and clear lungs to auscultation bilaterally (see report). Repeated chest CT: Interval increase in the size of the nodule, now measuring 10.5 mm in diameter, and no evidence of mediastinal or hilar lymphadenopathy. Which of the following is the most appropriate next step? | C. Refer for thoracic surgery @GB-0030
+q: A 55-year-old man with a long history of smoking presents to the Emergency Room with exertional shortness of breath and a daily productive cough of 3-4 tablespoons of yellow sputum that has worsened over the last 3 days. No history of fever, chest pain, or hemoptysis. Chest examination reveals decreased breath sounds and scattered rhonchi. Which of the following is the most appropriate first-line inhaling agent to be started in an emergency? | A. Ipratropium bromide @GB-0039
+q: A 50-year-old man is evaluated in the clinic for newly diagnosed hypertension that is not well controlled with lifestyle modifications. His systemic examinations are unremarkable (see lab results). Which of the following is the most appropriate management for this patient's hypertension? | D. Lisinopril and amlodipine @GB-0044
+q: A 45-year-old man was admitted to the Intensive Care Unit with fever. He required a vasopressor to maintain a mean arterial pressure (MAP) of more than 65 mm Hg. He is receiving adequate IV fluid resuscitation (see lab result). Which of the following is the most likely diagnosis? | C. Septic shock @GB-0084
+q: A 55-year-old man with liver cirrhosis on regular follow-up presents to the Emergency Room with a 2-day history of decreased level of consciousness and increased abdominal girth. Examination reveals an ill and cachectic patient with tense ascites and lower limb pitting edema bilaterally. Which of the following is the most appropriate management? | B. Start diuretic and spironolactone @GB-0096
+idea:
+- [[0]] 🔑 acute episodes of stridor + this does not relieve his symptoms + basketball practice → Otolaryngology evaluation
+- 🔁 لو الـspirometry/exercise test يبين bronchoconstriction ← EIB: SABA قبل التمرين.
+- [[1]] 🔑 hospitalized and intubated 2 years ago + After 1 hour of systemic glucocorticoid and B2 agonist nebulizer + still appeared in respiratory distress → Admit to the ICU
+- 🔁 لو تحسن وPEF ≥ 70% بعد ساعة ← Discharge مع steroids.
+- [[2]] 🔑 2 mm + appears unchanged + never smokes → No further imaging is necessary
+- 🔁 لو الـnodule كبر أو subsolid ← كمّلي follow-up/biopsy. لو stable سنتين وصغير ← No further imaging.
+- [[3]] 🔑 Interval increase in the size of the nodule + 10.5 mm + 50-pack-year smoking history → Refer for thoracic surgery
+- 🔁 لو الحجم ثابت ← Follow-up CT. لو فيه lymphadenopathy ← PET/biopsy (staging).
+- [[4]] 🔑 most appropriate first-line inhaling agent + long history of smoking + decreased breath sounds and scattered rhonchi → Ipratropium bromide
+- 🔁 لو asthma ← Albuterol أول. في COPD exacerbation المفتاح هنا Ipratropium.
+- [[5]] 🔑 newly diagnosed hypertension + not well controlled with lifestyle modifications + systemic examinations are unremarkable → Lisinopril and amlodipine
+- 🔁 لو BP أقل من ٢٠/١٠ فوق الهدف ← دواء واحد. لو Black بدون CKD/DM ← thiazide أو CCB.
+- [[6]] 🔑 vasopressor to maintain a mean arterial pressure (MAP) of more than 65 mm Hg + adequate IV fluid resuscitation + fever → Septic shock
+- 🔁 بدون حاجة vasopressor ← Sepsis. بدون infection ← SIRS.
+- [[7]] 🔑 tense ascites + decreased level of consciousness + liver cirrhosis → Start diuretic and spironolactone
+- 🔁 لو refractory للـdiuretics ← Paracentesis/TIPS. لو hepatic encephalopathy ← Lactulose.
+== Acute coronary syndrome & angina  (2/2)
+q: A 45-year-old man presents to the Emergency Department with a 3-day history of fever and a productive cough of yellowish sputum. Medical history is significant for type 2 diabetes mellitus. He is a smoker. His chest examination reveals decreased breath sounds throughout and crackles at the right lung base. Other systemic examination is unremarkable (see report). Chest radiograph: Right lower lobe infiltrate. Which of the following is the most appropriate management? | D. Outpatient treatment with cefuroxime and azithromycin @GB-0109
+q: A 60-year-old man with diabetes and hypertension presented to the Emergency Department with 3-hour continuous retrosternal heaviness associated with profuse sweating. Physical examination reveals tachycardia and an S4 gallop on heart auscultation. The patient is commenced on aspirin, clopidogrel, metoprolol, and nitroglycerin infusion (see reports). Electrocardiogram: Sinus tachycardia with left bundle branch block. Previous ECG was normal. Cardiac enzymes: Pending. Which of the following is the most appropriate next step in management? | C. Administer thrombolytic therapy @GB-0113
+q: A 60-year-old man was admitted to the hospital because of community-acquired pneumonia. On hospital day 3, he developed increasing shortness of breath and became severely hypoxic, necessitating mechanical ventilation with a PaO2/FiO2 of 180 (see report). Chest X-ray: Bilateral lung infiltrates. Which of the following is the most likely diagnosis? | B. Acute respiratory distress syndrome (ARDS) @GB-0139
+q: A 55-year-old heavy smoker, smoking 4 packs a day, complains of occasional chest pain on exertion, which is relieved by rest. He presents to the clinic seeking help to stop smoking. Physical examination reveals an anxious patient with nicotine stains on the fingers and peripheral cyanosis. His jugular venous pulse is raised 8 cm. The rest of the exam is unremarkable. Which of the following is the most appropriate initial therapy? | D. Nicotine replacement therapy @GB-0170
+q: A 60-year-old man with liver cirrhosis presents to the Emergency Room with increasing ascites. He has no history of fever or decreased level of consciousness. His medications include spironolactone 50 mg/day and furosemide 40 mg/day. His physical examination confirms the presence of large ascites (see lab results). Which of the following is the most appropriate next step in management? | B. Therapeutic paracentesis @GB-0175
+q: A 29-year-old man presents to the Emergency Room with a 2-day history of fever and painful skin eruption over the left side of his chest. His physical examination reveals a skin eruption consisting of maculopapular lesions and vesicles with some skin crusting over the left side of his chest. His systemic examinations are unremarkable. Which of the following is the most appropriate action to confirm the diagnosis? | D. No further investigation is required @GB-0183
+q: A 55-year-old male smoker presents to the Emergency Room with a sudden onset of retrosternal chest pain radiating to the neck. His systemic examination is unremarkable. ECG: ST-segment depression in II, III, and aVF. Which of the following is the most considerable risk factor? | C. Patient's age @GB-0203
+q: A 38-year-old woman with a 2-year history of depression presents to the clinic for followup. Her husband raised a concern about suicide as she is looking more depressed and isolated recently. She denied any history of alcohol or psychoactive substance use. During her clinical exam, there was no eye contact and her systemic exams were unremarkable. Which of the following risk factors carries the highest risk for suicide? | C. Social isolation @GB-0205
+idea:
+- [[0]] 🔑 type 2 diabetes mellitus + crackles at the right lung base + productive cough of yellowish sputum → Outpatient treatment with cefuroxime and azithromycin
+- 🔁 هنا Outpatient cefuroxime + azithromycin. لو severe أو risk كبير ← Admit + ceftriaxone + azithromycin.
+- [[1]] 🔑 left bundle branch block + Previous ECG was normal + 3-hour continuous retrosternal heaviness → Administer thrombolytic therapy
+- 🔁 New LBBB + ألم صدر = STEMI-equivalent ← Reperfusion. Old LBBB ← لا يحسب STEMI.
+- [[2]] 🔑 PaO2/FiO2 of 180 + Bilateral lung infiltrates + community-acquired pneumonia → Acute respiratory distress syndrome (ARDS)
+- 🔁 ARDS: PaO2/FiO2 ≤ 300 + bilateral infiltrates بدون heart failure. لو PCWP عالي ← Cardiogenic edema.
+- [[3]] 🔑 4 packs a day + chest pain on exertion + most appropriate initial therapy → Nicotine replacement therapy
+- 🔁 هنا Nicotine replacement (CAD). بدون مشكلة قلبية ← Varenicline أعلى success.
+- [[4]] 🔑 large ascites + spironolactone 50 mg/day and furosemide 40 mg/day + no history of fever or decreased level of consciousness → Therapeutic paracentesis
+- 🔁 Large/tense ascites ← Therapeutic paracentesis + albumin. Refractory ← TIPS.
+- [[5]] 🔑 painful skin eruption over the left side of his chest + maculopapular lesions and vesicles + 2-day history of fever → No further investigation is required
+- 🔁 Shingles تشخيص clinical. لو غير واضح ← PCR. لو يتعدى الخط الأوسط/immunocompromised ← Disseminated.
+- [[6]] 🔑 ST-segment depression in II, III, and aVF + most considerable risk factor + 55-year-old male smoker → Patient's age
+- 🔁 لو السؤال عن modifiable risk factor ← Smoking. الـnon-modifiable الأقوى هنا ← Age.
+- [[7]] 🔑 looking more depressed and isolated + suicide + 2-year history of depression → Social isolation
+- 🔁 أعلى risk: محاولة سابقة، خطة، ذكر، كبير، isolation.
+## 📋 ACS
+- STEMI أو LBBB جديد ← PCI خلال 90–120 دقيقة. ما فيه PCI قريب ← thrombolysis خلال 12 ساعة
+- لا تنتظرين التروبونين مع STEMI
+- العلاج: aspirin + P2Y12 + anticoagulant + nitrate + beta blocker، و statin
+- Modifiable risk factors: تدخين، HTN، DM، lipids، سمنة. Non-modifiable: العمر، الجنس، الوراثة
+- يبي يوقف تدخين + angina ← nicotine replacement (varenicline مع حذر)
+## 📋 الذاكرة والنفسية
+- ينسى الأسماء والأرقام بس شغله وحياته طبيعية ← benign forgetfulness. لو تأثرت حياته ← dementia
+- Suicide risk factors: ذكر، كبير، عزلة اجتماعية، محاولة قبل، أدوية أو سلاح، إدمان
+- Postpartum depression (أكثر من أسبوعين) ← SSRI. Baby blues (أقل من أسبوعين) ← طمني
+- حرارة + rigidity + confusion على antipsychotic ← NMS ← وقفي الدواء + bromocriptine أو dantrolene
+== Heart failure
+q: A 63-year-old man was evaluated in the Emergency Room for 1 week of progressive shortness of breath and found to have right pleural effusion on chest X-ray. Aspiration yielded a clear transudative fluid. Which of the following is the most likely cause? | C. Heart failure @GB-0019
+q: A 58-year-old man known to have type 2 diabetes mellitus, hypertension, and ischemic heart disease. His medications are metformin, sitagliptin, aspirin, lipitor, and lisinopril. He works as a car mechanic. For the last 4 months, he has started to notice exertional shortness of breath that interferes with his job but does not limit him from doing it, provided that at rest, he is fine without any shortness of breath. Which of the following is the New York Heart Association (NYHA) class of his shortness of breath? | B. Class II @GB-0125
+idea:
+- [[0]] 🔑 clear transudative fluid + right pleural effusion + progressive shortness of breath → Heart failure
+- 🔁 لو exudate ← pneumonia/malignancy. لو transudate + ascites ← cirrhosis (hepatic hydrothorax).
+- [[1]] 🔑 interferes with his job but does not limit him + at rest, he is fine + exertional shortness of breath → Class II
+- 🔁 NYHA I: بدون limitation. II: limitation بسيط. III: limitation واضح. IV: أعراض بالراحة.
+## 📋 Heart failure و NYHA
+| NYHA | الوصف |
+| I | ما فيه قيود |
+| II | قيود بسيطة مع النشاط العادي |
+| III | قيود واضحة، مرتاح بس وهو جالس |
+| IV | أعراض وهو مرتاح |
+- Pulmonary edema + وعي نازل ← furosemide IV
+- Effusion transudate يمين ← heart failure
+== Arrhythmias & AF
+q: A 50-year-old man is 6 days post-uneventful subtotal colectomy and ileocolic anastomosis when he develops sudden-onset shortness of breath and one episode of hemoptysis. Examination reveals mildly decreased breath sounds at the left lung base, normal S1 and S2, a soft and lax abdomen with normal bowel sounds, and no lower extremities edema or tenderness (see lab results and reports). Chest X-ray: Left basilar atelectasis. ECG: Sinus tachycardia and a new finding of a right bundle branch block. Which of the following is the most appropriate test? | C. CT pulmonary angiography @GB-0035
+q: A 70-year-old man presented to the Emergency Department with a 2-hour history of confusion and irritability. He was well until 5 days ago, when he injured his right leg and has been bed-bound since the accident. He is hypertensive and well-controlled on medication. He has no fever (see reports). Chest X-ray: Normal. ECG: Sinus tachycardia. Which of the following is the most likely diagnosis? | D. Pulmonary embolism @GB-0080
+q: A 45-year-old man presented to the Emergency Room with palpitations. Initially, he was conscious and oriented. His vital signs were as shown. After some time, he became less responsive, and his blood pressure dropped to 80/45 mmHg (see report). ECG: Supraventricular tachycardia (SVT). Which of the following is the most appropriate immediate action? | B. Cardioversion @GB-0136
+idea:
+- [[0]] 🔑 right bundle branch block + sudden-onset shortness of breath + one episode of hemoptysis → CT pulmonary angiography
+- 🔁 لو الكلى ضعيفة أو حساسية contrast ← V/Q. لو unstable ← bedside echo ثم thrombolysis.
+- [[1]] 🔑 bed-bound since the accident + Sinus tachycardia + confusion and irritability → Pulmonary embolism
+- 🔁 لو fever + neck stiffness ← Meningitis. لو focal weakness ← Stroke.
+- [[2]] 🔑 his blood pressure dropped to 80/45 mmHg + Supraventricular tachycardia (SVT) + he became less responsive → Cardioversion
+- 🔁 لو stable ← Vagal maneuvers ثم Adenosine. Unstable ← Synchronized cardioversion.
+## 📋 Tachyarrhythmia
+- Unstable (hypotension، confusion، chest pain، HF) ← synchronized cardioversion فورًا
+- Stable SVT ← vagal maneuvers ← adenosine
+- AF: rate (beta blocker) + anticoagulation حسب CHA2DS2-VASc. MS + AF ← warfarin
+== Hypertension & lipids
+q: A 55-year-old woman with type 2 diabetes mellitus was recently diagnosed with hypertension. Which of the following is the most appropriate antihypertensive medication? | D. Ramipril @GB-0068
+q: A 60-year-old man is found to have elevated blood pressure during a routine checkup. He has no symptoms, and physical examination is unremarkable. ECG, CBC, electrolytes, renal function tests, and urine analysis are normal. Which of the following is the most appropriate next option in management? | C. Perform ambulatory blood pressure measurement @GB-0069
+q: A 55-year-old man with diabetes mellitus for 10 years was admitted to the Intensive Care Unit with severe pneumonia that required intubation and ventilation. He was treated with intravenous antibiotics, and his vital signs, including his blood pressure, were maintained within the normal range. However, last night, he developed hypotension that required two inotrope agents (see lab results). Which of the following is the most likely diagnosis? | B. Ischemic hepatitis @GB-0098
+q: A 73-year-old woman is brought to the emergency room by family members who noticed a change in her level of consciousness for 1 day. She is known to have type 2 diabetes mellitus, hypertension, ischemic heart disease, and liver cirrhosis. Examination reveals she is drowsy, with raised JVP, positive shifting dullness, and +2 lower limb edema (see lab results). Which of the following is the most appropriate next step in management? | A. Furosemide @GB-0117
+q: A 65-year-old man, a heavy smoker, known to have hypertension and COPD on Ventolin, Anoro Ellipta (Umeclidinium bromide/vilanterol), and lisinopril, presents with worsening shortness of breath for 4 months. There has been no change in his sputum amount or purulence, and he has had no fever, PND, or orthopnea. He was not admitted to the hospital for more than a year. Examination reveals decreased breath sounds without added sounds (see lab results and report). Chest CT 6 months ago: Diffuse emphysematous changes. Which of the following is the best intervention to improve his shortness of breath? | A. Home oxygen @GB-0121
+q: A 55-year-old man known to have psychiatric disease and hypertension was admitted to the hospital due to poor nutrition at home, as he was refusing food. During hospitalization, he became agitated, so they increased the dose of Haloperidol. Suddenly, he became confused and began sweating. He was shifted to the ICU, started on IV fluids, and intubated (see lab result). Which of the following should be added to the management plan? | D. Bromocriptine @GB-0122
+q: A 45-year-old man was recently diagnosed with hypertension. He has a family history of ischemic heart disease. An angiotensin receptor II blocker was prescribed to control his blood pressure and reduce the risk of ischemic heart disease. Which of the following is the most likely prescribed agent? | B. Irbesartan @GB-0144
+idea:
+- [[0]] 🔑 type 2 diabetes mellitus + recently diagnosed with hypertension + antihypertensive medication → Ramipril
+- 🔁 لو حامل ← لا ACEi (labetalol/methyldopa/nifedipine). بدون DM/CKD ← thiazide/CCB/ACEi.
+- [[1]] 🔑 elevated blood pressure during a routine checkup + ECG, CBC, electrolytes, renal function tests, and urine analysis are normal + no symptoms → Perform ambulatory blood pressure measurement
+- 🔁 لو BP ≥ 180/110 أو end-organ damage ← ابدئي دواء. غير كذا ← أكدي بـABPM/home قبل التشخيص.
+- [[2]] 🔑 hypotension + severe pneumonia + intubation and ventilation → Ischemic hepatitis
+- 🔁 AST/ALT عالي جدًا بعد shock ← Ischemic hepatitis. لو دوا (مثل paracetamol) ← Drug-induced.
+- [[3]] 🔑 raised JVP + liver cirrhosis + positive shifting dullness → Furosemide
+- 🔁 لو dehydrated/hypovolemic ← Saline. لو hepatic encephalopathy ← Lactulose.
+- [[4]] 🔑 Diffuse emphysematous changes + worsening shortness of breath for 4 months + Anoro Ellipta → Home oxygen
+- 🔁 لو SpO2 أعلى من ٨٨٪ ← مو home oxygen. لو exacerbations/eosinophils ← أضيفي ICS.
+- [[5]] 🔑 increased the dose of Haloperidol + confused and began sweating + psychiatric disease → Bromocriptine
+- 🔁 Neuroleptic malignant syndrome ← Bromocriptine/dantrolene. Serotonin syndrome ← Cyproheptadine.
+- [[6]] 🔑 angiotensin receptor II blocker + reduce the risk of ischemic heart disease + family history of ischemic heart disease → Irbesartan
+- 🔁 ARB ينتهي بـ-sartan (Irbesartan). ACEi ينتهي بـ-pril (Perindopril).
+## 📋 Hypertension
+| المريض | أول دواء |
+| DM أو CKD أو proteinuria | ACE-I (ramipril) أو ARB |
+| أسود أو كبير | CCB أو thiazide |
+| ما انضبط على وحدة | ACE-I + CCB (lisinopril + amlodipine) |
+- قراءة عالية بالعيادة بدون أعراض ← ambulatory BP قبل الدواء
+- ARBs تنتهي بـ-sartan (irbesartan، losartan)
+- Scleroderma renal crisis ← ACE-I حتى مع AKI
+# Gastroenterology & Hepatology
+== Liver: hepatitis & cirrhosis
+q: A 64-year-old man known to have liver cirrhosis secondary to chronic hepatitis C completed treatment for HCV and now has undetectable HCV RNA 12 weeks post-treatment. He is asymptomatic. Clinically, he has a few spider angiomata and mild splenomegaly (see lab results). Which of the following is the most appropriate follow-up option? | C. Liver ultrasound every 6 months @GB-0053
+q: A 45-year-old man with diabetes mellitus for 4 years on metformin is evaluated in the clinic because of an abnormal liver function test. He is clinically asymptomatic. His examination is unremarkable (see lab results). Which of the following is the most likely cause of his abnormal liver function test? | D. Non-alcoholic fatty liver disease @GB-0095
+q: A 50-year-old man with cirrhosis presented to the Emergency Room with increasing ascites and decreased level of consciousness over one week. Examination revealed a confused patient with tense ascites (see lab results). Which of the following is the most appropriate modified Child-Turcotte-Pugh score of this patient? | B. Stage B @GB-0097
+q: A 70-year-old gentleman known to have liver cirrhosis with esophageal varices underwent endoscopic variceal ligation 1 month ago. Which of the following is the best long-term intervention to decrease the risk of recurrent variceal bleeding? | A. B blocker @GB-0119
+q: A 58-year-old woman with liver cirrhosis presents to the emergency with hematemesis (see report). Upper GI endoscopy: Bleeding esophageal varices Which of the following is the most appropriate intravenous pharmacological treatment? | A. Octreotide @GB-0174
+q: A 26-year-old woman presented with insomnia, fatigue, and sadness. She delivered her first child 5 days ago. Examination reveals a tearful and depressed appearance. Which of the following is the most appropriate management? | A. Selective serotonin re-uptake inhibitors @GB-0252
+idea:
+- [[0]] 🔑 liver cirrhosis + undetectable HCV RNA 12 weeks post-treatment + spider angiomata and mild splenomegaly → Liver ultrasound every 6 months
+- 🔁 Cirrhosis يبقى HCC surveillance (US كل ٦ شهور) حتى بعد الشفاء. بدون cirrhosis ← ما يحتاج.
+- [[1]] 🔑 diabetes mellitus for 4 years + abnormal liver function test + clinically asymptomatic → Non-alcoholic fatty liver disease
+- 🔁 لو ferritin وtransferrin saturation عاليين ← Hemochromatosis. لو HBV/HCV موجب ← Viral hepatitis.
+- [[2]] 🔑 modified Child-Turcotte-Pugh score + tense ascites + confused patient → Stage B
+- 🔁 Child-Pugh يعتمد على bilirubin، albumin، INR، ascites، encephalopathy: ٥–٦ A، ٧–٩ B، ١٠–١٥ C.
+- [[3]] 🔑 endoscopic variceal ligation 1 month ago + recurrent variceal bleeding + liver cirrhosis with esophageal varices → B blocker
+- 🔁 Secondary prophylaxis ← Beta blocker + repeat banding. PPI بس يعالج ulcer بعد banding.
+- [[4]] 🔑 Bleeding esophageal varices + intravenous pharmacological treatment + liver cirrhosis → Octreotide
+- 🔁 Variceal bleed ← Octreotide + antibiotics + banding. بعدها Beta blocker.
+- [[5]] 🔑 delivered her first child 5 days ago + tearful and depressed + insomnia, fatigue, and sadness → Selective serotonin re-uptake inhibitors
+- 🔁 المفتاح SSRI. لو خفيف وأقل من ١٠ أيام ← Postpartum blues (reassure).
+## 📋 الكبد
+- Varices تنزف ← octreotide + antibiotics + endoscopy (band ligation). الوقاية بعدها ← non-selective beta blocker (propranolol)
+- Cirrhosis ← ultrasound كل 6 شهور (HCC) حتى بعد علاج HCV
+- Ascites: SAAG أكثر من 1.1 = portal HTN. العلاج: spironolactone + furosemide. tense ← therapeutic paracentesis
+- Child-Pugh: bilirubin، albumin، INR، ascites، encephalopathy ← A (5–6)، B (7–9)، C (10–15)
+- سكري + سمين + ALT عالي شوي ← NAFLD
+- Paracetamol overdose ← NAC (و charcoal خلال ساعة إلى 4)
+== IBD
+q: A 25-year-old man was recently diagnosed with inflammatory bowel disease. Which of the following features best distinguishes Crohn's disease from ulcerative colitis? | C. Non-caseating granuloma in biopsy @GB-0091
+q: A 23-year-old man presents to the clinic with a 7-month history of recurrent episodes of abdominal pain and diarrhea that are sometimes associated with streaks of blood and occasional audible peristalsis. He had fever and loss of appetite for the last 7 days. There is no history of allergy or chronic use of any medications. Examination reveals a thin, ill-looking patient with a tender but soft abdomen (see lab results). Which of the following is the most likely diagnosis? | D. Inflammatory bowel disease @GB-0099
+idea:
+- [[0]] 🔑 best distinguishes Crohn's disease from ulcerative colitis + inflammatory bowel disease + 25-year-old man → Non-caseating granuloma in biopsy
+- 🔁 Non-caseating granuloma ← Crohn's. Crypt abscess ومتصل من الـrectum ← UC.
+- [[1]] 🔑 streaks of blood + 7-month history of recurrent episodes of abdominal pain and diarrhea + occasional audible peristalsis → Inflammatory bowel disease
+- 🔁 لو watery بدون دم + انتفاخ ← IBS. لو steatorrhea + gluten ← Celiac.
+## 📋 الجهاز الهضمي
+| Crohn | UC |
+| Non-caseating granuloma، transmural، skip lesions | crypt abscess، mucosa، متصل من الـrectum |
+- إسهال بدم أسابيع ← colonoscopy
+- Dysphagia جديد على GERD قديم ← endoscopy (Barrett أو stricture أو cancer)
+- رجل كبير + IDA ← ابحثي عن نزيف GI (FOB أو colonoscopy)
+== Esophagus, GERD & PUD
+q: A 38-year-old man with a 10-year history of gastroesophageal reflux disease on pantoprazole is evaluated in the clinic because of a 4 month history of intermittent dysphagia for solids. What is the most appropriate next investigation? | A. Endoscopy @GB-0093
+idea:
+- [[0]] 🔑 intermittent dysphagia for solids + 10-year history of gastroesophageal reflux disease + pantoprazole → Endoscopy
+- 🔁 لو dysphagia للسوائل والصلب ← Manometry (achalasia). GERD + dysphagia صلب ← Endoscopy.
+== Diarrhea, celiac & IBS
+q: A 28-year-old man presents to the Emergency Department with a 2-week history of bloody diarrhea, lower abdominal cramps, and tenesmus. Physical examination reveals abdominal distension with mild tenderness (see lab results). Which of the following is the most appropriate investigation to establish the diagnosis? | A. Colonoscopy @GB-0193
+idea:
+- [[0]] 🔑 bloody diarrhea + tenesmus + 2-week history → Colonoscopy
+- 🔁 IBD ← Colonoscopy. لو antibiotics حديثة ← C. difficile toxin. لو أقل من أسبوع ← Stool culture.
+# Nephrology & Electrolytes
+== Potassium & acid-base
+q: A 60-year-old man who has been on hemodialysis for the last 10 years is evaluated in the clinic. He is complaining of fatigue but has no other symptoms. His physical examination is unremarkable (see lab results). Which of the following is the most common cause of death in such patients? | A. Cardiovascular disease @GB-0046
+q: A 68-year-old woman known to have type 2 diabetes mellitus, hypertension, and endstage renal disease on hemodialysis complains of shortness of breath and increasing bilateral lower limb swelling. She denies any fever, chest pain, cough, abdominal pain, or vomiting. Examination reveals an ill-looking patient with high JVP and +3 lower limb edema. ECG was ordered (see lab result). Which of the following is the most likely ECG finding? | A. Peaked T wave @GB-0128
+q: A 50-year-old woman presents with nausea, vomiting, and muscle aches. She is 6 days post-operative and is unable to pass stool, and has abdominal distension (see lab results). Which of the following is the most appropriate next step in management? | A. ECG @GB-0153
+q: A 60-year-old man presents to the Emergency Room with symptomatic hyponatremia. Which of the following is the most serious consequence of rapid correction of hyponatremia? | D. Central pontine myelinolysis @GB-0182
+idea:
+- [[0]] 🔑 hemodialysis for the last 10 years + most common cause of death + fatigue → Cardiovascular disease
+- 🔁 لو السؤال عن سبب الوفاة بعد transplant ← CVD برضو (ثم infection).
+- [[1]] 🔑 endstage renal disease on hemodialysis + ECG finding + +3 lower limb edema → Peaked T wave
+- 🔁 Hyperkalemia ← Peaked T. Hypocalcemia ← Prolonged QT. Hypokalemia ← U waves.
+- [[2]] 🔑 6 days post-operative + unable to pass stool + nausea, vomiting, and muscle aches → ECG
+- 🔁 أي disturbance بالـpotassium ← ECG أول قبل السبب.
+- [[3]] 🔑 rapid correction of hyponatremia + symptomatic hyponatremia + most serious consequence → Central pontine myelinolysis
+- 🔁 صححي Na ببطء (≤ ٨–١٠ mEq/L بـ٢٤ ساعة) عشان تتجنبي Central pontine myelinolysis.
+== Sodium & water
+q: A 22-year-old woman presents with recurrent seizures and cognitive dysfunction. She is subsequently diagnosed with glioblastoma multiforme (see lab results). Which of the following is the most likely cause of her hyponatremia? | D. Syndrome of inappropriate ADH secretion @GB-0166
+idea:
+- [[0]] 🔑 glioblastoma multiforme + hyponatremia + recurrent seizures and cognitive dysfunction → Syndrome of inappropriate ADH secretion
+- 🔁 Euvolemic ← SIADH. لو dehydrated ← Cerebral salt wasting.
+== AKI & rhabdomyolysis
+q: A 55-year-old man with acute coronary syndrome who recently underwent cardiac catheterization is evaluated because of acute kidney injury. Which of the following is most suggestive of cholesterol emboli as a cause of acute renal failure? | D. Eosinophiluria @GB-0045
+q: A 28-year-old man who recently joined military service and underwent excessive military training presents to the Emergency Department with lightheadedness on standing and fatigue. Physical examination reveals postural hypotension, otherwise unremarkable. Urine osmolality is elevated > 500 mosmol/L (see lab results). What is the most likely etiology for his acute kidney injury? | A. Pre-renal azotemia @GB-0050
+q: A 28-year-old man who recently joined military service and underwent excessive military training presents to the Emergency Department with lightheadedness on standing, muscle cramping, and fatigue. Physical examination reveals postural hypotension, otherwise unremarkable. A diagnosis of acute kidney injury due to hypovolemia is established. Which of the following is the most expected laboratory abnormality? | C. Blood urea nitrogen/creatinine ratio is elevated &gt; 20 @GB-0051
+q: A 35-year-old man comes to the Emergency Room after falling while running a marathon. He has dark urine that is dip-stick positive for large blood, but no RBCs on microscopic analysis. Which of the following is the most likely diagnosis? | C. Rhabdomyolysis @GB-0151
+q: A 35-year-old man comes to the Emergency Room after falling while running a marathon. He has dark urine that is dip-stick positive for large blood, but no RBCs on microscopic analysis. Which of the following is the most appropriate management? | B. Hydration @GB-0152
+q: A 30-year-old man presents to the clinic with lower limb edema and fatigue for 1 month. Examination reveals pitting edema over both legs up to the knees. His systemic examinations are unremarkable (see lab results). Which of the following is the most appropriate diagnosis? | C. Acute glomerulonephritis (GN) @GB-0199
+idea:
+- [[0]] 🔑 cholesterol emboli + cardiac catheterization + acute coronary syndrome → Eosinophiluria
+- 🔁 لو WBC casts ← AIN/pyelonephritis. لو RBC casts ← glomerulonephritis. لو granular casts ← ATN.
+- [[1]] 🔑 Urine osmolality is elevated + postural hypotension + excessive military training → Pre-renal azotemia
+- 🔁 لو urine osm أقل من ٣٥٠ + muddy brown casts ← ATN.
+- [[2]] 🔑 hypovolemia + most expected laboratory abnormality + muscle cramping → Blood urea nitrogen/creatinine ratio is elevated &gt; 20
+- 🔁 Prerenal: BUN/Cr > 20 وFeNa < 1%. FeNa > 2% ← ATN.
+- [[3]] 🔑 dip-stick positive for large blood, but no RBCs on microscopic analysis + falling while running a marathon + dark urine → Rhabdomyolysis
+- 🔁 Dipstick positive بدون RBC ← Myoglobinuria (Rhabdomyolysis). لو RBC موجود ← Hematuria.
+- [[4]] 🔑 no RBCs on microscopic analysis + falling while running a marathon + dark urine → Hydration
+- 🔁 Rhabdomyolysis ← Aggressive IV hydration. Diuresis بعد hydration لو oliguria.
+- [[5]] 🔑 pitting edema over both legs up to the knees + lower limb edema and fatigue for 1 month + systemic examinations are unremarkable → Acute glomerulonephritis (GN)
+- 🔁 Nephrotic ← proteinuria كثير + low albumin. GN ← hematuria + HTN + RBC casts.
+## 📋 AKI
+| النوع | المفتاح |
+| Pre-renal | جفاف، BUN/Cr أكثر من 20، FENa أقل من 1% |
+| ATN | muddy brown casts، FENa أكثر من 2% |
+| AIN | دواء جديد (antibiotics، NSAIDs، PPI) + rash + eosinophils |
+| Cholesterol emboli | بعد catheterization + livedo + eosinophiluria |
+| GN | RBC casts + ضغط + تورم |
+- Rhabdo: dipstick دم إيجابي بدون RBCs + CK عالي ← hydration
+== CKD, anemia of CKD & dialysis
+q: A 70-year-old man known to have chronic obstructive pulmonary disease (COPD). Examination revealed evidence of cor pulmonale with a significant degree of lower limb edema. His FEV1 is 40% (see lab result). Which of the following interventions is most associated with increased survival? | D. Long-term oxygen therapy @GB-0027
+q: A 55-year-old man with stage 2 chronic kidney disease is evaluated because of anemia. He is complaining of fatigue. His physical examination reveals pale skin, otherwise unremarkable (see lab results). Which of the following is the most appropriate investigation to be done? | A. Serum iron studies @GB-0052
+q: A 70-year-old woman presents with fatigue and exertional dyspnea for several months. Medical history includes longstanding hypertension and chronic kidney disease, and she is not adherent to her medications. Examination reveals pale mucous membranes and nail beds (see lab results and report). Kidney ultrasonography: Showed small kidneys bilaterally with echographic features suggesting chronic kidney disease. Which of the following is the most likely cause of this patient's anemia? | A. Erythropoietin deficiency @GB-0062
+q: A 63-year-old man presents to the clinic with fatigue and tiredness. No fever, shortness of breath, chest pain, abdominal pain, or vomiting. He is known to have type 2 diabetes mellitus, hypertension, dyslipidemia, and chronic kidney disease stage IV. Examination reveals a welllooking patient, not in distress, with normal JVP and no lower limb edema (see lab results). Which of the following is the most appropriate next step in management? | C. Start erythropoietin @GB-0118
+q: A 22-year-old woman was brought to the Emergency Room after ingesting 50 tablets of extra strength acetaminophen (500 mg each tablet) 3 hours ago. The patient is conscious and oriented (see lab results). Which of the following is the most appropriate next step? | B. N-acetylcysteine and charcoal @GB-0146
+q: A 56-year-old man with chronic renal failure for 5 years presents to the clinic with fatigue for 3 months. His physical examination is unremarkable (see lab results). Which of the following is the most appropriate treatment? | C. Subcutaneous erythropoietin @GB-0173
+q: A 50-year-old man presents to the Emergency Room with fever, progressive shortness of breath, and productive cough for 3 days. Examination is unremarkable except for coarse crackles at the right lower lung (see lab results and reports). Blood culture: Gram-positive cocci. Intravenous antibiotics are started. Which of the following is the most appropriate next step in treatment? | C. Administer 1000 mL normal saline fluid bolus @GB-0187
+idea:
+- [[0]] 🔑 cor pulmonale + increased survival + FEV1 is 40% → Long-term oxygen therapy
+- 🔁 لو السؤال عن تخفيف الأعراض ← Pulmonary rehabilitation. بالنسبة للـsurvival: Long-term oxygen (وإيقاف التدخين).
+- [[1]] 🔑 stage 2 chronic kidney disease + anemia + pale skin → Serum iron studies
+- 🔁 لو CKD stage 4–5 + iron طبيعي ← EPO deficiency. في stage 2 ابدئي Iron studies.
+- [[2]] 🔑 small kidneys bilaterally + chronic kidney disease + pale mucous membranes → Erythropoietin deficiency
+- 🔁 لو MCV واطي + ferritin واطي ← Iron deficiency. لو ferritin عالي ← Inflammation.
+- [[3]] 🔑 chronic kidney disease stage IV + fatigue + welllooking patient → Start erythropoietin
+- 🔁 لو iron deficiency ← Iron أول. لو Hb أقل من ٧ + أعراض ← Transfusion.
+- [[4]] 🔑 50 tablets of extra strength acetaminophen + 3 hours ago + conscious and oriented → N-acetylcysteine and charcoal
+- 🔁 Paracetamol جرعة سامة ← NAC. Charcoal لو خلال ١–٢ ساعة. NAC ينفع حتى بعدها.
+- [[5]] 🔑 chronic renal failure for 5 years + fatigue for 3 months + physical examination is unremarkable → Subcutaneous erythropoietin
+- 🔁 CKD anemia + iron كافي ← ESA (Erythropoietin). لو iron deficiency ← Iron أول.
+- [[6]] 🔑 Blood culture: Gram-positive cocci + Intravenous antibiotics are started + coarse crackles at the right lower lung → Administer 1000 mL normal saline fluid bolus
+- 🔁 لو hypotension/lactate عالي ← Fluid bolus (٣٠ mL/kg). لو ما فيه shock ← antibiotics بس.
+## 📋 CKD والأملاح
+- أشهر سبب وفاة بالـdialysis ← cardiovascular disease
+- Anemia بـCKD ← iron studies أول ← عوضي الحديد ← erythropoietin
+- CKD-MBD: phosphate عالي + calcium واطي + PTH عالي ← phosphate binder + calcitriol
+- Hyperkalemia مع ECG changes ← calcium gluconate أول (يحمي القلب) ← insulin + dextrose ← salbutamol ← dialysis
+- ECG بالترتيب: peaked T ← PR طويل ← QRS عريض ← sine wave
+- Tumor lysis: K و phosphate و uric acid عالية، calcium واطي
+- SIADH: Na واطي + urine osm عالي + euvolemic (tumors، CNS، أدوية)
+- تصحيح Na بسرعة ← central pontine myelinolysis (لا تزيدين أكثر من 8–10 باليوم)
+== Glomerular disease
+q: A 50-year-old man known to be an alcoholic presented with progressive abdominal distention and yellow discoloration of the sclera. The patient gave a history of vague abdominal pain mainly at the epigastrium. Fluid thrill was found upon examination, suggestive of ascites. Diagnostic paracentesis was done (see lab results). Which of the following is the most likely cause of his ascites? | C. Portal hypertension @GB-0143
+q: A 35-year-old woman was referred to the clinic because she was found to have proteinuria. She is complaining of fatigue and lower limb swelling. Her examination reveals lower limb pitting edema up to the knees bilaterally. Her systemic examination is unremarkable (see lab results). Which of the following is the most diagnostic test to establish the diagnosis? | A. Kidney biopsy @GB-0180
+idea:
+- [[0]] 🔑 alcoholic + Fluid thrill + yellow discoloration of the sclera → Portal hypertension
+- 🔁 SAAG ≥ 1.1 ← Portal hypertension. لو amylase عالي بالسائل ← Pancreatic ascites.
+- [[1]] 🔑 lower limb pitting edema up to the knees bilaterally + proteinuria + fatigue → Kidney biopsy
+- 🔁 Adult nephrotic syndrome ← Kidney biopsy (إلا DM أو سبب ثانوي واضح).
+== UTI, pyelonephritis & stones
+q: A 48-year-old woman is evaluated for persistent fever and flank pain. She was admitted several days ago for treatment of pyelonephritis. Her fever is persistent after 5 days of starting an appropriate antibiotic. Examination reveals tenderness over the left loin area, otherwise unremarkable (see report). Urine culture: Positive for Escherichia coli susceptible to the antibiotic that was already started. Which of the following is the most appropriate management? | A. Kidney ultrasound @GB-0103
+q: A young woman with acute uncomplicated pyelonephritis is evaluated in the Emergency Department. Which of the following is the most appropriate management? | A. Treat as outpatient with ciprofloxacin @GB-0108
+q: A 50-year-old man with ischemic heart disease and diabetes presented to the emergency with severe pneumonia and was admitted to the intensive care unit (ICU). He was treated with a course of antibiotics. Three days after admission to ICU, he develops hypotension treated with hydration and inotropes. His liver function at the day of admission was normal, but the repeated one is abnormal (see lab results and report). Abdominal ultrasound: Unremarkable. Which of the following is the most likely diagnosis? | A. Ischemic hepatitis @GB-0194
+idea:
+- [[0]] 🔑 persistent after 5 days of starting an appropriate antibiotic + tenderness over the left loin area + pyelonephritis → Kidney ultrasound
+- 🔁 لو الحرارة استجابت ← كمّلي. Fever مستمر أكثر من ٧٢ ساعة ← US/CT (obstruction أو abscess).
+- [[1]] 🔑 acute uncomplicated pyelonephritis + young woman + Emergency Department → Treat as outpatient with ciprofloxacin
+- 🔁 لو sepsis/استفراغ/حامل ← Admit + IV ceftriaxone.
+- [[2]] 🔑 Three days after admission to ICU + hypotension treated with hydration and inotropes + liver function at the day of admission was normal → Ischemic hepatitis
+- 🔁 AST/ALT عالي جدًا بعد hypotension ← Ischemic hepatitis. Cholestatic + RUQ ← Acalculous cholecystitis.
+## 📋 UTI
+| الحالة | العلاج |
+| Cystitis بسيطة | nitrofurantoin 5 أيام (أو fosfomycin) |
+| Dipstick إيجابي + أعراض واضحة | empiric بدون culture |
+| Pyelonephritis خفيف | outpatient ciprofloxacin |
+| Pyelonephritis ما تحسن 48–72 ساعة | kidney ultrasound (abscess أو obstruction) |
+# Endocrinology
+== Diabetes & DKA
+q: A 25-year-old man with type 1 diabetes mellitus on insulin therapy was found in the clinic waiting area drowsy and excessively sweating. A quick measurement of blood glucose revealed a low level. Which of the following is the most appropriate action to be taken? | A. Give fruit juice @GB-0087
+q: A 45-year-old woman known to have end-stage renal disease secondary to type 1 diabetes mellitus came to the clinic for a routine follow-up. She had no complaints but was found to have abnormal blood results (see lab results). Which of the following is the most appropriate management? | B. Calcitriol @GB-0131
+q: A 26-year-old man with type I diabetes mellitus on insulin presents to the clinic for regular follow-up. He is asymptomatic (see lab results). Which of the following is the most appropriate treatment? | D. Angiotensin-converting enzyme inhibitor @GB-0178
+idea:
+- [[0]] 🔑 found in the clinic waiting area drowsy and excessively sweating + blood glucose revealed a low level + type 1 diabetes mellitus on insulin therapy → Give fruit juice
+- 🔁 لو ما يقدر يبلع/unconscious ← Glucagon أو IV dextrose. لو يقدر يشرب ← Oral glucose.
+- [[1]] 🔑 end-stage renal disease + abnormal blood results + type 1 diabetes mellitus → Calcitriol
+- 🔁 لو phosphate عالي ← Sevelamer. لو Ca عالي ← Cinacalcet. المفتاح هنا Calcitriol.
+- [[2]] 🔑 type I diabetes mellitus on insulin + regular follow-up + asymptomatic → Angiotensin-converting enzyme inhibitor
+- 🔁 لو microalbuminuria ← ACE inhibitor. بدونه ← لا حاجة.
+## 📋 السكري
+- Hypoglycemia وهو صاحي ← عصير أو سكر بالفم. ما يقدر يبلع ← IV dextrose أو glucagon IM
+- Microalbuminuria بالسكري ← ACE-I أو ARB حتى لو الضغط طبيعي
+- سكري + ضغط ← ACE-I أول خيار
+== Thyroid
+q: A 35-year-old woman presented to the clinic with a 3-month history of fatigue, lethargy, and weight gain. Physical examination is unremarkable (see lab results). Which of the following is the most appropriate investigation? | A. Thyroid-stimulating hormone (TSH) @GB-0085
+q: A 32-year-old woman is evaluated because of a 3-month history of weight loss, heat intolerance, tremor, and irritability. Physical examination reveals a tremor and a non-tender goiter. She has negative thyroid-stimulating immunoglobulins (see lab results). Which of the following is the most likely diagnosis? | C. Toxic nodular goiter @GB-0086
+q: A 27-year-old woman presents to the clinic with a 1-week history of fever, sore throat, difficulty swallowing, and painful swelling in her neck. She had an upper respiratory tract infection 3 weeks ago. She has no past medical history. Examination reveals a tender goiter. Her oropharynx is clear (see lab results). Which of the following is the most likely diagnosis? | D. Subacute thyroiditis @GB-0089
+q: A 35-year-old woman presents to the clinic with a 5-month history of fatigue. She takes no medication. Her examination is unremarkable (see lab results). What is the most appropriate treatment for this patient's dyslipidemia? | D. Thyroxine @GB-0092
+q: A 28-year-old woman, not known to have any medical illness, complains of increased sleepiness, fatigue, and constipation for the last few months. She is on a very healthy diet, is not a smoker, and does not drink alcohol. Examination reveals an overweight patient, not in distress, with no lymphadenopathy or masses (see lab results). Which of the following is the most likely diagnosis? | D. Hashimoto's thyroiditis @GB-0133
+q: A 35-year-old woman is evaluated in the clinic for thyroid enlargement. She is asymptomatic and has no significant past medical history. Her examination reveals a firm, mobile, non-tender nodule at the lower pole of the right lobe of the thyroid gland. The left lobe is normal to palpation. Which of the following investigations is the most appropriate initial test? | D. Thyroid stimulating hormone (TSH) @GB-0185
+idea:
+- [[0]] 🔑 weight gain + fatigue, lethargy + 3-month history → Thyroid-stimulating hormone (TSH)
+- 🔁 أول فحص دايم TSH. لو TSH عالي ← Free T4 ثم TPO.
+- [[1]] 🔑 negative thyroid-stimulating immunoglobulins + non-tender goiter + weight loss, heat intolerance, tremor, and irritability → Toxic nodular goiter
+- 🔁 لو TSI موجب + ophthalmopathy ← Graves. TSH عالي مع T4 عالي ← TSH-secreting tumor.
+- [[2]] 🔑 tender goiter + upper respiratory tract infection 3 weeks ago + painful swelling in her neck → Subacute thyroiditis
+- 🔁 لو goiter غير مؤلم ← Hashimoto/painless thyroiditis. Subacute: ESR عالي وuptake واطي.
+- [[3]] 🔑 dyslipidemia + fatigue + 5-month history → Thyroxine
+- 🔁 الـdyslipidemia هنا ثانوي (hypothyroidism) ← عالجي الـthyroid أول. لو TSH طبيعي ← Statin.
+- [[4]] 🔑 increased sleepiness, fatigue, and constipation + overweight + very healthy diet → Hashimoto's thyroiditis
+- 🔁 لو الغدة مؤلمة + ESR ← Subacute thyroiditis. لو hyper ← Graves.
+- [[5]] 🔑 firm, mobile, non-tender nodule + most appropriate initial test + thyroid enlargement → Thyroid stimulating hormone (TSH)
+- 🔁 TSH أول. TSH واطي ← Scan. TSH طبيعي ← FNA.
+## 📋 الغدة الدرقية
+- أي شك بالغدة أو nodule ← TSH أول فحص
+| الحالة | المفتاح |
+| Hashimoto | تعب + إمساك + TSH عالي + anti-TPO |
+| Graves | diffuse goiter + exophthalmos + uptake متوزع |
+| Toxic nodular | عقدة + hyperthyroid + hot nodule |
+| Subacute (de Quervain) | بعد URTI + ألم بالرقبة + حرارة + ESR عالي + uptake واطي |
+- Dyslipidemia مع hypothyroid ← عالجي الغدة أول (thyroxine)
+== Adrenal & pituitary
+q: A 26-year-old man is admitted with acute severe asthma. Treatment is initiated with 100% oxygen, nebulized salbutamol, ipratropium bromide nebulizers, and IV hydrocortisone. Despite initial treatment, there is no improvement. Examination reveals that he is in respiratory distress, cannot complete full sentences, and has bilateral expiratory wheezing. Which of the following is the most appropriate IV emergency treatment? | A. Magnesium sulfate @GB-0026
+idea:
+- [[0]] 🔑 no improvement + most appropriate IV emergency treatment + ipratropium bromide nebulizers → Magnesium sulfate
+- 🔁 لو drowsy/silent chest ← Intubation. Magnesium sulfate هو أول IV بعد الفشل.
+== Calcium, bone & vitamin D
+q: A 78-year-old man known to have type 2 diabetes mellitus, hypertension, and chronic kidney disease is complaining of fatigue and nausea. He denies any change in consciousness, seizures, abdominal pain, vomiting, chest pain, or shortness of breath. He is on insulin, lisinopril, amlodipine, erythropoietin, and vitamin D. Examination reveals that he is drowsy but not in distress (see lab results). Which of the following is the most appropriate next step in management? | D. Calcium gluconate @GB-0129
+q: A 23-year-old man known to have Hodgkin's lymphoma, undergoing chemotherapy, developed tumor lysis syndrome. Which of the following is the most likely expected disturbance? | C. Hyperkalemia and hypocalcemia @GB-0142
+q: A 65-year-old woman with long-standing chronic renal failure presents with aches and pains for 1 month. Physical examination is unremarkable apart from general pallor (see lab results). Which of the following is the most appropriate next step in management? | A. Oral calcitriol @GB-0164
+idea:
+- [[0]] 🔑 fatigue and nausea + chronic kidney disease + lisinopril → Calcium gluconate
+- 🔁 K عالي مع ECG changes ← Calcium gluconate أول. K عالي بدون ECG changes ← Insulin + glucose.
+- [[1]] 🔑 tumor lysis syndrome + Hodgkin's lymphoma + undergoing chemotherapy → Hyperkalemia and hypocalcemia
+- 🔁 TLS: K↑ وphosphate↑ وuric acid↑ وCa↓.
+- [[2]] 🔑 long-standing chronic renal failure + aches and pains for 1 month + general pallor → Oral calcitriol
+- 🔁 CKD bone disease ← Calcitriol (active vitamin D). Vitamin D3 للـnutritional deficiency.
+# Hematology & Oncology
+== Anemia & hemoglobinopathies
+q: A 32-year-old woman presents to the clinic with decreased exercise tolerance and ice cravings for the past several months. Medical history is notable for celiac disease diagnosed 7 years ago, and she is not compliant with a gluten-free diet. Her only medication is ferrous sulfate tablets 325 mg once daily, which she has been taking for 12 weeks after being diagnosed with iron deficiency anemia. Examination reveals a thin patient with normal vital signs, pale conjunctivae, and nail beds. Cardiac examination reveals a grade 2/6 systolic flow murmur (see lab results). Which of the following is the most appropriate treatment? | B. Intravenous iron preparation @GB-0063
+q: A 16-year-old boy came to the Emergency Department complaining of exertional dyspnea and easy fatiguability for the past few weeks. His parents admitted that he used to be a sick child requiring multiple hospital admissions and frequent blood transfusions. His parents are related. He was found to be pale, jaundiced, and have hepatosplenomegaly, with a scar from laparoscopic cholecystectomy (see lab results). Which of the following has the highest diagnostic value? | D. Hemoglobin electrophoresis @GB-0137
+q: A 38-year-old woman presents to the Emergency Department with increased shortness of breath on exertion, palpitations, and fatigue for one week. Physical examination reveals pale conjunctiva and splenomegaly. Peripheral blood smear shows spherocytosis (see lab results). Which of the following is the most appropriate treatment? | C. Corticosteroid therapy @GB-0191
+q: A 30-year-old woman presents to the clinic with a 3-month history of palpitations and fatigue. Physical examination is unremarkable (see lab results). Which of the following is the most appropriate treatment? | D. Oral iron supplementation @GB-0192
+q: A 55-year-old man presents to the clinic with a 3-month history of fatigue and lethargy. Examination reveals pallor but no organomegaly. Which of the following is the most appropriate test to order next? | B. Fecal occult blood (FOB) @GB-0202
+idea:
+- [[0]] 🔑 celiac disease + ferrous sulfate tablets 325 mg once daily + ice cravings → Intravenous iron preparation
+- 🔁 لو الامتصاص طبيعي ← Oral iron يكفي. Malabsorption + فشل oral ← IV iron.
+- [[1]] 🔑 parents are related + frequent blood transfusions + pale, jaundiced, and have hepatosplenomegaly → Hemoglobin electrophoresis
+- 🔁 شك hemoglobinopathy (thalassemia/sickle) ← Hb electrophoresis أعلى قيمة.
+- [[2]] 🔑 spherocytosis + splenomegaly + pale conjunctiva → Corticosteroid therapy
+- 🔁 Coombs موجب ← AIHA ← Steroids. Coombs سلبي ← Hereditary spherocytosis (splenectomy).
+- [[3]] 🔑 3-month history of palpitations and fatigue + Physical examination is unremarkable → Oral iron supplementation
+- 🔁 لو MCV عالي + B12 واطي ← B12. لو Hb أقل من ٧ + أعراض شديدة ← Transfusion.
+- [[4]] 🔑 pallor but no organomegaly + 55-year-old man + 3-month history of fatigue and lethargy → Fecal occult blood (FOB)
+- 🔁 رجل ٥٥ + anemia ← دوري على GI blood loss (FOB/endoscopy). لو MCV عالي ← B12.
+## 📋 Anemia
+| الحالة | الجواب |
+| IDA | oral iron. ما استجاب مع celiac أو malabsorption ← IV iron |
+| أهل أقارب + نقل دم + تضخم طحال | Hb electrophoresis (thalassemia) |
+| Autoimmune hemolytic (Coombs إيجابي) | corticosteroids |
+| رجل أو امرأة بعد سن اليأس + IDA | ابحثي عن نزيف GI |
+| CKD | iron studies ← erythropoietin |
+== DVT & anticoagulation  (1/2)
+q: A 59-year-old man is evaluated in the hospital for progressive shortness of breath and hypoxia 20 hours after undergoing surgery for colonic adenocarcinoma with known liver metastases (see report). CT angiography: Shows a right lower lobe pulmonary embolism. Which of the following is the most appropriate initial treatment? | B. Enoxaparin @GB-0058
+q: A 58-year-old woman presents to the follow-up clinic. She is known to have idiopathic deep venous thrombosis and is on warfarin, which was initiated 6 weeks ago. The examination is unremarkable (see lab result). Which of the following is the most appropriate management in addition to withholding warfarin? | B. Re-measure INR in 2 days @GB-0064
+q: A 31-year-old woman known to have rheumatic mitral stenosis recently developed atrial fibrillation, for which she was placed on warfarin therapy. What is the most appropriate target of the international normalized ratio (INR) range? | C. 2.0-3.0 @GB-0066
+q: A 65-year-old man came to the Emergency Room after his wife said he went to bed without complaints but woke up 2 hours later unable to walk or speak. He is known to have type 2 diabetes mellitus, hypertension, dyslipidemia, and osteoarthritis, and is on insulin, metformin, candesartan, hydrochlorothiazide, aspirin, and atorvastatin. Examination reveals he is conscious but disoriented. Right side of his body has power of 2/5 (see image). Which of the following is the most appropriate next step? | D. rtPA (recombinant tissue plasminogen activator) @GB-0116
+q: A 22-year-old man presented to the Emergency Room with left leg swelling and pain that started 2 days ago and is getting worse. It involves the whole left leg. He also complains of chest tightness and shortness of breath. Examination reveals left lower limb pitting edema extending to the thigh (see report). ECG: Sinus tachycardia. Which of the following is the most appropriate management at this time? | D. Unfractionated heparin @GB-0135
+q: A 43-year-old man presented to the hospital with right leg swelling and pain. He has a history of pulmonary embolism 5 years ago and is currently not taking any medications. Doppler ultrasound confirmed the diagnosis of proximal Deep Vein Thrombosis (DVT). Which of the following is the most appropriate management? | C. Long-term anticoagulation @GB-0147
+q: A 39-year-old man diagnosed with pancreatic cancer develops a swollen left lower limb during hospitalization. Examination reveals a tender, erythematous swelling affecting the left leg. Which of the following is the most likely diagnosis? | D. Deep vein thrombosis @GB-0161
+q: A 35-year-old man, who was medically free, was admitted to the Intensive Care Unit with massive pulmonary embolism. Which of the following is the most appropriate initial treatment? | B. Thrombolysis @GB-0189
+idea:
+- [[0]] 🔑 right lower lobe pulmonary embolism + colonic adenocarcinoma with known liver metastases + progressive shortness of breath and hypoxia → Enoxaparin
+- 🔁 Cancer-associated PE ← LMWH (enoxaparin) أحسن من warfarin. لو severe renal impairment ← UFH.
+- [[1]] 🔑 withholding warfarin + warfarin, which was initiated 6 weeks ago + idiopathic deep venous thrombosis → Re-measure INR in 2 days
+- 🔁 INR عالي بدون bleeding: لو أقل من ١٠ ← Hold + أعيدي INR. لو أكثر من ١٠ ← Oral vitamin K. مع bleeding ← Vitamin K IV + PCC.
+- [[2]] 🔑 rheumatic mitral stenosis + atrial fibrillation + warfarin therapy → 2.0-3.0
+- 🔁 لو mechanical mitral valve ← INR 2.5–3.5. غير كذا ← 2–3.
+- [[3]] 🔑 woke up 2 hours later unable to walk or speak + Right side of his body has power of 2/5 + conscious but disoriented → rtPA (recombinant tissue plasminogen activator)
+- 🔁 لو CT فيه hemorrhage ← لا rtPA. لو خارج نافذة ٤٫٥ ساعة ← Aspirin.
+- [[4]] 🔑 left leg swelling and pain + chest tightness and shortness of breath + pitting edema extending to the thigh → Unfractionated heparin
+- 🔁 DVT/PE مشتبه ← Anticoagulation فورًا. UFH لو unstable أو كلى ضعيفة. LMWH لو stable.
+- [[5]] 🔑 history of pulmonary embolism 5 years ago + proximal Deep Vein Thrombosis + not taking any medications → Long-term anticoagulation
+- 🔁 First provoked DVT ← ٣ شهور. Recurrent/unprovoked ← Long-term anticoagulation.
+- [[6]] 🔑 pancreatic cancer + tender, erythematous swelling + swollen left lower limb → Deep vein thrombosis
+- 🔁 Cancer + hospitalization ← DVT (Doppler). لو fever + erythema ينتشر ← Cellulitis.
+- [[7]] 🔑 massive pulmonary embolism + Intensive Care Unit + medically free → Thrombolysis
+- 🔁 Massive/unstable ← Thrombolysis. Stable ← LMWH.
+## 📋 DVT و PE
+| الحالة | العلاج |
+| اشتباه PE | CT pulmonary angiography |
+| PE أو DVT عادي | LMWH (enoxaparin) أو DOAC |
+| Massive PE (hypotension) | thrombolysis |
+| DVT كبير أو كلى ضعيفة أو ممكن عملية | unfractionated heparin |
+| DVT ثاني مرة أو بدون سبب | long-term anticoagulation |
+| Cancer | LMWH |
+- INR عالي بدون نزيف ← وقفي warfarin وأعيدي INR. نزيف ← vitamin K + PCC
+- INR: AF و DVT ← 2–3. Mechanical mitral ← 2.5–3.5
+== DVT & anticoagulation  (2/2)
+q: A 60-year-old man with hypertension presents to the Emergency Room with sudden onset of retrosternal chest pain, dyspnea, and palpitations for 2 hours. His past medical history is significant for a non-hemorrhagic stroke 2 months ago (see lab results and report). ECG: ST-segment elevation in leads II, III, and aVF. Which of the following is the most appropriate treatment? | D. Percutaneous coronary intervention (PCI) @GB-0196
+idea:
+- [[0]] 🔑 ST-segment elevation in leads II, III, and aVF + non-hemorrhagic stroke 2 months ago + sudden onset of retrosternal chest pain → Percutaneous coronary intervention (PCI)
+- 🔁 Stroke قبل أقل من ٣ شهور = contraindication للـfibrinolytic ← PCI.
+# Neurology
+== Stroke & TIA
+q: A 55-year-old man is evaluated 2 days after having an episode of left arm weakness without pain that lasted 5 minutes. He is now asymptomatic. He has type 2 diabetes mellitus and dyslipidemia. Medications are aspirin, insulin, and atorvastatin. Physical examination shows that no carotid bruits or cardiac murmurs are heard on cardiac auscultation, and all other physical examination findings are normal (see report). Electrocardiogram: Normal sinus rhythm with no ST-segment or T-wave changes. Which of the following is the most appropriate initial imaging test? | B. Carotid duplex ultrasonography @GB-0057
+q: A 76-year-old man, known to have type 2 diabetes mellitus, hypertension, and dyslipidemia, presented to the clinic with exertional shortness of breath for 1 year. He has to slow down his walk and stop after 10 meters. He denied any history of syncope, chest pain, or palpitation. Precordium examination revealed a forceful apex beat and a crescendodecrescendo ejection systolic murmur radiating to the carotid. Which of the following is the most likely diagnosis? | B. Aortic stenosis @GB-0123
+q: A 62-year-old woman known to have type 2 diabetes mellitus, hypertension, dyslipidemia, and ischemic stroke 1 month ago, presented to the Emergency Room complaining of central stabbing continuous chest pain for 3 hours. She denied any dyspnea, palpitation, or change in consciousness. The patient is taking insulin, lisinopril, metoprolol, lipitor, and aspirin. Examination revealed she is in pain. She was started on oxygen, morphine, and sublingual nitroglycerin (see image). Which of the following is the most appropriate next step? | C. Urgent coronary angiography @GB-0124
+q: A 65-year-old man was brought to the Emergency Room by his wife after she noticed he was confused and behaving in a strange way. He had no fever, cough, shortness of breath, chest pain, headache, abdominal pain, vomiting, or loss of consciousness. He is known to have type 2 diabetes mellitus, hypertension, dyslipidemia, and osteoarthritis, and is on insulin, metformin, candesartan, hydrochlorothiazide, aspirin, and atorvastatin. Examination reveals that he is conscious but disoriented. Left leg power is 2/5, while the other limbs are 5/5. There is decreased sensation in the left leg. Other neurological exams are normal. Which of the following is the most likely explanation for his symptoms and signs? | C. Right ACA stroke @GB-0134
+q: An 85-year-old man admitted to the Intensive Care Unit following a massive stroke suddenly developed new weakness. Physical examination confirmed papilledema (see report). Emergency CT brain: Hemorrhagic transformation. Which of the following is the most definitive treatment? | C. Craniotomy and decompression @GB-0157
+idea:
+- [[0]] 🔑 left arm weakness without pain that lasted 5 minutes + no carotid bruits + type 2 diabetes mellitus and dyslipidemia → Carotid duplex ultrasonography
+- 🔁 لو deficit باقي أكثر من ٢٤ ساعة ← Stroke (MRI). لو AF ← anticoagulation.
+- [[1]] 🔑 crescendodecrescendo ejection systolic murmur radiating to the carotid + forceful apex beat + exertional shortness of breath → Aortic stenosis
+- 🔁 Mid-diastolic rumble ← Mitral stenosis. Early diastolic ← Aortic regurgitation.
+- [[2]] 🔑 central stabbing continuous chest pain + ischemic stroke 1 month ago + sublingual nitroglycerin → Urgent coronary angiography
+- 🔁 Stroke حديث = contraindication للـthrombolysis ← Primary PCI. بدون contraindication وPCI غير متوفر ← Thrombolysis.
+- [[3]] 🔑 Left leg power is 2/5 + decreased sensation in the left leg + confused and behaving in a strange way → Right ACA stroke
+- 🔁 ضعف الرجل ← ACA. وجه + يد ← MCA. أعراض خلفية ← Basilar.
+- [[4]] 🔑 Hemorrhagic transformation + papilledema + massive stroke → Craniotomy and decompression
+- 🔁 Mannitol جسر مؤقت. العلاج النهائي لـmass effect ← Decompressive craniotomy.
+## 📋 Stroke
+- TIA ← carotid duplex أول
+- Ischemic stroke أقل من 4.5 ساعة + CT ما فيه نزيف ← rtPA (wake-up stroke: من آخر مرة شافوه طبيعي)
+- ACA ← الرجل أكثر + سلوك غريب + incontinence. MCA ← الوجه والذراع + aphasia
+- Stroke كبير + papilledema (ضغط عالي) ← craniotomy و decompression
+== Seizures & epilepsy
+q: A 26-year-old man is evaluated in the Emergency Department 1 hour after having a firsttime generalized tonic-clonic seizure. He has never had a seizure previously or any episode of jerking, staring, confusion, or memory loss. He has had no recent illness and has no history of neurological problems. Birth and development were normal. There is no family history of seizures or epilepsy. He takes no medication and does not use illicit drugs. His vital signs are normal. Neurological findings are unremarkable. Results of laboratory studies show a normal complete blood count and metabolic panel. Which of the following is the most appropriate initial step in management? | C. Head CT scan @GB-0055
+q: A 24-year-old woman is seen in the preconception clinic. She was diagnosed with generalized tonic-clonic epilepsy 2 years ago. She is poorly controlled. Which of the following is the most appropriate next action? | D. Review medication @GB-0474
+idea:
+- [[0]] 🔑 firsttime generalized tonic-clonic seizure + normal complete blood count and metabolic panel + Neurological findings are unremarkable → Head CT scan
+- 🔁 لو focal deficit/fever/head trauma ← CT/LP مباشرة. بعد CT ← EEG وMRI.
+- [[1]] 🔑 generalized tonic-clonic epilepsy 2 years ago + poorly controlled + preconception clinic → Review medication
+- 🔁 Preconception + epilepsy غير مضبوط ← Review medication (valproate لازم يتغير) وfolic acid ٥ mg.
+## 📋 Seizures
+- أول seizure ← CT head (و glucose و electrolytes)
+- بنت تبي تحمل + epilepsy ما انضبطت ← راجعي الأدوية (لا valproate) + folic acid
+== Headache
+q: A 44-year-old woman is seen in the clinic with difficult-to-control asthma despite being on high-dose inhaled steroids and frequent courses of systemic steroids. She also has a history of allergic rhinitis and nasal polyps. She claims to use aspirin and ibuprofen for migraine almost daily. She is a non-smoker and works in a school. Examination reveals nasal polyps and bilateral expiratory wheezing on chest auscultation (see report). Chest X-ray: Normal. Which of the following is the most appropriate next step in management? | D. Discontinue aspirin and ibuprofen and start Montelukast @GB-0037
+q: A 33-year-old woman, who is known to have bronchial asthma and chronic sinusitis, is complaining of worsening shortness of breath and a cough that disturbs her sleep. She denied any fever, headache, or chest pain. Her medications include salbutamol MDI prn and paracetamol. Chest examination reveals bilateral expiratory wheezes. Which of the following should be added to the management plan? | B. Budesonide MDI @GB-0120
+q: A 20-year-old woman is brought to the Emergency Room with a 2-day history of headache, fever, photosensitivity, lethargy, and skin eruption. Her examination reveals a drowsy woman with neck rigidity but no focal neurological findings. She has a purpuric skin rash over her extremities (see lab results). Which of the following is the most appropriate investigation to establish the diagnosis? | C. Lumbar puncture @GB-0184
+idea:
+- [[0]] 🔑 ibuprofen for migraine almost daily + nasal polyps + difficult-to-control asthma → Discontinue aspirin and ibuprofen and start Montelukast
+- 🔁 لو ما فيه NSAID/polyps ← افحصي eosinophils وIgE (allergic/ABPA).
+- [[1]] 🔑 bronchial asthma + chronic sinusitis + cough that disturbs her sleep → Budesonide MDI
+- 🔁 لو الأعراض نادرة ← SABA بس. لو severe exacerbation ← Oral prednisone.
+- [[2]] 🔑 purpuric skin rash + neck rigidity + headache, fever, photosensitivity → Lumbar puncture
+- 🔁 Meningococcemia ← ابدئي ceftriaxone فورًا ولا تأخرين العلاج لأجل LP.
+== Movement disorders & dementia
+q: A 70-year-old man complains that he cannot remember things, sometimes forgetting names of friends, famous community figures, and telephone numbers. His wife fears he has Alzheimer’s disease. Physical examination is unremarkable apart from tender knee joints (see lab results). Which of the following is the most likely diagnosis? | C. Benign forgetfulness @GB-0160
+idea:
+- [[0]] 🔑 forgetting names + tender knee joints + cannot remember things → Benign forgetfulness
+- 🔁 Dementia ← يضعف وظائف الحياة اليومية ويتدهور. Benign forgetfulness ← يتذكر لاحقًا بدون تأثير.
+# Infectious disease
+== HIV & STIs
+q: A 69-year-old man complains of shortness of breath and weight loss for the last 6 months. He has a 40-pack-year smoking history and no TB or HIV risk factors (see reports). Chest X-ray: A large left-sided pleural effusion. Thoracentesis: 1,500 mL of bloody fluid that is strongly exudative by Light's criteria. Which of the following is the most appropriate next step? | B. CT chest with contrast @GB-0031
+q: A young man with HIV was admitted to the Intensive Care Unit with progressive shortness of breath, cough, and fever. Examination showed he was dyspneic and cyanosed (see report). Chest X-ray: Signs of ARDS. Which of the following is the most likely causative organism? | B. Pneumocystis jiroveci @GB-0082
+q: A 22-year-old man is evaluated for a 2-day history of dysuria and urethral discharge. He had recent sexual activity with a new female partner. He is afebrile, and his examination is unremarkable (see report). Which of the following is the most appropriate treatment? | B. Azithromycin @GB-0107
+q: A young man who is sexually active is evaluated in the clinic for clinical features that suggest gonorrhea. Which of the following tests is the most appropriate to establish the diagnosis? | C. Urethral swabs @GB-0111
+q: A 22-year-old prisoner presented with fever, productive cough, and weight loss for 3 weeks. He was admitted to isolation as a case of open tuberculosis (TB), and the next day, he was discovered to be HIV positive. Which of the following is the most appropriate management? | D. Start anti-TB therapy alone to prevent immune reconstitution inflammatory syndrome @GB-0159
+q: A 32-year-old man with HIV presents to the clinic for follow-up. He is generally doing well. However, Mantoux tuberculin test (PPD) after 48 hours is 6 mm. His chest radiography (CXR) is unremarkable. Which of the following is the best preventative measure for this patient? | B. Isoniazid and pyridoxine for 9 months @GB-0206
+idea:
+- [[0]] 🔑 1,500 mL of bloody fluid + strongly exudative + 40-pack-year smoking history → CT chest with contrast
+- 🔁 لو fever + pus ← antibiotics + drainage (empyema). لو cytology سلبي والشك عالي ← Thoracoscopy.
+- [[1]] 🔑 HIV + Signs of ARDS + dyspneic and cyanosed → Pneumocystis jiroveci
+- 🔁 PJP: CD4 أقل من ٢٠٠ + LDH عالي + ground-glass. لو CD4 عالي ← typical bacteria (S. pneumoniae).
+- [[2]] 🔑 dysuria and urethral discharge + new female partner + afebrile → Azithromycin
+- 🔁 لو gonorrhea مؤكد ← Ceftriaxone. المفتاح هنا يغطي chlamydia ← Azithromycin.
+- [[3]] 🔑 gonorrhea + sexually active + young man → Urethral swabs
+- 🔁 لو امرأة ← cervical swab/NAAT. Disseminated ← blood/joint culture.
+- [[4]] 🔑 HIV positive + open tuberculosis (TB) + 22-year-old prisoner → Start anti-TB therapy alone to prevent immune reconstitution inflammatory syndrome
+- 🔁 المفتاح: ابدئي anti-TB أول (تجنب IRIS). لو CD4 أقل من ٥٠ ← ابدئي ART خلال أسبوعين.
+- [[5]] 🔑 HIV + Mantoux tuberculin test (PPD) after 48 hours is 6 mm + chest radiography (CXR) is unremarkable → Isoniazid and pyridoxine for 9 months
+- 🔁 HIV + PPD ≥ 5 مم ← Latent TB ← INH + pyridoxine ٩ شهور. أقل من ٥ ← لا.
+## 📋 HIV و STIs
+- HIV + SOB + cyanosis + bilateral infiltrates ← Pneumocystis jirovecii ← TMP-SMX (و steroids لو PaO2 واطي)
+- Urethritis: gonorrhea ← ceftriaxone. Chlamydia ← azithromycin أو doxycycline
+- تشخيص gonorrhea ← urethral swab أو NAAT
+== TB  (1/2)
+q: A 61-year-old woman is evaluated for a left pulmonary nodule that was discovered incidentally 2 months ago. She is currently asymptomatic and has not had shortness of breath, fever, chills, weight loss, or night sweats. Medical history is otherwise unremarkable, and she takes no medications. She never smoked. Examination revealed no cervical or supraclavicular lymphadenopathy, and the lungs are clear to auscultation (see report). CT scan chest: Showed an 8 mm left lung nodule. Which of the following is the most appropriate next step in management? | D. Observation and regular follow-up @GB-0009
+q: A 30-year-old man presents with cough, fever, and right-sided pleuritic chest pain for 2 days. He is a non-smoker and works as a school teacher. He has no significant past medical history and does not take any medicine. Examination reveals bronchial breath sounds at the right lower chest (see report). Chest X-ray: Right lower lobe pneumonia and 25 mm pleural effusion on decubitus film. Which of the following is the most appropriate next step in the management? | A. Perform diagnostic thoracentesis @GB-0036
+q: A 32-year-old housemaid was brought to the Emergency Room with headache, confusion, and fever for 2 weeks. She just came from India 1 month ago. Examination reveals a confused patient with neck rigidity. Fundus examination shows papilledema (see lab results and report). Brain CT scan: No masses or hemorrhage. Which of the following is the most appropriate next step in management? | D. Start isoniazid (INH), rifampin, pyrazinamide, and ethambutol @GB-0088
+q: A 44-year-old Saudi man is evaluated because of a 3-month history of fever and back pain that radiates to his legs. His examination reveals bony tenderness over the entire back. Blood culture shows gram-negative coccobacilli. Which of the following is the most likely diagnosis? | A. Brucellosis @GB-0090
+q: A 50-year-old man known to have chronic viral hepatitis presented with ascites and was found to have a high serum ascites albumin gradient (SAAG) of more than 1.1. Which of the following is the most likely cause? | C. Liver cirrhosis @GB-0100
+q: A 35-year-old Indian man presents to the Emergency Department with lethargy, weight loss, and headache for 3 months. He has a history of contact with a tuberculosis patient several years ago. His neurological and ophthalmologic examination are unremarkable. He has a positive polymerase chain reaction for Mycobacterium tuberculosis (see lab results). Which of the following is the most appropriate treatment? | D. Isoniazid, rifampin, pyrazinamide, ethambutol and dexamethasone @GB-0101
+q: A 29-year-old nurse is evaluated in the clinic for employment contract renewal. She is asymptomatic, and her clinical examination is unremarkable. Her laboratory tests are within normal range. Her skin purified protein derivative (PPD) test after 48 hours is 12 mm. Which of the following is the most appropriate management? | C. Isoniazid 300 mg daily for 6 months @GB-0102
+q: A 35-year-old man presents to the clinic with a 4-month history of fever, night sweats, fatigue, arthralgia, and lower back pain. He had a history of unpasteurized milk ingestion. His examination reveals right knee arthritis and limited spinal movements. His cardiopulmonary examination is unremarkable (see lab results and reports). Right knee joint aspiration: WBC 15,000 (0-200). Blood culture: Negative. Which of the following is the most appropriate next action? | D. Serology for brucellosis @GB-0105
+idea:
+- [[0]] 🔑 8 mm + never smoked + incidentally → Observation and regular follow-up
+- 🔁 لو smoker أو الـnodule أكبر/high risk ← PET/CT. لو كبر بالمتابعة ← biopsy/resection.
+- [[1]] 🔑 25 mm pleural effusion on decubitus film + Right lower lobe pneumonia + right-sided pleuritic chest pain → Perform diagnostic thoracentesis
+- 🔁 لو effusion صغير جدًا (أقل من ١ سم) ← antibiotics بس.
+- [[2]] 🔑 papilledema + just came from India 1 month ago + headache, confusion, and fever for 2 weeks → Start isoniazid (INH), rifampin, pyrazinamide, and ethambutol
+- 🔁 شك TB meningitis ← ابدئي anti-TB (مع steroids) ولا تنتظرين culture.
+- [[3]] 🔑 gram-negative coccobacilli + Saudi man + 3-month history of fever and back pain → Brucellosis
+- 🔁 لو acid-fast bacilli ← TB spine (Pott). لو ملامسة ماشية/حليب خام ← Brucellosis.
+- [[4]] 🔑 serum ascites albumin gradient (SAAG) of more than 1.1 + chronic viral hepatitis + ascites → Liver cirrhosis
+- 🔁 SAAG أكثر من ١٫١ ← portal hypertension (cirrhosis). أقل من ١٫١ ← TB/nephrotic/pancreatitis.
+- [[5]] 🔑 positive polymerase chain reaction for Mycobacterium tuberculosis + headache for 3 months + weight loss → Isoniazid, rifampin, pyrazinamide, ethambutol and dexamethasone
+- 🔁 TB meningitis ← anti-TB + dexamethasone. لو TB رئوي بدون CNS ← anti-TB بدون steroids.
+- [[6]] 🔑 after 48 hours is 12 mm + nurse + employment contract renewal → Isoniazid 300 mg daily for 6 months
+- 🔁 لو أقل من ١٠ مم (healthcare) ← لا علاج. لو HIV ← ٥ مم كافية. latent TB ← INH ٦–٩ شهور.
+- [[7]] 🔑 unpasteurized milk ingestion + Blood culture: Negative + right knee arthritis → Serology for brucellosis
+- 🔁 لو Gram-positive cocci بالـaspirate ← Septic arthritis. حليب غير مبستر + sacroiliitis ← Brucella serology.
+## 📋 TB
+| الحالة | الجواب |
+| أعلى قيمة تشخيصية بالبلغم | Ziehl-Neelsen (AFB) |
+| Isolation | standard + airborne (negative pressure، N95) |
+| Latent (PPD إيجابي + CXR طبيعي) | isoniazid + pyridoxine 6–9 شهور |
+| Active | RIPE شهرين ثم RI أربع شهور |
+| TB meningitis | RIPE + dexamethasone |
+| HIV + TB جديد | ابدئي TB أول، ARV بعد أسبوعين (IRIS) |
+- PPD إيجابي: 5 mm (HIV، contact)، 10 mm (healthcare، مهاجر)، 15 mm (ما عنده شي)
+- Confusion + حرارة أسابيع + من الهند ← TB meningitis ← ابدئي RIPE
+## 📋 Brucellosis و ألم الظهر
+- حليب غير مبستر + حرارة + تعرق + ألم ظهر أو مفاصل ← brucella serology (titers)
+- العلاج: doxycycline + rifampin (أقل من 8 سنين: TMP-SMX + rifampin)
+- ألم ظهر التهابي بشاب + صلابة الصباح ساعة + يتحسن بالحركة ← ankylosing spondylitis ← MRI sacroiliac
+- علامات الألم الالتهابي: أقل من 40، بداية تدريجية، يتحسن بالحركة، يصحى منه بالليل
+== TB  (2/2)
+q: A patient with highly suspicious pulmonary tuberculosis is evaluated in the Emergency Department. Standard universal precautions are taken. Which of the following is the most appropriate infection control precaution during the assessment? | D. Standard and airborne precautions @GB-0110
+q: A 38-year-old woman who is not known to have any medical illness is referred to the clinic because of a chest x-ray that showed prominent hilar structures bilaterally. She is having onand-off cough but denies any history of shortness of breath, sputum production, chest pain, skin lesions, weight loss, fever, or contact with sick people. She is not a smoker. Examination reveals clear chest bilaterally (see lab results and reports). CT chest: Confirmed bilateral hilar lymphadenopathy, otherwise lung parenchyma was clear. CT-guided biopsy: Showed noncaseating granuloma. Which of the following is the most appropriate next step in management? | A. Observe @GB-0127
+q: A 70-year-old man presented to the Emergency Department complaining of increasing shortness of breath and a productive cough for the past 5 months. He has been a smoker for over 50 years. Over the course of 5 months, he complained of malaise, night sweats, fever, and has lost 10 kg over the last 3 months. Which of the following is the most likely diagnosis? | A. Lung carcinoma @GB-0138
+q: A 42-year-old homeless man was recently released from prison. He presented to the Emergency Room with a fever, productive cough, weight loss, and night sweats over the past 3 months (see report). Chest X-ray: Left lung apical infiltration. Sputum sample was collected and sent to the lab. Which of the following tests has the highest diagnostic value? | D. Ziehl-Neelsen stain @GB-0150
+q: A 46-year-old woman presented to the Emergency Room with back pain for 3 weeks associated with fever. She was sent home with NSAIDs and bed rest recommendations but returned after 2 days with the inability to move her legs. Examination revealed a febrile patient with tenderness in the mid-back and upper motor neuron signs in the lower limbs associated with weakness 3/5 (see lab results and report). MRI spine: Diffuse discitis in T6 vertebrae. Which of the following is the most appropriate next step in management? | B. Brucella titers @GB-0156
+idea:
+- [[0]] 🔑 pulmonary tuberculosis + infection control precaution + Standard universal precautions → Standard and airborne precautions
+- 🔁 TB وmeasles وvaricella ← Airborne. Influenza ← Droplet. C. diff ← Contact.
+- [[1]] 🔑 noncaseating granuloma + bilateral hilar lymphadenopathy + prominent hilar structures bilaterally → Observe
+- 🔁 Asymptomatic stage I sarcoid ← Observe. أعراض أو organ involvement ← Prednisone.
+- [[2]] 🔑 smoker for over 50 years + lost 10 kg + malaise, night sweats, fever → Lung carcinoma
+- 🔁 لو apical infiltrate + prison/homeless ← TB. لو fever حاد وقصير ← Pneumonia.
+- [[3]] 🔑 recently released from prison + Left lung apical infiltration + homeless man → Ziehl-Neelsen stain
+- 🔁 Ziehl-Neelsen ← AFB (TB). Thick/thin film ← Malaria.
+- [[4]] 🔑 Diffuse discitis in T6 vertebrae + upper motor neuron signs in the lower limbs + back pain for 3 weeks associated with fever → Brucella titers
+- 🔁 لو exposure لحليب/ماشية ← Brucella titers. لو TB endemic ← PPD/biopsy.
+== Meningitis & CNS infection
+q: A 44-year-old man is presented to the Emergency Room 8 hours after the sudden onset of a global, severe headache with associated neck stiffness. The headache is described as the strongest he has ever had. He is known to have hypertension but is noncompliant with his medications. Examination revealed a discomfortable and restless patient. Funduscopic examination is normal with the left pupil being 2 millimeters larger than the right and poorly reactive to light, and he has neck stiffness with passive movement (see report). Which of the following is the most appropriate next diagnostic test? | C. Lumbar puncture @GB-0056
+q: A 38-year-old woman known to have type 2 diabetes mellitus just returned from Makkah. She complains of fever, lethargy, and headache. She has no cough, chest pain, shortness of breath, abdominal pain, nausea, vomiting, or skin rash. Examination reveals a drowsy patient with positive neck stiffness (see report). Lumbar puncture: Low glucose, markedly increased protein, WBC 9000 with predominantly neutrophils. Which of the following is the most appropriate medication to start? | C. Ceftriaxone and vancomycin @GB-0132
+idea:
+- [[0]] 🔑 strongest he has ever had + left pupil being 2 millimeters larger + sudden onset of a global, severe headache → Lumbar puncture
+- 🔁 لو CT خلال ٦ ساعات طبيعي ← ما تحتاجين LP. بعد ٦ ساعات أو الشك عالي ← LP.
+- [[1]] 🔑 Low glucose, markedly increased protein, WBC 9000 with predominantly neutrophils + just returned from Makkah + neck stiffness → Ceftriaxone and vancomycin
+- 🔁 لو عمر فوق ٥٠ أو immunocompromised ← أضيفي Ampicillin (Listeria). Bacterial meningitis ← Ceftriaxone + vancomycin.
+## 📋 Meningitis و SAH
+- اشتباه meningitis ← ceftriaxone + vancomycin (و ampicillin لو فوق 50) + dexamethasone، ولا تأخرين العلاج للـLP
+- رجع من مكة + حرارة + صداع ← meningococcus
+- Purpuric rash + حرارة ← meningococcemia
+- صداع مفاجئ شديد ← CT أول. CT طبيعي ← LP (xanthochromia)
+== Neutropenic fever & fungal
+q: A 17-year-old man developed febrile neutropenia and shock post-chemotherapy for lymphoma. Which of the following is the most appropriate initial antibiotic? | A. Meropenem @GB-0083
+q: A 33-year-old woman was admitted to the hospital after a road traffic accident that resulted in multiple fractures and had undergone multiple orthopedic surgical procedures. She has a positive urinary culture for Candida albicans. She denies any history of fever or urinary symptoms. She had an indwelling urinary catheter. Her examination is unremarkable. Which of the following is the most appropriate management? | D. No antifungal therapy @GB-0106
+q: A patient with acute leukemia recently underwent allogenic bone marrow transplantation. After 2 weeks, she was neutropenic and developed a fever and cough. She was diagnosed with invasive aspergillosis based on radiological and microbiological assessment. Which of the following is the most appropriate treatment? | D. Voriconazole @GB-0154
+q: A 69-year-old man is diagnosed recently with lymphoma and started on chemotherapy. On day 7 post 4th cycle, he presented to the Emergency Room with fever. Examination precludes any underlying infection (see lab results). Which of the following is the most appropriate treatment? | D. Empiric IV antibiotics in a hospital setting @GB-0169
+q: A 55-year-old man with acute myeloid leukemia on chemotherapy presents to the Emergency Room with a 1-day history of fever. His physical examination is unremarkable. His chest radiograph and urinalysis are normal. Blood and urinary cultures are taken (see lab results). Which of the following is the most appropriate next step in management? | A. IV antibiotics @GB-0186
+idea:
+- [[0]] 🔑 febrile neutropenia + shock + post-chemotherapy for lymphoma → Meropenem
+- 🔁 لو stable ← Piperacillin-tazobactam أو cefepime. مع shock ← Meropenem. Vancomycin بس لو catheter/skin/MRSA.
+- [[1]] 🔑 positive urinary culture for Candida albicans + denies any history of fever or urinary symptoms + indwelling urinary catheter → No antifungal therapy
+- 🔁 Candiduria بدون أعراض ← شيلي الـcatheter وبدون antifungal. لو symptomatic/neutropenic ← Fluconazole.
+- [[2]] 🔑 invasive aspergillosis + allogenic bone marrow transplantation + neutropenic → Voriconazole
+- 🔁 Aspergillus ← Voriconazole. Candida ← Echinocandin. Mucor ← Amphotericin.
+- [[3]] 🔑 On day 7 post 4th cycle + fever + lymphoma → Empiric IV antibiotics in a hospital setting
+- 🔁 Febrile neutropenia ← Empiric IV antibiotics فورًا في المستشفى. بس low-risk ممكن oral.
+- [[4]] 🔑 acute myeloid leukemia on chemotherapy + 1-day history of fever + chest radiograph and urinalysis are normal → IV antibiotics
+- 🔁 Febrile neutropenia ← IV antibiotics فورًا. لو الحرارة استمرت ٤–٧ أيام ← أضيفي antifungal.
+## 📋 Febrile neutropenia
+- حرارة 38.3 مرة أو 38 لساعة + ANC أقل من 500 ← IV antibiotics بالمستشفى فورًا
+- أول دواء: antipseudomonal (meropenem أو pip-tazo أو cefepime). مع shock ← meropenem
+- ما تحسن 4–7 أيام ← antifungal. Aspergillus بعد BMT ← voriconazole
+- Candida بالـurine أو sputum بمريض مو neutropenic = colonization ← no antifungal
+== Vaccines & other infections
+q: A 20-year-old woman, recently married, presents with burning micturition for one week. Physical examination reveals suprapubic tenderness (see lab results). Which of the following is the most appropriate antibiotic? | A. Oral nitrofurantoin @GB-0163
+q: A 25-year-old woman received the first dose of the human papilloma virus vaccine 3 months ago and visited the clinic today. Which of the following is the most appropriate next step in management? | C. Give the second dose today @GB-0345
+q: A 20-year-old woman presented to the clinic with dysuria and suprapubic pain. No fever. Urine dipstick done (see lab results). Which of the following is the most appropriate management? | B. Start empiric treatment @GB-0392
+q: A 33-year-old woman presents to the Emergency Room with sudden severe abdominal pain for the last three hours, sharp in nature, and radiating to the right shoulder. She states that her cycles are irregular, and her LMP was six weeks ago. Examination reveals guarding and rigidity. Which of the following is the best option for this patient's management? | A. Laparotomy @GB-0462
+idea:
+- [[0]] 🔑 recently married + burning micturition for one week + suprapubic tenderness → Oral nitrofurantoin
+- 🔁 Uncomplicated cystitis ← Nitrofurantoin. لو fever/flank pain ← Pyelonephritis.
+- [[1]] 🔑 received the first dose of the human papilloma virus vaccine 3 months ago + 25-year-old woman → Give the second dose today
+- 🔁 HPV vaccine جدول ٣ جرعات: ٠، ١–٢، ٦ شهور. فاتت بعد ٣ شهور ← أعطي الجرعة التالية اليوم.
+- [[2]] 🔑 dysuria and suprapubic pain + No fever + 20-year-old woman → Start empiric treatment
+- 🔁 Uncomplicated cystitis ← Empiric treatment بدون انتظار culture.
+- [[3]] 🔑 guarding and rigidity + sharp in nature, and radiating to the right shoulder + LMP was six weeks ago → Laparotomy
+- 🔁 Peritonism + shoulder pain ← Laparotomy (مو methotrexate).
+## 📋 Zoster و التطعيمات
+- Shingles بتوزيع dermatome ← تشخيص clinical، ما يحتاج فحص
+- HPV vaccine: الجرعة الثانية بعد 1–2 شهر، والثالثة بعد 6 شهور. تأخرت ← كملي بدون إعادة

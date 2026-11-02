@@ -58,6 +58,7 @@ body { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 8.6pt; line-hei
 .ans b.h { display: block; font-size: .85em; letter-spacing: .5px; }
 .ans span { display: inline-block; margin-right: 3.5mm; }
 .idea { padding: 1.5mm 2mm; direction: rtl; text-align: right; }
+.idea li.l { direction: ltr; text-align: left; }
 .ok { font-weight: bold; text-decoration: underline; }
 .idea.ltr { direction: ltr; text-align: left; }
 .idea.ltr .lbl { text-align: left; }
@@ -108,7 +109,7 @@ def idea_html(lines):
             parts = [p.strip() for p in s[2:].split("→")]
             out.append('<div class="tree" dir="rtl">' + '<span class="a">←</span>'.join(f'<span class="n">{bidi(p)}</span>' for p in parts) + "</div>")
         elif s.startswith("- "):
-            out.append(f"<ul><li>{bidi(s[2:])}</li></ul>")
+            out.append(f"<ul><li>{bidi(s[2:])}</li></ul>" if AR.search(s) else f'<ul><li class="l">{bidi(s[2:])}</li></ul>')
         elif s:
             out.append(f"<div>{bidi(s)}</div>")
     flush()
