@@ -1,0 +1,72 @@
+# Gastroenterology & Hepatology
+== Hepatitis B serology: جدول واحد يحل الكل
+| HBsAg | Anti-HBs | Anti-HBc | التفسير | Q |
+| − | + | − | تطعيم (immunization) | 2510 3538 4097 4429 4519 |
+| − | + | IgG + | مناعة من عدوى قديمة | 2507 |
+| + | − | IgM + | Acute (عدوى نشطة، معدية) | 4311 |
+| + | − | IgG + (أكثر من 6 شهور) | Chronic hepatitis B | 1724 2658 3652 |
+| HAV IgM + | Anti-HBs + | | Acute hepatitis A (ومطعم ضد B) | 2511 2512 5021 |
+| HAV IgG + | Anti-HBs + | | مناعة للاثنين | 4846 |
+- HBeAg إيجابي = تكاثر ومعدي أكثر. Hepatitis A و E ← أكل أو ماي ملوث [4294]
+- [1275] المصدر ما حدد جواب ⚠
+== Hepatitis C و autoimmune و الأدوية
+| الحالة | الجواب | Q |
+| HCV RNA عالي | افحصي HBV co-infection | 1181 4084 |
+| Anti-HCV + و RNA + بعد نقل دم | Hepatitis C | 2839 4103 5011 |
+| Anti-HCV + و RNA − | ما يحتاج فحص | 4476 |
+| Cirrhosis بعد علاج HCV | US كل 6 شهور (HCC) | 1192 1193 0914 |
+| ASMA أو ANA + IgG عالي + jaundice | Liver biopsy | 2034 3725 |
+| Autoimmune hepatitis | Prednisolone | 2417 |
+| سمنة + DM + ANA (المصدر) | Steroid ⚠ | 1127 |
+| Ceruloplasmin واطي | Liver biopsy (Wilson) | 3245 |
+| HBV + paracetamol كثير | N-acetylcysteine | 2560 2879 4513 |
+| Amoebic liver abscess | Metronidazole | 2144 2145 |
+| Ascites جديد | Diagnostic tap | 4971 |
+| ترجيع شهور + جفاف + agitation | Electrolyte disturbance | 4352 5150 |
+- [3276 4291] المصدر ما حدد جواب ⚠
+== Variceal bleeding
+> نزيف varices → نعسان أو الدم يطلع من فمه: intubate (airway) → IV octreotide + ceftriaxone + دم → endoscopy (banding) → ما وقف: TIPS
+| الحالة | الجواب | Q |
+| نعسان + الدم من فمه | Intubation | 1978 2356 2357 |
+| IV دواء | Octreotide | 3429 5078 1540 |
+| Cirrhosis + نزيف + ascites | IV ceftriaxone (يقلل الوفيات) | 3102 |
+| ما وقف بالـbanding | TIPS | 0889 |
+| BP 80/50 | المصدر ما حدد ⚠ | 5000 |
+== Upper GI: GERD و PUD و H. pylori
+| الحالة | الجواب | Q |
+| حرقة بدون alarm | PPI أو omeprazole | 0773 0897 |
+| حرقة: النصيحة | لا ينسدح بعد الأكل | 1090 |
+| شاب + ألم بعد الأكل + ما فيه alarm | H. pylori test | 1517 |
+| H. pylori + | PPI + bismuth + metronidazole + tetracycline | 2773 3103 |
+| ألم يقل مع الأكل ويزيد بعد 3–4 ساعات | Duodenal ulcer (PUD) | 4688 2491 |
+| ما تحسن على PPI، أو فوق 55، أو FOB + | Endoscopy | 2654 4711 2593 3643 4290 4697 |
+| NSAIDs + نزيف + Hb واطي | EGD | 4901 1852 2819 3926 |
+| Melena + صدمة | IV fluids + blood | 4463 4808 |
+| ألم بعد الأكل + نوم (ECG طبيعي) | pH monitoring | 2636 |
+| Barrett | Intestinal metaplasia بالـesophagus | 1473 |
+| Achalasia | Pneumatic dilatation | 1963 |
+| أبوها عنده gastric cancer | قللي الملح | 1197 |
+| Urease سلبي + melena (المصدر) | Urea breath test ⚠ | 2146 |
+| ألم epigastric يرجع للظهر + شارب + amylase طبيعي | Chronic pancreatitis | 0492 0768 3041 |
+- [2042 2142 2592] المصدر ما حدد جواب ⚠
+== IBD و الإسهال
+| الحالة | الجواب | Q |
+| إسهال بالليل + نقص وزن (نيرس) | Fecal calprotectin | 3535 4649 4650 5027 |
+| Crohn على prednisone + نشط | Anti-TNF | 2813 3204 3514 4514 4666 1880 2189 |
+| UC severe (أكثر من 6 مرات + حرارة) | IV methylprednisolone | 2349 |
+| UC + جفاف | Ringer lactate | 2398 5026 |
+| UC من 8–10 سنين | Colonoscopy screening | 3578 |
+| Steroid dependent (المصدر) | Thiopurine | 3628 |
+| Severe colitis ما استجاب (المصدر) | Calcineurin inhibitor ⚠ | 3079 |
+| إسهال + ulcers + مفاصل | Colonoscopy + biopsy | 1671 |
+| أمه وأخوه نفس الشي + دم | FAP | 0403 |
+| Celiac: الأكل | تتجنب wheat و barley | 3122 3123 |
+| Dermatitis herpetiformis + انتفاخ | Gluten-free | 3216 3751 |
+| سافر + إسهال دهني + macrocytic | Tropical sprue | 3869 |
+| دجاج + إسهال بدم + campylobacter culture | Campylobacter | 3509 |
+| إسهال يزيد مع الأكل والضغط | IBS ← قللي الحار والدهون | 3268 |
+| Chemo + ألم RLQ + دم | CT abdomen (typhlitis) | 1309 1310 |
+| Neutropenia + hypotension + إسهال | Lactate + procalcitonin | 4654 |
+| أبوه colon cancer قبل 60 | Colonoscopy | 3544 |
+| Amitriptyline + احتباس بول | Drug-induced (anticholinergic) | 2566 |
+- [2131 2148 3475 3534 3008 5058] المصدر ما حدد جواب ⚠
