@@ -17,9 +17,10 @@ SRC, ITEMS, DECK, OUT, TITLE = sys.argv[1:6]
 CHROME = sorted(glob.glob("/opt/pw-browsers/chromium_headless_shell-*/*/chrome-headless-shell"))[-1]
 AR = re.compile(r"[؀-ۿ]")
 LAT = re.compile(r"[A-Za-z0-9][A-Za-z0-9'’\-/.+%±:&]*(?: (?:[A-Za-z0-9±][A-Za-z0-9'’\-/.+%±:&]*|\+|/|=|–))*")
-QID = re.compile(r"\b0\d{3}\b")
+QID = re.compile(r"\b\d{4}\b")
+PREFIX = os.environ.get("PREFIX", "GB-")
 
-items = {it["qid"][3:]: it for it in json.load(open(ITEMS, encoding="utf-8"))}
+items = {it["qid"]: it for it in json.load(open(ITEMS, encoding="utf-8"))}
 d = tempfile.mkdtemp()
 zipfile.ZipFile(DECK).extract("collection.anki21", d)
 c = sqlite3.connect(os.path.join(d, "collection.anki21"))
@@ -27,7 +28,7 @@ names = [f["name"] for f in list(json.loads(c.execute("select models from col").
 OPTS = {}
 for (flds,) in c.execute("select flds from notes"):
     f = dict(zip(names, flds.split("\x1f")))
-    OPTS[f["QNo"][3:]] = [(k, re.sub(r"^[A-Z]\.\s*", "", html.unescape(html.unescape(re.sub(r"<[^>]+>", "", t)))).strip())
+    OPTS[f["QNo"].split("-")[-1]] = [(k, re.sub(r"^[A-Z]\.\s*", "", html.unescape(html.unescape(re.sub(r"<[^>]+>", "", t)))).strip())
                           for k, t in re.findall(r'data-letter="([A-Z])">(.*?)</div>', f.get("OriginalQuestionHTML", ""), re.S)]
 
 
@@ -47,19 +48,21 @@ for ln in open(SRC, encoding="utf-8").read().splitlines():
     if ln.startswith("# "):
         secs.append([ln[2:].strip(), []])
     elif ln.startswith("== "):
-        cur = dict(title=ln[3:].strip(), rows=[], notes=[])
+        cur = dict(title=ln[3:].strip(), rows=[], notes=[], tree=[])
         secs[-1][1].append(cur)
     elif ln.startswith("|"):
         cur["rows"].append([x.strip() for x in ln.strip().strip("|").split("|")])
     elif ln.startswith("- "):
         cur["notes"].append(ln[2:].strip())
+    elif ln.startswith("> "):
+        cur["tree"].append([x.strip() for x in ln[2:].split("→")])
 
 num, seen = {}, set()
 n = 0
 for _, topics in secs:
     for tp in topics:
         tp["qs"] = []
-        for q in QID.findall(" ".join(" ".join(r) for r in tp["rows"][1:]) + " " + " ".join(tp["notes"])):
+        for q in QID.findall(" ".join(r[-1] for r in tp["rows"][1:]) + " " + " ".join(" ".join(re.findall(r"\[([0-9 ]+)\]", x)) for x in tp["notes"])):
             if q not in num:
                 n += 1
                 num[q] = n
@@ -89,6 +92,11 @@ td.q { white-space: nowrap; font-weight: bold; direction: ltr; text-align: left;
 .q { break-inside: avoid; margin-bottom: .9mm; }
 .q .o { padding-left: 3mm; color: #222; }
 .q .o span { margin-right: 2.5mm; }
+.rp { border: .8pt solid #000; border-radius: 1mm; padding: 0 1mm; font-weight: bold; }
+.tree { direction: rtl; display: flex; flex-wrap: wrap; align-items: center; gap: 1mm; padding: .8mm 2mm; font-size: 8pt; }
+.tree .n { border: .8pt solid #000; border-radius: 1.5mm; padding: .3mm 1.5mm; }
+.tree .a { font-weight: bold; }
+.tree:first-of-type { padding-top: 1.5mm; }
 .ok { font-weight: bold; text-decoration: underline; color: #000; }
 """
 body = f'<div class="top"><span>{html.escape(TITLE)}</span><span>جداول الحل</span></div>'
@@ -103,7 +111,7 @@ for sname, topics in secs:
         notes = "".join("<div>• " + bidi(re.sub(r"\[([0-9 ]+)\]", lambda m: f"(Q {refs(QID.findall(m.group(1)))})", x)) + "</div>" for x in tp["notes"])
         qs = ""
         for q in tp["qs"]:
-            it = items["GB-" + q] if "GB-" + q in items else items[q]
+            it = items[PREFIX + q]
             ans = it["ans"]
             o = ""
             for k, t in OPTS.get(q, []):
@@ -111,9 +119,11 @@ for sname, topics in secs:
                 o += f'<span class="{"ok" if ok else ""}">{"✔ " if ok else ""}{k}. {html.escape(t)}</span> '
             if not o or not re.match(r"[A-E][.)]", ans.strip()):
                 o += f' <span class="ok">✔ {html.escape(ans)}</span>'
-            qs += f'<div class="q"><b>{num[q]})</b> {html.escape(it["stem"])}{it["flag"]}<div class="o">{o}</div></div>'
-        body += (f'<div class="tp"><div class="tt">{bidi(tp["title"])}</div><table>{rows}</table>'
-                 + (f'<div class="notes">{notes}</div>' if notes else "") + f'<div class="qs">{qs}</div></div>')
+            badge = f'<span class="rp">مكرر {html.escape(it["rep"])}</span> ' if it.get("rep") else ""
+            qs += f'<div class="q"><b>{num[q]})</b> {badge}{html.escape(it["stem"])}{it["flag"]}<div class="o">{o}</div></div>'
+        tree = "".join('<div class="tree">' + '<span class="a">←</span>'.join(f'<span class="n">{bidi(x)}</span>' for x in br) + "</div>" for br in tp["tree"])
+        body += (f'<div class="tp"><div class="tt">{bidi(tp["title"])}</div>{tree}' + (f"<table>{rows}</table>" if rows else "")
+                 + (f'<div class="notes">{notes}</div>' if notes else "") + (f'<div class="qs">{qs}</div>' if qs else "") + "</div>")
 doc = f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head><body>{body}</body></html>'
 src = os.path.join(tempfile.mkdtemp(), "t.html")
 open(src, "w", encoding="utf-8").write(doc)

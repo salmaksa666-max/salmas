@@ -1,0 +1,50 @@
+# Hematology
+== Anemia: الخريطة اللي تحل أغلب الأسئلة
+> أنيميا → شوفي MCV
+> MCV واطي (microcytic) → ferritin → واطي = IDA ، عالي = chronic disease ، طبيعي + RBC عالي = thalassemia trait
+> MCV طبيعي + retics عالي + LDH عالي + haptoglobin واطي + indirect bilirubin عالي → hemolysis → Coombs
+> MCV عالي (macrocytic) → B12 و folate واطيين → دوري السبب بالأمعاء: celiac ، Crohn ، tropical sprue
+== Microcytic: IDA و thalassemia و chronic disease
+| السؤال أو القصة | الجواب | Q |
+| Most specific أو best to confirm IDA | Ferritin واطي | 0430 0431 1110 4842 4950 3363 |
+| "Most definitive" (حسب المصدر) | Bone marrow (iron stain) | 2989 3924 3925 5032 |
+| IDA عادي | Oral iron | 1160 |
+| على oral iron 12 أسبوع وما تحسن | IV iron | 2880 |
+| رجل، أو كبيرة بالعمر، أو بدون نزيف واضح | Upper و lower endoscopy | 3033 4505 4715 2599 |
+| RBC عالي + MCV واطي جدًا + Hb قريب من الطبيعي | β-thalassemia trait | 3374 5147 |
+| RBC عالي + microcytic (المصدر) | IDA ⚠ | 2963 |
+| Ferritin عالي + مرض مزمن (sarcoid) | Anemia of chronic disease | 0118 |
+| IDA + إسهال بدون دم | tTG (celiac) | 4789 2631 |
+| إسهال + aphthous ulcers + مفاصل + microcytic | Colonoscopy + ileal biopsy (Crohn) | 2166 |
+- Ferritin يرتفع مع الالتهاب، فـferritin طبيعي ما يستبعد IDA بمريض مريض
+- قاعدة الكلام: "specific أو best" ← ferritin. "definitive أو gold standard" ← bone marrow. "underlying cause" بكبير ← endoscopy و colonoscopy
+- [5002 3504] المصدر ما حدد جواب ⚠
+== Macrocytic
+| القصة | الجواب | Q |
+| إسهال مزمن + B12 و folate واطيين + سافر لآسيا | Tropical sprue | 0055 3870 |
+| شابة نحيفة + إسهال + انتفاخ + B12 و folate واطيين | Celiac | 3186 |
+| شاب + ألم بطن + إسهال بدون دم + MCV عالي | Crohn (terminal ileum) | 0211 |
+- Folate لحاله واطي ← فكري celiac (proximal). B12 واطي ← terminal ileum (Crohn) [3080]
+- AST أكثر من ALT بمرتين + يشرب ← alcoholic hepatitis [1266]
+== Hemolysis
+| القصة | الجواب | Q |
+| Hemolysis: أول أو next step | Direct Coombs | 2217 3082 |
+| Retics ما انطلب | Retics أول | 4914 |
+| بعد أكل (فول) أو دواء + Heinz bodies أو bite cells | G6PD | 2091 2496 5086 |
+| Mycoplasma: حلق + conjunctivitis + bullous lesions | IgM cold agglutinin | 2286 4438 5064 |
+| بول داكن + Coombs ما ذكر + spherocytes ما ذكرت | PNH | 4367 |
+| Coombs إيجابي + platelets واطية | Evans syndrome | 2527 |
+| حرارة + confusion + كلى + platelets واطية + anemia | TTP ← blood film (schistocytes) | 2847 2848 |
+| Platelets 5 + بدون schistocytes + نزيف لثة | ITP | 0195 0196 |
+| Sickle + enoxaparin + platelets نزلت | HIT | 4758 5010 |
+- [1097 3021 4915 4366] المصدر ما حدد جواب ⚠. Spherocytes بعد عدوى ← warm AIHA أو hereditary spherocytosis ← Coombs يفرق
+== Sickle cell
+| القصة | الجواب | Q |
+| تأكيد التشخيص | Hb electrophoresis | 0252 1912 |
+| وش ما يطلع بالـelectrophoresis بالـSS | HbA | 0408 0409 1204 |
+| نفس السؤال (المصدر) | Hb C ⚠ | 1203 |
+| Acute chest ما تحسن على antibiotics | Blood transfusion | 2997 |
+| حرارة أو رجفة أثناء نقل الدم | وقفي النقل فورًا | 2303 3722 |
+| Gallstones + leg ulcers + hemolysis | Sickle cell | 3786 |
+| Trait + زوجة سليمة | الخطر قليل | 2716 |
+- [0407] المصدر ما حدد جواب ⚠. Warfarin + نزيف + INR 7 + صدمة ← سوائل ودم + PCC + vitamin K [1901]
