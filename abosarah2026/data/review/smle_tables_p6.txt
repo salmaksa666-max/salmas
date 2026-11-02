@@ -1,5 +1,8 @@
 # Part 6: Milestones و Vaccines
 == Milestones و التغذية
+> preterm → التطور: العمر المصحح → التطعيم: العمر الحقيقي
+> 6 شهور يجلس بمساعدة، 12 يمشي مع الأثاث = طبيعي → ما يتفاعل مع الأطفال = اشتبهي autism
+> الأكل الصلب 6 شهور → colic أول 3 شهور
 | الحالة | الجواب | Q |
 | ما يلعب مع الأطفال بعمر 3 | Psychosocial (autism؟) | 1185 |
 | Preterm: احسبي العمر المصحح | طمني | 1186 |
@@ -13,6 +16,10 @@
 | T1DM: celiac screening | وقت التشخيص ثم كل سنتين | 1196 |
 - [1193 1195] المصدر ما حدد جواب ⚠
 == Vaccines: الجدول و catch-up
+> الجدول: 2 شهور = IPV، HBV، DTP، Hib، PCV، rota → 12 شهر = MMR، varicella، OPV، PCV → 4–6 سنين = MMR، varicella، DTP، OPV
+> فاته تطعيم = catch-up (ما نبدأ من الصفر)
+> تعرض لـchickenpox: سليم = varicella vaccine خلال 3–5 أيام → immunocompromised = VZIG → جاه وهو على chemo = acyclovir
+> steroids عالية (2 mg/kg لأكثر من أسبوعين) = لا live vaccines لين شهر بعد ما يوقف
 | الحالة | الجواب | Q |
 | شهرين | IPV، HBV، DTP، Hib، PCV، Rota | 1197 1198 |
 | سنة | OPV، MMR، varicella، PCV | 1199 |
@@ -35,6 +42,10 @@
 | Preschool | OPV | 1234 |
 - [1221 1226 1227] المصدر ما حدد جواب ⚠
 == Vaccines: موانع و سفر و tetanus
+> مرض خفيف أو حرارة خفيفة = أعطيه → moderate أو severe = أجليه → encephalopathy خلال 7 أيام من DTaP = موانع مطلقة
+> immunodeficiency أو بالبيت أحد immunocompromised = لا live (OPV، BCG، varicella) → IVIG قريب = أجلي الـlive
+> egg allergy = أعطيه MMR و flu عادي
+> سفر: أفريقيا = yellow fever + antimalarial → الهند = hepatitis A + typhoid → tetanus أكثر من 10 سنين = Tdap
 | الحالة | الجواب | Q |
 | تورم كبير أو حرارة 37.9 أو زكام | أعطيه الحين | 1237 1238 1240 1245 1246 |
 | Contraindication مطلقة للـDTaP | Encephalopathy خلال 7 أيام | 1239 |
@@ -61,6 +72,9 @@
 | Rash بعد MMR بـ3 أيام | Unrelated | 1309 |
 - [1310 1319] المصدر ما حدد جواب ⚠
 == Vaccines: الكبار و HBV
+> أم HBsAg + = الطفل vaccine + HBIG خلال 12 ساعة
+> الحامل = influenza (و Tdap) → rubella سلبية = بعد الولادة
+> 65 أو أكثر = pneumococcal (PCV ثم PPSV) → 50 أو أكثر = zoster → chemo = inactivated بس → splenectomy = بعد أسبوعين
 | الحالة | الجواب | Q |
 | أم HBsAg + | Vaccine + HBIG للطفل | 1266 1267 1268 |
 | أهل ضد التطعيم | صححي المعلومة واشرحي | 1269 1270 |
@@ -75,6 +89,10 @@
 | حج: meningococcal | 10 أيام قبل | 1298 |
 | أخذ 12 و 18 شهر مع بعض | أعطيها ولاحظي | 1303 |
 == GI و السوائل
+> إسهال → جفاف؟ → لا أو خفيف = ORS → شديد أو صدمة = IV bolus 20 mL/kg
+> maintenance (Holliday-Segar): 100 mL/kg لأول 10 kg + 50 للـ10 الثانية + 20 للباقي
+> بدم = bacterial (shigella = ceftriaxone أو azithromycin) → رضيع مائي = rotavirus → مطعم rota = norovirus
+> عضة حيوان مشبوه → اغسلي الجرح → rabies Ig + vaccine
 | الحالة | الجواب | Q |
 | إسهال بدم | Campylobacter | 1274 |
 | رضيع إسهال مائي | Rotavirus | 1275 1289 |
@@ -94,6 +112,10 @@
 | خفاش | Rabies Ig + vaccine | 1296 1297 |
 - [1324] المصدر ما حدد جواب ⚠
 == Child abuse و psychiatry و delirium
+> إصابة → القصة ما تطابق، أو كدمات بأعمار مختلفة، أو تأخر = abuse أو neglect → عالجي + بلغي
+> ADHD → أقل من 6 = parent training → بالبيت بس = اسألي المدرسة → autism = screening 18–24 شهر
+> كبير confused فجأة + حرارة = delirium → دوري السبب (UTI) وعالجيه
+> depression → أهم علامة الانعزال → insomnia = روتين نوم ثم CBT-I
 | الحالة | الجواب | Q |
 | قصة منطقية + تأخر | Neglect أو delayed presentation | 1332 1333 1339 |
 | حليب مخفف | تحضير الحليب غلط | 1334 1335 |

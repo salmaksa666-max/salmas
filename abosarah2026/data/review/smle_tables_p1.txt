@@ -1,37 +1,68 @@
 # Part 1: Hematology
-== Anemia
-> أنيميا → MCV → microcytic: ferritin (واطي IDA) ، RBC عالي = thalassemia ، basophilic stippling = lead → hemolysis (retics و LDH عالية، haptoglobin واطي) → Coombs ← + AIHA ، − spherocytosis أو G6PD
-| الحالة | الجواب | Q |
-| طفل حليب بقر وبسكويت + microcytic | IDA ← oral iron + diet | 0080 0079 0081 |
-| ياكل تراب + ferritin واطي | Pica مع IDA | 0078 |
-| أعلى قيمة لطفل ياكل تراب | CBC + smear | 0103 |
-| Pica + basophilic stippling + خطوط كثيفة بالعظم | Lead ← blood lead ← chelation | 0083 0104 0105 |
-| Specific أو confirm IDA | Ferritin واطي | 0110 0111 |
-| CKD + anemia | Iron studies | 0109 |
-| Definitive (المصدر) | Bone marrow | 0108 |
-| MCV واطي جدًا + RBC طبيعي أو عالي + طحال | Beta thalassemia | 0082 0086 0102 |
-| Frontal bossing + طحال | Hemoglobin (thalassemia) | 0089 |
-| Hydrops fetalis | Alpha thalassemia | 0101 |
-| Sickle: التشخيص | Hb electrophoresis | 0084 0085 0090 |
-| Sickle: وش ما يطلع | Hb A | 0072 |
-| Sickle + إصبع منتفخ | Dactylitis | 0088 |
-| Sickle + acute chest | Exchange transfusion | 0076 |
-| Sickle + RUQ مع الأكل | Chronic hemolysis (pigment stones) | 0094 |
-| Coombs + | AIHA | 0091 0092 |
-| نفس الأرقام + jaundice + gallstones | Hereditary spherocytosis | 0093 |
-| مولود jaundice بأول يوم + retics | Osmotic fragility | 0077 |
-| بعد الأكل أو دواء + hemolysis | G6PD | 0095 |
-| SLE + LDH عالي + haptoglobin واطي | Hemolytic | 0087 |
-| Splenectomy تعالج | Spherocytosis. الأشهر علاجه: ITP | 0099 0100 |
-| زوجين أقارب + أخت sickle | Genetic counseling | 0106 |
-| Trait + زوجة سليمة | Low risk | 0107 |
-| Pneumonia + jaundice يوم 3 | وقفي antibiotics | 0074 |
-| Pneumonia تحسن | وقفي ceftriaxone | 0073 |
+== الخريطة 1: أول سؤال تسألينه بأي أنيميا: كم الـMCV؟
+> Hb واطي → شوفي الـMCV
+> MCV واطي (microcytic) → خريطة 2: IDA ولا thalassemia ولا lead ولا chronic disease
+> MCV طبيعي + retics عالية → الجسم يصنع بس الدم يتكسر أو ينزف → خريطة 3: hemolysis
+> MCV عالي (macrocytic) → B12 أو folate → دوري سبب سوء الامتصاص بالأمعاء
+== الخريطة 2: Microcytic: أربع أسباب، كل واحد له مفتاح
+> MCV واطي → ferritin واطي → IDA (أكل: حليب بقر وبسكويت، أو نزيف)
+> MCV واطي → ferritin طبيعي + RBC عالي أو طبيعي + target cells → thalassemia (Hb electrophoresis)
+> MCV واطي أو طبيعي → basophilic stippling + pica + خطوط كثيفة بالعظم → lead poisoning
+> MCV واطي → ferritin عالي + مرض مزمن (SLE، sarcoid، CKD) → anemia of chronic disease
+| المفتاح بالسؤال | الجواب | ليش | Q |
+| طفل حليب بقر وبسكويت، ما ياكل لحم | IDA ← oral iron + غيري الأكل | حليب البقر فقير بالحديد ويسبب نزيف خفي بالأمعاء | 0080 0079 0081 |
+| ياكل تراب + ferritin واطي | Pica مع IDA | نقص الحديد نفسه يسبب الرغبة بأكل أشياء غريبة | 0078 |
+| ياكل تراب: أول فحص | CBC + smear | يفرق بين IDA و lead من شكل الخلايا | 0103 |
+| Basophilic stippling | Lead poisoning | الرصاص يعطل تصنيع الـheme ويترك بقايا RNA بالخلية | 0083 |
+| Pica + خطوط كثيفة بالـmetaphysis | Blood lead level | الخطوط هي الرصاص المترسب بالعظم | 0104 |
+| Lead مؤكد | Chelation (D-penicillamine) | يسحب الرصاص | 0105 |
+| "Specific" أو "single confirmatory" | Ferritin واطي | أدق رقم لمخزون الحديد بدون إبرة | 0110 0111 |
+| "Most definitive" | Bone marrow | الـgold standard، بس نادر نسويه | 0108 |
+| CKD + anemia | Iron studies أول | لازم نستبعد نقص الحديد قبل EPO | 0109 |
+| MCV واطي جدًا + RBC طبيعي أو عالي + طحال | Beta thalassemia | المشكلة بتصنيع السلسلة مو بالحديد، فالـRBC كثيرة وصغيرة | 0082 0086 0102 |
+| Frontal bossing + طحال كبير | Hemoglobin (thalassemia) | النخاع يتوسع بالعظم عشان يعوض | 0089 |
+| Hydrops fetalis | Alpha thalassemia major | ما فيه alpha أبدًا ← Hb Bart's ما توصل الأكسجين | 0101 |
+== الخريطة 3: Hemolysis: هل الدم يتكسر؟ وليش؟
+> علامات hemolysis: retics و LDH و indirect bilirubin عالية + haptoglobin واطي → أول فحص: Coombs
+> Coombs إيجابي → AIHA → steroids
+> Coombs سلبي + spherocytes أو gallstones أو طحال → hereditary spherocytosis → osmotic fragility
+> Coombs سلبي + بعد أكل (فول) أو دواء + bite cells → G6PD
+> Hb S بالـsmear → sickle cell → خريطة 4
+| المفتاح بالسؤال | الجواب | ليش | Q |
+| Coombs مباشر وغير مباشر إيجابيين | AIHA | أجسام مضادة على الكريات | 0091 0092 |
+| نفس الأرقام + jaundice + gallstones | Hereditary spherocytosis | التكسر المزمن يسوي حصوات pigment | 0093 |
+| مولود jaundice بأول 12 ساعة + spherocytes | Osmotic fragility | الخلايا الكروية تنفجر أسرع بالمحلول المخفف | 0077 |
+| بعد الأكل + أدوية (PPI) | G6PD | ما يقدر يحمي الكريات من الأكسدة | 0095 |
+| SLE + LDH عالي + haptoglobin واطي | Hemolytic | SLE يسبب AIHA | 0087 |
+| حرارة + confusion + platelets واطية + anemia | Blood film (schistocytes) ← TTP | الجلطات الصغيرة تقطع الكريات | 0097 |
+| إسهال بدم + كلى + platelets واطية | Stool culture ← HUS (E. coli) | السموم من الأكل غير المطبوخ | 0098 |
+| Splenectomy تعالج | Spherocytosis | الطحال هو اللي يكسرها | 0099 |
+| Splenectomy: الأشهر نسويها لـ | ITP | الطحال يكسر الـplatelets المغطاة بأجسام مضادة | 0100 |
+== الخريطة 4: Sickle cell
+> Sickle → التشخيص: Hb electrophoresis → HbSS: ما فيه Hb A أبدًا → HbAS (trait): Hb A موجود
+> Sickle + ألم وتورم إصبع → dactylitis
+> Sickle + hypoxia + infiltrate جديد → acute chest → exchange transfusion
+| المفتاح بالسؤال | الجواب | ليش | Q |
+| تأكيد التشخيص | Hb electrophoresis | يفصل أنواع الهيموقلوبين | 0084 0085 0090 |
+| وش ما يطلع بالـSS | Hb A | ما فيه beta طبيعية أبدًا | 0072 |
+| تورم إصبع | Dactylitis | انسداد الأوعية بعظام اليد | 0088 |
+| Acute chest + hypoxia | Exchange transfusion | تقلل نسبة HbS بسرعة | 0076 |
+| Sickle + RUQ مع الأكل | Chronic hemolysis (حصوات) | Pigment stones من التكسر | 0094 |
+| زوجين أقارب + أخت sickle | Genetic counseling | احتمال إنهم الاثنين حاملين | 0106 |
+| حامل للصفة + زوجة سليمة | الخطر قليل، وصفر لو فحصها سلبي | لازم الاثنين حاملين عشان يطلع مريض | 0107 |
+== متفرقات بنفس القسم
+| المفتاح بالسؤال | الجواب | ليش | Q |
+| Mycoplasma + jaundice يوم 3 | وقفي الـantibiotic | Drug-induced liver injury | 0074 |
+| Pneumonia تحسن | وقفي ceftriaxone (حوليه oral) | IV ما يحتاج بعد التحسن | 0073 |
 - [0075 0096] المصدر ما حدد جواب ⚠
 == النزيف و التخثر
+> نزيف → platelets واطية؟ → إيه: ITP أو TTP (schistocytes) أو HUS (إسهال بدم + كلى) أو HIT (heparin من 5–10 أيام)
+> platelets طبيعية → PT طويل بس: vitamin K أو warfarin → aPTT طويل بس: hemophilia (ولد، خاله) أو vWD (الأب والأم) → الاثنين: DIC أو كبد
+> تأخر الحبل السري + كل الفحوصات طبيعية → factor XIII
+> warfarin + نزيف خطير → PCC + vitamin K → DIC + fibrinogen واطي → cryoprecipitate → INR عالي قبل عملية → FFP
 | الحالة | الجواب | Q |
-| Fever + confusion + platelets + anemia | Blood film (schistocytes، TTP) | 0097 0112 |
-| بعد إسهال بدم + كلى (HUS) | Stool culture | 0098 0113 |
+| Fever + confusion + platelets + anemia | Blood film (schistocytes، TTP) | 0112 |
+| بعد إسهال بدم + كلى (HUS) | Stool culture | 0113 |
 | Warfarin + نزيف + صدمة | PCC | 0114 0115 |
 | Cirrhosis + عملية مستعجلة + INR عالي | FFP | 0116 |
 | PPH ما وقف + DIC | Cryoprecipitate | 0117 |
@@ -66,6 +97,10 @@
 | Ventouse + تورم يعبر الـsutures + صدمة | Subgaleal ← دم + سوائل | 0156 |
 - [0139 0149 0153] المصدر ما حدد جواب ⚠
 == Immunodeficiency و leukemia و lymph nodes
+> infections بكتيرية متكررة بولد → كل Ig ما تطلع + B cells غايبة → Bruton (XLA) → علاجه IVIG مدى الحياة
+> eczema + platelets صغيرة + infections → Wiskott-Aldrich → SCID → bone marrow transplant
+> pancytopenia + طحال أو كبد + bone pain → leukemia → "next" = blood film → "confirm" = bone marrow
+> lymph node: أقل من 2 cm وبدون أعراض → تابعي 4–6 أسابيع → أكبر أو B symptoms (حرارة، وزن، تعرق) → biopsy
 | الحالة | الجواب | Q |
 | ولد + infections + كل Ig ما تطلع + T طبيعي | X-linked (Bruton) agammaglobulinemia | 0157 0158 0159 |
 | XLA: العلاج | Immunoglobulin replacement | 0163 |
@@ -82,6 +117,10 @@
 | Node 2 cm بدون أعراض | Follow-up 4–6 أسابيع | 0186 0187 0189 0190 |
 # Part 1: Nephrology و Rheumatology
 == الكلى
+> تورم + بول → protein كثير (أكثر من 3.5) + albumin واطي = nephrotic → دم + ضغط + RBC casts = nephritic
+> nephritic بعد التهاب: 1–3 أيام = IgA nephropathy → 2–3 أسابيع (حلق) أو 3–6 (جلد) = PSGN (C3 واطي يرجع خلال 6–8 أسابيع)
+> AKI → جفاف أو ACE-I = pre-renal → دواء جديد + eosinophils = AIN → بعد catheterization = cholesterol emboli
+> acidosis + K واطي + urine pH عالي = distal RTA (type 1) → K عالي = type 4 → glycosuria + phosphaturia = proximal (Fanconi)
 | الحالة | الجواب | Q |
 | بعد التهاب حلق 3 أسابيع، أو impetigo | PSGN | 0195 0209 |
 | بعد حلق بـ3 أيام | IgA nephropathy | 0210 0196 |
@@ -107,6 +146,10 @@
 | حكة + creatinine 980 (المصدر) | Gouty arthritis | 0220 |
 - [0192 0215] المصدر ما حدد جواب ⚠
 == Rheumatology
+> مفصل واحد حار + حرارة → اسحبي سائل أول (septic) → needle negative = gout → rhomboid positive = pseudogout
+> مفاصل صغيرة متساوية + صلابة أكثر من ساعة = RA → DIP + sausage digits أو psoriasis = psoriatic → DIP + nodules صلبة بدون التهاب = OA
+> بنت + rash بالوجه + مفاصل + ulcers = SLE → activity: dsDNA و C3/C4 → كلى: biopsy → CNS: steroids + cyclophosphamide → كل مريض SLE: hydroxychloroquine
+> ألم ظهر التهابي بشاب = AS → شيكي العين (uveitis) → على MTX وما انضبط → biologic
 | الحالة | الجواب | Q |
 | Ulcers فم و genital + عين | Behçet | 0221 |
 | حرارة + ulcers + rash + protein | SLE | 0222 |
@@ -147,6 +190,9 @@
 | Hemoptysis + سمع + كلى | ANCA | 0290 |
 | Back pain بعد رياضة | NSAID + muscle relaxant | 0291 |
 == ألم المفاصل بالأطفال (Kocher)
+> طفل يعرج + ورك أو ركبة → Kocher: حرارة أكثر من 38.5، ما يمشي، ESR أكثر من 40، WBC أكثر من 12
+> صفر أو وحدة → toxic synovitis → NSAIDs وطمني
+> 3 أو 4، أو effusion بمفصل واحد → aspiration (septic arthritis) → بعد إسهال أو حلق بدون effusion = reactive → NSAIDs
 | الحالة | الجواب | Q |
 | ورك + effusion + يمشي + بدون علامات خطيرة | Toxic synovitis | 0262 0263 |
 | بعد gastroenteritis + بدون effusion | NSAIDs | 0264 0267 |
@@ -154,6 +200,9 @@
 - Kocher (septic): حرارة أكثر من 38.5، ما يحمل وزن، ESR أكثر من 40، WBC أكثر من 12. كل ما زادت زاد الخطر
 - [0265 0269] المصدر ما حدد جواب ⚠
 == Pediatric HTN و diabetes
+> طفل ضغطه عالي أكثر من مرة → ambulatory BP يأكد → سمين + acanthosis = primary → lifestyle
+> صداع + تعرق + خفقان = pheochromocytoma → metanephrines → K واطي + alkalosis = hyperaldosteronism → renin:aldosterone
+> T1DM → أول علامة كلى microalbuminuria → فحص سنوي urine albumin:creatinine
 | الحالة | الجواب | Q |
 | ضغط عالي بطفل أو مراهق سمين | Ambulatory BP | 0274 0280 0282 0285 |
 | نفس القصة بدون ABPM بالخيارات (المصدر) | Cortisol | 0281 |
@@ -165,6 +214,10 @@
 | T2DM: فحص سنوي | Urine albumin:creatinine | 0288 |
 - [0286] المصدر ما حدد جواب ⚠
 == Tumor lysis syndrome
+> chemo لـlymphoma (Burkitt، bulky DLBCL) أو ALL → K و phosphate و uric acid عالية + Ca واطي
+> الأعراض: ضعف وخفقان = K عالي → ألم عضلات أو QT طويل أو tetany = Ca واطي
+> العلاج: IV fluids أول → uric عالي أو خطر عالي = rasburicase → وقاية لو rasburicase مو موجود = allopurinol → phosphate عالي و uric طبيعي = phosphate binder
+> نرجع للـchemo لما: uric أقل من 476، creatinine أقل من 141، pH 7 أو أكثر
 | الحالة | الجواب | Q |
 | متى نرجع للـchemo | Uric أقل من 475 و creatinine أقل من 141 و pH 7 أو أكثر | 0295 0296 |
 | ضعف عضلات | Hyperkalemia | 0297 |

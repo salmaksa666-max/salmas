@@ -1,5 +1,8 @@
 # Part 3: Infection
 == Febrile neutropenia
+> حرارة + neutrophils أقل من 500 → cultures → antipseudomonal (cefepime أو pip-tazo) → shock = meropenem
+> ما تحسن + pneumonia أو line أو shock = أضيفي vancomycin
+> 3–7 أيام بدون تحسن وبدون سبب = antifungal (voriconazole أو amphotericin)
 | الحالة | الجواب | Q |
 | حرارة قبل أو بعد chemo | Extended-spectrum penicillin أو IV antibiotic | 0599 0600 |
 | + shock | Meropenem | 0601 |
@@ -8,6 +11,11 @@
 | نفس القصة بدون antifungal بالخيارات، أو pneumonia | Vancomycin | 0603 0605 0609 |
 | Meropenem + vancomycin وما تحسن | Blood culture | 0607 |
 == TB
+> contact أو PPD → CXR → طبيعي + بدون أعراض = latent (INH 6–9 شهور، أو rifampin + INH 3 شهور) → غير طبيعي أو أعراض = active (RIPE)
+> PPD: 5 mm (HIV، contact قريب) → 10 mm (healthcare، طفل أقل من 4) → 15 mm (ما عنده شي)
+> طفل أقل من 5 + contact = ابدئي INH مع الفحوصات
+> side effects: INH = تنميل (B6) → rifampin = بول برتقالي + يضعف warfarin → pyrazinamide = uric → ethambutol = العين
+> pulmonary TB = airborne isolation → TB meningitis = RIPE + dexamethasone
 | الحالة | الجواب | Q |
 | طفل contact + IGRA أو PPD + CXR طبيعي | Latent: rifampicin + INH 3 شهور | 0610 0611 0617 |
 | HIV + PPD 6 | INH + pyridoxine 9 شهور، أو rifapentine + INH 3 شهور | 0613 0614 0619 |
@@ -25,6 +33,11 @@
 | TB transmission | Air/droplet | 0749 |
 | TB meningitis | RIPE (+ dexamethasone) | 0752 0753 |
 == Meningitis
+> CSF: neutrophils + glucose واطي + protein عالي = bacterial → lymphocytes + glucose طبيعي = viral
+> lymphocytes + glucose واطي + أسابيع = TB → IVDU أو HIV = fungal (crypto)
+> تشنج أو confusion أو سلوك + lymphocytes = HSV encephalitis → acyclovir فورًا
+> gram + diplococci = pneumococcus → gram − diplococci = meningococcus → gram − coccobacilli = H. influenzae → gram + bacilli = Listeria (ampicillin)
+> meningococcus → prophylaxis للأهل: cipro جرعة أو rifampin يومين
 | الحالة | الجواب | Q |
 | Polymorphs + glucose واطي | Bacterial (S. pneumoniae) | 0629 0642 0644 |
 | Gram − coccobacilli | H. influenzae | 0758 0759 |
@@ -42,6 +55,9 @@
 | حج بدون تطعيم | Rifampicin يومين | 0719 |
 - [0720] المصدر ما حدد جواب ⚠
 == Pediatric UTI
+> أقل من 3 شهور = IV بالمستشفى → أكبر + مستقر = oral amoxicillin (حتى مع حرارة 39) → toxic أو ترجيع أو flank = IV
+> أول UTI أقل من 6 شهور أو متكرر = renal US → US غير طبيعي (hydronephrosis) = MCUG → scarring = DMSA
+> التشخيص: single organism أكثر من 10⁵ (أو أي نمو بالـsuprapubic)
 | الحالة | الجواب | Q |
 | فوق 3 شهور + مستقر (حتى مع حرارة 39) | Oral amoxicillin | 0650 0651 0652 0654 |
 | Toxic أو flank + ترجيع | IV antibiotics | 0653 0764 |
@@ -56,6 +72,9 @@
 | Central line + حرارة | Line infection | 0769 |
 - [0661 0663 0766] المصدر ما حدد جواب ⚠
 == Rash و transmission
+> rash من الوجه للجسم → حرارة عالية + Koplik + 3C (cough، coryza، conjunctivitis) + يتقشر = measles (airborne)
+> حرارة خفيفة + lymph nodes خلف الأذن + ما يتقشر = rubella (droplet)
+> sandpaper + strawberry tongue = scarlet fever (strep) → يد ورجل وفم = hand-foot-mouth (fecal-oral)
 | الحالة | الجواب | Q |
 | Measles: transmission | Airborne | 0737 0739 0740 0747 0748 |
 | Koplik + conjunctivitis + حرارة عالية | Measles | 0742 0743 0744 |
@@ -67,6 +86,9 @@
 | حكة شرجية + خيوط | Enterobius | 0716 |
 - [0741] المصدر ما حدد جواب ⚠
 == Brucella و pneumonia و malaria
+> حليب غير مبستر + حرارة + ظهر = brucella → doxycycline + rifampin (أقل من 8: TMP-SMX) → 6 أسابيع، spondylitis = 12
+> pneumonia + سفر أو hyponatremia + ما تحسن على amoxicillin = Legionella → مراهق + bilateral = mycoplasma
+> حرارة دورية + أفريقيا = blood film → ACT → وقاية + اكتئاب = atovaquone-proguanil → ترجع = vivax
 | الحالة | الجواب | Q |
 | Brucella + spondylitis بالـMRI | 12 أسبوع | 0722 |
 | بدون MRI | 6 أسابيع | 0723 |
@@ -83,6 +105,10 @@
 - [0721] المصدر ما حدد جواب ⚠
 # Part 3: GI و Pulmonology
 == IBD و IBS
+> إسهال مزمن → دم أو anemia أو نقص وزن أو بالليل = organic (IBD) → بدونها = IBS (clinical)
+> IBD → transmural + skip + ileum + fistula = Crohn → mucosa + متصل من الـrectum + دم = UC
+> Crohn بطفل = exclusive enteral nutrition → على steroids وما تحسن = anti-TNF → toxic megacolon ما استجاب = colectomy
+> functional ولا inflammatory = fecal calprotectin
 | الحالة | الجواب | Q |
 | UC أو toxic megacolon ما استجاب | Colectomy + end ileostomy | 0668 0670 |
 | Crohn بطفل | Exclusive enteral nutrition | 0669 |
@@ -96,6 +122,10 @@
 | IBD + جرح بالرجل | Pyoderma gangrenosum | 0712 |
 - [0678] المصدر ما حدد جواب ⚠
 == الكبد
+> ascites → SAAG أكثر من 1.1 = portal HTN (cirrhosis) → أقل = TB أو cancer → PMN 250 أو أكثر = SBP (IV antibiotics)
+> encephalopathy → lactulose + rifaximin → الأكل: protein (المصدر) → ascites يرجع = sodium أقل من 2 g
+> HBV: HBsAg + = infected → IgM core = acute → IgG core + أكثر من 6 شهور = chronic → anti-HBs بس = vaccinated → anti-HBs + IgG core = recovered
+> HBV ساء فجأة = hepatitis D → cirrhosis جديد = endoscopy (varices) → paracetamol = NAC
 | الحالة | الجواب | Q |
 | Ascites + PMN 250 أو أكثر | IV antibiotics (SBP) | 0681 0682 |
 | Encephalopathy: الأكل (المصدر) | Protein | 0683 0685 |
@@ -116,6 +146,9 @@
 | Autoimmune hepatitis | Prednisone + azathioprine | 0714 |
 - [0689] المصدر ما حدد جواب ⚠
 == Celiac و غيره
+> أعراض أو قريب درجة أولى (فوق 3) → tTG-IgA → إيجابي = duodenal biopsy (التأكيد)
+> celiac يتجنب wheat و barley → CKD أو dialysis يتجنب الطماطم والموز
+> مولود cholestasis + butterfly vertebrae + وجه مثلث = Alagille → autoimmune hepatitis = prednisone + azathioprine
 | الحالة | الجواب | Q |
 | tTG + EMA إيجابية | Duodenal biopsy | 0701 |
 | أخوه celiac وتحت 3 | طمني | 0702 |
@@ -126,6 +159,10 @@
 | Gastroparesis | Nuclear scan | 0700 |
 | Senna | Hypokalemia | 0715 |
 == Intubation و pneumonia
+> COPD أو asthma أو pneumonia + فشل تنفس → صاحي + CO2 عالي = NIV → وعي نازل أو gag ضعيف أو تعب = intubation
+> asthma + CO2 طبيعي أو عالي = تعبان ← intubate → COPD + O2 عالي + نعسان = قللي O2
+> بعد sepsis أو pneumonia + bilateral + hypoxia ما يتحسن = ARDS → أهم prognostic = ABG
+> طفل pneumonia + يشرب + O2 أكثر من 92 = oral amoxicillin → CO2 عالي = respiratory failure
 | الحالة | الجواب | Q |
 | COPD + وعي نازل | علامة failure ← intubate | 0772 0778 |
 | Pneumonia + pH 7.1 + agitated | Intubation | 0770 0771 |
@@ -145,6 +182,10 @@
 | زيادة إخراج CO2 | زيدي الـRR | 0832 |
 - [0774 0793] المصدر ما حدد جواب ⚠
 == Pleural و asthma و pneumonia
+> effusion → Light's (LDH أو protein ratio) → exudate = TB أو infection أو cancer → transudate = HF
+> asthma ما تحسن → شيكي الـtechnique → نوبة = oral steroids → مزمن شديد = ICS → الوقاية = environment
+> pneumonia بالـICU → ceftriaxone + azithromycin (أو moxifloxacin) → cavity = vancomycin
+> CF → براز دهني = enzymes → بلغم = antibiotics → MSSA = amox-clav
 | الحالة | الجواب | Q |
 | Exudate (LDH ratio 2) | TB | 0794 0795 |
 | شخير + CO2 | BiPAP بالليل | 0796 |

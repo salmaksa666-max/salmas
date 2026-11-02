@@ -1,5 +1,9 @@
 # Part 4: Neurology و Preventive
 == MS و neuromuscular
+> شابة + أعراض عصبية تروح وترجع → MRI with gadolinium (periventricular) → يدعم = oligoclonal bands → relapse = IV methylprednisolone
+> MS + العين ما تـadduct = MLF (INO) → تسوء مع الحرارة = Uhthoff
+> ضعف + reflexes: UMN + LMN + bulbar = ALS → يزيد آخر اليوم + ptosis = myasthenia (ACh antibodies) → بعد إسهال + areflexia = GBS (protein عالي + خلايا طبيعية)
+> رضيع + tongue fasciculations + areflexia = SMA → proximal weakness + reflexes موجودة = congenital myopathy
 | الحالة | الجواب | Q |
 | شابة + أعراض تجي وتروح + periventricular | MS | 0833 0834 0835 |
 | Relapse أو optic neuritis | IV methylprednisolone | 0836 0837 |
@@ -18,6 +22,9 @@
 | GBS + protein عالي | Cranial nerves | 0852 |
 - [0845] المصدر ما حدد جواب ⚠
 == Dementia
+> نسيان → الجديد أول + الشخصية سليمة = Alzheimer (cholinesterase inhibitor ← ما نفع: memantine)
+> stepwise + TIAs = vascular → كلمات بس والذاكرة سليمة = frontotemporal (temporal atrophy)
+> hallucinations + parkinsonism + autonomic = Lewy body (لا antipsychotics قوية، quetiapine)
 | الحالة | الجواب | Q |
 | Stepwise + TIAs | Vascular | 0853 |
 | ينسى الكلمات والذاكرة سليمة | Frontotemporal (temporal atrophy) | 0854 0858 |
@@ -28,6 +35,10 @@
 | Lewy + hallucinations | Quetiapine | 0861 |
 | Donepezil ما نفع | Memantine | 0862 |
 == Seizures
+> نوبة → ما صحى بين النوبات = status → benzodiazepine
+> أول نوبة → glucose + electrolytes → طاح أو focal أو نعسان = CT
+> النوع: jerky = myoclonic (valproate ← levetiracetam) → يوقف ثواني + 3 Hz = absence (ethosuximide) → يطيح = atonic → يمضغ ويحدق = temporal lobe → بالنوم + وجه = Rolandic
+> طفل + حرارة + نوبة قصيرة = simple febrile → طمني وعالجي سبب الحرارة
 | الحالة | الجواب | Q |
 | Jerky بيد | Myoclonic ← valproate ← levetiracetam | 0886 0888 0889 |
 | يطيح فجأة | Atonic | 0887 0899 |
@@ -48,6 +59,10 @@
 | أغمى عليه وقت الجري + murmur | Echo | 0911 |
 - [0910] المصدر ما حدد جواب ⚠
 == Stroke
+> stroke → CT بدون contrast → نزيف = نزلي SBP لـ140 → ما فيه نزيف + أقل من 4.5 ساعة = tPA
+> proximal occlusion + الأعراض باقية + أقل من 24 ساعة = thrombectomy → الأعراض راحت = observation
+> بدون tPA = ننزل الضغط بس فوق 220/120
+> TIA → carotid أقل من 70% = aspirin + statin → 70% أو أكثر = endarterectomy → شاب + DVT = PFO
 | الحالة | الجواب | Q |
 | TIA low risk | Aspirin | 0915 |
 | TIA + carotid أقل من 70% | Aspirin | 0916 0918 |
@@ -66,6 +81,9 @@
 | Stroke 4 ساعات | CT | 0951 |
 - [0917 0952] المصدر ما حدد جواب ⚠
 == وين الـlesion
+> crossed signs (وجه بجهة والجسم بالثانية) = brainstem → بلع + Horner + vertigo = lateral medulla (PICA) → وجه + سمع = AICA → pinpoint pupils = pons
+> الوجه والذراع + aphasia = MCA → الرجل + سلوك = ACA → hemianopia = PCA (occipital)
+> ضعف متساوي بدون sensory = lacunar (internal capsule) → ما يكتب ولا يفرق يمين ويسار = parietal
 | الحالة | الجواب | Q |
 | Vertigo + بلع + Horner + crossed | Lateral medulla (PICA) | 0929 0930 0931 0941 |
 | Vertical nystagmus + miosis + ataxia | Basilar | 0932 |
@@ -79,6 +97,9 @@
 | ما يعرف يستخدم الكوب | Parietal (apraxia) | 0942 0943 |
 | بعد SAH بأسبوع | Vasospasm | 0944 |
 == Screening
+> colon: من 45–50 كل 10 سنين → قريب درجة أولى قبل 60 = ابدئي 40 (أو 10 سنين قبله) كل 5 سنين → UC = 8–10 سنين بعد التشخيص
+> lung: 50–80 + 20 pack-year = low-dose CT → أقل = لا → AAA: رجل 65–75 دخن = US مرة
+> breast: mammogram كل سنة أو سنتين حسب العمر → prostate: أبوه كبير = طمني
 | الحالة | الجواب | Q |
 | رجل 65 مدخن | AAA | 0863 |
 | 65 بدون تدخين | Colon cancer | 0864 |

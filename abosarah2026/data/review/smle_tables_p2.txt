@@ -1,5 +1,9 @@
 # Part 2: Electrolytes، Diabetes، HTN، Lipids
 == الأملاح والكلى
+> ترجيع أو NG suction → يضيع H و Cl → metabolic alkalosis + K واطي → IV saline + KCl
+> Na واطي → شوفي الحجم: edema (HF، cirrhosis) = hypervolemic → thiazide عند كبير = أشهر سبب → بعد عملية + D5W = SIADH أو hypotonic → fluid restriction
+> K عالي → peaked T → wide QRS → sine wave → TLS: ضعف = K عالي، ألم عضلات = Ca واطي
+> CKD → phosphate عالي → Ca واطي → PTH عالي → قللي الطماطم والموز (K)
 | الحالة | الجواب | Q |
 | ترجيع أو NG + pH عالي + HCO3 عالي | Metabolic alkalosis | 0319 0320 |
 | Cirrhosis + edema + Na واطي | Hypervolemic hyponatremia | 0321 |
@@ -20,6 +24,10 @@
 | بعد عملية + D5W + Na 121 | Fluid restriction | 0342 |
 | CKD + DM + تشنج + labs شبه طبيعية | Unknown cause | 0328 |
 == Diabetes
+> سكر عالي → C-peptide واطي = type 1 → طبيعي أو عالي = type 2 → metformin أول
+> أعراض + fasting 7 أو أكثر أو random 11.1 = سكري → بدون أعراض = أعيدي التحليل أو OGTT
+> DKA (glucose عالي + ketones + HCO3 أقل من 15) → IV fluids + IV insulin → HCO3 طبيعي = مو DKA
+> hypoglycemia بالليل = قللي الـbasal → بعد الأكل أو الرياضة = قللي الـbolus (أو كلي قبلها)
 | الحالة | الجواب | Q |
 | C-peptide واطي | Type 1 | 0345 0346 0347 |
 | A1c منضبط على الأدوية | Reassurance | 0343 0344 |
@@ -35,6 +43,10 @@
 | ASCVD عالي + CKD + DM | Dapagliflozin | 0373 0406 |
 - [0352] المصدر ما حدد جواب ⚠
 == Hypertension
+> ضغط عالي → DM أو proteinuria أو CKD = ACE-I → حامل = لا ACE-I (methyldopa أو labetalol)
+> كحة = ACE-I ← غيريه لـARB → تورم لسان = angioedema من ACE-I
+> شاب + resistant → K واطي + alkalosis = aldosterone → خفقان وتعرق = pheochromocytoma → كلى غير متساوية أو bruit = renal artery stenosis
+> الأهداف: ICH أقل من 140 → DM + CKD أقل من 125/70 → 60 أو أكثر (JNC) أقل من 150
 | الحالة | الجواب | Q |
 | DM أو proteinuria | ACE-I | 0367 0383 0384 |
 | HTN + سمنة: screening | Fasting glucose | 0368 |
@@ -52,6 +64,10 @@
 | قراءة وحدة عالية | Ambulatory BP | 0403 |
 | بالعيادة عالي وبالبيت طبيعي | Risk ما ينحسب | 0412 |
 == Lipids و lifestyle
+> LDL عالي → بعد MI أو stroke أو DM = statin (هدف LDL أقل من 70 mg/dL أو 1.8) → على max statin = ezetimibe أو PCSK9 (evolocumab)
+> TG عالي → بدون علاج = lifestyle → على statin = omega-3
+> بدون أمراض + سمنة = lifestyle أول (Mediterranean diet، رياضة) → مدخن = وقف التدخين أهم شي
+> ألم عضلات على statin = السبب الـstatin → waist-hip ratio = أحسن مقياس للدهون البطنية
 | الحالة | الجواب | Q |
 | TG عالي بدون شي | Lifestyle | 0385 |
 | TG عالي على statin | Omega-3 | 0386 0387 0388 0389 0390 0391 |
@@ -81,6 +97,11 @@
 - [0416 0427] المصدر ما حدد جواب ⚠
 # Part 2: Cardiology
 == Ischemic heart disease
+> ألم صدر → ECG: ST elevation أو LBBB جديد = STEMI → PCI (لو بعيد: thrombolysis خلال 12 ساعة) → inferior MI = right-sided ECG
+> ST depression + troponin = NSTEMI → aspirin + clopidogrel + heparin
+> ألم مع الجهد + ECG طبيعي = exercise ECG → ما يقدر يمشي = dobutamine stress echo → ECG ما يتقرأ = myocardial perfusion
+> بعد MI بـ3–5 أيام + murmur جديد + صدمة = VSD rupture (أو papillary muscle = MR)
+> قبل thrombolysis = تأكدي ما فيه نزيف أو stroke قريب
 | الحالة | الجواب | Q |
 | ألم صدر + ECG طبيعي | Exercise ECG | 0438 |
 | ما يقدر يمشي (OA) | Dobutamine stress echo | 0439 |
@@ -104,6 +125,10 @@
 | HF أو COPD | BNP | 0474 0475 0476 |
 | Nitroglycerin | يقلل الـpreload | 0477 |
 == AF و arrhythmias
+> AF → mitral stenosis أو mechanical valve = warfarin → غير كذا = DOAC (apixaban) حسب CHA2DS2-VASc
+> rate control = beta blocker → HF = digoxin أو carvedilol → WPW + AF = amiodarone أو procainamide (لا AV blockers)
+> طفل SVT → unstable أو طاح أو وعي نازل = synchronized cardioversion → stable = adenosine
+> بعد فيروس + gallop + كبد كبير = myocarditis → echo (أول فحص: ECG) → إغماء وقت الجري = echo (HCM)
 | الحالة | الجواب | Q |
 | MS + AF | Warfarin (MR ← apixaban) | 0478 0484 |
 | AF + aortic sclerosis (المصدر) | Warfarin | 0479 |
@@ -129,6 +154,11 @@
 | WPW + AF | Amiodarone (لا AV blockers) | 0522 |
 - [0517] المصدر ما حدد جواب ⚠
 == الصمامات
+> systolic → ejection يروح للـcarotids = AS → pansystolic يروح للـaxilla = MR → click + late systolic = MVP
+> diastolic → early + wide pulse pressure = AR → mid-diastolic rumble بالـapex = MS → يزيد بالشهيق = right side (PR أو TR)
+> AS بدون أعراض = follow-up echo → أعراض (syncope، angina، SOB) أو EF واطي = valve replacement
+> prophylaxis قبل الأسنان = صمام صناعي أو endocarditis قبل → MVP أو MR لحالها = ما يحتاج
+> rheumatic: acute = MR → chronic = MS → أسوأ صمام بالحمل = MS
 | الحالة | الجواب | Q |
 | Ejection → carotids أو إغماء | Aortic stenosis | 0523 0524 0560 0565 |
 | Severe AS بدون أعراض | Follow-up echo | 0525 0526 0541 0551 0552 |
@@ -156,6 +186,10 @@
 | Rheumatic قديم + murmur | Echo الحين | 0596 |
 | ما يسبب steatorrhea | Atrial myxoma | 0571 |
 == Congenital heart disease
+> مولود أزرق أو الضغط أو SpO2 مختلف بين اليد والرجل أو femoral ضعيف → ductal-dependent → prostaglandin فورًا
+> boot-shaped = TOF → egg on string = TGA → شكل 3 بالأضلاع + ضغط مختلف = coarctation (echo يأكد)
+> Down = AVSD → Turner = coarctation → Noonan = pulmonary stenosis → trisomy 13 = VSD
+> أم SLE = complete heart block → أم DM = hypertrophic cardiomyopathy
 | الحالة | الجواب | Q |
 | Cyanosis أو ضغط مختلف بين الأيدي والرجول | Prostaglandin | 0572 0573 0574 0575 0576 0579 0580 0581 0582 |
 | تأكيد coarctation | Echo | 0583 |

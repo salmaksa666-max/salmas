@@ -1,5 +1,8 @@
 # Part 5: Pediatrics
 == Endocrine
+> مولود ambiguous genitalia + Na واطي + K عالي = CAH (21-hydroxylase) → hydrocortisone + saline + glucose
+> panhypopituitarism → hydrocortisone أول، بعدين thyroxine
+> URTI + رقبة تألم + ESR عالي = subacute thyroiditis → Graves بطفل = methimazole → حامل: أول trimester PTU، بعده methimazole
 | الحالة | الجواب | Q |
 | أكثر خطر adrenal crisis | Steroid أعلى جرعة وأطول مدة | 0953 |
 | CAH + Na واطي و K عالي أو ambiguous genitalia | IV hydrocortisone + saline (+ glucose) | 0954 0955 0956 0957 0960 |
@@ -20,6 +23,10 @@
 | Celiac يتجنب | Wheat أو barley | 0979 0980 |
 - [0974] المصدر ما حدد جواب ⚠
 == Growth و puberty و rickets
+> قصير → bone age متأخر + velocity طبيعي = constitutional (طمني) → velocity بطيء = GH deficiency → bone age طبيعي + أهله قصار = familial
+> وزن نزل percentiles = زيدي السعرات → ثابت على نفس الـpercentile = طبيعي
+> rickets (nutritional) → Ca و phosphate و vit D واطية + ALP عالي → vitamin D + calcium
+> رضيع يتعرق ويزرق وقت الرضاعة = قلب → cardiology
 | الحالة | الجواب | Q |
 | FTT + مشاكل اجتماعية | Multidisciplinary | 0981 |
 | يخففون الحليب | Hospitalization | 0982 |
@@ -39,6 +46,10 @@
 | GH طبيعي + IGF-1 واطي | GH deficiency | 1011 |
 | Velocity و bone age طبيعيين + أمه قصيرة | Familial short stature | 1012 |
 == Metabolic
+> مولود بعد أيام من الرضاعة + jaundice + cataract + reducing substances = galactosemia
+> مشاكل بعد ما بدأ فواكه أو عصير = fructose intolerance → ريحة سكر محروق + hypoglycemia + ketones = MSUD (قللي leucine)
+> ammonia عالي جدًا + apnea = urea cycle → dialysis → hypoglycemia + insulin عالي أو أم سكري = hyperinsulinism
+> طويل + عيون: تخلف = homocystinuria → بدون تخلف = Marfan (echo)
 | الحالة | الجواب | Q |
 | مشاكل بعد ما بدأ فواكه أو عصير | Fructose intolerance | 1013 1014 |
 | Seizure + hypoglycemia + ريحة سكر محروق | Maple syrup urine disease | 1015 1016 1017 1049 |
@@ -59,6 +70,10 @@
 | ترجيع + ريحة بول | UTI | 1050 |
 - [1032 1037] المصدر ما حدد جواب ⚠
 == Neonate
+> مولود ضيق تنفس → preterm + ground glass = RDS (surfactant) → C-section + fissures = TTN (O2، يتحسن خلال 24–72 ساعة) → meconium = MAS (± PPHN = nitric oxide)
+> مولود حرارة أقل من شهر = full septic workup + IV antibiotics
+> jitteriness → glucose أول → واطي = dextrose bolus → أم سكري = hypoglycemia + polycythemia + HCM
+> TSH عالي = levothyroxine فورًا → blueberry muffin = TORCH → cataract + PDA = rubella
 | الحالة | الجواب | Q |
 | Preterm + ground glass | Surfactant | 1051 |
 | TTN | Delayed clearance للسوائل | 1056 1063 |
@@ -93,6 +108,10 @@
 | Admission | Tachypnea | 1088 |
 - [1052] المصدر ما حدد جواب ⚠
 == ENT
+> stridor بالرضيع → يزيد على ظهره ويخف على بطنه = laryngomalacia (طمني، لو FTT أو apnea = ENT) → expiratory monophasic = tracheomalacia
+> حلق → Centor: RADT → إيجابي = penicillin V → سلبي بطفل = throat culture → بدون exudate = supportive → طحال + lymph nodes = mono
+> sinusitis أكثر من 10 أيام أو رجع = amoxicillin → ما تحسن 72 ساعة = amox-clav → حول العين + حركة محدودة = CT
+> OME = observe 3 شهور → مستمر + سمع = tubes → 7 نوبات tonsillitis بالسنة = adenotonsillectomy
 | الحالة | الجواب | Q |
 | 7 نوبات بالسنة أو OSA | Adenotonsillectomy | 1089 1090 |
 | URTIs كثيرة أو 4 بالسنة | Hygiene وطمني | 1091 1092 |
@@ -119,6 +138,11 @@
 | Conjunctivitis + tonsillitis | Adenovirus | 1120 |
 | رضيع URTI | RSV | 1121 |
 == Bronchiolitis و croup و epiglottitis
+> رضيع + زكام + wheeze = bronchiolitis (RSV) → supportive: O2 + suction + أكل → صدمة = intubation
+> barking cough + stridor بعد URTI = croup → dexamethasone → ما تحسن = racemic epinephrine
+> drooling + toxic + tripod + حرارة عالية = epiglottitis → intubate بالـOR
+> stridor فجأة بدون حرارة أو wheeze بجهة = foreign body → rigid bronchoscopy (أشهر مكان: right main)
+> rheumatic fever → prophylaxis: carditis + valve = لين 40 → carditis بدون valve = 10 سنين
 | الحالة | الجواب | Q |
 | Bronchiolitis | RSV | 1122 |
 | O2 89% | O2 + suction + أكل | 1123 1124 |
@@ -150,6 +174,9 @@
 | Polyhydramnios + NGT ملفوف + غاز | EA + TEF | 1157 |
 - [1136 1158] المصدر ما حدد جواب ⚠
 == CF و abdominal mass
+> CF → براز دهني = enzymes → infections = influenza vaccine → طفلين CF = افصليهم → CF diabetes = OGTT سنوي
+> كتلة بطن بطفل → أول فحص: US → hematuria + ضغط + ما تعبر المنتصف = Wilms (nephroblastoma)
+> calcification + paravertebral + catecholamines + تعبر المنتصف = neuroblastoma → تأكيد = biopsy
 | الحالة | الجواب | Q |
 | CF + براز دهني | Pancreatic enzymes | 1161 |
 | CF + infections | Influenza vaccine | 1162 1163 1164 |
