@@ -1,0 +1,68 @@
+# Pulmonology
+== Asthma
+> نوبة → علاج → ما تحسن، أو تعب + wheeze يقل + CO2 طبيعي أو عالي → intubation
+| الحالة | الجواب | Q |
+| بعد الـICU: تعبان + الـwheeze قل (silent chest) | Intubation | 2863 3771 4220 4635 4636 4673 |
+| Life-threatening | PEF 30% | 0860 |
+| يستخدم SABA أكثر | أضيفي ICS (budesonide) | 2619 3039 |
+| على LABA بس (salmeterol) | أضيفي ICS (beclometasone) | 0079 |
+| بعد نوبة + allergic rhinitis | Leukotriene antagonist | 0080 |
+| على ICS + LABA وما انضبط، أو بدأ herbal | شيكي الـinhaler technique والالتزام | 4254 4804 4805 5022 |
+| زوجها يدخن | الأهل يوقفون التدخين | 3479 |
+| زيارات ER متكررة | Environmental control | 2643 |
+| كحة مع الغبار + تحسن على salbutamol | Full PFT مع bronchodilator | 4884 |
+== COPD
+> COPD exacerbation → شوفي الوعي والـpH → صاحي + CO2 عالي: NIV → نعسان أو gag ضعيف أو pH أقل من 7.25 مع تعب: intubation → على O2 عالي وصار نعسان: قللي O2
+| الحالة | الجواب | Q |
+| نعسان أو RR بطيء أو gag ضعيف | Intubation | 1356 1641 1841 3168 3988 3989 4672 5140 1222 |
+| pH 7.24 بس (المصدر) | Mechanical ventilation | 1563 3835 4599 |
+| صاحي + CO2 عالي | NIV (BiPAP) | 4000 1221 |
+| على O2 عالي + نعسان + PaO2 عالي | قللي الأكسجين | 0857 2457 3188 5067 |
+| أحسن جهاز O2 | Venturi mask | 4050 4322 |
+| PaCO2 عالي | Type II respiratory failure | 2842 |
+| Agitated + شال الأكسجين | ABG | 4444 |
+| COPD + pneumonia + lorazepam + agitated | راجعي الأدوية + O2 | 2697 |
+| Exacerbation + بلغم وحرارة | O2 + antibiotics + prednisone | 4494 |
+| LABA + LAMA + exacerbations | أضيفي ICS | 2739 |
+| على SABA + كحة بالليل | أضيفي LABA | 3559 |
+| تشخيص أو تعب | Spirometry | 0212 4530 2698 |
+| مدخن سابق + COPD | Alpha-1 antitrypsin (المصدر) | 4682 5061 3700 |
+| Stable + SpO2 89–91% | Pneumococcal vaccine (مو O2) | 4363 |
+| Zoster قبل | أعطيها vaccine | 4536 |
+| VAP: الوقاية | رفع الراس 30–45 | 1518 4895 |
+- [4001 4219 4303] المصدر ما حدد جواب ⚠
+== Pneumonia و sepsis
+| الحالة | الجواب | Q |
+| اشتباه pneumonia | CXR | 3254 3256 |
+| مسن + DM + حرارة + بلغم | Admit + IV antibiotics | 3803 |
+| Pneumonia + كلى + hyponatremia | Legionella | 0418 |
+| Prisoner + بلغم ريحته + cavity بجدار سميك | Lung abscess ← antibiotics (± aspiration) | 0658 4174 5054 |
+| Pneumonia + O2 mask + نعسان | Mechanical ventilation | 2874 |
+| تحسن ← وش نوقف | Ceftriaxone (IV ← oral) | 3442 |
+| الوقاية | Pneumococcal vaccine | 4288 4922 |
+| Effusion 25 mm + pneumonia | Diagnostic thoracentesis | 0712 3832 |
+| CF + Staph حساس | كملي نفس الـantibiotic | 2271 3691 |
+| Septic shock بعد 6 L | Norepinephrine | 3359 |
+| Cardiogenic (pink sputum) | SVR عالي | 3327 |
+| بعد sepsis: confused بالليل | Delirium ← نوم منتظم | 3400 |
+| Hemolysis بعد chest infection (mycoplasma) | Atypical pneumonia | 3830 3883 |
+| بعد عملية أو جلسة + confusion + hypotension | Pulmonary embolism | 2941 |
+- [3428 3450] المصدر ما حدد جواب ⚠
+== Pleural، cancer، ILD، OSA
+| الحالة | الجواب | Q |
+| Stony dullness | Pleural effusion | 3295 |
+| TB effusion | Pleural ADA | 3259 |
+| Malignant effusion يرجع | Indwelling pleural catheter | 3313 3315 3316 3317 3318 |
+| Screening: مدخن 50–80، 20 pack-year | Low-dose CT | 4497 |
+| أقل من 50 أو ما يطابق | ما يحتاج screening | 4910 3542 |
+| Nodule مشبوه | أكبر من 2.5 cm (أو spiculated) | 2784 2785 |
+| Adenocarcinoma مكانه وحده | Surgical resection | 3325 |
+| Central mass + proximal weakness | Small cell (Lambert-Eaton) | 1829 |
+| Small cell + Na واطي (SIADH) | Fluid restriction | 1857 2771 |
+| Clubbing + crackles | HRCT | 4096 |
+| Bilateral hilar + lymph nodes | Lymph node biopsy (sarcoid) | 2229 |
+| سمين + نعسان + CO2 عالي | BiPAP بالليل | 2808 4482 |
+| Heartburn بعد الأكل | لا ينسدح بعد الأكل | 1088 |
+| GERD قديم + dysphagia | Endoscopy | 5134 |
+| حبوب تحت الإبط مزمنة | Hidradenitis suppurativa | 5118 |
+- [3257 3314 1770] المصدر ما حدد جواب ⚠
