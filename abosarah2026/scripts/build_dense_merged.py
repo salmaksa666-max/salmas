@@ -122,6 +122,9 @@ def classify(stem, opts, ans):
 
 
 SKIP = re.compile(r"^(Other versions? of this recall|↻|Same question as|The same question reappears|Same-version)", re.I)
+META = re.compile(r"^(Printed|Compiler|Recaller|Embedded|Inset|Answer (tagged|from|line|options?)|Handwritten|Source|Screenshot|Question-bank|October By Similar|MG |GB |Old recall|Slide|Image|Phone photo|Note options|Options? |Only |No (printed|answer|compiler)|Partial|Terse|Stem|Short|Long|Version|Same|Reference|The (compiler|recaller|stem|options?|printed)|Contributor|Highlighted|Circled|Red|Bold|Underlined|Arabic|\(|Literally|Text)", re.I)
+DIFF = re.compile(r"different answer|gives a different|answer (differs|changes)|MODIFIED", re.I)
+RULE = re.compile(r"\bif\b|→|->|rather than|instead of|\bnot\b|\bunless\b|= |\bbecause\b|\bpreferred\b|first[- ]line|contraindicat", re.I)
 items = []
 for spec in sys.argv[3:]:
     parts = spec.split(":")
@@ -129,9 +132,17 @@ for spec in sys.argv[3:]:
     tag = parts[2] if len(parts) > 2 else ""
     for it in its:
         s, tp = classify(it["stem"], [o for _, o in it["opts"]], it["ans"])
-        note = ex.get(it["qid"], {}).get("author", "")
-        note = " ".join(x for x in re.split(r"(?<=[.)])\s+(?=[A-Z↑↻O])", note) if not SKIP.match(x))
-        items.append(dict(it, sys=s, topic=tp, note=note, tag=tag))
+        exq = ex.get(it["qid"], {})
+        sents = re.split(r"(?<=[.;])\s+(?=[A-Z↑↻])", exq.get("author", ""))
+        keep = []
+        for x in sents:
+            x = x.strip()
+            if not x or SKIP.match(x) or META.match(x):
+                continue
+            if DIFF.search(x) or RULE.search(x):
+                keep.append(x)
+        note = " ".join(keep)[:230]
+        items.append(dict(it, sys=s, topic=tp, note=note, tag=tag, key=exq.get("key", ""), rule=exq.get("rule", "")))
 
 order = {k: i for i, k in enumerate(ALL_TOPICS)}
 import numpy as np
@@ -183,7 +194,47 @@ if os.environ.get("MAP"):
 
 e = lambda t: html.escape(t, quote=False)
 TOC = []
-body, cur_s, cur_t, n = "", None, None, 0
+for i, it in enumerate(items):
+    it["n"] = i + 1
+
+
+def kvec(t):
+    c = Counter(w for w in TOK.findall(t.lower()) if w not in STOP)
+    v = {w: (1 + np.log(x)) * np.log(N / df.get(w, 1)) for w, x in c.items()}
+    nr = np.sqrt(sum(a * a for a in v.values())) or 1
+    return {w: a / nr for w, a in v.items()}
+
+
+def summary(group):
+    """one bubble line per idea (key concept), similar ideas merged, with the question numbers"""
+    ideas = []
+    for it in group:
+        k = (it.get("key") or "").strip()
+        if not k:
+            continue
+        kv = kvec(k)
+        for idea in ideas:
+            if cos(kv, idea["v"]) >= 0.5:
+                idea["q"].append(it["n"])
+                break
+        else:
+            ideas.append(dict(t=k, v=kv, q=[it["n"]]))
+    ideas.sort(key=lambda d: (-len(d["q"]), d["q"][0]))
+    out = ""
+    for d in ideas:
+        t = re.sub(r"\.$", "", d["t"])
+        m = re.match(r"(.{6,120}?)(?::\s| = | -> | → )(.+)", t)
+        nodes = [m.group(1), m.group(2)] if m else [t]
+        qs = "، ".join(str(x) for x in d["q"][:12]) + ("…" if len(d["q"]) > 12 else "")
+        out += ('<div class="ch">' + '<span class="ar">→</span>'.join(f'<span class="nd">{e(x.strip())}</span>' for x in nodes)
+                + f'<span class="qn">Q {qs}</span></div>')
+    return f'<div class="bx sum">{out}</div>' if out else ""
+
+
+by_topic = defaultdict(list)
+for it in items:
+    by_topic[(it["sys"], it["topic"])].append(it)
+body, cur_s, cur_t = "", None, None
 for it in items:
     if it["sys"] != cur_s:
         TOC.append([it["sys"], None, 0])
@@ -194,11 +245,12 @@ for it in items:
         body += f'<div class="th">{e(it["topic"])}<span class="mk">@@M{len(TOC) - 1}@@</span></div>'
         if BOXES.get(it["topic"]):
             body += '<div class="bx">' + "".join(
-                '<div class="ch">' + '<span class="ar">←</span>'.join(
+                '<div class="ch" dir="rtl">' + '<span class="ar">←</span>'.join(
                     f'<span class="nd" dir="{"rtl" if AR.search(nd) else "ltr"}">{bidi(nd.strip()) if AR.search(nd) else e(nd.strip())}</span>'
                     for nd in x.split("→") if nd.strip()) + "</div>" for x in BOXES[it["topic"]]) + "</div>"
+        body += '<div class="slab">الزبدة: كل أفكار الموضوع (ورقم الأسئلة)</div>' + summary(by_topic[(it["sys"], it["topic"])])
         cur_t = it["topic"]
-    n += 1
+    n = it["n"]
     TOC[-1][2] += 1
     ans = it["ans"].strip()
     o = ""
@@ -215,8 +267,9 @@ for it in items:
         tg += '<span class="sm">= Sep</span>'
     elif it.get("same") == "diff":
         tg += '<span class="sm df">≈ Sep: جواب مختلف ⚠</span>'
-    nt = f'<div class="nt">✍ {e(it["note"])}</div>' if it["note"] else ""
+    nt = (f'<div class="nt">💡 {e(it["rule"])}</div>' if it.get("rule") else "") + (f'<div class="nt">✍ {e(it["note"])}</div>' if it["note"] else "")
     body += f'<div class="q"><b>{n}.</b>{tg} {rp}{e(it["stem"])}{it["flag"]}{o}{nt}</div>'
+n = len(items)
 
 CSS = f"""
 @page {{ size: A4; margin: 4mm 4mm 5mm; }}
@@ -236,6 +289,10 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .ch:last-child {{ border-bottom: none; }}
 .nd {{ border: .6pt solid #000; border-radius: .9mm; padding: .1mm .9mm; background: #fff; unicode-bidi: isolate; }}
 .ar {{ font-weight: bold; }}
+.bx.sum {{ direction: ltr; text-align: left; background: #f7f7f7; break-inside: auto; }}
+.ch {{ break-inside: avoid; }}
+.qn {{ font-size: .8em; color: #333; margin-left: .8mm; white-space: nowrap; }}
+.slab {{ direction: rtl; text-align: right; font-weight: bold; font-size: .9em; margin-top: .5mm; }}
 .sm {{ font-size: .82em; border: .4pt dashed #000; padding: 0 .4mm; margin-left: .5mm; }}
 .sm.df {{ font-weight: bold; border-style: solid; }}
 .mk {{ color: #fff; font-size: 1pt; }}
