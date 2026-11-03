@@ -85,6 +85,50 @@ SYSORDER = ["Hematology & Oncology", "Neurology", "Cardiology", "Pulmonology", "
             "Rheumatology", "Endocrinology", "Nephrology & Electrolytes"]
 _by = {s: tps for s, _, tps in SYS}
 ALL_TOPICS = [(s, t) for s in SYSORDER for t, _ in _by[s]] + [("Other", "Other")]
+def load_basics(path):
+    out, cur = {}, None
+    for ln in open(path, encoding="utf-8").read().splitlines():
+        if ln.startswith("== "):
+            cur = ln[3:].strip()
+            out[cur] = []
+        elif cur and ln.strip():
+            out[cur].append(ln.rstrip())
+    return out
+
+
+BASICS = load_basics(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "review", "basics_medicine.txt"))
+
+
+def render_basics(lines):
+    h, tbl = "", []
+
+    def flush():
+        nonlocal h, tbl
+        if tbl:
+            rows = [[c.strip() for c in r.strip().strip("|").split("|")] for r in tbl]
+            h += "<table>" + "".join("<tr>" + "".join((f"<th>{bidi(c)}</th>" if i == 0 else f"<td>{bidi(c)}</td>") for c in r) + "</tr>" for i, r in enumerate(rows)) + "</table>"
+            tbl = []
+    for ln in lines:
+        if ln.startswith("|"):
+            tbl.append(ln)
+            continue
+        flush()
+        if ln.startswith("! "):
+            h += f'<div class="bi">{bidi(ln[2:])}</div>'
+        elif ln.startswith("? "):
+            h += f'<div class="bi how"><b>كيف تحلين:</b> {bidi(ln[2:])}</div>'
+        elif ln.startswith("## "):
+            h += f'<div class="bh">{bidi(ln[3:])}</div>'
+        elif ln.startswith("> "):
+            h += '<div class="bc">' + '<span class="ar">←</span>'.join(f'<span class="nd">{bidi(x.strip())}</span>' for x in ln[2:].split("→") if x.strip()) + "</div>"
+        elif ln.startswith("- "):
+            h += f'<div class="bl">• {bidi(ln[2:])}</div>'
+        else:
+            h += f"<div>{bidi(ln)}</div>"
+    flush()
+    return f'<div class="basic"><div class="btitle">الأساس (بيسك)</div>{h}</div>'
+
+
 BOXES = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "review", "merged_topic_boxes.json"), encoding="utf-8"))
 AR = re.compile(r"[\u0600-\u06ff]")
 LAT = re.compile(r"[A-Za-z0-9][A-Za-z0-9'’\-/.+%±:&]*(?: (?:[A-Za-z0-9±][A-Za-z0-9'’\-/.+%±:&]*|\+|/|=|–))*")
@@ -243,12 +287,13 @@ for it in items:
     if it["topic"] != cur_t:
         TOC.append([it["sys"], it["topic"], 0])
         body += f'<div class="th">{e(it["topic"])}<span class="mk">@@M{len(TOC) - 1}@@</span></div>'
-        if BOXES.get(it["topic"]):
+        if BASICS.get(it["topic"]):
+            body += render_basics(BASICS[it["topic"]])
+        elif False and BOXES.get(it["topic"]):
             body += '<div class="bx">' + "".join(
                 '<div class="ch" dir="rtl">' + '<span class="ar">←</span>'.join(
                     f'<span class="nd" dir="{"rtl" if AR.search(nd) else "ltr"}">{bidi(nd.strip()) if AR.search(nd) else e(nd.strip())}</span>'
                     for nd in x.split("→") if nd.strip()) + "</div>" for x in BOXES[it["topic"]]) + "</div>"
-        body += '<div class="slab">الزبدة: كل أفكار الموضوع (ورقم الأسئلة)</div>' + summary(by_topic[(it["sys"], it["topic"])])
         cur_t = it["topic"]
     n = it["n"]
     TOC[-1][2] += 1
@@ -289,6 +334,17 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .ch:last-child {{ border-bottom: none; }}
 .nd {{ border: .6pt solid #000; border-radius: .9mm; padding: .1mm .9mm; background: #fff; unicode-bidi: isolate; }}
 .ar {{ font-weight: bold; }}
+.basic {{ column-span: all; column-count: 2; column-gap: 6mm; direction: rtl; text-align: right; border: 1.2pt solid #000; border-radius: 2mm; padding: 1.5mm 2.5mm; margin: .8mm 0 1.6mm; font-size: 1.08em; line-height: 1.38; background: #fafafa; }}
+.btitle {{ column-span: all; font-weight: bold; font-size: 1.1em; border-bottom: .8pt solid #000; margin-bottom: 1mm; }}
+.bi {{ border: .9pt solid #000; border-radius: 1.5mm; padding: .8mm 1.8mm; background: #eee; margin: .8mm 0; break-inside: avoid; }}
+.bi.how {{ background: #e4e4e4; }}
+.bh {{ display: inline-block; background: #000; color: #fff; font-weight: bold; padding: .2mm 1.8mm; border-radius: 1mm; margin: 1.2mm 0 .4mm; break-after: avoid; }}
+.bc {{ display: flex; flex-wrap: wrap; align-items: center; gap: .8mm; margin: .8mm 0; break-inside: avoid; }}
+.bc .nd {{ border: .8pt solid #000; border-radius: 1.4mm; padding: .2mm 1.4mm; background: #fff; }}
+.bl {{ margin: .4mm 0; }}
+.basic table {{ border-collapse: collapse; width: 100%; margin: .8mm 0; break-inside: avoid; }}
+.basic td, .basic th {{ border: .6pt solid #000; padding: .4mm 1.2mm; vertical-align: top; }}
+.basic th {{ background: #ddd; }}
 .bx.sum {{ direction: ltr; text-align: left; background: #f7f7f7; break-inside: auto; }}
 .ch {{ break-inside: avoid; }}
 .qn {{ font-size: .8em; color: #333; margin-left: .8mm; white-space: nowrap; }}

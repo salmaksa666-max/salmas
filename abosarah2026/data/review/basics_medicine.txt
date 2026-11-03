@@ -1,0 +1,417 @@
+== Anemia
+! الأنيميا يعني Hb واطي. أول سؤال دايم: حجم الكرية كم؟ (MCV). يقسمها 3 أبواب، وكل باب له أسبابه.
+> Hb واطي → شوفي MCV → صغير (أقل من 80) = microcytic → طبيعي = normocytic → كبير (أكثر من 100) = macrocytic
+## 1) Microcytic: صغير
+| المرض | Ferritin | العلامة |
+| Iron deficiency | واطي | دورة غزيرة، pica (ثلج/تراب)، RDW عالي |
+| Thalassemia trait | طبيعي | RBC عالي رغم الأنيميا، شاب بدون أعراض، التأكيد Hb electrophoresis (HbA2 عالي) |
+| Chronic disease | طبيعي أو عالي | مرض مزمن: SLE، sarcoid، RA |
+- أدق فحص لـIDA = ferritin واطي. الـ"definitive" الكلاسيكي = bone marrow (نادر).
+- العلاج: oral iron أول → ما نفع أو ما تتحمله أو امتصاص سيئ (celiac) = IV iron.
+- ليش عنده نقص حديد؟ ست تحيض = الدورة. رجال أو كبيرة بالعمر = نزيف أمعاء → upper + lower endoscopy.
+## 2) Macrocytic: كبير
+| | B12 | Folate |
+| السبب | نباتي، metformin، pernicious، ileum (Crohn) | حمل، كحول، أكل قليل |
+| الفرق | أعصاب (تنميل، مشي) | بدون أعصاب |
+- إسهال مزمن + B12 و folate واطيين + سفر للهند أو تايلند = tropical sprue. بدون سفر + villous atrophy = celiac (gluten free).
+## 3) Normocytic: نزيف أو تكسير
+> شوفي reticulocytes → واطي = النخاع ما يصنع (CKD = EPO) → عالي = نزيف أو تكسير
+- علامات التكسير (hemolysis) دايم: LDH عالي + indirect bilirubin عالي + haptoglobin واطي + retics عالية. أول فحص للسبب = Direct Coombs.
+| المرض | كيف تعرفينه |
+| AIHA | Coombs +، فجأة، كبير، ما فيه عائلة (+ platelets واطية = Evans) |
+| Hereditary spherocytosis | Coombs −، عائلة، طحال كبير، gallstones وهو صغير |
+| G6PD | نوبات بعد فول أو دواء أو عدوى، Heinz bodies و bite cells |
+| PNH | بول غامق + Coombs − + جلطات |
+## 4) Sickle cell
+- التشخيص Hb electrophoresis. المرض (HbSS) ما فيه HbA، والـtrait فيه HbA.
+> crisis ألم → O2 + fluids + analgesia → ألم صدر + حرارة + infiltrate = acute chest → exchange transfusion → يتكرر = hydroxyurea
+- صار له شي وقت نقل الدم (رعشة، ضيق) = وقفي النقل فورًا. ولو صار allergic بسيط = antihistamine قبل النقل الجاي.
+? ① وش الـMCV؟ ② صغير: وش الـferritin؟ ③ طبيعي: فيه علامات تكسير؟ ④ "initial" = أبسط فحص، "confirm/definitive" = الأدق.
+== Bleeding / clotting / VTE
+! 3 أسئلة تتكرر: warfarin والـINR، HIT، والجلطات (DVT/PE). وكلها لها خطوات ثابتة.
+## Warfarin و INR
+| الموقف | الجواب |
+| INR عالي بدون نزيف | وقفي جرعة أو قللي، وأعيدي INR بعد يومين |
+| نزيف خطير (مخ، GI) | وقفي warfarin + vitamin K IV + PCC |
+| INR تغير بعد أعشاب أو دواء جديد | وقفي الأعشاب وأعيدي INR |
+| INR واطي وهو على warfarin | زيدي الجرعة |
+- الهدف INR 2–3 لـAF و DVT و PE. صمام ميكانيكي = 2.5–3.5 (وما ينفع DOAC).
+## HIT
+> heparin من 5–10 أيام → platelets نزلت أكثر من 50% أو جلطة → وقفي كل heparin (حتى LMWH) → argatroban أو fondaparinux
+## DVT و PE
+> رجل منتفخة → duplex US → إيجابي = anticoagulation (DOAC أو LMWH)
+- السبب واضح ومؤقت (عملية، سفر) = 3 شهور. بدون سبب أو تكرر أو antiphospholipid = مدى الحياة (APS = warfarin مو DOAC).
+- حامل = LMWH. سرطان = LMWH أو DOAC.
+## Platelets واطية
+| الموقف | الجواب |
+| بعد فيروس + platelets بس واطية | ITP |
+| حرارة + confusion + كلى + schistocytes | TTP: blood film ثم plasma exchange |
+| Coombs + مع platelets واطية | Evans |
+? نزيف؟ ① على أي دواء (warfarin/heparin)؟ ② platelets كم؟ ③ PT أو PTT؟
+== Leukemia / lymphoma / myeloma
+! أهم شي هنا: febrile neutropenia (طوارئ) و TLS. الباقي تشخيص بسيط.
+## Febrile neutropenia
+> حرارة + neutrophils أقل من 500 → cultures → antipseudomonal فورًا (cefepime أو pip-tazo أو meropenem) → unstable أو line أو MRSA = + vancomycin → حرارة بعد 4–7 أيام = antifungal (voriconazole أو amphotericin)
+## الأورام
+- lymph node + B symptoms (حرارة، تعرق، نقص وزن) = lymphoma → excisional biopsy. Reed-Sternberg = Hodgkin.
+- كبير + bone pain + Ca عالي + كلى + أنيميا = myeloma.
+- neutropenia وهو على methotrexate = من الدواء.
+- chemo + K و phosphate و uric عالية = TLS → fluids + rasburicase.
+== Cancer / screening / TLS
+! TLS: الخلايا تتكسر بعد chemo وتطلع محتوياتها في الدم.
+> chemo (lymphoma، leukemia) → K عالي + phosphate عالي + uric عالي + Ca واطي = TLS → IV fluids أول → rasburicase (uric عالي) → allopurinol = وقاية
+## Screening
+| الفحص | متى |
+| Colon | من 45 كل 10 سنين (قريب قبل 60 = من 40 كل 5) |
+| Lung | 50–80 + 20 pack-year = low-dose CT سنوي |
+| Lung nodule | أكبر من 2.5 cm = مشبوه (biopsy أو surgery) / صغير = follow-up CT |
+| AAA | رجل 65–75 دخن = US مرة |
+- meningococcal contact = rifampin يومين أو ciprofloxacin جرعة.
+== Stroke / TIA
+! stroke = ضعف أو كلام فجأة. أول شي دايم CT بدون contrast عشان تعرفين: نزيف ولا جلطة؟
+> أعراض فجأة → CT بدون contrast → نزيف = نزلي SBP لـ140–160 → ما فيه نزيف + أقل من 4.5 ساعة = tPA → large vessel أقل من 24 ساعة = thrombectomy
+- قبل tPA تأكدي: ما فيه نزيف أو stroke أو عملية قريب. بدون tPA ما ننزل الضغط إلا فوق 220/120.
+- TIA = أعراض راحت → aspirin + statin + دوري السبب (AF، carotid). carotid 70% أو أكثر = endarterectomy.
+- نزيف تحت العنكبوتية بعد أيام + ضعف جديد = vasospasm.
+## وين الـlesion
+| الأعراض | المكان |
+| وجه بجهة والجسم بالثانية | brainstem |
+| بلع + Horner + vertigo | lateral medulla (PICA) |
+| وجه + سمع | AICA |
+| الرجل أكثر من اليد + سلوك | ACA |
+| pinpoint pupils + وعي | pons |
+- ما يسوق بعد stroke لين يسوي driving test.
+== Seizures
+! نوبة تشنج: أوقفيها أول، بعدين دوري السبب.
+> نوبة ما وقفت → benzodiazepine (lorazepam) → ما وقفت = phenytoin أو levetiracetam
+> أول نوبة → glucose + electrolytes → CT head (خصوصًا لو focal أو طاح على رأسه)
+| النوع | العلامة | الدواء |
+| Temporal lobe | يحدق + يمضغ + ما يتذكر | carbamazepine |
+| Atonic | يطيح فجأة | valproate |
+| Generalized | يتشنج كله | valproate أو levetiracetam |
+- حرارة + تشنج + سلوك غريب أو confusion = HSV encephalitis → IV acyclovir فورًا.
+- حامل أو تبي تحمل = levetiracetam (لا valproate).
+== Headache
+! صداع: ابحثي عن red flags أول (أسوأ صداع، فجأة، حرارة، أعصاب). إذا فيه = صورة.
+> أسوأ صداع فجأة → CT بدون contrast → طبيعي وما زال الشك = LP (SAH)
+- بعد الولادة أو حبوب منع حمل + صداع + تشنج = venous thrombosis → CT + CT venogram.
+- حرارة + رقبة + صداع = meningitis → antibiotics فورًا (ceftriaxone + vancomycin)، ولا تأخرينها عشان LP.
+- صداع + رقبة بكبير + تنميل يدين = cervical → MRI cervical.
+- migraine: نوبة = NSAID أو triptan، كثير = prophylaxis.
+== Dementia / movement
+! نسيان مزمن = dementia. confusion فجأة يتذبذب = delirium (دوري السبب).
+| النوع | العلامة |
+| Alzheimer | الذاكرة الجديدة أول، تدريجي → rivastigmine أو donepezil |
+| Vascular | stepwise + stroke قبل |
+| Frontotemporal | شاب نسبيًا + سلوك وشخصية تتغير |
+| Lewy body | hallucinations + parkinsonism + يتذبذب |
+- confusion بعد opioids (مورفين) + myoclonus = opioid neurotoxicity.
+- كحولي + confusion + عيون = Wernicke → thiamine قبل glucose.
+- حرارة + confusion = HSV encephalitis.
+== Neuromuscular / MS
+! MS = شابة + أعراض عصبية تروح وترجع بأماكن مختلفة.
+> شك MS → MRI brain + spine with gadolinium → relapse = high dose IV methylprednisolone → وقاية = disease modifying (ocrelizumab)
+- double vision + العين ما تروح للداخل = MLF (INO).
+- الأعراض تسوء مع الحر أو الرياضة = Uhthoff.
+- علامة إنه يتطور = lesions جديدة بالـMRI.
+- ضعف بالرجلين + مستوى حسي + بول = spinal cord compression → MRI طارئ.
+- عمى بعين وقتي = amaurosis fugax (carotid).
+== Hypertension
+! ضغط عالي: تأكدي منه أول (أكثر من مرة أو ABPM)، بعدين اختاري الدواء حسب المريض.
+> قراءة عالية بالعيادة → أعيديها أو ABPM → مأكد = lifestyle + دواء
+| المريض | الدواء |
+| DM أو CKD أو protein | ACE-I (lisinopril، ramipril) أو ARB |
+| كحة من ACE-I | ARB (losartan) |
+| كبير أو أسود | CCB (amlodipine) أو thiazide (indapamide) |
+| ما انضبط على اثنين | أضيفي الثالث (thiazide) |
+## Secondary hypertension (شاب أو ما ينضبط)
+| العلامة | الفحص |
+| K واطي | aldosterone:renin ratio |
+| صداع + تعرق + خفقان | metanephrines أو catecholamines |
+| كلى غير متساوية أو bruit | renal artery stenosis |
+- ضغط + نزيف مخ = نزلي SBP لـ140–160. stroke بدون tPA = لا تنزلينه إلا فوق 220/120.
+== Lipids
+! statin هو الجواب أغلب الوقت. السؤال: كم قوته؟ وكم الهدف؟
+> عنده MI أو stroke أو DM أو LDL عالي جدًا → high-intensity statin (atorvastatin أو rosuvastatin) → الهدف LDL أقل من 70 (1.8 mmol)
+- ما وصل الهدف = ezetimibe ثم PCSK9.
+- secondary prevention = aspirin + high-intensity statin.
+- risk ما نقدر نحسبه لو أقل من 40 سنة.
+== IHD / ACS
+! ألم صدر: أول شي ECG خلال 10 دقايق. الـECG يحدد الطريق.
+> ألم صدر → ECG → ST elevation = STEMI → PCI (لو بعيد = thrombolysis خلال 12 ساعة)
+> ST depression أو طبيعي + troponin عالي = NSTEMI → aspirin + clopidogrel + heparin → coronary angiography
+> ألم مع الجهد + ECG طبيعي = stable angina → exercise test → ما يقدر يمشي = dobutamine stress echo
+- inferior MI (II، III، aVF) + hypotension + bradycardia = right ventricle → fluids + atropine (لا nitrates).
+- بعد MI بأيام + murmur جديد + صدمة = VSD rupture أو papillary.
+## الصدمة (shock)
+| النوع | العلامة |
+| Hypovolemic | CVP واطي + SVR عالي |
+| Cardiogenic | CVP عالي + cardiac output واطي + SVR عالي |
+| Septic | دافي + cardiac output عالي + SVR واطي |
+== Arrhythmia
+! أول سؤال: المريض stable ولا unstable (ضغط واطي، ألم، وعي)؟ unstable = كهرباء.
+> unstable → synchronized cardioversion → bradycardia + أعراض = atropine ثم pacing
+| الإيقاع | الجواب |
+| SVT مستقر | vagal ثم adenosine |
+| AF: الريت | beta blocker أو diltiazem (HF = digoxin) |
+| AF: الجلطات | CHA2DS2-VASc → DOAC (apixaban). MS أو صمام = warfarin |
+| AF جديد | شيكي TSH |
+| WPW + أعراض متكررة | radiofrequency ablation |
+| WPW + AF | procainamide (لا AV blockers) |
+| complete heart block | pacemaker |
+== Heart failure
+! HF = القلب ضعيف → سوائل بالرئة والرجلين. التشخيص echo، و BNP يساعد.
+> ضيق + edema → BNP + echo → احتقان = IV furosemide → EF واطي = ACE-I/ARNI + beta blocker + spironolactone + SGLT2
+- K عالي وهو على spironolactone = قللي spironolactone.
+- HF حاد + bradycardia على metoprolol = وقفي metoprolol.
+- HR عالي رغم beta blocker = ivabradine.
+- ضغط واطي + HF = dobutamine.
+- JVP عالي + أصوات القلب بعيدة + ضغط واطي = tamponade → pericardiocentesis.
+== Valves / endocarditis
+! كل murmur تعرفينه من 3 أشياء: وقته (systolic/diastolic)، مكانه، وين يروح.
+| الـmurmur | المرض |
+| systolic + يروح للرقبة | aortic stenosis (إغماء، ألم صدر، ضيق) |
+| pansystolic + يروح للإبط | mitral regurgitation |
+| click + late systolic | mitral valve prolapse |
+| early diastolic + pulse واسع | aortic regurgitation |
+| rumble بالـapex | mitral stenosis |
+| يزيد مع الشهيق | الجهة اليمين (tricuspid، pulmonary) |
+- murmur جديد = echo. AS بأعراض أو EF واطي = valve replacement. بدون أعراض = متابعة echo.
+- prophylaxis قبل الأسنان بس لـ: صمام صناعي أو endocarditis قبل. MVP لحاله = ما يحتاج.
+== Asthma
+! asthma = ضيق ورق يتحسن بالـbronchodilator. التشخيص: FEV1 يتحسن بعد salbutamol.
+## نوبة
+> نوبة → salbutamol + steroids → شديدة (ما يكمل جملة، RR أكثر من 25، PEF أقل من 50%) → مهددة للحياة (PEF أقل من 33%، CO2 طبيعي أو عالي) = ICU
+## مزمن ما انضبط
+> أول شي شيكي الالتزام والـinhaler technique → بعدين ICS (budesonide) → بعدين ICS + LABA
+- كحة بعد الأكل + asthma ما ينضبط = GERD (PPI).
+- يتحسن بالإجازة ويسوء بالشغل = occupational → spirometry بعد الشغل.
+- مدخن كبير + نزيف أو نقص وزن = lung cancer (مو asthma).
+== COPD
+! COPD = مدخن كبير + FEV1/FVC أقل من 0.7 ما يتحسن كامل.
+> exacerbation → O2 (هدف 88–92%، venturi mask) → steroids + antibiotics → CO2 عالي + pH واطي = NIV (BiPAP)
+- مريض COPD على O2 كثير وصار نعسان = قللي الـO2.
+- أهم شي يطول عمره: وقف التدخين + home oxygen (PaO2 أقل من 55).
+- شاب + emphysema = alpha-1 antitrypsin.
+- التطعيم: pneumococcal + influenza.
+== Pneumonia / TB
+! pneumonia = حرارة + كحة + consolidation. القرار: بالبيت ولا بالمستشفى؟
+> pneumonia → CURB-65 → بالبيت = amoxicillin أو azithromycin → بالمستشفى = ceftriaxone + azithromycin → ICU = + vancomycin
+| العلامة | الجرثومة |
+| lobar + rusty sputum | strep pneumoniae |
+| Na واطي + إسهال + مكيفات | legionella |
+| شاب + cold agglutinin | mycoplasma |
+| HIV + bilateral | pneumocystis |
+## TB
+> كحة أكثر من 3 أسابيع + نقص وزن + تعرق → sputum AFB (Ziehl-Neelsen) + culture → نشط = RIPE (INH + rifampin + pyrazinamide + ethambutol) + airborne isolation
+- latent (PPD أو IGRA + CXR طبيعي) = INH + pyridoxine 9 شهور أو rifampin + INH 3 شهور.
+- rifampin = بول برتقالي. INH = تنميل (B6). pyrazinamide = uric acid.
+- effusion + pneumonia = thoracentesis.
+== PE / pleural
+! PE = ضيق فجأة + ألم صدر + tachycardia + عوامل (عملية، سفر، حمل).
+> شك PE → CTPA (حامل أو كلى = V/Q) → مأكد = LMWH أو DOAC → unstable = alteplase
+## Pleural effusion
+> effusion → thoracentesis → exudate (Light's) = infection أو TB أو cancer → transudate = HF أو cirrhosis
+- lymphocytes + ADA عالي = TB → pleural biopsy.
+- صديد أو pH أقل من 7.2 = chest drain + antibiotics.
+- cancer + effusion يرجع = indwelling pleural catheter.
+== Respiratory failure / ICU
+! السؤال دايم: يحتاج O2 بس؟ NIV؟ ولا intubation؟
+> صاحي + CO2 عالي (COPD، pulmonary edema) = NIV (BiPAP) → وعي نازل أو ما يحمي airway أو تعب = intubation + mechanical ventilation
+- pulmonary edema = IV furosemide + NIV.
+- ARDS = low tidal volume.
+- مريض على ventilator: الوقاية من pneumonia = رأس السرير 30–45 + subglottic suction.
+- نزيف varices = octreotide + crossmatch.
+== Other pulmonology
+- مدخن يبي يوقف = varenicline.
+- شخير + نعاس بالنهار = sleep study.
+- ضيق + crackles + clubbing = HRCT (ILD).
+- small cell lung cancer = SIADH (Na واطي).
+- قبل العملية = pulmonary function tests.
+== Liver
+! الكبد: 4 أسئلة تتكرر: hepatitis B serology، cirrhosis ومضاعفاته، paracetamol، وأنواع hepatitis الثانية.
+## Hepatitis B serology
+| النتيجة | المعنى |
+| HBsAg + و IgM anti-HBc + | acute hepatitis B |
+| HBsAg + أكثر من 6 شهور | chronic hepatitis B (علاج = entecavir) |
+| anti-HBs بس | vaccinated (مناعة من التطعيم) |
+| anti-HBs + anti-HBc IgG | مناعة من عدوى قديمة |
+- hepatitis A = IgM anti-HAV (أكل أو مية ملوثة). HBV ساء فجأة = اختبري hepatitis D. hepatitis C = direct-acting antivirals (شيكي HBV قبل).
+## Cirrhosis ومضاعفاته
+> cirrhosis → ascites = spironolactone + furosemide + قللي الملح → حرارة + ascites = SBP → confusion = encephalopathy (lactulose، دوري السبب: electrolytes، نزيف، infection)
+> نزيف varices → fluids + crossmatch + IV octreotide + antibiotics → endoscopy → يرجع = TIPS
+- cirrhosis = US كل 6 شهور (HCC). كتلة = triphasic CT.
+## أسباب ثانية
+| العلامة | التشخيص |
+| كحول + AST ضعف ALT | alcoholic hepatitis (steroids لو شديد، وقف الكحول) |
+| بنت + IgG عالي + autoantibodies | autoimmune hepatitis (prednisolone + azathioprine) |
+| شاب + tremor + نفسية | Wilson (ceruloplasmin واطي → penicillamine) |
+| paracetamol overdose | N-acetylcysteine |
+| على methotrexate + LFT عالية | وقفي methotrexate |
+== Pancreas / biliary
+! pancreatitis = ألم epigastric للظهر + lipase أكثر من 3 أضعاف. السبب الأشهر: gallstones والكحول.
+> ألم + lipase عالي → fluids + analgesia → شدته: Ranson أو APACHE أو CRP
+- كحول سنين + ألم مزمن + براز دهني + calcifications = chronic pancreatitis.
+- UC + ALP عالي + صفار = primary sclerosing cholangitis.
+- RUQ + حرارة + صفار = cholangitis → antibiotics + ERCP.
+== Upper GI
+! epigastric أو حرقة: صغير بدون alarm = جربي العلاج أو H. pylori. فيه alarm أو كبير = endoscopy.
+> dyspepsia → alarm (نقص وزن، dysphagia، نزيف، أنيميا، فوق 60)؟ → إيه = endoscopy (EGD) → لا = test H. pylori (urea breath) أو PPI
+- H. pylori = PPI + clarithromycin + amoxicillin. ما نفع = bismuth quadruple (bismuth + metronidazole + tetracycline + PPI). التأكيد بعدها = urea breath test.
+- GERD = lifestyle (لا ينام بعد الأكل، يرفع رأس السرير) + PPI. ما تأكد = ambulatory pH monitoring. GERD قديم = Barrett (endoscopy).
+- dysphagia للسوائل والأكل + regurgitation = achalasia → pneumatic dilatation.
+- ICU + نزيف = stress gastritis → PPI.
+- نزيف upper GI: fluids (Ringer) + blood + IV PPI → endoscopy.
+== IBD / celiac / IBS
+! إسهال مزمن: فيه علامات عضوية (دم، نقص وزن، بالليل، أنيميا)؟ إيه = IBD أو celiac. لا = IBS.
+| المرض | العلامة |
+| Crohn | skip lesions، ileum، fistula، transmural، mouth ulcers |
+| UC | من الـrectum متصل، دم + mucus |
+| Celiac | bloating + أنيميا + dermatitis herpetiformis → tTG-IgA أو anti-endomysial → biopsy |
+| IBS | ألم يخف بعد البراز، بدون alarm → diet (قللي الدسم والحار) |
+| Tropical sprue | سفر + B12 و folate واطيين |
+- IBD ما استجاب للـsteroids أو steroid dependent = anti-TNF (infliximab، adalimumab).
+- celiac يمنع: wheat و barley و rye.
+- يفرق IBD عن IBS = fecal calprotectin.
+== Colon / screening
+! screening colon: الشخص العادي من 45–50 كل 10 سنين. الاستثناءات هي اللي يسألون عنها.
+| الحالة | متى |
+| عادي | colonoscopy كل 10 سنين (أو FOBT سنوي) |
+| قريب درجة أولى قبل 60 | من 40 (أو 10 سنين قبل عمره) كل 5 |
+| UC أو Crohn colitis | 8–10 سنين بعد التشخيص |
+| FAP (أهله كلهم polyps) | بدري جدًا |
+- أنيميا نقص حديد برجل أو كبيرة بالعمر = colonoscopy + upper endoscopy.
+== Vaccines / travel / exposure
+! الكبار: 3 تطعيمات تتكرر: influenza كل سنة، pneumococcal (65 أو أمراض)، و zoster (50 أو أكثر).
+| الحالة | التطعيم |
+| 65 أو أكثر أو COPD أو DM أو splenectomy | pneumococcal |
+| 50 أو أكثر | recombinant zoster (Shingrix)، حتى لو جاه shingles قبل |
+| كل الناس سنويًا | inactivated influenza |
+| جرح + آخر جرعة أكثر من 5–10 سنين | Tdap booster |
+| immunocompromised | inactivated بس (لا live) |
+| سفر أفريقيا | yellow fever + antimalarial |
+- anti-HBs بس بالدم = تطعيم قديم. contact مع meningococcal = rifampicin يومين.
+== Fever / sepsis / zoonoses
+! حرارة: سألي عن السفر والحيوانات والحليب النيء. هذي تعطيك التشخيص.
+| القصة | التشخيص | الفحص |
+| حليب نيء أو غنم + حرارة + مفاصل | brucellosis | serology (titers) → doxycycline + rifampin |
+| سفر أفريقيا + حرارة دورية | malaria (Anopheles) | blood film. يرجع بعد أشهر = vivax |
+| حرارة + rash + platelets واطية + Aedes | dengue | supportive + fluids |
+- sepsis: cultures → broad antibiotics خلال ساعة → fluids → ضغط ما ارتفع = norepinephrine.
+- febrile neutropenia = cefepime، ما تحسن 4–7 أيام = antifungal.
+- abscess = aspiration + antibiotics. amoebic liver abscess = metronidazole.
+== HIV / STI
+- HIV + CD4 واطي + صداع = crypto أو toxo → CT/LP. HIV + PPD إيجابي = isoniazid + pyridoxine 9 شهور.
+- حرارة + سلوك غريب = HSV encephalitis (acyclovir).
+- ألم صدر بعد فيروس + pericarditis = coxsackie B.
+== Skin / bone / soft tissue
+- cellulitis خفيف = oral (cephalexin أو clindamycin)، ينتشر أو حرارة = IV.
+- zoster = acyclovir. وقاية 50 أو أكثر = recombinant zoster vaccine.
+- liver abscess بعد سفر + إسهال = amoebic → metronidazole.
+== Gout / crystal / septic
+! مفصل واحد حار ومنتفخ: لازم aspiration أول عشان تستبعدين septic arthritis.
+> مفصل حار → aspiration → صديد أو gram stain = septic (IV antibiotics) → needle-shaped negative birefringent = gout → rhomboid positive = pseudogout
+- gout نوبة = NSAID (meloxicam) أو colchicine أو steroids. allopurinol = بعد ما تهدأ، ولا توقفينه لو كان عليه.
+- DIP + sausage finger + psoriasis = psoriatic arthritis.
+== RA / SLE / connective tissue
+! RA = مفاصل صغيرة متساوية + صلابة الصبح أكثر من ساعة. SLE = بنت + rash + مفاصل + أعضاء.
+| المرض | الفحص | العلاج |
+| RA | anti-CCP + RF | methotrexate (± steroids + hydroxychloroquine) |
+| SLE | ANA ثم dsDNA | hydroxychloroquine للكل |
+| Lupus nephritis | biopsy | steroids + cyclophosphamide أو mycophenolate |
+| MCTD | anti-RNP | |
+- SLE وتبي تحمل وهي على mycophenolate = غيريه لـazathioprine.
+- RA ما ينضبط على MTX = biologic (infliximab).
+== Spondyloarthritis / back
+! ألم ظهر التهابي = شاب، يتحسن بالحركة، صلابة الصبح. هذا spondyloarthritis.
+| النوع | العلامة |
+| Ankylosing spondylitis | ظهر + sacroiliitis → MRI sacroiliac → NSAIDs |
+| Reactive arthritis | بعد إسهال أو STI + عين + مفاصل (Reiter) |
+| Psoriatic | psoriasis + DIP + sausage digits |
+- ألم ظهر ميكانيكي = NSAIDs + relaxants + حركة. red flags (حرارة، سرطان، بول) = MRI.
+== OA / soft tissue
+! OA = كبير + ألم مع الحركة + صلابة قصيرة (أقل من 30 دقيقة). تشخيص clinical.
+- العلاج: نزلي الوزن + رياضة (مشي، مية) + paracetamol أو topical NSAID.
+- ركبة منتفخة مو واضحة = arthrocentesis.
+== Diabetes
+! السكري: التشخيص بأرقام ثابتة، metformin أول دواء، و DKA لها خطوات بالترتيب.
+| الفحص | prediabetes | diabetes |
+| Fasting | 5.6–6.9 | 7 أو أكثر |
+| HbA1c | 5.7–6.4% | 6.5% أو أكثر |
+| Random + أعراض | | 11.1 أو أكثر |
+- type 1 = صغير + نحيف + ketones + C-peptide واطي. type 2 = سمين + كبير → metformin أول.
+## DKA
+> glucose عالي + ketones + acidosis → IV fluids (normal saline) أول → IV insulin infusion → سكر نزل = insulin + dextrose → شيكي K والـelectrolytes دايم
+## Hypoglycemia
+> واعي = عصير أو glucose بالفم → مو واعي = IV dextrose أو glucagon → بعد الرياضة = كلي carbs قبل الرياضة
+- كلى مع السكري: urine microalbumin سنوي → ACE-I.
+== Thyroid
+! أول فحص للغدة دايم TSH. TSH واطي = hyper. TSH عالي = hypo.
+| الحالة | العلامة | العلاج |
+| Graves | عيون + goiter منتشر | beta blocker للأعراض + methimazole |
+| Toxic nodular goiter | كبير + nodules | radioiodine أو surgery |
+| Subacute thyroiditis | بعد URTI + رقبة تألم + ESR عالي | beta blocker + NSAIDs |
+| Hashimoto | hypothyroid + antibodies (TPO) | levothyroxine |
+| Euthyroid sick | مريض جدًا بالـICU + T3 واطي | ما نعالج |
+- على levothyroxine وما انضبط = اسألي عن الالتزام وطريقة الأخذ أول.
+- amiodarone أو lithium + أعراض = TSH و T3.
+- nodule = TSH → طبيعي = US → FNA.
+== Adrenal / pituitary
+! كورتيزول: كثير = Cushing. قليل = Addison. والسؤال الطارئ: stress dose.
+> Cushing → dexamethasone suppression أو 24h urine cortisol → ACTH عالي = pituitary adenoma (Cushing disease) → MRI pituitary
+> Addison (Na واطي + K عالي + ضغط واطي + اسمرار) → ACTH (Synacthen) stimulation test → علاج = hydrocortisone
+- على steroids من فترة + عملية أو مرض = stress dose hydrocortisone ثم taper.
+- prolactin عالي + galactorrhea = pituitary adenoma → MRI.
+- ضغط عالي + K واطي = aldosterone (وأبوه عنده مبكر + renin و aldosterone واطيين = Liddle).
+== Bone / obesity
+- osteoporosis: screening DEXA للنساء 65 أو أكثر. الأسباب: كحول، steroids، تدخين.
+- العلاج: Ca + vitamin D + bisphosphonate. CKD = calcitriol. ما تتحمل bisphosphonate = denosumab.
+- السمنة: lifestyle ونزول الوزن أول.
+- cyclosporine = يرفع الضغط والسكر ويأذي الكلى.
+== Potassium / acid-base
+! K عالي خطير على القلب. أول شي ECG، وإذا فيه تغير = calcium gluconate.
+> K عالي → ECG تغيرات (peaked T) → IV calcium gluconate (يحمي القلب) → insulin + dextrose (يدخل K) → السبب: ACE-I، spironolactone، CKD، TLS
+> K واطي → IV أو oral potassium → ما يرتفع = magnesium
+## Acid-base
+| الحالة | النتيجة |
+| ترجيع أو NG tube | metabolic alkalosis + Cl و K واطيين |
+| إسهال | metabolic acidosis + K واطي |
+| COPD + CO2 عالي | respiratory failure type 2 → BiPAP |
+| acidosis + urine pH عالي + K واطي | distal RTA (type 1) |
+- refeeding syndrome = أكل بعد جوع → phosphate و K و Mg تنزل.
+- TLS = K عالي + Ca واطي + phosphate و uric عالية.
+- ضغط عالي + K واطي = aldosterone:renin ratio.
+== Sodium / water
+! Na واطي: شوفي حجم المريض أول. هذا يحدد العلاج.
+> Na واطي → جفاف (hypovolemic) = 0.9% saline → edema (HF، cirrhosis) = fluid و sodium restriction → طبيعي (euvolemic) = SIADH → fluid restriction
+- أسباب SIADH: small cell lung cancer، carbamazepine، valproate، SSRIs، بعد عمليات.
+- صححتيه بسرعة = central pontine myelinolysis (لا أكثر من 8–10 باليوم).
+- Na عالي + بول كثير مخفف بعد head trauma = central diabetes insipidus.
+== Calcium
+> Ca واطي + أعراض (tetany، QT) → IV calcium gluconate → Ca عالي → IV fluids → PTH عالي = primary hyperparathyroidism
+- CKD = phosphate عالي → قللي phosphate بالأكل.
+== AKI / CKD
+! AKI: دوري السبب بثلاث أماكن: قبل الكلية، الكلية نفسها، بعدها.
+| النوع | العلامة |
+| Pre-renal | جفاف، BUN:creatinine عالي → IV fluids |
+| ATN | aminoglycoside أو contrast أو صدمة → وقفي الدواء |
+| AIN | دواء جديد (antibiotic، NSAID) + rash + eosinophils → وقفي الدواء ± steroids |
+| Post-renal | انسداد → renal US |
+- myeloma + كلى = accumulation of light chains.
+- dialysis طارئ: K ما ينزل، acidosis، fluid overload، uremia (pericarditis، encephalopathy) = initiate dialysis.
+- TLS: نرجع للـchemo لما uric أقل من 476 و creatinine أقل من 141 و pH 7 أو أكثر.
+- CKD + أنيميا = erythropoietin. DM أو protein = ACE-I.
+== Glomerular / stones / UTI
+! بول فيه دم أو protein: nephritic (دم + ضغط) ولا nephrotic (protein كثير + edema)؟
+| الحالة | التشخيص |
+| دم بعد التهاب حلق بأيام | IgA nephropathy |
+| السكري + albuminuria | diabetic nephropathy |
+| عضلات + بول غامق بعد مجهود | rhabdomyolysis (IV fluids) |
+| دواء جديد + rash + creatinine | interstitial nephritis |
+| ألم loin + hematuria | stone → renal CT |
+- UTI متكرر = cranberry أو prophylaxis. ما يتضح = kidney biopsy.
+== Other nephrology
+- septic shock ما ارتفع ضغطه = norepinephrine ← زيديه ← أضيفي vasopressin أو dobutamine لو القلب ضعيف.
+- sepsis: lactate + procalcitonin.
+- renal artery stenosis = renal CT angiography → stenting.
+- transplant: calcineurin inhibitors (cyclosporine، tacrolimus).
