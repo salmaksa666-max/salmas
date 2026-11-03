@@ -182,13 +182,16 @@ if os.environ.get("MAP"):
     json.dump({it["qid"]: [it["sys"], it["topic"]] for it in items}, open(os.environ["MAP"], "w"), ensure_ascii=False)
 
 e = lambda t: html.escape(t, quote=False)
+TOC = []
 body, cur_s, cur_t, n = "", None, None, 0
 for it in items:
     if it["sys"] != cur_s:
-        body += f'<div class="sh">{e(it["sys"])}</div>'
+        TOC.append([it["sys"], None, 0])
+        body += f'<div class="sh">{e(it["sys"])}<span class="mk">@@M{len(TOC) - 1}@@</span></div>'
         cur_s, cur_t = it["sys"], None
     if it["topic"] != cur_t:
-        body += f'<div class="th">{e(it["topic"])}</div>'
+        TOC.append([it["sys"], it["topic"], 0])
+        body += f'<div class="th">{e(it["topic"])}<span class="mk">@@M{len(TOC) - 1}@@</span></div>'
         if BOXES.get(it["topic"]):
             body += '<div class="bx">' + "".join(
                 '<div class="ch">' + '<span class="ar">←</span>'.join(
@@ -196,6 +199,7 @@ for it in items:
                     for nd in x.split("→") if nd.strip()) + "</div>" for x in BOXES[it["topic"]]) + "</div>"
         cur_t = it["topic"]
     n += 1
+    TOC[-1][2] += 1
     ans = it["ans"].strip()
     o = ""
     hit = False
@@ -234,6 +238,7 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .ar {{ font-weight: bold; }}
 .sm {{ font-size: .82em; border: .4pt dashed #000; padding: 0 .4mm; margin-left: .5mm; }}
 .sm.df {{ font-weight: bold; border-style: solid; }}
+.mk {{ color: #fff; font-size: 1pt; }}
 .nt {{ font-size: .92em; font-style: italic; color: #111; border-left: .9pt solid #000; padding-left: .8mm; margin-top: .15mm; }}
 """
 doc = (f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head><body>'
@@ -242,3 +247,49 @@ src = os.path.join(tempfile.mkdtemp(), "d.html")
 open(src, "w", encoding="utf-8").write(doc)
 subprocess.run([CHROME, "--no-sandbox", "--no-pdf-header-footer", f"--print-to-pdf={OUT}", "file://" + src], check=True, capture_output=True)
 print(n, "questions ->", OUT)
+
+# ---- index page (فهرس) + bookmarks
+import pypdf
+r = pypdf.PdfReader(OUT)
+where = {}
+for pi, pg in enumerate(r.pages):
+    for m in re.findall(r"@@M(\d+)@@", (pg.extract_text() or "").replace(" ", "")):
+        where.setdefault(int(m), pi)
+rows, sysq = "", {}
+for i, (sy, tp, cnt) in enumerate(TOC):
+    if tp:
+        sysq[sy] = sysq.get(sy, 0) + cnt
+for i, (sy, tp, cnt) in enumerate(TOC):
+    pg = where.get(i, -1) + 2
+    if tp is None:
+        rows += f'<tr class="s"><td>{e(sy)}</td><td class="c">{sysq.get(sy, 0)}</td><td class="p">{pg}</td></tr>'
+    else:
+        rows += f'<tr><td class="t">{e(tp)}</td><td class="c">{cnt}</td><td class="p">{pg}</td></tr>'
+idx = (f'''<!doctype html><html><head><meta charset="utf-8"><style>
+@page {{ size: A4; margin: 8mm; }} body {{ font-family: "DejaVu Sans", Arial; font-size: 8.6pt; margin: 0; }}
+h1 {{ font-size: 15pt; margin: 0 0 1mm; border-bottom: 2pt solid #000; display: flex; justify-content: space-between; }}
+.w {{ column-count: 2; column-gap: 8mm; }} table {{ width: 100%; border-collapse: collapse; }}
+td {{ padding: .55mm 1.5mm; border-bottom: .3pt solid #999; }} tr.s td {{ background: #000; color: #fff; font-weight: bold; font-size: 1.1em; }}
+td.t {{ padding-left: 5mm; }} td.c {{ text-align: center; width: 12mm; color: #333; }} td.p {{ text-align: right; font-weight: bold; width: 14mm; }}
+tr {{ break-inside: avoid; }}
+</style></head><body><h1><span>{e(TITLE)}</span><span>فهرس</span></h1>
+<div class="w"><table><tr><td><b>الموضوع</b></td><td class="c"><b>أسئلة</b></td><td class="p"><b>صفحة</b></td></tr>{rows}</table></div></body></html>''')
+isrc = os.path.join(tempfile.mkdtemp(), "i.html")
+open(isrc, "w", encoding="utf-8").write(idx)
+ipdf = isrc[:-4] + "pdf"
+subprocess.run([CHROME, "--no-sandbox", "--no-pdf-header-footer", f"--print-to-pdf={ipdf}", "file://" + isrc], check=True, capture_output=True)
+ir = pypdf.PdfReader(ipdf)
+assert len(ir.pages) == 1, "index longer than one page"
+w = pypdf.PdfWriter()
+w.append(ir)
+w.append(r)
+par = None
+for i, (sy, tp, cnt) in enumerate(TOC):
+    pg = where.get(i, 0) + 1
+    if tp is None:
+        par = w.add_outline_item(sy, pg)
+    else:
+        w.add_outline_item(f"{tp} ({cnt})", pg, parent=par)
+w.page_mode = "/UseOutlines"
+w.write(OUT)
+print("index added;", len(where), "of", len(TOC), "headers located")
