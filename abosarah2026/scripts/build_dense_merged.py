@@ -81,7 +81,21 @@ SYS = [
    ("OA / soft tissue", r"osteoarth|knee|shoulder|hip|fibromyalg|tendon|carpal"),
    ("Other rheumatology", r".")]),
 ]
-ALL_TOPICS = [(s, t) for s, _, tps in SYS for t, _ in tps] + [("Other", "Other")]
+SYSORDER = ["Hematology & Oncology", "Neurology", "Cardiology", "Pulmonology", "GI & Hepatology", "Infectious disease",
+            "Rheumatology", "Endocrinology", "Nephrology & Electrolytes"]
+_by = {s: tps for s, _, tps in SYS}
+ALL_TOPICS = [(s, t) for s in SYSORDER for t, _ in _by[s]] + [("Other", "Other")]
+BOXES = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "review", "merged_topic_boxes.json"), encoding="utf-8"))
+AR = re.compile(r"[\u0600-\u06ff]")
+LAT = re.compile(r"[A-Za-z0-9][A-Za-z0-9'’\-/.+%±:&]*(?: (?:[A-Za-z0-9±][A-Za-z0-9'’\-/.+%±:&]*|\+|/|=|–))*")
+
+
+def bidi(t):
+    out, last = "", 0
+    for m in LAT.finditer(t):
+        out += html.escape(t[last:m.start()], quote=False) + f'<bdi dir="ltr">{html.escape(m.group(0), quote=False)}</bdi>'
+        last = m.end()
+    return out + html.escape(t[last:], quote=False)
 
 
 HIST = re.compile(r"(known (case )?(of|with)|k/c|history of|hx of|with|has|on)\s+(type ?[12] )?(hypertension|htn|diabetes( mellitus)?|dm|dyslipidemia|hyperlipidemia|smok\w*)(\s*(and|,|&)\s*(type ?[12] )?(hypertension|htn|diabetes( mellitus)?|dm|dyslipidemia|hyperlipidemia))*", re.I)
@@ -148,6 +162,21 @@ for g in sorted(groups, key=lambda k: order.get(k, 999)):
         cur = rest.pop(j)
         chain.append(cur)
     ordered += chain
+# October questions that match a September one (same recall): badge, and flag when the answer differs
+V = len(vocab)
+Mx = np.zeros((N, V), dtype=np.float32)
+for i, v in enumerate(vecs):
+    for k, x in v.items():
+        Mx[i, k] = x
+tags_ = np.array([it["tag"] for it in items])
+sep_i, oct_i = np.where(tags_ == "Sep")[0], np.where(tags_ == "Oct")[0]
+if len(sep_i) and len(oct_i):
+    sim = Mx[oct_i] @ Mx[sep_i].T
+    na = lambda t: re.sub(r"[^a-z0-9]", "", re.sub(r"^[a-e][.)\-]\s*", "", t.lower()))[:14]
+    for r, i in enumerate(oct_i):
+        j = int(sim[r].argmax())
+        if sim[r, j] >= 0.75:
+            items[i]["same"] = "same" if na(items[i]["ans"]) == na(items[sep_i[j]]["ans"]) else "diff"
 items = [items[i] for i in ordered]
 if os.environ.get("MAP"):
     json.dump({it["qid"]: [it["sys"], it["topic"]] for it in items}, open(os.environ["MAP"], "w"), ensure_ascii=False)
@@ -160,6 +189,8 @@ for it in items:
         cur_s, cur_t = it["sys"], None
     if it["topic"] != cur_t:
         body += f'<div class="th">{e(it["topic"])}</div>'
+        if BOXES.get(it["topic"]):
+            body += '<div class="bx">' + "".join(f"<div>• {bidi(x.replace('→', '←'))}</div>" for x in BOXES[it["topic"]]) + "</div>"
         cur_t = it["topic"]
     n += 1
     ans = it["ans"].strip()
@@ -173,6 +204,10 @@ for it in items:
         o += f' <span class="ok">✔ {e(ans)}</span>'
     rp = f'<span class="rp">مكرر {e(it["rep"])}</span> ' if it.get("rep") else ""
     tg = f'<span class="tg">{e(it["tag"])}</span>' if it["tag"] else ""
+    if it.get("same") == "same":
+        tg += '<span class="sm">= Sep</span>'
+    elif it.get("same") == "diff":
+        tg += '<span class="sm df">≈ Sep: جواب مختلف ⚠</span>'
     nt = f'<div class="nt">✍ {e(it["note"])}</div>' if it["note"] else ""
     body += f'<div class="q"><b>{n}.</b>{tg} {rp}{e(it["stem"])}{it["flag"]}{o}{nt}</div>'
 
@@ -189,6 +224,10 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .ok {{ font-weight: bold; text-decoration: underline; }}
 .rp {{ border: .6pt solid #000; border-radius: .8mm; padding: 0 .6mm; font-weight: bold; direction: rtl; unicode-bidi: isolate; }}
 .tg {{ font-size: .85em; border: .4pt solid #000; padding: 0 .4mm; margin-left: .6mm; }}
+.bx {{ direction: rtl; text-align: right; border: .9pt solid #000; border-radius: 1mm; padding: .4mm 1mm; margin: .3mm 0 .6mm; font-size: 1.02em; line-height: 1.22; break-inside: avoid; background: #f2f2f2; }}
+.bx div {{ margin: .15mm 0; }}
+.sm {{ font-size: .82em; border: .4pt dashed #000; padding: 0 .4mm; margin-left: .5mm; }}
+.sm.df {{ font-weight: bold; border-style: solid; }}
 .nt {{ font-size: .92em; font-style: italic; color: #111; border-left: .9pt solid #000; padding-left: .8mm; margin-top: .15mm; }}
 """
 doc = (f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head><body>'
