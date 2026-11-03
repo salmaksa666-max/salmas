@@ -101,6 +101,7 @@ td.q { white-space: nowrap; font-weight: bold; direction: ltr; text-align: left;
 .q .o span { margin-right: 2.5mm; }
 .q .ex { direction: rtl; text-align: right; font-size: .95em; border-right: 1.2pt solid #000; padding-right: 1.5mm; margin: .3mm 0 0 3mm; }
 td.why { font-size: .92em; color: #222; }
+.q .ex.en { direction: ltr; text-align: left; border-right: none; border-left: 1.2pt solid #000; padding: 0 0 0 1.5mm; margin: .2mm 0 0 3mm; }
 .rp { border: .8pt solid #000; border-radius: 1mm; padding: 0 1mm; font-weight: bold; }
 .tree { direction: rtl; display: flex; flex-wrap: wrap; align-items: center; gap: 1mm; padding: .8mm 2mm; font-size: 8pt; }
 .tree .n { border: .8pt solid #000; border-radius: 1.5mm; padding: .3mm 1.5mm; }
@@ -129,10 +130,25 @@ for sname, topics in secs:
             if not o or not re.match(r"[A-E][.)]", ans.strip()):
                 o += f' <span class="ok">✔ {html.escape(ans)}</span>'
             badge = f'<span class="rp">مكرر {html.escape(it["rep"])}</span> ' if it.get("rep") else ""
-            qs += f'<div class="q"><b>{num[q]})</b> {badge}{html.escape(it["stem"])}{it["flag"]}<div class="o">{o}</div>' + "".join(f'<div class="ex">{icon} {bidi(clean_ex(EXPL.get(PREFIX + q, {}).get(k)))}</div>' for icon, k in (("💡", "rule"), ("🔁", "flip")) if clean_ex(EXPL.get(PREFIX + q, {}).get(k))) + '</div>'
+            qs += f'<div class="q"><b>{num[q]})</b> {badge}{html.escape(it["stem"])}{it["flag"]}<div class="o">{o}</div>' + "".join(f'<div class="ex{"" if AR.search(clean_ex(EXPL.get(PREFIX + q, {}).get(k))) else " en"}">{icon} {bidi(clean_ex(EXPL.get(PREFIX + q, {}).get(k)))}</div>' for icon, k in (("💡", "rule"), ("🔁", "flip"), ("✍", "author")) if clean_ex(EXPL.get(PREFIX + q, {}).get(k))) + '</div>'
         tree = "".join('<div class="tree">' + '<span class="a">←</span>'.join(f'<span class="n">{bidi(x)}</span>' for x in br) + "</div>" for br in tp["tree"])
         body += (f'<div class="tp"><div class="tt">{bidi(tp["title"])}</div>{tree}' + (f"<table>{rows}</table>" if rows else "")
                  + (f'<div class="notes">{notes}</div>' if notes else "") + (f'<div class="qs">{qs}</div>' if qs else "") + "</div>")
+if os.environ.get("DENSE"):
+    CSS += """
+@page { size: A4; margin: 4mm; }
+.top { margin-bottom: .8mm; padding-bottom: .4mm; }
+.sec { margin: .8mm 0 .6mm; }
+.tp { margin-bottom: 1.2mm; }
+td { padding: .2mm 1mm; }
+.tree { padding: .3mm 1.5mm; gap: .6mm; }
+.notes { padding: .3mm 1.5mm; }
+.qs { column-gap: 3mm; padding: .6mm 1.2mm; }
+.q { margin-bottom: .45mm; line-height: 1.18; }
+.q .o { padding-left: 2mm; }
+.q .o span { margin-right: 1.8mm; }
+.q .ex, .q .ex.en { margin-top: .1mm; }
+"""
 doc = f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head><body>{body}</body></html>'
 src = os.path.join(tempfile.mkdtemp(), "t.html")
 open(src, "w", encoding="utf-8").write(doc)

@@ -1,0 +1,826 @@
+# Pediatrics
+== Vaccines: الجدول و catch-up والموانع
+> الجدول (السعودي): birth = BCG + HBV → 2 شهور = DTaP، IPV، Hib، PCV، rota، HBV → 12 شهر = OPV، MMR، varicella، PCV، MCV4 → preschool = MMR + DTaP + OPV
+> فاته = catch-up (ما نعيد من الصفر) → 9 شهور ما أخذ شي = BCG + HBV + OPV + DTaP + measles → preterm = العمر الحقيقي (chronological)
+> حرارة خفيفة أو URTI أو تورم مكان الإبرة قبل = أعطيه → egg allergy = أعطيه MMR و flu عادي → anaphylaxis من vaccine = لا تعطيه ثاني
+> live (MMR، varicella، BCG، OPV) ممنوعة: steroids عالية (2 mg/kg أكثر من أسبوعين) أو chemo أو immunodeficiency → IVIG قريب = أجلي الـlive → HIV مستقر = MMR بحذر
+| الحالة | الجواب | Q |
+| 2 شهور: الروتين | DTaP، IPV، Hib، PCV، rota | 1850 |
+| سنة (البرنامج السعودي) | OPV، MMR، varicella/MCV4، PCV | 0725 0726 |
+| سنة (المصدر ما حدد) | (؟) | 1148 |
+| Preschool: الأهم | MMR (المصدر الثاني: OPV) | 3001 4801 |
+| 9 شهور ما أخذ شي | BCG، HBV، OPV، DTaP، measles | 0204 0205 3782 |
+| أخذ بس تطعيمات الولادة والأهل رافضين | طمني واشرحي | 2081 |
+| 10 شهور فاته 6 و9 | Catch-up | 3011 |
+| Preterm: متى التطعيم | العمر الحقيقي | 0941 2443 3961 |
+| MMR + URTI + حرارة 38.9 | أعطيه الحين | 1024 |
+| DTaP + تورم قبل + حرارة خفيفة | أعطيه الحين | 1429 3026 0689 |
+| Allergy (مو anaphylaxis) من DTaP | أعطيه مع observation | 2205 |
+| Anaphylaxis من flu vaccine قبل | لا تعطيه | 3096 |
+| Egg allergy + MMR و flu أو DTaP | أعطيه كلها | 1617 4025 |
+| Nephrotic + steroids عالية + preschool | DTaP بس (لا live) | 0043 0044 0045 |
+| Kawasaki + IVIG قبل شهرين | DTaP (أجلي MMR) | 0232 |
+| قبل preschool: لازم تعرفين | أخذ IVIG؟ | 0233 |
+| شك immunodeficiency | وقفي BCG | 0648 |
+| FTT + thrush + أخوه مات صغير: ممنوع | Varicella (live) | 0649 1171 |
+| HIV مستقر: يحتاج انتباه | MMR | 2424 3493 |
+| AML خلص chemo: ممنوع | (المصدر ما حدد) | 1013 |
+| جاه chickenpox قبل شهرين | لا تعطيه varicella | 2590 5030 |
+| Chickenpox قبل شهرين (المصدر الثاني) | Varicella مع البقية | 2591 |
+| حرارة + rash بعد 3 أيام من MMR | Viral exanthem (مو من التطعيم) | 0669 2157 0668 |
+| Asthma: يمنع النوبات | Influenza vaccine | 1384 |
+| CF + infections متكررة | Influenza vaccine | 2040 3137 4518 |
+| CF + طفل CF ثاني | افصليهم فورًا | 2006 |
+== Vaccines: بعد التعرض (prophylaxis)
+> chickenpox: سليم + مطعم = طمني → سليم + غير مطعم (أكبر من سنة) = vaccine خلال 3–5 أيام → chemo أو immunocompromised = VZIG
+> measles تعرض + أقل من 6 شهور = immunoglobulin → أم HBsAg + = HBV vaccine + HBIG خلال 12 ساعة → جده TB مفتوح = IGRA + CXR + isoniazid
+> جرح: نظيف + مطعم = ما يحتاج شي → متسخ (rusty) = نظفيه (irrigation) + tetanus لو آخر جرعة أكثر من 5 سنين → عضة قطة أو خفاش = اغسلي + rabies vaccine + immunoglobulin
+| الحالة | الجواب | Q |
+| ALL على chemo + تعرض chickenpox | VZIG / IVIG | 0222 0762 0763 0894 2117 2187 3340 |
+| نفس السؤال (المصدر ما حدد) | (؟) | 4190 |
+| مطعم وسليم + تعرض chickenpox | طمني | 0893 2116 1877 3415 |
+| 12 سنة ما جاه chickenpox + تعرض | Chickenpox vaccine | 3492 4503 5082 |
+| رضيع 5 شهور + أخوه measles | Immunoglobulin | 0067 4451 5124 |
+| أم HBV | HBV vaccine + HBIG | 2911 3069 4674 |
+| جده TB مفتوح + أخذ BCG | IGRA + CXR + isoniazid | 2065 2444 2787 4532 4533 |
+| جرح نظيف + مطعم | ما يحتاج شي | 0957 1081 1825 2803 3522 |
+| نفس السؤال (المصدر الثاني) | Tetanus vaccine | 1078 1289 |
+| Rusty nail + مطعم | Irrigation + تنظيف | 0183 0956 2804 3521 |
+| عضة قطة أو خفاش | Rabies vaccine + immunoglobulin | 1407 1438 2935 3611 4877 |
+| عضة قطة مريضة | اغسلي الجرح | 1484 |
+| خفاش عض وخدش: المرض | Rabies | 0482 |
+| حج + ما أخذ meningococcal | Rifampicin يومين | 3487 |
+| سفر كينيا | Yellow fever | 1226 |
+| سفر غانا (rural) | Antimalarial | 4708 |
+== Neonate: ضيق التنفس
+> مولود ضيق تنفس → CS + term + fluid بالـfissures = TTN (O2 30–40% + NGT feeding، يتحسن خلال 24–72 ساعة) → preterm + ground glass = RDS (surfactant)
+> meconium + post-term + hyperinflation + patchy = MAS → vigorous = routine care → ما تحسن على ventilation = inhaled nitric oxide (PPHN)
+> preterm + apnea تتحسن بالـstimulation = immature respiratory control (mixed apnea) → machinery murmur + wide pulse pressure = PDA (fluid restriction) → بعد CPAP طويل + expiratory wheeze = tracheomalacia
+> أم سكري + preterm + grunting = RDS أو sepsis → blood culture + IV antibiotics → أم سكري + Hct 71% بدون أعراض = ما يحتاج شي
+| الحالة | الجواب | Q |
+| CS + tachypnea + fluid بالـfissures | TTN | 0509 1980 3556 |
+| سبب TTN | Slow absorption of lung fluid | 3164 |
+| TTN: الأهم | O2 30–40% | 3819 4939 0542 2712 4117 1699 |
+| TTN + RR 65: الرضاعة | NGT feeding | 3464 0452 1926 |
+| TTN (المصدر ما حدد) | (؟) | 1461 |
+| TTN على 30% O2: escalation | يحتاج O2 أكثر | 0113 |
+| CS + hyperaeration + infiltrates | Supportive | 2596 |
+| Respiratory distress: أول شي | Chest X-ray | 3554 5121 |
+| 29 أسبوع + grunting + flaring | Surfactant | 2383 2451 4327 |
+| 33 أسبوع + grunting | O2 + monitoring | 0885 |
+| 33 أسبوع + HR 66 | RDS | 0959 |
+| 33 أسبوع + أم سكري | RDS | 2688 |
+| Preterm + أم سكري + grunting | IV antibiotics | 4521 4756 4720 |
+| Macrosomic + أم سكري + desaturation | NICU admission | 2358 4456 |
+| Meconium + post-term + patchy | MAS | 3647 |
+| MAS: الـX-ray | Hyperinflation + patchy | 3055 3587 3648 |
+| MAS + hypoxia | O2 → intubation | 3555 1888 |
+| MAS على ventilation وما تحسن | Inhaled nitric oxide | 0234 0235 |
+| نفس السؤال (المصدر ما حدد) | (؟) | 1940 |
+| Meconium + vigorous | Routine care | 3192 5120 |
+| Post-term: الشكل | جلد ناشف ومقشر | 1865 |
+| 28 أسبوع + desaturation تتحسن بالـstimulation | Immature respiratory control | 2087 3579 |
+| Apnea 15–20 ثانية كذا مرة بالساعة | Mixed apnea | 2562 2623 3728 |
+| Preterm + machinery murmur + apnea | Fluid restriction (PDA) | 3477 4178 |
+| بعد CPAP + expiratory wheeze | Tracheomalacia | 2531 4441 |
+| BPD وما يطلع من الـventilator | Short course steroids | 3113 |
+| 29 أسبوع سابق: الوقاية من bronchiolitis | Reassure | 1331 |
+| 5 أيام + بطن منتفخ + respiratory distress | Intubation | 0187 |
+== Neonate: الصفار والنزيف والدم
+> صفار → أول 24 ساعة أو يزيد بسرعة = hemolysis (unconjugated عالي + Coombs: أمه O أو Rh) → بعد أسبوع + يرضع زين = breast milk jaundice → phototherapy ما نفع = exchange
+> صفار + cataract + reducing substance = galactosemia → بعد ما بدأ فواكه = fructose intolerance → acholic stool + butterfly vertebrae = Alagille
+> نزيف: platelets واطية + أمه platelets طبيعية = alloimmune (NAIT) → أمها ITP أو SLE = maternal autoimmune (IVIG + platelets) → PT و PTT طويلة = vitamin K → كل شي طبيعي + الحبل تأخر = factor XIII
+> subgaleal (يعبر الـsutures) بعد vacuum + Hb واطي = transfusion → أم سكري: hypoglycemia (jittery = glucose)، polycythemia، hypocalcemia
+| الحالة | الجواب | Q |
+| أكثر شي يدل على hemolysis | Unconjugated bilirubin عالي | 0833 0834 1293 3890 |
+| 5 أيام + صفار شديد + أخوه نفس الشي | Mother's blood group | 3909 3910 |
+| 4 أيام + صفار خفيف + يرضع زين | Breast milk jaundice | 1317 |
+| 380 + phototherapy ما نفع | Plasma/exchange | 0271 |
+| Kernicterus: الفحص | Dyskinetic (choreoathetosis) | 0488 |
+| 4 أسابيع + صفار + حرارة | (المصدر) | 0019 |
+| صفار + cataract + reducing | Galactosemia / urine reducing | 0545 1415 2533 4129 4966 |
+| بعد ما بدأ فواكه | Hereditary fructose intolerance | 3189 |
+| Acholic + PS + butterfly vertebrae | Alagille | 4386 |
+| Microcephaly + HSM | Congenital infection | 0433 0434 |
+| Cataract + murmur + rubella بالحمل | Rubella | 1198 |
+| Petechiae + platelets 4 + ICH | Alloimmune thrombocytopenia | 0400 0401 0402 |
+| نفس السؤال (المصدر الثاني) | Immune thrombocytopenia | 1414 |
+| Hemarthrosis + platelets واطية | Maternal autoimmune | 0264 |
+| أمه SLE + platelets 18 | Platelets + IVIG | 0766 4600 |
+| PT و PTT طويلة | Vitamin K deficiency | 0811 3489 |
+| الحبل تأخر + نزيف + أخوه نفس الشي | Factor XIII | 2056 |
+| Vacuum + swelling يعبر الـsutures + Hb 7 | Blood transfusion | 3557 3558 4693 |
+| Erb (Moro غايب بجهة) | Immobilize | 3753 4141 |
+| أم سكري + jittery | Blood glucose | 1704 |
+| Jerky + glucose 2.4 | Glucose bolus | 2484 |
+| Hct 71% + plethora بدون أعراض | ما يحتاج شي | 3706 4556 |
+| نفس السؤال (المصدر الثاني) | IV fluids | 4555 4735 |
+| Macrosomic + أم سكري (المصدر ما حدد) | (؟) | 4560 |
+| IUGR بالـNICU: الأهم | Hypocalcemia | 1925 |
+== Neonate: الفحص والجراحة
+> Apgar: HR + تنفس + tone + reflex + لون (كل واحد 0–2) → femoral pulse غايب = coarctation (prostaglandin) → erythema toxicum = طمني
+> drooling + coiling للـNG tube = TEF → bilious vomiting = malrotation (upper GI contrast) → ما طلع meconium 48 ساعة = Hirschsprung (rectal suction biopsy) → pyloric = US
+> CAH (21-OH): ambiguous + Na واطي + K عالي = IV hydrocortisone + fluids → panhypopit = hydrocortisone أول → hypoglycemia + lethargy = congenital hypopituitarism أو CAH
+| الحالة | الجواب | Q |
+| Apgar: HR أقل من 100 + أزرق + grimace | 5 | 0477 |
+| Apgar (cesarean 38) | 8 | 0645 |
+| Apgar (المصدر ما حدد) | (؟) | 0479 0644 |
+| 10 أيام: يحتاج تدخل فوري | Absent femoral pulse | 1480 1481 |
+| 10 أيام + femoral غايب + ضيق | Prostaglandin | 4415 |
+| Macules حمر 3 أيام | Erythema toxicum: طمني | 3955 3956 |
+| Drooling + فقاعات بعد الرضاعة | TEF | 1813 |
+| Polyhydramnios + coiling | TEF (المصدر: GERD) | 3714 |
+| Bilious vomiting | Upper GI contrast | 1823 3963 |
+| 48 ساعة بدون meconium + بطن منتفخ | Rectal suction biopsy / surgery | 4539 3821 0438 |
+| Down: GI anomalies | Contrast enema | 2748 |
+| Pyloric stenosis | Abdominal US | 3249 |
+| Inguinal mass + scrotum فاضي | Surgery بعد كم شهر | 2974 |
+| Pierre Robin + صعوبة رضاعة | ENT + team | 3978 |
+| 46XX + ambiguous | CAH | 0416 |
+| Ambiguous + Na واطي + K عالي | IV hydrocortisone + fluids | 0890 0891 4392 |
+| Panhypopituitarism | Hydrocortisone أول | 2602 |
+| 3 أسابيع + glucose 35 + hypotonia | Congenital hypopituitarism | 2442 |
+| 20 يوم + حرارة + hypotonia | Admit + IV antibiotics | 2692 3602 |
+| CS + healthy ثم ضيق | CXR | 1551 3553 4019 |
+| أم سكري: أشهر مضاعفة (المصدر) | ARDS | 1791 |
+| IUGR + hypothermia ما تحسن | Septic workup + antibiotics | 4719 |
+| 6 أيام + cousins + cataract + hemolysis | Urine reducing substance | 2532 |
+== Stridor و upper airway
+> stridor → حرارة خفيفة + barking أو brassy cough + بعد URTI = croup → dexamethasone 0.6 mg/kg (distress = + nebulized epinephrine) → ما تحسن = laryngoscopy
+> حرارة عالية + drooling + toxic + tripod = epiglottitis (Hib) → لا تفحصين الحلق، intubate بالـOR → فجأة + بدون حرارة + aphonia أو أكل حب = foreign body
+> FB: CXR (expiratory) → rigid bronchoscopy → أشهر مكان right main bronchus → choking وما يقدر يتكلم = 5 back blows + 5 thrusts
+> رضيع + stridor يزيد على الظهر ويخف على البطن = laryngomalacia (طمني، FTT أو apnea = ENT) → monophasic expiratory wheeze أو بعد TEF repair أو CPAP طويل = tracheomalacia
+| الحالة | الجواب | Q |
+| Barking + stridor + retractions | Dexamethasone 0.6 mg/kg | 0598 0599 0600 0601 0602 3693 |
+| Stridor + حرارة خفيفة: أشهر سبب | Croup | 0611 2002 |
+| Croup + distress | Inhaled epinephrine + steroids | 1581 2905 |
+| Croup ما تحسن | Laryngoscopy | 2377 2555 2573 4929 |
+| Drooling + toxic + رقبة ممدودة | Intubate / laryngoscopy بالـOR | 0130 1751 2554 |
+| Sore throat + ضيق تنفس سريع | H. influenzae type B | 4606 |
+| Stridor فجأة + aphonia بدون حرارة | Foreign body | 1361 4830 |
+| كحة فجأة بعد أكل حب | Foreign body | 0490 |
+| أكل فول سوداني: أول شي | CXR | 1131 |
+| FB بالـX-ray | Bronchoscopy | 2576 |
+| FB (popcorn، corn) | Rigid bronchoscope | 3049 3545 |
+| أشهر مكان | Right main bronchus | 2577 |
+| Choking + wheeze مستمر من شهور | Bronchoscopy | 2845 3402 3403 3713 |
+| ما يقدر يتكلم ولا يبكي | 5 back blows + thrusts | 1129 1130 |
+| Inspiratory يخف على البطن | Laryngomalacia | 1949 |
+| Laryngomalacia + FTT | ENT | 2405 |
+| 5 شهور + stridor ينمو زين | Reassurance | 3813 0056 |
+| Wheeze monophasic يزيد بالرضاعة | Tracheomalacia: يروح لحاله | 3497 3812 |
+| Barking + monophasic wheeze + cyanosis | Tracheomalacia | 0391 0392 2975 4576 2742 |
+| Tracheomalacia + infections + FTT | Surgical referral | 2851 |
+| Trachea collapse بالـbronchoscopy | NIV | 4176 |
+| Cyanosis مع البكاء + wheeze | Flexible bronchoscopy | 5019 |
+| Eczema + stridor بالليل | Angioneurotic edema | 3856 |
+| استنشق قلوي + salivation | Laryngotracheal injury | 0524 |
+| Stridor بعد extubation | (المصدر ما حدد) | 3921 |
+== Asthma
+> التشخيص: FEV1 يتحسن بعد bronchodilator (أصغر من 5 = trial of bronchodilator) → polyphonic wheeze مع الجهد
+> مو منضبط → أول شي: شيكي الالتزام والـinhaler technique وشيلي القطط (environment) → بعدين ICS (أو زيديه)
+> نوبة: salbutamol بالـspacer وقيمي → severe = oral steroids → thrush من ICS = nystatin
+> كحة بالليل بعد URTI + نوبات قبل = ICS → أغلب الأطفال يتحسنون بالكبر
+| الحالة | الجواب | Q |
+| نوبة + SpO2 95% + يتكلم جمل | Salbutamol بالـspacer | 0141 |
+| نوبة شديدة + ما يلتزم | Oral corticosteroids | 0868 1216 |
+| Severe + قطط (المصدر ما حدد) | (؟) | 0383 |
+| Severe + قطط + مو ملتزم | Low-dose / inhaled steroids | 0869 0870 2411 |
+| كحة بالليل + SABA | Inhaled corticosteroids | 0795 1735 1798 1883 2618 3613 4440 4889 |
+| كحة بعد URTI + نوبات قبل | Steroids | 1734 |
+| مو ملتزم + قطط | شيلي القطط | 1300 |
+| يمنع النوبات | Environmental control | 1183 1868 |
+| مو ملتزم | تأكدي من استخدام الـinhaler | 3610 |
+| Inhalers وhospitalization كثير (المصدر) | Adverse events تزيد | 2901 |
+| التشخيص | FEV1 يتحسن بعد bronchodilator | 1028 4849 |
+| 4 سنين: كيف نشخص | Trial of bronchodilator | 4766 |
+| 4 سنين يستجيب: التأكيد | Spirometry | 3367 |
+| علامة asthma | Polyphonic wheeze مع الجهد | 0475 2011 |
+| المستقبل | يتحسن بالكبر | 0439 1350 4743 |
+| كحة بالليل بعد URTI (3 سنين) | يتحسن قبل المدرسة | 1792 2951 |
+| Thrush من ICS | Nystatin | 3104 |
+| ريحة دخان بملابسه | Counsel عن التدخين | 3653 |
+== Bronchiolitis و pneumonia
+> رضيع أقل من سنة + زكام + wheeze + crackles = bronchiolitis (RSV) → supportive: O2 لو أقل من 90–92% + suction + أكل → apnea أو تعب أو CO2 = intubation
+> pneumonia: أحسن علامة = tachypnea (RR) → CXR → lobar = strep pneumoniae → مراهق + bilateral = mycoplasma → رضيع + conjunctivitis + staccato cough = chlamydia (azithromycin)
+> pneumonia ما تحسن على antibiotics = effusion أو empyema (أخطر علامة: persistent fever) → stony dull = pleural effusion
+| الحالة | الجواب | Q |
+| زكام + wheeze (6 شهور) | Bronchiolitis | 1014 |
+| Bronchiolitis + O2 89% | Low flow O2 + suction | 3485 4072 4501 |
+| 5 شهور + crepitations + تعب | Intubation | 3095 4250 |
+| 9 شهور + wheeze بعد حرارة (المصدر) | Bronchitis | 4963 5046 |
+| Bronchiolitis ثم حرارة + بلعوم أحمر | Persistent high fever | 0489 |
+| أكثر علامة حساسة | Respiratory rate | 3586 4321 4273 4274 |
+| Pneumonia: الخطوة | Chest X-ray | 3255 4689 4817 4952 |
+| Lobar + حرارة عالية (المصدر ما حدد) | (؟) | 2738 |
+| Effusion + consolidation | Strep pneumoniae | 3299 |
+| Pneumonia + حرارة 5 أيام + air entry نازل | Discharge على amoxicillin | 3861 |
+| مراهق + bilateral infiltrates | Mycoplasma | 0930 2299 |
+| Staccato cough + conjunctivitis | Chlamydia trachomatis | 0247 0250 0613 3756 4725 |
+| 5 أسابيع + whoop + cyanosis | Azithromycin | 3476 |
+| Pneumonia ما تحسن + O2 85% | Invasive ventilation | 0553 4562 |
+| ضيق مستمر بعد pneumonia | Respiratory failure | 2832 |
+| Stony dullness | Pleural effusion | 2998 |
+| Infection ما تحسن: الأخطر | Persistent fever | 1690 2180 3101 0406 |
+| نفس السؤال (المصدر ما حدد) | (؟) | 1451 |
+| رضيع pneumonia متكرر + FTT | (المصدر ما حدد) | 2820 |
+| كحة بس على الظهر وبالرضاعة | (المصدر ما حدد) | 4718 |
+| Sandifer-like posturing (المصدر) | Prematurity | 1561 |
+== ENT: الحلق والأذن والأنف
+> حلق: exudate + lymph nodes + حرارة بدون كحة = strep (penicillin V أو amoxicillin 10 أيام) → conjunctivitis + exudate = adenovirus → طحال + lymph nodes + amoxicillin طلع rash = mono
+> بدون exudate = home rest → sandpaper rash = scarlet fever → 6–7 نوبات بالسنة + snoring = adenotonsillectomy
+> زكام 7–8 مرات بالسنة وينتهي لحاله = طبيعي (hand hygiene) → sinusitis أكثر من 10 أيام = amoxicillin (ما تحسن = amox-clav)
+> OME مستمر + سمع = tubes → tubes + سباحة + otorrhea = pseudomonas
+| الحالة | الجواب | Q |
+| Exudate + lymph nodes | Strep pharyngitis | 2684 4145 4146 |
+| Exudate + حرارة | 10 أيام amoxicillin / penicillin | 1214 3952 2437 |
+| Sandpaper rash | Streptococcus pyogenes / scarlet fever | 0751 2904 |
+| Tonsils + amoxicillin ما نفع | Infectious mononucleosis | 0753 2685 |
+| Conjunctivitis + exudate | Adenovirus | 0377 2412 4707 |
+| بلعوم أحمر بدون exudate | Home rest | 1684 |
+| 3 أيام حلق + ألم بطن (المصدر ما حدد) | (؟) | 0186 4043 |
+| 6 نوبات + snoring + grade 3 | Adenotonsillectomy | 2322 |
+| 4 نوبات بسنة | Hand washing | 1891 |
+| زكام 7–8 مرات وينتهي | Reassure + hand hygiene | 2017 2414 3484 3970 3971 4641 4642 |
+| 6–9 infections بالسنة (المصدر ما حدد) | (؟) | 1495 |
+| Purulent بعد URTI | Acute bacterial sinusitis | 3488 |
+| 12 يوم + frontal tenderness | Oral amoxicillin | 4602 |
+| Sinusitis ما تحسن 3 أيام | Amoxicillin-clavulanate | 0240 |
+| أذن فيها fluid بدون التهاب | OME (glue ear) | 0755 |
+| OME متكرر | Tympanostomy tubes | 1631 |
+| Tubes + سباحة + otorrhea | Pseudomonas | 3570 |
+| أنف يسيل + حكة + turbinates شاحبة | Allergic rhinitis | 0142 |
+== CF و immunodeficiency
+> CF: sweat chloride أكثر من 60 → أشهر مضاعفة = bronchiectasis → براز دهني = pancreatic enzymes → green sputum = culture → MSSA = amox-clav → diabetes = OGTT سنوي → طفلين CF = افصليهم
+> infections بكتيرية متكررة بعد 6 شهور = immunoglobulin levels → B cells غايبة = XLA → thrush + diarrhea + pneumonia بأول شهور = SCID (bone marrow transplant)
+| الحالة | الجواب | Q |
+| Sweat chloride 77: أشهر مضاعفة | Bronchiectasis | 2422 3936 3937 |
+| CF + براز دهني | Pancreatic enzymes | 2261 4408 |
+| CF + green sputum: أول شي | Sputum culture | 2085 |
+| CF + green sputum | Amoxicillin / amox-clav | 0146 4474 |
+| CF + MSSA | Amoxicillin-clavulanate | 4732 |
+| CF: screening السكري | OGTT سنوي | 1584 |
+| CF + طفل CF ثاني | افصليهم | 1967 |
+| Pneumococcal متكرر + otitis | Immunoglobulin levels | 0220 |
+| Infections + giardia | X-linked agammaglobulinemia | 1039 |
+| SCID | Bone marrow transplant | 2093 |
+== Respiratory: متفرقات
+| الحالة | الجواب | Q |
+| Drooling + muffled + جالس بحضن أمه | Intubate بالـOR | 0048 |
+| Peanut + شي بالـright lower | Bronchoscopy | 0650 |
+| سنتين + كحة فجأة + ضيق | Back blows | 1132 |
+| MAS: الأفيد | Nitric oxide | 0236 |
+| TTN: السبب | Slow fluid absorption | 0328 |
+| TTN: نصعد لما | يحتاج O2 أكثر | 1050 |
+| 2 ساعات + respiratory distress | X-ray | 4581 |
+| Non-rebreather + retractions | Intubation | 1777 |
+| BPD + صعوبة الفطام | Low dose steroids | 4128 |
+| Trachea collapse | NIV | 1514 |
+| Sepsis + ventilator | Low tidal volume | 2985 |
+| Productive cough مزمن + wheeze | Sweat test | 2036 |
+| يمنع نوبات asthma | Control environment | 3394 |
+| أسئلة ناقصة (المصدر ما حدد) | (؟) | 3030 4387 4243 4598 |
+== GI: الترجيع والجراحة
+> ترجيع بعد الرضاعة + ينمو زين = GER (thickened feeds + وجبات أصغر) → projectile + non-bilious + 3–6 أسابيع + olive = pyloric stenosis → US → أول شي NPO + fluids (hypochloremic alkalosis)
+> bilious = malrotation (upper GI contrast) → red currant jelly + sausage mass = intussusception (ileocolic) → مستقر = air/contrast enema → peritonitis أو ill = surgery
+> RLQ = US (أو CT) → epigastric للظهر + حرارة = pancreatitis (NPO + fluids) → epigastric بالليل + أبوه PUD = endoscopy
+> undescended ينزل باليد = retractile → صفن ناقص بجهة = inguinal hernia مصاحبة → umbilical hernia: يقفل لحاله، فوق 4–5 سنين = surgery
+| الحالة | الجواب | Q |
+| ترجيع بعد الرضاعة + الوزن طبيعي | Thickened feeds + وجبات أصغر | 2212 3114 |
+| Projectile + non-bilious + olive | Pyloric stenosis | 3180 |
+| Pyloric: التشخيص | Abdominal US | 5132 |
+| Pyloric: أول خطوة | NPO (+ fluids) | 2208 2439 3246 3247 3248 |
+| Greenish vomiting | Upper GI contrast | 1184 1675 3964 |
+| Red currant jelly: المصدر | Ileocecal | 1101 |
+| Intussusception مستقر | Enema / rectal air | 0093 0138 2938 3649 4874 |
+| Intussusception + ill + حرارة | Surgery | 0094 1768 4334 |
+| Intussusception: الوقاية | علمي الأهل الأعراض | 3094 4891 |
+| RLQ + mass + WBC 22 | Abdominal US | 2652 5149 |
+| RLQ + guarding | CT أو US | 2653 |
+| 14 يوم ألم بطن (14 سنة) | CT abdomen | 0071 |
+| Epigastric للظهر + حرارة | NPO + IV fluids + analgesia | 0024 |
+| Epigastric بالليل + أبوه PUD | Upper GI endoscopy | 0805 0806 |
+| Epigastric متكرر | Omeprazole | 2753 |
+| غثيان بس مع الدورة | Discharge وترجع لو تكرر | 2465 2559 |
+| Testis ينزل باليد | Retractile testis | 0312 2759 |
+| Undescended + scrotum ناقص | Inguinal hernia | 4472 |
+| 6 سنين + umbilical hernia | Elective surgery | 0013 |
+| انتفاخ بالسرة وقت البكاء | Umbilical hernia | 2308 3111 |
+| وقع + ترجيع كثير (المصدر ما حدد) | (؟) | 2870 |
+== GI: الإسهال والإمساك والكبد
+> إسهال + جفاف شديد (sunken، بارد، نبض سريع ضعيف) = hypovolemic shock → maintenance: 100 لأول 10 kg + 50 للـ10 الثانية (12 kg = 1100) → الوقاية = غسل اليدين
+> دم + mucus = campylobacter أو shigella → مية من السفر + دهني = giardia (metronidazole) → عضوية: celiac (tTG-IgA ← gluten free)، IBD (Crohn: fistula)
+> إمساك + soiling = idiopathic (PEG) → دم يغطي البراز = anal fissure → إمساك + enuresis + sacral dimple = MRI lumbosacral
+> hepatitis A (daycare) = rest + rehydration → autoimmune hepatitis + encephalopathy = قللي الـprotein → Kasai + حكة = cholestyramine
+| الحالة | الجواب | Q |
+| جفاف + 7 مرات: التشخيص | Hypovolemic shock | 0895 4781 4838 |
+| 7 شهور + جفاف: أكثر علامة | Pale and cold skin | 2044 |
+| 12 kg: maintenance | 1100 mL/day | 0293 |
+| مغص + إسهال أخضر كثير | Rotavirus | 0506 4806 |
+| دم + mucus + حرارة | Campylobacter | 1676 |
+| مية من سفر + إسهال | Metronidazole | 2068 3657 5144 |
+| أخوه عنده إسهال: الوقاية | غسل اليدين بالصابون | 5135 |
+| Bloating + نقص وزن + celiac | Gluten free diet | 1002 2553 |
+| ما يزيد وزنه + براز رخو | tTG-IgA | 2360 |
+| أخوه celiac | Reassure (المصدر) | 0057 |
+| شبع بسرعة + perianal fistula | Crohn's | 1566 |
+| Bloody diarrhea + albumin واطي | UC | 0826 |
+| Bloody + أمه وأخوه نفس الشي | Familial polyposis | 3065 |
+| Bloody متكرر + نقص وزن | Admit full workup | 3185 4610 |
+| إمساك + soiling بدون شي ثاني | Idiopathic constipation | 2003 2004 3292 |
+| إمساك + fecal incontinence | Polyethylene glycol | 1664 |
+| إمساك ما نفع معاه شي (المصدر ما حدد) | (؟) | 2366 |
+| إمساك + enuresis + sacral dimple | Lumbosacral MRI | 0539 1613 |
+| دم بس مع البراز | Anal fissure | 0375 0552 2127 |
+| دم أحمر يغطي البراز (المصدر ما حدد) | (؟) | 3085 |
+| Hirschsprung: التأكيد (المصدر ما حدد) | (؟) | 4538 |
+| إسهال + صفار + daycare | Rest + rehydration | 1515 1516 1643 |
+| Autoimmune hepatitis + نزيف + confusion | قللي الـprotein | 4131 4230 4965 |
+| Autoimmune hepatitis | Steroids + azathioprine | 2470 |
+| Indirect bili عالي + ALT عالي | Acute hepatitis | 3300 |
+| صفار + chronic liver | Liver biopsy | 4102 4340 |
+| Tremor + صفار + مدرسة نزلت | 24 h urine copper / ceruloplasmin | 2339 2639 |
+| Kasai + حكة | Cholestyramine | 3616 |
+| حرارة + HSM 3 أسابيع (المصدر ما حدد) | (؟) | 3836 |
+| 7 شهور + بكاء يرفع رجوله | Abdominal US | 0095 |
+| ألم بطن سنة + heartburn | Omeprazole | 3486 4109 |
+| Epigastric + ترجيع + غايبة (المصدر) | Abdominal CT | 0072 |
+| إسهال + B12 واطي | Crohn's | 3153 |
+| Cirrhosis + asterixis + ammonia | Lactulose + rifaximin | 1292 |
+| إسهال أيام: الأملاح | Metabolic acidosis + hypokalemia | 3911 |
+| 14 يوم epigastric + distension | CT abdomen | 0074 |
+| إمساك من الولادة | Hirschsprung | 0429 |
+| دم من الشرج | Anal fissure | 2128 |
+| H. pylori: المدة | 7–14 يوم | 3329 |
+| Epigastric مع الأكل + ill | NPO + fluids | 3781 |
+| أول علامة compensated shock | Pale cold extremities | 2043 |
+== Cardiology: القلب الخلقي
+> cyanosis أو تعب وتعرق وقت الرضاعة + FTT = قلب → cardiology → VSD + HF (tachypnea + cardiomegaly) = diuretics → PDA بالـpreterm = fluid restriction + diuretics
+> Down = AVSD (AV canal) → Noonan = pulmonary stenosis → Marfan = echo → femoral ضعيف أو ضغط باليد = coarctation → aortic stenosis + أعراض = balloon valvuloplasty
+> SVT: مستقر = vagal ثم adenosine → hypotension = synchronized cardioversion → إغماء وقت الجري = ECG (و echo)
+| الحالة | الجواب | Q |
+| تعرق وcyanosis بالرضاعة + FTT | Refer to cardiology | 3490 5018 2737 |
+| 4 شهور + CHF + murmur | VSD | 2992 3575 |
+| VSD + HF | Diuretic | 1161 4347 |
+| Preterm + machinery murmur + wet lungs | Fluid restriction + diuretics | 4028 |
+| PDA + cyanosis + irregular | Infection (المصدر) | 0223 |
+| Down: أشهر CHD | AVSD | 1093 3567 4407 4428 4836 |
+| Down + ضيق (المصدر ما حدد) | (؟) | 4248 |
+| Down + ejection murmur | ASD | 1092 2897 |
+| Shunt بالـatrium | ASD | 2423 |
+| Webbed neck + low ears + PS | Noonan | 1499 1984 3128 |
+| Lax joints + arachnodactyly + ألم صدر | Echo | 0112 |
+| Pulse متأخر بالرجل | Coarctation | 1029 1030 4502 |
+| AS + exertional dyspnea | Balloon dilation | 1328 2699 3494 |
+| Tricuspid atresia: الأهم | Follow-up مع الأهل | 0924 |
+| Boot-shaped / cyanosis (المصدر ما حدد) | (؟) | 2794 2355 |
+| HR 265 + ألم صدر | ECG | 0103 1375 |
+| خفقان + تعرق | SVT | 0562 |
+| SVT + BP 75/50 | Synchronized cardioversion | 4328 |
+| إغماء وقت الجري | ECG | 1314 1931 |
+| نفس السؤال (المصدر الثاني) | Echo | 1391 |
+| نفس السؤال (المصدر ما حدد) | (؟) | 1238 |
+| Dropped QRS بطفل سليم | Benign | 0317 |
+| بعد URTI + dyspnea + HF | Echo | 2833 |
+| Pulmonary edema + HF | Furosemide | 3343 4859 |
+| Murmur جديد مع حرارة | أعيدي التقييم بعد ما يخف | 3639 4873 |
+| Rubella + murmur (المصدر ما حدد) | (؟) | 0347 |
+== Kawasaki و rheumatic fever و JIA
+> حرارة 5 أيام أو أكثر + 4 من: عيون حمر، شفايف متشققة، rash، يد ورجل، lymph node = Kawasaki → IVIG + high-dose aspirin → ما تحسن = IVIG ثاني (أو steroids)
+> بعد حلق + مفاصل تتنقل + carditis أو nodules = rheumatic fever → ASO → high-dose aspirin + benzathine → echo: MR → prophylaxis carditis = لين 21 أو 10 سنين (المصدر: 23)
+> حرارة يومية + salmon rash + مفاصل = systemic JIA → مفاصل 6 أسابيع + صلابة الصبح = JIA → ضعف proximal + rash = dermatomyositis
+| الحالة | الجواب | Q |
+| حرارة 6 أيام + شفايف + عيون + lymph node | Kawasaki | 0752 |
+| Kawasaki: العلاج | IVIG + high-dose aspirin | 4457 |
+| Kawasaki ما تحسن | IVIG ثاني | 0275 |
+| Kawasaki + القلب (المصدر الثاني) | IV steroids | 0276 0277 |
+| Kawasaki: أعراض لازم يرجعون | ألم بطن شديد + دم | 0424 |
+| Rash ينزل + تقشر (المصدر ما حدد) | (؟) | 0274 |
+| مفاصل تتنقل بعد حلق | Acute rheumatic fever | 2054 |
+| Rheumatic: أعلى قيمة | ASO titer | 4331 |
+| Rheumatic: العلاج | High-dose aspirin | 3156 3800 5005 |
+| نفس السؤال (المصدر ما حدد) | (؟) | 3157 |
+| Rheumatic: الـecho | Mitral regurgitation | 4226 |
+| 13 سنة + carditis: prophylaxis لين | 23 سنة (المصدر) | 0640 |
+| حرارة + salmon rash + مفاصل | Systemic JIA | 0617 1019 4316 |
+| ركبة ومعصم 6 شهور + صلابة | JIA | 4026 |
+| ضعف + rash + صعوبة الدرج | Juvenile dermatomyositis | 4171 |
+== Cardiology: متفرقات
+> بعد URTI + gallop + HF = myocarditis → DCM + ضيق = furosemide → إغماء بالحر: اسألي عن family history موت مفاجئ → irregular pulse مع التنفس = sinus arrhythmia (طبيعي)
+| الحالة | الجواب | Q |
+| بعد URTI + ضيق مع الجهد | Gallop rhythm | 1977 2281 |
+| DCM + CHF | Furosemide | 1614 |
+| 8 أسابيع + HF + wheeze | Diuretics | 1162 |
+| ضغط اليد أعلى من الرجل | Echo | 1245 |
+| AS + ضيق متوسط | Balloon valvuloplasty | 4713 |
+| مولود + HCM: أمه | DM | 3388 |
+| إغماء تحت الشمس: الأهم | Family history موت مفاجئ | 2074 |
+| Irregular pulse بمراهق صحي | Normal | 0707 |
+| وقع + ECG (tachycardia) | Synchronized cardioversion | 0561 |
+| Arrhythmia بدون أعراض (المصدر ما حدد) | (؟) | 0527 |
+| Rheumatic 13 سنة: prophylaxis | لين 21 (المصدر) | 1149 |
+| ضغط + aldosterone و renin واطية + أبوه | Liddle | 1537 |
+| ضغط عالي: أول فحص (المصدر) | Plasma metanephrines | 0323 |
+| T1DM + dyslipidemia + ضغط | DASH | 1239 |
+== Renal: UTI و hydronephrosis
+> UTI: التشخيص = organism واحد أكثر من 10⁵ (suprapubic = أي نمو) → أقل من 3 شهور أو toxic أو ترجيع أو flank = IV → غير كذا = urine culture + oral (cephalosporin)
+> أول UTI بحرارة أو متكرر = renal US → US غير طبيعي أو hydronephrosis + bladder سميك (ولد) = MCUG (posterior urethral valves) → scarring = DMSA
+> الوقاية: لا إمساك + toilet training + نظافة من قدام لورا
+| الحالة | الجواب | Q |
+| أكثر شي يأكد UTI | Single organism أكثر من 10⁵ | 1678 3546 0376 |
+| Gram negative | E. coli | 3253 |
+| Klebsiella 100,000 + أعراض | Treat as UTI | 3860 4377 |
+| حرارة خفيفة + dysuria + healthy | Urine culture + oral antibiotics | 0126 1872 2840 4120 4887 4802 |
+| حرارة + pyuria | Oral cephalosporin | 2921 0733 |
+| 4 شهور + حرارة (المصدر الثاني) | Oral amoxicillin | 1469 |
+| 2 شهور + nitrite positive | Hospital + IV antibiotics | 0175 3627 |
+| حرارة 39 + ترجيع أو flank | IV antibiotics | 3884 3496 1555 |
+| Dysuria + dark urine + حرارة | Acute pyelonephritis | 2018 |
+| UA فيه nitrite (المصدر ما حدد) | (؟) | 3885 3445 4709 |
+| بعد أول UTI: الفحص | Renal US | 0465 2460 2481 2489 3203 4373 0466 |
+| Bilateral hydronephrosis + bladder سميك | MCUG | 0719 3746 1878 |
+| Unilateral + bladder سميك (المصدر) | IV pyelogram | 0720 |
+| Scarring | DMSA | 0721 2275 |
+| UTI متكرر: الوقاية | لا إمساك + toilet training | 0308 |
+| UTI ثاني: الوقاية | نظافة perianal | 3491 |
+== Renal: nephritic و nephrotic و enuresis
+> بول coca-cola + ضغط بعد حلق 1–3 أسابيع = PSGN → C3 واطي → أول خطوة creatinine → بعد 1–3 أيام = IgA
+> edema + protein + albumin واطي = nephrotic + cholesterol عالي → HUS = schistocytes (fragmented RBC) → HSP: الخطر = ألم بطن شديد أو دم بالبراز (intussusception)
+> enuresis: never dry + فحص طبيعي = behavioral (alarm) → مع polyuria + عطش + نقص وزن = random glucose → DM: كلى = urine microalbumin سنوي → CKD = phosphate عالي
+> ضغط عالي: سمين = primary → صداع وتعرق = metanephrines → كتلة + hematuria + ضغط = Wilms
+| الحالة | الجواب | Q |
+| بول coca-cola بعد حلق: الدليل | Low C3 | 4917 5007 5052 |
+| بول coca-cola: أول خطوة | Serum creatinine | 4156 4540 4541 |
+| بعد حلق بـ3 أيام | IgA nephropathy | 3824 |
+| Coca-cola + حلق | Post-strep | 2993 |
+| Edema + LDL عالي + albumin واطي | Nephrotic | 3548 |
+| Nephrotic: إيش كمان | Hypercholesterolemia | 0378 |
+| HUS: الـsmear | Fragmented RBC | 0764 1739 |
+| HSP: أخطر علامة | ألم بطن شديد + bloody diarrhea | 4559 |
+| HSP: العلامة الأولى (المصدر) | Rash | 2345 |
+| HSP (المصدر ما حدد) | (؟) | 0423 1425 |
+| Never dry + فحص طبيعي | Behavioral changes | 0119 4361 |
+| Enuresis + أخوه نفس الشي | Conservative | 4065 |
+| 4 سنين + enuresis | Toilet training | 1443 1686 |
+| Enuresis 3 مرات بالأسبوع | قللي السوائل قبل النوم | 3167 |
+| Enuresis + عطش + نقص وزن | Random glucose | 0985 0986 4339 |
+| Enuresis + عطش (المصدر) | Urinalysis | 0987 |
+| DM: الكلى | Urine microalbumin | 0010 4506 2900 |
+| CKD stage 4 + bone pain | Hyperphosphatemia | 0052 3630 |
+| سمين + ضغط + acanthosis (المصدر) | Metanephrines | 0655 |
+| بول coca-cola + حلق + lymph nodes | Acute glomerulonephritis | 4954 5098 |
+| Tea-colored بعد حلق (المصدر الثاني) | Serum creatinine | 1213 |
+| Facial + sacral edema + albumin واطي | Nephrotic syndrome | 1665 3681 4974 |
+| C3 يرجع طبيعي بعد | 6–8 أسابيع (المصدر الثاني: 3–4) | 1729 0435 |
+| Hydronephrosis + bladder متوسع | MCUG | 1601 1913 |
+| Pyelonephritis + ما يأكل | IV antibiotics | 1786 |
+| Flank pain + حرارة (المصدر) | Oral amoxicillin | 3769 |
+| UTI 4 شهور / enuresis (المصدر ما حدد) | (؟) | 3770 2846 |
+== Hematology: الأنيميا
+> microcytic → حليب بقر كثير + pica + RDW عالي = iron deficiency (oral iron مرتين + diet) → RDW طبيعي + RBC عالي = thalassemia trait → iron ما نفع = Hb electrophoresis
+> HbF و A2 عالية + frontal bossing + طحال = β-thalassemia major → spherocytes = hereditary spherocytosis → spherocytes بعد infection = autoimmune hemolytic
+> G6PD + Hb 9 بعمر 6–8 أسابيع + كل شي طبيعي = physiologic anemia
+| الحالة | الجواب | Q |
+| حليب بقر 3 أكواب + picky | Iron deficiency (المصدر يختلف) | 1004 0706 0902 1005 |
+| نفس السؤال (المصدر ما حدد) | (؟) | 1006 1983 0131 0705 3328 |
+| Pica + microcytic + ferritin واطي | Iron deficiency | 0525 1413 |
+| Preschool + RDW 20 + MCV واطي | IDA | 1174 2067 3376 4282 4658 |
+| بسكوت وحليب + Hb واطي | Oral iron + diet | 0704 4882 4692 |
+| تعب + إمساك (المصدر) | Iron | 4845 |
+| Iron 6 شهور وما تغير | Hb electrophoresis | 2379 |
+| RBC 5.8 + MCV 69 | β-thalassemia trait | 0099 |
+| HbF + A2 عالية | β-thalassemia | 1437 4108 |
+| Frontal bossing + طحال | β-thalassemia | 2646 3375 4116 2896 3056 4837 |
+| Spherocytes + طحال | Hereditary spherocytosis | 0690 3057 |
+| Spherocytes + إسهال + pallor | Autoimmune hemolytic | 4911 |
+| G6PD + 6 أسابيع + Hb 9 | Physiologic anemia | 2497 4199 4201 |
+| G6PD + صفار بعد flu (المصدر) | Aspirin | 1847 |
+| IDA: متى screening | 10 شهور (المصدر) | 0481 |
+| فقر دم + retics عالية (المصدر ما حدد) | (؟) | 2516 3436 3458 2380 |
+| Anemia + retics | Reticulocyte count | 3437 |
+| ألم صدر متكرر (SCD) | Hb electrophoresis | 2092 3409 |
+== Hematology: النزيف والأورام
+> petechiae بعد URTI + كل شي طبيعي إلا platelets = ITP → blood film → aPTT طويل + ولد = hemophilia (factor 8) → بعد circumcision نزيف = ضغط + factor
+> pancytopenia + HSM + bone pain = leukemia (ALL) → bone marrow → CNS = intrathecal chemo → بعد chemo + حرارة = blood cultures + antibiotics
+> leukocoria = retinoblastoma → قريب retinoblastoma = ophthalmology → كتلة بطن + calcification + catecholamines = neuroblastoma → hematuria + ضغط + aniridia = Wilms → Beckwith = AFP
+| الحالة | الجواب | Q |
+| Petechiae بعد URTI | ITP | 0042 |
+| Ecchymosis بعد URTI | Blood film | 1298 3844 |
+| Hemophilia A + hematoma | Factor 8 | 2977 |
+| نزيف بعد circumcision + aPTT 70 | Compression dressing | 4730 |
+| 6 شهور + pancytopenia + organomegaly | ALL | 0379 |
+| Bone pain + HSM + bruises | Bone marrow biopsy | 3664 4774 4320 |
+| ALL + convulsions | Intrathecal chemo | 1794 4272 |
+| NHL بعد chemo + حرارة | Blood cultures + antibiotics | 5008 |
+| White reflex بالصورة | Retinoblastoma | 0499 0500 |
+| White reflex (المصدر ما حدد) | (؟) | 2251 2252 |
+| أخته retinoblastoma | Refer to ophthalmology | 0269 0270 3543 4233 |
+| كتلة + calcification | Urine catecholamines | 0122 4197 |
+| Neuroblastoma: التأكيد | Tissue biopsy | 1250 |
+| Flank pain + hematuria | Wilms | 3088 |
+| كتلة + hematuria + ضغط | Wilms | 0268 |
+| Aniridia + كتلة | Nephroblastoma | 2394 |
+| Beckwith-Wiedemann | AFP | 0123 2211 |
+| نزيف بعد circumcision + PTT 70 | Compression dressing | 2976 |
+| Ecchymosis + PT و PTT طبيعية | Bleeding time | 4777 |
+| Medulloblastoma metastatic + ألم | Morphine | 2045 |
+== Endocrine: الطول والبلوغ
+> قصير → bone age متأخر + velocity طبيعي = constitutional (طمني) → velocity بطيء = GH deficiency أو hypothyroid (TSH عالي = levothyroxine) → bone age طبيعي + أهله قصار = familial
+> Turner = GH + estrogen → طويل + arachnodactyly + lax joints = Marfan
+> بلوغ مبكر: FSH/LH عالية أو estradiol + bone age متقدم = central (MRI) → FSH/LH واطية = peripheral
+| الحالة | الجواب | Q |
+| Bone age متأخر + velocity طبيعي | Reassure (constitutional) | 0147 0148 0437 1658 |
+| 9 سنين قصير (constitutional) | Constitutional delay | 0944 1008 |
+| نفس السؤال (المصدر ما حدد) | (؟) | 0351 1009 |
+| Constitutional + velocity بطيء | Growth hormone | 0149 2337 4299 |
+| نفس الفكرة (المصدر ما حدد) | (؟) | 3459 4325 4338 |
+| قصير + velocity بطيء: السبب | GH deficiency | 0943 |
+| أبوه 170 وأمه 155 | Familial short stature | 1007 |
+| قصير + زيادة وزن + TSH عالي | Levothyroxine | 4160 4547 4918 |
+| Down + إمساك + خمول | TFT | 4348 |
+| 45,X + قصير | Growth hormone | 1000 |
+| Turner + ما فيه ثدي | Estrogen | 1001 |
+| قصير + nipples متباعدة (المصدر ما حدد) | (؟) | 0999 |
+| طويل + lax joints | Marfan | 0464 1296 2942 3060 4085 |
+| ثدي + شعر + bone age متقدم | Central precocious puberty | 3073 3715 3783 5013 1936 |
+| ثدي + شعر (المصدر الثاني) | Peripheral precocious | 0137 0362 |
+== Endocrine: السكري والـmetabolic
+> DKA: fluids ثم insulin → صداع أو وعي نازل = cerebral edema = mannitol → hypoglycemia بالليل = قللي الـbasal → T2DM: acanthosis = HbA1c + lifestyle (metformin)
+> DI: بعد عملية مخ أو head trauma + بول كثير + Na عالي = central DI → desmopressin
+> metabolic: ammonia عالي + apnea بأول أيام = urea cycle (dialysis) → ريحة سكر محروق = MSUD → PKU = قللي phenylalanine → fatty acid defect + hypoglycemia = glucose infusion → hypoglycemia + ketones واطية = hyperinsulinism → cataract + hepatomegaly + lactate = glycogen storage (liver biopsy)
+| الحالة | الجواب | Q |
+| ترجيع + lethargy + fruity breath | DKA | 0923 1351 |
+| DKA + وعي نازل | IV mannitol | 0750 4615 5080 |
+| Hypoglycemia بالليل | قللي basal بالليل | 1679 |
+| T1DM + نقص وزن | علمي الأهل الـinsulin | 2083 |
+| T1DM + celiac screening (المصدر ما حدد) | (؟) | 3654 |
+| T1DM + HTN: الأحسن | DASH | 4899 |
+| Acanthosis + BMI 31 | HbA1c + lifestyle | 4162 4575 |
+| T2DM: يأخر | Metformin | 1668 |
+| بعد عملية مخ + Na 177 | Diabetes insipidus | 0607 |
+| Head trauma + بول 100 mL/ساعة | Central DI | 4465 |
+| Na 150 + بول مخفف | Desmopressin | 4958 |
+| CAH بعد adrenalectomy | Glucocorticoid | 2922 |
+| PKU | Restrict phenylalanine | 0325 0326 0888 |
+| Ammonia 425 + apnea | Dialysis بعد الـstabilization | 3615 4168 4169 |
+| Seizure + hypoglycemia + ريحة | MSUD | 3309 |
+| Fatty acid defect + hypoglycemia | Continuous glucose | 1237 |
+| Glucose واطي + β-OHB واطي | Congenital hyperinsulinism | 0218 1778 |
+| Cataract + hepatomegaly + lactate | Liver biopsy | 0297 1615 1616 3042 3583 3584 3585 |
+| 25% chance | Autosomal recessive | 1232 1898 |
+== Neuro: meningitis و seizures
+> حرارة + صداع + رقبة + confusion = LP → CSF: lymphocytes + glucose طبيعي = viral → glucose واطي + neutrophils = bacterial → meningococcus: prophylaxis للأهل (cipro جرعة أو rifampin)
+> febrile seizure: simple (أقل من 15 دقيقة، عامة، مرة) = طمني + first aid (خطر epilepsy 2%) → focal أو طويل أو تكرر = complex (خطر أعلى) → paracetamol ما يمنعها
+> seizure أكثر من 5 دقايق بالبيت = rectal diazepam → وقع على رأسه + LOC + seizure = CT بدون contrast → يقيء ورأسه ينزل = airway أول
+| الحالة | الجواب | Q |
+| حرارة + confusion + seizures | Lumbar puncture | 0724 1564 2381 |
+| حرارة + confusion (6 شهور) | LP | 3907 |
+| CSF: lymphocytes + glucose طبيعي | Viral meningitis | 0638 2224 2225 2726 4138 4205 4206 4317 |
+| CSF: glucose واطي + neutrophils | Prophylactic antibiotics للأهل | 3944 3969 4289 |
+| Meningococcal: الأخوان | Ciprofloxacin جرعة | 1288 |
+| Meningitis: prophylaxis (المصدر ما حدد) | (؟) | 0639 |
+| حرارة + ترجيع + drowsy + rash | Meningococcemia | 0911 |
+| Febrile seizure: الصحيح | 2% خطر epilepsy | 0411 |
+| Febrile seizure + الأم تعطي paracetamol | علمي first aid | 0879 2021 |
+| 3 دقايق + حرارة + drowsy | طمني + دوري مصدر الحرارة | 0098 0300 |
+| Focal febrile | Complex febrile | 2436 4640 |
+| أكثر من 5 دقايق بالبيت | Rectal diazepam | 1905 |
+| يطيح ورأسه يهتز | Atonic | 0022 |
+| Myoclonic بالنوم (المصدر ما حدد) | (؟) | 1933 |
+| وقع من شجرة + LOC + seizure | Urgent CT | 0473 1020 |
+| وقع 2 متر + ترجيع + وعي ينزل | Secure airway | 2095 |
+| Paracetamol كل 4 ساعات بعد febrile seizure | Paracetamol toxicity | 3518 2219 |
+== Neuro: صداع و ضعف
+> صداع: يصحيه من النوم أو الصبح + ترجيع + زغللة = MRI (red flag) → band-like + شاشات = lifestyle → migraine متكرر = prophylaxis (TCA)
+> ضعف: بعد infection + areflexia صاعد = GBS → يسوء آخر اليوم + ptosis = myasthenia (AChR antibodies) → heliotrope + proximal = dermatomyositis → رضيع + fasciculations = SMA → CK طبيعي + EMG myopathic = congenital myopathy
+> ataxia بعد فيروس = acute cerebellitis
+| الحالة | الجواب | Q |
+| صداع + ترجيع + زغللة الصبح | Brain MRI | 1608 4714 |
+| Migraine: red flag | يصحيه من النوم | 3036 3599 |
+| Migraine متكرر | TCA | 1195 |
+| Band-like + video games | Lifestyle | 0173 0174 |
+| صداع + ألم وجه بعد URTI | Reassure | 4073 4074 |
+| ضعف صاعد + تنميل | Guillain-Barré | 0856 |
+| Ptosis + يسوء آخر اليوم | AChR antibodies | 4637 5142 |
+| Heliotrope + proximal | Juvenile dermatomyositis | 3009 3141 3319 |
+| Ataxia بعد URTI | Post-infectious cerebellitis | 0132 1989 |
+| Hypotonia + EMG myopathic + CK طبيعي | Congenital myopathy | 1536 |
+| Hypotonia + fasciculations | (SMA: شرح للأهل) | 1460 |
+| ضعف بشهرين (المصدر ما حدد) | (؟) | 3086 |
+| يصحى confused وما يتذكر | Night terror | 3680 |
+| بعد URTI + ما يمشي + reflexes غايبة | Intubation (المصدر) | 3811 4306 |
+| Ataxia بعد URI (المصدر ما حدد) | (؟) | 1119 |
+| طاح من الدرج + seizure + drowsy | CT brain | 0200 |
+| Trauma: تقييم الوعي | GCS | 3391 |
+== Ortho و rheumatology
+> طفل يعرج + ورك: حرارة خفيفة + يمشي + ESR خفيف = toxic synovitis → حرارة عالية + ما يتحرك + effusion = septic arthritis (aspirate، staph aureus)
+> بعد إسهال + مفاصل = reactive (ibuprofen) → RF عالي + polyarthritis = MTX → SLE (rash وجه + مفاصل) = dsDNA → حليب نيء + مفاصل = brucella (أقل من 8: TMP-SMX + rifampin، أكبر: doxy + rifampin)
+> nursemaid elbow (سحب الذراع) = hyperpronation → كسر مع قصة ما تطابق أو تأخر = abuse
+| الحالة | الجواب | Q |
+| حرارة + ورك + يمشي | Toxic synovitis | 0580 3862 |
+| ركبة حمرا + ما يمشي | Aspirate the fluid | 3791 |
+| Hip effusion + ما يمد رجله | Staph aureus | 4443 4792 |
+| بعد gastroenteritis + ركب | Oral ibuprofen | 1644 |
+| RF عالي + polyarthritis | Methotrexate | 1851 1976 3550 4385 |
+| Rash وجه + مفاصل | dsDNA | 1026 |
+| حرارة + salmon rash (المصدر ما حدد) | (؟) | 1159 |
+| Migratory arthritis + rash بعد حلق | Rheumatic fever | 2316 |
+| HSP: الخطير | دم بالبراز + ألم شديد | 1424 |
+| ركب + ألم بطن (المصدر ما حدد) | (؟) | 3430 |
+| Brucella أقل من 8 | TMP-SMX + rifampin | 2037 |
+| Brucella 10 سنين | Doxycycline + rifampin 6 أسابيع | 3724 |
+| UC + ركب | Ulcerative colitis | 0903 |
+| UC: العلاج | 5-ASA | 2552 |
+| Arachnodactyly: يحميه | Echo | 0912 |
+| Nursemaid / كسر متأخر (المصدر ما حدد) | (؟) | 1086 1688 |
+| Papules بعد flu (المصدر) | Measles | 0272 |
+== Milestones و reflexes
+> 6 شهور: يجلس بمساعدة + يحول الأشياء + babble → 9 شهور: يجلس لحاله + pincer يبدأ → 10 شهور: يخاف من الغرباء → 12 شهر: cruising + كلمة → 15 شهر: يمشي + 4–6 كلمات → 17–18 شهر: 6–10 كلمات + يمشي ثابت
+> 4 سنين: الألوان + كلام واضح → 5 سنين: يقفز (skip) + مستطيل + يعد لـ10 → rooting و Moro تروح 3–4 شهور (المصدر 2 و 4)
+> 9 شهور ما يجلس + فيه علامات (hand lift، head lag) = refer → scissoring + periventricular leukomalacia = spastic diplegia → spasms + فقد مهارات = infantile spasms (hypsarrhythmia)
+| الحالة | الجواب | Q |
+| Skip + مستطيل + يعد لـ10 | 5 سنين | 0084 0085 0086 0150 |
+| نفس السؤال (المصدر ما حدد) | (؟) | 0083 |
+| ألوان + opposites | 5 سنين | 0087 0450 |
+| ألوان + كلام واضح | 4 سنين | 0088 0451 0266 3368 |
+| يخاف من الغرباء | 10 شهور | 0172 |
+| Reflex: متى يروح | 2 أو 4 شهور (المصدر) | 0214 0215 0922 |
+| نفس السؤال (المصدر ما حدد) | (؟) | 3070 3850 |
+| حك جنب الفم | Rooting reflex | 0682 |
+| يمشي + 4–6 كلمات | 15 شهر | 0261 1255 |
+| 6–10 كلمات + يمشي ثابت | 17 شهر | 1254 1567 |
+| يمشي غير ثابت + يرفع يده | 12 شهر | 0681 2757 |
+| Radial palm grasp بدون pincer | 7 شهور | 0910 |
+| 9–10 شهور بدون pincer | طمني وأعيدي التقييم | 0659 0660 |
+| 8 شهور بدون pincer (المصدر ما حدد) | (؟) | 1335 |
+| 6 شهور: الاختبار المناسب | يجلس لحاله (المصدر) | 4856 |
+| 6 شهور يجلس + babble | طبيعي | 5127 1535 |
+| 9 شهور ما يجلس + علامات ثانية | Refer / admit | 0060 2367 3344 4577 0939 2234 |
+| 9 شهور ما يجلس وكل شي طبيعي | Reassure | 2884 |
+| 12 شهر cruising | Reassure | 1145 1147 1530 1534 3985 |
+| 18 شهر صحي | Reassurance | 1066 |
+| قريب autism + 10 شهور | Full developmental assessment | 1067 1531 |
+| نفس السؤال (المصدر الثاني) | Reassurance | 1532 |
+| ما يلعب مع الأطفال | Psychosocial | 4742 |
+| Scissoring + PVL | Bilateral lower limb spasticity | 1342 1343 1344 1345 1346 |
+| Spasms + ما يضحك | Hypsarrhythmia | 1100 3532 |
+| Seizures بالنوم + فم مايل | Benign Rolandic | 3050 |
+== العين
+> squint بـ2 شهور: يجي ويروح + red reflex طبيعي = طمني → أول تقييم = red reflex test → ثابت أو بعد 4–6 شهور أو red reflex غايب = ophthalmology (عاجل)
+> squint فجأة + double vision = CT (SOL) → ما تعالجه = amblyopia → hypermetropia (ما يشوف السبورة) = convex → leukocoria = MRI orbit و brain
+> عيون حمر + إفراز: bilateral + خفيف = saline وطمني → unilateral + صديد غليظ = topical antibiotic → swelling حول العين + ما يفتح = periorbital cellulitis
+| الحالة | الجواب | Q |
+| Squint ثابت بعد 4 شهور | Refer to ophthalmology | 0371 0372 0544 0667 2432 2466 2561 3196 5006 |
+| Red reflex غايب | Urgent referral | 4750 |
+| 2 شهور + squint: أول شي | Red reflex test | 0666 4020 4021 4584 4853 |
+| 2 شهور + يجي ويروح + red reflex طبيعي | Reassure | 2051 2052 2798 3965 3966 |
+| 2 شهور squint (المصدر ما حدد) | (؟) | 1715 |
+| Squint ما يتعالج: المضاعفة | Amblyopia | 1486 2551 |
+| Squint فجأة + double vision | CT (SOL) | 2048 4045 4105 |
+| ما يشوف السبورة + hypermetropia | Convex lens | 2713 3200 |
+| Leukocoria | MRI orbit + brain | 1186 2980 |
+| Bilateral + إفراز خفيف | Normal saline + طمني | 1261 1621 1622 1623 1624 3528 4430 4435 4436 |
+| Unilateral + صديد غليظ | Topical antibiotic | 2744 3601 |
+| Swelling حول العين + ما يفتحها | Periorbital cellulitis | 3125 |
+== التغذية و FTT
+> رضاعة طبيعية بس: vitamin D 400 من الأيام الأولى → iron من 4 شهور (المصدر: 3) → solids عند 6 شهور → egg و peanut بدري (المصدر: 10 شهور)
+> FTT: أول شي history مفصل عن الأكل → فقر أو أقل من 3rd = hospitalization → بطن منتفخ + سوء تغذية = protein deficiency (kwashiorkor)
+> 12 kg = 1100 mL/يوم (100×10 + 50×2) → سمنة من العصير = lifestyle → caries = diet counseling
+| الحالة | الجواب | Q |
+| رضاعة بس: vitamin D | 400 IU يوميًا | 1211 |
+| رضاعة بس: متى iron | 3 شهور (المصدر) | 1801 2693 |
+| 6 شهور رضاعة + طبيعي | Iron supplements | 3738 |
+| 9 شهور رضاعة + solids | Iron supplements | 1418 2714 3741 |
+| متى solids | 6 شهور | 3739 3740 |
+| Egg + peanut لتقليل الحساسية | 10 شهور (المصدر) | 0302 |
+| Bowed legs + rosary + رضاعة بس | Nutritional rickets | 2019 |
+| بطن منتفخ + سوء تغذية | Protein deficiency | 2575 |
+| أمه تشتغل 12 ساعة + FTT | Detailed meal history | 2172 2519 3405 3595 4390 |
+| فقر + أقل من 3rd | Hospitalization | 4207 |
+| نفس الفكرة (المصدر ما حدد) | (؟) | 3044 |
+| وزن فوق 95 + ما يطول | Further investigation | 0170 |
+| فواكه وعصير + وزن يزيد | Lifestyle | 1867 |
+| Caries + سكريات | Dietary counselling | 0116 |
+| 12 kg: fluids | 1100 mL | 0292 3833 |
+| Feeding بالـrespiratory distress | NGT | 1589 |
+| RR 66: الأكل (المصدر ما حدد) | (؟) | 1064 |
+== التطور والتغذية والسلوك
+> milestones: 6 شهور يجلس ويحول الأشياء + babble → 9 شهور يجلس لحاله → 12 شهر cruising (المشي لين 18 شهر طبيعي) → preterm = العمر المصحح
+> FTT: الحليب مخفف أو غلط = formula preparation → اجتماعي ومالي = multidisciplinary → نزل percentiles = زيدي السعرات
+> autism: screening 18–24 شهر → ما يرد على اسمه + يرتب الألعاب = screen → ADHD أو مشاكل تركيز = روتين النوم أول
+> عين مايلة: 2 شهور + red reflex طبيعي = pseudostrabismus (طمني) → preschool = Hirschberg + history → hypermetropia = convex glasses
+| الحالة | الجواب | Q |
+| 6 شهور يجلس + babble | طبيعي: طمني | 5009 5129 0472 |
+| Preterm 28 أسبوع + 9 شهور ما يجلس | طمني (العمر المصحح) | 0940 2647 2964 3768 |
+| 12 شهر cruising | Reassure | 1146 1533 4819 |
+| Toddler طبيعي بعد discharge | Reassurance | 5060 |
+| 14 سنة: الفحص طبيعي | Normal development | 0318 0708 |
+| حليب مخفف + وزن ما يزيد | Formula preparation غلط | 0614 0615 |
+| 3rd percentile + حليب مخفف | Hospitalization | 0803 |
+| رضاعة + نزل percentiles | زيدي السعرات | 0023 |
+| FTT + طلاق ومشاكل مالية | Multidisciplinary | 0804 3220 |
+| 10 شهور + ترجيع + head طبيعي | Organic FTT | 1107 |
+| Rickets: الـlabs | Ca واطي، phosphate واطي، ALP عالي | 1188 |
+| نشاط قل (preschool) | زيدي النشاط وقللي الشاشة | 0641 |
+| 12 شهر + خوف autism | Screening 18–24 شهر | 1669 3330 |
+| 24 شهر + ما يرد + يرتب الألعاب | Screen autism | 4310 |
+| ما يلعب مع الأطفال (المصدر ما حدد) | (؟) | 2284 |
+| ADHD بالعيادة هادي (المصدر ما حدد) | (؟) | 3116 |
+| تركيز ضعيف + hyperactive | روتين نوم | 2391 2392 2393 |
+| Enuresis 3 مرات بالأسبوع | Behavioral therapy | 3165 |
+| 2 شهور + عين داخلة + red reflex طبيعي | Reassure | 1645 4075 |
+| Preschool + عين مايلة | Hirschberg (المصدر الثاني: history) | 1353 2129 2889 |
+| Hypermetropia | Convex glasses | 2361 |
+| ولد 14 سنة + ثدي | Reassure (gynecomastia) | 3863 |
+| Noisy breathing من الولادة | Reassurance | 4027 |
+| Cellulitis متكرر من الخدوش | نظفي وغطي الجروح | 3799 4261 4262 |
+| Epigastric يصحيه + أمه PUD | Endoscopy + biopsy | 0807 4163 1680 2084 |
+| Epigastric + stool فيه H. pylori | Peptic ulcer + gastritis | 0410 |
+== Abuse و emergency
+> كسر أو كدمات بأعمار مختلفة + القصة ما تطابق أو تأخر = عالجي + بلغي (child protection) → رضيع ما يمشي + كسر = abuse
+> قلوي + drooling = admit + conservative → عملة بالمعدة بدون أعراض = discharge وراقبي البراز → organophosphate = atropine → lead + pica = penicillamine
+| الحالة | الجواب | Q |
+| كدمات بأعمار مختلفة | عالجي + بلغي | 1010 2972 |
+| 11 شهر + كسر بعد يومين | Contact child protection | 3709 |
+| كسر + تأخر | Delayed presentation (علامة) | 0012 |
+| كسر + الأهل (المصدر) | صدقي وعالجي | 4319 |
+| قلوي + drooling | Admit + conservative | 2325 2722 3208 3275 |
+| عملة بالمعدة بدون أعراض | Discharge وراقبي | 1673 |
+| مزرعة + miosis + salivation | Atropine | 1330 1630 |
+| Pica + lead | D-penicillamine | 3290 |
+| حليب 1 لتر + يأكل تراب | CBC + smear | 1412 3562 |
+| نفس الحالة | Iron | 1855 |
+| Pica + ferritin واطي | Iron deficiency | 1579 |
+== Infections و rash
+> rash من الوجه للجسم + 3C (cough، coryza، conjunctivitis) = measles → supportive (+ vitamin A) → vesicles بأعمار مختلفة = chickenpox → يد وفم + ulcers = hand-foot-mouth (fecal-oral)
+> حلق + strep إيجابي = penicillin V 10 أيام (يمنع rheumatic fever) → بعد حلق + مفاصل + carditis = rheumatic fever: benzathine penicillin
+> غير مطعم + meningitis أو epiglottitis = H. influenzae → غير مطعم + حلق + drooling + lymph nodes = diphtheria → whoop = pertussis → مطعم + lobar pneumonia = strep pneumoniae
+| الحالة | الجواب | Q |
+| غير مطعم + 3C + rash من ورا الأذن | Supportive | 1018 |
+| Rash من الوجه + crepitations | Continue investigation (المصدر الثاني: MMR) | 3023 3024 |
+| مطعم + rash بالوجه + coryza | (المصدر ما حدد) | 4491 |
+| Vesicles + scabs (غير مطعم) | Chickenpox | 1914 4614 |
+| Rash باليد + ulcers بالفم + drooling | Fecal-oral | 3154 |
+| غير مطعم + meningitis | H. influenzae | 2298 3007 |
+| غير مطعم + H. influenzae | Transfer to PICU | 0046 |
+| غير مطعم + drooling + lymph nodes | Diphtheria | 2193 |
+| Whoop + vomiting بعد الكحة | Pertussis | 0249 |
+| نفس السؤال (المصدر الثاني) | Adenovirus | 0251 |
+| Strep throat: يمنع المضاعفات | Penicillin V 10 أيام | 0590 0591 3951 |
+| حلق قبل 3 أسابيع + مفاصل + ألم صدر | Benzathine penicillin | 1820 1821 3321 |
+| نفس الفكرة (المصدر ما حدد) | (؟) | 1284 |
+| مطعم + lobar consolidation | Streptococcus pneumoniae | 1720 3214 4068 4280 4411 |
+| 2 سنة + crackles apical | Vaccination (المصدر) | 3182 |
+| مطعم rota + إسهال | Norovirus | 4155 |
+| Cellulitis يكبر | IV antibiotics | 3983 |
+| Intussusception: الوقاية | علمي الأم العلامات | 3512 |
+| Toxic + drooling + sore throat | Transfer to PICU | 0047 4231 |
+| نفس الحالة (المصدر الثاني) | Laryngoscope بالـOR | 4173 |
+| Toxic + drooling + حرارة 40 | H. influenzae B | 2686 4349 |
+| Toxic + loin pain | IV ceftriaxone | 0732 |
+| Swelling + دافي يكبر | IV antibiotic | 0820 |
+| Swelling + دافي (المصدر الثاني) | Oral antibiotics + follow up | 0819 |
+| حرارة + rash ناعم + arthralgia | Supportive + hydration | 3131 1386 |
+| Rash من الوجه + occipital nodes | Rubella | 3540 |
+| حرارة + 3C + rash | Measles | 1015 1017 |
+| نفس الحالة + حرارة خفيفة | Rubella | 1016 |
+| Rash من الوجه + حرارة عالية | Supportive | 4969 |
+| Neck swelling 3 أسابيع + lymph nodes | Lymph node biopsy | 0143 |
+| Infection متكرر + T cells غايبة | SCID | 0171 1982 |
+| Thrush + إمساك + URTI (المصدر) | Bone marrow transplant | 5094 |
+| Infections + giardia | XLA | 1038 |
+| Rubella/CMV (المصدر ما حدد) | (؟) | 3087 |
+| أبوه TB + CXR طبيعي + TST 14 | Latent TB treatment | 0133 1157 |
+| تعرض TB + IGRA إيجابي | Rifampicin + INH 3 شهور | 1191 1632 |
+| اللي يعتني فيه TB | Skin test | 1528 |
+| TB نشط (CXR إيجابي) | INH + rifampin + PZA + ethambutol | 0231 |
+| TB رجع بعد سنة | 2 شهور 4 أدوية + 4 شهور | 3223 |
+| Rifampicin: توقعي | لون السوائل يتغير | 5003 |
+| حرارة دورية بعد أفريقيا | Chloroquine | 0254 0459 |
+| نفس السؤال (المصدر الثاني) | Ceftriaxone | 0460 |
+| حكة شرجية + شي زي الرز | Enterobius | 0581 |
+| Sandpaper rash: العلاج | Amoxicillin | 1902 |
+| Koplik + rash ينزل | Supportive | 2479 |
+| Rash من الوجه وراح بسرعة | Rubella | 0273 |
+| Rash باليد والرجل بعد حرارة | Fecal-oral | 4064 |
+| Adenovirus (أخوه نفس الشي) | Adenovirus | 4534 |
+| RADT سلبي | Throat culture | 1449 |
+| Petechiae بالحلق (المصدر ما حدد) | (؟) | 3281 |
+| رضيع + أخوه زكام + ضيق | RSV | 1619 3031 |
+| Infection متكرر بالـdaycare | Hand washing | 0915 |
+| Sinus 14 أسبوع + antibiotics ما نفعت | Nasal endoscopy | 1104 1105 4879 |
+| Sinusitis + periorbital | CT | 4356 |
+| بعد URTI 3 أيام + purulent (المصدر) | Amoxicillin | 5004 |
+| 12 يوم + صديد (المصدر ما حدد) | (؟) | 3834 |
+| Rash بالوجه والـextensor | Atopic dermatitis | 0936 4596 |
+| Eczema ما تحسن على steroids | Topical calcineurin inhibitor | 1862 |
+| Eczema + شك food allergy | Supervised oral food challenge | 3704 3705 4447 |
+| Allergic rhinitis ما تحسن | Intranasal corticosteroid | 3273 |
+| Lymph node + حرارة متقطعة | Excisional biopsy | 3671 |
+| ألم shaft + دافي | MRI (osteomyelitis) | 3678 |
+| نفس الفكرة (المصدر ما حدد) | (؟) | 4644 |
+| شهر + حرارة + خمول | Admit + blood + CSF | 5095 |
+| ALL + chickenpox | VZIG | 0244 |
+| SCID: definitive | Bone marrow transplant | 0791 |
+| حرارة + jerky + أخوانه نفس الشي | Treat fever + reassure | 0208 0299 |
+| نفس الفكرة (المصدر ما حدد) | (؟) | 1175 |

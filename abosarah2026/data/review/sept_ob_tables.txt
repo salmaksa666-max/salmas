@@ -1,0 +1,529 @@
+# Obstetrics
+== Early pregnancy: الإجهاض
+> نزيف بأول الحمل → شوفي الـos والـUS → os مقفل + نبض = threatened → os مفتوح + tissue باقي = incomplete (evacuation) → طلع كله + رحم فاضي = complete → جنين ميت + os مقفل = missed
+> بعد إجهاض + شاحبة + نزيف = عالجي الصدمة (blood) وبعدين evacuation → بعد D&C + amenorrhea = Asherman (hysteroscopy)
+> السبب: أول trimester = chromosomal → recurrent (3 أو أكثر) = karyotyping للزوجين → mid-trimester بدون ألم = cervical insufficiency (cerclage 12–14 أسبوع)
+| الحالة | الجواب | Q |
+| نزيف خفيف + ما طلع شي + os مقفل | Threatened miscarriage | 3651 |
+| طلع tissue + os مفتوح أو US فيه بقايا | Incomplete abortion | 1340 4251 3451 0304 |
+| Incomplete على الـUS | Evacuation of uterine cavity | 0426 |
+| إجهاض بالبيت + شاحبة + US فيه بقايا وvascularity | Surgical evacuation | 0176 0177 4464 |
+| Missed abortion | (المصدر ما حدد) | 1137 2433 |
+| إجهاض + oxytocin ما نفع + asthma | Methylergonovine (لا carboprost) | 1618 |
+| أشهر سبب الإجهاض بأول الحمل | Chromosomal abnormality | 0097 |
+| مدخنة أكثر من 20 سيجارة | Smoking (أهم risk) | 4202 4203 |
+| خطر الإجهاض بعد واحد | 10–25% (المصدر) | 0816 3175 |
+| عمرها 50 وتسأل عن العمر | 10–50% | 0817 |
+| 4 إجهاضات بأول trimester | Karyotyping | 2260 |
+| إجهاض بأول trimester من قبل وتبي تمنعه | Home monitoring (ما فيه علاج يمنع) | 2493 |
+| إجهاض 18 أسبوع بدون ألم (cervix فتح لحاله) | Cerclage عند 13 أسبوع | 3452 |
+| فيه fetal anomaly قبل: متى الـscan | 10–12 أسبوع | 2125 |
+| Pulmonary HTN شديد وتبي تجهض | Accept (خطر على حياتها) | 0758 |
+| بعد D&C + amenorrhea + هرمونات طبيعية | Hysteroscopy (adhesions، Asherman) | 4360 |
+| SCD + إجهاضين + حامل | LMWH (مو heparin) | 4821 |
+== Ectopic pregnancy
+> ألم حوض + amenorrhea → أول شي: β-hCG + CBC + urine → US: كيس بالرحم؟ لا + hCG فوق discriminatory = ectopic → ما شي بالرحم ولا برا = PUL
+> ectopic: unstable أو ruptured = surgery → stable + صغير + hCG واطي = methotrexate → الـtube الثانية سليمة = salpingectomy (بعد IVF أو الثانية مريضة = salpingostomy)
+> hCG ما نزل بعد العلاج = persistent → جرعة MTX ثانية أو surgery → خطر يرجع ectopic = 10–15%
+| الحالة | الجواب | Q |
+| ألم حاد LIF + nausea + فحص طبيعي | Pregnancy of unknown location | 4995 |
+| ألم أسفل البطن: أول خطوة | CBC + β-hCG + urine | 1725 |
+| ألم بطن شديد + غثيان (توحي ectopic) | Abdominal US | 2267 |
+| Ruptured ectopic: best step (المصدر) | Ultrasound | 0709 |
+| Ectopic مأكد + الدكتور مشغول | Paracetamol (المصدر) | 0313 |
+| بعد IVF + ectopic يمين 4 cm | Right salpingostomy | 1235 2458 |
+| hCG 2500 + US + ألم | (المصدر ما حدد) | 3796 |
+| hCG ما تغير بعد العلاج | (المصدر ما حدد) | 3916 |
+| خطر ectopic مرة ثانية | تقريبًا 10–15% | 0812 0813 0814 0815 3857 5042 |
+| PID قديم + tubes متضررة + تبي تحمل | IVF | 3841 |
+== Molar pregnancy و GTN
+> نزيف + uterus أكبر من العمر + hCG عالي جدًا + snowstorm = mole → suction evacuation → hCG كل أسبوع لين يصفر → بعدها شهري (complete: 6 شهور)
+> hCG يطلع أو ثابت أو نزيف بعد الـevacuation = GTN → metastatic workup (بدون biopsy) → theca lutein cysts + hCG عالي = high risk
+> حمل بعد mole = early US بالحمل الجاي → منع الحمل وقت المتابعة = OCP
+| الحالة | الجواب | Q |
+| Complete mole + hCG صفر: المتابعة | شهري لـ6 شهور | 1318 1627 |
+| Partial mole: المتابعة | Weekly β-hCG (لين يصفر) | 1320 |
+| كيف تمنع المضاعفات | β-hCG لين ما يبين | 4867 |
+| hCG schedule (المصدر ما حدد) | (؟) | 1189 |
+| Theca lutein + hCG 50,000: high risk GTN | Theca lutein cysts | 2210 1780 5040 |
+| Mole عمره 15 أسبوع | (المصدر ما حدد) | 3482 |
+| نزيف بعد 10 أسابيع من evacuation | GTN | 4006 |
+| Vaginal mass بعد mole + hCG عالي | Metastatic workup بدون biopsy | 5123 2681 2682 |
+| Mole قبل سنتين وتبي تحمل | Early follow-up بالحمل | 4782 |
+== Rh alloimmunization
+> أم Rh− → antibodies سلبية = Anti-D عند 28 أسبوع + 72 ساعة بعد الولادة (لو المولود +) + بعد أي نزيف → المولود Rh− = ما تحتاج
+> KB test فيه نزيف أكثر من 30 mL = جرعات حسب الـFMH → antibodies إيجابية (أو anti-E، anti-Kell) = MCA Doppler → titer واطي = follow-up
+> fetal anemia + term (37 أو أكثر) = deliver → قبل الـterm = intrauterine transfusion
+| الحالة | الجواب | Q |
+| Rh− + antibodies سلبية + الزوج + | Anti-D عند 28 أسبوع | 3413 3656 1870 |
+| Rh− + نزيف خفيف (20 أسبوع) | Anti-D | 3641 4783 |
+| Rh− والمولود Rh− | ما تحتاج anti-D | 1319 |
+| KB = 25 mL دم جنين | جرعات anti-D حسب FMH | 2149 2150 3058 4044 2606 |
+| Alloimmunized + titer يطلع | MCA Doppler | 1620 2574 2700 2906 3059 |
+| Anti-E 1:16 بأول الحمل | MCA (المصدر يختلف: follow-up) | 1609 1610 4241 |
+| Fetal anemia + 37–39 أسبوع | Deliver | 0346 0348 4110 |
+== Hypertension بالحمل
+> ضغط 140/90 أو أكثر بعد 20 أسبوع + protein أو أعراض = preeclampsia → severe: 160/110 أو صداع أو زغللة أو ألم بطن أو platelets واطية
+> ضغط 160/110 → خفضيه: hydralazine أو labetalol IV → seizure أو severe = magnesium sulfate → 37 أسبوع أو أكثر = deliver (induction)
+> أقل من 34 أسبوع + severe = steroids + Mg + deliver لما تستقر → HELLP: platelets أقل من 100,000 أهم علامة
+| الحالة | الجواب | Q |
+| 160/110 + صداع + زغللة (32 أسبوع) | Hydralazine | 0021 1052 |
+| 32 أسبوع + ضغط عالي | Admit + antihypertensive | 0344 0345 |
+| 160/100 + protein +++ بدون أعراض | (المصدر ما حدد) | 0343 |
+| Severe preeclampsia + 37 أسبوع | Emergency delivery | 0503 |
+| 37 أسبوع + 160/100 + cervix soft | Induction of labor | 3993 |
+| 33–34 أسبوع + ضغط + protein + صداع | Induce now vaginally | 1444 |
+| 39 أسبوع + صداع + زغللة + 150/95 | Admit and deliver | 2705 |
+| Preeclampsia بالـlabor أو صداع أو seizure | Magnesium sulfate | 1570 2521 2696 4382 |
+| Preeclampsia + ألم بطن: أخطر lab | Platelets 80,000 (HELLP) | 0507 |
+| Preeclampsia قبل: كيف نتابع IUGR | Fundal height كل زيارة | 3178 |
+== Antepartum hemorrhage
+> نزيف بآخر الحمل → بدون ألم = previa (لا vaginal exam، US يحدد مكان الـplacenta) → مع ألم + رحم قاسي = abruption (smoking، HTN، cocaine)
+> previa + مستقرة = observe لين 37 أسبوع ثم CS → أقل من 34 = steroids → unstable أو نزيف ما وقف = CS فورًا (بعد جرعة dexamethasone لو تمديه)
+> abruption + DIC = cryoprecipitate → توقف contractions فجأة + نزيف + صدمة = uterine rupture → abruption قبل = high risk + serial US
+| الحالة | الجواب | Q |
+| نزيف خفيف بدون ألم: أول شي | Localize the placenta بالـUS | 1406 |
+| Previa: ممنوع | Digital vaginal exam (لين نستبعد previa) | 0513 |
+| Previa: النصيحة | Bed rest + لا جماع | 2694 3460 |
+| Previa + مستقرة (35 أسبوع) | Observation لين 37 ثم CS | 0262 4990 |
+| Previa totalis 27 أسبوع + مستقرة | Steroids | 1998 |
+| 23 أسبوع + spotting + مستقرة | Steroids | 2572 4111 4992 |
+| ألم شديد + بارد ومعرق + مدخنة (37 أسبوع) | Placental abruption | 3384 3385 4712 2633 |
+| نزيف شديد + DIC | Abruptio placenta | 2273 |
+| Abruption + DIC + fibrinogen واطي | Cryoprecipitate | 0961 |
+| رحم tender + نزيف + FHR غير طبيعي (33 أسبوع) | Immediate CS | 3414 4583 4991 |
+| 31–33 أسبوع + hypotension + نزيف | CS بعد جرعة dexamethasone | 1573 5028 |
+| ضغط مزمن: كيف نمنع abruption | ضغط طبيعي طول الحمل | 3285 |
+| بعد abruption انضبط | High risk + serial tests | 1869 |
+| Contractions وقفت فجأة + نزيف + hypotension | Uterine rupture | 1114 |
+== Postpartum hemorrhage
+> PPH → 4T: Tone (أشهر) + Trauma + Tissue + Thrombin → الرحم قاسي ويستمر النزيف = laceration
+> atony: massage + oxytocin → ما نفع: methylergonovine (لا HTN) → carboprost (لا asthma) → misoprostol → ما نفع كلها = balloon tamponade ← surgery
+> الوقاية: active management of 3rd stage = oxytocin 10 IU IM خلال دقيقة بعد الولادة → PPH قبل = أكبر risk + صلحي الأنيميا وجهزي الفريق
+| الحالة | الجواب | Q |
+| بعد chorioamnionitis + نزيف بعد placenta | Uterine atony | 2199 |
+| 1000 mL نزيف + الرحم contracted | Genital tract laceration | 0951 |
+| Asthma + PPH + oxytocin ما نفع | Methylergonovine IM | 0741 1282 |
+| Asthma + atony (المصدر) | Misoprostol | 2464 |
+| كل الأدوية ما نفعت | Balloon tamponade | 3807 |
+| الوقاية بعد oxytocin augmentation | Active management of 3rd stage | 1334 1795 |
+| أول خطوة بعد ولادة طبيعية | Oxytocin 10 IU IM | 2226 2227 2323 |
+| PPH قبل: أهم risk | Past history of PPH | 0496 |
+| PPH قبل: الحمل الجاي | صلحي الأنيميا + جهزي الفريق + AMTSL | 3536 |
+== Preterm labor و PROM
+> preterm labor = contractions + تغير بالـcervix (dilation) → أقل من 34 أسبوع = steroids (RDS) + tocolytic → أقل من 32 = magnesium (المخ)
+> cervical length قصير (أقل من 25 mm) أو preterm قبل = progesterone من 16 أسبوع → 27 mm بدون شي = expectant
+> PROM: speculum (pooling) أو PAMG-1 → قبل 34 = antibiotics (erythromycin) + steroids + expectant → حرارة = chorioamnionitis: antibiotics + deliver → term + ما بدأ labor = induction
+| الحالة | الجواب | Q |
+| كيف نعرف إنها preterm labor | Cervical dilation | 0792 |
+| ألم بطن وظهر + cervix ما تغير | أعيدي الفحص بعد ساعتين | 0793 |
+| Preterm قبل + 24 أسبوع | Cervical length | 0794 |
+| Cervical length 27 mm بدون أعراض | Expectant | 3968 4208 3967 |
+| PPROM قبل: كيف نمنع | Progesterone من 16 أسبوع | 1462 3286 4881 3287 |
+| خطر preterm: يمنع RDS | Antenatal steroids | 0612 3598 |
+| PROM 33 أسبوع: أخطر شي على المولود | RDS | 1347 |
+| PPROM ثم ولدت 35 أسبوع: أخطر شي | Sepsis | 1348 1349 4795 |
+| Preterm 34 أسبوع + vertex | Vaginal delivery | 4057 |
+| Pooling بالـposterior fornix | Rupture of membranes | 3960 |
+| بروتين يأكد PPROM | PAMG-1 | 1453 1692 |
+| Fluid طلع وهي بالـlabor | SROM | 3395 |
+| PPROM + حرارة | Antibiotics + deliver (CS) | 0108 |
+| PPROM قديم + labor + CTG | Empirical antibiotic | 0017 |
+| PPROM قديم + cervix 3 cm + liquor صافي | High vaginal swab | 3842 |
+| 30 أسبوع + PROM + meconium بدون infection | Prophylactic antibiotics | 2539 |
+| نفس السؤال (المصدر الثاني) | Expectant | 2545 |
+| Term + ROM 24 ساعة + ما فيه labor | Induction of labour | 3708 |
+| Twins: أهم سبب للمضاعفات | Preterm delivery | 1887 3462 |
+== Labor: المرحلة الثانية و instrumental
+> fully dilated → كم ساعة؟ primi: 2 ساعة بدون epidural (3 مع epidural) → multi: 1 (2 مع epidural) → أقل = wait ساعة → أكثر = prolonged
+> prolonged أو تعبت أو CTG سيئ → الرأس +2 أو أنزل (scalp باين) = instrumental (أقل من 34 أسبوع = forceps، 34 أو أكثر = ventouse) → الرأس فوق (-3 أو 4/5 أو pelvic brim) = CS
+> first stage: ما تغير الـcervix ساعتين بالـactive phase وكل شي طبيعي = انتظري ساعة أو augment
+| الحالة | الجواب | Q |
+| Primi + epidural + 2 ساعة + الرأس باين | Wait ساعة | 0009 |
+| G1 + 2 ساعة + cephalic | Wait ساعة | 1401 3581 2996 |
+| 2 ساعة + right OA (المصدر يختلف) | (المصدر ما حدد) | 0514 0107 |
+| 2 ساعة + lateral OP + scalp باين | Ventouse | 0006 0007 0008 0178 |
+| G2P1 + 3 ساعات بالمرحلة الثانية | Forceps | 4315 |
+| 3 ساعات + +2 + تعبت + CTG cat 3 | Instrumental | 0209 |
+| Multi + 3 ساعات + +3 + تعبت + cat 2 | Instrumental vaginal delivery | 3077 4824 |
+| Scalp باين + contractions ضعفت | Forceps | 3173 |
+| 33 أسبوع + الرأس بالـvagina + cat 2 | Forceps | 0109 0110 2734 |
+| 33 أسبوع + الرأس بالـvagina + كل شي طبيعي | Normal delivery | 0427 |
+| Full dilation + +3 + variability نازل | Forceps | 2894 |
+| 42 أسبوع + 10 cm + الرأس نازل | Vacuum | 4204 |
+| Cat 2 + الرأس عند الـpelvic brim | CS | 1605 |
+| 7 cm وما تغير ساعتين | Wait ساعة | 3665 |
+== Labor: CTG و المراقبة
+> CTG: baseline 110–160 + variability 5–25 + accelerations = طبيعي → early decelerations = ضغط الرأس (طبيعي) → late = placental insufficiency → variable = cord
+> على oxytocin + CTG سيئ = وقفي oxytocin أول → late decels = غيري وضعيتها + O2 + fluids → sinusoidal = fetal anemia (CS) → prolonged decel = قيمي بعد 2–3 دقايق، ما رجع = deliver
+> low risk = intermittent auscultation → high risk (HTN، IUGR، DM) = continuous CTG → أخطر علامة = tachycardia 180 أو غياب variability
+| الحالة | الجواب | Q |
+| Early decels + variability طبيعي | استمري بالـmonitoring | 2402 3655 4402 4987 |
+| FHR 160 + early decels | (المصدر ما حدد) | 4181 |
+| Early decels + tachycardia 180: الأخطر | FHR 180 | 0422 |
+| Fetal tachycardia 180–200 | (المصدر ما حدد) | 3539 |
+| Late decels بالـactive labor | غيري وضعية الأم | 2735 |
+| Late decels + oxytocin | وقفي oxytocin | 1281 4510 4825 |
+| كثير late decels بدون variability | (المصدر ما حدد) | 3250 |
+| 9 cm + prolonged decel | قيمي بعد 20 دقيقة | 3580 |
+| 41 أسبوع + prolonged decel | US / BPP (المصدر) | 2644 2645 |
+| Sinusoidal | C-section | 3607 |
+| Liquor أخضر غامق بالـlabor | Fetal distress | 0140 |
+| Cord prolapse: CTG | Variable decels + bradycardia | 2585 |
+| حركة الجنين قلت + 35 أسبوع | Observation + continuous CTG | 4412 |
+| Low risk بالـlabor | Intermittent monitoring | 0880 0881 0883 |
+| HTN + الجنين 8th percentile | Continuous CTG | 0882 |
+== Induction و post-term و IUFD
+> 41 أسبوع = induction (قبل كذا: kick chart ومتابعة) → Bishop أقل من 6 = cervical ripening (prostaglandin: PGE2 أو misoprostol) → Bishop زين = ARM + oxytocin
+> CTG سيئ بعد prostaglandin pessary = شيلي الـpessary → IUFD = induction (prostaglandin/misoprostol)
+> PROM term + ما بدأ = induction → IUGR + oligohydramnios = induce → absent أو reversed umbilical flow = CS
+| الحالة | الجواب | Q |
+| 41 أسبوع + كل شي طبيعي | Induction of labor | 2098 3466 |
+| 41+5 تبي تمنع مضاعفات post-term | Fetal kick counts | 4865 4897 4937 4227 |
+| 41 أسبوع + Bishop 3 + cervix مقفل | Prostaglandin (PGE2 / misoprostol) | 1856 3541 4323 |
+| 5 cm + cervix ما يتقدم | Prostaglandin (المصدر) | 0515 |
+| Pessary + bradycardia + contractions قوية | Remove pessary | 4333 |
+| 34 أسبوع + contractions غير منتظمة | Rupture the membranes | 4293 |
+| ROM 24 ساعة term + ما فيه labor | IOL | 3383 |
+| 35 أسبوع + ROM 6 ساعات + fundus صغير | Induction | 2537 |
+| 34 أسبوع + IUGR + meconium + ROM | Induction | 1538 |
+| 36 أسبوع + IUGR + oligohydramnios | Induce | 1592 |
+| 32 أسبوع + ROM بدون infection | Antibiotics + انتظري | 4071 |
+| 34 أسبوع + نزيف خفيف + ألم (مستقرة) | Induction | 3707 |
+| 36–37 أسبوع + 160/110 | Induction (المصدر: 3341 CS) | 3992 3341 |
+| Fetal anemia + 39 أسبوع | Induction | 2871 |
+| IUFD بالـterm | Induction بالـprostaglandin | 1287 2817 5029 |
+| IUFD 24 أسبوع | Misoprostol | 4778 |
+| 30s أسبوع + 1.3 kg + absent UA flow | Immediate CS | 3444 |
+| 39 أسبوع + نزيف + 4 cm + hypotension | C-section | 1552 |
+== Malpresentation و twins و CS
+> breech بـ36 أسبوع → ECV عند 37 → قبله: CTG 30 دقيقة + viability → موانع: oligohydramnios، previa، ROM → breech + labor + ROM = CS
+> twins: lambda = dichorionic → T sign = monochorionic → TTTS = fetoscopic laser → polyhydramnios + ضيق نفس = amnioreduction
+> shoulder dystocia = McRoberts + suprapubic pressure → tear وصل الـrectal mucosa = 4th degree → بعد CS بالمرحلة الثانية + fluid من vagina = VVF
+> CS قبل + labor = group and screen وجهزي الدم → CS elective = antibiotics قبل الجرح
+| الحالة | الجواب | Q |
+| متى ECV | 37 أسبوع | 0756 0757 |
+| قبل ECV | CTG 30 دقيقة + viability | 1236 3754 5130 |
+| مانع ECV | Oligohydramnios | 0695 |
+| Breech + ROM + contractions + 1 cm | Emergency CS | 0301 |
+| Lambda sign | Dichorionic diamniotic | 4235 4236 |
+| Di-di twins: تحسين النتيجة | Antenatal surveillance أكثر | 4935 |
+| Severe TTTS 24 أسبوع | Fetoscopic laser | 2499 2838 3858 4458 |
+| Mono twins + polyhydramnios + ضيق نفس | Amnioreduction | 0916 1990 |
+| 4 kg: يقلل shoulder dystocia | Suprapubic pressure | 1327 |
+| Tear وصل rectal mucosa | Fourth degree | 4452 |
+| CS بالمرحلة الثانية + fluid بعد يومين | Vesicovaginal fistula | 1332 |
+| CS قبل + labor | Blood results / type and screen | 2336 4346 |
+| CS قبل (breech) + labor منتظم | افحصيها بعد ساعتين | 3126 |
+| Elective CS: يقلل infection | Antibiotics | 4869 |
+== بداية الحمل: نزيف أو ألم (أول خطوة)
+> أي ست بعمر الإنجاب + ألم أو نزيف → أول شي pregnancy test (confirm pregnancy status) → بعدين US + urine
+> نزيف + tissue → pelvic exam + US → os مقفل + مستقرة = reassurance → os مفتوح + بقايا = evacuation
+| الحالة | الجواب | Q |
+| Infertility + ألم أسفل البطن | Confirm pregnancy status | 4240 4256 4257 |
+| ألم RLQ + spotting | US + urine + pregnancy test | 3005 |
+| طلع دم وtissue: أكثر تشخيص | Cervical exam + US | 1341 3606 |
+| 10 أسابيع + cramps + نزيف + os مقفل | Reassurance | 2171 |
+| 7 أسابيع + os مفتوح + بقايا | Evacuation (المصدر الثاني: conservative) | 1022 1023 |
+| 7 أسابيع + os مفتوح + vascularity | (المصدر ما حدد) | 3146 |
+| β-hCG بالمتابعة 3000–160000 | (المصدر ما حدد) | 2916 |
+| 4 إجهاضات: أعلى قيمة تشخيصية | Karyotype | 3446 |
+== الأمراض مع الحمل
+> الغدة: hyperthyroid بأول trimester = PTU → بعده methimazole (carbimazole) → hypothyroid وحملت = زيدي الـlevothyroxine → TSH 7 وتخطط = ابدئي لما تحمل
+> DVT: قبل أو BMI عالي + عوامل = prophylactic LMWH → PE بالحمل = LMWH → التشخيص: leg duplex أول (لو أعراض رجل) أو V/Q
+> القلب: dyspnea خفيف + فحص طبيعي = طبيعي → cardiomyopathy = hydralazine (لا ACE) → severe MS + أعراض = balloon valvotomy
+> أنيميا: Hb أقل من 10.5 = oral iron مرتين → MCV 100 = folate → SCD + Hb 9 = simple transfusion → BMI 35 + خوف macrosomia = 75 g OGTT
+| الحالة | الجواب | Q |
+| Hyperthyroid بأول trimester | PTU | 2094 4209 4210 4211 |
+| Hyperthyroid 17 أسبوع | Carbimazole | 2801 |
+| Hypothyroid على levothyroxine وحملت | زيدي الجرعة | 0995 |
+| TSH عالي + goiter 17 أسبوع | Levothyroxine | 3265 |
+| TSH 7 + T4 طبيعي وتخطط | Levothyroxine لما تحمل | 1294 0049 0997 |
+| DVT قبل + G3 + BMI 31 | LMWH | 1738 |
+| BMI 32 + G4 بدون VTE | Prophylactic LMWH | 2760 |
+| 45 سنة + CS + BMI 31 | Enoxaparin + compression | 2695 |
+| SCD + DVT قبل | LMWH | 2517 |
+| PE بالحمل | LMWH | 1811 |
+| PE: التشخيص | V/Q scan | 2761 |
+| ألم صدر + رجل منتفخة | Duplex US للرجل | 4855 |
+| Cardiomyopathy EF 35% | Hydralazine | 0501 3917 |
+| Severe MS 25 أسبوع + HF | Percutaneous balloon valvotomy | 5116 |
+| Severe MS (المصدر) | Delivery / CS | 1163 3552 3994 |
+| Dyspnea مع الجهد + فحص طبيعي | Reassure | 0735 |
+| Asthma: وش يزيد بالحمل | Tidal volume | 2291 |
+| دوخة لما تنام على ظهرها | لا تنام على ظهرها | 2376 3576 |
+| تعب + Hb 11 بأول الحمل | Plasma volume expansion + أكل حديد | 2413 2731 4409 4638 |
+| Hb 9.4–9.8 | Oral ferrous sulfate مرتين | 2830 5041 |
+| MCV 100 | Folate | 0691 |
+| SCD + Hb 9 | Simple transfusion | 2637 |
+| SCD + بأول الحمل | Close observation | 1935 |
+| BMI 35 + خوف macrosomia | 75 g OGTT | 2073 2480 4369 4370 |
+| DM ما انضبط + macrosomia بالـlabor | Control glucose | 0041 |
+| Type 1 DM وتخطط للحمل | HbA1c أقل من 6.5% | 3387 |
+| Polyhydramnios + macrosomia | Uncontrolled maternal DM | 1365 |
+| Polyhydramnios بالـthird trimester | Trisomy 21 (المصدر) | 2158 2295 2520 |
+| Oligohydramnios | Placental insufficiency | 0696 |
+| مدخنة تبي توقف | Nicotine gum + counseling | 1750 3194 4142 |
+| نباتية | Vitamin B12 | 3181 |
+| Cholestasis (حكة + صفار) | CBC + bile acids + LFT | 1285 |
+| Seizure بعد الولادة | CT + CT venogram | 1764 |
+| Eclampsia + فاقدة الوعي: أول شي | Airway | 3006 |
+| 32 أسبوع + ضغط + صداع بدون protein | Preeclampsia | 0020 |
+| GBS + بالـlabor | IV penicillin بالـlabor | 0736 1647 2262 |
+| Asymptomatic bacteriuria | Oral antibiotics | 0267 |
+| متى screening للبول | 12 أسبوع | 4448 4298 |
+| STDs متعددة + chlamydia | Azithromycin | 3342 4489 |
+| Cottage cheese | Topical antifungal | 1476 |
+| HSV: ليش acyclovir | (المصدر ما حدد) | 2683 |
+| Cervical mass بالحمل | (المصدر ما حدد) | 3423 |
+| Prolapse 29 أسبوع بدون أعراض | Conservative | 0960 |
+| PROM: pooling بالـposterior fornix | Rupture of membranes | 0582 3959 |
+| CS قبل مرتين + ROM | Blood results | 3737 |
+== Antenatal care: الفحوصات والتطعيم والجنين
+> folic: 0.4 mg للكل → 4–5 mg لو NTD قبل أو epilepsy أو DM (المصدر: 1 mg) → التطعيم: influenza (أي وقت) + Tdap 27–36 أسبوع → ممنوع: live (MMR، varicella) + HPV
+> 10 أسابيع: genetic screening (ترفض = وثقي واعرضي بعدين) → cystic hygroma = CVS → anomaly scan 18–22 → IUGR قبل = serial US
+> stillbirth: chromosomes من الـplacenta (أو amniocentesis قبل الولادة) → MCA Doppler = fetal anemia → single umbilical artery لحاله = routine ANC
+| الحالة | الجواب | Q |
+| Folic acid قبل الحمل | 1 mg (المصدر) | 0034 |
+| Hydrocephalus قبل | 1 mg / 1000 mcg | 1556 2082 |
+| أول زيارة: أهم vaccine | Influenza | 0946 0947 0949 0950 |
+| 28–30 أسبوع | Tdap | 0948 3931 |
+| ممنوع بالحمل | HPV | 1885 2762 |
+| ما تاخذه بعد ما تحمل (المصدر) | HBV | 1560 |
+| Rubella non-immune | بعد الولادة | 0531 |
+| أول booking | Calcium بالأكل | 1339 |
+| 20 أسبوع + BMI 24 | Iron supplement | 4565 |
+| 35 أسبوع + 54 kg + طبيعية | Follow up بعد أسبوعين | 5076 |
+| 12 أسبوع: الفحص | Genetic testing | 0053 |
+| 40 سنة + الحمل الثاني | Counsel عن genetic tests | 2829 |
+| 40 سنة ترفض genetic testing | وثقي الرفض واعرضيه بعدين | 3930 3987 4746 |
+| Cystic hygroma 12 أسبوع | CVS | 2049 |
+| IUFD مع anomalies قبل: anomaly scan | 18–22 أسبوع | 2126 |
+| IUGR قبل | Serial US | 3179 |
+| Fetal anemia: التشخيص | MCA Doppler | 1400 |
+| Single umbilical artery بدون anomaly | Routine ANC | 1402 |
+| Single umbilical artery: risk | Multiple pregnancy | 1428 4172 |
+| Stillbirth: ترسلين للـchromosomes | Placental tissue | 0727 |
+| IUFD 28 أسبوع: chromosomes | Amniotic sampling | 0728 |
+| IUFD 34 أسبوع | (المصدر ما حدد) | 3136 |
+| 30 أسبوع + CTG طبيعي بدون شي | (المصدر ما حدد) | 3048 |
+| Spotting + cramps 30 أسبوع | US يحدد الـplacenta | 0541 |
+| Low-lying + نزيف خفيف 35 أسبوع | CTG | 0738 |
+| Isotretinoin: متى تحمل | بعد شهر–3 شهور (المصدر: 3) | 1403 |
+== Postpartum
+> حرارة + lochia ريحتها خايسة بعد الولادة = endometritis → IV antibiotics → حرارة + ألم ظهر بعد epidural + tenderness = epidural abscess (drainage)
+> ثدي: mastitis = تكمل رضاعة + antibiotics → abscess = aspiration أو drainage → يمنع infection بعد الولادة = hand hygiene
+> منع الحمل بعد الولادة: ما ترضع + ما عندها VTE = combined من 3 أسابيع → DVT قبل = IUD → warfarin + قلب = POP أو IUD
+| الحالة | الجواب | Q |
+| بعد CS بيوم + حرارة + ألم بطن | Postpartum endometritis | 1866 |
+| يوم 5 + حرارة + lochia خايسة | IV antibiotics | 3105 3106 |
+| بعد epidural + حرارة + ألم ظهر | Surgical drainage | 2016 |
+| بعد CS + SOB + O2 80s | PE | 2598 |
+| 4 أسابيع + ثدي tender + swelling | Breast abscess: drainage | 3132 |
+| 6 أسابيع + ألم ثدي + كتلة | Aspiration | 3234 |
+| يمنع infection بعد الولادة | Hand hygiene | 3673 |
+| فائدة الرضاعة | Bonding | 2774 |
+| ما ترضع: متى combined pill | 3 أسابيع | 4425 |
+| DVT بعد الولادة: منع الحمل | IUD | 4520 3439 |
+| قلب + warfarin | Progesterone only pills | 2026 |
+| PPH قبل: الحمل الجاي | صلحي الأنيميا + الفريق + AMTSL | 5084 |
+== OB: متفرقات
+> إذا السؤال ناقص (المصدر ما حدد) → ركزي على الفكرة: IUGR + oligohydramnios بالـterm = deliver → GTN = hCG ثابت 3 قراءات → post-term = IOL عند 41–42
+| الحالة | الجواب | Q |
+| Folic acid (USPSTF) | 0.4–0.8 mg | 0033 4798 |
+| IUFD 39 أسبوع | Misoprostol | 0036 |
+| Incomplete (os مفتوح + بقايا) | Incomplete | 0643 |
+| KB 25 mL | جرعات anti-D | 0647 |
+| Hypothyroid بأول زيارة + TSH 4.4 | زيدي levothyroxine | 0996 1772 |
+| E. coli بالبول بدون أعراض | Antibiotics | 1258 |
+| DVT بعد الولادة: على المدى الطويل | NOAC (المصدر) | 0412 |
+| DVT قبل + SCD + 12 أسبوع | LMWH | 2246 |
+| 150/95 + صداع + زغللة | Labetalol | 1744 2797 |
+| Preeclampsia بدون hydralazine بالخيارات | Magnesium sulphate | 1769 |
+| Severe preeclampsia | Hydralazine | 1920 |
+| مدخنة + نزيف + ألم 39 أسبوع: الـrisk | Smoking | 2701 |
+| Post-term: أفضل دليل | IOL 41–42 أسبوع | 3467 |
+| متى ECV | 37 | 3851 |
+| Epilepsy مو منضبط + تبي تحمل | Review medication | 3950 |
+| بعد الولادة بأسبوعين + حرارة | History + exam كامل | 4439 |
+| 38 أسبوع + severe IUGR + oligohydramnios | Emergency CS | 2076 5101 |
+| نزيف شديد + 6 cm + hypotension | CS | 2222 |
+| Cord prolapse: CTG | Variable decels + bradycardia | 2584 |
+| RIF pain + tachycardia (بنت) | TVUS | 2494 |
+| RLQ + غثيان + Hb واطي | Pelvic exam | 2589 |
+| hCG 700 + TVUS فاضي | أعيدي hCG بعد 48 ساعة | 4685 |
+| بعد CS + fluid من الـvagina | Vesicourethral fistula | 1559 |
+| أسئلة ناقصة (المصدر ما حدد) | (؟) | 0314 0798 1240 1519 2344 2540 3733 3805 4007 4875 4878 1921 |
+# Gynecology
+== AUB و fibroids
+> نزيف → حامل؟ (hCG) → unstable أو Hb 7 = transfusion أول → فوق 45 سنة أو risk (obesity، PCOS) أو قبل الهرمونات = endometrial biopsy
+> fibroid: intramural (أشهر، ضغط و edema) → submucosal (نزيف + infertility = hysteroscopic myomectomy) → subserosal صغير بدون أعراض = reassure
+> fibroid + نزيف: تبي تحمل = myomectomy → خلصت إنجاب = hysterectomy (definitive) → ما تبي عملية أو عندها أمراض = UAE → كبر بسرعة بعد menopause = leiomyosarcoma
+> polyp (echogenic بالـendometrium + intermenstrual) = hysteroscopy + removal → رحم كبير متساوي + dysmenorrhea = adenomyosis
+| الحالة | الجواب | Q |
+| رحم غير متساوي + AUB | Leiomyoma | 0698 3350 |
+| Fibroid + ضغط + edema بالرجل | Intramural | 0165 0164 |
+| Hypoechoic بالـmyometrium + ألم | Intramural fibroid | 0547 1178 4087 |
+| Menorrhagia + pelvic pressure | Submucosal (المصدر) | 0166 2563 |
+| Submucosal 3×3 + nulliparous | Myomectomy | 5110 |
+| Subserosal صغير بدون أعراض | Reassure / conservative | 0886 1952 3838 0789 |
+| Menorrhagia + فحص وUS طبيعي | NSAIDs | 0790 |
+| Heavy periods + US طبيعي (45 سنة) | Tranexamic acid | 0739 |
+| Fibroid + Hb 70 | Correct the anemia | 1886 |
+| خلصت إنجاب + fibroid + menorrhagia | Hysterectomy | 1371 1475 1970 3501 |
+| خلصت + أمراض + ما تبي عملية | Uterine artery embolization | 0874 0875 1585 2877 |
+| Mass يكبر بسرعة | Leiomyosarcoma | 1329 3640 4121 |
+| AUB + echogenic بالـendometrium | Endometrial polyp | 0699 0530 4420 |
+| Polyp 13 mm + intermenstrual | Hysteroscopy + removal | 0701 0702 |
+| AUB + endometrium ما واضح | Sonohysterogram | 0700 |
+| رحم كبير متساوي + dysmenorrhea | Adenomyosis | 0703 |
+| 15 يوم نزيف + Hb 7 + دايخة | Transfusion | 2524 4062 5049 |
+| 15 يوم نزيف + دايخة: أول شي | CBC + β-hCG | 2230 2231 |
+| 44 سنة + نزيف + Hb واطي | D&C | 1405 2770 2478 |
+| 40 يوم نزيف (المصدر) | Misoprostol | 0740 |
+| AUB 6 شهور + تبي حبوب | Endometrial biopsy أول | 2769 3263 3264 3244 |
+| Postcoital + cervical mass | Directed biopsy | 2341 2550 0018 |
+| بعد hysterectomy + حرارة بس | Review medications | 0906 3903 3904 |
+| Hysterectomy + obese | LMWH (40 mg) | 1180 1323 1929 |
+| PPH 1500 mL وما وقف | Bakri balloon | 2024 |
+| AUB بعد عملية (المصدر ما حدد) | (؟) | 3533 |
+== Endometrium و menopause
+> postmenopausal bleeding → أشهر سبب atrophy → endometrium أكثر من 4 mm = endometrial biopsy → hyperplasia بدون atypia = progesterone → مع atypia = hysterectomy (تبي تحمل أو ما تتحمل عملية = progesterone)
+> risk لـendometrial cancer: obesity (أقوى) → PCOS → الوقاية = weight loss → stage IA = TAH + BSO
+> menopause: 45 أو أكثر + أعراض = تشخيص clinical (ما تحتاج تحاليل) → خفيف = lifestyle → يأثر على حياتها = HRT → long term risk = osteoporosis
+| الحالة | الجواب | Q |
+| Postmenopausal bleeding: أشهر سبب | Endometrial atrophy | 0697 |
+| PMB + endometrium 6 mm + fibroid | Endometrial biopsy | 2950 4091 4595 |
+| DM + BMI 35 + PMB | Endometrial biopsy | 4350 |
+| Atypical hyperplasia + 25 سنة | Oral progesterone | 1333 |
+| Atypical + تبي تحمل (المصدر) | Hysterectomy | 2622 |
+| Atypical + ما تتحمل عملية (72 سنة) | Continuous progesterone | 4835 |
+| Atypical 28 سنة (المصدر ما حدد) | (؟) | 1659 |
+| Endometrial cancer IA1 | TAH + BSO | 4324 |
+| Risk: PCOS + HTN + DM | PCOS | 0182 0829 0832 3184 |
+| PCOS + 43 سنة + progesterone دوري | Endometrial carcinoma | 0908 |
+| أقوى risk | Obesity | 0830 |
+| PCOS + BMI 31 | BMI | 0831 |
+| BMI 33 + تقلل الـrisk | Weight loss | 3078 4890 |
+| Hyperplasia + BMI 33 (المصدر ما حدد) | (؟) | 2546 |
+| Hot flashes خفيفة | Lifestyle | 0901 0917 0918 0920 |
+| Hot flashes تأثر على حياتها | HRT | 0919 4061 4368 4861 4916 |
+| Hot flashes + دورة غير منتظمة 50 سنة | ما تحتاج تحاليل | 2401 3267 |
+| خطر menopause على المدى الطويل | Osteoporosis | 2767 |
+| 50 سنة + دورة غير منتظمة | Reassure | 0349 |
+| أسئلة ناقصة | (المصدر ما حدد) | 2775 4944 4868 |
+== Amenorrhea و PCOS
+> primary amenorrhea → ثدي موجود؟ → إيه + ما فيه رحم: شعر موجود = Mullerian agenesis، شعر غايب (XY) = androgen insensitivity → ألم دوري + bulge أزرق = imperforate hymen (incision ثم estrogen cream أسبوعين)
+> ثدي غايب → FSH عالي = Turner (45,X) = estrogen → FSH واطي = MRI (hypothalamus/pituitary)
+> secondary: حمل أول → prolactin + TSH → prolactin عالي = MRI → بعد D&C = Asherman (hysteroscopy) → FSH عالي قبل 40 = POI
+> PCOS: hirsutism بدون virilism = ابدئي علاج بدون تحاليل (OCP) → سمنة = weight loss أول → infertility = lifestyle + ovulation induction
+| الحالة | الجواب | Q |
+| ثدي موجود + ما فيه شعر (XY) | Androgen insensitivity | 0089 0616 3443 |
+| ثدي + شعر طبيعي + ما فيه دورة | Mullerian agenesis | 0900 0913 2715 |
+| ألم دوري + bulge أزرق | Imperforate hymen | 1576 1947 2717 |
+| Imperforate: العلاج | Incision of hymen | 2718 2719 |
+| بعد العملية | Topical estrogen cream أسبوعين | 1376 2057 2720 2721 |
+| 45,X | Estrogen therapy | 3089 3427 |
+| FSH/LH طبيعية + estrogen واطي | Estrogen replacement | 2732 |
+| ما فيه secondary sex + FSH واطي | MRI hypothalamus/pituitary | 2326 2883 4936 |
+| Galactorrhea + prolactin عالي | MRI pituitary | 3148 2290 |
+| Secondary amenorrhea + galactorrhea | Serum prolactin | 3386 4800 4427 0322 |
+| Galactorrhea (المصدر ما حدد) | (؟) | 0321 |
+| بعد D&C + هرمونات طبيعية | Hysteroscopy (adhesions) | 0217 1783 2557 4517 |
+| سنة amenorrhea بعد D&C | Asherman | 1046 |
+| بعد curettage + withdrawal bleed (المصدر) | PCOS | 0563 0564 |
+| نفس السؤال (المصدر الثاني) | POF | 2203 2903 |
+| FSH عالي قبل 40 | Premature ovarian insufficiency | 1915 4353 4986 |
+| 46 سنة + amenorrhea | FSH | 1257 2768 |
+| Oligomenorrhea + FSH 6x | Karyotype | 2296 5014 |
+| Ovulation: الأكثر تشخيص | Progesterone يوم 21 | 3515 |
+| Hirsutism بدون virilism | ابدئي علاج بدون تحاليل | 0100 0540 2046 |
+| PCOS + hirsutism + cosmetic ما نفع | OCP | 2110 |
+| دورة غير منتظمة + سمنة | Weight loss | 1588 3282 4269 4270 |
+| PCOS + سمنة + تبي تحمل | Lifestyle + ovulation induction | 2841 3303 |
+| أسئلة ناقصة (POI، PCOS) | (المصدر ما حدد) | 4099 5131 4921 |
+== PMS و infertility
+> PMS: أعراض قبل الدورة وتروح مع أولها → lifestyle (exercise) → severe = SSRI
+> infertility: سنة بدون حمل (6 شهور لو فوق 35) = افحصي الزوجين الاثنين → ovulation = progesterone يوم 21
+| الحالة | الجواب | Q |
+| أعراض قبل الدورة وتروح باليوم الثاني | PMS | 0748 4284 0478 |
+| PMS: lifestyle | Exercise | 0350 0746 |
+| Severe PMS | SSRI | 0747 3238 4035 |
+| سنة أو أكثر بدون حمل | افحصي الزوجين | 2899 3235 3236 4459 1569 |
+| أول lab بالـinfertility (المصدر) | TSH | 1916 |
+| Secondary infertility بعد PID (المصدر) | Ovulation induction | 2456 |
+== Endometriosis و pelvic pain
+> dysmenorrhea → يبدأ مع الدورة + فحص طبيعي (شابة) = primary (NSAIDs ثم OCP) → يبدأ قبل الدورة ويزيد + infertility = endometriosis
+> endometriosis: OCP → خلصت إنجاب + ما نفع العلاج = TAH + BSO → laparoscopy طبيعي + urgency يخف بالتبول = interstitial cystitis (urology)
+| الحالة | الجواب | Q |
+| ألم مع بداية الدورة 2–3 أيام | Primary dysmenorrhea | 1037 |
+| Dysmenorrhea + فحص طبيعي | OCP | 1637 |
+| Dysmenorrhea + infertility + NSAIDs ما نفع | Endometriosis | 1575 2256 2257 3483 |
+| ألم بعد الدورة + NSAIDs ما نفع | Combined OCP | 4140 |
+| خلصت إنجاب + ما نفع العلاج | TAH + BSO | 1168 1302 1656 2334 4405 |
+| نفس السؤال (المصدر ما حدد) | (؟) | 2327 |
+| Laparoscopy طبيعي + urgency يخف بالتبول | Refer to urology | 0493 1718 2191 |
+== Ovary والأورام
+> ovarian mass: بنت صغيرة + LDH عالي = dysgerminoma (salpingo-oophorectomy + staging) → ascites + bloating + CA-125 = epithelial (TAH + BSO + staging ثم chemo) → شعر ودهون = dermoid
+> follicular cyst + تبي contraception = combined OCP → ovarian cancer + contraception = OCP → ascites + pleural effusion + adnexal mass = ovarian cancer
+> cervical cancer IIB = chemoradiation → choriocarcinoma + lung mets = multi-agent chemo
+| الحالة | الجواب | Q |
+| Ascites + pleural effusion + adnexal mass | Ovarian cancer | 0128 |
+| Bloating + شهية قلت | Epithelial ovarian tumor | 2077 |
+| 61 سنة + CA-125 عالي + ascites | TAH + BSO + staging | 0028 |
+| Sex cord + ascites | Surgery + chemo | 1125 |
+| 16 سنة + LDH عالي + adnexal mass | Salpingo-oophorectomy + staging | 3034 |
+| 76 سنة + multiloculated | Gyn oncology | 3091 |
+| 20 سنة + multilocular + CA-125 طبيعي | Cystectomy | 0565 |
+| Leak دهني وشعر | Dermoid (cystic teratoma) | 4570 |
+| Family history ovarian cancer | Counsel عن الأعراض | 0210 |
+| أمها breast cancer وتبي BRCA | ناقشي الأثر النفسي للنتيجة | 0594 |
+| Ovarian cancer: contraception | OCP | 0405 |
+| Follicular cyst + contraception | Combined OCP | 2667 2668 1938 |
+| Tubal mass 4 cm + amenorrhea | Salpingectomy | 0526 |
+| Freeze eggs قبل chemo | (المصدر ما حدد) | 3336 |
+| Cervical cancer IIB | Chemoradiation | 0159 2895 |
+| Choriocarcinoma + lung mets | Multi-agent chemo | 2792 2793 4259 |
+== Cervix: screening و HPV
+> Pap: يبدأ 21 (مهما كان الزواج) → 21–29 كل 3 سنين → 30–65 كل 5 مع HPV (أو 3 Pap) → فوق 65 + 3 سلبية = وقفي
+> ASCUS = HPV testing (أو colposcopy) → AGC = colposcopy → CIN 3 = conization (cold knife لو تبي تحمل) → mass واضح = biopsy
+> HPV vaccine = primary prevention (كملي الجرعات)
+| الحالة | الجواب | Q |
+| 18–20 سنة متزوجة | Pap عند 21 | 2064 3306 4871 0952 |
+| 31 سنة + كلها سلبية | كل 3 سنين | 3239 1840 |
+| فوق 65 + 3 سلبية | Stop screening | 0316 1259 1260 |
+| ASCUS | HPV testing | 1397 4691 |
+| ASCUS (المصدر الثاني) | Colposcopy | 5143 |
+| ASCUS + زوج جديد | (المصدر ما حدد) | 1844 |
+| AGC | Colposcopy | 3808 4690 |
+| CIN 3 | Conization | 0161 0162 2351 4165 |
+| CIN 3 + تبي تحمل | Cold knife cone | 0160 0163 |
+| أعلى risk | HSIL + HPV16 | 5128 |
+| Primary prevention | HPV vaccine | 4308 4309 3202 2821 2047 |
+== Contraception
+> صغيرة + تنسى الحبوب + تبي خصوصية = implant → تبي reversible وما تنسى = vaginal ring → STI = condom
+> HTN أو DVT أو DM أو coagulopathy = لا estrogen → IUD (copper أو Mirena) → heavy bleeding + anemia = Mirena
+| الحالة | الجواب | Q |
+| تنسى الحبوب + خصوصية + long term | Implant | 3051 3990 3991 |
+| تنسى + reversible | Vaginal ring | 3465 |
+| نفس الفكرة (المصدر ما حدد) | (؟) | 2583 |
+| DVT قبل | IUD | 2943 |
+| HTN + DM | IUD | 2869 |
+| HTN + heavy bleeding + anemia | Mirena | 0904 |
+| HTN + coagulopathy | Mirena | 2960 |
+| Multiple partners: يمنع STI | Condom | 4594 |
+== Infections و prolapse
+> discharge: أبيض + حكة = candida → ريحة سمك + pH أكثر من 4.5 = BV → ulcer مؤلم + ragged = chancroid → cervical motion tenderness = PID
+> prolapse: بدون أعراض = conservative → ما تتحمل عملية أو كبيرة = pessary → stress incontinence: أفضل علاج = midurethral sling (TVT)
+| الحالة | الجواب | Q |
+| أبيض + حكة | Candidiasis | 2272 |
+| ريحة سمك | Bacterial vaginosis | 3453 3454 |
+| Ulcer مؤلم + necrotic + lymph nodes | Chancroid | 1190 |
+| Cervical motion + adnexal tenderness | PID | 2342 4258 |
+| Heavy bleeding + pelvic tenderness بعد الزواج | PID (المصدر) | 1070 |
+| UTI متكرر: الوقاية | Cranberry juice | 1315 |
+| Routine: أعلى قيمة | Pelvic digital exam | 0360 0361 |
+| Stress incontinence: الأفضل | Midurethral sling (TVT) | 1117 1554 1118 |
+| Prolapse + كبيرة بالعمر | Pessary | 1446 3468 3765 |
+| Prolapse stage 3 بدون أعراض | Conservative | 4972 |
+| 3 ولادات + incontinence (المصدر ما حدد) | (؟) | 2979 |
