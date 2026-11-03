@@ -190,7 +190,10 @@ for it in items:
     if it["topic"] != cur_t:
         body += f'<div class="th">{e(it["topic"])}</div>'
         if BOXES.get(it["topic"]):
-            body += '<div class="bx">' + "".join(f"<div>• {bidi(x.replace('→', '←'))}</div>" for x in BOXES[it["topic"]]) + "</div>"
+            body += '<div class="bx">' + "".join(
+                '<div class="ch">' + '<span class="ar">←</span>'.join(
+                    f'<span class="nd" dir="{"rtl" if AR.search(nd) else "ltr"}">{bidi(nd.strip()) if AR.search(nd) else e(nd.strip())}</span>'
+                    for nd in x.split("→") if nd.strip()) + "</div>" for x in BOXES[it["topic"]]) + "</div>"
         cur_t = it["topic"]
     n += 1
     ans = it["ans"].strip()
@@ -214,18 +217,21 @@ for it in items:
 CSS = f"""
 @page {{ size: A4; margin: 4mm 4mm 5mm; }}
 * {{ box-sizing: border-box; }}
-body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-height: 1.13; margin: 0; color: #000; }}
+body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-height: {os.environ.get("LH", "1.13")}; margin: 0; color: #000; }}
 .top {{ display: flex; justify-content: space-between; font-weight: bold; font-size: 9pt; border-bottom: 1.2pt solid #000; margin-bottom: .8mm; }}
-.cols {{ column-count: {COLS}; column-gap: 2.6mm; column-rule: .3pt solid #888; }}
+.cols {{ column-count: {COLS}; column-gap: {os.environ.get("GAP", "2.6")}mm; column-rule: .3pt solid #888; }}
 .sh {{ background: #000; color: #fff; font-weight: bold; font-size: 1.25em; padding: .3mm 1.2mm; margin: .8mm 0 .3mm; break-after: avoid; }}
 .th {{ border-bottom: .8pt solid #000; font-weight: bold; margin: .6mm 0 .2mm; break-after: avoid; }}
-.q {{ border-bottom: .25pt solid #999; padding: .25mm 0 .35mm; break-inside: avoid; }}
+.q {{ border-bottom: .25pt solid #999; padding: {os.environ.get('QP', '.25')}mm 0 {os.environ.get('QP', '.35')}mm; break-inside: avoid; }}
 .op {{ color: #222; }}
 .ok {{ font-weight: bold; text-decoration: underline; }}
 .rp {{ border: .6pt solid #000; border-radius: .8mm; padding: 0 .6mm; font-weight: bold; direction: rtl; unicode-bidi: isolate; }}
 .tg {{ font-size: .85em; border: .4pt solid #000; padding: 0 .4mm; margin-left: .6mm; }}
-.bx {{ direction: rtl; text-align: right; border: .9pt solid #000; border-radius: 1mm; padding: .4mm 1mm; margin: .3mm 0 .6mm; font-size: 1.02em; line-height: 1.22; break-inside: avoid; background: #f2f2f2; }}
-.bx div {{ margin: .15mm 0; }}
+.bx {{ direction: rtl; text-align: right; border: 1pt solid #000; border-radius: 1.2mm; padding: .5mm 1mm; margin: .4mm 0 1mm; font-size: .98em; line-height: 1.2; break-inside: avoid; background: #eee; }}
+.ch {{ display: flex; flex-wrap: wrap; align-items: center; gap: .5mm; margin: .5mm 0; padding-bottom: .5mm; border-bottom: .3pt dotted #888; }}
+.ch:last-child {{ border-bottom: none; }}
+.nd {{ border: .6pt solid #000; border-radius: .9mm; padding: .1mm .9mm; background: #fff; unicode-bidi: isolate; }}
+.ar {{ font-weight: bold; }}
 .sm {{ font-size: .82em; border: .4pt dashed #000; padding: 0 .4mm; margin-left: .5mm; }}
 .sm.df {{ font-weight: bold; border-style: solid; }}
 .nt {{ font-size: .92em; font-style: italic; color: #111; border-left: .9pt solid #000; padding-left: .8mm; margin-top: .15mm; }}
