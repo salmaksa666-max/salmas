@@ -354,9 +354,9 @@ for it in items:
     for k, t in it["opts"]:
         ok = bool(re.match(rf"{k}[.)\-]", ans))
         hit = hit or ok
-        o += f' <span class="{"ok" if ok else "op"}">{"✔" if ok else ""}{k}. {e(t)}</span>'
+        o += f' <span class="{"ok" if ok else "op"}">{'<span class="ck">✔</span>' if ok else ""}{k}. {e(t)}</span>'
     if not hit:
-        o += f' <span class="ok">✔ {e(ans)}</span>'
+        o += f' <span class="ok"><span class="ck">✔</span> {e(ans)}</span>'
     rp = f'<span class="rp">مكرر {e(it["rep"])}</span> ' if it.get("rep") else ""
     tg = f'<span class="tg">{e(it["tag"])}</span>' if it["tag"] else ""
     if it.get("same") == "same":
@@ -460,6 +460,49 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 """
 doc = (f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head><body>'
        f'<div class="top"><span>{e(TITLE)}</span><span>{n} سؤال</span></div><div class="cols">{body}</div></body></html>')
+if os.environ.get("HTML_OUT"):
+    import base64
+    hb = re.sub(r'<span class="mk">@@M(\d+)@@</span>', lambda m: f'<a id="m{m.group(1)}"></a>', body)
+    fcss = ""
+    for w8 in ("400", "700"):
+        for sub, rng in (("arabic", "U+0600-06FF, U+FB50-FDFF, U+FE70-FEFF"), ("latin", "U+0000-024F, U+2000-22FF")):
+            b64 = base64.b64encode(open(os.path.join(FONTS, f"ibm-plex-sans-arabic-{sub}-{w8}-normal.woff2"), "rb").read()).decode()
+            fcss += f"@font-face {{ font-family: Plex; font-weight: {w8}; src: url(data:font/woff2;base64,{b64}) format('woff2'); unicode-range: {rng}; }}\n"
+    scss = re.sub(r"@font-face \{[^}]*\}", "", CSS).replace("@page", "@media print { @page") .replace("}\n* {", "} }\n* {", 1)
+    sysq2 = {}
+    for sy, tp, cnt in TOC:
+        if tp:
+            sysq2[sy] = sysq2.get(sy, 0) + cnt
+    toc = "".join((f'<a class="ts" href="#m{i}">{e(sy)} <small>{sysq2.get(sy, 0)}</small></a>' if tp is None else f'<a class="tt" href="#m{i}">{e(tp)} <small>{cnt}</small></a>') for i, (sy, tp, cnt) in enumerate(TOC))
+    extra = """
+html { font-size: 15px; } body { font-size: 13.5px !important; line-height: 1.45 !important; padding: 10px; background: #fff; }
+.cols { column-count: 1 !important; }
+@media (min-width: 900px) { .cols { column-count: 2 !important; } }
+@media (min-width: 1400px) { .cols { column-count: 3 !important; } }
+.guide { font-size: 14px !important; } .gcols { column-count: 1 !important; }
+@media (min-width: 900px) { .gcols { column-count: 2 !important; } }
+.q { cursor: pointer; padding: 6px 0 !important; }
+.q:not(.open) .ck, .q:not(.open) .nt, .q:not(.open) .hbox, .q:not(.open) .na { display: none; }
+.q:not(.open) .ok { font-weight: normal; text-decoration: none; }
+.q:not(.open)::after { content: "اضغطي لعرض الجواب"; display: block; text-align: right; direction: rtl; font-size: .8em; color: #888; }
+.bar { position: sticky; top: 0; z-index: 9; background: #000; color: #fff; padding: 8px; display: flex; gap: 8px; flex-wrap: wrap; direction: rtl; }
+.bar button, .bar a { background: #fff; color: #000; border: 0; border-radius: 6px; padding: 6px 10px; font: inherit; font-weight: bold; text-decoration: none; }
+#toc { direction: rtl; columns: 2 220px; border: 1.5px solid #000; border-radius: 8px; padding: 8px; margin: 8px 0; }
+#toc a { display: block; color: #000; text-decoration: none; padding: 3px 4px; border-bottom: 1px solid #ddd; break-inside: avoid; }
+#toc a.ts { background: #000; color: #fff; font-weight: bold; margin-top: 6px; } #toc small { opacity: .7; }
+"""
+    js = """<script>
+document.addEventListener('click',function(ev){var q=ev.target.closest('.q');if(q&&!ev.target.closest('a'))q.classList.toggle('open');});
+function all(o){document.querySelectorAll('.q').forEach(function(q){q.classList.toggle('open',o);});}
+</script>"""
+    hdoc = (f'<!doctype html><html lang="ar"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
+            f'<title>{e(TITLE)}</title><style>{fcss}{scss}{extra}</style></head><body>'
+            f'<div class="bar"><a href="#toc">الفهرس</a><button onclick="all(true)">إظهار كل الأجوبة</button><button onclick="all(false)">إخفاء كل الأجوبة</button></div>'
+            f'<div class="top"><span>{e(TITLE)}</span><span>{n} سؤال</span></div><div id="toc"><b>الفهرس</b>{toc}</div><div class="cols">{hb}</div>{js}</body></html>')
+    open(os.environ["HTML_OUT"], "w", encoding="utf-8").write(hdoc)
+    print("html ->", os.environ["HTML_OUT"])
+    if os.environ.get("HTML_ONLY"):
+        sys.exit(0)
 src = os.path.join(tempfile.mkdtemp(), "d.html")
 open(src, "w", encoding="utf-8").write(doc)
 subprocess.run([CHROME, "--no-sandbox", "--no-pdf-header-footer", f"--print-to-pdf={OUT}", "file://" + src], check=True, capture_output=True)
