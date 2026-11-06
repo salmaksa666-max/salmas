@@ -282,6 +282,8 @@ if len(sep_i) and len(oct_i):
         if sim[r, j] >= 0.75:
             items[i]["same"] = "same" if na(items[i]["ans"]) == na(items[sep_i[j]]["ans"]) else "diff"
 items = [items[i] for i in ordered]
+if os.environ.get("LIMIT"):
+    items = items[int(os.environ.get("SKIP", "0")):int(os.environ.get("SKIP", "0")) + int(os.environ["LIMIT"])]
 if os.environ.get("MAP"):
     json.dump({it["qid"]: [it["sys"], it["topic"]] for it in items}, open(os.environ["MAP"], "w"), ensure_ascii=False)
 
@@ -332,7 +334,7 @@ for it in items:
     if it["sys"] != cur_s:
         TOC.append([it["sys"], None, 0])
         body += f'<div class="sh">{e(it["sys"])}<span class="mk">@@M{len(TOC) - 1}@@</span></div>'
-        if GUIDES.get(it["sys"]):
+        if GUIDES.get(it["sys"]) and not os.environ.get("NOGUIDE"):
             body += render_guide(it["sys"], GUIDES[it["sys"]])
         cur_s, cur_t = it["sys"], None
     if it["topic"] != cur_t:
@@ -510,6 +512,8 @@ function all(o){document.querySelectorAll('.q').forEach(function(q){q.classList.
         sys.exit(0)
 src = os.path.join(tempfile.mkdtemp(), "d.html")
 open(src, "w", encoding="utf-8").write(doc)
+if os.environ.get("SAVE_SRC"):
+    open(os.environ["SAVE_SRC"], "w", encoding="utf-8").write(doc)
 subprocess.run([CHROME, "--no-sandbox", "--no-pdf-header-footer", f"--print-to-pdf={OUT}", "file://" + src], check=True, capture_output=True)
 print(n, "questions ->", OUT)
 
