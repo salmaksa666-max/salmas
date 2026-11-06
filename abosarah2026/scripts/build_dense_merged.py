@@ -96,6 +96,53 @@ def load_basics(path):
     return out
 
 
+GUIDES = load_basics(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "review", "guides_medicine.txt"))
+
+
+def render_guide(name, lines):
+    h, tbl = "", []
+
+    def flush():
+        nonlocal h, tbl
+        if tbl:
+            rows = [[c.strip() for c in r.strip().strip("|").split("|")] for r in tbl]
+            h += "<table>" + "".join("<tr>" + "".join((f"<th>{gb(c)}</th>" if i == 0 else f"<td>{gb(c)}</td>") for c in r) + "</tr>" for i, r in enumerate(rows)) + "</table>"
+            tbl = []
+    gold, plan = "", ""
+    for ln in lines:
+        if ln.startswith("|"):
+            tbl.append(ln)
+            continue
+        flush()
+        if ln.startswith("@ "):
+            gold = f'<div class="gx gold"><b class="t">القاعدة الذهبية</b>{gb(ln[2:])}</div>'
+        elif ln.startswith("^ "):
+            plan = f'<div class="gx gold plan"><b class="t">خطة أي سؤال</b>{gb(ln[2:])}</div>'
+        elif ln.startswith("# "):
+            n, _, t = ln[2:].partition(" ")
+            h += f'<h3><i>{n}</i>{gb(t)}</h3>'
+        elif ln.startswith("!"):
+            kind, _, rest = ln[1:].partition(" ")
+            lab, _, txt = rest.partition(":")
+            h += f'<div class="gx {kind}"><b class="t">{gb(lab)}</b>{gb(txt.strip())}</div>'
+        elif ln.startswith("- "):
+            h += f'<div class="gl">• {gb(ln[2:])}</div>'
+    flush()
+    return (f'<div class="guide"><div class="ghead"><span>شرح {e(name)}</span><span class="gsub">افهمي القاعدة، بعدين حلي الأسئلة تحت</span></div>'
+            f'{gold}<div class="gcols">{h}</div>{plan}</div>')
+
+
+GLAT = re.compile(r"[A-Za-z0-9][A-Za-z0-9'’\-/%±&<>≥≤]*(?:\.[A-Za-z0-9]+)*(?:(?: ?[+/] ?| )[A-Za-z0-9][A-Za-z0-9'’\-/%±&<>≥≤]*(?:\.[A-Za-z0-9]+)*)*")
+
+
+def gb(t):
+    out, last = "", 0
+    for m in GLAT.finditer(t):
+        out += html.escape(t[last:m.start()], quote=False) + f'<span class="en">{html.escape(m.group(0), quote=False)}</span>'
+        last = m.end()
+    return out + html.escape(t[last:], quote=False)
+
+
 BASICS = load_basics(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "review", "basics_medicine.txt"))
 
 
@@ -283,11 +330,13 @@ for it in items:
     if it["sys"] != cur_s:
         TOC.append([it["sys"], None, 0])
         body += f'<div class="sh">{e(it["sys"])}<span class="mk">@@M{len(TOC) - 1}@@</span></div>'
+        if GUIDES.get(it["sys"]):
+            body += render_guide(it["sys"], GUIDES[it["sys"]])
         cur_s, cur_t = it["sys"], None
     if it["topic"] != cur_t:
         TOC.append([it["sys"], it["topic"], 0])
         body += f'<div class="th">{e(it["topic"])}<span class="mk">@@M{len(TOC) - 1}@@</span></div>'
-        if BASICS.get(it["topic"]):
+        if not os.environ.get("NOBASICS") and BASICS.get(it["topic"]):
             body += render_basics(BASICS[it["topic"]])
         elif False and BOXES.get(it["topic"]):
             body += '<div class="bx">' + "".join(
@@ -316,8 +365,10 @@ for it in items:
     body += f'<div class="q"><b>{n}.</b>{tg} {rp}{e(it["stem"])}{it["flag"]}{o}{nt}</div>'
 n = len(items)
 
+FONTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "fonts")
+FONTS = os.path.abspath(FONTS)
 CSS = f"""
-@page {{ size: A4; margin: 4mm 4mm 5mm; }}
+@page {{ size: {os.environ.get('PAGE', 'A4')}; margin: 5mm 5mm 6mm; }}
 * {{ box-sizing: border-box; }}
 body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-height: {os.environ.get("LH", "1.13")}; margin: 0; color: #000; }}
 .top {{ display: flex; justify-content: space-between; font-weight: bold; font-size: 9pt; border-bottom: 1.2pt solid #000; margin-bottom: .8mm; }}
@@ -334,6 +385,29 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .ch:last-child {{ border-bottom: none; }}
 .nd {{ border: .6pt solid #000; border-radius: .9mm; padding: .1mm .9mm; background: #fff; unicode-bidi: isolate; }}
 .ar {{ font-weight: bold; }}
+@font-face {{ font-family: Plex; font-weight: 400; src: url(file://{FONTS}/ibm-plex-sans-arabic-arabic-400-normal.woff2); unicode-range: U+0600-06FF, U+FB50-FDFF, U+FE70-FEFF; }}
+@font-face {{ font-family: Plex; font-weight: 700; src: url(file://{FONTS}/ibm-plex-sans-arabic-arabic-700-normal.woff2); unicode-range: U+0600-06FF, U+FB50-FDFF, U+FE70-FEFF; }}
+@font-face {{ font-family: Plex; font-weight: 400; src: url(file://{FONTS}/ibm-plex-sans-arabic-latin-400-normal.woff2); unicode-range: U+0000-024F, U+2000-22FF; }}
+@font-face {{ font-family: Plex; font-weight: 700; src: url(file://{FONTS}/ibm-plex-sans-arabic-latin-700-normal.woff2); unicode-range: U+0000-024F, U+2000-22FF; }}
+.guide {{ column-span: all; font-family: Plex, "DejaVu Sans", sans-serif; font-size: 8.3pt; line-height: 1.45; direction: rtl; text-align: right; color: #000; border: 1.4pt solid #000; border-radius: 2mm; padding: 2mm 3mm; margin: 1mm 0 2.5mm; background: #fff; }}
+.ghead {{ display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 2pt solid #000; padding-bottom: .6mm; margin-bottom: 1.5mm; font-size: 15pt; font-weight: 700; }}
+.gsub {{ font-size: 8pt; font-weight: 400; color: #444; }}
+.gcols {{ column-count: {os.environ.get("GCOLS", "2")}; column-gap: 4mm; }}
+.guide h3 {{ font-size: 10pt; margin: 1.6mm 0 .8mm; display: flex; align-items: center; gap: 1.6mm; break-after: avoid; }}
+.guide h3 i {{ font-style: normal; background: #000; color: #fff; width: 4.6mm; height: 4.6mm; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 7.5pt; flex: none; }}
+.guide table {{ width: 100%; border-collapse: separate; border-spacing: 0; border: 1px solid #555; border-radius: 1.6mm; overflow: hidden; margin: .5mm 0 1.2mm; break-inside: avoid; }}
+.guide th {{ background: #e3e3e3; font-weight: 700; }}
+.guide td, .guide th {{ padding: .55mm 1.6mm; border-bottom: 1px solid #bbb; vertical-align: top; text-align: right; }}
+.guide tr:last-child td {{ border-bottom: none; }}
+.gx {{ padding: 1.4mm 2.4mm; border-radius: 1.6mm; margin: 1mm 0; border: 1px solid #000; border-right-width: 3.5px; break-inside: avoid; }}
+.gx .t {{ display: block; margin-bottom: .2mm; }}
+.gx.gold {{ background: #ececec; }}
+.gx.mem {{ background: #fff; border-style: solid; }}
+.gx.warn {{ background: #fff; border-style: dashed; border-right-style: solid; }}
+.gx.warn .t::before {{ content: "⚠ "; }}
+.gx.mem .t::before {{ content: "✎ "; }}
+.gl {{ margin: .4mm 0; }}
+.guide .en {{ direction: ltr; unicode-bidi: isolate; font-weight: 700; }}
 .basic {{ column-span: all; column-count: 2; column-gap: 6mm; direction: rtl; text-align: right; border: 1.2pt solid #000; border-radius: 2mm; padding: 1.5mm 2.5mm; margin: .8mm 0 1.6mm; font-size: 1.08em; line-height: 1.38; background: #fafafa; }}
 .btitle {{ column-span: all; font-weight: bold; font-size: 1.1em; border-bottom: .8pt solid #000; margin-bottom: 1mm; }}
 .bi {{ border: .9pt solid #000; border-radius: 1.5mm; padding: .8mm 1.8mm; background: #eee; margin: .8mm 0; break-inside: avoid; }}
@@ -379,7 +453,7 @@ for i, (sy, tp, cnt) in enumerate(TOC):
     else:
         rows += f'<tr><td class="t">{e(tp)}</td><td class="c">{cnt}</td><td class="p">{pg}</td></tr>'
 idx = (f'''<!doctype html><html><head><meta charset="utf-8"><style>
-@page {{ size: A4; margin: 8mm; }} body {{ font-family: "DejaVu Sans", Arial; font-size: 8.6pt; margin: 0; }}
+@page {{ size: {os.environ.get('PAGE', 'A4')}; margin: 8mm; }} body {{ font-family: "DejaVu Sans", Arial; font-size: 8.6pt; margin: 0; }}
 h1 {{ font-size: 15pt; margin: 0 0 1mm; border-bottom: 2pt solid #000; display: flex; justify-content: space-between; }}
 .w {{ column-count: 2; column-gap: 8mm; }} table {{ width: 100%; border-collapse: collapse; }}
 td {{ padding: .55mm 1.5mm; border-bottom: .3pt solid #999; }} tr.s td {{ background: #000; color: #fff; font-weight: bold; font-size: 1.1em; }}
