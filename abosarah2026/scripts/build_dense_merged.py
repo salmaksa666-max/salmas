@@ -231,6 +231,10 @@ for spec in sys.argv[3:]:
             if DIFF.search(x) or RULE.search(x):
                 keep.append(x)
         note = " ".join(keep)[:230]
+        if os.environ.get("NOANS_NOTES") and it["ans"].startswith("—"):  # no firm answer: keep Alhomrani's full words, they carry the conditional rule
+            note = " ".join(x.strip() for x in sents if x.strip() and not SKIP.match(x.strip()))
+        if os.environ.get("DROP_NOANS") and it["ans"].startswith("—"):
+            continue
         items.append(dict(it, sys=s, topic=tp, note=note, tag=tag, key=exq.get("key", ""), rule=exq.get("rule", "")))
 
 order = {k: i for i, k in enumerate(ALL_TOPICS)}
@@ -359,7 +363,13 @@ for it in items:
         tg += '<span class="sm">= Sep</span>'
     elif it.get("same") == "diff":
         tg += '<span class="sm df">≈ Sep: جواب مختلف ⚠</span>'
-    nt = (f'<div class="nt">💡 {e(it["rule"])}</div>' if it.get("rule") else "") + (f'<div class="nt">✍ {e(it["note"])}</div>' if it["note"] else "")
+    if os.environ.get("NOANS_NOTES") and ans.startswith("—"):
+        nt = ('<div class="na">⚠ ما فيه جواب أكيد بالمصدر ← احفظي القاعدة:</div>'
+              + (f'<div class="nt nah"><b>✍ الحمراني:</b> {e(it["note"])}</div>' if it["note"] else "")
+              + (f'<div class="nt nah"><b>🔑 القاعدة:</b> {e(it["key"])}</div>' if it.get("key") else "")
+              + (f'<div class="nt">💡 {e(it["rule"])}</div>' if it.get("rule") else ""))
+    else:
+        nt = (f'<div class="nt">💡 {e(it["rule"])}</div>' if it.get("rule") else "") + (f'<div class="nt">✍ {e(it["note"])}</div>' if it["note"] else "")
     body += f'<div class="q"><b>{n}.</b>{tg} {rp}{e(it["stem"])}{it["flag"]}{o}{nt}</div>'
 n = len(items)
 
@@ -429,6 +439,8 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .sm {{ font-size: .82em; border: .4pt dashed #000; padding: 0 .4mm; margin-left: .5mm; }}
 .sm.df {{ font-weight: bold; border-style: solid; }}
 .mk {{ color: #fff; font-size: 1pt; }}
+.na {{ direction: rtl; text-align: right; font-weight: bold; margin-top: .3mm; }}
+.nah {{ font-style: normal; border-left-width: 1.6pt; }}
 .nt {{ font-size: .92em; font-style: italic; color: #111; border-left: .9pt solid #000; padding-left: .8mm; margin-top: .15mm; }}
 """
 doc = (f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head><body>'
