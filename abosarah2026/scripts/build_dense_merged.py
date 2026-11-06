@@ -114,7 +114,9 @@ def render_guide(name, lines):
             tbl.append(ln)
             continue
         flush()
-        if ln.startswith("@ "):
+        if ln.startswith("@@ "):
+            gold = gold.replace("</div>", f'<div class="kw">{gb(ln[3:])}</div></div>', 1) if gold else gold
+        elif ln.startswith("@ "):
             gold = f'<div class="gx gold"><b class="t">القاعدة الذهبية</b>{gb(ln[2:])}</div>'
         elif ln.startswith("^ "):
             plan = f'<div class="gx gold plan"><b class="t">خطة أي سؤال</b>{gb(ln[2:])}</div>'
@@ -132,15 +134,11 @@ def render_guide(name, lines):
             f'{gold}<div class="gcols">{h}</div>{plan}</div>')
 
 
-GLAT = re.compile(r"[A-Za-z0-9][A-Za-z0-9'’\-/%±&<>≥≤]*(?:\.[A-Za-z0-9]+)*(?:(?: ?[+/] ?| )[A-Za-z0-9][A-Za-z0-9'’\-/%±&<>≥≤]*(?:\.[A-Za-z0-9]+)*)*")
-
-
 def gb(t):
-    out, last = "", 0
-    for m in GLAT.finditer(t):
-        out += html.escape(t[last:m.start()], quote=False) + f'<span class="en">{html.escape(m.group(0), quote=False)}</span>'
-        last = m.end()
-    return out + html.escape(t[last:], quote=False)
+    t = html.escape(t, quote=False)
+    t = re.sub(r"\[(ok|no):(.*?)\]", lambda m: f'<span class="tag {m.group(1)}">{m.group(2)}</span>', t)
+    t = re.sub(r"\{(.*?)\}", lambda m: f'<span class="en">{m.group(1)}</span>', t)
+    return t
 
 
 BASICS = load_basics(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "review", "basics_medicine.txt"))
@@ -407,6 +405,11 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .gx.warn .t::before {{ content: "⚠ "; }}
 .gx.mem .t::before {{ content: "✎ "; }}
 .gl {{ margin: .4mm 0; }}
+.kw {{ margin-top: .6mm; padding-top: .5mm; border-top: .5pt dotted #000; }}
+.guide .tag {{ display: inline-block; padding: 0 1.4mm; border-radius: 2mm; font-weight: 700; border: .8pt solid #000; }}
+.guide .tag.ok {{ background: #fff; }}
+.guide .tag.no {{ background: #000; color: #fff; }}
+.guide .tag .en {{ color: inherit; }}
 .guide .en {{ direction: ltr; unicode-bidi: isolate; font-weight: 700; }}
 .basic {{ column-span: all; column-count: 2; column-gap: 6mm; direction: rtl; text-align: right; border: 1.2pt solid #000; border-radius: 2mm; padding: 1.5mm 2.5mm; margin: .8mm 0 1.6mm; font-size: 1.08em; line-height: 1.38; background: #fafafa; }}
 .btitle {{ column-span: all; font-weight: bold; font-size: 1.1em; border-bottom: .8pt solid #000; margin-bottom: 1mm; }}

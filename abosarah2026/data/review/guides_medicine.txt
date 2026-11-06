@@ -1,385 +1,392 @@
 == Hematology & Oncology
-@ كل سؤال دم يسأل: وش نوع المشكلة؟ أنيميا (Hb واطي) ← شوفي MCV · نزيف أو جلطة ← شوفي الدواء والـplatelets والـPT/PTT · ورم ← شوفي الطوارئ (febrile neutropenia و TLS). دوري على: MCV · ferritin · retics · LDH · INR · heparin · chemo.
-# 1 الأنيميا (Anemia): الـMCV يقسمها
-| الـMCV | الأسباب | كيف تفرقين |
-| صغير (أقل من 80) | iron deficiency · thalassemia trait · chronic disease | ferritin: واطي = iron deficiency · طبيعي + RBC عالي = thal trait · طبيعي/عالي + مرض مزمن = chronic disease |
-| كبير (أكثر من 100) | B12 · folate | B12 = أعصاب (نباتي، metformin، pernicious، Crohn) · folate = بدون أعصاب (حمل، كحول) |
-| طبيعي | نزيف · تكسير (hemolysis) · كلى (CKD) | retics عالية = نزيف أو تكسير · واطية + CKD = EPO |
-!mem للحفظ: أدق فحص لـiron deficiency = ferritin واطي. الـ"definitive" الكلاسيكي = bone marrow. العلاج oral iron أول، ما نفع أو امتصاص سيئ (celiac) = IV iron.
-!warn انتبهي: نقص حديد برجل أو كبيرة بالعمر = نزيف أمعاء ← upper + lower endoscopy. ست تحيض = الدورة.
-# 2 التكسير (Hemolysis): العلامات ثابتة
-- العلامات دايم: LDH عالي + indirect bilirubin عالي + haptoglobin واطي + retics عالية. أول فحص للسبب = Direct Coombs.
-| المرض | كيف تعرفينه |
-| AIHA | Coombs موجب، فجأة، كبير، ما فيه عائلة · مع platelets واطية = Evans |
-| Hereditary spherocytosis | Coombs سالب، عائلة، طحال كبير، gallstones وهو صغير |
-| G6PD | نوبات بعد فول أو دواء أو عدوى · Heinz bodies و bite cells |
-| PNH | بول غامق + Coombs سالب + جلطات |
-| SLE + هذي العلامات | نوعها hemolytic |
-- إسهال مزمن + B12 و folate واطيين + سفر هند أو تايلند = tropical sprue · بدون سفر + villous atrophy = celiac.
-# 3 Sickle cell و الدم
-| الحالة | الجواب |
-| التشخيص | Hb electrophoresis · المرض (HbSS) ما فيه HbA |
-| crisis ألم | O2 + fluids + analgesia |
-| ألم صدر + حرارة + infiltrate جديد (acute chest) | exchange transfusion |
-| نوبات تتكرر | hydroxyurea |
+@ المنطق: {Anemia} تسألين "ليش {Hb} نازل؟" ← الـ{MCV} يقول لك وين تدورين. {Bleeding / clot} تسألين "وش الدواء اللي ماخذه؟" ← الدواء يقول لك العلاج. {Oncology} تسألين "فيه طوارئ؟" ({febrile neutropenia} أو {TLS}).
+@@ دوري في السؤال على: {MCV} · {ferritin} · {retics} · {LDH} · {Coombs} · {warfarin / heparin} · {INR} · {chemo}
+# 1 {Anemia}: الـ{MCV} يحدد الطريق
+| {MCV} | {Causes} | الفرق بينها |
+| {< 80 (microcytic)} | {Iron deficiency} · {Thalassemia trait} · {Chronic disease} | الـ{ferritin}: واطي ← {IDA} · طبيعي + {RBC} عالي ← {thal trait} · طبيعي أو عالي + مرض مزمن ← {ACD} |
+| {> 100 (macrocytic)} | {B12} · {Folate} | فيه أعصاب (تنميل، مشي) ← {B12} · ما فيه ← {folate} |
+| {Normal} | {Bleeding} · {Hemolysis} · {CKD} | {retics} عالية ← نزيف أو تكسير · واطية + {CKD} ← {EPO} |
+!mem للحفظ: ليش {ferritin}؟ لأنه مخزن الحديد. واطي = خلص الحديد = {IDA} أكيد. والـ{definitive} الكلاسيكي = {bone marrow}.
+!gold القرار: عرفتي {IDA}؟ اسألي "من وين ضاع الحديد؟" ← ست تحيض ← الدورة · رجل أو كبيرة بالعمر ← نزيف أمعاء ← [no:{upper + lower endoscopy}]
+| {IDA} الحالة | {Treatment} |
+| أول مرة | [ok:{oral iron}] |
+| {oral} ما نفع، ما تتحمله، أو امتصاص سيئ ({celiac}) | {IV iron} |
+# 2 {Hemolysis}: نفس العلامات دايم
+- لما الكريات تتكسر يطلع منها {LDH} و {bilirubin}، والـ{haptoglobin} يتلف عليها فينزل، والنخاع يعوض فترتفع {retics}.
+- عرفتي إنه تكسير؟ ← السؤال الجاي "ليش؟" ← أول فحص {Direct Coombs}.
+| {Disease} | {Clue} |
+| {AIHA} | {Coombs +} · فجأة · كبير · ما فيه عائلة · + {platelets} واطية = {Evans} |
+| {Hereditary spherocytosis} | {Coombs −} · عائلة · {splenomegaly} · {gallstones} وهو صغير |
+| {G6PD} | نوبات بعد فول أو دواء أو عدوى · {Heinz bodies} · {bite cells} |
+| {PNH} | بول غامق + {Coombs −} + جلطات |
+| {SLE} + هذي العلامات | {hemolytic anemia} |
+!warn انتبهي: إسهال + {B12} و {folate} واطيين + سفر هند أو تايلند ← {tropical sprue}. بدون سفر + {villous atrophy} ← {celiac}.
+# 3 {Sickle cell}
+| {Situation} | {Answer} |
+| {Diagnosis} | {Hb electrophoresis} · المرض {HbSS} ما فيه {HbA} |
+| {Pain crisis} | {O2 + IV fluids + analgesia} |
+| {Acute chest}: ألم صدر + حرارة + {infiltrate} جديد | [no:{exchange transfusion}] |
+| نوبات تتكرر | {hydroxyurea} |
 | رعشة أو ضيق وقت نقل الدم | وقفي النقل فورًا |
-| allergic بسيط بنقل قبل | antihistamine قبل النقل الجاي |
-| أبوه trait وأمه طبيعية | عيالهم ما يجيهم المرض |
-# 4 Warfarin و INR
-| الموقف | الجواب |
-| INR عالي بدون نزيف | وقفي جرعة أو قللي + أعيدي INR بعد يومين |
-| نزيف خطير (مخ أو أمعاء) | وقفي warfarin + vitamin K IV + PCC |
-| INR تغير بعد أعشاب أو دواء جديد | وقفي الأعشاب وأعيدي INR |
-| INR واطي | زيدي الجرعة |
-!mem للحفظ: الهدف INR 2–3 لـAF و DVT و PE · صمام معدني 2.5–3.5 · antiphospholipid = warfarin مو DOAC.
-# 5 الجلطات (DVT و PE) و HIT
-| الحالة | الجواب |
-| رجل منتفخة | duplex US ← موجب = anticoagulation (DOAC أو LMWH) |
+| أبوه {trait} وأمه طبيعية | عيالهم ما يجيهم المرض |
+# 4 {Warfarin} و {INR}
+- {Warfarin} يوقف {vitamin K} ← عشان كذا علاجه {vitamin K}، والسريع {PCC}.
+| {Situation} | {Answer} |
+| {INR} عالي بدون نزيف | وقفي جرعة أو قللي ← {INR} بعد يومين |
+| نزيف خطير (مخ، أمعاء) | وقفي + {IV vitamin K} + [no:{PCC}] |
+| {INR} تغير بعد أعشاب أو دواء جديد | وقفي الأعشاب ← أعيدي {INR} |
+| {INR} واطي | زيدي الجرعة |
+!mem للحفظ: الهدف {INR 2–3} لـ {AF · DVT · PE} · صمام معدني {2.5–3.5} · {APS} ← {warfarin} مو {DOAC}.
+# 5 {DVT · PE · HIT} و {Platelets}
+| {Situation} | {Answer} |
+| رجل منتفخة | {duplex US} ← موجب ← {DOAC} أو {LMWH} |
 | السبب مؤقت (عملية، سفر) | 3 شهور |
-| بدون سبب أو تكرر أو APS | مدى الحياة |
-| حامل | LMWH |
-| heparin من 5–10 أيام + platelets نزلت أو جلطة | HIT ← وقفي كل heparin ← argatroban |
-!gold القرار (platelets واطية): بعد فيروس والباقي طبيعي = ITP · حرارة + confusion + كلى + schistocytes = TTP (blood film ← plasma exchange) · على heparin = HIT.
-# 6 الأورام: الطوارئ
-| الحالة | الجواب |
-| حرارة + neutrophils أقل من 500 | cultures ← antipseudomonal فورًا (cefepime أو pip-tazo أو meropenem) |
-| unstable أو line أو MRSA | + vancomycin |
-| حرارة بعد 4–7 أيام antibiotics | antifungal (voriconazole أو amphotericin) |
-| chemo + K و phosphate و uric عالية + Ca واطي | TLS ← IV fluids ← rasburicase (وقاية = allopurinol) |
-| lymph node + B symptoms | lymphoma ← excisional biopsy |
-| neutropenia على methotrexate | من الدواء |
-^ ① نوع المشكلة؟ (أنيميا، نزيف/جلطة، ورم) ② أنيميا ← MCV ثم ferritin أو علامات التكسير ③ نزيف ← وش الدواء؟ ④ "initial" = أبسط فحص، "definitive" = الأدق.
+| بدون سبب، تكرر، أو {APS} | مدى الحياة |
+| حامل | {LMWH} |
+| {heparin} من 5–10 أيام + {platelets} نزلت أو جلطة | {HIT} ← وقفي كل {heparin} ← [ok:{argatroban}] |
+| بعد فيروس + بس {platelets} | {ITP} |
+| حرارة + {confusion} + كلى + {schistocytes} | {TTP} ← {blood film} ← {plasma exchange} |
+# 6 {Oncology}: الطوارئ
+| {Situation} | {Answer} |
+| حرارة + {neutrophils < 500} | {cultures} ← فورًا {cefepime / pip-tazo / meropenem} |
+| + {unstable} أو {line} أو {MRSA} | + {vancomycin} |
+| حرارة بعد 4–7 أيام | {antifungal} ({voriconazole / amphotericin}) |
+| بعد {chemo}: {K} و {phosphate} و {uric} عالية + {Ca} واطي | {TLS} ← {IV fluids} ← {rasburicase} · وقاية {allopurinol} |
+| {lymph node} + {B symptoms} | {lymphoma} ← {excisional biopsy} |
+^ ① {Anemia}؟ ← {MCV} ← {ferritin} أو علامات التكسير ② {Bleeding}؟ ← وش الدواء؟ ③ {Platelets} واطية؟ ← {heparin} = {HIT} · فيروس = {ITP} · {schistocytes} = {TTP} ④ {chemo}؟ ← {neutropenia} أو {TLS}
 == Neurology
-@ أي سؤال أعصاب: صار فجأة ولا تدريجي؟ فجأة = stroke أو نزيف أو seizure ← صورة (CT). تدريجي = dementia أو MS أو neuromuscular. حرارة + أعصاب = infection (meningitis، encephalitis). دوري على: فجأة · حرارة · يروح ويرجع · آخر اليوم · بالجهة الثانية.
-# 1 الجلطة (Stroke): أول شي CT بدون contrast
-| الحالة | الجواب |
-| أعراض فجأة | CT بدون contrast ← نزيف ولا جلطة؟ |
-| ما فيه نزيف + أقل من 4.5 ساعة | tPA |
-| large vessel + أقل من 24 ساعة | mechanical thrombectomy |
-| نزيف | نزلي SBP لـ140–160 |
-| TIA (راحت) | aspirin + statin + دوري السبب (carotid duplex، ECG للـAF) |
-| carotid 70% أو أكثر | carotid endarterectomy |
-| نزيف تحت العنكبوتية + بعد أيام ضعف جديد | vasospasm |
-!warn انتبهي: قبل tPA تأكدي ما فيه نزيف أو stroke أو عملية قريب · بدون tPA لا تنزلين الضغط إلا فوق 220/120.
-# 2 وين الإصابة (Lesion)
-| الأعراض | المكان |
-| وجه بجهة والجسم بالجهة الثانية | brainstem |
-| بلع + Horner + vertigo | lateral medulla (PICA) |
-| وجه + سمع | AICA |
-| الرجل أكثر من اليد + سلوك | ACA |
-| pinpoint pupils + وعي نازل | pons |
-| double vision + العين ما تروح للداخل | MLF (internuclear ophthalmoplegia) |
-# 3 التشنجات (Seizures)
-| الحالة | الجواب |
-| تشنج ما وقف | benzodiazepine (lorazepam) ← phenytoin أو levetiracetam |
-| أول تشنج | glucose + electrolytes + CT head |
-| يحدق ويمضغ وما يتذكر | temporal lobe ← carbamazepine |
-| يطيح فجأة | atonic |
-| حرارة + تشنج + سلوك غريب | HSV encephalitis ← IV acyclovir فورًا |
-| حامل أو تبي تحمل | levetiracetam (لا valproate) |
-# 4 الصداع (Headache)
-!gold القرار: أسوأ صداع بحياتها فجأة = SAH ← CT بدون contrast ← طبيعي = lumbar puncture.
-| الحالة | الجواب |
-| بعد الولادة أو حبوب + صداع + تشنج | venous thrombosis ← CT venogram |
-| حرارة + رقبة + صداع | meningitis ← ceftriaxone + vancomycin فورًا |
-| صداع + رقبة + تنميل يدين بكبير | cervical spine MRI |
-| migraine نوبة / كثير | NSAID أو triptan / prophylaxis |
-# 5 النسيان (Dementia) والحركة
-| النوع | العلامة |
-| Alzheimer | الذاكرة الجديدة أول، تدريجي ← rivastigmine أو donepezil |
-| Vascular | stepwise + stroke قبل |
-| Frontotemporal | أصغر نسبيًا + الشخصية والسلوك يتغير |
-| Lewy body | hallucinations + parkinsonism + يتذبذب |
-| Delirium | فجأة + يتذبذب ← دوري السبب |
-| opioids + confusion + myoclonus | opioid neurotoxicity |
-| كحولي + confusion + عيون | Wernicke ← thiamine قبل glucose |
-# 6 MS و الأعصاب والعضلات
-| الحالة | الجواب |
-| شابة + أعراض تروح وترجع بأماكن مختلفة | MS ← MRI with gadolinium |
-| MS relapse | high dose IV methylprednisolone |
-| الأعراض تسوء مع الحر | Uhthoff |
-| دليل إنه يتطور | lesions جديدة بالـMRI |
-| ضعف رجلين + مستوى حسي + بول | spinal cord compression ← MRI طارئ |
-| ضعف يسوء آخر اليوم + ptosis | myasthenia ← AChR antibodies |
-| بعد إسهال + ضعف صاعد + reflexes غايبة | GBS |
-^ ① فجأة ولا تدريجي؟ ② فجأة ← CT أول ③ حرارة؟ ← infection ④ يروح ويرجع ← MS ⑤ آخر اليوم ← myasthenia.
-== Pulmonology
-@ أي ضيق نفس: عنده انسداد (asthma، COPD) ولا infection (pneumonia، TB) ولا جلطة (PE) ولا سوائل (effusion، edema)؟ وبعدها: يحتاج O2 بس، NIV، ولا intubation؟ دوري على: مدخن · حرارة · فجأة · يتحسن بالـbronchodilator · CO2.
-# 1 الربو (Asthma)
-| الحالة | الجواب |
-| التشخيص | FEV1 يتحسن بعد bronchodilator (methacholine لو طبيعي) |
-| نوبة | salbutamol + steroids (prednisone) |
-| شديدة: ما يكمل جملة، RR أكثر من 25، PEF أقل من 50% | + ipratropium + magnesium |
-| مهددة للحياة: PEF أقل من 33%، CO2 طبيعي أو عالي | ICU |
-| مزمن ما انضبط | شيكي الالتزام والـinhaler technique أول ← ICS ← ICS + LABA |
-| يسوء بالشغل ويتحسن بالإجازة | occupational ← spirometry بعد الشغل |
-| كحة بعد الأكل + ربو ما ينضبط | GERD ← PPI |
-!warn انتبهي: مدخن كبير + نزيف أو نقص وزن = lung cancer، مو asthma.
-# 2 COPD
-| الحالة | الجواب |
-| التشخيص | FEV1/FVC أقل من 0.7 ما يتحسن كامل |
-| exacerbation | O2 (هدف 88–92%، venturi mask) + steroids + antibiotics |
-| CO2 عالي + pH واطي | NIV (BiPAP) |
-| على O2 كثير وصار نعسان | قللي الـO2 |
-| يطول عمره | وقف التدخين + home oxygen |
-| شاب + emphysema | alpha-1 antitrypsin |
-| التطعيم | pneumococcal + influenza |
-# 3 الالتهاب الرئوي (Pneumonia) و TB
-!gold القرار: CURB-65 ← بالبيت = amoxicillin أو azithromycin ← بالمستشفى = ceftriaxone + azithromycin ← ICU = + vancomycin.
-| العلامة | الجرثومة |
-| lobar + rusty sputum | strep pneumoniae |
-| Na واطي + إسهال + مكيفات | legionella |
-| شاب + cold agglutinin | mycoplasma |
-| HIV + bilateral | pneumocystis |
-| كحة أكثر من 3 أسابيع + تعرق + نقص وزن | TB ← sputum AFB (Ziehl-Neelsen) + culture |
-| TB نشط | RIPE (isoniazid + rifampin + pyrazinamide + ethambutol) + airborne isolation |
-| latent (PPD أو IGRA + CXR طبيعي) | isoniazid + pyridoxine 9 شهور |
-!mem للحفظ: rifampin = بول برتقالي ويقلل مستوى الأدوية · isoniazid = تنميل (B6).
-# 4 PE و السوائل (Pleural)
-| الحالة | الجواب |
-| ضيق فجأة + ألم صدر + tachycardia | PE ← CTPA (حامل أو كلى = V/Q) |
-| PE مستقر / مو مستقر | LMWH أو DOAC / alteplase |
-| effusion | thoracentesis ← exudate = infection أو TB أو cancer · transudate = HF |
-| lymphocytes + ADA عالي | TB ← pleural biopsy |
-| صديد أو pH أقل من 7.2 | chest drain + antibiotics |
-| cancer + effusion يرجع | indwelling pleural catheter |
-# 5 فشل التنفس (Respiratory failure)
-| الحالة | الجواب |
-| صاحي + CO2 عالي | NIV (BiPAP) |
-| وعي نازل أو ما يحمي airway أو تعبان | intubation + mechanical ventilation |
-| pulmonary edema | IV furosemide + NIV |
-| ARDS | low tidal volume |
-| على ventilator: يمنع pneumonia | رأس السرير 30–45 |
-| مدخن يبي يوقف | varenicline |
-| شخير + نعاس بالنهار | sleep study |
-| nodule أكبر من 2.5 cm | مشبوه ← biopsy أو surgery |
-^ ① انسداد ولا infection ولا جلطة ولا سوائل؟ ② مستقر؟ ③ CO2 عالي وصاحي = NIV، وعي نازل = intubation.
-== GI & Hepatology
-@ سؤال الجهاز الهضمي: وين المشكلة؟ الكبد (صفار، ascites، LFT) · فوق (حرقة، epigastric، نزيف علوي) · تحت (إسهال، دم، screening) · البنكرياس (ألم للظهر). دوري على: alarm symptoms (نقص وزن، أنيميا، نزيف، dysphagia، فوق 60) ← endoscopy.
-# 1 Hepatitis B serology
-| النتيجة | المعنى |
-| HBsAg + و IgM anti-HBc + | acute hepatitis B |
-| HBsAg + أكثر من 6 شهور | chronic ← entecavir |
-| anti-HBs بس | تطعيم |
-| anti-HBs + anti-HBc IgG | مناعة من عدوى قديمة |
-| hepatitis A | IgM anti-HAV (أكل أو مية ملوثة) |
-| HBV ساء فجأة | hepatitis D |
-| hepatitis C | direct-acting antivirals (شيكي HBV قبل) |
-# 2 الكبد المتليف (Cirrhosis)
-| المضاعفة | الجواب |
-| ascites | spironolactone + furosemide + قللي الملح |
-| حرارة + ascites | SBP ← ceftriaxone |
-| confusion | encephalopathy ← lactulose + دوري السبب (electrolytes، نزيف، infection) |
-| نزيف varices | fluids + crossmatch + IV octreotide + antibiotics ← endoscopy ← يرجع = TIPS |
-| المتابعة | US كل 6 شهور (HCC) ← كتلة = triphasic CT |
-# 3 أسباب الكبد الثانية
-| العلامة | التشخيص |
-| كحول + AST ضعف ALT | alcoholic hepatitis ← وقف الكحول ± steroids |
-| بنت + IgG عالي + autoantibodies | autoimmune hepatitis ← prednisolone |
-| شاب + tremor + نفسية | Wilson ← ceruloplasmin واطي ← penicillamine |
-| paracetamol overdose | N-acetylcysteine |
-| على methotrexate + LFT عالية | وقفي methotrexate |
-# 4 المعدة والمريء (Upper GI)
-!gold القرار: dyspepsia + alarm أو فوق 60 = endoscopy (EGD) · بدون = test H. pylori (urea breath) أو PPI.
-| الحالة | الجواب |
-| H. pylori | PPI + clarithromycin + amoxicillin · ما نفع = bismuth quadruple |
-| تأكيد الشفاء | urea breath test |
-| GERD | lifestyle (لا ينام بعد الأكل، يرفع رأس السرير) + PPI |
-| GERD مو أكيد | ambulatory pH monitoring |
-| GERD قديم | Barrett ← endoscopy |
-| صعوبة بلع سوائل وأكل + regurgitation | achalasia ← pneumatic dilatation |
-| ICU + نزيف | stress gastritis ← PPI |
-| نزيف علوي | fluids + blood + IV PPI ← endoscopy |
-# 5 الإسهال المزمن (IBD، celiac، IBS)
-| المرض | العلامة |
-| Crohn | skip lesions، ileum، fistula، transmural |
-| UC | من الـrectum متصل + دم و mucus |
-| Celiac | bloating + أنيميا ← tTG-IgA أو anti-endomysial ← biopsy ← gluten free (wheat، barley) |
-| IBS | ألم يخف بعد البراز بدون alarm ← diet |
-| يفرق IBD عن IBS | fecal calprotectin |
-| IBD ما استجاب للـsteroids | anti-TNF (infliximab) |
-# 6 القولون (Screening) و البنكرياس
-| الحالة | الجواب |
-| شخص عادي | colonoscopy من 45–50 كل 10 سنين |
-| قريب درجة أولى قبل 60 | من 40 كل 5 |
-| UC | 8–10 سنين بعد التشخيص |
-| أهله كلهم polyps | FAP |
-| ألم epigastric للظهر + lipase 3 أضعاف | pancreatitis ← fluids + analgesia · شدته Ranson |
-| UC + ALP عالي | primary sclerosing cholangitis |
-^ ① وين المشكلة؟ ② فيه alarm؟ ← endoscopy ③ كبد ← serology أو مضاعفة cirrhosis ④ إسهال ← دم أو نقص وزن = IBD/celiac، لا = IBS.
-== Infectious disease
-@ أي حرارة: اسألي عن السفر والحيوانات والحليب النيء والمناعة. هذي تعطيك التشخيص. وبعدها: مستقر؟ sepsis = antibiotics خلال ساعة. دوري على: سفر · حليب نيء · neutropenia · HIV · تطعيم · عمر 50 أو 65.
-# 1 الحرارة والقصة
-| القصة | التشخيص | الجواب |
-| حليب نيء أو غنم + مفاصل | brucellosis | serology ← doxycycline + rifampin |
-| سفر أفريقيا + حرارة دورية | malaria (Anopheles) | blood film · يرجع بعد أشهر = vivax |
-| حرارة + rash + platelets واطية | dengue (Aedes) | fluids + supportive |
-| abscess | | aspiration + antibiotics |
-| بعد سفر + إسهال + liver abscess | amoebic | metronidazole |
-# 2 Sepsis و neutropenia
-!gold القرار: sepsis ← cultures ← broad antibiotics خلال ساعة ← fluids ← الضغط ما ارتفع = norepinephrine.
-| الحالة | الجواب |
-| febrile neutropenia | cefepime ← ما تحسن 4–7 أيام = antifungal |
-| meningitis | ceftriaxone + vancomycin |
-| UTI بسيط | nitrofurantoin |
-| UTI + حرارة + flank | admit + IV antibiotics |
-# 3 التطعيمات للكبار
-| الحالة | التطعيم |
-| 65 أو أكثر، COPD، DM، splenectomy | pneumococcal |
-| 50 أو أكثر (حتى لو جاه shingles) | recombinant zoster |
-| كل سنة للكل | inactivated influenza |
-| جرح + آخر جرعة أكثر من 5–10 سنين | Tdap booster |
-| immunocompromised | inactivated بس (لا live) |
-| سفر أفريقيا | yellow fever + antimalarial |
-| contact مع meningococcal | rifampicin يومين |
-!mem للحفظ: anti-HBs بس بالدم = تطعيم قديم. HIV + PPD موجب = isoniazid + pyridoxine 9 شهور.
-^ ① وش القصة؟ (سفر، حيوان، حليب) ② مستقر؟ sepsis = antibiotics فورًا ③ مناعته ضعيفة؟ ④ سؤال تطعيم ← العمر والمرض.
-== Rheumatology
-@ مفاصل: كم مفصل؟ مفصل واحد حار = aspiration أول (septic ولا gout). مفاصل صغيرة متساوية = RA. بنت + أعضاء = SLE. ظهر التهابي بشاب = spondyloarthritis. دوري على: صلابة الصبح · مفصل واحد · rash · psoriasis · بعد إسهال.
-# 1 مفصل واحد حار
-| الفحص بعد aspiration | التشخيص | العلاج |
-| صديد أو gram stain | septic arthritis | IV antibiotics |
-| needle-shaped، negative birefringent | gout | NSAID (meloxicam) أو colchicine |
-| rhomboid، positive | pseudogout | NSAID |
-!warn انتبهي: allopurinol ما يبدأ وقت النوبة، ولو كان عليه لا توقفينه.
-# 2 RA و SLE
-| المرض | الفحص | العلاج |
-| RA (مفاصل صغيرة + صلابة أكثر من ساعة) | anti-CCP + RF | methotrexate (± steroids + hydroxychloroquine) |
-| SLE | ANA ثم dsDNA | hydroxychloroquine للكل |
-| lupus nephritis | biopsy | steroids + cyclophosphamide |
-| MCTD | anti-RNP | |
-| SLE وتبي تحمل وهي على mycophenolate | | غيريه لـazathioprine |
-# 3 الظهر و OA
-| النوع | العلامة |
-| ankylosing spondylitis | شاب + ظهر التهابي ← MRI sacroiliac ← NSAIDs |
-| reactive arthritis | بعد إسهال أو STI + عين + مفاصل |
-| psoriatic | psoriasis + DIP + sausage digits |
-| OA | كبير + ألم مع الحركة + صلابة أقل من 30 دقيقة ← وزن + رياضة + paracetamol |
-^ ① كم مفصل؟ ② واحد = aspiration ③ كثير + صلابة = RA ④ بنت + أعضاء = SLE ⑤ ظهر شاب = spondyloarthritis.
-== Endocrinology
-@ الغدد: الهرمون زايد ولا ناقص؟ وأول فحص دايم: السكر = HbA1c أو fasting · الغدة = TSH · الكورتيزول = dexamethasone أو ACTH test. دوري على: TSH · K و Na · steroids قبل عملية.
-# 1 السكري
-| الفحص | prediabetes | diabetes |
-| fasting | 5.6–6.9 | 7 أو أكثر |
-| HbA1c | 5.7–6.4% | 6.5% أو أكثر |
-| random + أعراض | | 11.1 أو أكثر |
-| الحالة | الجواب |
-| type 2 | metformin أول |
-| DKA | IV fluids أول ← IV insulin ← السكر نزل = insulin + dextrose ← شيكي K |
-| hypoglycemia واعي / مو واعي | عصير / IV dextrose أو glucagon |
-| بعد الرياضة | carbs قبل الرياضة |
-| كلى مع السكري | urine microalbumin ← ACE-I |
-# 2 الغدة الدرقية (Thyroid)
-| الحالة | العلامة | العلاج |
-| Graves | عيون + goiter منتشر | beta blocker + methimazole |
-| toxic nodular | كبير + nodules | radioiodine |
-| subacute thyroiditis | بعد URTI + رقبة تألم | beta blocker + NSAIDs |
-| Hashimoto | hypothyroid | levothyroxine |
-| euthyroid sick | مريض ICU + T3 واطي | ما نعالج |
-!mem للحفظ: على levothyroxine وما انضبط = اسألي عن الالتزام أول. amiodarone + أعراض = TSH.
-# 3 الكظرية والنخامية
-| الحالة | الجواب |
-| Cushing | dexamethasone suppression ← ACTH عالي = pituitary adenoma |
-| Addison (Na واطي + K عالي + ضغط واطي) | ACTH (Synacthen) test ← hydrocortisone |
-| على steroids + عملية | stress dose hydrocortisone ثم taper |
-| prolactin عالي | pituitary MRI |
-| ضغط + K واطي | aldosterone : renin ratio |
-| osteoporosis | DEXA ← Ca + vitamin D + bisphosphonate |
-^ ① زايد ولا ناقص؟ ② أول فحص (TSH، HbA1c، cortisol) ③ طوارئ؟ DKA = fluids أول، Addison = hydrocortisone.
-== Nephrology & Electrolytes
-@ الكلى والأملاح: K عالي = خطر على القلب (ECG أول). Na واطي = شوفي حجم المريض. AKI = قبل الكلية ولا فيها ولا بعدها. دوري على: ECG · جفاف أو edema · دواء جديد · chemo.
-# 1 البوتاسيوم (K)
-!gold القرار: K عالي + ECG فيه تغير (peaked T) ← IV calcium gluconate (يحمي القلب) ← insulin + dextrose ← دوري السبب.
-| الحالة | الجواب |
-| أسباب K العالي | ACE-I، spironolactone، CKD، TLS |
-| K واطي | potassium ← ما يرتفع = magnesium |
-| ترجيع أو NG tube | metabolic alkalosis + Cl و K واطيين |
-| إسهال | metabolic acidosis + K واطي |
-| acidosis + urine pH عالي | distal RTA (type 1) |
-| أكل بعد جوع | refeeding syndrome (phosphate و K تنزل) |
-| ضغط + K واطي | aldosterone : renin ratio |
-# 2 الصوديوم (Na)
-| حجم المريض | الجواب |
-| جفاف (hypovolemic) | 0.9% saline |
-| edema (HF، cirrhosis) | fluid و sodium restriction |
-| طبيعي (euvolemic) | SIADH ← fluid restriction |
-!warn انتبهي: صححتيه بسرعة = central pontine myelinolysis. أسباب SIADH: small cell cancer، carbamazepine، valproate. Na عالي + بول كثير بعد head trauma = diabetes insipidus.
-# 3 الكلى الحادة والمزمنة (AKI و CKD)
-| النوع | العلامة | الجواب |
-| pre-renal | جفاف، BUN:creatinine عالي | IV fluids |
-| ATN | aminoglycoside، contrast، صدمة | وقفي الدواء |
-| AIN | دواء جديد + rash + eosinophils | وقفي الدواء |
-| post-renal | انسداد | renal US |
-| بعد cath | eosinophiluria | cholesterol emboli |
-| myeloma | light chains | |
-| dialysis طارئ | K ما ينزل، acidosis، overload، uremia | initiate dialysis |
-| CKD + أنيميا | | erythropoietin |
-| Ca واطي + أعراض | | IV calcium gluconate |
-| septic shock ما ارتفع | | norepinephrine ← زيديه |
-^ ① K؟ ← ECG ② Na؟ ← حجم المريض ③ AKI؟ ← قبل أو فيها أو بعدها ④ دواء جديد؟ ← وقفيه.
+@ المنطق: صار فجأة؟ ← شي انسد أو نزف أو تشنج ← صورة ({CT}) أول. صار تدريجي؟ ← {dementia} أو {MS} أو {neuromuscular}. فيه حرارة؟ ← {infection} ({meningitis / encephalitis}) وعلاجها فورًا.
+@@ دوري في السؤال على: فجأة · حرارة · يروح ويرجع · يسوء آخر اليوم · بالجهة الثانية · {hours since onset}
+# 1 {Stroke}: أول شي {CT} بدون {contrast}
+- ليش {CT} أول؟ لأن العلاج عكس بعض: الجلطة تحتاج {tPA} يذوبها، والنزيف الـ{tPA} يقتله. فلازم تعرفين وش هو.
+| {Situation} | {Answer} |
+| ما فيه نزيف + أقل من 4.5 ساعة | [ok:{tPA}] |
+| {large vessel} + أقل من 24 ساعة | {mechanical thrombectomy} |
+| نزيف ({ICH}) | نزلي {SBP} لـ{140–160} |
+| {TIA} (راحت) | {aspirin + statin} + دوري السبب ({carotid duplex} · {ECG} للـ{AF}) |
+| {carotid ≥ 70%} | {carotid endarterectomy} |
+| {SAH} + بعد أيام ضعف جديد | {vasospasm} |
+!warn انتبهي: قبل {tPA} ← ما فيه نزيف أو {stroke} أو عملية قريب · بدون {tPA} لا تنزلين الضغط إلا فوق {220/120}.
+# 2 وين الـ{lesion}؟
+| الأعراض | {Location} |
+| وجه بجهة والجسم بالثانية | {brainstem} |
+| بلع + {Horner} + {vertigo} | {lateral medulla (PICA)} |
+| وجه + سمع | {AICA} |
+| الرجل أكثر من اليد + سلوك | {ACA} |
+| {pinpoint pupils} + وعي نازل | {pons} |
+| {diplopia} + العين ما تروح للداخل | {MLF (INO)} ← غالبًا {MS} |
+# 3 {Seizures}
+| {Situation} | {Answer} |
+| تشنج ما وقف ({status}) | [ok:{benzodiazepine (lorazepam)}] ← {phenytoin / levetiracetam} |
+| أول تشنج | {glucose + electrolytes} + {CT head} |
+| يحدق ويمضغ وما يتذكر | {temporal lobe} ← {carbamazepine} |
+| يطيح فجأة | {atonic} |
+| حرارة + تشنج + سلوك غريب | {HSV encephalitis} ← [no:{IV acyclovir}] فورًا |
+| حامل أو تبي تحمل | {levetiracetam} (مو {valproate}) |
+# 4 {Headache}
+!gold القرار: "أسوأ صداع بحياتي" فجأة ← {SAH} ← {non-contrast CT} ← طبيعي ← {lumbar puncture}.
+| {Situation} | {Answer} |
+| بعد الولادة أو {OCP} + صداع + تشنج | {venous thrombosis} ← {CT venogram} |
+| حرارة + رقبة + صداع | {meningitis} ← {ceftriaxone + vancomycin} فورًا |
+| رقبة + تنميل يدين بكبير | {cervical spine MRI} |
+| {migraine}: نوبة / متكرر | {NSAID / triptan} · {prophylaxis} |
+# 5 {Dementia} و {Delirium}
+- الفرق: {dementia} تدريجي على شهور · {delirium} فجأة ويتذبذب ← دوري السبب ({infection}، دواء، {electrolytes}).
+| {Type} | {Clue} |
+| {Alzheimer} | الذاكرة الجديدة أول ← {rivastigmine / donepezil} |
+| {Vascular} | {stepwise} + {stroke} قبل |
+| {Frontotemporal} | أصغر + الشخصية والسلوك تتغير |
+| {Lewy body} | {hallucinations} + {parkinsonism} |
+| {opioids} + {confusion} + {myoclonus} | {opioid neurotoxicity} |
+| كحولي + {confusion} + عيون | {Wernicke} ← {thiamine} قبل {glucose} |
+# 6 {MS} و {Neuromuscular}
+| {Situation} | {Answer} |
+| شابة + أعراض تروح وترجع بأماكن مختلفة | {MS} ← {MRI with gadolinium} |
+| {MS relapse} | {high-dose IV methylprednisolone} |
+| تسوء مع الحر | {Uhthoff} |
+| يتطور | {new MRI lesions} |
+| ضعف رجلين + مستوى حسي + بول | {spinal cord compression} ← {MRI} طارئ |
+| يسوء آخر اليوم + {ptosis} | {myasthenia} ← {AChR antibodies} |
+| بعد إسهال + ضعف صاعد + {areflexia} | {GBS} |
+^ ① فجأة؟ ← {CT} أول ② حرارة؟ ← {antibiotics / acyclovir} فورًا ③ يروح ويرجع؟ ← {MS} ④ آخر اليوم؟ ← {myasthenia} ⑤ {initial} = أبسط فحص · {best} = الأدق
 == Cardiology
-@ كل سؤال قلب يسأل واحد من 3: وش المرض؟ (من الأعراض والـECG) ← المريض مستقر؟ (ضغط، وعي، ألم) ← وش عنده غيره؟ (سكري، كلى، حمل، ربو) وهذا يختار الدواء. دوري على: ST elevation · unstable · EF واطي · نوع الـmurmur · DM / CKD.
-# 1 الضغط (Hypertension): أكد ثم اختر الدواء
-!mem للحفظ: قراءة وحدة عالية بالعيادة = أعيدي القياس أو ABPM قبل أي دواء. ضغط خفيف بدون أذى = lifestyle أول (ملح أقل + رياضة).
-| المريض | الدواء |
-| سكري، كلى، protein، أو قلب كبير أو ضعيف | ACE-I (lisinopril، ramipril) |
-| كحة أو تورم شفايف من ACE-I | ARB (losartan) |
-| كبير بالعمر أو أسود | CCB (amlodipine) أو thiazide |
-| systemic sclerosis + ضغط فجأة | ACE-I (أزمة كلى) |
-| ما انضبط على اثنين | أضيفي الثالث (thiazide أو indapamide) |
-| شاب أو ما ينضبط: دوري | الفحص |
-| K واطي | aldosterone : renin ratio |
-| صداع + تعرق + خفقان | catecholamines أو metanephrines |
-| creatinine طلع بعد ACE-I أو bruit | renal artery stenosis ← CT angio |
-!warn أرقام الطوارئ: نزيف مخ ← SBP لـ140–160 · جلطة مخ بدون tPA ← لا تنزلين إلا فوق 220/120 · قبل tPA ← أقل من 185/110.
-# 2 الدهون (Lipids): الـstatin هو الجواب
-| الحالة | الجواب |
-| بعد MI أو stroke أو PAD (حتى لو الدهون طبيعية) | high-intensity statin (atorvastatin) |
-| الهدف | LDL أقل من 70 mg/dL (أقل من 1.8–2 mmol) |
-| ما وصل الهدف | ezetimibe ثم PCSK9 |
-| LDL عالي + تعب بشابة | شيكي TSH ← thyroxine |
-| سكري + كلى + قلب | أضيفي SGLT2 (dapagliflozin) |
-# 3 ألم الصدر (ACS): الـECG يحدد الطريق
-| الـECG | وش تسوين |
-| ST elevation (أو LBBB جديد) | STEMI ← PCI (urgent angiography) |
-| STEMI والمستشفى ما فيه PCI | نقل أقل من 120 دقيقة ← انقليه · أكثر ← thrombolysis |
-| ST depression أو طبيعي + troponin عالي | NSTEMI ← aspirin + clopidogrel + heparin |
-| ألم مع الجهد + ECG و troponin طبيعية | exercise ECG · ما يقدر يمشي ← dobutamine stress echo |
-| ألم بالليل + ST elevation تروح | Prinzmetal ← CCB |
-| ألم فجأة للظهر + ضغط مختلف باليدين | aortic dissection (أهم سبب الضغط) |
-!warn انتبهي: thrombolysis ممنوع لو نزيف مخ قبل (حتى من سنين) ← انقليه لـPCI · inferior MI + ضغط واطي ← سوائل، لا nitrates · ألم بجهة + فقاعات جلد = zoster ← ما يحتاج فحص.
-# 4 الصدمة (Shock)
-| النوع | CVP / PCWP | CO | SVR |
-| hypovolemic (إسهال، نزيف) | واطي | واطي | عالي |
-| cardiogenic (بعد MI) | عالي | واطي | عالي |
-| septic (دافي) | واطي أو طبيعي | عالي | واطي |
-# 5 اضطراب النبض (Arrhythmia)
-!gold القرار: مو مستقر (ضغط واطي، ألم، وعي نازل) ← synchronized cardioversion فورًا. مستقر ← الجدول.
-| الحالة (مستقر) | الجواب |
-| AF + قلب ضعيف (HFrEF) | digoxin (أو amiodarone) |
-| AF + قلب طبيعي | beta blocker أو diltiazem |
-| AF + جلطة مخ | السبب AF ← DOAC (apixaban) |
-| AF + mitral stenosis أو صمام معدني | warfarin (مو DOAC) |
-| AF جديد من ساعات | amiodarone أو cardioversion |
-| SVT | vagal ← adenosine |
-| WPW بأعراض متكررة | radiofrequency ablation |
-| بطء + أعراض | atropine ← pacing |
-!mem للحفظ: AF جديد = شيكي TSH · aspirin ما يمنع الجلطة في AF.
-# 6 هبوط القلب (Heart failure)
-| الحالة | الجواب |
-| ضيق + شك HF: أول فحص | BNP ← echo |
-| احتقان (رئة، JVP عالي، رجول) | IV furosemide |
-| مزمن EF واطي | ACE-I أو ARNI + beta blocker + spironolactone + SGLT2 |
-| قلب كبير بدون أعراض | ACE-I |
-| صدمة وهو على metoprolol | وقفي metoprolol |
-| بعد فيروس + S3 gallop | myocarditis (Coxsackie B) |
-| JVP عالي + أصوات بعيدة + ضغط واطي | tamponade ← pericardiocentesis |
-# 7 الصمامات (Valves): وقت الـmurmur ومكانه
-| الصوت | المرض |
-| systolic يروح للرقبة | aortic stenosis (إغماء، ألم، ضيق ← AVR) |
-| pansystolic يروح للإبط | mitral regurgitation |
-| click + late systolic | MVP (شاب بدون أعراض) |
-| early diastolic + pulse واسع | aortic regurgitation |
-| يزيد مع الشهيق | الجهة اليمين: ILD + رجول = TR · early diastolic بالقاعدة = PR |
-!warn انتبهي: بدون أعراض حتى لو شديد ← serial echo · أعراض أو EF نزل ← عملية · prophylaxis قبل الأسنان بس لصمام صناعي أو endocarditis قبل · MVP = لا.
-^ ① وش المرض؟ (ECG، murmur، الأعراض) ② مستقر؟ لا = cardioversion أو PCI فورًا ③ وش عنده غيره؟ يختار الدواء ④ initial = أبسط خطوة، best أو definitive = الأدق.
+@ المنطق: كل سؤال قلب = 3 أسئلة: وش المرض؟ (الأعراض والـ{ECG}) ← المريض {stable}؟ (ضغط، وعي، ألم) ← وش عنده غيره؟ ({DM · CKD · asthma · pregnancy}) وهذا يختار الدواء.
+@@ دوري في السؤال على: {ST elevation} · {unstable} · {EF} · {murmur} وين يروح · {DM / CKD} · {initial / best}
+# 1 {Hypertension}: أكدي ثم اختاري الدواء
+!mem للحفظ: قراءة وحدة عالية ← أعيدي أو {ABPM} قبل أي دواء · خفيف بدون أذى ← {lifestyle} أول.
+| {Patient} | {Drug} |
+| {DM} · {CKD} · {proteinuria} · قلب كبير | [ok:{ACE-I}] ({lisinopril, ramipril}) |
+| كحة من {ACE-I} | {ARB} ({losartan}) |
+| كبير بالعمر أو أسود | {CCB} ({amlodipine}) أو {thiazide} |
+| {systemic sclerosis} + ضغط فجأة | {ACE-I} ({renal crisis}) |
+| ما انضبط على اثنين | أضيفي الثالث ({thiazide / indapamide}) |
+| شاب أو ما ينضبط | {Secondary HTN} |
+| {K} واطي | {aldosterone : renin ratio} |
+| صداع + تعرق + خفقان | {metanephrines / catecholamines} |
+| {creatinine} طلع بعد {ACE-I} | {renal artery stenosis} ← {CT angio} |
+!warn انتبهي: {ICH} ← {SBP 140–160} · {ischemic stroke} بدون {tPA} ← لا تنزلينه إلا فوق {220/120} · قبل {tPA} ← أقل من {185/110}.
+# 2 {Lipids}: الـ{statin} هو الجواب
+| {Situation} | {Answer} |
+| بعد {MI · stroke · PAD} (حتى لو الدهون طبيعية) | [ok:{high-intensity statin}] ({atorvastatin}) |
+| الهدف | {LDL < 70 mg/dL} ({< 1.8–2 mmol/L}) |
+| ما وصل الهدف | {ezetimibe} ← {PCSK9} |
+| شابة تعبانة + {LDL} عالي | {TSH} ← {thyroxine} (صلحي السبب) |
+| {DM + CKD + ASCVD} | + {SGLT2} ({dapagliflozin}) |
+# 3 {Chest pain}: الـ{ECG} يحدد
+| {ECG} | {Answer} |
+| {ST elevation} أو {new LBBB} | {STEMI} ← [ok:{PCI}] |
+| {STEMI} والمستشفى بدون {PCI} | نقل أقل من 120 دقيقة ← انقليه · أكثر ← {thrombolysis} |
+| {ST depression} أو طبيعي + {troponin} عالي | {NSTEMI} ← {aspirin + clopidogrel + heparin} |
+| ألم مع الجهد + {ECG} طبيعي | {exercise ECG} · ما يقدر يمشي ← {dobutamine stress echo} |
+| ألم بالليل + {ST elevation} تروح | {Prinzmetal} ← {CCB} |
+| ألم فجأة للظهر | {aortic dissection} ← أهم سبب {HTN} |
+!warn انتبهي: {thrombolysis} ممنوع لو {ICH} قبل (حتى من سنين) ← انقليه لـ{PCI} · {inferior MI} + ضغط واطي ← {fluids}، لا {nitrates} · ألم بجهة + فقاعات = {zoster}.
+# 4 {Shock}
+| {Type} | {CVP / PCWP} | {CO} | {SVR} |
+| {Hypovolemic} | ⬇ | ⬇ | ⬆ |
+| {Cardiogenic} | ⬆ | ⬇ | ⬆ |
+| {Septic} | ⬇ | ⬆ | ⬇ |
+# 5 {Arrhythmia}
+!gold القرار: {unstable} (ضغط واطي، ألم، وعي) ← [no:{synchronized cardioversion}] فورًا، مهما كان النوع. {stable} ← الجدول.
+| {Stable} | {Answer} |
+| {AF + HFrEF} | [ok:{digoxin}] (أو {amiodarone}) · مو {diltiazem} |
+| {AF} + قلب طبيعي | {beta blocker} أو {diltiazem} |
+| {AF} + {stroke} | السبب {AF} ← {DOAC (apixaban)} |
+| {AF} + {mitral stenosis} أو صمام معدني | {warfarin} |
+| {AF} جديد من ساعات | {amiodarone / cardioversion} |
+| {SVT} | {vagal} ← {adenosine} |
+| {WPW} أعراض متكررة | {radiofrequency ablation} |
+| بطء + أعراض | {atropine} ← {pacing} |
+!mem للحفظ: {AF} جديد ← {TSH} · {aspirin} ما يمنع الجلطة في {AF}.
+# 6 {Heart failure}
+| {Situation} | {Answer} |
+| ضيق + شك {HF} | {BNP} ← {echo} |
+| احتقان (رئة، {JVP}، رجول) | [ok:{IV furosemide}] |
+| مزمن {EF} واطي | {ACE-I/ARNI + BB + spironolactone + SGLT2} |
+| قلب كبير بدون أعراض | {ACE-I} |
+| {cardiogenic shock} على {metoprolol} | وقفي {metoprolol} |
+| بعد فيروس + {S3 gallop} | {myocarditis (Coxsackie B)} |
+| {JVP} عالي + أصوات بعيدة + ضغط واطي | {tamponade} ← {pericardiocentesis} |
+# 7 {Valves}: وقت الصوت ومكانه
+| {Murmur} | {Disease} |
+| {systolic} للرقبة | {aortic stenosis} (إغماء، ألم، ضيق ← {AVR}) |
+| {pansystolic} للإبط | {mitral regurgitation} |
+| {click + late systolic} | {MVP} |
+| {early diastolic} + {wide pulse pressure} | {aortic regurgitation} |
+| يزيد مع الشهيق | يمين: {ILD} + رجول = {TR} · {early diastolic} بالقاعدة = {PR} |
+!warn انتبهي: بدون أعراض حتى لو شديد ← {serial echo} · {prophylaxis} قبل الأسنان بس لصمام صناعي أو {endocarditis} قبل · {MVP} = لا.
+^ ① وش المرض؟ ({ECG · murmur}) ② {unstable}؟ ← {cardioversion / PCI} فورًا ③ وش عنده غيره؟ يختار الدواء ④ {initial} = أبسط خطوة · {best / definitive} = الأدق
+== Pulmonology
+@ المنطق: ضيق النفس 4 أسباب: انسداد ({asthma / COPD}) · {infection} ({pneumonia / TB}) · جلطة ({PE}) · سوائل ({effusion / edema}). وبعدها: يكفيه {O2}؟ ولا {NIV}؟ ولا {intubation}؟
+@@ دوري في السؤال على: مدخن · حرارة · فجأة · يتحسن بالـ{bronchodilator} · {CO2} · {PEF}
+# 1 {Asthma}
+- {asthma} انسداد يروح ← عشان كذا التشخيص: {FEV1} يتحسن بعد {bronchodilator}.
+| {Situation} | {Answer} |
+| نوبة | [ok:{salbutamol + steroids}] |
+| شديدة: ما يكمل جملة · {RR > 25} · {PEF < 50%} | + {ipratropium + magnesium} |
+| مهددة للحياة: {PEF < 33%} · {CO2} طبيعي أو عالي | {ICU} |
+| مزمن ما انضبط | أول شي {adherence + inhaler technique} ← {ICS} ← {ICS + LABA} |
+| يسوء بالشغل ويتحسن بالإجازة | {occupational} ← {spirometry} بعد الشغل |
+| كحة بعد الأكل + ما ينضبط | {GERD} ← {PPI} |
+!warn انتبهي: لو السؤال يقول ما يستخدم الـ{inhaler} صح ← الجواب "علميه الطريقة"، مو "زيدي الدواء".
+# 2 {COPD}
+- {COPD} انسداد ما يروح كامل: {FEV1/FVC < 0.7} بعد {bronchodilator}.
+| {Situation} | {Answer} |
+| {exacerbation} | {O2 (88–92%, venturi)} + {steroids} + {antibiotics} |
+| {CO2} عالي + {pH} واطي | [ok:{NIV (BiPAP)}] |
+| على {O2} كثير وصار نعسان | قللي الـ{O2} |
+| يطول عمره | وقف التدخين + {home O2} |
+| شاب + {emphysema} | {alpha-1 antitrypsin} |
+# 3 {Pneumonia} و {TB}
+!gold القرار: {CURB-65} ← بالبيت {amoxicillin} أو {azithromycin} · بالمستشفى {ceftriaxone + azithromycin} · {ICU} + {vancomycin}.
+| {Clue} | {Organism} |
+| {lobar} + {rusty sputum} | {strep pneumoniae} |
+| {Na} واطي + إسهال + مكيفات | {legionella} |
+| شاب + {cold agglutinin} | {mycoplasma} |
+| {HIV} + {bilateral} | {pneumocystis} |
+| كحة أكثر من 3 أسابيع + تعرق + نقص وزن | {TB} ← {sputum AFB (Ziehl-Neelsen)} |
+| {TB} نشط | {RIPE} + {airborne isolation} |
+| {latent} ({PPD/IGRA} + {CXR} طبيعي) | {isoniazid + pyridoxine} 9 شهور |
+!mem للحفظ: {rifampin} = بول برتقالي + يقلل مستوى الأدوية · {isoniazid} = تنميل ({B6}).
+# 4 {PE} و {Pleural}
+| {Situation} | {Answer} |
+| ضيق فجأة + ألم + {tachycardia} | {PE} ← {CTPA} (حامل أو كلى ← {V/Q}) |
+| {PE stable / unstable} | {LMWH / DOAC} · {alteplase} |
+| {effusion} | {thoracentesis} ← {exudate} = {infection / TB / cancer} · {transudate} = {HF} |
+| {lymphocytes + high ADA} | {TB} ← {pleural biopsy} |
+| صديد أو {pH < 7.2} | {chest drain + antibiotics} |
+| {malignant effusion} يرجع | {indwelling pleural catheter} |
+# 5 {Respiratory failure}
+| {Situation} | {Answer} |
+| صاحي + {CO2} عالي | {NIV (BiPAP)} |
+| وعي نازل · ما يحمي {airway} · تعبان | [no:{intubation}] |
+| {pulmonary edema} | {IV furosemide + NIV} |
+| {ARDS} | {low tidal volume} |
+| مدخن يبي يوقف | {varenicline} |
+| شخير + نعاس | {sleep study} |
+| {nodule > 2.5 cm} | مشبوه ← {biopsy / surgery} |
+^ ① وش السبب؟ (انسداد · {infection} · جلطة · سوائل) ② وش يحتاج؟ {O2} ← {NIV} ← {intubation} ③ {initial} = أبسط خطوة
+== GI & Hepatology
+@ المنطق: حددي المكان أول: الكبد (صفار، {ascites}، {LFT}) · فوق ({epigastric}، حرقة، نزيف علوي) · تحت (إسهال، دم، {screening}) · البنكرياس (ألم للظهر). وفيه {alarm}؟ ← {endoscopy}.
+@@ {Alarm} = نقص وزن · أنيميا · نزيف · {dysphagia} · فوق 60 سنة
+# 1 {Hepatitis B serology}
+- {HBsAg} = الفيروس موجود · {anti-HBs} = مناعة · {anti-HBc} = انصاب قبل ({IgM} = جديد).
+| {Result} | {Meaning} |
+| {HBsAg +} و {IgM anti-HBc +} | {acute HBV} |
+| {HBsAg +} أكثر من 6 شهور | {chronic HBV} ← {entecavir} |
+| {anti-HBs} بس | [ok:{vaccinated}] |
+| {anti-HBs + anti-HBc IgG} | {immune (past infection)} |
+| {IgM anti-HAV} | {acute hepatitis A} (أكل ملوث) |
+| {HBV} ساء فجأة | {hepatitis D} |
+# 2 {Cirrhosis}
+| {Complication} | {Answer} |
+| {ascites} | {spironolactone + furosemide} + قللي الملح |
+| حرارة + {ascites} | {SBP} ← {ceftriaxone} |
+| {confusion} | {encephalopathy} ← {lactulose} + دوري السبب |
+| {variceal bleed} | {fluids + crossmatch + IV octreotide + antibiotics} ← {endoscopy} ← يرجع = {TIPS} |
+| المتابعة | {US} كل 6 شهور ← كتلة = {triphasic CT} |
+# 3 أسباب الكبد الثانية
+| {Clue} | {Diagnosis / Answer} |
+| كحول + {AST ≈ 2× ALT} | {alcoholic hepatitis} ← وقف الكحول ± {prednisolone} |
+| بنت + {IgG} عالي + {autoantibodies} | {autoimmune hepatitis} ← {prednisolone} |
+| شاب + {tremor} + نفسية | {Wilson} ← {ceruloplasmin} واطي ← {penicillamine} |
+| {paracetamol overdose} | [no:{N-acetylcysteine}] |
+| على {methotrexate} + {LFT} عالية | وقفي {methotrexate} |
+# 4 {Upper GI}
+!gold القرار: {dyspepsia} + {alarm} أو فوق 60 ← {EGD} · بدون ← {H. pylori test (urea breath)} أو {PPI}.
+| {Situation} | {Answer} |
+| {H. pylori} | {PPI + clarithromycin + amoxicillin} · ما نفع ← {bismuth quadruple} |
+| تأكيد الشفاء | {urea breath test} |
+| {GERD} | {lifestyle} + [ok:{PPI}] · مو أكيد ← {ambulatory pH monitoring} |
+| {GERD} قديم | {Barrett} ← {endoscopy} |
+| صعوبة بلع سوائل وأكل | {achalasia} ← {pneumatic dilatation} |
+| {ICU} + نزيف | {stress gastritis} ← {PPI} |
+# 5 {Chronic diarrhea}
+| {Disease} | {Clue} |
+| {Crohn} | {skip lesions · ileum · fistula · transmural} |
+| {UC} | من الـ{rectum} متصل + دم + {mucus} |
+| {Celiac} | {bloating} + أنيميا ← {tTG-IgA} ← {biopsy} ← {gluten free} |
+| {IBS} | ألم يخف بعد البراز · بدون {alarm} |
+| يفرق {IBD} عن {IBS} | {fecal calprotectin} |
+| {IBD} ما استجاب للـ{steroids} | {anti-TNF (infliximab)} |
+# 6 {Screening} و {Pancreas}
+| {Situation} | {Answer} |
+| عادي | {colonoscopy} من 45–50 كل 10 سنين |
+| قريب درجة أولى قبل 60 | من 40 كل 5 سنين |
+| {UC} | 8–10 سنين بعد التشخيص |
+| ألم للظهر + {lipase} 3 أضعاف | {pancreatitis} ← {IV fluids + analgesia} |
+| {UC} + {ALP} عالي | {PSC} |
+^ ① وين المكان؟ ② فيه {alarm}؟ ← {endoscopy} ③ كبد؟ ← {serology} أو مضاعفة {cirrhosis} ④ إسهال + دم أو نقص وزن ← {IBD / celiac} · لا ← {IBS}
+== Infectious disease
+@ المنطق: القصة تعطيك الجرثومة: سفر · حيوان · حليب نيء · مناعة ضعيفة. وبعدها: مستقر؟ {sepsis} ← {antibiotics} خلال ساعة.
+@@ دوري في السؤال على: سفر · {raw milk} · {neutropenia} · {HIV} · العمر (50، 65) · {vaccine}
+# 1 القصة ← التشخيص
+| {Story} | {Diagnosis} | {Answer} |
+| حليب نيء أو غنم + مفاصل | {brucellosis} | {serology} ← {doxycycline + rifampin} |
+| سفر أفريقيا + حرارة دورية | {malaria (Anopheles)} | {blood film} · يرجع بعد أشهر = {vivax} |
+| حرارة + {rash} + {platelets} واطية | {dengue (Aedes)} | {fluids} |
+| {abscess} | | {aspiration + antibiotics} |
+| إسهال + {liver abscess} | {amoebic} | {metronidazole} |
+# 2 {Sepsis} و {Neutropenia}
+!gold القرار: {sepsis} ← {cultures} ← {broad antibiotics} خلال ساعة ← {fluids} ← ضغط ما ارتفع ← [no:{norepinephrine}].
+| {Situation} | {Answer} |
+| {febrile neutropenia} | {cefepime} ← 4–7 أيام ما تحسن ← {antifungal} |
+| {meningitis} | {ceftriaxone + vancomycin} |
+| {UTI} بسيط | {nitrofurantoin} |
+| {UTI} + حرارة + {flank} | {admit + IV antibiotics} |
+# 3 {Adult vaccines}
+| {Patient} | {Vaccine} |
+| 65+ · {COPD} · {DM} · {splenectomy} | {pneumococcal} |
+| 50+ (حتى لو جاه {shingles}) | [ok:{recombinant zoster}] |
+| الكل سنويًا | {inactivated influenza} |
+| جرح + آخر جرعة أكثر من 5–10 سنين | {Tdap booster} |
+| {immunocompromised} | {inactivated} بس (لا {live}) |
+| سفر أفريقيا | {yellow fever} + {antimalarial} |
+| {meningococcal contact} | {rifampicin} يومين |
+!mem للحفظ: {anti-HBs} بس = تطعيم قديم · {HIV} + {PPD +} ← {isoniazid + pyridoxine} 9 شهور.
+^ ① وش القصة؟ ② {stable}؟ {sepsis} ← {antibiotics} فورًا ③ مناعته؟ ④ سؤال تطعيم ← العمر والمرض
+== Rheumatology
+@ المنطق: عدي المفاصل: واحد حار ← {aspiration} أول ({septic} ولا {gout}؟) · صغيرة متساوية + صلابة الصبح ← {RA} · بنت + أعضاء ← {SLE} · ظهر التهابي بشاب ← {spondyloarthritis}.
+@@ دوري في السؤال على: {morning stiffness} · مفصل واحد · {rash} · {psoriasis} · بعد إسهال
+# 1 مفصل واحد حار
+- ليش {aspiration} أول؟ لأن {septic arthritis} يخرب المفصل بأيام، ولازم تستبعدينه.
+| {Aspiration} | {Diagnosis} | {Treatment} |
+| صديد أو {gram stain +} | {septic arthritis} | [no:{IV antibiotics}] |
+| {needle-shaped, negative birefringent} | {gout} | {NSAID (meloxicam)} أو {colchicine} |
+| {rhomboid, positive} | {pseudogout} | {NSAID} |
+!warn انتبهي: {allopurinol} ما يبدأ وقت النوبة · ولو كان عليه لا توقفينه.
+# 2 {RA} و {SLE}
+| {Disease} | {Test} | {Treatment} |
+| {RA} | {anti-CCP + RF} | {methotrexate} ± {steroids} |
+| {SLE} | {ANA} ← {dsDNA} | [ok:{hydroxychloroquine}] للكل |
+| {lupus nephritis} | {biopsy} | {steroids + cyclophosphamide} |
+| {MCTD} | {anti-RNP} | |
+| {SLE} حامل على {mycophenolate} | | غيريه لـ{azathioprine} |
+# 3 {Back pain} و {OA}
+| {Type} | {Clue} |
+| {Ankylosing spondylitis} | شاب + ظهر التهابي ← {MRI sacroiliac} ← {NSAIDs} |
+| {Reactive arthritis} | بعد إسهال أو {STI} + عين + مفاصل |
+| {Psoriatic} | {psoriasis + DIP + sausage digits} |
+| {OA} | كبير + ألم مع الحركة + صلابة أقل من 30 دقيقة ← {weight loss + exercise + paracetamol} |
+^ ① كم مفصل؟ ② واحد ← {aspiration} ③ كثير + صلابة ← {RA} ④ بنت + أعضاء ← {SLE} ⑤ ظهر شاب ← {spondyloarthritis}
+== Endocrinology
+@ المنطق: الهرمون زايد ولا ناقص؟ وأول فحص ثابت لكل غدة: السكر ← {HbA1c / fasting} · الدرقية ← {TSH} · الكورتيزول ← {dexamethasone} أو {ACTH test}.
+@@ دوري في السؤال على: {TSH} · {Na / K} · {steroids} قبل عملية · {DKA}
+# 1 {Diabetes}
+| {Test} | {Prediabetes} | {Diabetes} |
+| {Fasting} | {5.6–6.9} | {≥ 7} |
+| {HbA1c} | {5.7–6.4%} | {≥ 6.5%} |
+| {Random} + أعراض | | {≥ 11.1} |
+| {Situation} | {Answer} |
+| {type 2} | [ok:{metformin}] أول |
+| {DKA} | {IV fluids} أول ← {IV insulin} ← السكر نزل ← {insulin + dextrose} ← شيكي {K} |
+| {hypoglycemia}: واعي / مو واعي | عصير / {IV dextrose} أو {glucagon} |
+| بعد الرياضة | {carbs} قبل الرياضة |
+| كلى مع السكري | {urine microalbumin} ← {ACE-I} |
+# 2 {Thyroid}
+| {Disease} | {Clue} | {Treatment} |
+| {Graves} | عيون + {diffuse goiter} | {beta blocker + methimazole} |
+| {Toxic nodular} | كبير + {nodules} | {radioiodine} |
+| {Subacute thyroiditis} | بعد {URTI} + رقبة تألم | {beta blocker + NSAIDs} |
+| {Hashimoto} | {hypothyroid} | {levothyroxine} |
+| {Euthyroid sick} | مريض {ICU} + {T3} واطي | ما نعالج |
+!mem للحفظ: على {levothyroxine} وما انضبط ← اسألي عن الالتزام أول · {amiodarone} + أعراض ← {TSH}.
+# 3 {Adrenal} و {Pituitary}
+| {Situation} | {Answer} |
+| {Cushing} | {dexamethasone suppression} ← {ACTH} عالي = {pituitary adenoma} |
+| {Addison} ({Na} واطي + {K} عالي + ضغط واطي) | {ACTH (Synacthen) test} ← [no:{hydrocortisone}] |
+| على {steroids} + عملية | {stress dose hydrocortisone} ← {taper} |
+| {prolactin} عالي | {pituitary MRI} |
+| ضغط + {K} واطي | {aldosterone : renin ratio} |
+| {osteoporosis} | {DEXA} ← {Ca + vitamin D + bisphosphonate} |
+^ ① زايد ولا ناقص؟ ② أول فحص ({TSH · HbA1c · cortisol}) ③ طوارئ؟ {DKA} ← {fluids} أول · {Addison} ← {hydrocortisone}
+== Nephrology & Electrolytes
+@ المنطق: {K} عالي يوقف القلب ← {ECG} أول. {Na} واطي ← شوفي حجم المريض. {AKI} ← قبل الكلية ولا فيها ولا بعدها؟ وأي دواء جديد ← شكي فيه.
+@@ دوري في السؤال على: {ECG} · جفاف أو {edema} · دواء جديد · {chemo} · {dialysis}
+# 1 {Potassium} و {Acid-base}
+!gold القرار: {K} عالي + {ECG} تغير ({peaked T}) ← [no:{IV calcium gluconate}] (يحمي القلب) ← {insulin + dextrose} ← دوري السبب.
+| {Situation} | {Answer} |
+| أسباب {K} العالي | {ACE-I · spironolactone · CKD · TLS} |
+| {K} واطي | {potassium} ← ما يرتفع ← {magnesium} |
+| ترجيع أو {NG tube} | {metabolic alkalosis} + {Cl} و {K} واطي |
+| إسهال | {metabolic acidosis} + {K} واطي |
+| {acidosis} + {urine pH} عالي | {distal RTA (type 1)} |
+| أكل بعد جوع | {refeeding syndrome} |
+| ضغط + {K} واطي | {aldosterone : renin ratio} |
+# 2 {Sodium}
+| حجم المريض | {Answer} |
+| جفاف ({hypovolemic}) | {0.9% saline} |
+| {edema} ({HF / cirrhosis}) | {fluid + sodium restriction} |
+| طبيعي ({euvolemic}) | {SIADH} ← [ok:{fluid restriction}] |
+!warn انتبهي: تصحيح سريع ← {central pontine myelinolysis} · أسباب {SIADH}: {small cell cancer · carbamazepine · valproate} · {Na} عالي + بول كثير بعد {head trauma} ← {diabetes insipidus}.
+# 3 {AKI} و {CKD}
+| {Type} | {Clue} | {Answer} |
+| {Pre-renal} | جفاف · {BUN:Cr} عالي | {IV fluids} |
+| {ATN} | {aminoglycoside · contrast · shock} | وقفي الدواء |
+| {AIN} | دواء جديد + {rash} + {eosinophils} | وقفي الدواء |
+| {Post-renal} | انسداد | {renal US} |
+| بعد {cath} | {eosinophiluria} | {cholesterol emboli} |
+| {dialysis} طارئ | {K} ما ينزل · {acidosis} · {overload} · {uremia} | [no:{dialysis}] |
+| {CKD} + أنيميا | | {erythropoietin} |
+| {septic shock} ما ارتفع | | {norepinephrine} |
+^ ① {K}؟ ← {ECG} ② {Na}؟ ← حجم المريض ③ {AKI}؟ ← قبل أو فيها أو بعدها ④ دواء جديد؟ ← وقفيه
