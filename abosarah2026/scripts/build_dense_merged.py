@@ -235,7 +235,7 @@ for spec in sys.argv[3:]:
             note = " ".join(x.strip() for x in sents if x.strip() and not SKIP.match(x.strip()))
         if os.environ.get("DROP_NOANS") and it["ans"].startswith("—"):
             continue
-        items.append(dict(it, sys=s, topic=tp, note=note, tag=tag, key=exq.get("key", ""), rule=exq.get("rule", "")))
+        items.append(dict(it, sys=s, topic=tp, note=note, tag=tag, key=exq.get("key", ""), rule=exq.get("rule", ""), decide=exq.get("decide", [])))
 
 order = {k: i for i, k in enumerate(ALL_TOPICS)}
 import numpy as np
@@ -364,10 +364,20 @@ for it in items:
     elif it.get("same") == "diff":
         tg += '<span class="sm df">≈ Sep: جواب مختلف ⚠</span>'
     if os.environ.get("NOANS_NOTES") and ans.startswith("—"):
-        nt = ('<div class="na">⚠ ما فيه جواب أكيد بالمصدر ← احفظي القاعدة:</div>'
-              + (f'<div class="nt nah"><b>✍ قاعدة الحمراني:</b> {e(it["note"])}</div>' if it["note"] else "")
-              + (f'<div class="nt nah"><b>🔑 القاعدة:</b> {e(it["key"])}</div>' if it.get("key") else "")
-              + (f'<div class="nt">💡 {e(it["rule"])}</div>' if it.get("rule") else ""))
+        def tidy(c):
+            c = re.sub(r"^.{0,90}?\b(is|are|would be)\s+(?=(right|wrong|correct|incorrect|the answer|reserved|appropriate|indicated|only|not)\b)", "", c, 1)
+            for a, b in (("right only when", "✔ only when"), ("right only for", "✔ only for"), ("right only if", "✔ only if"), ("right when", "✔ when"), ("right for", "✔ for"),
+                         ("right if", "✔ if"), ("right in", "✔ in"), ("wrong", "✘"), ("incorrect", "✘"), ("correct when", "✔ when"), ("the answer when", "✔ when")):
+                if c.lower().startswith(a):
+                    return b + c[len(a):]
+            return c
+        rules = "".join(f'<div class="rl">• <b>{e(o)}</b> → <span dir="ltr">{e(tidy(c))}</span></div>' for o, c in it.get("decide", []))
+        if not rules and it.get("key"):
+            rules = "".join(f'<div class="rl">• {e(x.strip())}</div>' for x in re.split(r";\s*|(?<=\.)\s+(?=[A-Z])", it["key"]) if x.strip())
+        nt = ('<div class="hbox"><div class="hh">⚠ ما فيه جواب أكيد ← احفظي القاعدة</div>'
+              + (f'<div class="hs">قاعدة الحمراني (متى يكون كل خيار صح):</div>{rules}' if rules else "")
+              + (f'<div class="hq"><b>✍ الحمراني قال:</b> {e(it["note"][:260])}</div>' if it["note"] else "")
+              + "</div>")
     else:
         nt = (f'<div class="nt">💡 {e(it["rule"])}</div>' if it.get("rule") else "") + (f'<div class="nt">✍ {e(it["note"])}</div>' if it["note"] else "")
     body += f'<div class="q"><b>{n}.</b>{tg} {rp}{e(it["stem"])}{it["flag"]}{o}{nt}</div>'
@@ -439,6 +449,11 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .sm {{ font-size: .82em; border: .4pt dashed #000; padding: 0 .4mm; margin-left: .5mm; }}
 .sm.df {{ font-weight: bold; border-style: solid; }}
 .mk {{ color: #fff; font-size: 1pt; }}
+.hbox {{ border: 1.4pt solid #000; border-radius: 1.4mm; padding: .8mm 1.4mm; margin-top: .6mm; background: #f0f0f0; }}
+.hh {{ direction: rtl; text-align: right; font-weight: bold; border-bottom: .6pt solid #000; margin-bottom: .4mm; }}
+.hs {{ direction: rtl; text-align: right; font-weight: bold; font-size: .92em; }}
+.rl {{ margin: .3mm 0 .3mm 1mm; direction: ltr; text-align: left; }}
+.hq {{ font-size: .9em; font-style: italic; margin-top: .4mm; border-top: .4pt dotted #000; padding-top: .3mm; }}
 .na {{ direction: rtl; text-align: right; font-weight: bold; margin-top: .3mm; }}
 .nah {{ font-style: normal; border-left-width: 1.6pt; }}
 .nt {{ font-size: .92em; font-style: italic; color: #111; border-left: .9pt solid #000; padding-left: .8mm; margin-top: .15mm; }}
@@ -464,16 +479,16 @@ for i, (sy, tp, cnt) in enumerate(TOC):
 for i, (sy, tp, cnt) in enumerate(TOC):
     pg = where.get(i, -1) + 2
     if tp is None:
-        rows += f'<tr class="s"><td>{e(sy)}</td><td class="c">{sysq.get(sy, 0)}</td><td class="p">{pg}</td></tr>'
+        rows += f'<tr class="s"><td><a href="http://go.page/{pg}">{e(sy)}</a></td><td class="c">{sysq.get(sy, 0)}</td><td class="p"><a href="http://go.page/{pg}">{pg}</a></td></tr>'
     else:
-        rows += f'<tr><td class="t">{e(tp)}</td><td class="c">{cnt}</td><td class="p">{pg}</td></tr>'
+        rows += f'<tr><td class="t"><a href="http://go.page/{pg}">{e(tp)}</a></td><td class="c">{cnt}</td><td class="p"><a href="http://go.page/{pg}">{pg}</a></td></tr>'
 idx = (f'''<!doctype html><html><head><meta charset="utf-8"><style>
 @page {{ size: {os.environ.get('PAGE', 'A4')}; margin: 8mm; }} body {{ font-family: "DejaVu Sans", Arial; font-size: 8.6pt; margin: 0; }}
 h1 {{ font-size: 15pt; margin: 0 0 1mm; border-bottom: 2pt solid #000; display: flex; justify-content: space-between; }}
 .w {{ column-count: 2; column-gap: 8mm; }} table {{ width: 100%; border-collapse: collapse; }}
 td {{ padding: .55mm 1.5mm; border-bottom: .3pt solid #999; }} tr.s td {{ background: #000; color: #fff; font-weight: bold; font-size: 1.1em; }}
 td.t {{ padding-left: 5mm; }} td.c {{ text-align: center; width: 12mm; color: #333; }} td.p {{ text-align: right; font-weight: bold; width: 14mm; }}
-tr {{ break-inside: avoid; }}
+tr {{ break-inside: avoid; }} a {{ color: inherit; text-decoration: none; display: block; }}
 </style></head><body><h1><span>{e(TITLE)}</span><span>فهرس</span></h1>
 <div class="w"><table><tr><td><b>الموضوع</b></td><td class="c"><b>أسئلة</b></td><td class="p"><b>صفحة</b></td></tr>{rows}</table></div></body></html>''')
 isrc = os.path.join(tempfile.mkdtemp(), "i.html")
@@ -492,6 +507,16 @@ for i, (sy, tp, cnt) in enumerate(TOC):
         par = w.add_outline_item(sy, pg)
     else:
         w.add_outline_item(f"{tp} ({cnt})", pg, parent=par)
+# turn the index links (http://go.page/N) into jumps inside this PDF
+from pypdf.generic import ArrayObject, DictionaryObject, NameObject, NumberObject
+for annot in w.pages[0].get("/Annots", []) or []:
+    a = annot.get_object()
+    uri = a.get("/A", {}).get("/URI", "")
+    m = re.search(r"go\.page/(\d+)", str(uri))
+    if m:
+        tgt = min(int(m.group(1)) - 1, len(w.pages) - 1)
+        a[NameObject("/A")] = DictionaryObject({NameObject("/S"): NameObject("/GoTo"),
+                                                NameObject("/D"): ArrayObject([w.pages[tgt].indirect_reference, NameObject("/Fit")])})
 w.page_mode = "/UseOutlines"
 w.write(OUT)
 print("index added;", len(where), "of", len(TOC), "headers located")

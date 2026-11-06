@@ -51,6 +51,14 @@ for (flds,) in c.execute("select flds from notes order by id"):
         if key.endswith(":") or len(key) < 25:
             lis = [plain(x) for x in re.findall(r"<li>(.*?)</li>", rest, re.S)][:3]
             key = (key + " " + "; ".join(lis)).strip()
+    dec = []
+    dm = re.search(r'How to decide between the options</span><div class="study-value">(.*?)</div></div>', sn, re.S)
+    if dm:
+        for opt, txt in re.findall(r"<b>(.*?)</b>\s*:?\s*(.*?)(?=<br>|$)", dm.group(1), re.S):
+            opt = re.sub(r"^([A-E]\.\s*)+", "", plain(opt)).strip(" :")
+            cond = re.split(r"(?<=[.;])\s", plain(txt).lstrip(": "), 1)[0].rstrip(".;")
+            if opt and cond:
+                dec.append([opt, cond if len(cond) <= 190 else cond[:190].rsplit(" ", 1)[0] + "…"])
     i = sn.find("Author's notes")
     if i < 0:
         i = sn.find("Author&#x27;s notes")
@@ -64,7 +72,7 @@ for (flds,) in c.execute("select flds from notes order by id"):
     q = r["QNo"]
     items.append(dict(qid=q, stem=stem, opts=opts, ans=sa or "— no firm answer in the source", flag=flag,
                       rep=r.get("RepeatLabel", "").replace("Repeated", "").strip()))
-    expl[q] = dict(rule=pearl, author=" ".join(author), key=key)
+    expl[q] = dict(rule=pearl, author=" ".join(author), key=key, decide=dec)
 json.dump(items, open(ITEMS, "w", encoding="utf-8"), ensure_ascii=False)
 json.dump(expl, open(EXPL, "w", encoding="utf-8"), ensure_ascii=False)
 print(len(items), "items;", sum(1 for v in expl.values() if v["author"]), "with author notes")
