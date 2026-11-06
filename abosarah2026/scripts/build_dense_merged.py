@@ -460,6 +460,10 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .nah {{ font-style: normal; border-left-width: 1.6pt; }}
 .nt {{ font-size: .92em; font-style: italic; color: #111; border-left: .9pt solid #000; padding-left: .8mm; margin-top: .15mm; }}
 """
+if os.environ.get("MASK"):  # same layout, answer areas painted pure red so their boxes can be found on each page
+    CSS += """
+.ok, .nt, .hbox, .na { background: #ff0000 !important; }
+"""
 if os.environ.get("HIDE_ANS"):  # same layout, answers blanked (space kept so pages match the answer copy)
     CSS += """
 .ck, .nt, .hbox, .na { visibility: hidden; }
