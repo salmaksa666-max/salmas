@@ -365,7 +365,7 @@ for it in items:
         tg += '<span class="sm df">≈ Sep: جواب مختلف ⚠</span>'
     if os.environ.get("NOANS_NOTES") and ans.startswith("—"):
         nt = ('<div class="na">⚠ ما فيه جواب أكيد بالمصدر ← احفظي القاعدة:</div>'
-              + (f'<div class="nt nah"><b>✍ الحمراني:</b> {e(it["note"])}</div>' if it["note"] else "")
+              + (f'<div class="nt nah"><b>✍ قاعدة الحمراني:</b> {e(it["note"])}</div>' if it["note"] else "")
               + (f'<div class="nt nah"><b>🔑 القاعدة:</b> {e(it["key"])}</div>' if it.get("key") else "")
               + (f'<div class="nt">💡 {e(it["rule"])}</div>' if it.get("rule") else ""))
     else:
