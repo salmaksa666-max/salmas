@@ -3,7 +3,7 @@
 Medicine and Pediatrics by System::Topic (from build_dense_merged.py MAP=... files, same order as the PDFs),
 the other specialties as one deck each.  New cards get due = position in the PDF, so Anki shows them in paper order.
 Notes get fresh guids/ids so the import never collides with the older single-month decks.
-usage: merge_months_deck.py SRC.apkg MED_MAP.json PEDS_MAP.json OUT.apkg"""
+usage: merge_months_deck.py SRC.apkg MED_MAP.json PEDS_MAP.json SURGERY_MAP.json OBGYN_MAP.json OUT.apkg"""
 import json
 import os
 import random
@@ -15,10 +15,11 @@ import tempfile
 import time
 import zipfile
 
-SRC, MED, PEDS, OUT = sys.argv[1:5]
+SRC, MED, PEDS, SUR, OBG, OUT = sys.argv[1:7]
 here = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, here)
 import peds_systems  # noqa: E402
+import surgery_obgyn_systems as so  # noqa: E402
 
 MED_ORDER = ["Hematology & Oncology", "Neurology", "Cardiology", "Pulmonology", "GI & Hepatology", "Infectious disease",
              "Rheumatology", "Endocrinology", "Nephrology & Electrolytes", "Other"]
@@ -49,6 +50,9 @@ def tree(mp, order):
 
 med = tree(json.load(open(MED, encoding="utf-8")), MED_ORDER)
 peds = tree(json.load(open(PEDS, encoding="utf-8")), PEDS_ORDER)
+MAPS = {"01 Medicine": med, "02 Pediatrics": peds,
+        "03 OBGYN": tree(json.load(open(OBG, encoding="utf-8")), so.OBGYN_ORDER + ["Other"]),
+        "04 Surgery": tree(json.load(open(SUR, encoding="utf-8")), so.SURGERY_ORDER + ["Other"])}
 
 work = tempfile.mkdtemp()
 zipfile.ZipFile(SRC).extractall(work)
@@ -81,13 +85,10 @@ for cid, nid, did, flds in rows:
     q = flds.split("\x1f")[qi]
     dn = decks[str(did)]["name"]
     spec = next((lab for key, lab in SPEC if f"- {key}" in dn), "07 Unsorted")
-    if spec == "01 Medicine" and q in med:
-        sub, pos = med[q]
+    if q in MAPS.get(spec, {}):
+        sub, pos = MAPS[spec][q]
         name = f"{ROOT}::{spec}::{sub}"
-    elif spec == "02 Pediatrics" and q in peds:
-        sub, pos = peds[q]
-        name = f"{ROOT}::{spec}::{sub}"
-    elif "Duplicates" in dn or spec in ("01 Medicine", "02 Pediatrics"):  # not in the maps = StatusLabel Duplicate
+    elif "Duplicates" in dn or spec in MAPS:  # not in the maps = StatusLabel Duplicate
         name, pos = f"{ROOT}::{spec}::99 Duplicates (safe to delete)", extra
     else:  # September first, then October, original order
         name, pos = f"{ROOT}::{spec}", (0 if "September" in dn else 50000) + cid % 100000

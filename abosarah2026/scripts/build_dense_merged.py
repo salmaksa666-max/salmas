@@ -88,6 +88,11 @@ if os.environ.get("SPEC") == "peds":  # Pediatrics systems/topics and guides
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     from peds_systems import SYS, SYSORDER
     GUIDE_FILE = "guides_peds.txt"
+elif os.environ.get("SPEC") in ("surgery", "obgyn"):
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import surgery_obgyn_systems as _so
+    SYS, SYSORDER = (_so.SURGERY, _so.SURGERY_ORDER) if os.environ["SPEC"] == "surgery" else (_so.OBGYN, _so.OBGYN_ORDER)
+    GUIDE_FILE = f"guides_{os.environ['SPEC']}.txt"
 _by = {s: tps for s, _, tps in SYS}
 ALL_TOPICS = [(s, t) for s in SYSORDER for t, _ in _by[s]] + [("Other", "Other")]
 def load_basics(path):
@@ -291,6 +296,8 @@ if os.environ.get("LIMIT"):
     items = items[int(os.environ.get("SKIP", "0")):int(os.environ.get("SKIP", "0")) + int(os.environ["LIMIT"])]
 if os.environ.get("MAP"):
     json.dump({it["qid"]: [it["sys"], it["topic"]] for it in items}, open(os.environ["MAP"], "w"), ensure_ascii=False)
+    if os.environ.get("MAP_ONLY"):
+        sys.exit(0)
 
 e = lambda t: html.escape(t, quote=False)
 TOC = []
