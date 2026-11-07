@@ -292,6 +292,9 @@ if len(sep_i) and len(oct_i):
         if sim[r, j] >= 0.75:
             items[i]["same"] = "same" if na(items[i]["ans"]) == na(items[sep_i[j]]["ans"]) else "diff"
 items = [items[i] for i in ordered]
+if os.environ.get("DROP_SAME"):  # drop October copies of a September question with the same answer (keep the Sep one)
+    print("dropped", sum(1 for it in items if it.get("same") == "same"), "October repeats with the same answer")
+    items = [it for it in items if it.get("same") != "same"]
 if os.environ.get("LIMIT"):
     items = items[int(os.environ.get("SKIP", "0")):int(os.environ.get("SKIP", "0")) + int(os.environ["LIMIT"])]
 if os.environ.get("MAP"):
