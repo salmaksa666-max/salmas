@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Dump an MKJ 'Clinical Recall' apkg to items JSON for build_tables.py, plus an EXPL json
 (rule = Exam pearl, author = Alhomrani / card notes without the recall boilerplate).
-usage: dump_mkj.py SRC.apkg ITEMS.json EXPL.json"""
+usage: dump_mkj.py SRC.apkg ITEMS.json EXPL.json [DECK_SUBSTRING]  (only cards whose deck name contains it)"""
 import html
 import json
 import os
@@ -12,6 +12,7 @@ import tempfile
 import zipfile
 
 SRC, ITEMS, EXPL = sys.argv[1:4]
+DECK = sys.argv[4] if len(sys.argv) > 4 else ""
 
 
 def plain(h):
@@ -27,7 +28,11 @@ zipfile.ZipFile(SRC).extract("collection.anki21", d)
 c = sqlite3.connect(os.path.join(d, "collection.anki21"))
 names = [f["name"] for f in list(json.loads(c.execute("select models from col").fetchone()[0]).values())[0]["flds"]]
 items, expl = [], {}
-for (flds,) in c.execute("select flds from notes order by id"):
+decks = json.loads(c.execute("select decks from col").fetchone()[0])
+ok_nids = {nid for nid, did in c.execute("select nid, did from cards") if DECK in decks.get(str(did), {}).get("name", "")}
+for nid, flds in c.execute("select id, flds from notes order by id"):
+    if nid not in ok_nids:
+        continue
     r = dict(zip(names, flds.split("\x1f")))
     if r.get("StatusLabel") == "Duplicate":
         continue

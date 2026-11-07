@@ -83,6 +83,11 @@ SYS = [
 ]
 SYSORDER = ["Hematology & Oncology", "Neurology", "Cardiology", "Pulmonology", "GI & Hepatology", "Infectious disease",
             "Rheumatology", "Endocrinology", "Nephrology & Electrolytes"]
+GUIDE_FILE = "guides_medicine.txt"
+if os.environ.get("SPEC") == "peds":  # Pediatrics systems/topics and guides
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from peds_systems import SYS, SYSORDER
+    GUIDE_FILE = "guides_peds.txt"
 _by = {s: tps for s, _, tps in SYS}
 ALL_TOPICS = [(s, t) for s in SYSORDER for t, _ in _by[s]] + [("Other", "Other")]
 def load_basics(path):
@@ -96,7 +101,7 @@ def load_basics(path):
     return out
 
 
-GUIDES = load_basics(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "review", "guides_medicine.txt"))
+GUIDES = load_basics(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "review", GUIDE_FILE)) if os.path.exists(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "review", GUIDE_FILE)) else {}
 
 
 def render_guide(name, lines):
