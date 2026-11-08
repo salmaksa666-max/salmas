@@ -236,7 +236,7 @@ for spec in sys.argv[3:]:
     its, ex = json.load(open(parts[0], encoding="utf-8")), json.load(open(parts[1], encoding="utf-8"))
     tag = parts[2] if len(parts) > 2 else ""
     for it in its:
-        s, tp = classify(it["stem"], [o for _, o in it["opts"]], it["ans"])
+        s, tp = (it["sys"], it["topic"]) if "sys" in it else classify(it["stem"], [o for _, o in it["opts"]], it["ans"])
         exq = ex.get(it["qid"], {})
         sents = re.split(r"(?<=[.;])\s+(?=[A-Z↑↻])", exq.get("author", ""))
         keep = []
@@ -246,12 +246,12 @@ for spec in sys.argv[3:]:
                 continue
             if DIFF.search(x) or RULE.search(x):
                 keep.append(x)
-        note = " ".join(keep)[:230]
+        note = " ".join(keep)[:int(os.environ.get("NOTE_MAX", "230"))]
         if os.environ.get("NOANS_NOTES") and it["ans"].startswith("—"):  # no firm answer: keep Alhomrani's full words, they carry the conditional rule
             note = " ".join(x.strip() for x in sents if x.strip() and not SKIP.match(x.strip()))
         if os.environ.get("DROP_NOANS") and it["ans"].startswith("—"):
             continue
-        items.append(dict(it, sys=s, topic=tp, note=note, tag=tag, key=exq.get("key", ""), rule=exq.get("rule", ""), decide=exq.get("decide", [])))
+        items.append(dict(it, sys=s, topic=tp, note=note, tag=it.get("tag") or tag, key=exq.get("key", ""), rule=exq.get("rule", ""), decide=exq.get("decide", [])))
 
 order = {k: i for i, k in enumerate(ALL_TOPICS)}
 import numpy as np
@@ -272,8 +272,8 @@ cos = lambda a, b: sum(x * b.get(k, 0) for k, x in a.items()) if len(a) < len(b)
 groups = defaultdict(list)
 for i, it in enumerate(items):
     groups[(it["sys"], it["topic"])].append(i)
-ordered = []
-for g in sorted(groups, key=lambda k: order.get(k, 999)):
+ordered = list(range(len(items))) if os.environ.get("PRESET") else []
+for g in ([] if os.environ.get("PRESET") else sorted(groups, key=lambda k: order.get(k, 999))):
     rest = groups[g][:]
     cur = rest.pop(0)
     chain = [cur]
@@ -403,6 +403,10 @@ for it in items:
               + "</div>")
     else:
         nt = (f'<div class="nt">💡 {e(it["rule"])}</div>' if it.get("rule") else "") + (f'<div class="nt">✍ {e(it["note"])}</div>' if it["note"] else "")
+    if it.get("set_first") and it.get("set"):
+        st = it["set"]
+        body += (f'<div class="lset"><div class="lsh">Look-alike set {st["n"]} · {e(st["title"])}</div>'
+                 f'<b>How to tell them apart:</b> {e(st["how"])}</div>')
     body += f'<div class="q"><b>{n}.</b>{tg} {rp}{e(it["stem"])}{it["flag"]}{o}{nt}</div>'
 n = len(items)
 
@@ -484,6 +488,8 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .hq {{ font-size: .9em; font-style: italic; margin-top: .4mm; border-top: .4pt dotted #000; padding-top: .3mm; }}
 .na {{ direction: rtl; text-align: right; font-weight: bold; margin-top: .3mm; }}
 .nah {{ font-style: normal; border-left-width: 1.6pt; }}
+.lset {{ border: 1.4pt solid #000; border-radius: 1.4mm; padding: .7mm 1.4mm; margin: .8mm 0 .4mm; background: #e9e9e9; break-inside: avoid; font-size: .96em; }}
+.lsh {{ font-weight: bold; border-bottom: .6pt solid #000; margin-bottom: .3mm; }}
 .nt {{ font-size: .92em; font-style: italic; color: #111; border-left: .9pt solid #000; padding-left: .8mm; margin-top: .15mm; }}
 """
 if os.environ.get("MASK"):  # same layout, answer areas painted pure red so their boxes can be found on each page
