@@ -1,0 +1,364 @@
+== Neonatology
+@ المنطق: المولود دايم تسألين "كم عمره بالساعات أو الأيام؟" و"{term} ولا {preterm}؟" ← العمر والولادة يحددون السبب. صفار أول {24h} أو صفار يطول = مو طبيعي. تعب تنفس بعد قيصرية = {TTN} · خديج = {RDS} · بعد موعده + عقي = {MAS}.
+@@ دوري في السؤال على: عمر بالساعات · {weeks of gestation} · {C-section} · {meconium} · {Coombs} · لون البراز · أم سكري
+# 1 {Neonatal jaundice}
+| {Timing} | {Meaning} | {Answer} |
+| أول {24h} | دايم مرضي ({hemolysis}: {ABO} أو {Rh}) | {serum bilirubin} + {blood group} + {Coombs} |
+| يوم 2–7 + الطفل بخير | {physiological} | طمني ← {phototherapy} حسب الـ{nomogram} |
+| أول أسبوع + رضاعة قليلة | {breastfeeding jaundice} | زيدي الرضعات |
+| بعد أسبوع + رضاعة طبيعية + بخير | {breast milk jaundice} | [ok:{continue breastfeeding}] |
+| أكثر من أسبوعين | {prolonged} | [no:{conjugated bilirubin}] أول شي |
+| {conjugated} + براز فاتح + بول غامق | {biliary atresia} | {US} ← {HIDA} ← {Kasai} قبل 60 يوم |
+!warn انتبهي: علامات {kernicterus} (ارتخاء ثم تشنج، صياح حاد، تقوس ظهر) أو رقم عالي جدًا ← [no:{exchange transfusion}].
+# 2 تعب التنفس عند المولود
+| {Clue} | {Diagnosis} | {Answer} |
+| {term} + قيصرية + سوائل بالشقوق + يتحسن خلال {24–72h} | {TTN} | دعم و{O2} بس |
+| خديج + {ground glass} + {air bronchograms} | {RDS} (نقص {surfactant}) | {CPAP} + {surfactant} · الوقاية {antenatal steroids} للأم |
+| بعد موعده + عقي + بقع بالأشعة | {MAS} | دعم ({O2}، تنفس) |
+| حرارة أو أم {GBS} أو ماء نازل من بدري | {sepsis / pneumonia} | {ampicillin + gentamicin} |
+| بطن مقعر + أمعاء بالصدر | {CDH} | {intubate} + {NG} · [no:لا {bag-mask}] |
+# 3 الإنعاش و إصابات الولادة
+- {NRP}: دفي ← نشفي ← حركيه ← ما يتنفس أو {HR < 100} ← {PPV} ← {HR < 60} بعد 30 ثانية تهوية صح ← {compressions 3:1} ← {epinephrine}.
+| {Injury} | {Clue} | {Answer} |
+| {Caput succedaneum} | موجود من الولادة · يعدي الخطوط | طمني |
+| {Cephalohematoma} | يطلع بعد ساعات · ما يعدي الخطوط | طمني · ممكن صفار |
+| {Subgaleal} | يعدي الخطوط + يكبر + شحوب | خطير ← راقبي {Hb} والدورة الدموية |
+| {Erb palsy} ({C5–C6}) | يد {waiter's tip} · {Moro} ناقص بجهة · {grasp} موجود | [ok:{physiotherapy}] |
+| {Klumpke} ({C8–T1}) | يد مخلب · {grasp} مفقود | {physiotherapy} |
+| {Clavicle fracture} | {crepitus} + {Moro} ناقص | ما يحتاج علاج |
+!mem للحفظ: {Moro} و{rooting} يختفون حوالي 4–6 شهور · {palmar grasp} حوالي 4–6 شهور · {parachute} يطلع 8–9 شهور ويبقى.
+# 4 أشياء ثانية
+| {Situation} | {Answer} |
+| ولد أم سكري + رعشة أو خمول | {hypoglycemia} ← رضاعة أو {IV dextrose} |
+| خديج + بطن منتفخ + دم بالبراز | {NEC} ← {NPO} + {NG} + {antibiotics} · أشعة {pneumatosis} |
+| نزيف يوم 2–7 ما أخذ إبرة | {vitamin K deficiency} ← {vitamin K} |
+^ ① كم عمره؟ ② {term} ولا {preterm}؟ ③ صفار؟ ← متى بدأ ولا {conjugated}؟ ④ تنفس؟ ← قيصرية = {TTN} · خديج = {RDS} · عقي = {MAS}
+== Growth, development & nutrition
+@ المنطق: {milestones} احفظي الأعمار المفتاحية بس، وأي {regression} (فقد مهارة) = مو طبيعي دايم. {short stature} السؤال: "الـ{bone age} كم؟ والسرعة طبيعية؟" ← يفرق بين العائلي والتأخر.
+@@ دوري في السؤال على: العمر بالشهور · فقد مهارة · {bone age} · طول الأبو والأم · {growth velocity} · حليب بقر
+# 1 {Milestones} (الأعمار المفتاحية)
+| العمر | {Gross motor} | {Fine motor} | {Language} | {Social} |
+| 2 شهر | يرفع راسه شوي | — | {coo} | {social smile} |
+| 4 شهور | {head control} · يتقلب | يمسك ويوصل للأشياء | يضحك بصوت | — |
+| 6 شهور | {sits with support} | ينقل من يد ليد | {babble} | — |
+| 9 شهور | {sits alone} · يحبي · يوقف بمسك | {pincer} | {mama/dada} بدون معنى | خوف الغرباء · {bye-bye} |
+| 12 شهر | يمشي | — | 1–3 كلمات بمعنى | — |
+| 18 شهر | يركض | 4 مكعبات فوق بعض | 10–20 كلمة | — |
+| 2 سنة | درج | 6 مكعبات | جملة كلمتين · 50 كلمة | {parallel play} |
+| 3 سنين | {tricycle} | دائرة | 3 كلمات · الغريب يفهمه | — |
+| 4 سنين | يقفز على رجل | {cross} و {square} | قصص | {cooperative play} |
+!warn انتبهي: ما يجلس على 9 شهور · ما يمشي على 18 شهر · ما فيه كلمات على 16 شهر · ما فيه جملة على سنتين · أو فقد مهارة ← [no:{refer / further testing}]. تأخر كلام ← أول شي {hearing test}.
+# 2 {Short stature}
+| {Type} | {Bone age} | {Clue} | {Answer} |
+| {Familial} | = العمر | الأبو والأم قصار · سرعة طبيعية | طمني |
+| {Constitutional delay} | متأخر | سرعة طبيعية · عائلة بلوغها متأخر | طمني [ok:يوصل طول طبيعي] |
+| {GH deficiency} أو {hypothyroid} | متأخر | سرعة نازلة · وزنه زين والطول بس نازل | {TFT} · {GH stimulation} |
+| {Turner} (بنت) | — | قصيرة + {webbed neck} | {karyotype} |
+- {FTT}: الوزن ينزل أول ثم الطول ثم الراس = سوء تغذية · الطول ينزل والوزن زين = هرمونات.
+!mem للحفظ: الوزن ×2 على 4–5 شهور · ×3 على سنة · الطول ×1.5 على سنة.
+# 3 {Nutrition}
+| {Situation} | {Answer} |
+| رضاعة طبيعية | {exclusive} 6 شهور + {vitamin D 400 IU} من الولادة |
+| بداية الأكل | 6 شهور |
+| حليب البقر | [no:مو قبل سنة] · كثير (أكثر من 500 مل) ← {IDA} |
+| عسل | مو قبل سنة ({botulism}) |
+| {Rickets} | {Ca ↓ · PO4 ↓ · ALP ↑ · 25-OH D ↓ · PTH ↑} ← {vitamin D} |
+| {Kwashiorkor} vs {Marasmus} | ورم ({edema}) = نقص بروتين · نحيف جدًا = نقص سعرات |
+^ ① عمره كم؟ ← قارني بالجدول ② فقد مهارة؟ ← مو طبيعي ③ قصير؟ ← {bone age} + السرعة + الأهل ④ أكل؟ ← حليب بقر = {IDA}
+== Vaccines & infectious disease
+@ المنطق: التطعيم: اسألي "حي ولا ميت؟" ← الحي ممنوع عند ضعيف المناعة والحامل. الطفح: اسألي "متى طلع مع الحرارة؟ ووين بدأ؟" ← يحدد الفيروس. الحرارة عند الرضيع الصغير = شغل كامل للـ{sepsis}.
+@@ دوري في السؤال على: {live vaccine} · {steroids} · {chemo} · ترتيب الحرارة والطفح · عمر أقل من شهر · {CSF}
+# 1 {Vaccines}
+| {Situation} | {Answer} |
+| {Live}: {MMR · varicella · BCG · OPV · rotavirus · yellow fever} | [no:ممنوع] مع ضعف المناعة · {chemo} · {steroids} عالية · حمل |
+| أخوه ضعيف مناعة | {MMR} و{varicella} عادي · بدال {OPV} ← {IPV} |
+| مو مانع | زكام خفيف · حرارة خفيفة · {antibiotics} · خديج (حسب عمره الحقيقي) · حساسية بيض لـ{MMR} |
+| مانع | {anaphylaxis} من جرعة قبل · {encephalopathy} خلال 7 أيام من {pertussis vaccine} |
+| فاتته جرعة | [ok:كملي] ولا تعيدين من الأول |
+| حج أو عمرة | {meningococcal ACWY} |
+| مخالط {meningococcal} | {rifampicin} (أطفال) · {ciprofloxacin} (كبار) · {ceftriaxone} (حامل) |
+| ضعيف مناعة + مخالط جديري | {VZIG} |
+| جرح وسخ + تطعيم ناقص أو مو معروف | {tetanus vaccine + TIG} |
+# 2 الطفح ({Exanthems})
+| {Disease} | {Clue} | {Answer} |
+| {Measles} | {cough · coryza · conjunctivitis} + {Koplik} + طفح من الراس للتحت | دعم + {vitamin A} |
+| {Rubella} | غدد خلف الأذن + طفح خفيف | دعم |
+| {Roseola} ({HHV-6}) | حرارة عالية 3–5 أيام ← تروح ← يطلع الطفح | طمني · ممكن {febrile seizure} |
+| {Erythema infectiosum} ({Parvo B19}) | {slapped cheek} | طمني · خطر {aplastic crisis} مع {sickle} |
+| {Varicella} | حبوب بمراحل مختلفة بنفس الوقت | دعم · [no:لا {aspirin}] ({Reye}) |
+| {Scarlet fever} ({GAS}) | {sandpaper rash} + {strawberry tongue} | {penicillin} |
+| {Hand, foot & mouth} ({coxsackie}) | قرح بالفم + حبوب باليدين والرجلين | {fecal-oral} · دعم |
+| {Kawasaki} | حرارة 5 أيام أو أكثر + 4 من 5: عيون حمراء بدون إفرازات · شفايف وفم · طفح · أطراف · غدة رقبة | [ok:{IVIG + aspirin}] + {echo} |
+| {Impetigo} | قشور عسلية | {topical mupirocin} · منتشر ← {oral} |
+# 3 {Meningitis} و الحرارة
+| {CSF} | {Cells} | {Glucose} | {Protein} |
+| {Bacterial} | {neutrophils ↑↑} | ↓ | ↑ |
+| {Viral} | {lymphocytes} | طبيعي | طبيعي أو شوي ↑ |
+| {TB} | {lymphocytes} | ↓↓ | ↑↑ |
+| {Age} | {Empirical} |
+| أقل من شهر | {ampicillin + cefotaxime} (أو {gentamicin}) |
+| أكبر من شهر | {ceftriaxone + vancomycin} ± {dexamethasone} |
+!warn انتبهي: رضيع أقل من 28 يوم + حرارة ← [no:{full septic workup} + {admit} + {IV antibiotics}] حتى لو شكله زين. لا تأخرين الـ{antibiotics} عشان {LP} أو {CT}.
+# 4 {TB} و {Pertussis}
+| {Situation} | {Answer} |
+| مخالط {TB} + ما فيه أعراض + أشعة طبيعية + {PPD} موجب | {latent TB} ← {isoniazid} (أو {rifampicin}) |
+| نوبات كحة + {whoop} + ترجيع بعد الكحة + {lymphocytosis} | {pertussis} ← {azithromycin} للطفل والمخالطين |
+| رضيع 1–3 شهور + كحة متقطعة ({staccato}) + عيون ملتهبة | {Chlamydia} ← {azithromycin / erythromycin} |
+^ ① تطعيم؟ ← حي ولا ميت + وش عنده ② طفح؟ ← ترتيبه مع الحرارة ③ حرارة عند رضيع صغير؟ ← {septic workup} ④ {CSF}؟ ← الخلايا والسكر
+== Respiratory & ENT
+@ المنطق: صوت التنفس يقول لك المكان: {stridor} (شهيق) = فوق (حنجرة) ← {croup} أو {epiglottitis} أو جسم غريب. {wheeze} (زفير) = تحت ← {bronchiolitis} لو تحت سنتين، {asthma} لو أكبر. الأذن والحلق: "بكتيري ولا فيروسي؟" ← يحدد الـ{antibiotic}.
+@@ دوري في السؤال على: العمر · {stridor} ولا {wheeze} · {barking} · {drooling} · فجأة وهو ياكل · {saturation} · {bulging TM}
+# 1 {Stridor} و {Bronchiolitis}
+| {Disease} | {Clue} | {Answer} |
+| {Bronchiolitis} ({RSV}) | تحت سنتين · زكام ثم {wheeze} و {crackles} | [ok:دعم]: {O2} لو {sat} واطي · {suction} · سوائل · [no:لا {steroids} ولا {antibiotics}] |
+| {Croup} | 6 شهور–3 سنين · كحة {barking} · {stridor} | [ok:{dexamethasone}] · {stridor} وهو مرتاح ← + {nebulized epinephrine} |
+| {Epiglottitis} | شكله تعبان · ريال ({drooling}) · {tripod} · ما يكح | لا تفحصين الحلق ← {airway} بغرفة العمليات ← {ceftriaxone} |
+| {Foreign body} | فجأة وهو ياكل · جهة وحدة صوتها أقل | {rigid bronchoscopy} |
+| {Bacterial tracheitis} | زي {croup} بس تعبان وما يستجيب | {airway} + {antibiotics} |
+!mem للحفظ: الـ{bronchiolitis} ينوم إذا: {sat < 90–92%} · ما يرضع · {apnea} · أقل من 3 شهور · خديج أو قلب.
+# 2 {Asthma} و {Pneumonia}
+| {Situation} | {Answer} |
+| نوبة | {salbutamol} ({MDI + spacer}) + {oral steroids} |
+| شديدة | + {ipratropium} + {O2} ← ما تحسن ← {IV magnesium} |
+| مزمن | {SABA} ← + {low-dose ICS} ← زيدي خطوة خطوة |
+| {wheeze} مع الزكام بس تحت 5 سنين | {viral wheeze} ← غالبًا يروح وهو يكبر |
+| {Pneumonia} | [ok:{high-dose amoxicillin}] |
+| {pneumonia} + {stony dullness} | {effusion} · صديد ({empyema}) ← {chest tube} |
+| التهابات صدر تتكرر + ما يزيد وزن + براز دهني | {CF} ← {sweat chloride} |
+# 3 الأذن والحلق والأنف
+| {Situation} | {Answer} |
+| {AOM}: {TM} منتفخ ({bulging}) + أحمر | [ok:{high-dose amoxicillin}] · أكبر من سنتين + خفيف ← ممكن ننتظر |
+| سوائل خلف الطبلة بدون التهاب ({OME}) | راقبي 3 شهور ← سمع ضعيف أو يطول ← {tubes} |
+| حلق + {exudate} + بدون كحة + غدد | {GAS} ← {rapid strep} ← {penicillin / amoxicillin} 10 أيام |
+| بلع صعب + فم ما ينفتح ({trismus}) + لهاة مايلة | {peritonsillar abscess} ← {drainage} |
+| شخير + تنفس من الفم | {adenoid hypertrophy} ← {adenotonsillectomy} |
+| إفرازات أنف من جهة وحدة بريحة | {foreign body} |
+| جيوب أكثر من 10 أيام أو تحسن ثم سوء | {amoxicillin} · ورم حول العين ← {CT} + {IV antibiotics} |
+!mem للحفظ: {tonsillectomy} لو: 7 مرات بسنة · أو 5 بالسنة لسنتين · أو 3 بالسنة لـ3 سنين · أو {OSA}.
+^ ① {stridor} ولا {wheeze}؟ ② العمر؟ ③ شكله تعبان + ريال؟ ← {epiglottitis} ④ أذن أو حلق؟ ← بكتيري = {amoxicillin / penicillin}
+== Cardiology
+@ المنطق: أول سؤال: "أزرق ولا لا؟" ← أزرق = {cyanotic} ({TOF} أو {TGA}). مو أزرق + نفخة = فتحة ({VSD · ASD · PDA}) أو تضيق. نفخة ناعمة تتغير مع الوضعية + طفل بخير = {innocent} ← طمني.
+@@ دوري في السؤال على: أزرق · نوع النفخة · {squatting} · نبض الرجل · خديج · {sore throat} قبل أسابيع
+# 1 {Congenital heart disease}
+| {Lesion} | {Clue} | {Answer} |
+| {VSD} (الأشهر) | {pansystolic} أسفل يسار القص | الصغير يسكر لحاله |
+| {ASD} | {fixed split S2} | متابعة ← سد |
+| {PDA} | {continuous machinery murmur} · خديج | خديج ← [ok:{indomethacin / ibuprofen}] |
+| {Coarctation} | الضغط باليدين أعلى من الرجلين · نبض الفخذ متأخر · {Turner} | تصليح |
+| {TOF} | أزرق · {boot-shaped heart} · {squatting} | نوبة ({tet spell}) ← {knee-chest} + {O2} + {morphine} + سوائل |
+| {TGA} | أزرق من الولادة · {egg on string} | [ok:{prostaglandin E1}] ← {balloon septostomy} ← {arterial switch} |
+!mem للحفظ: {prostaglandin} يفتح الـ{duct} (للأزرق اللي يعتمد عليه) · {indomethacin} يسكره (للخديج اللي عنده {PDA}).
+# 2 {Rheumatic fever} و {Endocarditis}
+| {Situation} | {Answer} |
+| حلق قبل 2–4 أسابيع + مفاصل تتنقل + {carditis} | {Jones}: {carditis · polyarthritis · chorea · erythema marginatum · nodules} + {ASO} |
+| العلاج | {penicillin} + {aspirin} |
+| الوقاية بعدين | {benzathine penicillin} كل شهر |
+| {endocarditis prophylaxis} | بس للخطر العالي: صمام صناعي · {IE} قبل · {cyanotic} ما تصلح |
+# 3 {Arrhythmia} و الضغط
+| {Situation} | {Answer} |
+| {SVT} + {stable} | {vagal} (ثلج على الوجه للرضيع) ← {adenosine} |
+| {SVT} + {unstable} | {synchronized cardioversion} |
+| إغماء وقت الرياضة | {ECG} + {echo} ({HCM} أو {long QT}) |
+| ضغط عالي عند طفل | غالبًا سببه الكلى ← دوري عليه |
+^ ① أزرق؟ ← {TOF} أو {TGA} ② نفخة؟ ← نوعها ومكانها ③ خديج + نفخة مستمرة؟ ← {PDA} ← {indomethacin} ④ حلق قبل + مفاصل؟ ← {rheumatic fever}
+== GI & surgery
+@ المنطق: الترجيع: "أخضر ({bilious}) ولا لا؟" ← أخضر عند مولود = {volvulus} حتى يثبت العكس (طوارئ). مو أخضر + {projectile} + 2–8 أسابيع = {pyloric stenosis}. الإسهال: كم الجفاف؟ ← يحدد {ORS} ولا {IV}.
+@@ دوري في السؤال على: لون الترجيع · العمر · {currant jelly} · كتلة · ما نزل براز · دم بالبراز · نسبة الجفاف
+# 1 الجفاف والسوائل
+| {Dehydration} | {Answer} |
+| خفيف أو متوسط | [ok:{ORS}] (50–100 مل/كجم خلال 4 ساعات) + {zinc} |
+| شديد أو {shock} | {NS bolus 20 ml/kg} ← تعيدينه |
+| {Hypernatremic} | صححي ببطء على 48 ساعة |
+!mem للحفظ: {maintenance} = 100 مل/كجم لأول 10 كجم · 50 للعشرة الثانية · 20 لكل كجم بعدها. [no:لا {antidiarrheals}] عند الأطفال.
+# 2 البطن الجراحي
+| {Disease} | {Clue} | {Answer} |
+| {Pyloric stenosis} | 2–8 أسابيع · {projectile} مو أخضر · جوعان بعدها · {olive} | {US} ← صححي السوائل أول ({hypochloremic hypokalemic alkalosis}) ← {pyloromyotomy} |
+| {Malrotation + volvulus} | ترجيع أخضر عند مولود | [no:{upper GI contrast}] عاجل ← عملية |
+| {Duodenal atresia} | {Down} · {double bubble} | {NG} ← عملية |
+| {Intussusception} | 6 شهور–3 سنين · مغص يجي ويروح · يرفع رجوله · {currant jelly} · كتلة {sausage} | {US} ({target sign}) ← [ok:{air / contrast enema}] ← فشل أو {peritonitis} ← عملية |
+| {Hirschsprung} | ما نزل {meconium} بـ48 ساعة · بطن منتفخ · {PR} ← براز ينفجر | {rectal suction biopsy} |
+| {Meckel} | نزيف من تحت بدون ألم عند سنتين | {Meckel scan} ({Tc-99m}) |
+| {Appendicitis} عند طفل | ألم يمين تحت | {US} أول |
+# 3 الخصية و الفتق
+| {Situation} | {Answer} |
+| {Inguinal hernia} | عملية قريب (خطر الاختناق) · مختنق ← رجعيه ثم عملية |
+| {Hydrocele} | ينير بالضوء · يروح بسنة–سنتين |
+| {Umbilical hernia} | يسكر لحاله غالبًا قبل 4–5 سنين |
+| {Undescended testis} | {orchiopexy} 6–12 شهر · ما تنحس ← {laparoscopy} |
+| ألم خصية فجأة + {cremasteric} مفقود | {torsion} ← [no:عملية فورًا] بدون انتظار {US} |
+# 4 الكبد والمعدة والإمساك
+| {Situation} | {Answer} |
+| يرجع بعد الرضعة + يزيد وزن + مبسوط | {GER} ← طمني |
+| ترجيع + دم أو إكزيما + رضاعة صناعية | {cow's milk protein allergy} ← {hydrolyzed formula} |
+| إمساك | {PEG} (يفك ثم يستمر) + أكل فيه ألياف |
+| إسهال مزمن + ما يزيد وزن بعد القمح | {celiac} ← {tTG-IgA} + {total IgA} ← {biopsy} |
+| أكبر من 5 سنين + كبد + أعصاب أو تراجع بالمدرسة | {Wilson} ← {ceruloplasmin} + {slit lamp} |
+| بلع بطارية ({button battery}) بالمريء | [no:{urgent endoscopy}] |
+| بلع مادة كاوية | لا تخلينه يرجع ← {endoscopy} بعد 12–24 ساعة |
+^ ① ترجيع أخضر؟ ← {volvulus} ② {projectile} + أسابيع؟ ← {pyloric} ③ مغص + {currant jelly}؟ ← {intussusception} ← {enema} ④ جفاف؟ ← {ORS} ولا {bolus}
+== Nephrology & urology
+@ المنطق: الكلى عند الأطفال أربع صور: التهاب بول ({UTI}) · ورم بالجسم = {nephrotic} · بول غامق + ضغط = {nephritic} · إسهال دم ثم فشل كلى = {HUS}. والتبول الليلي تحت 5 سنين طبيعي.
+@@ دوري في السؤال على: حرارة · العمر بالشهور · ورم · {cola urine} · كم يوم بعد الحلق · إسهال دم · {C3}
+# 1 {UTI}
+| {Situation} | {Answer} |
+| التشخيص | {urine culture} (قسطرة أو {suprapubic} للصغير) |
+| أكبر من شهرين + بخير + يشرب | [ok:{oral}] ({cephalexin} أو {cefixime} أو {amox-clav}) |
+| أقل من شهرين · تعبان · يرجع | {IV antibiotics} |
+| أول {febrile UTI} | {renal & bladder US} |
+| {US} مو طبيعي أو يتكرر | {VCUG} ({VUR}) |
+| ولد + تدفق بول ضعيف + {hydronephrosis} بالجهتين | {posterior urethral valves} ← {VCUG} |
+# 2 {Nephrotic} vs {Nephritic}
+| | {Nephrotic} | {Nephritic} ({PSGN}) |
+| الصورة | ورم + {proteinuria} عالي + {albumin ↓} + {cholesterol ↑} | بول غامق ({cola}) + ورم + ضغط عالي |
+| العمر والسبب | 2–6 سنين · {minimal change} | 1–2 أسبوع بعد الحلق · 3–6 أسابيع بعد الجلد |
+| {C3} | طبيعي | واطي ويرجع بعد 6–8 أسابيع |
+| العلاج | [ok:{prednisolone}] بدون {biopsy} | دعم: ملح وسوائل أقل + {diuretic} |
+!warn انتبهي: {nephrotic} يحتاج {biopsy} بس لو: أقل من سنة أو أكبر من 12 · دم بالبول · ضغط · {C3} واطي · ما استجاب للـ{steroids}. ودم بالبول بعد يوم أو يومين من الزكام (مو أسابيع) = {IgA nephropathy}.
+# 3 {HUS} و {HSP} و التبول
+| {Situation} | {Answer} |
+| إسهال دم ({E. coli O157}) ثم {anemia} + {platelets ↓} + فشل كلى | {HUS} ← دعم · [no:لا {antibiotics}] |
+| طفح بارز بالرجلين والمقعدة + مفاصل + بطن | {HSP} ← دعم · تابعي البول والضغط |
+| تبول ليلي + أكبر من 5 سنين + فحص طبيعي | {urinalysis} ← طمني ← [ok:{alarm}] (الأفضل) · {desmopressin} للمرات القصيرة |
+| رجع يبلل بعد ما وقف + عطش ونحافة | {secondary} ← {glucose} ({diabetes}) |
+^ ① حرارة + بول؟ ← {culture} + عمره ← {oral} ولا {IV} + {US} ② ورم؟ ← {nephrotic} ← {steroids} ③ بول غامق بعد حلق؟ ← {PSGN} ④ إسهال دم؟ ← {HUS}
+== Neurology
+@ المنطق: التشنج مع حرارة بين 6 شهور و5 سنين = غالبًا {febrile seizure} ← طمني إذا {simple}. تشنج بدون حرارة ← وش نوعه؟ (يحدد الدواء). أي ضعف أو صداع مع علامات خطر ← صورة.
+@@ دوري في السؤال على: حرارة · العمر · المدة · جهة وحدة · تكرر بنفس اليوم · يصحى بالليل · ترجيع الصبح · {CK}
+# 1 التشنجات
+| {Type} | {Clue} | {Answer} |
+| {Simple febrile seizure} | 6 شهور–5 سنين · عام · أقل من 15 دقيقة · مرة وحدة بـ24 ساعة · رجع طبيعي | [ok:طمني] · لا {EEG} ولا {CT} |
+| {Complex febrile} | جهة وحدة · أكثر من 15 دقيقة · تكرر بنفس اليوم | قيمي أكثر |
+| تشنج مستمر أكثر من 5 دقايق | {benzodiazepine} ({buccal midazolam} · {rectal diazepam} · {IV lorazepam}) |
+| {Absence} | يسرح ثواني كثير باليوم · يزيد مع التنفس السريع · {3 Hz} | {ethosuximide} |
+| {Infantile spasms} ({West}) | انحناءات بمجموعات · تراجع · {hypsarrhythmia} | {ACTH} أو {vigabatrin} |
+| {Rolandic} ({centrotemporal spikes}) | تشنج الوجه بالليل · سن المدرسة | ينتهي لحاله غالبًا |
+| {JME} | مراهق · رعشات الصبح | {valproate} (بنت ← {levetiracetam / lamotrigine}) |
+!warn انتبهي: الـ{antipyretics} ما تمنع رجعة الـ{febrile seizure}. وحرارة + رقبة متيبسة أو خمول ← [no:{meningitis}] قبل ما تقولين {febrile seizure}.
+# 2 الضعف
+| {Disease} | {Clue} | {Answer} |
+| {Duchenne} | ولد · {Gowers sign} · سمانة كبيرة | {CK} ← {genetic test} |
+| {SMA} | رضيع مرتخي · لسان يرجف · ما فيه {reflexes} | {genetic test} |
+| {GBS} | ضعف يطلع من تحت بعد عدوى · ما فيه {reflexes} | {IVIG} |
+| {Cerebral palsy} | من الولادة · ما يسوء ({non-progressive}) | {physiotherapy} · لو يسوء = مو {CP} |
+# 3 الراس والعين
+| {Situation} | {Answer} |
+| صداع يصحيه من النوم أو ترجيع الصبح أو حول جديد | {MRI / CT brain} ({space-occupying lesion}) |
+| راس كبير + {fontanelle} مفتوح | {US head} |
+| ضربة راس + {GCS} أقل من 15 أو كسر محسوس | {CT} |
+| ضربة + صحى شوي ثم تدهور | {epidural} ← {evacuation} |
+| حول بعد 4 شهور أو {red reflex} مفقود | [ok:{refer ophthalmology}] |
+^ ① حرارة + عمره 6 شهور–5 سنين؟ ← {febrile seizure} ② نوع التشنج ← الدواء ③ ضعف؟ ← {CK} أو {reflexes} ④ صداع فيه علامات خطر؟ ← صورة
+== Hematology & oncology
+@ المنطق: {anemia} عند طفل: اسألي "كم يشرب حليب؟" ({IDA}) و"وش أصله؟" ({thal} أو {sickle} أو {G6PD}). نزيف: {platelets} واطية بس = {ITP} · {PTT} طويل عند ولد = {hemophilia}. أي كتلة أو {red reflex} أبيض = ورم لين يثبت العكس.
+@@ دوري في السؤال على: حليب بقر · {MCV} · فول · {PTT} · {platelets} · مفصل منتفخ · كتلة بطن · {red reflex} أبيض
+# 1 {Anemia}
+| {Disease} | {Clue} | {Answer} |
+| {IDA} | 9 شهور–3 سنين · حليب كثير · ما ياكل | [ok:{oral iron}] + قللي الحليب |
+| {Lead} | {pica} + {basophilic stippling} | {lead level} ← {chelation} |
+| {Beta-thal major} | يبدأ حوالي 6 شهور · {HSM} · وجه مميز | دم + {chelation} |
+| {Thal trait} | {MCV} واطي جدًا + {ferritin} طبيعي + {HbA2} عالي | طمني |
+| {G6PD} | تكسير بعد فول أو دواء ({sulfa · nitrofurantoin}) أو عدوى | تجنبي المسبب |
+| {Hereditary spherocytosis} | عائلة · طحال · {osmotic fragility} | {folic acid} ← {splenectomy} بعد 6 سنين |
+!mem للحفظ: {sickle cell}: ورم أصابع ({dactylitis}) أول علامة · حرارة ← [no:{blood culture} + {IV ceftriaxone}] فورًا · وقاية {penicillin} من شهرين لـ5 سنين · طحال يكبر فجأة + {Hb} ينزل = {sequestration} ← دم · {retics} واطية = {parvovirus} · {stroke} ← {exchange transfusion}.
+# 2 النزيف
+| {Disease} | {Clue} | {Answer} |
+| {ITP} | بخير · بعد فيروس · {platelets} بس واطية | بدون نزيف ← [ok:{observe}] · نزيف ← {IVIG} أو {steroids} |
+| مولود + {platelets} واطية + أم {SLE} أو {ITP} | أجسام من الأم | {IVIG} ± {platelets} |
+| {Hemophilia A / B} | ولد · نزيف بالمفاصل · {PTT} طويل · {PT} و{platelets} طبيعي | {factor VIII / IX} · [no:لا {IM} ولا {NSAIDs}] |
+| {von Willebrand} | نزيف لثة وأنف ودورة · عائلة | {desmopressin} |
+# 3 الأورام والمناعة
+| {Disease} | {Clue} | {Answer} |
+| {ALL} | 2–5 سنين · شحوب + كدمات + ألم عظام + {HSM} | {bone marrow aspirate} |
+| {Retinoblastoma} | {red reflex} أبيض ({leukocoria}) | [no:{urgent ophthalmology}] |
+| {Wilms} | كتلة بطن ما تعدي النص · ضغط · دم بالبول | {US / CT} |
+| {Neuroblastoma} | كتلة تعدي النص · {calcification} · رجفة عين ({opsoclonus}) | {urine catecholamines} |
+| {Wiskott-Aldrich} | إكزيما + {platelets} واطية + التهابات | ولد ({X-linked}) |
+| {DiGeorge} | {Ca} واطي + قلب + {thymus} ما فيه | {FISH 22q11} |
+| {Bruton} | ولد بعد 6 شهور + التهابات بكتيرية تتكرر | {immunoglobulins} واطية |
+^ ① {anemia}؟ ← حليب = {IDA} · عائلة = {thal / sickle / spherocytosis} · فول = {G6PD} ② نزيف؟ ← {platelets} بس = {ITP} · {PTT} = {hemophilia} ③ كتلة أو عين بيضا؟ ← ورم
+== Endocrine, genetics & metabolic
+@ المنطق: طفل يشرب ويتبول وينحف = {diabetes} ← أول شي {glucose}. {DKA} الخطر الأكبر فيه {cerebral edema} ← السوائل بهدوء والـ{insulin} بدون {bolus}. مولود مرتبك الأعضاء أو ينهار بأول أسابيع ← {CAH}.
+@@ دوري في السؤال على: عطش وتبول · {Kussmaul} · صداع وقت علاج {DKA} · أعضاء غير واضحة · {Na ↓ K ↑} · صفار طويل · {cataract}
+# 1 {Diabetes} و {DKA}
+| {Situation} | {Answer} |
+| عطش + تبول + نحافة أو رجع يبلل | [ok:{random glucose}] أو {urine dipstick} |
+| {DKA} | سوائل ({10–20 ml/kg} بحذر) ← بعد ساعة {insulin infusion 0.05–0.1 U/kg/h} [no:بدون {bolus}] |
+| {K} | ضيفيه للسوائل لما يبول و{K} أقل من 5.5 |
+| السكر نزل (حوالي 14–17 {mmol/L}) | ضيفي {dextrose} وكملي {insulin} |
+| صداع + نبض بطيء + وعيه ينزل وقت العلاج | {cerebral edema} ← {mannitol} أو {hypertonic saline} |
+| {Hypoglycemia} | واعي ← سكر بالفم · مو واعي ← {IV dextrose 10%} أو {IM glucagon} |
+# 2 الغدد والبلوغ
+| {Disease} | {Clue} | {Answer} |
+| {Congenital hypothyroid} | صفار طويل · لسان كبير · فتق سرة · إمساك · {fontanelle} كبير | [ok:{levothyroxine}] فورًا |
+| {CAH} (بنت) | أعضاء غير واضحة | {17-OH progesterone} |
+| {CAH} (ولد) | أسبوع–3 أسابيع: ترجيع + {Na ↓} + {K ↑} + سكر واطي | {NS} + {IV hydrocortisone} · بعدين {hydrocortisone + fludrocortisone} مدى الحياة |
+| {Precocious puberty} | بنت قبل 8 · ولد قبل 9 | {bone age} + {LH / FSH} |
+| صدر بس عند بنت أقل من سنتين بدون طول سريع | {premature thelarche} ← طمني |
+| صدر عند ولد مراهق | {pubertal gynecomastia} ← طمني |
+# 3 المتلازمات و {Metabolic}
+| {Syndrome} | {Clue} |
+| {Down} | ارتخاء · خط كف واحد · {AVSD} · {duodenal atresia} · {hypothyroid} · {ALL} |
+| {Turner} | قصيرة · {webbed neck} · {coarctation} · ما جتها الدورة |
+| {Klinefelter} | طويل · خصية صغيرة · صدر |
+| {Fragile X} | أذن كبيرة · خصية كبيرة · تأخر عقلي |
+| {Prader-Willi} | مرتخي وهو صغير ثم ياكل كثير |
+| {Williams} | {elfin face} · {supravalvular AS} · {Ca} عالي |
+| {Metabolic} | {Clue} | {Answer} |
+| {Galactosemia} | بعد الحليب: صفار + {cataract} + كبد + {E. coli sepsis} | {urine reducing substances} ← وقفي {lactose} |
+| {PKU} | ريحة عفنة · أبيض وشعر فاتح | أكل بدون {phenylalanine} |
+| {Urea cycle} | {ammonia} عالي جدًا + {respiratory alkalosis} | وقفي البروتين + {IV dextrose} |
+^ ① عطش وتبول؟ ← {glucose} ② {DKA}؟ ← سوائل ثم {insulin} بدون {bolus} ← انتبهي للـ{cerebral edema} ③ {Na ↓ K ↑} عند مولود؟ ← {CAH} ④ ملامح؟ ← {karyotype}
+== Musculoskeletal & rheumatology
+@ المنطق: العرج: العمر يحدد السبب ← تحت 3 = {DDH} أو إصابة · 4–8 = {Perthes} أو {transient synovitis} · مراهق سمين = {SCFE}. وحرارة + ما يدعس = {septic arthritis} حتى يثبت العكس.
+@@ دوري في السؤال على: العمر · حرارة · يقدر يدعس؟ · سمين · ركبة · أكثر من 6 أسابيع · طفح
+# 1 العرج والورك
+| {Disease} | {Clue} | {Answer} |
+| {Transient synovitis} | 3–10 سنين · بعد زكام · بخير · حرارة خفيفة | راحة + {NSAIDs} |
+| {Septic arthritis} | حرارة عالية · ما يدعس · {ESR / WBC} عالي | [no:{joint aspiration}] ← {IV antibiotics} + غسيل |
+| {DDH} | {Barlow / Ortolani} · أرجل مو متساوية | {US} قبل 4–6 شهور · {X-ray} بعدها ← {Pavlik harness} |
+| {Perthes} | ولد 4–8 سنين · عرج بدون ألم كثير | {X-ray} ({frog-leg}) |
+| {SCFE} | مراهق سمين · ألم ركبة أو ورك · رجله لبرا | {X-ray} ← ما يدعس ← {pinning} |
+!warn انتبهي: ألم ركبة عند طفل ← افحصي الورك ({SCFE · Perthes}). وألم بالليل يصحيه = ورم ({osteosarcoma}) لين يثبت العكس.
+# 2 المفاصل
+| {Disease} | {Clue} | {Answer} |
+| {JIA} | التهاب مفصل أكثر من 6 أسابيع تحت 16 سنة · تيبس الصبح | {NSAIDs} ← {methotrexate} · {oligoarticular} ← فحص عيون ({uveitis}) |
+| {Systemic JIA} | حرارة يومية + طفح وردي + مفاصل | {steroids} |
+| {Rheumatic fever} | مفاصل تتنقل بعد الحلق | {aspirin} (يتحسن بسرعة) |
+| {HSP} | طفح بالرجلين + مفاصل + بطن | دعم + تابعي الكلى |
+# 3 الكسور
+| {Situation} | {Answer} |
+| انسحبت يده ويرفض يحركها | {nursemaid's elbow} ← {supination-flexion} أو {hyperpronation} |
+| كسر {buckle / torus} | {splint} |
+| {Supracondylar} | افحصي النبض والأعصاب |
+| كسور كثيرة + {sclera} زرقا | {osteogenesis imperfecta} |
+| رياضي مراهق + ألم تحت الركبة | {Osgood-Schlatter} ← راحة وثلج |
+| ظهر مايل ({Adam test}) | {X-ray} ← {brace} أو عملية حسب الدرجة |
+| {Clubfoot} | {Ponseti casting} |
+^ ① كم عمره؟ ② حرارة + ما يدعس؟ ← {aspiration} ③ مراهق سمين؟ ← {SCFE} ④ أكثر من 6 أسابيع؟ ← {JIA}
+== Emergency, poisoning & child abuse
+@ المنطق: التسمم: "وش بلع؟ ومتى؟" ← كل مادة لها {antidote} أو ممنوعات. الإساءة: القصة ما تطابق الإصابة أو تأخروا ← عالجي الطفل وبلغي. الإنعاش: الطفل غالبًا يوقف قلبه من التنفس ← التهوية مهمة.
+@@ دوري في السؤال على: المادة · الوقت · القصة تطابق؟ · تأخروا · كدمات بأماكن غريبة · رضيع ما يمشي
+# 1 التسمم
+| {Poison} | {Answer} |
+| {Paracetamol} | مستوى بعد 4 ساعات ← {N-acetylcysteine} (فورًا لو أكثر من 8 ساعات أو الوقت مو معروف) |
+| {Iron} | {abdominal X-ray} ← {deferoxamine} |
+| {Organophosphate} | {atropine} + {pralidoxime} |
+| {Kerosene} ({hydrocarbon}) | [no:لا ترجيع] ← خطر {aspiration pneumonitis} ← راقبي + {CXR} |
+| {Caustic} | لا ترجيع ولا تعادل ← {endoscopy} |
+| {Button battery} | إزالة عاجلة |
+| {Activated charcoal} | خلال ساعة · [no:مو] للحديد والمواد الكاوية والكيروسين والكحول |
+# 2 الإساءة
+| {Clue} | {Answer} |
+| القصة ما تطابق · تأخروا · كدمات بأماكن غريبة · رضيع ما يمشي وفيه كدمات | فكري بالإساءة |
+| {retinal hemorrhage} + {subdural} | {shaken baby} |
+| كسور ضلوع خلفية أو {metaphyseal} أو كسر لولبي عند رضيع | {skeletal survey} |
+| القرار | [ok:عالجي الطفل + بلغي الجهات] · لا تواجهين الأهل |
+# 3 الإنعاش والطوارئ
+| {Situation} | {Answer} |
+| {CPR} | {30:2} لو واحد · {15:2} لو اثنين · 100–120 بالدقيقة · ثلث عمق الصدر |
+| نبض أقل من 60 + دورة دموية ضعيفة | ابدي {CPR} |
+| {DNR} ما تم + وقف قلبه | [ok:ابدي {CPR}] وكلمي الأهل |
+| {Anaphylaxis} | {IM epinephrine 0.01 mg/kg} بالفخذ |
+| غرق | التهوية أول |
+| حروق كبيرة | سوائل + انتبهي لـ{inhalation injury} |
+^ ① وش بلع ومتى؟ ← الـ{antidote} وممنوع الترجيع؟ ② القصة تطابق؟ ← لا = بلغي ③ وقف قلب؟ ← {CPR} وتهوية
