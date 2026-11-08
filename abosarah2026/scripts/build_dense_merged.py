@@ -139,6 +139,11 @@ def render_guide(name, lines):
             h += f'<div class="gx {kind}"><b class="t">{gb(lab)}</b>{gb(txt.strip())}</div>'
         elif ln.startswith("- "):
             h += f'<div class="gl">• {gb(ln[2:])}</div>'
+        elif ln.startswith("> "):  # plain explanation paragraph
+            h += f'<p class="gp">{gb(ln[2:])}</p>'
+        elif ln.startswith("%% "):  # worked example: English question || Arabic why
+            q, _, why = ln[3:].partition("||")
+            h += f'<div class="gex"><div class="gq">{gb(q.strip())}</div><b>ليش؟</b> {gb(why.strip())}</div>'
     flush()
     return (f'<div class="guide"><div class="ghead"><span>شرح {e(name)}</span><span class="gsub">افهمي القاعدة، بعدين حلي الأسئلة تحت</span></div>'
             f'{gold}<div class="gcols">{h}</div>{plan}</div>')
@@ -148,6 +153,7 @@ def gb(t):
     t = html.escape(t, quote=False)
     t = re.sub(r"\[(ok|no):(.*?)\]", lambda m: f'<span class="tag {m.group(1)}">{m.group(2)}</span>', t)
     t = re.sub(r"\{(.*?)\}", lambda m: f'<span class="en">{m.group(1)}</span>', t)
+    t = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", t)
     return t
 
 
@@ -442,6 +448,11 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .gx.warn .t::before {{ content: "⚠ "; }}
 .gx.mem .t::before {{ content: "✎ "; }}
 .gl {{ margin: .4mm 0; }}
+.gp {{ margin: .6mm 0 .9mm; }}
+.gx.why {{ background: #f0f0f0; }}
+.gx.why .t::before {{ content: "؟ "; }}
+.gex {{ border: 1px dashed #000; border-radius: 1.6mm; padding: 1mm 2.2mm; margin: 1mm 0; break-inside: avoid; }}
+.gq {{ direction: ltr; text-align: left; font-style: italic; font-size: .93em; border-bottom: 1px dotted #888; padding-bottom: .6mm; margin-bottom: .6mm; }}
 .kw {{ margin-top: .6mm; padding-top: .5mm; border-top: .5pt dotted #000; }}
 .guide .tag {{ display: inline-block; padding: 0 1.4mm; border-radius: 2mm; font-weight: 700; border: .8pt solid #000; }}
 .guide .tag.ok {{ background: #fff; }}
