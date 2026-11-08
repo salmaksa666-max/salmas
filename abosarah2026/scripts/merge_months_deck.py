@@ -95,6 +95,12 @@ for cid, nid, did, flds in rows:
     count[name.split("::")[1]] = count.get(name.split("::")[1], 0) + 1
     c.execute("update cards set did=?, due=?, mod=?, usn=-1 where id=?", (deck(name), pos, now, cid))
 
+if os.environ.get("SUSPEND_EMPTY"):  # no source answer or no options -> suspended (kept, can be unsuspended)
+    si, oi = names.index("SourceAnswer"), names.index("OriginalQuestionHTML")
+    empty = [nid for nid, flds in c.execute("select id, flds from notes").fetchall()
+             if (lambda f: "no_source_answer" in f[si] or not f[si].strip() or "source-option" not in f[oi])(flds.split("\x1f"))]
+    c.executemany("update cards set queue=-1 where nid=?", [(n,) for n in empty])
+    print(len(empty), "notes suspended (no answer / no options)")
 # fresh guids / ids so this never merges into the older single-month decks
 chars = string.ascii_letters + string.digits + "!#$%&()*+,-./:;<=>?@[]^_`{|}~"
 rnd = random.Random(2026)
