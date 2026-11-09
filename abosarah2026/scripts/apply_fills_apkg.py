@@ -7,7 +7,7 @@ IN, FD, OUT = sys.argv[1:4]
 fill = {}
 for f in ["sepm", "oct", "pedsS", "pedsO", "obS", "obO", "surS", "surO"]:
     for x in json.load(open(os.path.join(FD, f + "_items.json"), encoding="utf-8")):
-        if x.get("filled") or x.get("xnote"):
+        if x.get("filled") or x.get("xnote") or x.get("corrected"):
             fill[x["qid"]] = x
 work = tempfile.mkdtemp()
 zipfile.ZipFile(IN).extractall(work)
@@ -29,6 +29,12 @@ for nid, flds in c.execute("select id, flds from notes").fetchall():
         f[ix["StatusLabel"]] = "Similar Q answer" if x["filled"] == "twin" else "Claude answer ⚠"
         f[ix["MatchLabel"]] = "Answer from a similar question" if x["filled"] == "twin" else "Not from the source"
         f[ix["MatchClass"]] = ""
+        nf += 1
+    if x.get("corrected"):
+        f[ix["SourceAnswer"]] = html.escape(x["ans"])
+        f[ix["AnswersExplanationsHTML"]] = f'<div class="source-note-block">{html.escape(x["ans"])}<br><i>عدّله الحمراني (منشور #{x["corrected"]})</i></div>'
+        f[ix["AnswersExplanationsText"]] = x["ans"]
+        f[ix["StatusLabel"]] = "Alhomrani corrected ✏"
         nf += 1
     if x.get("xnote"):
         notes = re.findall(r'<div class="nt ed">✏ (.*?)</div>', x["xnote"])
