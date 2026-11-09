@@ -386,7 +386,7 @@ for it in items:
         tg += '<span class="sm">= Sep</span>'
     elif it.get("same") == "diff":
         tg += '<span class="sm df">≈ Sep: جواب مختلف ⚠</span>'
-    if os.environ.get("NOANS_NOTES") and ans.startswith("—"):
+    if os.environ.get("NOANS_NOTES") and (ans.startswith("—") or it.get("filled")):
         def tidy(c):
             c = re.sub(r"^.{0,90}?\b(is|are|would be)\s+(?=(right|wrong|correct|incorrect|the answer|reserved|appropriate|indicated|only|not)\b)", "", c, 1)
             for a, b in (("right only when", "✔ only when"), ("right only for", "✔ only for"), ("right only if", "✔ only if"), ("right when", "✔ when"), ("right for", "✔ for"),
@@ -397,7 +397,7 @@ for it in items:
         rules = "".join(f'<div class="rl">• <b>{e(o)}</b> → <span dir="ltr">{e(tidy(c))}</span></div>' for o, c in it.get("decide", []))
         if not rules and it.get("key"):
             rules = "".join(f'<div class="rl">• {e(x.strip())}</div>' for x in re.split(r";\s*|(?<=\.)\s+(?=[A-Z])", it["key"]) if x.strip())
-        nt = ('<div class="hbox"><div class="hh">⚠ ما فيه جواب أكيد ← احفظي القاعدة</div>'
+        nt = ('<div class="hbox"><div class="hh">' + ("⚠ ما كان له جواب بالمصدر ← الجواب فوق مني، وهذي القاعدة" if it.get("filled") else "⚠ ما فيه جواب أكيد ← احفظي القاعدة") + '</div>'
               + (f'<div class="hs">قاعدة الحمراني (متى يكون كل خيار صح):</div>{rules}' if rules else "")
               + (f'<div class="hq"><b>✍ الحمراني قال:</b> {e(it["note"][:260])}</div>' if it["note"] else "")
               + "</div>")
@@ -407,6 +407,7 @@ for it in items:
         st = it["set"]
         body += (f'<div class="lset"><div class="lsh">Look-alike set {st["n"]} · {e(st["title"])}</div>'
                  f'<b>How to tell them apart:</b> {e(st["how"])}</div>')
+    nt = it.get("xnote", "") + nt
     body += f'<div class="q"><b>{n}.</b>{tg} {rp}{e(it["stem"])}{it["flag"]}{o}{nt}</div>'
 n = len(items)
 
@@ -490,6 +491,7 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .nah {{ font-style: normal; border-left-width: 1.6pt; }}
 .lset {{ border: 1.4pt solid #000; border-radius: 1.4mm; padding: .7mm 1.4mm; margin: .8mm 0 .4mm; background: #e9e9e9; break-inside: avoid; font-size: .96em; }}
 .lsh {{ font-weight: bold; border-bottom: .6pt solid #000; margin-bottom: .3mm; }}
+.nt.fx, .nt.ed {{ font-style: normal; border-left: none; border-right: 1.8pt solid #000; padding: 0 .8mm 0 0; direction: rtl; text-align: right; unicode-bidi: isolate; }}
 .nt {{ font-size: .92em; font-style: italic; color: #111; border-left: .9pt solid #000; padding-left: .8mm; margin-top: .15mm; }}
 """
 if os.environ.get("MASK"):  # same layout, answer areas painted pure red so their boxes can be found on each page
