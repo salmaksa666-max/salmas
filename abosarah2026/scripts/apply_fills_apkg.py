@@ -32,7 +32,7 @@ for nid, flds in c.execute("select id, flds from notes").fetchall():
         nf += 1
     if x.get("corrected"):
         f[ix["SourceAnswer"]] = html.escape(x["ans"])
-        f[ix["AnswersExplanationsHTML"]] = f'<div class="source-note-block">{html.escape(x["ans"])}<br><i>عدّله الحمراني (منشور #{x["corrected"]})</i></div>'
+        f[ix["AnswersExplanationsHTML"]] = f'<div class="source-note-block">{html.escape(x["ans"])}<br><i>{("عدّله الحمراني (منشور #" + str(x["corrected"]) + ")") if isinstance(x["corrected"], int) else ("تصحيح: " + html.escape(str(x["corrected"])))}</i></div>'
         f[ix["AnswersExplanationsText"]] = x["ans"]
         f[ix["StatusLabel"]] = "Alhomrani corrected ✏"
         nf += 1
@@ -42,7 +42,7 @@ for nid, flds in c.execute("select id, flds from notes").fetchall():
             item = ('<div class="study-item"><span class="study-label">✏ تعديلات الحمراني</span><div class="study-value" dir="auto">'
                     + "<br>".join(notes) + "</div></div>")
             box = ('<div style="margin-top:8px;padding:8px 10px;border-radius:8px;background:#fff4d6;border:1.5px solid #e0a800" dir="auto">'
-                   '<b>✏ تعديل الحمراني:</b><br>' + "<br>".join(notes) + '</div>')
+                   '<b>✏ التعديل:</b><br>' + "<br>".join(notes) + '</div>')
             f[ix["AnswersExplanationsHTML"]] = f[ix["AnswersExplanationsHTML"]] + box
             sn = f[ix["StudyNote"]]
             f[ix["StudyNote"]] = sn.replace('<div class="study-note-v8">', '<div class="study-note-v8">' + item, 1) if 'study-note-v8' in sn else item + sn
