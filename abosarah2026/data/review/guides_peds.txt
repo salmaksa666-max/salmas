@@ -1,36 +1,56 @@
 == Neonatology
 @ المنطق: المولود دايم تسألين "كم عمره بالساعات أو الأيام؟" و"{term} ولا {preterm}؟" ← العمر وطريقة الولادة يقولون لك السبب قبل لا تقرين الخيارات.
 @@ دوري في السؤال على: عمر بالساعات · {weeks of gestation} · {C-section} · {meconium} · {Coombs} · لون البراز · أم سكري
-# 1 الصفار ({Neonatal jaundice})
-> كل مولود عنده كريات دم كثيرة، وبعد الولادة تتكسر الزايدة منها فيطلع {bilirubin}. والكبد لسا صغير وبطيء، فيتجمع ويصير صفار. هذا الطبيعي ({physiological})، ويطلع بعد يومين أو ثلاثة.
-> عشان كذا **التوقيت هو كل شي**: لو طلع **أول {24h}** فهذا مو الكبد البطيء، هذا **تكسير قوي** ({hemolysis}) من اختلاف فصيلة الأم والطفل ({ABO} أو {Rh}). وأول شي تسوينه: فصيلة الأم والطفل + {Coombs}.
-> ولو **طوّل أكثر من أسبوعين** ← افحصي {conjugated bilirubin}. إذا عالي + براز فاتح + بول غامق = المرارة مسدودة ({biliary atresia}). وهذي مستعجلة لأن عمليتها ({Kasai}) لازم قبل 60 يوم.
-| {Timing} | {Answer} |
-| أول {24h} | {hemolysis} ← فصيلة الأم والطفل + {Coombs} |
-| يوم 2–7 + بخير | {physiological} ← {phototherapy} حسب الرقم |
-| بعد أسبوع + رضاعة طبيعية + بخير | {breast milk jaundice} ← [ok:{continue breastfeeding}] |
-| أكثر من أسبوعين | [no:{conjugated bilirubin}] |
-!why ليش ما نوقف الرضاعة؟: لأن {breast milk jaundice} ما يضر، ووقف الرضاعة يضر أكثر. أما لو الطفل ما يرضع زين أول أسبوع فهذا {breastfeeding jaundice} (قلة أكل) ← زيدي الرضعات.
-%% Newborn 5 days, lethargic, deeply jaundiced. Siblings had the same and needed exchange. Most important to obtain? → Mother's blood group ✔ || الإخوان صار لهم نفس الشي = سبب يتكرر بالعائلة = اختلاف فصيلة الأم مع عيالها ({isoimmunization}).
-# 2 تعب التنفس بعد الولادة
+:wide تعب التنفس عند المولود ({Neonatal distress})
+:cell 62
+|= Clue | RDS (HMD) | TTN | PPHN | MAS
+| Typical baby | **Preterm**, often infant of **diabetic mother** | **Term**, often **C-section** | Term / **post-term**; often 2° to another lung insult (e.g. MAS) | **Post-term** / meconium-stained fluid
+| Exam | Grunting, nasal flaring, retractions, **severe** distress | **Tachypnea**, mild distress, cyanosis | **Severe cyanosis**, poor response to O2, ==pre/post-ductal sat gap== | Respiratory distress + desaturation, **meconium staining**
+| CXR | **Ground-glass** / fine reticulogranular pattern, **air bronchograms** | **Fluid in fissures**, prominent vascular markings | Often **normal lungs** (shunt is the problem, not lung tissue) | **Patchy infiltrates**, hyperinflation, atelectasis; flattened diaphragms, increased AP diameter
+| Cause | **Surfactant deficiency** (lung immaturity) = Hyaline membrane disease | **Delayed clearance** / absorption of fetal lung fluid | **Right-to-left shunting** through PDA / foramen ovale | Meconium plugging airways → obstruction, chemical pneumonitis
+| Treatment | **Surfactant** (treatment); **antenatal steroids** to mother (prevention) | Supportive; O2. RR <60 → oral feeding · ==RR 60–80 → NGT== · RR >80 → IV | **Inhaled nitric oxide** | Supportive / O2 if mild; **intubate & ventilate** only if severe
+| Deterioration / complication clue | — | O2 sat **not improving despite O2** = worsening, not just symptom duration | — | Can develop **PPHN** as a complication
+:cell 38
+## Patent ductus arteriosus (PDA)
+* **Presentation:** machinery murmur + wide pulse pressure + bilateral "wet lung" on CXR
+* **Treatment:** closure via **NSAIDs** (prostaglandin inhibitors)
+## Well baby
+* **"Vigorous cry"** = the neonate is well → only routine care and monitoring
+## Neonatal hypothermia
+flow: Neonatal hypothermia -> ① Conservative measures \ skin-to-skin contact or warm environment -> No response? -> ② Start septic workup
+## IUGR
+flow: IUGR -> Symmetrical or asymmetrical? | Symmetrical: Symmetrical IUGR \ Head circumference also affected -> Infection or chromosomal disturbance | Asymmetrical: Asymmetrical IUGR \ Head circumference normal -> Placental insufficiency
+:end
+# 1 كيف أفرّق تعب التنفس بسرعة؟
 > الرئة وهو ببطن أمه مليانة **سوائل**. بالولادة الطبيعية الضغط يعصرها ويطلعها، فإذا كانت **قيصرية** تبقى السوائل شوي ← تنفس سريع يروح خلال يوم أو ثلاثة = {TTN}.
 > أما **الخديج** فرئته ناقصة {surfactant} (المادة اللي تخلي الحويصلات ما تلزق)، فتنطبق ← {RDS}. ولو الطفل **تأخر بعد موعده** وتعب ببطن أمه، يطلع {meconium} ويشربه ← {MAS}.
-| {Clue} | {Diagnosis} | {Answer} |
-| {term} + قيصرية + سوائل بالشقوق | {TTN} | دعم و{O2} |
-| خديج + {ground glass} + {air bronchograms} | {RDS} | {CPAP} + {surfactant} |
-| بعد موعده + عقي + بقع بالأشعة | {MAS} | دعم |
-| حرارة أو أم {GBS} | {sepsis} | {ampicillin + gentamicin} |
-!warn انتبهي: بطن مقعر + أمعاء بالصدر = {CDH} ← {intubate} على طول، [no:لا {bag-mask}] لأنه ينفخ الأمعاء اللي بالصدر.
+> و{PPHN}: الرئة سليمة بالأشعة، بس الدم **ما يمر عليها** (يهرب من الفتحات). عشان كذا أزرق مرة وما يتحسن مع الأكسجين، واليد اليمنى أكسجينها أعلى من الرجل ({pre/post-ductal gap}). تشخيصه {Echo}، وعلاجه {inhaled nitric oxide}.
+flow: مولود تعبان بالتنفس -> كم أسبوع؟ وكيف انولد؟ | خديج: Ground-glass -> RDS \ Surfactant | Term + قيصرية: Fluid in fissures -> TTN \ Supportive | بعد موعده + عقي: Patchy infiltrates -> MAS \ Supportive | أزرق ما يتحسن: Normal CXR -> PPHN \ Nitric oxide
+!warn انتبهي: بطن مقعر + أمعاء بالصدر = {CDH} ← {intubate} على طول، [no:لا {bag-mask}] لأنه ينفخ الأمعاء اللي بالصدر. وحرارة أو أم {GBS} = {sepsis} ← {ampicillin + gentamicin}.
 %% Term baby by C-section, tachypnea, fluid in the fissures. Cause? → Slow absorption of lung fluid ✔ || قيصرية + سوائل بالشقوق = الرئة ما انعصرت = {TTN}.
-# 3 الإنعاش وإصابات الولادة
-> الإنعاش بالمولود **أهم شي التهوية**، لأن قلبه غالبًا يبطئ من نقص الأكسجين مو من القلب نفسه: دفيه ونشفيه ← ما يتنفس أو {HR < 100} ← {PPV} ← لو {HR < 60} بعد 30 ثانية تهوية صح ← {compressions 3:1}.
-| {Injury} | الفرق | {Answer} |
-| {Caput} | من الولادة، يعدي خطوط الجمجمة | طمني |
-| {Cephalohematoma} | يطلع بعد ساعات، ما يعدي الخطوط | طمني (ممكن صفار) |
-| {Erb} ({C5–C6}) | يد {waiter's tip}، يمسك بيده ({grasp} موجود) | {physiotherapy} |
-| {Clavicle fracture} | {crepitus} + {Moro} ناقص | ما يحتاج شي |
+%% 2–4 days old, apnea, machinery murmur, wide pulse, bilateral wet lung. Initial treatment? → NSAID ✔ || {machinery murmur} = {PDA} مفتوحة ← نقفلها بـ{NSAID} ({indomethacin} أو {ibuprofen}).
+# 2 الـ{IUGR}: صغير كله ولا جسمه بس؟
+> **{Symmetrical}** = الراس والجسم صغار مع بعض ← المشكلة **من أول الحمل** وفي الطفل نفسه: عدوى ({TORCH}) أو كروموسومات. **{Asymmetrical}** = الراس طبيعي والجسم نحيف ← المشكلة **آخر الحمل** من المشيمة ({placental insufficiency})، والجسم "حمى" المخ.
+!mem مشاكله بعد الولادة: {hypoglycemia} (أهمها) · {hypothermia} · {polycythemia} · {hypocalcemia} ← أول شي نفحص **السكر**.
+# 3 الصفار ({Neonatal jaundice})
+> كل مولود عنده كريات دم كثيرة، وبعد الولادة تتكسر الزايدة منها فيطلع {bilirubin}. والكبد لسا صغير وبطيء، فيتجمع ويصير صفار. هذا الطبيعي ({physiological})، ويطلع بعد يومين أو ثلاثة.
+> عشان كذا **التوقيت هو كل شي**:
+flow: Neonatal jaundice -> متى بدأ؟ | أول 24h: Hemolysis \ ABO / Rh -> فصيلة الأم والطفل + Coombs | يوم 2–7 + بخير: Physiological -> Phototherapy حسب الرقم | بعد أسبوع + رضاعة طبيعية: Breast milk jaundice -> Continue breastfeeding | أكثر من أسبوعين: Conjugated bilirubin -> براز فاتح = Biliary atresia \ Kasai قبل 60 يوم
+!why ليش ما نوقف الرضاعة؟: لأن {breast milk jaundice} ما يضر، ووقف الرضاعة يضر أكثر. أما لو الطفل ما يرضع زين أول أسبوع فهذا {breastfeeding jaundice} (قلة أكل) ← زيدي الرضعات.
+%% Newborn 5 days, lethargic, deeply jaundiced. Siblings had the same and needed exchange. Most important to obtain? → Mother's blood group ✔ || الإخوان صار لهم نفس الشي = سبب يتكرر بالعائلة = اختلاف فصيلة الأم مع عيالها ({isoimmunization}).
+# 4 ولد أم السكري ({Infant of diabetic mother})
+> سكر الأم العالي يعدي للطفل، فبنكرياسه يطلع {insulin} كثير. بعد الولادة ينقطع سكر الأم والـ{insulin} لسا عالي ← **السكر يطيح**.
+flow: Infant of diabetic mother + jittery -> افحصي Blood glucose -> واطي؟ | بدون أعراض: Oral / breast feeding | مع أعراض (jittery, seizure): IV dextrose
+# 5 الإنعاش وإصابات الولادة
+> الإنعاش بالمولود **أهم شي التهوية**، لأن قلبه غالبًا يبطئ من نقص الأكسجين مو من القلب نفسه.
+flow: دفّيه ونشّفيه -> ما يتنفس أو HR < 100 -> PPV (تهوية) -> HR < 60 بعد 30 ثانية -> Compressions 3:1
+|= Injury | الفرق | Answer
+| Caput | من الولادة، يعدي خطوط الجمجمة | طمني
+| Cephalohematoma | يطلع بعد ساعات، ما يعدي الخطوط | طمني (ممكن صفار)
+| Erb (C5–C6) | يد waiter's tip، والـgrasp موجود | Physiotherapy
+| Clavicle fracture | Crepitus + Moro ناقص | ما يحتاج شي
 !mem للحفظ: {Moro} و{rooting} يختفون حوالي 4–6 شهور · {parachute} يطلع 8–9 شهور.
-^ ① كم عمره؟ ② {term} ولا {preterm}؟ ③ صفار؟ متى بدأ؟ ④ تنفس؟ قيصرية = {TTN} · خديج = {RDS} · عقي = {MAS}
+^ ① كم عمره؟ ② {term} ولا {preterm}؟ ③ صفار؟ متى بدأ؟ ④ تنفس؟ قيصرية = {TTN} · خديج = {RDS} · عقي = {MAS} · أزرق ما يتحسن = {PPHN}
 == Growth, development & nutrition
 @ المنطق: الـ{milestones} ما تنفهم، **تنحفظ**. احفظي 5 أعمار بس (2، 6، 9، 12، 24 شهر) والباقي يجي. وأي **فقد مهارة** = مو طبيعي مهما كان العمر.
 @@ دوري في السؤال على: العمر بالشهور · فقد مهارة · {bone age} · طول الأبو والأم · {growth velocity} · حليب بقر
