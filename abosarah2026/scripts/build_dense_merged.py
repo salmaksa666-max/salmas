@@ -497,6 +497,8 @@ body, cur_s, cur_t = "", None, None
 for it in items:
     if it["sys"] != cur_s:
         TOC.append([it["sys"], None, 0])
+        if os.environ.get("SYSBREAK") and cur_s is not None:  # every system starts on a new page
+            body += '</div><div class="cols" style="break-before: page">'
         body += f'<div class="sh">{e(it["sys"])}<span class="mk">@@M{len(TOC) - 1}@@</span></div>'
         if GUIDES.get(it["sys"]) and not os.environ.get("NOGUIDE"):
             body += render_guide(it["sys"], GUIDES[it["sys"]])
