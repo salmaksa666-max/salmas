@@ -73,3 +73,27 @@ SYS = [
 SYSORDER = ["Neonatology", "Growth, development & nutrition", "Vaccines & infectious disease", "Respiratory & ENT", "Cardiology",
             "GI & surgery", "Nephrology & urology", "Neurology", "Hematology & oncology", "Endocrine, genetics & metabolic",
             "Musculoskeletal & rheumatology", "Emergency, poisoning & child abuse"]
+
+# Questions that the keyword classifier put in Neonatology only because they say "newborn" / "meconium":
+# (regex on stem + answer, system, topic) -- first match wins; only applied to items classified as Neonatology.
+NEO_FIX = [
+    (r"meconium pass|no meconium|hirsch|rectal (suction )?biopsy|greenish vomiting|bilious|narrow descended colon", "GI & surgery", "Surgical abdomen (pyloric / intussusception / volvulus)"),
+    (r"sweat test|cystic fibrosis", "Respiratory & ENT", "Pneumonia / CF"),
+    (r"galact|aminoacid|aminoanid", "Endocrine, genetics & metabolic", "Inborn errors of metabolism"),
+    (r"ambiguous genitalia|21-hydroxylase", "Endocrine, genetics & metabolic", "Thyroid / adrenal / puberty"),
+    (r"azathioprine|2-years-old boy", "GI & surgery", "Liver / jaundice / GI bleed"),
+    (r"acute asthma", "Respiratory & ENT", "Asthma / wheeze"),
+    (r"lung-protective|mechanically ventilated child", "Respiratory & ENT", "Other respiratory"),
+    (r"tracheomalacia", "Respiratory & ENT", "Bronchiolitis / croup / stridor"),
+    (r"meconium aspiration|\bmas\b|bronchopulmonary|\bbpd\b", "Neonatology", "Neonatal breathing (RDS / TTN / MAS)"),
+    (r"corrected age|chronological age|chronological chart|sit (on his own|without support|independently)", "Growth, development & nutrition", "Milestones / development"),
+    (r"screening for ida", "Hematology & oncology", "Anemia (iron / thalassemia / sickle / G6PD)"),
+    (r"factor xiii|vitamin k deficiency|platelets 18", "Hematology & oncology", "Bleeding (ITP / hemophilia / vWD)"),
+    (r"rubella", "Vaccines & infectious disease", "Rash / exanthems / Kawasaki"),
+    (r"absent femoral pulse|absent of femoral|egg on string|pg infusion", "Cardiology", "Congenital heart disease"),
+    (r"\btef\b|oesophageal pouch|osephageal pouch|esophageal pouch", "GI & surgery", "Other GI"),
+    (r"testis|inguinal|hemiscrot|observation until 2 years", "GI & surgery", "Groin / testis"),
+    (r"tongue fasciculation", "Neurology", "Weakness / hypotonia / CP"),
+    (r"inward deviation|missilgent", "Neurology", "Other neurology"),
+    (r"hematocrit|polycyth|plethor", "Neonatology", "Other neonatal"),
+]

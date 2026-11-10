@@ -326,6 +326,13 @@ for spec in sys.argv[3:]:
     tag = parts[2] if len(parts) > 2 else ""
     for it in its:
         s, tp = (it["sys"], it["topic"]) if "sys" in it else classify(it["stem"], [o for _, o in it["opts"]], it["ans"])
+        if os.environ.get("SPEC") == "peds" and s == "Neonatology":
+            from peds_systems import NEO_FIX
+            _t = (it["stem"] + " " + it["ans"]).lower()
+            for _rx, _s, _tp in NEO_FIX:
+                if re.search(_rx, _t):
+                    s, tp = _s, _tp
+                    break
         exq = ex.get(it["qid"], {})
         sents = re.split(r"(?<=[.;])\s+(?=[A-Z↑↻])", exq.get("author", ""))
         keep = []
@@ -490,6 +497,7 @@ if os.environ.get("DEDUP"):  # merge near-identical questions (same topic, same 
     items = kept
     for i, it in enumerate(items):
         it["n"] = i + 1
+KW = json.load(open(os.environ["KW"], encoding="utf-8")) if os.environ.get("KW") else {}
 by_topic = defaultdict(list)
 for it in items:
     by_topic[(it["sys"], it["topic"])].append(it)
@@ -563,7 +571,10 @@ for it in items:
     nt = it.get("xnote", "") + nt
     if it.get("_n", 1) > 1:
         tg += f'<span class="rp">×{it["_n"]}</span> '
-    body += f'<div class="q"><b>{n}.</b>{tg} {rp}{e(it["stem"])}{it["flag"]}{o}{nt}</div>'
+    stem_h = e(it["stem"])
+    for _k in sorted(KW.get(it["qid"], []), key=len, reverse=True):
+        stem_h = re.sub(re.escape(e(_k)), lambda m: f'<span class="kwh">{m.group(0)}</span>', stem_h, count=1, flags=re.I)
+    body += f'<div class="q"><b>{n}.</b>{tg} {rp}{stem_h}{it["flag"]}{o}{nt}</div>'
 n = len(items)
 
 FONTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "fonts")
@@ -635,6 +646,7 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .idn {{ float: right; font-weight: 700; background: #000; color: #fff; border-radius: 1.2mm; padding: 0 1mm; margin-left: 1mm; font-size: .9em; }}
 .ida {{ color: #333; }}
 .idk {{ color: #222; }}
+.kwh {{ font-weight: 700; background: #fff1a8; border-radius: .5mm; padding: 0 .3mm; }}
 .gx {{ padding: 1.4mm 2.4mm; border-radius: 1.6mm; margin: 1mm 0; border: 1px solid #000; border-right-width: 3.5px; break-inside: avoid; }}
 .gx .t {{ display: block; margin-bottom: .2mm; }}
 .gx.gold {{ background: #ececec; }}
