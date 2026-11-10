@@ -510,10 +510,13 @@ for it in items:
         body += f'<div class="sh">{e(it["sys"])}<span class="mk">@@M{len(TOC) - 1}@@</span></div>'
         if GUIDES.get(it["sys"]) and not os.environ.get("NOGUIDE"):
             body += render_guide(it["sys"], GUIDES[it["sys"]])
+            if os.environ.get("SYSBREAK"):  # explanation on its own page(s), questions start on a fresh page
+                body += '</div><div class="cols" style="break-before: page">'
         cur_s, cur_t = it["sys"], None
     if it["topic"] != cur_t:
         TOC.append([it["sys"], it["topic"], 0])
-        body += f'<div class="th">{e(it["topic"])}<span class="mk">@@M{len(TOC) - 1}@@</span></div>'
+        _tn = sum(1 for x in TOC if x[0] == it["sys"] and x[1] is not None)
+        body += f'<div class="th tc{(_tn - 1) % 4}"><span class="tnum">{_tn}</span>{e(it["topic"])}<span class="mk">@@M{len(TOC) - 1}@@</span></div>'
         if not os.environ.get("NOBASICS") and BASICS.get(it["topic"]):
             body += render_basics(BASICS[it["topic"]])
         elif False and BOXES.get(it["topic"]):
@@ -568,6 +571,8 @@ for it in items:
                  f'<b>How to tell them apart:</b> {e(st["how"])}</div>')
     if os.environ.get("NONOTES"):
         nt = ""
+    if os.environ.get("SHOWKEY") and it.get("key"):  # the disease / concept the question is about, in one line
+        nt = f'<div class="nt kyl">🔑 {e(it["key"])}</div>' + nt
     nt = it.get("xnote", "") + nt
     if it.get("_n", 1) > 1:
         tg += f'<span class="rp">×{it["_n"]}</span> '
@@ -646,6 +651,13 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .idn {{ float: right; font-weight: 700; background: #000; color: #fff; border-radius: 1.2mm; padding: 0 1mm; margin-left: 1mm; font-size: .9em; }}
 .ida {{ color: #333; }}
 .idk {{ color: #222; }}
+.nt.kyl {{ font-weight: 700; font-style: normal; color: #000; }}
+.th.tc0, .th.tc1, .th.tc2, .th.tc3 {{ font-size: 1.55em !important; padding: 1mm 2mm !important; margin: 2.2mm 0 1.2mm !important; border-radius: 1.4mm; color: #fff !important; border: none !important; break-after: avoid; }}
+.th.tc0 {{ background: #1d4e89 !important; }}
+.th.tc1 {{ background: #8a2b2b !important; }}
+.th.tc2 {{ background: #1f6b4a !important; }}
+.th.tc3 {{ background: #7a4f0f !important; }}
+.tnum {{ display: inline-block; background: #fff; color: #000; border-radius: 50%; width: 1.35em; height: 1.35em; line-height: 1.35em; text-align: center; margin-right: 1.5mm; font-size: .8em; }}
 .kwh {{ font-weight: 700; background: #fff1a8; border-radius: .5mm; padding: 0 .3mm; }}
 .gx {{ padding: 1.4mm 2.4mm; border-radius: 1.6mm; margin: 1mm 0; border: 1px solid #000; border-right-width: 3.5px; break-inside: avoid; }}
 .gx .t {{ display: block; margin-bottom: .2mm; }}
