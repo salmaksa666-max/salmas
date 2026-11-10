@@ -11,9 +11,6 @@
 | Treatment | **Surfactant** (treatment); **antenatal steroids** to mother (prevention) | Supportive; O2. RR <60 → oral feeding · ==RR 60–80 → NGT== · RR >80 → IV | **Inhaled nitric oxide** | Supportive / O2 if mild; **intubate & ventilate** only if severe
 | Deterioration / complication clue | — | O2 sat **not improving despite O2** = worsening, not just symptom duration | — | Can develop **PPHN** as a complication
 :cell 38
-## Patent ductus arteriosus (PDA)
-* **Presentation:** machinery murmur + wide pulse pressure + bilateral "wet lung" on CXR
-* **Treatment:** closure via **NSAIDs** (prostaglandin inhibitors)
 ## Well baby
 * **"Vigorous cry"** = the neonate is well → only routine care and monitoring
 ## Neonatal hypothermia
@@ -28,7 +25,6 @@ flow: IUGR -> Symmetrical or asymmetrical? | Symmetrical: Symmetrical IUGR \ Hea
 flow: Newborn with respiratory distress -> Gestational age? Mode of delivery? | Preterm: Ground-glass -> RDS \ Surfactant | Term + C-section: Fluid in fissures -> TTN \ Supportive | Post-term + meconium: Patchy infiltrates -> MAS \ Supportive | Cyanosis not improving on O2: Normal CXR -> PPHN \ Nitric oxide
 !warn انتبهي: {scaphoid abdomen} + bowel in the chest = {CDH} ← {intubate} على طول، [no:{bag-mask} ممنوع] لأنه ينفخ الأمعاء اللي بالصدر. و{fever} أو أم {GBS positive} = {sepsis} ← {ampicillin + gentamicin}.
 %% Term baby by C-section, tachypnea, fluid in the fissures. Cause? → Slow absorption of lung fluid ✔ || {C-section} + {fluid in fissures} = الرئة ما انعصرت = {TTN}.
-%% 2–4 days old, apnea, machinery murmur, wide pulse, bilateral wet lung. Initial treatment? → NSAID ✔ || {machinery murmur} = {PDA} مفتوحة ← نقفلها بـ{NSAID} ({indomethacin} أو {ibuprofen}).
 # 2 الـ{IUGR}: {symmetrical} ولا {asymmetrical}؟
 > **{Symmetrical}** = الـ{head circumference} والجسم صغار مع بعض ← المشكلة **من أول الحمل** وفي الـ{fetus} نفسه: {infection} ({TORCH}) أو {chromosomal}. **{Asymmetrical}** = الـ{head circumference} طبيعي والجسم نحيف ← المشكلة **آخر الحمل** من الـ{placenta} ({placental insufficiency})، والجسم "حمى" المخ ({head sparing}).
 !mem Complications بعد الولادة: {hypoglycemia} (أهمها) · {hypothermia} · {polycythemia} · {hypocalcemia} ← أول شي {blood glucose}.
@@ -70,6 +66,13 @@ flow: Warm, dry, stimulate -> Not breathing or HR < 100 -> PPV (ventilation) -> 
 | 3–6 words (or 5–6) | **15 months**
 | 6–10 words | **17 months**
 * This is simplified: always assess the recall as a **whole**
+## Primary amenorrhea
+tree:
+Primary amenorrhea
+  Secondary sexual characteristics?
+    No :: [r] Gonadal dysgenesis
+    Yes :: [g] Mullerian agenesis
+/tree
 ## Short stature approach
 tree:
 Short stature
@@ -93,21 +96,11 @@ Failure to thrive (FTT)? \ Weight <3rd percentile OR crossing ≥2 major percent
     Organic :: [r] Organic FTT \ Poor weight gain + another symptom/system → Investigate & treat underlying organic disease
     Non-organic :: [g] Non-organic FTT \ Reduced caloric intake only, no other symptoms → Correct feeding technique (e.g. 2 scoops formula in 90 mL = wrong dilution)
 /tree
-:cell 22
-## Celiac screening
-tree:
-Family history of celiac disease in a first-degree relative \ = indication for celiac screen regardless of symptoms
-  Suggestive symptoms present? \ impaired growth, FTT, unexplained diarrhea
-    Yes :: [r] Screen now \ even if below 3 years
-    No :: [g] Screen starting at 3 years of age
-/tree
-:cell 28
+:cell 40
 ## Key facts
 * **Supplemental iron** for all infants at **4 months**
 * Exclusive breastfeeding is **NOT enough** after **6 months**
 * **IDA screening** for all infants at **9–12 months**
-* **Celiac:** chronic diarrhea + abdominal bloating/distension + loss of subcutaneous fat ± falling off growth percentile
-* Celiac **screening:** Tissue transglutaminase IgA · **diagnostic:** duodenal biopsy · **treatment:** gluten-free diet
 * **Refeeding syndrome:** hypophosphatemia, hypokalemia, hypomagnesemia
 * Liver cirrhosis **without** encephalopathy → restrict **fat** · **with** encephalopathy → restrict **protein**
 :end
@@ -207,6 +200,22 @@ What type of wound?
         Yes :: [r] Give Tdap \ no TIG
         No :: [g] No vaccine needed \ no TIG
 /tree
+:end
+:wide Skin & soft tissue infections
+:cell 30
+## Cellulitis
+tree:
+Cellulitis
+  Fever OR other severe features? \ systemic toxicity · rapidly spreading · immunocompromised · failed oral antibiotics
+    Yes :: [r] IV antibiotics
+    No :: [g] Oral antibiotics
+/tree
+:cell 70
+|= Disease | Key buzzwords | Brief management
+| Cellulitis | Warm, erythematous, tender swelling; indistinct borders; ± lymphangitis | Fever or severe features → IV antibiotics; otherwise oral
+| Osteomyelitis | Fever + focal bone pain + local warmth/redness, often after a fracture or penetrating wound | X-ray first; if negative, MRI to confirm; antibiotics (+ drainage if abscess)
+| Necrotizing fasciitis | **Pain out of proportion**; rapidly progressive swelling, purple/dusky discoloration; toxic | **Urgent surgical debridement** + IV antibiotics
+| Hidradenitis suppurativa | Recurrent axillary/groin swelling with pus and scarring, >3 times a year | Topical/oral antibiotics for flares; weight loss, stop smoking; surgery if severe
 :end
 :wide Rash infections
 :cell 60
@@ -411,6 +420,9 @@ Any one of the criteria? \ persistent ≥10 days · worsening course ("double si
 |= Feature | Tetralogy of Fallot | Transposition of the great arteries
 | CXR finding | **Boot-shaped heart** | **Egg-on-a-string**
 | Best next step | Prostaglandin (keep duct open) | Prostaglandin (keep duct open)
+## Patent ductus arteriosus (PDA)
+* **Presentation:** machinery murmur + wide pulse pressure + bilateral "wet lung" on CXR
+* **Treatment:** closure via **NSAIDs** (prostaglandin inhibitors)
 ## Penicillin: treating vs preventing
 |= Clinical scenario | Regimen | Why
 | Strep pharyngitis, no history of rheumatic fever | **10 days oral penicillin** | Treat infection and PREVENT rheumatic fever
@@ -468,6 +480,7 @@ HCM: all patients \ restrict competitive sports + beta-blocker (or verapamil)
 | TOF | Cyanosis, squatting | Tet spell → knee-chest position + O2
 | TGA | Cyanosis from day 1 | Prostaglandin E1 → surgery
 !why ليش الـ{squatting} يريح الـ{TOF}؟: لأنه يرفع الـ{systemic vascular resistance}، فيروح دم أكثر للرئة. عشان كذا بالـ{tet spell} نسوي {knee-chest position}.
+%% 2–4 days old, apnea, machinery murmur, wide pulse, bilateral wet lung. Initial treatment? → NSAID ✔ || {machinery murmur} = {PDA} مفتوحة ← نقفلها بـ{NSAID} ({indomethacin} أو {ibuprofen}).
 !why {Prostaglandin} ولا {indomethacin}؟: الـ{prostaglandin} **يفتح** الـ{ductus} (للـ{cyanotic} اللي يعتمد عليه). الـ{indomethacin} **يقفله** (للـ{preterm} اللي عنده {PDA}).
 # 2 Rheumatic fever
 > بعد {GAS pharyngitis} بأسبوعين إلى أربعة، الـ{antibodies} تهاجم القلب والمفاصل. العلاج {penicillin} + {aspirin}، وبعدها {benzathine penicillin} كل شهر عشان ما يرجع.
@@ -484,6 +497,16 @@ HCM: all patients \ restrict competitive sports + beta-blocker (or verapamil)
 | Infant, acute fever/diarrhea/vomiting, **greenish, foul-smelling, watery, no blood** | **Rotavirus**
 | Watery diarrhea + vomiting, **fully vaccinated including rotavirus vaccine** | **Norovirus**
 :cell 50
+## Celiac disease
+* **Presentation:** chronic diarrhea + abdominal bloating/distension + loss of subcutaneous fat (wasting) ± falling off a previously higher growth percentile
+* **Screening:** Tissue transglutaminase IgA · **Diagnostic:** duodenal biopsy · **Treatment:** gluten-free diet
+## Celiac screening
+tree:
+Family history of celiac disease in a first-degree relative \ = indication for celiac screen regardless of symptoms
+  Suggestive symptoms present? \ impaired growth, FTT, unexplained diarrhea
+    Yes :: [r] Screen now \ even if below 3 years
+    No :: [g] Screen starting at 3 years of age
+/tree
 ## Suspected EA / TEF
 tree:
 Suspected EA/TEF \ drooling + choking with first feed + NG tube coils in pouch ± polyhydramnios
@@ -728,12 +751,6 @@ Webbed neck
     Male :: [g] Noonan syndrome
     Female :: [r] Turner syndrome \ karyotype 45,X
 /tree
-## Primary amenorrhea
-tree:
-Primary amenorrhea
-  Secondary sexual characteristics?
-    No :: [r] Gonadal dysgenesis
-    Yes :: [g] Mullerian agenesis
 /tree
 :cell 24
 ## Down syndrome + thyroid
@@ -770,8 +787,8 @@ Primary amenorrhea
 == Musculoskeletal & rheumatology
 @ المنطق: الـ{limp}: **العمر** يحدد السبب. و{fever} + {refusal to bear weight} = {septic arthritis} حتى يثبت العكس.
 @@ دوري في السؤال على: age · {fever} · weight bearing? · obese · knee pain · >6 weeks · rash
-:wide Cellulitis, osteomyelitis & arthritis
-:cell 25
+:wide Osteomyelitis & arthritis
+:cell 50
 ## Suspected osteomyelitis
 tree:
 Suspected osteomyelitis \ fracture/penetrating wound + fever + focal bone pain + warmth/redness
@@ -780,14 +797,7 @@ Suspected osteomyelitis \ fracture/penetrating wound + fever + focal bone pain +
       Yes :: [g] MRI not needed
       No :: [r] MRI to confirm
 /tree
-:cell 25
-## Cellulitis
-tree:
-Cellulitis
-  Fever OR other severe features? \ systemic toxicity · rapidly spreading · immunocompromised · failed oral antibiotics
-    Yes :: [r] IV antibiotics
-    No :: [g] Oral antibiotics
-/tree
+:cell 50
 ## Reactive arthritis
 tree:
 Number of joints?
@@ -796,12 +806,6 @@ Number of joints?
     Present :: [r] Drain fluid for analysis
     Absent :: [g] Supportive (NSAIDs)
 /tree
-:cell 50
-|= Disease | Key buzzwords | Brief management
-| Cellulitis | Warm, erythematous, tender swelling; indistinct borders; ± lymphangitis | Fever or severe features → IV antibiotics; otherwise oral
-| Osteomyelitis | Fever + focal bone pain + local warmth/redness, often after a fracture or penetrating wound | X-ray first; if negative, MRI to confirm; antibiotics (+ drainage if abscess)
-| Necrotizing fasciitis | **Pain out of proportion**; rapidly progressive swelling, purple/dusky discoloration; toxic | **Urgent surgical debridement** + IV antibiotics
-| Hidradenitis suppurativa | Recurrent axillary/groin swelling with pus and scarring, >3 times a year | Topical/oral antibiotics for flares; weight loss, stop smoking; surgery if severe
 :end
 # 1 Limp
 |= Age | Disease | Answer
