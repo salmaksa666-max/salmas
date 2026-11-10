@@ -438,6 +438,36 @@ def summary(group):
     return f'<div class="bx sum">{out}</div>' if out else ""
 
 
+def ideas(group):
+    """IDEAS=1: one line per idea (similar key concepts merged), most repeated first: ✔ answer — key ×N"""
+    gs = []
+    for it in group:
+        k = (it.get("key") or it.get("rule") or it["stem"][:160]).strip()
+        a = re.sub(r"^[A-Fa-f][.)\-]\s*", "", it["ans"].strip())
+        if a.startswith("—"):
+            continue
+        v = kvec(k + " " + a)
+        for g in gs:
+            if cos(v, g["v"]) >= 0.45:
+                g["items"].append((k, a, it))
+                break
+        else:
+            gs.append(dict(v=v, items=[(k, a, it)]))
+    gs.sort(key=lambda g: -len(g["items"]))
+    out = ""
+    for g in gs:
+        ans = Counter(a.lower().rstrip(".") for _, a, _ in g["items"])
+        top = [x for x, _ in ans.most_common(2)]
+        shown = [next(a for _, a, _ in g["items"] if a.lower().rstrip(".") == t) for t in top]
+        key = min((k for k, _, _ in g["items"]), key=len)
+        key = key if len(key) <= 190 else key[:187] + "…"
+        flag = (" ⚠" if any(i.get("filled") for _, _, i in g["items"]) else "") + (" ✏" if any(i.get("corrected") for _, _, i in g["items"]) else "")
+        n = len(g["items"])
+        out += (f'<div class="idl">' + (f'<span class="idn">×{n}</span>' if n > 1 else "") + f'<b>✔ {e(shown[0][:90])}</b>'
+                + (f' <span class="ida">/ {e(shown[1][:60])}</span>' if len(shown) > 1 else "") + f'{flag} <span class="idk">{e(key)}</span></div>')
+    return out
+
+
 by_topic = defaultdict(list)
 for it in items:
     by_topic[(it["sys"], it["topic"])].append(it)
@@ -460,8 +490,12 @@ for it in items:
                     f'<span class="nd" dir="{"rtl" if AR.search(nd) else "ltr"}">{bidi(nd.strip()) if AR.search(nd) else e(nd.strip())}</span>'
                     for nd in x.split("→") if nd.strip()) + "</div>" for x in BOXES[it["topic"]]) + "</div>"
         cur_t = it["topic"]
+        if os.environ.get("IDEAS"):
+            body += ideas(by_topic[(it["sys"], it["topic"])])
     n = it["n"]
     TOC[-1][2] += 1
+    if os.environ.get("IDEAS"):
+        continue
     ans = it["ans"].strip()
     o = ""
     hit = False
@@ -567,6 +601,10 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .tk {{ display: flex; gap: 1.6mm; justify-content: center; align-items: flex-start; }}
 .tk.multi {{ border-top: 1.1pt solid #777; padding-top: .5mm; }}
 .tc {{ flex: 1 1 0; display: flex; flex-direction: column; align-items: center; min-width: 0; }}
+.idl {{ break-inside: avoid; padding: .35mm 0 .35mm 1mm; border-bottom: .5pt solid #ccc; }}
+.idn {{ float: right; font-weight: 700; background: #000; color: #fff; border-radius: 1.2mm; padding: 0 1mm; margin-left: 1mm; font-size: .9em; }}
+.ida {{ color: #333; }}
+.idk {{ color: #222; }}
 .gx {{ padding: 1.4mm 2.4mm; border-radius: 1.6mm; margin: 1mm 0; border: 1px solid #000; border-right-width: 3.5px; break-inside: avoid; }}
 .gx .t {{ display: block; margin-bottom: .2mm; }}
 .gx.gold {{ background: #ececec; }}
