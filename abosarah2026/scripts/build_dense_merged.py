@@ -393,6 +393,9 @@ if len(sep_i) and len(oct_i):
         j = int(sim[r].argmax())
         if sim[r, j] >= 0.75:
             items[i]["same"] = "same" if na(items[i]["ans"]) == na(items[sep_i[j]]["ans"]) else "diff"
+            if os.environ.get("SAMELOG"):
+                with open(os.environ["SAMELOG"], "a", encoding="utf-8") as _f:
+                    _f.write(json.dumps([items[i]["qid"], items[sep_i[j]]["qid"], items[i]["same"], items[i]["ans"], items[sep_i[j]]["ans"], round(float(sim[r, j]), 2)], ensure_ascii=False) + "\n")
 items = [items[i] for i in ordered]
 if os.environ.get("DROP_SAME"):  # drop October copies of a September question with the same answer (keep the Sep one)
     print("dropped", sum(1 for it in items if it.get("same") == "same"), "October repeats with the same answer")
