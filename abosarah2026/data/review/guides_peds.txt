@@ -1,7 +1,7 @@
 == Neonatology
-@ المنطق: المولود دايم تسألين "كم عمره بالساعات أو الأيام؟" و"{term} ولا {preterm}؟" ← العمر وطريقة الولادة يقولون لك السبب قبل لا تقرين الخيارات.
-@@ دوري في السؤال على: عمر بالساعات · {weeks of gestation} · {C-section} · {meconium} · {Coombs} · لون البراز · أم سكري
-:wide تعب التنفس عند المولود ({Neonatal distress})
+@ المنطق: أول سؤالين لأي {newborn}: "كم عمره بالساعات أو الأيام؟" و"{term} ولا {preterm}؟" ← العمر وطريقة الولادة يقولون لك السبب قبل لا تقرين الخيارات.
+@@ دوري في السؤال على: age in hours · {weeks of gestation} · {C-section} · {meconium} · {Coombs} · stool color · {diabetic mother}
+:wide Neonatal distress
 :cell 62
 |= Clue | RDS (HMD) | TTN | PPHN | MAS
 | Typical baby | **Preterm**, often infant of **diabetic mother** | **Term**, often **C-section** | Term / **post-term**; often 2° to another lung insult (e.g. MAS) | **Post-term** / meconium-stained fluid
@@ -21,307 +21,828 @@ flow: Neonatal hypothermia -> ① Conservative measures \ skin-to-skin contact o
 ## IUGR
 flow: IUGR -> Symmetrical or asymmetrical? | Symmetrical: Symmetrical IUGR \ Head circumference also affected -> Infection or chromosomal disturbance | Asymmetrical: Asymmetrical IUGR \ Head circumference normal -> Placental insufficiency
 :end
-# 1 كيف أفرّق تعب التنفس بسرعة؟
-> الرئة وهو ببطن أمه مليانة **سوائل**. بالولادة الطبيعية الضغط يعصرها ويطلعها، فإذا كانت **قيصرية** تبقى السوائل شوي ← تنفس سريع يروح خلال يوم أو ثلاثة = {TTN}.
-> أما **الخديج** فرئته ناقصة {surfactant} (المادة اللي تخلي الحويصلات ما تلزق)، فتنطبق ← {RDS}. ولو الطفل **تأخر بعد موعده** وتعب ببطن أمه، يطلع {meconium} ويشربه ← {MAS}.
-> و{PPHN}: الرئة سليمة بالأشعة، بس الدم **ما يمر عليها** (يهرب من الفتحات). عشان كذا أزرق مرة وما يتحسن مع الأكسجين، واليد اليمنى أكسجينها أعلى من الرجل ({pre/post-ductal gap}). تشخيصه {Echo}، وعلاجه {inhaled nitric oxide}.
-flow: مولود تعبان بالتنفس -> كم أسبوع؟ وكيف انولد؟ | خديج: Ground-glass -> RDS \ Surfactant | Term + قيصرية: Fluid in fissures -> TTN \ Supportive | بعد موعده + عقي: Patchy infiltrates -> MAS \ Supportive | أزرق ما يتحسن: Normal CXR -> PPHN \ Nitric oxide
-!warn انتبهي: بطن مقعر + أمعاء بالصدر = {CDH} ← {intubate} على طول، [no:لا {bag-mask}] لأنه ينفخ الأمعاء اللي بالصدر. وحرارة أو أم {GBS} = {sepsis} ← {ampicillin + gentamicin}.
-%% Term baby by C-section, tachypnea, fluid in the fissures. Cause? → Slow absorption of lung fluid ✔ || قيصرية + سوائل بالشقوق = الرئة ما انعصرت = {TTN}.
+# 1 كيف أفرّق الـ{respiratory distress} بسرعة؟
+> الرئة داخل الرحم مليانة **{fetal lung fluid}**. الـ{vaginal delivery} يعصرها ويطلعها، فمع الـ**{C-section}** يبقى منها شوي ← {tachypnea} يروح خلال يوم إلى ثلاثة = {TTN}.
+> الـ**{preterm}** رئته ناقصها {surfactant} (المادة اللي تمنع الـ{alveoli} تنطبق) ← {RDS}. والـ{post-term} اللي تعب قبل الولادة يطلّع {meconium} ويستنشقه ← {MAS}.
+> {PPHN}: الـ{CXR} طبيعي، بس الدم **ما يمر على الرئة** ({right-to-left shunt}). عشان كذا {severe cyanosis} ما يتحسن مع {O2}، والـ{saturation} في اليد اليمنى أعلى من الرجل. تشخيصه {Echo}، وعلاجه {inhaled nitric oxide}.
+flow: Newborn with respiratory distress -> Gestational age? Mode of delivery? | Preterm: Ground-glass -> RDS \ Surfactant | Term + C-section: Fluid in fissures -> TTN \ Supportive | Post-term + meconium: Patchy infiltrates -> MAS \ Supportive | Cyanosis not improving on O2: Normal CXR -> PPHN \ Nitric oxide
+!warn انتبهي: {scaphoid abdomen} + bowel in the chest = {CDH} ← {intubate} على طول، [no:{bag-mask} ممنوع] لأنه ينفخ الأمعاء اللي بالصدر. و{fever} أو أم {GBS positive} = {sepsis} ← {ampicillin + gentamicin}.
+%% Term baby by C-section, tachypnea, fluid in the fissures. Cause? → Slow absorption of lung fluid ✔ || {C-section} + {fluid in fissures} = الرئة ما انعصرت = {TTN}.
 %% 2–4 days old, apnea, machinery murmur, wide pulse, bilateral wet lung. Initial treatment? → NSAID ✔ || {machinery murmur} = {PDA} مفتوحة ← نقفلها بـ{NSAID} ({indomethacin} أو {ibuprofen}).
-# 2 الـ{IUGR}: صغير كله ولا جسمه بس؟
-> **{Symmetrical}** = الراس والجسم صغار مع بعض ← المشكلة **من أول الحمل** وفي الطفل نفسه: عدوى ({TORCH}) أو كروموسومات. **{Asymmetrical}** = الراس طبيعي والجسم نحيف ← المشكلة **آخر الحمل** من المشيمة ({placental insufficiency})، والجسم "حمى" المخ.
-!mem مشاكله بعد الولادة: {hypoglycemia} (أهمها) · {hypothermia} · {polycythemia} · {hypocalcemia} ← أول شي نفحص **السكر**.
-# 3 الصفار ({Neonatal jaundice})
-> كل مولود عنده كريات دم كثيرة، وبعد الولادة تتكسر الزايدة منها فيطلع {bilirubin}. والكبد لسا صغير وبطيء، فيتجمع ويصير صفار. هذا الطبيعي ({physiological})، ويطلع بعد يومين أو ثلاثة.
-> عشان كذا **التوقيت هو كل شي**:
-flow: Neonatal jaundice -> متى بدأ؟ | أول 24h: Hemolysis \ ABO / Rh -> فصيلة الأم والطفل + Coombs | يوم 2–7 + بخير: Physiological -> Phototherapy حسب الرقم | بعد أسبوع + رضاعة طبيعية: Breast milk jaundice -> Continue breastfeeding | أكثر من أسبوعين: Conjugated bilirubin -> براز فاتح = Biliary atresia \ Kasai قبل 60 يوم
-!why ليش ما نوقف الرضاعة؟: لأن {breast milk jaundice} ما يضر، ووقف الرضاعة يضر أكثر. أما لو الطفل ما يرضع زين أول أسبوع فهذا {breastfeeding jaundice} (قلة أكل) ← زيدي الرضعات.
-%% Newborn 5 days, lethargic, deeply jaundiced. Siblings had the same and needed exchange. Most important to obtain? → Mother's blood group ✔ || الإخوان صار لهم نفس الشي = سبب يتكرر بالعائلة = اختلاف فصيلة الأم مع عيالها ({isoimmunization}).
-# 4 ولد أم السكري ({Infant of diabetic mother})
-> سكر الأم العالي يعدي للطفل، فبنكرياسه يطلع {insulin} كثير. بعد الولادة ينقطع سكر الأم والـ{insulin} لسا عالي ← **السكر يطيح**.
-flow: Infant of diabetic mother + jittery -> افحصي Blood glucose -> واطي؟ | بدون أعراض: Oral / breast feeding | مع أعراض (jittery, seizure): IV dextrose
-# 5 الإنعاش وإصابات الولادة
-> الإنعاش بالمولود **أهم شي التهوية**، لأن قلبه غالبًا يبطئ من نقص الأكسجين مو من القلب نفسه.
-flow: دفّيه ونشّفيه -> ما يتنفس أو HR < 100 -> PPV (تهوية) -> HR < 60 بعد 30 ثانية -> Compressions 3:1
-|= Injury | الفرق | Answer
-| Caput | من الولادة، يعدي خطوط الجمجمة | طمني
-| Cephalohematoma | يطلع بعد ساعات، ما يعدي الخطوط | طمني (ممكن صفار)
-| Erb (C5–C6) | يد waiter's tip، والـgrasp موجود | Physiotherapy
-| Clavicle fracture | Crepitus + Moro ناقص | ما يحتاج شي
-!mem للحفظ: {Moro} و{rooting} يختفون حوالي 4–6 شهور · {parachute} يطلع 8–9 شهور.
-^ ① كم عمره؟ ② {term} ولا {preterm}؟ ③ صفار؟ متى بدأ؟ ④ تنفس؟ قيصرية = {TTN} · خديج = {RDS} · عقي = {MAS} · أزرق ما يتحسن = {PPHN}
+# 2 الـ{IUGR}: {symmetrical} ولا {asymmetrical}؟
+> **{Symmetrical}** = الـ{head circumference} والجسم صغار مع بعض ← المشكلة **من أول الحمل** وفي الـ{fetus} نفسه: {infection} ({TORCH}) أو {chromosomal}. **{Asymmetrical}** = الـ{head circumference} طبيعي والجسم نحيف ← المشكلة **آخر الحمل** من الـ{placenta} ({placental insufficiency})، والجسم "حمى" المخ ({head sparing}).
+!mem Complications بعد الولادة: {hypoglycemia} (أهمها) · {hypothermia} · {polycythemia} · {hypocalcemia} ← أول شي {blood glucose}.
+# 3 Neonatal jaundice
+> كل {newborn} عنده {RBCs} كثيرة، وبعد الولادة تتكسر الزايدة ويطلع {bilirubin}. والـ{liver} لسا بطيء، فيتجمع = {physiological jaundice}، ويبدأ بعد يومين أو ثلاثة. عشان كذا **التوقيت هو كل شي**:
+flow: Neonatal jaundice -> When did it start? | First 24 hours: Hemolysis \ ABO / Rh incompatibility -> Mother & baby blood group + Coombs | Day 2–7, well baby: Physiological -> Phototherapy by level | After 1 week, breastfed, well: Breast milk jaundice -> Continue breastfeeding | More than 2 weeks: Check conjugated bilirubin -> Pale stool + dark urine = Biliary atresia \ Kasai before 60 days
+* **Phototherapy failed** (indirect bilirubin still very high, e.g. >300) → **Exchange transfusion**
+!why ليش ما نوقف الـ{breastfeeding}؟: لأن {breast milk jaundice} ما يضر. أما لو ما يرضع زين أول أسبوع فهذا {breastfeeding jaundice} (قلة {intake}) ← زيدي الرضعات.
+%% Newborn 5 days, lethargic, deeply jaundiced. Siblings had the same and needed exchange. Most important to obtain? → Mother's blood group ✔ || الإخوان صار لهم نفس الشي = سبب يتكرر = {isoimmunization} (اختلاف {blood group} الأم مع عيالها).
+# 4 Infant of diabetic mother
+> {glucose} الأم العالي يعدي للـ{fetus}، فيطلّع {insulin} كثير. بعد الولادة ينقطع {glucose} الأم والـ{insulin} لسا عالي ← **{hypoglycemia}**.
+flow: Infant of diabetic mother + jittery -> Check blood glucose -> Low? | Asymptomatic: Oral / breast feeding | Symptomatic (jittery, seizure): IV dextrose
+# 5 Resuscitation & birth injuries
+> في الـ{neonatal resuscitation} أهم شي **{ventilation}**، لأن الـ{bradycardia} عنده غالبًا من {hypoxia} مو من القلب.
+flow: Warm, dry, stimulate -> Not breathing or HR < 100 -> PPV (ventilation) -> HR < 60 after 30 sec of effective PPV -> Chest compressions 3:1
+|= Injury | How to tell | Answer
+| Caput succedaneum | Present at birth, **crosses** suture lines | Reassure
+| Cephalohematoma | Appears hours later, **does not cross** suture lines | Reassure (may cause jaundice)
+| Erb palsy (C5–C6) | "Waiter's tip" arm, **grasp reflex present** | Physiotherapy
+| Clavicle fracture | Crepitus + asymmetric Moro | No treatment needed
+!mem للحفظ: {Moro} و{rooting} يختفون حوالي 4–6 months · {parachute} يظهر 8–9 months.
+^ ① Age? ② {Term} or {preterm}? ③ {Jaundice}: when did it start? ④ {Distress}: {C-section} = {TTN} · {preterm} = {RDS} · {meconium} = {MAS} · {cyanosis} not improving = {PPHN}
 == Growth, development & nutrition
-@ المنطق: الـ{milestones} ما تنفهم، **تنحفظ**. احفظي 5 أعمار بس (2، 6، 9، 12، 24 شهر) والباقي يجي. وأي **فقد مهارة** = مو طبيعي مهما كان العمر.
-@@ دوري في السؤال على: العمر بالشهور · فقد مهارة · {bone age} · طول الأبو والأم · {growth velocity} · حليب بقر
-# 1 الـ{Milestones}
-> فكري فيها كقصة: الطفل يتحكم بجسمه **من فوق لتحت**. أول الراس (4 شهور) ← بعدين يجلس (6–9) ← بعدين يوقف (9) ← بعدين يمشي (12). واليد نفس الشي: يمسك بكل يده (4) ← ينقل من يد ليد (6) ← يمسك بأصبعين ({pincer} 9).
-| العمر | الحركة | الكلام | الاجتماعي |
-| 2 شهر | يرفع راسه شوي | {coo} | {social smile} |
-| 6 شهور | يجلس بمساعدة · ينقل من يد ليد | {babble} | — |
-| 9 شهور | يجلس لحاله · يحبي · {pincer} | {mama/dada} بدون معنى | خوف الغرباء |
-| 12 شهر | يمشي | 1–3 كلمات بمعنى | {bye-bye} |
-| 2 سنة | درج · 6 مكعبات | جملة كلمتين | {parallel play} |
-| 3 سنين | {tricycle} · دائرة | 3 كلمات · الغريب يفهمه | — |
-!warn ليش {refer} ولا نطمن؟: إذا الطفل **ناقص أكثر من مهارة** أو **فقد مهارة** ← [no:{refer / further testing}]. التأخير البسيط بمهارة وحدة وباقي شي زين ← غالبًا طمني وتابعي. وتأخر الكلام ← أول شي {hearing test}، لأن الطفل اللي ما يسمع ما يتكلم.
-%% 9-month-old cannot sit alone, rolls prone to supine, props on forearms. Next? → Refer for further testing ✔ || الجلوس لحاله لازم يكون على 9 شهور، وهو لسا بمرحلة 4–5 شهور = متأخر وايد ← تحويل.
-# 2 الطول القصير
-> السؤال كله يدور على شيئين: **الـ{bone age}** (عمر العظم بالأشعة) و**سرعة النمو**. لو السرعة طبيعية فالطفل صحي، والفرق بس "متى يوقف".
-| {Type} | {Bone age} | القصة | {Answer} |
-| {Familial} | = عمره | الأبو والأم قصار | طمني (بيصير قصير زيهم) |
-| {Constitutional delay} | متأخر | العائلة بلوغها متأخر | طمني ([ok:يوصل طول طبيعي]) |
-| مرض ({GH} أو {thyroid}) | متأخر | السرعة **نازلة** · الوزن زين | {TFT} · {GH} |
-!why ليش {constitutional} يوصل طول طبيعي؟: لأن عظمه متأخر = عنده وقت أطول ينمو فيه قبل ما تسكر العظام. يعني متأخر بس مو قصير.
-%% 7-year-old short, everything normal, delayed bone age, normal velocity. Next? → Reassure he will reach adult height ✔ || عظم متأخر + سرعة طبيعية = {constitutional delay}.
-# 3 الأكل
-> حليب الأم يكفي **6 شهور** بس ناقصه {vitamin D} ← نعطيه {400 IU}. و**حليب البقر قبل سنة ممنوع**، ولو كثير بعد السنة (أكثر من 500 مل) يشبعه وما ياكل، وفوقها يسبب نزيف خفيف بالأمعاء ← {IDA}.
-| {Situation} | {Answer} |
-| {Rickets} | {Ca ↓ · PO4 ↓ · ALP ↑ · 25-OH D ↓ · PTH ↑} ← {vitamin D} |
-| ورم + بطن كبير | {kwashiorkor} (نقص بروتين) |
-| نحيف جدًا بدون ورم | {marasmus} (نقص سعرات) |
-^ ① عمره كم؟ قارني بالجدول ② فقد مهارة؟ ← {refer} ③ قصير؟ ← {bone age} + السرعة + الأهل ④ حليب كثير؟ ← {IDA}
+@ المنطق: الـ{milestones} **تنحفظ** ما تنفهم. احفظي 5 أعمار (2، 6، 9، 12، 24 months) والباقي يجي. وأي **{loss of skill}** ({regression}) = مو طبيعي مهما كان العمر.
+@@ دوري في السؤال على: age in months · {regression} · {bone age} · parents' height · {growth velocity} · {cow's milk}
+:wide Milestones
+:cell 56
+|= Age | Gross motor | Vision & fine motor | Hearing, speech & language | Social & behaviour
+| Newborn | Flexed posture | Follows face or light by 2 weeks | Stills to voice, startles to loud noise | **Smiles by 6 weeks**
+| 7 months | **Sits without support** | **Transfers** objects from hand to hand | Turns to voice, polysyllabic babble | Finger feeds, **fears strangers**
+| 1 year | **Walks independently** | **Pincer grip** (10 mo), points | **2–3 words**, understands name | Drinks from cup, waves
+| ==15–18 months== | Walks independently **and steadily** | Immature grip of pencil, random scribble | ==6–10 words==, points to two body parts | Feeds self with spoon, begins to help with dressing
+| 2½ years | Runs and jumps | Draws | 3–4 word sentences, understands two joined commands | Parallel play, clean and dry
+:cell 44
+## Modified approach (simplified)
+|= Clue in the question | Age
+| Wide-based / unsteady gait | **12 months**
+| Walks backward | **15 months**
+| 3–6 words (or 5–6) | **15 months**
+| 6–10 words | **17 months**
+* This is simplified: always assess the recall as a **whole**
+## Short stature approach
+tree:
+Short stature
+  Growth velocity?
+    Normal velocity :: Bone age?
+      Delayed :: [g] Constitutional delay \ Delayed bone age
+      Normal :: [g] Familial short stature \ Normal bone age
+    Slow velocity :: [r] GH deficiency \ or other organic disease
+/tree
+:end
+:wide Feeding and failure to thrive
+:cell 50
+tree:
+Failure to thrive (FTT)? \ Weight <3rd percentile OR crossing ≥2 major percentile lines
+  No :: Weight decreased?
+    No :: [g] Weight NOT decreased \ consistent on same %ile line (even if low) → Reassure
+    Yes :: Height & head circumference decreased too?
+      Yes :: [r] Likely genetic or metabolic cause
+      No :: [g] Likely feeding issue \ Increase caloric intake
+  Yes :: Organic or non-organic?
+    Organic :: [r] Organic FTT \ Poor weight gain + another symptom/system → Investigate & treat underlying organic disease
+    Non-organic :: [g] Non-organic FTT \ Reduced caloric intake only, no other symptoms → Correct feeding technique (e.g. 2 scoops formula in 90 mL = wrong dilution)
+/tree
+:cell 22
+## Celiac screening
+tree:
+Family history of celiac disease in a first-degree relative \ = indication for celiac screen regardless of symptoms
+  Suggestive symptoms present? \ impaired growth, FTT, unexplained diarrhea
+    Yes :: [r] Screen now \ even if below 3 years
+    No :: [g] Screen starting at 3 years of age
+/tree
+:cell 28
+## Key facts
+* **Supplemental iron** for all infants at **4 months**
+* Exclusive breastfeeding is **NOT enough** after **6 months**
+* **IDA screening** for all infants at **9–12 months**
+* **Celiac:** chronic diarrhea + abdominal bloating/distension + loss of subcutaneous fat ± falling off growth percentile
+* Celiac **screening:** Tissue transglutaminase IgA · **diagnostic:** duodenal biopsy · **treatment:** gluten-free diet
+* **Refeeding syndrome:** hypophosphatemia, hypokalemia, hypomagnesemia
+* Liver cirrhosis **without** encephalopathy → restrict **fat** · **with** encephalopathy → restrict **protein**
+:end
+# 1 الـ{Milestones}: كيف أحفظها؟
+> الطفل يتحكم بجسمه **من فوق لتحت**: {head control} (4 months) ← {sits} (6–9) ← {stands} (9) ← {walks} (12). واليد نفس الترتيب: {palmar grasp} (4) ← {transfers} (6) ← {pincer grasp} (9).
+|= Age | Motor | Language | Social
+| 2 months | Lifts head | Coos | Social smile
+| 6 months | Sits with support, transfers | Babbles | —
+| 9 months | Sits alone, crawls, pincer grasp | "Mama/dada" non-specific | Stranger anxiety
+| 12 months | Walks | 1–3 words with meaning | Waves bye-bye
+| 2 years | Stairs, 6 cubes | 2-word sentences | Parallel play
+| 3 years | Tricycle, copies circle | 3-word sentences, understood by strangers | —
+!warn متى {refer}؟: إذا ناقص **أكثر من {domain}** أو فيه **{regression}** ← [no:{refer / further testing}]. تأخر بسيط في {domain} واحد والباقي طبيعي ← {reassure} وتابعي. و{speech delay} ← أول شي {hearing test}.
+%% 9-month-old cannot sit alone, rolls prone to supine, props on forearms. Next? → Refer for further testing ✔ || {sits alone} لازم على 9 months، وهو لسا بمرحلة 4–5 months ← {refer}.
+# 2 Short stature
+> السؤال يدور على شيئين: **{bone age}** و**{growth velocity}**. إذا الـ{velocity} طبيعية فالطفل سليم، والفرق بس "متى يوقف النمو".
+!why ليش {constitutional delay} يوصل {normal adult height}؟: لأن الـ{bone age} متأخر = عنده وقت أطول ينمو قبل ما تقفل الـ{growth plates}.
+%% 7-year-old short, everything normal, delayed bone age, normal velocity. Next? → Reassure he will reach adult height ✔ || {delayed bone age} + {normal velocity} = {constitutional delay}.
+# 3 Nutrition
+> {Breast milk} يكفي **6 months** بس ناقصه {vitamin D} ← {400 IU}. و**{cow's milk} قبل سنة ممنوع**. وبعد السنة لو كثير (أكثر من 500 mL) يشبعه وما ياكل ← {IDA}.
+|= Situation | Answer
+| Rickets | Ca ↓ · PO4 ↓ · ALP ↑ · 25-OH vitamin D ↓ → Vitamin D + calcium
+| Edema + distended abdomen | Kwashiorkor (protein deficiency)
+| Severe wasting, no edema | Marasmus (calorie deficiency)
+^ ① Age → compare with the table ② {Regression}? → {refer} ③ {Short}? → {bone age} + {velocity} + parents ④ Too much {cow's milk}? → {IDA}
 == Vaccines & infectious disease
-@ المنطق: التطعيم: اسألي "**حي ولا ميت؟**" ← الحي ممنوع عند ضعيف المناعة والحامل. الطفح: اسألي "**متى طلع مع الحرارة؟ ووين بدأ؟**". والرضيع الصغير مع حرارة = شغل كامل للـ{sepsis}.
-@@ دوري في السؤال على: {live vaccine} · {steroids} · {chemo} · ترتيب الحرارة والطفح · عمر أقل من شهر · {CSF}
-# 1 التطعيمات: حي ولا ميت؟
-> التطعيم **الحي** فيه الفيروس نفسه بس ضعيف. الجسم الطبيعي يقضي عليه، أما ضعيف المناعة فممكن الفيروس يمرضه. عشان كذا: {MMR · varicella · BCG · OPV · rotavirus} [no:ممنوعة] مع {chemo} أو {steroids} عالية أو ضعف مناعة.
-> والأشياء **اللي مو مانع** (وهي فخ مشهور): زكام خفيف، حرارة خفيفة، {antibiotics}، خديج (نطعمه حسب عمره الحقيقي)، حساسية بيض مع {MMR}. والمانع الحقيقي: {anaphylaxis} من جرعة قبل.
-| {Situation} | {Answer} |
-| فاتته جرعة | [ok:كملي] ولا تعيدين من الأول |
-| أخوه ضعيف مناعة | يتطعم عادي، بس {IPV} بدال {OPV} |
-| حج أو عمرة | {meningococcal ACWY} · مخالط ← {rifampicin} |
-| ضعيف مناعة + خالط جديري | {VZIG} |
-%% Child on leukemia treatment exposed to chickenpox. Next? → Varicella immunoglobulin ✔ || ما نعطيه التطعيم لأنه حي، فنعطيه أجسام جاهزة ({VZIG}).
-# 2 الطفح: كل فيروس له علامة
-> لا تحفظين كل شي، احفظي **العلامة المميزة** لكل واحد:
-| {Disease} | العلامة اللي تميزه |
-| {Measles} | كحة + زكام + عيون حمراء + {Koplik} · طفح ينزل من الراس |
-| {Roseola} | حرارة عالية 3 أيام ← **تروح** ← بعدها يطلع الطفح |
-| {Erythema infectiosum} | خدود حمراء ({slapped cheek}) |
-| {Varicella} | حبوب بمراحل مختلفة بنفس الوقت |
-| {Scarlet fever} | طفح خشن ({sandpaper}) + لسان فراولة ← {penicillin} |
-| {Hand, foot & mouth} | قرح بالفم + حبوب باليدين والرجلين ← ينتقل {fecal-oral} |
-| {Kawasaki} | حرارة **5 أيام** + عيون + شفايف + طفح + أطراف + غدة |
-!why ليش {Kawasaki} مستعجل؟: لأنه يلتهب شرايين القلب ({coronary aneurysm}). عشان كذا العلاج [ok:{IVIG + aspirin}] + {echo}. وهو الوحيد عند الأطفال اللي نعطي فيه {aspirin}.
-# 3 الحرارة والسحايا
-> الرضيع **أقل من 28 يوم** مناعته ما تقدر تحصر الالتهاب، فممكن يكون عنده {sepsis} وشكله زين. عشان كذا: [no:{full septic workup} + تنويم + {IV antibiotics}] دايم.
-| {CSF} | الخلايا | السكر | البروتين |
-| بكتيري | {neutrophils} كثير | ↓ | ↑ |
-| فيروسي | {lymphocytes} | طبيعي | طبيعي |
-| {TB} | {lymphocytes} | ↓↓ | ↑↑ |
-!why ليش السكر ينزل بالبكتيري؟: لأن البكتيريا والخلايا البيضا ياكلون السكر. الفيروس ما ياكله، فيبقى طبيعي.
-| {Situation} | {Answer} |
-| مخالط {TB} + أشعة طبيعية + {PPD} موجب | {latent TB} ← {isoniazid} |
-| نوبات كحة + {whoop} + ترجيع بعد الكحة | {pertussis} ← {azithromycin} |
-^ ① تطعيم؟ ← حي ولا ميت + وش عنده ② طفح؟ ← العلامة المميزة ③ رضيع صغير + حرارة؟ ← {septic workup} ④ {CSF}؟ ← الخلايا والسكر
+@ المنطق: التطعيم: اسألي "**{live} ولا {inactivated}؟**" ← الـ{live} ممنوع مع {immunodeficiency} والحمل. الـ{rash}: اسألي "**متى طلع مع الـ{fever}؟ ووين بدأ؟**". و{infant} أقل من شهر + {fever} = {full septic workup}.
+@@ دوري في السؤال على: {live vaccine} · {steroids} · {chemotherapy} · timing of fever and rash · age <1 month · {CSF}
+:wide Vaccines
+:cell 40
+## Vaccination schedule (MEMORIZE)
+|= Age | Vaccines
+| Birth | HepB
+| **2, 4, 6 months** | **HIB-BDR** = HepB · IPV · Hib · DTaP · Rota · PCV   (6 months: + OPV + **BCG**)
+| **9 months** | **M&M** = Measles + MCV4
+| **12 months** | **MM-OP** = MMR · MCV4 · OPV · PCV
+| **18 months** | **MOVD-AB** = MMR · OPV · Varicella · DTaP · HepA · Hib
+| **2 years** | 2nd dose of **HepA**
+| **4–6 years** (school) | **MOVD** = MMR · OPV · Varicella · DTaP
+| 11 years | Tdap · HPV (girls) · 12 years: HPV · 18 years: MCV4
+* **BCG is given at 6 months**, not at birth
+* Kenya (travel): **Yellow fever**; if not in the options → **Meningococcal**
+:cell 30
+## Live attenuated vaccines
+* **CONTRAINDICATED** in immunodeficiency (or infants likely to develop it)
+* MMR · Varicella · Yellow fever · Nasal influenza · BCG · Rotavirus
+* **NEVER** give varicella vaccine below **1 year** → give **IVIG** if indicated
+* At age **50**: everyone gets the **recombinant shingles vaccine**
+## Vaccines in pregnancy
+|= Vaccine | Timing | Key note
+| Influenza | Anytime (preferably early) | All pregnant women
+| Tdap | **28–36 weeks** | Protects newborn (passive antibodies)
+| Rubella (MMR) | **Before pregnancy only** | Live → never during pregnancy
+:cell 30
+## Meningitis prophylaxis
+* For **Meningococcal** and **Haemophilus influenzae** contacts, any one of:
+* **Rifampin PO** twice a day for 2 days (**preferred**)
+* **Ceftriaxone IM** single dose
+* **Ciprofloxacin PO** single dose
+* No prophylaxis for streptococcus exposure
+## Cat bite (rabies)
+flow: Cat bite -> ① Wound irrigation immediately -> ② Rabies immunoglobulin -> ③ Inactivated rabies vaccine
+## HPV vaccine doses
+* **<14 years: 2 doses** (0, then 6–12 months)
+* **>14 years: 3 doses** (0, 1–2 months, 6 months)
+* Missed a dose → **give the next dose**, never restart
+:end
+:wide Exposure & wounds
+:cell 46
+## Varicella (chickenpox) exposure
+tree:
+Varicella exposure
+  Immune status?
+    Immunocompetent :: Already has the disease?
+      No :: Vaccinated?
+        Yes :: [g] Observation \ watch and wait
+        No / unknown :: [g] Vaccinate
+      Yes :: [g] Supportive care + acetaminophen \ no antiviral unless serious disease
+    Immunocompromised :: Already has the disease?
+      No :: [r] IVIG (VZIG) \ vaccine contraindicated (live)
+      Yes :: [r] Treat with acyclovir
+/tree
+:cell 54
+## Wound in a trauma patient (tetanus)
+tree:
+What type of wound?
+  Clean :: Clean, minor wound
+    3 or more prior doses?
+      No / unknown :: [r] Give Tdap \ no TIG needed
+      Yes :: Last dose ≥10 years ago?
+        Yes :: [r] Give Tdap
+        No :: [g] No vaccine needed
+  Other / dirty :: All other wounds \ dirty, contaminated, puncture, crush, burn
+    3 or more prior doses?
+      No / unknown :: [r] Give Tdap + TIG
+      Yes :: Last dose ≥5 years ago?
+        Yes :: [r] Give Tdap \ no TIG
+        No :: [g] No vaccine needed \ no TIG
+/tree
+:end
+:wide Rash infections
+:cell 60
+|= Disease | Key buzzwords | Transmission | Treatment
+| Measles | Fever + 3 C's (cough, coryza, conjunctivitis) + **Koplik spots** + maculopapular rash | Airborne | Supportive only
+| Varicella | Non-vaccinated; **cropped vesicles (different stages)** + scattered scabbed lesions | Airborne / contact with vesicle fluid | Supportive (acyclovir if severe / immunocompromised)
+| Kawasaki | **Fever ≥5 days** + strawberry tongue + conjunctival injection + rash + extremity changes + cervical adenopathy | Not infectious (vasculitis) | **IVIG + high-dose aspirin**
+| Scarlet fever | Fever + sore throat + **sandpaper rash** + positive RADT | Droplet | Amoxicillin for 10 days
+| Hand-foot-mouth | Rash on hands/feet + oral ulcers + drooling; daycare contacts | **Fecal-oral** | Supportive only
+| Congenital rubella | Absent red reflex (**cataract**) + **PDA** + sensorineural hearing loss + "blueberry muffin" rash | Vertical (transplacental) | No cure; prevention = pre-pregnancy MMR
+| HSP | Purpuric rash on buttocks/lower limbs + arthralgia + abdominal pain, often post-infection | Not infectious | Supportive (NSAIDs); follow up for renal involvement
+:cell 40
+## Measles vs Rubella
+|= Feature | Measles | Rubella
+| Fever | **High** | **Low**
+| Buccal mucosa | **Koplik spots** | Not a feature
+| Lymphadenopathy | Not classic | **Posterior-auricular and occipital**
+| Desquamation | **Present** | **No**
+## Kawasaki: refractory management
+tree:
+[r] IVIG + high-dose aspirin \ initial treatment
+  Carditis present?
+    Absent :: [r] 1. Second dose of IVIG → 2. Infliximab → 3. Oral prednisolone taper → 4. Pulse IV methylprednisolone
+    Present :: [r] 1. Infliximab → 2. Oral prednisolone taper → 3. Pulse IV methylprednisolone
+/tree
+:end
+# 1 التطعيمات: {live} ولا {inactivated}؟
+> الـ{live vaccine} فيه الفيروس نفسه بس ضعيف. الـ{immunocompetent} يقضي عليه، أما الـ{immunocompromised} فممكن يمرض منه. عشان كذا {MMR · varicella · BCG · OPV · rotavirus} [no:ممنوعة] مع {chemotherapy} أو {high-dose steroids} أو {immunodeficiency}.
+> والأشياء **اللي مو {contraindication}** (فخ مشهور): {mild URTI}، {low-grade fever}، {antibiotics}، {prematurity} (نطعمه حسب عمره الفعلي)، {egg allergy} مع {MMR}. والمانع الحقيقي: {anaphylaxis} من جرعة سابقة.
+|= Situation | Answer
+| Missed dose | **Continue** the schedule, never restart
+| Sibling is immunocompromised | Vaccinate normally, but **IPV instead of OPV**
+| Hajj / Umrah | Meningococcal ACWY · close contact → rifampicin
+| Immunocompromised + chickenpox exposure | **VZIG**
+%% Child on leukemia treatment exposed to chickenpox. Next? → Varicella immunoglobulin ✔ || الـ{vaccine} {live} فممنوع، فنعطيه {antibodies} جاهزة ({VZIG}).
+# 2 الـ{Rash}: كل مرض له علامة
+> لا تحفظين كل شي، احفظي **العلامة المميزة** من الجدول فوق. وزيدي عليها:
+|= Disease | Buzzword
+| Roseola | High fever 3 days → fever **resolves** → then rash appears
+| Erythema infectiosum | **Slapped cheek**
+!why ليش {Kawasaki} مستعجل؟: لأنه يسبب {coronary aneurysm}. عشان كذا العلاج [ok:{IVIG + aspirin}] + {echo}. وهو المرض الوحيد عند الأطفال اللي نعطي فيه {aspirin}.
+# 3 Fever & meningitis
+> الـ{neonate} **أقل من 28 days** ممكن يكون عنده {sepsis} وشكله طبيعي. عشان كذا دايم: [no:{full septic workup} + {admission} + {IV antibiotics}].
+|= CSF | Cells | Glucose | Protein
+| Bacterial | Neutrophils ↑↑ | ↓ | ↑
+| Viral | Lymphocytes | Normal | Normal
+| TB | Lymphocytes | ↓↓ | ↑↑
+!why ليش الـ{glucose} ينزل في الـ{bacterial}؟: لأن البكتيريا والـ{WBCs} يستهلكونه. الفيروس ما يستهلكه، فيبقى طبيعي.
+|= Situation | Answer
+| TB contact + normal CXR + positive PPD | Latent TB → Isoniazid
+| Paroxysmal cough + whoop + post-tussive vomiting | Pertussis → Azithromycin
+^ ① Vaccine? → {live} or not + patient's condition ② {Rash}? → the buzzword ③ {Neonate} + {fever}? → {septic workup} ④ {CSF}? → cells and {glucose}
 == Respiratory & ENT
-@ المنطق: الصوت يقول لك المكان: {stridor} (مع الشهيق) = المشكلة **فوق** بالحنجرة. {wheeze} (مع الزفير) = **تحت** بالشعب. بعدها العمر يحدد المرض.
-@@ دوري في السؤال على: العمر · {stridor} ولا {wheeze} · {barking} · {drooling} · فجأة وهو ياكل · {saturation} · {bulging TM}
+@ المنطق: الصوت يحدد المكان: {stridor} (مع الـ{inspiration}) = المشكلة **فوق** ({upper airway}). {wheeze} (مع الـ{expiration}) = **تحت** ({lower airway}). بعدها العمر يحدد المرض.
+@@ دوري في السؤال على: age · {stridor} or {wheeze} · {barking cough} · {drooling} · sudden onset while eating · {SpO2} · {bulging tympanic membrane}
+:wide Croup, asthma, bronchiolitis
+:cell 40
+## Approach to croup
+tree:
+Croup
+  Any one feature of moderate-to-severe croup? \ Stridor at rest · SpO2 <92% · cyanosis · altered mental status
+    Yes :: [r] Moderate-to-severe croup \ Corticosteroids AND racemic epinephrine
+    No :: [g] Mild croup \ Corticosteroids only
+      Improvement?
+        Yes :: [g] No further management
+        No :: [r] Racemic epinephrine
+/tree
+* Epinephrine already given (any severity) → **give corticosteroids anyway**
+* Croup not improving on usual treatment → **Initial: lateral neck X-ray** · **Best: laryngoscopy**
+:cell 30
+## Asthma: admission & intubation red flags
+* Any **ONE** = red flag:
+* **SpO2 <92% despite high-flow O2** (92% in pediatrics, 90% in adults)
+* ==Normo-capnia== : CO2 should be LOW in an attack; **normal CO2 = impending respiratory failure**
+* **Confusion** or any CNS symptoms (coma, low GCS)
+* **Bradycardia** or arrhythmia
+* **Bradypnea**
+* **Failure of initial management**
+:cell 30
+## Palivizumab (RSV prophylaxis) in preterm
+|= Step | Answer
+| GA **<29 weeks** (29 exactly does NOT qualify) | **Give palivizumab**
+| GA **29–32 weeks** + any one of: born in RSV season (winter) · chronic cardio-pulmonary disease · O2 for ≥28 days (chronic lung disease) | **Give palivizumab**
+| GA 29–32 weeks, none of the above | Reassure (no palivizumab)
+| GA >32 weeks | Reassure (no palivizumab)
+* Only one question has ever come about it
+:end
+:wide Pediatric ENT
+:cell 34
+## Recurrent infections / tonsillectomy
+tree:
+Recurrent infections
+  Recurrent URTI \ tonsillitis NOT mentioned
+    [g] Reassure and advise hand hygiene
+  Recurrent adenotonsillitis
+    PSG indication? \ obesity, sickle cell disease or Down syndrome
+      Yes :: [r] PSG (sleep study)
+      No :: 7 or more episodes per year?
+        Yes :: [r] Adenotonsillectomy
+        No :: Obstruction symptoms? \ daytime sleepiness, poor concentration, snoring, mouth breathing
+          Yes :: [r] Adenotonsillectomy
+          No :: [g] Reassure + hand hygiene
+/tree
+* **PSG = polysomnography = sleep study**
+:cell 33
+## Suspected throat infection
+tree:
+[b] Initial step for ALL: Rapid Strep Test (RADT)
+  Positive :: [g] Confirmed GAS pharyngitis \ Penicillin OR amoxicillin
+  Negative :: [r] Next best step: whichever is in the options \ Throat culture OR Monospot test (infectious mononucleosis)
+/tree
+## Allergic rhinitis
+tree:
+[b] Step 1: oral / topical antihistamines
+  Not controlled → is asthma present?
+    Allergic rhinitis alone :: [b] Intra-nasal steroids (INCS) \ fluticasone, mometasone
+    Allergic rhinitis + asthma :: [b] Montelukast \ leukotriene receptor antagonist
+/tree
+* **Asthma alone** (no allergic rhinitis) → first-line controller = **Inhaled corticosteroids (ICS)**
+:cell 33
+## Neck masses
+|= Feature | Cystic hygroma | Thyroglossal duct cyst
+| Location | **Lateral** neck (posterior triangle) | **Midline** (at or near hyoid)
+| Moves with tongue protrusion | No | **Yes**
+| Transillumination | **Positive** | Negative
+| Fluid | Clear lymphatic fluid | Mucinous
+| Definitive treatment | Sclerotherapy (preferred) or resection | Surgical excision
+## Laryngomalacia vs Tracheomalacia
+|= Feature | Laryngomalacia | Tracheomalacia
+| Stridor phase | **Inspiratory** | **Expiratory** (monophasic wheeze)
+| Worse position | **Supine** | Variable / with crying
+| Management | Self-limited; ENT if severe | Self-limited; surgery if severe
+* Laryngomalacia with cyanotic spells: "Refer to ENT"; if not in the options → **Supraglottoplasty**
+:end
+:wide Otitis media, sinusitis, pneumonia
+:cell 36
+## Otitis media
+tree:
+AOM or OME?
+  AOM :: Active pain or fever + bulging membrane
+    Any indication for treatment? \ age <6 months · severe (otalgia ≥48h or fever ≥39) · otorrhea · bilateral AOM age 6mo–2yr · high-risk / immunocompromised
+      Yes :: [r] Start amoxicillin
+      No :: [g] Observation
+  OME :: No pain or fever, conductive hearing loss, retracted membrane
+    Persistent?
+      Yes :: [r] Refer for tympanostomy tube
+      No :: [g] Observation for 3 months
+/tree
+:cell 34
+## Suspected sinusitis
+tree:
+Any one of the criteria? \ persistent ≥10 days · worsening course ("double sickening") · severe onset (high fever + purulent discharge ≥3 days)
+  No :: [g] Reassure
+  Yes :: Duration?
+    12+ weeks :: [r] Chronic sinusitis → Sinus CT
+    <12 weeks :: Acute bacterial rhinosinusitis (ABRS)
+      Red flags of orbital cellulitis? \ proptosis · ophthalmoplegia · visual changes
+        Yes :: [r] Urgent contrast-enhanced CT
+        No :: [r] Start amoxicillin \ if persists or returns → Sinus CT
+/tree
+:cell 30
+## CAP: admission criteria (any ONE)
+* **Age <6 months**
+* Needs supplemental O2 or **SpO2 <92%**
+* **Poor oral intake** / dehydration
+* Moderate-to-severe distress: **RR >70 (<12 months), RR >50 (≥12 months)**, retractions, grunting, apnea
+* Toxic appearance · failure of outpatient therapy (48–72 h)
+## Periorbital vs Orbital cellulitis
+|= Feature | Periorbital (preseptal) | Orbital
+| Eye movements | Normal | **Restricted / painful**
+| Vision | Normal | Can be decreased
+| Proptosis | Absent | **Present**
+| Chemosis | Absent or mild | Often present
+* **Cystic fibrosis–related diabetes:** annual **OGTT** starting at age **10**
+:end
 # 1 {Stridor}: المشكلة فوق
-> الحنجرة عند الطفل ضيقة أصلًا، فأي ورم بسيط يضيقها ويطلع صوت مع الشهيق. السؤال: هل الطفل **تعبان وشكله سيئ** ولا **كحته غريبة بس**؟
-| {Disease} | الصورة | {Answer} |
-| {Croup} | 6 شهور–3 سنين · كحة زي النباح ({barking}) | [ok:{dexamethasone}] · {stridor} وهو مرتاح ← + {nebulized epinephrine} |
-| {Epiglottitis} | شكله تعبان · ريال · جالس لقدام · ما يكح | لا تفحصين حلقه ← {airway} بغرفة العمليات |
-| {Foreign body} | فجأة وهو ياكل أو يلعب · جهة وحدة صوتها أقل | {rigid bronchoscopy} |
-!why ليش ما نفحص حلق الـ{epiglottitis}؟: لأن أي إزعاج ممكن يسكر الحنجرة كاملة. فنخليه هادي بحضن أمه ونأمن التنفس بمكان مجهز.
+> الـ{larynx} عند الطفل ضيق أصلًا، فأي {edema} بسيط يطلع صوت مع الـ{inspiration}. السؤال: هل الطفل **{toxic}** ولا بس **{barking cough}**؟
+|= Disease | Picture | Answer
+| Croup | 6 months–3 years, barking cough | Dexamethasone · stridor at rest → + nebulized epinephrine
+| Epiglottitis | Toxic, drooling, tripod position, no cough | Do NOT examine the throat → secure airway in OR
+| Foreign body | Sudden onset while eating/playing, unilateral decreased air entry | Rigid bronchoscopy
+!why ليش ما نفحص الحلق في الـ{epiglottitis}؟: لأن أي إزعاج ممكن يقفل الـ{airway} كامل. نخليه هادي ونأمّن الـ{airway} بمكان مجهز.
 # 2 {Wheeze}: المشكلة تحت
-> تحت سنتين مع زكام = غالبًا {bronchiolitis} ({RSV}). وهذا **فيروس**، فالأدوية ما تفيد: لا {steroids} ولا {antibiotics} ولا {salbutamol} روتيني. العلاج **دعم بس**: {O2} لو التشبع واطي، وشفط الأنف، وسوائل.
-> أكبر من كذا ويتكرر = {asthma}، ونفس علاج الكبار: النوبة ← {salbutamol} + {oral steroids}.
-%% 3-month-old, wheeze, retractions, low-grade fever, SpO2 89%. Management? → Low-flow oxygen + nasal suction + feeding ✔ || عمره 3 شهور + زكام + {wheeze} = {bronchiolitis}، والتشبع واطي ← {O2} بس. ما فيه أدوية.
-!mem للحفظ: الـ{bronchiolitis} ينوم إذا: {sat} واطي · ما يرضع · {apnea} · أقل من 3 شهور · خديج أو عنده قلب.
-# 3 الأذن والحلق
-> أهم سؤال: **بكتيري ولا فيروسي؟** لأن البكتيري بس يحتاج {antibiotic}.
-| {Situation} | ليش | {Answer} |
-| طبلة منتفخة ({bulging}) وحمرا | {AOM} بكتيري | [ok:{high-dose amoxicillin}] |
-| سوائل خلف الطبلة بدون التهاب | {OME} | انتظري 3 شهور |
-| حلق + صديد + بدون كحة + غدد | {GAS} | {penicillin} 10 أيام (تمنع {rheumatic fever}) |
-| ما يفتح فمه + لهاة مايلة | {peritonsillar abscess} | {drainage} |
-| إفرازات أنف من جهة وحدة بريحة | جسم غريب | طلعيه |
-^ ① {stridor} ولا {wheeze}؟ ② العمر؟ ③ شكله تعبان + ريال؟ ← {epiglottitis} ④ أذن أو حلق؟ ← بكتيري = {amoxicillin / penicillin}
+> أقل من سنتين + {URTI} = غالبًا {bronchiolitis} ({RSV}). وهو **{viral}**، فلا {steroids} ولا {antibiotics} ولا {salbutamol} روتيني. العلاج **{supportive}**: {O2} إذا الـ{SpO2} واطي + {nasal suction} + {fluids}.
+> أكبر من كذا ويتكرر = {asthma}: الـ{exacerbation} ← {salbutamol} + {oral steroids}.
+%% 3-month-old, wheeze, retractions, low-grade fever, SpO2 89%. Management? → Low-flow oxygen + nasal suction + feeding ✔ || عمره 3 months + {URTI} + {wheeze} = {bronchiolitis}، والـ{SpO2} واطي ← {O2} بس.
+!mem {Bronchiolitis} admission: low {SpO2} · poor feeding · {apnea} · age <3 months · {preterm} or cardiac disease.
+# 3 Ear & throat
+|= Situation | Diagnosis | Answer
+| Bulging, red tympanic membrane | AOM | High-dose amoxicillin
+| Effusion without inflammation | OME | Observe 3 months
+| Exudate + no cough + lymph nodes | GAS pharyngitis | Penicillin 10 days (prevents rheumatic fever)
+| Trismus + deviated uvula | Peritonsillar abscess | Drainage
+| Unilateral foul nasal discharge | Nasal foreign body | Remove it
+^ ① {Stridor} or {wheeze}? ② Age? ③ {Toxic} + {drooling}? → {epiglottitis} ④ Ear / throat? → bacterial = {amoxicillin / penicillin}
 == Cardiology
-@ المنطق: أول سؤال: "**أزرق ولا لا؟**" ← أزرق = الدم الخربان يروح للجسم ({cyanotic}). مو أزرق + نفخة = فتحة أو تضيق. نفخة ناعمة وطفل بخير = طبيعية ({innocent}).
-@@ دوري في السؤال على: أزرق · نوع النفخة · {squatting} · نبض الرجل · خديج · حلق قبل أسابيع
-# 1 القلب الخلقي
-> فكري بالقلب كغرفتين: **فتحة** بينهم = الدم ينتقل من اليسار (ضغط عالي) لليمين ← الطفل **مو أزرق** بس عنده نفخة ({VSD · ASD · PDA}). أما **الأزرق** فالدم الخربان يدخل الجسم بدون ما يمر على الرئة ({TOF} أو {TGA}).
-| {Lesion} | العلامة | {Answer} |
-| {VSD} | نفخة طول الـ{systole} | الصغيرة تسكر لحالها |
-| {ASD} | {fixed split S2} | متابعة أو سد |
-| {PDA} | نفخة مستمرة زي المكينة · خديج | [ok:{indomethacin / ibuprofen}] |
-| {Coarctation} | ضغط اليد أعلى من الرجل · {Turner} | تصليح |
-| {TOF} | أزرق · يقرفص ({squatting}) | النوبة ← {knee-chest} + {O2} |
-| {TGA} | أزرق من أول يوم | [ok:{prostaglandin E1}] ← عملية |
-!why ليش القرفصة تريح {TOF}؟: لأنها تعصر شرايين الرجل فيرتفع الضغط بالجسم، فيروح دم أكثر للرئة بدل ما يهرب للجسم. عشان كذا بالنوبة نسوي {knee-chest}.
-!why {prostaglandin} ولا {indomethacin}؟: الـ{prostaglandin} **يفتح** الـ{duct} (للأزرق اللي يعيش عليه). الـ{indomethacin} **يسكره** (للخديج اللي عنده {PDA}).
-# 2 {Rheumatic fever}
-> بعد التهاب حلق بكتيري ({GAS}) بأسبوعين لأربع، الجسم يصنع أجسام تضرب القلب والمفاصل بالغلط. العلامات ({Jones}): قلب · مفاصل تتنقل · حركات لا إرادية ({chorea}) · طفح · عقد تحت الجلد.
-> العلاج {penicillin} + {aspirin}، والوقاية بعدين {benzathine penicillin} كل شهر عشان ما يرجع.
-# 3 النبض
-| {Situation} | {Answer} |
-| {SVT} والطفل مستقر | {vagal} (ثلج على الوجه للرضيع) ← {adenosine} |
-| {SVT} وطايح | {synchronized cardioversion} |
-| إغماء وقت الرياضة | {ECG} + {echo} |
-^ ① أزرق؟ ← {TOF} أو {TGA} ② نفخة؟ ← نوعها ③ خديج + نفخة مستمرة؟ ← {PDA} ← {indomethacin} ④ حلق قبل أسابيع + مفاصل؟ ← {rheumatic fever}
+@ المنطق: أول سؤال: "**{cyanotic} ولا لا؟**" ← {cyanotic} = الدم غير المؤكسج يروح للجسم ({TOF}، {TGA}). {acyanotic} + {murmur} = {shunt} أو {obstruction}. {soft murmur} وطفل سليم = {innocent murmur}.
+@@ دوري في السؤال على: {cyanosis} · type of murmur · {squatting} · femoral pulses · {preterm} · sore throat weeks ago
+:wide Pediatric cardiology
+:cell 30
+## Cyanotic newborn: TOF vs TGA
+|= Feature | Tetralogy of Fallot | Transposition of the great arteries
+| CXR finding | **Boot-shaped heart** | **Egg-on-a-string**
+| Best next step | Prostaglandin (keep duct open) | Prostaglandin (keep duct open)
+## Penicillin: treating vs preventing
+|= Clinical scenario | Regimen | Why
+| Strep pharyngitis, no history of rheumatic fever | **10 days oral penicillin** | Treat infection and PREVENT rheumatic fever
+| History of rheumatic fever | **Benzathine penicillin IM, once monthly** | Prevent recurrence
+## Duration of prophylaxis
+|= Category | Minimum duration
+| No carditis | 5 years or until age 21 (whichever is longer)
+| Carditis, no residual valve disease | 10 years or until age 21 (whichever is longer)
+| Carditis with residual valve disease | Until age 40 (some sources: lifelong)
+:cell 34
+## Arrhythmia
+tree:
+Arrhythmia
+  Stable or unstable?
+    Unstable :: [r] Cardioversion \ always, regardless of QRS width
+    Stable :: Narrow or wide QRS?
+      Wide :: [r] Amiodarone
+      Narrow :: [g] SVT → Vagal maneuvers
+        Successful?
+          Yes :: [g] Resolved
+          No :: [g] Adenosine
+/tree
+## Key facts
+* **Symptomatic** aortic stenosis → **balloon valvuloplasty** · asymptomatic → conservative + follow up
+* **Myocarditis:** viral URTI 2–3 weeks ago + exertional dyspnea/palpitations + tachycardia + gallop (± hepatomegaly, cardiomegaly). **Initial: ECG · Best: Echo**
+* **Rheumatic fever:** migratory arthritis + erythema marginatum + preceding sore throat → supportive with **aspirin**
+* **WPW + atrial fibrillation** → **Amiodarone**
+:cell 36
+## Hypertrophic cardiomyopathy (HCM)
+tree:
+HCM: all patients \ restrict competitive sports + beta-blocker (or verapamil)
+  Red flags for sudden cardiac death? \ FHx of SCD, massive LVH, exertional syncope, NSVT
+    No :: [g] Routine surveillance
+    Yes :: Confirmed high-risk on echo / Holter?
+      No :: [g] Beta-blocker + restrict sport + further workup
+      Yes :: [r] ICD
+  Symptomatic obstruction despite medical therapy?
+    No :: [g] Continue medical therapy
+    Yes :: Where is the obstruction?
+      Septal :: [r] Septal reduction (myectomy)
+      Valvular :: [r] Mechanical valve replacement
+/tree
+## Jones criteria (only arthralgia as a minor criterion was asked)
+* **Major (JONES):** Joints · carditis · Nodules · Erythema marginatum · Sydenham chorea
+* **Minor:** CRP/ESR ↑ · **Arthralgia** · Fever · Prolonged PR
+* Diagnosis: evidence of GAS + (2 major) or (1 major + 2 minor)
+:end
+# 1 Congenital heart disease
+> **{Shunt}** بين اليسار واليمين = الدم يروح من اليسار (ضغط عالي) لليمين ← {acyanotic} + {murmur} ({VSD · ASD · PDA}). أما الـ**{cyanotic}** فالدم يدخل الجسم بدون ما يمر على الرئة ({TOF} أو {TGA}).
+|= Lesion | Clue | Answer
+| VSD | Pansystolic murmur | Small ones close spontaneously
+| ASD | Fixed split S2 | Follow up or closure
+| PDA | Continuous machinery murmur, preterm | Indomethacin / ibuprofen
+| Coarctation | BP arms > legs, weak femoral pulses, Turner | Repair
+| TOF | Cyanosis, squatting | Tet spell → knee-chest position + O2
+| TGA | Cyanosis from day 1 | Prostaglandin E1 → surgery
+!why ليش الـ{squatting} يريح الـ{TOF}؟: لأنه يرفع الـ{systemic vascular resistance}، فيروح دم أكثر للرئة. عشان كذا بالـ{tet spell} نسوي {knee-chest position}.
+!why {Prostaglandin} ولا {indomethacin}؟: الـ{prostaglandin} **يفتح** الـ{ductus} (للـ{cyanotic} اللي يعتمد عليه). الـ{indomethacin} **يقفله** (للـ{preterm} اللي عنده {PDA}).
+# 2 Rheumatic fever
+> بعد {GAS pharyngitis} بأسبوعين إلى أربعة، الـ{antibodies} تهاجم القلب والمفاصل. العلاج {penicillin} + {aspirin}، وبعدها {benzathine penicillin} كل شهر عشان ما يرجع.
+^ ① {Cyanotic}? → {TOF} or {TGA} ② {Murmur}? → type ③ {Preterm} + continuous murmur? → {PDA} → {indomethacin} ④ Sore throat weeks ago + joints? → {rheumatic fever}
 == GI & surgery
-@ المنطق: الترجيع: "**أخضر ولا لا؟**" ← الأخضر = عصارة المرارة = الانسداد **بعد** المعدة ← عند المولود {volvulus} حتى يثبت العكس. مو أخضر = الانسداد **عند** المعدة ({pyloric}).
-@@ دوري في السؤال على: لون الترجيع · العمر · {currant jelly} · كتلة · ما نزل براز · دم بالبراز · نسبة الجفاف
-# 1 الجفاف
-> الطفل جسمه أغلبه ماي، فالإسهال ينشفه بسرعة. السؤال كله: **كم ناشف؟**
-> خفيف أو متوسط ← [ok:{ORS}] بالفم (أحسن من الوريد لأنه يرجع الملح والسكر مع بعض). شديد أو {shock} ← {NS 20 ml/kg} بالوريد، وتعيدينها لين يتحسن.
-!warn انتبهي: [no:لا {antidiarrheals}] للأطفال. والـ{hypernatremic} صححيه **ببطء** (48 ساعة) لأن السريع يورم المخ.
-# 2 البطن الجراحي
-| {Disease} | الصورة | {Answer} |
-| {Pyloric stenosis} | 2–8 أسابيع · ترجيع قوي مو أخضر · جوعان بعدها · كتلة زيتونة | {US} ← صححي السوائل **أول** ← عملية |
-| {Volvulus} | ترجيع **أخضر** عند مولود | [no:{upper GI contrast}] عاجل ← عملية |
-| {Intussusception} | 6 شهور–3 سنين · مغص يجي ويروح · يرفع رجوله · براز زي الجلي | {US} ← [ok:{air / contrast enema}] |
-| {Hirschsprung} | ما نزل براز بـ48 ساعة · {PR} ← يطلع براز بقوة | {rectal suction biopsy} |
-| {Meckel} | نزيف من تحت بدون ألم عند سنتين | {Meckel scan} |
-!why ليش نصحح السوائل قبل عملية الـ{pyloric}؟: لأنه يرجع حمض المعدة، فيضيع {Cl} و{K} ويصير {alkalosis}. لو دخل العملية كذا، التخدير خطر عليه.
-%% 3-year-old, intestinal obstruction, sausage-shaped mass, episodic crying with leg flexion. Management? → Air or contrast reduction enema ✔ || {intussusception} الكلاسيكي، والـ{enema} يشخص ويعالج بنفس الوقت. العملية بس لو فشل أو فيه {peritonitis}.
-# 3 الخصية والفتق
-> الـ{torsion} = الخصية التفت على عرقها فانقطع الدم. عندك **ساعات** قبل ما تموت، عشان كذا ألم فجأة + {cremasteric} مفقود ← [no:عملية فورًا] بدون انتظار {US}.
-| {Situation} | {Answer} |
-| فتق بالمغبن | عملية قريب (لأنه ممكن يختنق) |
-| {hydrocele} ينير بالضوء | يروح لحاله بسنة–سنتين |
-| خصية ما نزلت | عملية 6–12 شهر · ما تنحس ← {laparoscopy} |
-^ ① ترجيع أخضر؟ ← {volvulus} ② قوي + أسابيع؟ ← {pyloric} ③ مغص + جلي؟ ← {intussusception} ← {enema} ④ جفاف؟ ← {ORS} ولا {bolus}
+@ المنطق: الـ{vomiting}: "**{bilious} ولا لا؟**" ← {bilious} = الـ{obstruction} **بعد** المعدة ← عند الـ{neonate} = {volvulus} حتى يثبت العكس. {non-bilious} = عند المعدة ({pyloric stenosis}).
+@@ دوري في السؤال على: {bilious} or not · age · {currant jelly stool} · mass · no meconium · blood in stool · degree of dehydration
+:wide Pediatric GI
+:cell 50
+## Diarrhea: clinical picture → organism
+|= Clinical picture | Organism / diagnosis
+| Non-bloody diarrhea, weeks long, **daytime only**, child well, no failure to thrive | **Toddler's diarrhea** (not an infection)
+| Acute diarrhea **with blood and mucus** | **Campylobacter jejuni**
+| Infant, acute fever/diarrhea/vomiting, **greenish, foul-smelling, watery, no blood** | **Rotavirus**
+| Watery diarrhea + vomiting, **fully vaccinated including rotavirus vaccine** | **Norovirus**
+:cell 50
+## Suspected EA / TEF
+tree:
+Suspected EA/TEF \ drooling + choking with first feed + NG tube coils in pouch ± polyhydramnios
+  Gas visible in stomach on abdominal X-ray?
+    Yes :: [r] Esophageal atresia WITH tracheoesophageal fistula \ air reaches stomach via distal fistula
+    No :: [g] Isolated esophageal atresia \ gasless abdomen (if not in the options → choose EA with TEF)
+/tree
+:end
+# 1 Dehydration
+> السؤال كله: **{degree of dehydration}**. {Mild / moderate} ← [ok:{ORS}] (أحسن من الـ{IV}). {Severe} أو {shock} ← {normal saline 20 mL/kg bolus} ونعيده لين يتحسن.
+!warn انتبهي: [no:{antidiarrheals} ممنوعة] للأطفال. والـ{hypernatremic dehydration} نصححه **ببطء** (48 hours) لأن السريع يسبب {cerebral edema}.
+# 2 Surgical abdomen
+|= Disease | Picture | Answer
+| Pyloric stenosis | 2–8 weeks, projectile non-bilious vomiting, hungry after, olive mass | US → correct fluids/electrolytes FIRST → pyloromyotomy
+| Volvulus | **Bilious vomiting** in a neonate | Urgent upper GI contrast → surgery
+| Intussusception | 6 months–3 years, colicky pain, drawing up legs, currant jelly stool, sausage mass | US → air / contrast enema
+| Hirschsprung | No meconium in 48 hours, explosive stool on PR | Rectal suction biopsy
+| Meckel diverticulum | Painless rectal bleeding at ~2 years | Meckel scan
+!why ليش نصحح الـ{fluids} قبل عملية الـ{pyloric stenosis}؟: لأنه يرجّع {HCl}، فيصير {hypochloremic hypokalemic metabolic alkalosis}، والـ{anesthesia} خطر معه.
+%% 3-year-old, intestinal obstruction, sausage-shaped mass, episodic crying with leg flexion. Management? → Air or contrast reduction enema ✔ || {intussusception}، والـ{enema} يشخّص ويعالج. العملية بس إذا فشل أو فيه {peritonitis}.
+# 3 Testis & hernia
+> {Testicular torsion} = انقطع الدم عن الـ{testis}، وعندك **ساعات**. {sudden pain} + {absent cremasteric reflex} ← [no:{surgical exploration} فورًا] بدون انتظار {US}.
+|= Situation | Answer
+| Inguinal hernia | Early elective repair (risk of incarceration)
+| Hydrocele (transilluminates) | Resolves by 1–2 years
+| Undescended testis | Orchiopexy at 6–12 months · non-palpable → laparoscopy
+^ ① {Bilious}? → {volvulus} ② Projectile + weeks old? → {pyloric stenosis} ③ Colicky + currant jelly? → {intussusception} → {enema} ④ {Dehydration}? → {ORS} or {bolus}
 == Nephrology & urology
-@ المنطق: الكلى عند الأطفال أربع صور: حرارة + بول = {UTI} · **ورم** = {nephrotic} · **بول غامق + ضغط** = {nephritic} · إسهال دم ثم فشل كلى = {HUS}.
-@@ دوري في السؤال على: حرارة · العمر بالشهور · ورم · بول كولا · كم يوم بعد الحلق · إسهال دم · {C3}
-# 1 التهاب البول
-> عند الطفل الصغير ما يقول لك "يحرقني"، يطلع بس **حرارة**. عشان كذا أي رضيع حرارته بدون سبب ← حللي البول. والتشخيص بالـ{culture}، ومن قسطرة لو ما يتحكم.
-| {Situation} | {Answer} |
-| أكبر من شهرين + بخير + يشرب | [ok:{oral}] ({cephalexin}) |
-| أقل من شهرين · تعبان · يرجع | {IV antibiotics} |
-| أول التهاب مع حرارة | {renal US} |
-| {US} مو طبيعي أو يتكرر | {VCUG} (يدور على رجوع البول للكلية = {VUR}) |
-%% 4-month-old uncircumcised boy, fever 2 days, well, feeding, no focus. Urine: nitrites +. Treatment? → Oral cephalexin ✔ || أكبر من شهرين + زين + يرضع ← يكفيه بالفم.
-# 2 الورم ولا البول الغامق؟
-> **{Nephrotic}** = الكلى صارت **منخل واسع** يطلع منه البروتين ← {albumin} ينزل ← الماي يطلع من العروق ← **ورم**. أشهر سبب بالأطفال {minimal change}، ويستجيب للـ{steroids}.
-> **{Nephritic}** = الكلى **ملتهبة** ← يطلع دم (بول كولا) + ما تصفي ← ضغط عالي وورم خفيف. أشهر سبب: بعد التهاب حلق بأسبوع–أسبوعين ({PSGN}).
-| | {Nephrotic} | {Nephritic} ({PSGN}) |
-| أهم علامة | ورم + {albumin} واطي + {cholesterol} عالي | بول كولا + ضغط |
-| {C3} | طبيعي | واطي ويرجع بعد 6–8 أسابيع |
-| العلاج | [ok:{prednisolone}] بدون {biopsy} | دعم: ملح وسوائل أقل |
-!warn انتبهي: دم بالبول **بعد يوم أو يومين** من الزكام (مو أسابيع) + {C3} طبيعي = {IgA nephropathy} مو {PSGN}.
-# 3 {HUS} و التبول الليلي
-> {HUS}: إسهال دم من {E. coli O157}، سمها يكسر الكريات ويستهلك الصفائح ويضرب الكلى ← {anemia} + {platelets} واطية + فشل كلى. العلاج **دعم**، و[no:لا {antibiotics}] لأنها تطلع سم أكثر.
-> التبول الليلي **تحت 5 سنين طبيعي**. فوقها + فحص طبيعي ← حللي البول ← طمني ← أحسن علاج على المدى الطويل [ok:{alarm}]. ولو رجع يبلل بعد ما وقف + عطش ونحافة ← {glucose} ({diabetes}).
-^ ① حرارة + بول؟ ← {culture} + عمره ← {oral} ولا {IV} ② ورم؟ ← {nephrotic} ← {steroids} ③ بول غامق بعد حلق؟ ← {PSGN} ④ إسهال دم؟ ← {HUS}
+@ المنطق: الكلى عند الأطفال أربع صور: {fever} + urine = {UTI} · **{edema}** = {nephrotic} · **{cola-colored urine} + {hypertension}** = {nephritic} · {bloody diarrhea} ثم {renal failure} = {HUS}.
+@@ دوري في السؤال على: {fever} · age in months · {edema} · cola urine · days after sore throat · bloody diarrhea · {C3}
+:wide UTI
+:cell 34
+## Suspected UTI
+tree:
+Suspected UTI
+  Age <3 months?
+    Yes :: [r] IV antibiotics (admit) \ regardless of fever or vomiting
+    No :: Vomiting, OR flank pain (pyelonephritis)?
+      Yes :: [r] IV/IM antibiotics \ e.g. ceftriaxone
+      No :: [g] Oral amoxicillin \ fever alone does not flip it to IV
+/tree
+:cell 33
+## Post-UTI imaging
+tree:
+Post-UTI imaging
+  First febrile UTI OR recurrent UTI
+    Renal ultrasound \ same first step for both
+      Hydronephrosis present?
+        Yes :: [r] VCUG / MCUG \ look for reflux
+        No :: [g] No further reflux imaging
+  Assessing for renal scarring
+    [r] DMSA scan
+/tree
+* Recurrent UTI, options "Renal US" / "MCUG" / "Renal US + MCUG" → **Renal US + MCUG**; if not present → **Ultrasound**
+:cell 33
+## Renal tubular acidosis (RTA)
+|= RTA type | Serum pH | Urine pH | Potassium
+| **Type 1 (distal)** | Low | **>5.5** (inappropriately high) | **Low**
+| Type 2 (proximal) | Low | <5.5 (can still acidify) | Low
+| Type 4 (hyperkalemic) | Low (mild) | <5.5 | **High**
+:end
+# 1 UTI
+> الـ{infant} ما يقول "يحرقني"، يجي بس **{fever}**. عشان كذا أي {infant} عنده {fever without focus} ← {urinalysis}. والتشخيص بالـ{urine culture} (بالـ{catheter} إذا ما يتحكم).
+%% 4-month-old uncircumcised boy, fever 2 days, well, feeding, no focus. Urine: nitrites +. Treatment? → Oral antibiotic ✔ || عمره أكثر من 3 months + {well} + {feeding} + بدون {vomiting} ← {oral}.
+# 2 {Nephrotic} ولا {nephritic}؟
+> **{Nephrotic}** = الكلى تسرّب {protein} ← {albumin} ينزل ← **{edema}**. أشهر سبب {minimal change disease}، ويستجيب للـ{steroids}.
+> **{Nephritic}** = {inflammation} ← {hematuria} ({cola-colored urine}) + {hypertension}. أشهر سبب {PSGN}: بعد {sore throat} بأسبوع إلى أسبوعين.
+|= Feature | Nephrotic | Nephritic (PSGN)
+| Main clue | Edema + low albumin + high cholesterol | Cola urine + hypertension
+| C3 | Normal | Low, returns to normal in 6–8 weeks
+| Treatment | Prednisolone (no biopsy) | Supportive: salt and fluid restriction
+!warn انتبهي: {hematuria} **بعد يوم أو يومين** من الـ{URTI} (مو أسابيع) + {normal C3} = {IgA nephropathy} مو {PSGN}.
+# 3 {HUS} و{enuresis}
+> {HUS}: {bloody diarrhea} من {E. coli O157} ← {hemolytic anemia} + {thrombocytopenia} + {renal failure}. العلاج **{supportive}**، و[no:{antibiotics} ممنوعة].
+> {Nocturnal enuresis} **أقل من 5 years طبيعي**. فوقها + فحص طبيعي ← {urinalysis} ← {reassure} ← أفضل علاج طويل المدى [ok:{enuresis alarm}]. وإذا رجع يبلل بعد ما وقف ({secondary}) + {polydipsia} و{weight loss} ← {blood glucose}.
+^ ① {Fever} + urine? → {culture} + age → {oral} or {IV} ② {Edema}? → {nephrotic} → {steroids} ③ Cola urine after sore throat? → {PSGN} ④ Bloody diarrhea? → {HUS}
 == Neurology
-@ المنطق: تشنج + حرارة + عمره 6 شهور–5 سنين = غالبًا {febrile seizure} ← طمني إذا بسيط. تشنج بدون حرارة ← وش شكله؟ (يحدد الدواء). صداع مع علامات خطر ← صورة.
-@@ دوري في السؤال على: حرارة · العمر · المدة · جهة وحدة · تكرر بنفس اليوم · يصحى بالليل · ترجيع الصبح · {CK}
-# 1 التشنج مع الحرارة
-> مخ الطفل الصغير حساس، والحرارة **بحد ذاتها** ممكن تشنجه بدون أي مرض بالمخ. عشان كذا لو كان **بسيط**: عام، أقل من 15 دقيقة، مرة وحدة باليوم، ورجع طبيعي ← [ok:طمني] بدون {EEG} ولا {CT}.
-!why ليش خافض الحرارة ما يمنعه؟: لأن التشنج يجي مع **ارتفاع** الحرارة السريع، غالبًا قبل ما ينتبه الأهل. فلا تختارين "{antipyretics} تمنع الرجعة".
-!warn انتبهي: حرارة + رقبة متيبسة أو خمول وما رجع طبيعي ← [no:{meningitis}] قبل ما تقولين {febrile seizure}.
-%% Child with fever, abnormal movements of all limbs, back to normal; sister had the same before. What to do? → Reassurance ✔ || حرارة + عام + رجع طبيعي + بالعائلة = {simple febrile seizure}.
-# 2 التشنج بدون حرارة: الشكل يحدد الدواء
-| {Type} | الشكل | {Answer} |
-| {Absence} | يسرح ثواني كثير باليوم | {ethosuximide} |
-| {Infantile spasms} | انحناءات بمجموعات + تراجع | {ACTH} أو {vigabatrin} |
-| {Rolandic} ({centrotemporal}) | تشنج الوجه بالليل · سن المدرسة | يروح لحاله |
-| {JME} | مراهق · رعشات الصبح | {valproate} |
-| تشنج أكثر من 5 دقايق | أي نوع | {benzodiazepine} ({midazolam / diazepam}) |
-# 3 الضعف والراس
-> الضعف: هل العضلة نفسها ({Duchenne}: ولد يقوم من الأرض بيديه {Gowers} + {CK} عالي) ولا العصب ({GBS}: ضعف يطلع من تحت بعد عدوى + ما فيه {reflexes} ← {IVIG})؟ والـ{CP} **ما يسوء** أبد، لو يسوء فهو شي ثاني.
-| {Situation} | {Answer} |
-| صداع يصحيه من النوم · ترجيع الصبح · حول جديد | {CT / MRI} (ورم يضغط) |
-| حول بعد 4 شهور أو {red reflex} مفقود | [ok:{refer ophthalmology}] |
-^ ① حرارة + 6 شهور–5 سنين؟ ← {febrile seizure} ② شكل التشنج ← الدواء ③ ضعف؟ ← {CK} أو {reflexes} ④ صداع بعلامات خطر؟ ← صورة
+@ المنطق: {seizure} + {fever} + عمره 6 months–5 years = غالبًا {febrile seizure} ← {reassure} إذا {simple}. {seizure} بدون {fever} ← شكله يحدد الدواء. {headache} مع {red flags} ← {imaging}.
+@@ دوري في السؤال على: {fever} · age · duration · {focal} · recurrence within 24 hours · night awakening · morning vomiting · {CK}
+:wide Pediatric neurology and psychiatry
+:cell 44
+## Seizure types
+|= Description | Seizure type
+| Sudden loss of muscle tone → falls to the ground ("legs went weak"), brief LOC, quick recovery | **Atonic**
+| Sudden movement arrest for ~15 seconds, **lip smacking**, no falling, EEG **3 Hz spike-and-wave** | **Absence**
+| Violent flexion of head/trunk/limbs then extension, clusters of brief spasms, EEG chaotic (**hypsarrhythmia**) | **Infantile spasms (West syndrome)**
+| Nocturnal focal tonic-clonic with **mouth deviation**, normal exam, EEG **centrotemporal sharp spikes** | **Benign Rolandic epilepsy**
+:cell 30
+## Febrile seizure: simple vs complex
+|= Feature | Simple | Complex
+| Duration | **<15 minutes** | **>15 minutes**
+| Type | Generalized | **Focal** (or focal features)
+| Recurrence within 24 h | No (once) | **Yes**
+| Epilepsy risk | About 2% (near baseline) | Higher
+:cell 26
+## ADHD
+tree:
+ADHD
+  What is the child's age?
+    5 years or younger :: [g] Parent behavioral training / CBT-based approach
+    6 years or older :: [r] Pharmacotherapy (stimulants)
+/tree
+* AAP: preschool (4–5 years) → **behavior therapy first line** · ≥6 years → **medication** + behavior therapy
+:end
+# 1 Febrile seizure
+> مخ الطفل الصغير حساس، والـ{fever} **بحد ذاتها** ممكن تسبب {seizure}. فإذا كان **{simple}** ({generalized}، أقل من 15 minutes، مرة وحدة في 24 hours، ورجع طبيعي) ← [ok:{reassurance}] بدون {EEG} ولا {CT}.
+!why ليش الـ{antipyretics} ما تمنعه؟: لأن الـ{seizure} يجي مع **الارتفاع السريع** للحرارة، غالبًا قبل ما ينتبه الأهل.
+!warn انتبهي: {fever} + {neck stiffness} أو {lethargy} وما رجع طبيعي ← [no:{meningitis}] ← {lumbar puncture}.
+%% Child with fever, abnormal movements of all limbs, back to normal; sister had the same before. What to do? → Reassurance ✔ || {fever} + {generalized} + رجع طبيعي + {family history} = {simple febrile seizure}.
+# 2 Seizure بدون {fever}: الشكل يحدد الدواء
+|= Type | Treatment
+| Absence | Ethosuximide
+| Infantile spasms | ACTH or vigabatrin
+| Benign Rolandic | Self-limited
+| Juvenile myoclonic (teen, morning jerks) | Valproate
+| Any seizure >5 minutes (status) | Benzodiazepine (midazolam / diazepam)
+# 3 Weakness & headache
+> الـ{weakness}: من العضلة ({Duchenne}: ولد + {Gowers sign} + {CK} عالي) ولا من العصب ({GBS}: {ascending weakness} بعد {infection} + {areflexia} ← {IVIG})؟ والـ{cerebral palsy} **{non-progressive}**، فإذا يسوء فهو شي ثاني.
+|= Situation | Answer
+| Headache waking from sleep, morning vomiting, new squint | CT / MRI (mass)
+| Squint after 4 months or absent red reflex | Refer to ophthalmology
+^ ① {Fever} + 6 months–5 years? → {febrile seizure} ② Seizure type → drug ③ {Weakness}? → {CK} or {reflexes} ④ {Headache} + {red flags}? → {imaging}
 == Hematology & oncology
-@ المنطق: الأنيميا عند طفل: "**كم يشرب حليب؟**" ({IDA}) و"**وش أصله أو عائلته؟**" ({thal} أو {sickle}). النزيف: "**الصفائح بس ولا التجلط؟**". أي كتلة أو عين بيضا = ورم لين يثبت العكس.
-@@ دوري في السؤال على: حليب بقر · {MCV} · فول · {PTT} · {platelets} · مفصل منتفخ · كتلة بطن · {red reflex} أبيض
-# 1 الأنيميا
-> أشهر شي بين 9 شهور و3 سنين: طفل **يشرب حليب كثير وما ياكل** ← الحليب ما فيه حديد ويشبعه ← {IDA}. العلاج [ok:{oral iron}] + قللي الحليب.
-| {Disease} | ليش تفكرين فيه | {Answer} |
-| {Thal trait} | {MCV} واطي جدًا بس {ferritin} طبيعي | طمني |
-| {Beta-thal major} | يبدأ عند 6 شهور (لما يختفي الـ{HbF}) | دم + {chelation} |
-| {G6PD} | تكسير بعد فول أو دواء | تجنبي المسبب |
-| {Spherocytosis} | عائلة + طحال كبير | {folic acid} |
-!why ليش {sickle} مع حرارة طوارئ؟: لأن طحاله ميت من صغره، فما يقدر يقضي على البكتيريا الكبسولية ({pneumococcus}). عشان كذا حرارة ← [no:{blood culture} + {IV ceftriaxone}] فورًا، والوقاية {penicillin} لين 5 سنين.
-%% Pale girl, very high milk intake, picky eater, not eating solids. Diagnosis? → IDA ✔ || حليب كثير + ما ياكل = {IDA} الكلاسيكي.
-# 2 النزيف
-> افصلي بين شيئين: **الصفائح** (تسد الجرح أول) و**عوامل التجلط** (تثبت السدة). نقص الصفائح = نقط حمرا وكدمات. نقص العوامل = نزيف **داخل المفاصل والعضلات**.
-| {Disease} | الصورة | {Answer} |
-| {ITP} | طفل بخير بعد فيروس · الصفائح بس واطية | بدون نزيف ← [ok:{observe}] · نزيف ← {IVIG} |
-| {Hemophilia} | ولد · نزيف بالمفاصل · {PTT} طويل | {factor VIII / IX} · [no:لا {IM}] |
-| {vWD} | نزيف أنف ولثة ودورة | {desmopressin} |
-# 3 الأورام والمناعة
-| {Disease} | الصورة | {Answer} |
-| {ALL} | 2–5 سنين · شحوب + كدمات + ألم عظام | {bone marrow} |
-| {Retinoblastoma} | عين بيضا بالصور | [no:{urgent ophthalmology}] |
-| {Wilms} | كتلة بطن **ما تعدي** النص | {US / CT} |
-| {Neuroblastoma} | كتلة **تعدي** النص + عين ترجف | {urine catecholamines} |
-| {Wiskott-Aldrich} | إكزيما + صفائح واطية + التهابات | ولد |
-^ ① أنيميا؟ ← حليب = {IDA} · عائلة = {thal / sickle} · فول = {G6PD} ② نزيف؟ ← صفائح = {ITP} · مفاصل = {hemophilia} ③ كتلة أو عين بيضا؟ ← ورم
+@ المنطق: الـ{anemia} عند طفل: "**كم يشرب {milk}؟**" ({IDA}) و"**{family history}؟**" ({thalassemia} أو {sickle cell}). الـ{bleeding}: "**{platelets} ولا {coagulation factors}؟**". وأي {abdominal mass} أو {white reflex} = {tumor} حتى يثبت العكس.
+@@ دوري في السؤال على: {cow's milk} · {MCV} · fava beans · {PTT} · {platelets} · swollen joint · abdominal mass · white {red reflex}
+:wide Bleeding disorders
+:cell 44
+|= PT | aPTT | Platelets | Other | Diagnosis
+| Normal | **Prolonged** | Normal | — | **Hemophilia** (factor VIII most common)
+| **Prolonged** | **Prolonged** | Normal | — | **Vitamin K deficiency** (or factor X deficiency)
+| Prolonged | Prolonged | **Low** | Low fibrinogen, bleeding from everywhere | **DIC**
+| Normal | Normal | **Low** | — | Isolated thrombocytopenia (e.g. **ITP**)
+| Normal | Normal | Normal | **Prolonged bleeding time** | **von Willebrand disease**
+| Normal | Normal | Normal | Normal bleeding time, prolonged clot-lysis time | **Factor XIII deficiency**
+:cell 28
+## Systemic symptoms (fever, lethargy, weight loss)
+tree:
+What is the question asking?
+  Next step? :: [g] Always CBC / blood film
+  Best test to confirm? :: Bone marrow suppression features? \ pallor · ecchymosis/petechiae · ≥2 cell lines down
+    Yes :: [r] Bone marrow biopsy
+    No :: Lymphadenopathy?
+      Yes :: [r] Lymph node biopsy
+/tree
+:cell 28
+## Evans syndrome vs ALL
+|= Feature | Evans syndrome | ALL
+| Mechanism | **Over-destruction** of platelets and RBCs (autoimmune) | **Under-production** (marrow infiltration)
+| WBC | High | Variable
+| Reticulocytes | **High** | **Low**
+| Bilirubin / haptoglobin | High / low (hemolysis) | Normal / normal
+| Confirmatory test | EBV serology (common trigger) | **Bone marrow examination**
+:end
+:wide Abdominal mass & immunodeficiency
+:cell 36
+## Abdominal mass
+tree:
+Abdominal mass
+  X-ray and ultrasound \ always first
+    Internal calcification on imaging?
+      Present :: [r] Neuroblastoma \ crosses midline · systemic symptoms → Next: CT → Confirm: biopsy
+      Absent :: [g] Wilms tumor \ does not cross midline · no systemic symptoms · hypertension → Next and most appropriate: CT ("confirmatory test" → biopsy)
+/tree
+:cell 36
+## Wilms tumor vs Neuroblastoma
+|= Feature | Wilms tumor | Neuroblastoma
+| Origin | Kidney | Adrenal medulla / sympathetic chain
+| Peak age | 2–5 years | <2 years
+| Mass | Smooth, unilateral, **does not cross midline** | Irregular, **crosses midline**
+| Calcification | Rare | **Common**
+| Catecholamines | Normal | **High urinary VMA / HVA**
+| Associations | WAGR, Beckwith-Wiedemann, aniridia | Opsoclonus-myoclonus, raccoon eyes
+| Metastasis | Lungs | Bone, marrow, liver, skin
+:cell 28
+## SCID vs XLA
+|= Feature | SCID | XLA
+| T cells | **Low** | Normal
+| B cells / Ig | Low | **Low / absent**
+| Onset | Early infancy (<6 months) | **After ~6 months** (maternal Ab wanes)
+| Infections | Severe, opportunistic | Recurrent bacterial sinopulmonary, Giardiasis
+| Lymph nodes | Absent / hypoplastic | Impalpable
+| Inheritance | X-linked or autosomal | X-linked recessive (males)
+:end
+# 1 Anemia
+> أشهر شي بين 9 months و3 years: طفل **يشرب {cow's milk} كثير وما ياكل** ← {IDA}. العلاج [ok:{oral iron}] + قللي الـ{milk}.
+|= Disease | Clue | Answer
+| Thalassemia trait | Very low MCV, normal ferritin | Reassure
+| Beta-thalassemia major | Starts at ~6 months (HbF disappears) | Transfusion + chelation
+| G6PD deficiency | Hemolysis after fava beans or drugs | Avoid the trigger
+| Hereditary spherocytosis | Family history + splenomegaly | Folic acid
+!why ليش {sickle cell} + {fever} = {emergency}؟: لأنه {functional asplenia}، فما يقدر على الـ{encapsulated bacteria} ({pneumococcus}) ← [no:{blood culture} + {IV ceftriaxone}] فورًا. والوقاية {penicillin prophylaxis} إلى 5 years.
+%% Pale girl, very high milk intake, picky eater, not eating solids. Diagnosis? → IDA ✔ || {milk} كثير + ما ياكل = {IDA}.
+# 2 Bleeding
+> افصلي بين: **{platelets}** (نقصها = {petechiae} و{bruising}) و**{coagulation factors}** (نقصها = {hemarthrosis} ونزيف بالعضلات).
+|= Disease | Picture | Answer
+| ITP | Well child after viral illness, isolated low platelets | No bleeding → observe · bleeding → IVIG
+| Hemophilia | Boy, hemarthrosis, prolonged PTT | Factor VIII / IX · no IM injections
+| vWD | Epistaxis, gum bleeding, menorrhagia | Desmopressin
+# 3 Tumors
+|= Disease | Picture | Answer
+| ALL | 2–5 years, pallor + bruising + bone pain | Bone marrow
+| Retinoblastoma | White reflex (leukocoria) | Urgent ophthalmology referral
+| Wiskott-Aldrich | Boy: eczema + thrombocytopenia + recurrent infections | —
+^ ① {Anemia}? → milk = {IDA} · family = {thalassemia / sickle} · fava = {G6PD} ② {Bleeding}? → platelets = {ITP} · joints = {hemophilia} ③ Mass or white reflex? → {tumor}
 == Endocrine, genetics & metabolic
-@ المنطق: يشرب ويتبول وينحف = {diabetes} ← أول شي سكر. {DKA} خطره الأكبر **تورم المخ**، فكل علاجه "بهدوء". مولود ينهار بأول أسابيع ({Na ↓ K ↑}) = {CAH}.
-@@ دوري في السؤال على: عطش وتبول · نفس عميق · صداع وقت علاج {DKA} · أعضاء غير واضحة · {Na ↓ K ↑} · صفار طويل · {cataract}
-# 1 السكر و{DKA}
-> بالـ{DKA} الجسم ناشف وفيه حمض. نعطي **سوائل أول** ({10–20 ml/kg} بحذر)، وبعد ساعة نبدأ {insulin infusion} [no:بدون {bolus}]، ونضيف {K} لما يبول، ونضيف {dextrose} لما ينزل السكر.
-!why ليش كل شي ببطء؟: لأن المخ تعود على السكر العالي. لو نزلناه أو عطيناه سوائل بسرعة، الماي يدخل المخ فيتورم ({cerebral edema}): صداع ثم نبض بطيء ثم وعيه ينزل ← {mannitol}.
-%% 9-year-old, bedwetting 3 months, weight loss, polydipsia. Next investigation? → Random blood glucose ✔ || رجع يبلل + عطش + نحافة = سكر، وأسهل وأسرع فحص {random glucose}.
-# 2 الغدد
-| {Disease} | ليش تفكرين فيه | {Answer} |
-| {Congenital hypothyroid} | صفار طويل + لسان كبير + إمساك + فتق سرة | [ok:{levothyroxine}] فورًا (عشان المخ) |
-| {CAH} بنت | أعضاء غير واضحة | {17-OH progesterone} |
-| {CAH} ولد | أسبوعين: ترجيع + {Na ↓} + {K ↑} | {NS} + {hydrocortisone} |
-| بلوغ بدري | بنت قبل 8 · ولد قبل 9 | {bone age} + {LH / FSH} |
-| صدر عند بنت تحت سنتين بس | {premature thelarche} | طمني |
-!why ليش {CAH} يجيب {Na ↓ K ↑}؟: لأن الغدة ما تصنع {aldosterone} (اللي يمسك الملح ويطلع البوتاسيوم)، فيضيع الملح ويتجمع البوتاسيوم.
-# 3 المتلازمات والأيض
-| {Syndrome} | العلامة المميزة |
-| {Down} | مرتخي · خط كف واحد · قلب ({AVSD}) · {duodenal atresia} |
-| {Turner} | بنت قصيرة · رقبة عريضة · {coarctation} |
-| {Klinefelter} | ولد طويل · خصية صغيرة |
-| {Fragile X} | أذن كبيرة · خصية كبيرة · تأخر |
-| {Galactosemia} | بعد الحليب: صفار + {cataract} + كبد ← {urine reducing substances} ← وقفي الحليب |
-| {PKU} | ريحة عفنة ← أكل بدون {phenylalanine} |
-^ ① عطش وتبول؟ ← سكر ② {DKA}؟ ← سوائل ثم {insulin} بدون {bolus} ③ مولود {Na ↓ K ↑}؟ ← {CAH} ④ ملامح؟ ← {karyotype}
+@ المنطق: {polyuria} + {polydipsia} + {weight loss} = {diabetes} ← أول شي {blood glucose}. أخطر شي في الـ{DKA} هو **{cerebral edema}**، فعلاجه كله "بهدوء". و{neonate} ينهار بأول أسابيع ({Na ↓ K ↑}) = {CAH}.
+@@ دوري في السؤال على: polyuria / polydipsia · {Kussmaul breathing} · headache during {DKA} treatment · {ambiguous genitalia} · {Na ↓ K ↑} · prolonged jaundice · {cataract}
+:wide Inborn errors of metabolism (almost everything you need)
+:cell 34
+|= Clinical clue | Diagnosis
+| **Cataract** | Galactosemia
+| Amino acids & glucose in urine (aminoaciduria & glycosuria) | Galactosemia
+| **E. coli sepsis** | Galactosemia
+| Symptoms after introducing **fruit & juice** | **Fructose intolerance**
+| Hypoglycemia + ketones in urine | **Maple syrup urine disease**
+| Urine smells like **burned sugar** | Maple syrup urine disease
+| Positive urine **reducing substance** | Galactosemia & fructose intolerance
+* **MSUD treatment:** stop protein temporarily; start BCAA-free formula with IV glucose
+:cell 66
+|= Disease | Pathophysiology | Presentation | Treatment
+| **Maple syrup urine disease** | Blocked degradation of branched amino acids (isoleucine, leucine, valine) | Vomiting, poor feeding, secretions **smell like maple syrup / burnt sugar**, seizures, dystonia | Restrict isoleucine, **leucine**, valine + **thiamine**
+| **Galactosemia** | Deficiency of galactose-1-phosphate uridyltransferase | Starts when fed formula or breast milk → FTT, jaundice, hepatomegaly, **infantile cataracts**, aminoaciduria, glycosuria, **E. coli sepsis** | Exclude galactose and lactose from diet
+| **Phenylketonuria** | Decreased phenylalanine hydroxylase; tyrosine becomes essential | Intellectual disability, microcephaly, seizures, hypopigmented skin, eczema, **musty body odor** | **Restrict phenylalanine**, increase tyrosine
+:end
+:wide Puberty, stature & syndromes
+:cell 27
+## Tall stature in males
+tree:
+Tall stature
+  Eye symptoms (ectopia lentis)?
+    No :: [g] Ehlers-Danlos syndrome \ joint hypermobility, lax skin
+    Yes :: Developmental delay?
+      No :: [r] Marfan syndrome \ upward lens shift
+      Yes :: [r] Homocystinuria \ downward lens shift
+/tree
+* Tall + thin + **mental retardation** → **Homocystinuria** (not Marfan)
+:cell 22
+## Webbed neck
+tree:
+Webbed neck
+  Sex?
+    Male :: [g] Noonan syndrome
+    Female :: [r] Turner syndrome \ karyotype 45,X
+/tree
+## Primary amenorrhea
+tree:
+Primary amenorrhea
+  Secondary sexual characteristics?
+    No :: [r] Gonadal dysgenesis
+    Yes :: [g] Mullerian agenesis
+/tree
+:cell 24
+## Down syndrome + thyroid
+|= Picture | Diagnosis
+| Diarrhea + mood changes | **Hyperthyroidism** → TFT
+| Constipation + mood changes | **Hypothyroidism** → TFT
+| Diarrhea, **no** mood changes | **Celiac disease**
+* Down syndrome can cause both (mostly **hypo**)
+:cell 27
+## Key facts
+* **Panhypopituitarism:** replace **steroids FIRST**
+* **CAH:** 21-hydroxylase deficiency · metabolic acidosis, **hyperkalemia, hyponatremia**, hypoglycemia → **hydrocortisone + saline bolus + glucose**
+* **Rickets:** hypotonia, delayed motor milestones, delayed dentition · low Ca, low PO4, **high ALP**, low vitamin D → **vitamin D3 + calcium**
+:end
+# 1 Diabetes & {DKA}
+> في الـ{DKA}: {dehydration} + {acidosis}. نبدأ **{IV fluids}** ({10–20 mL/kg} بحذر)، وبعد ساعة {insulin infusion} [no:بدون {bolus}]، ونضيف {potassium} لما يبوّل، و{dextrose} لما ينزل الـ{glucose}.
+!why ليش كل شي ببطء؟: لأن التصحيح السريع يدخّل الماي للمخ ← {cerebral edema}: {headache} ثم {bradycardia} ثم {decreased consciousness} ← {mannitol}.
+%% 9-year-old, bedwetting 3 months, weight loss, polydipsia. Next investigation? → Random blood glucose ✔ || {secondary enuresis} + {polydipsia} + {weight loss} = {diabetes}.
+# 2 Endocrine
+|= Disease | Clue | Answer
+| Congenital hypothyroidism | Prolonged jaundice + large tongue + constipation + umbilical hernia | Levothyroxine immediately
+| CAH (girl) | Ambiguous genitalia | 17-OH progesterone
+| CAH (boy) | 2 weeks old: vomiting + Na ↓ + K ↑ | Normal saline + hydrocortisone
+| Precocious puberty | Girl <8 years, boy <9 years | Bone age + LH / FSH
+| Isolated breast development <2 years | Premature thelarche | Reassure
+!why ليش {CAH} يسبب {Na ↓ K ↑}؟: لأن ما فيه {aldosterone} (اللي يمسك الـ{sodium} ويطلّع الـ{potassium}).
+# 3 Syndromes
+|= Syndrome | Buzzwords
+| Down | Hypotonia, single palmar crease, AVSD, duodenal atresia
+| Turner | Short girl, webbed neck, coarctation
+| Klinefelter | Tall boy, small testes
+| Fragile X | Large ears, large testes, intellectual disability
+^ ① Polyuria / polydipsia? → {glucose} ② {DKA}? → fluids then {insulin} without {bolus} ③ Neonate {Na ↓ K ↑}? → {CAH} ④ Dysmorphic features? → {karyotype}
 == Musculoskeletal & rheumatology
-@ المنطق: العرج: **العمر** يحدد السبب. وحرارة + ما يدعس = التهاب بالمفصل حتى يثبت العكس، لأنه يخرب المفصل بأيام.
-@@ دوري في السؤال على: العمر · حرارة · يقدر يدعس؟ · سمين · ركبة · أكثر من 6 أسابيع · طفح
-# 1 العرج
-> نفس الصورة (طفل يعرج) بس كل عمر له مرض:
-| العمر | {Disease} | {Answer} |
-| رضيع | {DDH} (الورك طالع) | {US} قبل 4–6 شهور ← {Pavlik harness} |
-| 3–10 بعد زكام + بخير | {transient synovitis} | راحة + {NSAIDs} |
-| أي عمر + حرارة عالية + ما يدعس | {septic arthritis} | [no:{aspiration}] ← {IV antibiotics} |
-| ولد 4–8 | {Perthes} | {X-ray} |
-| مراهق سمين | {SCFE} | {X-ray} ← ما يدعس ← تثبيت |
-!warn ليش أفحص الورك لما يشتكي من الركبة؟: لأن عصب الورك يوصل الإحساس للركبة. فمراهق سمين يقول ركبتي تعورني ← فكري {SCFE}. وألم عظم **بالليل** = ورم لين يثبت العكس.
-# 2 المفاصل
-> التهاب مفصل **أكثر من 6 أسابيع** عند طفل = {JIA}. والنوع الصغير ({oligoarticular}) ممكن يجيب التهاب بالعين بدون أعراض ← لازم فحص عيون دوري.
-| {Situation} | {Answer} |
-| {JIA} | {NSAIDs} ← {methotrexate} |
-| مفاصل تتنقل بعد الحلق | {rheumatic fever} ← {aspirin} |
-| طفح بالرجلين + مفاصل + بطن | {HSP} ← دعم وتابعي البول |
-# 3 الكسور
-| {Situation} | {Answer} |
-| انسحبت يده وما يحركها | {nursemaid's elbow} ← رجعيها ({supination-flexion}) |
-| كسور كثيرة + بياض العين أزرق | {osteogenesis imperfecta} |
-| كسر عند رضيع ما يمشي + قصة ما تطابق | إساءة ← عالجي وبلغي |
-^ ① كم عمره؟ ② حرارة + ما يدعس؟ ← {aspiration} ③ مراهق سمين؟ ← {SCFE} ④ أكثر من 6 أسابيع؟ ← {JIA}
+@ المنطق: الـ{limp}: **العمر** يحدد السبب. و{fever} + {refusal to bear weight} = {septic arthritis} حتى يثبت العكس.
+@@ دوري في السؤال على: age · {fever} · weight bearing? · obese · knee pain · >6 weeks · rash
+:wide Cellulitis, osteomyelitis & arthritis
+:cell 25
+## Suspected osteomyelitis
+tree:
+Suspected osteomyelitis \ fracture/penetrating wound + fever + focal bone pain + warmth/redness
+  Initial step: X-ray
+    X-ray positive?
+      Yes :: [g] MRI not needed
+      No :: [r] MRI to confirm
+/tree
+:cell 25
+## Cellulitis
+tree:
+Cellulitis
+  Fever OR other severe features? \ systemic toxicity · rapidly spreading · immunocompromised · failed oral antibiotics
+    Yes :: [r] IV antibiotics
+    No :: [g] Oral antibiotics
+/tree
+## Reactive arthritis
+tree:
+Number of joints?
+  More than one :: [g] Supportive (NSAIDs)
+  One joint :: Joint effusion?
+    Present :: [r] Drain fluid for analysis
+    Absent :: [g] Supportive (NSAIDs)
+/tree
+:cell 50
+|= Disease | Key buzzwords | Brief management
+| Cellulitis | Warm, erythematous, tender swelling; indistinct borders; ± lymphangitis | Fever or severe features → IV antibiotics; otherwise oral
+| Osteomyelitis | Fever + focal bone pain + local warmth/redness, often after a fracture or penetrating wound | X-ray first; if negative, MRI to confirm; antibiotics (+ drainage if abscess)
+| Necrotizing fasciitis | **Pain out of proportion**; rapidly progressive swelling, purple/dusky discoloration; toxic | **Urgent surgical debridement** + IV antibiotics
+| Hidradenitis suppurativa | Recurrent axillary/groin swelling with pus and scarring, >3 times a year | Topical/oral antibiotics for flares; weight loss, stop smoking; surgery if severe
+:end
+# 1 Limp
+|= Age | Disease | Answer
+| Infant | DDH | US before 4–6 months → Pavlik harness
+| 3–10 years, after URTI, well | Transient synovitis | Rest + NSAIDs
+| Any age + high fever + non-weight bearing | Septic arthritis | Joint aspiration → IV antibiotics
+| Boy 4–8 years | Perthes disease | X-ray
+| Obese adolescent | SCFE | X-ray → non-weight bearing → fixation
+!warn ليش أفحص الـ{hip} لما يشتكي من الـ{knee}؟: لأن ألم الـ{hip} ينتقل للـ{knee} ({referred pain}). {obese adolescent} + {knee pain} ← {SCFE}. و{bone pain} **بالليل** = {tumor} حتى يثبت العكس.
+# 2 Joints
+> {arthritis} **أكثر من 6 weeks** عند طفل = {JIA}. والـ{oligoarticular} ممكن يسبب {uveitis} بدون أعراض ← {regular eye screening}.
+|= Situation | Answer
+| JIA | NSAIDs → methotrexate
+| Migratory arthritis after sore throat | Rheumatic fever → aspirin
+| Purpura on legs + arthralgia + abdominal pain | HSP → supportive, follow urine
+# 3 Fractures
+|= Situation | Answer
+| Arm pulled, child won't move it | Nursemaid's elbow → reduction (supination-flexion)
+| Multiple fractures + blue sclera | Osteogenesis imperfecta
+| Fracture in a non-walking infant + inconsistent history | Child abuse → treat and report
+^ ① Age? ② {Fever} + non-weight bearing? → {aspiration} ③ Obese adolescent? → {SCFE} ④ >6 weeks? → {JIA}
 == Emergency, poisoning & child abuse
-@ المنطق: التسمم: "**وش بلع؟ ومتى؟**" ← كل مادة لها علاج أو ممنوعات. الإساءة: القصة ما تطابق الإصابة ← عالجي وبلغي. الإنعاش: الطفل غالبًا يوقف قلبه من التنفس، فالتهوية أهم شي.
-@@ دوري في السؤال على: المادة · الوقت · القصة تطابق؟ · تأخروا · كدمات بأماكن غريبة · رضيع ما يمشي
-# 1 التسمم
-> القاعدة: **لا تخلينه يرجع** أغلب الأحيان، لأن اللي نزل ممكن يحرق أو يدخل الرئة وهو طالع.
-| {Poison} | {Answer} | ليش |
-| {Paracetamol} | مستوى بعد 4 ساعات ← {N-acetylcysteine} | يحمي الكبد |
-| {Iron} | {abdominal X-ray} ← {deferoxamine} | الحديد يبان بالأشعة |
-| {Kerosene} | [no:لا ترجيع] ← راقبي + {CXR} | خطره يدخل الرئة |
-| مادة كاوية | لا ترجيع ← {endoscopy} | تحرق مرتين |
-| {Button battery} | إزالة عاجلة | تحرق المريء بساعات |
-| {Organophosphate} | {atropine} + {pralidoxime} | — |
-# 2 الإساءة
-> فكري فيها لما: القصة **ما تطابق** الإصابة · تأخروا يجون · كدمات بأماكن غريبة · رضيع **ما يمشي** وفيه كسر. نزيف بالشبكية + نزيف بالمخ = {shaken baby}.
-!gold القرار: [ok:عالجي الطفل + بلغي الجهات]. لا تواجهين الأهل ولا تطلعينه معهم.
-%% 11-month-old, radius and ulna fractures 2 days after a "fall", delayed seeking care. Next? → Treat and inform the authorities ✔ || رضيع + تأخير + كسر = إساءة محتملة ← العلاج والتبليغ مع بعض.
-# 3 الإنعاش
-| {Situation} | {Answer} |
-| {CPR} | {30:2} لو واحد · {15:2} لو اثنين |
-| نبض أقل من 60 + دورة ضعيفة | ابدي {CPR} |
-| {DNR} ما خلص + وقف قلبه | [ok:ابدي {CPR}] وكلمي الأهل |
-| {Anaphylaxis} | {IM epinephrine} بالفخذ |
-^ ① وش بلع ومتى؟ ← العلاج وممنوع الترجيع؟ ② القصة تطابق؟ لا = بلغي ③ وقف قلب؟ ← {CPR} وتهوية
+@ المنطق: الـ{poisoning}: "**وش بلع؟ ومتى؟**" ← كل مادة لها {antidote} أو ممنوعات. الـ{child abuse}: الـ{history} ما يطابق الإصابة ← {treat and report}. الـ{resuscitation}: الطفل غالبًا يوقف قلبه من الـ{hypoxia}، فالـ{ventilation} أهم شي.
+@@ دوري في السؤال على: substance · time · history consistent? · delay in seeking care · bruises in unusual sites · non-walking infant
+# 1 Poisoning
+> القاعدة: **{do not induce vomiting}** أغلب الأحيان، لأن المادة ممكن تحرق أو تدخل الرئة وهي طالعة.
+|= Poison | Answer | Why
+| Paracetamol | Level at 4 hours → N-acetylcysteine | Protects the liver
+| Iron | Abdominal X-ray → deferoxamine | Iron is radio-opaque
+| Kerosene | No vomiting → observe + CXR | Risk of aspiration
+| Caustic ingestion | No vomiting → endoscopy | Burns twice
+| Button battery | Urgent removal | Burns the esophagus within hours
+| Organophosphate | Atropine + pralidoxime | —
+# 2 Child abuse
+> فكري فيه إذا: الـ{history} **ما يطابق** الإصابة · {delay in seeking care} · {bruises} بأماكن غريبة · {fracture} عند {non-walking infant}. و{retinal hemorrhage} + {subdural hematoma} = {shaken baby syndrome}.
+!gold القرار: [ok:{treat the child + inform authorities}]. لا تواجهين الأهل ولا تطلّعينه معهم.
+%% 11-month-old, radius and ulna fractures 2 days after a "fall", delayed seeking care. Next? → Treat and inform the authorities ✔ || {infant} + {delay} + {fracture} = {suspected abuse} ← العلاج والتبليغ مع بعض.
+# 3 Resuscitation
+|= Situation | Answer
+| CPR ratio | 30:2 (one rescuer) · 15:2 (two rescuers)
+| HR <60 with poor perfusion | Start CPR
+| DNR not finalized + cardiac arrest | Start CPR and talk to the family
+| Anaphylaxis | IM epinephrine (thigh)
+^ ① What and when? → {antidote} / no vomiting ② History consistent? No → report ③ Arrest? → {CPR} + {ventilation}

@@ -125,6 +125,42 @@ def render_flow(spec):
     return f'<div class="flow"><div class="ftop">{top}</div>' + (f'<div class="fbrs">{brs}</div>' if brs else "") + "</div>"
 
 
+def render_tree(lines):
+    """decision tree: indentation (2 spaces) = level; 'Label :: text \\ sub'; [r] [g] [b] [y] colour the box"""
+    root, stack = [], []
+    for ln in lines:
+        ind = (len(ln) - len(ln.lstrip(" "))) // 2
+        txt = ln.strip()
+        lab = ""
+        if " :: " in txt:
+            lab, txt = txt.split(" :: ", 1)
+        m = re.match(r"\[([rgby])\]\s*", txt)
+        col = {"r": "f1", "g": "f2", "b": "f3", "y": "f4"}[m.group(1)] if m else "f0"
+        if m:
+            txt = txt[m.end():]
+        node = dict(lab=lab, txt=txt, col=col, kids=[])
+        stack = stack[:ind]
+        (stack[-1]["kids"] if stack else root).append(node)
+        stack.append(node)
+
+    def draw(n):
+        ti, _, sub = n["txt"].partition("\\")
+        h = f'<div class="fb {n["col"]}" dir="auto"><b>{gb(ti.strip())}</b>' + (f'<small>{gb(sub.strip())}</small>' if sub.strip() else "") + "</div>"
+        ks = n["kids"]
+        if len(ks) == 2 and (not ks[0]["kids"]) != (not ks[1]["kids"]):  # one exit + one continuing branch: keep the chain vertical
+            leaf, cont = (ks[0], ks[1]) if not ks[0]["kids"] else (ks[1], ks[0])
+            lt, _, ls = leaf["txt"].partition("\\")
+            lbox = f'<div class="fb {leaf["col"]}" dir="auto"><b>{gb(lt.strip())}</b>' + (f'<small>{gb(ls.strip())}</small>' if ls.strip() else "") + "</div>"
+            h = (f'<div class="tside">{h}<div class="flab" dir="auto">{gb(leaf["lab"])} →</div>{lbox}</div>'
+                 f'<div class="fa">↓ <span class="flab" dir="auto">{gb(cont["lab"])}</span></div>' + draw(cont))
+            return f'<div class="tn">{h}</div>'
+        if n["kids"]:
+            h += '<div class="fa">↓</div><div class="tk' + (" multi" if len(n["kids"]) > 1 else "") + '">' + "".join(
+                '<div class="tc">' + (f'<div class="flab" dir="auto">{gb(k["lab"])}</div>' if k["lab"] else "") + draw(k) + "</div>" for k in n["kids"]) + "</div>"
+        return f'<div class="tn">{h}</div>'
+    return '<div class="flow">' + "".join(draw(n) for n in root) + "</div>"
+
+
 def render_guide(name, lines):
     h, tbl = "", []
     wide, cell, in_wide = "", None, False  # full-width area above the columns: :wide / :cell N / :end
@@ -143,8 +179,19 @@ def render_guide(name, lines):
         if cell is not None:
             wide += f'<div class="wc" style="flex:{cell} 1 0">{h}</div>'
             h, cell = "", None
-    gold, plan, main = "", "", ""
+    gold, plan, main, tree = "", "", "", None
     for ln in lines:
+        if tree is not None:
+            if ln.strip() == "/tree":
+                h += render_tree(tree)
+                tree = None
+            else:
+                tree.append(ln)
+            continue
+        if ln.strip() == "tree:":
+            flush()
+            tree = []
+            continue
         if ln.startswith("|"):
             tbl.append(ln)
             continue
@@ -170,14 +217,14 @@ def render_guide(name, lines):
         elif ln.startswith("@ "):
             gold = f'<div class="gx gold"><b class="t">القاعدة الذهبية</b>{gb(ln[2:])}</div>'
         elif ln.startswith("^ "):
-            plan = f'<div class="gx gold plan"><b class="t">خطة أي سؤال</b>{gb(ln[2:])}</div>'
+            plan = f'<div class="gx gold plan"><b class="t">خطة أي سؤال</b><span class="gxt" dir="auto">{gb(ln[2:])}</span></div>'
         elif ln.startswith("# "):
             n, _, t = ln[2:].partition(" ")
             h += f'<h3><i>{n}</i>{gb(t)}</h3>'
         elif ln.startswith("!"):
             kind, _, rest = ln[1:].partition(" ")
             lab, _, txt = rest.partition(":")
-            h += f'<div class="gx {kind}"><b class="t">{gb(lab)}</b>{gb(txt.strip())}</div>'
+            h += f'<div class="gx {kind}"><b class="t">{gb(lab)}</b><span class="gxt" dir="auto">{gb(txt.strip())}</span></div>'
         elif ln.startswith("- "):
             h += f'<div class="gl">• {gb(ln[2:])}</div>'
         elif ln.startswith("> "):  # plain explanation paragraph
@@ -489,13 +536,17 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .guide th {{ background: #e3e3e3; font-weight: 700; }}
 .guide td, .guide th {{ padding: .55mm 1.6mm; border-bottom: 1px solid #bbb; vertical-align: top; text-align: right; }}
 .guide tr:last-child td {{ border-bottom: none; }}
-.wrow {{ display: flex; gap: 3mm; align-items: flex-start; margin: 1mm 0 2mm; direction: ltr; }}
+.wrow {{ display: flex; gap: 3mm; align-items: flex-start; margin: 1mm 0 2mm; direction: ltr; break-inside: avoid; }}
+.tside {{ display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1.2mm; max-width: 100%; }}
+.gxt {{ display: block; unicode-bidi: plaintext; }}
+.tside > .fb {{ min-width: 0; }}
+.wtitle {{ break-after: avoid; }}
 .wc {{ min-width: 0; }}
 .wtitle {{ font-weight: 700; font-size: 10pt; margin: 1.5mm 0 .5mm; border-right: 4px solid #2b6f8f; padding-right: 2mm; }}
 .guide table.mt {{ direction: ltr; border: 1px solid #5b6770; font-size: 7.6pt; line-height: 1.3; }}
 .guide table.mt th, .guide table.mt td {{ text-align: left; padding: .7mm 1.4mm; border-right: 1px solid #c9ced2; }}
 .guide table.mt tr:first-child th {{ background: #4a545c; color: #fff; text-align: center; }}
-.guide table.mt tr:not(:first-child) th {{ background: #eef1f3; width: 14%; }}
+.guide table.mt tr:not(:first-child) th {{ background: #eef1f3; min-width: 15mm; }}
 .guide table.mt tr:nth-child(odd) td {{ background: #fafbfc; }}
 .guide .hl {{ background: #ffe89a; padding: 0 .6mm; border-radius: .6mm; }}
 .mn {{ direction: ltr; text-align: left; font-size: 8pt; line-height: 1.35; margin: .5mm 0; padding: .6mm 1.6mm; border-left: 3px solid #2b6f8f; background: #f1f7fa; border-radius: 0 1.2mm 1.2mm 0; break-inside: avoid; }}
@@ -512,6 +563,10 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .fb.f2 {{ background: #e2f3ee; border-color: #4f9483; color: #17493d; }}
 .fb.f3 {{ background: #e6eefb; border-color: #5b7fc0; color: #1e3a70; }}
 .fb.f4 {{ background: #fdf3d3; border-color: #c2a03a; color: #5c4705; }}
+.tn {{ display: flex; flex-direction: column; align-items: center; min-width: 0; }}
+.tk {{ display: flex; gap: 1.6mm; justify-content: center; align-items: flex-start; }}
+.tk.multi {{ border-top: 1.1pt solid #777; padding-top: .5mm; }}
+.tc {{ flex: 1 1 0; display: flex; flex-direction: column; align-items: center; min-width: 0; }}
 .gx {{ padding: 1.4mm 2.4mm; border-radius: 1.6mm; margin: 1mm 0; border: 1px solid #000; border-right-width: 3.5px; break-inside: avoid; }}
 .gx .t {{ display: block; margin-bottom: .2mm; }}
 .gx.gold {{ background: #ececec; }}
