@@ -468,6 +468,28 @@ def ideas(group):
     return out
 
 
+if os.environ.get("DEDUP"):  # merge near-identical questions (same topic, same answer text, very similar stem) into one with ×N
+    th, kept, last = float(os.environ["DEDUP"]), [], {}
+    for it in items:
+        a = re.sub(r"^[A-Fa-f][.)\-]\s*", "", it["ans"].strip()).lower().rstrip(".")
+        v = kvec(it["stem"])
+        hit = None
+        for k in last.get((it["sys"], it["topic"], a), []):
+            if cos(v, k["_v"]) >= th:
+                hit = k
+                break
+        if hit and not a.startswith("—"):
+            hit["_n"] = hit.get("_n", 1) + 1
+            if it.get("xnote") and not hit.get("xnote"):
+                hit["xnote"] = it["xnote"]
+            continue
+        it["_v"] = v
+        last.setdefault((it["sys"], it["topic"], a), []).append(it)
+        kept.append(it)
+    print("DEDUP merged", len(items) - len(kept), "near-identical questions")
+    items = kept
+    for i, it in enumerate(items):
+        it["n"] = i + 1
 by_topic = defaultdict(list)
 for it in items:
     by_topic[(it["sys"], it["topic"])].append(it)
@@ -502,6 +524,8 @@ for it in items:
     for k, t in it["opts"]:
         ok = bool(re.match(rf"{k}[.)\-]", ans))
         hit = hit or ok
+        if os.environ.get("ANSONLY") and not ok:
+            continue
         o += f' <span class="{"ok" if ok else "op"}">{'<span class="ck">✔</span>' if ok else ""}{k}. {e(t)}</span>'
     if not hit:
         o += f' <span class="ok"><span class="ck">✔</span> {e(ans)}</span>'
@@ -532,7 +556,11 @@ for it in items:
         st = it["set"]
         body += (f'<div class="lset"><div class="lsh">Look-alike set {st["n"]} · {e(st["title"])}</div>'
                  f'<b>How to tell them apart:</b> {e(st["how"])}</div>')
+    if os.environ.get("NONOTES"):
+        nt = ""
     nt = it.get("xnote", "") + nt
+    if it.get("_n", 1) > 1:
+        tg += f'<span class="rp">×{it["_n"]}</span> '
     body += f'<div class="q"><b>{n}.</b>{tg} {rp}{e(it["stem"])}{it["flag"]}{o}{nt}</div>'
 n = len(items)
 
