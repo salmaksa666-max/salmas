@@ -500,6 +500,8 @@ if os.environ.get("DEDUP"):  # merge near-identical questions (same topic, same 
     items = kept
     for i, it in enumerate(items):
         it["n"] = i + 1
+if os.environ.get("DUMPN"):
+    json.dump({it["n"]: it["qid"] for it in items}, open(os.environ["DUMPN"], "w"), ensure_ascii=False)
 KW = json.load(open(os.environ["KW"], encoding="utf-8")) if os.environ.get("KW") else {}
 by_topic = defaultdict(list)
 for it in items:
