@@ -530,6 +530,8 @@ for it in items:
                     f'<span class="nd" dir="{"rtl" if AR.search(nd) else "ltr"}">{bidi(nd.strip()) if AR.search(nd) else e(nd.strip())}</span>'
                     for nd in x.split("→") if nd.strip()) + "</div>" for x in BOXES[it["topic"]]) + "</div>"
         cur_t = it["topic"]
+        if it.get("howto"):  # group header: what the cluster is about + how it is solved
+            body += (f'<div class="gh"><b>{len(by_topic[(it["sys"], it["topic"])])} Qs · كلها نفس الموضوع</b> — <span dir="ltr">{e(it["howto"])}</span></div>')
         if os.environ.get("IDEAS"):
             body += ideas(by_topic[(it["sys"], it["topic"])])
     n = it["n"]
@@ -577,14 +579,16 @@ for it in items:
     if os.environ.get("NONOTES"):
         nt = ""
     if os.environ.get("SHOWKEY") and it.get("key"):  # the disease / concept the question is about, in one line
-        nt = f'<div class="nt kyl">🔑 {e(it["key"])}</div>' + nt
+        _dx = re.sub(r"^[A-E][.)]\s*", "", it["ans"].strip())
+        _dx = f' <b>⇒ {e(_dx)}</b>' if it.get("howto") and _dx and not _dx.startswith("—") else ""
+        nt = f'<div class="nt kyl">🔑 {e(it["key"])}{_dx}</div>' + nt
     nt = it.get("xnote", "") + nt
     if it.get("_n", 1) > 1:
         tg += f'<span class="rp">×{it["_n"]}</span> '
     stem_h = e(it["stem"])
     for _k in sorted(KW.get(it["qid"], []), key=len, reverse=True):
         stem_h = re.sub(re.escape(e(_k)), lambda m: f'<span class="kwh">{m.group(0)}</span>', stem_h, count=1, flags=re.I)
-    body += f'<div class="q"><b>{n}.</b>{tg} {rp}{stem_h}{it["flag"]}{o}{nt}</div>'
+    body += f'<div class="q{" gq" if it.get("howto") else ""}"><b>{n}.</b>{tg} {rp}{stem_h}{it["flag"]}{o}{nt}</div>'
 n = len(items)
 
 FONTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "fonts")
@@ -597,6 +601,8 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .cols {{ column-count: {COLS}; column-gap: {os.environ.get("GAP", "2.6")}mm; column-rule: .3pt solid #888; }}
 .sh {{ background: #000; color: #fff; font-weight: bold; font-size: 1.25em; padding: .3mm 1.2mm; margin: .8mm 0 .3mm; break-after: avoid; }}
 .th {{ border-bottom: .8pt solid #000; font-weight: bold; margin: .6mm 0 .2mm; break-after: avoid; }}
+.gh {{ border: .8pt solid #000; background: #e8e8e8; padding: .5mm 1mm; margin: .2mm 0 .4mm; break-inside: avoid; }}
+.gq {{ border-left: 1.8pt solid #000; padding-left: 1mm; margin-left: .2mm; }}
 .q {{ border-bottom: .25pt solid #999; padding: {os.environ.get('QP', '.25')}mm 0 {os.environ.get('QP', '.35')}mm; break-inside: avoid; }}
 .op {{ color: #222; }}
 .ok {{ font-weight: bold; text-decoration: underline; }}
