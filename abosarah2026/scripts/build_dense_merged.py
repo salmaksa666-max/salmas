@@ -532,7 +532,7 @@ for it in items:
         cur_t = it["topic"]
         cur_tn = _tn
         if it.get("howto"):  # group header: what the cluster is about + how it is solved
-            body += (f'<div class="gh"><b>{len(by_topic[(it["sys"], it["topic"])])} Qs · كلها نفس الموضوع</b> — <span dir="ltr">{e(it["howto"])}</span></div>')
+            body += (f'<div class="gh gc{cur_tn % 8}"><b>{len(by_topic[(it["sys"], it["topic"])])} Qs · كلها نفس الموضوع</b> — <span dir="ltr">{e(it["howto"])}</span></div>')
         if os.environ.get("IDEAS"):
             body += ideas(by_topic[(it["sys"], it["topic"])])
     n = it["n"]
@@ -589,7 +589,7 @@ for it in items:
     stem_h = e(it["stem"])
     for _k in sorted(KW.get(it["qid"], []), key=len, reverse=True):
         stem_h = re.sub(re.escape(e(_k)), lambda m: f'<span class="kwh">{m.group(0)}</span>', stem_h, count=1, flags=re.I)
-    body += f'<div class="q{" gq" if it.get("howto") else ""}"><b>{n}.</b>{(f'<span class="gt">G{cur_tn}</span>' if it.get("howto") else "")}{tg} {rp}{stem_h}{it["flag"]}{o}{nt}</div>'
+    body += f'<div class="q{(" gq gc" + str(cur_tn % 8)) if it.get("howto") else ""}"><b>{n}.</b>{(f'<span class="gt">G{cur_tn}</span>' if it.get("howto") else "")}{tg} {rp}{stem_h}{it["flag"]}{o}{nt}</div>'
 n = len(items)
 
 FONTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "fonts")
@@ -603,9 +603,18 @@ body {{ font-family: "DejaVu Sans", Arial, sans-serif; font-size: {FS}pt; line-h
 .sh {{ background: #000; color: #fff; font-weight: bold; font-size: 1.25em; padding: .3mm 1.2mm; margin: .8mm 0 .3mm; break-after: avoid; }}
 .th {{ border-bottom: .8pt solid #000; font-weight: bold; margin: .6mm 0 .2mm; break-after: avoid; }}
 .gh {{ border: .8pt solid #000; background: #e8e8e8; padding: .5mm 1mm; margin: .2mm 0 .4mm; break-inside: avoid; }}
-.gq {{ border-left: 4.5pt solid #000; padding-left: 1.4mm; margin-left: .2mm; }}
-.gt {{ background: #000; color: #fff; font-weight: bold; font-size: .85em; padding: 0 .8mm; margin-right: .8mm; border-radius: 1mm; }}
-.gh {{ border-width: 1.6pt !important; background: #d9d9d9 !important; font-size: 1.02em; }}
+.gc0 {{ --c: #d32f2f; --t: #fde8e8; }}
+.gc1 {{ --c: #1565c0; --t: #e3f0fd; }}
+.gc2 {{ --c: #2e7d32; --t: #e6f4e7; }}
+.gc3 {{ --c: #ef6c00; --t: #fff0dd; }}
+.gc4 {{ --c: #6a1b9a; --t: #f1e5f7; }}
+.gc5 {{ --c: #00838f; --t: #dff3f5; }}
+.gc6 {{ --c: #c2185b; --t: #fde4ee; }}
+.gc7 {{ --c: #6d4c41; --t: #efe6e1; }}
+.gq {{ border-left: 5pt solid var(--c); background: var(--t); border-bottom-color: var(--c); padding-left: 1.4mm; margin-left: .2mm; }}
+.gt {{ background: var(--c); color: #fff; font-weight: bold; font-size: .85em; padding: 0 .8mm; margin-right: .8mm; border-radius: 1mm; }}
+.gh {{ border: 1.6pt solid var(--c) !important; border-left: 7pt solid var(--c) !important; background: var(--t) !important; font-size: 1.02em; margin-top: 3mm !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }}
+.gq {{ -webkit-print-color-adjust: exact; print-color-adjust: exact; }}
 .q {{ border-bottom: .25pt solid #999; padding: {os.environ.get('QP', '.25')}mm 0 {os.environ.get('QP', '.35')}mm; break-inside: avoid; }}
 .op {{ color: #222; }}
 .ok {{ font-weight: bold; text-decoration: underline; }}
