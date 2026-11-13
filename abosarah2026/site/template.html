@@ -75,10 +75,10 @@ function home(){
  <div class="row"><button class="btn" onclick="backup()">نسخ احتياطي للتقدم</button></div><div id="bk"></div>`;
  return h}
 function bank(){const b=BYB[V.b];let h=topb(AR[b.n]||b.n,"go({v:'home'})");
- b.sys.forEach((s,si)=>{const ss=stat([].concat(...s.g.map(g=>g.q)));
-  h+=`<div class="sys"><span>${esc(s.n)}</span><span class="sm">${ss.d}/${ss.n}</span></div>`;
-  s.g.forEach((g,gi)=>{const st=stat(g.q);
-   h+=`<button class="grp" onclick="go({v:'quiz',b:'${b.n}',s:${si},g:${gi},i:0,uns:false})"><div class="t ltr" dir="ltr">${esc(g.n)||"—"}${bar(st)}</div><div class="n">${st.d}/${st.n}${st.w?` · <span style="color:var(--bad)">${st.w}✘</span>`:""}</div></button>`})});
+ b.sys.forEach((s,si)=>{const one=s.g.length===1;
+  if(!one){const ss=stat([].concat(...s.g.map(g=>g.q)));h+=`<div class="sys"><span>${esc(s.n)}</span><span class="sm">${ss.d}/${ss.n}</span></div>`}
+  s.g.forEach((g,gi)=>{const st=stat(g.q);const nm=one?s.n:g.n;
+   h+=`<button class="grp" onclick="go({v:'quiz',b:'${b.n}',s:${si},g:${gi},i:0,uns:false})"><div class="t ltr" dir="ltr"><b>${esc(nm)||"—"}</b>${bar(st)}</div><div class="n">${st.d}/${st.n}${st.w?` · <span style="color:var(--bad)">${st.w}✘</span>`:""}</div></button>`})});
  return h}
 function qhtml(q,back,idx,tot,rt){
  const p=rt?V.retry[q.i]:P[q.i];
@@ -93,7 +93,7 @@ function quiz(){
  if(V.uns)list=list.filter(q=>!P[q.i]||V.keep===q.i);
  if(!list.length){return topb(esc(g.n),"go({v:'bank',b:'"+V.b+"'})")+`<div class="card">خلصتي كل أسئلة هذي المجموعة 🎉</div><div class="row"><button class="btn" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false})">أعيدي عرضها</button><button class="btn bad" onclick="resetG()">امسحي تقدم المجموعة</button></div>`}
  V.i=Math.min(V.i,list.length-1);const q=list[V.i];
- let h=topb(esc(g.n),"go({v:'bank',b:'"+V.b+"'})");
+ let h=topb(esc(b.sys[V.s].g.length===1?b.sys[V.s].n:g.n),"go({v:'bank',b:'"+V.b+"'})");
  if(g.h&&V.i===0)h+=`<div class="how ltr" dir="ltr"><b>${g.q.length} Qs · ${esc(g.n)}</b><br>${esc(g.h)}</div>`;
  h+=`<div class="row"><button class="btn" onclick="V.uns=!V.uns;V.i=0;render()">${V.uns?"✔ اللي ما حليته بس":"اللي ما حليته بس"}</button></div>`;
  h+=qhtml(q,0,V.i,list.length);
