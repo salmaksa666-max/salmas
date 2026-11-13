@@ -90,12 +90,12 @@ function qhtml(q,back,idx,tot,rt){
  return`<div class="card"><div class="tag">${esc(q.i)}${tot?` · ${idx+1}/${tot}`:""}</div><p class="stem ltr" dir="ltr">${esc(q.q)}</p>${o}${r}</div>`}
 function quiz(){
  const b=BYB[V.b],g=b.sys[V.s].g[V.g];let list=g.q;
- if(V.uns&&!V.rt)list=list.filter(q=>!P[q.i]||V.keep===q.i);
- if(!list.length){return topb(esc(g.n),"go({v:'bank',b:'"+V.b+"'})")+`<div class="card">خلصتي كل أسئلة هذي المجموعة 🎉</div><div class="row"><button class="btn p" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:true})">أعيدي الحل</button><button class="btn bad" onclick="resetG()">امسحي تقدم المجموعة</button></div>`}
+ if(V.uns&&!V.rt){if(!V.snap)V.snap=new Set(list.filter(q=>!P[q.i]).map(q=>q.i));list=list.filter(q=>V.snap.has(q.i))}
+ if(!list.length){V.snap=null;return topb(esc(g.n),"go({v:'bank',b:'"+V.b+"'})")+`<div class="card">خلصتي كل أسئلة هذي المجموعة 🎉</div><div class="row"><button class="btn p" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:true})">أعيدي الحل</button><button class="btn bad" onclick="resetG()">امسحي تقدم المجموعة</button></div>`}
  V.i=Math.min(V.i,list.length-1);const q=list[V.i];
  let h=topb(esc(b.sys[V.s].g.length===1?b.sys[V.s].n:g.n),"go({v:'bank',b:'"+V.b+"'})");
  if(g.h&&V.i===0)h+=`<div class="how ltr" dir="ltr"><b>${g.q.length} Qs · ${esc(g.n)}</b><br>${esc(g.h)}</div>`;
- h+=`<div class="row"><button class="btn" onclick="V.uns=!V.uns;V.rt=false;V.i=0;render()">${V.uns?"✔ اللي ما حليته بس":"اللي ما حليته بس"}</button><button class="btn ${V.rt?'p':''}" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:!V.rt})">${V.rt?"✔ وضع إعادة الحل":"أعيدي الحل"}</button></div>`;
+ h+=`<div class="row"><button class="btn" onclick="V.uns=!V.uns;V.rt=false;V.snap=null;V.i=0;render()">${V.uns?"✔ اللي ما حليته بس":"اللي ما حليته بس"}</button><button class="btn ${V.rt?'p':''}" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:!V.rt})">${V.rt?"✔ وضع إعادة الحل":"أعيدي الحل"}</button></div>`;
  h+=qhtml(q,0,V.i,list.length,V.rt?1:0);
  h+=`<div class="nav"><button class="btn" ${V.i?"":"disabled"} onclick="V.i--;render();window.scrollTo(0,0)">السابق</button><button class="btn p" onclick="${V.i<list.length-1?"V.i++;render();window.scrollTo(0,0)":"go({v:'bank',b:V.b})"}">${V.i<list.length-1?"التالي":"خلصت المجموعة"}</button></div>`;
  return h}
