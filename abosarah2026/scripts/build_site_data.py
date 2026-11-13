@@ -70,7 +70,7 @@ DIFF = re.compile(r"different answer|gives a different|answer (differs|changes)|
 dropped = 0
 keep = []
 for q in out:
-    if q["b"] == "Pediatrics" and q["i"] not in CH and ("⚠" in q["f"] or DIFF.search(q["n"])):
+    if q["b"] == "Pediatrics" and q["i"] not in CH and "⚠" in q["f"]:
         dropped += 1  # doubtful / conflicting answer: removed unless Alhomrani confirmed it
         continue
     if q["b"] in ("Medicine", "Pediatrics", "Surgery"):
