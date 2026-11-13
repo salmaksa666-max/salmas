@@ -65,7 +65,7 @@ const stat=a=>{let d=0,w=0;a.forEach(q=>{const p=P[q.i];if(p){d++;if(!p.ok)w++}}
 const bar=s=>`<div class="bar"><i class="g" style="width:${100*s.r/s.n}%"></i><i class="r" style="width:${100*s.w/s.n}%"></i></div>`;
 const AR={"Pediatrics":"أطفال","OB/GYN":"نساء وولادة","Surgery":"جراحة","Medicine":"باطنة","GameBoy":"GameBoy","Yasir Nov":"ياسر نوفمبر"};
 let V={v:"home"};
-function go(v){if(v.v!=='mist')v.retry=undefined;V=v;render();window.scrollTo(0,0)}
+function go(v){if(v.v!=='mist'&&!v.rt)v.retry=undefined;if(v.rt&&!v.retry)v.retry={};V=v;render();window.scrollTo(0,0)}
 function topb(title,back){return`<div class="top">${back?`<button class="btn" onclick="${back}">→</button>`:""}<h1>${title}</h1><button class="btn bad" onclick="go({v:'mist'})">غلطاتي (${Q.filter(q=>P[q.i]&&!P[q.i].ok).length})</button></div>`}
 function home(){
  let h=topb("حل سلمى")+`<div class="tiles">`;
@@ -90,13 +90,13 @@ function qhtml(q,back,idx,tot,rt){
  return`<div class="card"><div class="tag">${esc(q.i)}${tot?` · ${idx+1}/${tot}`:""}</div><p class="stem ltr" dir="ltr">${esc(q.q)}</p>${o}${r}</div>`}
 function quiz(){
  const b=BYB[V.b],g=b.sys[V.s].g[V.g];let list=g.q;
- if(V.uns)list=list.filter(q=>!P[q.i]||V.keep===q.i);
- if(!list.length){return topb(esc(g.n),"go({v:'bank',b:'"+V.b+"'})")+`<div class="card">خلصتي كل أسئلة هذي المجموعة 🎉</div><div class="row"><button class="btn" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false})">أعيدي عرضها</button><button class="btn bad" onclick="resetG()">امسحي تقدم المجموعة</button></div>`}
+ if(V.uns&&!V.rt)list=list.filter(q=>!P[q.i]||V.keep===q.i);
+ if(!list.length){return topb(esc(g.n),"go({v:'bank',b:'"+V.b+"'})")+`<div class="card">خلصتي كل أسئلة هذي المجموعة 🎉</div><div class="row"><button class="btn p" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:true})">أعيدي الحل</button><button class="btn bad" onclick="resetG()">امسحي تقدم المجموعة</button></div>`}
  V.i=Math.min(V.i,list.length-1);const q=list[V.i];
  let h=topb(esc(b.sys[V.s].g.length===1?b.sys[V.s].n:g.n),"go({v:'bank',b:'"+V.b+"'})");
  if(g.h&&V.i===0)h+=`<div class="how ltr" dir="ltr"><b>${g.q.length} Qs · ${esc(g.n)}</b><br>${esc(g.h)}</div>`;
- h+=`<div class="row"><button class="btn" onclick="V.uns=!V.uns;V.i=0;render()">${V.uns?"✔ اللي ما حليته بس":"اللي ما حليته بس"}</button></div>`;
- h+=qhtml(q,0,V.i,list.length);
+ h+=`<div class="row"><button class="btn" onclick="V.uns=!V.uns;V.rt=false;V.i=0;render()">${V.uns?"✔ اللي ما حليته بس":"اللي ما حليته بس"}</button><button class="btn ${V.rt?'p':''}" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:!V.rt})">${V.rt?"✔ وضع إعادة الحل":"أعيدي الحل"}</button></div>`;
+ h+=qhtml(q,0,V.i,list.length,V.rt?1:0);
  h+=`<div class="nav"><button class="btn" ${V.i?"":"disabled"} onclick="V.i--;render();window.scrollTo(0,0)">السابق</button><button class="btn p" onclick="${V.i<list.length-1?"V.i++;render();window.scrollTo(0,0)":"go({v:'bank',b:V.b})"}">${V.i<list.length-1?"التالي":"خلصت المجموعة"}</button></div>`;
  return h}
 function mist(){
