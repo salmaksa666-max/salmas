@@ -63,6 +63,28 @@ for it in L("gb_items.json"):
 ex = L("yasir/expl.json")
 for it in L("yasir/items_fixed.json"):
     add("Yasir Nov", it, it.get("spec") or "", it.get("exam") or "", "", ex.get(it["qid"]))
-json.dump(out, open(sys.argv[1], "w", ensure_ascii=False and None) if False else open(sys.argv[1], "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+# --- post-processing -------------------------------------------------
+CH = L("fill/alhomrani_changes.json")
+gbraw = {i["qid"]: i for i in L("gb_items.json")}
+DIFF = re.compile(r"different answer|gives a different|answer (differs|changes)|MODIFIED|conflict", re.I)
+dropped = 0
+keep = []
+for q in out:
+    if q["b"] == "Pediatrics" and q["i"] not in CH and ("⚠" in q["f"] or DIFF.search(q["n"])):
+        dropped += 1  # doubtful / conflicting answer: removed unless Alhomrani confirmed it
+        continue
+    if q["b"] in ("Medicine", "Pediatrics", "Surgery"):
+        q["t"], q["h"] = "كل أسئلة النظام", ""
+    if q["b"] == "GameBoy" and q["s"] == "Medicine":
+        q["s"], q["t"], q["h"] = gbraw[q["i"]]["sec"], "كل أسئلة النظام", ""
+    keep.append(q)
+out = keep
+order = []
+for q in out:
+    if (q["b"], q["s"]) not in order:
+        order.append((q["b"], q["s"]))
+out.sort(key=lambda q: order.index((q["b"], q["s"])))
+print("dropped unsure peds:", dropped)
+json.dump(out, open(sys.argv[1], "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 from collections import Counter
 print(len(out), Counter(x["b"] for x in out))
