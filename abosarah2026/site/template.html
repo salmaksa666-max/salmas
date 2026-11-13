@@ -68,7 +68,7 @@ let V={v:"home"};
 function go(v){if(v.v!=='mist'&&!v.rt)v.retry=undefined;if(v.rt&&!v.retry)v.retry={};V=v;render();window.scrollTo(0,0)}
 function topb(title,back){return`<div class="top">${back?`<button class="btn" onclick="${back}">→</button>`:""}<h1>${title}</h1><button class="btn bad" onclick="go({v:'mist'})">غلطاتي (${Q.filter(q=>P[q.i]&&!P[q.i].ok).length})</button></div>`}
 function home(){
- let h=topb("حل سلمى")+`<div class="tiles">`;
+ let h=topb("حل سلمى ⭐")+`<div class="tiles">`;
  BANKS.forEach(b=>{const all=[].concat(...b.sys.map(s=>[].concat(...s.g.map(g=>g.q))));const s=stat(all);
   h+=`<button class="tile" onclick="go({v:'bank',b:'${b.n}'})"><b>${AR[b.n]||b.n}</b><span class="sm">${s.n} سؤال · حليت ${s.d} · غلط ${s.w}</span>${bar(s)}</button>`});
  h+=`</div><div class="sm">تقدمك محفوظ على هذا الجهاز. اضغطي على الخيار وهو يسجل الغلط لحاله.</div>
