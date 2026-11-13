@@ -69,6 +69,29 @@ for it in json.load(open("site/mkj.json", encoding="utf-8")):
                 it["a"] = k
     out.append(dict(i=it["i"], b="Alhomrani Nov", s=it["s"], t="كل أسئلة النظام", h="", q=it["q"], o=it["o"], a=it["a"],
                     k="", r="", n=it["n"], f=""))
+# Yasir November: only the questions that are NOT in the Alhomrani November deck
+import numpy as np
+from collections import Counter as _C
+_mk = json.load(open("site/mkj.json", encoding="utf-8"))
+_ex = L("yasir/expl.json")
+_yi = L("yasir/items_fixed.json")
+_T = re.compile(r"[a-z][a-z0-9\-]{2,}")
+_tk = lambda q, o: _T.findall((q + " " + " ".join(t for _, t in o)).lower())
+_docs = [_tk(i["q"], i["o"]) for i in _mk] + [_tk(i["stem"], i["opts"]) for i in _yi]
+_df = _C(w for d in _docs for w in set(d)); _N = len(_docs)
+_voc = {w: k for k, w in enumerate(_df)}
+_M = np.zeros((_N, len(_voc)), dtype=np.float32)
+for r, d in enumerate(_docs):
+    for w, c in _C(d).items():
+        _M[r, _voc[w]] = (1 + np.log(c)) * np.log(_N / _df[w])
+_M /= np.maximum(np.linalg.norm(_M, axis=1, keepdims=True), 1e-9)
+_S = _M[len(_mk):] @ _M[:len(_mk)].T
+_before = len(out)
+for r, it in enumerate(_yi):
+    if _S[r].max() < 0.75:
+        add("Yasir Nov", it, it.get("spec") or "", "", "", _ex.get(it["qid"]))
+print("yasir extra:", len(out) - _before)
+
 # --- post-processing -------------------------------------------------
 CH = L("fill/alhomrani_changes.json")
 gbraw = {i["qid"]: i for i in L("gb_items.json")}
