@@ -72,7 +72,7 @@ function home(){
  BANKS.forEach(b=>{const all=[].concat(...b.sys.map(s=>[].concat(...s.g.map(g=>g.q))));const s=stat(all);
   h+=`<button class="tile" onclick="go({v:'bank',b:'${b.n}'})"><b>${AR[b.n]||b.n}</b><span class="sm">${s.n} سؤال · حليت ${s.d} · غلط ${s.w}</span>${bar(s)}</button>`});
  h+=`</div><div class="sm">تقدمك محفوظ على هذا الجهاز. اضغطي على الخيار وهو يسجل الغلط لحاله.</div>
- <div class="row"><button class="btn" onclick="backup()">نسخ احتياطي للتقدم</button></div><div id="bk"></div><div class="sm" style="margin-top:18px">النسخة 6 · حليتي ${Object.keys(P).length} سؤال، وهذا الرقم ما يتأثر بالتحديثات.</div>`;
+ <div class="row"><button class="btn" onclick="backup()">نسخ احتياطي للتقدم</button></div><div id="bk"></div>`;
  return h}
 function bank(){const b=BYB[V.b];let h=topb(AR[b.n]||b.n,"go({v:'home'})");
  b.sys.forEach((s,si)=>{const one=s.g.length===1;
