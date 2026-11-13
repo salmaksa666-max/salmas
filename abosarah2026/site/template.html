@@ -1,0 +1,119 @@
+<title>حل سلمى</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Tajawal:wght@400;700&display=swap">
+<style>
+/* layout: one column app; home = bank tiles, then systems/groups; quiz = one question per screen */
+:root{--bg:#f6f6f4;--card:#fff;--fg:#1b1d1f;--mut:#6b7078;--line:#dcdcd6;--acc:#1f4e8c;--accfg:#fff;--ok:#1b7f3b;--okbg:#e2f3e6;--bad:#b3261e;--badbg:#fbe4e2;--note:#fff7da;--hdr:#eceae4}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15171a;--card:#1f2226;--fg:#ececea;--mut:#9aa0a8;--line:#33373d;--acc:#7fb0ee;--accfg:#10151b;--ok:#6fd08a;--okbg:#173a24;--bad:#ff8a80;--badbg:#44201d;--note:#3a3416;--hdr:#262a2f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15171a;--card:#1f2226;--fg:#ececea;--mut:#9aa0a8;--line:#33373d;--acc:#7fb0ee;--accfg:#10151b;--ok:#6fd08a;--okbg:#173a24;--bad:#ff8a80;--badbg:#44201d;--note:#3a3416;--hdr:#262a2f;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.5 Inter,Tajawal,system-ui,sans-serif;padding-block:0;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+#app{max-width:760px;margin:0 auto;padding-block:12px 80px}
+button{font:inherit;color:inherit;cursor:pointer}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.top h1{font:700 17px/1.2 Tajawal,Inter,sans-serif;margin:0;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.btn{border:1px solid var(--line);background:var(--card);border-radius:10px;padding:8px 12px;min-height:40px}
+.btn.p{background:var(--acc);color:var(--accfg);border-color:var(--acc);font-weight:600}
+.btn.bad{border-color:var(--bad);color:var(--bad)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:14px 0}
+.tile{text-align:start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:6px}
+.tile b{font-size:17px}
+.bar{height:6px;border-radius:3px;background:var(--line);overflow:hidden;display:flex}
+.bar i{display:block;height:100%}.bar .g{background:var(--ok)}.bar .r{background:var(--bad)}
+.sm{font-size:13px;color:var(--mut)}
+.sys{margin:12px 0 4px;font:700 15px Tajawal,Inter,sans-serif;display:flex;justify-content:space-between;gap:8px;background:var(--hdr);padding:8px 10px;border-radius:8px}
+.grp{display:flex;gap:10px;align-items:center;width:100%;text-align:start;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:6px 0}
+.grp .t{flex:1;min-width:0}.grp .n{font-size:13px;color:var(--mut);white-space:nowrap}
+.how{background:var(--hdr);border-inline-start:4px solid var(--acc);border-radius:8px;padding:10px 12px;margin:12px 0;font-size:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin:12px 0}
+.stem{font-size:17px;line-height:1.55;margin:0 0 12px;white-space:pre-wrap}
+.opt{direction:ltr;display:flex;gap:10px;width:100%;text-align:start;border:1.5px solid var(--line);background:var(--bg);border-radius:10px;padding:11px 12px;margin:8px 0;min-height:48px;align-items:flex-start}
+.opt b{min-width:1.4em}
+.opt.ok{border-color:var(--ok);background:var(--okbg)}
+.opt.bad{border-color:var(--bad);background:var(--badbg)}
+.reveal{margin-top:12px;font-size:15px}
+.reveal div{margin:6px 0;padding:8px 10px;border-radius:8px;background:var(--hdr)}
+.reveal .n{background:var(--note)}
+.res{font-weight:700;font-size:16px}.res.ok{color:var(--ok)}.res.bad{color:var(--bad)}
+.nav{display:flex;gap:8px;position:sticky;bottom:0;padding:10px 0 max(10px,env(safe-area-inset-bottom,0px));background:var(--bg)}
+.nav .btn{flex:1}
+.tag{font-size:12px;color:var(--mut)}
+textarea{width:100%;min-height:90px;background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:8px;font:12px monospace}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+[dir=rtl] .ltr{direction:ltr;text-align:left}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js"></script>
+<div id="app" dir="rtl"></div>
+<script>
+const B64="__DATA__";
+let Q=[];
+async function loadQ(){const bin=Uint8Array.from(atob(B64),c=>c.charCodeAt(0));
+ if(typeof DecompressionStream!=="undefined"){const st=new Blob([bin]).stream().pipeThrough(new DecompressionStream("gzip"));return JSON.parse(await new Response(st).text())}
+ return JSON.parse(pako.ungzip(bin,{to:"string"}))}
+const KEY="smle_solve_v1";
+let P={};try{P=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(P))}catch(e){}};
+const $=s=>document.querySelector(s);
+const esc=t=>String(t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const BANKS=[],BYB={};
+function init(){Q.forEach((q,i)=>{q.x=i;if(!BYB[q.b]){BYB[q.b]={n:q.b,sys:[],map:{}};BANKS.push(BYB[q.b])}
+ const b=BYB[q.b];if(!b.map[q.s]){b.map[q.s]={n:q.s,g:[],m:{}};b.sys.push(b.map[q.s])}
+ const s=b.map[q.s];if(!s.m[q.t]){s.m[q.t]={n:q.t,h:q.h,q:[]};s.g.push(s.m[q.t])}
+ s.m[q.t].q.push(q)});
+}
+const stat=a=>{let d=0,w=0;a.forEach(q=>{const p=P[q.i];if(p){d++;if(!p.ok)w++}});return{n:a.length,d,w,r:d-w}};
+const bar=s=>`<div class="bar"><i class="g" style="width:${100*s.r/s.n}%"></i><i class="r" style="width:${100*s.w/s.n}%"></i></div>`;
+const AR={"Pediatrics":"أطفال","OB/GYN":"نساء وولادة","Surgery":"جراحة","Medicine":"باطنة","GameBoy":"GameBoy","Yasir Nov":"ياسر نوفمبر"};
+let V={v:"home"};
+function go(v){if(v.v!=='mist')v.retry=undefined;V=v;render();window.scrollTo(0,0)}
+function topb(title,back){return`<div class="top">${back?`<button class="btn" onclick="${back}">→</button>`:""}<h1>${title}</h1><button class="btn bad" onclick="go({v:'mist'})">غلطاتي (${Q.filter(q=>P[q.i]&&!P[q.i].ok).length})</button></div>`}
+function home(){
+ let h=topb("حل سلمى")+`<div class="tiles">`;
+ BANKS.forEach(b=>{const all=[].concat(...b.sys.map(s=>[].concat(...s.g.map(g=>g.q))));const s=stat(all);
+  h+=`<button class="tile" onclick="go({v:'bank',b:'${b.n}'})"><b>${AR[b.n]||b.n}</b><span class="sm">${s.n} سؤال · حليت ${s.d} · غلط ${s.w}</span>${bar(s)}</button>`});
+ h+=`</div><div class="sm">تقدمك محفوظ على هذا الجهاز. اضغطي على الخيار وهو يسجل الغلط لحاله.</div>
+ <div class="row"><button class="btn" onclick="backup()">نسخ احتياطي للتقدم</button></div><div id="bk"></div>`;
+ return h}
+function bank(){const b=BYB[V.b];let h=topb(AR[b.n]||b.n,"go({v:'home'})");
+ b.sys.forEach((s,si)=>{const ss=stat([].concat(...s.g.map(g=>g.q)));
+  h+=`<div class="sys"><span>${esc(s.n)}</span><span class="sm">${ss.d}/${ss.n}</span></div>`;
+  s.g.forEach((g,gi)=>{const st=stat(g.q);
+   h+=`<button class="grp" onclick="go({v:'quiz',b:'${b.n}',s:${si},g:${gi},i:0,uns:false})"><div class="t ltr" dir="ltr">${esc(g.n)||"—"}${bar(st)}</div><div class="n">${st.d}/${st.n}${st.w?` · <span style="color:var(--bad)">${st.w}✘</span>`:""}</div></button>`})});
+ return h}
+function qhtml(q,back,idx,tot,rt){
+ const p=rt?V.retry[q.i]:P[q.i];
+ let o=q.o.map(([k,t])=>{let c="";if(p){if(k===q.a)c="ok";else if(k===p.c)c="bad"}
+  return`<button class="opt ${c}" ${p?"disabled":""} onclick="pick('${q.i}','${k}',${rt?1:0})"><b>${k}.</b><span class="ltr" dir="ltr">${esc(t)}</span></button>`}).join("");
+ let r="";
+ if(p){r=`<div class="reveal"><div class="res ${p.ok?"ok":"bad"}">${p.ok?"✔ صح":"✘ غلط — الجواب الصحيح "+q.a}</div>`+
+  (q.k?`<div class="ltr" dir="ltr">🔑 ${esc(q.k)}</div>`:"")+(q.r?`<div class="ltr" dir="ltr">💡 ${esc(q.r)}</div>`:"")+(q.n?`<div class="n ltr" dir="ltr">✍ ${esc(q.n)}</div>`:"")+`</div>`}
+ return`<div class="card"><div class="tag">${esc(q.i)}${tot?` · ${idx+1}/${tot}`:""}</div><p class="stem ltr" dir="ltr">${esc(q.q)}</p>${o}${r}</div>`}
+function quiz(){
+ const b=BYB[V.b],g=b.sys[V.s].g[V.g];let list=g.q;
+ if(V.uns)list=list.filter(q=>!P[q.i]||V.keep===q.i);
+ if(!list.length){return topb(esc(g.n),"go({v:'bank',b:'"+V.b+"'})")+`<div class="card">خلصتي كل أسئلة هذي المجموعة 🎉</div><div class="row"><button class="btn" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false})">أعيدي عرضها</button><button class="btn bad" onclick="resetG()">امسحي تقدم المجموعة</button></div>`}
+ V.i=Math.min(V.i,list.length-1);const q=list[V.i];
+ let h=topb(esc(g.n),"go({v:'bank',b:'"+V.b+"'})");
+ if(g.h&&V.i===0)h+=`<div class="how ltr" dir="ltr"><b>${g.q.length} Qs · ${esc(g.n)}</b><br>${esc(g.h)}</div>`;
+ h+=`<div class="row"><button class="btn" onclick="V.uns=!V.uns;V.i=0;render()">${V.uns?"✔ اللي ما حليته بس":"اللي ما حليته بس"}</button></div>`;
+ h+=qhtml(q,0,V.i,list.length);
+ h+=`<div class="nav"><button class="btn" ${V.i?"":"disabled"} onclick="V.i--;render();window.scrollTo(0,0)">السابق</button><button class="btn p" onclick="${V.i<list.length-1?"V.i++;render();window.scrollTo(0,0)":"go({v:'bank',b:V.b})"}">${V.i<list.length-1?"التالي":"خلصت المجموعة"}</button></div>`;
+ return h}
+function mist(){
+ V.retry=V.retry||{};const m=Q.filter(q=>(P[q.i]&&!P[q.i].ok)||V.retry[q.i]);let h=topb("غلطاتي","go({v:'home'})");
+ if(!m.length)return h+`<div class="card">ما عندك غلطات حاليًا 🎉</div>`;
+ V.mb=V.mb||"all";
+ h+=`<div class="how">غلطتي في ${m.length} سؤال. حليها صح وتختفي من القائمة.</div><div class="row">`+["all",...BANKS.map(b=>b.n)].map(n=>`<button class="btn ${V.mb===n?"p":""}" onclick="V.mb='${n}';render()">${n==="all"?"الكل":(AR[n]||n)}</button>`).join("")+`</div>`;
+ const l=m.filter(q=>V.mb==="all"||q.b===V.mb);
+ if(!l.length)return h+`<div class="card">لا شيء هنا.</div>`;
+ V.mi=Math.min(V.mi||0,l.length-1);
+ h+=`<div class="tag">${V.mi+1}/${l.length} · ${esc(l[V.mi].s)} › ${esc(l[V.mi].t)}</div>`+qhtml(l[V.mi],0,V.mi,l.length,1)+
+ `<div class="nav"><button class="btn" ${V.mi?"":"disabled"} onclick="V.mi--;render()">السابق</button><button class="btn p" onclick="V.mi=Math.min(V.mi+1,${l.length-1});render()">التالي</button></div>`;
+ return h}
+function pick(id,k,rt){const q=Q.find(x=>x.i===id);if(!q||(!rt&&P[id]))return;P[id]={c:k,ok:k===q.a?1:0,t:Date.now()};if(rt){V.retry[id]=P[id]}save();V.keep=id;render();
+ const o=document.querySelector(".reveal");if(o)o.scrollIntoView({block:"nearest",behavior:"smooth"})}
+function resetG(){const g=BYB[V.b].sys[V.s].g[V.g];g.q.forEach(q=>delete P[q.i]);save();go({v:"quiz",b:V.b,s:V.s,g:V.g,i:0,uns:false})}
+function backup(){$("#bk").innerHTML=`<textarea id="bt" readonly>${esc(JSON.stringify(P))}</textarea><div class="row"><button class="btn" onclick="navigator.clipboard.writeText($('#bt').value).catch(()=>$('#bt').select())">انسخي</button></div><div class="sm">للاسترجاع: الصقي النص هنا واضغطي استرجاع.</div><textarea id="rt"></textarea><div class="row"><button class="btn" onclick="try{P=JSON.parse($('#rt').value);save();go({v:'home'})}catch(e){alert}">استرجاع</button></div>`}
+function render(){$("#app").innerHTML=V.v==="home"?home():V.v==="bank"?bank():V.v==="quiz"?quiz():mist()}
+loadQ().then(d=>{Q=d;init();render()}).catch(e=>{$('#app').textContent='تعذر تحميل الأسئلة: '+e});
+</script>
