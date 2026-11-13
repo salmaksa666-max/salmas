@@ -73,7 +73,7 @@ for q in out:
     if q["b"] == "Pediatrics" and q["i"] not in CH and "⚠" in q["f"]:
         dropped += 1  # doubtful / conflicting answer: removed unless Alhomrani confirmed it
         continue
-    if q["b"] in ("Medicine", "Pediatrics", "Surgery"):
+    if q["b"] in ("Medicine", "Pediatrics", "Surgery", "Yasir Nov"):
         q["t"], q["h"] = "كل أسئلة النظام", ""
     if q["b"] == "GameBoy" and q["s"] == "Medicine":
         q["s"], q["t"], q["h"] = gbraw[q["i"]]["sec"], "كل أسئلة النظام", ""
