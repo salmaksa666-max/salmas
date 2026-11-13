@@ -59,10 +59,16 @@ for f in ("fill/sepm_items.json", "fill/oct_items.json"):
 for it in L("gb_items.json"):
     add("GameBoy", it, it.get("part") or "GameBoy", it.get("dn") or it.get("sec") or "", it.get("flip") or "",
         {"key": it.get("keyc"), "rule": it.get("pearl")})
-# Yasir November
-ex = L("yasir/expl.json")
-for it in L("yasir/items_fixed.json"):
-    add("Yasir Nov", it, it.get("spec") or "", it.get("exam") or "", "", ex.get(it["qid"]))
+# Alhomrani November (MKJ apkg): sourced answers only; replaces the Yasir bank
+for it in json.load(open("site/mkj.json", encoding="utf-8")):
+    if it["st"] != "sourced" or not it["a"] or len(it["o"]) < 2:
+        continue
+    if "BRCA1" in it["q"] and "surveillance" in it["q"]:  # Alhomrani post: MRI immediately (not mammogram)
+        for k, t in it["o"]:
+            if "mri" in t.lower():
+                it["a"] = k
+    out.append(dict(i=it["i"], b="Alhomrani Nov", s=it["s"], t="كل أسئلة النظام", h="", q=it["q"], o=it["o"], a=it["a"],
+                    k="", r="", n=it["n"], f=""))
 # --- post-processing -------------------------------------------------
 CH = L("fill/alhomrani_changes.json")
 gbraw = {i["qid"]: i for i in L("gb_items.json")}
@@ -73,7 +79,7 @@ for q in out:
     if q["b"] == "Pediatrics" and q["i"] not in CH and "⚠" in q["f"]:
         dropped += 1  # doubtful / conflicting answer: removed unless Alhomrani confirmed it
         continue
-    if q["b"] in ("Medicine", "Pediatrics", "Surgery", "Yasir Nov"):
+    if q["b"] in ("Medicine", "Pediatrics", "Surgery", "Yasir Nov", "Alhomrani Nov"):
         q["t"], q["h"] = "كل أسئلة النظام", ""
     if q["b"] == "GameBoy" and q["s"] == "Medicine":
         q["s"], q["t"], q["h"] = gbraw[q["i"]]["sec"], "كل أسئلة النظام", ""
