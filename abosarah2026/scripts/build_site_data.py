@@ -70,7 +70,7 @@ for it in json.load(open("site/mkj.json", encoding="utf-8")):
             if "mri" in t.lower():
                 it["a"] = k
     out.append(dict(i=it["i"], b="Alhomrani Nov", s=it["s"], t="كل أسئلة النظام", h="", q=it["q"], o=it["o"], a=it["a"],
-                    k="", r="", n=it["n"], f=""))
+                    k="", r="", n=it["n"], f="", im=it.get("im", [])))
 # Yasir November: only the questions that are NOT in the Alhomrani November deck
 import numpy as np
 from collections import Counter as _C
