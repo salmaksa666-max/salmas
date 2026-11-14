@@ -85,6 +85,19 @@ body{font-size:20px}
 .grp{font-size:clamp(17px,2.2vw,22px);padding:14px 16px!important}.sys{font-size:clamp(17px,2.2vw,22px)}
 .tile b{font-size:22px}
 </style>
+<style>
+/* question view fills the whole screen height */
+html,body{height:100%}
+#app.full{display:flex;flex-direction:column;height:100%;max-width:none;padding-block:0 0}
+#app.full>.top,#app.full>.how,#app.full>.row,#app.full>.nav{flex:none}
+#app.full>.card{flex:1 1 auto;min-height:0;overflow-y:auto;display:flex;flex-direction:column;margin:8px 0}
+#app.full>.card .stem{flex:none}
+#app.full>.card .opt{flex:1 1 auto;max-height:200px}
+#app.full>.card .reveal{flex:none}
+#app.full #qtimer{align-self:flex-start}
+#app.full>.nav{position:static;padding-bottom:max(10px,env(safe-area-inset-bottom,0px))}
+</style>
+
 
 <div id="app" dir="rtl"></div>
 <button id="qtimer" hidden aria-label="مؤقت السؤال" style="display:flex;flex-direction:row;align-items:center;gap:6px;margin:0 0 8px;padding:4px 14px;height:34px;border-radius:17px;border:2px solid var(--ok);background:var(--card);color:var(--fg);line-height:1;font-family:Inter,Tajawal,sans-serif"><b id="qtn" style="font-size:22px">15</b><span id="qts" style="font-size:10px;color:var(--mut)">ثانية</span></button>
@@ -192,7 +205,7 @@ function pick(id,k,rt){const q=Q.find(x=>x.i===id);if(!q||(!rt&&P[id]))return;P[
  const o=document.querySelector(".reveal");if(o)o.scrollIntoView({block:"nearest",behavior:"smooth"})}
 function resetG(){const g=BYB[V.b].sys[V.s].g[V.g];g.q.forEach(q=>delete P[q.i]);save();go({v:"quiz",b:V.b,s:V.s,g:V.g,i:0,uns:false})}
 function backup(){$("#bk").innerHTML=`<textarea id="bt" readonly>${esc(JSON.stringify(P))}</textarea><div class="row"><button class="btn" onclick="navigator.clipboard.writeText($('#bt').value).catch(()=>$('#bt').select())">انسخي</button></div><div class="sm">للاسترجاع: الصقي النص هنا واضغطي استرجاع.</div><textarea id="rt"></textarea><div class="row"><button class="btn" onclick="try{P=JSON.parse($('#rt').value);save();go({v:'home'})}catch(e){alert}">استرجاع</button></div>`}
-function render(){$("#app").innerHTML=V.v==="home"?home():V.v==="bank"?bank():V.v==="quiz"?quiz():V.v==="wal"?wal():mist()}
+function render(){$("#app").className=V.v==="quiz"?"full":"";$("#app").innerHTML=V.v==="home"?home():V.v==="bank"?bank():V.v==="quiz"?quiz():V.v==="wal"?wal():mist()}
 loadQ().then(d=>{Q=d;init();render()}).catch(e=>{$('#app').textContent='تعذر تحميل الأسئلة: '+e});
 </script>
 
