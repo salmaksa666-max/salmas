@@ -68,6 +68,24 @@ img,svg,video,pre,table{max-width:100%}
 table{display:block;overflow-x:auto}
 pre{white-space:pre-wrap}
 </style>
+<style>
+/* big-text mode: the question fills the page */
+body{font-size:20px}
+.stem{font-size:clamp(24px,3.4vw,34px)!important;line-height:1.55!important;margin:0 0 16px!important}
+.opt{font-size:clamp(21px,2.9vw,29px)!important;min-height:76px!important;padding:16px 18px!important;margin:12px 0!important;gap:14px!important;align-items:center!important}
+.opt b{font-size:1.05em;min-width:1.6em}
+.card{padding:20px!important;margin:10px 0!important}
+.reveal{font-size:clamp(18px,2.3vw,24px)!important}.reveal div{padding:12px 14px!important;margin:10px 0!important}
+.res{font-size:clamp(20px,2.6vw,28px)!important}
+.btn{font-size:clamp(17px,2.1vw,22px)!important;min-height:52px!important;padding:10px 16px!important}
+.nav .btn{min-height:64px!important;font-size:clamp(20px,2.6vw,26px)!important}
+.top h1{font-size:clamp(17px,2.2vw,24px)!important}
+.how{font-size:clamp(15px,1.9vw,19px)!important}
+.tag{font-size:15px}
+.grp{font-size:clamp(17px,2.2vw,22px);padding:14px 16px!important}.sys{font-size:clamp(17px,2.2vw,22px)}
+.tile b{font-size:22px}
+</style>
+
 <div id="app" dir="rtl"></div>
 <button id="qtimer" hidden aria-label="مؤقت السؤال" style="display:flex;flex-direction:row;align-items:center;gap:6px;margin:0 0 8px;padding:4px 14px;height:34px;border-radius:17px;border:2px solid var(--ok);background:var(--card);color:var(--fg);line-height:1;font-family:Inter,Tajawal,sans-serif"><b id="qtn" style="font-size:22px">15</b><span id="qts" style="font-size:10px;color:var(--mut)">ثانية</span></button>
 <script>
