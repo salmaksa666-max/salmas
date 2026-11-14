@@ -17,6 +17,8 @@ def add(bank, it, sysn, topic, howto="", ex=None):
     if not opts:
         return
     letter = m.group(1) if m else ""
+    if letter and letter not in dict(opts):  # a corrected answer whose option was missing from the recall
+        opts = opts + [[letter, ans[m.end():].strip()]]
     if not letter:
         return  # no firm answer: nothing to grade
     key = (bank, norm(it["stem"]), letter)
