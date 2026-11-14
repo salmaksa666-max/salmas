@@ -41,6 +41,16 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 textarea{width:100%;min-height:90px;background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:8px;font:12px monospace}
 .row{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
 [dir=rtl] .ltr{direction:ltr;text-align:left}
+html,body{height:100%}
+#app.full{height:100%;max-width:none;padding-block:0;display:flex;flex-direction:column}
+#app.full .scroll{flex:1;min-height:0;overflow-y:auto;padding:6px 0}
+#app.full .card{margin:6px 0;padding:18px}
+#app.full .stem{font-size:clamp(18px,2.4vw,24px);line-height:1.6}
+#app.full .opt{font-size:clamp(17px,2.2vw,22px);min-height:56px;padding:14px}
+#app.full .reveal{font-size:clamp(15px,1.9vw,19px)}
+#app.full .nav{position:static;padding-bottom:max(10px,env(safe-area-inset-bottom,0px))}
+.tm{font:700 14px Inter,sans-serif;font-variant-numeric:tabular-nums;border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:var(--card);white-space:nowrap}
+.pr{font-size:13px;color:var(--mut);padding:4px 0}
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js"></script>
 <div id="app" dir="rtl"></div>
@@ -66,7 +76,7 @@ const bar=s=>`<div class="bar"><i class="g" style="width:${100*s.r/s.n}%"></i><i
 const AR={"Pediatrics":"أطفال","OB/GYN":"نساء وولادة","Surgery":"جراحة","Medicine":"باطنة","GameBoy":"GameBoy","Alhomrani Nov":"الحمراني نوفمبر","Yasir Nov":"ياسر نوفمبر (إضافي)"};
 let V={v:"home"};
 function go(v){if(v.v!=='mist'&&!v.rt)v.retry=undefined;if(v.rt&&!v.retry)v.retry={};V=v;render();window.scrollTo(0,0)}
-function topb(title,back){return`<div class="top">${back?`<button class="btn" onclick="${back}">→</button>`:""}<h1>${title}</h1><button class="btn bad" onclick="go({v:'mist'})">غلطاتي (${Q.filter(q=>P[q.i]&&!P[q.i].ok).length})</button></div>`}
+function topb(title,back,tm){return`<div class="top">${back?`<button class="btn" onclick="${back}">→</button>`:""}<h1>${title}</h1>${tm?'<span class="tm" id="tm">⏱ 00:00 · 00:00</span>':""}<button class="btn bad" onclick="go({v:'mist'})">غلطاتي (${Q.filter(q=>P[q.i]&&!P[q.i].ok).length})</button></div>`}
 function home(){
  let h=topb("حل سلمى ⭐")+`<div class="tiles">`;
  BANKS.forEach(b=>{const all=[].concat(...b.sys.map(s=>[].concat(...s.g.map(g=>g.q))));const s=stat(all);
@@ -89,15 +99,20 @@ function qhtml(q,back,idx,tot,rt){
   (q.k?`<div class="ltr" dir="ltr">🔑 ${esc(q.k)}</div>`:"")+(q.r?`<div class="ltr" dir="ltr">💡 ${esc(q.r)}</div>`:"")+(q.n?`<div class="n ltr" dir="ltr">✍ ${esc(q.n)}</div>`:"")+`</div>`}
  return`<div class="card"><div class="tag">${esc(q.i)}${tot?` · ${idx+1}/${tot}`:""}</div><p class="stem ltr" dir="ltr">${esc(q.q)}</p>${o}${r}</div>`}
 function quiz(){
- const b=BYB[V.b],g=b.sys[V.s].g[V.g];let list=g.q;
+ const b=BYB[V.b],g=b.sys[V.s].g[V.g];let list=g.q;const nm=b.sys[V.s].g.length===1?b.sys[V.s].n:g.n;
  if(V.uns&&!V.rt){if(!V.snap)V.snap=new Set(list.filter(q=>!P[q.i]).map(q=>q.i));list=list.filter(q=>V.snap.has(q.i))}
- if(!list.length){V.snap=null;return topb(esc(g.n),"go({v:'bank',b:'"+V.b+"'})")+`<div class="card">خلصتي كل أسئلة هذي المجموعة 🎉</div><div class="row"><button class="btn p" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:true})">أعيدي الحل</button><button class="btn bad" onclick="resetG()">امسحي تقدم المجموعة</button></div>`}
+ if(!list.length){V.snap=null;return topb(esc(nm),"go({v:'bank',b:'"+V.b+"'})")+`<div class="scroll"><div class="card">خلصتي كل أسئلة هذي المجموعة 🎉</div><div class="row"><button class="btn p" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:true})">أعيدي الحل</button><button class="btn bad" onclick="resetG()">امسحي تقدم المجموعة</button></div></div>`}
  V.i=Math.min(V.i,list.length-1);const q=list[V.i];
- let h=topb(esc(b.sys[V.s].g.length===1?b.sys[V.s].n:g.n),"go({v:'bank',b:'"+V.b+"'})");
+ if(V.qid!==q.i){V.qid=q.i;V.qt0=Date.now()}
+ if(!V.t0)V.t0=Date.now();
+ let h=topb(esc(nm),"go({v:'bank',b:'"+V.b+"'})",1);
+ const st=stat(g.q);
+ h+=`<div class="scroll">`;
  if(g.h&&V.i===0)h+=`<div class="how ltr" dir="ltr"><b>${g.q.length} Qs · ${esc(g.n)}</b><br>${esc(g.h)}</div>`;
- h+=`<div class="row"><button class="btn" onclick="V.uns=!V.uns;V.rt=false;V.snap=null;V.i=0;render()">${V.uns?"✔ اللي ما حليته بس":"اللي ما حليته بس"}</button><button class="btn ${V.rt?'p':''}" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:!V.rt})">${V.rt?"✔ وضع إعادة الحل":"أعيدي الحل"}</button></div>`;
+ h+=`<div class="pr">${V.i+1} / ${list.length} · حليتي ${st.d} · غلط ${st.w}</div>`;
  h+=qhtml(q,0,V.i,list.length,V.rt?1:0);
- h+=`<div class="nav"><button class="btn" ${V.i?"":"disabled"} onclick="V.i--;render();window.scrollTo(0,0)">السابق</button><button class="btn p" onclick="${V.i<list.length-1?"V.i++;render();window.scrollTo(0,0)":"go({v:'bank',b:V.b})"}">${V.i<list.length-1?"التالي":"خلصت المجموعة"}</button></div>`;
+ h+=`<div class="row"><button class="btn" onclick="V.uns=!V.uns;V.rt=false;V.snap=null;V.i=0;render()">${V.uns?"✔ اللي ما حليته بس":"اللي ما حليته بس"}</button><button class="btn ${V.rt?'p':''}" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:!V.rt})">${V.rt?"✔ وضع إعادة الحل":"أعيدي الحل"}</button></div></div>`;
+ h+=`<div class="nav"><button class="btn" ${V.i?"":"disabled"} onclick="V.i--;render();window.scrollTo(0,0)">السابق</button><button class="btn p" onclick="${V.i<list.length-1?"V.i++;render()":"go({v:'bank',b:V.b})"}">${V.i<list.length-1?"التالي":"خلصت المجموعة"}</button></div>`;
  return h}
 function mist(){
  V.retry=V.retry||{};const m=Q.filter(q=>(P[q.i]&&!P[q.i].ok)||V.retry[q.i]);let h=topb("غلطاتي","go({v:'home'})");
@@ -114,6 +129,10 @@ function pick(id,k,rt){const q=Q.find(x=>x.i===id);if(!q||(!rt&&P[id]))return;P[
  const o=document.querySelector(".reveal");if(o)o.scrollIntoView({block:"nearest",behavior:"smooth"})}
 function resetG(){const g=BYB[V.b].sys[V.s].g[V.g];g.q.forEach(q=>delete P[q.i]);save();go({v:"quiz",b:V.b,s:V.s,g:V.g,i:0,uns:false})}
 function backup(){$("#bk").innerHTML=`<textarea id="bt" readonly>${esc(JSON.stringify(P))}</textarea><div class="row"><button class="btn" onclick="navigator.clipboard.writeText($('#bt').value).catch(()=>$('#bt').select())">انسخي</button></div><div class="sm">للاسترجاع: الصقي النص هنا واضغطي استرجاع.</div><textarea id="rt"></textarea><div class="row"><button class="btn" onclick="try{P=JSON.parse($('#rt').value);save();go({v:'home'})}catch(e){alert}">استرجاع</button></div>`}
-function render(){$("#app").innerHTML=V.v==="home"?home():V.v==="bank"?bank():V.v==="quiz"?quiz():mist()}
+function fmt(ms){const t=Math.floor(ms/1000);return String(Math.floor(t/60)).padStart(2,"0")+":"+String(t%60).padStart(2,"0")}
+function tick(){const e=$("#tm");if(e&&V.v==="quiz")e.textContent="⏱ "+fmt(Date.now()-(V.t0||Date.now()))+" · "+fmt(Date.now()-(V.qt0||Date.now()))}
+setInterval(tick,1000);
+function render(){const a=$("#app");a.className=V.v==="quiz"?"full":"";if(V.v!=="quiz"){V.t0=0;V.qid=null}
+ a.innerHTML=V.v==="home"?home():V.v==="bank"?bank():V.v==="quiz"?quiz():mist();tick()}
 loadQ().then(d=>{Q=d;init();render()}).catch(e=>{$('#app').textContent='تعذر تحميل الأسئلة: '+e});
 </script>
