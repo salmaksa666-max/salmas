@@ -1,0 +1,25 @@
+"""Silent channel 15 Nov: recalls (data/silent_recalls.py) + screenshot questions matched to existing banks -> site/silent.json"""
+import json, sys, os
+sys.path.insert(0, "data"); from silent_recalls import R
+SP = sys.argv[1]  # scratchpad silent dir with match.json
+D = {q["i"]: q for q in json.load(open("site/data_all.json", encoding="utf-8"))}
+AR = {"Alhomrani Nov": "الحمراني", "Alhomrani 10-14": "الحمراني 10-14", "GameBoy": "GameBoy", "Yasir Nov": "ياسر"}
+over = {"ph/88491_4.txt": "OCT-6654", "ph/88532_5.txt": "N14-P1-211"}
+skip = {"ph/88429_0.txt", "ph/88491_9.txt"}
+out, seen = [], set()
+def sec(pid): return "كل أسئلة سايلنت"
+for j, (pid, q, opts, a, k, r, n) in enumerate(R):
+    L = "ABCDE"
+    out.append(dict(i=f"SL-{pid}-{j:02d}", q=q, o=[[L[i], o] for i, o in enumerate(opts)], a=a, b="Silent", s=sec(pid), t="كل أسئلة النظام", h="", k=k, r=r, n=("سايلنت #%d. " % pid) + n, f="", im=[], kw=[]))
+for x in json.load(open(os.path.join(SP, "match.json"))):
+    f = x["f"]
+    if f in skip: continue
+    i = over.get(f, x["id"])
+    if f not in over and x["sim"] < (0.55 if f.startswith("ph") else 0.85): continue
+    if i in seen: continue
+    seen.add(i); q = dict(D[i])
+    src = q["b"]; where = AR.get(src, "سبتمبر/أكتوبر (" + src + ")")
+    q.update(i="SL-" + i, b="Silent", s="كل أسئلة سايلنت", t="كل أسئلة النظام", h="", n=f"صورة من سايلنت – موجود في {where} ({i}). " + (q.get("n") or ""))
+    out.append(q)
+json.dump(out, open("site/silent.json", "w", encoding="utf-8"), ensure_ascii=False)
+print(len(R), len(out))
