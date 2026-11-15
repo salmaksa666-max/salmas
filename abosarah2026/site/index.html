@@ -164,12 +164,13 @@ function bank(){const b=BYB[V.b];let h=topb(AR[b.n]||b.n,"go({v:'home'})");
 function hl(t,kws){if(!kws||!kws.length)return esc(t);
  const rx=new RegExp("("+kws.slice().sort((a,b)=>b.length-a.length).map(k=>k.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")).join("|")+")","gi");
  return t.split(rx).map((x,i)=>i%2?`<mark class="kwh">${esc(x)}</mark>`:esc(x)).join("")}
+function retryNow(id){V.retry=V.retry||{};delete V.retry[id];V.again=(V.again||[]).filter(x=>x.id!==id);V.show=id;render();window.scrollTo(0,0)}
 function qhtml(q,back,idx,tot,rt){
  const p=rt?V.retry[q.i]:P[q.i];
  let o=q.o.map(([k,t])=>{let c="";if(p){if(k===q.a)c="ok";else if(k===p.c)c="bad"}
   return`<button class="opt ${c}" ${p?"disabled":""} onclick="pick('${q.i}','${k}',${rt?1:0})"><b>${k}.</b><span class="ltr" dir="ltr">${esc(t)}</span></button>`}).join("");
  let r="";
- if(p){r=`<div class="reveal"><div class="res ${p.ok?"ok":"bad"}">${p.ok?"✔ صح":"✘ غلط — الجواب الصحيح "+q.a}</div>`+
+ if(p){r=`<div class="reveal"><div class="res ${p.ok?"ok":"bad"}">${p.ok?"✔ صح":"✘ غلط — الجواب الصحيح "+q.a}</div>`+(p.ok?"":`<div style="background:none;padding:0"><button class="btn" onclick="retryNow(&#39;${q.i}&#39;)">🔁 أعيديه الحين</button> <span class="sm">وإلا يرجع لك بعد سؤالين</span></div>`)+
   (q.k?`<div class="ltr" dir="ltr">🔑 ${esc(q.k)}</div>`:"")+(q.r?`<div class="ltr" dir="ltr">💡 ${esc(q.r)}</div>`:"")+(q.n?`<div class="n ltr" dir="ltr">✍ ${esc(q.n)}</div>`:"")+`</div>`}
  return`<div class="card"><div class="tag">${esc(q.i)}${tot?` · ${idx+1}/${tot}`:""}</div><p class="stem ltr" dir="ltr">${hl(q.q,q.kw)}</p>${o}${r}${p&&(q.im||[]).length?`<div class="sm" style="margin-top:12px">📷 الشريحة الأصلية (فيها الصورة):</div>`+(q.im||[]).map(i=>`<img class="qimg" loading="lazy" src="img/${i}" alt="الصورة">`).join(""):""}</div>`}
 function quiz(){
@@ -219,7 +220,7 @@ function nextG(n,key){V.steps=(V.steps||0)+1;V.again=V.again||[];V.retry=V.retry
  if(d){V.again=V.again.filter(x=>x!==d);delete V.retry[d.id];V.show=d.id}
  else{V.show=null;if(V[key]<n-1)V[key]++}
  render();window.scrollTo(0,0)}
-function pick(id,k,rt){const q=Q.find(x=>x.i===id);if(!q||(!rt&&P[id]))return;P[id]={c:k,ok:k===q.a?1:0,t:Date.now()};if(!P[id].ok&&(V.v==='quiz'||V.v==='wal'||V.v==='mist')){V.again=V.again||[];if(!V.again.some(x=>x.id===id))V.again.push({id:id,due:(V.steps||0)+4})}if(!P[id].ok&&!WAL.includes(id)){WAL.push(id);wsave();if(WREM.includes(id)){WREM=WREM.filter(x=>x!==id);rsave()}}if(rt){V.retry[id]=P[id]}save();V.keep=id;render();
+function pick(id,k,rt){const q=Q.find(x=>x.i===id);if(!q||(!rt&&P[id]))return;P[id]={c:k,ok:k===q.a?1:0,t:Date.now()};if(!P[id].ok&&(V.v==='quiz'||V.v==='wal'||V.v==='mist')){V.again=V.again||[];if(!V.again.some(x=>x.id===id))V.again.push({id:id,due:(V.steps||0)+2})}if(!P[id].ok&&!WAL.includes(id)){WAL.push(id);wsave();if(WREM.includes(id)){WREM=WREM.filter(x=>x!==id);rsave()}}if(rt){V.retry[id]=P[id]}save();V.keep=id;render();
  const o=document.querySelector(".reveal");if(o)o.scrollIntoView({block:"nearest",behavior:"smooth"})}
 function resetG(){const g=BYB[V.b].sys[V.s].g[V.g];g.q.forEach(q=>delete P[q.i]);save();go({v:"quiz",b:V.b,s:V.s,g:V.g,i:0,uns:false})}
 function backup(){$("#bk").innerHTML=`<textarea id="bt" readonly>${esc(JSON.stringify(P))}</textarea><div class="row"><button class="btn" onclick="navigator.clipboard.writeText($('#bt').value).catch(()=>$('#bt').select())">انسخي</button></div><div class="sm">للاسترجاع: الصقي النص هنا واضغطي استرجاع.</div><textarea id="rt"></textarea><div class="row"><button class="btn" onclick="try{P=JSON.parse($('#rt').value);save();go({v:'home'})}catch(e){alert}">استرجاع</button></div>`}
