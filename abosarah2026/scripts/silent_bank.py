@@ -10,6 +10,11 @@ out, seen = [], set()
 def sec(pid): return "كل أسئلة سايلنت"
 for j, (pid, q, opts, a, k, r, n) in enumerate(R):
     L = "ABCDE"
+    import random, re as _re
+    good = opts[L.index(a)]
+    if not any(_re.match(r"^[\d<>≥]", o) or "months" in o or "weeks" in o or "hours" in o for o in opts):
+        opts = opts[:]; random.Random(f"{pid}-{j}").shuffle(opts)  # don't leave the answer on A
+    a = L[opts.index(good)]
     out.append(dict(i=f"SL-{pid}-{j:02d}", q=q, o=[[L[i], o] for i, o in enumerate(opts)], a=a, b="Silent", s=sec(pid), t="كل أسئلة النظام", h="", k=k, r=r, n=("سايلنت #%d. " % pid) + n, f="", im=[], kw=[]))
 for x in json.load(open(os.path.join(SP, "match.json"))):
     f = x["f"]
