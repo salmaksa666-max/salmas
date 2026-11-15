@@ -159,6 +159,28 @@ for q in out:
         _gid = q["i"] if q["b"] == "GameBoy" else "GB-" + q["i"][5:9]
         q["r"] = (gbraw.get(_gid, {}).get("flip") or gbraw.get(_gid, {}).get("pearl") or "")[:300]
     q["kw"] = [w for w in dict.fromkeys(q.get("kw", [])) if 3 <= len(w) <= 80][:8]
+# November questions: attach the clearer September/October version of the same recall
+_old = [q for q in out if q["b"] in ("Pediatrics", "OB/GYN", "Surgery", "Medicine")]
+_nov = [q for q in out if q["b"] in ("Alhomrani Nov", "Alhomrani 10-14", "Yasir Nov", "Ninja")]
+_T = re.compile(r"[a-z][a-z0-9\-]{2,}")
+_tk = lambda q: _T.findall((q["q"] + " " + " ".join(t for _, t in q["o"])).lower())
+_docs = [_tk(q) for q in _old + _nov]
+_df = _C(w for d in _docs for w in set(d)); _N = len(_docs)
+_keep = [w for w, c in _df.most_common() if 2 <= c <= 800][:12000]; _voc = {w: k for k, w in enumerate(_keep)}
+_M = np.zeros((_N, len(_voc)), dtype=np.float32)
+for r, d in enumerate(_docs):
+    for w, c in _C(d).items():
+        if w in _voc: _M[r, _voc[w]] = (1 + np.log(c)) * np.log(_N / _df[w])
+_M /= np.maximum(np.linalg.norm(_M, axis=1, keepdims=True), 1e-9)
+_S = _M[len(_old):] @ _M[:len(_old)].T
+_cv = 0
+for r, q in enumerate(_nov):
+    j = int(_S[r].argmax()); sc = float(_S[r, j])
+    if sc >= 0.6:
+        o = _old[j]
+        q["cv"] = dict(i=o["i"], q=o["q"], o=[t for _, t in o["o"]], a=dict(o["o"]).get(o["a"], ""), s=round(sc, 2))
+        _cv += 1
+print("november questions with a clearer old version:", _cv, "of", len(_nov))
 if os.environ.get("KEEP_OLD") != "1":  # Salma: forget September/October, keep only the November banks + GameBoy
     out = [q for q in out if q["b"] in ("Alhomrani Nov", "Alhomrani 10-14", "Yasir Nov", "GameBoy", "GameBoy Nov", "Ninja")]
 N14FIX = json.load(open("data/n14_fix.json", encoding="utf-8")) if os.path.exists("data/n14_fix.json") else {}
