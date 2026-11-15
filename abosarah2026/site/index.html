@@ -100,6 +100,7 @@ html,body{height:100%}
 <style>.qimg{display:block;max-width:100%;max-height:60vh;margin:10px auto;border:1px solid var(--line);border-radius:10px;background:#fff;object-fit:contain}</style>
 <style>.kwh{background:#ffe066;color:#111;border-radius:3px;padding:0 2px}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .kwh{background:#8a6d00;color:#fff}}:root[data-theme="dark"] .kwh{background:#8a6d00;color:#fff}</style>
 <style>.wbad{color:var(--bad);font-weight:700;font-size:15px;margin:4px 0}</style>
+<style>.hype{display:flex;flex-direction:column;align-items:center;gap:18px;text-align:center;padding:48px 8px;font-size:20px}.hype .big{font:800 clamp(30px,6vw,52px)/1.15 Inter,sans-serif;color:var(--acc)}.hype .go{font-size:24px!important;min-height:64px!important;padding:12px 40px!important}</style>
 
 
 <div id="app" dir="rtl"></div>
@@ -146,7 +147,7 @@ const stat=a=>{let d=0,w=0;a.forEach(q=>{const p=P[q.i];if(p){d++;if(!p.ok)w++}}
 const bar=s=>`<div class="bar"><i class="g" style="width:${100*s.r/s.n}%"></i><i class="r" style="width:${100*s.w/s.n}%"></i></div>`;
 const AR={"Pediatrics":"أطفال","OB/GYN":"نساء وولادة","Surgery":"جراحة","Medicine":"باطنة","GameBoy":"GameBoy","Alhomrani Nov":"الحمراني نوفمبر","GameBoy Nov":"GameBoy نوفمبر (14 NOV)","Ninja":"Ninja اليوم (15 نوفمبر)","Alhomrani 10-14":"الحمراني 10-14 نوفمبر (الجديد)","Yasir Nov":"ياسر نوفمبر (إضافي)"};
 let V={v:"home"};
-function go(v){if(v.v!=='mist'&&v.v!=='wal'&&!v.rt)v.retry=undefined;if(v.rt&&!v.retry)v.retry={};V=v;render();window.scrollTo(0,0)}
+function go(v){if(v.v!=='mist'&&v.v!=='wal'&&!v.rt)v.retry=undefined;if(v.v==='lsg'&&!v.retry)v.retry={};if(v.rt&&!v.retry)v.retry={};V=v;render();window.scrollTo(0,0)}
 function topb(title,back){return`<div class="top">${back?`<button class="btn" onclick="${back}">→</button>`:""}<h1>${title}</h1><button class="btn bad" onclick="go({v:'mist'})">غلطاتي (${Q.filter(q=>P[q.i]&&!P[q.i].ok).length})</button></div>`}
 function home(){
  let h=topb("حل سلمى ⭐")+`<div class="tiles">`;
@@ -213,7 +214,7 @@ function nextQ(n){V.steps=(V.steps||0)+1;V.again=V.again||[];V.retry=V.retry||{}
  let d=V.again.find(x=>x.due<=V.steps);
  if(!d&&V.i>=n-1&&V.again.length)d=V.again[0];
  if(d){V.again=V.again.filter(x=>x!==d);delete V.retry[d.id];V.show=d.id}
- else{const was=V.show;V.show=null;if(V.i<n-1)V.i++;else{go({v:'bank',b:V.b});return}}
+ else{const was=V.show;V.show=null;if(V.i<n-1)V.i++;else{endGroup();return}}
  render();window.scrollTo(0,0)}
 function nextG(n,key){V.steps=(V.steps||0)+1;V.again=V.again||[];V.retry=V.retry||{};V[key]=V[key]||0;
  let d=V.again.find(x=>x.due<=V.steps);
@@ -221,11 +222,29 @@ function nextG(n,key){V.steps=(V.steps||0)+1;V.again=V.again||[];V.retry=V.retry
  if(d){V.again=V.again.filter(x=>x!==d);delete V.retry[d.id];V.show=d.id}
  else{V.show=null;if(V[key]<n-1)V[key]++}
  render();window.scrollTo(0,0)}
-function pick(id,k,rt){const q=Q.find(x=>x.i===id);if(!q||(!rt&&P[id]))return;const _w=((P[id]||{}).w||0)+(k===q.a?0:1);P[id]={c:k,ok:k===q.a?1:0,t:Date.now(),w:_w};if(!P[id].ok&&(V.v==='quiz'||V.v==='wal'||V.v==='mist')){V.again=V.again||[];if(!V.again.some(x=>x.id===id))V.again.push({id:id,due:(V.steps||0)+2})}if(!P[id].ok&&!WAL.includes(id)){WAL.push(id);wsave();if(WREM.includes(id)){WREM=WREM.filter(x=>x!==id);rsave()}}if(rt){V.retry[id]=P[id]}save();V.keep=id;render();
+function endGroup(){const m=(V.missed||[]).slice();for(let i=m.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[m[i],m[j]]=[m[j],m[i]]}
+ if(m.length)go({v:'lsgIntro',b:V.b,ids:m});else go({v:'lsgDone',b:V.b,n:0})}
+function lsgIntro(){return topb("🔥","go({v:'bank',b:'"+V.b+"'})")+`<div class="hype"><div class="big" dir="ltr">Let's see if you get it or not 😏🔥</div>
+ <div>غلطتِ في <b>${V.ids.length}</b> ${V.ids.length==1?"سؤال":"أسئلة"} بهالمجموعة. يلا نشوف إذا ثبتت ولا لا!</div>
+ <button class="btn p go" onclick="go({v:'lsg',b:V.b,ids:V.ids,li:0,rt:true,again:[],steps:0})">يلا! 💪</button></div>`}
+function lsg(){const sl=V.show?Q.find(x=>x.i===V.show):null,q=sl||Q.find(x=>x.i===V.ids[V.li]);
+ let h=topb("🔥 Let's see if you get it","go({v:'bank',b:'"+V.b+"'})");
+ if(sl)h+=`<div class="how">🔁 رجع لك، حليه مرة ثانية</div>`;
+ h+=`<div class="pr">${V.li+1} / ${V.ids.length}</div>`+qhtml(q,0,V.li,V.ids.length,1);
+ h+=`<div class="nav"><button class="btn p" onclick="nextL()">التالي</button></div>`;return h}
+function nextL(){V.steps=(V.steps||0)+1;V.again=V.again||[];V.retry=V.retry||{};const n=V.ids.length;
+ let d=V.again.find(x=>x.due<=V.steps);if(!d&&V.li>=n-1&&V.again.length)d=V.again[0];
+ if(d){V.again=V.again.filter(x=>x!==d);delete V.retry[d.id];V.show=d.id}
+ else{V.show=null;if(V.li<n-1)V.li++;else{go({v:'lsgDone',b:V.b,n:n});return}}
+ render();window.scrollTo(0,0)}
+function lsgDone(){return topb("🎉","go({v:'bank',b:'"+V.b+"'})")+`<div class="hype"><div class="big" dir="ltr">${V.n?"You got it! 🎉":"Perfect! 🎉"}</div>
+ <div>${V.n?"كل الأسئلة اللي غلطتي فيها صارت صح. ثبتت 💪":"ما غلطتي ولا مرة بهالمجموعة 👑"}</div>
+ <button class="btn p go" onclick="go({v:'bank',b:V.b})">رجوع للأقسام</button></div>`}
+function pick(id,k,rt){const q=Q.find(x=>x.i===id);if(!q||(!rt&&P[id]))return;const _w=((P[id]||{}).w||0)+(k===q.a?0:1);P[id]={c:k,ok:k===q.a?1:0,t:Date.now(),w:_w};if(!P[id].ok&&V.v==='quiz'){V.missed=V.missed||[];if(!V.missed.includes(id))V.missed.push(id)}if(!P[id].ok&&(V.v==='quiz'||V.v==='wal'||V.v==='mist'||V.v==='lsg')){V.again=V.again||[];if(!V.again.some(x=>x.id===id))V.again.push({id:id,due:(V.steps||0)+2})}if(!P[id].ok&&!WAL.includes(id)){WAL.push(id);wsave();if(WREM.includes(id)){WREM=WREM.filter(x=>x!==id);rsave()}}if(rt){V.retry[id]=P[id]}save();V.keep=id;render();
  const o=document.querySelector(".reveal");if(o)o.scrollIntoView({block:"nearest",behavior:"smooth"})}
 function resetG(){const g=BYB[V.b].sys[V.s].g[V.g];g.q.forEach(q=>delete P[q.i]);save();go({v:"quiz",b:V.b,s:V.s,g:V.g,i:0,uns:false})}
 function backup(){$("#bk").innerHTML=`<textarea id="bt" readonly>${esc(JSON.stringify(P))}</textarea><div class="row"><button class="btn" onclick="navigator.clipboard.writeText($('#bt').value).catch(()=>$('#bt').select())">انسخي</button></div><div class="sm">للاسترجاع: الصقي النص هنا واضغطي استرجاع.</div><textarea id="rt"></textarea><div class="row"><button class="btn" onclick="try{P=JSON.parse($('#rt').value);save();go({v:'home'})}catch(e){alert}">استرجاع</button></div>`}
-function render(){$("#app").className=V.v==="quiz"?"full":"";$("#app").innerHTML=V.v==="home"?home():V.v==="bank"?bank():V.v==="quiz"?quiz():V.v==="wal"?wal():mist()}
+function render(){$("#app").className=V.v==="quiz"?"full":"";$("#app").innerHTML=V.v==="lsgIntro"?lsgIntro():V.v==="lsg"?lsg():V.v==="lsgDone"?lsgDone():V.v==="home"?home():V.v==="bank"?bank():V.v==="quiz"?quiz():V.v==="wal"?wal():mist()}
 loadQ().then(d=>{Q=d;init();render()}).catch(e=>{$('#app').textContent='تعذر تحميل الأسئلة: '+e});
 </script>
 
