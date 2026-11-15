@@ -71,6 +71,11 @@ for it in json.load(open("site/mkj.json", encoding="utf-8")):
                 it["a"] = k
     out.append(dict(i=it["i"], b="Alhomrani Nov", s=it["s"], t="كل أسئلة النظام", h="", q=it["q"], o=it["o"], a=it["a"],
                     k="", r="", n=it["n"], f="", im=it.get("im", [])))
+# Alhomrani 10-14 November (parsed from the two PDFs by scripts/nov1014.py)
+import os
+if os.path.exists("site/n1014.json"):
+    for q in json.load(open("site/n1014.json", encoding="utf-8")):
+        out.append(dict(q, im=[]))
 # Yasir November: only the questions that are NOT in the Alhomrani November deck
 import numpy as np
 from collections import Counter as _C
@@ -104,7 +109,7 @@ for q in out:
     if q["b"] == "Pediatrics" and q["i"] not in CH and "⚠" in q["f"]:
         dropped += 1  # doubtful / conflicting answer: removed unless Alhomrani confirmed it
         continue
-    if q["b"] in ("Medicine", "Pediatrics", "Surgery", "Yasir Nov", "Alhomrani Nov"):
+    if q["b"] in ("Medicine", "Pediatrics", "Surgery", "Yasir Nov", "Alhomrani Nov", "Alhomrani 10-14"):
         q["t"], q["h"] = "كل أسئلة النظام", ""
     if q["b"] == "GameBoy" and q["s"] == "Medicine":
         q["s"], q["t"], q["h"] = gbraw[q["i"]]["sec"], "كل أسئلة النظام", ""
