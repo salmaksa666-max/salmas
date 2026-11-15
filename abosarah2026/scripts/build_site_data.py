@@ -148,6 +148,8 @@ for q in out:
     if q["b"] == "GameBoy" and not q["r"]:
         q["r"] = (gbraw.get(q["i"], {}).get("flip") or "")[:300]
     q["kw"] = [w for w in dict.fromkeys(q.get("kw", [])) if 3 <= len(w) <= 80][:8]
+if os.environ.get("KEEP_OLD") != "1":  # Salma: forget September/October, keep only the November banks + GameBoy
+    out = [q for q in out if q["b"] in ("Alhomrani Nov", "Alhomrani 10-14", "Yasir Nov", "GameBoy")]
 order = []
 for q in out:
     if (q["b"], q["s"]) not in order:
