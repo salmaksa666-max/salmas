@@ -102,6 +102,7 @@ html,body{height:100%}
 <style>.wbad{color:var(--bad);font-weight:700;font-size:15px;margin:4px 0}</style>
 <style>.hype{display:flex;flex-direction:column;align-items:center;gap:18px;text-align:center;padding:48px 8px;font-size:20px}.hype .big{font:800 clamp(30px,6vw,52px)/1.15 Inter,sans-serif;color:var(--acc)}.hype .go{font-size:24px!important;min-height:64px!important;padding:12px 40px!important}</style>
 <style>.cv{border:1.5px dashed var(--acc)!important;background:var(--card)!important;font-size:.95em}.cv ul{margin:6px 0;padding-inline-start:20px}.cvh{font-weight:700;margin-bottom:4px;color:var(--acc)}.cvw{color:var(--bad);font-weight:700;margin-top:6px}</style>
+<style>.st{width:100%;border-collapse:collapse;margin:6px 0 14px;font-size:15px}.st th,.st td{border:1px solid var(--line);padding:8px;text-align:start}.st th{background:var(--hdr)}.st .lo{color:var(--bad);font-weight:700}.st .mid{color:#c77700;font-weight:700}.st .hi{color:var(--ok);font-weight:700}</style>
 
 
 <div id="app" dir="rtl"></div>
@@ -155,7 +156,7 @@ function home(){
  BANKS.forEach(b=>{const all=[].concat(...b.sys.map(s=>[].concat(...s.g.map(g=>g.q))));const s=stat(all);
   h+=`<button class="tile" onclick="go({v:'bank',b:'${b.n}'})"><b>${AR[b.n]||b.n}</b><span class="sm">${s.n} سؤال · حليت ${s.d} · غلط ${s.w}</span>${bar(s)}</button>`});
  h+=`</div><div class="sm">تقدمك محفوظ على هذا الجهاز. اضغطي على الخيار وهو يسجل الغلط لحاله.</div>
- <div class="row"><button class="btn" onclick="backup()">نسخ احتياطي للتقدم</button></div><div id="bk"></div>
+ <div class="row"><button class="btn p" onclick="go({v:'stats'})">📊 مستواي</button><button class="btn" onclick="backup()">نسخ احتياطي للتقدم</button></div><div id="bk"></div>
   <button class="grp" style="margin-top:18px;border-color:var(--acc)" onclick="go({v:'wal'})"><div class="t"><b>📦 الحافظة</b></div><div class="n">${WAL.length}</div></button>`;
  return h}
 function bank(){const b=BYB[V.b];let h=topb(AR[b.n]||b.n,"go({v:'home'})");
@@ -187,7 +188,8 @@ function quiz(){
  V.i=Math.min(V.i,list.length-1);const sq=V.show?Q.find(x=>x.i===V.show):null;const q=sq||list[V.i];
  let h=topb(esc(b.sys[V.s].g.length===1?b.sys[V.s].n:g.n),"go({v:'bank',b:'"+V.b+"'})");
  if(g.h&&V.i===0)h+=`<div class="how ltr" dir="ltr"><b>${g.q.length} Qs · ${esc(g.n)}</b><br>${esc(g.h)}</div>`;
- h+=`<div class="row"><button class="btn" onclick="V.uns=!V.uns;V.rt=false;V.snap=null;V.i=0;render()">${V.uns?"✔ اللي ما حليته بس":"اللي ما حليته بس"}</button><button class="btn ${V.rt?'p':''}" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:!V.rt})">${V.rt?"✔ وضع إعادة الحل":"أعيدي الحل"}</button></div>`;
+ const _mm=g.q.filter(q=>P[q.i]&&((P[q.i].w||0)>0||!P[q.i].ok)).length;
+ h+=`<div class="row"><button class="btn bad" ${_mm?"":"disabled"} onclick="redoMistakes()">🔁 إعادة الغلطات (${_mm})</button><button class="btn" onclick="V.uns=!V.uns;V.rt=false;V.snap=null;V.i=0;render()">${V.uns?"✔ اللي ما حليته بس":"اللي ما حليته بس"}</button><button class="btn ${V.rt?'p':''}" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:!V.rt})">${V.rt?"✔ وضع إعادة الحل":"أعيدي الحل"}</button></div>`;
  if(sq)h+=`<div class="how">🔁 رجع لك لأنك غلطتي فيه قبل شوي، حليه مرة ثانية</div>`;
  h+=qhtml(q,0,V.i,list.length,(V.rt||sq)?1:0);
  h+=`<div class="nav"><button class="btn" ${V.i?"":"disabled"} onclick="V.show=null;V.i--;render();window.scrollTo(0,0)">السابق</button><button class="btn p" onclick="nextQ(${list.length})">${(V.i<list.length-1||(V.again||[]).length||V.show)?"التالي":"خلصت المجموعة"}</button></div>`;
@@ -228,10 +230,10 @@ function nextG(n,key){V.steps=(V.steps||0)+1;V.again=V.again||[];V.retry=V.retry
  else{V.show=null;if(V[key]<n-1)V[key]++}
  render();window.scrollTo(0,0)}
 function endGroup(){const g=BYB[V.b].sys[V.s].g[V.g];const m=[...new Set([...(V.missed||[]),...g.q.filter(q=>P[q.i]&&((P[q.i].w||0)>0||!P[q.i].ok)).map(q=>q.i)])];for(let i=m.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[m[i],m[j]]=[m[j],m[i]]}
- if(m.length)go({v:'lsgIntro',b:V.b,ids:m});else go({v:'lsgDone',b:V.b,n:0})}
+ if(m.length)go({v:'lsgIntro',b:V.b,s:V.s,g:V.g,ids:m});else go({v:'lsgDone',b:V.b,s:V.s,g:V.g,n:0})}
 function lsgIntro(){return topb("🔥","go({v:'bank',b:'"+V.b+"'})")+`<div class="hype"><div class="big" dir="ltr">Let's see if you get it or not 😏🔥</div>
  <div>غلطتِ في <b>${V.ids.length}</b> ${V.ids.length==1?"سؤال":"أسئلة"} بهالمجموعة كلها (من أول ما بديتي فيها). يلا نشوف إذا ثبتت ولا لا!</div>
- <button class="btn p go" onclick="go({v:'lsg',b:V.b,ids:V.ids,li:0,rt:true,again:[],steps:0})">يلا! 💪</button></div>`}
+ <button class="btn p go" onclick="go({v:'lsg',b:V.b,s:V.s,g:V.g,ids:V.ids,li:0,rt:true,again:[],steps:0})">يلا! 💪</button></div>`}
 function lsg(){const sl=V.show?Q.find(x=>x.i===V.show):null,q=sl||Q.find(x=>x.i===V.ids[V.li]);
  let h=topb("🔥 Let's see if you get it","go({v:'bank',b:'"+V.b+"'})");
  if(sl)h+=`<div class="how">🔁 رجع لك، حليه مرة ثانية</div>`;
@@ -240,16 +242,28 @@ function lsg(){const sl=V.show?Q.find(x=>x.i===V.show):null,q=sl||Q.find(x=>x.i=
 function nextL(){V.steps=(V.steps||0)+1;V.again=V.again||[];V.retry=V.retry||{};const n=V.ids.length;
  let d=V.again.find(x=>x.due<=V.steps);if(!d&&V.li>=n-1&&V.again.length)d=V.again[0];
  if(d){V.again=V.again.filter(x=>x!==d);delete V.retry[d.id];delete SH[d.id];V.show=d.id}
- else{V.show=null;if(V.li<n-1)V.li++;else{go({v:'lsgDone',b:V.b,n:n});return}}
+ else{V.show=null;if(V.li<n-1)V.li++;else{go({v:'lsgDone',b:V.b,s:V.s,g:V.g,n:n});return}}
  render();window.scrollTo(0,0)}
 function lsgDone(){return topb("🎉","go({v:'bank',b:'"+V.b+"'})")+`<div class="hype"><div class="big" dir="ltr">${V.n?"You got it! 🎉":"Perfect! 🎉"}</div>
  <div>${V.n?"كل الأسئلة اللي غلطتي فيها صارت صح. ثبتت 💪":"ما غلطتي ولا مرة بهالمجموعة 👑"}</div>
- <button class="btn p go" onclick="go({v:'bank',b:V.b})">رجوع للأقسام</button></div>`}
+ ${V.s!=null?`<button class="btn go" onclick="redoMistakes()">🔁 إعادة الغلطات</button>`:""}<button class="btn p go" onclick="go({v:'bank',b:V.b})">رجوع للأقسام</button></div>`}
+function redoMistakes(){const g=BYB[V.b].sys[V.s].g[V.g];const m=g.q.filter(q=>P[q.i]&&((P[q.i].w||0)>0||!P[q.i].ok)).map(q=>q.i);
+ for(let i=m.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[m[i],m[j]]=[m[j],m[i]]}
+ if(m.length)go({v:'lsgIntro',b:V.b,s:V.s,g:V.g,ids:m})}
+function stats(){let h=topb("📊 مستواي","go({v:'home'})");
+ h+=`<div class="how">"غلطتِ فيها" = كل سؤال غلطتِ فيه ولو مرة. "صح من أول مرة" = مستواك الحقيقي. اللي أقل من 70% راجعي موضوعه.</div>`;
+ BANKS.forEach(b=>{let rows="",T={n:0,d:0,w:0};
+  b.sys.forEach(sy=>{const qs=[].concat(...sy.g.map(g=>g.q));let d=0,w=0;qs.forEach(q=>{const p=P[q.i];if(p){d++;if((p.w||0)>0||!p.ok)w++}});
+   T.n+=qs.length;T.d+=d;T.w+=w;const pc=d?Math.round(100*(d-w)/d):null;
+   rows+=`<tr><td>${esc(sy.n)}</td><td>${d}/${qs.length}</td><td>${w}</td><td class="${pc==null?"":pc<70?"lo":pc<85?"mid":"hi"}">${pc==null?"—":pc+"%"}</td></tr>`});
+  const tp=T.d?Math.round(100*(T.d-T.w)/T.d):null;
+  h+=`<div class="sys"><span>${AR[b.n]||b.n}</span><span class="sm">${tp==null?"لسه ما بديتي":"صح من أول مرة "+tp+"%"}</span></div><div style="overflow-x:auto"><table class="st"><tr><th>القسم</th><th>حليتي</th><th>غلطتِ فيها</th><th>صح من أول مرة</th></tr>${rows}</table></div>`});
+ return h}
 function pick(id,k,rt){const q=Q.find(x=>x.i===id);if(!q||(!rt&&P[id]))return;const _w=((P[id]||{}).w||0)+(k===q.a?0:1);P[id]={c:k,ok:k===q.a?1:0,t:Date.now(),w:_w};if(!P[id].ok&&V.v==='quiz'){V.missed=V.missed||[];if(!V.missed.includes(id))V.missed.push(id)}if(!P[id].ok&&(V.v==='quiz'||V.v==='wal'||V.v==='mist'||V.v==='lsg')){V.again=V.again||[];if(!V.again.some(x=>x.id===id))V.again.push({id:id,due:(V.steps||0)+2})}if(!P[id].ok&&!WAL.includes(id)){WAL.push(id);wsave();if(WREM.includes(id)){WREM=WREM.filter(x=>x!==id);rsave()}}if(rt){V.retry[id]=P[id]}save();V.keep=id;render();
  const o=document.querySelector(".reveal");if(o)o.scrollIntoView({block:"nearest",behavior:"smooth"})}
 function resetG(){const g=BYB[V.b].sys[V.s].g[V.g];g.q.forEach(q=>delete P[q.i]);save();go({v:"quiz",b:V.b,s:V.s,g:V.g,i:0,uns:false})}
 function backup(){$("#bk").innerHTML=`<textarea id="bt" readonly>${esc(JSON.stringify(P))}</textarea><div class="row"><button class="btn" onclick="navigator.clipboard.writeText($('#bt').value).catch(()=>$('#bt').select())">انسخي</button></div><div class="sm">للاسترجاع: الصقي النص هنا واضغطي استرجاع.</div><textarea id="rt"></textarea><div class="row"><button class="btn" onclick="try{P=JSON.parse($('#rt').value);save();go({v:'home'})}catch(e){alert}">استرجاع</button></div>`}
-function render(){$("#app").className=V.v==="quiz"?"full":"";$("#app").innerHTML=V.v==="lsgIntro"?lsgIntro():V.v==="lsg"?lsg():V.v==="lsgDone"?lsgDone():V.v==="home"?home():V.v==="bank"?bank():V.v==="quiz"?quiz():V.v==="wal"?wal():mist()}
+function render(){$("#app").className=V.v==="quiz"?"full":"";$("#app").innerHTML=V.v==="stats"?stats():V.v==="lsgIntro"?lsgIntro():V.v==="lsg"?lsg():V.v==="lsgDone"?lsgDone():V.v==="home"?home():V.v==="bank"?bank():V.v==="quiz"?quiz():V.v==="wal"?wal():mist()}
 loadQ().then(d=>{Q=d;init();render()}).catch(e=>{$('#app').textContent='تعذر تحميل الأسئلة: '+e});
 </script>
 
