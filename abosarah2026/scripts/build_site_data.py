@@ -76,6 +76,17 @@ import os
 if os.path.exists("site/n1014.json"):
     for q in json.load(open("site/n1014.json", encoding="utf-8")):
         out.append(dict(q, im=[]))
+if os.path.exists("site/gb14.json"):  # GB (14 NOV): modified GameBoy questions, own bank + answer fixes for the main bank
+    _g14 = json.load(open("site/gb14.json", encoding="utf-8"))
+    _fix = {x["gid"]: x["a"] for x in _g14 if not x["i"].endswith("v")}
+    for q in out:
+        if q["b"] == "GameBoy" and q["i"] in _fix and _fix[q["i"]] in dict(q["o"]) and q["a"] != _fix[q["i"]]:
+            q["n"] = ("GB 14 NOV: الجواب تغيّر من " + q["a"] + " إلى " + _fix[q["i"]] + ". " + q["n"])[:260]; q["a"] = _fix[q["i"]]
+    _gbs = {q["i"]: q for q in out if q["b"] == "GameBoy"}
+    for x in _g14:
+        base = _gbs.get(x["gid"], {})
+        out.append(dict(i=x["i"], b="GameBoy Nov", s=base.get("s", "GameBoy"), t="كل أسئلة النظام", h="", q=x["q"], o=x["o"], a=x["a"],
+                        k=base.get("k", ""), r=base.get("r", ""), n=x["n"], f="", im=[], kw=[]))
 if os.path.exists("site/ninja.json"):
     for q in json.load(open("site/ninja.json", encoding="utf-8")):
         out.append(q)
@@ -152,7 +163,7 @@ for q in out:
         q["r"] = (gbraw.get(q["i"], {}).get("flip") or "")[:300]
     q["kw"] = [w for w in dict.fromkeys(q.get("kw", [])) if 3 <= len(w) <= 80][:8]
 if os.environ.get("KEEP_OLD") != "1":  # Salma: forget September/October, keep only the November banks + GameBoy
-    out = [q for q in out if q["b"] in ("Alhomrani Nov", "Alhomrani 10-14", "Yasir Nov", "GameBoy", "Ninja")]
+    out = [q for q in out if q["b"] in ("Alhomrani Nov", "Alhomrani 10-14", "Yasir Nov", "GameBoy", "GameBoy Nov", "Ninja")]
 for q in out:  # one November bank: the 10-14 questions join the 1-9 ones, same subject names
     if q["b"] == "Alhomrani 10-14":
         q["b"] = "Alhomrani Nov"
