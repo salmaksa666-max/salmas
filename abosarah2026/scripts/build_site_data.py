@@ -203,7 +203,7 @@ for q in _nov:
     out.append(o)
 print("clear-version bank:", len(_seen))
 if os.environ.get("KEEP_OLD") != "1":  # Salma: forget September/October, keep only the November banks + GameBoy
-    out = [q for q in out if q["b"] in ("Alhomrani Nov", "Alhomrani 10-14", "Yasir Nov", "GameBoy", "GameBoy Nov", "Ninja", "Clear Nov")]
+    out = [q for q in out if q["b"] in ("Alhomrani Nov", "Alhomrani 10-14", "Yasir Nov", "GameBoy", "GameBoy Nov", "Ninja")]
 N14FIX = json.load(open("data/n14_fix.json", encoding="utf-8")) if os.path.exists("data/n14_fix.json") else {}
 for q in out:  # Alhomrani typo corrections posted after the 10-14 files
     if q["i"] in N14FIX and N14FIX[q["i"]][0] in dict(q["o"]):
