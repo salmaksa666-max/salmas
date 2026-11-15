@@ -192,8 +192,8 @@ function mist(){
  const l=m.filter(q=>V.mb==="all"||q.b===V.mb);
  if(!l.length)return h+`<div class="card">لا شيء هنا.</div>`;
  V.mi=Math.min(V.mi||0,l.length-1);
- h+=`<div class="tag">${V.mi+1}/${l.length} · ${esc(l[V.mi].s)} › ${esc(l[V.mi].t)}</div>`+qhtml(l[V.mi],0,V.mi,l.length,1)+
- `<div class="nav"><button class="btn" ${V.mi?"":"disabled"} onclick="V.mi--;render()">السابق</button><button class="btn p" onclick="V.mi=Math.min(V.mi+1,${l.length-1});render()">التالي</button></div>`;
+ const sm=V.show?Q.find(x=>x.i===V.show):null,cm=sm||l[V.mi];h+=(sm?`<div class="how">🔁 رجع لك لأنك غلطتي فيه قبل شوي، حليه مرة ثانية</div>`:"")+`<div class="tag">${V.mi+1}/${l.length} · ${esc(cm.s)} › ${esc(cm.t)}</div>`+qhtml(cm,0,V.mi,l.length,1)+
+ `<div class="nav"><button class="btn" ${V.mi?"":"disabled"} onclick="V.show=null;V.mi--;render()">السابق</button><button class="btn p" onclick="nextG(${l.length},'mi')">التالي</button></div>`;
  return h}
 function wal(){
   V.retry=V.retry||{};const m=Q.filter(q=>WAL.includes(q.i));let h=topb("📦 الحافظة","go({v:'home'})");h+=`<div class="row"><button class="btn bad" onclick="WAL=[];WREM=[];wsave();rsave();render()">🗑 فرّغي الحافظة</button></div>`;if(WREM.length)h+=`<div class="row"><button class="btn" onclick="wundo()">↩ رجّعي اللي شلتيه (${WREM.length})</button></div>`;
@@ -203,9 +203,9 @@ function wal(){
   const l=m.filter(q=>V.wb==="all"||q.b===V.wb);
   if(!l.length)return h+`<div class="card">لا شيء هنا.</div>`;
   V.wi=Math.min(V.wi||0,l.length-1);
-  h+=`<div class="tag">${V.wi+1}/${l.length} · ${esc(l[V.wi].s)} › ${esc(l[V.wi].t)}</div>`+qhtml(l[V.wi],0,V.wi,l.length,1)+
-  `<div class="row"><button class="btn bad" onclick="wdel('${l[V.wi].i}')">✓ راجعته</button></div>`+
-  `<div class="nav"><button class="btn" ${V.wi?"":"disabled"} onclick="V.wi--;render();window.scrollTo(0,0)">السابق</button><button class="btn p" onclick="V.wi=Math.min(V.wi+1,${l.length-1});render();window.scrollTo(0,0)">التالي</button></div>`;
+  const sw=V.show?Q.find(x=>x.i===V.show):null,cw=sw||l[V.wi];h+=(sw?`<div class="how">🔁 رجع لك لأنك غلطتي فيه قبل شوي، حليه مرة ثانية</div>`:"")+`<div class="tag">${V.wi+1}/${l.length} · ${esc(cw.s)} › ${esc(cw.t)}</div>`+qhtml(cw,0,V.wi,l.length,1)+
+  `<div class="row"><button class="btn bad" onclick="wdel('${cw.i}')">✓ راجعته</button></div>`+
+  `<div class="nav"><button class="btn" ${V.wi?"":"disabled"} onclick="V.show=null;V.wi--;render();window.scrollTo(0,0)">السابق</button><button class="btn p" onclick="nextG(${l.length},'wi')">التالي</button></div>`;
   return h}
 function nextQ(n){V.steps=(V.steps||0)+1;V.again=V.again||[];V.retry=V.retry||{};
  let d=V.again.find(x=>x.due<=V.steps);
@@ -213,7 +213,13 @@ function nextQ(n){V.steps=(V.steps||0)+1;V.again=V.again||[];V.retry=V.retry||{}
  if(d){V.again=V.again.filter(x=>x!==d);delete V.retry[d.id];V.show=d.id}
  else{const was=V.show;V.show=null;if(V.i<n-1)V.i++;else{go({v:'bank',b:V.b});return}}
  render();window.scrollTo(0,0)}
-function pick(id,k,rt){const q=Q.find(x=>x.i===id);if(!q||(!rt&&P[id]))return;P[id]={c:k,ok:k===q.a?1:0,t:Date.now()};if(!P[id].ok&&V.v==='quiz'){V.again=V.again||[];if(!V.again.some(x=>x.id===id))V.again.push({id:id,due:(V.steps||0)+4})}if(!P[id].ok&&!WAL.includes(id)){WAL.push(id);wsave();if(WREM.includes(id)){WREM=WREM.filter(x=>x!==id);rsave()}}if(rt){V.retry[id]=P[id]}save();V.keep=id;render();
+function nextG(n,key){V.steps=(V.steps||0)+1;V.again=V.again||[];V.retry=V.retry||{};V[key]=V[key]||0;
+ let d=V.again.find(x=>x.due<=V.steps);
+ if(!d&&V[key]>=n-1&&V.again.length)d=V.again[0];
+ if(d){V.again=V.again.filter(x=>x!==d);delete V.retry[d.id];V.show=d.id}
+ else{V.show=null;if(V[key]<n-1)V[key]++}
+ render();window.scrollTo(0,0)}
+function pick(id,k,rt){const q=Q.find(x=>x.i===id);if(!q||(!rt&&P[id]))return;P[id]={c:k,ok:k===q.a?1:0,t:Date.now()};if(!P[id].ok&&(V.v==='quiz'||V.v==='wal'||V.v==='mist')){V.again=V.again||[];if(!V.again.some(x=>x.id===id))V.again.push({id:id,due:(V.steps||0)+4})}if(!P[id].ok&&!WAL.includes(id)){WAL.push(id);wsave();if(WREM.includes(id)){WREM=WREM.filter(x=>x!==id);rsave()}}if(rt){V.retry[id]=P[id]}save();V.keep=id;render();
  const o=document.querySelector(".reveal");if(o)o.scrollIntoView({block:"nearest",behavior:"smooth"})}
 function resetG(){const g=BYB[V.b].sys[V.s].g[V.g];g.q.forEach(q=>delete P[q.i]);save();go({v:"quiz",b:V.b,s:V.s,g:V.g,i:0,uns:false})}
 function backup(){$("#bk").innerHTML=`<textarea id="bt" readonly>${esc(JSON.stringify(P))}</textarea><div class="row"><button class="btn" onclick="navigator.clipboard.writeText($('#bt').value).catch(()=>$('#bt').select())">انسخي</button></div><div class="sm">للاسترجاع: الصقي النص هنا واضغطي استرجاع.</div><textarea id="rt"></textarea><div class="row"><button class="btn" onclick="try{P=JSON.parse($('#rt').value);save();go({v:'home'})}catch(e){alert}">استرجاع</button></div>`}
