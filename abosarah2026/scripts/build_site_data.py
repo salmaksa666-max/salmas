@@ -155,11 +155,18 @@ for q in out:
             if w.lower() not in [x.lower() for x in seen]: seen.append(w)
         q["kw"] = seen[:8]
 for q in out:
-    if q["b"] == "GameBoy" and not q["r"]:
-        q["r"] = (gbraw.get(q["i"], {}).get("flip") or "")[:300]
+    if q["b"] in ("GameBoy", "GameBoy Nov") and not q["r"]:
+        _gid = q["i"] if q["b"] == "GameBoy" else "GB-" + q["i"][5:9]
+        q["r"] = (gbraw.get(_gid, {}).get("flip") or gbraw.get(_gid, {}).get("pearl") or "")[:300]
     q["kw"] = [w for w in dict.fromkeys(q.get("kw", [])) if 3 <= len(w) <= 80][:8]
 if os.environ.get("KEEP_OLD") != "1":  # Salma: forget September/October, keep only the November banks + GameBoy
     out = [q for q in out if q["b"] in ("Alhomrani Nov", "Alhomrani 10-14", "Yasir Nov", "GameBoy", "GameBoy Nov", "Ninja")]
+EXX = json.load(open("data/expl_extra.json", encoding="utf-8")) if os.path.exists("data/expl_extra.json") else {}
+for q in out:  # explanations written for questions that had none
+    if not (q.get("k") or q.get("r")) and q["i"] in EXX:
+        q["r"] = EXX[q["i"]]
+    if q["b"] == "Ninja":  # one section only
+        q["s"] = "كل أسئلة Ninja"
 for q in out:  # one November bank: the 10-14 questions join the 1-9 ones, same subject names
     if q["b"] == "Alhomrani 10-14":
         q["b"] = "Alhomrani Nov"
