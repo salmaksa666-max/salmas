@@ -84,6 +84,9 @@ if os.path.exists("site/gb14.json"):  # GB (14 NOV): modified GameBoy questions,
         base = _gbs.get(x["gid"], {})
         out.append(dict(i=x["i"], b="GameBoy Nov", s=base.get("s", "GameBoy"), t="كل أسئلة النظام", h="", q=x["q"], o=x["o"], a=x["a"],
                         k=base.get("k", ""), r=base.get("r", ""), n=x["n"], f="", im=[], kw=[]))
+for _f in ("site/pics.json", "site/ethics.json"):  # pictures + ethics banks
+    if os.path.exists(_f):
+        out += json.load(open(_f, encoding="utf-8"))
 if os.path.exists("site/ninja.json"):
     for q in json.load(open("site/ninja.json", encoding="utf-8")):
         out.append(q)
@@ -203,7 +206,7 @@ for q in _nov:
     out.append(o)
 print("clear-version bank:", len(_seen))
 if os.environ.get("KEEP_OLD") != "1":  # Salma: forget September/October, keep only the November banks + GameBoy
-    out = [q for q in out if q["b"] in ("Alhomrani Nov", "Alhomrani 10-14", "Yasir Nov", "GameBoy", "GameBoy Nov", "Ninja")]
+    out = [q for q in out if q["b"] in ("Alhomrani Nov", "Alhomrani 10-14", "Yasir Nov", "GameBoy", "GameBoy Nov", "Ninja", "Pictures", "Ethics")]
 N14FIX = json.load(open("data/n14_fix.json", encoding="utf-8")) if os.path.exists("data/n14_fix.json") else {}
 for q in out:  # Alhomrani typo corrections posted after the 10-14 files
     if q["i"] in N14FIX and N14FIX[q["i"]][0] in dict(q["o"]):
