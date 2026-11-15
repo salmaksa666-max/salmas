@@ -70,7 +70,8 @@ for it in json.load(open("site/mkj.json", encoding="utf-8")):
             if "mri" in t.lower():
                 it["a"] = k
     out.append(dict(i=it["i"], b="Alhomrani Nov", s=it["s"], t="كل أسئلة النظام", h="", q=it["q"], o=it["o"], a=it["a"],
-                    k=it.get("k", ""), r=it.get("r", ""), n=it["n"], f="", im=it.get("im", []), kw=it.get("kw", [])))
+                    k=it.get("k", ""), r=it.get("r", ""), n=it["n"], f="", im=it.get("im", []), kw=it.get("kw", []),
+                    x=re.sub(r"<[^>]+>", "", it.get("wo", ""))[:500]))
 # Alhomrani 10-14 November (parsed from the two PDFs by scripts/nov1014.py)
 import os
 if os.path.exists("site/n1014.json"):
@@ -181,8 +182,28 @@ for r, q in enumerate(_nov):
         q["cv"] = dict(i=o["i"], q=o["q"], o=[t for _, t in o["o"]], a=dict(o["o"]).get(o["a"], ""), s=round(sc, 2))
         _cv += 1
 print("november questions with a clearer old version:", _cv, "of", len(_nov))
+# put those clearer Sept/Oct questions in their own bank (the November questions stay untouched)
+_byold = {q["i"]: q for q in _old}
+_seen = {}
+for q in _nov:
+    cv = q.pop("cv", None)
+    if not cv or cv["i"] in _seen: continue
+    o = dict(_byold[cv["i"]])
+    nov_ans = dict(q["o"]).get(q["a"], "").lower().strip()
+    old_ans = dict(o["o"]).get(o["a"], "").lower().strip()
+    note = "نفس سؤال نوفمبر " + q["i"] + "."
+    if nov_ans and not (nov_ans[:18] in old_ans or old_ans[:18] in nov_ans):
+        hit = [k for k, t in o["o"] if nov_ans[:18] in t.lower() or t.lower()[:18] in nov_ans]
+        if hit:
+            note += " الجواب عُدّل لجواب نوفمبر (كان " + o["a"] + ")."; o["a"] = hit[0]
+        else:
+            note += " ⚠ جوابه في نوفمبر: " + dict(q["o"]).get(q["a"], "")[:60]
+    o.update(b="Clear Nov", s=o["b"], t="كل الأسئلة", h="", n=(note + " " + o.get("n", ""))[:260], i="CL-" + o["i"])
+    _seen[cv["i"]] = 1
+    out.append(o)
+print("clear-version bank:", len(_seen))
 if os.environ.get("KEEP_OLD") != "1":  # Salma: forget September/October, keep only the November banks + GameBoy
-    out = [q for q in out if q["b"] in ("Alhomrani Nov", "Alhomrani 10-14", "Yasir Nov", "GameBoy", "GameBoy Nov", "Ninja")]
+    out = [q for q in out if q["b"] in ("Alhomrani Nov", "Alhomrani 10-14", "Yasir Nov", "GameBoy", "GameBoy Nov", "Ninja", "Clear Nov")]
 N14FIX = json.load(open("data/n14_fix.json", encoding="utf-8")) if os.path.exists("data/n14_fix.json") else {}
 for q in out:  # Alhomrani typo corrections posted after the 10-14 files
     if q["i"] in N14FIX and N14FIX[q["i"]][0] in dict(q["o"]):
@@ -209,6 +230,10 @@ for q in out:
         order.append((q["b"], q["s"]))
 out.sort(key=lambda q: order.index((q["b"], q["s"])))
 print("dropped unsure peds:", dropped)
+_yex = L("yasir/expl.json")
+for q in out:
+    if q["b"] == "Yasir Nov" and not q.get("x"):
+        q["x"] = (_yex.get(q["i"], {}).get("whynot") or "")[:500]
 json.dump(out, open(sys.argv[1], "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 from collections import Counter
 print(len(out), Counter(x["b"] for x in out))

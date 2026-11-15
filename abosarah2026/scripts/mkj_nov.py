@@ -18,6 +18,7 @@ for (fl,) in c.execute("select flds from notes"):
                       k=(lambda m: tx(m.group(1))[:220] if m else "")(re.search(r'Key concept</span><div class="study-value">(.*?)</div>', f[10], re.S)),
                       r=(lambda m: tx(m.group(1))[:300] if m else "")(re.search(r'Why the answer is right</span><div class="study-value">(.*?)</div>', f[10], re.S)),
                       kw=[tx(x) for x in re.findall(r'<span class="kw">(.*?)</span>', f[3])],
+                      wo=(lambda m: re.sub(r"\s+", " ", re.sub(r"<br\s*/?>", " | ", m.group(1))) if m else "")(re.search(r'Why the others are wrong</span><div class="study-value">(.*?)</div>', f[10], re.S)),
                       n="", f="", st=f[19], day=f[2],
                       im=re.findall(r'src="([^"]+)"', f[12]) if re.search(r"\b(picture|pic|image|photo|ECG|EKG|x-?ray|CXR|smear)\b", stem, re.I) else []))
 print(len(items), Counter(i["st"] for i in items), "no letter:", sum(1 for i in items if not i["a"]), "no opts:", sum(1 for i in items if not i["o"]))
