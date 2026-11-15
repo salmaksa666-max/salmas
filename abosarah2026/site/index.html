@@ -227,10 +227,10 @@ function nextG(n,key){V.steps=(V.steps||0)+1;V.again=V.again||[];V.retry=V.retry
  if(d){V.again=V.again.filter(x=>x!==d);delete V.retry[d.id];delete SH[d.id];V.show=d.id}
  else{V.show=null;if(V[key]<n-1)V[key]++}
  render();window.scrollTo(0,0)}
-function endGroup(){const m=(V.missed||[]).slice();for(let i=m.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[m[i],m[j]]=[m[j],m[i]]}
+function endGroup(){const g=BYB[V.b].sys[V.s].g[V.g];const m=[...new Set([...(V.missed||[]),...g.q.filter(q=>P[q.i]&&((P[q.i].w||0)>0||!P[q.i].ok)).map(q=>q.i)])];for(let i=m.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[m[i],m[j]]=[m[j],m[i]]}
  if(m.length)go({v:'lsgIntro',b:V.b,ids:m});else go({v:'lsgDone',b:V.b,n:0})}
 function lsgIntro(){return topb("🔥","go({v:'bank',b:'"+V.b+"'})")+`<div class="hype"><div class="big" dir="ltr">Let's see if you get it or not 😏🔥</div>
- <div>غلطتِ في <b>${V.ids.length}</b> ${V.ids.length==1?"سؤال":"أسئلة"} بهالمجموعة. يلا نشوف إذا ثبتت ولا لا!</div>
+ <div>غلطتِ في <b>${V.ids.length}</b> ${V.ids.length==1?"سؤال":"أسئلة"} بهالمجموعة كلها (من أول ما بديتي فيها). يلا نشوف إذا ثبتت ولا لا!</div>
  <button class="btn p go" onclick="go({v:'lsg',b:V.b,ids:V.ids,li:0,rt:true,again:[],steps:0})">يلا! 💪</button></div>`}
 function lsg(){const sl=V.show?Q.find(x=>x.i===V.show):null,q=sl||Q.find(x=>x.i===V.ids[V.li]);
  let h=topb("🔥 Let's see if you get it","go({v:'bank',b:'"+V.b+"'})");
