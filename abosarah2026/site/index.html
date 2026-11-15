@@ -176,12 +176,13 @@ function quiz(){
  const b=BYB[V.b],g=b.sys[V.s].g[V.g];let list=g.q;
  if(V.uns&&!V.rt){if(!V.snap)V.snap=new Set(list.filter(q=>!P[q.i]).map(q=>q.i));list=list.filter(q=>V.snap.has(q.i))}
  if(!list.length){V.snap=null;return topb(esc(g.n),"go({v:'bank',b:'"+V.b+"'})")+`<div class="card">خلصتي كل أسئلة هذي المجموعة 🎉</div><div class="row"><button class="btn p" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:true})">أعيدي الحل</button><button class="btn bad" onclick="resetG()">امسحي تقدم المجموعة</button></div>`}
- V.i=Math.min(V.i,list.length-1);const q=list[V.i];
+ V.i=Math.min(V.i,list.length-1);const sq=V.show?Q.find(x=>x.i===V.show):null;const q=sq||list[V.i];
  let h=topb(esc(b.sys[V.s].g.length===1?b.sys[V.s].n:g.n),"go({v:'bank',b:'"+V.b+"'})");
  if(g.h&&V.i===0)h+=`<div class="how ltr" dir="ltr"><b>${g.q.length} Qs · ${esc(g.n)}</b><br>${esc(g.h)}</div>`;
  h+=`<div class="row"><button class="btn" onclick="V.uns=!V.uns;V.rt=false;V.snap=null;V.i=0;render()">${V.uns?"✔ اللي ما حليته بس":"اللي ما حليته بس"}</button><button class="btn ${V.rt?'p':''}" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:!V.rt})">${V.rt?"✔ وضع إعادة الحل":"أعيدي الحل"}</button></div>`;
- h+=qhtml(q,0,V.i,list.length,V.rt?1:0);
- h+=`<div class="nav"><button class="btn" ${V.i?"":"disabled"} onclick="V.i--;render();window.scrollTo(0,0)">السابق</button><button class="btn p" onclick="${V.i<list.length-1?"V.i++;render();window.scrollTo(0,0)":"go({v:'bank',b:V.b})"}">${V.i<list.length-1?"التالي":"خلصت المجموعة"}</button></div>`;
+ if(sq)h+=`<div class="how">🔁 رجع لك لأنك غلطتي فيه قبل شوي، حليه مرة ثانية</div>`;
+ h+=qhtml(q,0,V.i,list.length,(V.rt||sq)?1:0);
+ h+=`<div class="nav"><button class="btn" ${V.i?"":"disabled"} onclick="V.show=null;V.i--;render();window.scrollTo(0,0)">السابق</button><button class="btn p" onclick="nextQ(${list.length})">${(V.i<list.length-1||(V.again||[]).length||V.show)?"التالي":"خلصت المجموعة"}</button></div>`;
  return h}
 function mist(){
  V.retry=V.retry||{};const m=Q.filter(q=>(P[q.i]&&!P[q.i].ok)||V.retry[q.i]);let h=topb("غلطاتي","go({v:'home'})");
@@ -206,7 +207,13 @@ function wal(){
   `<div class="row"><button class="btn bad" onclick="wdel('${l[V.wi].i}')">✓ راجعته</button></div>`+
   `<div class="nav"><button class="btn" ${V.wi?"":"disabled"} onclick="V.wi--;render();window.scrollTo(0,0)">السابق</button><button class="btn p" onclick="V.wi=Math.min(V.wi+1,${l.length-1});render();window.scrollTo(0,0)">التالي</button></div>`;
   return h}
-function pick(id,k,rt){const q=Q.find(x=>x.i===id);if(!q||(!rt&&P[id]))return;P[id]={c:k,ok:k===q.a?1:0,t:Date.now()};if(!P[id].ok&&!WAL.includes(id)){WAL.push(id);wsave();if(WREM.includes(id)){WREM=WREM.filter(x=>x!==id);rsave()}}if(rt){V.retry[id]=P[id]}save();V.keep=id;render();
+function nextQ(n){V.steps=(V.steps||0)+1;V.again=V.again||[];V.retry=V.retry||{};
+ let d=V.again.find(x=>x.due<=V.steps);
+ if(!d&&V.i>=n-1&&V.again.length)d=V.again[0];
+ if(d){V.again=V.again.filter(x=>x!==d);delete V.retry[d.id];V.show=d.id}
+ else{const was=V.show;V.show=null;if(V.i<n-1)V.i++;else{go({v:'bank',b:V.b});return}}
+ render();window.scrollTo(0,0)}
+function pick(id,k,rt){const q=Q.find(x=>x.i===id);if(!q||(!rt&&P[id]))return;P[id]={c:k,ok:k===q.a?1:0,t:Date.now()};if(!P[id].ok&&V.v==='quiz'){V.again=V.again||[];if(!V.again.some(x=>x.id===id))V.again.push({id:id,due:(V.steps||0)+4})}if(!P[id].ok&&!WAL.includes(id)){WAL.push(id);wsave();if(WREM.includes(id)){WREM=WREM.filter(x=>x!==id);rsave()}}if(rt){V.retry[id]=P[id]}save();V.keep=id;render();
  const o=document.querySelector(".reveal");if(o)o.scrollIntoView({block:"nearest",behavior:"smooth"})}
 function resetG(){const g=BYB[V.b].sys[V.s].g[V.g];g.q.forEach(q=>delete P[q.i]);save();go({v:"quiz",b:V.b,s:V.s,g:V.g,i:0,uns:false})}
 function backup(){$("#bk").innerHTML=`<textarea id="bt" readonly>${esc(JSON.stringify(P))}</textarea><div class="row"><button class="btn" onclick="navigator.clipboard.writeText($('#bt').value).catch(()=>$('#bt').select())">انسخي</button></div><div class="sm">للاسترجاع: الصقي النص هنا واضغطي استرجاع.</div><textarea id="rt"></textarea><div class="row"><button class="btn" onclick="try{P=JSON.parse($('#rt').value);save();go({v:'home'})}catch(e){alert}">استرجاع</button></div>`}
