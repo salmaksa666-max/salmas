@@ -171,6 +171,12 @@ for q in out:  # explanations written for questions that had none
         q["r"] = EXX[q["i"]]
     if q["b"] == "Ninja":  # one section only
         q["s"] = "كل أسئلة Ninja"
+for q in out:  # GameBoy: three sections only (Obstetrics, Gynecology, Medicine)
+    if q["b"] in ("GameBoy", "GameBoy Nov"):
+        _gid = q["i"] if q["b"] == "GameBoy" else "GB-" + q["i"][5:9]
+        _part = gbraw.get(_gid, {}).get("part", "")
+        q["s"] = {"OB": "Obstetrics", "GYN": "Gynecology"}.get(_part, "Medicine")
+        q["t"], q["h"] = "كل الأسئلة", ""
 for q in out:  # one November bank: the 10-14 questions join the 1-9 ones, same subject names
     if q["b"] == "Alhomrani 10-14":
         q["b"] = "Alhomrani Nov"
