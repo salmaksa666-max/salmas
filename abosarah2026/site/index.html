@@ -126,10 +126,10 @@ async function loadQ(){const bin=Uint8Array.from(atob(B64),c=>c.charCodeAt(0));
 const KEY="smle_solve_v1";
 let P={};try{P=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){}
 const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(P))}catch(e){}};
-const WKEY="smle_wallet_v1";let WAL=[];try{WAL=JSON.parse(localStorage.getItem(WKEY)||"[]")||[]}catch(e){}
-let WREM=[];try{WREM=JSON.parse(localStorage.getItem("smle_wallet_rm_v1")||"[]")||[]}catch(e){}
-const rsave=()=>{try{localStorage.setItem("smle_wallet_rm_v1",JSON.stringify(WREM))}catch(e){}};
-Object.keys(P).forEach(id=>{if(P[id]&&!P[id].ok&&!WAL.includes(id)&&!WREM.includes(id))WAL.push(id)});
+const WKEY="smle_wallet_v2";let WAL=[];try{WAL=JSON.parse(localStorage.getItem(WKEY)||"[]")||[]}catch(e){}
+let WREM=[];try{WREM=JSON.parse(localStorage.getItem("smle_wallet_rm_v2")||"[]")||[]}catch(e){}
+const rsave=()=>{try{localStorage.setItem("smle_wallet_rm_v2",JSON.stringify(WREM))}catch(e){}};
+
 const wsave=()=>{try{localStorage.setItem(WKEY,JSON.stringify(WAL))}catch(e){}};wsave();
 function wdel(id){WAL=WAL.filter(x=>x!==id);if(!WREM.includes(id))WREM.push(id);wsave();rsave();render()}
 function wundo(){WREM.forEach(id=>{if(!WAL.includes(id))WAL.push(id)});WREM=[];wsave();rsave();render()}
@@ -195,7 +195,7 @@ function mist(){
  `<div class="nav"><button class="btn" ${V.mi?"":"disabled"} onclick="V.mi--;render()">السابق</button><button class="btn p" onclick="V.mi=Math.min(V.mi+1,${l.length-1});render()">التالي</button></div>`;
  return h}
 function wal(){
-  V.retry=V.retry||{};const m=Q.filter(q=>WAL.includes(q.i));let h=topb("📦 الحافظة","go({v:'home'})");if(WREM.length)h+=`<div class="row"><button class="btn" onclick="wundo()">↩ رجّعي اللي شلتيه (${WREM.length})</button></div>`;
+  V.retry=V.retry||{};const m=Q.filter(q=>WAL.includes(q.i));let h=topb("📦 الحافظة","go({v:'home'})");h+=`<div class="row"><button class="btn bad" onclick="WAL=[];WREM=[];wsave();rsave();render()">🗑 فرّغي الحافظة</button></div>`;if(WREM.length)h+=`<div class="row"><button class="btn" onclick="wundo()">↩ رجّعي اللي شلتيه (${WREM.length})</button></div>`;
   if(!m.length)return h+`<div class="card">فاضية 🎉</div>`;
   V.wb=V.wb||"all";
   h+=`<div class="row">`+["all",...BANKS.map(b=>b.n)].map(n=>`<button class="btn ${V.wb===n?"p":""}" onclick="V.wb='${n}';V.wi=0;render()">${n==="all"?"الكل":(AR[n]||n)}</button>`).join("")+`</div>`;
