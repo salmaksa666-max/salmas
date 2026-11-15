@@ -76,6 +76,9 @@ import os
 if os.path.exists("site/n1014.json"):
     for q in json.load(open("site/n1014.json", encoding="utf-8")):
         out.append(dict(q, im=[]))
+if os.path.exists("site/ninja.json"):
+    for q in json.load(open("site/ninja.json", encoding="utf-8")):
+        out.append(q)
 # Yasir November: only the questions that are NOT in the Alhomrani November deck
 import numpy as np
 from collections import Counter as _C
@@ -149,7 +152,7 @@ for q in out:
         q["r"] = (gbraw.get(q["i"], {}).get("flip") or "")[:300]
     q["kw"] = [w for w in dict.fromkeys(q.get("kw", [])) if 3 <= len(w) <= 80][:8]
 if os.environ.get("KEEP_OLD") != "1":  # Salma: forget September/October, keep only the November banks + GameBoy
-    out = [q for q in out if q["b"] in ("Alhomrani Nov", "Alhomrani 10-14", "Yasir Nov", "GameBoy")]
+    out = [q for q in out if q["b"] in ("Alhomrani Nov", "Alhomrani 10-14", "Yasir Nov", "GameBoy", "Ninja")]
 for q in out:  # one November bank: the 10-14 questions join the 1-9 ones, same subject names
     if q["b"] == "Alhomrani 10-14":
         q["b"] = "Alhomrani Nov"
