@@ -150,6 +150,10 @@ for q in out:
     q["kw"] = [w for w in dict.fromkeys(q.get("kw", [])) if 3 <= len(w) <= 80][:8]
 if os.environ.get("KEEP_OLD") != "1":  # Salma: forget September/October, keep only the November banks + GameBoy
     out = [q for q in out if q["b"] in ("Alhomrani Nov", "Alhomrani 10-14", "Yasir Nov", "GameBoy")]
+for q in out:  # one November bank: the 10-14 questions join the 1-9 ones, same subject names
+    if q["b"] == "Alhomrani 10-14":
+        q["b"] = "Alhomrani Nov"
+        q["s"] = {"OB/GYN": "OBGYN", "Other": "Other / Mixed"}.get(q["s"], q["s"])
 order = []
 for q in out:
     if (q["b"], q["s"]) not in order:

@@ -23,6 +23,7 @@ changed = []
 for r, q in enumerate(ys):
     j = int(S[r].argmax()); s = float(S[r, j])
     if s < 0.7: continue
+    if ref[j]['i'].startswith('N14') and (s < 0.85 or int((S[:, j] >= 0.7).sum()) > 1): continue  # 10-14 matches must be strong and one-to-one
     o = ref[j]; ra = dict(o["o"]).get(o["a"], "")
     ya = dict(q["o"]).get(q["a"], "")
     A, B = norm(ra), norm(ya)
