@@ -65,6 +65,6 @@ for r, it in enumerate(raw):
         o = ref[j]; ta = dict(o["o"]).get(o["a"], "").lower().strip(); tb = dict(it["opts"])[it["a"]].lower().strip()
         if ta and (ta in tb or tb in ta): dup += 1; note = ("مكرر من القديم (" + o["i"] + "). " + note)[:260]
         else: diff += 1; note = ("⚠ يشبه " + o["i"] + " لكن جوابه: " + dict(o["o"]).get(o["a"], "")[:40] + ". " + note)[:260]
-    out.append(dict(i=it["i"], b="Alhomrani 10-14", s=sysn, t="كل أسئلة النظام", h="", q=it["stem"], o=it["opts"], a=it["a"], k="", r="", n=note, f=""))
+    out.append(dict(ref=(ref[j]["i"] if s >= 0.85 else ""), i=it["i"], b="Alhomrani 10-14", s=sysn, t="كل أسئلة النظام", h="", q=it["stem"], o=it["opts"], a=it["a"], k="", r="", n=note, f=""))
 print("duplicates:", dup, "similar-but-different:", diff, Counter(o["s"] for o in out))
 json.dump(out, open(sys.argv[3], "w", encoding="utf-8"), ensure_ascii=False)

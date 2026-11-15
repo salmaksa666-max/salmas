@@ -70,7 +70,7 @@ for it in json.load(open("site/mkj.json", encoding="utf-8")):
             if "mri" in t.lower():
                 it["a"] = k
     out.append(dict(i=it["i"], b="Alhomrani Nov", s=it["s"], t="كل أسئلة النظام", h="", q=it["q"], o=it["o"], a=it["a"],
-                    k="", r="", n=it["n"], f="", im=it.get("im", [])))
+                    k=it.get("k", ""), r=it.get("r", ""), n=it["n"], f="", im=it.get("im", []), kw=it.get("kw", [])))
 # Alhomrani 10-14 November (parsed from the two PDFs by scripts/nov1014.py)
 import os
 if os.path.exists("site/n1014.json"):
@@ -115,6 +115,39 @@ for q in out:
         q["s"], q["t"], q["h"] = gbraw[q["i"]]["sec"], "كل أسئلة النظام", ""
     keep.append(q)
 out = keep
+# --- keywords (to highlight) and a short "why" for memorising
+import ast
+KWJ = L("kw.json")
+gbkw = {}
+for g in L("gb_items.json"):
+    ws = []
+    for fld in ("l2", "l1"):
+        v = g.get(fld)
+        try: ws += ast.literal_eval(v) if isinstance(v, str) else (v or [])
+        except Exception: pass
+    gbkw[g["qid"]] = [w for w in ws if isinstance(w, str)]
+    if not gbkw[g["qid"]]: pass
+byid = {q["i"]: q for q in out}
+for q in out:
+    if not q.get("kw"):
+        q["kw"] = KWJ.get(q["i"]) or gbkw.get(q["i"]) or []
+for q in out:  # 10-14 questions that repeat an older one reuse its keywords and explanation
+    if q["b"] == "Alhomrani 10-14" and q.get("ref") and q["ref"] in byid:
+        o = byid[q["ref"]]
+        q["kw"] = q.get("kw") or o.get("kw", [])
+        q["k"] = q.get("k") or o.get("k", ""); q["r"] = q.get("r") or o.get("r", "")
+HEUR = re.compile(r"\b\d+(?:\.\d+)?[- ]?(?:year|yr|month|week|day|hour|h)s?[- ]?(?:old)?\b|\b\d+(?:\.\d+)?\s?(?:mg/dl|mmol/l|mmhg|bpm|kg|mg|cm|mm|g/dl|%|/min|iu|cc|ml)\b|\b(?:no|without|denies|absent|negative for)\s+[a-z][a-z-]+(?:\s+[a-z][a-z-]+)?|\b(?:fever|jaundice|vomiting|diarrh\w+|bleeding|pain|dyspnea|cough|rash|seizure|syncope|edema|swelling|hypotension|tachycardia|bradycardia|cyanosis|headache|weight loss|pregnan\w+|postpartum|newborn|neonate|infant|preterm|diabet\w+|hypertens\w+|smok\w+)\b", re.I)
+for q in out:
+    if not q["kw"]:  # no curated keywords: highlight ages, numbers with units and the main symptoms
+        seen = []
+        for m in HEUR.finditer(q["q"]):
+            w = m.group(0).strip()
+            if w.lower() not in [x.lower() for x in seen]: seen.append(w)
+        q["kw"] = seen[:8]
+for q in out:
+    if q["b"] == "GameBoy" and not q["r"]:
+        q["r"] = (gbraw.get(q["i"], {}).get("flip") or "")[:300]
+    q["kw"] = [w for w in dict.fromkeys(q.get("kw", [])) if 3 <= len(w) <= 80][:8]
 order = []
 for q in out:
     if (q["b"], q["s"]) not in order:

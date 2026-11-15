@@ -15,7 +15,10 @@ for (fl,) in c.execute("select flds from notes"):
     sec = f[1].split("::")[-1]
     sec = re.sub(r"^\d+-\s*", "", sec)
     items.append(dict(i=f[0], b="Alhomrani Nov", s=sec, t="كل أسئلة النظام", h="", q=stem, o=opts, a=m.group(1) if m else "",
-                      k="", r="", n=tx(f[10])[:260], f="", st=f[19], day=f[2],
+                      k=(lambda m: tx(m.group(1))[:220] if m else "")(re.search(r'Key concept</span><div class="study-value">(.*?)</div>', f[10], re.S)),
+                      r=(lambda m: tx(m.group(1))[:300] if m else "")(re.search(r'Why the answer is right</span><div class="study-value">(.*?)</div>', f[10], re.S)),
+                      kw=[tx(x) for x in re.findall(r'<span class="kw">(.*?)</span>', f[3])],
+                      n="", f="", st=f[19], day=f[2],
                       im=re.findall(r'src="([^"]+)"', f[12]) if re.search(r"\b(picture|pic|image|photo|ECG|EKG|x-?ray|CXR|smear)\b", stem, re.I) else []))
 print(len(items), Counter(i["st"] for i in items), "no letter:", sum(1 for i in items if not i["a"]), "no opts:", sum(1 for i in items if not i["o"]))
 json.dump(items, open(OUT, "w", encoding="utf-8"), ensure_ascii=False)
