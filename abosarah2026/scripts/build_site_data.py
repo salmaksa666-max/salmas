@@ -78,10 +78,6 @@ if os.path.exists("site/n1014.json"):
         out.append(dict(q, im=[]))
 if os.path.exists("site/gb14.json"):  # GB (14 NOV): modified GameBoy questions, own bank + answer fixes for the main bank
     _g14 = json.load(open("site/gb14.json", encoding="utf-8"))
-    _fix = {x["gid"]: x["a"] for x in _g14 if not x["i"].endswith("v")}
-    for q in out:
-        if q["b"] == "GameBoy" and q["i"] in _fix and _fix[q["i"]] in dict(q["o"]) and q["a"] != _fix[q["i"]]:
-            q["n"] = ("GB 14 NOV: الجواب تغيّر من " + q["a"] + " إلى " + _fix[q["i"]] + ". " + q["n"])[:260]; q["a"] = _fix[q["i"]]
     _gbs = {q["i"]: q for q in out if q["b"] == "GameBoy"}
     for x in _g14:
         base = _gbs.get(x["gid"], {})
