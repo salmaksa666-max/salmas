@@ -90,3 +90,7 @@ for k in range(0, len(_pg), 4):
     sh.save(f"site/a15s/s{k // 4}.webp", "WEBP", quality=55)
 for q in out: q["ap"] = [f"s{_pos[int(x[1:-5])][0]}|{_pos[int(x[1:-5])][1]}" for x in q.get("ap", []) if x.startswith("p")]
 json.dump(out, open("site/alh15.json", "w", encoding="utf-8"), ensure_ascii=False)
+
+for q in out:  # his file: 'New Questions' (pages 5-40) then 'Repeated Questions' (42-203)
+    q["t"] = "1) الأسئلة الجديدة (صفحة 5–40)" if int(re.search(r"صفحة (\d+)", q["n"]).group(1)) <= 40 else "2) الأسئلة المكررة (صفحة 42–203)"
+json.dump(out, open("site/alh15.json", "w", encoding="utf-8"), ensure_ascii=False)
