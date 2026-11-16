@@ -279,6 +279,10 @@ _MAP = {"GB-0464": "JOE-0016", "NOV-0528": "AMK-0016", "SL-NOV-0528": "AMK-0016"
         "NOV-255": "AMK-0055", "NOV-620": "AMK-0117"}
 for q in out:
     if q["i"] in _MAP and not q.get("pi") and _PIC.get(_MAP[q["i"]]): q["pi"] = _PIC[_MAP[q["i"]]]
+TIPS = json.load(open("data/alh_tips.json", encoding="utf-8")) if os.path.exists("data/alh_tips.json") else {}
+for q in out:  # Alhomrani's rule, shown first after answering (same question in every bank)
+    _b = re.sub(r"^(SL|AH15)-", "", q["i"])
+    if _b in TIPS: q["tip"] = TIPS[_b]
 json.dump(out, open(sys.argv[1], "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 from collections import Counter
 print(len(out), Counter(x["b"] for x in out))
