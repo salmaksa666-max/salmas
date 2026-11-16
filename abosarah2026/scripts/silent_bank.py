@@ -45,6 +45,10 @@ for r in range(len(out)):
         if c not in _drop and _S[r, c] >= 0.8 and dict(out[r]["o"]).get(out[r]["a"], "").lower()[:15] == dict(out[c]["o"]).get(out[c]["a"], "").lower()[:15]: _drop.add(c)
 print("dedup dropped", len(_drop))
 out = [q for r, q in enumerate(out) if r not in _drop]
+ANS = {"SL-SWR-1877": ("B", "✔ جواب الصورة في القناة: B (Varicella vaccine خلال 3–5 أيام من التعرض). إذا كان مطعم → Reassure.")}
+for q in out:
+    if q["i"] in ANS:
+        q["a"], _nn = ANS[q["i"]]; q["n"] = _nn + " " + (q.get("n") or "")
 PIC = {"SL-88549": ["joefig_p03_b3.webp"]}  # recall says "picture of endometrial polyp" -> hysteroscopy image from Joe
 for q in out:
     for k, v in PIC.items():
