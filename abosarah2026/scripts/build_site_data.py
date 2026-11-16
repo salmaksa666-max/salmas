@@ -210,18 +210,22 @@ if os.environ.get("KEEP_OLD") != "1":  # Salma: forget September/October, keep o
     out = [q for q in out if q["b"] in ("Alhomrani Nov", "Alhomrani 10-14", "Yasir Nov", "GameBoy", "GameBoy Nov", "Ninja", "Pictures", "Ethics")]
 if os.path.exists("site/silent.json"):  # Silent channel 15 Nov (recalls + screenshots)
     out += json.load(open("site/silent.json", encoding="utf-8"))
+if os.path.exists("site/alh15.json"):  # Alhomrani '15 November' file, its own section inside the exam-recalls bank
+    out += json.load(open("site/alh15.json", encoding="utf-8"))
 N14FIX = json.load(open("data/n14_fix.json", encoding="utf-8")) if os.path.exists("data/n14_fix.json") else {}
 for q in out:  # Alhomrani typo corrections posted after the 10-14 files
-    _fid = q["i"][3:] if q["i"].startswith("SL-") else q["i"]
+    _fid = re.sub(r"^(SL|AH15)-", "", q["i"])
     if _fid in N14FIX and N14FIX[_fid][0] in dict(q["o"]):
         q["a"] = N14FIX[_fid][0]; q["n"] = ("✔ " + N14FIX[_fid][1] + " " + q.get("n", ""))[:260]
 EXX = json.load(open("data/expl_extra.json", encoding="utf-8")) if os.path.exists("data/expl_extra.json") else {}
 for q in out:  # explanations written for questions that had none
-    _eid = q["i"][3:] if q["i"].startswith("SL-") else q["i"]
+    _eid = re.sub(r"^(SL|AH15)-", "", q["i"])
     if not (q.get("k") or q.get("r")) and _eid in EXX:
         q["r"] = EXX[_eid]
     if q["b"] == "Ninja":  # Ninja joins the exam-recalls bank (Silent + Ninja, 15–16 Nov)
-        q["b"], q["s"] = "Silent", "كل الأسئلة"
+        q["b"], q["s"] = "Silent", "سايلنت + نينجا"
+    if q["b"] == "Silent" and q["s"] == "كل الأسئلة":
+        q["s"] = "سايلنت + نينجا"
 for q in out:  # GameBoy: three sections only (Obstetrics, Gynecology, Medicine)
     if q["b"] in ("GameBoy", "GameBoy Nov"):
         _gid = q["i"] if q["b"] == "GameBoy" else "GB-" + q["i"][5:9]
