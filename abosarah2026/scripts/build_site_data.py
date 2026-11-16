@@ -214,11 +214,12 @@ if os.environ.get("KEEP_OLD") != "1":  # Salma: forget September/October, keep o
     out = [q for q in out if q["b"] in ("Alhomrani Nov", "Alhomrani 10-14", "Yasir Nov", "GameBoy", "GameBoy Nov", "Ninja", "Pictures", "Ethics")]
 if os.path.exists("site/silent.json"):  # Silent channel 15 Nov (recalls + screenshots)
     out += json.load(open("site/silent.json", encoding="utf-8"))
+sys.path.insert(0, "data"); from an15_sec import SEC as AN15SEC  # Salma: spread 15 Nov into the specialty sections
 if os.path.exists("site/alh15.json"):  # Alhomrani '15 November' file, its own section inside the exam-recalls bank
     _a15 = json.load(open("site/alh15.json", encoding="utf-8"))
     out += _a15
     for q in _a15:  # ... and the same file again inside the Alhomrani November bank (her request)
-        out.append(dict(q, i="AN15-" + q["i"][5:], b="Alhomrani Nov", s="15 November (ملف الحمراني)"))
+        out.append(dict(q, i="AN15-" + q["i"][5:], b="Alhomrani Nov", s=AN15SEC[q["i"][5:]], t="كل أسئلة النظام"))
 N14FIX = json.load(open("data/n14_fix.json", encoding="utf-8")) if os.path.exists("data/n14_fix.json") else {}
 for q in out:  # Alhomrani typo corrections posted after the 10-14 files
     _fid = re.sub(r"^(SL|AH15|AN15)-", "", q["i"])
