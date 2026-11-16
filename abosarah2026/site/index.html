@@ -1,7 +1,7 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}.sm{font-size:clamp(16px,2.2vw,20px)}
 .qtile{display:block;width:100%;margin:10px 0;border:1px solid var(--line);border-radius:10px;background-color:#fff;background-repeat:no-repeat;cursor:zoom-in}
 .zoomov{position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:99;overflow:auto;padding:10px}
-.zoomov .qtile{width:min(1800px,220vw);max-width:none;margin:0}
+.zoomov .qtile{width:min(1400px,170vw);max-width:none;margin:0}.zoomx{position:fixed;top:max(10px,env(safe-area-inset-top,0px));left:10px;z-index:100;font:700 20px Tajawal,system-ui,sans-serif;padding:12px 20px;border-radius:12px;border:0;background:#fff;color:#000;box-shadow:0 2px 10px rgba(0,0,0,.4)}
 </style></head><body>
 <title>حل سلمى</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -184,7 +184,9 @@ function retryNow(id){V.retry=V.retry||{};delete V.retry[id];delete SH[id];V.aga
 const SH={};
 function TL(t){const [f,pos,size,asp]=t.split("|");return `<div class="qtile" onclick="zoomT(this)" style="aspect-ratio:${asp};background-image:url(${f});background-position:0 ${pos}%;background-size:100% ${size}%"></div>`}
 function A15(i){const [s,r]=i.split("|");return TL(`a15s/${s}.webp|${r*100/3}|400|${1267/713}`)}
-function zoomT(el){const d=document.createElement("div");d.className="zoomov";d.innerHTML=el.outerHTML.replace('onclick="zoomT(this)"','');d.onclick=()=>d.remove();document.body.appendChild(d)}
+function zoomClose(){document.querySelectorAll(".zoomov").forEach(x=>x.remove())}
+function zoomT(el){zoomClose();const d=document.createElement("div");d.className="zoomov";d.innerHTML='<button class="zoomx" onclick="zoomClose()">✕ إغلاق</button>'+el.outerHTML.replace('onclick="zoomT(this)"','');d.onclick=e=>{if(e.target===d)zoomClose()};document.body.appendChild(d)}
+addEventListener("keydown",e=>{if(e.key==="Escape")zoomClose()});addEventListener("popstate",zoomClose);
 function SRC(q){return (q.sp||[]).map(TL).join("")+(q.ap||[]).map(A15).join("")+(q.st||[]).map(TL).join("")+((q.sp||[]).length?"":(q.im||[]).map(i=>`<img class="qimg" loading="lazy" src="img/${i}">`).join(""))}
 function qhtml(q,back,idx,tot,rt){
  const p=rt?V.retry[q.i]:P[q.i];
@@ -302,7 +304,7 @@ function nextF(){V.steps=(V.steps||0)+1;V.again=V.again||[];V.retry=V.retry||{};
 function guess(id){const p=P[id];if(!p)return;p.g=1;p.lv=Math.min(p.lv||0,1);save();V.again=V.again||[];if(!V.again.some(x=>x.id===id))V.again.push({id:id,due:(V.steps||0)+3});if(!WAL.includes(id)){WAL.push(id);wsave()}render()}
 function resetG(){const g=BYB[V.b].sys[V.s].g[V.g];g.q.forEach(q=>delete P[q.i]);save();go({v:"quiz",b:V.b,s:V.s,g:V.g,i:0,uns:false})}
 function backup(){$("#bk").innerHTML=`<textarea id="bt" readonly>${esc(JSON.stringify(P))}</textarea><div class="row"><button class="btn" onclick="navigator.clipboard.writeText($('#bt').value).catch(()=>$('#bt').select())">انسخي</button></div><div class="sm">للاسترجاع: الصقي النص هنا واضغطي استرجاع.</div><textarea id="rt"></textarea><div class="row"><button class="btn" onclick="try{P=JSON.parse($('#rt').value);save();go({v:'home'})}catch(e){alert}">استرجاع</button></div>`}
-function render(){$("#app").className=(V.v==="quiz"||V.v==="fix")?"full":"";$("#app").innerHTML=V.v==="stats"?stats():V.v==="lsgIntro"?lsgIntro():V.v==="lsg"?lsg():V.v==="lsgDone"?lsgDone():V.v==="home"?home():V.v==="fold"?fold():V.v==="bank"?bank():V.v==="quiz"?quiz():V.v==="wal"?wal():V.v==="fix"?fix():mist()}
+function render(){zoomClose();$("#app").className=(V.v==="quiz"||V.v==="fix")?"full":"";$("#app").innerHTML=V.v==="stats"?stats():V.v==="lsgIntro"?lsgIntro():V.v==="lsg"?lsg():V.v==="lsgDone"?lsgDone():V.v==="home"?home():V.v==="fold"?fold():V.v==="bank"?bank():V.v==="quiz"?quiz():V.v==="wal"?wal():V.v==="fix"?fix():mist()}
 loadQ().then(d=>{Q=d;try{if(!localStorage.getItem("rst_alhnov_1")){const ids=new Set(d.filter(q=>q.b==="Alhomrani Nov").map(q=>q.i));for(const k in P)if(ids.has(k))delete P[k];WAL=WAL.filter(x=>!ids.has(x));save();wsave();localStorage.setItem("rst_alhnov_1","1")}}catch(e){}init();render()}).catch(e=>{$('#app').textContent='تعذر تحميل الأسئلة: '+e});
 </script>
 
