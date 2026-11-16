@@ -225,6 +225,7 @@ for q in out:  # Alhomrani typo corrections posted after the 10-14 files
     _fid = re.sub(r"^(SL|AH15|AN15)-", "", q["i"])
     if _fid in N14FIX and N14FIX[_fid][0] in dict(q["o"]):
         q["a"] = N14FIX[_fid][0]; q["n"] = ("✔ " + N14FIX[_fid][1] + " " + q.get("n", ""))[:260]
+        if len(N14FIX[_fid]) > 2: q["k"] = N14FIX[_fid][2]; q["r"] = ""
 EXX = json.load(open("data/expl_extra.json", encoding="utf-8")) if os.path.exists("data/expl_extra.json") else {}
 for q in out:  # explanations written for questions that had none
     _eid = re.sub(r"^(SL|AH15|AN15)-", "", q["i"])
