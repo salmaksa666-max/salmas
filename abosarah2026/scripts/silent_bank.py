@@ -1,5 +1,5 @@
 """Silent channel 15 Nov: recalls (data/silent_recalls.py) + screenshot questions matched to existing banks -> site/silent.json"""
-import json, sys, os
+import json, sys, os, re
 sys.path.insert(0, "data"); from silent_recalls import R; from ninja_recalls import N
 SP = sys.argv[1]  # scratchpad silent dir with match.json
 D = {q["i"]: q for q in json.load(open("site/data_all.json", encoding="utf-8"))}
@@ -49,6 +49,20 @@ ANS = {"SL-SWR-1877": ("B", "✔ جواب الصورة في القناة: B (Var
 for q in out:
     if q["i"] in ANS:
         q["a"], _nn = ANS[q["i"]]; q["n"] = _nn + " " + (q.get("n") or "")
+ALH = {88435, 88438, 88442, 88447, 88453, 88491}   # same answer in Alhomrani's 15 November file
+COMM = {88549, 88550, 88560, 88610}                 # answer given in the channel comments
+RECALLER = {88450, 88551, 88552, 88553, 88555, 88557, 88558, 88444, 88454, 88455, 88456, 88546, 88613, 88614, 88729, 88457, 88507}   # the person who sat the exam wrote the answer
+SHOTS = {88564, 88574, 88584, 88591, 88601, 88637, 88646, 88656, 88681, 88691, 88701, 88712, 88719}  # answer printed on the channel screenshot
+for q in out:  # say where each answer comes from; flag the ones that are only Claude's
+    m = re.match(r"(SL|NJ)-(\d+)", q["i"]); n = q.get("n") or ""
+    if not m or re.search(r"✔|التعليقات|التصويت|الحمراني|التجميع|مفتاح|GameBoy|الملف", n): continue
+    pid = int(m.group(2))
+    if m.group(1) == "NJ": q["n"] = "✔ نفس تصويت نينجا. " + n
+    elif pid in ALH: q["n"] = "✔ الحمراني 15 نوفمبر. " + n
+    elif pid in COMM: q["n"] = "✔ التعليقات. " + n
+    elif pid in RECALLER: q["n"] = "✔ الجواب كتبه اللي اختبر. " + n
+    elif pid in SHOTS: q["n"] = "✔ جواب الصورة في القناة. " + n
+    else: q["n"] = "⚠ جواب Claude، مو مؤكد. " + n
 PIC = {"SL-88549": ["joefig_p03_b3.webp"]}  # recall says "picture of endometrial polyp" -> hysteroscopy image from Joe
 for q in out:
     for k, v in PIC.items():
