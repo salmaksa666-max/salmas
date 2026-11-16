@@ -157,8 +157,7 @@ function home(){
   h+=`<button class="tile" onclick="go({v:'bank',b:'${b.n}'})"><b>${AR[b.n]||b.n}</b><span class="sm">${s.n} سؤال · حليت ${s.d} · غلط ${s.w}</span>${bar(s)}</button>`});
  h+=`</div><div class="sm">تقدمك محفوظ على هذا الجهاز. اضغطي على الخيار وهو يسجل الغلط لحاله.</div>
  <div class="row"><button class="btn p" onclick="go({v:'stats'})">📊 مستواي</button><button class="btn" onclick="backup()">نسخ احتياطي للتقدم</button></div><div id="bk"></div>
-  <button class="grp" style="margin-top:18px;border-color:var(--bad)" onclick="startFix()"><div class="t"><b>🧠 ثبّتي غلطاتك</b><div class="sm">كل غلطة ترجع لك 3 مرات (بعد سؤالين، ثم 5، ثم 12) لين تثبت</div></div><div class="n">${FIXL().length}</div></button>
-  <button class="grp" style="margin-top:10px;border-color:var(--acc)" onclick="go({v:'wal'})"><div class="t"><b>📦 الحافظة</b></div><div class="n">${WAL.length}</div></button>`;
+  <button class="grp" style="margin-top:18px;border-color:var(--acc)" onclick="go({v:'wal'})"><div class="t"><b>📦 الحافظة</b></div><div class="n">${WAL.length}</div></button>`;
  return h}
 function bank(){const b=BYB[V.b];let h=topb(AR[b.n]||b.n,"go({v:'home'})");
  b.sys.forEach((s,si)=>{const one=s.g.length===1;
