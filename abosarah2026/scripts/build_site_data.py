@@ -306,7 +306,9 @@ _STT = json.load(open("data/simg_tiles.json")) if os.path.exists("data/simg_tile
 for q in out:
     if q["i"] in _SPT and not q.get("ap") and _SPM.get(q["i"], [0, 0, 0])[2] >= 0.6: q["sp"] = _SPT[q["i"]]
     if q.get("si"): q["st"] = [_STT[x] for x in q["si"] if x in _STT]
-out = [q for q in out if not (q["b"] == "Silent" and q["s"] == "سايلنت + نينجا")]  # Salma: removed, Alhomrani 15/16 files cover it
+out = [q for q in out if not (q["b"] == "Silent" and q["s"] == "سايلنت + نينجا")]
+_YD = json.load(open("data/yasir_dupes.json")) if os.path.exists("data/yasir_dupes.json") else {}
+out = [q for q in out if not (q["b"] == "Yasir Nov" and q["i"] in _YD)]  # Salma: keep only Yasir questions Alhomrani does not have  # Salma: removed, Alhomrani 15/16 files cover it
 json.dump(out, open(sys.argv[1], "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 from collections import Counter
 print(len(out), Counter(x["b"] for x in out))
