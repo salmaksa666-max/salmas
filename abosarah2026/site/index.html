@@ -214,7 +214,7 @@ function quiz(){
  if(g.h&&V.i===0)h+=`<div class="how ltr" dir="ltr"><b>${g.q.length} Qs · ${esc(g.n)}</b><br>${esc(g.h)}</div>`;
  const _mm=g.q.filter(q=>P[q.i]&&(!P[q.i].ok||(((P[q.i].w||0)>0||P[q.i].g)&&(P[q.i].lv||0)<3))).length;
  h+=`<div class="row"><button class="btn bad" ${_mm?"":"disabled"} onclick="redoMistakes()">🔁 إعادة الغلطات (${_mm})</button><button class="btn" onclick="V.uns=!V.uns;V.rt=false;V.snap=null;V.i=0;render()">${V.uns?"✔ اللي ما حليته بس":"اللي ما حليته بس"}</button><button class="btn ${V.rt?'p':''}" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:!V.rt})">${V.rt?"✔ وضع إعادة الحل":"أعيدي الحل"}</button><button class="btn ${FAST?'p':''}" onclick="fastT()">${FAST?"✔ ⚡ مراجعة سريعة":"⚡ مراجعة سريعة"}</button></div>`;
- if(sq)h+=`<div class="how">🔁 رجع لك لأنك غلطتي فيه قبل شوي، حليه مرة ثانية</div>`;
+ if(sq)h+=(P[sq.i]&&P[sq.i].ok&&!P[sq.i].w)?`<div class="how">🔁 مراجعة: حليتيه صح قبل شوي، يرجع لك مرة وحدة بس</div>`:`<div class="how">🔁 رجع لك لأنك غلطتي فيه قبل شوي، حليه مرة ثانية</div>`;
  h+=qhtml(q,0,V.i,list.length,(V.rt||sq)?1:0);
  h+=`<div class="nav"><button class="btn" ${V.i?"":"disabled"} onclick="V.show=null;V.i--;render();window.scrollTo(0,0)">السابق</button><button class="btn p" onclick="nextQ(${list.length})">${(V.i<list.length-1||(V.again||[]).length||V.show)?"التالي":"خلصت المجموعة"}</button></div>`;
  return h}
@@ -286,6 +286,7 @@ function stats(){let h=topb("📊 مستواي","go({v:'home'})");
 function pick(id,k,rt){const q=Q.find(x=>x.i===id);if(!q||(!rt&&P[id]))return;const _w=((P[id]||{}).w||0)+(k===q.a?0:1);const _o=P[id]||{},_ok=k===q.a;let _lv=_o.lv;if(!_ok)_lv=0;else if(rt&&((_o.w||0)>0||_o.g||_o.sl))_lv=Math.min(3,(_lv||0)+1);P[id]={c:k,ok:_ok?1:0,t:Date.now(),w:_w};if(_o.g)P[id].g=1;if(_o.sl)P[id].sl=1;
  const _slow=_ok&&!rt&&!_o.c&&V.qid===id&&V.qstart&&(Date.now()-V.qstart)>20000;if(_slow){P[id].sl=1;_lv=2}
  if(_lv!=null)P[id].lv=_lv;
+ if(_ok&&!rt&&!_o.c&&V.v==='quiz'){V.again=V.again||[];if(!V.again.some(x=>x.id===id))V.again.push({id:id,due:(V.steps||0)+8,once:1})}
  if(_slow&&['quiz','wal','mist','lsg','fix'].includes(V.v)){V.again=V.again||[];if(!V.again.some(x=>x.id===id))V.again.push({id:id,due:(V.steps||0)+8})}
  if(_ok&&rt&&((_o.w||0)>0||_o.g||_o.sl)&&_lv<3&&['quiz','wal','mist','lsg','fix'].includes(V.v)){V.again=V.again||[];if(!V.again.some(x=>x.id===id))V.again.push({id:id,due:(V.steps||0)+[2,5,12][_lv]})}if(!P[id].ok&&V.v==='quiz'){V.missed=V.missed||[];if(!V.missed.includes(id))V.missed.push(id)}if(!P[id].ok&&(V.v==='quiz'||V.v==='wal'||V.v==='mist'||V.v==='lsg'||V.v==='fix')){V.again=V.again||[];if(!V.again.some(x=>x.id===id))V.again.push({id:id,due:(V.steps||0)+2})}if(!P[id].ok&&!WAL.includes(id)){WAL.push(id);wsave();if(WREM.includes(id)){WREM=WREM.filter(x=>x!==id);rsave()}}if(rt){V.retry[id]=P[id]}save();V.keep=id;render();
  const o=document.querySelector(".reveal");if(o)o.scrollIntoView({block:"nearest",behavior:"smooth"})}
