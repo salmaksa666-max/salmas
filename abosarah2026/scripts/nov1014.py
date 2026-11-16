@@ -26,9 +26,8 @@ for part, fn in (("P1", sys.argv[1]), ("P2", sys.argv[2])):
         ans = None
         for b in blocks[k + 2:k + 6]:
             nb = norm(re.sub(r"^[A-F][.)]\s*", "", " ".join(b)))
-            for j, o in enumerate(opts):
-                no = norm(o)
-                if no and (nb == no or (nb.startswith(no + " ") and len(b) == 1)): ans = j; break
+            hits = [(len(norm(o)), j) for j, o in enumerate(opts) if norm(o) and (nb == norm(o) or (nb.startswith(norm(o) + " ") and len(b) == 1))]
+            if hits: ans = max(hits)[1]   # longest matching option ("Acute hepatitis A" must not beat "Acute hepatitis A with immunization …")
             if ans is not None: break
         if ans is None: continue
         note = " ".join(" ".join(b) for b in blocks[k + 3:])[:240]
