@@ -27,6 +27,7 @@ for x in json.load(open(os.path.join(SP, "match.json"))):
     if i in seen: continue
     seen.add(i); q = dict(D[i])
     src = q["b"]; where = AR.get(src, "سبتمبر/أكتوبر (" + src + ")")
+    if f.startswith("ph/"): q["si"] = [os.path.basename(f)[:-4] + ".webp"]
     q.update(i="SL-" + i, b="Silent", s="كل الأسئلة", t="كل أسئلة النظام", h="", n=(f"صورة من نينجا" if os.path.basename(f).startswith("n") else f"صورة من سايلنت {'الاثنين 16' if f[3:8].isdigit() and int(f[3:8]) > 88562 else 'الأحد 15'}") + f" – موجود في {where} ({i}). " + (q.get("n") or ""))
     out.append(q)
 import re as _re, numpy as _np

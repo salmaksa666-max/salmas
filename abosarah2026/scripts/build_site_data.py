@@ -1,3 +1,4 @@
+import re
 """Collect every structured question bank into one compact JSON for the solve-site."""
 import json, re, ast, sys
 S = "/tmp/claude-0/-home-user-salmas/a5458d62-c397-540f-8afd-07d9eb2a5edf/scratchpad/"
@@ -241,6 +242,24 @@ _yex = L("yasir/expl.json")
 for q in out:
     if q["b"] == "Yasir Nov" and not q.get("x"):
         q["x"] = (_yex.get(q["i"], {}).get("whynot") or "")[:500]
+# borrow the picture from the Pictures bank (Joe / Almakrami) for questions that refer to an image
+_pics = [q for q in out if q["b"] == "Pictures" and q.get("pi")]
+_rx = re.compile(r"\b(image|picture|photo|pic|ecg|ekg|x-?ray|cxr|radiograph|ct|mri|shown|smear|ultrasound|fundoscopy|rash|see)\b", re.I)
+_cand = [q for q in out if q["b"] != "Pictures" and not q.get("pi") and _rx.search(q["q"])]
+if _pics and _cand:
+    _tk = lambda q: re.findall(r"[a-z]{3,}", (q["q"] + " " + " ".join(o[1] for o in q["o"])).lower())
+    _docs = [_tk(q) for q in _pics + _cand]; _df = _C(w for t in _docs for w in set(t)); _W = {w: i for i, w in enumerate(_df)}
+    _M = np.zeros((len(_docs), len(_W)), np.float32)
+    for r, t in enumerate(_docs):
+        for w, c in _C(t).items(): _M[r, _W[w]] = (1 + np.log(c)) * np.log(len(_docs) / _df[w])
+    _M /= np.maximum(np.linalg.norm(_M, axis=1, keepdims=True), 1e-9)
+    _S = _M[len(_pics):] @ _M[:len(_pics)].T; _n = 0
+    for i, q in enumerate(_cand):
+        j = int(_S[i].argmax()); sim = float(_S[i, j]); pq = _pics[j]
+        same = dict(q["o"]).get(q["a"], "").lower()[:12] == dict(pq["o"]).get(pq["a"], "").lower()[:12]
+        if sim >= 0.6 or (sim >= 0.45 and same):
+            q["pi"] = pq["pi"]; _n += 1
+    print("pictures borrowed:", _n)
 json.dump(out, open(sys.argv[1], "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 from collections import Counter
 print(len(out), Counter(x["b"] for x in out))
