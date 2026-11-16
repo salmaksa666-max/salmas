@@ -79,3 +79,14 @@ out.sort(key=lambda q: int(re.search(r"صفحة (\d+)", q["n"]).group(1)))
 json.dump(out, open("site/alh15.json", "w", encoding="utf-8"), ensure_ascii=False)
 print("pages", len(pages), "section", len(out), "unmatched", len(miss))
 for m in miss: print("  miss", m)
+
+# pack page pictures 4 per sheet (artifact file limit); q["ap"] = ["s<sheet>|<row>"]
+from PIL import Image
+_pg = sorted({int(x[1:-5]) for q in out for x in q.get("ap", []) if x.startswith("p")}); _pos = {}
+os.makedirs("site/a15s", exist_ok=True)
+for k in range(0, len(_pg), 4):
+    sh = Image.new("RGB", (1267, 713 * 4), "white")
+    for i, pg in enumerate(_pg[k:k + 4]): sh.paste(Image.open(f"site/a15/p{pg}.webp"), (0, 713 * i)); _pos[pg] = (k // 4, i)
+    sh.save(f"site/a15s/s{k // 4}.webp", "WEBP", quality=55)
+for q in out: q["ap"] = [f"s{_pos[int(x[1:-5])][0]}|{_pos[int(x[1:-5])][1]}" for x in q.get("ap", []) if x.startswith("p")]
+json.dump(out, open("site/alh15.json", "w", encoding="utf-8"), ensure_ascii=False)
