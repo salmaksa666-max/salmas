@@ -149,7 +149,7 @@ function init(){Q.forEach((q,i)=>{q.x=i;if(!BYB[q.b]){BYB[q.b]={n:q.b,sys:[],map
  const s=b.map[q.s];if(!s.m[q.t]){s.m[q.t]={n:q.t,h:q.h,q:[]};s.g.push(s.m[q.t])}
  s.m[q.t].q.push(q)});
 }
-const stat=a=>{let d=0,w=0;a.forEach(q=>{const p=P[q.i];if(p){d++;if(!p.ok||(p.w||0)>0)w++}});return{n:a.length,d,w,r:d-w}};
+const stat=a=>{let d=0,w=0;a.forEach(q=>{const p=P[q.i];if(p){d++;if(!p.ok)w++}});return{n:a.length,d,w,r:d-w}};
 const bar=s=>`<div class="bar"><i class="g" style="width:${100*s.d/s.n}%"></i></div>`;
 const AR={"Pediatrics":"أطفال","OB/GYN":"نساء وولادة","Surgery":"جراحة","Medicine":"باطنة","GameBoy":"GameBoy","Alhomrani Nov":"الحمراني نوفمبر","Pictures":"الصور (Joe + المكرمي)","Ethics":"Ethics (أثر + SMLE Brain)","Clear Nov":"صياغة أوضح (من سبتمبر وأكتوبر)","GameBoy Nov":"GameBoy نوفمبر (14 NOV)","Ninja":"Ninja اليوم (15 نوفمبر)","Silent":"نوفمبر: ملف الحمراني 16 + 15","Alhomrani 10-14":"الحمراني 10-14 نوفمبر (الجديد)","Yasir Nov":"ياسر نوفمبر (إضافي)"};
 let V={v:"home"};
