@@ -285,9 +285,10 @@ for q in out:  # Alhomrani's rule, shown first after answering (same question in
     if _b in TIPS: q["tip"] = TIPS[_b]
 # source-page pictures (packed sheets): sp = page of the file the question came from, st = channel screenshot
 _SPT = json.load(open("data/src_tiles.json")) if os.path.exists("data/src_tiles.json") else {}
+_SPM = json.load(open("data/src_map.json")) if os.path.exists("data/src_map.json") else {}
 _STT = json.load(open("data/simg_tiles.json")) if os.path.exists("data/simg_tiles.json") else {}
 for q in out:
-    if q["i"] in _SPT and not q.get("ap"): q["sp"] = _SPT[q["i"]]
+    if q["i"] in _SPT and not q.get("ap") and _SPM.get(q["i"], [0, 0, 0])[2] >= 0.6: q["sp"] = _SPT[q["i"]]
     if q.get("si"): q["st"] = [_STT[x] for x in q["si"] if x in _STT]
 json.dump(out, open(sys.argv[1], "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 from collections import Counter
