@@ -264,6 +264,15 @@ if _pics and _cand:
         if sim >= 0.6 or (sim >= 0.45 and same):
             q["pi"] = pq["pi"]; _n += 1
     print("pictures borrowed:", _n)
+# primitive-reflex picture questions: show the Joe picture (rooting = p10_b0, stepping = p10_b2) before answering
+for q in out:
+    if q.get("pi") or q["b"] == "Pictures": continue
+    t = q["q"].lower(); ans = dict(q["o"]).get(q["a"], "").lower()
+    if "reflex" not in t and "screening clinic (see image)" not in t: continue
+    if "stepping" in ans or ("screening clinic (see image)" in t and ans.strip() in ("2", "by 2 months")):
+        q["pi"] = ["joefig_p10_b2.webp"]
+    elif "rooting" in ans or "rubbing side" in t or ("name of the reflex" in t and "rooting" in ans):
+        q["pi"] = ["joefig_p10_b0.webp"]
 json.dump(out, open(sys.argv[1], "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 from collections import Counter
 print(len(out), Counter(x["b"] for x in out))
