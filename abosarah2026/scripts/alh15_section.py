@@ -58,6 +58,23 @@ UNSURE = {7: "الحمراني: Fluid (infusion مو bolus) – I Don't Know", 3
 for q in out:
     pg = int(re.search(r"صفحة (\d+)", q["n"]).group(1))
     if pg in UNSURE: q["n"] = "⚠ " + UNSURE[pg] + ". " + q["n"]
+# Alhomrani's own explanation: his notes from the text pages + the picture of his page (shown after answering)
+TXT = {}
+for line in open(os.path.join(SP, "compact.txt"), encoding="utf-8"):
+    m = re.match(r"@@(\d+): (.*)", line.strip())
+    if m: TXT[int(m.group(1))] = [x.strip() for x in m.group(2).split("¦")]
+nrm = lambda t: re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
+for q in out:
+    pg = int(re.search(r"صفحة (\d+)", q["n"]).group(1))
+    if os.path.exists(f"site/a15/p{pg}.webp"): q["ap"] = [f"p{pg}.webp"]
+    seg = TXT.get(pg)
+    if not seg: continue
+    last = max([i for i, x in enumerate(seg) if re.match(r"^[A-F][\.\)]\s", x) or any(nrm(o)[:20] and nrm(o)[:20] == nrm(x)[:20] for _, o in q["o"])] or [-1])
+    notes = [x for x in seg[last + 1:] if x and not re.match(r"^(15 November|https?:)", x)]
+    notes = [x for x in notes if not re.fullmatch(r"[\d\.\s]+", x)]
+    if notes and re.match(r"^\d+\.", notes[0]): notes = []          # page had no lettered options: the 'notes' are the recall itself
+    notes = [x for x in notes if "\u202b" not in x]                 # drop Arabic recall fragments
+    if len(" ".join(notes)) > 15: q["r"] = "شرح الحمراني: " + " · ".join(notes) + ((" ‖ " + q["r"]) if q.get("r") else "")
 out.sort(key=lambda q: int(re.search(r"صفحة (\d+)", q["n"]).group(1)))
 json.dump(out, open("site/alh15.json", "w", encoding="utf-8"), ensure_ascii=False)
 print("pages", len(pages), "section", len(out), "unmatched", len(miss))
