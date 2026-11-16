@@ -175,7 +175,7 @@ function bank(){const b=BYB[V.b];const fi=fOf(b.n);let h=topb(AR[b.n]||b.n,fi<0?
  b.sys.forEach((s,si)=>{const one=s.g.length===1;
   if(!one){const ss=stat([].concat(...s.g.map(g=>g.q)));h+=`<div class="sys"><span>${esc(s.n)}</span><span class="sm">${ss.d}/${ss.n}</span></div>`}
   s.g.forEach((g,gi)=>{const st=stat(g.q);const nm=one?s.n:g.n;
-   h+=`<button class="grp" onclick="go({v:'quiz',b:'${b.n}',s:${si},g:${gi},i:0,uns:false})"><div class="t ltr" dir="ltr"><b>${esc(nm)||"—"}</b>${bar(st)}</div><div class="n">${st.d}/${st.n}${st.w?` · <span style="color:var(--bad)">${st.w}✘</span>`:""}${(()=>{const r=g.q.filter(x=>REV[x.i]).length;return r?`<br><span style="color:var(--ok)">✔ راجعت ${r}</span>`:""})()}</div></button>`})});
+   h+=`<button class="grp" onclick="go({v:'quiz',b:'${b.n}',s:${si},g:${gi},i:0,uns:false})"><div class="t ltr" dir="ltr"><b>${esc(nm)||"—"}</b>${bar(st)}</div><div class="n">${st.d}/${st.n}${st.w?` · <span style="color:var(--bad)">${st.w}✘</span>`:""}</div></button>`})});
  return h}
 function hl(t,kws){if(!kws||!kws.length)return esc(t);
  const rx=new RegExp("("+kws.slice().sort((a,b)=>b.length-a.length).map(k=>k.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")).join("|")+")","gi");
@@ -188,11 +188,11 @@ function zoomClose(){document.querySelectorAll(".zoomov").forEach(x=>x.remove())
 function zoomT(el){zoomClose();const d=document.createElement("div");d.className="zoomov";d.innerHTML='<button class="zoomx" onclick="zoomClose()">✕ إغلاق</button>'+el.outerHTML.replace('onclick="zoomT(this)"','');d.onclick=e=>{if(e.target===d)zoomClose()};document.body.appendChild(d)}
 addEventListener("keydown",e=>{if(e.key==="Escape")zoomClose()});addEventListener("popstate",zoomClose);
 function SRC(q){return (q.sp||[]).map(TL).join("")+(q.ap||[]).map(A15).join("")+(q.st||[]).map(TL).join("")+((q.sp||[]).length?"":(q.im||[]).map(i=>`<img class="qimg" loading="lazy" src="img/${i}">`).join(""))}
-let FAST=false;try{FAST=localStorage.getItem("smle_fast")==="1"}catch(e){}
+let FAST=false;try{localStorage.removeItem("smle_fast")}catch(e){}
 let REV={};try{REV=JSON.parse(localStorage.getItem("smle_rev")||"{}")||{}}catch(e){}
 function revMark(id){if(REV[id])return;REV[id]=1;try{localStorage.setItem("smle_rev",JSON.stringify(REV))}catch(e){}}
-const REVB=id=>REV[id]?`<div class="sm" style="color:var(--ok);font-weight:700;background:none;padding:0">✔ تمت المراجعة</div>`:"";
-function fastT(){FAST=!FAST;try{localStorage.setItem("smle_fast",FAST?"1":"0")}catch(e){}render()}
+const REVB=id=>"";
+function fastT(){FAST=!FAST;render()}
 function fasthtml(q,idx,tot){revMark(q.i);const _rb=REVB(q.i);const ops=q.o.map(([k,t])=>`<button class="opt ${k===q.a?"ok":""}" disabled><b>${k}.</b><span class="ltr" dir="ltr">${esc(t)}</span></button>`).join("");const has=(q.sp||[]).length||(q.ap||[]).length||(q.st||[]).length;
  return `<div class="card"><div class="tag">⚡ ${esc(q.i)}${tot?` · ${idx+1}/${tot}`:""}</div>${_rb}<p class="stem ltr" data-fast="1" dir="ltr">${hl(q.q,q.kw)}</p>${(q.pi||[]).map(i=>`<img class="qimg" loading="lazy" src="pimg/${i}" alt="الصورة">`).join("")}${ops}<div class="reveal">${q.tip?`<div style="background:#fff3c4;color:#4a3800;border-right:6px solid #e0a800;font-weight:700">⚡ قاعدة الحمراني:<br><span style="unicode-bidi:plaintext;display:block">${esc(q.tip)}</span></div>`:""}${q.k?`<div class="ltr" dir="ltr">🔑 ${esc(q.k)}</div>`:""}${q.n&&/⚠/.test(q.n)?`<div>${esc(q.n)}</div>`:""}</div>${has?`<button class="btn" style="margin:6px 0" onclick="this.nextElementSibling.hidden=!this.nextElementSibling.hidden">📄 صفحة الحمراني</button><div hidden>${SRC(q)}</div>`:""}</div>`}
 function qhtml(q,back,idx,tot,rt){
