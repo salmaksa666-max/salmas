@@ -175,7 +175,7 @@ function bank(){const b=BYB[V.b];const fi=fOf(b.n);let h=topb(AR[b.n]||b.n,fi<0?
  b.sys.forEach((s,si)=>{const one=s.g.length===1;
   if(!one){const ss=stat([].concat(...s.g.map(g=>g.q)));h+=`<div class="sys"><span>${esc(s.n)}</span><span class="sm">${ss.d}/${ss.n}</span></div>`}
   s.g.forEach((g,gi)=>{const st=stat(g.q);const nm=one?s.n:g.n;
-   h+=`<button class="grp" onclick="go({v:'quiz',b:'${b.n}',s:${si},g:${gi},i:0,uns:false})"><div class="t ltr" dir="ltr"><b>${esc(nm)||"—"}</b>${bar(st)}</div><div class="n">${st.d}/${st.n}${st.w?` · <span style="color:var(--bad)">${st.w}✘</span>`:""}</div></button>`})});
+   h+=`<button class="grp" onclick="go({v:'quiz',b:'${b.n}',s:${si},g:${gi},i:0,uns:false})"><div class="t ltr" dir="ltr"><b>${esc(nm)||"—"}</b>${bar(st)}</div><div class="n">${st.d}/${st.n}${(()=>{const c=g.q.filter(x=>P[x.i]&&!P[x.i].ok).length;return c?` · <span style="color:var(--bad)">${c}✘</span>`:""})()}</div></button>`})});
  return h}
 function hl(t,kws){if(!kws||!kws.length)return esc(t);
  const rx=new RegExp("("+kws.slice().sort((a,b)=>b.length-a.length).map(k=>k.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")).join("|")+")","gi");
