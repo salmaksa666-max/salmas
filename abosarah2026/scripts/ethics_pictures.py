@@ -93,3 +93,5 @@ for r_, q in enumerate(eth[nA:]):
 print("ethics after removing repeats:", len(keep), Counter(q["s"] for q in keep).most_common(15))
 json.dump(pics, open("site/pics.json", "w", encoding="utf-8"), ensure_ascii=False)
 json.dump(keep, open("site/ethics.json", "w", encoding="utf-8"), ensure_ascii=False)
+
+# NOTE: site/pics.json was hand-fixed: JOE-0007 <-> JOE-0009 images were swapped (p03_b4 ultrasound / p03_b2 hysteroscopy).

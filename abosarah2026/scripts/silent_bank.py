@@ -45,5 +45,9 @@ for r in range(len(out)):
         if c not in _drop and _S[r, c] >= 0.8 and dict(out[r]["o"]).get(out[r]["a"], "").lower()[:15] == dict(out[c]["o"]).get(out[c]["a"], "").lower()[:15]: _drop.add(c)
 print("dedup dropped", len(_drop))
 out = [q for r, q in enumerate(out) if r not in _drop]
+PIC = {"SL-88549": ["joefig_p03_b3.webp"]}  # recall says "picture of endometrial polyp" -> hysteroscopy image from Joe
+for q in out:
+    for k, v in PIC.items():
+        if q["i"].startswith(k + "-"): q["pi"] = v
 json.dump(out, open("site/silent.json", "w", encoding="utf-8"), ensure_ascii=False)
 print(len(R), len(out))
