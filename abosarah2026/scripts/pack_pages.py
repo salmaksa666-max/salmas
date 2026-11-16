@@ -3,7 +3,7 @@ Produces site/pg/*.webp and data/src_tiles.json: qid -> ["sheet|pos%|size%|aspec
 import json, os, re, subprocess, sys, tempfile, glob
 from PIL import Image
 SD = sys.argv[1]
-src = json.load(open(os.path.join(SD, "src_map.json")))
+src = {k: v for k, v in json.load(open(os.path.join(SD, "src_map.json"))).items() if v[2] >= 0.6}
 os.makedirs("site/pg", exist_ok=True)
 for f in glob.glob("site/pg/*.webp"): os.remove(f)
 tmp = tempfile.mkdtemp()
@@ -11,7 +11,7 @@ need = sorted({(v[0], v[1]) for v in src.values()})
 imgs = {}
 for pdf, pg in need:
     out = os.path.join(tmp, f"{pdf}_{pg}")
-    w = 1000 if pdf in ("P1", "P2", "UP", "N68", "N9") else 820
+    w = 1000 if pdf in ("P1", "P2", "UP", "N68", "N9", "N15f") else 820
     subprocess.run(["pdftoppm", "-f", str(pg), "-l", str(pg), "-scale-to-x", str(w), "-scale-to-y", "-1", "-png", "-singlefile", os.path.join(SD, pdf + ".pdf"), out], check=True)
     imgs[(pdf, pg)] = Image.open(out + ".png").convert("RGB")
 def pack(items, prefix, per=8, width=1000, q=50):
@@ -34,8 +34,8 @@ qt = {qid: [tiles[f"{v[0]}_{v[1]}"]] for qid, v in src.items()}
 json.dump(qt, open("data/src_tiles.json", "w"))
 # channel screenshots
 os.makedirs("site/sg", exist_ok=True)
-for f in glob.glob("site/sg/*.webp"): os.remove(f)
 sh = sorted(glob.glob("site/simg/*.webp"))
+if not sh: print("pages", len(imgs), "page sheets", len(glob.glob("site/pg/*.webp"))); sys.exit(0)
 st = pack([(os.path.basename(f), Image.open(f).convert("RGB")) for f in sh], "sg/s", per=6, width=800, q=55)
 json.dump(st, open("data/simg_tiles.json", "w"))
 print("pages", len(imgs), "page sheets", len(glob.glob("site/pg/*.webp")), "shot sheets", len(glob.glob("site/sg/*.webp")))

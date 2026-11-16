@@ -1,3 +1,4 @@
+import os
 import re
 """Collect every structured question bank into one compact JSON for the solve-site."""
 import json, re, ast, sys
@@ -63,7 +64,10 @@ for it in L("gb_items.json"):
     add("GameBoy", it, it.get("part") or "GameBoy", it.get("dn") or it.get("sec") or "", it.get("flip") or "",
         {"key": it.get("keyc"), "rule": it.get("pearl")})
 # Alhomrani November (MKJ apkg): sourced answers only; replaces the Yasir bank
+_MKX = json.load(open("data/mkj_extra.json", encoding="utf-8")) if os.path.exists("data/mkj_extra.json") else {}
 for it in json.load(open("site/mkj.json", encoding="utf-8")):
+    if it["i"] in _MKX and it["st"] != "sourced":  # Alhomrani marked it (Question)/for revision, but his page still gives an answer
+        it = dict(it, a=_MKX[it["i"]]["a"], st="sourced", n="⚠ الحمراني كاتب عليه (Question / For Revision): جوابه مو نهائي، شوفي صفحته. " + (it.get("n") or ""))
     if it["st"] != "sourced" or not it["a"] or len(it["o"]) < 2:
         continue
     if "BRCA1" in it["q"] and "surveillance" in it["q"]:  # Alhomrani post: MRI immediately (not mammogram)
@@ -211,15 +215,18 @@ if os.environ.get("KEEP_OLD") != "1":  # Salma: forget September/October, keep o
 if os.path.exists("site/silent.json"):  # Silent channel 15 Nov (recalls + screenshots)
     out += json.load(open("site/silent.json", encoding="utf-8"))
 if os.path.exists("site/alh15.json"):  # Alhomrani '15 November' file, its own section inside the exam-recalls bank
-    out += json.load(open("site/alh15.json", encoding="utf-8"))
+    _a15 = json.load(open("site/alh15.json", encoding="utf-8"))
+    out += _a15
+    for q in _a15:  # ... and the same file again inside the Alhomrani November bank (her request)
+        out.append(dict(q, i="AN15-" + q["i"][5:], b="Alhomrani Nov", s="15 November (ملف الحمراني)"))
 N14FIX = json.load(open("data/n14_fix.json", encoding="utf-8")) if os.path.exists("data/n14_fix.json") else {}
 for q in out:  # Alhomrani typo corrections posted after the 10-14 files
-    _fid = re.sub(r"^(SL|AH15)-", "", q["i"])
+    _fid = re.sub(r"^(SL|AH15|AN15)-", "", q["i"])
     if _fid in N14FIX and N14FIX[_fid][0] in dict(q["o"]):
         q["a"] = N14FIX[_fid][0]; q["n"] = ("✔ " + N14FIX[_fid][1] + " " + q.get("n", ""))[:260]
 EXX = json.load(open("data/expl_extra.json", encoding="utf-8")) if os.path.exists("data/expl_extra.json") else {}
 for q in out:  # explanations written for questions that had none
-    _eid = re.sub(r"^(SL|AH15)-", "", q["i"])
+    _eid = re.sub(r"^(SL|AH15|AN15)-", "", q["i"])
     if not (q.get("k") or q.get("r")) and _eid in EXX:
         q["r"] = EXX[_eid]
     if q["b"] == "Ninja":  # Ninja joins the exam-recalls bank (Silent + Ninja, 15–16 Nov)
@@ -281,7 +288,7 @@ for q in out:
     if q["i"] in _MAP and not q.get("pi") and _PIC.get(_MAP[q["i"]]): q["pi"] = _PIC[_MAP[q["i"]]]
 TIPS = json.load(open("data/alh_tips.json", encoding="utf-8")) if os.path.exists("data/alh_tips.json") else {}
 for q in out:  # Alhomrani's rule, shown first after answering (same question in every bank)
-    _b = re.sub(r"^(SL|AH15)-", "", q["i"])
+    _b = re.sub(r"^(SL|AH15|AN15)-", "", q["i"])
     if _b in TIPS: q["tip"] = TIPS[_b]
 # source-page pictures (packed sheets): sp = page of the file the question came from, st = channel screenshot
 _SPT = json.load(open("data/src_tiles.json")) if os.path.exists("data/src_tiles.json") else {}
