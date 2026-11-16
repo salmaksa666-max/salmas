@@ -15,7 +15,7 @@ for j, (pid, q, opts, a, k, r, n) in enumerate(R):
     if not any(_re.match(r"^[\d<>≥]", o) or "months" in o or "weeks" in o or "hours" in o for o in opts):
         opts = opts[:]; random.Random(f"{pid}-{j}").shuffle(opts)  # don't leave the answer on A
     a = L[opts.index(good)]
-    out.append(dict(i=f"SL-{pid}-{j:02d}", q=q, o=[[L[i], o] for i, o in enumerate(opts)], a=a, b="Silent", s=sec(pid), t="كل أسئلة النظام", h="", k=k, r=r, n=("سايلنت #%d. " % pid) + n, f="", im=[], kw=[]))
+    out.append(dict(i=f"SL-{pid}-{j:02d}", q=q, o=[[L[i], o] for i, o in enumerate(opts)], a=a, b="Silent", s=sec(pid), t="كل أسئلة النظام", h="", k=k, r=r, n=("سايلنت %s #%d. " % ("الاثنين 16" if pid > 88562 else "الأحد 15", pid)) + n, f="", im=[], kw=[]))
 for x in json.load(open(os.path.join(SP, "match.json"))):
     f = x["f"]
     if f in skip: continue
@@ -24,7 +24,7 @@ for x in json.load(open(os.path.join(SP, "match.json"))):
     if i in seen: continue
     seen.add(i); q = dict(D[i])
     src = q["b"]; where = AR.get(src, "سبتمبر/أكتوبر (" + src + ")")
-    q.update(i="SL-" + i, b="Silent", s="كل أسئلة سايلنت", t="كل أسئلة النظام", h="", n=f"صورة من سايلنت – موجود في {where} ({i}). " + (q.get("n") or ""))
+    q.update(i="SL-" + i, b="Silent", s="كل أسئلة سايلنت", t="كل أسئلة النظام", h="", n=f"صورة من سايلنت {'الاثنين 16' if f[3:8].isdigit() and int(f[3:8]) > 88562 else 'الأحد 15'} – موجود في {where} ({i}). " + (q.get("n") or ""))
     out.append(q)
 json.dump(out, open("site/silent.json", "w", encoding="utf-8"), ensure_ascii=False)
 print(len(R), len(out))
