@@ -42,6 +42,23 @@ for k, (pg, t) in enumerate(pages.items()):
     q.update(i="AH15-" + base, b="Silent", s="ملف الحمراني 15 نوفمبر", t="كل أسئلة النظام", h="", n=f"ملف الحمراني 15 نوفمبر (صفحة {pg}). " + (q.get("n") or ""))
     q.pop("si", None); out.append(q)
     if s < 0.5: print("  low", pg, round(s, 2), "|", t[:70], "||", cands[j]["q"][:70])
+# pages whose recall differs from every stored version: write them as on Alhomrani's page
+NEWP = {
+ 58: dict(q="45-year-old woman with severe vaginal bleeding, hypotensive; β-hCG negative. What is the most appropriate next step?", o=["D&C", "Hysterectomy", "Ultrasound", "Blood transfusion"], a="D",
+          k="Unstable bleeding → resuscitate / transfuse first", n="ملف الحمراني 15 نوفمبر (صفحة 58): الجواب Blood transfusion (نفس فكرة 21 أكتوبر)."),
+ 132: dict(q="A 30-year-old woman G2 P1 L1, LMP 7 weeks ago, has lower abdominal pain and spotting; tender abdomen, closed cervix. Bedside US: no intrauterine pregnancy and moderate intra-abdominal fluid. Most appropriate next step?", o=["Liver enzymes", "BhCG qualitative", "BhCG quantitative", "Complete blood count"], a="C",
+          k="Suspected ectopic → quantitative β-hCG", n="ملف الحمراني 15 نوفمبر (صفحة 132)، GameBoy 0415."),
+}
+out = [q for q in out if int(re.search(r"صفحة (\d+)", q["n"]).group(1)) not in NEWP]
+for pg, v in NEWP.items():
+    out.append(dict(i=f"AH15-P{pg}", q=v["q"], o=[["ABCD"[i], t] for i, t in enumerate(v["o"])], a=v["a"], b="Silent", s="ملف الحمراني 15 نوفمبر", t="كل أسئلة النظام", h="", k=v["k"], r="", n=v["n"], f="", im=[], kw=[]))
+UNSURE = {7: "الحمراني: Fluid (infusion مو bolus) – I Don't Know", 32: "الحمراني رفض يجاوب (ما عاد له دخل بالسؤال)", 33: "الحمراني: كل الخيارات غلط، MG = D",
+          43: "الحمراني ما حط جواب", 66: "الحمراني: A أو C، مو مؤكد", 67: "الحمراني: I Don't Know – للنقاش", 102: "الحمراني: A vs C، يميل لـ Suction evacuation",
+          107: "الخيارات ناقصة (azathioprine …)، الحمراني ما جاوب", 29: "الحمراني: مو متأكد، يمكن C", 65: "الحمراني: بين C و D، الحين C", 81: "الحمراني ما جاوب"}
+for q in out:
+    pg = int(re.search(r"صفحة (\d+)", q["n"]).group(1))
+    if pg in UNSURE: q["n"] = "⚠ " + UNSURE[pg] + ". " + q["n"]
+out.sort(key=lambda q: int(re.search(r"صفحة (\d+)", q["n"]).group(1)))
 json.dump(out, open("site/alh15.json", "w", encoding="utf-8"), ensure_ascii=False)
 print("pages", len(pages), "section", len(out), "unmatched", len(miss))
 for m in miss: print("  miss", m)
