@@ -205,7 +205,7 @@ function quiz(){
  V.i=Math.min(V.i,list.length-1);const sq=V.show?Q.find(x=>x.i===V.show):null;const q=sq||list[V.i];
  let h=topb(esc(b.sys[V.s].g.length===1?b.sys[V.s].n:g.n),"go({v:'bank',b:'"+V.b+"'})");
  if(g.h&&V.i===0)h+=`<div class="how ltr" dir="ltr"><b>${g.q.length} Qs · ${esc(g.n)}</b><br>${esc(g.h)}</div>`;
- const _mm=g.q.filter(q=>P[q.i]&&((P[q.i].w||0)>0||!P[q.i].ok||P[q.i].g)).length;
+ const _mm=g.q.filter(q=>P[q.i]&&(!P[q.i].ok||(((P[q.i].w||0)>0||P[q.i].g)&&(P[q.i].lv||0)<3))).length;
  h+=`<div class="row"><button class="btn bad" ${_mm?"":"disabled"} onclick="redoMistakes()">🔁 إعادة الغلطات (${_mm})</button><button class="btn" onclick="V.uns=!V.uns;V.rt=false;V.snap=null;V.i=0;render()">${V.uns?"✔ اللي ما حليته بس":"اللي ما حليته بس"}</button><button class="btn ${V.rt?'p':''}" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:!V.rt})">${V.rt?"✔ وضع إعادة الحل":"أعيدي الحل"}</button></div>`;
  if(sq)h+=`<div class="how">🔁 رجع لك لأنك غلطتي فيه قبل شوي، حليه مرة ثانية</div>`;
  h+=qhtml(q,0,V.i,list.length,(V.rt||sq)?1:0);
@@ -246,7 +246,7 @@ function nextG(n,key){V.steps=(V.steps||0)+1;V.again=V.again||[];V.retry=V.retry
  if(d){V.again=V.again.filter(x=>x!==d);delete V.retry[d.id];delete SH[d.id];V.show=d.id}
  else{V.show=null;if(V[key]<n-1)V[key]++}
  render();window.scrollTo(0,0)}
-function endGroup(){const g=BYB[V.b].sys[V.s].g[V.g];const m=[...new Set([...(V.missed||[]),...g.q.filter(q=>P[q.i]&&((P[q.i].w||0)>0||!P[q.i].ok||P[q.i].g)).map(q=>q.i)])];for(let i=m.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[m[i],m[j]]=[m[j],m[i]]}
+function endGroup(){const g=BYB[V.b].sys[V.s].g[V.g];const m=[...new Set([...(V.missed||[]),...g.q.filter(q=>P[q.i]&&(!P[q.i].ok||(((P[q.i].w||0)>0||P[q.i].g)&&(P[q.i].lv||0)<3))).map(q=>q.i)])];for(let i=m.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[m[i],m[j]]=[m[j],m[i]]}
  if(m.length)go({v:'lsgIntro',b:V.b,s:V.s,g:V.g,ids:m});else go({v:'lsgDone',b:V.b,s:V.s,g:V.g,n:0})}
 function lsgIntro(){return topb("🔥","go({v:'bank',b:'"+V.b+"'})")+`<div class="hype"><div class="big" dir="ltr">Let's see if you get it or not 😏🔥</div>
  <div>غلطتِ في <b>${V.ids.length}</b> ${V.ids.length==1?"سؤال":"أسئلة"} بهالمجموعة كلها (من أول ما بديتي فيها). يلا نشوف إذا ثبتت ولا لا!</div>
@@ -264,7 +264,7 @@ function nextL(){V.steps=(V.steps||0)+1;V.again=V.again||[];V.retry=V.retry||{};
 function lsgDone(){return topb("🎉","go({v:'bank',b:'"+V.b+"'})")+`<div class="hype"><div class="big" dir="ltr">${V.n?"You got it! 🎉":"Perfect! 🎉"}</div>
  <div>${V.n?"كل الأسئلة اللي غلطتي فيها صارت صح. ثبتت 💪":"ما غلطتي ولا مرة بهالمجموعة 👑"}</div>
  ${V.s!=null?`<button class="btn go" onclick="redoMistakes()">🔁 إعادة الغلطات</button>`:""}<button class="btn p go" onclick="go({v:'bank',b:V.b})">رجوع للأقسام</button></div>`}
-function redoMistakes(){const g=BYB[V.b].sys[V.s].g[V.g];const m=g.q.filter(q=>P[q.i]&&((P[q.i].w||0)>0||!P[q.i].ok||P[q.i].g)).map(q=>q.i);
+function redoMistakes(){const g=BYB[V.b].sys[V.s].g[V.g];const m=g.q.filter(q=>P[q.i]&&(!P[q.i].ok||(((P[q.i].w||0)>0||P[q.i].g)&&(P[q.i].lv||0)<3))).map(q=>q.i);
  for(let i=m.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[m[i],m[j]]=[m[j],m[i]]}
  if(m.length)go({v:'lsgIntro',b:V.b,s:V.s,g:V.g,ids:m})}
 function stats(){let h=topb("📊 مستواي","go({v:'home'})");
