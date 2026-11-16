@@ -15,7 +15,7 @@ for j, (pid, q, opts, a, k, r, n) in enumerate(R):
     if not any(_re.match(r"^[\d<>≥]", o) or "months" in o or "weeks" in o or "hours" in o for o in opts):
         opts = opts[:]; random.Random(f"{pid}-{j}").shuffle(opts)  # don't leave the answer on A
     a = L[opts.index(good)]
-    out.append(dict(i=f"SL-{pid}-{j:02d}", q=q, o=[[L[i], o] for i, o in enumerate(opts)], a=a, b="Silent", s=sec(pid), t="كل أسئلة النظام", h="", k=k, r=r, n=("سايلنت %s #%d. " % ("الاثنين 16" if pid > 88562 else "الأحد 15", pid)) + n, f="", im=[], kw=[]))
+    out.append(dict(i=f"SL-{pid}-{j:02d}", q=q, o=[[L[i], o] for i, o in enumerate(opts)], a=a, b="Silent", s=sec(pid), t="كل أسئلة النظام", h="", k=k, r=r, n=(("الحمراني 15 نوفمبر. " if pid >= 91000 else "سايلنت %s #%d. " % ("الاثنين 16" if pid > 88562 else "الأحد 15", pid))) + n, f="", im=[], kw=[]))
 for pid, q, opts, a, k, n in N:
     L = "ABCDE"
     out.append(dict(i=f"NJ-{pid}", q=q, o=[[L[i], o] for i, o in enumerate(opts)], a=a, b="Silent", s="كل الأسئلة", t="كل أسئلة النظام", h="", k=k, r="", n=f"نينجا #{pid} (استفتاء). " + n, f="", im=[], kw=[]))
