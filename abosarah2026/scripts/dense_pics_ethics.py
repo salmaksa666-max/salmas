@@ -41,4 +41,4 @@ if "alh" in WHICH: build("Alhomrani Nov", "Alhomrani November (1-14)", "الحم
 if "yasir" in WHICH: build("Yasir Nov", "Yasir November", "ياسر_نوفمبر_محشور", ["OB/GYN", "Pediatrics", "Medicine", "Surgery", "Psychiatry, ENT, eye & skin", "Ethics & public health"], False, 6.2, 3)
 if "joe" in WHICH: build("Pictures", "Pictures — Joe", "الصور_Joe_محشور", ["Medicine", "Surgery", "Pediatrics", "OBGYN", "Dermatology & STI", "Ophthalmology"], True, 6.6, 3, "JOE")
 if "amk" in WHICH: build("Pictures", "Pictures — Almakrami", "الصور_المكرمي_محشور", ["Medicine", "Surgery", "Pediatrics", "OBGYN", "Dermatology & STI", "Ophthalmology"], True, 6.6, 3, "AMK")
-if "silent" in WHICH: build("Silent", "Silent — Sunday 15 + Monday 16 Nov", "سايلنت_15_16_نوفمبر_محشور", [], True, 6.3, 3)
+if "silent" in WHICH: build("Silent", "Exam recalls 15 + 16 Nov (Silent + Ninja)", "اسئلة_الاختبار_15_16_سايلنت_نينجا_محشور", [], True, 6.3, 3)

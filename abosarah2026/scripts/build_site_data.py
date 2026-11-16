@@ -219,8 +219,8 @@ for q in out:  # explanations written for questions that had none
     _eid = q["i"][3:] if q["i"].startswith("SL-") else q["i"]
     if not (q.get("k") or q.get("r")) and _eid in EXX:
         q["r"] = EXX[_eid]
-    if q["b"] == "Ninja":  # one section only
-        q["s"] = "كل أسئلة Ninja"
+    if q["b"] == "Ninja":  # Ninja joins the exam-recalls bank (Silent + Ninja, 15–16 Nov)
+        q["b"], q["s"] = "Silent", "كل الأسئلة"
 for q in out:  # GameBoy: three sections only (Obstetrics, Gynecology, Medicine)
     if q["b"] in ("GameBoy", "GameBoy Nov"):
         _gid = q["i"] if q["b"] == "GameBoy" else "GB-" + q["i"][5:9]
