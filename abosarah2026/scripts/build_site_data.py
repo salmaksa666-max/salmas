@@ -268,11 +268,17 @@ if _pics and _cand:
 for q in out:
     if q.get("pi") or q["b"] == "Pictures": continue
     t = q["q"].lower(); ans = dict(q["o"]).get(q["a"], "").lower()
-    if "reflex" not in t and "screening clinic (see image)" not in t: continue
-    if "stepping" in ans or ("screening clinic (see image)" in t and ans.strip() in ("2", "by 2 months")):
+    if "reflex" not in t and "screening clinic (see image)" not in t and "disappear" not in t: continue
+    if "stepping" in ans or "stepping" in t or ("screening clinic (see image)" in t and ans.strip() in ("2", "by 2 months")) or ("disappear" in t and re.match(r"(by )?2( months)?$", ans.strip())):
         q["pi"] = ["joefig_p10_b2.webp"]
-    elif "rooting" in ans or "rubbing side" in t or ("name of the reflex" in t and "rooting" in ans):
+    elif "rooting" in ans or "rooting" in t or "rubbing side" in t or ("disappear" in t and re.match(r"(by )?4( months)?$", ans.strip())):
         q["pi"] = ["joefig_p10_b0.webp"]
+# questions that need a picture: borrow the matching Joe / Almakrami image (checked by hand)
+_PIC = {p["i"]: p.get("pi") for p in out if p["b"] == "Pictures"}
+_MAP = {"GB-0464": "JOE-0016", "NOV-0528": "AMK-0016", "SL-NOV-0528": "AMK-0016", "SL-88453-31": "AMK-0067", "AH15-88453-31": "AMK-0067",
+        "NOV-255": "AMK-0055", "NOV-620": "AMK-0117"}
+for q in out:
+    if q["i"] in _MAP and not q.get("pi") and _PIC.get(_MAP[q["i"]]): q["pi"] = _PIC[_MAP[q["i"]]]
 json.dump(out, open(sys.argv[1], "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 from collections import Counter
 print(len(out), Counter(x["b"] for x in out))
