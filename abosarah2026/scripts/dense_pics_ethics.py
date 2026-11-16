@@ -21,7 +21,7 @@ def item(i, q, imgs):
     o = " ".join(f'<span class="o{" ok" if L == q["a"] else ""}">{L}. {E(t)}{" ✔" if L == q["a"] else ""}</span>' for L, t in q["o"])
     ex = strip(clean(q.get("k")), 160); r = strip(clean(q.get("r")), 230)
     note = " · ".join(x for x in (ex, r) if x)
-    im = "".join(f'<img src="file://{os.path.join(os.environ.get("PIMG", os.path.abspath("site/pimg")), p)}">' for p in (q.get("pi") or [])) if imgs else ""
+    im = "".join(f'<img src="file://{os.path.join(os.environ.get("PIMG", os.path.abspath("site/pimg")), p)}">' for p in (q.get("pi") or [])) + "".join(f'<img src="file://{os.path.join(os.environ.get("IMG", os.path.abspath("site/img")), p)}">' for p in (q.get("im") or [])) if imgs else ""
     return f'<div class="q"><span class="n">{i}.</span> {E(q["q"])}{im}<br>{o}' + (f'<span class="x"><b>💡</b> {E(note)}</span>' if note else "") + "</div>"
 def build(bank, title, fname, order, imgs, fs, cols):
     qs = [q for q in D if q["b"] == bank]
@@ -34,5 +34,8 @@ def build(bank, title, fname, order, imgs, fs, cols):
     h = f'<html><head><meta charset="utf-8"><style>{CSS % dict(fs=fs, cols=cols)}</style></head><body><h1>{E(title)} — {n} Q</h1><div class="cols">{"".join(body)}</div></body></html>'
     p = os.path.join(SP, fname + ".html"); open(p, "w").write(h)
     subprocess.run(["node", os.path.join(SP, "pdf.js"), p, os.path.join(OUT, fname + ".pdf")], check=True, env=dict(os.environ, NODE_PATH=subprocess.check_output(["npm", "root", "-g"], text=True).strip()))
-build("Pictures", "Pictures — Joe + Almakrami", "الصور_Joe_المكرمي_محشور", ["Medicine", "Surgery", "Pediatrics", "OBGYN", "Dermatology & STI", "Ophthalmology"], True, 6.6, 3)
-build("Ethics", "Ethics — Athar + SMLE Brain", "Ethics_محشور", ["Medical Ethics", "Patient Safety", "Public Health", "Clinical Research", "Biostatistics"], False, 6.3, 3)
+WHICH = sys.argv[2:] or ["pics", "ethics"]
+if "pics" in WHICH: build("Pictures", "Pictures — Joe + Almakrami", "الصور_Joe_المكرمي_محشور", ["Medicine", "Surgery", "Pediatrics", "OBGYN", "Dermatology & STI", "Ophthalmology"], True, 6.6, 3)
+if "ethics" in WHICH: build("Ethics", "Ethics — Athar + SMLE Brain", "Ethics_محشور", ["Medical Ethics", "Patient Safety", "Public Health", "Clinical Research", "Biostatistics"], False, 6.3, 3)
+if "alh" in WHICH: build("Alhomrani Nov", "Alhomrani November (1-14)", "الحمراني_نوفمبر_محشور", ["OBGYN", "Pediatrics", "Medicine", "Surgery", "Psychiatry", "Other / Mixed"], True, 6.2, 3)
+if "yasir" in WHICH: build("Yasir Nov", "Yasir November", "ياسر_نوفمبر_محشور", ["OB/GYN", "Pediatrics", "Medicine", "Surgery", "Psychiatry, ENT, eye & skin", "Ethics & public health"], False, 6.2, 3)
