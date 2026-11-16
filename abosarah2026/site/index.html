@@ -122,7 +122,7 @@ function beep(){try{if(ac&&ac.state!=='running')ac.resume();}catch(e){}try{if(ac
 function restart(){left=PER;fired=false;paused=false;last=Date.now();}
 b.addEventListener('click',function(){unlock();if(left<=0){restart();}else{paused=!paused;last=Date.now();}draw();});
 function draw(){var sec=Math.ceil(left/1000);n.textContent=left<=0?'0':String(sec);s.textContent=left<=0?'خلص':(paused?'موقف':'ثانية');b.style.borderColor=(left<=5000)?'var(--bad)':'var(--ok)';n.style.color=(left<=5000)?'var(--bad)':'var(--fg)';b.style.background=left<=0?'var(--badbg)':'var(--card)';}
-setInterval(function(){var now=Date.now(),el=document.querySelector('#app .stem');if(!el){b.hidden=true;if(b.parentNode&&b.parentNode!==document.body)document.body.appendChild(b);stem='';last=now;return;}if(b.parentNode!==el.parentNode||b.nextSibling!==el)el.parentNode.insertBefore(b,el);b.hidden=false;var t=el.textContent.slice(0,300);if(t!==stem){stem=t;restart();}else if(!paused&&left>0){left-=now-last;if(left<=0){left=0;if(!fired){fired=true;beep();}}}last=now;draw();},200);
+setInterval(function(){var now=Date.now(),el=document.querySelector('#app .stem');if(!el||el.dataset.fast){b.hidden=true;if(b.parentNode&&b.parentNode!==document.body)document.body.appendChild(b);stem='';last=now;return;}if(b.parentNode!==el.parentNode||b.nextSibling!==el)el.parentNode.insertBefore(b,el);b.hidden=false;var t=el.textContent.slice(0,300);if(t!==stem){stem=t;restart();}else if(!paused&&left>0){left-=now-last;if(left<=0){left=0;if(!fired){fired=true;beep();}}}last=now;draw();},200);
 })();
 </script>
 <script>
@@ -188,7 +188,12 @@ function zoomClose(){document.querySelectorAll(".zoomov").forEach(x=>x.remove())
 function zoomT(el){zoomClose();const d=document.createElement("div");d.className="zoomov";d.innerHTML='<button class="zoomx" onclick="zoomClose()">✕ إغلاق</button>'+el.outerHTML.replace('onclick="zoomT(this)"','');d.onclick=e=>{if(e.target===d)zoomClose()};document.body.appendChild(d)}
 addEventListener("keydown",e=>{if(e.key==="Escape")zoomClose()});addEventListener("popstate",zoomClose);
 function SRC(q){return (q.sp||[]).map(TL).join("")+(q.ap||[]).map(A15).join("")+(q.st||[]).map(TL).join("")+((q.sp||[]).length?"":(q.im||[]).map(i=>`<img class="qimg" loading="lazy" src="img/${i}">`).join(""))}
+let FAST=false;try{FAST=localStorage.getItem("smle_fast")==="1"}catch(e){}
+function fastT(){FAST=!FAST;try{localStorage.setItem("smle_fast",FAST?"1":"0")}catch(e){}render()}
+function fasthtml(q,idx,tot){const ops=q.o.map(([k,t])=>`<button class="opt ${k===q.a?"ok":""}" disabled><b>${k}.</b><span class="ltr" dir="ltr">${esc(t)}</span></button>`).join("");const has=(q.sp||[]).length||(q.ap||[]).length||(q.st||[]).length;
+ return `<div class="card"><div class="tag">⚡ ${esc(q.i)}${tot?` · ${idx+1}/${tot}`:""}</div><p class="stem ltr" data-fast="1" dir="ltr">${hl(q.q,q.kw)}</p>${(q.pi||[]).map(i=>`<img class="qimg" loading="lazy" src="pimg/${i}" alt="الصورة">`).join("")}${ops}<div class="reveal">${q.tip?`<div style="background:#fff3c4;color:#4a3800;border-right:6px solid #e0a800;font-weight:700">⚡ قاعدة الحمراني:<br><span style="unicode-bidi:plaintext;display:block">${esc(q.tip)}</span></div>`:""}${q.k?`<div class="ltr" dir="ltr">🔑 ${esc(q.k)}</div>`:""}${q.n&&/⚠/.test(q.n)?`<div>${esc(q.n)}</div>`:""}</div>${has?`<button class="btn" style="margin:6px 0" onclick="this.nextElementSibling.hidden=!this.nextElementSibling.hidden">📄 صفحة الحمراني</button><div hidden>${SRC(q)}</div>`:""}</div>`}
 function qhtml(q,back,idx,tot,rt){
+ if(FAST&&!rt)return fasthtml(q,idx,tot);
  const p=rt?V.retry[q.i]:P[q.i];
  if(!p&&V.qid!==q.i){V.qid=q.i;V.qstart=Date.now()}
  let ops=q.o;
@@ -208,7 +213,7 @@ function quiz(){
  let h=topb(esc(b.sys[V.s].g.length===1?b.sys[V.s].n:g.n),"go({v:'bank',b:'"+V.b+"'})");
  if(g.h&&V.i===0)h+=`<div class="how ltr" dir="ltr"><b>${g.q.length} Qs · ${esc(g.n)}</b><br>${esc(g.h)}</div>`;
  const _mm=g.q.filter(q=>P[q.i]&&(!P[q.i].ok||(((P[q.i].w||0)>0||P[q.i].g)&&(P[q.i].lv||0)<3))).length;
- h+=`<div class="row"><button class="btn bad" ${_mm?"":"disabled"} onclick="redoMistakes()">🔁 إعادة الغلطات (${_mm})</button><button class="btn" onclick="V.uns=!V.uns;V.rt=false;V.snap=null;V.i=0;render()">${V.uns?"✔ اللي ما حليته بس":"اللي ما حليته بس"}</button><button class="btn ${V.rt?'p':''}" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:!V.rt})">${V.rt?"✔ وضع إعادة الحل":"أعيدي الحل"}</button></div>`;
+ h+=`<div class="row"><button class="btn bad" ${_mm?"":"disabled"} onclick="redoMistakes()">🔁 إعادة الغلطات (${_mm})</button><button class="btn" onclick="V.uns=!V.uns;V.rt=false;V.snap=null;V.i=0;render()">${V.uns?"✔ اللي ما حليته بس":"اللي ما حليته بس"}</button><button class="btn ${V.rt?'p':''}" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:!V.rt})">${V.rt?"✔ وضع إعادة الحل":"أعيدي الحل"}</button><button class="btn ${FAST?'p':''}" onclick="fastT()">${FAST?"✔ ⚡ مراجعة سريعة":"⚡ مراجعة سريعة"}</button></div>`;
  if(sq)h+=`<div class="how">🔁 رجع لك لأنك غلطتي فيه قبل شوي، حليه مرة ثانية</div>`;
  h+=qhtml(q,0,V.i,list.length,(V.rt||sq)?1:0);
  h+=`<div class="nav"><button class="btn" ${V.i?"":"disabled"} onclick="V.show=null;V.i--;render();window.scrollTo(0,0)">السابق</button><button class="btn p" onclick="nextQ(${list.length})">${(V.i<list.length-1||(V.again||[]).length||V.show)?"التالي":"خلصت المجموعة"}</button></div>`;
