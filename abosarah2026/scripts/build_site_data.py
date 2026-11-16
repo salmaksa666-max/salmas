@@ -220,6 +220,13 @@ if os.path.exists("site/alh15.json"):  # Alhomrani '15 November' file, its own s
     out += _a15
     for q in _a15:  # ... and the same file again inside the Alhomrani November bank (her request)
         out.append(dict(q, i="AN15-" + q["i"][5:], b="Alhomrani Nov", s=AN15SEC[q["i"][5:]], t="كل أسئلة النظام"))
+if os.path.exists("site/alh16.json"):  # Alhomrani '16 November' file: own section in the Silent bank + copies spread over Alhomrani Nov specialties
+    for q in json.load(open("site/alh16.json", encoding="utf-8")):
+        sec = q.pop("_sec"); q.pop("_ord", None)
+        out.append(dict(q))
+        out.append(dict(q, i="AN16-" + q["i"][5:], b="Alhomrani Nov", s=sec, t="كل أسئلة النظام"))
+    _a16 = [q for q in out if q["i"].startswith("AH16-")]; out = [q for q in out if not q["i"].startswith("AH16-")]
+    _k = next(k for k, q in enumerate(out) if q["b"] in ("Silent", "Ninja")); out[_k:_k] = _a16  # 16 Nov first inside the Silent bank
 N14FIX = json.load(open("data/n14_fix.json", encoding="utf-8")) if os.path.exists("data/n14_fix.json") else {}
 for q in out:  # Alhomrani typo corrections posted after the 10-14 files
     _fid = re.sub(r"^(SL|AH15|AN15)-", "", q["i"])
