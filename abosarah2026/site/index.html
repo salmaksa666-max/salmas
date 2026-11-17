@@ -102,7 +102,7 @@ html,body{height:100%}
 #app.full>.nav{position:static;padding-bottom:max(10px,env(safe-area-inset-bottom,0px))}
 </style>
 <style>.qimg{display:block;max-width:100%;max-height:60vh;margin:10px auto;border:1px solid var(--line);border-radius:10px;background:#fff;object-fit:contain}</style>
-<style>.kwh{background:#ffe066;color:#111;border-radius:3px;padding:0 2px}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .kwh{background:#8a6d00;color:#fff}}:root[data-theme="dark"] .kwh{background:#8a6d00;color:#fff}</style>
+<style>.trap{background:#ffd9d9;color:#b3001b;font-weight:700;border-radius:3px;padding:0 2px}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .trap{background:#5c0011;color:#ffb3b3}}:root[data-theme="dark"] .trap{background:#5c0011;color:#ffb3b3}.kwh{background:#ffe066;color:#111;border-radius:3px;padding:0 2px}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .kwh{background:#8a6d00;color:#fff}}:root[data-theme="dark"] .kwh{background:#8a6d00;color:#fff}</style>
 <style>.wbad{color:var(--bad);font-weight:700;font-size:15px;margin:4px 0}</style>
 <style>.hype{display:flex;flex-direction:column;align-items:center;gap:18px;text-align:center;padding:48px 8px;font-size:20px}.hype .big{font:800 clamp(30px,6vw,52px)/1.15 Inter,sans-serif;color:var(--acc)}.hype .go{font-size:24px!important;min-height:64px!important;padding:12px 40px!important}</style>
 <style>.cv{border:1.5px dashed var(--acc)!important;background:var(--card)!important;font-size:.95em}.cv ul{margin:6px 0;padding-inline-start:20px}.cvh{font-weight:700;margin-bottom:4px;color:var(--acc)}.cvw{color:var(--bad);font-weight:700;margin-top:6px}</style>
@@ -177,9 +177,11 @@ function bank(){const b=BYB[V.b];const fi=fOf(b.n);let h=topb(AR[b.n]||b.n,fi<0?
   s.g.forEach((g,gi)=>{const st=stat(g.q);const nm=one?s.n:g.n;
    h+=`<button class="grp" onclick="go({v:'quiz',b:'${b.n}',s:${si},g:${gi},i:0,uns:false})"><div class="t ltr" dir="ltr"><b>${esc(nm)||"—"}</b>${bar(st)}</div><div class="n">${st.d}/${st.n}${(()=>{const c=g.q.filter(x=>P[x.i]&&!P[x.i].ok).length;return c?` · <span style="color:var(--bad)">${c}✘</span>`:""})()}</div></button>`})});
  return h}
-function hl(t,kws){if(!kws||!kws.length)return esc(t);
- const rx=new RegExp("("+kws.slice().sort((a,b)=>b.length-a.length).map(k=>k.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")).join("|")+")","gi");
- return t.split(rx).map((x,i)=>i%2?`<mark class="kwh">${esc(x)}</mark>`:esc(x)).join("")}
+const TRAP="\\b(?:no|not|without|absent|denies|denied|never|negative for)\\b(?:\\s+(?!and\\b|or\\b|but\\b)[A-Za-z][\\w-]*){1,2}(?:\\s+or\\s+[A-Za-z][\\w-]*(?:\\s+[A-Za-z][\\w-]*)?)?|\\b(?:but|however|despite|although|except|EXCEPT|unless|instead of|only)\\b|\\bmurmurs?\\b|\\bbruits?\\b|\\b(?:initial|first|least|persistent(?:ly)?|recurrent|rising|failed)\\b";
+function hl(t,kws){const ka=(kws||[]).slice().sort((a,b)=>b.length-a.length).map(k=>k.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"));
+ const rx=new RegExp("(?<r>"+TRAP+")"+(ka.length?"|(?<k>"+ka.join("|")+")":""),"gi");let o="",l=0;
+ for(const m of t.matchAll(rx)){if(!m[0])continue;o+=esc(t.slice(l,m.index))+(m.groups&&m.groups.r===undefined?`<mark class="kwh">${esc(m[0])}</mark>`:`<mark class="trap">${esc(m[0])}</mark>`);l=m.index+m[0].length}
+ return o+esc(t.slice(l))}
 function retryNow(id){V.retry=V.retry||{};delete V.retry[id];delete SH[id];V.again=(V.again||[]).filter(x=>x.id!==id);V.show=id;render();window.scrollTo(0,0)}
 const SH={};
 function TL(t){const [f,pos,size,asp]=t.split("|");return `<div class="qtile" onclick="zoomT(this)" style="aspect-ratio:${asp};background-image:url(${f});background-position:0 ${pos}%;background-size:100% ${size}%"></div>`}
