@@ -318,6 +318,8 @@ out = [q for q in out if q["b"] != "Yasir Nov"]
 for q in out:  # Salma: one list per day file, no new/repeated split
     if q["s"] == "ملف الحمراني 15 نوفمبر": q["t"] = "كل أسئلة 15 نوفمبر"
     elif q["s"] == "ملف الحمراني 16 نوفمبر": q["t"] = "كل أسئلة 16 نوفمبر"
+    if q["b"] == "Ethics": q["s"] = "كل أسئلة الأخلاقيات"; q["t"] = "كل الأسئلة"  # Salma: one list
+    if q["b"] == "Pictures": q["s"] = "كل الصور"; q["t"] = "كل الأسئلة"
 json.dump(out, open(sys.argv[1], "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 from collections import Counter
 print(len(out), Counter(x["b"] for x in out))
