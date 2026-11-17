@@ -98,3 +98,12 @@ T += [
   "Written from Silent's one-line recall ('bluish bulging of the hymen – management'). Same answer as Silent 15 Nov (incision of the hymen) and the Sep/Oct banks (cut the hymen).", ["#1965"]),
 ]
 SO_NUMS += [2140]
+# Silent 88983-88991 (last batch, 17 Nov evening)
+T += [
+ (G1, "candur", "Girl admitted after RTA (urinary catheter); urine culture grows Candida, she is asymptomatic. Management?", ["Fluconazole", "Caspofungin", "Amphotericin B", "No antifungal therapy"], "D", 1, "Asymptomatic candiduria with a catheter ← no antifungal (remove/change catheter).", ["#1720"]),
+ (G1, "intusruq", "Pediatric patient with a sausage-shaped mass in the right upper quadrant. How to manage?", ["Barium (contrast) enema", "Surgical evaluation", "Lower GI study"], "A", 0, "⚠ No vitals/peritonitis mentioned ← enema (Alhomrani/Ninja: normal vitals ← enema; fever + tachycardia/rigidity ← surgery, file #3266).", ["#3266"]),
+ (G1, "colors4", "Mother is concerned about her child. He can articulate words and knows the colors; the doctor reassures her he is at his developmental age. Age (years)?", ["3", "4", "5", "6"], "B", 1, "", ["#3202"]),
+ (G1, "pseudo", "Patient with peptic ulcer then develops jaundice and high liver labs; ultrasound shows a cystic lesion posterior to the stomach. Management?", ["Internal drainage", "External drainage"], "A", 1, "Pancreatic pseudocyst behind the stomach ← endoscopic internal drainage (file #783).", ["#783"]),
+ (G1, "hemoly", "Female with 2 weeks of dark urine and tiredness; labs show hemolytic anemia (low Hb, low haptoglobin, high LDH, high indirect bilirubin). Most important NEXT step?", ["Coombs (direct antiglobulin) test", "Cold agglutinin titre", "Reticulocyte count", "Sickling test"], "A", 0, "⚠ Not in the compilation. Hemolysis confirmed ← DAT/Coombs to split immune vs non-immune.", []),
+]
+SO_NUMS += [57, 2864]
