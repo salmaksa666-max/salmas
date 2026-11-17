@@ -188,7 +188,7 @@ function zoomClose(){document.querySelectorAll(".zoomov").forEach(x=>x.remove())
 function zoomT(el){zoomClose();const d=document.createElement("div");d.className="zoomov";d.innerHTML='<button class="zoomx" onclick="zoomClose()">✕ إغلاق</button>'+el.outerHTML.replace('onclick="zoomT(this)"','');d.onclick=e=>{if(e.target===d)zoomClose()};document.body.appendChild(d)}
 addEventListener("keydown",e=>{if(e.key==="Escape")zoomClose()});addEventListener("popstate",zoomClose);
 function SRC(q){return (q.sp||[]).map(TL).join("")+(q.ap||[]).map(A15).join("")+(q.st||[]).map(TL).join("")+((q.sp||[]).length?"":(q.im||[]).map(i=>`<img class="qimg" loading="lazy" src="img/${i}">`).join(""))}
-let FAST=false;try{localStorage.removeItem("smle_fast")}catch(e){}
+let FAST=true;try{localStorage.removeItem("smle_fast")}catch(e){}
 let REV={};try{REV=JSON.parse(localStorage.getItem("smle_rev")||"{}")||{}}catch(e){}
 function revMark(id){if(REV[id])return;REV[id]=1;try{localStorage.setItem("smle_rev",JSON.stringify(REV))}catch(e){}}
 const REVB=id=>"";
@@ -196,7 +196,7 @@ function fastT(){FAST=!FAST;render()}
 function fasthtml(q,idx,tot){revMark(q.i);const _rb=REVB(q.i);const ops=q.o.map(([k,t])=>`<button class="opt ${k===q.a?"ok":""}" disabled><b>${k}.</b><span class="ltr" dir="ltr">${esc(t)}</span></button>`).join("");const has=(q.sp||[]).length||(q.ap||[]).length||(q.st||[]).length;
  return `<div class="card"><div class="tag">⚡ ${esc(q.i)}${tot?` · ${idx+1}/${tot}`:""}</div>${_rb}<p class="stem ltr" data-fast="1" dir="ltr">${hl(q.q,q.kw)}</p>${(q.pi||[]).map(i=>`<img class="qimg" loading="lazy" src="pimg/${i}" alt="الصورة">`).join("")}${ops}<div class="reveal">${q.tip?`<div style="background:#fff3c4;color:#4a3800;border-right:6px solid #e0a800;font-weight:700">⚡ قاعدة الحمراني:<br><span style="unicode-bidi:plaintext;display:block">${esc(q.tip)}</span></div>`:""}${q.k?`<div class="ltr" dir="ltr">🔑 ${esc(q.k)}</div>`:""}${q.n&&/⚠/.test(q.n)?`<div>${esc(q.n)}</div>`:""}</div>${has?`<button class="btn" style="margin:6px 0" onclick="this.nextElementSibling.hidden=!this.nextElementSibling.hidden">📄 صفحة الحمراني</button><div hidden>${SRC(q)}</div>`:""}</div>`}
 function qhtml(q,back,idx,tot,rt){
- if(FAST&&!rt&&/^GameBoy/.test(q.b))return fasthtml(q,idx,tot);
+ if(FAST&&!(V.v==="quiz"&&V.rt))return fasthtml(q,idx,tot);
  const p=rt?V.retry[q.i]:P[q.i];
  if(!p&&V.qid!==q.i){V.qid=q.i;V.qstart=Date.now()}
  let ops=q.o;
@@ -218,7 +218,7 @@ function quiz(){
  if(g.h&&V.i===0)h+=`<div class="how ltr" dir="ltr"><b>${g.q.length} Qs · ${esc(g.n)}</b><br>${esc(g.h)}</div>`;
  const _mm=g.q.filter(q=>P[q.i]&&(!P[q.i].ok||(((P[q.i].w||0)>0||P[q.i].g)&&(P[q.i].lv||0)<3))).length;
  h+=`<div class="row"><button class="btn bad" ${_mm?"":"disabled"} onclick="redoMistakes()">🔁 إعادة الغلطات (${_mm})</button><button class="btn" onclick="V.uns=!V.uns;V.rt=false;V.snap=null;V.i=0;render()">${V.uns?"✔ اللي ما حليته بس":"اللي ما حليته بس"}</button><button class="btn ${V.rt?'p':''}" onclick="go({v:'quiz',b:V.b,s:V.s,g:V.g,i:0,uns:false,rt:!V.rt})">${V.rt?"✔ وضع إعادة الحل":"أعيدي الحل"}</button></div>`;
- if(/^GameBoy/.test(V.b))h+=`<div class="row"><button class="btn ${FAST?"p":""}" onclick="fastT()">${FAST?"⚡ وضع القراءة شغال (اضغطي عشان ترجعين للحل)":"⚡ وضع القراءة: الجواب ظاهر على طول"}</button></div>`;
+ h+=`<div class="row"><button class="btn ${FAST?"p":""}" onclick="fastT()">${FAST?"⚡ وضع القراءة شغال (اضغطي عشان ترجعين للحل)":"⚡ وضع القراءة: الجواب ظاهر على طول"}</button></div>`;
  if(sq)h+=(P[sq.i]&&P[sq.i].ok&&!P[sq.i].w)?`<div class="how">🔁 مراجعة: حليتيه صح قبل شوي، يرجع لك مرة وحدة بس</div>`:`<div class="how">🔁 رجع لك لأنك غلطتي فيه قبل شوي، حليه مرة ثانية</div>`;
  h+=qhtml(q,0,V.i,list.length,(V.rt||sq)?1:0);
  h+=`<div class="nav"><button class="btn" ${V.i?"":"disabled"} onclick="V.show=null;V.i--;render();window.scrollTo(0,0)">السابق</button><button class="btn p" onclick="nextQ(${list.length})">${(V.i<list.length-1||(V.again||[]).length||V.show)?"التالي":"خلصت المجموعة"}</button></div>`;
@@ -243,7 +243,7 @@ function wal(){
   const l=m.filter(q=>V.wb==="all"||(V.wb==="mur"?ISMUR(q):V.wb==="gbmed"?(q.b==="GameBoy"&&q.s==="Medicine"):q.b===V.wb));
   if(!l.length)return h+`<div class="card">لا شيء هنا.</div>`;
   V.wi=Math.min(V.wi||0,l.length-1);
-  const sw=V.show?Q.find(x=>x.i===V.show):null,cw=sw||l[V.wi];h+=(sw?`<div class="how">🔁 رجع لك لأنك غلطتي فيه قبل شوي، حليه مرة ثانية</div>`:"")+`<div class="tag">${V.wi+1}/${l.length} · ${esc(cw.s)} › ${esc(cw.t)}</div>`+qhtml(cw,0,V.wi,l.length,1)+
+  const sw=V.show?Q.find(x=>x.i===V.show):null,cw=sw||l[V.wi];h+=`<div class="row"><button class="btn ${FAST?"p":""}" onclick="fastT()">${FAST?"⚡ وضع القراءة شغال (اضغطي عشان ترجعين للحل)":"⚡ وضع القراءة: الجواب ظاهر على طول"}</button></div>`;h+=(sw?`<div class="how">🔁 رجع لك لأنك غلطتي فيه قبل شوي، حليه مرة ثانية</div>`:"")+`<div class="tag">${V.wi+1}/${l.length} · ${esc(cw.s)} › ${esc(cw.t)}</div>`+qhtml(cw,0,V.wi,l.length,1)+
   `<div class="row"><button class="btn bad" onclick="wdel('${cw.i}')">✓ راجعته</button></div>`+
   `<div class="nav"><button class="btn" ${V.wi?"":"disabled"} onclick="V.show=null;V.wi--;render();window.scrollTo(0,0)">السابق</button><button class="btn p" onclick="nextG(${l.length},'wi')">التالي</button></div>`;
   return h}
