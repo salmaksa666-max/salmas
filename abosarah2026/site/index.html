@@ -166,7 +166,7 @@ function home(){
  BANKS.filter(b=>fOf(b.n)<0).forEach(b=>{h+=btile(b)});
  h+=`</div><div class="sm">تقدمك محفوظ على هذا الجهاز. اضغطي على الخيار وهو يسجل الغلط لحاله.</div>
  <div class="row"><button class="btn p" onclick="go({v:'stats'})">📊 مستواي</button><button class="btn" onclick="backup()">نسخ احتياطي للتقدم</button></div><div id="bk"></div>
-  <button class="grp" style="margin-top:18px;border-color:var(--bad)" onclick="go({v:'wal',wb:'mur',wi:0})"><div class="t"><b style="color:var(--bad)">🫀 أسئلة الـ murmur (كل البنوك)</b></div><div class="n">${Q.filter(ISMUR).length}</div></button><button class="grp" style="border-color:var(--bad)" onclick="go({v:'wal',wb:'gbmed',wi:0})"><div class="t"><b style="color:var(--bad)">GameBoy باطنة: أغلاطي</b></div><div class="n">${Q.filter(q=>q.b==="GameBoy"&&q.s==="Medicine"&&WAL.includes(q.i)).length}</div></button><button class="grp" style="margin-top:6px;border-color:var(--acc)" onclick="go({v:'wal'})"><div class="t"><b>📦 الحافظة</b></div><div class="n">${WAL.length}</div></button>`;
+  <button class="grp" style="margin-top:18px;border-color:var(--bad)" onclick="startFix()"><div class="t"><b>🧠 ثبّتي غلطاتك</b><div class="sm">كل غلطة ترجع لك 3 مرات (بعد سؤالين، ثم 5، ثم 12) لين تثبت · مكتوب على كل سؤال كم مرة غلطتي فيه</div></div><div class="n">${FIXL().length}</div></button><button class="grp" style="border-color:var(--bad)" onclick="startFix('n1516')"><div class="t"><b style="color:var(--bad)">أغلاط الحمراني 15 و16 نوفمبر</b></div><div class="n">${FIXL().filter(q=>/ملف الحمراني 1[56] نوفمبر/.test(q.s)).length}</div></button><button class="grp" style="border-color:var(--bad)" onclick="go({v:'wal',wb:'mur',wi:0})"><div class="t"><b style="color:var(--bad)">🫀 أسئلة الـ murmur (كل البنوك)</b></div><div class="n">${Q.filter(ISMUR).length}</div></button><button class="grp" style="border-color:var(--bad)" onclick="go({v:'wal',wb:'gbmed',wi:0})"><div class="t"><b style="color:var(--bad)">GameBoy باطنة: أغلاطي</b></div><div class="n">${Q.filter(q=>q.b==="GameBoy"&&q.s==="Medicine"&&WAL.includes(q.i)).length}</div></button><button class="grp" style="margin-top:6px;border-color:var(--acc)" onclick="go({v:'wal'})"><div class="t"><b>📦 الحافظة</b></div><div class="n">${WAL.length}</div></button>`;
  return h}
 function fold(){const f=FOLD[V.f];let h=topb(f.n,"go({v:'home'})")+`<div class="tiles">`;
  BANKS.filter(b=>f.b.includes(b.n)).sort((a,b)=>f.b.indexOf(a.n)-f.b.indexOf(b.n)).forEach(b=>{h+=btile(b)});
@@ -299,10 +299,11 @@ function pick(id,k,rt){const q=Q.find(x=>x.i===id);if(!q||(!rt&&P[id]))return;co
  const o=document.querySelector(".reveal");if(o)o.scrollIntoView({block:"nearest",behavior:"smooth"})}
 const FIXL=()=>Q.filter(q=>{const p=P[q.i];return p&&(p.w||0)>0&&(p.lv||0)<3});
 const LVTXT=l=>["لسه ما ثبت","ثبت مرة من 3","ثبت مرتين من 3","ثبت ✔"][l||0];
-function startFix(fb){fb=fb||"all";const l=FIXL().filter(q=>fb==="all"||q.b===fb).sort((a,b)=>((P[a.i].lv||0)-(P[b.i].lv||0))||((P[b.i].w||0)-(P[a.i].w||0)));
+function startFix(fb){fb=fb||"all";const FBM=(q,fb)=>fb==="all"||q.b===fb||(fb==="n1516"&&/ملف الحمراني 1[56] نوفمبر/.test(q.s))||(fb==="n17"&&q.s==="نوفمبر 17");const l=FIXL().filter(q=>FBM(q,fb)).sort((a,b)=>((P[a.i].lv||0)-(P[b.i].lv||0))||((P[b.i].w||0)-(P[a.i].w||0)));
  const ids=l.map(q=>q.i);go({v:'fix',fb:fb,ids:ids,fi:0,rt:true,retry:{},again:[],steps:0,done:0})}
+const FBM2=(q,fb)=>fb==="all"||q.b===fb||(fb==="n1516"&&/ملف الحمراني 1[56] نوفمبر/.test(q.s))||(fb==="n17"&&q.s==="نوفمبر 17");
 function fix(){let h=topb("🧠 ثبّتي غلطاتك","go({v:'home'})");const left=FIXL();
- h+=`<div class="row">`+["all",...BANKS.map(b=>b.n)].filter(n=>n==="all"||left.some(q=>q.b===n)).map(n=>`<button class="btn ${V.fb===n?"p":""}" onclick="startFix('${n}')">${n==="all"?"الكل":(AR[n]||n)} (${n==="all"?left.length:left.filter(q=>q.b===n).length})</button>`).join("")+`</div>`;
+ h+=`<div class="row">`+["all","n1516","n17",...BANKS.map(b=>b.n)].filter(n=>n==="all"||left.some(q=>FBM2(q,n))).map(n=>`<button class="btn ${V.fb===n?"p":""}" onclick="startFix('${n}')">${n==="all"?"الكل":n==="n1516"?"الحمراني 15 و16":n==="n17"?"نوفمبر 17":(AR[n]||n)} (${left.filter(q=>FBM2(q,n)).length})</button>`).join("")+`</div>`;
  if(!V.ids.length&&!(V.again||[]).length)return h+`<div class="card">ما فيه غلطات تحتاج تثبيت 🎉 كل اللي غلطتي فيه ثبت 3 مرات.</div>`;
  const sf=V.show?Q.find(x=>x.i===V.show):null,q=sf||Q.find(x=>x.i===V.ids[V.fi]);
  const lv=(P[q.i]||{}).lv||0;
