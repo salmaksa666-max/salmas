@@ -76,3 +76,12 @@ M = [
  (G3, "measles", "Unvaccinated child with fever, Koplik spots and rash spreading downward. Treatment?", ["Amoxicillin", "Supportive treatment", "Acyclovir"], "B", 1, "", [P + "88952_6"]),
  (G3, "ttn", "Transient tachypnea of the newborn: what is seen on chest X-ray?", ["Fluid in fissures", "Air bronchogram with ground glass", "Hyperinflation with patchy infiltrates"], "A", 1, "", [P + "88952_6"]),
 ]
+# Silent 88974-88978 (15:20-15:37 UTC)
+T += [
+ (G1, "umbil6", "6-year-old child with umbilical hernia since infancy. No symptoms and it is reducible. Management?", ["Elective surgery", "Observe until adolescence"], "A", 1, "Umbilical hernia persisting beyond 4-5 years ← elective repair.", ["#3619"]),
+ (G1, "thyrhem", "After thyroidectomy the patient develops a large neck swelling with stridor. Next step?", ["Tracheostomy", "Close observation", "Percutaneous drainage", "Bedside wound exploration"], "D", 1, "Post-thyroidectomy hematoma with airway compromise ← open the wound at the bedside.", ["#1549"]),
+]
+M += [
+ (G3, "alcliver", "36-year-old asymptomatic man with elevated liver enzymes; smoker, drinks alcohol every weekend. Iron and TIBC mildly high, ferritin given; HCV negative, HBsAg negative with positive anti-HBs. US: enlarged liver, no focal lesion. Underlying liver disease?", ["Hemochromatosis", "Alcoholic hepatitis", "Hepatocellular carcinoma", "Chronic hepatitis B infection"], "B", 1, "Same as file #691.", ["#691"]),
+ (G3, "mile15", "Milestones: walks backwards, eats with spoon, 5-6 words, plays with cubes. Age in months?", ["6 months", "9 months", "15 months", "24 months"], "C", 1, "Same idea as file #3215 (walks backwards + spoon ← 15 months).", ["@t17/n3/88976_0", "#3215"]),
+]
