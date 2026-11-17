@@ -227,6 +227,8 @@ if os.path.exists("site/alh16.json"):  # Alhomrani '16 November' file: own secti
         pass  # keep 16 Nov in one place (Silent bank) -- out.append(dict(q, i="AN16-" + q["i"][5:], b="Alhomrani Nov", s=sec, t="كل أسئلة النظام"))
     _a16 = [q for q in out if q["i"].startswith("AH16-")]; out = [q for q in out if not q["i"].startswith("AH16-")]
     _k = next(k for k, q in enumerate(out) if q["b"] in ("Silent", "Ninja")); out[_k:_k] = _a16  # 16 Nov first inside the Silent bank
+if os.path.exists("site/mkj_add.json"):  # questions our 1-14 bank was missing, from the MKJ Alhomrani 1-16 deck
+    out += json.load(open("site/mkj_add.json", encoding="utf-8"))
 N14FIX = json.load(open("data/n14_fix.json", encoding="utf-8")) if os.path.exists("data/n14_fix.json") else {}
 for q in out:  # Alhomrani typo corrections posted after the 10-14 files
     _fid = re.sub(r"^(SL|AH15|AN15)-", "", q["i"])
