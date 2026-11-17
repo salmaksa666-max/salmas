@@ -3,7 +3,7 @@ Usage: s17_build.py <scratchpad dir>  (needs src/SO.pdf, src/SO.txt, so17/*.png,
 import json, os, re, subprocess, sys, glob
 from PIL import Image, ImageDraw
 sys.path.insert(0, "data")
-from s17_spec import R, S, EXTRA, G3
+from s17_spec import R, S, EXTRA, G3, USER
 SP = sys.argv[1]
 SO = open(os.path.join(SP, "src/SO.txt"), encoding="utf-8").read()
 pages = SO.split("\f")
@@ -47,6 +47,7 @@ def crop(n, name):
     im.save(out); return out
 
 def path(c):
+    if c.startswith("#"): return crop(int(c[1:]), "SO" + c[1:])
     if c.startswith("@"):
         g = glob.glob(os.path.join(SP, c[1:] + "*")); return [x for x in g if x.endswith((".png", ".jpg"))][0]
     return glob.glob(os.path.join(SP, "so17", c + "_p*.png"))[0]
@@ -84,6 +85,7 @@ for s0 in range(0, len(used), PER):
     sheet.save(os.path.join("site", name), "WEBP", quality=60)
 for q in out: q["sp"] = [tiles[p] for p in q.pop("_img")]
 ids = [q["i"] for q in out]; assert len(ids) == len(set(ids))
+json.dump({"S17-" + k: v for k, v in USER.items()}, open("site/s17_user.json", "w"))
 json.dump(out, open("site/s17.json", "w", encoding="utf-8"), ensure_ascii=False)
 print("questions", len(out), "images", len(used), "sheets", len(os.listdir("site/pg17")))
 for q in out[-26:-20]: print(q["i"], q["a"], q["q"][:70], [x[1][:25] for x in q["o"]])
