@@ -310,7 +310,8 @@ for q in out:
     if q.get("si"): q["st"] = [_STT[x] for x in q["si"] if x in _STT]
 out = [q for q in out if not (q["b"] == "Silent" and q["s"] == "سايلنت + نينجا")]
 _YD = json.load(open("data/yasir_dupes.json")) if os.path.exists("data/yasir_dupes.json") else {}
-out = [q for q in out if q["b"] != "Yasir Nov"]  # Salma: keep only Yasir questions Alhomrani does not have  # Salma: removed, Alhomrani 15/16 files cover it
+out = [q for q in out if q["b"] != "Yasir Nov"]
+out = [q for q in out if q["b"] not in ("GameBoy", "GameBoy Nov")]  # Salma: reviewed GameBoy in Anki, removed  # Salma: keep only Yasir questions Alhomrani does not have  # Salma: removed, Alhomrani 15/16 files cover it
 json.dump(out, open(sys.argv[1], "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 from collections import Counter
 print(len(out), Counter(x["b"] for x in out))
