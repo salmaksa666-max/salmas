@@ -85,3 +85,8 @@ M += [
  (G3, "alcliver", "36-year-old asymptomatic man with elevated liver enzymes; smoker, drinks alcohol every weekend. Iron and TIBC mildly high, ferritin given; HCV negative, HBsAg negative with positive anti-HBs. US: enlarged liver, no focal lesion. Underlying liver disease?", ["Hemochromatosis", "Alcoholic hepatitis", "Hepatocellular carcinoma", "Chronic hepatitis B infection"], "B", 1, "Same as file #691.", ["#691"]),
  (G3, "mile15", "Milestones: walks backwards, eats with spoon, 5-6 words, plays with cubes. Age in months?", ["6 months", "9 months", "15 months", "24 months"], "C", 1, "Same idea as file #3215 (walks backwards + spoon ← 15 months).", ["@t17/n3/88976_0", "#3215"]),
 ]
+# Silent 88980-88981
+T += [
+ (G1, "polyhyd", "Which of the following causes polyhydramnios?", ["Anencephaly", "Post-term pregnancy", "Posterior urethral valve", "Maternal ingestion of NSAIDs"], "A", 1, "If 'uncontrolled maternal diabetes' is offered instead (no anencephaly) ← diabetes (file #2329). PUV, post-term, NSAIDs ← OLIGOhydramnios.", ["#2328"]),
+ (G1, "pedas", "Child with valvular aortic stenosis presenting with symptoms. Management?", ["Follow-up 3-6 months", "Reassurance", "Medical symptomatic treatment", "Balloon valvuloplasty/dilatation"], "D", 1, "Symptomatic congenital AS in a child ← transvalvular balloon dilatation (file #3091).", ["#3091"]),
+]
