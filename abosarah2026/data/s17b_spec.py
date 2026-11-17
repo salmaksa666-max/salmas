@@ -94,5 +94,7 @@ T += [
 T += [
  (G1, "hymen", "15-year-old female with primary amenorrhea; examination shows a bluish bulging membrane at the introitus. Management?", ["Reassure", "Karyotype", "OCP", "Incision of the hymen (hymenotomy)"], "D", 1,
   "Same recall in Silent's 15 Nov file (SL-88454-35) ← incision of the hymen. Also September bank: 'blue-tinged membrane, next step' ← cut the hymen; October: 'hymen incision vs reassurance vs hormonal' ← hymen incision.", ["#1965"]),
+ (G1, "hymen2", "A 15-year-old girl with primary amenorrhea and cyclic lower abdominal pain. On examination there is a bluish bulging membrane at the vaginal opening. What is the most appropriate management?", ["Hymenotomy (cruciate incision) to drain the hematocolpos", "Combined oral contraceptive pills", "Reassure and observe", "Pelvic MRI then vaginoplasty"], "A", 1,
+  "Written from Silent's one-line recall ('bluish bulging of the hymen – management'). Same answer as Silent 15 Nov (incision of the hymen) and the Sep/Oct banks (cut the hymen).", ["#1965"]),
 ]
 SO_NUMS += [2140]
