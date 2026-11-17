@@ -90,3 +90,9 @@ T += [
  (G1, "polyhyd", "Which of the following causes polyhydramnios?", ["Anencephaly", "Post-term pregnancy", "Posterior urethral valve", "Maternal ingestion of NSAIDs"], "A", 1, "If 'uncontrolled maternal diabetes' is offered instead (no anencephaly) ← diabetes (file #2329). PUV, post-term, NSAIDs ← OLIGOhydramnios.", ["#2328"]),
  (G1, "pedas", "Child with valvular aortic stenosis presenting with symptoms. Management?", ["Follow-up 3-6 months", "Reassurance", "Medical symptomatic treatment", "Balloon valvuloplasty/dilatation"], "D", 1, "Symptomatic congenital AS in a child ← transvalvular balloon dilatation (file #3091).", ["#3091"]),
 ]
+# Silent 88982 (recall had no options: "Bluish bulging of the hymen, management")
+T += [
+ (G1, "hymen", "A 15-year-old girl with primary amenorrhea and cyclic lower abdominal pain. On examination there is a bluish bulging membrane at the vaginal opening. What is the most appropriate management?", ["Hymenotomy (cruciate incision) to drain the hematocolpos", "Combined oral contraceptive pills", "Reassure and observe", "Pelvic MRI then vaginoplasty"], "A", 0,
+  "⚠ Silent's recall was only 'bluish bulging of the hymen – management' with no options; I wrote the options. Diagnosis = imperforate hymen (file #1965); treatment = cruciate hymenotomy/hymenectomy (file #2140 is the post-op follow-up of exactly this operation).", ["#1965", "#2140"]),
+]
+SO_NUMS += [2140]
