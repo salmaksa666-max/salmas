@@ -188,7 +188,7 @@ function zoomClose(){document.querySelectorAll(".zoomov").forEach(x=>x.remove())
 function zoomT(el){zoomClose();const d=document.createElement("div");d.className="zoomov";d.innerHTML='<button class="zoomx" onclick="zoomClose()">✕ إغلاق</button>'+el.outerHTML.replace('onclick="zoomT(this)"','');d.onclick=e=>{if(e.target===d)zoomClose()};document.body.appendChild(d)}
 addEventListener("keydown",e=>{if(e.key==="Escape")zoomClose()});addEventListener("popstate",zoomClose);
 function SRC(q){return (q.sp||[]).map(TL).join("")+(q.ap||[]).map(A15).join("")+(q.st||[]).map(TL).join("")+((q.sp||[]).length?"":(q.im||[]).map(i=>`<img class="qimg" loading="lazy" src="img/${i}">`).join(""))}
-let FAST=true;try{localStorage.removeItem("smle_fast")}catch(e){}
+let FAST=false;try{localStorage.removeItem("smle_fast")}catch(e){}
 let REV={};try{REV=JSON.parse(localStorage.getItem("smle_rev")||"{}")||{}}catch(e){}
 function revMark(id){if(REV[id])return;REV[id]=1;try{localStorage.setItem("smle_rev",JSON.stringify(REV))}catch(e){}}
 const REVB=id=>"";
