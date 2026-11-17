@@ -315,6 +315,9 @@ for q in out:
 out = [q for q in out if not (q["b"] == "Silent" and q["s"] == "سايلنت + نينجا")]
 _YD = json.load(open("data/yasir_dupes.json")) if os.path.exists("data/yasir_dupes.json") else {}
 out = [q for q in out if q["b"] != "Yasir Nov"]
+for q in out:  # Salma: one list per day file, no new/repeated split
+    if q["s"] == "ملف الحمراني 15 نوفمبر": q["t"] = "كل أسئلة 15 نوفمبر"
+    elif q["s"] == "ملف الحمراني 16 نوفمبر": q["t"] = "كل أسئلة 16 نوفمبر"
 json.dump(out, open(sys.argv[1], "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 from collections import Counter
 print(len(out), Counter(x["b"] for x in out))
