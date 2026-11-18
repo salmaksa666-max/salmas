@@ -160,3 +160,12 @@ _E = [
  ("ev-icu", "ICU patient: indicator of adequate resuscitation.", ["CVP 8", "MAP 65", "Urine output >0.1 ml/kg/h", "Lactate 2"], "B", 1, "September bank (same options) ← MAP 65. If MAP 45 is offered instead ← lactate 2 (#936).", ["#936"]),
 ]
 T += [(G1,) + e for e in _E]
+# Silent 89016-89021 (last posts)
+T += [(G1,) + e for e in [
+ ("ev-polyp", "51-year-old male; sigmoidoscopy polyp shows adenocarcinoma with free margins and no invasion of the muscle. What to do?", ["Segmental colectomy", "Sigmoidectomy", "Observation (follow-up colonoscopy)"], "C", 1, "File #1533: pedunculated polyp removed endoscopically, well-differentiated adenocarcinoma, clear margins ← observation. (Recall had only colectomy/sigmoidectomy; I added observation.)", ["#1533"]),
+ ("ev-coin", "Pediatric patient swallowed a coin; it was found in the stomach. Management?", ["Induce vomiting", "Emergent removal/endoscopy", "Send home and observe", "Prevent the child from eating until it passes"], "C", 1, "Coin in esophagus/trachea or drooling ← endoscopy/bronchoscopy.", ["#3604"]),
+ ("ev-stroke12", "Patient had weakness for 12 hours; imaging shows mild–moderate occlusion in the anterior circulation. Management?", ["tPA", "Carotid endarterectomy", "Observation (medical)"], "C", 0, "⚠ Beyond the tPA window (4.5 h) and stenosis <70% ← no endarterectomy.", []),
+ ("ev-prevpap", "Patient scared about cervical cancer because of vaginal discharge; her friend told her it is a symptom of cervical cancer and she decided to do a Pap smear. Level of prevention?", ["Primary", "Secondary", "Primordial", "Tertiary"], "B", 1, "Alhomrani Nov.", []),
+ ("ev-polyhyd2", "A pregnant woman was found to have polyhydramnios. What should she be counseled for?", ["Renal agenesis", "Trisomy 21"], "B", 1, "Sep/Oct banks ← Down syndrome. Renal agenesis ← OLIGOhydramnios.", []),
+ ("ev-dnrtx", "DNR patient transferred to another hospital; the team started CPR. Which statement is correct?", ["Any member of the team can verify the DNR", "The parents must verify it", "DNR must be from the same hospital (not valid)", "DNR from another hospital is valid for 24 hours"], "D", 1, "Alhomrani Nov + Athar + SMLE Brain.", []),
+]]
